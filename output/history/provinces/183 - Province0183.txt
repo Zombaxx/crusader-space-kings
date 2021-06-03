@@ -1,0 +1,14 @@
+# 183 - Province0183
+
+# County Title
+title = c_province0183
+
+# Settlements
+max_settlements = 3
+b_barony0183` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

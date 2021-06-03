@@ -1,0 +1,15 @@
+# 1238 - Province1238
+
+# County Title
+title = c_province1238
+
+# Settlements
+max_settlements = 6
+b_barony1238` = tribal
+b_barony1238a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

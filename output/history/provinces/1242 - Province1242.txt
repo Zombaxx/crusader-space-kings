@@ -1,0 +1,15 @@
+# 1242 - Province1242
+
+# County Title
+title = c_province1242
+
+# Settlements
+max_settlements = 5
+b_barony1242` = tribal
+b_barony1242a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

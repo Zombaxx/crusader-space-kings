@@ -1,0 +1,15 @@
+# 1253 - Province1253
+
+# County Title
+title = c_province1253
+
+# Settlements
+max_settlements = 5
+b_barony1253` = tribal
+b_barony1253a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

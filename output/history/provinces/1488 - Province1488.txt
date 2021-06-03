@@ -1,0 +1,15 @@
+# 1488 - Province1488
+
+# County Title
+title = c_province1488
+
+# Settlements
+max_settlements = 5
+b_barony1488` = tribal
+b_barony1488a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

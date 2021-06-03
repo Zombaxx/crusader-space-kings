@@ -1,0 +1,15 @@
+# 1466 - Province1466
+
+# County Title
+title = c_province1466
+
+# Settlements
+max_settlements = 1
+b_barony1466` = tribal
+b_barony1466a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

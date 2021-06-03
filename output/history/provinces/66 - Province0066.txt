@@ -1,0 +1,14 @@
+# 66 - Province0066
+
+# County Title
+title = c_province0066
+
+# Settlements
+max_settlements = 3
+b_barony0066` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

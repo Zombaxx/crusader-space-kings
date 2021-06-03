@@ -1,0 +1,14 @@
+# 1462 - Province1462
+
+# County Title
+title = c_province1462
+
+# Settlements
+max_settlements = 4
+b_barony1462` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

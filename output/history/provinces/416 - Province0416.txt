@@ -1,0 +1,14 @@
+# 416 - Province0416
+
+# County Title
+title = c_province0416
+
+# Settlements
+max_settlements = 3
+b_barony0416` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

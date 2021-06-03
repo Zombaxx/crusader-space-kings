@@ -1,0 +1,15 @@
+# 1205 - Province1205
+
+# County Title
+title = c_province1205
+
+# Settlements
+max_settlements = 5
+b_barony1205` = tribal
+b_barony1205a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

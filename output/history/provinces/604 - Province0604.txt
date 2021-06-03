@@ -1,0 +1,14 @@
+# 604 - Province0604
+
+# County Title
+title = c_province0604
+
+# Settlements
+max_settlements = 2
+b_barony0604` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

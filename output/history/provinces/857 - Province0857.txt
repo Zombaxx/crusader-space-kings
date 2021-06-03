@@ -1,0 +1,14 @@
+# 857 - Province0857
+
+# County Title
+title = c_province0857
+
+# Settlements
+max_settlements = 4
+b_barony0857` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

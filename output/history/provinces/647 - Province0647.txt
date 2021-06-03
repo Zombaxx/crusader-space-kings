@@ -1,0 +1,14 @@
+# 647 - Province0647
+
+# County Title
+title = c_province0647
+
+# Settlements
+max_settlements = 1
+b_barony0647` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

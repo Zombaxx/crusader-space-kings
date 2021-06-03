@@ -1,0 +1,14 @@
+# 1361 - Province1361
+
+# County Title
+title = c_province1361
+
+# Settlements
+max_settlements = 4
+b_barony1361` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

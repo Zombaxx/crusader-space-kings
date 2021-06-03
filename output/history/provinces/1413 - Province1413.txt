@@ -1,0 +1,14 @@
+# 1413 - Province1413
+
+# County Title
+title = c_province1413
+
+# Settlements
+max_settlements = 3
+b_barony1413` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

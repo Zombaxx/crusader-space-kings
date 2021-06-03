@@ -1,0 +1,14 @@
+# 1143 - Province1143
+
+# County Title
+title = c_province1143
+
+# Settlements
+max_settlements = 4
+b_barony1143` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

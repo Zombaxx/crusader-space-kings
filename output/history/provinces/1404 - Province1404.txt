@@ -1,0 +1,15 @@
+# 1404 - Province1404
+
+# County Title
+title = c_province1404
+
+# Settlements
+max_settlements = 5
+b_barony1404` = tribal
+b_barony1404a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

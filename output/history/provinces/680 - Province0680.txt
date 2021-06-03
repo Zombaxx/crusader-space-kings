@@ -1,0 +1,14 @@
+# 680 - Province0680
+
+# County Title
+title = c_province0680
+
+# Settlements
+max_settlements = 3
+b_barony0680` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

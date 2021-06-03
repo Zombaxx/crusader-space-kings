@@ -1,0 +1,15 @@
+# 1163 - Province1163
+
+# County Title
+title = c_province1163
+
+# Settlements
+max_settlements = 5
+b_barony1163` = tribal
+b_barony1163a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

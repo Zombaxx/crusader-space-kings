@@ -1,0 +1,14 @@
+# 185 - Province0185
+
+# County Title
+title = c_province0185
+
+# Settlements
+max_settlements = 2
+b_barony0185` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

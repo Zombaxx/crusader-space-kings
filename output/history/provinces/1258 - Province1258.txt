@@ -1,0 +1,15 @@
+# 1258 - Province1258
+
+# County Title
+title = c_province1258
+
+# Settlements
+max_settlements = 5
+b_barony1258` = tribal
+b_barony1258a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

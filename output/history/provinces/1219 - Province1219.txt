@@ -1,0 +1,15 @@
+# 1219 - Province1219
+
+# County Title
+title = c_province1219
+
+# Settlements
+max_settlements = 5
+b_barony1219` = tribal
+b_barony1219a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

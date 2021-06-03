@@ -1,0 +1,14 @@
+# 1468 - Province1468
+
+# County Title
+title = c_province1468
+
+# Settlements
+max_settlements = 3
+b_barony1468` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

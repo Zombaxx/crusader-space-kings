@@ -1,0 +1,15 @@
+# 1315 - Province1315
+
+# County Title
+title = c_province1315
+
+# Settlements
+max_settlements = 5
+b_barony1315` = tribal
+b_barony1315a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

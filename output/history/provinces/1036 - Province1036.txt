@@ -1,0 +1,15 @@
+# 1036 - Province1036
+
+# County Title
+title = c_province1036
+
+# Settlements
+max_settlements = 6
+b_barony1036` = tribal
+b_barony1036a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

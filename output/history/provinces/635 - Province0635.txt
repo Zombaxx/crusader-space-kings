@@ -1,0 +1,14 @@
+# 635 - Province0635
+
+# County Title
+title = c_province0635
+
+# Settlements
+max_settlements = 3
+b_barony0635` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

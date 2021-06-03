@@ -1,0 +1,15 @@
+# 1168 - Province1168
+
+# County Title
+title = c_province1168
+
+# Settlements
+max_settlements = 5
+b_barony1168` = tribal
+b_barony1168a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

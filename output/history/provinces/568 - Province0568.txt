@@ -1,0 +1,14 @@
+# 568 - Province0568
+
+# County Title
+title = c_province0568
+
+# Settlements
+max_settlements = 4
+b_barony0568` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

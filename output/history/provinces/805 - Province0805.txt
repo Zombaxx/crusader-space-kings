@@ -1,0 +1,14 @@
+# 805 - Province0805
+
+# County Title
+title = c_province0805
+
+# Settlements
+max_settlements = 3
+b_barony0805` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

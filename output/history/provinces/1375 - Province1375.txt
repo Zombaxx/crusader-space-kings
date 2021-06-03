@@ -1,0 +1,14 @@
+# 1375 - Province1375
+
+# County Title
+title = c_province1375
+
+# Settlements
+max_settlements = 3
+b_barony1375` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

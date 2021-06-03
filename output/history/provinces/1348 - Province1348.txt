@@ -1,0 +1,14 @@
+# 1348 - Province1348
+
+# County Title
+title = c_province1348
+
+# Settlements
+max_settlements = 4
+b_barony1348` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

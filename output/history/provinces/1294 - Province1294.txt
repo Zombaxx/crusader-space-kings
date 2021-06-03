@@ -1,0 +1,15 @@
+# 1294 - Province1294
+
+# County Title
+title = c_province1294
+
+# Settlements
+max_settlements = 5
+b_barony1294` = tribal
+b_barony1294a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

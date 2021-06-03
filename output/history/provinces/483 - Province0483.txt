@@ -1,0 +1,14 @@
+# 483 - Province0483
+
+# County Title
+title = c_province0483
+
+# Settlements
+max_settlements = 4
+b_barony0483` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

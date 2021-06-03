@@ -1,0 +1,14 @@
+# 732 - Province0732
+
+# County Title
+title = c_province0732
+
+# Settlements
+max_settlements = 3
+b_barony0732` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

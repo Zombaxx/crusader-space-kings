@@ -1,0 +1,14 @@
+# 768 - Province0768
+
+# County Title
+title = c_province0768
+
+# Settlements
+max_settlements = 3
+b_barony0768` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

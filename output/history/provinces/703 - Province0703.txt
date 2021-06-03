@@ -1,0 +1,14 @@
+# 703 - Province0703
+
+# County Title
+title = c_province0703
+
+# Settlements
+max_settlements = 4
+b_barony0703` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

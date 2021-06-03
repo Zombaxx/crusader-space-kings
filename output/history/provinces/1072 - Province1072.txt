@@ -1,0 +1,14 @@
+# 1072 - Province1072
+
+# County Title
+title = c_province1072
+
+# Settlements
+max_settlements = 1
+b_barony1072` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History
