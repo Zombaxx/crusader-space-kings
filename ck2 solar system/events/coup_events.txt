@@ -1,0 +1,76 @@
+namespace = roycoup
+	character_event = {
+		id = roycoup.0
+		hide_window = yes
+	
+		is_triggered_only = yes
+
+	trigger = {
+		has_minor_title = title_grand_judge
+		employer = {
+			crownlaw_title = {
+				OR = {
+					has_law = high_court_law_1
+					has_law = high_court_law_2
+					has_law = high_court_law_3	
+				}
+			}
+		}
+	}
+	immediate = {
+		employer = {
+			character_event = {
+				id = roycoup.1
+			}
+		}
+	}
+}
+	character_event = {
+		id = roycoup.1
+		title = EVTTITroycoup.0
+		desc = "EVTDESCROYCOUP"
+		picture = "GFX_roy_ruler"
+	
+		is_triggered_only = yes
+
+		option = { 
+		name = "EVTOPTAROYCOUP" 
+			custom_tooltip = { text = coup1 }
+			ROOT = {
+			prestige = -800
+			add_character_modifier = { modifier = conceded_power duration = 90}
+			crownlaw_title = {
+				add_law = high_court_law_0
+				}
+			}
+		}
+		option = { 
+		name = "EVTOPTBROYCOUP"
+			custom_tooltip = { text = coup2 } 
+			piety = -500
+			ROOT = {
+			add_character_modifier = { modifier = tense_vassals duration = 90}
+			}
+		}
+		option = { 
+		name = "EVTOPTCROYCOUP" 
+			custom_tooltip = { text = coup3 }
+			piety = -800
+			prestige = -1000
+			FROM = { imprison = ROOT }
+			ROOT = { 
+				random = {
+					chance = 25
+					add_trait = cruel
+				}
+			ROOT = { 
+				random = {
+					chance = 25
+					add_trait = arbitrary
+				}
+			piety = -100
+			add_character_modifier = { modifier = vassals_outraged duration = 120}
+			}
+		}
+	}
+}

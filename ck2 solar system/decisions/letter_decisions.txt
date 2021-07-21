@@ -1,0 +1,51 @@
+# Targetted decisions are possible vs _all_ other characters and shown are in the Diplomacy View, not the Intrigue View. The taker is in the FROM scope.
+#
+# filter = [self/court/home_court/vassals/sub_realm/realm/dynasty/all] (self MUST be set for decisions targetting only the taker, the other filter types can be set to lessen CPU load)
+# #ai_target_filter  = [self/court/home_court/vassals/sub_realm/realm/dynasty/all] (which characters for which the AI evaluates the decision.)
+#	court: all characters in the AI's host court, including prisoners, and characters currently away (wards, prisoners, etc)
+#	home_court: all characters in the AI's home court, including prisoners, and characters currently away (wards, prisoners, etc)
+#	vassals: direct vassal rulers of the AI's employer
+#	sub_realm: all characters below the AI's employer
+#	realm: all characters in the same top realm as the AI
+#	dynasty: all members of the same dynasty (including the dead!)
+#	all: all living characters (Avoid if possible. VERY CPU-HEAVY!)
+#	
+
+targetted_decisions = {
+
+	send_letter = {
+		only_playable = yes
+		filter = all
+		from_potential = {
+			ai = no
+			is_playable = yes
+			capital_scope = { has_building = ca_raven_tower }
+		}
+		
+		potential = {
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = trait_slave }
+			FROM = {  
+				NOT = {
+					is_liege_of = ROOT 
+				}
+			}				
+		}
+		
+		allow = {
+			is_within_diplo_range = FROM
+			FROM = { 	
+				NOT = { has_character_modifier = sent_letter }
+			}
+		}
+		
+		effect = {		
+			FROM = { character_event = { id = lettersoc.0 } }
+			FROM = { add_character_modifier = { name = sent_letter duration = 30 } }
+			}		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

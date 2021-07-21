@@ -1,0 +1,59 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+opinion_sin_loan_taken;Has taken Loan;;;;;;;;;;;;;x
+opinion_sin_loan_given;Has given Loan;;;;;;;;;;;;;x
+opinion_sin_loan_rejected;Rejected for Loan;;;;;;;;;;;;;x
+opinion_sin_loan_defaulted;Declared a Debtor;;;;;;;;;;;;;x
+sin_loaner;Loaner;;;;;;;;;;;;;x
+sin_loan_taker;Has Taken a Loan From a Bank;;;;;;;;;;;;;x
+request_loan;Request Loan;;;;;;;;;;;;;x
+request_loan_desc;You are low on funds and can request a loan.;;;;;;;;;;;;;x
+become_loaner;Open Bank;;;;;;;;;;;;;x
+become_loaner_desc;You've decided you want to grant loans throughout the Realm from your Central Bank.;;;;;;;;;;;;;x
+revoke_loaner;Close Bank;;;;;;;;;;;;;x
+revoke_loaner_desc;Close your bank and stop giving out loans.;;;;;;;;;;;;;x
+open_loan_books;Open Your Books;;;;;;;;;;;;;x
+open_loan_books_desc;Open the books and review your outstanding loans.;;;;;;;;;;;;;x
+EVTDESCsin_loaner.0;[FromFrom.GetTitledName] has sent word of [FromFrom.GetHerHis] dire financial straits and requests a loan. [FromFrom.GetSheHeCap] requests 100 gold which [FromFrom.GetSheHe] will promise to repay in time.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.0;Gladly.;;;;;;;;;;;;;x
+EVTOPTBsin_loaner.0;Offer a smaller loan.;;;x
+EVTOPTCsin_loaner.0;I'm afraid I must decline.;;;;;;;;;;;;;x
+EVTDESCsin_loaner.1;[From.GetFirstName] has died and passed [From.GetHerHis] due loans to you.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.1;Very Well.;;;;;;;;;;;;;x
+EVTDESCsin_loaner.2;[From.GetFirstName] has died and passed [From.GetHerHis] loan debts to you.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.2;Very Well.;;;;;;;;;;;;;x
+EVTDESCsin_loaner.3;[From.GetFirstName] has come to you about the state of [From.GetHerHis] loan from your bank and...;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.3;Presents a bag of money to you.;;;;;;;;;;;;;x
+EVTOPTBsin_loaner.3;Cannot pay - Forgive the Loan for a favor.;;;;;;;;;;;;;x
+EVTOPTCsin_loaner.3;Cannot pay - Claim [From.GetHerHis] title.;;;;;;;;;;;;;x
+EVTOPTDsin_loaner.3;Cannot pay - Grant an Extension.;;;;;;;;;;;;;x
+EVTOPTEsin_loaner.3;Cannot pay - Declare Default and imprison them.;;;;;;;;;;;;;x
+EVTDESCsin_loaner.31;[From.GetFirstName] has come to you about, your vassal, [FromFrom.GetFirstName]'s debts demanding [FromFrom.GetSheHe] be sent in chains.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.31;Very well, send the guards for [FromFrom.GetFirstName].;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.31;Very well, send [From.GetFirstName] the payment.;;;;;;;;;;;;;x
+EVTOPTCsin_loaner.31;[From.GetFirstName] dares make demands of me?;;;;;;;;;;;;;x
+EVTDESCsin_loaner.32;[From.GetFirstName] has dispatched guards for your arrest, you've been declared a criminal for defaulting on your debts.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.32;Very well, I'll go peacefully.;;;;;;;;;;;;;x
+EVTOPTBsin_loaner.32;Black's not such a bad look...;;;;;;;;;;;;;x
+EVTDESCAsin_loaner.33;[From.GetFirstName] has acknowledged [From.GetHerHis] debt and arrived in the prison.;;;;;;;;;;;;;x
+EVTDESCBsin_loaner.33;[From.GetFirstName] evaded your guards and fled to the Nightswatch, swearing the Black.;;;;;;;;;;;;;x
+EVTDESCCsin_loaner.33;[From.GetFirstName] evaded your guards and fled to a foreign court, and now stands outside your grasp.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.33;Excellent.;;;;;;;;;;;;;x
+EVTOPTBsin_loaner.33;Damn it!;;;;;;;;;;;;;x
+EVTDESCAsin_loaner.34;[From.GetFirstName] has received your demand and sent along [From.GetHerHis] vassal's payment, [From.GetSheHe] states "Please consider the matter settled and remove the default".;;;;;;;;;;;;;x
+EVTDESCBsin_loaner.34;[From.GetFirstName] has dismissed your demand and protected [From.GetHerHis] vassal, [From.GetSheHe] states you can "Go Hang".;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.34;Excellent.;;;;;;;;;;;;;x
+EVTOPTBsin_loaner.34;How dare [From.GetSheHe]!;;;;;;;;;;;;;x
+EVTDESCsin_loaner.4;Outstanding Loans.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner.4;All Debtors;;;;;;;;;;;;;x
+EVTOPTBsin_loaner.4;Loans not yet Due;;;;;;;;;;;;;x
+EVTOPTCsin_loaner.4;Loans Coming Due;;;;;;;;;;;;;x
+EVTOPTDsin_loaner.4;Close the Books;;;;;;;;;;;;;x
+EVTDESCsin_loaner_maintenance.2;You have a loan that has come due.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner_maintenance.2;Very well, I'll pay.;;;;;;;;;;;;;x
+EVTOPTBsin_loaner_maintenance.2;But I cannot pay!;;;;;;;;;;;;;x
+EVTDESCsin_loaner_maintenance.3;You have a loan that has come due.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner_maintenance.3;Very well, I'll pay.;;;;;;;;;;;;;x
+EVTOPTBsin_loaner_maintenance.3;But I cannot pay!;;;;;;;;;;;;;x
+EVTDESCsin_loaner_maintenance.4;[From.GetFirstName] has finally worked off the debt and requests to be released from the dungeons.;;;;;;;;;;;;;x
+EVTOPTAsin_loaner_maintenance.4;Very well, release [From.GetHerHim].;;;;;;;;;;;;;x
+sin_debt;Has taken a Loan\n;;;;;;;;;;;;;x

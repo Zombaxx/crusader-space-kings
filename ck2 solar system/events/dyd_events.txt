@@ -1,0 +1,217 @@
+namespace = dyd_events
+character_event = {
+	id = dyd_events.1
+	desc = EVTDESCdyd_events.1
+	picture = GFX_roy_ruler
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAdyd_events.1
+		trigger = {
+			has_character_flag = focus1
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_rulership
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_rulership
+		}
+		clr_character_flag = focus1
+	}
+
+	option = {
+		name = EVTOPTBdyd_events.1
+		trigger = {
+			has_character_flag = focus1
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_business
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_business
+		}
+		clr_character_flag = focus1
+	}
+
+	option = {
+		name = EVTOPTCdyd_events.1
+		trigger = {
+			has_character_flag = focus1
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_seduction
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_seduction
+		}
+		clr_character_flag = focus1
+	}
+
+	option = {
+		name = EVTOPTDdyd_events.1
+		trigger = {
+			has_character_flag = focus2
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_intrigue
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_intrigue
+		}
+		clr_character_flag = focus2
+	}
+
+	option = {
+		name = EVTOPTEdyd_events.1
+		trigger = {
+			has_character_flag = focus2
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_hunting
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_hunting
+		}
+		clr_character_flag = focus2
+	}
+
+	option = {
+		name = EVTOPTFdyd_events.1
+		trigger = {
+			has_character_flag = focus2
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_war
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_war
+		}
+		clr_character_flag = focus2
+	}
+
+	option = {
+		name = EVTOPTGdyd_events.1
+		trigger = {
+			has_character_flag = focus3
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_carousing
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_carousing
+		}
+		clr_character_flag = focus3
+	}
+
+	option = {
+		name = EVTOPTHdyd_events.1
+		trigger = {
+			has_character_flag = focus3
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_family
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_family
+		}
+		clr_character_flag = focus3
+	}
+
+	option = {
+		name = EVTOPTIdyd_events.1
+		trigger = {
+			has_character_flag = focus3
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_scholarship
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_scholarship
+		}
+		clr_character_flag = focus3
+	}
+
+	option = {
+		name = EVTOPTJdyd_events.1
+		trigger = {
+			has_character_flag = focus4
+			NOT = {
+				event_target:DYD_Target = {
+					has_focus = focus_theology
+				}
+			}
+		}
+		event_target:DYD_Target = {
+			clear_focus = yes
+			set_focus = focus_theology
+		}
+		clr_character_flag = focus4
+	}
+
+	option = {
+		name = EVTOPTKdyd_events.1
+		IF = {
+			limit = {
+				has_character_flag = focus1
+			}
+			clr_character_flag = focus1
+			set_character_flag = focus2
+			character_event = { id = dyd_events.1 }
+			break = yes
+		}
+		IF = {
+			limit = {
+				has_character_flag = focus2
+			}
+			clr_character_flag = focus2
+			set_character_flag = focus3
+			character_event = { id = dyd_events.1 }
+			break = yes
+		}
+		IF = {
+			limit = {
+				has_character_flag = focus3
+			}
+			clr_character_flag = focus3
+			set_character_flag = focus4
+			character_event = { id = dyd_events.1 }
+			break = yes
+		}
+		IF = {
+			limit = {
+				has_character_flag = focus4
+			}
+			clr_character_flag = focus4
+			set_character_flag = focus1
+			character_event = { id = dyd_events.1 }
+			break = yes
+		}
+	}
+}

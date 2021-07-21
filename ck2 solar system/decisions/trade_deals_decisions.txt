@@ -1,0 +1,44 @@
+targetted_decisions = {
+	make_trade_dec = {
+		filter = all
+
+		from_potential = {
+			ai = no
+			capital_scope = { has_building = ca_trade_center }
+		}
+		potential = {
+			NOT = { character = FROM }
+			is_ruler = yes
+			is_landed = yes
+			mercenary = no
+		}
+		allow = {
+			NOT = { has_non_aggression_pact_with = FROM }
+			prisoner = no
+			ROOT = { is_within_diplo_range = FROM }
+			FROM = { wealth = 100 }
+			FROM = { 	
+				NOT = { has_character_modifier = trades_deal }
+			}
+		}
+		effect = {
+			FROM = {
+			hidden_tooltip = {
+				add_character_modifier = {
+					name = trades_deal
+					duration = 60
+					hidden = yes
+					}
+				character_event = { id = roytrade.7 }
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

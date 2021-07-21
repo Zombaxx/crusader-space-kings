@@ -1,0 +1,53 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#decisions
+make_trade_dec;Trade with [Root.PrimaryTitle.GetName];;;x
+make_trade_dec_desc;Attempt to negotiate a trade deal between your realms.;;;x
+
+#modifiers
+trade_deal;Trade Deal;;;x
+trades_deal;Trading;;;x
+importing_arms;Importing Arms;;;x
+importing_arms_desc;This ruler is recieving armaments from another realm.;;;x
+exporting_arms;Exporting Arms;;;x
+exporting_arms_desc;This ruler is trading weapons with another ruler;;;x
+importing_foods;Importing Food;;;x
+importing_foods_desc;This ruler is importing foodstuffs from another realm.;;;x
+exporting_foods;Exporting Food;;;x
+exporting_foods_desc;This ruler is trading foods with another ruler.;;;x
+importing_goods;Importing Goods;;;x
+importing_goods_desc;This ruler is importing foreign goods.;;;x
+exporting_goods;Exporting Goods;;;x
+exporting_goods_desc;This ruler is trading goods with another realm.;;;x
+
+#events
+EVTDESCroytrade.7;You gather your realm's greatest diplomats to propose a trade deal between your realm and [From.PrimaryTitle.GetName]. You have already concluded what you want out of the deal, but what do you wish to offer in exchange?;;;x
+
+EVTOPTAroytrade.7;Trade Arms;;;x
+tradearms;Offer [From.GetTitledFirstName] weapons and hope for a trade deal made on that basis;;;x
+EVTOPTBroytrade.7;Trade Food;;;x
+tradefood;Offer [From.GetTitledFirstName] food from your realm and hope for a trade deal made on that basis;;;x
+EVTOPTCroytrade.7;Trade Goods & Wares;;;x
+tradegoods;Offer [From.GetTitledFirstName] goods and valuables from your realm and hope for a trade deal made on that basis;;;x
+EVTOPTDroytrade.7;Nevermind.;;;x
+tradecancel;Send your delegates home.;;;x
+trade1;a successful deal;;;x
+trade2;an unsuccessful deal;;;x
+trade3;[From.GetFirstName] presents a counteroffer;;;x
+
+EVTDESCroytrade.1;Your envoys were able to secure a successful deal in [FromFrom.Capital.GetName] wherein both parties feel they have benefitted. You will supply them with a regular caravan of weapons and armor in exchange for payment and trade favors.;;;x
+EVTOPTAroytrade.1;Well done.;;;x
+
+EVTDESCroytrade.12;[FromFrom.GetTitledFirstName] has returned your deal, offering instead a temporary alliance and financial assistance along with the arms deal you mentioned. They await your response.;;;x
+EVTOPTAroytrade.12;That will not do.;;;x
+EVTOPTBroytrade.12;You have a deal!;;;x
+
+EVTDESCroytrade.2;Your envoys were unable to secure a deal with [FromFrom.GetTitledFirstName]. They rebuffed your offers and neither side seemed able to come to a standing agreement.;;;x
+EVTOPTAroytrade.2;I should've went myself...;;;x
+
+EVTDESCroytrade.3;Your envoys were able to secure a successful deal in [FromFrom.Capital.GetName] wherein both parties feel they have benefitted. You will supply them with a regular caravan of food in exchange for payment and trade favors.;;;x
+EVTOPTAroytrade.3;Well done.;;;x
+
+EVTDESCroytrade.4;Your envoys were able to secure a successful deal in [FromFrom.Capital.GetName] wherein both parties feel they have benefitted. You will supply them with a regular caravan of [Root.PrimaryTitle.GetAdjective] made goods and artifacts in exchange for payment and trade favors.;;;x
+EVTOPTAroytrade.4;The art of the deal!;;;x
+

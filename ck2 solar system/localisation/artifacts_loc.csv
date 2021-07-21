@@ -1,0 +1,10 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+mech_sword_1;Ancient Steel Sword;;;x
+mech_sword_1_desc;A large, deadly mechanical weapon forged from ancient steel and mystery resources lost to time.;;;x 
+mech_sword_2;Ancient Mechanical Blade;;;x
+mech_sword_2_desc;A large, deadly mechanical weapon forged from ancient steel and mystery resources lost to time.;;;x 
+
+EVTDESCsuit_events.14;While leading your army through [Root.Location.GetName], your foragers come across a mysterious object. Glowing, yet at the same time rusted, it took several men to lift. On further inspection, you realize it is an ancient weapon.;;;x
+EVTAsuit_events.14;I'll take that!;;;x
+EVTBsuit_events.14;Sell the scrap;;;x

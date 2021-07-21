@@ -1,0 +1,17 @@
+#modifiers
+
+opinion_feud_beef;Demands Vengeance!;;;x
+
+#events
+
+EVTDESCfeud_events.1;Peasants from your border have long complained about [feud_target.GetTitledName] harassing them from across the border. Today, your courts will parley to hopeflly put an end to this activity.;;;x
+EVTOPTAfeud_events.1;Let us hope they see reason.;;;x
+
+EVTDESCfeud_events.2;The parley devolved almost immediately. Before you knew it, insults started flying followed very soon by fists. While your group had the upper hand before retreating, both your camp and [feud_target.GetTitledName]'s swore vengeance against one another.;;;x
+EVTOPTAfeud_events.2;Worthless dog! I'll have your head!;;;x
+
+EVTDESCfeud_events.3;The parley devolved almost immediately. Before you knew it, insults started flying and swords were drawn. In the confusion, both you and [feud_target.GetTitledName] kill someone from the opposing group. As life slowly slips from your courtier, you swear to avenge them.;;;x
+EVTOPTAfeud_events.3;This will not go unpunished!;;;x
+
+EVTDESCfeud_events.4;Recognizing their fault in the situation, you and [feud_target.GetTitledName] come to an agreement about deescalating. You shake [feud_target.GetTitledFirstName]'s hand and agree to cooperate from now on.;;;x
+

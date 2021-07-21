@@ -1,0 +1,142 @@
+namespace = royjudge
+	character_event = {
+		id = royjudge.0
+		hide_window = yes
+	
+		is_triggered_only = yes
+
+	trigger = {
+		has_minor_title = title_grand_judge
+		NOT = { add_character_modifier = { modifier = made_ruling duration = 720 } }
+		employer = {
+			war = no
+			crownlaw_title = { has_law = brothel_law_1 }
+			any_courtier = { 
+				AND = {
+				trait = lustful 
+				is_female = no 
+				}
+			}
+		}
+	}
+	immediate = {
+		employer = {
+			character_event = {
+				id = royjudge.1
+			}
+		}
+	}
+}
+#Courtier is caught using brothel
+	character_event = {
+		id = royjudge.1
+		desc = "EVTDESCROYJUDGE"
+		picture = "GFX_roy_judge"
+	
+		is_triggered_only = yes
+
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				prisoner = no
+				is_female = no
+				age = 16
+				trait = lustful
+			}
+			save_event_target_as = brothel_crime
+		}
+	}
+
+	option = {
+		name = EVTOPTAroyjudge.1
+		custom_tooltip = { text = judge1 }
+		add_character_modifier = { modifier = made_ruling duration = 720 }
+		ROOT = { event_target:brothel_crime = { prisoner = yes } }
+		clear_event_target = brothel_crime
+	}
+	option = {
+		name = EVTOPTBroyjudge.1
+		custom_tooltip = { text = judge2 }
+		FROM = {
+			add_character_modifier = { modifier = made_ruling duration = 720 }
+			opinion = { modifier = opinion_overruled_me who = ROOT years = 5 }
+		}
+		event_target:brothel_crime = { 
+			add_rival = FROMFROM 
+			transfer_scaled_wealth = {
+				from = PREV
+				to = ROOT
+				value = 0.25
+			}
+		}
+		clear_event_target = brothel_crime
+	}
+	option = {
+		name = EVTOPTCroyjudge.1
+		custom_tooltip = { text = judge3 }
+		FROM = {
+			add_character_modifier = { modifier = made_ruling duration = 720 }
+			opinion = { modifier = opinion_overruled_me who = ROOT years = 5 }
+		}
+		clear_event_target = brothel_crime
+	}
+}
+
+	character_event = {
+		id = royjudge.2
+		hide_window = yes
+	
+		is_triggered_only = yes
+
+	trigger = {
+		has_minor_title = title_grand_judge
+		NOT = { trait = lustful }
+		NOT = { add_character_modifier = { modifier = made_ruling duration = 720 } }
+		employer = {
+			war = no
+			crownlaw_title = { has_law = brothel_law_0 }
+		}
+	}
+	immediate = {
+		employer = {
+			character_event = {
+				id = royjudge.3
+			}
+		}
+	}
+}
+
+#Judge suggests to outlaw brothels
+	character_event = {
+		id = royjudge.3
+		desc = "EVTDESCROYJUDGE2"
+		picture = "GFX_roy_judge"
+	
+		is_triggered_only = yes
+
+
+
+	option = {
+		name = EVTOPTAroyjudge.3
+		custom_tooltip = { text = judge4 }
+		FROM = { add_character_modifier = { modifier = made_ruling duration = 720 } }
+		ROOT = { 
+			prestige = -250
+			piety = 50
+			crownlaw_title = {
+					revoke_law = brothel_law_0
+					add_law = brothel_law_1
+				}
+			}
+		}
+	option = {
+		name = EVTOPTBroyjudge.3
+		custom_tooltip = { text = judge5 }
+		FROM = {
+			prestige = -50
+			add_character_modifier = { modifier = made_ruling duration = 720 }
+			opinion = { modifier = opinion_overruled_me who = ROOT years = 5 }
+		}
+	}
+}

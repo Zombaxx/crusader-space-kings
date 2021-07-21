@@ -1,0 +1,44 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#decisions
+trial_character;Hold Trial for [Root.GetFirstName];;;x
+trial_character_desc;Have [Root.GetFirstName] be tried at the High Court of [From.Capital.GetName] where [Root.GetHerHis] fate will be in the hands of the Grand Judge.;;;x
+
+#modifiers
+made_ruling;Made Ruling;;;x
+opinion_punished_me;Punished Me!;;;x
+opinion_overruled_me;Overruled Me!;;;x
+opinion_spared_me;Spared My Life;;;x
+opinion_jailed_me;Kept Me Imprisoned;;;x
+on_trial;On Trial;;;x
+holding_trial;Holding Trial;;;x
+publicly_flogged;Publicly Flogged;;;x
+publicly_flogged_desc;This character's bottom has been brutally spanked with a paddle as punishment for a crime.;;;x
+ 
+#events
+EVTDESCtrial_events.1;Today your court gathers in the High Court of [Root.PrimaryTitle.GetName] to hear [From.GetTitledName] answer for the charges levied against [From.GetHerHim]. [From.GetSheHeCap] will present [From.GetHerHis] argument to the Grand Judge and be at the mercy of the Judge's verdict. That is, unless you intervene...;;;x
+EVTOPTBtrial_events.1;Let the trial begin...;;;x
+TOOLTIPEVTOPTBtrial_events.1;[From.GetFirstName] will face the Grand Judge and have their fate decided by trial.;;;x
+
+EVTDESCtrial_events.2;Grand Judge [grand_judge.GetTitledName] was not impressed with [FromFrom.GetFirstName]'s arguments and has declared that [FromFrom.GetTitledName] is guilty of all charges levied against [FromFrom.GetHerHim]. [grand_judge.GetTitledName] declares a public beating should be [FromFrom.GetHerHis] punishment.;;;x
+EVTOPTAtrial_events.2;That sounds fair.;;;x
+EVTOPTBtrial_events.2;Actually, I want that head!;;;x
+trial_bye;Disregard the Grand Judge's verdict and have [FromFrom.GetFirstName] executed.;;;x
+
+EVTDESCtrial_events.3;After hearing all arguments Grand Judge [grand_judge.GetTitledName] was not convinced by [FromFrom.GetFirstName]'s testimonies and has declared that [FromFrom.GetTitledName] is guilty of all charges levied against [FromFrom.GetHerHim]. [grand_judge.GetTitledName] declares death shall be the punishment.;;;x
+EVTOPTAtrial_events.3;The Grand Judge has spoken.;;;x
+EVTOPTBtrial_events.3;That does not seem necessary.;;;x
+trial_save;Disregard the Grand Judge's verdict and spare [FromFrom.GetFirstName].;;;x
+
+EVTDESCtrial_events.5;After hearing all arguments, Grand Judge [grand_judge.GetTitledName] was convinced by [FromFrom.GetFirstName]'s testimonies and has declared that [FromFrom.GetTitledName] is NOT GUILTY of all charges levied against [FromFrom.GetHerHim]. [grand_judge.GetTitledName] declares that they should be released.;;;x
+EVTOPTAtrial_events.5;I must respect the Judge's decree.;;;x
+EVTOPTBtrial_events.5;I have other plans.;;;x
+trial_jail;Disregard the Grand Judge's verdict and keep [FromFrom.GetFirstName] imprisoned.;;;x
+
+EVTDESCtrial_events.4;After hearing all arguments Grand Judge [grand_judge.GetTitledName] was not convinced by [FromFrom.GetFirstName]'s testimonies and has declared that [FromFrom.GetTitledName] is guilty of all charges levied against [FromFrom.GetHerHim]and shall pay a fine to the Grand Judge as punishment.;;;x
+EVTOPTAtrial_events.4;Sounds like justice.;;;x
+EVTOPTBtrial_events.4;That money should go to me.;;;x
+trial_steal;Have the fine be paid to you instead of the Grand Judge.;;;x
+
+
+

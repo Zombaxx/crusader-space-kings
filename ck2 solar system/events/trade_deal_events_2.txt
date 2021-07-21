@@ -1,0 +1,115 @@
+namespace = roytrade
+	#Successfully Trade Arms
+	character_event = {
+		id = roytrade.1
+		desc = "EVTDESCroytrade.1"
+		picture = "GFX_roy_trade"
+	
+		is_triggered_only = yes
+	
+		option = { 
+		name = "EVTOPTAroytrade.1" 
+			ROOT = { 
+			capital_scope = { add_province_modifier = { name = exporting_arms duration = 1825 stacking = yes} } 
+			}
+			FROMFROM = {
+			capital_scope = { add_province_modifier = { name = importing_arms duration = 1825 stacking = yes} } 
+			opinion = {
+			modifier = trade_deal
+			who = ROOT
+			}
+		}
+	}
+}
+	#FROMFROM wants an alliance instead of NAP plus some money
+	character_event = {
+		id = roytrade.12
+		desc = "EVTDESCroytrade.12"
+		picture = "GFX_roy_trade"
+	
+		is_triggered_only = yes
+
+		option = { 
+		name = "EVTOPTAroytrade.12" 
+			prestige = -50
+		}
+	
+		option = { 
+		name = "EVTOPTBroytrade.12" 
+			ROOT = { 
+			wealth = -150
+			add_alliance = { who = FROMFROM years = 5 }
+			capital_scope = { add_province_modifier = { name = exporting_arms duration = 1825 stacking = yes} }
+				}
+			FROMFROM = {
+			wealth = 150
+			capital_scope = { add_province_modifier = { name = importing_arms duration = 1825 stacking = yes} }
+			}
+		}
+	}
+	#Unsuccessful Trade Deal
+	character_event = {
+		id = roytrade.2
+		desc = "EVTDESCroytrade.2"
+		picture = "GFX_roy_trade"
+	
+		is_triggered_only = yes
+	
+		option = { 
+		name = "EVTOPTAroytrade.2" 
+			prestige = -50
+		}
+	}
+
+	#Successfully Trade Foodstuffs
+	character_event = {
+		id = roytrade.3
+		desc = "EVTDESCroytrade.3"
+		picture = "GFX_roy_trade"
+	
+		is_triggered_only = yes
+	
+		option = { 
+		name = "EVTOPTAroytrade.3" 
+			prestige = 50
+			ROOT = { 
+			capital_scope = { add_province_modifier = { name = exporting_foods duration = 1825 stacking = yes} }
+			}
+			FROMFROM = {
+			capital_scope = { add_province_modifier = { name = importing_foods duration = 1825 stacking = yes} }
+			opinion = {
+			modifier = trade_deal
+			who = ROOT
+			}
+		}
+	}
+}
+	#Successfully Trade Goods
+	character_event = {
+		id = roytrade.4
+		desc = "EVTDESCroytrade.4"
+		picture = "GFX_roy_trade"
+	
+		is_triggered_only = yes
+	
+		option = { 
+		name = "EVTOPTAroytrade.4" 
+			ROOT = {
+			prestige = 50
+			random = {
+				chance = 5
+				give_nickname = nick_the_merchant
+				}
+			}
+			ROOT = { 
+			capital_scope = { add_province_modifier = { name = exporting_goods duration = 1825 stacking = yes} }
+			}
+			FROMFROM = {
+			capital_scope = { add_province_modifier = { name = importing_goods duration = 1825 stacking = yes} }
+			opinion = {
+			modifier = trade_deal
+			who = ROOT
+			}
+		}
+	}
+}

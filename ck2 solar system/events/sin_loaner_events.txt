@@ -1,0 +1,417 @@
+namespace = sin_loaner 
+#Loan Request
+character_event = {
+	id = sin_loaner.0
+	desc = EVTDESCsin_loaner.0
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.0
+		wealth = -100
+		FROMFROM = {
+			wealth = 100
+			add_character_modifier = { modifier = sin_loan_taker years = 5 }
+			clr_character_flag = sin_requesting_loan
+			opinion = { modifier = opinion_sin_loan_taken who = ROOT years = 120 }
+			reverse_opinion = { modifier = opinion_sin_loan_given who = ROOT years = 120 }
+		}
+	}
+	option = {
+		name = EVTOPTBsin_loaner.0
+		wealth = -50
+		FROMFROM = {
+			wealth = 50
+			add_character_modifier = { modifier = sin_loan_taker years = 5 }
+			clr_character_flag = sin_requesting_loan
+			opinion = { modifier = opinion_sin_loan_taken who = ROOT years = 120 }
+			reverse_opinion = { modifier = opinion_sin_loan_given who = ROOT years = 120 }
+		}
+	}
+	option = {
+		name = EVTOPTCsin_loaner.0
+		FROMFROM = {
+			clr_character_flag = sin_requesting_loan
+			opinion = { modifier = opinion_sin_loan_rejected who = ROOT years = 2 }
+		}
+	}
+}
+#You've inherited owed loans
+character_event = {
+	id = sin_loaner.1
+	desc = EVTDESCsin_loaner.1
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.1
+		clear_event_target = sin_loaner
+	}
+}
+#You've inherited loan debts
+character_event = {
+	id = sin_loaner.2
+	desc = EVTDESCsin_loaner.2
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.2
+		clear_event_target = sin_loaner
+	}
+}
+#From has come with loans, repaid or asking for extension
+character_event = {
+	id = sin_loaner.3
+	desc = EVTDESCsin_loaner.3
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.3
+		trigger = {
+			FROM = {
+				has_character_flag = sin_repaid_loan
+			}
+		}
+		wealth = 125
+		FROM = {
+			remove_opinion = { who = ROOT modifier = opinion_sin_loan_taken }
+			reverse_remove_opinion = { who = ROOT modifier = opinion_sin_loan_given }
+			clr_character_flag = sin_repaid_loan
+		}
+	}
+	option = {
+		name = EVTOPTBsin_loaner.3
+		trigger = {
+			FROM = {
+				NOT = { has_character_flag = sin_repaid_loan }
+				OR = {
+					NOT = { owes_favor_to = ROOT }
+					holds_favor_on = ROOT
+				}
+			}
+		}
+		FROM = {
+			IF = {
+				limit = { NOT = { holds_favor_on = ROOT } }
+				reverse_add_favor = ROOT
+			}
+			IF = {
+				limit = { holds_favor_on = ROOT }
+				reverse_remove_favor = ROOT
+			}
+			remove_opinion = { who = ROOT modifier = opinion_sin_loan_taken }
+			reverse_remove_opinion = { who = ROOT modifier = opinion_sin_loan_given }
+			clr_character_flag = sin_repaid_loan
+		}
+	}
+	option = {
+		name = EVTOPTCsin_loaner.3
+		trigger = {
+			FROM = {
+				NOT = { has_character_flag = sin_repaid_loan }
+				NOT = { holds_favor_on = ROOT }
+			}
+		}
+		FROM = {
+			primary_title = {
+				add_claim = ROOT
+			}
+			opinion = { modifier = opinion_claimed_my_title who = ROOT years = 10 }
+			remove_opinion = { who = ROOT modifier = opinion_sin_loan_taken }
+			reverse_remove_opinion = { who = ROOT modifier = opinion_sin_loan_given }
+		}
+	}
+	option = {
+		name = EVTOPTDsin_loaner.3
+		trigger = {
+			FROM = {
+				NOT = { has_character_flag = sin_repaid_loan }
+				NOT = { holds_favor_on = ROOT }
+			}
+		}
+		FROM = {
+			add_character_modifier = { modifier = sin_loan_taker years = 1 }
+		}
+	}
+	option = {
+		name = EVTOPTEsin_loaner.3
+		trigger = {
+			FROM = {
+				NOT = { has_character_flag = sin_repaid_loan }
+				NOT = { holds_favor_on = ROOT }
+				prisoner = no
+			}
+			NOT = {
+				any_liege = { character = FROM }
+			}
+		}
+		save_event_target_as = Sinloaner
+		remove_opinion = { who = ROOT modifier = opinion_sin_loan_taken }
+		reverse_remove_opinion = { who = ROOT modifier = opinion_sin_loan_given }
+		FROM = {
+			save_event_target_as = Sindebtor
+			IF = {
+				limit = {
+					any_liege = {
+						character = ROOT
+					}
+				}
+				reverse_opinion = { modifier = opinion_sin_loan_defaulted who = ROOT years = 5 }
+				character_event = { id = sin_loaner.32 }
+			}
+			IF = {
+				limit = {
+					NOT = {
+						any_liege = {
+							character = ROOT
+						}
+					}
+				}
+				reverse_opinion = { modifier = opinion_sin_loan_defaulted who = ROOT years = 5 }
+				liege = {
+					character_event = { id = sin_loaner.31 }
+				}
+			}
+		}
+	}
+}
+#FromFrom hasn't paid loans, From demands imprisonment
+character_event = {
+	id = sin_loaner.31
+	desc = EVTDESCsin_loaner.31
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.31
+		ai_chance = {
+			factor = 0.9
+		}
+		event_target:Sindebtor = {
+			character_event = { id = sin_loaner.32 }
+		}
+	}
+
+	option = {
+		name = EVTOPTBsin_loaner.31
+		trigger = { wealth = 125 }
+		ai_chance = {
+			factor = 0.9
+		}
+		wealth = -125
+		event_target:Sinloaner = {
+			set_character_flag = repaid_sinloan
+			character_event = { id = sin_loaner.34 }
+		}
+	}
+
+	option = {
+		name = EVTOPTCsin_loaner.31
+		ai_chance = {
+			factor = 0.1
+		}
+		event_target:Sinloaner = {
+			character_event = { id = sin_loaner.34 }
+		}
+	}
+}
+#FromFrom hasn't paid loans, From demands imprisonment
+character_event = {
+	id = sin_loaner.32
+	desc = EVTDESCsin_loaner.32
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.32
+		ai_chance = {
+			factor = 0.9
+		}
+		imprison = event_target:Sinloaner
+		set_character_flag = SinDebtor
+		event_target:Sinloaner = {
+			character_event = { id = sin_loaner.33 }
+		}
+	}
+	option = {
+		name = EVTOPTAsin_loaner.32
+		ai_chance = {
+			factor = 0.1
+		}
+		abdicate = yes
+		IF = {
+			limit = {
+				d_nightswatch = {
+					has_holder = yes
+					NOR = {
+						holder_scope = { character = FROM }
+						holder_scope = { character = FROMFROM }
+					}
+				}
+			}
+			d_nightswatch = {
+				reverse_banish = ROOT
+				ROOT = {
+					add_trait = nightswatch
+				}
+			}
+		}
+		IF = {
+			limit = {
+				d_nightswatch = {
+					OR = {
+						has_holder = no
+						holder_scope = { character = FROM }
+						holder_scope = { character = FROMFROM }
+					}
+				}
+			}
+			random_independent_ruler = {
+				limit = {
+					NOR = {
+						character = FROM
+						character = FROMFROM
+					}
+				}
+				reverse_banish = ROOT
+			}
+		}
+		event_target:Sinloaner = {
+			character_event = { id = sin_loaner.33 }
+		}
+	}
+}
+#From has been imprisoned for debts
+character_event = {
+	id = sin_loaner.33
+	desc = {
+		trigger = {
+			FROM = {
+				prisoner = yes
+			}
+		}
+		text = EVTDESCAsin_loaner.33
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				prisoner = no
+				trait = nightswatch
+			}
+		}
+		text = EVTDESCBsin_loaner.33
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				prisoner = no
+				NOT = { trait = nightswatch }
+			}
+		}
+		text = EVTDESCCsin_loaner.33
+	}
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.33
+		trigger = {
+			FROM = {
+				prisoner = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBsin_loaner.33
+		trigger = {
+			FROM = {
+				prisoner = no
+			}
+		}
+	}
+}
+#From has told you to go hang
+character_event = {
+	id = sin_loaner.34
+	desc = {
+		trigger = {
+			FROM = { has_character_flag = repaid_sinloan }
+		}
+		text = EVTDESCAsin_loaner.34
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				NOT = { has_character_flag = repaid_sinloan }
+			}
+		}
+		text = EVTDESCBsin_loaner.34
+	}
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner.34
+		trigger = { FROM = { has_character_flag = repaid_sinloan } }
+		wealth = 125
+		remove_opinion = { modifier = opinion_sin_loan_defaulted who = event_target:Sindebtor }
+	}
+
+	option = {
+		name = EVTOPTBsin_loaner.34
+		trigger = {
+			FROM = {
+				NOT = { has_character_flag = repaid_sinloan }
+			}
+		}
+		opinion = { modifier = opinion_furious who = FROM years = 10 }
+	}
+}
+character_event = {#Current Loans
+	id = sin_loaner.4
+	desc = EVTDESCsin_loaner.4
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {#All Outstanding Loans
+		name = EVTOPTAsin_loaner.4
+		any_character = {
+			limit = { 
+				reverse_has_opinion_modifier = { modifier = opinion_sin_loan_given who = ROOT }
+			}
+			custom_tooltip = { text = sin_debt }
+		}
+		clr_character_flag = looking_at_books
+	}
+
+	option = {#Loans not Due
+		name = EVTOPTBsin_loaner.4
+		any_character = {
+			limit = { 
+				reverse_has_opinion_modifier = { modifier = opinion_sin_loan_given who = ROOT }
+				has_character_modifier = sin_loan_taker
+			}
+			custom_tooltip = { text = sin_debt }
+		}
+		clr_character_flag = looking_at_books
+	}
+
+	option = {#Loans Coming Due
+		name = EVTOPTCsin_loaner.4
+		any_character = {
+			limit = { 
+				reverse_has_opinion_modifier = { modifier = opinion_sin_loan_given who = ROOT }
+				NOT = { has_character_modifier = sin_loan_taker }
+			}
+			custom_tooltip = { text = sin_debt }
+		}
+		clr_character_flag = looking_at_books
+	}
+
+	option = {#Close the Books
+		name = EVTOPTDsin_loaner.4
+		clr_character_flag = looking_at_books
+	}
+}

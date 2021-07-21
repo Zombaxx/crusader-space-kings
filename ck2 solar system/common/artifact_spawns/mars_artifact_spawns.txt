@@ -1,0 +1,105 @@
+mech_suit = {
+    max_amount = 35
+    spawn_date = 1000.1.1
+	
+	spawn_chance = {
+		value = 10
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			trait = mech_pilot	
+		}
+	}
+    artifacts = {
+        mech_suit = {
+            value = 1
+        }
+    }
+}
+common_mech_suit = {
+    max_amount = 25
+    spawn_date = 1000.1.1
+	
+	spawn_chance = {
+		value = 10
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			trait = mech_pilot	
+		}
+	}
+    artifacts = {
+        common_mech_suit = {
+            value = 1
+        }
+    }
+}
+super_mech_suit = {
+    max_amount = 7
+    spawn_date = 1000.1.1
+	
+	spawn_chance = {
+		value = 10
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			trait = mech_pilot	
+		}
+	}
+    artifacts = {
+        super_mech_suit = {
+            value = 5
+        }
+    }
+}
+mech_sword_1 = {
+    max_amount = 25
+    spawn_date = 1000.1.1
+	
+	spawn_chance = {
+		value = 10
+	}
+    
+    weight = {
+		value = 0.5
+		additive_modifier = {
+			value = 2
+			religion = sunni	
+		}
+	}
+    artifacts = {
+        mech_sword_1 = {
+            value = 3
+        }
+    }
+}
+mech_sword_2 = {
+    max_amount = 25
+    spawn_date = 1000.1.1
+	
+	spawn_chance = {
+		value = 10
+	}
+    
+    weight = {
+		value = 0.5
+		additive_modifier = {
+			value = 2
+			religion = sunni	
+		}
+	}
+    artifacts = {
+        mech_sword_2 = {
+            value = 5
+        }
+    }
+}

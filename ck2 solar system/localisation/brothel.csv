@@ -1,0 +1,46 @@
+#CODE;ENGLISH;;;;;;;;;x
+whore_monger;Whoremonger;;;x
+ct_f_brothel;City Brothel;;;;;;;;;x
+visit_brothel;Visit A Brothel;Visit A Brothel;;;;;;;;;x
+visit_brothel_desc;Warm the bed with a whore;;;;;;;;;x
+bed_washerwoman;Approach a camp follower;;;;;;;;;x
+bed_washerwoman_desc;Warm the bed with a washerwoman;;;;;;;;x
+brothel_born;Baseborn;;;x
+brothel_born_desc;This character was born of a tavern woman or camp follower.;;;x
+EVTDESCWHORING; I want to whore the night away.;;;;;;;;;x
+EVTWHORING;Pick a Noctian girl;;;;;;;;;x
+EVTWHORING2;Pick an Alban girl;;;;;;;;;x
+EVTWHORING3;Pick a Versian girl;;;;;;;;;x
+EVTMOREWHORING;What more do you have;;;;;;;;;x
+EVTDESCWHORING2;Lots of girls here;;;;;;;;;x
+EVTWHORING4;Pick an Elysian girl;;;;;;;;;x
+EVTWHORING5;Pick a Solian girl;;;;;;;;;x
+EVTWHORING6;Only an orgy is enough to satisfy my appetite;;;;;;;;;x
+EVTSUMMRISLWHORE;Noctians are known for their amazing lovemaking.;;;;;;;;;x
+EVTFCKWHORE;Fuck the whore;;;;;;;;;x
+EVTTORTWHORE;Torture her;;;;;;;;;x
+EVTSPNDTMEWHORE;Spend time with her;;;;;;;;;x
+EVTWHOREGB;I can't decide…;;;;;;;;;x
+EVTSUN;Alban women are well known for their diverse techniques in bed.;;;;;;;;;x
+EVTFREE;These Versian girls combine a combination of beauty and exoticness to deliver the best performance.;;;;;;;;;x
+EVTNORTH;These Elysian women are known for their feistiness.;;;;;;;;;x
+EVTANDALWHORES;Solian women know how to prey on a man's desires.;;;;;;;;;x
+EVTORGY;A range of different women AND men are gathered in the room, ready to go down in a fest of screaming orgasms and flying cum.;;;;;;;;;x
+EVTORGYFEST;Let's start the feast;;;;;;;;;x
+EVTBASTARDBORN;The whore you laid with near a year ago claims she has given birth to your child and requestd your aid in raising it. Looking at the child, you note that it is your spitting image.;;;;;;;;;x
+EVTBASTARDBORN2;Acknowledge the bastard child as your own;;;;;;;;;x
+EVTBASTARDBORN3;Kill the bastard to cover up your indiscretions;;;;;;;;;x
+EVTBASTARDBORN4;Send the bastard far away to cover up your indiscretions;;;;;;;;;x
+EVTBASTARDBORN5;Give her a generous sum of gold and warn her never to approach you again;;;;;;;;;x
+EVTFIGHTWHORE;The whore is attacking me!;;;;;;;;;x
+EVTFIGHTWHORE2;I need to shut her up;;;;;;;;;x
+EVTRUNFROMWHORE;She is drawing too much attention, best is to flee;;;;;;;;;x
+EVTDESCWASHERWHORE;With your life hanging on a thread everytime you enter a battle, what man would object towards spending what may be his last moments in a state of temporary bliss...;;;;;;;;;;x
+EVTWASHERWHORE;Fuck her like it's your last day;;;;;;;;x
+NOTHING;Actually, I'm not in the mood;;;;;;;;;x
+EVTDESCBASTARDUNCOVEREDMALE;A young man has approached you, claiming he is your bastard son, born to a whore you bedded sixteen years past. He is your spitting image, that much you cannot deny...;;;;;;;;;;x
+EVTDESCBASTARDUNCOVEREDFEMALE;A young woman has approached you, claiming she is your bastard daughter, born to a whore you bedded sixteen years past. She is your spitting image, that much you cannot deny...;;;;;;;;;;x
+ACCEPTBASTARD;Then I will acknowledge them as mine;;;;;;;;;;x
+IGNOREBASTARD;I want nothing to do with you, stranger;;;;;;;;;;
+EVTDESCbrothel.14;Though you did your best to make sure no one followed you, someone seems to have caught you entering and leaving the brothel a few days ago, and now your indiscretions are the gossip of [Root.Capital.GetName]!;;;x
+OPTAbrothel.14;Can't a man live?;;;x

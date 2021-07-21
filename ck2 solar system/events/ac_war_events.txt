@@ -1,0 +1,518 @@
+namespace = Ac
+
+# Razing event
+character_event = {
+	id = Ac.6666
+	desc = EVTDESCAc.6666
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_normal_frame_war
+
+	min_age = 16
+	
+	is_triggered_only = yes
+	
+	trigger = {		
+		FROM = {
+			NOT = { has_holding_modifier = settlement_razed }
+			OR = {
+				holding_type = city
+				holding_type = temple
+				holding_type = castle
+				holding_type = tribal
+			}
+			NOT = {
+				owner = { character = ROOT }
+			}
+		}
+		ai = no
+	}
+	
+	option = {
+		name = EVTOPTAAc.6666
+		custom_tooltip = { text = TOOLTIPEVTOPTArobosiege.1 }
+		piety = 10
+	}
+	option = {
+		name = EVTOPTBAc.6666
+		custom_tooltip = { text = TOOLTIPEVTOPTArobosiege.2 }
+		trigger = {
+			NOT = {
+				FROM = { has_holding_modifier = settlement_sacked }
+			}
+		}
+		prestige = 50
+		scaled_wealth = 0.5
+		character_event = { id = Ac.6667 }
+		FROM = {
+			add_holding_modifier = {
+				modifier = settlement_sacked
+				months = 36
+			}
+			add_holding_modifier = {
+				modifier = looted_modifier
+				months = 36
+			}
+			location = {
+				add_province_modifier = {
+					name = burnt_land
+					years = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCAc.6666
+		trigger = { 
+		OR = {
+			trait = cruel
+			trait = arbitrary
+			trait = ruthless
+			}
+		}
+		tooltip_info_custom = TOOLTIPEVTOPTArobosiege.3 
+		prestige = 100
+		scaled_wealth = 1
+		character_event = { id = Ac.6668 }
+		FROM = {
+			add_holding_modifier = {
+				modifier = settlement_razed
+				months = 120
+			}
+			add_holding_modifier = {
+				modifier = looted_modifier
+				months = 120
+			}
+			location = {
+				add_province_modifier = {
+					name = waste_land
+					years = 10
+				}
+			}
+		}
+	}
+}
+
+# Settlement sacked
+character_event = {
+	id = Ac.6667
+	desc = EVTDESCAc.6667
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_normal_frame_war
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAAc.6667
+		add_character_modifier = {
+			modifier = satiated_troops
+			months = 3
+		}
+	}
+}
+
+# Settlement razed
+character_event = {
+	id = Ac.6668
+	desc = EVTDESCAc.6668
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_normal_frame_war
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAAc.6668
+		add_character_modifier = {
+			modifier = satiated_troops
+			months = 10
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_nickname = no
+					is_adult = yes
+					NOT = { trait = incapable }
+				}
+			random = {
+				chance = 15
+				give_nickname = nick_the_bloody
+				}
+			}
+		}
+	}
+}
+
+# Battle captives
+#character_event = {
+#	id = Ac.7777
+#	desc = "EVTDESCAc.7777"
+#	picture = "GFX_evt_battle"
+#	border = GFX_event_normal_frame_war
+#
+#	min_age = 16
+#	capable_only = yes
+#	ai = no
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		in_command = yes
+#	}
+#
+#	option = {
+#		name = EVTOPTAAc.7777
+#		piety = 10
+#	}
+#	option = {
+#		name = EVTOPTBAc.7777
+#		trigger = {
+#			NOT = {
+#				FROM = { trait = greedy }
+#			}
+#		}
+#		scaled_wealth = 0.1
+#		FROM = { scaled_wealth = -0.15 }
+#	}
+#	option = {
+#		name = EVTOPTCAc.7777
+#		prestige = 10
+#		piety = -5
+#	}
+#}
+
+# Captives for AI
+character_event = {
+	id = Ac.7778
+	desc = "EVTDESCAc.7777"
+	picture = "GFX_evt_battle"
+	border = GFX_event_normal_frame_war
+
+	min_age = 16
+	capable_only = yes
+	ai = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		always = yes
+	}
+
+	option = {
+		name = EVTOPTAAc.7777
+		piety = 10
+	}
+	option = {
+		name = EVTOPTBAc.7777
+		trigger = {
+			NOT = {
+				FROM = { trait = greedy }
+			}
+		}
+		scaled_wealth = 0.1
+		FROM = { scaled_wealth = -0.1 }
+	}
+	option = {
+		name = EVTOPTCAc.7777
+		prestige = 10
+		piety = -5
+	}
+}
+# What to do with defeated ruler...?
+character_event = {
+	id = Ac.7779
+	desc = "EVTDESCconvert"
+	picture = "GFX_roy_surrender"
+	border = GFX_event_normal_frame_war
+
+	min_age = 16
+	capable_only = yes
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = EVTOPTAconvert
+		ai_chance = {
+			factor = 50
+		}
+		custom_tooltip = { text = conv1 }
+		event_target:target_loser = { imprison = ROOT }
+		clear_event_target = target_loser
+		clear_event_target = target_depose
+	}
+	option = {
+		name = EVTOPTBconvert
+		ai_chance = {
+			factor = 25
+		}
+		custom_tooltip = { text = conv2 }
+		event_target:target_loser = { 
+			transfer_scaled_wealth = {
+				from = PREV
+				to = ROOT
+				value = 2.5
+			}
+		}
+		clear_event_target = target_loser
+		clear_event_target = target_depose
+	}
+	option = {
+		name = EVTOPTCconvert
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			ROOT = { higher_tier_than = COUNT }
+			event_target:target_loser = { lower_tier_than = DUKE }
+		}
+		custom_tooltip = { text = conv3 }
+		ROOT = { prestige = 100 }
+		event_target:target_loser = { 
+			set_defacto_liege = ROOT 
+			prestige = -100
+		}
+		clear_event_target = target_loser
+		clear_event_target = target_depose
+	}
+	option = {
+		name = EVTOPTDconvert
+		ai_chance = {
+			factor = 25
+		}
+		custom_tooltip = { text = conv4 }
+		prestige = 50
+		ROOT = { 
+			make_tributary = { who = event_target:target_loser percentage = 0.4 }
+			}
+		event_target:target_loser = {
+			opinion = {
+				modifier = opinion_forced_tributary 
+				who = ROOT
+				years = 15
+			}
+		}
+		clear_event_target = target_loser
+		clear_event_target = target_depose
+	}
+	option = {
+		name = EVTOPTEconvert
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			ROOT = { piety = 800 }
+			ROOT = { any_courtier = { has_minor_title = title_commander } }
+			ROOT = { tier = KING }
+			event_target:target_loser = { tier = DUKE }
+		}
+		custom_tooltip = { text = conv5 }
+		ROOT = { piety = -800 }
+			event_target:target_loser = { 
+			abdicate_to = event_target:target_depose 
+			prestige = -500
+		}
+		clear_event_target = target_loser
+		clear_event_target = target_depose
+	}
+}
+# I am a LIBERATOR!
+character_event = {
+	id = Ac.7780
+	desc = "EVTDESCAc.7780"
+	picture = "GFX_roy_liberate"
+	border = GFX_event_normal_frame_war
+
+	min_age = 16
+	capable_only = yes
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = EVTOPTAAc.7780
+		piety = 100
+		add_trait = liberator
+	}
+}
+# Slaves are free, but some won't be happy...
+character_event = {
+	id = Ac.7781
+	desc = "EVTDESCAc.7781"
+	picture = "GFX_evt_riots_byzantine"
+	border = GFX_event_normal_frame_war
+
+	min_age = 16
+	capable_only = yes
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = EVTOPTAAc.7781
+		event_target:target_loser = { 
+			any_realm_province = {
+				add_province_modifier = {
+					name = mad_slavers
+					duration = 3650
+				}	
+			}
+		}
+		clear_event_target = target_loser
+	}
+}
+#Event to totally wreck someone big's realm with peasants...
+narrative_event = {
+	id = Ac.7782
+	title = EVTNAMEUnderdog.103
+	desc = "EVTDESCUnderdog.103"
+	picture = "GFX_evt_peasants"
+	border = GFX_event_narrative_frame_religion	
+	major = yes
+	
+	trigger = {
+		ROOT = {
+			NOT = { has_character_flag = underdog_peasant }
+			realm_size = 200
+		}
+	}
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.75
+			realm_size = 250
+		}
+		modifier = {
+			factor = 0.75
+			realm_size = 300
+		}
+		modifier = {
+			factor = 1.75
+			stewardship = 15
+		}
+		modifier = {
+			factor = 1.25
+			trait = kind
+		}
+		modifier = {
+			factor = 1.25
+			trait = content
+		}
+		modifier = {
+			factor = 1.25
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.25
+			trait = humble
+		}
+		modifier = {
+			factor = 1.25
+			trait = just
+		}
+		modifier = {
+			factor = 1.25
+			trait = pilgrim
+		}
+		modifier = {
+			factor = 1.25
+			trait = hajajj
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.5
+			trait = impaler
+		}
+	}
+	immediate = {
+		set_character_flag = underdog_peasant 
+		any_realm_province = {
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							distance = {
+								where = PREVPREV
+								distance = 30
+							}
+						}
+					}
+					NOT = {
+						ROOT = {
+							capital_scope = {
+								distance = {
+									where = PREVPREV
+									distance = 250
+								}
+							}
+						}
+					}
+				}
+				add_province_modifier = {
+					name = realm_too_big_minor
+					duration = 1825
+				}	
+			}
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							distance = {
+								where = PREVPREV
+								distance = 251
+							}
+						}
+					}
+					NOT = {
+						ROOT = {
+							capital_scope = {
+								distance = {
+									where = PREVPREV
+									distance = 500
+								}
+							}
+						}
+					}
+				}
+				add_province_modifier = {
+					name = realm_too_big_large
+					duration = 1825
+				}	
+			}
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							distance = {
+								where = PREVPREV
+								distance = 501
+							}
+						}
+					}
+				}
+				add_province_modifier = {
+					name = realm_too_big_major
+					duration = 1825
+				}	
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTAUnderdog.103"
+		trigger = {
+			NOT = { same_realm = FROM }
+		}
+	
+	}
+	option = {
+		name = "EVTOPTBUnderdog.103"
+		trigger = {
+			same_realm = FROM
+		}
+	}
+}

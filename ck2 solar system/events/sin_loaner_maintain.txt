@@ -1,0 +1,216 @@
+namespace = sin_loaner_maintenance
+character_event = {#Loan Giver Dies pass to heir
+	id = sin_loaner_maintenance.0
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_any_opinion_modifier = opinion_sin_loan_given
+	}
+
+	immediate = {
+		current_heir = {
+			save_event_target_as = sin_loaner
+		}
+		any_opinion_modifier_target = {
+			IF = {
+				limit = { has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT } }
+				opinion = { modifier = opinion_sin_loan_taken who = event_target:sin_loaner years = 120 }
+				reverse_opinion = { modifier = opinion_sin_loan_given who = event_target:sin_loaner years = 120 }
+			}
+			any_playable_ruler = {
+				IF = {
+					limit = { has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT } }
+					opinion = { modifier = opinion_sin_loan_taken who = event_target:sin_loaner years = 120 }
+					reverse_opinion = { modifier = opinion_sin_loan_given who = event_target:sin_loaner years = 120 }
+				}
+			}
+			character_event = { id = sin_loaner.1 }
+		}
+	}
+}
+character_event = {#Loan Taker Dies pass to heir
+	id = sin_loaner_maintenance.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_any_opinion_modifier = opinion_sin_loan_taken
+	}
+
+	immediate = {
+		any_opinion_modifier_target = {
+			IF = {
+				limit = {
+					reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+				}
+				save_event_target_as = sin_loaner
+				ROOT = {
+					current_heir = {
+						reverse_opinion = { modifier = opinion_sin_loan_given who = event_target:sin_loaner years = 120 }
+						opinion = { modifier = opinion_sin_loan_taken who = event_target:sin_loaner years = 120 }
+						character_event = { id = sin_loaner.2 }
+					}
+				}
+			}
+			random_playable_ruler = {
+				IF = {
+					limit = {
+						reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+					}
+					save_event_target_as = sin_loaner
+					ROOT = {
+						current_heir = {
+							reverse_opinion = { modifier = opinion_sin_loan_given who = event_target:sin_loaner years = 120 }
+							opinion = { modifier = opinion_sin_loan_taken who = event_target:sin_loaner years = 120 }
+							character_event = { id = sin_loaner.2 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {#Loan is due, repay or not?
+	id = sin_loaner_maintenance.2
+	desc = EVTDESCsin_loaner_maintenance.2
+	picture = GFX_roy_bank
+
+	trigger = {
+		has_any_opinion_modifier = opinion_sin_loan_taken
+		NOT = { has_character_modifier = sin_loan_taker }
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = EVTOPTAsin_loaner_maintenance.2
+		trigger = {
+			wealth = 125
+			any_opinion_modifier_target = {
+				reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+			}
+		}
+		set_character_flag = sin_repaid_loan
+		any_opinion_modifier_target = {
+			IF = {
+				limit = {
+					reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+				}
+				character_event = { id = sin_loaner.3 days = 2 }
+			}
+		}
+		wealth = -125
+	}
+
+	option = {
+		name = EVTOPTAsin_loaner_maintenance.2
+		trigger = {
+			wealth = 125
+			any_opinion_modifier_target = {
+				any_realm_lord = {
+					reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+				}
+			}
+		}
+		set_character_flag = sin_repaid_loan
+		any_opinion_modifier_target = {
+			random_realm_lord = {
+				limit = {
+					reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+				}
+				character_event = { id = sin_loaner.3 days = 2 }
+			}
+		}
+		wealth = -125
+	}
+
+	option = {
+		name = EVTOPTBsin_loaner_maintenance.2
+		trigger = {
+			NOT = {
+				wealth = 125
+			}
+			any_opinion_modifier_target = {
+				reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+			}
+		}
+		any_opinion_modifier_target = {
+			IF = {
+				limit = { reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT } }
+				character_event = { id = sin_loaner.3 days = 2 }
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBsin_loaner_maintenance.2
+		trigger = {
+			NOT = {
+				wealth = 125
+			}
+			any_opinion_modifier_target = {
+				any_realm_lord = {
+					reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT }
+				}
+			}
+		}
+		any_opinion_modifier_target = {
+			random_realm_lord = {
+				limit = { reverse_has_opinion_modifier = { modifier = opinion_sin_loan_taken who = ROOT } }
+				character_event = { id = sin_loaner.3 days = 2 }
+			}
+		}
+	}
+}
+character_event = {#Root has worked off the debt and can be released
+	id = sin_loaner_maintenance.3
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		FROM = {
+			has_opinion_modifier = { who = ROOT modifier = opinion_sin_loan_defaulted }
+		}
+	}
+
+	immediate = {
+		IF = {
+			limit = { NOT = { has_character_flag = SinDebtor } }
+			set_character_flag = SinDebtor
+		}
+	}
+}
+character_event = {#Root has worked off the debt and can be released
+	id = sin_loaner_maintenance.31
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		had_character_flag = { flag = SinDebtor days = 365 }
+	}
+
+	immediate = {
+		host = {
+			character_event = { id = sin_loaner_maintenance.4 }
+		}
+	}
+}
+character_event = {#Loan is due, repay or not?
+	id = sin_loaner_maintenance.4
+	desc = EVTDESCsin_loaner_maintenance.4
+	picture = GFX_roy_bank
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsin_loaner_maintenance.4
+		FROM = {
+			prisoner = no
+			clr_character_flag = SinDebtor
+			reverse_remove_opinion = { who = ROOT modifier = opinion_sin_loan_defaulted }
+		}
+		wealth = 125
+	}
+}

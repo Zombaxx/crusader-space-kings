@@ -1,0 +1,27 @@
+#modifiers
+election_thief;Election Thief!;;;x
+refused_concede;Refused to Concede;;;x
+stole_election;Stole Election!;;;x
+rigged_elections;Rigged Election;;;x
+rigged_elections_desc;The people of this realm have lost faith in their democracy as their ruler has refused to concede despite losing the election.;;;x
+
+#events
+EVTDESCelection_events.1;The head of your Elections Board has informed you that elections will be held soon in [Root.PrimaryTitle.GetName] to decide the next ruler. You have a year from this date to make any necessary...preparations...;;;x
+EVTOPTAelection_events.1;May the best man win;;;x
+EVTOPTBelection_events.1;Try to have the elections delayed;;;x
+elec_pos;Appeal to the Board of Elections to have it delayed for another cycle.;;;x
+
+EVTDESCelection_events.2;The day of voting has come and gone and the results seem to indicate that [elect_winner.GetTitledName] is to be the next ruler of [Root.PrimaryTitle.GetName]. You are expected to peacefully concede.;;;x
+EVTOPTAelection_events.2;Concede gracefully;;;x
+EVTOPTBelection_events.2;Refuse to give up power;;;x
+elec_abd;Refuse to leave the capital and declare the election illegitamite.;;;x
+
+EVTDESCelection_events.3;The Board of Elections has decided to delay the election in your favor. You have another year from this date to prepare for the next election.;;;x
+EVTOPTAelection_events.3;All according to plan...;;;x
+
+EVTDESCelection_events.4;The Board of Elections has refused your request for a delay. You have six months until the elections start.;;;x
+EVTOPTAelection_events.4;If only they were reasonable...;;;x
+
+EVTDESCelection_events.5;The people are not happy with your decision to delay the elections for another cycle. They claim you are a threat to Democracy and unrest is quickly starting to spread around the realm.;;;x
+EVTOPTAelection_events.5;These ungrateful people...;;;x
+

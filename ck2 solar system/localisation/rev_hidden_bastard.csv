@@ -1,0 +1,12 @@
+acknowledge_hidden_bastard;Acknowledge [Root.GetFirstName] as Your Child;;;;;;;;;;;;;x
+acknowledge_hidden_bastard_desc;Acknowledge that [Root.GetFirstName] is actually your [Root.GetSonDaughter].;;;;;;;;;;;;;x
+acknowledged_hidden_bastard;Acknowledged Hidden Bastard;;;;;;;;;;;;;x
+ACKNOWLEDGESECRETBASTARD;\n\n [Root.GetTitledFirstNameNoRegnal] will be publicly acknowledged as being [From.GetTitledFirstNameNoRegnal]'s [Root.GetSonDaughter] and will henceforth be part of House [From.GetOnlyDynastyName] and regarded as a bastard.;;;;;;;;;;;;;x
+BASTARDFATHERHATE;The 'Father' of the child will not only openly hate you but will also name you a cuckold.;;;;;;;;;;;;;x
+CHRONICLE_HIDDEN_BASTARD;On [GetDateText], [From.GetTitledFirstNameNoRegnal] publicly acknowledged that [Root.GetFirstName] is actually his [Root.GetSonDaughter]. [Root.GetSheHeCap] will henceforth be part of House [From.GetOnlyDynastyName] and be regarded as a bastard.;;;;;;;;;;;;;x
+
+roy_bastard_desc.1;You have decided to recognize [From.GetFirstName] as your natural [From.GetSonDaughter] from from an affair with [From.Mother.GetTitledName]. [From.GetSheHeCap] will henceforth be part of House [Root.GetOnlyDynastyName] and be regarded as a bastard member of your family.;;;x
+roy_bastard.001.1;"Welcome to the family, [From.GetSonDaughter].";;;x
+
+
+

@@ -1,0 +1,36 @@
+#CODE;ENGLISH;;;;;;;;;x
+
+grant_nob;Raise [Root.GetFirstName] to Nobility;;;x
+grant_nob_desc;[Root.GetFirstName] is lowborn from no distinguished dynasty. You may grant [Root.GetFirstName] the priviledge to form [Root.GetHerHis] own house with [Root.GetHerHis] own Coat of Arms.;;;x
+opinion_raised_to_nobility;Raised Me To Nobility!;;;x
+
+title_mistress;Mistress;;;;;;;;;;;;;
+title_mistress_desc;Your Official Royal Mistress. She keeps your bed warm when your wife will not perform her duties. Her position also comes with a bit of power;;;;;;;;;;;;;x
+
+torture_remove_eye;Blind [Root.GetFirstName];;;x
+torture_remove_eye_desc;You may order your men to have [Root.GetFirstName]'s eye removed as punishment for [Root.GetHerHis] crimes.;;;x
+
+torture_remove_hand;Chop off [Root.GetFirstName]'s Hand;;;x
+torture_remove_hand_desc;As a ruler, you may order your men to remove [Root.GetFirstName]'s dominant hand as a punishment.;;;x
+
+torture_events_desc.1;Your men drag [From.GetFirstName] to the courtyard, kicking and screaming as they went along. Of course, [From.GetBestName] begged for mercy by the grace of [From.Religion.GetHighGodName] as you announced that you would be blinding [From.GetHerHim], but the decision is yours to make.;;;x
+roy_torture_events.001.1;I've decided to spare you today.;;;x
+roy_torture_events.001.2;Out with [From.GetHerHis] eye!;;;x
+
+torture_events_desc.2;Your men drag [From.GetFirstName] to the courtyard, kicking and screaming as they went along. Of course, [From.GetBestName] begged for mercy by the grace of [From.Religion.GetHighGodName] as you announced that you would be cutting on of [From.GetHerHis] hands off, but the decision is yours to make.;;;x
+roy_torture_events.002.1;Be glad it's not your head.;;;x
+
+succ_gavelkind;Terran Democracy;;;x
+succ_gavelkind_desc;Succession is determined by vote from all adults 21 and older in the realm, including unlanded lowborns and bastards but excluding slaves. The ruler is decided by the will of the people.;;;x
+succ_elective_gavelkind;Terran Democratic Gavelkind;;;x
+succ_elective_gavelkind_desc;Succession is determined by vote from all adults 21 and over in the realm, including unlanded lowborns and bastards but excluding slaves. The ruler is decided by the will of the people.;;;x
+martian_elective;Terran Elective;;;x
+
+EVTNAMEUnderdog.103;Unrest in [From.PrimaryTitle.GetName]!;;;;;;;;;x
+EVTDESCUnderdog.103;A wave of unrest has stirred up the peasants in [From.PrimaryTitle.GetName]! They claim that the realm is too big, and that their interests have been neglected for too long! The peasants are angry like never before. Could this be the revolution that tears [From.PrimaryTitle.GetName] apart?;;;;;;;;;x
+EVTOPTAUnderdog.103;At least it isn't happening here!;;;;;;;;;x
+EVTOPTBUnderdog.103;Not on my watch...;;;;;;;;;x
+realm_too_big_minor;Minor Peasant Unrest;;;;;;;;;x
+realm_too_big_large;Significant Peasant Unrest;;;;;;;;;x
+realm_too_big_major;Major Peasant Unrest;;;;;;;;;x
+

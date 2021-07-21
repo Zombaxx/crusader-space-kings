@@ -1,0 +1,271 @@
+targetted_decisions = {
+	grant_nob = {
+		filter = court
+		from_potential = {
+			ai = no 
+			NOT = { culture_group = chinese_group }
+			NOT = { trait = incapable }
+			is_adult = yes
+			NOT = { trait = infirm }
+		}
+		potential = {				
+			NOT = { is_foe = FROM }
+			NOT = { trait = trait_slave }
+			dynasty = 0
+			is_ruler = no
+			liege = { character = FROM }
+		}
+		allow = {
+			FROM = { 
+				conditional_tooltip = {
+					trigger = { lower_tier_than = DUKE }
+					wealth = 20
+				}
+				conditional_tooltip = {
+					trigger = { tier = DUKE }
+					wealth = 40
+				}
+				conditional_tooltip = {
+					trigger = { higher_tier_than = DUKE }
+					wealth = 80
+				}
+			}
+			prisoner = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		effect = {
+			FROM = {
+				if = {
+					limit = { higher_tier_than = DUKE }
+					wealth = -80
+					ROOT = {
+						wealth = 80
+						prestige = 80
+					}
+				}
+				if = {
+					limit = { tier = DUKE }
+					wealth = -40
+					ROOT = {
+						wealth = 40
+						prestige = 40
+					}
+				}
+				if = {
+					limit = { lower_tier_than = DUKE }
+					wealth = -20
+					ROOT = {
+						wealth = 20
+						prestige = 20
+					}
+				}
+				
+			}
+				hidden_tooltip = {
+					if = {
+						limit = { has_job_title = job_castellan }
+						set_character_flag = job_castellan
+					}
+					if = {
+						limit = { has_job_title = job_chancellor }
+						set_character_flag = job_chancellor
+					}
+					if = {
+						limit = { has_job_title = job_marshal }
+						set_character_flag = job_marshal
+					}
+					if = {
+						limit = { has_job_title = job_treasurer }
+						set_character_flag = job_treasurer
+					}
+					if = {
+						limit = { has_job_title = job_spymaster }
+						set_character_flag = job_spymaster
+					}
+					if = {
+						limit = { has_job_title = job_physician }
+						set_character_flag = job_physician
+					}
+					if = {
+						limit = { has_job_title = job_spiritual }
+						set_character_flag = job_spiritual
+					}
+					if = {
+						limit = { has_minor_title = title_high_admiral }
+						set_character_flag = title_high_admiral
+					}
+					if = {
+						limit = { has_minor_title = title_high_admiral_B }
+						set_character_flag = title_high_admiral_B
+					}
+					if = {
+						limit = { has_minor_title = title_small_council_advisor }
+						set_character_flag = title_small_council_advisor
+					}
+					if = {
+						limit = { has_minor_title = title_councilmember_king }
+						set_character_flag = title_councilmember_king
+					}
+					if = {
+						limit = { has_minor_title = title_councilmember_emperor }
+						set_character_flag = title_councilmember_emperor
+					}
+					if = {
+						limit = { has_minor_title = title_regent }
+						set_character_flag = title_regent
+					}
+					if = {
+						limit = { is_ruler = no }
+						random_character = { #this so they get an interesting name, rather than 'of <place name>'
+							limit = { 
+								government = feudal_government
+								tier = BARON 
+								is_patrician = no
+								is_theocracy = no
+								is_republic = no
+								NOT = { demesne_size = 2 }
+								NOT = { dynasty = 0 }
+								NOT = { is_close_relative = ROOT }
+							}
+							abdicate_to = ROOT
+							ROOT = {
+								any_courtier = {
+									limit = { is_close_relative = PREV is_ruler = no }
+									move_character = FROM	
+								}
+								abdicate_to = PREV 
+								move_character = FROM
+							}
+							primary_title = { remove_claim = ROOT }
+						}
+					}	
+					if = { #try alternative method if failed
+						limit = { dynasty = 0 }
+						create_character = {
+							random_traits = yes
+							female = no
+							culture = ROOT
+							dynasty = actually_culture
+						}
+						new_character = {
+							ROOT = { dynasty = PREV }
+							dynasty = none
+							death = yes
+						}
+					}	
+					if = { #failsafe
+						limit = { dynasty = 0 }
+						dynasty = father_bastard
+					}
+					any_child_even_if_dead = {
+						limit = { dynasty = 0 }
+						dynasty = ROOT
+						any_child_even_if_dead = {
+							limit = { dynasty = 0 }
+							dynasty = ROOT
+							any_child_even_if_dead = {
+								limit = { dynasty = 0 }
+								dynasty = ROOT
+							}
+						}
+					}
+					any_sibling_even_if_dead = {
+						limit = {
+							dynasty = 0
+							father_even_if_dead = {
+								dynasty = 0
+								is_parent_of = ROOT
+							}
+						}
+						dynasty = ROOT
+						father_even_if_dead = { dynasty = ROOT }
+						any_child_even_if_dead = {
+							limit = { dynasty = 0 }
+							dynasty = ROOT
+							any_child_even_if_dead = {
+								limit = { dynasty = 0 }
+								dynasty = ROOT
+								any_child_even_if_dead = {
+									limit = { dynasty = 0 }
+									dynasty = ROOT
+								}
+							}
+						}
+					}
+					if = {
+						limit = { has_character_flag = job_castellan }
+						give_job_title = job_castellan
+						clr_character_flag = job_castellan
+					}
+					if = {
+						limit = { has_character_flag = job_chancellor }
+						give_job_title = job_chancellor
+						clr_character_flag = job_chancellor
+					}
+					if = {
+						limit = { has_character_flag = job_marshal }
+						give_job_title = job_marshal
+						clr_character_flag = job_marshal
+					}
+					if = {
+						limit = { has_character_flag = job_treasurer }
+						give_job_title = job_treasurer
+						clr_character_flag = job_treasurer
+					}
+					if = {
+						limit = { has_character_flag = job_spymaster }
+						give_job_title = job_spymaster
+						clr_character_flag = job_spymaster
+					}
+					if = {
+						limit = { has_character_flag = job_physician }
+						give_job_title = job_physician
+						clr_character_flag = job_physician
+					}
+					if = {
+						limit = { has_character_flag = job_spiritual }
+						give_job_title = job_spiritual
+						clr_character_flag = job_spiritual
+					}
+					if = {
+						limit = { has_character_flag = title_high_admiral }
+						give_minor_title = title_high_admiral
+						clr_character_flag = title_high_admiral
+					}
+					if = {
+						limit = { has_character_flag = title_high_admiral_B }
+						give_minor_title = title_high_admiral_B
+						clr_character_flag = title_high_admiral_B
+					}
+					if = {
+						limit = { has_character_flag = title_small_council_advisor }
+						give_minor_title = title_small_council_advisor
+						clr_character_flag = title_small_council_advisor
+					}
+					if = {
+						limit = { has_character_flag = title_councilmember_king }
+						give_minor_title = title_councilmember_king
+						clr_character_flag = title_councilmember_king
+					}
+					if = {
+						limit = { has_character_flag = title_councilmember_emperor }
+						give_minor_title = title_councilmember_emperor
+						clr_character_flag = title_councilmember_emperor
+					}
+					if = {
+						limit = { has_character_flag = title_regent }
+						give_minor_title = title_regent
+						clr_character_flag = title_regent
+					}
+				}	
+	
+			opinion = {
+				who = FROM
+				modifier = opinion_raised_to_nobility
+				years = 10
+			}			
+		}
+	}
+}
