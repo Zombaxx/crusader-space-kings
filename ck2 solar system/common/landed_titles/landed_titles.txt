@@ -1,0 +1,8581 @@
+d_nyan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1821
+	culture = norse
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_beinim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1036
+	culture = norse
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_band_composition
+}
+
+d_salenn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 871
+	culture = tumith
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_risim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1417
+	culture = karonda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = white_company_composition
+}
+
+d_rijakl = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1310
+	culture = wasener
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_company_composition
+}
+
+d_equedaj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2214
+	culture = rotadha
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lithuanian_band_composition
+}
+
+d_ech = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 367
+	culture = dirre
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_donar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 223
+	culture = tumuna
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_raking = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 160
+	culture = qiling
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_lal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1713
+	culture = bunalis
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_dameel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 673
+	culture = qikka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = varangian_guard_composition
+}
+
+d_kagerd = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1598
+	culture = asvuolun
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_epaimir = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 659
+	culture = adanaid
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = star_company_composition
+}
+
+d_qitimir = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1347
+	culture = kacika
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_rurok = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2118
+	culture = biruna
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_salavid = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 813
+	culture = bamimon
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_company_composition
+}
+
+d_kakaj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2208
+	culture = kaham
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_tab = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1439
+	culture = laruna
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_taj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1853
+	culture = arann
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = berber_company_composition
+}
+
+d_natit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1779
+	culture = korz
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_k = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 874
+	culture = tanilay
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_azer = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 19
+	culture = badalgar
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kevok = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 34
+	culture = ekonala
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_company_composition
+}
+
+d_amalal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1189
+	culture = qitonse
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_company_composition
+}
+
+d_tagal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 36
+	culture = qitoljo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_band_composition
+}
+
+d_tetarat = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1508
+	culture = saytalli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_band_composition
+}
+
+d_derim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2227
+	culture = runaga
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = abyssinian_band_composition
+}
+
+d_duraham = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 639
+	culture = ryasodia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ejug = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1207
+	culture = kafa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_sup = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 852
+	culture = ruzeka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_tacil = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 510
+	culture = budyu
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ricalp = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1185
+	culture = kyecena
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_kupim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 117
+	culture = wobiaco
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_budak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2147
+	culture = robostin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = varangian_guard_composition
+}
+
+d_tat = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1710
+	culture = ajohiaco
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_ras = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 86
+	culture = rarilda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_rupuin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2269
+	culture = riraud
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tusb = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1952
+	culture = dijitri
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_kyaqasr = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 139
+	culture = rusraw
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ranap = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 124
+	culture = amimi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_riis = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 347
+	culture = ekalakin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qamap = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1523
+	culture = tonoos
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_band_composition
+}
+
+d_laroj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1712
+	culture = tilyana
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_belayor = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1391
+	culture = lanizam
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_derar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 80
+	culture = dirusha
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_company_composition
+}
+
+d_qapahim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1790
+	culture = saseza
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = nubian_band_composition
+}
+
+d_tunolas = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1122
+	culture = keons
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = company_of_st_george_composition
+}
+
+d_del = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1443
+	culture = burosz
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_company_composition
+}
+
+d_syavin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1419
+	culture = tanosgi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = varangian_guard_composition
+}
+
+d_ajorah = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1047
+	culture = telatun
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_tagihan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 961
+	culture = kacing
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_wil = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2294
+	culture = eloumaj
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tajit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1807
+	culture = evin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1480
+	culture = kinulia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = star_company_composition
+}
+
+d_rezin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 836
+	culture = banazik
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_edeph = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2041
+	culture = qoreth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kulihal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1524
+	culture = keahe
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lithuanian_band_composition
+}
+
+d_ker = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2379
+	culture = sateth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_company_composition
+}
+
+d_siel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 772
+	culture = terius
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_karim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1119
+	culture = narit
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_benur = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1640
+	culture = tenohn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_sumek = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 215
+	culture = ebeneth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = varangian_guard_composition
+}
+
+d_kumun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2090
+	culture = tita
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_dyeh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 53
+	culture = reiruna
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_arann = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1491
+	culture = enareer
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_sohn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1405
+	culture = daleth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = mamluks_composition
+}
+
+d_waram = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1441
+	culture = nonaura
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_nalat = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 335
+	culture = sadunya
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qaralp = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 765
+	culture = woratas
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lombard_band_composition
+}
+
+d_kacatas = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2377
+	culture = tonatas
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_dorid = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 4
+	culture = tanonda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_eram = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2137
+	culture = toram
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_company_composition
+}
+
+d_nalam = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1453
+	culture = rarelric
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lombard_band_composition
+}
+
+d_konam = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1358
+	culture = nalunya
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_aroyan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2163
+	culture = tarijah
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_loghan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1756
+	culture = binn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_tadot = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 692
+	culture = teirom
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_company_composition
+}
+
+d_tan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1629
+	culture = qorotos
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_company_composition
+}
+
+d_deks = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2051
+	culture = asoo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = saxon_band_composition
+}
+
+d_denn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1328
+	culture = akarennu
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_saks = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 454
+	culture = tadinn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_band_composition
+}
+
+d_t = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 900
+	culture = derener
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_romun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 821
+	culture = kadha
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = finnish_band_composition
+}
+
+d_noten = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 95
+	culture = ripaksa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_toten = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1048
+	culture = lana
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_badh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2042
+	culture = lemewar
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_aberewar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 430
+	culture = seodana
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_berech = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 640
+	culture = ezijarin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_rarin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 896
+	culture = barana
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_linan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1089
+	culture = darin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = turkic_band_composition
+}
+
+d_qitram = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 615
+	culture = rirli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_demab = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1601
+	culture = tyeju
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_sopong = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1813
+	culture = eteodong
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_send = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1776
+	culture = nelua
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_band_composition
+}
+
+d_temyej = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 203
+	culture = kanulam
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_esanud = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1848
+	culture = betulam
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = white_company_composition
+}
+
+d_linong = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 72
+	culture = lopudak
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = finnish_band_composition
+}
+
+d_rarun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 714
+	culture = kelaba
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = company_of_st_george_composition
+}
+
+d_teodong = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1413
+	culture = resuna
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qinor = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2360
+	culture = kaparaja
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = white_company_composition
+}
+
+d_tar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1138
+	culture = dirani
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qasirek = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2058
+	culture = rasilen
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_company_composition
+}
+
+d_kand = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2037
+	culture = dapirek
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_runduz = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 21
+	culture = rilirek
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qaseut = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2129
+	culture = ravyukha
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulls_rishabha_composition
+}
+
+d_beut = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2341
+	culture = tililen
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tunul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 198
+	culture = qausul
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_dul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1569
+	culture = lucing
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_wuning = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2279
+	culture = kyanenr
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_band_composition
+}
+
+d_kamun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2324
+	culture = kausing
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_raming = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2176
+	culture = rununai
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = white_company_composition
+}
+
+d_takictor = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1099
+	culture = rarous
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lombard_band_composition
+}
+
+d_tarul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 885
+	culture = wadelohn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = varangian_guard_composition
+}
+
+d_wadun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 532
+	culture = kyased
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_band_composition
+}
+
+d_sireorn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2497
+	culture = kijelm
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lombard_band_composition
+}
+
+d_nitrd = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1983
+	culture = litila
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_krd = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1912
+	culture = egunina
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_lir = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 492
+	culture = wireorn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_baceorn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1019
+	culture = ateph
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_dosmos = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 482
+	culture = takabri
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = varangian_guard_composition
+}
+
+d_lakelm = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1771
+	culture = telm
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_acild = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1193
+	culture = atabri
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lithuanian_band_composition
+}
+
+d_ranel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2418
+	culture = rele
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tazal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1447
+	culture = tetao
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = mamluks_composition
+}
+
+d_azoom = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2278
+	culture = naaqadu
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_dokirv = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 433
+	culture = tioll
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_kamaj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 305
+	culture = taaqirve
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_tokeel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1019
+	culture = kiurele
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_company_composition
+}
+
+d_kageel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 164
+	culture = qeelo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_rer = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2085
+	culture = lereelo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_rein = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 746
+	culture = wehert
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_beinor = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1199
+	culture = ejurd
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = finnish_band_composition
+}
+
+d_lehin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1326
+	culture = lavurd
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = navarrese_company_composition
+}
+
+d_rin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 695
+	culture = kanerd
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_tara = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 793
+	culture = anert
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_esiberin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1259
+	culture = qaveth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = star_company_composition
+}
+
+d_kanurd = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 373
+	culture = raricta
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_kagaad = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1534
+	culture = ekehina
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_sanik = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 677
+	culture = raurli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_waimir = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1362
+	culture = rojorm
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_naxild = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 574
+	culture = bimank
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_company_composition
+}
+
+d_dem = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1188
+	culture = nika
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = navarrese_company_composition
+}
+
+d_naurl = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 244
+	culture = naxafn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_qurl = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 354
+	culture = rojid
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_wadohn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 280
+	culture = bohiz
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_titar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1804
+	culture = karohn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_band_composition
+}
+
+d_tigr = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 10
+	culture = dadoda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_rohorm = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 775
+	culture = asitoda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1292
+	culture = kyasari
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lithuanian_band_composition
+}
+
+d_kohigrid = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1082
+	culture = nurank
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = zun_warriors_composition
+}
+
+d_r = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1364
+	culture = kuroke
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_sohorm = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 865
+	culture = dohilip
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = turkic_band_composition
+}
+
+d_kasutt = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1342
+	culture = eruzong
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_company_composition
+}
+
+d_qeahek = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1605
+	culture = rinu
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_butt = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1203
+	culture = lonephen
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_ruraham = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 598
+	culture = denopo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_company_composition
+}
+
+d_daraj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 336
+	culture = tomo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kaveel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1872
+	culture = tamomo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_araj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 393
+	culture = rosarik
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_talus = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2256
+	culture = kakusi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kohelg = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2310
+	culture = ebakaja
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_rodis = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 92
+	culture = wirarik
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kemoit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 27
+	culture = bavarik
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tohibad = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 332
+	culture = wineeli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = company_of_st_george_composition
+}
+
+d_s = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2467
+	culture = lalli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tunouh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1313
+	culture = kasoka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qag = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 14
+	culture = akia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_band_composition
+}
+
+d_ryasaud = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 289
+	culture = buti
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tagir = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2468
+	culture = adagaud
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_ril = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 523
+	culture = delinor
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_delistar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1434
+	culture = kaksa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_dad = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1959
+	culture = dajilay
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_company_composition
+}
+
+d_nar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2107
+	culture = takorz
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_weval = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2482
+	culture = qulugh
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ahom = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2148
+	culture = tudilay
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tanacob = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1490
+	culture = rivela
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tevaros = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1363
+	culture = tevilay
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_taril = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1456
+	culture = navory
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_naral = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1902
+	culture = duerau
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_sel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2044
+	culture = tory
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = berber_company_composition
+}
+
+d_banug = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 694
+	culture = raracob
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kivobb = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 646
+	culture = epivula
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_datobb = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2439
+	culture = kagyana
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_robb = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1617
+	culture = esabula
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ladalgar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 439
+	culture = keatula
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_detoth = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2025
+	culture = tivyana
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kabohn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2111
+	culture = koqoth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_agandel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1008
+	culture = tabarda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = white_company_composition
+}
+
+d_esetard = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1430
+	culture = egiloth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_telm = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1456
+	culture = rabiye
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qevonas = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1879
+	culture = tamoras
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_amoras = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 697
+	culture = qeviye
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_disal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2084
+	culture = riselme
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_revon = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 224
+	culture = baadyuns
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lithuanian_band_composition
+}
+
+d_bed = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1073
+	culture = sazalgar
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ragyun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 973
+	culture = lulyuns
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_amisyuns = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1187
+	culture = lisudo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_band_composition
+}
+
+d_kier = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2475
+	culture = bamobor
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = turkic_band_composition
+}
+
+d_sapob = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 967
+	culture = wudan
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_esingert = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1154
+	culture = rudeof
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lithuanian_band_composition
+}
+
+d_tanephan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1244
+	culture = tingert
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_tyudaur = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2236
+	culture = nyaviera
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_company_composition
+}
+
+d_akasok = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 869
+	culture = dudobel
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_company_composition
+}
+
+d_sunan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 58
+	culture = tudiera
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_qyudinn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2341
+	culture = dasobor
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_company_composition
+}
+
+d_sim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 36
+	culture = sadaka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_labil = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1948
+	culture = tabaka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_nenim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 274
+	culture = nozeth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_asugek = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1851
+	culture = kalaka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = varangian_guard_composition
+}
+
+d_emalal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 391
+	culture = lugilia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_tunek = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 541
+	culture = ripalda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_dugan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1199
+	culture = kilelme
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = turkic_band_composition
+}
+
+d_lim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 411
+	culture = bipelme
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = abyssinian_band_composition
+}
+
+d_en = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1929
+	culture = enambiz
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_weneh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 710
+	culture = rilabad
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tayarl = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 710
+	culture = tireh
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_kavur = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1674
+	culture = nirorz
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_company_composition
+}
+
+d_n = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1069
+	culture = kyadua
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_avur = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 458
+	culture = dataham
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_band_composition
+}
+
+d_ral = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 684
+	culture = atadaham
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = abyssinian_band_composition
+}
+
+d_esiraneh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 887
+	culture = basa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_q = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 457
+	culture = sosati
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = nubian_band_composition
+}
+
+d_ehariv = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 413
+	culture = tuderim
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = company_of_st_george_composition
+}
+
+d_qajiv = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 590
+	culture = eruditri
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_kam = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 113
+	culture = bijivia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_band_composition
+}
+
+d_bev = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1936
+	culture = qyasamar
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qucer = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 99
+	culture = lorerim
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_aramar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 751
+	culture = qudamar
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kevod = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1892
+	culture = tucai
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lombard_band_composition
+}
+
+d_bajam = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 579
+	culture = rucerim
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_ralp = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 412
+	culture = weralih
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_doraf = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1251
+	culture = rorecca
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_company_composition
+}
+
+d_kelak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1492
+	culture = raud
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_amorak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 217
+	culture = agrolad
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_band_composition
+}
+
+d_rib = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 419
+	culture = dalakin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2191
+	culture = takaham
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = turkic_band_composition
+}
+
+d_lagat = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1834
+	culture = bomarni
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulls_rishabha_composition
+}
+
+d_qalarn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2113
+	culture = bomogai
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_balarn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 25
+	culture = sogai
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_efrak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1097
+	culture = bevagate
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kaulap = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2052
+	culture = apaulaul
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_risild = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 284
+	culture = biesuti
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_winul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2123
+	culture = baligis
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_dolost = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 706
+	culture = dolili
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = saxon_band_composition
+}
+
+d_ecald = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 744
+	culture = aboazili
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_kironn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2038
+	culture = selahra
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_band_composition
+}
+
+d_wafig = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1235
+	culture = qivick
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_leliog = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1761
+	culture = revalda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_ririrc = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1413
+	culture = qoaziog
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_band_composition
+}
+
+d_necimon = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 250
+	culture = qaciog
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_band_composition
+}
+
+d_belick = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1143
+	culture = wabavid
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = white_company_composition
+}
+
+d_lag = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2404
+	culture = tyaa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_nicegin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1991
+	culture = royadan
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_lictor = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1746
+	culture = kobul
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_rokaqar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1737
+	culture = aticegin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_band_composition
+}
+
+d_donil = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 764
+	culture = rupilia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_suinam = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2041
+	culture = nusimi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_band_composition
+}
+
+d_nak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 748
+	culture = taka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = mamluks_composition
+}
+
+d_kupirin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1634
+	culture = bupoos
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_wematis = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 139
+	culture = tupirin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kobarn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 68
+	culture = ribor
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_takk = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2212
+	culture = nuparn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_wib = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 839
+	culture = kuinarn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_band_composition
+}
+
+d_bad = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 562
+	culture = radaka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tudak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 903
+	culture = kimi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_wadibor = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 751
+	culture = wamirin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kasatis = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1527
+	culture = rasimi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_demakk = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 316
+	culture = rasilia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = saxon_band_composition
+}
+
+d_kudak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 711
+	culture = radostin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ecawav = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1465
+	culture = wusallo
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_kedall = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2176
+	culture = lusall
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_wagusraw = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 733
+	culture = escaka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_beyn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 220
+	culture = tas
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tanit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 251
+	culture = lopita
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_teiro = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2325
+	culture = taruin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_band_composition
+}
+
+d_deirit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1326
+	culture = emorerim
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qonit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1400
+	culture = wupamy
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_company_composition
+}
+
+d_worit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 813
+	culture = kegeon
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_band_composition
+}
+
+d_kelam = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2367
+	culture = winamy
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = great_company_composition
+}
+
+d_wajuk = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1726
+	culture = rijiera
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_beluk = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1648
+	culture = adusbu
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_company_composition
+}
+
+d_rudud = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1817
+	culture = byudash
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = star_company_composition
+}
+
+d_rud = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2354
+	culture = kajopir
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_nadun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 723
+	culture = egutayah
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_nevayn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1308
+	culture = wukua
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_alevan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 622
+	culture = kobamun
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_qinun = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 547
+	culture = takand
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_qibor = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2110
+	culture = bamija
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_keratt = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2135
+	culture = kantia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_ant = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2261
+	culture = dalatis
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = scottish_band_composition
+}
+
+d_watis = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2463
+	culture = bocoos
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = navarrese_company_composition
+}
+
+d_ramib = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 275
+	culture = nija
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_band_composition
+}
+
+d_rad = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1494
+	culture = tarida
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_temid = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2272
+	culture = kasulia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kib = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 806
+	culture = wirlia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = zun_warriors_composition
+}
+
+d_kin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 389
+	culture = ecyiisa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_roran = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2184
+	culture = deirall
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_doom = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 926
+	culture = ererne
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_company_composition
+}
+
+d_tabdalm = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1007
+	culture = qarule
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_tabdul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 199
+	culture = wyoom
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_company_composition
+}
+
+d_seulul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 182
+	culture = qaiule
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_weirern = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 653
+	culture = ryame
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lombard_band_composition
+}
+
+d_roseorn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 231
+	culture = emoseorn
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = berber_company_composition
+}
+
+d_secokh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1954
+	culture = kamanka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_band_composition
+}
+
+d_sal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 13
+	culture = walupsen
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = nubian_band_composition
+}
+
+d_enk = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1777
+	culture = elini
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = company_of_st_george_composition
+}
+
+d_ladev = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 661
+	culture = bamarcus
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_band_composition
+}
+
+d_damim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 364
+	culture = tamatta
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = great_company_composition
+}
+
+d_wamank = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1911
+	culture = neanipa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_dosarat = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1678
+	culture = bahipa
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 825
+	culture = simapal
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ard = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 737
+	culture = kaksew
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_walalof = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2279
+	culture = kaligis
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_abeph = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 159
+	culture = erodeph
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_wisk = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2061
+	culture = warius
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = mamluks_composition
+}
+
+d_l = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1488
+	culture = agius
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_wiubew = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 745
+	culture = karile
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulls_rishabha_composition
+}
+
+d_adarew = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2331
+	culture = liro
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kasiwan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1016
+	culture = elupyar
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_rurutan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 912
+	culture = teravur
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_band_composition
+}
+
+d_wilond = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 707
+	culture = werutan
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_azatas = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2445
+	culture = nyusua
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_dilal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1344
+	culture = burutan
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_company_composition
+}
+
+d_boniwan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1476
+	culture = nurerwan
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_rodiwan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1552
+	culture = nodener
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = finnish_band_composition
+}
+
+d_dakh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1947
+	culture = ragagos
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = lithuanian_band_composition
+}
+
+d_banar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 746
+	culture = belanka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_company_composition
+}
+
+d_elagos = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 29
+	culture = tagegus
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_rolekel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 933
+	culture = rolun
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = mamluks_composition
+}
+
+d_birad = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 524
+	culture = kaganka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tocek = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2437
+	culture = ranka
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = great_company_composition
+}
+
+d_sulad = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 334
+	culture = susolun
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_band_composition
+}
+
+d_rakh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 943
+	culture = rerocek
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_company_composition
+}
+
+d_takan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1444
+	culture = revanu
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulls_rishabha_composition
+}
+
+d_bapew = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2128
+	culture = acyai
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_company_composition
+}
+
+d_lil = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1654
+	culture = bakahim
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tohak = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 370
+	culture = emasiam
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_apalek = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 210
+	culture = riye
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_kal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 298
+	culture = esuserne
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_band_composition
+}
+
+d_lapah = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1031
+	culture = ladai
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_kanakin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2315
+	culture = akananu
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = great_company_composition
+}
+
+d_kanp = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 642
+	culture = qanilii
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_secogn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1425
+	culture = kanasil
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ranal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 823
+	culture = daniya
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = nubian_band_composition
+}
+
+d_el = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1614
+	culture = rawasil
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_nanivk = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1379
+	culture = lanouh
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_serr = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1718
+	culture = emeveli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_rinel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 44
+	culture = laciya
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = star_company_composition
+}
+
+d_linpal = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2196
+	culture = wiya
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_taul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 490
+	culture = ninulia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_talin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2019
+	culture = abadodia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_lais = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 211
+	culture = akalei
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = abyssinian_band_composition
+}
+
+d_byeh = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 987
+	culture = tohei
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_loivel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2457
+	culture = rarerro
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_sumn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1889
+	culture = teilarse
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_band_composition
+}
+
+d_danul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 626
+	culture = nalumna
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_band_composition
+}
+
+d_rarm = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2338
+	culture = qauloch
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = irish_band_composition
+}
+
+d_banars = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1057
+	culture = epaulula
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_nin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2438
+	culture = deirinoi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = victual_brothers_composition
+}
+
+d_saram = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1423
+	culture = deirin
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_alumn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 675
+	culture = ebrarma
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rose_company_composition
+}
+
+d_seirin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1020
+	culture = leilumna
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_band_composition
+}
+
+d_wolachos = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 461
+	culture = rercilof
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = great_company_composition
+}
+
+d_larahs = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1703
+	culture = ryawazi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qagin = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2486
+	culture = norah
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_band_composition
+}
+
+d_tagian = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1781
+	culture = wilian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = company_of_st_george_composition
+}
+
+d_qolazeem = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1914
+	culture = ejohah
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_company_composition
+}
+
+d_qilof = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 391
+	culture = qogilof
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = rus_company_composition
+}
+
+d_saleph = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 302
+	culture = kolunta
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kagof = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2233
+	culture = lalah
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_amaim = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2354
+	culture = demehra
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_toul = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 58
+	culture = arulfem
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_adeiam = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2257
+	culture = kilehra
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = white_company_composition
+}
+
+d_b = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2229
+	culture = naulla
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_relan = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2160
+	culture = soumars
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_band_composition
+}
+
+d_doluj = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 430
+	culture = eriraja
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qas = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 990
+	culture = lieraj
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = nubian_band_composition
+}
+
+d_eswur = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1165
+	culture = beupevi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = breton_company_composition
+}
+
+d_tih = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 276
+	culture = evelarva
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tiril = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 531
+	culture = berilia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = cuman_band_composition
+}
+
+d_rozih = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1313
+	culture = kanite
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_teraham = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1800
+	culture = tyefevi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = great_company_composition
+}
+
+d_weril = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1198
+	culture = reupius
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_telah = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2495
+	culture = rimilia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = catalan_band_composition
+}
+
+d_dur = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 497
+	culture = buduri
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = alan_band_composition
+}
+
+d_kelajit = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2025
+	culture = rang
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_leupenc = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2468
+	culture = dajit
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = great_company_composition
+}
+
+d_ehil = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 826
+	culture = bork
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_derr = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 607
+	culture = katiye
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_br = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 380
+	culture = nadatra
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qilas = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 566
+	culture = sanatra
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_company_composition
+}
+
+d_naodas = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 71
+	culture = nelme
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_raterr = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1403
+	culture = la
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_kalatr = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 304
+	culture = dayha
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = berber_company_composition
+}
+
+d_dotelm = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2027
+	culture = kacatra
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = saxon_band_composition
+}
+
+d_erd = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 402
+	culture = wuanpq
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulls_rishabha_composition
+}
+
+d_kirerr = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 684
+	culture = lezail
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_tub = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 338
+	culture = riarro
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bulgarian_company_composition
+}
+
+d_tayax = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 813
+	culture = qelatli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = finnish_band_composition
+}
+
+d_sadiq = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 505
+	culture = kohatli
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ebrunet = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1698
+	culture = tateth
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_ladiq = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1642
+	culture = wometh
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_radiq = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1918
+	culture = aguilxi
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_neret = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 553
+	culture = rye
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = swiss_company_composition
+}
+
+d_ner = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2260
+	culture = abrunan
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qer = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1978
+	culture = dita
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_laxman = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1991
+	culture = asaxman
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_tonenc = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1658
+	culture = lobaura
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_wobic = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1683
+	culture = qagence
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_qel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2307
+	culture = tohelia
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_dohoch = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 256
+	culture = lagence
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_serel = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 904
+	culture = rodius
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = pecheneg_company_composition
+}
+
+d_qarenn = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 2105
+	culture = edonoch
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = little_hat_company_composition
+}
+
+d_ebar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 396
+	culture = sagoch
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_rerar = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 895
+	culture = nonalda
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = naval_merc_composition
+}
+
+d_ladail = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1876
+	culture = sajari
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = turkic_band_composition
+}
+
+e_outremer = {
+	color = { 180 180 180 }
+	color2 = { 255 255 255 }
+	capital = 531
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOR = {
+					religion = catholic
+					religion = fraticelli
+				}
+			}
+			OR = {
+				religion = catholic
+				religion = fraticelli
+			}
+		}
+		conditional_tooltip = {
+			trigger = {
+				e_outremer = {
+					is_titular = yes
+				}
+			}
+			e_outremer = {
+				is_titular = no
+			}
+		}
+	}
+}
+
+e_nicaea = {
+	color = { 240 17 17 }
+	color2 = { 255 255 20 }
+	capital = 463
+	culture = greek
+	short_name = yes
+	has_top_de_jure_capital = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_nicaea = {
+					is_titular = yes
+				}
+			}
+			e_nicaea = {
+				is_titular = no
+			}
+		}
+	}
+}
+
+e_lechczechrus = {
+	color = { 0 90 30 }
+	color2 = { 255 255 255 }
+	short_name = yes
+	capital = 536
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_lechczechrus = {
+					is_titular = yes
+				}
+			}
+			e_lechczechrus = {
+				is_titular = no
+			}
+		}
+	}
+}
+
+k_papal_state = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	capital = 1343
+	title = POPE
+	foa = POPE_FOA
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	controls_religion = catholic
+	religion = catholic
+	primary = yes
+	assimilate = no
+	dynasty_title_names = no
+	dignity = 200
+	male_names = {
+			Alexander Anastasius Benedictus Caelestinus Callistus Clemens Eugenius Leo Gregorius Hadrianus Honorius Innocentius Ioannes Lucius Marinus Martinus Nicolaus Sergius Silvester Stephanus Urbanus Victor	}
+}
+
+d_papal_guards = {
+	color = { 255 240 240 }
+	color2 = { 220 220 0 }
+	capital = 2010
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	allow = {
+		has_landed_title = k_papal_state
+	}
+	landless = yes
+	mercenary = yes
+	mercenary_type = papal_guard_composition
+	strength_growth_per_century = 1.00
+	religion = catholic
+	primary = yes
+}
+
+k_hellenic_pagan = {
+	color = { 124 0 175 }
+	color2 = { 220 220 0 }
+	capital = 770
+	title = PONTIFEX_MAXIMUS
+	title_female = PONTIFEX_MAXIMA
+	foa = POPE_FOA
+	short_name = yes
+	landless = yes
+	creation_requires_capital = no
+	dignity = 100
+	controls_religion = hellenic_pagan_reformed
+	religion = hellenic_pagan_reformed
+	assimilate = no
+	dynasty_title_names = no
+}
+
+k_orthodox = {
+	color = { 183 60 155 }
+	color2 = { 220 220 0 }
+	capital = 2163
+	title = ECUMENICAL_PATRIARCH
+	foa = ECUMENICAL_PATRIARCH_FOA
+	short_name = yes
+	landless = yes
+	controls_religion = orthodox
+	religion = orthodox
+	primary = yes
+	assimilate = no
+	dynasty_title_names = no
+	male_names = {
+			Alexios Anastasios Arsenios Athanasios Antonios	Basileios Dositheos Eustathios Eustratios Euthymios Georgios Gerasimos Germanos Gregorios Ignatios Ioannes Ioseph Isaias Isidoros Kallistos Konstantinos Kosmas Leon Loukas Makarios Manuel Matthaios Maximos Methodios Metrophanes Michael Neophytos Nephon Nikolaos Nikephoros Nilos Pavlos Philotheos Photios Polyeuktos Sergios Sisinnios Stephanos Tarasios Theodoros Theodosios Theodotos Theoleptos Theophanes Theophylaktos Tryphon Zacharias	}
+}
+
+k_antioch = {
+	color = { 228 53 53 }
+	color2 = { 216 216 84 }
+	capital = 1191
+	title = principality_title
+	title_female = principality_title_female
+	foa = principality_foa
+	title_prefix = principality_prefix
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				k_antioch = {
+					is_titular = yes
+				}
+			}
+			k_antioch = {
+				is_titular = no
+			}
+		}
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				religion = catholic
+			}
+		}
+	}
+}
+
+k_switzerland = {
+	color = { 255 80 80 }
+	color2 = { 200 50 50 }
+	capital = 1328
+	short_name = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				k_switzerland = {
+					is_titular = yes
+				}
+			}
+			k_switzerland = {
+				is_titular = no
+			}
+		}
+	}
+}
+
+e_sunni = {
+	color = { 40 160 40 }
+	color2 = { 220 220 0 }
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+	religion = sunni
+	caliphate = yes
+}
+
+e_shiite = {
+	color = { 60 190 60 }
+	color2 = { 220 220 0 }
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+	religion = shiite
+	caliphate = yes
+}
+
+d_sunni = {
+	color = { 40 160 40 }
+	color2 = { 220 220 0 }
+	capital = 1289
+	creation_requires_capital = no
+	dignity = 100
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+	religion = sunni
+	controls_religion = sunni
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+			custom_tooltip = {
+				text = sunni_creation_independent
+				hidden_tooltip = {
+					in_revolt = no
+					OR = {
+						independent = yes
+						NOT = {
+							any_liege = {
+								OR = {
+									in_revolt = yes
+									NOT = {
+										religion = sunni
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				trait = mirza
+				trait = sayyid
+				piety = 1000
+			}
+			OR = {
+				AND = {
+					trait = sayyid
+					piety = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						NOT = {
+							has_global_flag = destroyed_caliphates
+						}
+					}
+					custom_tooltip = {
+						text = controls_mecca_medina
+						hidden_tooltip = {
+							719 = {
+								owner = {
+									OR = {
+										is_liege_or_above = ROOT
+										character = ROOT
+									}
+								}
+							}
+							718 = {
+								owner = {
+									OR = {
+										is_liege_or_above = ROOT
+										character = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				custom_tooltip = {
+					text = controls_jerusalem_damascus_baghdad
+					hidden_tooltip = {
+						774 = {
+							owner = {
+								OR = {
+									is_liege_or_above = ROOT
+									character = ROOT
+								}
+							}
+						}
+						728 = {
+							owner = {
+								OR = {
+									is_liege_or_above = ROOT
+									character = ROOT
+								}
+							}
+						}
+						693 = {
+							owner = {
+								OR = {
+									is_liege_or_above = ROOT
+									character = ROOT
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		conditional_tooltip = {
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+			religion = sunni
+			OR = {
+				trait = mirza
+				trait = sayyid
+				piety = 1000
+			}
+			custom_tooltip = {
+				text = THREE_HOLY_SITES_TT
+				hidden_tooltip = {
+					any_realm_title = {
+						count = 3
+						is_holy_site = ROOT
+					}
+				}
+			}
+		}
+		conditional_tooltip = {
+			trigger = {
+				has_global_flag = destroyed_caliphates
+			}
+			custom_tooltip = {
+				text = controls_mecca_medina
+				hidden_tooltip = {
+					719 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					718 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	caliphate = yes
+	coat_of_arms = {
+		data = {
+			0 0 0 3 0 2 2		}
+		religion = sunni
+	}
+}
+
+d_shiite = {
+	color = { 60 190 60 }
+	color2 = { 220 220 0 }
+	capital = 1418
+	creation_requires_capital = no
+	dignity = 100
+	title = CALIPH
+	title_female = CALIPHA
+	foa = CALIPH_FOA
+	short_name = yes
+	religion = shiite
+	controls_religion = shiite
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+			custom_tooltip = {
+				text = shia_creation_independent
+				hidden_tooltip = {
+					in_revolt = no
+					OR = {
+						independent = yes
+						NOT = {
+							any_liege = {
+								OR = {
+									in_revolt = yes
+									NOT = {
+										religion = shiite
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				trait = mirza
+				trait = sayyid
+				piety = 1000
+			}
+			custom_tooltip = {
+				text = not_shia_caliphate_revolt_ongoing
+				hidden_tooltip = {
+					NOT = {
+						has_global_flag = shia_caliphate_revolt_ongoing
+					}
+				}
+			}
+			OR = {
+				AND = {
+					trait = sayyid
+					piety = 1000
+				}
+				conditional_tooltip = {
+					trigger = {
+						NOT = {
+							has_global_flag = destroyed_caliphates
+						}
+					}
+					custom_tooltip = {
+						text = controls_mecca_medina
+						hidden_tooltip = {
+							719 = {
+								owner = {
+									OR = {
+										is_liege_or_above = ROOT
+										character = ROOT
+									}
+								}
+							}
+							718 = {
+								owner = {
+									OR = {
+										is_liege_or_above = ROOT
+										character = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				custom_tooltip = {
+					text = controls_jerusalem_damascus_baghdad
+					hidden_tooltip = {
+						774 = {
+							owner = {
+								OR = {
+									is_liege_or_above = ROOT
+									character = ROOT
+								}
+							}
+						}
+						728 = {
+							owner = {
+								OR = {
+									is_liege_or_above = ROOT
+									character = ROOT
+								}
+							}
+						}
+						693 = {
+							owner = {
+								OR = {
+									is_liege_or_above = ROOT
+									character = ROOT
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		conditional_tooltip = {
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+			religion = shiite
+			OR = {
+				trait = mirza
+				trait = sayyid
+				piety = 1000
+			}
+			custom_tooltip = {
+				text = THREE_HOLY_SITES_TT
+				hidden_tooltip = {
+					any_realm_title = {
+						count = 3
+						is_holy_site = ROOT
+					}
+				}
+			}
+		}
+		conditional_tooltip = {
+			trigger = {
+				has_global_flag = destroyed_caliphates
+			}
+			custom_tooltip = {
+				text = controls_mecca_medina
+				hidden_tooltip = {
+					719 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					718 = {
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	caliphate = yes
+	coat_of_arms = {
+		data = {
+			0 0 0 9 1 7 7		}
+		religion = shiite
+	}
+}
+
+e_golden_horde = {
+	color = { 243 180 17 }
+	short_name = yes
+	capital = 2278
+	landless = yes
+	allow = {
+		always = no
+	}
+	culture = mongol
+	religion = tengri_pagan
+}
+
+e_il-khanate = {
+	color = { 140 180 20 }
+	short_name = yes
+	capital = 643
+	landless = yes
+	allow = {
+		always = no
+	}
+	culture = mongol
+	religion = tengri_pagan
+}
+
+e_mongol_empire = {
+	color = { 130 180 240 }
+	color2 = { 255 20 20 }
+	short_name = yes
+	capital = 466
+	landless = yes
+	allow = {
+		always = no
+	}
+	culture = mongol
+	religion = tengri_pagan
+}
+
+e_chagatai = {
+	color = { 200 200 200 }
+	color2 = { 0 250 250 }
+	capital = 981
+	allow = {
+		always = no
+	}
+	culture = mongol
+	religion = tengri_pagan
+}
+
+e_timurids = {
+	color = { 120 20 20 }
+	short_name = yes
+	capital = 157
+	allow = {
+		always = no
+	}
+	culture = mongol
+	religion = sunni
+}
+
+d_knights_templar = {
+	color = { 230 230 230 }
+	color2 = { 255 255 255 }
+	graphical_culture = holygfx
+	capital = 215
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	culture = frankish
+	religion = catholic
+	primary = yes
+	monthly_income = 10
+}
+
+d_teutonic_order = {
+	color = { 50 50 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = holygfx
+	capital = 294
+	title = HOCHMEISTER
+	foa = HOCHMEISTER_FOA
+	landless = yes
+	holy_order = yes
+	mercenary_type = teutonic_order_composition
+	religion = catholic
+	culture = german
+	primary = yes
+	monthly_income = 8
+}
+
+k_teutonic_state = {
+	color = { 50 50 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = holygfx
+	title = HOCHMEISTER
+	foa = HOCHMEISTER_FOA
+	holy_order = yes
+	mercenary_type = teutonic_order_composition
+	short_name = yes
+	assimilate = no
+	religion = catholic
+	culture = german
+	primary = yes
+	monthly_income = 12
+}
+
+d_livonian_order = {
+	color = { 40 60 40 }
+	color2 = { 255 255 255 }
+	graphical_culture = holygfx
+	holy_order = yes
+	mercenary_type = livonian_order_composition
+	short_name = yes
+	religion = catholic
+	culture = german
+	primary = yes
+	monthly_income = 4
+}
+
+d_knights_hospitaler = {
+	color = { 180 180 180 }
+	color2 = { 255 255 255 }
+	graphical_culture = holygfx
+	capital = 2153
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = occitan
+	religion = catholic
+	primary = yes
+	monthly_income = 6
+	mercenary_type = knights_hospitaler_composition
+}
+
+d_hashshashin = {
+	color = { 100 100 0 }
+	color2 = { 255 255 255 }
+	graphical_culture = hashshashingfx
+	capital = 2147
+	title = GRANDHEADMASTER
+	foa = GRANDHEADMASTER_FOA
+	holy_order = yes
+	landless = yes
+	culture = persian
+	religion = shiite
+	primary = yes
+	independent = yes
+	monthly_income = 6
+	mercenary_type = hashshashin_composition
+}
+
+d_bektashi = {
+	color = { 90 150 0 }
+	color2 = { 255 255 255 }
+	graphical_culture = bektashigfx
+	capital = 2164
+	title = DEDEBABA
+	foa = GRANDHEADMASTER_FOA
+	holy_order = yes
+	landless = yes
+	culture = persian
+	religion = sunni
+	primary = yes
+	independent = yes
+	monthly_income = 6
+	mercenary_type = bektashi_composition
+}
+
+d_haruriyyah = {
+	color = { 150 200 80 }
+	color2 = { 255 255 255 }
+	graphical_culture = bektashigfx
+	capital = 171
+	title = DEDEBABA
+	foa = GRANDHEADMASTER_FOA
+	holy_order = yes
+	landless = yes
+	culture = bedouin_arabic
+	religion = ibadi
+	primary = yes
+	independent = yes
+	monthly_income = 6
+	mercenary_type = bektashi_composition
+}
+
+d_jomsvikings = {
+	color = { 50 50 50 }
+	color2 = { 255 255 255 }
+	graphical_culture = norseholygfx
+	capital = 899
+	title = WARCHIEF
+	foa = WARCHIEF_FOA
+	landless = yes
+	holy_order = yes
+	religion = norse_pagan
+	culture = norse
+	primary = yes
+	monthly_income = 2
+	mercenary_type = jomsvikings_composition
+}
+
+d_immortals = {
+	color = { 180 205 20 }
+	graphical_culture = immortalsgfx
+	capital = 336
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	religion = zoroastrian
+	culture = persian
+	primary = yes
+	monthly_income = 2
+	mercenary_type = immortals_composition
+}
+
+d_zealots = {
+	color = { 20 100 255 }
+	graphical_culture = jewishholygfx
+	capital = 930
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	religion = jewish
+	culture = ashkenazi
+	primary = yes
+	monthly_income = 2
+	mercenary_type = zealots_composition
+}
+
+d_holy_sepulchre = {
+	color = { 120 0 145 }
+	graphical_culture = orthodoxholygfx
+	capital = 767
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	religion = orthodox
+	culture = greek
+	primary = yes
+	monthly_income = 2
+	mercenary_type = holy_sepulchre_composition
+}
+
+d_saint_anthony = {
+	color = { 180 165 70 }
+	graphical_culture = holygfx
+	capital = 115
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	religion = miaphysite
+	culture = ethiopian
+	primary = yes
+	monthly_income = 2
+	mercenary_type = saint_anthony_composition
+}
+
+d_saint_addai = {
+	color = { 180 80 140 }
+	graphical_culture = holygfx
+	capital = 418
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	religion = nestorian
+	culture = assyrian
+	primary = yes
+	monthly_income = 2
+	mercenary_type = saint_addai_composition
+}
+
+d_sky_lords = {
+	color = { 220 200 140 }
+	capital = 250
+	title = WARCHIEF
+	foa = WARCHIEF_FOA
+	landless = yes
+	holy_order = yes
+	religion = tengri_pagan_reformed
+	culture = cuman
+	primary = yes
+	monthly_income = 2
+	mercenary_type = sky_lords_composition
+}
+
+d_spirit_guardians = {
+	color = { 120 120 55 }
+	graphical_culture = westafricanholygfx
+	capital = 1108
+	title = WARCHIEF
+	foa = WARCHIEF_FOA
+	landless = yes
+	holy_order = yes
+	religion = west_african_pagan_reformed
+	culture = manden
+	primary = yes
+	monthly_income = 2
+	mercenary_type = spirit_guardians_composition
+}
+
+d_warriors_perun = {
+	color = { 100 140 100 }
+	graphical_culture = slavicholygfx
+	capital = 946
+	title = WARCHIEF
+	foa = WARCHIEF_FOA
+	landless = yes
+	holy_order = yes
+	religion = slavic_pagan_reformed
+	culture = russian
+	primary = yes
+	monthly_income = 2
+	mercenary_type = warriors_perun_composition
+}
+
+d_chosen_perkunas = {
+	color = { 200 45 45 }
+	graphical_culture = balticholygfx
+	capital = 404
+	title = WARCHIEF
+	foa = WARCHIEF_FOA
+	landless = yes
+	holy_order = yes
+	religion = baltic_pagan_reformed
+	culture = lettigallish
+	primary = yes
+	monthly_income = 2
+	mercenary_type = chosen_perkunas_composition
+}
+
+d_sons_kaleva = {
+	color = { 140 130 105 }
+	graphical_culture = finnishholygfx
+	capital = 901
+	title = WARCHIEF
+	foa = WARCHIEF_FOA
+	landless = yes
+	holy_order = yes
+	religion = finnish_pagan_reformed
+	culture = finnish
+	primary = yes
+	monthly_income = 2
+	mercenary_type = sons_kaleva_composition
+}
+
+d_huitzilopochtli = {
+	color = { 255 200 0 }
+	graphical_culture = aztecholygfx
+	capital = 2455
+	title = HIGHPRIEST
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	religion = aztec_reformed
+	culture = nahuatl
+	primary = yes
+	monthly_income = 2
+	mercenary_type = huitzilopochtli_composition
+}
+
+d_knights_santiago = {
+	color = { 255 130 0 }
+	graphical_culture = holygfx
+	capital = 1824
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = castillan
+	religion = catholic
+	primary = yes
+	monthly_income = 6
+	mercenary_type = knights_santiago_composition
+}
+
+d_knights_calatrava = {
+	color = { 230 100 0 }
+	graphical_culture = holygfx
+	capital = 1356
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = castillan
+	religion = catholic
+	primary = yes
+	monthly_income = 6
+	mercenary_type = knights_calatrava_composition
+}
+
+d_followers_arjuna = {
+	color = { 255 0 0 }
+	color2 = { 255 255 255 }
+	capital = 142
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = hindustani
+	religion = hindu
+	primary = yes
+	monthly_income = 2
+	mercenary_type = followers_arjuna_composition
+}
+
+d_ashokas_chosen = {
+	color = { 205 100 0 }
+	color2 = { 255 255 255 }
+	capital = 1479
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = marathi
+	religion = buddhist
+	primary = yes
+	monthly_income = 2
+	mercenary_type = ashokas_chosen_composition
+}
+
+d_dralhas_children = {
+	color = { 205 100 0 }
+	color2 = { 255 255 255 }
+	capital = 84
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = bodpa
+	religion = bon_reformed
+	primary = yes
+	monthly_income = 2
+	mercenary_type = dralhas_children_composition
+}
+
+d_bulls_rishabha = {
+	color = { 255 100 0 }
+	color2 = { 255 255 255 }
+	capital = 1982
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = kannada
+	religion = jain
+	primary = yes
+	monthly_income = 2
+	mercenary_type = bulls_rishabha_composition
+}
+
+d_zun_warriors = {
+	color = { 230 255 0 }
+	capital = 2007
+	title = GRANDMASTER
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = afghan
+	religion = zun_pagan_reformed
+	primary = yes
+	monthly_income = 2
+	mercenary_type = zun_warriors_composition
+}
+
+d_myrmidons = {
+	color = { 224 125 8 }
+	capital = 1903
+	title = MEGASTRATEGOS
+	title_female = MEGASTRATEGISSA
+	foa = GRANDMASTER_FOA
+	landless = yes
+	holy_order = yes
+	culture = greek
+	religion = hellenic_pagan_reformed
+	primary = yes
+	monthly_income = 2
+	mercenary_type = myrmidons_composition
+}
+
+d_sunni_turkic_company = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+	capital = 2419
+	religion = sunni
+	culture = turkish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_sunni_cuman_company = {
+	color = { 134 155 30 }
+	color2 = { 255 255 255 }
+	capital = 2335
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+		}
+	}
+	religion = sunni
+	culture = khazar
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_sunni_berber_company = {
+	color = { 85 155 33 }
+	color2 = { 255 255 255 }
+	capital = 428
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+		}
+	}
+	religion = sunni
+	culture = maghreb_arabic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = berber_company_composition
+}
+
+d_sunni_bedouin_company = {
+	color = { 45 155 35 }
+	color2 = { 255 255 255 }
+	capital = 1967
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+		}
+	}
+	religion = sunni
+	culture = bedouin_arabic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_shiite_turkic_company = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+	capital = 1940
+	religion = shiite
+	culture = turkish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_shiite_cuman_company = {
+	color = { 130 150 30 }
+	color2 = { 255 255 255 }
+	capital = 2493
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+		}
+	}
+	religion = shiite
+	culture = cuman
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = muslim_cuman_company_composition
+}
+
+d_shiite_berber_company = {
+	color = { 90 150 30 }
+	color2 = { 255 255 255 }
+	capital = 1026
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+		}
+	}
+	religion = shiite
+	culture = maghreb_arabic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = berber_company_composition
+}
+
+d_shiite_bedouin_company = {
+	color = { 40 150 30 }
+	color2 = { 255 255 255 }
+	capital = 2141
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+		}
+	}
+	religion = shiite
+	culture = bedouin_arabic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.00
+	mercenary_type = bedouin_company_composition
+}
+
+d_white_company = {
+	color = { 235 235 235 }
+	color2 = { 255 255 255 }
+	capital = 2390
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = white_company_composition
+}
+
+d_great_company = {
+	color = { 100 100 100 }
+	color2 = { 255 255 255 }
+	capital = 37
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = great_company_composition
+}
+
+d_company_of_st_george = {
+	color = { 50 50 200 }
+	color2 = { 255 255 255 }
+	capital = 1508
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = company_of_st_george_composition
+}
+
+d_star_company = {
+	color = { 200 80 200 }
+	color2 = { 255 255 255 }
+	capital = 1252
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = star_company_composition
+}
+
+d_little_hat_company = {
+	color = { 100 200 80 }
+	color2 = { 255 255 255 }
+	capital = 170
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = little_hat_company_composition
+}
+
+d_rose_company = {
+	color = { 230 150 150 }
+	color2 = { 255 255 255 }
+	capital = 360
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = rose_company_composition
+}
+
+d_catalan_company = {
+	color = { 230 100 100 }
+	color2 = { 255 255 255 }
+	capital = 2065
+	mercenary = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+			year = 950
+		}
+	}
+	religion = catholic
+	culture = catalan
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = catalan_company_composition
+}
+
+d_navarrese_company = {
+	color = { 150 150 100 }
+	color2 = { 255 255 255 }
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	capital = 200
+	mercenary = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	culture = basque
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = navarrese_company_composition
+}
+
+d_swiss_company = {
+	color = { 150 40 40 }
+	color2 = { 255 255 255 }
+	capital = 413
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = swiss_company_composition
+}
+
+d_breton_company = {
+	color = { 150 40 40 }
+	color2 = { 255 255 255 }
+	capital = 1243
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	culture = breton
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = breton_company_composition
+}
+
+d_sardinian_company = {
+	color = { 210 165 165 }
+	color2 = { 255 255 255 }
+	capital = 655
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	culture = italian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = sardinian_company_composition
+}
+
+d_sardinian_band = {
+	color = { 210 65 65 }
+	color2 = { 255 255 255 }
+	capital = 1745
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	culture = italian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = sardinian_band_composition
+}
+
+d_victual_brothers = {
+	color = { 160 160 160 }
+	color2 = { 255 255 255 }
+	capital = 942
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+				religion = baltic_pagan
+				religion = baltic_pagan_reformed
+				religion = finnish_pagan
+				religion = finnish_pagan_reformed
+				religion_group = christian
+			}
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	mercenary_type = victual_brothers_composition
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 0.25
+}
+
+d_varangian_guard = {
+	color = { 180 180 180 }
+	color2 = { 255 255 255 }
+	graphical_culture = orthodoxholygfx
+	capital = 220
+	religion = orthodox
+	culture = norse
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	strength_growth_per_century = 0.10
+	mercenary_type = varangian_guard_composition
+}
+
+d_cuman_company = {
+	color = { 160 160 80 }
+	color2 = { 255 255 255 }
+	capital = 343
+	religion = orthodox
+	culture = cuman
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = cuman_company_composition
+}
+
+d_rus_company = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	capital = 1014
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			year = 950
+			OR = {
+				religion_group = pagan_group
+				religion_group = christian
+			}
+		}
+	}
+	religion = orthodox
+	culture = russian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = rus_company_composition
+}
+
+d_pecheneg_company = {
+	color = { 100 100 30 }
+	color2 = { 255 255 255 }
+	capital = 1378
+	religion = orthodox
+	culture = pecheneg
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = pecheneg_company_composition
+}
+
+d_bulgarian_company = {
+	color = { 100 50 30 }
+	color2 = { 255 255 255 }
+	capital = 688
+	religion = orthodox
+	culture = bulgarian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = bulgarian_company_composition
+}
+
+d_turkic_company = {
+	color = { 100 50 30 }
+	color2 = { 255 255 255 }
+	capital = 1142
+	religion = orthodox
+	culture = turkish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = turkic_company_composition
+}
+
+d_lombard_band = {
+	color = { 150 60 60 }
+	color2 = { 255 255 255 }
+	capital = 2126
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = lombard_band_composition
+}
+
+d_swiss_band = {
+	color = { 150 40 40 }
+	color2 = { 255 255 255 }
+	capital = 16
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = swiss_band_composition
+}
+
+d_breton_band = {
+	color = { 150 65 65 }
+	color2 = { 255 255 255 }
+	capital = 1237
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	culture = breton
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = breton_band_composition
+}
+
+d_catalan_band = {
+	color = { 230 100 100 }
+	color2 = { 255 255 255 }
+	capital = 210
+	mercenary = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+			year = 950
+		}
+	}
+	religion = catholic
+	culture = catalan
+	title = CONDOTTIERO
+	foa = CONDOTTIERO_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = catalan_band_composition
+}
+
+d_saxon_band = {
+	color = { 220 90 90 }
+	color2 = { 255 255 255 }
+	capital = 172
+	mercenary = yes
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				NOT = {
+					year = 1100
+				}
+				any_independent_ruler = {
+					culture = saxon
+				}
+			}
+			religion_group = christian
+		}
+	}
+	religion = catholic
+	culture = saxon
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = saxon_band_composition
+}
+
+d_cuman_band = {
+	color = { 160 160 80 }
+	color2 = { 255 255 255 }
+	capital = 140
+	religion = orthodox
+	culture = cuman
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = cuman_band_composition
+}
+
+d_rus_band = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	capital = 262
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			year = 950
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}
+	religion = orthodox
+	culture = russian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = rus_band_composition
+}
+
+d_finnish_band = {
+	color = { 131 35 35 }
+	color2 = { 255 255 255 }
+	capital = 253
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}
+	religion = finnish_pagan
+	culture = finnish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = finnish_band_composition
+}
+
+d_lappish_band = {
+	color = { 101 69 30 }
+	color2 = { 255 255 255 }
+	capital = 1064
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}
+	religion = finnish_pagan
+	culture = lappish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = lappish_band_composition
+}
+
+d_lithuanian_band = {
+	color = { 169 90 95 }
+	color2 = { 255 255 255 }
+	capital = 2408
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}
+	religion = baltic_pagan
+	culture = lithuanian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = lithuanian_band_composition
+}
+
+d_abyssinian_band = {
+	color = { 180 135 60 }
+	color2 = { 255 255 255 }
+	capital = 1464
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+			}
+		}
+	}
+	religion = miaphysite
+	culture = ethiopian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = abyssinian_band_composition
+}
+
+d_nubian_band = {
+	color = { 155 165 80 }
+	color2 = { 255 255 255 }
+	capital = 1327
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+			}
+		}
+	}
+	religion = miaphysite
+	culture = nubian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = nubian_band_composition
+}
+
+d_scottish_band = {
+	color = { 30 90 182 }
+	color2 = { 255 255 255 }
+	capital = 122
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			year = 950
+		}
+	}
+	religion = catholic
+	culture = scottish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = scottish_band_composition
+}
+
+d_irish_band = {
+	color = { 112 255 70 }
+	color2 = { 255 255 255 }
+	capital = 1892
+	allow = {
+		always = yes
+	}
+	religion = catholic
+	culture = irish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = irish_band_composition
+}
+
+d_alan_band = {
+	color = { 245 210 90 }
+	color2 = { 255 255 255 }
+	capital = 609
+	allow = {
+		always = yes
+	}
+	religion = orthodox
+	culture = alan
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = alan_band_composition
+}
+
+d_pecheneg_band = {
+	color = { 100 100 30 }
+	color2 = { 255 255 255 }
+	capital = 1218
+	religion = orthodox
+	culture = pecheneg
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = pecheneg_band_composition
+}
+
+d_bulgarian_band = {
+	color = { 100 50 30 }
+	color2 = { 255 255 255 }
+	capital = 910
+	religion = orthodox
+	culture = bulgarian
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = bulgarian_band_composition
+}
+
+d_turkic_band = {
+	color = { 100 50 30 }
+	color2 = { 255 255 255 }
+	capital = 1396
+	religion = orthodox
+	culture = turkish
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = turkic_band_composition
+}
+
+d_mamluks = {
+	color = { 80 160 80 }
+	color2 = { 255 255 255 }
+	graphical_culture = bektashigfx
+	capital = 2149
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = muslim
+		}
+	}
+	religion = shiite
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = mamluks_composition
+}
+
+d_venetian_navy = {
+	color = { 60 175 170 }
+	color2 = { 255 255 255 }
+	short_name = yes
+	capital = 2286
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+			year = 1066
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = naval_merc_composition
+}
+
+d_genoese_navy = {
+	color = { 224 161 120 }
+	color2 = { 255 255 255 }
+	short_name = yes
+	capital = 1465
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+			year = 1066
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = naval_merc_composition
+}
+
+d_hanseatic_navy = {
+	color = { 150 150 150 }
+	color2 = { 255 255 255 }
+	short_name = yes
+	capital = 1791
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+			year = 1066
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = naval_merc_composition
+}
+
+d_frisian_navy = {
+	color = { 245 80 20 }
+	color2 = { 255 255 255 }
+	short_name = yes
+	capital = 2442
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = christian
+			year = 1066
+		}
+	}
+	religion = catholic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = naval_merc_composition
+}
+
+d_maghreb_corsairs = {
+	color = { 174 237 125 }
+	color2 = { 255 255 255 }
+	short_name = yes
+	capital = 1066
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = muslim
+			year = 1066
+		}
+	}
+	religion = sunni
+	culture = maghreb_arabic
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	mercenary_type = naval_merc_composition
+}
+
+d_ghilman = {
+	color = { 60 165 80 }
+	color2 = { 255 255 255 }
+	graphical_culture = bektashigfx
+	capital = 1341
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = muslim
+		}
+	}
+	religion = sunni
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = ghilman_composition
+}
+
+d_ghanan_band = {
+	color = { 108 123 48 }
+	color2 = { 255 255 255 }
+	capital = 1328
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			culture_group = west_african
+		}
+	}
+	religion = west_african_pagan
+	culture = manden
+	mercenary = yes
+	title = CAPTAIN
+	foa = CAPTAIN_FOA
+	landless = yes
+	primary = yes
+	independent = yes
+	strength_growth_per_century = 1.0
+	mercenary_type = ghanan_band_composition
+}
+
