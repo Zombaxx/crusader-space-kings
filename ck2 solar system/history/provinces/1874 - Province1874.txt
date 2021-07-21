@@ -1,0 +1,15 @@
+# 1874 - Province1874
+
+# County Title
+title = c_province1874
+
+# Settlements
+max_settlements = 5
+b_barony1874` = tribal
+b_barony1874a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

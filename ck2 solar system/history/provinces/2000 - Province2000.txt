@@ -1,0 +1,14 @@
+# 2000 - Province2000
+
+# County Title
+title = c_province2000
+
+# Settlements
+max_settlements = 4
+b_barony2000` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 2087 - Province2087
+
+# County Title
+title = c_province2087
+
+# Settlements
+max_settlements = 4
+b_barony2087` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

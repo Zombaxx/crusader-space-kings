@@ -1,0 +1,14 @@
+# 1859 - Province1859
+
+# County Title
+title = c_province1859
+
+# Settlements
+max_settlements = 3
+b_barony1859` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

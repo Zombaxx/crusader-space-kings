@@ -1,0 +1,14 @@
+# 934 - Province0934
+
+# County Title
+title = c_province0934
+
+# Settlements
+max_settlements = 3
+b_barony0934` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

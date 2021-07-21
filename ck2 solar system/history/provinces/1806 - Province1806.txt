@@ -1,0 +1,14 @@
+# 1806 - Province1806
+
+# County Title
+title = c_province1806
+
+# Settlements
+max_settlements = 4
+b_barony1806` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

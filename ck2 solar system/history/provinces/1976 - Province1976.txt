@@ -1,0 +1,14 @@
+# 1976 - Province1976
+
+# County Title
+title = c_province1976
+
+# Settlements
+max_settlements = 4
+b_barony1976` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

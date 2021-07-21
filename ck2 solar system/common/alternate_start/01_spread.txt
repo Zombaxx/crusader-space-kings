@@ -1,0 +1,398 @@
+adjacencies = {
+	719 = 788 #Province0719 - Province0788
+	178 = 160 #Province0178 - Province0160
+	640 = 667 #Province0640 - Province0667
+	959 = 956 #Province0959 - Province0956
+	1055 = 1091 #Province1055 - Province1091
+	1158 = 1072 #Province1158 - Province1072
+	1179 = 1158 #Province1179 - Province1158
+	1396 = 1351 #Province1396 - Province1351
+	1413 = 1452 #Province1413 - Province1452
+	1451 = 1349 #Province1451 - Province1349
+	1462 = 1544 #Province1462 - Province1544
+	1460 = 1423 #Province1460 - Province1423
+	1689 = 1590 #Province1689 - Province1590
+	1770 = 1759 #Province1770 - Province1759
+	1961 = 1971 #Province1961 - Province1971
+	1950 = 1823 #Province1950 - Province1823
+	2040 = 2055 #Province2040 - Province2055
+	2272 = 2295 #Province2272 - Province2295
+	2172 = 2165 #Province2172 - Province2165
+	2299 = 2165 #Province2299 - Province2165
+	2228 = 2225 #Province2228 - Province2225
+	2283 = 2225 #Province2283 - Province2225
+	2342 = 2339 #Province2342 - Province2339
+	2346 = 2333 #Province2346 - Province2333
+	2404 = 2395 #Province2404 - Province2395
+	2469 = 2448 #Province2469 - Province2448
+}
+
+
+culture_group_spread = {
+	factor = 100
+	modifier = {
+		factor = 10
+		num_culture_provinces < 28
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 42
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 56
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 70
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 84
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 98
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 112
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 126
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 140
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 154
+	}
+	#TODO: Add culture_group specific modifiers here
+}
+
+culture_spread = {
+	factor = 100
+	modifier = {
+		factor = 10
+		num_culture_provinces < 3
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 5
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 10
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 15
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 20
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 25
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 30
+	}
+	#TODO: Add culture specific modifiers here
+}
+
+
+religion_group_spawn = {
+	factor = 100
+	modifier = {
+		factor = 0.001
+		any_religion_distance < 200
+	}
+	modifier = {
+		factor = 0.1
+		any_religion_distance < 350
+	}
+	modifier = { # Avoid starting on islands
+		factor = 0.1
+		is_island = yes
+	}
+}
+
+religion_group_spread = {
+	factor = 100
+	modifier = {
+		factor = 10
+		num_religion_provinces < 28
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 42
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 56
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 70
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 84
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 98
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 112
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 126
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 140
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 154
+	}
+	#TODO: Add religion_group specific modifiers here
+}
+
+religion_spread = {
+	factor = 100
+	modifier = {
+		factor = 10
+		num_religion_provinces < 3
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 5
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 10
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 15
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 20
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 25
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 30
+	}
+	#TODO: Add religion specific modifiers here
+}
+
+
+dejure_kingdom_spread = {
+	factor = 100
+	modifier = {
+		factor = 10
+		distance = { where = FROM value < 100 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 200 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 300 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 400 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 500 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 600 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 700 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 800 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 900 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 1000 }
+	}
+	modifier = { #Island kingdoms should stick to islands
+		factor = 0.01
+		OR = {
+			AND = {
+				is_island = yes
+				FROMFROM = { is_island = no }
+			AND = {
+			}
+				is_island = no
+				FROMFROM = { is_island = yes }
+			}
+		}
+	}
+}
+
+dejure_empire_spread = {
+	factor = 100
+	modifier = {
+		factor = 5
+		distance = { where = FROM value < 100 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 200 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 300 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 400 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 500 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 600 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 700 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 800 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 900 }
+	}
+	modifier = {
+		factor = 0.6
+		distance = { where = FROM value > 1000 }
+	}
+	modifier = { #Island empires should stick to islands
+		factor = 0.01
+		OR = {
+			AND = {
+				is_island = yes
+				FROMFROM = { is_island = no }
+			AND = {
+			}
+				is_island = no
+				FROMFROM = { is_island = yes }
+			}
+		}
+	}
+}
+
+
+holy_site_spread = {
+	factor = 100
+	# We want three holy sites within the religion's borders, and two outside
+	modifier = {
+		factor = 0
+		NOT = { religion = FROM }
+		FROM = { num_holy_sites_generated < 1 }
+	}
+	modifier = {
+		factor = 0.01
+		NOT = { religion = FROM }
+		NOT = { parent_religion = { religion = FROM } }
+		FROM = { num_holy_sites_generated < 3 }
+	}
+	modifier = {
+		factor = 0.001
+		NOT = { religion_group = FROM }
+		FROM = { num_holy_sites_generated < 3 }
+	}
+	modifier = {
+		factor = 0.001
+		religion = FROM
+		FROM = { num_holy_sites_generated >= 3 }
+	}
+	# Stay near our borders
+	modifier = {
+		factor = 2
+		religion_group = FROM
+	}
+	# Avoid clustering
+	modifier = {
+		factor = 0 # We simply never want to be adjacent to a holy site
+		any_neighbor_province = {
+			is_holy_site = FROM
+		}
+	}
+	modifier = {
+		factor = 0
+		holy_site_distance = { target = FROM value < 100 }
+	}
+	modifier = {
+		factor = 0.01
+		holy_site_distance = { target = FROM value < 200 }
+	}
+	modifier = {
+		factor = 0.1
+		holy_site_distance = { target = FROM value < 300 }
+	}
+	modifier = {
+		factor = 20
+		holy_site_distance = { target = FROM value > 500 }
+	}
+	modifier = {
+		factor = 0 # We use this as a proxy for religion distance, because religion distance is expensive to calculate
+		NOT = { religion = FROM }
+		NAND = {
+			parent_religion = { religion = FROM }
+			FROM = { num_holy_sites_generated >= 3 } # Heresies can put their 3rd holy site in their parent religion
+		}
+		FROM = { num_holy_sites_generated > 0 }
+		holy_site_distance = { target = FROM value > 400 }
+	}
+	# Sharing some holy sites with parent religion is neat
+	modifier = {
+		factor = 100
+		FROM = {
+			parent_religion = {
+				ROOT = {
+					is_holy_site = PREV
+				}
+			}
+		}
+	}
+}
+
+
+holding_spread = {
+	factor = 100
+}

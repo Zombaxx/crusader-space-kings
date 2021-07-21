@@ -1,0 +1,14 @@
+# 2085 - Province2085
+
+# County Title
+title = c_province2085
+
+# Settlements
+max_settlements = 4
+b_barony2085` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

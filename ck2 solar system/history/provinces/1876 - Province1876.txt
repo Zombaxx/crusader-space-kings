@@ -1,0 +1,15 @@
+# 1876 - Province1876
+
+# County Title
+title = c_province1876
+
+# Settlements
+max_settlements = 5
+b_barony1876` = tribal
+b_barony1876a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

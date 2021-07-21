@@ -1,0 +1,14 @@
+# 1171 - Province1171
+
+# County Title
+title = c_province1171
+
+# Settlements
+max_settlements = 3
+b_barony1171` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

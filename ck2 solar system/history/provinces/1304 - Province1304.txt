@@ -1,0 +1,14 @@
+# 1304 - Province1304
+
+# County Title
+title = c_province1304
+
+# Settlements
+max_settlements = 3
+b_barony1304` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

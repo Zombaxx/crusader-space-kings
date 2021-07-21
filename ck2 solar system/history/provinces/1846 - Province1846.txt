@@ -1,0 +1,15 @@
+# 1846 - Province1846
+
+# County Title
+title = c_province1846
+
+# Settlements
+max_settlements = 6
+b_barony1846` = tribal
+b_barony1846a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

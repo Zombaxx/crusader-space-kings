@@ -1,0 +1,14 @@
+# 1904 - Province1904
+
+# County Title
+title = c_province1904
+
+# Settlements
+max_settlements = 3
+b_barony1904` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

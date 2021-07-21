@@ -1,0 +1,14 @@
+# 1636 - Province1636
+
+# County Title
+title = c_province1636
+
+# Settlements
+max_settlements = 4
+b_barony1636` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,15 @@
+# 1362 - Province1362
+
+# County Title
+title = c_province1362
+
+# Settlements
+max_settlements = 5
+b_barony1362` = tribal
+b_barony1362a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

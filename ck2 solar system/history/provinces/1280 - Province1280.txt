@@ -1,0 +1,14 @@
+# 1280 - Province1280
+
+# County Title
+title = c_province1280
+
+# Settlements
+max_settlements = 4
+b_barony1280` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

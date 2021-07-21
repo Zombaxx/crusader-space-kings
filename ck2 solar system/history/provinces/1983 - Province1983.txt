@@ -1,0 +1,15 @@
+# 1983 - Province1983
+
+# County Title
+title = c_province1983
+
+# Settlements
+max_settlements = 5
+b_barony1983` = tribal
+b_barony1983a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

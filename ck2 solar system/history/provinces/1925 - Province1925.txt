@@ -1,0 +1,15 @@
+# 1925 - Province1925
+
+# County Title
+title = c_province1925
+
+# Settlements
+max_settlements = 5
+b_barony1925` = tribal
+b_barony1925a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

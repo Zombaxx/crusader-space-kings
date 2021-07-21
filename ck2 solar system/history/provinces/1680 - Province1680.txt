@@ -1,0 +1,14 @@
+# 1680 - Province1680
+
+# County Title
+title = c_province1680
+
+# Settlements
+max_settlements = 4
+b_barony1680` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

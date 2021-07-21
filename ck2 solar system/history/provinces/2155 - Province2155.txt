@@ -1,0 +1,15 @@
+# 2155 - Province2155
+
+# County Title
+title = c_province2155
+
+# Settlements
+max_settlements = 6
+b_barony2155` = tribal
+b_barony2155a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

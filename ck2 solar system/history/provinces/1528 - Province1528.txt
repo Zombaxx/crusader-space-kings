@@ -1,0 +1,14 @@
+# 1528 - Province1528
+
+# County Title
+title = c_province1528
+
+# Settlements
+max_settlements = 2
+b_barony1528` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 1529 - Province1529
+
+# County Title
+title = c_province1529
+
+# Settlements
+max_settlements = 3
+b_barony1529` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

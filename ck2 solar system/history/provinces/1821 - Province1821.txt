@@ -1,0 +1,14 @@
+# 1821 - Province1821
+
+# County Title
+title = c_province1821
+
+# Settlements
+max_settlements = 4
+b_barony1821` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

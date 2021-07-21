@@ -1,0 +1,14 @@
+# 2273 - Province2273
+
+# County Title
+title = c_province2273
+
+# Settlements
+max_settlements = 3
+b_barony2273` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,15 @@
+# 1578 - Province1578
+
+# County Title
+title = c_province1578
+
+# Settlements
+max_settlements = 2
+b_barony1578` = tribal
+b_barony1578a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

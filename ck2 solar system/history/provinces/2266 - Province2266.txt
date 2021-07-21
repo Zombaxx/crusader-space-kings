@@ -1,0 +1,14 @@
+# 2266 - Province2266
+
+# County Title
+title = c_province2266
+
+# Settlements
+max_settlements = 4
+b_barony2266` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

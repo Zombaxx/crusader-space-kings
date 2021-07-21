@@ -1,0 +1,14 @@
+# 2385 - Province2385
+
+# County Title
+title = c_province2385
+
+# Settlements
+max_settlements = 3
+b_barony2385` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

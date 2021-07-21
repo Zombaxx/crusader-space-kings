@@ -1,0 +1,14 @@
+# 1969 - Province1969
+
+# County Title
+title = c_province1969
+
+# Settlements
+max_settlements = 3
+b_barony1969` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

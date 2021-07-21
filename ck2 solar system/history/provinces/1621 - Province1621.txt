@@ -1,0 +1,14 @@
+# 1621 - Province1621
+
+# County Title
+title = c_province1621
+
+# Settlements
+max_settlements = 3
+b_barony1621` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

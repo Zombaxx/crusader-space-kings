@@ -1,0 +1,15 @@
+# 1905 - Province1905
+
+# County Title
+title = c_province1905
+
+# Settlements
+max_settlements = 5
+b_barony1905` = tribal
+b_barony1905a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

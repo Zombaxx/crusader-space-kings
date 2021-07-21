@@ -1,0 +1,14 @@
+# 1712 - Province1712
+
+# County Title
+title = c_province1712
+
+# Settlements
+max_settlements = 1
+b_barony1712` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

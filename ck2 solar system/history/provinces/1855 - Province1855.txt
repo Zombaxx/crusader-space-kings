@@ -1,0 +1,14 @@
+# 1855 - Province1855
+
+# County Title
+title = c_province1855
+
+# Settlements
+max_settlements = 4
+b_barony1855` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

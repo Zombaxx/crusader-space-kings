@@ -1,0 +1,14 @@
+# 1920 - Province1920
+
+# County Title
+title = c_province1920
+
+# Settlements
+max_settlements = 3
+b_barony1920` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

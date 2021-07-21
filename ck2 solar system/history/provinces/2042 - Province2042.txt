@@ -1,0 +1,14 @@
+# 2042 - Province2042
+
+# County Title
+title = c_province2042
+
+# Settlements
+max_settlements = 3
+b_barony2042` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

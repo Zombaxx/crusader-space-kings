@@ -1,0 +1,15 @@
+# 2248 - Province2248
+
+# County Title
+title = c_province2248
+
+# Settlements
+max_settlements = 6
+b_barony2248` = tribal
+b_barony2248a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

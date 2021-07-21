@@ -1,0 +1,15 @@
+# 1957 - Province1957
+
+# County Title
+title = c_province1957
+
+# Settlements
+max_settlements = 6
+b_barony1957` = tribal
+b_barony1957a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

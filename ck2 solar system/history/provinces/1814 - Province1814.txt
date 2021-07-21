@@ -1,0 +1,15 @@
+# 1814 - Province1814
+
+# County Title
+title = c_province1814
+
+# Settlements
+max_settlements = 6
+b_barony1814` = tribal
+b_barony1814a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

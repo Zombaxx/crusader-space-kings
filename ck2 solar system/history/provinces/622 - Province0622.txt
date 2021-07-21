@@ -1,0 +1,14 @@
+# 622 - Province0622
+
+# County Title
+title = c_province0622
+
+# Settlements
+max_settlements = 3
+b_barony0622` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

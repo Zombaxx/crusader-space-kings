@@ -1,0 +1,15 @@
+# 2045 - Province2045
+
+# County Title
+title = c_province2045
+
+# Settlements
+max_settlements = 5
+b_barony2045` = tribal
+b_barony2045a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 1864 - Province1864
+
+# County Title
+title = c_province1864
+
+# Settlements
+max_settlements = 4
+b_barony1864` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

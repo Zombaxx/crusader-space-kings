@@ -1,0 +1,14 @@
+# 2445 - Province2445
+
+# County Title
+title = c_province2445
+
+# Settlements
+max_settlements = 4
+b_barony2445` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

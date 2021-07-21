@@ -1,0 +1,15 @@
+# 1763 - Province1763
+
+# County Title
+title = c_province1763
+
+# Settlements
+max_settlements = 6
+b_barony1763` = tribal
+b_barony1763a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

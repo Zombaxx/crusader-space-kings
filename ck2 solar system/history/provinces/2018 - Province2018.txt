@@ -1,0 +1,15 @@
+# 2018 - Province2018
+
+# County Title
+title = c_province2018
+
+# Settlements
+max_settlements = 5
+b_barony2018` = tribal
+b_barony2018a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

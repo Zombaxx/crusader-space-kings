@@ -1,0 +1,15 @@
+# 2180 - Province2180
+
+# County Title
+title = c_province2180
+
+# Settlements
+max_settlements = 5
+b_barony2180` = tribal
+b_barony2180a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 388 - Province0388
+
+# County Title
+title = c_province0388
+
+# Settlements
+max_settlements = 4
+b_barony0388` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

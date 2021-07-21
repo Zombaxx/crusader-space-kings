@@ -1,0 +1,14 @@
+# 1888 - Province1888
+
+# County Title
+title = c_province1888
+
+# Settlements
+max_settlements = 4
+b_barony1888` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

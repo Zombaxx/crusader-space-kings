@@ -1,0 +1,14 @@
+# 1990 - Province1990
+
+# County Title
+title = c_province1990
+
+# Settlements
+max_settlements = 3
+b_barony1990` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

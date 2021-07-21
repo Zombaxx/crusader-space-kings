@@ -1,0 +1,15 @@
+# 2043 - Province2043
+
+# County Title
+title = c_province2043
+
+# Settlements
+max_settlements = 6
+b_barony2043` = tribal
+b_barony2043a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

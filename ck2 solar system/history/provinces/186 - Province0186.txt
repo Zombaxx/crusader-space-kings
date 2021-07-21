@@ -1,0 +1,14 @@
+# 186 - Province0186
+
+# County Title
+title = c_province0186
+
+# Settlements
+max_settlements = 4
+b_barony0186` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

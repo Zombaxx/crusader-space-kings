@@ -1,0 +1,14 @@
+# 1878 - Province1878
+
+# County Title
+title = c_province1878
+
+# Settlements
+max_settlements = 4
+b_barony1878` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

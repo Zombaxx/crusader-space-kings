@@ -1,0 +1,14 @@
+# 959 - Province0959
+
+# County Title
+title = c_province0959
+
+# Settlements
+max_settlements = 3
+b_barony0959` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

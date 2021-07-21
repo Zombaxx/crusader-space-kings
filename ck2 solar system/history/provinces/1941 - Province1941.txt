@@ -1,0 +1,15 @@
+# 1941 - Province1941
+
+# County Title
+title = c_province1941
+
+# Settlements
+max_settlements = 7
+b_barony1941` = tribal
+b_barony1941a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,15 @@
+# 1886 - Province1886
+
+# County Title
+title = c_province1886
+
+# Settlements
+max_settlements = 5
+b_barony1886` = tribal
+b_barony1886a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

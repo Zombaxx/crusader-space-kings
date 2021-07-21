@@ -1,0 +1,14 @@
+# 1786 - Province1786
+
+# County Title
+title = c_province1786
+
+# Settlements
+max_settlements = 3
+b_barony1786` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

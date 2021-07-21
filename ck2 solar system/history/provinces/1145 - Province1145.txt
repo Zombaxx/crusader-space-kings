@@ -1,0 +1,15 @@
+# 1145 - Province1145
+
+# County Title
+title = c_province1145
+
+# Settlements
+max_settlements = 5
+b_barony1145` = tribal
+b_barony1145a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

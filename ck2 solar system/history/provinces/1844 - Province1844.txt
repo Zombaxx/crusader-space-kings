@@ -1,0 +1,15 @@
+# 1844 - Province1844
+
+# County Title
+title = c_province1844
+
+# Settlements
+max_settlements = 7
+b_barony1844` = tribal
+b_barony1844a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

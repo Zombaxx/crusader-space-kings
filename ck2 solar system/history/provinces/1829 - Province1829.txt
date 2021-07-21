@@ -1,0 +1,14 @@
+# 1829 - Province1829
+
+# County Title
+title = c_province1829
+
+# Settlements
+max_settlements = 4
+b_barony1829` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

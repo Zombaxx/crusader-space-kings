@@ -1,0 +1,14 @@
+# 2158 - Province2158
+
+# County Title
+title = c_province2158
+
+# Settlements
+max_settlements = 4
+b_barony2158` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

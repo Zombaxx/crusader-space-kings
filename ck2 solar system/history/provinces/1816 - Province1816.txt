@@ -1,0 +1,15 @@
+# 1816 - Province1816
+
+# County Title
+title = c_province1816
+
+# Settlements
+max_settlements = 5
+b_barony1816` = tribal
+b_barony1816a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,15 @@
+# 1951 - Province1951
+
+# County Title
+title = c_province1951
+
+# Settlements
+max_settlements = 5
+b_barony1951` = tribal
+b_barony1951a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

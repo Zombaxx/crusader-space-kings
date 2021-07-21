@@ -1,0 +1,14 @@
+# 1931 - Province1931
+
+# County Title
+title = c_province1931
+
+# Settlements
+max_settlements = 4
+b_barony1931` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

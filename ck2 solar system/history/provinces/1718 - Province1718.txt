@@ -1,0 +1,14 @@
+# 1718 - Province1718
+
+# County Title
+title = c_province1718
+
+# Settlements
+max_settlements = 3
+b_barony1718` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

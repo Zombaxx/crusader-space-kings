@@ -1,0 +1,14 @@
+# 551 - Province0551
+
+# County Title
+title = c_province0551
+
+# Settlements
+max_settlements = 3
+b_barony0551` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

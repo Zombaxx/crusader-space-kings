@@ -1,0 +1,14 @@
+# 2003 - Province2003
+
+# County Title
+title = c_province2003
+
+# Settlements
+max_settlements = 4
+b_barony2003` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

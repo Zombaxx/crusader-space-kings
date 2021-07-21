@@ -1,0 +1,14 @@
+# 1635 - Province1635
+
+# County Title
+title = c_province1635
+
+# Settlements
+max_settlements = 3
+b_barony1635` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

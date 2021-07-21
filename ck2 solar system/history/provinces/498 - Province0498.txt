@@ -1,0 +1,14 @@
+# 498 - Province0498
+
+# County Title
+title = c_province0498
+
+# Settlements
+max_settlements = 4
+b_barony0498` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

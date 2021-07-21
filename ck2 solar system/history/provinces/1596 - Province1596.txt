@@ -1,0 +1,15 @@
+# 1596 - Province1596
+
+# County Title
+title = c_province1596
+
+# Settlements
+max_settlements = 6
+b_barony1596` = tribal
+b_barony1596a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

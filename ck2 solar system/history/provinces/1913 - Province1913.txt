@@ -1,0 +1,14 @@
+# 1913 - Province1913
+
+# County Title
+title = c_province1913
+
+# Settlements
+max_settlements = 4
+b_barony1913` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

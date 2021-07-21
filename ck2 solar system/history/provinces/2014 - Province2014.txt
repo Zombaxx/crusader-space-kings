@@ -1,0 +1,15 @@
+# 2014 - Province2014
+
+# County Title
+title = c_province2014
+
+# Settlements
+max_settlements = 5
+b_barony2014` = tribal
+b_barony2014a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

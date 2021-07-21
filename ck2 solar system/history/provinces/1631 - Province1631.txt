@@ -1,0 +1,14 @@
+# 1631 - Province1631
+
+# County Title
+title = c_province1631
+
+# Settlements
+max_settlements = 2
+b_barony1631` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

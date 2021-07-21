@@ -1,0 +1,15 @@
+# 1658 - Province1658
+
+# County Title
+title = c_province1658
+
+# Settlements
+max_settlements = 6
+b_barony1658` = tribal
+b_barony1658a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

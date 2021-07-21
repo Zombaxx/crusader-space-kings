@@ -1,0 +1,14 @@
+# 1095 - Province1095
+
+# County Title
+title = c_province1095
+
+# Settlements
+max_settlements = 3
+b_barony1095` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

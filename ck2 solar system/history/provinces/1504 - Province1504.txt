@@ -1,0 +1,14 @@
+# 1504 - Province1504
+
+# County Title
+title = c_province1504
+
+# Settlements
+max_settlements = 4
+b_barony1504` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

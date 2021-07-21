@@ -1,0 +1,14 @@
+# 610 - Province0610
+
+# County Title
+title = c_province0610
+
+# Settlements
+max_settlements = 3
+b_barony0610` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

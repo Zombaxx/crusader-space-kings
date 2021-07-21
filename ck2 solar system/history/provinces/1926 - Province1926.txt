@@ -1,0 +1,15 @@
+# 1926 - Province1926
+
+# County Title
+title = c_province1926
+
+# Settlements
+max_settlements = 5
+b_barony1926` = tribal
+b_barony1926a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

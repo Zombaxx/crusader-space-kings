@@ -1,0 +1,14 @@
+# 2170 - Province2170
+
+# County Title
+title = c_province2170
+
+# Settlements
+max_settlements = 4
+b_barony2170` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

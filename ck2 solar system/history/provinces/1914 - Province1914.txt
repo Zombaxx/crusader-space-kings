@@ -1,0 +1,14 @@
+# 1914 - Province1914
+
+# County Title
+title = c_province1914
+
+# Settlements
+max_settlements = 3
+b_barony1914` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

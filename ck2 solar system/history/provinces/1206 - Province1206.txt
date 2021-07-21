@@ -1,0 +1,14 @@
+# 1206 - Province1206
+
+# County Title
+title = c_province1206
+
+# Settlements
+max_settlements = 3
+b_barony1206` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

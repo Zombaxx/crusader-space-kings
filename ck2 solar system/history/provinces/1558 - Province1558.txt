@@ -1,0 +1,14 @@
+# 1558 - Province1558
+
+# County Title
+title = c_province1558
+
+# Settlements
+max_settlements = 4
+b_barony1558` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

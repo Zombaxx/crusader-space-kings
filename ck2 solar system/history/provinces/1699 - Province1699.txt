@@ -1,0 +1,14 @@
+# 1699 - Province1699
+
+# County Title
+title = c_province1699
+
+# Settlements
+max_settlements = 4
+b_barony1699` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

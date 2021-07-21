@@ -1,0 +1,15 @@
+# 2234 - Province2234
+
+# County Title
+title = c_province2234
+
+# Settlements
+max_settlements = 6
+b_barony2234` = tribal
+b_barony2234a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 1901 - Province1901
+
+# County Title
+title = c_province1901
+
+# Settlements
+max_settlements = 4
+b_barony1901` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

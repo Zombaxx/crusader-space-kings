@@ -1,0 +1,15 @@
+# 1780 - Province1780
+
+# County Title
+title = c_province1780
+
+# Settlements
+max_settlements = 5
+b_barony1780` = tribal
+b_barony1780a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 453 - Province0453
+
+# County Title
+title = c_province0453
+
+# Settlements
+max_settlements = 3
+b_barony0453` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

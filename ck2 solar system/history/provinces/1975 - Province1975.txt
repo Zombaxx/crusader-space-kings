@@ -1,0 +1,15 @@
+# 1975 - Province1975
+
+# County Title
+title = c_province1975
+
+# Settlements
+max_settlements = 6
+b_barony1975` = tribal
+b_barony1975a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

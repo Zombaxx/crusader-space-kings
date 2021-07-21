@@ -1,0 +1,15 @@
+# 1706 - Province1706
+
+# County Title
+title = c_province1706
+
+# Settlements
+max_settlements = 5
+b_barony1706` = tribal
+b_barony1706a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 1963 - Province1963
+
+# County Title
+title = c_province1963
+
+# Settlements
+max_settlements = 4
+b_barony1963` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

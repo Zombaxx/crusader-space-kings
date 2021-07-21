@@ -1,0 +1,15 @@
+# 2306 - Province2306
+
+# County Title
+title = c_province2306
+
+# Settlements
+max_settlements = 5
+b_barony2306` = tribal
+b_barony2306a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

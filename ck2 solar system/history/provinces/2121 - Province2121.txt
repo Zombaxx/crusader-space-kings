@@ -1,0 +1,15 @@
+# 2121 - Province2121
+
+# County Title
+title = c_province2121
+
+# Settlements
+max_settlements = 5
+b_barony2121` = tribal
+b_barony2121a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

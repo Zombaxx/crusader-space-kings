@@ -1,0 +1,15 @@
+# 2371 - Province2371
+
+# County Title
+title = c_province2371
+
+# Settlements
+max_settlements = 6
+b_barony2371` = tribal
+b_barony2371a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

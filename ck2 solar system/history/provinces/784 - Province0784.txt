@@ -1,0 +1,14 @@
+# 784 - Province0784
+
+# County Title
+title = c_province0784
+
+# Settlements
+max_settlements = 3
+b_barony0784` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

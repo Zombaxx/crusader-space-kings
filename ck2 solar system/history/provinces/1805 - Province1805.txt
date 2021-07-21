@@ -1,0 +1,14 @@
+# 1805 - Province1805
+
+# County Title
+title = c_province1805
+
+# Settlements
+max_settlements = 4
+b_barony1805` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

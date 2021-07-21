@@ -1,0 +1,14 @@
+# 690 - Province0690
+
+# County Title
+title = c_province0690
+
+# Settlements
+max_settlements = 2
+b_barony0690` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 1540 - Province1540
+
+# County Title
+title = c_province1540
+
+# Settlements
+max_settlements = 3
+b_barony1540` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

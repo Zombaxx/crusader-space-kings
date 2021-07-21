@@ -1,0 +1,14 @@
+# 1910 - Province1910
+
+# County Title
+title = c_province1910
+
+# Settlements
+max_settlements = 3
+b_barony1910` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

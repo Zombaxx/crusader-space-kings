@@ -1,0 +1,14 @@
+# 1948 - Province1948
+
+# County Title
+title = c_province1948
+
+# Settlements
+max_settlements = 3
+b_barony1948` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

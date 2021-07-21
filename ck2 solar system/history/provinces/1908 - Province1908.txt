@@ -1,0 +1,14 @@
+# 1908 - Province1908
+
+# County Title
+title = c_province1908
+
+# Settlements
+max_settlements = 3
+b_barony1908` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

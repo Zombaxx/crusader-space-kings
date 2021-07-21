@@ -1,0 +1,14 @@
+# 1972 - Province1972
+
+# County Title
+title = c_province1972
+
+# Settlements
+max_settlements = 4
+b_barony1972` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

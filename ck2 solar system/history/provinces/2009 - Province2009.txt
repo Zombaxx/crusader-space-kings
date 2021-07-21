@@ -1,0 +1,15 @@
+# 2009 - Province2009
+
+# County Title
+title = c_province2009
+
+# Settlements
+max_settlements = 5
+b_barony2009` = tribal
+b_barony2009a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

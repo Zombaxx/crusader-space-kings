@@ -1,0 +1,14 @@
+# 2352 - Province2352
+
+# County Title
+title = c_province2352
+
+# Settlements
+max_settlements = 4
+b_barony2352` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

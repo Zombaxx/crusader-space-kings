@@ -1,0 +1,15 @@
+# 2315 - Province2315
+
+# County Title
+title = c_province2315
+
+# Settlements
+max_settlements = 5
+b_barony2315` = tribal
+b_barony2315a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 1836 - Province1836
+
+# County Title
+title = c_province1836
+
+# Settlements
+max_settlements = 4
+b_barony1836` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

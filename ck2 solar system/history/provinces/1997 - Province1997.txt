@@ -1,0 +1,14 @@
+# 1997 - Province1997
+
+# County Title
+title = c_province1997
+
+# Settlements
+max_settlements = 3
+b_barony1997` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,15 @@
+# 1928 - Province1928
+
+# County Title
+title = c_province1928
+
+# Settlements
+max_settlements = 6
+b_barony1928` = tribal
+b_barony1928a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

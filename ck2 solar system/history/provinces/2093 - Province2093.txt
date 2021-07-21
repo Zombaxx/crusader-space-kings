@@ -1,0 +1,15 @@
+# 2093 - Province2093
+
+# County Title
+title = c_province2093
+
+# Settlements
+max_settlements = 5
+b_barony2093` = tribal
+b_barony2093a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

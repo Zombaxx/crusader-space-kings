@@ -1,0 +1,14 @@
+# 1060 - Province1060
+
+# County Title
+title = c_province1060
+
+# Settlements
+max_settlements = 3
+b_barony1060` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

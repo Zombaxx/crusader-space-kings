@@ -1,0 +1,14 @@
+# 1929 - Province1929
+
+# County Title
+title = c_province1929
+
+# Settlements
+max_settlements = 3
+b_barony1929` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

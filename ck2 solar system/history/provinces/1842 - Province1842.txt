@@ -1,0 +1,14 @@
+# 1842 - Province1842
+
+# County Title
+title = c_province1842
+
+# Settlements
+max_settlements = 3
+b_barony1842` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

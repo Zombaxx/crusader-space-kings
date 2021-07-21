@@ -1,0 +1,14 @@
+# 2198 - Province2198
+
+# County Title
+title = c_province2198
+
+# Settlements
+max_settlements = 3
+b_barony2198` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

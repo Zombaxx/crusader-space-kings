@@ -1,0 +1,14 @@
+# 2022 - Province2022
+
+# County Title
+title = c_province2022
+
+# Settlements
+max_settlements = 4
+b_barony2022` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 1952 - Province1952
+
+# County Title
+title = c_province1952
+
+# Settlements
+max_settlements = 3
+b_barony1952` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

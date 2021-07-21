@@ -1,0 +1,14 @@
+# 1980 - Province1980
+
+# County Title
+title = c_province1980
+
+# Settlements
+max_settlements = 4
+b_barony1980` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,15 @@
+# 1871 - Province1871
+
+# County Title
+title = c_province1871
+
+# Settlements
+max_settlements = 5
+b_barony1871` = tribal
+b_barony1871a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

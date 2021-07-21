@@ -1,0 +1,14 @@
+# 2020 - Province2020
+
+# County Title
+title = c_province2020
+
+# Settlements
+max_settlements = 1
+b_barony2020` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

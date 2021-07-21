@@ -1,0 +1,14 @@
+# 1845 - Province1845
+
+# County Title
+title = c_province1845
+
+# Settlements
+max_settlements = 4
+b_barony1845` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

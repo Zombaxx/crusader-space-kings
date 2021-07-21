@@ -1,0 +1,15 @@
+# 1748 - Province1748
+
+# County Title
+title = c_province1748
+
+# Settlements
+max_settlements = 2
+b_barony1748` = tribal
+b_barony1748a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

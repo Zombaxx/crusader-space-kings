@@ -1,0 +1,15 @@
+# 2159 - Province2159
+
+# County Title
+title = c_province2159
+
+# Settlements
+max_settlements = 5
+b_barony2159` = tribal
+b_barony2159a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

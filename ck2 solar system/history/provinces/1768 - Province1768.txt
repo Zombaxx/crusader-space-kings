@@ -1,0 +1,15 @@
+# 1768 - Province1768
+
+# County Title
+title = c_province1768
+
+# Settlements
+max_settlements = 5
+b_barony1768` = tribal
+b_barony1768a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

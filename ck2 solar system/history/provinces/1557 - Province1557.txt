@@ -1,0 +1,14 @@
+# 1557 - Province1557
+
+# County Title
+title = c_province1557
+
+# Settlements
+max_settlements = 4
+b_barony1557` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

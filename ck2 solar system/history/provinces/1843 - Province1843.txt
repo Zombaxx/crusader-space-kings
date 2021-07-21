@@ -1,0 +1,15 @@
+# 1843 - Province1843
+
+# County Title
+title = c_province1843
+
+# Settlements
+max_settlements = 5
+b_barony1843` = tribal
+b_barony1843a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,15 @@
+# 1872 - Province1872
+
+# County Title
+title = c_province1872
+
+# Settlements
+max_settlements = 5
+b_barony1872` = tribal
+b_barony1872a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

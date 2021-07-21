@@ -1,0 +1,15 @@
+# 1810 - Province1810
+
+# County Title
+title = c_province1810
+
+# Settlements
+max_settlements = 5
+b_barony1810` = tribal
+b_barony1810a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

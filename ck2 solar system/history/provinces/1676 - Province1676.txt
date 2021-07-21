@@ -1,0 +1,14 @@
+# 1676 - Province1676
+
+# County Title
+title = c_province1676
+
+# Settlements
+max_settlements = 4
+b_barony1676` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

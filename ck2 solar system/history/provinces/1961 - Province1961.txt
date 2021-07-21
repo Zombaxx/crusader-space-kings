@@ -1,0 +1,14 @@
+# 1961 - Province1961
+
+# County Title
+title = c_province1961
+
+# Settlements
+max_settlements = 3
+b_barony1961` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

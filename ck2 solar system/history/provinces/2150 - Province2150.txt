@@ -1,0 +1,14 @@
+# 2150 - Province2150
+
+# County Title
+title = c_province2150
+
+# Settlements
+max_settlements = 4
+b_barony2150` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

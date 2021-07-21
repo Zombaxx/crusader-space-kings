@@ -1,0 +1,14 @@
+# 1572 - Province1572
+
+# County Title
+title = c_province1572
+
+# Settlements
+max_settlements = 3
+b_barony1572` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

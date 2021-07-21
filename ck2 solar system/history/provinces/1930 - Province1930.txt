@@ -1,0 +1,15 @@
+# 1930 - Province1930
+
+# County Title
+title = c_province1930
+
+# Settlements
+max_settlements = 5
+b_barony1930` = tribal
+b_barony1930a = temple
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

@@ -1,0 +1,14 @@
+# 2153 - Province2153
+
+# County Title
+title = c_province2153
+
+# Settlements
+max_settlements = 3
+b_barony2153` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History

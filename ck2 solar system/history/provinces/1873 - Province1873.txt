@@ -1,0 +1,14 @@
+# 1873 - Province1873
+
+# County Title
+title = c_province1873
+
+# Settlements
+max_settlements = 4
+b_barony1873` = tribal
+
+# Misc
+culture = uncultured_swine
+religion = pagan
+
+# History
