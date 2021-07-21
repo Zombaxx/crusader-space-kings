@@ -1,5 +1,6 @@
 name="Cyber Kings: Solar System"
 path="mod/ck2 solar system"
+user_dir = "Solar System"
 #replace_path = "history/characters"
 #replace_path = "history/offmap_powers"
 #replace_path = "history/provinces"
