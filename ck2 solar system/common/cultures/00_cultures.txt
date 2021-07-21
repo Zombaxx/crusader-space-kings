@@ -4554,6 +4554,7 @@ chinese_group = {
 	han = {
 		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { westerngfx }
 		
 		dynasty_name_first = yes
 		
