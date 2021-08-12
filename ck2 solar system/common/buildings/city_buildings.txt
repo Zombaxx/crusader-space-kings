@@ -46,7 +46,7 @@ city = {
 		build_time = 420
 		levy_size = 0.15
 		levy_reinforce_rate = 0.15
-		garrison_growth = 0.1
+		#garrison_growth = 0.1
 		garrison_size = 0.2
 		archers = 200
 		

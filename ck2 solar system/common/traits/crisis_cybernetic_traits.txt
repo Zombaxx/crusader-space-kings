@@ -396,5 +396,5 @@ hiver_implant = {
 	stewardship = 1
 	learning = 1
 	intrigue = 1
-	add_trait = possessed
+	#add_trait = possessed
 }

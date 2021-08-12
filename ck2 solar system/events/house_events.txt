@@ -15,19 +15,17 @@ narrative_event = {
 	is_triggered_only = yes
 	
 	hide_new = yes
-	
-	is_triggered_only = yes
 
 	option = { 
 		name = EVTOPTA_FDY_2
 	hidden_tooltip = { 
 		any_realm_character = {
-			LIMIT = {
+			limit = {
 				has_character_flag = remove_me_dynasty
 			}
 		}
 		random_playable_ruler = { 
-			LIMIT = {
+			limit = {
 				religion = catholic
 			}
 			FROM = { move_character = PREV }
@@ -81,12 +79,12 @@ narrative_event = {
 		FROM = { dynasty = ROOT }
 		FROM = {
 			any_child = {
-				LIMIT = {
+				limit = {
 					is_landed = NO
 				}
 				dynasty = ROOT
 				any_child = {
-					LIMIT = {
+					limit = {
 						is_landed = NO
 					}
 					dynasty = ROOT
