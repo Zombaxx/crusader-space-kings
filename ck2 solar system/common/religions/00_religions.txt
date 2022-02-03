@@ -68,6 +68,7 @@ christian = {
 		}	
 		
 		investiture = yes
+		allow_rivermovement = yes
 		can_have_antipopes = yes
 		can_excommunicate = yes
 		can_grant_divorce = yes
