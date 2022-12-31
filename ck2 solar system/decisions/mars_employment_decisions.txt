@@ -21,19 +21,17 @@ decisions = {
 			}
 		}
 		allow = {
-			scaled_wealth = 1.50
 			piety = 100
 			prestige = 1000
-			wealth = -250
+			wealth = 500
 			NOT = {
 				has_character_modifier = in_seclusion
 			}
 		}
 		effect = {
-			scaled_wealth = -0.50
 			piety = -100
 			prestige = -1000
-			wealth = -250
+			wealth = -500
 		    create_character = {
 				age = 2106
 				random_traits = yes

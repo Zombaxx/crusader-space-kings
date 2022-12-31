@@ -85,6 +85,20 @@ d_marathi_company;Raaqacob Company;;;;;;;;;;;;;x
 d_rajput_band;Teelius Band;;;;;;;;;;;;;x
 d_rajput_company;Qaasinie Company;;;;;;;;;;;;;x
 d_tamil_band;Abenory Band;;;;;;;;;;;;;x
+d_ludan_band;Ludan Band;;;;;;;;;;;x
+d_ludan_band_adj;Ludanian;;;;;;;;;;;x
+d_katong_band;Katong Band;;;;;;;;;;;x
+d_katong_band_adj;Katongian;;;;;;;;;;;x
+d_sucuko_band;Sucuko Band;;;;;;;;;;;x
+d_sucuko_band_adj;Sucukoian;;;;;;;;;;;x
+d_daador_band;Daador Band;;;;;;;;;;;x
+d_daador_band_adj;Daadorian;;;;;;;;;;;
+d_leodis_band;Leodis Band;;;;;;;;;;;x
+d_leodis_band_adj;Leodisian;;;;;;;;;;;x
+d_qay-ius_band;Qay-Ius Band;;;;;;;;;;;x
+d_qay-ius_band_adj;Qay-Iusian;;;;;;;;;;;x
+d_kajille_band;Kajille Band;;;;;;;;;;;x
+d_kajille_band_adj;Kajilleian;;;;;;;;;;;x
 d_abakan;Kasory;;;;;;;;;;;;;x
 d_abkhazia;Kuisa;;;;;;;;;;;;;x
 d_abruzzo;Boitius;;;;;;;;;;;;;x

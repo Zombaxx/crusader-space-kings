@@ -4558,7 +4558,7 @@ character_event = {
 			trait = zealous
 			trait = ambitious
 			trait = adventurer
-			trait = heavy_worlder
+			trait = heavy_worlder		
 		}
 		new_character = {
 			if = {
@@ -4609,6 +4609,7 @@ character_event = {
 				trait = proud
 				trait = zealous
 				trait = ambitious
+				trait = heavy_worlder
 			}
 		}
 	}

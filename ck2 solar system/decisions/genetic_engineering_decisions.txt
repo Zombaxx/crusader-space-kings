@@ -1,4 +1,4 @@
-Targetted_decisions = {
+targetted_decisions = {
 	# Genius Trait - Genetically Engineer newborn relatives
 	get_relative_genius_decision = {
 		filter = dynasty
@@ -277,7 +277,7 @@ Targetted_decisions = {
 			dynasty = FROM
 			NOT = { age = 1 }
 			age = 0
-			NOT = { trait = genius }
+			NOT = { trait = quick }
 			NOT = { trait = incapable }
 	
 			

@@ -273,7 +273,6 @@ anti_slavery = {
 
 	allowed_to_target_tributaries = no
 	defender_can_call_allies = yes
-	can_call_vassals = yes
 
 	max_attacker_battle_score = 75
 	max_defender_battle_score = 100
