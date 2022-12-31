@@ -1,6 +1,6 @@
 To install, place the ck2 solar system folder and .mod file into Documents->Paradox Interactive->Crusader Kings II->mod. Now launch Crusader Kings 2, and select 'Cyber Kings: Solar System' in the mod options.
 Trying to launch the mod without using the Random World setting available through the Holy Fury DLC will crash the game.
-(at the bookmark screen choose Custom Game Setup, and select the Randomize World button between the Year and the Merchant Republic list. If it does not work for you try using the pre-populated options as I was not able to test every possible combination of Random World options).
+(Instructions: at the bookmark screen choose Custom Game Setup, and select the Randomize World button between the Year and the Merchant Republic list. If it does not work for you try using the pre-populated options as I was not able to test every possible combination of Random World options).
 
 Join us at this Discord link if you would like to discuss the mod.
 https://discord.gg/QDKFFdR
