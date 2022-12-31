@@ -1322,117 +1322,174 @@ succession_laws = {
 		}			
 	}
 	
-#	succ_ultimogeniture = {
-#		youngest_child_opinion = 10
-#		oldest_child_opinion = -15
-#		child_opinion = -10
-#		dynasty_opinion = -5
-#		potential = {
-#			NAND = { 
-#				has_law = succ_byzantine_elective 
-#				OR = { 
-#					title = e_byzantium
-#					title = e_roman_empire
-#				}
-#			}
-#			holder_scope = {
-#				OR = {
-#					independent = yes
-#					NOT = {
-#						any_liege = {
-#							holy_order = yes
-#						}
-#					}
-#				}
-#				OR = {
-#					culture = mongol
-#					religion = bon
-#					religion = bon_reformed
-#					AND = {
-#						NOT = { religion = norse_pagan }
-#						NOT = { religion = tengri_pagan }
-#						NOT = { religion = baltic_pagan }
-#						NOT = { religion = finnish_pagan }
-#						NOT = { religion = aztec }
-#						NOT = { religion = pagan }
-#						NOT = { religion = slavic_pagan }
-#						NOT = { religion = west_african_pagan }
-#					}
-#				}
-#				
-#				NOT = { religion_group = muslim }
-#				is_merchant_republic = no
-#				is_patrician = no
-#				OR = {
-#					independent = yes
-#					NOT = {
-#						any_demesne_title = {
-#							is_vice_royalty = yes
-#						}
-#					}
-#				}
-#			}
-#			OR = {
-#				is_landless_type_title = no
-#				is_tribal_type_title = yes
-#				temporary = yes
-#				AND = {
-#					is_nomadic = no
-#					OR = {
-#						title = e_mongol_empire
-#						title = e_golden_horde
-#						title = e_il-khanate
-#					}
-#				}
-#			}
-#			is_primary_type_title = no
-#			OR = {
-#				AND = {
-#					tier = baron
-#					is_feudal = yes
-#				}
-#				holder_scope = { is_feudal = yes }
-#				AND = {
-#					is_nomadic = no
-#					OR = {
-#						title = e_mongol_empire
-#						title = e_golden_horde
-#						title = e_il-khanate
-#					}
-#				}
-#			}
-#			NOT = { holder_scope = { government = confucian_bureaucracy } }
-#		}
-#		allow = {
-#			conditional_tooltip = {
-#				trigger = {
-#					has_dlc = "Conclave"
-#				}
-#				holder_scope = {
-#					show_scope_change = no
-#					primary_title = {
-#						show_scope_change = no
-#						OR = {
-#							has_law = ze_administration_laws_1
-#							has_law = ze_administration_laws_2
-#						}
-#					}
-#				}
-#			}
-#			conditional_tooltip = {
-#				trigger = {
-#					NOT = { has_dlc = "Conclave" }
-#					NOT = { has_law = succ_hre_elective }
-#				}
-#
-#		
-#		effect = {
-#			succession = ultimogeniture
-#		}
-#		revoke_allowed = {
-#			always = no
-#		}
-#	}
+	succ_ultimogeniture = {
+		youngest_child_opinion = 10
+		oldest_child_opinion = -15
+		child_opinion = -10
+		dynasty_opinion = -5
+		potential = {
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
+			holder_scope = {
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							holy_order = yes
+						}
+					}
+				}
+				OR = {
+					culture = mongol
+					religion = bon
+					religion = bon_reformed
+					AND = {
+						NOT = { religion = norse_pagan }
+						NOT = { religion = tengri_pagan }
+						NOT = { religion = baltic_pagan }
+						NOT = { religion = finnish_pagan }
+						NOT = { religion = aztec }
+						NOT = { religion = pagan }
+						NOT = { religion = slavic_pagan }
+						NOT = { religion = west_african_pagan }
+					}
+				}
+				
+				NOT = { religion_group = muslim }
+				is_merchant_republic = no
+				is_patrician = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_demesne_title = {
+							is_vice_royalty = yes
+						}
+					}
+				}
+			}
+			OR = {
+				is_landless_type_title = no
+				is_tribal_type_title = yes
+				temporary = yes
+				AND = {
+					is_nomadic = no
+					OR = {
+						title = e_mongol_empire
+						title = e_golden_horde
+						title = e_il-khanate
+					}
+				}
+			}
+			is_primary_type_title = no
+			OR = {
+				AND = {
+					tier = baron
+					is_feudal = yes
+				}
+				holder_scope = { is_feudal = yes }
+				AND = {
+					is_nomadic = no
+					OR = {
+						title = e_mongol_empire
+						title = e_golden_horde
+						title = e_il-khanate
+					}
+				}
+			}
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+		}
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Conclave"
+				}
+				holder_scope = {
+					show_scope_change = no
+					primary_title = {
+						show_scope_change = no
+						OR = {
+							has_law = ze_administration_laws_1
+							has_law = ze_administration_laws_2
+						}
+					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					NOT = { has_dlc = "Conclave" }
+					NOT = { has_law = succ_hre_elective }
+				}
+				OR = {
+					hidden_tooltip = {
+						has_crown_law_title = no
+					}
+					crownlaw_title = {
+						OR = { 
+							has_law = crown_authority_1
+							has_law = crown_authority_2
+							has_law = crown_authority_3
+							has_law = crown_authority_4
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Conclave"
+				}
+				custom_tooltip = {
+					text = forced_elective_tt
+					hidden_tooltip = {
+						NAND = { 
+							has_law = succession_voting_power_1
+							OR = { 
+								has_law = succ_feudal_elective 
+								has_law = succ_hre_elective
+							}
+						}
+					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					has_dlc = "Conclave"
+				}
+				has_law = law_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					NOT = { has_dlc = "Conclave" }
+				}
+				has_law = crown_authority_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+				}
+				has_law = centralization_4
+			}
+		}
+		
+		effect = {
+			succession = ultimogeniture
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
 
 	succ_turkish_succession = {
 		oldest_child_opinion = -5
