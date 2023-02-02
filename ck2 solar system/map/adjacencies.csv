@@ -303,5 +303,5 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 2387;2393;sea;2840;-1;-1;-1;-1;Province2387-Province2393
 2393;2409;sea;2840;-1;-1;-1;-1;Province2393-Province2409
 2804;2822;portage;1;-1;-1;-1;-1;Callisto Jupiter
-2629;2637portage;1;-1;-1;-1;-1;Venus
+2629;2637;portage;1;-1;-1;-1;-1;Venus
 2501;2501;portage;1;-1;-1;-1;-1;It will stop working if you remove this
