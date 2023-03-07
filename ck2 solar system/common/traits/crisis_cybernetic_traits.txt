@@ -330,16 +330,16 @@ full_cybernetic_conversion = {
 	#	scarred
 	#	ill
 	#	# Any disease traits we put in should go here
-		cancer
-		pneumonic
-		syphilitic
-		leper
-		has_tuberculosis
-		has_typhoid_fever
-		has_typhus
-		has_bubonic_plague
-		has_measles
-		has_small_pox
+	#	cancer
+	#	pneumonic
+	#	syphilitic
+	#	leper
+	#	has_tuberculosis
+	#	has_typhoid_fever
+	#	has_typhus
+	#	has_bubonic_plague
+	#	has_measles
+	#	has_small_pox
 	}
 	is_health = yes
 	health = 10
@@ -353,11 +353,6 @@ full_cybernetic_conversion = {
 	fertility = -100
 	ruler_designer_cost = 20
 	combat_rating = 40
-	ai_rationality = -5
-	ai_ambition = 20
-	ai_zeal = 5
-	ai_greed = 10
-	ai_honor = -5
 }
 damaged_cybernetics = {
 	is_health = yes
@@ -391,10 +386,10 @@ hiver_implant = {
 	general_opinion = -25 # Resistance is futile.
 	same_opinion = 50 # You will be assimilated.
 	infidel_opinion = -25
-	health = 1
+	health = 5
 	martial = 1
 	stewardship = 1
 	learning = 1
 	intrigue = 1
-	#add_trait = possessed
+	add_trait = possessed
 }
