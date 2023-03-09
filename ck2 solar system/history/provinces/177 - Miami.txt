@@ -1,0 +1,17 @@
+# 177 - Miami
+
+# County Title
+title = c_miami
+
+# Settlements
+max_settlements = 5
+b_miami = castle
+b_miami_beach = temple
+b_fort_lauderdale = city
+b_florida_keys = castle
+
+# Misc
+culture = castillan
+religion = catholic
+
+# History

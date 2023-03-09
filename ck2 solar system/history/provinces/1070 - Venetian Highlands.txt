@@ -1,0 +1,14 @@
+# 1070 - Venetian Highlands
+
+# County Title
+title = c_venetian_highlands
+
+# Settlements
+max_settlements = 4
+b_venetian_highlands = tribal
+
+# Misc
+culture = frankish
+religion = nestorian
+
+# History

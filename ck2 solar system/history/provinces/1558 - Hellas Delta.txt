@@ -1,0 +1,17 @@
+# 1558 - Hellas Delta
+
+# County Title
+title = c_hellas_delta
+
+# Settlements
+max_settlements = 6
+b_hellas_delta = castle
+b_barony1558a = temple
+b_barony1558b = city
+b_barony1558c = castle
+
+# Misc
+culture = cat
+religion = yazidi
+
+# History

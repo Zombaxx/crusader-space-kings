@@ -1,0 +1,15 @@
+# 828 - Everest
+
+# County Title
+title = c_everest
+
+# Settlements
+max_settlements = 1
+b_everest = castle
+b_barony0828a = temple
+
+# Misc
+culture = kannada
+religion = buddhist
+
+# History

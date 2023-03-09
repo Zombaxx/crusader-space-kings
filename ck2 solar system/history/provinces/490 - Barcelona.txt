@@ -1,0 +1,15 @@
+# 490 - Barcelona
+
+# County Title
+title = c_barcelona
+
+# Settlements
+max_settlements = 3
+b_barcelona = castle
+b_barony0490a = temple
+
+# Misc
+culture = greek
+religion = catholic
+
+# History

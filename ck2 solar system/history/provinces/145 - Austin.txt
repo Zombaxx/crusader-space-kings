@@ -1,0 +1,16 @@
+# 145 - Austin
+
+# County Title
+title = c_austin
+
+# Settlements
+max_settlements = 4
+b_austin = city
+b_barony0145a = temple
+b_barony0145b = castle
+
+# Misc
+culture = nubian
+religion = catholic
+
+# History

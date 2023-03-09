@@ -1,0 +1,15 @@
+# 1882 - Cronus Peninsula
+
+# County Title
+title = c_cronus_peninsula
+
+# Settlements
+max_settlements = 5
+b_cronus_peninsula = tribal
+b_barony1882a = temple
+
+# Misc
+culture = duck_culture
+religion = hindu
+
+# History

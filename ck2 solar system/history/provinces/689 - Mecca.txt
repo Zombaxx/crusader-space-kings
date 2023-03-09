@@ -1,0 +1,16 @@
+# 689 - Mecca
+
+# County Title
+title = c_mecca
+
+# Settlements
+max_settlements = 4
+b_mecca = castle
+b_barony0689a = temple
+b_barony0689b = city
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

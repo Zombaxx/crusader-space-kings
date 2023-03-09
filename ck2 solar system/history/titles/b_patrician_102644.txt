@@ -1,0 +1,5 @@
+1060.1.1 = {
+	holding_dynasty = 102644 # de The White House - makes this a FAMILY_PALACE type Holding
+	liege="d_chesapeake_bay"
+	holder = 205295
+}

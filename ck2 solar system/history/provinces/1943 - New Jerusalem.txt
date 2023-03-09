@@ -1,0 +1,15 @@
+# 1943 - New Jerusalem
+
+# County Title
+title = c_new_jerusalem
+
+# Settlements
+max_settlements = 5
+b_new_jerusalem = tribal
+b_barony1943a = temple
+
+# Misc
+culture = duck_culture
+religion = jewish
+
+# History

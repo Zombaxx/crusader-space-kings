@@ -1,0 +1,14 @@
+944.1.1 = {
+	holding_dynasty = 113840 # Barony1384a - makes this a FAMILY_PALACE type Holding
+	liege="d_duchy1384"
+	holder = 113840
+}
+1000.1.1 = {
+	holder = 113841
+}
+1015.1.1 = {
+	holder = 113842
+}
+1061.1.1 = {
+	holder = 113845
+}

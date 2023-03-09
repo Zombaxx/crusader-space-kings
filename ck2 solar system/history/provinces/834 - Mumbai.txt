@@ -1,0 +1,15 @@
+# 834 - Mumbai
+
+# County Title
+title = c_mumbai
+
+# Settlements
+max_settlements = 3
+b_mumbai = city
+b_barony0834a = temple
+
+# Misc
+culture = kannada
+religion = hindu
+
+# History

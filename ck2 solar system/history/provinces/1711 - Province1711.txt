@@ -4,11 +4,12 @@
 title = c_province1711
 
 # Settlements
-max_settlements = 2
-b_barony1711` = tribal
+max_settlements = 3
+b_barony1711` = castle
+b_barony1711a = temple
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = bear
+religion = fraticelli
 
 # History

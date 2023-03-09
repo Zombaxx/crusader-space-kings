@@ -1,0 +1,16 @@
+# 69 - Tenochtitlan
+
+# County Title
+title = c_tenochtitlan
+
+# Settlements
+max_settlements = 4
+b_tenochtitlan = castle
+b_tenochtitlan = temple
+b_barony0069b = city
+
+# Misc
+culture = castillan
+religion = catholic
+
+# History

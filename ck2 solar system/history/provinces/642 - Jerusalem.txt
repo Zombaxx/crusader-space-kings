@@ -1,0 +1,17 @@
+# 642 - Jerusalem
+
+# County Title
+title = c_jerusalem
+
+# Settlements
+max_settlements = 5
+b_jerusalem = castle
+b_barony0642a = temple
+b_barony0642b = city
+b_barony0642c = castle
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

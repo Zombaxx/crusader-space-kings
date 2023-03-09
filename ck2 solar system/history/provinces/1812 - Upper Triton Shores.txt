@@ -1,0 +1,15 @@
+# 1812 - Upper Triton Shores
+
+# County Title
+title = c_upper_triton_shores
+
+# Settlements
+max_settlements = 4
+b_upper_triton_shores = tribal
+b_barony1812a = temple
+
+# Misc
+culture = duck_culture
+religion = buddhist
+
+# History

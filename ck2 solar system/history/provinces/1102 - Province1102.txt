@@ -6,9 +6,10 @@ title = c_province1102
 # Settlements
 max_settlements = 4
 b_barony1102` = tribal
+b_barony1102a = temple
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = bear
+religion = kharijite
 
 # History

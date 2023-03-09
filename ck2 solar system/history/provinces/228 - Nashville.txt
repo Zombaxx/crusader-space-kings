@@ -1,0 +1,15 @@
+# 228 - Nashville
+
+# County Title
+title = c_nashville
+
+# Settlements
+max_settlements = 3
+b_nashville = castle
+b_barony0228a = temple
+
+# Misc
+culture = irish
+religion = nestorian
+
+# History

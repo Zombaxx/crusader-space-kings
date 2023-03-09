@@ -1,0 +1,18 @@
+# 1143 - Phobos
+
+# County Title
+title = c_phobos
+
+# Settlements
+max_settlements = 7
+b_phobos = city
+b_barony1143a = temple
+b_barony1143b = castle
+b_barony1143c = city
+b_barony1143d = temple
+
+# Misc
+culture = dragon_culture
+religion = norse_pagan
+
+# History

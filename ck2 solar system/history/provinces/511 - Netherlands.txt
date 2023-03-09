@@ -1,0 +1,16 @@
+# 511 - Netherlands
+
+# County Title
+title = c_netherlands
+
+# Settlements
+max_settlements = 4
+b_netherlands = castle
+b_barony0511a = temple
+b_barony0511b = city
+
+# Misc
+culture = saxon
+religion = catholic
+
+# History

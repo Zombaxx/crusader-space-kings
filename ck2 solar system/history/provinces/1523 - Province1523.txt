@@ -4,11 +4,13 @@
 title = c_province1523
 
 # Settlements
-max_settlements = 3
-b_barony1523` = tribal
+max_settlements = 4
+b_barony1523` = castle
+b_barony1523a = temple
+b_barony1523b = city
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = cat
+religion = yazidi
 
 # History

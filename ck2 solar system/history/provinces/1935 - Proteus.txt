@@ -1,0 +1,15 @@
+# 1935 - Proteus
+
+# County Title
+title = c_proteus
+
+# Settlements
+max_settlements = 5
+b_proteus = tribal
+b_barony1935a = temple
+
+# Misc
+culture = duck_culture
+religion = finnish_pagan
+
+# History

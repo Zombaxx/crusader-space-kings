@@ -1,0 +1,15 @@
+# 208 - NorCal
+
+# County Title
+title = c_norcal
+
+# Settlements
+max_settlements = 3
+b_norcal = castle
+b_barony0208a = temple
+
+# Misc
+culture = old_frankish
+religion = nestorian
+
+# History

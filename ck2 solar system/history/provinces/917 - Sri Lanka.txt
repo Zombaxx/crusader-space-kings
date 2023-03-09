@@ -1,0 +1,16 @@
+# 917 - Sri Lanka
+
+# County Title
+title = c_sri_lanka
+
+# Settlements
+max_settlements = 4
+b_sri_lanka = castle
+b_barony0917a = temple
+b_barony0917b = city
+
+# Misc
+culture = kannada
+religion = hindu
+
+# History

@@ -1,0 +1,16 @@
+# 51 - Panama
+
+# County Title
+title = c_panama
+
+# Settlements
+max_settlements = 4
+b_panama = castle
+b_san_salvador = temple
+b_santa_ana = city
+
+# Misc
+culture = nahuatl
+religion = catholic
+
+# History

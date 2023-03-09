@@ -1,0 +1,17 @@
+# 329 - New York
+
+# County Title
+title = c_new_york
+
+# Settlements
+max_settlements = 6
+b_new_york = castle
+b_barony0329a = temple
+b_barony0329b = city
+b_barony0329c = castle
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History

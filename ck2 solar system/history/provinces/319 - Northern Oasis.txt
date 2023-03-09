@@ -1,0 +1,15 @@
+# 319 - Northern Oasis
+
+# County Title
+title = c_northern_oasis
+
+# Settlements
+max_settlements = 3
+b_northern_oasis = tribal
+b_barony0319a = temple
+
+# Misc
+culture = horse
+religion = zun_pagan
+
+# History

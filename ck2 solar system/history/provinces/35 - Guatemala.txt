@@ -1,0 +1,17 @@
+# 35 - Guatemala
+
+# County Title
+title = c_guatemala
+
+# Settlements
+max_settlements = 5
+b_guatemala = castle
+b_barony0035a = temple
+b_barony0035b = city
+b_barony0035c = castle
+
+# Misc
+culture = nahuatl
+religion = catholic
+
+# History

@@ -1,0 +1,15 @@
+# 1160 - Alba Mons
+
+# County Title
+title = c_alba_mons
+
+# Settlements
+max_settlements = 2
+b_alba_mons = castle
+b_barony1160a = temple
+
+# Misc
+culture = dragon_culture
+religion = hellenic_pagan
+
+# History

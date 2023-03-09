@@ -1,0 +1,17 @@
+# 647 - Cairo
+
+# County Title
+title = c_cairo
+
+# Settlements
+max_settlements = 5
+b_cairo = castle
+b_barony0647a = temple
+b_barony0647b = city
+b_barony0647c = castle
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

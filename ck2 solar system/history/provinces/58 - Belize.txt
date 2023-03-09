@@ -1,0 +1,17 @@
+# 58 - Belize
+
+# County Title
+title = c_belize
+
+# Settlements
+max_settlements = 6
+b_belize = castle
+b_san_pedro = temple
+b_ambergris_caye = city
+b_san_ignacio = castle
+
+# Misc
+culture = nahuatl
+religion = catholic
+
+# History

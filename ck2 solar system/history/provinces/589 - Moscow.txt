@@ -1,0 +1,15 @@
+# 589 - Moscow
+
+# County Title
+title = c_moscow
+
+# Settlements
+max_settlements = 3
+b_moscow = castle
+b_barony0589a = temple
+
+# Misc
+culture = russian
+religion = orthodox
+
+# History

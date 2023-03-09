@@ -1,0 +1,16 @@
+# 70 - Honduras
+
+# County Title
+title = c_honduras
+
+# Settlements
+max_settlements = 4
+b_honduras = castle
+b_tegucigalpa = temple
+b_san_pedro_sula = city
+
+# Misc
+culture = nahuatl
+religion = nestorian
+
+# History

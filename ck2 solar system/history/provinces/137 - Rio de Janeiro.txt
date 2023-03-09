@@ -1,0 +1,16 @@
+# 137 - Rio de Janeiro
+
+# County Title
+title = c_rio_de_janeiro
+
+# Settlements
+max_settlements = 4
+b_rio_de_janeiro = castle
+b_barony0137a = temple
+b_barony0137b = city
+
+# Misc
+culture = castillan
+religion = catholic
+
+# History

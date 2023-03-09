@@ -1,0 +1,16 @@
+# 1377 - Argyre
+
+# County Title
+title = c_argyre
+
+# Settlements
+max_settlements = 4
+b_argyre = castle
+b_barony1377a = temple
+b_barony1377b = city
+
+# Misc
+culture = dog_culture
+religion = yazidi
+
+# History

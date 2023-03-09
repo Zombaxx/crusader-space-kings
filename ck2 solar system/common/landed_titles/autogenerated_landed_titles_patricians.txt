@@ -1,0 +1,483 @@
+# Bay Area Merchant Republic Palaces
+b_patrician_101410 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101411 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101412 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101413 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101414 = {
+	culture = irish
+	religion = catholic
+}
+# Sierras Merchant Republic Palaces
+b_patrician_101810 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101811 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101812 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101813 = {
+	culture = irish
+	religion = catholic
+}
+b_patrician_101814 = {
+	culture = irish
+	religion = catholic
+}
+# Chesapeake Bay Merchant Republic Palaces
+b_patrician_102640 = {
+	culture = old_frankish
+	religion = nestorian
+}
+b_patrician_102641 = {
+	culture = old_frankish
+	religion = nestorian
+}
+b_patrician_102642 = {
+	culture = old_frankish
+	religion = nestorian
+}
+b_patrician_102643 = {
+	culture = old_frankish
+	religion = nestorian
+}
+b_patrician_102644 = {
+	culture = old_frankish
+	religion = nestorian
+}
+# Duchy0234 Merchant Republic Palaces
+b_patrician_102340 = {
+	culture = nubian
+	religion = catholic
+}
+b_patrician_102341 = {
+	culture = nubian
+	religion = catholic
+}
+b_patrician_102342 = {
+	culture = nubian
+	religion = catholic
+}
+b_patrician_102343 = {
+	culture = nubian
+	religion = catholic
+}
+b_patrician_102344 = {
+	culture = nubian
+	religion = catholic
+}
+# Duchy0383 Merchant Republic Palaces
+b_patrician_103830 = {
+	culture = red_panda
+	religion = jewish
+}
+b_patrician_103831 = {
+	culture = red_panda
+	religion = jewish
+}
+b_patrician_103832 = {
+	culture = red_panda
+	religion = jewish
+}
+b_patrician_103833 = {
+	culture = red_panda
+	religion = jewish
+}
+b_patrician_103834 = {
+	culture = red_panda
+	religion = jewish
+}
+# Duchy0456 Merchant Republic Palaces
+b_patrician_104560 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104561 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104562 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104563 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104564 = {
+	culture = saxon
+	religion = catholic
+}
+# France Merchant Republic Palaces
+b_patrician_104920 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104921 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104922 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104923 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_104924 = {
+	culture = saxon
+	religion = catholic
+}
+# Duchy0913 Merchant Republic Palaces
+b_patrician_109130 = {
+	culture = zhangzhung
+	religion = buddhist
+}
+b_patrician_109131 = {
+	culture = zhangzhung
+	religion = buddhist
+}
+b_patrician_109132 = {
+	culture = zhangzhung
+	religion = buddhist
+}
+b_patrician_109133 = {
+	culture = zhangzhung
+	religion = buddhist
+}
+b_patrician_109134 = {
+	culture = zhangzhung
+	religion = buddhist
+}
+# Duchy0879 Merchant Republic Palaces
+b_patrician_108790 = {
+	culture = horse
+	religion = west_african_pagan
+}
+b_patrician_108791 = {
+	culture = horse
+	religion = west_african_pagan
+}
+b_patrician_108792 = {
+	culture = horse
+	religion = west_african_pagan
+}
+b_patrician_108793 = {
+	culture = horse
+	religion = west_african_pagan
+}
+b_patrician_108794 = {
+	culture = horse
+	religion = west_african_pagan
+}
+# Duchy0928 Merchant Republic Palaces
+b_patrician_109280 = {
+	culture = dragon_culture
+	religion = jain
+}
+b_patrician_109281 = {
+	culture = dragon_culture
+	religion = jain
+}
+b_patrician_109282 = {
+	culture = dragon_culture
+	religion = jain
+}
+b_patrician_109283 = {
+	culture = dragon_culture
+	religion = jain
+}
+b_patrician_109284 = {
+	culture = dragon_culture
+	religion = jain
+}
+# Duchy0933 Merchant Republic Palaces
+b_patrician_109330 = {
+	culture = elephant_culture
+	religion = west_african_pagan
+}
+b_patrician_109331 = {
+	culture = elephant_culture
+	religion = west_african_pagan
+}
+b_patrician_109332 = {
+	culture = elephant_culture
+	religion = west_african_pagan
+}
+b_patrician_109333 = {
+	culture = elephant_culture
+	religion = west_african_pagan
+}
+b_patrician_109334 = {
+	culture = elephant_culture
+	religion = west_african_pagan
+}
+# Duchy1083 Merchant Republic Palaces
+b_patrician_110830 = {
+	culture = frankish
+	religion = nestorian
+}
+b_patrician_110831 = {
+	culture = frankish
+	religion = nestorian
+}
+b_patrician_110832 = {
+	culture = frankish
+	religion = nestorian
+}
+b_patrician_110833 = {
+	culture = frankish
+	religion = nestorian
+}
+b_patrician_110834 = {
+	culture = frankish
+	religion = nestorian
+}
+# Melbourne Merchant Republic Palaces
+b_patrician_110860 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_110861 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_110862 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_110863 = {
+	culture = saxon
+	religion = catholic
+}
+b_patrician_110864 = {
+	culture = saxon
+	religion = catholic
+}
+# Duchy1384 Merchant Republic Palaces
+b_patrician_113840 = {
+	culture = dog_culture
+	religion = yazidi
+}
+b_patrician_113841 = {
+	culture = dog_culture
+	religion = yazidi
+}
+b_patrician_113842 = {
+	culture = dog_culture
+	religion = yazidi
+}
+b_patrician_113843 = {
+	culture = dog_culture
+	religion = yazidi
+}
+b_patrician_113844 = {
+	culture = dog_culture
+	religion = yazidi
+}
+# Duchy1546 Merchant Republic Palaces
+b_patrician_115460 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115461 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115462 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115463 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115464 = {
+	culture = cat
+	religion = shiite
+}
+# Duchy1561 Merchant Republic Palaces
+b_patrician_115610 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_115611 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_115612 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_115613 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_115614 = {
+	culture = cat
+	religion = bon
+}
+# Duchy1564 Merchant Republic Palaces
+b_patrician_115640 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115641 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115642 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115643 = {
+	culture = cat
+	religion = shiite
+}
+b_patrician_115644 = {
+	culture = cat
+	religion = shiite
+}
+# Duchy1614 Merchant Republic Palaces
+b_patrician_116140 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_116141 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_116142 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_116143 = {
+	culture = cat
+	religion = bon
+}
+b_patrician_116144 = {
+	culture = cat
+	religion = bon
+}
+# Duchy1583 Merchant Republic Palaces
+b_patrician_115830 = {
+	culture = bear
+	religion = buddhist
+}
+b_patrician_115831 = {
+	culture = bear
+	religion = buddhist
+}
+b_patrician_115832 = {
+	culture = bear
+	religion = buddhist
+}
+b_patrician_115833 = {
+	culture = bear
+	religion = buddhist
+}
+b_patrician_115834 = {
+	culture = bear
+	religion = buddhist
+}
+# Duchy1512 Merchant Republic Palaces
+b_patrician_115120 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115121 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115122 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115123 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115124 = {
+	culture = duck_culture
+	religion = bon
+}
+# Duchy1548 Merchant Republic Palaces
+b_patrician_115480 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115481 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115482 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115483 = {
+	culture = duck_culture
+	religion = bon
+}
+b_patrician_115484 = {
+	culture = duck_culture
+	religion = bon
+}
+# Duchy1609 Merchant Republic Palaces
+b_patrician_116090 = {
+	culture = bear
+	religion = bon
+}
+b_patrician_116091 = {
+	culture = bear
+	religion = bon
+}
+b_patrician_116092 = {
+	culture = bear
+	religion = bon
+}
+b_patrician_116093 = {
+	culture = bear
+	religion = bon
+}
+b_patrician_116094 = {
+	culture = bear
+	religion = bon
+}
+# Duchy1915 Merchant Republic Palaces
+b_patrician_119150 = {
+	culture = duck_culture
+	religion = baltic_pagan
+}
+b_patrician_119151 = {
+	culture = duck_culture
+	religion = baltic_pagan
+}
+b_patrician_119152 = {
+	culture = duck_culture
+	religion = baltic_pagan
+}
+b_patrician_119153 = {
+	culture = duck_culture
+	religion = baltic_pagan
+}
+b_patrician_119154 = {
+	culture = duck_culture
+	religion = baltic_pagan
+}

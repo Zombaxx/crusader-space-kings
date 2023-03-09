@@ -1,0 +1,15 @@
+# 1983 - Galatea
+
+# County Title
+title = c_galatea
+
+# Settlements
+max_settlements = 5
+b_galatea = tribal
+b_barony1983a = temple
+
+# Misc
+culture = hedgehog_culture
+religion = finnish_pagan
+
+# History

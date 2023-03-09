@@ -1,0 +1,16 @@
+# 117 - Houston
+
+# County Title
+title = c_houston
+
+# Settlements
+max_settlements = 4
+b_houston = city
+b_barony0117a = temple
+b_barony0117b = castle
+
+# Misc
+culture = irish
+religion = catholic
+
+# History

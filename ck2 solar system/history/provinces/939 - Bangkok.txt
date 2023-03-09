@@ -1,0 +1,16 @@
+# 939 - Bangkok
+
+# County Title
+title = c_bangkok
+
+# Settlements
+max_settlements = 4
+b_bangkok = castle
+b_barony0939a = temple
+b_barony0939b = city
+
+# Misc
+culture = kannada
+religion = buddhist
+
+# History

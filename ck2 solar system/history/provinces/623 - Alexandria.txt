@@ -1,0 +1,16 @@
+# 623 - Alexandria
+
+# County Title
+title = c_alexandria
+
+# Settlements
+max_settlements = 4
+b_alexandria = castle
+b_barony0623a = temple
+b_barony0623b = city
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

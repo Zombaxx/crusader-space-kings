@@ -1,0 +1,16 @@
+# 369 - Almuqadasa Isle
+
+# County Title
+title = c_almuqadasa_isle
+
+# Settlements
+max_settlements = 4
+b_almuqadasa_isle = city
+b_barony0369a = temple
+b_barony0369b = castle
+
+# Misc
+culture = red_panda
+religion = jewish
+
+# History

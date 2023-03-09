@@ -8,16 +8,16 @@ bm_wp = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 
 	selectable_character = {
-		id = 100035 #
-		age = 33
-		name = ERA_CHAR_NAME_102265
+		id = 106645 #
+		age = 40
+		name = ERA_CHAR_NAME_106645
 		title = c_province0003
 		title_name = c_province0003		
 		character = {
 			dna = joxvfbqdxvs
 			properties = am00hb0
 			religion="catholic"
-			culture="german"
+			culture="cat"
 			government = feudal_government
 			dynasty=100780
 		}

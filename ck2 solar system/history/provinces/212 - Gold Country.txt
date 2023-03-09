@@ -1,0 +1,15 @@
+# 212 - Gold Country
+
+# County Title
+title = c_gold_country
+
+# Settlements
+max_settlements = 3
+b_gold_country = castle
+b_barony0212a = temple
+
+# Misc
+culture = old_frankish
+religion = nestorian
+
+# History

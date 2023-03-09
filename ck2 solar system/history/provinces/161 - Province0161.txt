@@ -6,9 +6,10 @@ title = c_province0161
 # Settlements
 max_settlements = 2
 b_barony0161` = tribal
+b_barony0161a = temple
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = irish
+religion = nestorian
 
 # History

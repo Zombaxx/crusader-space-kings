@@ -1,0 +1,15 @@
+# 220 - Atlanta
+
+# County Title
+title = c_atlanta
+
+# Settlements
+max_settlements = 2
+b_atlanta = castle
+b_barony0220a = temple
+
+# Misc
+culture = irish
+religion = nestorian
+
+# History

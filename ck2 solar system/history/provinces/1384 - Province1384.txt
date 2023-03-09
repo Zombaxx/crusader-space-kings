@@ -4,11 +4,17 @@
 title = c_province1384
 
 # Settlements
-max_settlements = 3
-b_barony1384` = tribal
+max_settlements = 5
+b_barony1384` = city
+b_barony1384a = temple
+b_barony1384b = castle
+b_barony1384c = city
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = dog_culture
+religion = yazidi
 
 # History
+1066.1.1 = {
+	trade_post = b_patrician_113840
+}

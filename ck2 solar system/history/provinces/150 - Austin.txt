@@ -1,0 +1,16 @@
+# 150 - Austin
+
+# County Title
+title = c_austin
+
+# Settlements
+max_settlements = 4
+b_austin = city
+b_barony0150a = temple
+b_barony0150b = castle
+
+# Misc
+culture = nubian
+religion = catholic
+
+# History

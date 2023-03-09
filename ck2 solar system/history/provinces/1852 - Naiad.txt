@@ -1,0 +1,15 @@
+# 1852 - Naiad
+
+# County Title
+title = c_naiad
+
+# Settlements
+max_settlements = 5
+b_naiad = tribal
+b_barony1852a = temple
+
+# Misc
+culture = duck_culture
+religion = finnish_pagan
+
+# History

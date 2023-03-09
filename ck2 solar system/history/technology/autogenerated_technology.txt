@@ -1,106 +1,360 @@
-# Empire0069
+# Empire0009
 technology = {
 	titles = {
-		d_duchy0013
-		d_duchy0035
-		d_duchy0069
-		d_duchy0075
-		d_duchy0099
-		d_duchy0100
-		d_duchy0105
-		d_duchy0136
-		d_duchy0138
-		d_duchy0142
-		d_duchy0153
-		d_duchy0154
-		d_duchy0164
-		d_duchy0169
-		d_duchy0189
-		d_duchy0203
-		d_duchy0219
-		d_duchy0261
-		d_duchy0277
-		d_duchy0286
-		d_duchy0317
-		d_duchy0326
-		d_duchy0366
-		d_duchy0401
-		d_duchy0442
-		d_duchy0452
-		d_duchy0459
-		d_duchy0466
-		d_duchy0491
-		d_duchy0492
-		d_duchy0501
-		d_duchy0502
-		d_duchy0505
-		d_duchy0507
-		d_duchy0525
-		d_duchy0529
-		d_duchy0548
-		d_duchy0571
-		d_duchy0585
-		d_duchy0600
-		d_duchy0609
-		d_duchy0619
-		d_duchy0629
-		d_duchy0637
-		d_duchy0657
-		d_duchy0719
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0167
-technology = {
-	titles = {
-		d_duchy0167
-		d_duchy0191
-		d_duchy0271
-		d_duchy0278
-		d_duchy0314
-		d_duchy0331
-		d_duchy0343
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0173
-technology = {
-	titles = {
-		d_duchy0036
-		d_duchy0041
+		d_duchy0007
+		d_duchy0009
+		d_duchy0016
+		d_duchy0027
+		d_duchy0031
+		d_duchy0037
+		d_duchy0040
 		d_duchy0047
-		d_duchy0068
+		d_duchy0060
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0024
+technology = {
+	titles = {
+		d_duchy0024
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0041
+technology = {
+	titles = {
+		d_duchy0026
+		d_duchy0033
+		d_duchy0041
+		d_duchy0052
 		d_duchy0076
+		d_duchy0077
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0046
+technology = {
+	titles = {
+		d_duchy0019
+		d_duchy0042
+		d_duchy0046
+		d_central_america
+		d_belize
+		d_panama
+		d_duchy0074
+		d_duchy0120
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0048
+technology = {
+	titles = {
+		d_duchy0012
+		d_duchy0044
+		d_duchy0048
+		d_duchy0072
+		d_duchy0088
+		d_duchy0090
 		d_duchy0096
-		d_duchy0097
-		d_duchy0128
-		d_duchy0147
-		d_duchy0155
-		d_duchy0173
-		d_duchy0195
-		d_duchy0198
-		d_duchy0234
-		d_duchy0255
-		d_duchy0301
-		d_duchy0302
+		d_duchy0099
+		d_duchy0118
+		d_duchy0135
+		d_duchy0143
+		d_duchy0156
+		d_duchy0171
+		d_duchy0174
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0056
+technology = {
+	titles = {
+		d_duchy0021
+		d_duchy0056
+		d_duchy0108
+		d_duchy0119
+		d_duchy0186
+		d_duchy0187
+		d_duchy0218
+		d_duchy0232
+		d_duchy0278
+		d_duchy0287
 		d_duchy0330
-		d_duchy0353
-		d_duchy0357
-		d_duchy0378
-		d_duchy0405
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0181
+technology = {
+	titles = {
+		d_duchy0080
+		d_duchy0126
+		d_duchy0131
+		d_bay_area
+		d_austin
+		d_duchy0161
+		d_sierras
+		d_duchy0192
+		d_norcal
+		d_duchy0226
+		d_duchy0233
+		d_duchy0245
+		d_duchy0277
+		d_duchy0289
+		d_duchy0299
+		d_duchy0312
+		d_duchy0345
+		d_duchy0349
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0188
+technology = {
+	titles = {
+		d_duchy0188
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0203
+technology = {
+	titles = {
+		d_duchy0129
+		d_duchy0132
+		d_duchy0139
+		d_duchy0151
+		d_duchy0172
+		d_duchy0203
+		d_duchy0222
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0223
+technology = {
+	titles = {
+		d_duchy0091
+		d_duchy0122
+		d_duchy0162
+		d_duchy0196
+		d_duchy0223
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# United States
+technology = {
+	titles = {
+		d_florida
+		d_duchy0184
+		d_duchy0198
+		d_nashville
+		d_duchy0239
+		d_duchy0244
+		d_chesapeake_bay
+		d_duchy0272
+		d_duchy0291
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Latin America
+technology = {
+	titles = {
+		d_duchy0106
+		d_rio
+		d_duchy0167
+		d_duchy0234
+		d_duchy0243
+		d_duchy0247
+		d_duchy0276
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0302
+technology = {
+	titles = {
+		d_duchy0302
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0305
+technology = {
+	titles = {
+		d_duchy0068
+		d_ryha
+		d_duchy0134
+		d_duchy0142
+		d_duchy0155
+		d_duchy0183
+		d_duchy0201
+		d_duchy0205
+		d_duchy0237
+		d_duchy0248
+		d_duchy0279
+		d_duchy0290
+		d_duchy0292
+		d_duchy0305
+		d_duchy0309
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0333
+technology = {
+	titles = {
+		d_duchy0333
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0350
+technology = {
+	titles = {
+		d_toronto
+		d_duchy0320
+		d_duchy0322
+		d_duchy0350
+		d_duchy0359
+		d_duchy0361
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0351
+technology = {
+	titles = {
+		d_duchy0351
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0372
+technology = {
+	titles = {
+		d_duchy0227
+		d_duchy0251
+		d_duchy0284
+		d_duchy0293
+		d_duchy0307
+		d_duchy0315
+		d_duchy0326
+		d_duchy0335
+		d_duchy0340
+		d_duchy0344
+		d_duchy0362
+		d_duchy0368
+		d_duchy0372
+		d_duchy0375
+		d_duchy0385
+		d_duchy0387
+		d_duchy0388
+		d_duchy0391
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0383
+technology = {
+	titles = {
+		d_duchy0383
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0393
+technology = {
+	titles = {
+		d_duchy0373
+		d_duchy0389
+		d_duchy0392
+		d_duchy0393
 		d_duchy0413
-		d_duchy0438
-		d_duchy0439
+		d_duchy0440
 		d_duchy0447
 	}
 	1066 = {
@@ -110,18 +364,13 @@ technology = {
 	}
 }
 
-# Empire0251
+# Empire0454
 technology = {
 	titles = {
-		d_duchy0006
-		d_duchy0016
-		d_duchy0056
-		d_duchy0088
-		d_duchy0157
-		d_duchy0183
-		d_duchy0187
-		d_duchy0251
-		d_duchy0293
+		d_duchy0422
+		d_duchy0423
+		d_duchy0424
+		d_duchy0454
 	}
 	1066 = {
 		military = 0.0
@@ -130,269 +379,153 @@ technology = {
 	}
 }
 
-# Empire0258
+# Empire0504
 technology = {
 	titles = {
-		d_duchy0007
-		d_duchy0018
-		d_duchy0024
-		d_duchy0034
-		d_duchy0039
-		d_duchy0051
-		d_duchy0052
-		d_duchy0053
-		d_duchy0074
-		d_duchy0091
-		d_duchy0098
-		d_duchy0103
-		d_duchy0124
-		d_duchy0144
-		d_duchy0148
-		d_duchy0156
-		d_duchy0159
-		d_duchy0174
-		d_duchy0175
-		d_duchy0192
-		d_duchy0201
-		d_duchy0202
-		d_duchy0214
-		d_duchy0228
-		d_duchy0243
-		d_duchy0247
-		d_duchy0250
-		d_duchy0253
-		d_duchy0258
-		d_duchy0262
-		d_duchy0269
-		d_duchy0280
-		d_duchy0281
-		d_duchy0283
-		d_duchy0310
-		d_duchy0318
-		d_duchy0344
-		d_duchy0349
-		d_duchy0355
-		d_duchy0359
-		d_duchy0381
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0375
-technology = {
-	titles = {
-		d_duchy0374
-		d_duchy0375
-		d_duchy0394
-		d_duchy0421
-		d_duchy0425
-		d_duchy0435
-		d_duchy0437
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0400
-technology = {
-	titles = {
-		d_duchy0020
-		d_duchy0025
-		d_duchy0038
-		d_duchy0065
-		d_duchy0078
-		d_duchy0101
-		d_duchy0135
-		d_duchy0149
-		d_duchy0158
-		d_duchy0205
-		d_duchy0229
-		d_duchy0235
-		d_duchy0236
-		d_duchy0272
-		d_duchy0294
-		d_duchy0306
-		d_duchy0320
-		d_duchy0340
-		d_duchy0386
-		d_duchy0393
-		d_duchy0400
-		d_duchy0410
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0446
-technology = {
-	titles = {
-		d_duchy0341
-		d_duchy0379
-		d_duchy0384
-		d_duchy0398
-		d_duchy0406
-		d_duchy0426
-		d_duchy0445
-		d_duchy0446
-		d_duchy0450
-		d_duchy0469
-		d_duchy0470
-		d_duchy0481
-		d_duchy0482
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0615
-technology = {
-	titles = {
-		d_duchy0468
-		d_duchy0516
-		d_duchy0535
-		d_duchy0563
-		d_duchy0565
-		d_duchy0590
-		d_duchy0604
-		d_duchy0615
-		d_duchy0642
-		d_duchy0644
-		d_duchy0665
-		d_duchy0666
-		d_duchy0668
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0616
-technology = {
-	titles = {
-		d_duchy0465
-		d_duchy0472
-		d_duchy0483
-		d_duchy0487
-		d_duchy0506
-		d_duchy0534
-		d_duchy0540
-		d_duchy0541
-		d_duchy0547
-		d_duchy0566
-		d_duchy0572
-		d_duchy0579
-		d_duchy0581
-		d_duchy0584
-		d_duchy0587
-		d_duchy0592
-		d_duchy0610
-		d_duchy0616
-		d_duchy0618
-		d_duchy0621
-		d_duchy0628
-		d_duchy0643
-		d_duchy0648
-		d_duchy0655
-		d_duchy0656
-		d_duchy0669
-		d_duchy0688
-		d_duchy0690
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0640
-technology = {
-	titles = {
-		d_duchy0640
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0672
-technology = {
-	titles = {
+		d_duchy0417
+		d_duchy0428
+		d_duchy0467
+		d_duchy0478
 		d_duchy0495
-		d_duchy0508
-		d_duchy0522
-		d_duchy0530
-		d_duchy0537
+		d_al'alrd
+		d_duchy0510
+		d_duchy0525
+		d_duchy0551
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0513
+technology = {
+	titles = {
+		d_duchy0253
+		d_duchy0314
+		d_duchy0338
+		d_duchy0366
+		d_duchy0371
+		d_duchy0397
+		d_duchy0407
+		d_duchy0427
+		d_duchy0429
+		d_duchy0430
+		d_duchy0432
+		d_duchy0438
+		d_duchy0441
+		d_new_tehran
+		d_duchy0463
+		d_duchy0485
+		d_duchy0489
+		d_duchy0497
+		d_duchy0499
+		d_duchy0500
+		d_duchy0501
+		d_duchy0503
+		d_duchy0513
+		d_duchy0517
+		d_duchy0524
+		d_duchy0529
+		d_duchy0541
 		d_duchy0553
-		d_duchy0578
-		d_duchy0649
-		d_duchy0651
-		d_duchy0660
-		d_duchy0663
-		d_duchy0672
-		d_duchy0673
-		d_duchy0678
-		d_duchy0693
-		d_duchy0695
+		d_duchy0567
+		d_duchy0569
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# European Union
+technology = {
+	titles = {
+		d_duchy0456
+		d_duchy0464
+		d_duchy0479
+		d_duchy0480
+		d_france
+		d_duchy0506
+		d_duchy0530
+		d_duchy0558
+		d_duchy0596
+		d_duchy0599
+		d_duchy0624
+		d_duchy0635
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0531
+technology = {
+	titles = {
+		d_duchy0531
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0560
+technology = {
+	titles = {
+		d_duchy0425
+		d_duchy0476
+		d_duchy0507
+		d_duchy0544
+		d_duchy0560
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0604
+technology = {
+	titles = {
+		d_duchy0526
+		d_duchy0548
+		d_duchy0572
+		d_duchy0577
+		d_rome
+		d_duchy0580
+		d_duchy0594
+		d_duchy0595
+		d_duchy0600
+		d_duchy0601
+		d_duchy0603
+		d_istanbul
+		d_duchy0615
+		d_duchy0616
+		d_duchy0620
+		d_duchy0622
+		d_alexandria
+		d_duchy0625
+		d_duchy0638
+		d_duchy0645
+		d_cairo
+		d_duchy0666
+		d_duchy0675
+		d_mecca
+		d_duchy0700
 		d_duchy0702
-		d_duchy0706
-		d_duchy0709
-		d_duchy0710
-		d_duchy0712
-		d_duchy0713
-		d_duchy0730
-		d_duchy0734
-		d_duchy0739
-		d_duchy0750
-		d_duchy0755
-		d_duchy0762
-		d_duchy0794
-		d_duchy0798
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire0757
-technology = {
-	titles = {
-		d_duchy0708
-		d_duchy0720
-		d_duchy0724
+		d_duchy0704
 		d_duchy0736
-		d_duchy0737
-		d_duchy0757
-		d_duchy0770
-		d_duchy0773
-		d_duchy0786
-		d_duchy0790
-		d_duchy0810
-		d_duchy0840
-		d_duchy0845
-		d_duchy0884
-		d_duchy0896
-		d_duchy0952
-		d_duchy0960
+		d_duchy0739
+		d_duchy0743
+		d_duchy0764
+		d_duchy0777
 	}
 	1066 = {
 		military = 0.0
@@ -401,29 +534,73 @@ technology = {
 	}
 }
 
-# Empire0778
+# Empire0711
 technology = {
 	titles = {
-		d_duchy0676
-		d_duchy0687
-		d_duchy0761
+		d_duchy0711
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0717
+technology = {
+	titles = {
+		d_duchy0534
+		d_duchy0563
+		d_duchy0570
+		d_duchy0590
+		d_duchy0621
+		d_duchy0633
+		d_duchy0634
+		d_duchy0646
+		d_duchy0665
+		d_duchy0670
+		d_duchy0672
+		d_duchy0678
+		d_duchy0688
+		d_duchy0694
+		d_duchy0699
+		d_duchy0715
+		d_duchy0716
+		d_duchy0717
+		d_duchy0742
+		d_duchy0763
+		d_duchy0772
+		d_duchy0775
+		d_duchy0785
+		d_duchy0793
+		d_duchy0797
+		d_duchy0815
+		d_duchy0816
+		d_duchy0823
+		d_duchy0839
+		d_duchy0844
+		d_duchy0865
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0750
+technology = {
+	titles = {
+		d_duchy0648
+		d_duchy0669
+		d_duchy0701
+		d_duchy0713
+		d_duchy0734
+		d_duchy0750
+		d_duchy0759
 		d_duchy0778
-		d_duchy0780
-		d_duchy0783
-		d_duchy0784
-		d_duchy0801
-		d_duchy0805
-		d_duchy0807
-		d_duchy0825
-		d_duchy0832
-		d_duchy0842
-		d_duchy0859
-		d_duchy0887
-		d_duchy0907
-		d_duchy0910
-		d_duchy0914
-		d_duchy0923
-		d_duchy0938
+		d_duchy0803
+		d_duchy0849
 	}
 	1066 = {
 		military = 0.0
@@ -432,28 +609,18 @@ technology = {
 	}
 }
 
-# Empire0895
+# Empire0786
 technology = {
 	titles = {
-		d_duchy0808
-		d_duchy0836
-		d_duchy0838
-		d_duchy0882
-		d_duchy0895
-		d_duchy0899
-		d_duchy0904
-		d_duchy0948
-		d_duchy0954
-		d_duchy0972
-		d_duchy0976
-		d_duchy0986
-		d_duchy1015
-		d_duchy1028
-		d_duchy1051
-		d_duchy1061
-		d_duchy1094
-		d_duchy1100
-		d_duchy1122
+		d_duchy0657
+		d_duchy0685
+		d_duchy0705
+		d_duchy0732
+		d_duchy0741
+		d_duchy0784
+		d_duchy0786
+		d_duchy0810
+		d_duchy0835
 	}
 	1066 = {
 		military = 0.0
@@ -462,76 +629,340 @@ technology = {
 	}
 }
 
-# Empire1025
+# Empire0836
+technology = {
+	titles = {
+		d_duchy0664
+		d_duchy0740
+		d_duchy0751
+		d_duchy0792
+		d_duchy0827
+		d_duchy0836
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0897
+technology = {
+	titles = {
+		d_duchy0800
+		d_duchy0821
+		d_duchy0840
+		d_duchy0866
+		d_duchy0874
+		d_duchy0876
+		d_duchy0878
+		d_duchy0880
+		d_duchy0897
+		d_duchy0908
+		d_duchy0913
+		d_sri_lanka
+		d_duchy0918
+		d_duchy0927
+		d_duchy0930
+		d_duchy0941
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0935
+technology = {
+	titles = {
+		d_duchy0935
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0953
 technology = {
 	titles = {
 		d_duchy0829
-		d_duchy0843
-		d_duchy0844
-		d_duchy0866
-		d_duchy0873
-		d_duchy0883
-		d_duchy0885
+		d_duchy0837
+		d_duchy0848
+		d_duchy0858
+		d_duchy0875
+		d_duchy0879
+		d_dioxide
+		d_duchy0889
+		d_duchy0893
 		d_duchy0898
-		d_duchy0932
-		d_duchy0934
-		d_duchy0941
-		d_duchy0943
-		d_duchy0945
-		d_duchy0958
-		d_duchy0989
-		d_duchy1025
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1055
-technology = {
-	titles = {
-		d_duchy1055
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1067
-technology = {
-	titles = {
-		d_duchy0772
-		d_duchy0817
-		d_duchy0824
-		d_duchy0828
-		d_duchy0861
-		d_duchy0901
-		d_duchy0905
-		d_duchy0915
-		d_duchy0937
-		d_duchy0966
-		d_duchy0975
-		d_duchy0981
-		d_duchy0987
+		d_duchy0916
+		d_duchy0919
+		d_duchy0923
+		d_duchy0926
+		d_duchy0928
+		d_duchy0933
+		d_duchy0940
+		d_duchy0942
+		d_duchy0950
+		d_duchy0953
+		d_duchy0969
+		d_duchy0971
+		d_duchy0990
+		d_duchy1000
 		d_duchy1002
-		d_duchy1006
-		d_duchy1007
-		d_duchy1037
-		d_duchy1042
-		d_duchy1050
-		d_duchy1063
-		d_duchy1066
-		d_duchy1067
-		d_duchy1084
-		d_duchy1087
-		d_duchy1091
-		d_duchy1092
+		d_duchy1017
+		d_duchy1019
+		d_duchy1020
+		d_duchy1031
+		d_duchy1045
+		d_duchy1046
+		d_duchy1048
+		d_duchy1052
+		d_duchy1053
+		d_duchy1068
+		d_duchy1074
+		d_duchy1077
+		d_duchy1088
+		d_duchy1093
+		d_duchy1101
 		d_duchy1104
+		d_duchy1106
+		d_duchy1117
+		d_duchy1133
+		d_duchy1135
+		d_duchy1159
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0954
+technology = {
+	titles = {
+		d_duchy0954
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0956
+technology = {
+	titles = {
+		d_duchy0956
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0970
+technology = {
+	titles = {
+		d_duchy0947
+		d_duchy0955
+		d_duchy0967
+		d_duchy0970
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0976
+technology = {
+	titles = {
+		d_duchy0976
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire0982
+technology = {
+	titles = {
+		d_duchy0964
+		d_duchy0974
+		d_duchy0978
+		d_duchy0982
+		d_duchy1006
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1004
+technology = {
+	titles = {
+		d_duchy0989
+		d_duchy1004
+		d_duchy1036
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1005
+technology = {
+	titles = {
+		d_duchy0963
+		d_duchy0968
+		d_duchy0981
+		d_duchy1005
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1018
+technology = {
+	titles = {
+		d_duchy1018
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1030
+technology = {
+	titles = {
+		d_duchy0884
+		d_duchy1014
+		d_duchy1021
+		d_duchy1030
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1034
+technology = {
+	titles = {
+		d_duchy1034
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1047
+technology = {
+	titles = {
+		d_duchy1047
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1064
+technology = {
+	titles = {
+		d_duchy1056
+		d_duchy1064
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1073
+technology = {
+	titles = {
+		d_duchy1073
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1083
+technology = {
+	titles = {
+		d_duchy1022
+		d_duchy1038
+		d_duchy1057
+		d_duchy1072
+		d_duchy1083
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1097
+technology = {
+	titles = {
+		d_melbourne
+		d_duchy1097
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1102
+technology = {
+	titles = {
+		d_duchy1089
+		d_duchy1102
+		d_duchy1108
+		d_duchy1113
 		d_duchy1124
+		d_duchy1136
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1127
+technology = {
+	titles = {
 		d_duchy1127
 	}
 	1066 = {
@@ -541,18 +972,10 @@ technology = {
 	}
 }
 
-# Empire1134
+# Empire1143
 technology = {
 	titles = {
-		d_duchy1004
-		d_duchy1027
-		d_duchy1032
-		d_duchy1039
-		d_duchy1057
-		d_duchy1078
-		d_duchy1079
-		d_duchy1106
-		d_duchy1134
+		d_phobos
 	}
 	1066 = {
 		military = 0.0
@@ -561,68 +984,12 @@ technology = {
 	}
 }
 
-# Empire1151
+# Empire1145
 technology = {
 	titles = {
-		d_duchy1088
-		d_duchy1128
-		d_duchy1151
-		d_duchy1155
-		d_duchy1156
-		d_duchy1164
-		d_duchy1167
-		d_duchy1194
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1179
-technology = {
-	titles = {
-		d_duchy1179
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1198
-technology = {
-	titles = {
-		d_duchy0946
-		d_duchy1008
-		d_duchy1021
-		d_duchy1022
-		d_duchy1054
-		d_duchy1098
-		d_duchy1102
-		d_duchy1114
-		d_duchy1117
-		d_duchy1131
-		d_duchy1136
+		d_duchy1132
+		d_duchy1145
 		d_duchy1148
-		d_duchy1165
-		d_duchy1169
-		d_duchy1182
-		d_duchy1192
-		d_duchy1198
-		d_duchy1202
-		d_duchy1207
-		d_duchy1211
-		d_duchy1218
-		d_duchy1226
-		d_duchy1233
-		d_duchy1239
-		d_duchy1269
-		d_duchy1272
-		d_duchy1280
-		d_duchy1285
 	}
 	1066 = {
 		military = 0.0
@@ -631,27 +998,10 @@ technology = {
 	}
 }
 
-# Empire1256
+# Empire1153
 technology = {
 	titles = {
-		d_duchy1154
-		d_duchy1173
-		d_duchy1186
-		d_duchy1200
-		d_duchy1201
-		d_duchy1212
-		d_duchy1216
-		d_duchy1221
-		d_duchy1229
-		d_duchy1234
-		d_duchy1236
-		d_duchy1242
-		d_duchy1244
-		d_duchy1246
-		d_duchy1248
-		d_duchy1253
-		d_duchy1256
-		d_duchy1271
+		d_duchy1153
 	}
 	1066 = {
 		military = 0.0
@@ -660,13 +1010,29 @@ technology = {
 	}
 }
 
-# Empire1300
+# Empire1168
 technology = {
 	titles = {
+		d_duchy1168
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1175
+technology = {
+	titles = {
+		d_duchy1111
+		d_duchy1134
+		d_duchy1140
 		d_duchy1158
-		d_duchy1282
-		d_duchy1300
-		d_duchy1348
+		d_duchy1164
+		d_duchy1175
+		d_duchy1185
+		d_duchy1207
 	}
 	1066 = {
 		military = 0.0
@@ -675,21 +1041,119 @@ technology = {
 	}
 }
 
-# Empire1349
+# Empire1177
+technology = {
+	titles = {
+		d_duchy1177
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1184
+technology = {
+	titles = {
+		d_duchy1161
+		d_duchy1167
+		d_duchy1172
+		d_duchy1184
+		d_duchy1187
+		d_duchy1193
+		d_duchy1194
+		d_duchy1205
+		d_duchy1219
+		d_duchy1222
+		d_duchy1234
+		d_duchy1238
+		d_duchy1246
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1215
+technology = {
+	titles = {
+		d_duchy1199
+		d_duchy1215
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1243
+technology = {
+	titles = {
+		d_duchy1202
+		d_duchy1204
+		d_duchy1239
+		d_duchy1243
+		d_duchy1265
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1252
+technology = {
+	titles = {
+		d_duchy1211
+		d_duchy1252
+		d_duchy1253
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1283
+technology = {
+	titles = {
+		d_duchy1232
+		d_duchy1264
+		d_duchy1280
+		d_duchy1282
+		d_duchy1283
+		d_duchy1289
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1288
+technology = {
+	titles = {
+		d_duchy1288
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1301
 technology = {
 	titles = {
 		d_duchy1284
-		d_duchy1288
-		d_duchy1292
-		d_duchy1299
-		d_duchy1320
-		d_duchy1322
-		d_duchy1333
-		d_duchy1336
-		d_duchy1338
-		d_duchy1349
-		d_duchy1359
-		d_duchy1372
+		d_duchy1301
 	}
 	1066 = {
 		military = 0.0
@@ -698,20 +1162,40 @@ technology = {
 	}
 }
 
-# Empire1353
+# Empire1310
 technology = {
 	titles = {
+		d_duchy1310
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1322
+technology = {
+	titles = {
+		d_duchy1212
+		d_duchy1221
+		d_duchy1257
+		d_duchy1261
+		d_duchy1269
+		d_duchy1270
 		d_duchy1291
-		d_duchy1293
-		d_duchy1309
-		d_duchy1314
-		d_duchy1342
-		d_duchy1345
-		d_duchy1353
-		d_duchy1363
-		d_duchy1364
+		d_duchy1302
+		d_duchy1307
+		d_valles
+		d_duchy1322
+		d_duchy1331
+		d_duchy1348
+		d_duchy1355
+		d_duchy1357
+		d_duchy1371
+		d_duchy1374
 		d_duchy1379
-		d_duchy1391
+		d_duchy1384
 	}
 	1066 = {
 		military = 0.0
@@ -720,18 +1204,25 @@ technology = {
 	}
 }
 
-# Empire1361
+# Empire1378
 technology = {
 	titles = {
-		d_duchy1278
-		d_duchy1311
-		d_duchy1356
-		d_duchy1361
-		d_duchy1381
-		d_duchy1384
-		d_duchy1389
-		d_duchy1411
-		d_duchy1418
+		d_duchy1256
+		d_duchy1277
+		d_duchy1293
+		d_duchy1298
+		d_duchy1306
+		d_duchy1308
+		d_duchy1317
+		d_duchy1320
+		d_duchy1324
+		d_duchy1335
+		d_duchy1342
+		d_duchy1344
+		d_duchy1349
+		d_duchy1354
+		d_duchy1366
+		d_duchy1378
 	}
 	1066 = {
 		military = 0.0
@@ -743,8 +1234,6 @@ technology = {
 # Empire1388
 technology = {
 	titles = {
-		d_duchy1362
-		d_duchy1373
 		d_duchy1388
 	}
 	1066 = {
@@ -754,79 +1243,44 @@ technology = {
 	}
 }
 
-# Empire1420
+# Empire1401
 technology = {
 	titles = {
-		d_duchy1420
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1424
-technology = {
-	titles = {
-		d_duchy1419
-		d_duchy1424
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1426
-technology = {
-	titles = {
-		d_duchy1378
-		d_duchy1386
-		d_duchy1406
+		d_duchy1392
+		d_duchy1393
+		d_duchy1396
+		d_duchy1398
+		d_duchy1401
 		d_duchy1412
-		d_duchy1414
-		d_duchy1426
-		d_duchy1429
+		d_duchy1431
+		d_duchy1433
+		d_duchy1436
 		d_duchy1437
-		d_duchy1444
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1448
-technology = {
-	titles = {
-		d_duchy1448
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1453
-technology = {
-	titles = {
-		d_duchy1440
-		d_duchy1447
-		d_duchy1453
-		d_duchy1454
-		d_duchy1461
+		d_duchy1459
 		d_duchy1466
-		d_duchy1468
-		d_duchy1475
-		d_duchy1482
-		d_duchy1494
-		d_duchy1498
-		d_duchy1524
-		d_duchy1534
+		d_duchy1477
+		d_duchy1481
+		d_duchy1490
+		d_duchy1493
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1405
+technology = {
+	titles = {
+		d_duchy1363
+		d_duchy1373
+		d_duchy1389
+		d_duchy1391
+		d_duchy1404
+		d_duchy1405
+		d_duchy1411
+		d_duchy1432
 	}
 	1066 = {
 		military = 0.0
@@ -838,7 +1292,70 @@ technology = {
 # Empire1460
 technology = {
 	titles = {
+		d_duchy1418
 		d_duchy1460
+		d_duchy1486
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1508
+technology = {
+	titles = {
+		d_duchy1496
+		d_duchy1508
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1513
+technology = {
+	titles = {
+		d_duchy1429
+		d_duchy1453
+		d_duchy1465
+		d_duchy1471
+		d_duchy1505
+		d_duchy1513
+		d_duchy1517
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1522
+technology = {
+	titles = {
+		d_duchy1435
+		d_duchy1461
+		d_duchy1492
+		d_duchy1522
+		d_duchy1546
+		d_duchy1547
+		d_duchy1561
+		d_duchy1564
+		d_duchy1566
+		d_duchy1583
+		d_duchy1584
+		d_duchy1601
+		d_duchy1614
+		d_duchy1615
+		d_duchy1618
+		d_duchy1643
+		d_duchy1644
+		d_duchy1652
+		d_duchy1675
 	}
 	1066 = {
 		military = 0.0
@@ -850,24 +1367,7 @@ technology = {
 # Empire1530
 technology = {
 	titles = {
-		d_duchy1456
-		d_duchy1476
-		d_duchy1483
-		d_duchy1488
-		d_duchy1499
-		d_duchy1506
-		d_duchy1517
-		d_duchy1519
-		d_duchy1522
 		d_duchy1530
-		d_duchy1537
-		d_duchy1551
-		d_duchy1557
-		d_duchy1568
-		d_duchy1581
-		d_duchy1587
-		d_duchy1594
-		d_duchy1601
 	}
 	1066 = {
 		military = 0.0
@@ -876,135 +1376,105 @@ technology = {
 	}
 }
 
-# Empire1550
+# Empire1539
 technology = {
 	titles = {
-		d_duchy1516
-		d_duchy1521
-		d_duchy1525
+		d_duchy1539
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1548
+technology = {
+	titles = {
+		d_duchy1421
+		d_duchy1428
+		d_duchy1476
+		d_duchy1478
+		d_duchy1483
+		d_duchy1501
+		d_duchy1512
+		d_duchy1548
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1596
+technology = {
+	titles = {
+		d_duchy1504
+		d_duchy1515
+		d_duchy1520
+		d_duchy1523
 		d_duchy1526
-		d_duchy1535
-		d_duchy1546
-		d_duchy1550
-		d_duchy1564
-		d_duchy1571
+		d_duchy1527
+		d_duchy1531
+		d_duchy1538
+		d_duchy1544
+		d_duchy1552
+		d_duchy1554
+		d_duchy1556
 		d_duchy1574
 		d_duchy1578
-		d_duchy1586
+		d_duchy1580
+		d_duchy1585
+		d_duchy1589
+		d_duchy1592
 		d_duchy1596
-		d_duchy1604
-		d_duchy1619
-		d_duchy1626
-		d_duchy1634
-		d_duchy1642
-		d_duchy1647
-		d_duchy1650
-		d_duchy1651
-		d_duchy1681
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1563
-technology = {
-	titles = {
-		d_duchy1500
-		d_duchy1508
-		d_duchy1555
-		d_duchy1563
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1615
-technology = {
-	titles = {
-		d_duchy1597
-		d_duchy1608
-		d_duchy1615
-		d_duchy1641
-		d_duchy1661
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1684
-technology = {
-	titles = {
-		d_duchy1605
-		d_duchy1622
+		d_duchy1602
 		d_duchy1630
-		d_duchy1637
-		d_duchy1640
-		d_duchy1644
-		d_duchy1658
-		d_duchy1671
+		d_duchy1639
+		d_duchy1647
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1682
+technology = {
+	titles = {
+		d_duchy1682
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1702
+technology = {
+	titles = {
+		d_duchy1613
+		d_duchy1620
+		d_duchy1642
+		d_duchy1651
+		d_duchy1654
+		d_duchy1659
+		d_duchy1677
 		d_duchy1679
-		d_duchy1684
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1691
-technology = {
-	titles = {
-		d_duchy1664
-		d_duchy1691
-		d_duchy1695
-		d_duchy1699
-		d_duchy1708
-		d_duchy1722
-		d_duchy1737
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1748
-technology = {
-	titles = {
-		d_duchy1720
-		d_duchy1744
-		d_duchy1748
-		d_duchy1765
-		d_duchy1786
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1775
-technology = {
-	titles = {
-		d_duchy1721
+		d_duchy1680
+		d_duchy1685
+		d_duchy1693
+		d_duchy1701
+		d_duchy1702
+		d_duchy1716
+		d_duchy1727
+		d_duchy1739
 		d_duchy1741
-		d_duchy1761
-		d_duchy1767
-		d_duchy1775
-		d_duchy1799
-		d_duchy1803
+		d_duchy1762
+		d_duchy1770
 	}
 	1066 = {
 		military = 0.0
@@ -1013,17 +1483,17 @@ technology = {
 	}
 }
 
-# Empire1778
+# Empire1705
 technology = {
 	titles = {
-		d_duchy1697
-		d_duchy1703
+		d_duchy1594
+		d_duchy1606
+		d_duchy1635
+		d_duchy1648
+		d_duchy1671
+		d_duchy1672
+		d_duchy1691
 		d_duchy1705
-		d_duchy1706
-		d_duchy1718
-		d_duchy1754
-		d_duchy1755
-		d_duchy1778
 	}
 	1066 = {
 		military = 0.0
@@ -1032,103 +1502,80 @@ technology = {
 	}
 }
 
-# Empire1789
+# Empire1719
+technology = {
+	titles = {
+		d_duchy1609
+		d_duchy1668
+		d_duchy1670
+		d_duchy1687
+		d_duchy1697
+		d_duchy1698
+		d_duchy1704
+		d_duchy1709
+		d_duchy1714
+		d_duchy1719
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1771
+technology = {
+	titles = {
+		d_duchy1729
+		d_duchy1749
+		d_duchy1754
+		d_duchy1769
+		d_duchy1771
+		d_duchy1773
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1780
 technology = {
 	titles = {
 		d_duchy1731
-		d_duchy1743
-		d_duchy1750
-		d_duchy1772
-		d_duchy1779
-		d_duchy1788
-		d_duchy1789
-		d_duchy1800
-		d_duchy1811
-		d_duchy1814
-		d_duchy1818
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1862
-technology = {
-	titles = {
-		d_duchy1738
-		d_duchy1763
+		d_duchy1742
+		d_duchy1756
+		d_duchy1757
 		d_duchy1764
+		d_duchy1776
+		d_duchy1777
+		d_duchy1778
 		d_duchy1780
-		d_duchy1813
-		d_duchy1816
-		d_duchy1817
-		d_duchy1828
-		d_duchy1831
-		d_duchy1833
-		d_duchy1842
-		d_duchy1844
-		d_duchy1847
-		d_duchy1862
-		d_duchy1871
-		d_duchy1873
-		d_duchy1874
-		d_duchy1875
-		d_duchy1884
-		d_duchy1896
-		d_duchy1900
-		d_duchy1901
-		d_duchy1908
-		d_duchy1911
-		d_duchy1921
-		d_duchy1930
-		d_duchy1947
-		d_duchy1967
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire1946
-technology = {
-	titles = {
+		d_duchy1784
+		d_duchy1786
+		d_duchy1787
+		d_duchy1793
+		d_duchy1803
+		d_duchy1806
+		d_duchy1819
+		d_duchy1820
+		d_duchy1822
+		d_duchy1826
 		d_duchy1827
-		d_duchy1838
-		d_duchy1840
-		d_duchy1872
-		d_duchy1888
-		d_duchy1899
-		d_duchy1903
-		d_duchy1913
-		d_duchy1928
-		d_duchy1935
-		d_duchy1939
-		d_duchy1946
+		d_duchy1829
+		d_duchy1844
+		d_duchy1874
+		d_duchy1881
+		d_duchy1887
+		d_duchy1907
+		d_duchy1908
+		d_duchy1919
+		d_duchy1940
 		d_duchy1953
-		d_duchy1955
-		d_duchy1961
-		d_duchy1968
-		d_duchy1979
-		d_duchy1988
-		d_duchy1989
-		d_duchy1991
-		d_duchy1999
-		d_duchy2013
-		d_duchy2014
-		d_duchy2030
-		d_duchy2036
-		d_duchy2039
-		d_duchy2045
-		d_duchy2061
-		d_duchy2063
-		d_duchy2076
-		d_duchy2077
-		d_duchy2082
-		d_duchy2090
+		d_duchy1965
+		d_duchy1970
+		d_duchy2020
 	}
 	1066 = {
 		military = 0.0
@@ -1137,19 +1584,10 @@ technology = {
 	}
 }
 
-# Empire1964
+# Empire1858
 technology = {
 	titles = {
-		d_duchy1835
-		d_duchy1851
-		d_duchy1865
-		d_duchy1880
-		d_duchy1892
-		d_duchy1920
-		d_duchy1964
-		d_duchy1976
-		d_duchy2008
-		d_duchy2021
+		d_duchy1858
 	}
 	1066 = {
 		military = 0.0
@@ -1158,168 +1596,167 @@ technology = {
 	}
 }
 
-# Empire1982
+# Empire1925
 technology = {
 	titles = {
 		d_duchy1925
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire1994
+technology = {
+	titles = {
+		d_duchy1733
+		d_duchy1791
+		d_duchy1830
+		d_duchy1832
+		d_duchy1862
+		d_duchy1865
+		d_duchy1884
+		d_duchy1913
+		d_duchy1930
+		d_duchy1933
+		d_duchy1971
+		d_duchy1984
+		d_duchy1994
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire2009
+technology = {
+	titles = {
+		d_duchy2009
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire2014
+technology = {
+	titles = {
+		d_duchy1915
+		d_duchy1931
+		d_new_jerusalem
+		d_duchy1995
+		d_duchy2008
+		d_duchy2014
+		d_duchy2035
+		d_duchy2039
+		d_duchy2047
+		d_duchy2064
+		d_duchy2069
+		d_duchy2075
+		d_duchy2086
+		d_duchy2090
+		d_duchy2107
+		d_duchy2110
+		d_duchy2133
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire2021
+technology = {
+	titles = {
+		d_duchy1798
+		d_duchy1804
+		d_duchy1834
+		d_duchy1839
+		d_duchy1850
+		d_naiad
+		d_duchy1859
+		d_duchy1866
+		d_duchy1875
+		d_cronus_peninsula
+		d_duchy1896
+		d_duchy1927
+		d_duchy1929
 		d_duchy1941
-		d_duchy1951
-		d_duchy1958
-		d_duchy1962
-		d_duchy1975
+		d_duchy1947
+		d_duchy1980
 		d_duchy1981
 		d_duchy1982
+		d_galatea
+		d_duchy1986
+		d_duchy2021
+		d_duchy2022
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire2038
+technology = {
+	titles = {
+		d_duchy2038
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire2049
+technology = {
+	titles = {
+		d_duchy1938
 		d_duchy1992
-		d_duchy2003
-		d_duchy2006
-		d_duchy2009
-		d_duchy2010
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2040
-technology = {
-	titles = {
-		d_duchy2040
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2041
-technology = {
-	titles = {
-		d_duchy2025
-		d_duchy2035
-		d_duchy2041
-		d_duchy2062
-		d_duchy2084
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2071
-technology = {
-	titles = {
-		d_duchy2060
-		d_duchy2071
-		d_duchy2089
-		d_duchy2096
-		d_duchy2105
-		d_duchy2110
-		d_duchy2113
-		d_duchy2133
-		d_duchy2134
-		d_duchy2154
-		d_duchy2163
-		d_duchy2164
-		d_duchy2183
-		d_duchy2207
-		d_duchy2225
-		d_duchy2323
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2172
-technology = {
-	titles = {
-		d_duchy2172
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2228
-technology = {
-	titles = {
-		d_duchy2228
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2278
-technology = {
-	titles = {
-		d_duchy2108
-		d_duchy2111
-		d_duchy2126
-		d_duchy2129
-		d_duchy2148
-		d_duchy2155
-		d_duchy2171
-		d_duchy2174
-		d_duchy2188
-		d_duchy2189
-		d_duchy2247
-		d_duchy2251
-		d_duchy2261
-		d_duchy2278
-		d_duchy2279
-		d_duchy2324
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2289
-technology = {
-	titles = {
-		d_duchy2042
-		d_duchy2043
-		d_duchy2059
-		d_duchy2068
-		d_duchy2078
-		d_duchy2092
-		d_duchy2093
+		d_duchy2034
+		d_duchy2049
+		d_duchy2074
 		d_duchy2101
+	}
+	1066 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+}
+
+# Empire2059
+technology = {
+	titles = {
+		d_astaeus
+		d_duchy1967
+		d_duchy1974
+		d_duchy1976
+		d_duchy2006
+		d_duchy2011
+		d_duchy2030
+		d_duchy2041
+		d_duchy2048
+		d_duchy2057
+		d_duchy2059
+		d_duchy2063
+		d_duchy2078
+		d_duchy2083
+		d_duchy2091
+		d_duchy2098
 		d_duchy2104
-		d_duchy2109
-		d_duchy2137
-		d_duchy2139
-		d_duchy2141
-		d_duchy2149
-		d_duchy2161
-		d_duchy2181
-		d_duchy2185
-		d_duchy2191
-		d_duchy2196
-		d_duchy2220
-		d_duchy2221
-		d_duchy2231
-		d_duchy2242
-		d_duchy2246
-		d_duchy2267
-		d_duchy2289
-		d_duchy2291
-		d_duchy2303
-		d_duchy2329
+		d_duchy2105
+		d_duchy2106
+		d_duchy2115
 	}
 	1066 = {
 		military = 0.0
@@ -1328,19 +1765,10 @@ technology = {
 	}
 }
 
-# Empire2290
+# Empire2155
 technology = {
 	titles = {
-		d_duchy2209
-		d_duchy2260
-		d_duchy2290
-		d_duchy2299
-		d_duchy2315
-		d_duchy2344
-		d_duchy2349
-		d_duchy2350
-		d_duchy2369
-		d_duchy2372
+		d_duchy2155
 	}
 	1066 = {
 		military = 0.0
@@ -1349,21 +1777,32 @@ technology = {
 	}
 }
 
-# Empire2292
+# Empire2158
 technology = {
 	titles = {
+		d_duchy1990
+		d_duchy1997
+		d_duchy2058
+		d_duchy2066
+		d_duchy2077
+		d_duchy2097
+		d_duchy2117
+		d_duchy2121
+		d_duchy2123
+		d_duchy2125
+		d_duchy2131
+		d_duchy2134
+		d_duchy2142
+		d_duchy2144
+		d_duchy2147
+		d_duchy2150
 		d_duchy2156
-		d_duchy2195
-		d_duchy2201
-		d_duchy2234
-		d_duchy2248
-		d_duchy2249
-		d_duchy2264
-		d_duchy2292
-		d_duchy2300
-		d_duchy2312
-		d_duchy2318
-		d_duchy2321
+		d_duchy2158
+		d_duchy2161
+		d_duchy2162
+		d_duchy2170
+		d_duchy2171
+		d_duchy2175
 	}
 	1066 = {
 		military = 0.0
@@ -1372,10 +1811,10 @@ technology = {
 	}
 }
 
-# Empire2342
+# Empire2174
 technology = {
 	titles = {
-		d_duchy2342
+		d_duchy2174
 	}
 	1066 = {
 		military = 0.0
@@ -1384,111 +1823,10 @@ technology = {
 	}
 }
 
-# Empire2346
+# Empire2176
 technology = {
 	titles = {
-		d_duchy2346
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2367
-technology = {
-	titles = {
-		d_duchy2202
-		d_duchy2237
-		d_duchy2265
-		d_duchy2273
-		d_duchy2285
-		d_duchy2309
-		d_duchy2310
-		d_duchy2347
-		d_duchy2359
-		d_duchy2365
-		d_duchy2367
-		d_duchy2376
-		d_duchy2384
-		d_duchy2385
-		d_duchy2391
-		d_duchy2398
-		d_duchy2399
-		d_duchy2400
-		d_duchy2411
-		d_duchy2414
-		d_duchy2419
-		d_duchy2421
-		d_duchy2425
-		d_duchy2432
-		d_duchy2434
-		d_duchy2435
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2404
-technology = {
-	titles = {
-		d_duchy2404
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2440
-technology = {
-	titles = {
-		d_duchy2280
-		d_duchy2298
-		d_duchy2302
-		d_duchy2351
-		d_duchy2370
-		d_duchy2371
-		d_duchy2378
-		d_duchy2381
-		d_duchy2395
-		d_duchy2413
-		d_duchy2422
-		d_duchy2430
-		d_duchy2439
-		d_duchy2440
-		d_duchy2444
-		d_duchy2447
-		d_duchy2461
-		d_duchy2464
-		d_duchy2468
-		d_duchy2471
-		d_duchy2474
-		d_duchy2479
-		d_duchy2480
-		d_duchy2490
-		d_duchy2493
-		d_duchy2495
-		d_duchy2497
-		d_duchy2500
-	}
-	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
-	}
-}
-
-# Empire2484
-technology = {
-	titles = {
-		d_duchy2475
-		d_duchy2484
+		d_duchy2176
 	}
 	1066 = {
 		military = 0.0

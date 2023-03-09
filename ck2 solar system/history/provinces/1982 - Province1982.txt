@@ -6,10 +6,9 @@ title = c_province1982
 # Settlements
 max_settlements = 4
 b_barony1982` = tribal
-b_barony1982a = temple
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = hedgehog_culture
+religion = hindu
 
 # History

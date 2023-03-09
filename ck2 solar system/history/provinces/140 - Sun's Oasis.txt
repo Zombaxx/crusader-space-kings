@@ -1,0 +1,15 @@
+# 140 - Sun's Oasis
+
+# County Title
+title = c_sun's_oasis
+
+# Settlements
+max_settlements = 1
+b_sun's_oasis = tribal
+b_barony0140a = temple
+
+# Misc
+culture = dragon_culture
+religion = tengri_pagan
+
+# History

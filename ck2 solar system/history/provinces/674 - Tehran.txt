@@ -1,0 +1,15 @@
+# 674 - Tehran
+
+# County Title
+title = c_tehran
+
+# Settlements
+max_settlements = 2
+b_tehran = castle
+b_barony0674a = temple
+
+# Misc
+culture = bedouin_arabic
+religion = shiite
+
+# History

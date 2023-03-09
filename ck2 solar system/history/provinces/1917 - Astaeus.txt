@@ -1,0 +1,16 @@
+# 1917 - Astaeus
+
+# County Title
+title = c_astaeus
+
+# Settlements
+max_settlements = 4
+b_astaeus = castle
+b_barony1917a = temple
+b_barony1917b = city
+
+# Misc
+culture = cat
+religion = baltic_pagan
+
+# History

@@ -1,0 +1,15 @@
+# 504 - Al'Alrd
+
+# County Title
+title = c_al'alrd
+
+# Settlements
+max_settlements = 3
+b_al'alrd = tribal
+b_barony0504a = temple
+
+# Misc
+culture = red_panda
+religion = sunni
+
+# History

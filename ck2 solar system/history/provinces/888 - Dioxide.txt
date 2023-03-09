@@ -1,0 +1,15 @@
+# 888 - Dioxide
+
+# County Title
+title = c_dioxide
+
+# Settlements
+max_settlements = 4
+b_dioxide = tribal
+b_barony0888a = temple
+
+# Misc
+culture = horse
+religion = hindu
+
+# History

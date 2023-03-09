@@ -1,0 +1,20 @@
+# 141 - San Francisco
+
+# County Title
+title = c_san_francisco
+
+# Settlements
+max_settlements = 5
+b_san_francisco = city
+b_daly = temple
+b_san_jose = castle
+b_silicon_valley = city
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+1066.1.1 = {
+	trade_post = b_patrician_101410
+}

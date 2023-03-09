@@ -1,0 +1,17 @@
+# 65 - Darien
+
+# County Title
+title = c_darien
+
+# Settlements
+max_settlements = 6
+b_darien = castle
+b_panama_city = temple
+b_charges = city
+b_el_porvenir = castle
+
+# Misc
+culture = nubian
+religion = catholic
+
+# History

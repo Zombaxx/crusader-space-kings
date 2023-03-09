@@ -1,0 +1,15 @@
+# 321 - Foothills of Mun
+
+# County Title
+title = c_foothills_of_mun
+
+# Settlements
+max_settlements = 4
+b_foothills_of_mun = tribal
+b_barony0321a = temple
+
+# Misc
+culture = horse
+religion = messalian
+
+# History

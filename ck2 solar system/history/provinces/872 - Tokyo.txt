@@ -1,0 +1,17 @@
+# 872 - Tokyo
+
+# County Title
+title = c_tokyo
+
+# Settlements
+max_settlements = 6
+b_tokyo = castle
+b_barony0872a = temple
+b_barony0872b = city
+b_barony0872c = castle
+
+# Misc
+culture = zhangzhung
+religion = buddhist
+
+# History

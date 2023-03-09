@@ -1,0 +1,16 @@
+# 604 - Istanbul
+
+# County Title
+title = c_istanbul
+
+# Settlements
+max_settlements = 4
+b_istanbul = castle
+b_barony0604a = temple
+b_barony0604b = city
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

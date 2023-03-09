@@ -1,0 +1,15 @@
+# 1237 - Olympus Mons
+
+# County Title
+title = c_olympus_mons
+
+# Settlements
+max_settlements = 3
+b_olympus_mons = castle
+b_barony1237a = temple
+
+# Misc
+culture = dragon_culture
+religion = hellenic_pagan
+
+# History

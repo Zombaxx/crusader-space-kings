@@ -1,0 +1,15 @@
+# 225 - Northern Jungle
+
+# County Title
+title = c_northern_jungle
+
+# Settlements
+max_settlements = 4
+b_northern_jungle = tribal
+b_barony0225a = temple
+
+# Misc
+culture = horse
+religion = zoroastrian
+
+# History

@@ -1,0 +1,15 @@
+# 773 - Islamabad
+
+# County Title
+title = c_islamabad
+
+# Settlements
+max_settlements = 3
+b_islamabad = tribal
+b_barony0773a = temple
+
+# Misc
+culture = kannada
+religion = sunni
+
+# History

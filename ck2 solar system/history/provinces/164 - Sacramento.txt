@@ -1,0 +1,14 @@
+# 164 - Sacramento
+
+# County Title
+title = c_sacramento
+
+# Settlements
+max_settlements = 2
+b_sacramento = city
+
+# Misc
+culture = irish
+religion = catholic
+
+# History

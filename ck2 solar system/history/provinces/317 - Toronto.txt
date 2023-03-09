@@ -1,0 +1,16 @@
+# 317 - Toronto
+
+# County Title
+title = c_toronto
+
+# Settlements
+max_settlements = 4
+b_toronto = castle
+b_barony0317a = temple
+b_barony0317b = city
+
+# Misc
+culture = saxon
+religion = nestorian
+
+# History

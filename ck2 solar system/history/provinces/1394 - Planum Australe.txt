@@ -1,0 +1,15 @@
+# 1394 - Planum Australe
+
+# County Title
+title = c_planum_australe
+
+# Settlements
+max_settlements = 1
+b_planum_australe = castle
+b_barony1394a = temple
+
+# Misc
+culture = bear
+religion = taoist
+
+# History

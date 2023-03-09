@@ -1,0 +1,15 @@
+# 180 - Rio
+
+# County Title
+title = c_rio
+
+# Settlements
+max_settlements = 3
+b_rio = city
+b_barony0180a = temple
+
+# Misc
+culture = castillan
+religion = catholic
+
+# History

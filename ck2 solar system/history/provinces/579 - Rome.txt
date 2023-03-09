@@ -1,0 +1,17 @@
+# 579 - Rome
+
+# County Title
+title = c_rome
+
+# Settlements
+max_settlements = 5
+b_rome = castle
+b_barony0579a = temple
+b_barony0579b = city
+b_barony0579c = castle
+
+# Misc
+culture = greek
+religion = catholic
+
+# History

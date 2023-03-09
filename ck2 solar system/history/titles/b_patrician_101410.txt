@@ -1,0 +1,14 @@
+928.1.1 = {
+	holding_dynasty = 101410 # de Daly - makes this a FAMILY_PALACE type Holding
+	liege="d_bay_area"
+	holder = 101410
+}
+1006.1.1 = {
+	holder = 101411
+}
+1033.1.1 = {
+	holder = 101412
+}
+1064.1.1 = {
+	holder = 101415
+}

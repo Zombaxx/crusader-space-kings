@@ -1,0 +1,5 @@
+1062.1.1 = {
+	holding_dynasty = 101414 # de Mountain View - makes this a FAMILY_PALACE type Holding
+	liege="d_bay_area"
+	holder = 202835
+}

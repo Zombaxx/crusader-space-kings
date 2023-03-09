@@ -1,0 +1,15 @@
+# 2046 - Iapetus Bay
+
+# County Title
+title = c_iapetus_bay
+
+# Settlements
+max_settlements = 3
+b_iapetus_bay = tribal
+b_barony2046a = temple
+
+# Misc
+culture = cat
+religion = baltic_pagan
+
+# History

@@ -1,4 +1,4 @@
-max_provinces = 2861
+max_provinces = 2342
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -15,10 +15,10 @@ geographical_region = "geographical_region.txt"
 static = "statics"
 seasons = "seasons.txt"
 
-sea_zones = { 2501 2860 }
+sea_zones = { 2178 2341 }
 ocean_region = { sea_zones = { 1 } }
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 6 7 9 10 }
 major_rivers = {
-	2501 2504 2571 2580 2586 2629 2630 2661 2712 2715 2720 2723 2728 2733 2751 2754 2765 2773 2801 2804 2805 2806 2807 2811 2836 2848 2849 2851 2857 2858 2859 2860 
+	2178 2182 2193 2200 2201 2209 2210 2225 2249 2250 2255 2256 2259 2269 2272 2281 2290 2309 2310 2311 2312 2313 2316 2326 2335 2336 2337 2338 2339 2340 2341 
 }

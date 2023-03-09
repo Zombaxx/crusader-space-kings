@@ -1,0 +1,16 @@
+# 1007 - Bali
+
+# County Title
+title = c_bali
+
+# Settlements
+max_settlements = 4
+b_bali = castle
+b_barony1007a = temple
+b_barony1007b = city
+
+# Misc
+culture = kannada
+religion = hindu
+
+# History

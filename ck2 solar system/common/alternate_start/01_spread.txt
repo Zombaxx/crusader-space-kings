@@ -1,30 +1,64 @@
 adjacencies = {
-	719 = 788 #Province0719 - Province0788
-	178 = 160 #Province0178 - Province0160
-	640 = 667 #Province0640 - Province0667
-	959 = 956 #Province0959 - Province0956
-	1055 = 1091 #Province1055 - Province1091
-	1158 = 1072 #Province1158 - Province1072
-	1179 = 1158 #Province1179 - Province1158
-	1396 = 1351 #Province1396 - Province1351
-	1413 = 1452 #Province1413 - Province1452
-	1451 = 1349 #Province1451 - Province1349
-	1462 = 1544 #Province1462 - Province1544
-	1460 = 1423 #Province1460 - Province1423
-	1689 = 1590 #Province1689 - Province1590
-	1770 = 1759 #Province1770 - Province1759
-	1961 = 1971 #Province1961 - Province1971
-	1950 = 1823 #Province1950 - Province1823
-	2040 = 2055 #Province2040 - Province2055
-	2272 = 2295 #Province2272 - Province2295
-	2172 = 2165 #Province2172 - Province2165
-	2299 = 2165 #Province2299 - Province2165
-	2228 = 2225 #Province2228 - Province2225
-	2283 = 2225 #Province2283 - Province2225
-	2342 = 2339 #Province2342 - Province2339
-	2346 = 2333 #Province2346 - Province2333
-	2404 = 2395 #Province2404 - Province2395
-	2469 = 2448 #Province2469 - Province2448
+	440 = 474 #Province0440 - Province0474
+	465 = 726 #Province0465 - Province0726
+	209 = 253 #Province0209 - Province0253
+	24 = 57 #Province0024 - Province0057
+	172 = 173 #Province0172 - Province0173
+	188 = 120 #Province0188 - Province0120
+	285 = 328 #Province0285 - Province0328
+	333 = 310 #Province0333 - Province0310
+	351 = 326 #Province0351 - Province0326
+	383 = 402 #Province0383 - Province0402
+	531 = 563 #Province0531 - Province0563
+	859 = 904 #Province0859 - Province0904
+	845 = 885 #Province0845 - Province0885
+	711 = 813 #Province0711 - Province0813
+	818 = 573 #Province0818 - Province0573
+	1029 = 1120 #Province1029 - Province1120
+	935 = 903 #Province0935 - Province0903
+	968 = 959 #Province0968 - Province0959
+	946 = 873 #Province0946 - Province0873
+	956 = 935 #Province0956 - Province0935
+	976 = 955 #Province0976 - Province0955
+	989 = 993 #Province0989 - Province0993
+	1018 = 1043 #Province1018 - Province1043
+	1034 = 1043 #Province1034 - Province1043
+	1054 = 1081 #Province1054 - Province1081
+	1064 = 1049 #Province1064 - Province1049
+	1058 = 1029 #Province1058 - Province1029
+	1098 = 1110 #Province1098 - Province1110
+	1144 = 1245 #Province1144 - Province1245
+	1127 = 1122 #Province1127 - Province1122
+	1139 = 1170 #Province1139 - Province1170
+	1153 = 1131 #Province1153 - Province1131
+	1168 = 1245 #Province1168 - Province1245
+	1162 = 1006 #Province1162 - Province1006
+	1177 = 1144 #Province1177 - Province1144
+	1215 = 1191 #Province1215 - Province1191
+	1227 = 1191 #Province1227 - Province1191
+	1271 = 1247 #Province1271 - Province1247
+	1288 = 1278 #Province1288 - Province1278
+	1310 = 1301 #Province1310 - Province1301
+	1373 = 1278 #Province1373 - Province1278
+	1388 = 1410 #Province1388 - Province1410
+	1672 = 1661 #Province1672 - Province1661
+	1448 = 1450 #Province1448 - Province1450
+	1529 = 1510 #Province1529 - Province1510
+	1539 = 1557 #Province1539 - Province1557
+	1637 = 1517 #Province1637 - Province1517
+	1682 = 1697 #Province1682 - Province1697
+	1737 = 1715 #Province1737 - Province1715
+	1814 = 1666 #Province1814 - Province1666
+	1858 = 1830 #Province1858 - Province1830
+	2091 = 2075 #Province2091 - Province2075
+	2075 = 2091 #Province2075 - Province2091
+	1988 = 1906 #Province1988 - Province1906
+	1925 = 1924 #Province1925 - Province1924
+	2000 = 1953 #Province2000 - Province1953
+	2038 = 2016 #Province2038 - Province2016
+	2148 = 2129 #Province2148 - Province2129
+	2176 = 2172 #Province2176 - Province2172
+	2174 = 2170 #Province2174 - Province2170
 }
 
 
@@ -32,19 +66,23 @@ culture_group_spread = {
 	factor = 100
 	modifier = {
 		factor = 10
-		num_culture_provinces < 28
+		num_culture_provinces < 24
 	}
 	modifier = {
 		factor = 0.8
-		num_culture_provinces > 42
+		num_culture_provinces > 36
 	}
 	modifier = {
 		factor = 0.8
-		num_culture_provinces > 56
+		num_culture_provinces > 48
 	}
 	modifier = {
 		factor = 0.8
-		num_culture_provinces > 70
+		num_culture_provinces > 60
+	}
+	modifier = {
+		factor = 0.8
+		num_culture_provinces > 72
 	}
 	modifier = {
 		factor = 0.8
@@ -52,23 +90,19 @@ culture_group_spread = {
 	}
 	modifier = {
 		factor = 0.8
-		num_culture_provinces > 98
+		num_culture_provinces > 96
 	}
 	modifier = {
 		factor = 0.8
-		num_culture_provinces > 112
+		num_culture_provinces > 108
 	}
 	modifier = {
 		factor = 0.8
-		num_culture_provinces > 126
+		num_culture_provinces > 120
 	}
 	modifier = {
 		factor = 0.8
-		num_culture_provinces > 140
-	}
-	modifier = {
-		factor = 0.8
-		num_culture_provinces > 154
+		num_culture_provinces > 132
 	}
 	#TODO: Add culture_group specific modifiers here
 }
@@ -127,19 +161,23 @@ religion_group_spread = {
 	factor = 100
 	modifier = {
 		factor = 10
-		num_religion_provinces < 28
+		num_religion_provinces < 24
 	}
 	modifier = {
 		factor = 0.8
-		num_religion_provinces > 42
+		num_religion_provinces > 36
 	}
 	modifier = {
 		factor = 0.8
-		num_religion_provinces > 56
+		num_religion_provinces > 48
 	}
 	modifier = {
 		factor = 0.8
-		num_religion_provinces > 70
+		num_religion_provinces > 60
+	}
+	modifier = {
+		factor = 0.8
+		num_religion_provinces > 72
 	}
 	modifier = {
 		factor = 0.8
@@ -147,23 +185,19 @@ religion_group_spread = {
 	}
 	modifier = {
 		factor = 0.8
-		num_religion_provinces > 98
+		num_religion_provinces > 96
 	}
 	modifier = {
 		factor = 0.8
-		num_religion_provinces > 112
+		num_religion_provinces > 108
 	}
 	modifier = {
 		factor = 0.8
-		num_religion_provinces > 126
+		num_religion_provinces > 120
 	}
 	modifier = {
 		factor = 0.8
-		num_religion_provinces > 140
-	}
-	modifier = {
-		factor = 0.8
-		num_religion_provinces > 154
+		num_religion_provinces > 132
 	}
 	#TODO: Add religion_group specific modifiers here
 }

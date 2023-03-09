@@ -4,12 +4,13 @@
 title = c_province2006
 
 # Settlements
-max_settlements = 7
-b_barony2006` = tribal
+max_settlements = 4
+b_barony2006` = castle
 b_barony2006a = temple
+b_barony2006b = city
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = cat
+religion = baltic_pagan
 
 # History

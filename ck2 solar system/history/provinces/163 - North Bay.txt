@@ -1,0 +1,16 @@
+# 163 - North Bay
+
+# County Title
+title = c_north_bay
+
+# Settlements
+max_settlements = 4
+b_north_bay = city
+b_barony0163a = temple
+b_barony0163b = castle
+
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History

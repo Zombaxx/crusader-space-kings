@@ -4,11 +4,11 @@
 title = c_province0545
 
 # Settlements
-max_settlements = 4
+max_settlements = 1
 b_barony0545` = tribal
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = elephant_culture
+religion = zun_pagan
 
 # History

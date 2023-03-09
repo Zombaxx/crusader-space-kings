@@ -1,0 +1,15 @@
+# 458 - Joro Jungle
+
+# County Title
+title = c_joro_jungle
+
+# Settlements
+max_settlements = 3
+b_joro_jungle = tribal
+b_barony0458a = temple
+
+# Misc
+culture = horse
+religion = zoroastrian
+
+# History

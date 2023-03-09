@@ -5,11 +5,13 @@ title = c_province2139
 
 # Settlements
 max_settlements = 5
-b_barony2139` = tribal
+b_barony2139` = castle
 b_barony2139a = temple
+b_barony2139b = city
+b_barony2139c = castle
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = dog_culture
+religion = kharijite
 
 # History

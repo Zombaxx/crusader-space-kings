@@ -4,11 +4,11 @@
 title = c_province0231
 
 # Settlements
-max_settlements = 4
+max_settlements = 2
 b_barony0231` = tribal
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = irish
+religion = catholic
 
 # History

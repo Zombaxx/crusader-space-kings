@@ -1,0 +1,17 @@
+# 45 - Costa Rica
+
+# County Title
+title = c_costa_rica
+
+# Settlements
+max_settlements = 5
+b_costa_rica = castle
+b_san_jose_de_costa_rica = temple
+b_quepos = city
+b_jaco = castle
+
+# Misc
+culture = nahuatl
+religion = catholic
+
+# History

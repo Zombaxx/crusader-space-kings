@@ -1,0 +1,15 @@
+# 130 - Ryha
+
+# County Title
+title = c_ryha
+
+# Settlements
+max_settlements = 4
+b_ryha = tribal
+b_barony0130a = temple
+
+# Misc
+culture = horse
+religion = messalian
+
+# History

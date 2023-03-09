@@ -5,10 +5,11 @@ title = c_province0480
 
 # Settlements
 max_settlements = 3
-b_barony0480` = tribal
+b_barony0480` = castle
+b_barony0480a = temple
 
 # Misc
-culture = uncultured_swine
-religion = pagan
+culture = saxon
+religion = nestorian
 
 # History

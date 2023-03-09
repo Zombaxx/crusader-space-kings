@@ -1,0 +1,15 @@
+# 334 - Jungle Peninsula
+
+# County Title
+title = c_jungle_peninsula
+
+# Settlements
+max_settlements = 3
+b_jungle_peninsula = castle
+b_barony0334a = temple
+
+# Misc
+culture = horse
+religion = zoroastrian
+
+# History

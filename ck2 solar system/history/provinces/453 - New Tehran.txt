@@ -1,0 +1,15 @@
+# 453 - New Tehran
+
+# County Title
+title = c_new_tehran
+
+# Settlements
+max_settlements = 6
+b_new_tehran = tribal
+b_barony0453a = temple
+
+# Misc
+culture = horse
+religion = shiite
+
+# History

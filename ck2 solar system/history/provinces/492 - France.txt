@@ -1,0 +1,18 @@
+# 492 - France
+
+# County Title
+title = c_france
+
+# Settlements
+max_settlements = 3
+b_france = city
+b_barony0492a = temple
+
+# Misc
+culture = saxon
+religion = catholic
+
+# History
+1066.1.1 = {
+	trade_post = b_patrician_104920
+}
