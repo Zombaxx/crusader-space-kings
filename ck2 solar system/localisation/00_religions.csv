@@ -44,10 +44,11 @@ Monophysite_DESC;Fundamentalism is a movement emphasizing biblical literalism. T
 
 
 nestorian;Protestant;;;;;;;;;;;;;x
-orthodox_DESC;Protestants reject the Catholic doctrine of papal supremacy, but disagree among themselves regarding the number of sacraments, the real presence of Christ in the Eucharist, and matters of ecclesiastical polity and apostolic succession. They emphasize the priesthood of all believers, justification by faith alone rather than by faith with good works, the teaching that salvation comes by divine grace or "unmerited favor" only, not as something merited, and either affirm the Bible as being the sole highest authority or primary authority for Christian doctrine, rather than being on parity with sacred tradition.;;;;;;;;;;;;;x
+nestorian_DESC;Protestants reject the Catholic doctrine of papal supremacy, but disagree among themselves regarding the number of sacraments, the real presence of Christ in the Eucharist, and matters of ecclesiastical polity and apostolic succession. They emphasize the priesthood of all believers, justification by faith alone rather than by faith with good works, the teaching that salvation comes by divine grace or "unmerited favor" only, not as something merited, and either affirm the Bible as being the sole highest authority or primary authority for Christian doctrine, rather than being on parity with sacred tradition.;;;;;;;;;;;;;x
 jain;Sihk;;;;;;;;;;;x
-
+jain_DESC;Sikhism advocates equality, social justice, service to humanity, and tolerance for other religions. The essential message of Sikhism is spiritual devotion and reverence of God at all times while practicing the ideals of honesty, compassion, humility and generosity in everyday life.;;;;;;;;;;;x
 norse_pagan;Pirate;;;;;;;;;;;;;x
+norse_pagan_DESC;Although the Pirates of the Solar System are feared by both kingdoms and tribes outside of their ideology for their unrelenting raids on the many habitable worlds, they have a sacred code with their spaceferrying vessels that must be honored among their crew and even the Spacer's Guild which the ideology originally fractured from after the rebellion during the Great Voyage from Tau Ceti, with animistic leanings and cyclican undertones. Their life in the depths of space with the similarities of the seas has enabled them naval navigation abilities like no other group.;;;;;;;;;;;;;x
 slavic_pagan;Lunism;;;;;;;;;;;;;x
 tengri_pagan;New Age;;;;;;;;;;;;;x
 west_african_pagan;Animism;;;;;;;;;;;;;x
