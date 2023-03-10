@@ -1,5 +1,65 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-city_emperor;Grand Prince;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+family_palace;Corporate Palace;;;;;;;;;;;;;x
+family_palace_baron;CEO;;;;;;;;;;;;;x
+family_palace_baron_female;;CEO;;;;;;;;;;;;;x
+family_palace_baron_foa;;Sir;;;;;;;;;;;;;x
+family_palace_baron_foa;female;Ma'am;;;;;;;;;;;;;;x
+family_palace_barony_of;Chair of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed;Chair of;;;;;;;;;;;;;x
+
+city_emperor;President;Président;Präsident;;Presidente;;;;;;;;;x
+city_emperor_female;President;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+city_emperor_foa;Mister President;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+city_emperor;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+city_king;Governor;;;;;;;;;x
+city_duke;Senator;;;;;;;;;x
+city_count;Representative;;;;;;;;;x
+city_baron;Mayor;;;;;;;;;x
+city_emperor_foa;female;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+city_emperor_title_ruler_consort;First Man;Epoux;;;;;;;;;;;x
+city_emperor_title_ruler_consort;female;First Lady;Première dame;;;;;;;;;;;;x
+city_empire_of;Republic of;Federation of;Federation of;;Federation of;;;;;;;;;x
+city_empire;Republic;Federation;Federation;;Federation;;;;;;;;;x
+city_empires;Federations;Federations;Federations;;Federations;;;;;;;;;x
+city_king;Governor;Président;Präsident;;Presidente;;;;;;;;;x
+city_king_female;Governor;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+city_king_foa;Mister Governor;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+city_king_foa;female;Governor's Spouse;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+city_king_title_ruler_consort;First Man;Epoux;;;;;;;;;;;x
+city_king_title_ruler_consort;female;Governor's Spouse;Première dame;;;;;;;;;;;;x
+city_kingdom_of;State of;République de;Republik;;Republica de;;;;;;;;;x
+city_kingdom;State;République;Republik;;República;;;;;;;;;x
+city_kingdoms;States;Républiques;Republiken;;Repúblicas;;;;;;;;;x
+city_duke;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+city_duke_female;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+city_duke_foa;Mister Senator;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_duke_foa;female;Madam Senator;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+city_duke_title_ruler_consort;Senator's Spouse;Epoux;;;;;;;;;;;x
+city_duke_title_ruler_consort;female;Senator's Spouse;Dame;;;;;;;;;;;;x
+city_count;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_count_female;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_count_foa;Mister Representative;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_count_foa;female;Madam Representative;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+city_count_title_ruler_consort;Representative's Spouse;Epoux;;;;;;;;;;;x
+city_count_title_ruler_consort;female;Representative's Spouse;Dame;;;;;;;;;;;;x
+city_baron;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_baron_female;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_baron_foa;Mister Mayor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_baron_foa;female;Madam Mayor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+city_baron_title_ruler_consort;Mayor's Spouse;Epoux;;;;;;;;;;;x
+city_baron_title_ruler_consort;female;Mayor's Spouse;Dame;;;;;;;;;;;;x
+
+city_emperor;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+city_king;Governor;;;;;;;;;x
+city_duke;Senator;;;;;;;;;x
+city_count;Representative;;;;;;;;;x
+city_baron;Mayor;;;;;;;;;x
+city_emperor_female;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+city_king_female;Governor;;;;;;;;;x
+city_duke_female;Senator;;;;;;;;;x
+city_count_female;Representative;;;;;;;;;x
+city_baron_female;Mayor;;;;;;;;;x
+
 city_king_latin;Serene Doge;Doge Sérénissime;Durchlauchter Doge;;Duque Sereno;;;;;;;;;x
 city_king_byzantine;Serene Doge;Doge Sérénissime;Durchlauchter Doge;;Duque Sereno;;;;;;;;;x
 city_duke_latin;Doge;Doge;Doge;;Dux;;;;;;;;;x
@@ -44,7 +104,7 @@ count_arabic;Marcho;;;;;;;;;;;;;x
 count_female_arabic;Marchessa;;;x
 count_title_ruler_consort_arabic;Marcho;;;;;;;;;;;;x
 count_title_ruler_consort_female_arabic;Marchonissa;;;;;;;;;;;;;x
-city_count_arabic;Marcho�;;;;;;;;;x
+city_count_arabic;Marcho;;;;;;;;;x
 city_count_female_arabic;Marchessa;;;;
 city_king_arabic;Governaeto;;;;;;;;;x
 city_king_female_arabic;Governae;;;;;;;;;x
@@ -304,43 +364,100 @@ family_palace_baron_foa_female_khurmazta;Ma;;;;;;;;;;;;;;x
 family_palace_barony_of_khurmazta;Chair of;Quartier général de;;;;;;;;;;;;x
 family_palace_baron_deed_khurmazta;Chair of;;;;;;;;;;;;;x
 
+family_palace;Corporation;;;;;;;;;;;;;x
+family_palace_baron;CEO;;;;;;;;;;;;;x
+family_palace_baron_female;CEO;;;;;;;;;;;;;x
+family_palace_baron_foa;Sir;;;;;;;;;;;;;x
+family_palace_baron_foa_female;Ma;;;;;;;;;;;;;;x
+family_palace_barony_of;Chair of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed;Chair of;;;;;;;;;;;;;x
 
-city_emperor_tau_cetinese;First Chairman;;;;;;;;;;;;;x
-city_emperor_female_tau_cetinese;First Chairwoman;;;;;;;;;;;;;x
-city_emperor_foa_tau_cetinese;Comrade Chairman;;;;;;;;;;;;;x
-city_emperor_foa_female_tau_cetinese;Comrade Chairwoman;;;;;;;;;;;;;x
-city_empire_of_tau_cetinese;People's Union of;;;;;;;;;;;;;x
-city_empire_tau_cetinese;Union;;;;;;;;;;;;;x
-city_empires_tau_cetinese;Unions;;;;;;;;;;;;;x
-city_king_tau_cetinese;Chairman;;;;;;;;;;;;;x
-city_king_female_tau_cetinese;Chairwoman;;;;;;;;;;;;;x
-city_king_foa_tau_cetinese;Comrade Chairman;;;;;;;;;;;;;x
-city_king_foa_female_tau_cetinese;Comrade Chairwoman;;;;;;;;;;;;;x
-city_kingdom_of_tau_cetinese;People's Republic of;;;;;;;;;;;;;x
-city_kingdom_tau_cetinese;Republic;;;;;;;;;;;;;x
-city_kingdoms_tau_cetinese;Republics;;;;;;;;;;;;;x
-temple_emperor_tau_cetinese;Secretary-General;;;;;;;;;;;;;x
-temple_emperor_female_tau_cetinese;Secretary-General;;;;;;;;;;;;;x
-temple_emperor_foa_tau_cetinese;Comrade Secretary;;;;;;;;;;;;;x
-temple_emperor_foa_female_tau_cetinese;Comrade Secretary;;;;;;;;;;;;;x
-temple_empire_of_tau_cetinese;People's Union of;;;;;;;;;;;;;x
-temple_empire_tau_cetinese;Union;;;;;;;;;;;;;x
-temple_empires_tau_cetinese;Unions;;;;;;;;;;;;;x
-temple_king_tau_cetinese;Secretary;;;;;;;;;;;;;x
-temple_king_female_tau_cetinese;Secretary;;;;;;;;;;;;;x
-temple_king_foa_tau_cetinese;Comrade Secretary;;;;;;;;;;;;;x
-temple_king_foa_female_tau_cetinese;Comrade Secretary;;;;;;;;;;;;;x
-temple_kingdom_of_tau_cetinese;People's State of;;;;;;;;;;;;;x
-temple_kingdom_tau_cetinese;State;;;;;;;;;;;;;x
-temple_kingdoms_tau_cetinese;States;;;;;;;;;;;;;x
-family_palace_tau_cetinese;Bureau;;;;;;;;;;;;;x
-family_palace_baron_tau_cetinese;Director;;;;;;;;;;;;;x
-family_palace_baron_female_tau_cetinese;Director;;;;;;;;;;;;;x
-family_palace_baron_foa_tau_cetinese;Comrade Director;;;;;;;;;;;;;x
-family_palace_baron_foa_female_tau_cetinese;Comrade Director;;;;;;;;;;;;;;x
-family_palace_barony_of_tau_cetinese;Headquarters of;Quartier général de;;;;;;;;;;;;x
-family_palace_baron_deed_tau_cetinese;Chair of;;;;;;;;;;;;;x
 
+city_emperor_russian;First Chairman;;;;;;;;;;;;;x
+city_emperor_female_russian;First Chairwoman;;;;;;;;;;;;;x
+city_emperor_foa_russian;Comrade Chairman;;;;;;;;;;;;;x
+city_emperor_foa_female_russian;Comrade Chairwoman;;;;;;;;;;;;;x
+city_empire_of_russian;People's Union of;;;;;;;;;;;;;x
+city_empire_russian;Union;;;;;;;;;;;;;x
+city_empires_russian;Unions;;;;;;;;;;;;;x
+city_king_russian;Chairman;;;;;;;;;;;;;x
+city_king_female_russian;Chairwoman;;;;;;;;;;;;;x
+city_king_foa_russian;Comrade Chairman;;;;;;;;;;;;;x
+city_king_foa_female_russian;Comrade Chairwoman;;;;;;;;;;;;;x
+city_kingdom_of_russian;People's Republic of;;;;;;;;;;;;;x
+city_kingdom_russian;Republic;;;;;;;;;;;;;x
+city_kingdoms_russian;Republics;;;;;;;;;;;;;x
+temple_emperor_russian;Secretary-General;;;;;;;;;;;;;x
+temple_emperor_female_russian;Secretary-General;;;;;;;;;;;;;x
+temple_emperor_foa_russian;Comrade Secretary;;;;;;;;;;;;;x
+temple_emperor_foa_female_russian;Comrade Secretary;;;;;;;;;;;;;x
+temple_empire_of_russian;People's Union of;;;;;;;;;;;;;x
+temple_empire_russian;Union;;;;;;;;;;;;;x
+temple_empires_russian;Unions;;;;;;;;;;;;;x
+temple_king_russian;Secretary;;;;;;;;;;;;;x
+temple_king_female_russian;Secretary;;;;;;;;;;;;;x
+temple_king_foa_russian;Comrade Secretary;;;;;;;;;;;;;x
+temple_king_foa_female_russian;Comrade Secretary;;;;;;;;;;;;;x
+temple_kingdom_of_russian;People's State of;;;;;;;;;;;;;x
+temple_kingdom_russian;State;;;;;;;;;;;;;x
+temple_kingdoms_russian;States;;;;;;;;;;;;;x
+family_palace_russian;Bureau;;;;;;;;;;;;;x
+family_palace_baron_russian;Director;;;;;;;;;;;;;x
+family_palace_baron_female_russian;Director;;;;;;;;;;;;;x
+family_palace_baron_foa_russian;Comrade Director;;;;;;;;;;;;;x
+family_palace_baron_foa_female_russian;Comrade Director;;;;;;;;;;;;;;x
+family_palace_barony_of_russian;Headquarters of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed_russian;Chair of;;;;;;;;;;;;;x
+
+nomadic_emperor_zhangzhung;Great Leader;;;;;;;;;;;;;x
+#nomadic_emperor_female_zhangzhung;First Chairwoman;;;;;;;;;;;;;x
+nomadic_emperor_foa_zhangzhung;Comrade Great Leader;;;;;;;;;;;;;x
+nomadic_emperor_foa_female_zhangzhung;Comrade Great Leader;;;;;;;;;;;;;x
+nomadic_empire_of_zhangzhung;Government of;;;;;;;;;;;;;x
+nomadic_empire_zhangzhung;Government;;;;;;;;;;;;;x
+nomadic_empires_zhangzhung;Governments;;;;;;;;;;;;;x
+nomadic_king_zhangzhung;Commander;;;;;;;;;;;;;x
+nomadic_king_female_zhangzhung;Commander;;;;;;;;;;;;;x
+nomadic_king_foa_zhangzhung;Commander;;;;;;;;;;;;;x
+nomadic_king_foa_female_zhangzhung;Comrade Commander;;;;;;;;;;;;;x
+nomadic_kingdom_of_zhangzhung;People's Army of;;;;;;;;;;;;;x
+nomadic_kingdom_zhangzhung;Army;;;;;;;;;;;;;x
+nomadic_kingdoms_zhangzhung;Armies;;;;;;;;;;;;;x
+city_emperor_zhangzhung;First Chairman;;;;;;;;;;;;;x
+city_emperor_female_zhangzhung;First Chairwoman;;;;;;;;;;;;;x
+city_emperor_foa_zhangzhung;Comrade Chairman;;;;;;;;;;;;;x
+city_emperor_foa_female_zhangzhung;Comrade Chairwoman;;;;;;;;;;;;;x
+city_empire_of_zhangzhung;People's Union of;;;;;;;;;;;;;x
+city_empire_zhangzhung;Union;;;;;;;;;;;;;x
+city_empires_zhangzhung;Unions;;;;;;;;;;;;;x
+city_king_zhangzhung;Chairman;;;;;;;;;;;;;x
+city_king_female_zhangzhung;Chairwoman;;;;;;;;;;;;;x
+city_king_foa_zhangzhung;Comrade Chairman;;;;;;;;;;;;;x
+city_king_foa_female_zhangzhung;Comrade Chairwoman;;;;;;;;;;;;;x
+city_kingdom_of_zhangzhung;People's Republic of;;;;;;;;;;;;;x
+city_kingdom_zhangzhung;Republic;;;;;;;;;;;;;x
+city_kingdoms_zhangzhung;Republics;;;;;;;;;;;;;x
+temple_emperor_zhangzhung;Secretary-General;;;;;;;;;;;;;x
+temple_emperor_female_zhangzhung;Secretary-General;;;;;;;;;;;;;x
+temple_emperor_foa_zhangzhung;Comrade Secretary;;;;;;;;;;;;;x
+temple_emperor_foa_female_zhangzhung;Comrade Secretary;;;;;;;;;;;;;x
+temple_empire_of_zhangzhung;People's Union of;;;;;;;;;;;;;x
+temple_empire_zhangzhung;Union;;;;;;;;;;;;;x
+temple_empires_zhangzhung;Unions;;;;;;;;;;;;;x
+temple_king_zhangzhung;Secretary;;;;;;;;;;;;;x
+temple_king_female_zhangzhung;Secretary;;;;;;;;;;;;;x
+temple_king_foa_zhangzhung;Comrade Secretary;;;;;;;;;;;;;x
+temple_king_foa_female_zhangzhung;Comrade Secretary;;;;;;;;;;;;;x
+temple_kingdom_of_zhangzhung;People's State of;;;;;;;;;;;;;x
+temple_kingdom_zhangzhung;State;;;;;;;;;;;;;x
+temple_kingdoms_zhangzhung;States;;;;;;;;;;;;;x
+family_palace_zhangzhung;Bureau;;;;;;;;;;;;;x
+family_palace_baron_zhangzhung;Director;;;;;;;;;;;;;x
+family_palace_baron_female_zhangzhung;Director;;;;;;;;;;;;;x
+family_palace_baron_foa_zhangzhung;Comrade Director;;;;;;;;;;;;;x
+family_palace_baron_foa_female_zhangzhung;Comrade Director;;;;;;;;;;;;;;x
+family_palace_barony_of_zhangzhung;Headquarters of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed_zhangzhung;Chair of;;;;;;;;;;;;;x
 
 family_palace_alan;Corporate Palace;;;;;;;;;;;;;x
 family_palace_baron_alan;CEO;;;;;;;;;;;;;x
@@ -391,29 +508,29 @@ city_king_alan_muslim;President;Wali Malik;Wali-Malik;;Wali-Malik;;;;;;;;;x
 city_duke_alan_muslim;President;Wali Émir;Wali-Emir;;Emir-Valí;;;;;;;;;x
 city_count_alan_muslim;Governor;Wali;Wali;;Valí;;;;;;;;;x
 
-emperor_tau_cetinese;God Emperor;;;;;;;;;;;;;x
-emperor_title_ruler_consort_tau_cetinese;God;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_tau_cetinese;Goddess;;;;;;;;;;;;;x
-king_tau_cetinese;Supreme Leader;;;;;;;;;;;;;x
-king_title_ruler_consort_tau_cetinese;Supreme Leader;;;;;;;;;;;;x
-king_title_ruler_consort_female_tau_cetinese;Mrs. Supreme Leader;;;;;;;;;;;;;x
-title_prince_tau_cetinese;Cadet;;;;;;;;;;;;;x
-title_prince_female_tau_cetinese;Cadet;;;;;;;;;;;;;x
-duke_tau_cetinese;Chairman;;;;;;;;;;;;;x
-duke_title_ruler_consort_tau_cetinese;Mr. Chairman;;;;;;;;;;;;x
-duke_title_ruler_consort_female_tau_cetinese;Chairwoman;;;;;;;;;;;;;x
-count_tau_cetinese;Commissioner;;;;;;;;;;;;;x
-count_title_ruler_consort_tau_cetinese;Commissioner;;;;;;;;;;;;x
-count_title_ruler_consort_female_tau_cetinese;Mrs. Commissioner;;;;;;;;;;;;;x
-baron_tau_cetinese;Officer;;;;;;;;;;;;;x
-baron_title_ruler_consort_tau_cetinese;Mr. Officer;;;;;;;;;;;;x
-baron_title_ruler_consort_female_tau_cetinese;Mrs. Officer;;;;;;;;;;;;;x
+emperor_russian;God Emperor;;;;;;;;;;;;;x
+emperor_title_ruler_consort_russian;God;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_russian;Goddess;;;;;;;;;;;;;x
+king_russian;Supreme Leader;;;;;;;;;;;;;x
+king_title_ruler_consort_russian;Supreme Leader;;;;;;;;;;;;x
+king_title_ruler_consort_female_russian;Mrs. Supreme Leader;;;;;;;;;;;;;x
+title_prince_russian;Cadet;;;;;;;;;;;;;x
+title_prince_female_russian;Cadet;;;;;;;;;;;;;x
+duke_russian;Chairman;;;;;;;;;;;;;x
+duke_title_ruler_consort_russian;Mr. Chairman;;;;;;;;;;;;x
+duke_title_ruler_consort_female_russian;Chairwoman;;;;;;;;;;;;;x
+count_russian;Commissioner;;;;;;;;;;;;;x
+count_title_ruler_consort_russian;Commissioner;;;;;;;;;;;;x
+count_title_ruler_consort_female_russian;Mrs. Commissioner;;;;;;;;;;;;;x
+baron_russian;Officer;;;;;;;;;;;;;x
+baron_title_ruler_consort_russian;Mr. Officer;;;;;;;;;;;;x
+baron_title_ruler_consort_female_russian;Mrs. Officer;;;;;;;;;;;;;x
 
-nomadic_king_tau_cetinese;General;General;General;;General;;;;;;;;;x
-nomadic_emperor_tau_cetinese;Great Leader;Great Leader;Great Leader;;Great Leader;;;;;;;;;x
-nomadic_empire_tau_cetinese;Horde;Khaganat;Khaganat;;Khaganato;;;;;;;;;x
-nomadic_empire_of_tau_cetinese;Horde of;Khaganat de;Großkhanat von;;Kaganato de;;;;;;;;;x
-nomadic_kingdom_tau_cetinese;Horde;Khanat;Khanat;;Kanato;;;;;;;;;x
+nomadic_king_russian;General;General;General;;General;;;;;;;;;x
+nomadic_emperor_russian;Great Leader;Great Leader;Great Leader;;Great Leader;;;;;;;;;x
+nomadic_empire_russian;Horde;Khaganat;Khaganat;;Khaganato;;;;;;;;;x
+nomadic_empire_of_russian;Horde of;Khaganat de;Großkhanat von;;Kaganato de;;;;;;;;;x
+nomadic_kingdom_russian;Horde;Khanat;Khanat;;Kanato;;;;;;;;;x
 nomadic_kingdom_of;Horde of;Kanat de;Khanat von;;Kanato de;;;;;;;;;x
 
 

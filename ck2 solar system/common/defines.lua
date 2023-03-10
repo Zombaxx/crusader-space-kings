@@ -1206,7 +1206,7 @@ NMilitary = {
 	ATTACK_TO_DAMAGE_MULT = 0.01,					-- Attack value of troops is multiplied by this when doing damage
 	MIN_COMBAT_DAYS = 8,							-- Minimum number of days in combat
 	NUMBER_OF_RETREAT_DAYS = 8,					-- Number of days before you retreat successfully
-	NUMBER_OF_TROOPS_PER_GALLEY = 100,				-- Number of men each galley can hold
+	NUMBER_OF_TROOPS_PER_GALLEY = 150,				-- Number of men each galley can hold
 	FRIENDLY_TERRITORY_LEVY_RETURN_PERCENT = 1.0,	-- Percent of subunit that returns to levy when unit is disbanded in friendly territory
 	OTHER_TERRITORY_LEVY_RETURN_PERCENT = 0.5,		-- Percent of subunit that returns to levy when unit is disbanded in non-friendly territory
 	LEVY_MAINTENANCE_FACTOR = 1.5,					-- General maintenance factor for levy troops
@@ -1415,7 +1415,7 @@ NMilitary = {
 	SPECIAL_TROOPS_GRAPHICAL_FACTOR = 2,
 
 	GALLEYS_MORALE = 1,
-	GALLEYS_MAINTENANCE = 300,
+	GALLEYS_MAINTENANCE = 200,
 	GALLEYS_PHASE_SKIRMISH_ATTACK = 1,
 	GALLEYS_PHASE_MELEE_ATTACK = 1,
 	GALLEYS_PHASE_PURSUE_ATTACK = 1,

@@ -994,7 +994,7 @@ PROV992;Renying;Province0992;Province0992;;Province0992;;;;;;;;;x
 PROV993;Emiwan;Province0993;Province0993;;Province0993;;;;;;;;;x
 PROV994;Werubb;Province0994;Province0994;;Province0994;;;;;;;;;x
 PROV995;Dasing;Province0995;Province0995;;Province0995;;;;;;;;;x
-PROV996;Kagnus;Province0996;Province0996;;Province0996;;;;;;;;;x
+PROV996;Papua;Province0996;Province0996;;Province0996;;;;;;;;;x
 PROV997;Tevuta;Province0997;Province0997;;Province0997;;;;;;;;;x
 PROV998;Wosalan;Province0998;Province0998;;Province0998;;;;;;;;;x
 PROV999;Wimintis;Province0999;Province0999;;Province0999;;;;;;;;;x
@@ -10570,7 +10570,7 @@ b_barony0820d;Tadarya;Barony0820d;Barony0820d;;Barony0820d;;;;;;;;;x
 b_barony0820e;Kimunka;Barony0820e;Barony0820e;;Barony0820e;;;;;;;;;x
 b_barony0820f;Toheka;Barony0820f;Barony0820f;;Barony0820f;;;;;;;;;x
 b_barony0820g;Asoshi;Barony0820g;Barony0820g;;Barony0820g;;;;;;;;;x
-k_kingdom0821;Alekeva;Kingdom0821;Kingdom0821;;Kingdom0821;;;;;;;;;x
+k_kingdom0821;India;Kingdom0821;Kingdom0821;;Kingdom0821;;;;;;;;;x
 k_kingdom0821_adj;Diburre;Kingdom0821;Kingdom0821;;Kingdom0821;;;;;;;;;x
 d_duchy0821;Kecoch;Duchy0821;Duchy0821;;Duchy0821;;;;;;;;;x
 d_duchy0821_adj;Kudacon;Duchy0821;Duchy0821;;Duchy0821;;;;;;;;;x
@@ -11149,7 +11149,7 @@ b_barony0879d;Noderin;Barony0879d;Barony0879d;;Barony0879d;;;;;;;;;x
 b_barony0879e;Lodite;Barony0879e;Barony0879e;;Barony0879e;;;;;;;;;x
 b_barony0879f;Rading;Barony0879f;Barony0879f;;Barony0879f;;;;;;;;;x
 b_barony0879g;Ketei;Barony0879g;Barony0879g;;Barony0879g;;;;;;;;;x
-k_kingdom0880;Buleph;Kingdom0880;Kingdom0880;;Kingdom0880;;;;;;;;;x
+k_kingdom0880;South China;Kingdom0880;Kingdom0880;;Kingdom0880;;;;;;;;;x
 k_kingdom0880_adj;Nalina;Kingdom0880;Kingdom0880;;Kingdom0880;;;;;;;;;x
 d_duchy0880;Esevi;Duchy0880;Duchy0880;;Duchy0880;;;;;;;;;x
 d_duchy0880_adj;Tegian;Duchy0880;Duchy0880;;Duchy0880;;;;;;;;;x
@@ -11643,7 +11643,7 @@ b_barony0929d;Worobos;Barony0929d;Barony0929d;;Barony0929d;;;;;;;;;x
 b_barony0929e;Deylard;Barony0929e;Barony0929e;;Barony0929e;;;;;;;;;x
 b_barony0929f;Tudasia;Barony0929f;Barony0929f;;Barony0929f;;;;;;;;;x
 b_barony0929g;Qekuzer;Barony0929g;Barony0929g;;Barony0929g;;;;;;;;;x
-k_kingdom0930;Dezasia;Kingdom0930;Kingdom0930;;Kingdom0930;;;;;;;;;x
+k_kingdom0930;Indochina;Kingdom0930;Kingdom0930;;Kingdom0930;;;;;;;;;x
 k_kingdom0930_adj;Kevudo;Kingdom0930;Kingdom0930;;Kingdom0930;;;;;;;;;x
 d_duchy0930;Qahebia;Duchy0930;Duchy0930;;Duchy0930;;;;;;;;;x
 d_duchy0930_adj;Nadashi;Duchy0930;Duchy0930;;Duchy0930;;;;;;;;;x
@@ -12109,7 +12109,7 @@ b_barony0973d;Binoto;Barony0973d;Barony0973d;;Barony0973d;;;;;;;;;x
 b_barony0973e;Qencia;Barony0973e;Barony0973e;;Barony0973e;;;;;;;;;x
 b_barony0973f;Ezairn;Barony0973f;Barony0973f;;Barony0973f;;;;;;;;;x
 b_barony0973g;Rohars;Barony0973g;Barony0973g;;Barony0973g;;;;;;;;;x
-k_kingdom0974;Qaganjay;Kingdom0974;Kingdom0974;;Kingdom0974;;;;;;;;;x
+k_kingdom0974;Malay-Sumatra;Kingdom0974;Kingdom0974;;Kingdom0974;;;;;;;;;x
 k_kingdom0974_adj;Raleek;Kingdom0974;Kingdom0974;;Kingdom0974;;;;;;;;;x
 d_duchy0974;Lormoz;Duchy0974;Duchy0974;;Duchy0974;;;;;;;;;x
 d_duchy0974_adj;Ramennu;Duchy0974;Duchy0974;;Duchy0974;;;;;;;;;x
@@ -12199,7 +12199,7 @@ b_barony0981f;Turanu;Barony0981f;Barony0981f;;Barony0981f;;;;;;;;;x
 b_barony0981g;Wyecisa;Barony0981g;Barony0981g;;Barony0981g;;;;;;;;;x
 e_empire0982;Dulela;Empire0982;Empire0982;;Empire0982;;;;;;;;;x
 e_empire0982_adj;Taulirc;Empire0982;Empire0982;;Empire0982;;;;;;;;;x
-k_kingdom0982;Sasia;Kingdom0982;Kingdom0982;;Kingdom0982;;;;;;;;;x
+k_kingdom0982;Java;Kingdom0982;Kingdom0982;;Kingdom0982;;;;;;;;;x
 k_kingdom0982_adj;Ketenia;Kingdom0982;Kingdom0982;;Kingdom0982;;;;;;;;;x
 d_duchy0982;Biveike;Duchy0982;Duchy0982;;Duchy0982;;;;;;;;;x
 d_duchy0982_adj;Daroch;Duchy0982;Duchy0982;;Duchy0982;;;;;;;;;x
@@ -12417,7 +12417,7 @@ e_empire1004;Noditya;Empire1004;Empire1004;;Empire1004;;;;;;;;;x
 e_empire1004_adj;Lelalli;Empire1004;Empire1004;;Empire1004;;;;;;;;;x
 k_kingdom1004;Ranegin;Kingdom1004;Kingdom1004;;Kingdom1004;;;;;;;;;x
 k_kingdom1004_adj;Esalegin;Kingdom1004;Kingdom1004;;Kingdom1004;;;;;;;;;x
-d_duchy1004;Ajosardu;Duchy1004;Duchy1004;;Duchy1004;;;;;;;;;x
+d_duchy1004;Papua;Duchy1004;Duchy1004;;Duchy1004;;;;;;;;;x
 d_duchy1004_adj;Wosardu;Duchy1004;Duchy1004;;Duchy1004;;;;;;;;;x
 c_province1004_adj;Tamilay;Province1004;Province1004;;Province1004;;;;;;;;;x
 b_barony1004`;Nutai;Barony1004`;Barony1004`;;Barony1004`;;;;;;;;;x
@@ -12749,7 +12749,7 @@ b_barony1035d;Kumond;Barony1035d;Barony1035d;;Barony1035d;;;;;;;;;x
 b_barony1035e;Lehava;Barony1035e;Barony1035e;;Barony1035e;;;;;;;;;x
 b_barony1035f;Qidita;Barony1035f;Barony1035f;;Barony1035f;;;;;;;;;x
 b_barony1035g;Rawoj;Barony1035g;Barony1035g;;Barony1035g;;;;;;;;;x
-k_kingdom1036;Doyacha;Kingdom1036;Kingdom1036;;Kingdom1036;;;;;;;;;x
+k_kingdom1036;Queensland;Kingdom1036;Kingdom1036;;Kingdom1036;;;;;;;;;x
 k_kingdom1036_adj;Adrukhia;Kingdom1036;Kingdom1036;;Kingdom1036;;;;;;;;;x
 d_duchy1036;Nanetar;Duchy1036;Duchy1036;;Duchy1036;;;;;;;;;x
 d_duchy1036_adj;Sit;Duchy1036;Duchy1036;;Duchy1036;;;;;;;;;x
@@ -12771,7 +12771,7 @@ b_barony1037d;Lolitya;Barony1037d;Barony1037d;;Barony1037d;;;;;;;;;x
 b_barony1037e;Lenessa;Barony1037e;Barony1037e;;Barony1037e;;;;;;;;;x
 b_barony1037f;Delinic;Barony1037f;Barony1037f;;Barony1037f;;;;;;;;;x
 b_barony1037g;Telalli;Barony1037g;Barony1037g;;Barony1037g;;;;;;;;;x
-k_kingdom1038;Bawuone;Kingdom1038;Kingdom1038;;Kingdom1038;;;;;;;;;x
+k_kingdom1038;Darwin;Kingdom1038;Kingdom1038;;Kingdom1038;;;;;;;;;x
 k_kingdom1038_adj;Kibas;Kingdom1038;Kingdom1038;;Kingdom1038;;;;;;;;;x
 d_duchy1038;Eglevpal;Duchy1038;Duchy1038;;Duchy1038;;;;;;;;;x
 d_duchy1038_adj;Rudance;Duchy1038;Duchy1038;;Duchy1038;;;;;;;;;x
@@ -12955,7 +12955,7 @@ b_barony1055d;Nugemir;Barony1055d;Barony1055d;;Barony1055d;;;;;;;;;x
 b_barony1055e;Nujemba;Barony1055e;Barony1055e;;Barony1055e;;;;;;;;;x
 b_barony1055f;Wosedro;Barony1055f;Barony1055f;;Barony1055f;;;;;;;;;x
 b_barony1055g;Amucacob;Barony1055g;Barony1055g;;Barony1055g;;;;;;;;;x
-k_kingdom1056;Luwifa;Kingdom1056;Kingdom1056;;Kingdom1056;;;;;;;;;x
+k_kingdom1056;Aotearoa;Kingdom1056;Kingdom1056;;Kingdom1056;;;;;;;;;x
 k_kingdom1056_adj;Kifa;Kingdom1056;Kingdom1056;;Kingdom1056;;;;;;;;;x
 d_duchy1056;Terakh;Duchy1056;Duchy1056;;Duchy1056;;;;;;;;;x
 d_duchy1056_adj;Tenifa;Duchy1056;Duchy1056;;Duchy1056;;;;;;;;;x
@@ -13037,7 +13037,7 @@ b_barony1063f;Reubela;Barony1063f;Barony1063f;;Barony1063f;;;;;;;;;x
 b_barony1063g;Nageyao;Barony1063g;Barony1063g;;Barony1063g;;;;;;;;;x
 e_empire1064;Tenaut;Empire1064;Empire1064;;Empire1064;;;;;;;;;x
 e_empire1064_adj;Seraut;Empire1064;Empire1064;;Empire1064;;;;;;;;;x
-k_kingdom1064;Runila;Kingdom1064;Kingdom1064;;Kingdom1064;;;;;;;;;x
+k_kingdom1064;Middle Zealand;Kingdom1064;Kingdom1064;;Kingdom1064;;;;;;;;;x
 k_kingdom1064_adj;Enduo;Kingdom1064;Kingdom1064;;Kingdom1064;;;;;;;;;x
 d_duchy1064;Tatid;Duchy1064;Duchy1064;;Duchy1064;;;;;;;;;x
 d_duchy1064_adj;Kehava;Duchy1064;Duchy1064;;Duchy1064;;;;;;;;;x
@@ -13228,7 +13228,7 @@ b_barony1082f;Rainila;Barony1082f;Barony1082f;;Barony1082f;;;;;;;;;x
 b_barony1082g;Sodion;Barony1082g;Barony1082g;;Barony1082g;;;;;;;;;x
 e_empire1083;Kenakh;Empire1083;Empire1083;;Empire1083;;;;;;;;;x
 e_empire1083_adj;Rory;Empire1083;Empire1083;;Empire1083;;;;;;;;;x
-k_kingdom1083;Barinai;Kingdom1083;Kingdom1083;;Kingdom1083;;;;;;;;;x
+k_kingdom1083;Thunderdome;Kingdom1083;Kingdom1083;;Kingdom1083;;;;;;;;;x
 k_kingdom1083_adj;Loneas;Kingdom1083;Kingdom1083;;Kingdom1083;;;;;;;;;x
 d_duchy1083;Birija;Duchy1083;Duchy1083;;Duchy1083;;;;;;;;;x
 d_duchy1083_adj;Lorili;Duchy1083;Duchy1083;;Duchy1083;;;;;;;;;x
