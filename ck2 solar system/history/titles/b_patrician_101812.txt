@@ -1,5 +1,0 @@
-1062.1.1 = {
-	holding_dynasty = 101812 # de Yosemite - makes this a FAMILY_PALACE type Holding
-	liege="d_sierras"
-	holder = 203625
-}

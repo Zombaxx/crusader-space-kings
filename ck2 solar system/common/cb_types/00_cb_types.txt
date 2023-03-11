@@ -5860,7 +5860,6 @@ religious = {
 			is_nomadic = no
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
-			#NOT = { religion = taoist }
 			NAND = {
 				OR = {
 					has_landed_title = k_teutonic_state
@@ -5890,10 +5889,10 @@ religious = {
 				NOT = { religion_group = FROM }
 				is_heresy_of = FROM
 				is_parent_religion = FROM
-				AND = {
-					has_dharmic_religion_trigger = yes
-					FROM = { religion = taoist }
-				}
+				#AND = {
+				#	has_dharmic_religion_trigger = yes
+				#	FROM = { religion = taoist }
+				#}
 				AND = {
 					religion_group = muslim
 					NOT = { religion = FROM }
@@ -6029,10 +6028,10 @@ religious = {
 				NOT = { religion_group = FROM }
 				is_heresy_of = FROM
 				is_parent_religion = FROM
-				AND = {
-					has_dharmic_religion_trigger = yes
-					FROM = { religion = taoist }
-				}
+				#AND = {
+				#	has_dharmic_religion_trigger = yes
+				#	FROM = { religion = taoist }
+				#}
 				AND = {
 					religion_group = FROM
 					FROM = {
@@ -9556,7 +9555,12 @@ imperial_reconquest = {
 
 	can_use = {
 		ROOT = {
-			has_landed_title = e_roman_empire
+			OR = {
+				has_landed_title = k_rome
+				has_landed_title = e_united_states
+				has_landed_title = e_european_union
+				has_landed_title = e_eurasia
+			}
 			independent = yes
 			OR = { 
 				religion_group = christian
@@ -9572,65 +9576,27 @@ imperial_reconquest = {
 	}
 
 	can_use_title = {
-		OR = {
-			de_jure_liege_or_above = k_byzantium
-			de_jure_liege_or_above = k_thrace
-			de_jure_liege_or_above = k_anatolia
-			de_jure_liege_or_above = k_epirus
-			de_jure_liege_or_above = k_trebizond
-			de_jure_liege_or_above = k_armenia
-			de_jure_liege_or_above = k_bulgaria
-			de_jure_liege_or_above = k_serbia
-			de_jure_liege_or_above = k_croatia
-			de_jure_liege_or_above = k_italy
-			de_jure_liege_or_above = k_sicily
-			de_jure_liege_or_above = k_bavaria
-			de_jure_liege_or_above = k_burgundy
-			de_jure_liege_or_above = k_france
-			de_jure_liege_or_above = k_aquitaine
-			de_jure_liege_or_above = k_brittany
-			de_jure_liege_or_above = k_england
-			de_jure_liege_or_above = k_wales
-			de_jure_liege_or_above = k_frisia
-			de_jure_liege_or_above = k_lotharingia
-			de_jure_liege_or_above = k_aragon
-			de_jure_liege_or_above = k_castille
-			de_jure_liege_or_above = k_andalusia
-			de_jure_liege_or_above = k_badajoz
-			de_jure_liege_or_above = k_valencia
-			de_jure_liege_or_above = k_leon
-			de_jure_liege_or_above = k_spanish_galicia
-			de_jure_liege_or_above = k_portugal
-			de_jure_liege_or_above = k_navarra
-			de_jure_liege_or_above = k_syria
-			de_jure_liege_or_above = k_jerusalem
-			de_jure_liege_or_above = k_egypt
-			de_jure_liege_or_above = k_africa
-			de_jure_liege_or_above = k_mauretania
-			de_jure_liege_or_above = k_papal_state
-			de_jure_liege_or_above = k_papacy
-			de_jure_liege_or_above = k_asturias
-			de_jure_liege_or_above = k_sardinia
-			de_jure_liege_or_above = k_antioch
-			de_jure_liege_or_above = k_cyprus
-			de_jure_liege_or_above = k_amalfi
-			de_jure_liege_or_above = k_venice
-			de_jure_liege_or_above = k_pisa
-			de_jure_liege_or_above = k_genoa
-			de_jure_liege_or_above = k_switzerland
-			de_jure_liege_or_above = k_romagna
-			de_jure_liege_or_above = k_carinthia
-		}
+			OR = {
+				has_landed_title = k_rome
+				has_landed_title = e_united_states
+				has_landed_title = e_european_union
+				has_landed_title = e_eurasia
+			}
 	}
 	
 	is_valid = {
 		ROOT = {
 			independent = yes
-			OR = { 
-				religion_group = christian
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
+			#OR = { 
+			#	religion_group = christian
+			#	religion_group = jewish_group
+			#	religion = hellenic_pagan
+			#	religion = hellenic_pagan_reformed
+			#	religion = west_african_pagan
+			#	religion = west_african_pagan_reformed
+			#	religion = zun_pagan
+			#	religion = zun_pagan_reformed
+			#}
 			NOT = { same_realm = FROM }
 		}
 	}
@@ -10432,10 +10398,10 @@ pagan_subjugation = {
 			}
 		}
 		
-		OR = {
-			NOT = { ROOT = { religion = aztec } }
-			FROM = { religion = aztec }
-		}
+		#OR = {
+		#	NOT = { ROOT = { religion = aztec } }
+		#	FROM = { religion = aztec }
+		#}
 		
 		FROM = {
 			in_revolt = no
@@ -12733,7 +12699,7 @@ pagan_county_conquest = {
 				location = {
 					port = yes
 				}
-				has_global_flag = viking_age_started
+				#has_global_flag = viking_age_started
 			}
 			location = {
 				any_neighbor_province = {

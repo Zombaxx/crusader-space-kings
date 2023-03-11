@@ -19,27 +19,6 @@ b_patrician_101414 = {
 	culture = irish
 	religion = catholic
 }
-# Sierras Merchant Republic Palaces
-b_patrician_101810 = {
-	culture = irish
-	religion = catholic
-}
-b_patrician_101811 = {
-	culture = irish
-	religion = catholic
-}
-b_patrician_101812 = {
-	culture = irish
-	religion = catholic
-}
-b_patrician_101813 = {
-	culture = irish
-	religion = catholic
-}
-b_patrician_101814 = {
-	culture = irish
-	religion = catholic
-}
 # Chesapeake Bay Merchant Republic Palaces
 b_patrician_102640 = {
 	culture = old_frankish
