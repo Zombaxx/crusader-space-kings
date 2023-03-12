@@ -119,7 +119,7 @@ christian = {
 		}
 		
 		evil_god_names = {
-			EGOD_DISASTER SATAN  LUCIFER THE_DEVIL
+			SATAN  LUCIFER THE_DEVIL
 		}
 
 		character_modifier = {
@@ -178,7 +178,7 @@ christian = {
 		}
 		
 		evil_god_names = {
-			EGOD_DISASTER SATAN  LUCIFER THE_DEVIL
+			SATAN  LUCIFER THE_DEVIL
 		}
 
 		character_modifier = {
@@ -247,7 +247,7 @@ christian = {
 		}
 		
 		evil_god_names = {
-			EGOD_DISASTER SATAN  LUCIFER THE_DEVIL
+			SATAN  LUCIFER THE_DEVIL
 		}
 
 		can_retire_to_monastery = yes
@@ -337,7 +337,7 @@ christian = {
 		}
 		
 		evil_god_names = {
-			EGOD_DISASTER SATAN  LUCIFER THE_DEVIL
+			SATAN  LUCIFER THE_DEVIL
 		}
 
 		character_modifier = {
@@ -407,7 +407,7 @@ christian = {
 		}
 		
 		evil_god_names = {
-			EGOD_DISASTER SATAN  LUCIFER THE_DEVIL
+			SATAN  LUCIFER THE_DEVIL
 		}
 		
 		autocephaly = yes
@@ -624,7 +624,7 @@ christian = {
 		crusade_name = CRUSADE
 		
 		evil_god_names = {
-			EGOD_DISASTER SATAN  LUCIFER THE_DEVIL THE_DEMIURGE
+			SATAN  LUCIFER THE_DEVIL THE_DEMIURGE
 		}
 
 		autocephaly = yes
@@ -678,7 +678,7 @@ christian = {
 		}
 		
 		evil_god_names = {
-			EGOD_DISASTER GOD_MOTHER_EARTH GOD_GAIA GOD_SURVIVORS GOD_HOMELAND SATAN  LUCIFER THE_DEVIL
+			GOD_MOTHER_EARTH GOD_GAIA GOD_SURVIVORS GOD_HOMELAND SATAN  LUCIFER THE_DEVIL
 		}
 		
 		autocephaly = no
@@ -738,7 +738,7 @@ christian = {
 		}
 		
 		evil_god_names = {
-			EGOD_DISASTER EGOD_DISASTER SATAN   LUCIFER THE_DEVIL
+			SATAN   LUCIFER THE_DEVIL
 		}
 		
 		has_heir_designation = yes
@@ -2687,7 +2687,7 @@ jewish_group = {
 			GOD_GOD GOD_THE_LORD ADONAI
 		}
 		evil_god_names = {
-			EGOD_DISASTER SATAN 
+			SATAN 
 		}
 		
 		character_modifier = {

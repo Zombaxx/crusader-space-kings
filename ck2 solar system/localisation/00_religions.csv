@@ -53,7 +53,11 @@ slavic_pagan;Lunism;;;;;;;;;;;;;x
 tengri_pagan;New Age;;;;;;;;;;;;;x
 west_african_pagan;Animism;;;;;;;;;;;;;x
 aztec;Scavenger's Cult;;;;;;;;;;;;;x
-zun_pagan;Solarian;;;;;;;;;;;;;x
+zun_pagan;Kemetic;;;;;;;;;;;;;x
+zun_pagan_DESC;Ra, the Patron of the Sun, is the the leader of the gods worshipped deep within the Nile delta of Mercury. Ra embodies wisdom, power, fire and the light that drives away the night. Both those that seek reflection and those that must be judged will be done so by the unrelenting rays of their god. Defining features in-game:\n§Y*§! Can declare Subjugation Wars against all other pagans\n§Y*§! Inferior at conversion and vulnerable to non-pagan missionaries;Zun, le Justicier, est le dieu-soleil qui était à l'origine vénéré par la dynastie Zunbil, en Afghansistan. Zun incarne la sagesse, le pouvoir, le feu et la lumière qui vainc la nuit. Caractéristiques en jeu :\n§Y*§! Peut déclarer des guerres d'assujettissement contre toutes les religions païennes\n§Y*§! Inférieure en conversion et vulnérables aux missionnaires non-païens;Zun, der Geber der Gerechtigkeit, ist der ursprünglich von der Zunbil-Dynastie in Afghanistan verehrte Gott. Zun verkörpert Weisheit, Macht, Feuer und das Licht, das die Nacht vertreibt. Besondere Merkmale im Spiel:\n§Y*§! Kann gegen alle anderen Heiden Unterwerfungskriege erklären\n§Y*§! Schwach bei Bekehrungen und anfällig für nicht-heidnische Missionare;;Zun, el que Imparte Justicia, es el rey-sol originariamente adorado por la dinastía Zunbil en Afganistán. Zun representa sabiduría, poder, fuego y la luz que conduce a través de la oscuridad. Definiendo características en juego:\n§Y*§! Puedes declarar Guerras de Subyugación contra otros paganos\n§Y*§! Inferior en conversión y vulnerable a los misioneros no paganos.;;;;;;;;;x
+zun_pagan_reformed;Solarian;;;;;;;;;;;;;x
+zun_pagan_reformed_DESC;Ra, the Patron of the Sun, is the the leader of the gods worshipped deep within the Nile delta of Mercury. Ra embodies wisdom, power, fire and the light that drives away the night. Both those that seek reflection and those that must be judged will be done so by the unrelenting rays of their god. Defining features in-game:\n§Y*§! Can declare Subjugation Wars against all other pagans\n§Y*§! Inferior at conversion and vulnerable to non-pagan missionaries;Zun, le Justicier, est le dieu-soleil qui était à l'origine vénéré par la dynastie Zunbil, en Afghansistan. Zun incarne la sagesse, le pouvoir, le feu et la lumière qui vainc la nuit. Caractéristiques en jeu :\n§Y*§! Peut déclarer des guerres d'assujettissement contre toutes les religions païennes\n§Y*§! Inférieure en conversion et vulnérables aux missionnaires non-païens;Zun, der Geber der Gerechtigkeit, ist der ursprünglich von der Zunbil-Dynastie in Afghanistan verehrte Gott. Zun verkörpert Weisheit, Macht, Feuer und das Licht, das die Nacht vertreibt. Besondere Merkmale im Spiel:\n§Y*§! Kann gegen alle anderen Heiden Unterwerfungskriege erklären\n§Y*§! Schwach bei Bekehrungen und anfällig für nicht-heidnische Missionare;;Zun, el que Imparte Justicia, es el rey-sol originariamente adorado por la dinastía Zunbil en Afganistán. Zun representa sabiduría, poder, fuego y la luz que conduce a través de la oscuridad. Definiendo características en juego:\n§Y*§! Puedes declarar Guerras de Subyugación contra otros paganos\n§Y*§! Inferior en conversión y vulnerable a los misioneros no paganos.;;;;;;;;;x
+
 bon;Ancestor Worship;;;;;;;;;;;;;x
 hellenic_pagan;Olympian;;;;;;;;;;;;;x
 fraticelli;Christofacist;;;;;;;;;;;;;x
@@ -95,7 +99,7 @@ THE_LEGENDS;The Legends;Légendes;Die Legenden;;Las Leyendas;;;;;;;;;x
 THE_SAGAS;The Pirate's Code;The Pirate's Code;The Pirate's Code;;The Pirate's Code;;;;;;;;;x
 THE_GATHAS;The Gathas;Gathas;Die Gathas;;Las Gathas;;;;;;;;;x
 
-GOD_ZUN;Zun;Zun;Zun;;Zun;;;;;;;;;x
+GOD_ZUN;Ra;Ra;Ra;;Ra;;;;;;;;;x
 GOD_THE_SUN;the Sun;le Soleil;die Sonne;;el Sol;;;;;;;;;x
 GOD_THE_GIVER_OF_JUSTICE;the Giver of Justice;le Justicier;den Geber der Gerechtigkeit;;el que Imparte Justicia;;;;;;;;;x
-THE_DARKNESS;the Darkness;les Ténèbres;Die Dunkelheit;;la Oscuridad;;;;;;;;;x
+THE_DARKNESS;Elohim;les Ténèbres;Die Dunkelheit;;la Oscuridad;;;;;;;;;x
