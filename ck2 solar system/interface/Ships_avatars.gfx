@@ -13,6 +13,6 @@ objectTypes = {
 	pdxmesh = {
 		name = "westerngfx_GALLEYS"
 		file = "gfx\models\cruiser.mesh"
-		scale = 0.25f
+		scale = 0.75f
 	}
 }
