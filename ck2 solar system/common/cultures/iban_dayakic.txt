@@ -1,0 +1,376 @@
+iban_dayakic = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+	
+	ot_danum = {
+		graphical_cultures = { indonesiangfx malaygfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 158 140 237 }
+	
+		male_names = {
+			Abdul Adika Agung Ahmad Ajij Anang 
+			Andyawan Anton Ardit Arnold  Aspar
+			Bakti Bambang Basuki Batara
+			Berkah Buddin Budi Budiman Bulan Burhanuddin 
+			Cahya Cahyono Cipta Dachlan Darma
+			Drajat Dumadi Elang Empati Faiz
+			Farid Gesang Gunadi Hassan
+			Intan
+			Iqbal Irwan Ismail 
+			Ismaya Jaweng Joyo 
+			Kabul Kadek Karim Kelambu Kemal Kersen
+			Kulon Manit Martono
+			Minggit Muhammad Muhammad-Ali Musdalil Nyantau Omar 
+			Panuta Perdana Phillip Pramana Pratam Putra
+			Rahim Rahman Raime Ramelan Rasjam
+			Rejap Renandi Rimbo Rusmadi 
+			Samsul  Santoso Satrio Sedomon
+			Setiawan Soleh Suffian Sugeng Susilo Syazwan Tajudin Tatang
+			Tedy Ungkok Untang Victor Vikal Widyargo
+		}
+		female_names = {
+			Achintya Adiratna Alya
+			Amisha Andi Angkasa Anindya Anna Annisa Ayu
+			Budiwati Bulan Bunga 
+			Cahya Chelsea Cinta Cut
+			Devi Diah Diann Elok Endah Gemi Gresya Guritno
+			Harum Herfiza Indah Inten Jayachandra
+			Kemala Kemuning Kimmy Kinaryo
+			Legi Lestari
+			Marisa  Marshanda Mawar Mega Melati Mentari
+			Merpati Mlathi  Murni Mustika
+			Ndari Nikita  Ningrat Ningrum Ningsih 
+			Oza Permata Pertiwi Prisia Puspita Puti Putri
+			Rahma Rara Ratih Ratu Reisa
+			Sarwendah Setiawati Siti Susanty Susil
+			Taman Titi Toto Utama Vindy Wangi Wening Wilda Wulan Yuki
+		}
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "Na "
+			
+		modifier = default_culture_modifier
+	}
+	keninjal = {
+		graphical_cultures = { indonesiangfx malaygfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 158 166 237 }
+	
+		male_names = {
+			Abdul Adika Agung Ahmad Ajij Anang 
+			Andyawan Anton Ardit Arnold  Aspar
+			Bakti Bambang Basuki Batara
+			Berkah Buddin Budi Budiman Bulan Burhanuddin 
+			Cahya Cahyono Cipta Dachlan Darma
+			Drajat Dumadi Elang Empati Faiz
+			Farid Gesang Gunadi Hassan
+			Intan
+			Iqbal Irwan Ismail 
+			Ismaya Jaweng Joyo 
+			Kabul Kadek Karim Kelambu Kemal Kersen
+			Kulon Manit Martono
+			Minggit Muhammad Muhammad-Ali Musdalil Nyantau Omar 
+			Panuta Perdana Phillip Pramana Pratam Putra
+			Rahim Rahman Raime Ramelan Rasjam
+			Rejap Renandi Rimbo Rusmadi 
+			Samsul  Santoso Satrio Sedomon
+			Setiawan Soleh Suffian Sugeng Susilo Syazwan Tajudin Tatang
+			Tedy Ungkok Untang Victor Vikal Widyargo
+		}
+		female_names = {
+			Achintya Adiratna Alya
+			Amisha Andi Angkasa Anindya Anna Annisa Ayu
+			Budiwati Bulan Bunga 
+			Cahya Chelsea Cinta Cut
+			Devi Diah Diann Elok Endah Gemi Gresya Guritno
+			Harum Herfiza Indah Inten Jayachandra
+			Kemala Kemuning Kimmy Kinaryo
+			Legi Lestari
+			Marisa  Marshanda Mawar Mega Melati Mentari
+			Merpati Mlathi  Murni Mustika
+			Ndari Nikita  Ningrat Ningrum Ningsih 
+			Oza Permata Pertiwi Prisia Puspita Puti Putri
+			Rahma Rara Ratih Ratu Reisa
+			Sarwendah Setiawati Siti Susanty Susil
+			Taman Titi Toto Utama Vindy Wangi Wening Wilda Wulan Yuki
+		}
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "Na "
+			
+		modifier = default_culture_modifier
+	}
+	seberuang = {
+		graphical_cultures = { indonesiangfx malaygfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 138 166 217 }
+	
+		male_names = {
+			Abdul Adika Agung Ahmad Ajij Anang 
+			Andyawan Anton Ardit Arnold  Aspar
+			Bakti Bambang Basuki Batara
+			Berkah Buddin Budi Budiman Bulan Burhanuddin 
+			Cahya Cahyono Cipta Dachlan Darma
+			Drajat Dumadi Elang Empati Faiz
+			Farid Gesang Gunadi Hassan
+			Intan
+			Iqbal Irwan Ismail 
+			Ismaya Jaweng Joyo 
+			Kabul Kadek Karim Kelambu Kemal Kersen
+			Kulon Manit Martono
+			Minggit Muhammad Muhammad-Ali Musdalil Nyantau Omar 
+			Panuta Perdana Phillip Pramana Pratam Putra
+			Rahim Rahman Raime Ramelan Rasjam
+			Rejap Renandi Rimbo Rusmadi 
+			Samsul  Santoso Satrio Sedomon
+			Setiawan Soleh Suffian Sugeng Susilo Syazwan Tajudin Tatang
+			Tedy Ungkok Untang Victor Vikal Widyargo
+		}
+		female_names = {
+			Achintya Adiratna Alya
+			Amisha Andi Angkasa Anindya Anna Annisa Ayu
+			Budiwati Bulan Bunga 
+			Cahya Chelsea Cinta Cut
+			Devi Diah Diann Elok Endah Gemi Gresya Guritno
+			Harum Herfiza Indah Inten Jayachandra
+			Kemala Kemuning Kimmy Kinaryo
+			Legi Lestari
+			Marisa  Marshanda Mawar Mega Melati Mentari
+			Merpati Mlathi  Murni Mustika
+			Ndari Nikita  Ningrat Ningrum Ningsih 
+			Oza Permata Pertiwi Prisia Puspita Puti Putri
+			Rahma Rara Ratih Ratu Reisa
+			Sarwendah Setiawati Siti Susanty Susil
+			Taman Titi Toto Utama Vindy Wangi Wening Wilda Wulan Yuki
+		}
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "Na "
+			
+		modifier = default_culture_modifier
+	}
+	lawangan = {
+		graphical_cultures = { indonesiangfx malaygfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 118 166 207 }
+	
+		male_names = {
+			Abdul Adika Agung Ahmad Ajij Anang 
+			Andyawan Anton Ardit Arnold  Aspar
+			Bakti Bambang Basuki Batara
+			Berkah Buddin Budi Budiman Bulan Burhanuddin 
+			Cahya Cahyono Cipta Dachlan Darma
+			Drajat Dumadi Elang Empati Faiz
+			Farid Gesang Gunadi Hassan
+			Intan
+			Iqbal Irwan Ismail 
+			Ismaya Jaweng Joyo 
+			Kabul Kadek Karim Kelambu Kemal Kersen
+			Kulon Manit Martono
+			Minggit Muhammad Muhammad-Ali Musdalil Nyantau Omar 
+			Panuta Perdana Phillip Pramana Pratam Putra
+			Rahim Rahman Raime Ramelan Rasjam
+			Rejap Renandi Rimbo Rusmadi 
+			Samsul  Santoso Satrio Sedomon
+			Setiawan Soleh Suffian Sugeng Susilo Syazwan Tajudin Tatang
+			Tedy Ungkok Untang Victor Vikal Widyargo
+		}
+		female_names = {
+			Achintya Adiratna Alya
+			Amisha Andi Angkasa Anindya Anna Annisa Ayu
+			Budiwati Bulan Bunga 
+			Cahya Chelsea Cinta Cut
+			Devi Diah Diann Elok Endah Gemi Gresya Guritno
+			Harum Herfiza Indah Inten Jayachandra
+			Kemala Kemuning Kimmy Kinaryo
+			Legi Lestari
+			Marisa  Marshanda Mawar Mega Melati Mentari
+			Merpati Mlathi  Murni Mustika
+			Ndari Nikita  Ningrat Ningrum Ningsih 
+			Oza Permata Pertiwi Prisia Puspita Puti Putri
+			Rahma Rara Ratih Ratu Reisa
+			Sarwendah Setiawati Siti Susanty Susil
+			Taman Titi Toto Utama Vindy Wangi Wening Wilda Wulan Yuki
+		}
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "Na "
+			
+		modifier = default_culture_modifier
+	}
+
+	dayak = {
+		graphical_cultures = { indonesiangfx malaygfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 96 67 224 }
+	
+		male_names = {
+			Abdul Adika Agung Ahmad Ajij Anang 
+			Andyawan Anton Ardit Arnold  Aspar
+			Bakti Bambang Basuki Batara
+			Berkah Buddin Budi Budiman Bulan Burhanuddin 
+			Cahya Cahyono Cipta Dachlan Darma
+			Drajat Dumadi Elang Empati Faiz
+			Farid Gesang Gunadi Hassan
+			Intan
+			Iqbal Irwan Ismail 
+			Ismaya Jaweng Joyo 
+			Kabul Kadek Karim Kelambu Kemal Kersen
+			Kulon Manit Martono
+			Minggit Muhammad Muhammad-Ali Musdalil Nyantau Omar 
+			Panuta Perdana Phillip Pramana Pratam Putra
+			Rahim Rahman Raime Ramelan Rasjam
+			Rejap Renandi Rimbo Rusmadi 
+			Samsul  Santoso Satrio Sedomon
+			Setiawan Soleh Suffian Sugeng Susilo Syazwan Tajudin Tatang
+			Tedy Ungkok Untang Victor Vikal Widyargo
+		}
+		female_names = {
+			Achintya Adiratna Alya
+			Amisha Andi Angkasa Anindya Anna Annisa Ayu
+			Budiwati Bulan Bunga 
+			Cahya Chelsea Cinta Cut
+			Devi Diah Diann Elok Endah Gemi Gresya Guritno
+			Harum Herfiza Indah Inten Jayachandra
+			Kemala Kemuning Kimmy Kinaryo
+			Legi Lestari
+			Marisa  Marshanda Mawar Mega Melati Mentari
+			Merpati Mlathi  Murni Mustika
+			Ndari Nikita  Ningrat Ningrum Ningsih 
+			Oza Permata Pertiwi Prisia Puspita Puti Putri
+			Rahma Rara Ratih Ratu Reisa
+			Sarwendah Setiawati Siti Susanty Susil
+			Taman Titi Toto Utama Vindy Wangi Wening Wilda Wulan Yuki
+		}
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "Na "
+			
+		modifier = default_culture_modifier
+	}
+	kendayan = {
+		graphical_cultures = { indonesiangfx malaygfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 54 17 217 }
+	
+		male_names = {
+			Abdul Adika Agung Ahmad Ajij Anang 
+			Andyawan Anton Ardit Arnold  Aspar
+			Bakti Bambang Basuki Batara
+			Berkah Buddin Budi Budiman Bulan Burhanuddin 
+			Cahya Cahyono Cipta Dachlan Darma
+			Drajat Dumadi Elang Empati Faiz
+			Farid Gesang Gunadi Hassan
+			Intan
+			Iqbal Irwan Ismail 
+			Ismaya Jaweng Joyo 
+			Kabul Kadek Karim Kelambu Kemal Kersen
+			Kulon Manit Martono
+			Minggit Muhammad Muhammad-Ali Musdalil Nyantau Omar 
+			Panuta Perdana Phillip Pramana Pratam Putra
+			Rahim Rahman Raime Ramelan Rasjam
+			Rejap Renandi Rimbo Rusmadi 
+			Samsul  Santoso Satrio Sedomon
+			Setiawan Soleh Suffian Sugeng Susilo Syazwan Tajudin Tatang
+			Tedy Ungkok Untang Victor Vikal Widyargo
+		}
+		female_names = {
+			Achintya Adiratna Alya
+			Amisha Andi Angkasa Anindya Anna Annisa Ayu
+			Budiwati Bulan Bunga 
+			Cahya Chelsea Cinta Cut
+			Devi Diah Diann Elok Endah Gemi Gresya Guritno
+			Harum Herfiza Indah Inten Jayachandra
+			Kemala Kemuning Kimmy Kinaryo
+			Legi Lestari
+			Marisa  Marshanda Mawar Mega Melati Mentari
+			Merpati Mlathi  Murni Mustika
+			Ndari Nikita  Ningrat Ningrum Ningsih 
+			Oza Permata Pertiwi Prisia Puspita Puti Putri
+			Rahma Rara Ratih Ratu Reisa
+			Sarwendah Setiawati Siti Susanty Susil
+			Taman Titi Toto Utama Vindy Wangi Wening Wilda Wulan Yuki
+		}
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "Na "
+			
+		modifier = default_culture_modifier
+	}
+	iban = { #A majority Christian group in Malyasia/Indonesia
+		graphical_cultures = { indonesiangfx malaygfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 38 17 133 }
+	
+		male_names = {
+			Abraham_Abraham Adam_Adam Abdul_Abdul Adi Agung Ahmad_Ahmad Albert_Albert Ali_Ali Anthony_Anthony Arnold_Arnold Agustinus_Augustine
+			Bagus Benedict_Benedict Bima Buana Buddin Budi 
+			Cahaya Christopher_Christopher Cornelius_Cornelius
+			Danial_Daniel Darma Daud_David Dian Dwi
+			Eka Elijah_Elijah
+			Florentinus_Florentinus Francis_Francis
+			Gregory_Gregory Guntur
+			Hakim_Hakim Harta Harun_Aaron Hasan_Hassan Henry_Henry
+			Idris_Idris Iskandar_Alexander Ismail_Ishmael 
+			Julius_Julius
+			Martin_Martin Matthew_Matthew Michael_Michael Muhammad_Muhammad 
+			Nyantau 
+			Omar_Umar 
+			Panuta Peter_Peter Phillip_Phillip Putra
+			Raja Ridwan_Ridwan Robert_Robert 
+			Samuel_Samuel Stephen_Stephen Surya Sulaiman_Solomon 
+			Tarik_Tariq
+			Usman_Uthman 
+			Victor_Victor Vincent_Vincent
+			Wahyu Wira
+			Yohanes_John Yustinus_Justin Yusuf_Joseph
+			Zakaria_Zachary
+		}
+		female_names = {
+			Abigail_Abigail Adilah_Adila Aishah_Aisha Aminah_Amina Anna_Anna Azizah_Aziza
+			Basirah_Basira Bethany_Bethany Bunga
+			Diyanah
+			Elizabeth_Elizabeth Embun
+			Faezah_Faiza Farah_Farah Fatimah_Fatima 
+			Gabriela_Gabriela Grace_Grace
+			Habibah_Habiba Halimah_Halima Hamidah_Hamida Hayati
+			Intan Izzah
+			Jamilah_Jamila Joanna_Jane Josephine_Josephine Julia_Julia
+			Kasih Khadijah_Khadija
+			Latifah_Latifa 
+			Maimunah_Maymunah Mariam_Mary Mawar Melati
+			Petra_Petra
+			Rachel_Rachel Ramlah
+			Sara_Sarah Sharifah_Sharifa Siti
+			Theresa_Theresa
+			Victoria_Victoria
+			Wangi Wati
+			Zarina
+		}
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "Na "
+			
+		modifier = default_culture_modifier
+	}
+}

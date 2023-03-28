@@ -1,0 +1,380 @@
+central_slavic = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { easterngfx }
+
+	ukrainer = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.2 0.4 0.1 }
+		alternate_start = {
+			OR = {
+				year >= 800
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+
+		male_names = {
+			Adam_Adam Anatoliy_Anatolius Andriy_Andrew Anton_Anthony Artem_Artemius Artur_Arthur Avgust_Augustus
+			Bohdan_Bogdan Bohuslav_Boguslav Borys_Boris Boryslav_Borislav
+			Demyan_Damian Denys_Dionysus Dmytro_Demetrius
+			Fedir_Theodore 
+			Havryl_Gabriel Heorhiy_George Hryhoriy_Gregory 
+			Ihor_Ingvar Illya_Elijah Ivan_John 
+			Klym_Clement Klyment_Clement Kostiantyn_Constantine Kyrylo_Cyril 
+			Leonid_Leonidas 
+			Maks_Maximus Maksym_Maximus Marko_Mark Martyn_Martin Miron_Myron Mykhailo_Michael Mykola_Nicholas Mykyta_Niketas Myroslav_Miroslav
+			Nazar_Nazarius Nazariy_Nazarius
+			Olegh_Helge Oleksandr_Alexander Oleksa_Alexis Oleksiy_Alexis Ostap_Eustace Orest_Orestes
+			Pavlo_Paul Petro_Peter Pylyp_Phillip 
+			Roman_Roman Ruslan_Ruslan 
+			Sasha_Alexander Serhiy_Sergius Spartak_Spartacus Stanislav_Stanislav Stepan_Stephen Svyatoslav_Sviatoslav Symon_Simon
+			Taras_Taras Tolyk_Anatolius 
+			Valentyn_Valentine Valeriy_Valerius Vasyl_Basil Viktor_Victor Vitali_Vitale Vladyslav_Vladislav Volodymyr_Vladimir Vsevolod Vyacheslav_Vaclav 
+			Yakiv_Jacob Yaroslav_Jaroslav Yevhen_Eugene Yosyp_Joseph Yuliy_Julius Yury_George
+			Zinoviy_Zenobius
+		}
+		female_names = {
+			Agafya_Agatha Agrafena_Agrippina Alexandra_Alexandra Anastasia_Anastasia Anna_Anna Azovka
+			Bailichka_Bailichka Boleslava_Boleslava Bylina_Bylina
+			Chernava_Chernava Cirilla_Cyrilla
+			Darya_Daria Daryonka_Daria Dobrava_Dobrava Dobroslava_Dobroslava Dunia
+			Feodora_Theodora Feodosia_Theodosia Fevronia 
+			Goryslava_Goryslava Gradyslava_Gradyslava  
+			Hospodarka
+			Iryna_Irene Ivanka_Jane
+			Kalyna_Kalina Katyenka Kytsia Kupala
+			Lyza_Elizabeth Liubava_Lyubov Liudmyla_Liudmila 
+			Malakhytova Malfryda Malusha Maryna_Marina Marusia Marya_Mary 
+			Nastasya_Anastasia Nastyona_Anastasia 
+			Olena_Helen Olga_Helga Olesya_Alexandra
+			Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava 
+			Rogneda Rostyslava_Rostislava Ryaba
+			Sbyslava Sofiya_Sophia Staryna Svyatoslava_Sviatoslava 
+			Tanyushka Tatyana_Tatiana Turchyna
+			Ulita_Julia Ulyana_Juliana 
+			Varvara_Barbara Vasylysa_Basilia Veleslava Verkhoslava Onuchka Vseslava 
+			Xenia_Xenia 
+			Yaroslava_Yaroslava Yefymia_Euphemia Kateryna_Catherine Yevdokia_Eudocia 
+			Zabava Zvenislava
+		}
+		from_dynasty_prefix = "z "
+		
+		male_patronym = "ovych"
+		female_patronym = "ovna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	tutejszy = { #Polish, Belarusian, Ukrianian ish group in that one part of Europe
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.35 0.4 0.1 }
+		alternate_start = {
+			OR = {
+				year >= 800
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+
+		male_names = {
+			Adam_Adam Adrian_Adrian Aleksander_Alexander Aleksy_Alexis Anatol_Anatolius Andrzej_Andrew Anton_Anthony Artem_Artemius Artur_Arthur August_Augustus
+			Bartlomiej_Bartholomew Blazej_Blaise Bogdan_Bogdan Boguslaw_Boguslav Borys_Boris Boryslaw_Borislav
+			Cezary_Caesar Cyprian_Cyprian
+			Damyan_Damian Denys_Dionysus Dominik_Dominic Dymitr_Demetrius
+			Edmund_Edmund Emil_Emil Eryk_Erik Eugeniusz_Eugene
+			Fedir_Theodore Feliks_Felix Ferdynand_Ferdinand Filip_Phillip Fryderyk_Frederick 
+			Geralt_Gerald
+			Hawryl_Gabriel Hryhorz_Gregory 
+			Ignacy_Ignatius Igor_Ingvar Ilyasz_Elijah Iwan_John Izaak_Isaac
+			Jan_John Jakub_Jacob Jaroslaw_Jaroslav Jerzy_George Józef_Joseph Julian_Julian
+			Karol_Charles Klyment_Clement Kornel_Cornelius Kostiantyn_Constantine Krystian_Christian Krzysztof_Christopher Kyryl_Cyril 
+			Lech Leonid_Leonidas Ludwik_Louis Lukasz_Luke
+			Maksym_Maximus Marcel_Marcellus Marek_Mark Martyn_Martin Mateusz_Matthew Miron_Myron Mykhail_Michael Mykolaj_Nicholas Mykyta_Niketas Myroslaw_Miroslav
+			Nazar_Nazarius Nikodem_Nicodemus
+			Oleg_Helge Orest_Orestes Oskar_Oscar
+			Pawel_Paul Piotr_Peter 
+			Radoslaw_Radoslav Rafal_Raphael Roman_Roman Ruslan_Ruslan 
+			Serhiusz_Sergius Spartak_Spartacus Stanislaw_Stanislav Stefan_Stephen Symon_Simon Swietoslaw_Sviatoslav
+			Taras_Taras Tytus_Titus
+			Walentyn_Valentine Walery_Valerius Wasyl_Basil Wiktor_Victor Witaly_Vitale Wladyslaw_Vladislav Wolodymyr_Vladimir Wyacheslaw_Vaclav 
+			Zinowiy_Zenobius
+		}
+		female_names = {
+			Adrianna_Adriana Agafya_Agatha Agrafena_Agrippina Aleksandra_Alexandra Amelia_Amelia Anastasia_Anastasia Andzelika_Angelica Anna_Anna
+			Bailichka_Bailichka Boleslawa_Boleslava Bylina_Bylina
+			Cecylia_Cecilia Chernawa_Chernava Cirilla_Cyrilla
+			Darya_Daria Daryonka_Daria Dobrawa_Dobrava Dobroslawa_Dobroslava Dominika_Dominique Dunia
+			Edyta_Edith Elwira_Elvira Elzbieta_Elizabeth Ewa_Eve
+			Felicja_Felicia Feodora_Theodora Feodosia_Theodosia 
+			Gabriela_Gabriela Genowefa_Genevieve Gertruda_Gertrude Goryslawa_Goryslava Gradyslawa_Gradyslava  
+			Hanna_Hannah Helena_Helen Izabela_Elizabeth
+			Iryna_Irene
+			Jadwiga_Hedwig Jaroslawa_Yaroslava Jefymia_Euphemia Joanna_Jane Jozefa_Josephine Julia_Julia
+			Kalyna_Kalina Karolina_Caroline Kateryna_Catherine Klaudia_Claudia Krystyna_Christina
+			Laura_Laura Lyza_Elizabeth Lucja_Lucia Ludwika_Louise 
+			Magdalena_Madeline Maryna_Marina Marya_Mary Miroslawa_Miroslava Monika_Monica 
+			Natalia_Natalie 
+			Olena_Helen Olga_Helga Olesya_Alexandra
+			Patrycja_Patricia Paulina_Paula 
+			Regina_Regina Rostyslawa_Rostislava Roza_Rosa
+			Sara_Sarah Sofiya_Sophia Stefania_Stephanie Swyatoslawa_Sviatoslava Sylwia_Silvia 
+			Tatyana_Tatiana Teresa_Theresa
+			Ulyana_Juliana Urszula_Ursula 
+			Warvara_Barbara Wasylysa_Basilia Weronika_Veronica 
+			Xenia_Xenia
+			Zaneta_Jeannette Zuzanna_Susanna
+		}
+		from_dynasty_prefix = "z "
+		feminist = yes
+		
+		male_patronym = "owicz"
+		female_patronym = "owna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	rusyn = { #Mix of Ukranian and Slovak
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.2 0.5 0.2 }
+		alternate_start = {
+			OR = {
+				year >= 800
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+
+		male_names = {
+			Adam_Adam Adamek_Adam Albert_Albert Anatoliy_Anatolius Andrey_Andrew Anton_Anthony Artur_Arthur 
+			Bedrich_Frederick Benedikt_Benedict Bohdan_Bogdan Bohumil_Bogumil Bohuslav_Boguslav Boris_Boris Borisek_Boris Bronislav_Bronislav Bretislav_Bretislav 
+			Dalibor_Dalibor David_David Demyan_Damian Dezider_Desiderius Dobromil_Dobromil Dominik_Dominic Dmytro_Demetrius 
+			Ferdinand_Ferdinand Fridrich_Frederick 
+			Gustav_Gustav 
+			Havryl_Gabriel Hieronym_Jerome 
+			Igor_Ingvar Illya_Elijah Ivan_John 
+			Kamil_Camillus Karel_Charles Klyment_Clement Krystof_Christopher Kyrylo_Cyril 
+			Leon_Leo Leonid_Leonidas Leopold_Leopold Libor_Liberius Lukas_Luke 
+			Maksym_Maximus Marek_Mark Marian_Marianus Martin_Martin Martinek_Martin Matej_Matthew Michal_Michael Mirek_Miroslav 
+			Nazar_Nazarius
+			Oldrich_Ulrich Oleg_Helge Oleksandr_Alexander Oleksiy_Alexis 
+			Patrik_Patrick Pavel_Paul Pavol_Paul Pylyp_Phillip
+			Radoslav_Radoslav Robert_Robert Roman_Roman 
+			Serhiy_Sergius Simon_Simon Spartak_Spartacus Stanislav_Stanislav Stefan_Stephen Svatoslav_Sviatoslav 
+			Taras_Taras Teodor_Theodore 
+			Vasyl_Basil Vincenc_Vincent Vladislav_Vladislav Volodymyr_Vladimir 
+			Yevhen_Eugene Yosyp_Joseph Yuliy_Julius Yuriy_George
+			Zinoviy_Zenobius
+		}
+		female_names = {
+			Agafya_Agatha Agrafena_Agrippina Alexandra_Alexandra Anastasia_Anastasia Anna_Anna Azovka
+			Bailichka_Bailichka Boleslava_Boleslava Bylina_Bylina
+			Chernava_Chernava Cirilla_Cyrilla
+			Darya_Daria Daryonka_Daria Dobrava_Dobrava Dobroslava_Dobroslava Dunia
+			Feodora_Theodora Feodosia_Theodosia Fevronia 
+			Goryslava_Goryslava Gradyslava_Gradyslava  
+			Hospodarka
+			Iryna_Irene Ivanka_Jane
+			Kalyna_Kalina Katyenka Kytsia Kupala
+			Lyza_Elizabeth Liubava_Lyubov Liudmyla_Liudmila 
+			Malakhytova Malfryda Malusha Maryna_Marina Marusia Marya_Mary 
+			Nastasya_Anastasia Nastyona_Anastasia 
+			Olena_Helen Olga_Helga Olesya_Alexandra
+			Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava 
+			Rogneda Rostyslava_Rostislava Ryaba
+			Sbyslava Sofiya_Sophia Staryna Svyatoslava_Sviatoslava 
+			Tanyushka Tatyana_Tatiana Turchyna
+			Ulita_Julia Ulyana_Juliana 
+			Varvara_Barbara Vasylysa_Basilia Veleslava Verkhoslava Onuchka Vseslava 
+			Xenia_Xenia 
+			Yaroslava_Yaroslava Yefymia_Euphemia Kateryna_Catherine Yevdokia_Eudocia 
+			Zabava Zvenislava
+		}
+		from_dynasty_prefix = "z "
+		
+		male_patronym = "ovych"
+		female_patronym = "ovna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	cossack = {
+		graphical_cultures = { westernslavicgfx }
+		unit_graphical_cultures = { cossackgfx westernslavicgfx easterngfx }
+		
+		color = { 0.4 0.7 0 }
+		alternate_start = {
+			OR = {
+				year >= 800
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		male_names = {
+			Adam_Adam Andriy_Andrew Anton_Anthony Artem_Artemius Artur_Arthur Avgust_Augustus
+			Bohdan_Bogdan Bohuslav_Boguslav Boris_Boris Borislav_Borislav
+			Demyan_Damian Denis_Dionysus Dmitro_Demetrius 
+			Fedir_Theodore 
+			Ghleb
+			Havril_Gabriel Heorhiy_George Hryhoriy_Gregory 
+			Ihor_Ingvar Illia_Elijah Ivan_John 
+			Klim_Clement Kliment_Clement Kostiantyn_Constantine Kyrilo_Cyril 
+			Leonid_Leonidas 
+			Maks_Maximus Maksim_Maximus Marko_Mark Martyn_Martin Mykhailo_Michael Mykola_Nicholas Mykyta_Niketas Myroslav_Miroslav
+			Nazar_Nazarius Nazariy_Nazarius
+			Olegh_Helge Oleksandr_Alexander Oleksa_Alexis Oleksiy_Alexis Ostap_Eustace Orest_Orestes
+			Pavlo_Paul Petro_Peter Pilyp_Phillip 
+			Roman_Roman Ruslan_Ruslan 
+			Sasha_Alexander Semyon_Simon Serhiy_Sergius Spartak_Spartacus Stanislav_Stanislav Stepan_Stephen Svyatoslav_Sviatoslav Symon_Simon
+			Taras_Taras Tolik_Anatolius
+			Valentyn_Valentine Valeriy_Valerius Vasil_Basil Viktor_Victor Vitali_Vitale Vladyslav_Vladislav Volodymyr_Vladimir Vsevolod Vyacheslav_Vaclav 
+			Yakiv_Jacob Yaroslav_Jaroslav Yevhen_Eugene Yosyp_Joseph Yuliy_Julius Yury_George
+		}
+		female_names = {
+			Agafya_Agatha Agrafena_Agrippina Alexandra_Alexandra Anastasia_Anastasia Anna_Anna
+			Bailichka_Bailichka Boleslava_Boleslava Bylina_Bylina
+			Chernava_Chernava Cirilla_Cyrilla
+			Darya_Daria Daryonka_Daria Dobrava_Dobrava Dobroslava_Dobroslava Dunia
+			Feodora_Theodora Feodosia_Theodosia Fevronia 
+			Goryslava_Goryslava Gradyslava_Gradyslava  
+			Iryna_Irene Ivanka_Jane
+			Kalyna_Kalina
+			Lyza_Elizabeth Liubava_Lyubov Liudmyla_Liudmila 
+			Magdalena_Madeline Maryna_Marina Marya_Mary 
+			Nastasya_Anastasia Nastyona_Anastasia 
+			Olena_Helen Olga_Helga Olesya_Alexandra
+			Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava 
+			Rogneda Rostyslava_Rostislava Ryaba
+			Sbyslava Sofiya_Sophia Staryna Svyatoslava_Sviatoslava 
+			Tanyushka Tatyana_Tatiana Turchyna
+			Ulita_Julia Ulyana_Juliana 
+			Varvara_Barbara Vasylysa_Basilia Veleslava Verkhoslava Onuchka Vseslava 
+			Xenia_Xenia 
+			Yaroslava_Yaroslava Yefymia_Euphemia Kateryna_Catherine Yevdokia_Eudocia 
+			Zabava Zvenislava
+		}
+		from_dynasty_prefix = "z "
+		
+		male_patronym = "ovych"
+		female_patronym = "ovna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	bielaruskaja = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.35 0.55 0.1 }
+		alternate_start = {
+			OR = {
+				year >= 800
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+
+		male_names = {
+			Abram_Abraham Ahafon_Agathon Aktavi_Octavius Alaiz_Louis Aleksei_Alexis Aleksey_Alexis Alexei_Alexis Alexey_Alexis Aliaksandr_Alexander Aliaksei_Alexis Alyaksandr_Alexander Anatol_Anatolius Andrei_Andrew Andrey_Andrew Anton_Anthony Arkadzij_Arcadius Arsienij_Arsenius Artsiom_Artemius Artur_Arthur Auhustsin_Augustine
+			Bahumil_Bogumil Bahuslau_Boguslav Barys_Boris Beniadzikt_Benedict Branislau_Bronislav
+			Chrystafor_Christopher
+			Daminik_Dominic Daniil_Daniel Daryj_Darius Dzianis_Dionysus Dzmitry_Demetrius
+			Fiodar_Theodore
+			Habryjel_Gabriel Haspar_Caspar Hienadz_Gennadius Hrehary_Gregory  
+			Ihar_Ingvar Ihnat_Ignatius Ilya_Elijah Ivan_John 
+			Jan_John Jazep_Joseph Juryj_George
+			Kanstantsin_Constantine 
+			Laurencij_Lawrence Leanid_Leonidas Liavon_Leo
+			Maksim_Maximus Mark_Mark Matsviy_Matthew Maxim_Maximus Mikalai_Nicholas Mikalay_Nicholas Mikhail_Michael Mikola_Nicholas Mikita_Niketas Myechyslaw_Mechislav
+			Nikita_Niketas 
+			Oleg_Helge 
+			Panteleimon_Panteleimon Paval_Paul Pavel_Paul Paviel_Paul Piotr_Peter Pyotra_Peter
+			Raman_Roman Ruslan_Ruslan Ryhor_Gregory 
+			Siamion_Simon Siarhei_Sergius Stanislau_Stanislav Syarhey_Sergius Stepan_Stephen
+			Uladzimir_Vladimir Uladzislau_Vladislav
+			Vadzim_Vadim Valeriy_Valerius Valery_Valerius Vasil_Basil Viachaslau_Vaclav Viktar_Victor Vilgelm_William Vintsent_Vincent Vital_Vitale 
+			Yakau_Jacob Yan_John Yauhen_Eugene Yefrem_Ephraim Yuljan_Julian Yuri_George Yuriy_George Yury_George
+			Zmicier_Demetrius Zyhimont_Zygimantas
+		}
+		female_names = {
+			Aksana_Xenia Albina_Albina Alena_Helen Aliaksandra_Alexandra Alina_Albina Anastasia_Anastasia Anastasiya_Anastasia Anhelina_Angela Anna_Anna Antanina_Antonia
+			Darya_Daria 
+			Halina_Galina Hanna_Hannah 
+			Iryna_Irene Ivonka_Jane
+			Karyna_Catherine Katsiaryna_Catherine Ksenia_Xenia Kseniya_Xenia
+			Larysa_Larisa Lidziya_Lydia Liobou_Lyubov Liudmila_Liudmila 
+			Marharyta_Margaret Marta_Martha Mariya_Mary Maryna_Marina
+			Nadzeya_Nadezhda Nastassia_Anastasia Natallia_Natalie Nina 
+			Palina_Paula
+			Raisa_Herais 
+			Sviatlana_Svetlana
+			Tamara_Tamar Tatsiana_Tatiana 
+			Ulyana_Juliana 
+			Valeryia_Valeria Valiantsina_Valentina Vera_Vera Viera_Vera Viktoryia_Victoria Volha_Helga
+			Yulia_Julia Yuliya_Julia 
+			Zhanna_Jane
+		}
+		from_dynasty_prefix = "z "
+		
+		male_patronym = "ouic"
+		female_patronym = "ouna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+
+}

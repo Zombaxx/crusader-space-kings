@@ -1,0 +1,78 @@
+afroatlantic = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { africangfx }
+	
+	liberian = {
+		alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+		graphical_cultures = { westafricangfx africangfx }
+		color = { 0.6 0.35 0.3 }
+		
+		male_names = {
+			Aaron_Aaron Abraham_Abraham Albert_Albert Alexander_Alexander Alfred_Alfred Allen_Alan Amos Anthony_Anthony Arthur_Arthur
+			Baimba Barclay Bashiel Benjamin_Benjamin Benoni Beverly Bonokai Boston Bryant Buyamah
+			Charles_Charles Ciata Clarence
+			Daniel_Daniel David_David Dunbar
+			Edward_Edward Edwin Elijah_Elijah Emmanuel_Emmanuel Enoch Eugene_Eugene
+			Filibuster Francis_Francis
+			Gabriel_Gabriel Garretson Gbessi Gbotoe George_George Gregory_Gregory
+			Harrison Henry_Henry Hilary
+			Isaac_Isaac Ishmael_Ishmael
+			Jallah James_James Jenkins_John Jeremiah_Jeremiah Job_Job John_John Joseph_Joseph
+			Kaijaah Kanneh Karmo Kayme Kemokai Kengbe Konowa Kpanna
+			Levi Lorenzo_Lawrence Louis_Louis Luma
+			MacDonald_Donald Mark_Mark Martin_Martin Matthew_Matthew Momolu Monroe_Monroe Moses_Moses
+			Nathaniel_Nathan
+			Oscar_Oscar
+			Paul_Paul Payne Peter_Peter Prince
+			Richmond Robert_Robert Roger_Roger
+			Samuel_Samuel Seh Sekou Simeon_Simon Solomon_Solomon Spriggs Stephen_Stephen
+			Tarweh Taylor_Taylor Thomas_Thomas
+			Varney Victor_Victor
+			Warner Wendell William_William Wilmot Winston_Winston Wright
+			Zacharia_Zachary Zolu			
+		}
+		
+		female_names = {
+			Anna_Anna
+			Barbara_Barbara Betsy_Elizabeth
+			Carolina_Caroline Catharine_Catherine Cianna Ciata Cyvette
+			Diane_Diana
+			Edith_Edith Elizabeth_Elizabeth Ellen_Helen Emancipata
+			Fatima_Fatima Frances_Frances
+			Gbessay Gertrude_Gertrude Gloriana_Gloria
+			Hawa Helene_Helen
+			Jabateh Jandi Jartu Jebbeh Jennifer_Jennifer Jewel Julia_Julia Jumah Justice
+			Kemah Kula Kpanna
+			Lauren_Lauren Libertas Lorpu
+			Mabasi MacDella Maima Martha_Martha Mary_Mary Miranda Munah
+			Nicole_Nicole Nullabona Nyanae
+			Rachel_Rachel Respublia Rhoda Ruth_Ruth
+			Sara_Sarah Siah Somah Susanna_Susanna
+			Tatu Tenneh Teresa_Theresa
+			Victoria_Victoria Virginia
+			Weyatta
+			Yassa
+			Zoe_Zoe
+		}
+
+		from_dynasty_prefix = "of "
+		
+		used_for_random = no
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+}	

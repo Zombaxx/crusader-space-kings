@@ -154,16 +154,37 @@ immortalsgfx = {
 chinesegfx = {
 	skin_tone = 1
 }
+japanesegfx = {
+	skin_tone = 1
+}
 
 bodpagfx = {
 	skin_tone = 1
 }
 
+southeastasiangfx = {
+	skin_tone = 2
+}
+indosoutheastasiangfx = {
+	skin_tone = 2
+}
+sinosoutheastasiangfx = {
+	skin_tone = 2
+}
+malaygfx = {
+	skin_tone = 2
+}
+filipinogfx = {
+	skin_tone = 2
+}
 berbergfx = {
 	skin_tone = 2
 }
 
 levantinegfx = {
+	skin_tone = 2
+}
+egyptiangfx = {
 	skin_tone = 2
 }
 
@@ -211,76 +232,9 @@ jewishholygfx = {
 indiangfx = {
 	skin_tone = 2
 }
-
-#Mars Cultures
-
-elysiangfx = {
+northindiangfx = {
 	skin_tone = 1
 }
-icariangfx = {
-	skin_tone = 0
-}
-inneralbangfx = {
-	skin_tone = 0
-}
-tempestgfx = {
-	skin_tone = 0
-}
-soliangfx = {
-	skin_tone = 3
-}
-acheroniangfx = {
-	skin_tone = 0
-}
-outeralbangfx = {
-	skin_tone = 0
-}
-tempterrangfx = {
-	skin_tone = 0
-}
-marinergfx = {
-	skin_tone = 0
-}
-southmarsgfx = {
-	skin_tone = 1
-}
-noachisgfx = {
-	skin_tone = 1
-}
-titangfx = {
-	skin_tone = 1
-}
-versiangfx = {
-	skin_tone = 1
-}
-daedgfx = {
-	skin_tone = 1
-}
-sabeangfx = {
-	skin_tone = 2
-}
-taucetgfx = {
-	skin_tone = 0
-}
-skykidsgfx = {
-	skin_tone = 1
-}
-hegemoniangfx = {
-	skin_tone = 1
-}
-noctiangfx = {
-	skin_tone = 2
-}
-amenthiangfx = {
-	skin_tone = 2
-}
-hesperiangfx = {
-	skin_tone = 1
-}
-taucetinesegfx = {
-	skin_tone = 1
-}
-
 # Hard coded government graphical cultures
 tribalgfx = {}
 nomadgfx = {}

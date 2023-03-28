@@ -1,0 +1,327 @@
+southern_indo_aryan_group = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { indiangfx muslimgfx }
+
+	marathi = { # Indo-Aryan
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.2 0.0 }
+	
+		male_names = {
+			Abaji Amutrao Bahadur Bahiroji Balaji Bajirao Chimnaji Dattaji Daulatrao Dhanaji Dhondu 
+			Ekoji Fatehsinh Gopalrao Hambirao Harirao Jayajirao Jayappa Janakappa Jivajirao 
+			Khanderao Krishnarao Madhavrao Mahadji Malerao Malharrao Mankoji Martandrao 
+			Moropant Murarirao Nanasaheb Narayanrao Pandurangrao Pratapsinh 
+			Raghunathrao Rajaram Ramaswami Ramchandrapant Ramshastri Ranojirao 
+			Sadashivrao Sambhaji Sayajirao Serfoji Shahuji Shivaji Shivajirao 
+			Tryambakrao Tukkoji Tukojirao Tulojirao Venkatrao Vishwanathpant Yashwantrao
+			Adityavarman Aiyaparaja Anantadeva Aparaditya Aparajita Arikesarin Arthapathi Avasara 
+			Bhavadatta Bhima Bhoja Bijjala Chandra Chandraditya Chhadvaideva Chhittaraja 
+			Daharasena Dhammayira Gandaraditya Goggiraja Gonka Guhala Guhalladeva Haripaladeva 
+			Indradatta Indraraja Jatiga Jayakeshi Jhanjha Kamadeva Kapardin Keshideva Kirtiraja 
+			Mallikarjuna Marsimha Mummuniraja Nagarjuna Nagavarma Naivarman Pullashakti Rattaraja 
+			Sanaphulla Shashthadeva Shivachitta Skandavarman Soddhala Someshvara Sovideva Suketuvarman 
+			Taila Tejahkantha Vappuvanna Vijayaditya Viravarmadeva Vishnuchitta Vyaghrasena Yunaneshwar
+		}
+		female_names = {
+			Ahilyabai Ambikabai Anandibai Anubai Bhiubai Deepabai Durgabai Gangabai Gunvantibai 
+			Jankibai Jijibai Kamlabai Kashibai Laxmibai Mahadik Mastani Putalabai 
+			Rajasbai Rajkunvarbai Ramabai Ranubai Saibai Sagunabai Sakavaarbai Sayeebai Soyarabai Sujanbai Tarabai Yesubai
+			Anjanibai Anuradha Durga Kamadevi Kamaladevi Kesarbai Kishori Kundaladevi Lasthiyavva 
+			Maya Mogubai Radhabai Radhika Shevanti Shudhamati Sovidevi Sudha Sumati Sunita 
+		}
+		dynasty_title_names = yes
+		from_dynasty_prefix = "of "		
+		castes = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		modifier = default_culture_modifier
+	}
+
+	konkani = { # Portuguese and Indian mix
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.7 0.9 0.1 }
+	
+		male_names = {
+		    Afonso_Alphonse Aires Agostinho_Augustine Alberto_Albert Alexeu_Alexis Amutrao André_Andrew António_Anthony
+			Bahadur Bahiroji Balaji Bajirao Bernardo_Bernard 
+			Carlos_Charles César_Caesar Chimnaji Constantino_Constantine Cristóvão_Christopher
+			Dattaji Daulatrao Diogo_Diaco Duarte_Edward 
+			Eduardo_Edward Estêvão_Stephen Eugénio_Eugene 
+			Fernão_Ferdinand Filipe_Phillip Francisco_Francis Frederico_Frederick 
+			Garcia_Garcia Gonçalo_Gonzalo Gopalrao 
+			Hambirao Henrique_Henry 
+			Inácio_Ignatius
+			Jaime_James Jayajirao Jayappa Jerónimo_Jerome João_John Joaquim_Joachim Jorge_George José_Joseph 
+			Khanderao Krishnarao 
+			Lourenço_Lawrence Luís_Louis
+			Madhavrao Malerao Malharrao Manuel_Emmanuel Martandrao Martim_Martin Matias_Matthew Miguel_Michael Murarirao 
+			Narayanrao Nuno_Nuno
+			Pandurangrao Paulo_Paul Pedru_Peter Pero_Peter
+			Rafael_Raphael Raghunathrao Rajaram Ranojirao Rodrigo_Roderick 
+			Sadashivrao Sebastanu_Sebastian Simão_Simon 
+			Tomé_Thomas Tristão_Tristan Tukkoji Tulojirao 
+			Vasco_Vasco Venkatrao 
+			Xavier_Xavier
+			Yashwantrao
+			Zabel Zoze Zuanu
+		}
+		female_names = {
+			Ahilyabai Alícia_Alice Ambikabai Ana_Anna Anandibai Andreia_Andrea Anubai 
+			Bhiubai Branca_Blanche 
+			Carina Carlota_Charlotte Carmo_Carmel Catarina_Catherine
+			Dores_Dolores Durgabai 
+			Edite_Edith Eva_Eve
+			Gabriela_Gabriela Gangabai Graça_Grace Gunvantibai 
+			Helena_Helen
+			Inês_Agnes Isabel_Elizabeth
+			Jankibai Joana_Jane Júlia_Julia 
+			Kamlabai Kashibai 
+			Laxmibai Lúcia_Lucia 
+			Maria_Mary Mastani Mónica_Monica 
+			Paula_Paula Putalabai 
+			Rajasbai Rajkunvarbai Ramabai Ranubai Rebeca_Rebecca Rosa_Rosa 
+			Saibai Sagunabai Sakavaarbai Sara_Sarah Sayeebai Sofia_Sophia Soyarabai Sujanbai 
+			Tarabai Teresa_Theresa 
+			Vitória_Victoria
+			Yesubai			 
+		}
+		castes = yes
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+		
+		allow_looting = yes
+		seafarer = yes
+		
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+	}
+	
+	mumbaikar = { # Indo-Aryan
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.3 0.3 0.0 }
+	
+		male_names = {
+			Abaji Amutrao Bahadur Bahiroji Balaji Bajirao Chimnaji Dattaji Daulatrao Dhanaji Dhondu 
+			Ekoji Fatehsinh Gopalrao Hambirao Harirao Jayajirao Jayappa Janakappa Jivajirao 
+			Khanderao Krishnarao Madhavrao Mahadji Malerao Malharrao Mankoji Martandrao 
+			Moropant Murarirao Nanasaheb Narayanrao Pandurangrao Pratapsinh 
+			Raghunathrao Rajaram Ramaswami Ramchandrapant Ramshastri Ranojirao 
+			Sadashivrao Sambhaji Sayajirao Serfoji Shahuji Shivaji Shivajirao 
+			Tryambakrao Tukkoji Tukojirao Tulojirao Venkatrao Vishwanathpant Yashwantrao
+			Adityavarman Aiyaparaja Anantadeva Aparaditya Aparajita Arikesarin Arthapathi Avasara 
+			Bhavadatta Bhima Bhoja Bijjala Chandra Chandraditya Chhadvaideva Chhittaraja 
+			Daharasena Dhammayira Gandaraditya Goggiraja Gonka Guhala Guhalladeva Haripaladeva 
+			Indradatta Indraraja Jatiga Jayakeshi Jhanjha Kamadeva Kapardin Keshideva Kirtiraja 
+			Mallikarjuna Marsimha Mummuniraja Nagarjuna Nagavarma Naivarman Pullashakti Rattaraja 
+			Sanaphulla Shashthadeva Shivachitta Skandavarman Soddhala Someshvara Sovideva Suketuvarman 
+			Taila Tejahkantha Vappuvanna Vijayaditya Viravarmadeva Vishnuchitta Vyaghrasena Yunaneshwar
+		}
+		female_names = {
+			Ahilyabai Ambikabai Anandibai Anubai Bhiubai Deepabai Durgabai Gangabai Gunvantibai 
+			Jankibai Jijibai Kamlabai Kashibai Laxmibai Mahadik Mastani Putalabai 
+			Rajasbai Rajkunvarbai Ramabai Ranubai Saibai Sagunabai Sakavaarbai Sayeebai Soyarabai Sujanbai Tarabai Yesubai
+			Anjanibai Anuradha Durga Kamadevi Kamaladevi Kesarbai Kishori Kundaladevi Lasthiyavva 
+			Maya Mogubai Radhabai Radhika Shevanti Shudhamati Sovidevi Sudha Sumati Sunita 
+		}
+		from_dynasty_prefix = "of "
+		allow_looting = yes
+		seafarer = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		modifier = default_culture_modifier
+	}
+	
+	sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 1.0 0.3 0.3 }
+		
+		male_names = {
+			Agabala Aggabodhi Agibuti Ananda Anikanga Apaya Arittha Avirada Ayasmantha Bhuvanekabahu Butisamana Chodaganga Dahamsena 
+			Danamitta Dappula Dathappabhuti Dathopatissa Dharmapala Dharmasena Dharmasoka Dhatusena Digakassapa Diganaguli 
+			Digasumana Gajabahu Hadaka Hadana Hujata Jayabahu Jetthatissa Jhotisena Kashyapa Kassapa Kitti Kittisena Kittivarma 
+			Magamitta Mahadeva Mahanaga Mahasattha Mahasena Mahasiva Mahinda Manavanna Mihidala Mihindala Mitta Moggallana 
+			Nandamitta Narendra Narendrasinha Nirmala Padita Parakkamabahu Parakramabahu Rajasinha Rakasala Ratana Rohaka 
+			Sadhatissa Sagala Saliya Sanghamitta Sanghatissa Sankha Sena Senarat Sidata Sigaratissa Silameghavanna Sinhabahu 
+			Siva Sobana Sobika Sudata Sumana Surakita Suratissa Tissa Udaya Upatissa Vassaba Vebeliya Vepali Vijayabahu 
+			Vikrama_Vikrama Vikramabahu Vimaladharma Vimaladharmasuriya Virabahu Viranarendra
+		}
+		female_names = {
+			Abijliguta Ahali Anula Anurada Anuradi Anuridi Asadaguta Asali Aselaya Ata Barani Bodhideva Bohodevi Butadata 
+			Cadana Citadevi Citaguta Damadina Damaguta Damarajha Damarakita Damaruci Damasena Damati Damika Damutara 
+			Devanakata Devanapiya Devarakita Dhamarajha Dhamika Jhita Jhotisena Jhotiya Kalyanavati Kanadasika Kanaguta 
+			Kanatissa Kitaka Kituka Kubira Kumara Kumaradata Kumaratiha Lasani Lilavati Maga Magha Maka Maki Mita Nagadina 
+			Narayaguta Nuga Nugaya Paduma Palikada Pamatissa Purushadata Pusamitta Rajhita Ramadata Ramajhata Ramani 
+			Rasumiliya Reva Sagara Samidata Samudaguta Savera Seneya Silmini Siriguta Siripali Sivala Sivanabuti Somali Sugula 
+			Sujhata Sumanadevi Suri Suriguta Tisi Tissabuti Tissadata Tissadevi Tissamita Tissaraka Tissarakita Yahasaya Yahasini
+		}
+		
+		#dynasty_title_names = yes
+				
+		castes = yes
+		
+		allow_looting = yes
+				
+		pat_grf_name_chance = 35
+		mat_grf_name_chance = 20
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	
+	yoonaanee = {#Greeks in india (Alot in Mumbai)(Gone wrong)(NOT CLICKBAIT)
+		graphical_cultures = { indiangfx muslimgfx byzantinegfx }
+		
+		color = { 115 13 55 }
+        #Spelling changes from greek: os -> a, ios -> iya, ch -> k, x->ksh, ph -> f, Eu -> U, aiy -> ay, Io -> Yu, Iou -> Yu, aia -> aya, z -> j, Z -> J, Ia -> Ya, thea -> tiya, Ph -> F, Theo -> Tiyo, eia -> eya, eiya -> eya, a -> aa, ia -> iyaa, Nicholas -> Nikola, Xene -> Shene, Alexander -> Lashkandra...... and then I stopped keeping track of the changes at some point.
+		male_names = {
+			Adriana_Adrian Agathukleya_Agathocles Akakiya_Acacius Amtalikita_Antalcidas Anastasiya_Anastasius Anatoliya_Anatolius Andrea_Andrew Andronika_Andronicus Anthemiya_Anthemius Anthima_Anthimus Antimaka_Antimachus Antioka_Antiochus Antoniya_Anthony Apaladata_Apollodotus Apolloniya_Apollonius Apostola_Apostolos Aristotelis_Aristotle Artemidora_Artemius Arkhebiya_Arcadius Arseniya_Arsenius Artemiya_Artemius Athanasiya_Athanasius 
+			Baporiya_Bosporius Barda_Bardas Bartholomaya_Bartholomew Belisariya_Belisarius Boethiya_Boethius 
+			Damiana_Damian Daniel_Daniel David_David Demetriya_Demetrius Diogeni_Diogenes Dionysiya_Dionysus Dorotiya_Dorotheus 
+			Eluteriya_Eleutherius Erenaya_Irenaeus Evangela_Evangelus 
+			Filareta_Philaretus Filippa_Phillip Filotiya_Philotheus Fokas_Phocas Fotiya_Photius Fragiska_Francis
+			Gabriel_Gabriel Gennadiya_Gennadius Georgiya_George Gerasima_Gerasimus Germana_German Gregora_Gregory 
+			Heramaya_Jeremiah Hektoriya_Hector Heliya_Elijah Herakleya_Hercules Herodota_Herodotus Hirotiya_Hierotheus Himeriya_Himerius Hippolyta_Hippolytus Hipustrata_Hippostratus Hypatiya 
+			Ignatiya_Ignatius Innokentiya_Innocent Isaakiya_Isaac Isaya_Isaiah Isidora_Isidore 
+			Jakariya_Zachary Jenobiya_Zenobius Jenon_Zenon
+			Kaisariya_Caesar Kallinika_Callinicus Kallista_Callistus Klearka_Clearchus Komita_Komitas Konstantina_Constantine Konstantiya_Constantius Konsta_Constans Kosma_Cosmas Kristofora_Christopher Krysantha_Chrysanthus Krysogona_Chrysogonus Kshenofon_Xenophon Kyriaka_Cyriacus Kyrilla_Cyril Kyra_Cyrus 
+			Lajara_Lazarus Lakshiya_Alexis Lashkandra_Alexander Laurentiya_Lawrence Leon_Leo Leontiya_Leontius Louka_Luke 
+			Makariya_Macarius Manuel_Emmanuel Marka_Mark Matthaya_Matthew Maurikiya_Maurice Makshima_Maximus Megista_Magnus Meletiya_Meletius Methodiya_Methodius Mikael_Michael 
+			Narsi_Narses Neofyta_Neophytus Nikefora_Nicephorus Niketa_Niketas Nikodema_Nicodemus Nikola_Nicholas Nifon_Niphon 
+			Oresti_Orestes 
+			Pamfiliya_Pamphilus Pankratiya_Pancratius Panagiota_Panagiotis Pantoleon_Panteleimon Paskali_Pascal Pavla_Paul Pelagiya_Pelagius Petra_Peter Plutarka_Plutarch Polykarpa_Polycarp Polyviya_Polybius Porfyriya_Porphyrius Prokopiya_Procopius Pyrra_Pyrrhus 
+			Rafail_Raphael Romana_Roman 
+			Saba_Sabas Samuel_Samuel Serapion_Seraphin Sebastiana_Sebastian Sergiya_Sergius Stefana_Stefen Staurakiya_Stauracius Strata_Stratos Symeon_Simon Symmaka_Symmachus
+			Tolemaya_Ptolemy Telifa_Telephus Tiyokarista_Theocharis Tiyodora_Theodore Tiyodosiya_Theodosius Tiyodota_Theodat Tiyodoula_Theodulus Tiyoktista_Theocritus Tiyofanes_Theophanes Tiyofila_Theophilus Tiyofylakta_Theophylact Thoma_Thomas Tiberiya_Tiberius Trayana_Trajan Timotiya_Timothy Tryfon_Tryphon 
+			Udokshiya_Eudoxius Ustratiya_Eustratius Ugeniya_Eugene Ufemiya_Euphemius Usebiya_Eusebius Ustathiya_Eustace 
+			Valeriya_Valerius Vasileya_Basil 
+			Yakoba_Jacob Yuannes_John Yuannikiya_Ioannicius Yuliana_Julian Yurdanes_Jordan Yusef_Joseph Yustina_Justin Yustiniana_Justinian				
+		}
+		female_names = {
+			Adriane_Adriana Agathe_Agatha Agne_Agnes Anastasiyaa_Anastasia Anna_Anna Antoniyaa_Antonia Apolloniyaa_Apollonia Athanasiyaa_Athanasia
+			Barbaraa_Barbara Basillike_Basilia
+			Damiyane_Damiane Demetraa_Demetra Dionisiyaa_Dionysia Dorotiyaa_Dorothy 
+			Erene_Irene Epifaniyaa_Epiphania Elpidaa_Elpis Evanthiyaa_Evanthia
+			Filipaa_Philippa Fylli_Phyllis
+			Gabriyelaa_Gabriela Garyfalliyaa_Garyphallia Georgiyaa_Georgia Gregoriyaa_Gregoria 
+			Helene_Helen Hypatiyaa_Hypatia 
+			Kale Konstantinaa_Constantina Konstantiyaa_Constantia Kyraa_Kyra Kyriake_Kyriake Krysogone_Chrysogone
+			Lakshandraa_Alexandra Laksheyaa_Alexia Leontiyaa_Leontia 
+			Margaritaa_Margaret Mariyaa_Mary Markiyaa_Marcia Marthaa_Martha Melisaa_Melissa 
+			Nikarete Nikoletaa_Nicole
+            Olgaa_Helga 
+			Parthenaa_Parthena Pavlinaa_Paula Pelagiyaa_Pelagia Petroniyaa_Petronia Pulkeriyaa_Pulcheria 
+			Romane_Romana Romiliyaa_Romylia 
+			Sergiyaa_Sergia Shene_Xenia Sibilaa_Sibyl Simoni_Simone Sofiyaa_Sophia Stefaniyaa_Stephanie 
+			Theklaa_Thekla Tiyodoraa_Theodora Tiyodosiyaa_Theodosia Tiyofano_Theophano Tiyokariste_Theochariste Tiyoktiste_Theoktiste 
+			Udokiyaa_Eudocia Ufemiyaa_Euphemia Ufrasiyaa_Euphrasia Ufrayne_Euphrosyne Ugeniyaa_Eugenia Ulaliyaa_Eulalia Unike_Eunice Uprakshiyaa_Eupraxia Usebiyaa_Eusebia Ustathiyaa_Eustathia
+			Valeriyaa_Valeria Viviyanaa_Vivian 
+			Yakaterine_Catherine Yuanaa_Jane Yuliaa_Julia Yuliyanaa_Juliana Yustinaa_Justina
+			Jenobiyaa_Zenobia Joe_Zoe
+		}
+           parent = greek
+           from_dynasty_prefix = "tu "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 30
+		father_name_chance = 15
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 25
+		mother_name_chance = 15
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	dhivehi = { # closely related to Sinhala
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 1.0 0.5 0.5 }
+		
+		male_names = {
+		    Aboobakuru_Abubakr Ameen_Amin Abdulla_Abdullah Ahmed_Ahmad Ali_Ali Ayoob_Job Aziz_Aziz 
+			Ishaag_Isaac Ibrahim_Abraham
+			Mahmood_Mahmud Maumoon Mauroof Moosa_Moses Mohamed_Muhammad  
+			Rafhaan Rasheed_Rashid 
+			Saalim_Salim Saeed Solih_Salih 
+			Yoonus_Jonah Yoosuf_Joseph
+			}
+		female_names = {
+		    Ameena_Amina Ameera Aneesa Asiyath Azeeza_Aziza Aishath_Aisha Aminath
+			Fathmath_Fatima Fathimath_Fatima Mariyam_Mary
+			Haleema
+			Hawwa Hudha
+			Khadeeja Khadheeja
+			Latheefa
+			Maeesha Maimoona Muhusina 
+			Nadha Nafeesa
+			Rasheeda Raudha Rugiyya
+			Safiyath Safiyya Sakeena Shaheedha
+			Thooba
+		}
+		
+		dynasty_title_names = yes
+				
+		castes = no
+		
+		pat_grf_name_chance = 35
+		mat_grf_name_chance = 20
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+}

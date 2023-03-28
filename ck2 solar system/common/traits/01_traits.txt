@@ -3,39 +3,18 @@
 ########################################################################################################
 
 # Muslim equivalent of Crusader (HARD STATUS - DO NOT REMOVE!)
-mujahid = {
-	opposites = {
-		crusader
-		valhalla_bound
-		eagle_warrior
-		sun_warrior
-		ukkos_shield
-		nyames_shield
-		peruns_chosen
-		romuvas_own
-		ares_own
-		tengri_warrior
-		shaddai
-		gondi_shahansha
-		kailash_guardian
-	}
-	
-	martial = 2
-	combat_rating = 10 #old value: 1
-	
-	muslim_opinion = 5
-	same_opinion_if_same_religion = 15
-	
-	ai_zeal = 10
-	
-	male_compliment = COMPL_MUJAHID
-	female_compliment = COMPL_MUJAHID
-}
 
 # Muslim who has completed the Hajj
 hajjaj = {
 	potential = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			religion = islamity
+			religion = muwahidunna
+			religion = ahlehaqq
+			religion = jugoslavist
+			religion = voodun
+		}
 	}
 	
 	muslim_opinion = 5
@@ -48,7 +27,14 @@ hajjaj = {
 # Muslim performing hajj.
 on_hajj = {
 	potential = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			religion = islamity
+			religion = muwahidunna
+			religion = ahlehaqq
+			religion = jugoslavist
+			religion = voodun
+		}
 		NOT = { trait = hajjaj }
 	}
 	
@@ -69,7 +55,14 @@ faqih = {
 	}
 	
 	potential = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			religion = islamity
+			religion = muwahidunna
+			religion = ahlehaqq
+			religion = jugoslavist
+			religion = voodun
+		}
 	}
 	
 	learning = 3
@@ -85,7 +78,14 @@ faqih = {
 # Muslim who has completely memorized the Qur'an
 hafiz = {
 	potential = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			religion = islamity
+			religion = muwahidunna
+			religion = ahlehaqq
+			religion = jugoslavist
+			religion = voodun
+		}
 	}
 	
 	muslim_opinion = 5
@@ -111,7 +111,13 @@ sayyid = {
 # Christian/Dharmic who has completed a Pilgrimage
 pilgrim = {
 	potential = {
-		religion_group = christian
+		OR = {
+			religion = islamity
+			religion = muwahidunna
+			religion = jugoslavist
+			religion_group = christian
+			has_dharmic_religion_trigger = yes
+		}
 	}
 	
 	same_religion_opinion = 5

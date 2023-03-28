@@ -1,3 +1,18 @@
+genghis_khan = {
+	combat_rating = 8
+	mongol_opinion = 8
+	hunter_opinion = 5
+	tengri_pagan_opinion = 8
+	tengri_pagan_reformed_opinion = 8
+	khanist_opinion = 8
+	monthly_character_prestige = 0.2
+	bloodline_effect_sky_burial = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_horse
+	flags = { historical_bloodline genghis_khan_line bloodline_sky_burial }
+}
+
 carolingian = {
 	combat_rating = 8
 	catholic_opinion = 5
@@ -27,6 +42,10 @@ ragnarr_lodbrok = {
 seljuk = {
 	combat_rating = 5
 	turkish_opinion = 5
+	karadenizci_opinion = 10
+	kapadokyali_opinion = 10
+	egeli_opinion = 10
+	elbistanli_opinion = 10
 	persian_opinion = 5
 	strategist_opinion = 5
 	monthly_character_prestige = 0.1
@@ -48,21 +67,10 @@ william_the_conqueror = {
 	flags = { historical_bloodline bloodline_legitimize william_the_conqueror_bloodline }
 }
 
-genghis_khan = {
-	combat_rating = 8
-	mongol_opinion = 8
-	hunter_opinion = 5
-	monthly_character_prestige = 0.2
-	bloodline_effect_sky_burial = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_horse
-	flags = { historical_bloodline genghis_khan_line bloodline_sky_burial }
-}
-
 el_cid = {
 	combat_rating = 5
-	iberian_opinion = 5
+	caucasian_opinion = 5
+	byzantine_opinion = 5
 	command_modifier = {
 		morale_defence = 0.05
 	}
@@ -90,6 +98,10 @@ timur = {
 ghaznavid = {
 	combat_rating = 5
 	turkish_opinion = 5
+	karadenizci_opinion = 10
+	kapadokyali_opinion = 10
+	egeli_opinion = 10
+	elbistanli_opinion = 10
 	afghan_opinion = 10
 	monthly_character_prestige = 0.1
 	inheritance = patrilineal
@@ -254,6 +266,7 @@ zvonimir = {
 brian_boru = {
 	combat_rating = 5
 	irish_opinion = 5
+	high_irish_opinion = 5
 	monthly_character_prestige = 0.1
 	bloodline_effect_tanistry = 1
 	inheritance = patrilineal
@@ -287,7 +300,7 @@ merovingian = {
 solomon = {
 	east_african_opinion = 5
 	jewish_group_opinion = 5
-	miaphysite_opinion = 5
+	koptic_opinion = 5
 	monthly_character_prestige = 0.1
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -327,7 +340,7 @@ bagratid = {
 	monthly_character_prestige = 0.1
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
+	picture = GFX_bloodlines_symbol_bagrat
 	flags = { historical_bloodline }
 }
 
@@ -495,6 +508,10 @@ ottoman = {
 	combat_rating = 8
 	monthly_character_prestige = 0.2
 	turkish_opinion = 10
+	karadenizci_opinion = 10
+	kapadokyali_opinion = 10
+	egeli_opinion = 10
+	elbistanli_opinion = 10
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_sunni
@@ -582,16 +599,10 @@ almoravid = {
 }
 
 bayajidda_and_magajiva = {
-	combat_rating = 15
-	monthly_character_piety = 0.1
-	monthly_character_prestige = 0.25
-	#hausa_opinion = 5
+	combat_rating = 5
+	hausa_opinion = 5
 	bloodline_effect_enatic_cognatic = 1
-	bloodline_effect_crusade_lord = 1
-	saintly_cultural_bloodline = 1
-	bloodline_effect_great_heroes_appear = 1
-	#inheritance = matrilineal
-	inheritance = all_descendants
+	inheritance = matrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_african_waves
 	flags = { historical_bloodline bloodline_enatic_cognatic }
@@ -687,88 +698,3 @@ random_world_bloodline_female_3 = {
 	flags = { bloodline_legitimize }
 }
 
-athelstan = {
-	combat_rating = 5
-	monthly_character_prestige = 0.25
-	saxon_opinion = 5
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_lion
-	flags = { historical_bloodline }
-	active = {
-		culture = saxon
-	}
-}
-
-rudolph = {
-	monthly_character_prestige = 0.25
-	occitan_opinion = 5
-	german_opinion = 5
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_lion
-	flags = { historical_bloodline }
-	active = {
-		OR = {
-			culture = german
-			culture = occitan
-		}
-	}
-}
-
-fatimid = {
-	monthly_character_prestige = 0.25
-	shiite_opinion = 5
-	combat_rating = 5
-	bloodline_effect_great_heroes_appear = 1
-	bloodline_effect_shiite_leader = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	picture = GFX_bloodlines_placeholder_symbol_2
-	flags = { historical_bloodline bloodline_heroes bloodline_shiite_leader }
-	active = {
-		religion = shiite
-	}
-}
-
-otto = {
-	monthly_character_prestige = 0.25
-	vassal_opinion = 5
-	combat_rating = 5
-	bloodline_effect_princely_elective_boon = 1
-	bloodline_effect_great_heroes_appear = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_lion
-	flags = { historical_bloodline bloodline_princely_elective_bonus }
-	active = {
-		religion_group = christian
-	}
-}
-
-jannabid = {
-	monthly_character_prestige = 0.25
-	qarmatian_opinion = 5
-	combat_rating = 5
-	bloodline_effect_qarmatian_leader = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_lion
-	flags = { historical_bloodline bloodline_qarmatian_leader }
-	active = {
-		religion = qarmatian
-	}
-}
-
-mardavij = {
-	monthly_character_prestige = 0.25
-	zoroastrian_opinion = 5
-	combat_rating = 5
-	inheritance = patrilineal
-	allow_bastards = no
-	picture = GFX_bloodlines_symbol_zoroastrian
-	flags = { historical_bloodline bloodline_mardavij }
-	active = {
-		religion = zoroastrian
-	}
-}

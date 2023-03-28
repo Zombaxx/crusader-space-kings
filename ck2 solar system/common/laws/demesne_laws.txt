@@ -43,6 +43,9 @@ law_groups = {
 	tribal_tax = {
 		law_type = realm
 	}
+	sevillian_investiture_law = {
+		law_type = realm
+	}
 }
 
 laws = {
@@ -80,28 +83,21 @@ laws = {
 			}
 			modifier = {
 				factor = 0
-				NOT = {
-					OR = {
-						AND = {
-							has_law = centralization_1
-							over_vassal_limit = -1
-							over_max_demesne_size = -1
-						}
-						AND = {
-							has_law = centralization_2
-							over_vassal_limit = -6
-							over_max_demesne_size = -2
-						}
-						AND = {
-							has_law = centralization_3
-							over_vassal_limit = -11
-							over_max_demesne_size = -3
-						}
-						AND = {
-							has_law = centralization_4
-							over_vassal_limit = -16
-							over_max_demesne_size = -4
-						}					
+				NOR = {
+					AND = {
+						has_law = centralization_1
+						over_vassal_limit = 1
+						NOT = { over_max_demesne_size = 0 }
+					}
+					AND = {
+						has_law = centralization_1
+						over_vassal_limit = 0
+						NOT = { over_max_demesne_size = -1 }
+					}
+					AND = {
+						has_law = centralization_1
+						over_vassal_limit = -5
+						NOT = { over_max_demesne_size = -2 }
 					}
 				}
 			}
@@ -156,28 +152,36 @@ laws = {
 			}
 			modifier = {
 				factor = 0
-				NOT = {
-					OR = {
-						AND = {
-							has_law = centralization_0
-							over_vassal_limit = -1
-							over_max_demesne_size = 1
-						}
-						AND = {
-							has_law = centralization_2
-							over_vassal_limit = 1
-							over_max_demesne_size = -1
-						}
-						AND = {
-							has_law = centralization_3
-							over_vassal_limit = 6
-							over_max_demesne_size = -2
-						}
-						AND = {
-							has_law = centralization_4
-							over_vassal_limit = 11
-							over_max_demesne_size = -3
-						}					
+				NOR = {
+					AND = {
+						has_law = centralization_0
+						NOT = { over_vassal_limit = -5 }
+						over_max_demesne_size = 1
+					}
+					AND = {
+						has_law = centralization_0
+						NOT = { over_vassal_limit = -7 }
+						over_max_demesne_size = 0
+					}
+					AND = {
+						has_law = centralization_0
+						NOT = { over_vassal_limit = -10 }
+						over_max_demesne_size = -1
+					}
+					AND = {
+						has_law = centralization_2
+						over_vassal_limit = 1
+						NOT = { over_max_demesne_size = 0 }
+					}
+					AND = {
+						has_law = centralization_2
+						over_vassal_limit = 0
+						NOT = { over_max_demesne_size = -1 }
+					}
+					AND = {
+						has_law = centralization_2
+						over_vassal_limit = -5
+						NOT = { over_max_demesne_size = -2 }
 					}
 				}
 			}
@@ -229,28 +233,36 @@ laws = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = {
-					OR = {
-						AND = {
-							has_law = centralization_0
-							over_vassal_limit = -6
-							over_max_demesne_size = 2
-						}
-						AND = {
-							has_law = centralization_1
-							over_vassal_limit = -1
-							over_max_demesne_size = 1
-						}
-						AND = {
-							has_law = centralization_3
-							over_vassal_limit = 1
-							over_max_demesne_size = -1
-						}
-						AND = {
-							has_law = centralization_4
-							over_vassal_limit = 6
-							over_max_demesne_size = -2
-						}					
+				NOR = {
+					AND = {
+						has_law = centralization_1
+						NOT = { over_vassal_limit = -5 }
+						over_max_demesne_size = 1
+					}
+					AND = {
+						has_law = centralization_1
+						NOT = { over_vassal_limit = -7 }
+						over_max_demesne_size = 0
+					}
+					AND = {
+						has_law = centralization_1
+						NOT = { over_vassal_limit = -10 }
+						over_max_demesne_size = -1
+					}
+					AND = {
+						has_law = centralization_3
+						over_vassal_limit = 1
+						NOT = { over_max_demesne_size = 0 }
+					}
+					AND = {
+						has_law = centralization_3
+						over_vassal_limit = 0
+						NOT = { over_max_demesne_size = -1 }
+					}
+					AND = {
+						has_law = centralization_3
+						over_vassal_limit = -5
+						NOT = { over_max_demesne_size = -2 }
 					}
 				}
 			}
@@ -289,10 +301,12 @@ laws = {
 					is_tribal = no
 				}
 			}
+			holder_not_confederation_trigger = yes
 		}
 		potential = {
 			higher_tier_than = count
 			is_nomadic = no
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -304,28 +318,36 @@ laws = {
 			}
 			modifier = {
 				factor = 0
-				NOT = {
-					OR = {
-						AND = {
-							has_law = centralization_0
-							over_vassal_limit = -11
-							over_max_demesne_size = 3
-						}
-						AND = {
-							has_law = centralization_1
-							over_vassal_limit = -6
-							over_max_demesne_size = 2
-						}
-						AND = {
-							has_law = centralization_2
-							over_vassal_limit = -1
-							over_max_demesne_size = 1
-						}
-						AND = {
-							has_law = centralization_4
-							over_vassal_limit = 1
-							over_max_demesne_size = -1
-						}					
+				NOR = {
+					AND = {
+						has_law = centralization_2
+						NOT = { over_vassal_limit = -5 }
+						over_max_demesne_size = 1
+					}
+					AND = {
+						has_law = centralization_2
+						NOT = { over_vassal_limit = -7 }
+						over_max_demesne_size = 0
+					}
+					AND = {
+						has_law = centralization_2
+						NOT = { over_vassal_limit = -10 }
+						over_max_demesne_size = -1
+					}
+					AND = {
+						has_law = centralization_4
+						over_vassal_limit = 1
+						NOT = { over_max_demesne_size = 0 }
+					}
+					AND = {
+						has_law = centralization_4
+						over_vassal_limit = 0
+						NOT = { over_max_demesne_size = -1 }
+					}
+					AND = {
+						has_law = centralization_4
+						over_vassal_limit = -5
+						NOT = { over_max_demesne_size = -2 }
 					}
 				}
 			}
@@ -358,10 +380,12 @@ laws = {
 					is_tribal = no
 				}
 			}
+			holder_not_confederation_trigger = yes
 		}
 		potential = {
 			higher_tier_than = count
 			is_nomadic = no
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -373,28 +397,21 @@ laws = {
 			}
 			modifier = {
 				factor = 0
-				NOT = {
-					OR = {
-						AND = {
-							has_law = centralization_0
-							over_vassal_limit = -16
-							over_max_demesne_size = 4
-						}
-						AND = {
-							has_law = centralization_1
-							over_vassal_limit = -11
-							over_max_demesne_size = 3
-						}
-						AND = {
-							has_law = centralization_2
-							over_vassal_limit = -6
-							over_max_demesne_size = 2
-						}
-						AND = {
-							has_law = centralization_3
-							over_vassal_limit = -1
-							over_max_demesne_size = 1
-						}					
+				NOR = {
+					AND = {
+						has_law = centralization_3
+						NOT = { over_vassal_limit = -5 }
+						over_max_demesne_size = 1
+					}
+					AND = {
+						has_law = centralization_3
+						NOT = { over_vassal_limit = -7 }
+						over_max_demesne_size = 0
+					}
+					AND = {
+						has_law = centralization_3
+						NOT = { over_vassal_limit = -10 }
+						over_max_demesne_size = -1
 					}
 				}
 			}
@@ -452,7 +469,7 @@ laws = {
 		}
 		potential = {
 			holder_scope = {
-				is_tribal = yes
+				government = tribal_government
 			}
 		}
 		revoke_allowed = {
@@ -605,7 +622,7 @@ laws = {
 		}
 		potential = {
 			holder_scope = {
-				is_tribal = yes
+				government = tribal_government
 			}
 		}
 		revoke_allowed = {
@@ -804,7 +821,7 @@ laws = {
 		}
 		potential = {
 			holder_scope = {
-				is_tribal = yes
+				government = tribal_government
 			}
 		}
 		revoke_allowed = {
@@ -999,7 +1016,7 @@ laws = {
 		}
 		potential = {
 			holder_scope = {
-				is_tribal = yes
+				government = tribal_government
 			}
 		}
 		revoke_allowed = {
@@ -1176,7 +1193,7 @@ laws = {
 		}
 		potential = {
 			holder_scope = {
-				is_tribal = yes
+				government = tribal_government
 			}
 		}
 		revoke_allowed = {
@@ -1307,6 +1324,7 @@ laws = {
 			holder_scope = {
 				independent = yes
 				is_feudal = yes
+				NOT = { government = confederation_government }
 			}
 			has_dlc = "Charlemagne"
 		}
@@ -1337,6 +1355,7 @@ laws = {
 			holder_scope = {
 				independent = yes
 				is_feudal = yes
+				NOT = { government = confederation_government }
 			}
 			has_dlc = "Charlemagne"
 		}
@@ -1378,6 +1397,7 @@ laws = {
 			holder_scope = {
 				independent = yes
 				is_feudal = yes
+				NOT = { government = confederation_government }
 			}
 			has_dlc = "Charlemagne"
 		}
@@ -1427,6 +1447,7 @@ laws = {
 			holder_scope = {
 				independent = yes
 				is_feudal = yes
+				NOT = { government = confederation_government }
 			}
 		}
 		revoke_allowed = {
@@ -1471,6 +1492,7 @@ laws = {
 			holder_scope = {
 				independent = yes
 				is_feudal = yes
+				NOT = { government = confederation_government }
 			}
 		}
 		revoke_allowed = {
@@ -1521,6 +1543,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1554,6 +1577,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1587,6 +1611,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1620,6 +1645,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1653,6 +1679,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1685,6 +1712,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1718,6 +1746,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1749,6 +1778,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			NOT = { holder_scope = { religion_group = muslim } }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1789,6 +1819,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1822,6 +1853,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1855,6 +1887,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1888,6 +1921,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1920,6 +1954,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1953,6 +1988,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -1985,6 +2021,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2016,6 +2053,7 @@ laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			holder_scope = { religion_group = muslim }
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2573,6 +2611,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2616,6 +2655,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2656,6 +2696,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2696,6 +2737,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2742,6 +2784,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2784,6 +2827,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2824,6 +2868,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2864,6 +2909,7 @@ laws = {
 					has_law = tribal_organization_4
 				}
 			}
+			NOT = { holder_scope = { government = confederation_government } }
 		}
 		revoke_allowed = {
 			always = no
@@ -2883,5 +2929,35 @@ laws = {
 			}
 		}
 		tribal_vassal_tax_modifier = 0.3
+	}
+	
+	sevillian_investiture_law_0 = {
+		show_as_title = yes
+		group = sevillian_investiture_law
+		potential = {
+			holder_scope = {
+				OR = {
+					religion = sevillian
+					religion = transatlantic
+				}
+				is_tribal = no
+				is_nomadic = no
+			}
+		}
+		allow = {
+			always = no
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			set_investiture = any
+		}
 	}
 }

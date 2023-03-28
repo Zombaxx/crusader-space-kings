@@ -1,0 +1,348 @@
+mongolic = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
+
+
+	mongol = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		horde = yes
+		
+		color = { 0.4 0.4 1.0 }
+
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen 
+			Babur_Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai 
+			Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu Chormakhan Chulgetei 
+			Dagun Daritai Dayir Dodai Duua 
+			Eljigedei 
+			Ghazan Ghunan Godan Guchu Gughlug Guyug 
+			Harghasun Horkhudagh Hulegu Husun 
+			Inalchi Inancha Iturgen 
+			Jajiradai Jamugha Jebe Jochi Jurchedei 
+			Kadan Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu 
+			Megetu Megujin Menggei Mongke Morokha Munglig 
+			Nakhu Narin Nayaga Nogai 
+			Odchigin Ogodei Okhotur Oljaitu Oronartai 
+			Shiraghul Shirgugetu Subetei Suyiketu 
+			Taghai Tamachi Targhutai Temuge Temujin Temur_Timur Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen 
+			Uighurtai Ukhuna Usun 
+			Yedi Yegu Yeke Yesugei Yesunge Yokhunan 
+		}
+		female_names = {
+			Al-Alta Alan Altani 
+			Borte Botokhui Bulughan 
+			Chabi Chagur Chakha Checheyigen Chotan 
+			Doregene Doquz 
+			Ebegei 
+			Gurbesu 
+			Hoelun Hogelun Holuikhan 
+			Ibakha 
+			Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun 
+			Mandukhai Mongoljin 
+			Nomolun 
+			Oghul Orbei 
+			Sokhatai Sorkhaghatani 
+			Tekine Temulun Töregene 
+			Yesugun Yesui
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+
+	buryat = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		horde = yes
+		
+		color = { 0.55 0.5 1.0 }
+
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen 
+			Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai 
+			Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu Chormakhan Chulgetei 
+			Dagun Daritai Dayir Dodai Duua 
+			Eljigedei 
+			Ghazan Ghunan Godan Guchu Gughlug Guyug 
+			Harghasun Horkhudagh Hulegu Husun 
+			Inalchi Inancha Iturgen 
+			Jajiradai Jamugha Jebe Jochi Jurchedei 
+			Kadan Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu 
+			Megetu Megujin Menggei Mongke Morokha Munglig 
+			Nakhu Narin Nayaga Nogai 
+			Odchigin Ogodei Okhotur Oljaitu Oronartai 
+			Shiraghul Shirgugetu Subetei Suyiketu 
+			Taghai Tamachi Targhutai Temuge Temujin Temur_Timur Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen 
+			Uighurtai Ukhuna Usun 
+			Yedi Yegu Yeke Yesugei Yesunge Yokhunan 
+		}
+		female_names = {
+			Al-Alta Alan Altani 
+			Borte Botokhui Bulughan 
+			Chabi Chagur Chakha Checheyigen Chotan 
+			Doregene Doquz 
+			Ebegei 
+			Gurbesu 
+			Hoelun Hogelun Holuikhan 
+			Ibakha 
+			Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun 
+			Mandukhai Mongoljin 
+			Nomolun 
+			Oghul Orbei 
+			Sokhatai Sorkhaghatani 
+			Tekine Temulun Töregene 
+			Yesugun Yesui
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	dagur = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		horde = yes
+		
+		color = { 0.55 0.65 1.0 }
+
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen 
+			Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai 
+			Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu Chormakhan Chulgetei 
+			Dagun Daritai Dayir Dodai Duua 
+			Eljigedei 
+			Ghazan Ghunan Godan Guchu Gughlug Guyug 
+			Harghasun Horkhudagh Hulegu Husun 
+			Inalchi Inancha Iturgen 
+			Jajiradai Jamugha Jebe Jochi Jurchedei 
+			Kadan Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu 
+			Megetu Megujin Menggei Mongke Morokha Munglig 
+			Nakhu Narin Nayaga Nogai 
+			Odchigin Ogodei Okhotur Oljaitu Oronartai 
+			Shiraghul Shirgugetu Subetei Suyiketu 
+			Taghai Tamachi Targhutai Temuge Temujin Temur_Timur Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen 
+			Uighurtai Ukhuna Usun 
+			Yedi Yegu Yeke Yesugei Yesunge Yokhunan 
+		}
+		female_names = {
+			Al-Alta Alan Altani 
+			Borte Botokhui Bulughan 
+			Chabi Chagur Chakha Checheyigen Chotan 
+			Doregene Doquz 
+			Ebegei 
+			Gurbesu 
+			Hoelun Hogelun Holuikhan 
+			Ibakha 
+			Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun 
+			Mandukhai Mongoljin 
+			Nomolun 
+			Oghul Orbei 
+			Sokhatai Sorkhaghatani 
+			Tekine Temulun Töregene 
+			Yesugun Yesui
+		}
+		
+		from_dynasty_prefix = "of "
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	kalmyk = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		horde = yes
+		
+		color = { 81 138 255 }
+
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Aleksey_Alexis Altan Ambaghai Arkhai Arasen Artur_Arthur 
+			Babur_Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai 
+			Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu Chormakhan Chulgetei 
+			Dagun Daritai Dayir Dodai Duua 
+			Eljigedei 
+			Ghazan Ghunan Godan Guchu Gughlug Guyug 
+			Harghasun Horkhudagh Hulegu Husun 
+			Ilya_Elijah Inalchi Inancha Iturgen Ivan_John 
+			Jajiradai Jamugha Jebe Jochi Jurchedei 
+			Kadan Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kirsan Kogsegu Kokochu 
+			Lavr_Laurus
+			Megetu Megujin Menggei Mongke Morokha Munglig 
+			Nakhu Narin Nayaga Nikolay_Nicholas Nogai 
+			Odchigin Ogodei Oka Okhotur Oljaitu Oronartai 
+			Pyotr_Peter
+			Sanan Sergey_Sergius Shiraghul Shirgugetu Subetei Suyiketu 
+			Taghai Tamachi Targhutai Temuge Temujin Temur_Timur Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen 
+			Uighurtai Ukhuna Usun 
+			Vladimir_Vladimir
+			Yedi Yegu Yeke Yesugei Yesunge Yokhunan Yuri_George
+		}
+		female_names = {
+			Al-Alta Alan Altani 
+			Borte Botokhui Bulughan 
+			Chabi Chagur Chakha Checheyigen Chotan 
+			Doregene Doquz 
+			Ebegei 
+			Gurbesu 
+			Hoelun Hogelun Holuikhan 
+			Ibakha 
+			Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun 
+			Mandukhai Maria_Mary Mongoljin 
+			Nomolun 
+			Oghul Orbei 
+			Sokhatai Sorkhaghatani 
+			Tekine Temulun Töregene 
+			Yesugun Yesui
+		}
+		
+		from_dynasty_prefix = "iz "
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	oirat = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		horde = yes
+		
+		color = { 98 107 255 }
+
+		male_names = {
+			Abagha Abdulkarim_Abdalkarim Abdullah_Abdullah Abdurrashid_Abdalrashid Achigh Adil_Adil Aguchu Ahmad_Ahmad Ajai Ajinai Akhutai Alagh Albert_Albert Alchi Alchidai Ali_Ali Altan Ambaghai Arkhai Arasen 
+			Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai 
+			Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu Chormakhan Chulgetei 
+			Dagun Daritai Dayir Dodai Duua 
+			Eljigedei 
+			Ghazan Ghunan Godan Guchu Gughlug Guyug 
+			Harghasun Horkhudagh Hulegu Husun 
+			Ilyas_Elijah Inalchi Inancha Ismail_Ishmael Iturgen 
+			Jajiradai Jamugha Jebe Jochi Jurchedei 
+			Kadan Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu 
+			Mahmud_Mahmud Mansur_Mansur Megetu Megujin Menggei Mongke Morokha Mubarak_Mubarak Muhammad_Muhammad Munglig 
+			Nakhu Narin Nayaga Nogai 
+			Odchigin Ogodei Okhotur Oljaitu Oronartai 
+			Qazan
+			Said_Said Sergey_Sergius Shiraghul Shirgugetu Subetei Sultan_Sultan Suyiketu 
+			Taghai Tamachi Targhutai Temuge Temujin Temur_Timur Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen 
+			Uighurtai Ukhuna Usun 
+			Vladimir_Vladimir
+			Yahiya_John Yedi Yegu Yeke Yesugei Yesunge Yokhunan Yunus_Jonah
+		}
+		female_names = {
+			Al-Alta Alan Altani 
+			Borte Botokhui Bulughan 
+			Chabi Chagur Chakha Checheyigen Chotan 
+			Doregene Doquz 
+			Ebegei 
+			Fatima_Fatima
+			Gurbesu 
+			Hoelun Hogelun Holuikhan 
+			Ibakha 
+			Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun 
+			Mandukhai Medina_Medina Mongoljin 
+			Nomolun 
+			Oghul Orbei 
+			Sokhatai Sorkhaghatani 
+			Tekine Temulun Töregene 
+			Yesugun Yesui
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	moghol = { #Persian Mongols
+		graphical_cultures = { mongolgfx persiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		
+		color = { 92 113 245 }
+		#Mongol with a few Iranian names
+		male_names = {
+			Abagha Abbas_Abbas Abdul_Abdul Abusaid Achigh Aguchu Ahmad_Ahmad Ajai Ajinai Akbar_Akbar Akhutai Alagh Alchi Alchidai Ali_Ali Altan Ambaghai Ardeshir_Ardeshir Arkhai Aziz_Aziz 
+			Babur_Babur Badai Bagaridai Bahram_Bahram Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai 
+			Chagatai Chaghagan Chamshid_Jamshid Chanai Chigu Chidukhul Chihangir_Jahangir Chilagun Chiledu Chormakhan Chulgetei 
+			Dagun Danyal_Daniel Daritai Davud_David Dayir Dodai 
+			Ehsan_Ihsan Eljigedei 
+			Farid_Farid
+			Ghazan Gholam_Ghulam Godan Guchu Gughlug Guyug 
+			Hafez_Hafiz Hasan_Hasan Harghasun Horkhudagh Hulegu
+			Ibrahim_Abraham Inalchi Inancha Iskander_Alexander Ismail_Ishmael Iturgen 
+			Jahanshah_Jahanshah Jajiradai Jalal_Jalal Jamugha Jebe Jochi Jurchedei 
+			Kadan Kasim_Qasim Kavus_Kavoos Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khosrau_Khosrau Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu 
+			Mahmud_Mahmud Megetu Megujin Menggei Morokha Mozaffar_Muzzafar Muhammad_Muhammad Munglig Murad_Murad Musa_Moses 
+			Nakhu Nasir_Nasir Narin Nayaga Nogai 
+			Odchigin Ogodei Okhotur Oljaitu Oronartai 
+			Peroz_Peroz
+			Reza Rustam_Rostam
+			Salman_Solomon Shiraghul Shirgugetu Subetei Sulayman_Solomon Suyiketu 
+			Taghai Tamachi Targhutai Temuge Temujin Temur_Timur Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen 
+			Uighurtai Ukhuna Usun 
+			Vahid_Wahid Vali_Wali
+			Yahya_John Yaqub_Jacob Yedi Yegu Yeke Yesugei Yesunge Yokhunan Yusuf_Joseph
+			Zakaria_Zachary Zartosht_Zartosht
+		}
+		female_names = {
+			Aisha_Aisha Al-Alta Alan Altani 
+			Borte Botokhui Bulughan 
+			Chabi Chagur Chakha Checheyigen Chotan 
+			Doregene Doquz 
+			Ebegei Elnaz 
+			Fatima_Fatima
+			Golnaz_Golnaz Gurbesu 
+			Hoelun Hogelun Holuikhan 
+			Ibakha 
+			Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun 
+			Mandukhai Mongoljin 
+			Nomolun 
+			Oghul Orbei 
+			Roxana
+			Sara_Sarah Sokhatai Sorkhaghatani 
+			Tekine Temulun Töregene 
+			Yasmin_Jasmine Yesugun Yesui
+		}			
+		
+		male_patronym = "zade"
+		female_patronym = "dokht"
+		prefix = no
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+}

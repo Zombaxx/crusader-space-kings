@@ -1,5 +1,18 @@
 # The limiting slots for equipped artifacts. Dynamic system (you can add new types of slots freely)
-# slots can be found in mars artifacts file
+slots = {
+	weapon = 1
+	ceremonial_weapon = 1
+	scepter = 1
+	crown = 1
+	wrist = 1
+	neck = 1
+	torso = 1
+	ship = 1
+	ceremonial_torso = 1
+	mask = 1
+	suit = 1
+	ingredients = 15
+}
 
 #############################
 ####### Random/Misc #########
@@ -9,7 +22,7 @@ loot_axe = { #The Old Gods only
 	martial = 2
 	combat_rating = 5
 	quality = 2
-	flags = { combat_weapon easter_egg }
+	flags = { combat_weapon easter_egg axe }
 	stacking = no
 	picture = "GFX_plus2_axe"
 	slot = weapon
@@ -31,6 +44,64 @@ cursed_diamond = { # (DLC: Rajas of India)
 	allowed_gift = {
 		always = no
 	}
+}
+
+antikythera = { #Ancient mechanism
+	quality = 2
+	monthly_character_prestige = 0.05
+	flags = { oldworld salvage fixable }
+	stacking = no
+	picture = "GFX_relic_box_simple"
+}
+
+repaired_antikythera = { #Ancient mechanism 2
+	quality = 4
+	monthly_character_prestige = 0.20
+	learning = 3
+	tech_growth_modifier = 0.05
+	flags = { oldworld machine }
+	stacking = no
+	picture = "GFX_relicbox_iron"
+}
+
+behelit = {
+    quality = 2
+	monthly_character_prestige = 0.05
+	health = 0.50
+	indestructible = yes
+	flags = { behelit }
+	picture = "GFX_behelit"
+}
+dragonslayer = {
+    monthly_character_prestige = 1
+	martial = 4
+	combat_rating = 40
+	command_modifier = {
+		heavy_infantry = 0.10
+		actual_light_infantry = 0.15
+		morale_offence = 0.10
+		morale_defence = 0.10
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+		OR = {
+		trait = strong
+		trait = berserker
+		trait = robust
+		}
+	}
+	flags = { combat_weapon dragonslayer }
+	stacking = no
+	picture = "GFX_dragonslayer"
+	slot = weapon
+}
+stone_mask = {
+    quality = 2
+	monthly_character_prestige = 0.01
+	health = 0.50
+	flags = { stone_mask }
+	picture = "GFX_stone_mask"
 }
 
 cursed_diamond_crown = { # (DLC: Rajas of India)
@@ -129,11 +200,21 @@ iron_crown_of_lombardy = {
 	monthly_character_prestige = 1
 	vassal_opinion = 10
 	diplomacy = 1
-	active = { religion_group = christian }
-	allowed_gift = {
-		religion_group = christian
-	}
 	quality = 4
+	active = {
+		OR = {
+			can_use_christian_stuff_trigger = yes
+			religion = novelist_reformed
+			religion = novelist
+		}
+	}
+	allowed_gift = {
+		OR = {
+			can_use_christian_stuff_trigger = yes
+			religion = novelist_reformed
+			religion = novelist
+		}
+	}
 	indestructible = yes
 	flags = { religious christian jewelry unique crucifixion }
 	stacking = no
@@ -147,9 +228,11 @@ shroud_of_jesus = {
 	same_religion_opinion = 5
 	global_levy_size = 0.05
 	learning = 1
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 5
 	indestructible = yes
@@ -168,9 +251,11 @@ spear_of_destiny = {
 		morale_offence = 0.2
 		morale_defence = 0.2
 	}
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 5
 	flags = { religious christian very_rare crucifixion troops_morale spear }
@@ -183,14 +268,16 @@ holy_grail = {
 	monthly_character_prestige = 0.5
 	health = 4
 	same_religion_opinion = 5
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 5
 	flags = { religious christian very_rare crucifixion fantasy }
 	stacking = no
-	picture = "GFX_tesla_roadster"
+	picture = "GFX_cup_holy_grail"
 }
 
 holy_chalice = {
@@ -198,9 +285,11 @@ holy_chalice = {
 	monthly_character_prestige = 2
 	health = 1
 	same_religion_opinion = 10
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 5
 	flags = { religious christian very_rare crucifixion }
@@ -215,9 +304,11 @@ bones_of_st_peter = {
 	build_cost_modifier = -0.1
 	build_time_modifier = -0.1
 	stewardship = 1
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 5
 	flags = { religious christian bone saint very_rare }
@@ -231,9 +322,11 @@ crown_of_thorns = {
 	same_religion_opinion = 5
 	global_revolt_risk = -0.03
 	diplomacy = 1
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 4
 	flags = { religious christian rare jesus crucifixion }
@@ -263,9 +356,11 @@ fragment_of_true_cross = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
 	diplomacy = 2
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 3
 	flags = { religious christian rare crucifixion }
@@ -307,9 +402,11 @@ finger_of_st_john = { #separate event chain
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
 	learning = 1
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious christian SoA bodypart }
@@ -320,9 +417,11 @@ finger_of_st_john = { #separate event chain
 chains_of_st_peter = {
 	monthly_character_prestige = 0.1
 	learning = 2
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious christian chains saint }
@@ -333,9 +432,11 @@ chains_of_st_peter = {
 right_hand_st_demetrius = {
 	monthly_character_prestige = 0.1
 	martial = 2
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious christian hand saint bodypart }
@@ -347,9 +448,11 @@ veil_of_veronica = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
 	global_revolt_risk = -0.01
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious christian jesus face cloth }
@@ -363,8 +466,7 @@ image_of_edessa = {
 	health = 0.25
 	global_tax_modifier = 0.05
 	active = { 
-		religion_group = christian 
-		NOT = { religion = iconoclast }
+		religion_group = christian
 	}
 	allowed_gift = {
 		religion_group = christian
@@ -378,9 +480,11 @@ image_of_edessa = {
 remains_of_st_cessianus = {
 	monthly_character_prestige = 0.1
 	same_religion_opinion = 5
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious christian saint remains }
@@ -391,12 +495,11 @@ remains_of_st_cessianus = {
 weeping_statue = {
 	monthly_character_prestige = 0.1
 	global_tax_modifier = 0.05
-	active = { religion_group = christian }
+	active = {
+		can_use_christian_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = christian
-		NOT = {
-			religion = iconoclast
-		}
+		can_use_christian_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious christian mary statue }
@@ -420,18 +523,10 @@ staff_of_moses = {
 	same_religion_opinion = 5
 
 	active = { 
-		OR= {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-		}
+		abrahamic_religion_trigger = yes
 	}
 	allowed_gift = {
-		OR= {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-		}
+		abrahamic_religion_trigger = yes
 	}
 	quality = 5
 	flags = { religious jewish_group christian muslim very_rare troops_morale staff }
@@ -446,18 +541,10 @@ davids_harp = {
 	same_religion_opinion = 5
 	diplomacy = 4
 	active = { 
-		OR= {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-		}
+		abrahamic_religion_trigger = yes
 	}
 	allowed_gift = {
-		OR= {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-		}
+		abrahamic_religion_trigger = yes
 	}
 	quality = 5
 	flags = { religious jewish_group very_rare }
@@ -499,17 +586,13 @@ seal_of_solomon = {
 	learning = 4
 	active = { 
 		OR= {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
+			abrahamic_religion_trigger = yes
 			trait = mystic
 		}
 	}
 	allowed_gift = {
 		OR= {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
+			abrahamic_religion_trigger = yes
 			trait = mystic
 		}
 	}
@@ -568,14 +651,17 @@ davids_sling = {
 ###########################
 #### Muslim Artifacts #####
 ###########################
+
 seal_of_mohammad = {
 	short_reign_length = -5
 	monthly_character_prestige = 0.5
 	same_religion_opinion = 10
 	diplomacy = 2
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 5
 	flags = { religious muslim very_rare mohammad }
@@ -592,9 +678,11 @@ holy_banner_of_mohammad = {
 	same_religion_opinion = 5
 	global_revolt_risk = -0.02
 	martial = 1
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 5
 	flags = { religious muslim very_rare mohammad troops_morale }
@@ -608,9 +696,11 @@ blessed_mantle = {
 	same_religion_opinion = 5
 	global_tax_modifier = 0.1
 	diplomacy = 1
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 5
 	flags = { religious muslim very_rare mohammad }
@@ -637,13 +727,35 @@ sword_of_mohammad = {
 	slot = weapon
 }
 
+sword_of_stalingrad= {
+	quality = 5
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	martial = 2
+	combat_rating = 15
+	stalinist_opinion = 10
+	active = { 
+		religion = stalinist 
+		is_adult = yes
+	}
+	allowed_gift = {
+		religion = stalinist
+	}
+	flags = { religious very_rare combat_weapon sword }
+	stacking = no
+	picture = "GFX_batenburger_sword"
+	slot = weapon
+}
+
 blessed_sandals = {
 	monthly_character_prestige = 1
 	monthly_character_piety = 0.5
 	health = 1
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 4
 	flags = { religious muslim rare mohammad}
@@ -655,9 +767,11 @@ letter_of_mohammad = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
 	learning = 2
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 3
 	flags = { religious muslim rare mohammad}
@@ -669,9 +783,11 @@ cloak_of_mohammad = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
 	global_revolt_risk = -0.02
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 3
 	flags = { religious muslim rare mohammad}
@@ -683,9 +799,11 @@ mohammads_bowl = {
 	monthly_character_prestige = 0.1
 	same_religion_opinion = 5
 	global_revolt_risk = -0.01
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious muslim }
@@ -697,9 +815,11 @@ mohammads_beard = {
 	monthly_character_piety = 0.25
 	monthly_character_prestige = 0.25
 	diplomacy = 1
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious muslim }
@@ -711,9 +831,11 @@ water_of_blessed_mantle = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.25
 	health = 0.25
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 1
 	flags = { religious muslim }
@@ -726,9 +848,11 @@ tooth_of_mohammad = {
 	command_modifier = {
 		center = 0.1
 	}
-	active = { religion_group = muslim }
+	active = {
+		can_use_muslim_stuff_trigger = yes
+	}
 	allowed_gift = {
-		religion_group = muslim
+		can_use_muslim_stuff_trigger = yes
 	}
 	quality = 2
 	flags = { religious muslim }
@@ -876,89 +1000,6 @@ keshmar_cypress_branch = {
 ###### Pagan Artifacts ######
 #############################
 
-### Germanic
-mjolnir = {
-	monthly_character_prestige = 0.5
-	martial = 3
-	combat_rating = 20
-	command_modifier = {
-		heavy_infantry = 0.2
-	}
-	same_religion_opinion = 5
-	quality = 5
-	active = {
-		religion_openly_norse_or_reformed_trigger = yes
-		is_adult = yes
-	}
-	allowed_gift = {
-		religion_openly_norse_or_reformed_trigger = yes
-	}
-	flags = { religious norse_pagan very_rare combat_weapon hammer }
-	stacking = no
-	picture = "GFX_mjolnir"
-	
-	slot = weapon
-}
-
-andvaranaut = {
-	monthly_character_prestige = 0.5
-	stewardship = 4
-	global_tax_modifier = 0.2
-	same_religion_opinion = 5
-	health = -1
-	quality = 5
-	active = {
-		religion_openly_norse_or_reformed_trigger = yes
-	}
-	allowed_gift = {
-		religion_openly_norse_or_reformed_trigger = yes
-	}
-	flags = { religious norse_pagan very_rare ring curse }
-	stacking = no
-	picture = "GFX_bracelet_jeweled_gold"
-	
-	slot = wrist
-
-	indestructible = yes
-}
-
-gjallarhorn = {
-	monthly_character_prestige = 0.1
-	command_modifier = {
-		morale_offence = 0.2
-		morale_defence = 0.2
-	}
-	quality = 3
-	active = {
-		religion_openly_norse_or_reformed_trigger = yes
-	}
-	allowed_gift = {
-		religion_openly_norse_or_reformed_trigger = yes
-	}
-	flags = { religious norse_pagan horn troops_morale }
-	stacking = no
-	picture = "GFX_gjallarhorn"
-}
-
-### West African
-fetish_of_souls = {
-	monthly_character_prestige = 0.1
-	monthly_character_piety = 0.5
-	intrigue = 3
-	monthly_character_piety = 1
-	same_religion_opinion = 10
-	quality = 5
-	active = {
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	allowed_gift = {
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	flags = { religious west_african_pagan very_rare fetish wood face }
-	stacking = no
-	picture = "GFX_branch_of_the_cypress_of_keshmar"
-}
-
 ### Finnish
 sampo = {
 	monthly_character_prestige = 0.5
@@ -976,30 +1017,6 @@ sampo = {
 	flags = { religious finnish_pagan very_rare mill_of_fortune produce_gold }
 	stacking = no
 	picture = "GFX_sampo"
-}
-
-### Slavic
-axe_of_perun = {
-	monthly_character_prestige = 0.5
-	martial = 2
-	combat_rating = 18
-	command_modifier = {
-		light_infantry = 0.2
-	}
-	same_religion_opinion = 5
-	quality = 5
-	active = {
-		religion_openly_slavic_or_reformed_trigger = yes
-		is_adult = yes
-	}
-	allowed_gift = {
-		religion_openly_slavic_or_reformed_trigger = yes
-	}
-	flags = { religious slavic_pagan very_rare combat_weapon axe }
-	stacking = no
-	picture = "GFX_axe_of_perun"
-	
-	slot = weapon
 }
 
 ### Romuva
@@ -1052,12 +1069,12 @@ buddhas_tooth = {
 	monthly_character_piety = 1
 	diplomacy = 3
 	same_religion_opinion = 10
-	active = { religion_group = indian_group }
+	active = { religion_group = buddhist_group }
 	allowed_gift = {
-		religion_group = indian_group
+		religion_group = buddhist_group
 	}
 	quality = 5
-	flags = { religious indian_group very_rare }
+	flags = { religious buddhist_group very_rare }
 	stacking = no
 	picture = "GFX_pouch"
 }
@@ -1070,11 +1087,19 @@ mountain_of_light_diamond = { #Probably the Koh-i-Noor
 	stewardship = 3
 	health = -1
 	quality = 5
-	active = { religion_group = indian_group }
-	allowed_gift = {
-		religion_group = indian_group
+	active = { 
+		OR = {
+			religion_group = indian_group
+			religion_group = buddhist_group
+		}
 	}
-	flags = { religious indian_group jewelry very_rare curse }
+	allowed_gift = {
+		OR = {
+			religion_group = indian_group
+			religion_group = buddhist_group
+		}
+	}
+	flags = { religious indian_group buddhist_group jewelry very_rare curse }
 	stacking = no
 	picture = "GFX_gem_diamond"
 }
@@ -1084,11 +1109,19 @@ elaborate_danda = {
 	global_tax_modifier = 0.1
 	diplomacy = 1
 	quality = 3
-	active = { religion_group = indian_group }
-	allowed_gift = {
-		religion_group = indian_group
+	active = { 
+		OR = {
+			religion_group = indian_group
+			religion_group = buddhist_group
+		}
 	}
-	flags = { religious indian_group jewelry }
+	allowed_gift = {
+		OR = {
+			religion_group = indian_group
+			religion_group = buddhist_group
+		}
+	}
+	flags = { religious indian_group buddhist_group jewelry }
 	stacking = no
 	picture = "GFX_royal_scepter"
 	slot = scepter
@@ -1099,11 +1132,11 @@ sarira = {
 	monthly_character_piety = 0.5
 	same_religion_opinion = 5
 	quality = 2
-	active = { religion_group = indian_group }
+	active = { religion_group = buddhist_group }
 	allowed_gift = {
-		religion_group = indian_group
+		religion_group = buddhist_group
 	}
-	flags = { religious indian_group jewelry }
+	flags = { religious buddhist_group jewelry }
 	stacking = no
 	picture = "GFX_gem_sapphire"
 }
@@ -1113,11 +1146,11 @@ sariraka_actual_body_part = {
 	monthly_character_piety = 0.25
 	learning = 3
 	quality = 3
-	active = { religion_group = indian_group }
+	active = { religion_group = buddhist_group}
 	allowed_gift = {
-		religion_group = indian_group
+		religion_group = buddhist_group
 	}
-	flags = { religious indian_group jewelry }
+	flags = { religious buddhist_group jewelry }
 	stacking = no
 	picture = "GFX_saints_bone_femur"
 }
@@ -1295,15 +1328,15 @@ crown_hre = {
 		OR = { 
 			religion = catholic
 			religion = fraticelli
-		} 
+		}
 
 	custom_tooltip = { 
 		text = crowned_by_trigger
 		OR = {
-				trait = crowned_by_myself
-				trait = crowned_by_pope
-				trait = crowned_by_bishop
-				trait = crowned_by_priest
+			trait = crowned_by_myself
+			trait = crowned_by_pope
+			trait = crowned_by_bishop
+			trait = crowned_by_priest
 			}
 		}
 	}
@@ -1322,9 +1355,12 @@ crown_byzantine = {
 	monthly_character_piety = 1.5
 	stewardship = 4
 	quality = 5
-	active = { 
+	active = {
 		is_feudal = yes
-		has_landed_title = e_byzantium
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_marblists
+		}
 	}
 	flags = { religious unique crown jewelry crown_jewel }
 	picture = "GFX_crown_byzantine"
@@ -1589,7 +1625,7 @@ ruby_bracelets = {
 }
 
 ruby_bracelets_2 = {
-	quality = 3
+	quality = 4
 	monthly_character_prestige = 0.7
 	castle_opinion = 4
 	tribal_opinion = 3
@@ -1977,6 +2013,149 @@ ceremonial_axe = {
 ####### Crafted Weapons ######
 ##############################
 
+# Sword
+chinese_sword_tier_1_new = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 5
+	command_modifier = {
+		actual_light_infantry = 0.05
+	}
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_sword"
+	slot = weapon
+}
+
+chinese_sword_tier_2_new = {
+	monthly_character_prestige = 0.5
+	martial = 1
+	combat_rating = 7
+	command_modifier = {
+		heavy_infantry = 0.05
+		actual_light_infantry = 0.10
+	}
+	quality = 2
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_swordT2"
+	slot = weapon
+}
+
+chinese_sword_tier_3_heartseeker = {
+	monthly_character_prestige = 0.75
+	martial = 2
+	combat_rating = 10
+	command_modifier = {
+		heavy_infantry = 0.10
+		actual_light_infantry = 0.15
+	}
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_swordT3_purple"
+	slot = weapon
+}
+
+chinese_sword_tier_3_vengeance = {
+	monthly_character_prestige = 0.75
+	martial = 2
+	combat_rating = 10
+	command_modifier = {
+		heavy_infantry = 0.10
+		actual_light_infantry = 0.15
+	}
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_swordT3_green"
+	slot = weapon
+}
+
+chinese_sword_tier_3_fury = {
+	monthly_character_prestige = 0.75
+	martial = 2
+	combat_rating = 10
+	command_modifier = {
+		heavy_infantry = 0.10
+		actual_light_infantry = 0.15
+	}
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_swordT3_red"
+	slot = weapon
+}
+
+chinese_sword_tier_4_heartseeker = {
+	monthly_character_prestige = 1
+	martial = 2
+	combat_rating = 15
+	command_modifier = {
+		heavy_infantry = 0.15
+		actual_light_infantry = 0.2
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_swordT3_purple"
+	slot = weapon
+}
+
+chinese_sword_tier_4_vengeance = {
+	monthly_character_prestige = 1
+	martial = 2
+	combat_rating = 15
+	command_modifier = {
+		heavy_infantry = 0.15
+		actual_light_infantry = 0.2
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_swordT3_green"
+	slot = weapon
+}
+
+chinese_sword_tier_4_fury = {
+	monthly_character_prestige = 1
+	martial = 2
+	combat_rating = 15
+	command_modifier = {
+		heavy_infantry = 0.15
+		actual_light_infantry = 0.2
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_chinese_swordT3_red"
+	slot = weapon
+}
 # Sword
 sword_tier_1_new = {
 	monthly_character_prestige = 0.25
@@ -2871,245 +3050,488 @@ avant_garde_painting = {
 ingredient_herb1 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
 	history = no
+	slot = ingredients
 }
 
 ingredient_herb2 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_herb3 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_herb4 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_herb5 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_herb6 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_herb7 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_herb8 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_herb9 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal1 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal2 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal3 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal4 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal5 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal6 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal7 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal8 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_animal9 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic1 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic2 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic3 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic4 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic5 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic6 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic7 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic8 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 ingredient_metal_exotic9 = {
 	quality = 1
 	allowed_gift = {
-		society_member_of = hermetics 
+		OR = {
+			society_member_of = hermetics 
+			religion = taoist
+			has_religion_feature = religion_alchemy
+			has_religion_feature = religion_feature_wuist
+			religion = el_shaddai
+			religion = thuyhoa_pagan
+			religion = thuyhoa_pagan_reformed
+		}
 	}
 	flags = { hermetics ingredient }
 	picture = "GFX_pouch_of_ingredients"
+	slot = ingredients
 }
 
 
@@ -3649,14 +4071,59 @@ prosthetic_hand_metal = {
 	quality = 2
 	active = {
 		trait = one_handed
-		NOT = {
+		NOR = {
 			has_artifact = prosthetic_hand_gold
+			has_artifact = prosthetic_hand_gun
+			has_artifact = prosthetic_hand_blade
 		}
 	}
 	stacking = no
 	allowed_gift = {
 		always = no
 	}
+	picture = "GFX_prosthetic_hand_metal"
+}
+prosthetic_hand_gun = {
+	combat_rating = 40 #offsets the one handed combat penalty(-20) greatly
+	quality = 3
+	active = {
+		trait = one_handed
+		NOR = {
+			has_artifact = prosthetic_hand_metal
+			has_artifact = prosthetic_hand_gold
+			has_artifact = prosthetic_hand_blade
+		}
+	}
+	stacking = no
+	allowed_gift = {
+		always = no
+	}
+	command_modifier = {
+		morale_offence = 0.075
+	}
+	flags = { combat_weapon gun }
+	picture = "GFX_prosthetic_hand_gun"
+}
+prosthetic_hand_blade = {
+	combat_rating = 30 #offsets the one handed combat penalty(-20) greatly
+	quality = 3
+	active = {
+		trait = one_handed
+		NOR = {
+			has_artifact = prosthetic_hand_metal
+			has_artifact = prosthetic_hand_gold
+			has_artifact = prosthetic_hand_gun
+		}
+	}
+	stacking = no
+	allowed_gift = {
+		always = no
+	}
+	command_modifier = {
+		morale_offence = 0.01
+		morale_defence = 0.001
+	}
+	flags = { combat_weapon }
 	picture = "GFX_prosthetic_hand_metal"
 }
 prosthetic_leg_artifact = {
@@ -3946,218 +4413,8 @@ skull_cup = {
 	picture = "GFX_cup_fancy"
 }
 
-#### Warrior Lodge African fetishes ###
-
-crown_african_mask_1 = { #Top tier Mask - Inspiring
-	monthly_character_piety = 0.25
-	martial = 3
-	combat_rating = 10
-	tribal_opinion = 10
-	quality = 3
-	command_modifier = {
-		morale_defence = 0.2
-		center = 0.05
-	}
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_1"
-	slot = mask
-}
-crown_african_mask_2 = { #Top tier Mask - Terrifying
-	monthly_character_prestige = 0.5
-	martial = 3
-	combat_rating = 10
-	tribal_opinion = 10
-	quality = 3
-	command_modifier = {
-		morale_offence = 0.2
-		pursue = 0.05
-	}
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_2"
-	slot = mask
-}
-
-#Middle tier - Unyielding (defence) - Ruthless (flank) - Trickster (experimental) 
-crown_african_mask_3 = { #Middle tier Mask - Unyielding
-	monthly_character_prestige = 0.25
-	martial = 1
-	combat_rating = 5
-	tribal_opinion = 5
-	quality = 2
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	command_modifier = {
-		defence = 0.1
-		siege = 0.05
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_3"
-	slot = mask
-}
-crown_african_mask_4 = { #Middle tier Mask - Ruthless
-	monthly_character_prestige = 0.25
-	martial = 1
-	combat_rating = 5
-	tribal_opinion = 5
-	quality = 2
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	command_modifier = {
-		morale_offence = 0.1
-		flank = 0.05
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_4"
-	slot = mask
-}
-crown_african_mask_5 = { #Middle tier Mask - Trickster
-	monthly_character_prestige = 0.25
-	martial = 1
-	combat_rating = 5
-	tribal_opinion = 5
-	quality = 2
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	command_modifier = {
-		random = 0.1
-		retreat = 0.05
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_5"
-	slot = mask
-}
-
-#Low tier - Angry (attack) - Staunch (center) - Fleeting (speed) 
-
-crown_african_mask_6 = { #Low tier Mask - Angry
-	monthly_character_prestige = 0.05
-	martial = 1
-	combat_rating = 5
-	quality = 1
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	command_modifier = {
-		speed = 0.05
-		damage = 0.05
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_6"
-	slot = mask
-}
-crown_african_mask_7 = { #Low tier Mask - Staunch
-	monthly_character_prestige = 0.05
-	martial = 1
-	combat_rating = 5
-	quality = 1
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	command_modifier = {
-		center = 0.05
-		morale_defence = 0.05
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_7"
-	slot = mask
-}
-crown_african_mask_8 = { #Low tier Mask - Fleeting
-	monthly_character_prestige = 0.05
-	martial = 1
-	combat_rating = 5
-	quality = 1
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	command_modifier = {
-		retreat = 0.05
-		speed = 0.05
-	}
-	flags = { mask african_fetish }
-	stacking = no
-	picture = "GFX_crown_african_mask_8"
-	slot = mask
-}
-
-#Totems
-scepter_african_1 = { #Mid tier Totem - Trickster
-	monthly_character_prestige = 0.15
-	intrigue = 3
-	combat_rating = 5
-	quality = 2
-	command_modifier = {
-		speed = 0.1
-		random = 0.1
-	}
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	flags = { scepter totem african_fetish }
-	stacking = no
-	picture = "GFX_scepter_african_1"
-	slot = scepter
-}
-scepter_african_2 = { #Mid tier Totem - Howler
-	monthly_character_prestige = 0.1
-	martial = 3
-	combat_rating = 5
-	quality = 2
-	command_modifier = {
-		narrow_flank = 0.1
-		religious_enemy = 0.1
-	}
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	flags = { scepter totem african_fetish }
-	stacking = yes
-	picture = "GFX_scepter_african_2"
-	slot = scepter
-}
-scepter_african_3 = { #Low tier Totem - Rainstick
-	monthly_character_prestige = 0.05
-	stewardship = 1
-	combat_rating = 5
-	quality = 1
-	days_of_supply = 20
-	active = {
-		is_adult = yes
-		religion_openly_west_african_or_reformed_trigger = yes
-	}
-	flags = { scepter totem african_fetish }
-	stacking = no
-	picture = "GFX_scepter_african_3"
-	slot = scepter
-}
-
 #Crusader King Helmet-Crown.
-crown_crusader_king = { 
+crown_crusader_king = {
 	monthly_character_piety = 0.05
 	martial = 1
 	combat_rating = 5
@@ -4167,7 +4424,10 @@ crown_crusader_king = {
 	}
 	active = {
 		is_adult = yes
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			religion = jugoslavist
+		}
 	}
 	flags = { religious christian crown crusader_crown }
 	stacking = no
@@ -4185,7 +4445,10 @@ crown_winged_helmet = {
 	}
 	active = {
 		is_adult = yes
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			religion = jugoslavist
+		}
 		has_education_martial_trigger = yes
 	}
 	flags = { religious christian crown ho_crown }
@@ -4204,7 +4467,10 @@ crown_wrapped_helmet = {
 	}
 	active = {
 		is_adult = yes
-		religion_group = christian
+		OR = {
+			religion_group = christian
+			religion = jugoslavist
+		}
 		has_education_martial_trigger = yes
 	}
 	flags = { religious christian crown ho_crown }
@@ -4214,7 +4480,7 @@ crown_wrapped_helmet = {
 }
 
 #Unicorn
-crown_unicorn_helmet = { 
+crown_unicorn_helmet = {
 	monthly_character_prestige = 0.01
 	combat_rating = 15
 	quality = 4
@@ -4307,4 +4573,335 @@ sparkling_mane = {
 	picture = "GFX_crown_unicorn_helmet"
 	diplomacy = 1
 	intrigue = 1
+}
+#raptor artifacts
+sword_of_zanzibar = {
+	indestructible = yes
+	monthly_character_prestige = 1.5
+	martial = 3
+	combat_rating = 25
+	command_modifier = {
+		morale_offence = 0.1
+		morale_defence = 0.1
+		actual_light_infantry = 0.1
+	}
+	summer_queen_opinion = 5
+	thelemic_reformed_opinion = 5
+	thelemic_opinion = 5
+	ibadi_opinion = 15
+	novelist_opinion = -10
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	stacking = no
+	picture = "GFX_zanzibarblade"
+	slot = weapon
+}
+black_sword = {
+    indestructible = yes
+	quality = 5
+	monthly_character_prestige = 2
+	martial = 3
+	combat_rating = 20
+	command_modifier = {
+		heavy_infantry = 0.125
+		actual_light_infantry = 0.125
+		damage = 0.1
+	}
+	active = {
+		is_adult = yes
+	}
+	flags = { chinese sword }
+	stacking = no
+	picture = "GFX_black_sword"
+	slot = weapon
+}
+skeleton_pope = {
+	monthly_character_piety = 1
+	monthly_character_prestige = 1
+	diplomacy = 1
+	intrigue = 1
+	martial = 1
+	stewardship = 1
+	learning = 1
+	cadaverist_opinion = 10
+	quality = 5
+	active = {
+		religion = cadaverist
+	}
+	allowed_gift = {
+		religion = cadaverist
+	}
+	indestructible = yes
+	flags = { religious christian dead_pope }
+	stacking = no
+	picture = "GFX_last_antedeluvian_pope"
+}
+#Japanese unique artifacts
+dojigiri = { 
+	martial = 1
+	combat_rating = 40
+	monthly_character_prestige = 0.2
+	japan_group_opinion = 10
+	command_modifier = {
+		morale_offence = 0.1
+		morale_defence = 0.1
+		heavy_infantry = 0.1
+		actual_light_infantry = 0.1
+	}
+	quality = 3
+	active = { 
+		higher_tier_than = COUNT
+	}
+	flags = { unique sword }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		culture_group = japan_group
+	}
+}
+juzumaru = { 
+	martial = 1
+	combat_rating = 20
+	monthly_character_piety = 0.1
+	japan_group_opinion = 5
+	buddhist_group_opinion = 5
+	command_modifier = {
+		morale_offence = 0.1
+		morale_defence = 0.1
+		actual_light_infantry = 0.1
+	}
+	quality = 3
+	active = { 
+		higher_tier_than = COUNT
+	}
+	flags = { unique sword }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		OR = {
+			religion_group = buddhist_group
+			culture_group = japan_group
+		}
+	}
+}
+mikazuki = { 
+	martial = 1
+	combat_rating = 20
+	monthly_character_piety = 0.2
+	japan_group_opinion = 5
+	command_modifier = {
+		morale_defence = 0.2
+		actual_light_infantry = 0.1
+	}
+	quality = 3
+	active = { 
+		higher_tier_than = COUNT
+	}
+	flags = { unique sword }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		culture_group = japan_group
+	}
+}
+wado_ichimonji = { 
+	martial = 1
+	combat_rating = 30
+	monthly_character_prestige = 0.2
+	wokou_opinion = 10
+	command_modifier = {
+		morale_offence = 0.2
+		actual_light_infantry = 0.1
+		heavy_infantry = 0.1
+	}
+	quality = 3
+	active = { 
+		is_adult = yes
+		OR = {
+			trait=strong
+			trait=robust
+			trait=duelist
+			trait=pirate
+		}
+	}
+	flags = { unique sword combat_weapon }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		OR = {
+			religion_group = oceanic
+			culture_group = japan_group
+		}
+	}
+}
+sandai_kitetsu = { 
+	martial = 1
+	combat_rating = 15
+	monthly_character_prestige = 0.1
+	wokou_opinion = 5
+	japanese_opinion = -5
+	command_modifier = {
+		morale_offence = 0.2
+		actual_light_infantry = 0.1
+	}
+	quality = 2
+	active = { 
+		is_adult = yes
+		OR = {
+			trait=brave
+			trait=cynical
+			trait=possessed
+			trait=lunatic
+			trait=mystic
+		}
+	}
+	flags = { unique sword combat_weapon }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = no
+	allowed_gift = {
+		OR = {
+			religion_group = oceanic
+			culture_group = japan_group
+		}
+	}
+}
+yubashiri = { 
+	martial = 1
+	combat_rating = 15
+	monthly_character_prestige = 0.1
+	wokou_opinion = 5
+	command_modifier = {
+		morale_offence = 0.1
+		actual_light_infantry = 0.1
+	}
+	quality = 2
+	active = { 
+		is_adult = yes
+	}
+	flags = { unique sword combat_weapon }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = no
+	allowed_gift = {
+		OR = {
+			religion_group = oceanic
+			culture_group = japan_group
+		}
+	}
+}
+kubikiribocho = { 
+	martial = 1
+	combat_rating = 20
+	monthly_character_prestige = 0.1
+	command_modifier = {
+		morale_offence = 0.1
+		heavy_infantry = 0.1
+	}
+	quality = 2
+	active = { 
+		is_adult = yes
+		OR = {
+			trait=strong
+			trait=robust
+			trait=sturdy
+		}
+	}
+	flags = { unique sword combat_weapon }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = no
+	allowed_gift = {
+		culture_group = japan_group
+	}
+}
+wazamono = { 
+	martial = 1
+	combat_rating = 10
+	monthly_character_prestige = 0.1
+	command_modifier = {
+		morale_offence = 0.1
+		actual_light_infantry = 0.1
+	}
+	quality = 1
+	active = { 
+		is_adult = yes
+	}
+	flags = { sword combat_weapon }
+	picture = "GFX_katana"
+	slot = weapon
+	stacking = yes
+	allowed_gift = {
+		culture_group = japan_group
+	}
+}
+yoki_wazamono = { 
+	martial = 1
+	combat_rating = 15
+	monthly_character_prestige = 0.2
+	command_modifier = {
+		morale_offence = 0.2
+		actual_light_infantry = 0.2
+	}
+	quality = 2
+	active = { 
+		is_adult = yes
+	}
+	flags = { sword combat_weapon }
+	picture = "GFX_yoki_wazamono"
+	slot = weapon
+	stacking = yes
+	allowed_gift = {
+		culture_group = japan_group
+	}
+}
+o_wazamono = { 
+	martial = 1
+	combat_rating = 20
+	monthly_character_prestige = 0.3
+	command_modifier = {
+		morale_offence = 0.3
+		actual_light_infantry = 0.3
+	}
+	quality = 3
+	active = { 
+		is_adult = yes
+	}
+	flags = { sword combat_weapon }
+	picture = "GFX_o_wazamono"
+	slot = weapon
+	stacking = yes
+	allowed_gift = {
+		culture_group = japan_group
+	}
+}
+saijo_o_wazamono = { 
+	martial = 2
+	combat_rating = 25
+	monthly_character_prestige = 0.4
+	command_modifier = {
+		morale_offence = 0.4
+		actual_light_infantry = 0.4
+	}
+	quality = 4
+	active = { 
+		is_adult = yes
+	}
+	flags = { sword combat_weapon }
+	picture = "GFX_saijo_o_wazamono"
+	slot = weapon
+	stacking = yes
+	allowed_gift = {
+		culture_group = japan_group
+	}
 }

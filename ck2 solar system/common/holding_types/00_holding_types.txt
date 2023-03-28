@@ -1,0 +1,95 @@
+castle = {
+	trigger = {
+	}
+}
+
+city = {
+	trigger = {
+	}
+}
+
+temple = {
+	trigger = {
+	}
+}
+
+trade_post = {
+	trigger = {
+		conditional_tooltip = {
+			trigger = {
+				OR = {
+                trade_route = e95
+	            trade_route = baltica
+	            trade_route = mediterranian_trade
+	            trade_route = intereuropean_routes
+	            trade_route = trans_siberian_trade_route
+	            trade_route = dragon_trade
+	            trade_route = westway
+	            trade_route = nileway
+	            trade_route = gunpowder_road
+	            trade_route = trans_atlantic_trade_route
+				trade_route = pacific_route
+				trade_route = borneo_trade
+				trade_route = ivory_route
+				trade_route = tiger_road
+				trade_route = naga_route
+				trade_route = peacock_trail
+				trade_route = formosa_route
+				trade_route = suns_toll
+				trade_route = trans_artic_trade_route
+				trade_route = rising_sun_way
+				trade_route = korean_route
+				trade_route = manchu_way
+				trade_route = han_road
+				trade_route = central_china_coastway
+				trade_route = yangtze_way
+				trade_route = south_pacific_road
+				trade_route = palawan_way
+				trade_route = guangxi_road
+				trade_route = south_china_road
+				trade_route = south_china_coastway
+				trade_route = jeju_route
+				trade_route = nusantaran_trade	
+				trade_route = leopard_trade
+			    }
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			silk_road_trade_post_trigger = yes
+		}
+	}
+}
+
+family_palace = {
+	trigger = {
+	}
+}
+
+tribal = {
+	trigger = {
+	}
+}
+
+nomad = {
+	trigger = {
+	}
+}
+
+fort = {
+	trigger = {
+	}
+}
+
+hospital = {
+	trigger = {
+	}
+}

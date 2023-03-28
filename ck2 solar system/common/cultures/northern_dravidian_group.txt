@@ -1,0 +1,126 @@
+northern_dravidian_group = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { southindiangfx indiangfx muslimgfx }
+
+	brahui = { # Pakistan Dravidians
+		graphical_cultures = { southindiangfx indiangfx muslimgfx }
+		secondary_event_pictures = bengali
+		
+		color = { 1.0 0.4 0.55 }
+		
+		male_names = {
+			Abbas_Abbas Abdul_Abdul Abdullah_Abdullah Abrar Abdurrashid_Abdulrashid Abdurrahman_Abdulrahman Adil_Adil Adnan Ahmed_Ahmad Akbar_Akbar Alauddin_Alaeddin Ali_Ali Amin_Amin Arif Azim_Azim Aziz_Aziz Ayub_Job 
+			Babur_Babur Bilal_Bilal
+			Danyal_Daniel Daud_David
+			Faisal_Faysal Fareed_Farid Farrukh_Farroukh Fateh-Khan Fazl_Fadl Feruzuddin Firdaus_Firdaus Furqan 
+			Ghulam_Ghulam
+			Habib_Habib Hamid_Hamid Haris_Harith Haroon_Aaron Haseeb_Hasib Hasan_Hasan Hashim_Hashim Hakeem_Hakim 
+			Ibrahim_Abraham Ilyas_Elijah Imran_Imran Imtiyaz Irfan Ismail_Ishmael 
+			Jahangir_Jahangir Jamal_Jamal Javed_Javeed
+			Kamaluddin Khan 
+			Latif_Latif
+			Mahmud_Mahmud Mirza_Mirza Mubarak_Mubarak Muhammad_Muhammad Mukhtar_Mukhtar Murad_Murad Musa_Moses Murtaza_Murtada Mustafa_Mustafa 
+			Nadeem_Nadim Nasir_Nasir Nawaz Nizamuddin
+			Qasim_Qasim
+			Rafiq Rashid_Rashid Rehman_Rahman
+			Sadiq_Sadiq Saeed_Said Salahuddin Saleh_Salih Shahrukh_Sharokh Sharif_Sharif Sikandar_Alexander Sultan_Sultan Syed_Sayyid 
+			Tahir_Tahir Talat_Talat 
+			Umar_Umar Usman_Uthman
+			Younus_Jonah Yousaf_Joseph
+			Zafar_Zafar Zahid_Zahid
+		}
+		female_names = {
+			Aisha_Aisha Aiza Azra
+			Bhagi Begum Bushra
+			Dahar
+			Fariha Farzana Fatima_Fatima
+			Gulbahar Gulnaz
+			Hamida Hira Humaira
+			Inaya Iqra
+			Jannat
+			Laila
+			Maryam_Mary Mumtaz
+			Rizwana
+			Sabeen Saeeda Saima Sara_Sarah Shabnam Shazia Sitara Syeda
+			Tahira
+			Yasmin_Jasmine
+			Zahida Zainab Zubaida
+		}
+		from_dynasty_prefix = "of "
+		allow_looting = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}
+
+	kurukh = { # Dravidian
+		graphical_cultures = { southindiangfx indiangfx muslimgfx }
+		secondary_event_pictures = bengali
+		
+		color = { 0.8 0.8 0.25 }
+		male_names = {
+			Abraham_Abraham Adam_Adam Albert_Albert Alexander_Alexander Allayavema Amar Ammaraja Anavema 
+			Baladitya Ballaladeva Bhima Bhandanaditya Budhu 
+			Chennappa Christopher_Christopher Cyrus_Cyrus
+			Daniel_Daneil David_David Devanayaka Dilip Durgaraja 
+			Felix_Felix
+			Ignace_Ignatius
+			Jatra Jayasimha John_John Joseph_Joseph
+			Kaapayanayaka Kadeyaraja Kalakampa Krishna 
+			Lazarus_Lazarus
+			Mahadeva Mangiyuvaraja Michael_Michael Moses_Moses
+			Nachana Narendra Nicolas_Nicholas Niravadyadhavala Nirmal
+			Pandaranga Paul_Paul Pius_Pius Prataparudra Prola Prolayanayak Prolayavema
+			Rajanayaka Rajaraja Robert_Robert Rudradeva
+			Saktivarman Samuel_Samuel Simon_Simon Sudarshan 
+			Telesphore_Telesphorus
+			Vengabhupathi Vijayaditya Vimaladitya Vincent_Vincent Virabhadra Vishnuvardhana 
+			Yuddamalla_Yuddamalla Yuddhamalla_Yuddamalla
+			Zachariah_Zachary
+		}
+		female_names = {
+			Aaleyaamma_Elizabeth Accamma_Rebecca Accattêvi Anitalli Annamma_Anna Aiyyârratikal Akkâranankayâr Amittiravalli Ammaiyâlvi Ammakkanâr Ammankâtêvi_Ammangadevi Ankâti Aramutaiyâl Aricukâti Ariyapillai Ariñcikai Ariñcikaipirâtti Ariñcikaippirâttiyâr Arulmolinankaiyâr Aruvanki Atavallâl Atittapatâriyâr Atittapitâri Atittapitâriyâr Atticapitâriyâr Avutaiyâlccâni 
+			Bashirunissa Bernadette
+			Cankâni Cantirâdêvi Cenkulam Ceyyacôlam Ceyyavâymani Chamekamba Chandena Chellava Civatêvi Civallapatevi Corappaiyâr Câmuntappai Cêramankai Côlamâtêvi 
+			Dawudunissa
+			Eccumantai Eluvanai Eluvattûr Etuttapâtam 
+			Gamakamba Grace_Grace
+			Hariharamba
+			Irâcinkam Irâcâticci Irâcacuntari 
+			Joan_Jane
+			Kalacci Kalicci Kanavati Kannapparaciyâr Kantiyûr Kariyamâtêvi Karumânikkam Kaucalaiyâr Kavatiyakkan Kañciakkan Kutitânkinâl Kuñcaramalli Kuñciramalli Kâmuttiri Kâraikkâl Kôkilânadigal Kôlâliyâr Kômalavalli Kôyinâccipitâriyâr Kûrrantêvi Kûttâtunâcci 
+			Mahâdeviyâr Malaiyamân Malapâti Maraikkâtu Mañcavi Mânikkam Mary_Mary Mâtêvatikal Mâtêvatikalâr 
+			Nagipoti Nakarattâl Naltêviyâr Namaiyâr Nankaiyâr Nantirinankai Nasiha Netuntukkai Nilammai Nimmatikal Nâcci Nâcciyâlvi Nârani Nârâyani Nâñcûri Nîlakanti Nîliyâr 
+			Olimatiyâr Orriâlvi 
+			Pammava Parvati Pavitram Pennaraciyâr Peranankai Periyanâcci Perrappai 
+			Rachel_Rachel Rebecca_Rebecca Renee Rudramba Rudramadevi 
+			Samiya Srimahadevi 
+			Tundaka 
+			Umda Unni Ummayama
+		}
+		
+		from_dynasty_prefix = "of "				
+		allow_looting = yes
+		
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}	
+}

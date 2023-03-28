@@ -1,0 +1,138 @@
+abbala_arabic = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { muslimgfx }
+	
+	baggara = {
+		graphical_cultures = { africangfx egyptiangfx arabicgfx levantinegfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.04 0.6 0.9 }
+		
+		male_names = {
+			Abbass_Abbas Abderahim_Abdalrahim Abdoulaye_Abdullah Abdoulkarim_Abdalkarim Abouday Achour Adam_Adam Affine Ahmat_Ahmad Ahmed_Ahmad Alhadj_Hajj Alhafiz_Hafiz Allarassem Amadou_Ahmad
+			Ben_Benjamin Bonheur
+			Casmir_Casimir Christian_Christian
+			Elvis
+			Gatchi
+			Hassan_Hasan Hillew Hissein_Hussayn
+			Issa_Jesus
+			Jonathan_Jonathan
+			Kondo
+			Mahamat_Muhammad Mathieu_Matthew Moledi
+			Oumar_Umar 
+			Pierrot_Peter
+			Rahama 
+			Sayir
+			Tomas_Thomas Tourday 
+			Waziri
+			Yacouba_Jacob Younouss_Jonah			
+		}
+		female_names = {
+			Ache Adeline Agneshka Alice_Alice Angela_Angela Angele_Angela Anne_Anna Annine_Anna Antioche Aphia
+			Brya 
+			Caroline_Caroline Claudy_Claudia Constance_Constance
+			Dee Denise
+			Diontilo 
+			Evelyne
+			Felicite_Felicia Fleurie_Flora 
+			Geraldine Grace_Grace Gracia_Grace Guelpina
+			Haoua
+			Irene_Irene
+			Karine_Carina
+			Laurentine_Lauren Leslie
+			Madjitodara Mamadjibeye Mongonne
+			Odalys
+			Pelagie_Pelagia Prudence
+			Raissa
+			Sandra_Alexandra Seve Sosthene Sylvie_Silvia 
+			Theresa_Theresa			
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+								
+		dukes_called_kings = yes
+		
+		allow_looting = yes
+				
+		modifier = default_culture_modifier
+	}
+	tashadian = { 
+		graphical_cultures = { africangfx egyptiangfx arabicgfx levantinegfx muslimgfx }
+		
+		color = { 0.09 0.69 0.7 }
+
+		male_names = {
+			Abakada Abazza Abdoul_Abdul Abdoullah_Abdullah Abidin Adal Adam_Adam Adamou_Adam Adergazuz Adherbal Admer Adrir Afaghis Afalku Afer Agafay Agdada Agellid Aghali Aghecher Agwillul Aheyyad Ahmad_Ahmad Ajdir Akaday Akli Aksel Aksil Akzer Ali_Ali Amayas Amaz'uz' Amdegh Amennay Ameska Amin_Amin Amma Amray Anaba Antalas Anwa Asaru Asirem Atissi Awdia Awgustin Awinagh Awlagh Azim Azrur 
+			Badda Badis Bagay Barakat Brahim_Abraham Buwayh Bangoba
+			Capussa Cucung 
+			Daouda_David Delwa Djidingar 
+			Fella Fidele Firmus Frawsen
+			Gaia Gaya Ghanim Ghaysan Ghumer Goukouni Gulusa 
+			H'emmu Haidar_Haidar Hamad_Hamad Hiba Hiempsal Himmi Hotha Hassan_Hasan
+			Ibiza Ibrahim_Abraham Ifni Ifser Ighlaf Igider Igmi Iher Iken Immel Irgen Is'mail_Ishmael Isalcas Ishaq_Isaac Isli It'ij Itber Itri Izi Izri
+			Kadidu Kamal_Kamal Karidenna Kawsen Kenan Khalid_Khalid Khanchla Koulsy Kuri Kussil 
+			Lacumaces Laotegguelnodji 
+			Mahtar Mahamat_Muhammad Marwan Masgaba Masgava Masnsen Massiva Massnsen Mastan Mastanabal Matiya Maysar Maziba Mazigh Medjan Mellal Menzu Mez'yan Mezwar Misibsen Mu'izz Muh'end Muhammad_Muhammad Mula Murad_Murad Musa_Moses Mustafa_Mustafa
+			Nagoum Nasr_Nasir Nazar Ngarlejy Ngarindo 
+			Oumar
+			Rimbarde
+			Sammer Seghada Sekla Sifal Sisso Suggut
+			Tabat Tacfin Tahir_Tahir Tanan Tariq_Tariq Thabitah Tifan Tashad
+			Ugdada Uqess'un Uregh Urtilian Urz'ig Uzmir Uzza 
+			Wahab_Wahab Watt'as 
+			Xamida 
+			Yabdas Yahya_John Yeften Yeh'lem Yuba Yugerten Yugurthen Younis_Jonah Youssef_Joseph
+			Zafir_Zafir Zayar Ziri 
+		}
+		female_names = {
+			Aaliyah Aamina Aamira Aaqila Aarifa Aazzi Adelah_Adela Adiba Adilah Adilia Adiva Adjan Aeesha Aesha Aisha Amira 
+			Badeea Badia Badra Bahac Bahiyya Bajila Bakka Baraah Barakah Baria Bashira Basilie Basima Basimah Bghnat Bibya Bilqis 
+			Cala Canh'a Cantara 
+			D'r'ifa Daisha Dalal Dasin Dema Dimah Dinara Dua Durra Durriyya 
+			Edza Eleonorka_Eleanor 
+			Faghissa Fahriya Fariza Fedada Fer'r'udja 
+			Gedduda Ghida Ghnima Guraya Gwejda 
+			H'edda Hadiya Hawwa Hemu Herru 
+			Iija Iiju Ittu Izza 
+			Jaida Jdira Jeddjiga 
+			Kahina Kamila Kanimana Kella Kenwa Kisa Kulla Kwella 
+			Lalla Laysa Lem'an Lemta Lumsi Lunja Lwiza Lyaqut 
+			Mamma Massa Meghighda Melek Menna Menza Mernissa Myassa 
+			Najiba 
+			R'uza Ra'isa Rahima Randja Rula 
+			Sadiqa Salaama Sekkura Siddiqa Silya Siman 
+			T'awes T'item Tadefi Tadla Tadmut Tafrara Tafsut Tagwillult Taheyyatt Takama Taklit Talalit Taljat Tament Tamimunt Tamrust Tanaszart Tanebdatt Tanefzawit Tanest Taninna Tarifa Tariwelt Tasa Tasa'fut Taszellayt Tatbirt Tati Taweckint Tawenza Tawnat Tawzalt Tayri Tayyurt Tazdayt Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh'r'ict Tureght 
+			Ultafa 
+			Wenza Wnissa Wrina 
+			Z'diant Z'ergha Zaghwa Zahida Zamba Zibba Zilgum Zubayda Zunagha Zwina Zwira
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		dynasty_title_names = yes
+				
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}	
+}	

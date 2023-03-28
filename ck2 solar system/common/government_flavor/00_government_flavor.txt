@@ -9,6 +9,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = {
@@ -16,8 +17,6 @@ government_flavor = {
 			has_law = succ_hre_elective
 		}
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
 		}
@@ -42,22 +41,432 @@ government_flavor = {
 }
 
 government_flavor = {
-	name = gov_electorial_aristocratic_monarchy_norse
-	graphics = GFX_evt_viking_funeral_oldgods
+	name = gov_confed
+	graphics = GFX_evt_found_hre
+	priority = 1
+	trigger = {
+		government = confederation_government
+	}
+}
+
+government_flavor = {
+	name = gov_fake_republic
+	graphics = GFX_evt_doge_republic
+	priority = 1
+	trigger = {
+		government = oligarchic_republic
+	}
+}
+
+government_flavor = {
+	name = gov_soviet_republic
+	graphics = GFX_evt_stalinist_spymaster
+	priority = 1
+	trigger = {
+		government = oligarchic_republic
+		OR = {
+			religion = stalinist
+			religion = trotskyite
+			religion = titoist
+			religion = leninist
+		}
+	}
+}
+
+government_flavor = {
+	name = gov_cccp
+	graphics = GFX_evt_stalinist_council
+	priority = 4
+	trigger = {
+		OR = {
+		government = feudal_government
+		government = agrarian_feudal_government
+		}
+		OR = {
+			religion = stalinist
+			religion = trotskyite
+			religion = titoist
+			religion = leninist
+		}
+		has_landed_title = e_cccp
+	}
+}
+
+government_flavor = {
+	name = gov_ssr
+	graphics = GFX_evt_stalinist_council
 	priority = 1
 	trigger = {
 		OR = {
 			government = feudal_government
-			government = theocratic_feudal_government
+			government = agrarian_feudal_government
 		}
 		OR = {
-			has_law = succ_feudal_elective
-			has_law = succ_hre_elective
+			religion = stalinist
+			religion = trotskyite
+			religion = titoist
+			religion = leninist
+		}
+		tier = KING
+	}
+}
+
+government_flavor = {
+	name = gov_communist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 1
+	trigger = {
+		OR = {
+			government = feudal_government
+			government = agrarian_feudal_government
 		}
 		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
+			religion = stalinist
+			religion = trotskyite
+			religion = titoist
+			religion = leninist
+			religion = maoist
 		}
+	}
+}
+
+government_flavor = {
+	name = gov_calvinist
+	graphics = GFX_evt_throne_room
+	priority = 1
+	trigger = {
+		government = calvinist_government
+	}
+}
+government_flavor = {
+	name = gov_murderempire
+	graphics = GFX_evt_jacobinist_spymaster
+	priority = 3
+	trigger = {
+		religion = jacobinist
+		tier = EMPEROR
+	}
+}
+government_flavor = {
+	name = gov_murderepublic
+	graphics = GFX_evt_jacobinist_spymaster
+	priority = 3
+	trigger = {
+		religion = jacobinist
+		tier = KING
+	}
+}
+government_flavor = {
+	name = gov_murderduchy
+	graphics = GFX_evt_jacobinist_spymaster
+	priority = 3
+	trigger = {
+		religion = jacobinist
+		tier = DUKE
+	}
+}
+government_flavor = {
+	name = gov_murdercounty
+	graphics = GFX_evt_jacobinist_spymaster
+	priority = 3
+	trigger = {
+		religion = jacobinist
+		tier = COUNT
+	}
+}
+
+government_flavor = {
+	name = gov_colonial
+	graphics = GFX_evt_aztec_arrival
+	priority = 1
+	trigger = {
+		government = colonial_government
+	}
+}
+
+government_flavor = {
+	name = gov_landed_holy_order
+	graphics = GFX_evt_western_knights_byzantine
+	priority = 2
+	trigger = {
+		government = order_government
+		tier = KING
+	}
+}
+
+government_flavor = {
+	name = gov_monastic
+	graphics = GFX_evt_monastery_monks
+	priority = 2
+	trigger = {
+		has_law = succ_monastic_elective
+		NOT = { government = order_government }
+		NOT = { government = calvinist_government }
+		NOT = { has_landed_title = d_athos }
+		NOT = { has_landed_title = k_athos }
+	}
+}
+
+government_flavor = {
+	name = gov_monastic_athos
+	graphics = GFX_evt_icon
+	priority = 2
+	trigger = {
+	  OR = {
+		has_landed_title = k_athos
+		has_landed_title = d_athos
+		}
+		has_law = succ_monastic_elective
+		NOT = { government = order_government }
+		NOT = { government = calvinist_government }
+	}
+}
+
+government_flavor = {
+	name = gov_murder_comitee
+	graphics = GFX_evt_jacobinist_spymaster
+	priority = 4
+	trigger = {
+		religion = jacobinist
+		has_landed_title = d_jacobinist
+	}
+}
+
+government_flavor = {
+	name = gov_liechtenstin
+	graphics = GFX_evt_throne_room
+	priority = 1
+	trigger = {
+		government = calvinist_government
+		has_landed_title = k_lichtenstein
+	}
+}
+
+government_flavor = {
+	name = gov_decayed_bhutan
+	graphics = GFX_evt_throne_room_indo_aryan_group
+	priority = 4
+	trigger = {
+		government = bhutanese_decayed_government
+	}
+}
+
+government_flavor = {
+	name = gov_restored_bhutan
+	graphics = GFX_evt_battle_indo_aryan_group
+	priority = 4
+	trigger = {
+		government = bhutanese_restored_government
+	}
+}
+
+
+government_flavor = {
+	name = gov_hereditary_aristocratic_eastern_monarchy
+	graphics = GFX_evt_chinese_emissary
+	priority = 2
+	trigger = {
+		government = eastern_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_aristocratic_hellenic_monarchy
+	graphics = GFX_evt_throne_room_byzantine
+	priority = 2
+	trigger = {
+		government = hellenic_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_aristocratic_stalinist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = stalinist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_aristocratic_trotskyite_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = trotskyite
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_aristocratic_titoist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = titoist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_aristocratic_leninist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = leninist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_aristocratic_indian_monarchy
+	graphics = GFX_evt_emissary_indo_aryan_group
+	priority = 2
+	trigger = {
+		government = indian_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_aristocratic_mandala_monarchy
+	graphics = GFX_evt_throne_room_thai
+	priority = 2
+	trigger = {
+		government = mandala_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 6
+			has_law = law_voting_power_1
+			has_law = banish_voting_power_1
+			has_law = execution_voting_power_1
+			has_law = revoke_title_voting_power_1
+			has_law = grant_title_voting_power_1
+			has_law = imprison_voting_power_1
+			has_law = war_voting_power_1
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_despotic_eastern_monarchy
+	graphics = GFX_evt_chinese_emissary
+	priority = 2
+	trigger = {
+		government = eastern_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
 		NOR = { 
 			has_law = imperial_administration
 			has_law = ze_administration_laws_2
@@ -65,15 +474,1098 @@ government_flavor = {
 		OR = {
 			NOT = { has_dlc = "Conclave" }
 			calc_true_if = {
-				amount = 6
-				has_law = law_voting_power_1
-				has_law = banish_voting_power_1
-				has_law = execution_voting_power_1
-				has_law = revoke_title_voting_power_1
-				has_law = grant_title_voting_power_1
-				has_law = imprison_voting_power_1
-				has_law = war_voting_power_1
+				amount = 2
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
 			}
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_despotic_hellenic_monarchy
+	graphics = GFX_evt_throne_room
+	priority = 2
+	trigger = {
+		government = hellenic_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		OR = {
+			NOT = { has_dlc = "Conclave" }
+			calc_true_if = {
+				amount = 2
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_electorial_despotic_stalinist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = stalinist
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 2
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = war_voting_power_0
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+government_flavor = {
+	name = gov_electorial_despotic_trotskyite_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = trotskyite
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 2
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = war_voting_power_0
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+government_flavor = {
+	name = gov_electorial_despotic_titoist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = titoist
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 2
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = war_voting_power_0
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+government_flavor = {
+	name = gov_electorial_despotic_leninist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = leninist
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 2
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = war_voting_power_0
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}
+}
+government_flavor = {
+	name = gov_phonocratic_despotic_stalinist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = stalinist
+		has_law = succ_phonocratic_elective
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 2
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = war_voting_power_0
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+government_flavor = {
+	name = gov_phonocratic_despotic_trotskyite_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = trotskyite
+		has_law = succ_phonocratic_elective
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 2
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = war_voting_power_0
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+government_flavor = {
+	name = gov_phonocratic_despotic_titoist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = titoist
+		has_law = succ_phonocratic_elective
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		calc_true_if = {
+			amount = 2
+			has_law = banish_voting_power_0
+			has_law = execution_voting_power_0
+			has_law = revoke_title_voting_power_0
+			has_law = grant_title_voting_power_0
+			has_law = imprison_voting_power_0
+			has_law = war_voting_power_0
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_despotic_indian_monarchy
+	graphics = GFX_evt_emissary_indo_aryan_group
+	priority = 2
+	trigger = {
+		government = indian_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		OR = {
+			NOT = { has_dlc = "Conclave" }
+			calc_true_if = {
+				amount = 2
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_despotic_mandala_monarchy
+	graphics = GFX_evt_throne_room_thai
+	priority = 2
+	trigger = {
+		government = mandala_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		OR = {
+			NOT = { has_dlc = "Conclave" }
+			calc_true_if = {
+				amount = 2
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+		NOT = {
+			calc_true_if = {
+				amount = 7
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_eastern_monarchy
+	graphics = GFX_evt_chinese_emissary
+	priority = 2
+	trigger = {
+		government = eastern_feudal
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_hellenic_monarchy
+	graphics = GFX_evt_powerful_ruler
+	priority = 2
+	trigger = {
+		government = hellenic_government
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_stalinist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = stalinist
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+government_flavor = {
+	name = gov_electorial_absolute_trotskyite_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = trotskyite
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+government_flavor = {
+	name = gov_electorial_absolute_titoist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = titoist
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+government_flavor = {
+	name = gov_electorial_absolute_leninist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = leninist
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+government_flavor = {
+	name = gov_phonocratic_absolute_stalinist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = stalinist
+		has_law = succ_phonocratic_elective
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+government_flavor = {
+	name = gov_phonocratic_absolute_trotskyite_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = trotskyite
+		has_law = succ_phonocratic_elective
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+government_flavor = {
+	name = gov_electorial_absolute_titoist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = titoist
+		has_law = succ_phonocratic_elective
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_indian_monarchy
+	graphics = GFX_evt_throne_room_indo_aryan_group
+	priority = 2
+	trigger = {
+		government = indian_feudal
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_mandala_monarchy
+	graphics = GFX_evt_throne_room_thai
+	priority = 2
+	trigger = {
+		government = mandala_government
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_eastern_monarchy
+	graphics = GFX_evt_chinese_emissary
+	priority = 2
+	trigger = {
+		government = eastern_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_hellenic_monarchy
+	graphics = GFX_evt_powerful_ruler
+	priority = 2
+	trigger = {
+		government = hellenic_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_stalinist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = stalinist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_absolute_trotskyite_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = trotskyite
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_absolute_titoist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = titoist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_absolute_leninist_monarchy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		religion = leninist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_indian_monarchy
+	graphics = GFX_evt_throne_room_indo_aryan_group
+	priority = 2
+	trigger = {
+		government = indian_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_mandala_monarchy
+	graphics = GFX_evt_throne_room_thai
+	priority = 2
+	trigger = {
+		government = mandala_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_eastern_autocracy
+	graphics = GFX_evt_chinese_emissary
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = eastern_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_hellenic_autocracy
+	graphics = GFX_evt_judged_by_ruler
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = hellenic_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_stalinist_autocracy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		religion = stalinist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_absolute_trotskyite_autocracy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		religion = trotskyite
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_absolute_titoist_autocracy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		religion = titoist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+government_flavor = {
+	name = gov_hereditary_absolute_leninist_autocracy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		religion = leninist
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_indian_autocracy
+	graphics = GFX_evt_throne_room_indo_aryan_group
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = indian_feudal
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_hereditary_absolute_mandala_autocracy
+	graphics = GFX_evt_emissary_khmer_group
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = mandala_government
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		mercenary = no
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_eastern_autocracy
+	graphics = GFX_evt_chinese_emissary
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = eastern_feudal
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_hellenic_autocracy
+	graphics = GFX_evt_judged_by_ruler
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = hellenic_government
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_stalinist_autocracy
+	graphics = GFX_evt_stalinist_council
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		religion = stalinist
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_indian_autocracy
+	graphics = GFX_evt_throne_room_indo_aryan_group
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = indian_feudal
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_electorial_absolute_mandala_autocracy
+	graphics = GFX_evt_emissary_khmer_group
+	priority = 2
+	trigger = {
+		OR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		government = mandala_government
+		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		has_law = law_voting_power_0
+		has_law = banish_voting_power_0
+		has_law = execution_voting_power_0
+		has_law = revoke_title_voting_power_0
+		has_law = grant_title_voting_power_0
+		has_law = imprison_voting_power_0
+		has_law = war_voting_power_0
+	}	
+}
+
+government_flavor = {
+	name = gov_communist_chiefdom
+	graphics = GFX_evt_tribal_lands
+	priority = 1
+	trigger = {
+		NOT = { has_law = succ_gavelkind }
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
+		OR = {
+			religion = stalinist
+			religion = trotskyite
+			religion = titoist
+			religion = leninist
+			religion = maoist
+		}
+	}
+}
+
+government_flavor = {
+	name = gov_noble_communist_chiefdom
+	graphics = GFX_evt_tribal_lands
+	priority = 1
+	trigger = {
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
+		has_law = succ_gavelkind
+		OR = {
+			religion = stalinist
+			religion = trotskyite
+			religion = titoist
+			religion = leninist
+			religion = maoist
 		}
 	}
 }
@@ -85,6 +1577,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = {
@@ -120,7 +1613,12 @@ government_flavor = {
 	graphics = GFX_evt_emissary_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = { 
@@ -148,7 +1646,12 @@ government_flavor = {
 	graphics = GFX_evt_emissary_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		OR = {
 			has_law = succ_feudal_elective
 			has_law = succ_hre_elective
@@ -180,13 +1683,12 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
 			religion_group = indian_group
@@ -208,37 +1710,6 @@ government_flavor = {
 	}	
 }
 
-government_flavor = {
-	name = gov_hereditary_aristocratic_monarchy_norse
-	graphics = GFX_evt_viking_funeral_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
-		NOR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		calc_true_if = {
-			amount = 6
-			has_law = law_voting_power_1
-			has_law = banish_voting_power_1
-			has_law = execution_voting_power_1
-			has_law = revoke_title_voting_power_1
-			has_law = grant_title_voting_power_1
-			has_law = imprison_voting_power_1
-			has_law = war_voting_power_1
-		}
-	}	
-}
 
 government_flavor = {
 	name = gov_hereditary_aristocratic_monarchy_tengri
@@ -247,6 +1718,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -279,6 +1751,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -308,12 +1781,11 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
 			religion_group = zoroastrian_group
@@ -353,52 +1825,11 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		religion_group = zoroastrian_group
-		NOR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		calc_true_if = {
-			amount = 2
-			has_law = banish_voting_power_0
-			has_law = execution_voting_power_0
-			has_law = revoke_title_voting_power_0
-			has_law = grant_title_voting_power_0
-			has_law = imprison_voting_power_0
-			has_law = war_voting_power_0
-		}
-		NOT = {
-			calc_true_if = {
-				amount = 7
-				has_law = law_voting_power_0
-				has_law = banish_voting_power_0
-				has_law = execution_voting_power_0
-				has_law = revoke_title_voting_power_0
-				has_law = grant_title_voting_power_0
-				has_law = imprison_voting_power_0
-				has_law = war_voting_power_0
-			}
-		}
-	}	
-}
-
-government_flavor = {
-	name = gov_electorial_despotic_monarchy_norse
-	graphics = GFX_evt_longships_at_sea_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
 		NOR = { 
 			has_law = imperial_administration
 			has_law = ze_administration_laws_2
@@ -434,6 +1865,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -474,7 +1906,12 @@ government_flavor = {
 	graphics = GFX_evt_carriage_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = { 
@@ -513,7 +1950,12 @@ government_flavor = {
 	graphics = GFX_evt_carriage_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		NOR = { 
 			has_law = imperial_administration
@@ -553,13 +1995,12 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
+		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective has_law = succ_monastic_elective }
 		mercenary = no
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion_group = indian_group
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
@@ -603,6 +2044,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -640,57 +2082,12 @@ government_flavor = {
 }
 
 government_flavor = {
-	name = gov_hereditary_despotic_monarchy_norse
-	graphics = GFX_evt_longships_at_sea_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
-		NOR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		OR = {
-			NOT = { has_dlc = "Conclave" }
-			calc_true_if = {
-				amount = 2
-				has_law = banish_voting_power_0
-				has_law = execution_voting_power_0
-				has_law = revoke_title_voting_power_0
-				has_law = grant_title_voting_power_0
-				has_law = imprison_voting_power_0
-				has_law = war_voting_power_0
-			}
-		}
-		NOT = {
-			calc_true_if = {
-				amount = 7
-				has_law = law_voting_power_0
-				has_law = banish_voting_power_0
-				has_law = execution_voting_power_0
-				has_law = revoke_title_voting_power_0
-				has_law = grant_title_voting_power_0
-				has_law = imprison_voting_power_0
-				has_law = war_voting_power_0
-			}
-		}
-	}	
-}
-
-government_flavor = {
 	name = gov_hereditary_despotic_monarchy_tengri
 	graphics = GFX_evt_tengri_throneroom_oldgods
 	priority = 1
 	trigger = {
 		OR = {
+			government = agrarian_feudal_government
 			government = feudal_government
 			government = theocratic_feudal_government
 		}
@@ -738,6 +2135,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -781,42 +2179,13 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
-		}
-		NOR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		has_law = law_voting_power_0
-		has_law = banish_voting_power_0
-		has_law = execution_voting_power_0
-		has_law = revoke_title_voting_power_0
-		has_law = grant_title_voting_power_0
-		has_law = imprison_voting_power_0
-		has_law = war_voting_power_0
-	}
-}
-
-government_flavor = {
-	name = gov_electorial_absolute_monarchy_norse
-	graphics = GFX_evt_viking_throneroom_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		NOR = { 
 			has_law = imperial_administration
@@ -839,6 +2208,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -865,7 +2235,12 @@ government_flavor = {
 	graphics = GFX_evt_throne_room_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = { 
@@ -887,7 +2262,12 @@ government_flavor = {
 	graphics = GFX_evt_throne_room_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		NOR = { 
 			has_law = imperial_administration
@@ -910,45 +2290,15 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
 			religion_group = indian_group
-		}
-		NOR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		has_law = law_voting_power_0
-		has_law = banish_voting_power_0
-		has_law = execution_voting_power_0
-		has_law = revoke_title_voting_power_0
-		has_law = grant_title_voting_power_0
-		has_law = imprison_voting_power_0
-		has_law = war_voting_power_0
-	}	
-}
-
-government_flavor = {
-	name = gov_hereditary_absolute_monarchy_norse
-	graphics = GFX_evt_viking_throneroom_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		NOR = { 
 			has_law = imperial_administration
@@ -971,6 +2321,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -978,6 +2329,7 @@ government_flavor = {
 		OR = {
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
+			religion = khanist
 		}
 		NOR = { 
 			has_law = imperial_administration
@@ -1000,6 +2352,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -1030,45 +2383,15 @@ government_flavor = {
 		}
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
 			religion_group = indian_group
-		}
-		has_law = law_voting_power_0
-		has_law = banish_voting_power_0
-		has_law = execution_voting_power_0
-		has_law = revoke_title_voting_power_0
-		has_law = grant_title_voting_power_0
-		has_law = imprison_voting_power_0
-		has_law = war_voting_power_0
-	}	
-}
-
-government_flavor = {
-	name = gov_hereditary_absolute_autocracy_norse
-	graphics = GFX_evt_midwinter_blot_oldgods
-	priority = 1
-	trigger = {
-		OR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		has_law = law_voting_power_0
 		has_law = banish_voting_power_0
@@ -1091,6 +2414,7 @@ government_flavor = {
 		}
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -1098,6 +2422,7 @@ government_flavor = {
 		OR = {
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
+			religion = khanist
 		}
 		has_law = law_voting_power_0
 		has_law = banish_voting_power_0
@@ -1120,6 +2445,7 @@ government_flavor = {
 		}
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -1144,7 +2470,12 @@ government_flavor = {
 			has_law = imperial_administration
 			has_law = ze_administration_laws_2
 		}
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		has_law = law_voting_power_0
@@ -1166,7 +2497,12 @@ government_flavor = {
 			has_law = imperial_administration
 			has_law = ze_administration_laws_2
 		}
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		has_law = law_voting_power_0
 		has_law = banish_voting_power_0
@@ -1189,42 +2525,13 @@ government_flavor = {
 		}
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
-		}
-		has_law = law_voting_power_0
-		has_law = banish_voting_power_0
-		has_law = execution_voting_power_0
-		has_law = revoke_title_voting_power_0
-		has_law = grant_title_voting_power_0
-		has_law = imprison_voting_power_0
-		has_law = war_voting_power_0
-	}	
-}
-
-government_flavor = {
-	name = gov_electorial_absolute_autocracy_norse
-	graphics = GFX_evt_midwinter_blot_oldgods
-	priority = 1
-	trigger = {
-		OR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		has_law = law_voting_power_0
 		has_law = banish_voting_power_0
@@ -1247,12 +2554,14 @@ government_flavor = {
 		}
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		OR = {
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
+			religion = khanist
 		}
 		has_law = law_voting_power_0
 		has_law = banish_voting_power_0
@@ -1274,6 +2583,11 @@ government_flavor = {
 		OR = {
 			has_landed_title = e_roman_empire
 			has_landed_title = e_byzantium
+			has_landed_title = e_britannia
+			has_landed_title = e_transnistria
+			has_landed_title = e_ruthenia
+			has_landed_title = e_marblists
+			has_landed_title = e_bengal
 		}
 	}	
 }
@@ -1286,8 +2600,13 @@ government_flavor = {
 		NOT = {
 			is_landed = yes
 			OR = {
-				has_landed_title = e_roman_empire
-				has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+			has_landed_title = e_byzantium
+			has_landed_title = e_britannia
+			has_landed_title = e_transnistria
+			has_landed_title = e_ruthenia
+			has_landed_title = e_marblists
+			has_landed_title = e_bengal
 			}
 		}	
 	}	
@@ -1300,62 +2619,15 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
 			religion_group = indian_group
-		}
-		OR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		OR = {
-			NOT = { has_dlc = "Conclave" }
-			calc_true_if = {
-				amount = 2
-				has_law = banish_voting_power_0
-				has_law = execution_voting_power_0
-				has_law = revoke_title_voting_power_0
-				has_law = grant_title_voting_power_0
-				has_law = imprison_voting_power_0
-				has_law = war_voting_power_0
-			}
-		}
-		NOT = {
-			calc_true_if = {
-				amount = 7
-				has_law = law_voting_power_0
-				has_law = banish_voting_power_0
-				has_law = execution_voting_power_0
-				has_law = revoke_title_voting_power_0
-				has_law = grant_title_voting_power_0
-				has_law = imprison_voting_power_0
-				has_law = war_voting_power_0
-			}
-		}
-	}	
-}
-
-government_flavor = {
-	name = gov_hereditary_despotic_autocracy_norse
-	graphics = GFX_evt_viking_battle_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		OR = { 
 			has_law = imperial_administration
@@ -1394,6 +2666,7 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		OR = {
+			government = agrarian_feudal_government
 			government = feudal_government
 			government = theocratic_feudal_government
 		}
@@ -1441,6 +2714,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -1482,7 +2756,12 @@ government_flavor = {
 	graphics = GFX_evt_jugglers_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		OR = { 
@@ -1521,7 +2800,12 @@ government_flavor = {
 	graphics = GFX_evt_jugglers_arabic
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		OR = { 
 			has_law = imperial_administration
@@ -1561,56 +2845,13 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
-		}
-		OR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		calc_true_if = {
-			amount = 2
-			has_law = banish_voting_power_0
-			has_law = execution_voting_power_0
-			has_law = revoke_title_voting_power_0
-			has_law = grant_title_voting_power_0
-			has_law = imprison_voting_power_0
-			has_law = war_voting_power_0
-		}
-		NOT = {
-			calc_true_if = {
-				amount = 7
-				has_law = law_voting_power_0
-				has_law = banish_voting_power_0
-				has_law = execution_voting_power_0
-				has_law = revoke_title_voting_power_0
-				has_law = grant_title_voting_power_0
-				has_law = imprison_voting_power_0
-				has_law = war_voting_power_0
-			}
-		}
-	}	
-}
-
-government_flavor = {
-	name = gov_electorial_despotic_autocracy_norse
-	graphics = GFX_evt_viking_battle_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		OR = { 
 			has_law = imperial_administration
@@ -1647,6 +2888,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -1689,48 +2931,15 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
 			religion_group = indian_group
-		}
-		OR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		calc_true_if = {
-			amount = 6
-			has_law = law_voting_power_1
-			has_law = banish_voting_power_1
-			has_law = execution_voting_power_1
-			has_law = revoke_title_voting_power_1
-			has_law = grant_title_voting_power_1
-			has_law = imprison_voting_power_1
-			has_law = war_voting_power_1
-		}
-	}
-}
-
-government_flavor = {
-	name = gov_hereditary_aristocratic_autocracy_norse
-	graphics = GFX_evt_vikings_arriving_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		OR = { 
 			has_law = imperial_administration
@@ -1756,6 +2965,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -1788,6 +2998,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -1815,7 +3026,12 @@ government_flavor = {
 	graphics = GFX_evt_council_speaker
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		mercenary = no
 		OR = { 
@@ -1840,7 +3056,12 @@ government_flavor = {
 	graphics = GFX_evt_council_speaker
 	priority = 1
 	trigger = {
-		government = muslim_government
+		OR = {
+			government = muslim_government
+			government = makhzen_government
+			government = neoziamet_government
+			government = ghazwa_government
+		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		OR = { 
 			has_law = imperial_administration
@@ -1866,48 +3087,13 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
 		NOR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = tengri_pagan
 			religion = tengri_pagan_reformed
-		}
-		OR = { 
-			has_law = imperial_administration
-			has_law = ze_administration_laws_2
-		}
-		OR = {
-			NOT = { has_dlc = "Conclave" }
-			calc_true_if = {
-				amount = 6
-				has_law = law_voting_power_1
-				has_law = banish_voting_power_1
-				has_law = execution_voting_power_1
-				has_law = revoke_title_voting_power_1
-				has_law = grant_title_voting_power_1
-				has_law = imprison_voting_power_1
-				has_law = war_voting_power_1
-			}
-		}
-	}
-}
-
-government_flavor = {
-	name = gov_electorial_aristocratic_autocracy_norse
-	graphics = GFX_evt_vikings_arriving_oldgods
-	priority = 1
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 		}
 		OR = { 
 			has_law = imperial_administration
@@ -1936,6 +3122,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
@@ -2047,7 +3234,10 @@ government_flavor = {
 	priority = 1
 	trigger = {
 		NOT = { has_law = succ_gavelkind }
-		government = tribal_government
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
 	}
 }
 
@@ -2056,7 +3246,10 @@ government_flavor = {
 	graphics = GFX_evt_tribal_lands
 	priority = 1
 	trigger = {
-		government = tribal_government
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
 		has_law = succ_gavelkind
 	}
 }
@@ -2101,6 +3294,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2129,6 +3323,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2158,6 +3353,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2194,6 +3390,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2231,6 +3428,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2253,6 +3451,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2266,59 +3465,6 @@ government_flavor = {
 		has_law = grant_title_voting_power_0
 		has_law = imprison_voting_power_0
 		has_law = war_voting_power_0
-	}
-}
-
-government_flavor = {
-	name = gov_aztec
-	graphics = GFX_evt_throne_room_mesoamerican
-	priority = 2
-	trigger = {
-		independent = yes
-		NOT = {
-			has_landed_title = e_mexikha
-		}
-		OR = {
-			religion = aztec
-			religion = aztec_reformed
-		}
-	}
-}
-
-government_flavor = {
-	name = gov_hereditary_zun
-	graphics = GFX_evt_sun_temple
-	priority = 2
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = zun_pagan
-			religion = zun_pagan_reformed
-		}
-		tier = EMPEROR
-	}
-}
-
-government_flavor = {
-	name = gov_electorial_zun
-	graphics = GFX_evt_sun_temple
-	priority = 2
-	trigger = {
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		OR = {
-			religion = zun_pagan
-			religion = zun_pagan_reformed
-		}
-		tier = EMPEROR
 	}
 }
 
@@ -2396,6 +3542,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2414,6 +3561,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		religion_group = christian
@@ -2426,49 +3574,13 @@ government_flavor = {
 }
 
 government_flavor = {
-	name = gov_carolingian_hegemony
-	graphics = GFX_evt_rival_rulers
-	priority = 2
-	trigger = {
-		independent = yes
-		dynasty = 25061 #Karling
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		religion_group = christian
-		OR = {
-			tier = KING
-			tier = EMPEROR
-		}
-	}
-}
-
-government_flavor = {
-	name = gov_imperial_carolingian_hegemony
-	graphics = GFX_evt_rival_rulers
-	priority = 2
-	trigger = {
-		independent = yes
-		dynasty = 25061 #Karling
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			government = feudal_government
-			government = theocratic_feudal_government
-		}
-		religion_group = christian
-		tier = EMPEROR
-	}
-}
-
-government_flavor = {
 	name = gov_crusader_state
 	graphics = GFX_evt_western_knights_byzantine
 	priority = 2
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		independent = yes
@@ -2487,7 +3599,6 @@ government_flavor = {
 		NOT = { 
 			culture_group = arabic
 			culture_group = iranian
-			culture_group = altaic
 			culture_group = east_african
 		}
 	}
@@ -2500,6 +3611,7 @@ government_flavor = {
 	trigger = {
 		OR = {
 			government = feudal_government
+			government = agrarian_feudal_government
 			government = theocratic_feudal_government
 		}
 		independent = yes
@@ -2520,7 +3632,6 @@ government_flavor = {
 		NOT = { 
 			culture_group = arabic
 			culture_group = iranian
-			culture_group = altaic
 			culture_group = east_african
 		}
 	}
@@ -2544,11 +3655,7 @@ government_flavor = {
 	trigger = {
 		has_law = succ_eldership
 		NOT = { 
-			OR = {
 			capital_scope = { region = world_africa }
-			religion = west_african_pagan
-			religion = west_african_pagan_reformed
-			}
 		}
 	}
 }
@@ -2558,11 +3665,7 @@ government_flavor = {
 	graphics = GFX_evt_west_african_ruler
 	priority = 3
 	trigger = {
-		OR = {
-			capital_scope = { region = world_africa }
-			religion = west_african_pagan
-			religion = west_african_pagan_reformed
-		}
+		capital_scope = { region = world_africa }
 		has_law = succ_eldership
 	}
 }
@@ -2578,7 +3681,10 @@ government_flavor = {
 			religion = baltic_pagan_reformed
 		}
 		NOT = { has_law = succ_gavelkind }
-		government = tribal_government
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
 	}
 }
 
@@ -2592,45 +3698,10 @@ government_flavor = {
 			religion = baltic_pagan
 			religion = baltic_pagan_reformed
 		}
-		government = tribal_government
-		has_law = succ_gavelkind
-	}
-}
-
-government_flavor = {
-	name = gov_norse_chiefdom
-	graphics = GFX_evt_vikings_arriving_oldgods
-	priority = 2
-	trigger = {
-		NOT = { capital_scope = { region = world_africa } }
-		NAND = {
-			capital_scope = { region = world_europe_west_brittania }
-			culture_group = north_germanic
-		}
 		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
+			government = tribal_government
+			government = nomadtribal_government
 		}
-		NOT = { has_law = succ_gavelkind }
-		government = tribal_government
-	}
-}
-
-government_flavor = {
-	name = gov_noble_norse_chiefdom
-	graphics = GFX_evt_viking_throneroom_oldgods
-	priority = 2
-	trigger = {
-		NOT = { capital_scope = { region = world_africa } }
-		NAND = {
-			capital_scope = { region = world_europe_west_brittania }
-			culture_group = north_germanic
-		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
-		government = tribal_government
 		has_law = succ_gavelkind
 	}
 }
@@ -2643,7 +3714,10 @@ government_flavor = {
 		NOT = { capital_scope = { region = world_africa } }
 		religion_group = muslim
 		NOT = { has_law = succ_gavelkind }
-		government = tribal_government
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
 	}
 }
 
@@ -2654,7 +3728,10 @@ government_flavor = {
 	trigger = {
 		NOT = { capital_scope = { region = world_africa } }
 		religion_group = muslim
-		government = tribal_government
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
 		has_law = succ_gavelkind
 	}
 }
@@ -2664,13 +3741,12 @@ government_flavor = {
 	graphics = GFX_evt_moors
 	priority = 2
 	trigger = {
-		OR = {
-			capital_scope = { region = world_africa }
-			religion = west_african_pagan
-			religion = west_african_pagan_reformed
-		}
+		capital_scope = { region = world_africa }
 		NOT = { has_law = succ_gavelkind }
-		government = tribal_government
+		OR = {
+			government = tribal_government
+			government = nomadtribal_government
+		}
 	}
 }
 
@@ -2679,44 +3755,12 @@ government_flavor = {
 	graphics = GFX_evt_west_african_ruler
 	priority = 2
 	trigger = {
+		capital_scope = { region = world_africa }
 		OR = {
-			capital_scope = { region = world_africa }
-			religion = west_african_pagan
-			religion = west_african_pagan_reformed
+			government = tribal_government
+			government = nomadtribal_government
 		}
-		government = tribal_government
 		has_law = succ_gavelkind
-	}
-}
-
-government_flavor = {
-	name = gov_hereditary_danelaw
-	graphics = GFX_evt_midwinter_blot_oldgods
-	priority = 2
-	trigger = {
-		capital_scope = { region = world_europe_west_brittania }
-		NOR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		mercenary = no
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
-		culture_group = north_germanic
-	}
-}
-
-government_flavor = {
-	name = gov_electorial_danelaw
-	graphics = GFX_evt_midwinter_blot_oldgods
-	priority = 2
-	trigger = {
-		capital_scope = { region = world_europe_west_brittania }
-		OR = { has_law = succ_feudal_elective has_law = succ_hre_elective }
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
-		culture_group = north_germanic
 	}
 }
 
@@ -2776,16 +3820,6 @@ government_flavor = {
 }
 
 government_flavor = {
-	name = gov_aztec_empire
-	graphics = GFX_evt_throne_room_mesoamerican
-	priority = 3
-	trigger = {
-		independent = yes
-		has_landed_title = e_mexikha
-	}
-}
-
-government_flavor = {
 	name = gov_patriarchate
 	graphics = GFX_evt_bishop_byzantine
 	priority = 4
@@ -2793,13 +3827,11 @@ government_flavor = {
 		is_theocracy = yes
 		OR = {
 			religion = orthodox
-			religion = miaphysite
-			religion = monophysite
-			religion = monothelite
-			religion = iconoclast
-			religion = paulician
-			religion = nestorian
-			religion = messalian
+			religion = neodonatists
+			religion = marblists
+			religion = koptic
+			religion = mattaism
+			religion = chaldean
 		}
 	}
 }
@@ -2810,8 +3842,9 @@ government_flavor = {
 	priority = 4
 	trigger = {
 		OR = {
-			has_landed_title = k_papal_state
+			has_landed_title = k_papacy
 			has_landed_title = d_fraticelli
+			has_landed_title = k_sevillian_pope
 		}
 		NOT = { trait = bad_priest_christian }
 	}
@@ -2823,7 +3856,7 @@ government_flavor = {
 	priority = 4
 	trigger = {
 		OR = {
-			has_landed_title = k_papal_state
+			has_landed_title = k_papacy
 			has_landed_title = d_fraticelli
 		}
 		trait = bad_priest_christian
@@ -2848,6 +3881,31 @@ government_flavor = {
 	}
 }
 
+government_flavor = {
+	name = gov_eastern_feudalism
+	graphics = GFX_evt_chinese_emissary
+	priority = 1
+	trigger = {
+		government = eastern_feudal
+	}
+}
+
+government_flavor = {
+	name = gov_mandala
+	graphics = GFX_evt_battle_thai
+	priority = 1
+	trigger = {
+		government = mandala_government
+	}
+}
+government_flavor = {
+	name = gov_kratocracy
+	graphics = GFX_evt_throne_room_byzantine
+	priority = 1
+	trigger = {
+		government = hellenic_government
+	}
+}
 #####################################
 # Special Flavor Names (priority 4) #
 #####################################

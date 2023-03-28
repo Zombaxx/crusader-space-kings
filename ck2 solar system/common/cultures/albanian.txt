@@ -1,0 +1,179 @@
+albanian = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { easterngfx }
+	
+	arberian = { #Albanian
+		graphical_cultures = { byzantinegfx southerngfx }
+		
+		color = { 77 123 135 }
+
+		male_names = {
+			Abaz_Abbas Abdula_Abdullah Abdulmelik_Abdalmalik Abdulvehab_Abdalwahab Adnan Afrim Agim_Agim Agron Ahmet_Ahmad Alban_Albanus Aleksandër_Alexander Aleksio_Alexis Ali_Ali Ambrozi_Ambrose Anastas_Anastasius Andri_Andrew Ardian Antonjo_Anthony Arald_Harold Ardit Argjend Arianit Armando_Herman Arturi_Arthur Asti Azis_Aziz 
+			Bajram Bashkim Behar Benedikti_Benedict Beshir_Bashir Besian Besnik Blerim Burim
+			Caran Çipriani_Cyprian
+			Dardan Daut_David Dëfrim Depa Dhimitër_Demetrius Dimitri_Demetrius Dritan Durim 
+			Edon Ejub_Job Elez_Elijah Endrit Engjëll Enrik_Henry Esad_Asad Eshref_Ashraf
+			Faruk_Faruq Fatmir Fejzi_Fayiz Filip_Phillip Fisnik Flamur Frang_Francis Frederik_Frederick 
+			Gazmir_Casimir Gjergj_George Gjin_John Gjon_John Gjovani_John Gladim Gojko Grigor_Gregory Gulam_Ghulam
+			Herakliu_Hercules Hassan_Hasan Hysejn_Hussayn
+			Ibrahim_Abraham Iliaz_Elijah Ismail_Ishmael Isuf_Joseph
+			Japku_Jacob Jaser_Yasir Jetmir Jeton Jozif_Joseph Julian_Julian Junus_Jonah
+			Karl_Charles Kasem_Qasim Kastriot Klod_Claudius Kostandin_Constantine Kreshnik Kushtrim Kristo_Christopher 
+			Leon_Leo Leonit_Leonidas Leutrim Liridon Lorenc_Lawrence Luigj_Louis Lulëzim Lukë_Luke 
+			Maliq_Malik Marko_Mark Mëhill_Michael Mensur_Mansur Moisiu_Moses Muhameti_Muhammad Muriq Muzafer_Muzaffar Muzaka
+			Ndrek_Andronicus Nikolla_Nicholas Nuredin_Nuraddin
+			Omer_Umar
+			Pal_Paul Pëllumb Perparim Petro_Peter Pjetër_Peter Progon
+			Qamil_Jamal
+			Rajmond_Raymond Rašid_Rashid Robert_Robert
+			Sali_Salih Seid_Said Skender_Alexander Sulejman_Solomon 
+			Tahir_Tahir Tanush Tejmur_Timur Teodor_Theodore Thomas_Thomas Toni_Anthony
+			Uahid_Wahid
+			Valon Veli Visar Vladan_Vladimir
+			Xhebraili_Gabriel Xhevat_Jawad Xhulio_Julius Xhuljano_Julian
+			Ylli 
+			Zamir Zekerija_Zachary Zenun_Zenon Zogan
+		}
+		female_names = {
+			Afërdita Agnesa_Agnes Ajshë_Aisha Aleksia_Alexia Amine_Amina Arjeta Aurorë_Aurora Azize_Aziza
+			Blerina Blerta Blerte Bolja Bora Bosa Boxia Boša Boža 
+			Dafina Danjella_Daniela Dardana Diellza Drita Dua
+			Edona Era 
+			Fatmire_Fatima Feride_Farida Fjolla Florë_Flora Flutura Françeska_Frances 
+			Gentiana Gjeraqina Gjustina_Justina Gjylië_Julia Glorja_Gloria
+			Jehona 
+			Kaltrina
+			Lindita Liridona Luçja_Lucia Lule Luljeta 
+			Margaritare_Margaret Mëri_Mary Mirela Mirjeta 
+			Nadire_Nadira Nefise_Nafisa
+			Pranvera 
+			Rexhina_Regina
+			Shpresa Shqipe Sofja_Sophia Syzana_Susan 
+			Tahire_Tahira Terezja_Theresa Teuta Tirana 
+			Uahide_Wahida
+			Vanese_Vanessa Venera Vera_Vera Vesa 
+			Xhulia_Julia Xhuliana_Juliana
+			Yllka
+			Zejnebe_Zaynab
+		}		
+		
+		from_dynasty_prefix = "e "
+
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+	}
+	arbereshe = { #Italo-Albanians
+		graphical_cultures = { italiangfx southerngfx westerngfx }
+		
+		color = { 120 110 135 }
+
+		male_names = {
+			Aladro Alberto_Albert Alessandro_Alexander Alessio_Alexis Andrea_Andrew Angelo_Angel Anselmo_Anselm Antonio_Anthony Aroldo_Harold Aurelio_Aurelius Aitano_Caietanus 
+			Bartolomeo_Bartholomew Basilio_Basil Benedetto_Benedict Bernardo_Bernard Bonifacio_Boniface Bruno_Bruno 
+			Carlo_Charles Carmine Claudio_Claudius Clemente_Clement Cosa Costantino_Constantine Cristoforo_Christopher 
+			Daniele_Daniel Dario_Darius Davide_David Demetrio_Demetrius Domenico_Dominic Donato_Donatus 
+			Eduardo_Edward Eleuterio_Eleutherius Emanuele_Emmanuel Enrico_Henry Ercole_Hercules Ernesto_Ernest Eugenio_Eugene Ezio_Aetius 
+			Fabrizio_Fabrice Fausto_Faustus Federico_Frederick Felice_Felix Ferdinando_Ferdinand Ferruccio Filippo_Phillip Flavio_Flavius Francesco_Francis
+			Gabriele_Gabriel Geraldo_Gerald Gerardo_Gerard Giacomo_Jacob Giordano_Jordan Giorgio_George Giovanni_John Girolamo_Jerome Giulio_Julius Giuseppe_Joseph Goffredo_Godfrey Gregorio_Gregory Gualtiero_Walter Guglielmo_William Guido_Guy 
+			Innocenzo_Innocent 
+			Jacopo_Jacob 
+			Leonardo_Leonard Leone_Leo Livio_Livius Lorenzo_Lawrence Luca_Luke Luciano_Lucian Ludovico_Louis
+			Marco_Mark Mario_Marius Martino_Martin Massimo_Maximus Matteo_Matthew Mercurio_Mercury Michele_Michael 
+			Nicola_Nicholas
+			Ottavio_Octavius Ottone_Otto 
+			Paolo_Paul Pasquale_Pascal Pietro_Peter
+			Raffaele_Raphael Riccardo_Richard Roberto_Robert
+			Salvatore_Salvador Sergio_Sergius Simone_Simon Sotir Stefano_Stephen 
+			Terenzio_Terence Tito_Titus Tommaso_Thomas 
+			Ugo_Hugh Urbano_Urban 
+			Valentino_Valentine Valerio_Valerius Vincenzo_Vincent Vittorio_Victor
+			Zaccaria_Zachary
+		}
+		female_names = {
+			Adriana_Adriana Agostina_Augustina Alessandra_Alexandra Alice_Alice Amelia_Amelia Anastasia_Anastasia Anna_Anna Antonella_Antonia Antonia_Antonia Augusta_Augusta Aurelia_Aurelia Ausilia Atalanta
+			Beatrice_Beatrix Benedetta_Benedicta Berenice Bianca_Blanche 
+			Camilla_Camilla Carla_Caroline Caterina_Catherine Cecilia_Cecilia Clara_Clara Cleopatra Claudia_Claudia Cornelia_Cornelia  
+			Domenica_Dominique
+			Elena_Helen Eleonora_Eleanor Elisa_Elizabeth Elisabetta_Elizabeth Eugenia_Eugenia
+			Fausta Filippa_Philippa Flavia Flora_Flora Fortunata Francesca_Frances 
+			Giorgia_Georgia Giovanna_Jane Giulia_Julia
+			Isabella_Elizabeth 
+			Laura_Laura Lavinia Letizia_Letitia Lidia_Lydia Livia Lucia_Lucia 
+			Marcella_Marcella Margherita_Margaret Maria_Mary Matilda_Matilda 
+			Paola_Paula Patrizia_Patricia Proserpina
+			Rosa_Rosa 
+			Silvana_Silvana Sofia_Sophia Stefania_Stephanie 
+			Teresa_Theresa Tiziana_Tatiana Tosca
+			Valentina_Valentina Virginia_Virginia
+		}	
+		from_dynasty_prefix = "di "
+
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+	}
+	arvanitika = { #Greek Albanians
+		graphical_cultures = { byzantinegfx southerngfx }
+		secondary_event_pictures = greek
+		
+		color = { 77 123 195 }
+
+		male_names = {
+			Achilléas_Achilles Adrianós_Adrian Aléxandros_Alexander Aléxios_Alexis Anastásios_Anastasius Anatólios_Anatolius Andréas_Andrew Andrónikos_Andronicus Anthémios_Anthemius Anthimos_Anthimus Antilochos_Antilochus Antiochos_Antiochus Antónios_Anthony Apóstolos Archimídis Aristeidis_Aristides Aristotélis_Aristotle Arsénios_Arsenius Artémios_Artemius Athanásios_Athanasius Augustinos_Augustine
+			Christóphoros_Christopher Chrysanthos_Chrysanthus Chrysógonos_Chrysogonus 
+			Damianós_Damian Daniel_Daniel Dareios_Darius David_David Demetrios_Demetrius Dimos_Demetrius Diogénes_Diogenes Diomedes_Diomedes Dionysios_Dionysus Donatos_Donatus 
+			Ector_Hector Evripídis Eudóxios_Eudoxius Eustrátios_Eustratius Eugénios_Eugene Euphemios_Euphemius Eusébios_Eusebius Eustáthios_Eustace Evángelos_Evangelus
+            Fragískos_Francis
+			Gabriel_Gabriel Gennádios_Gennadius Geórgios_George Gerásimos_Gerasimus Germanós_German Giánnis_John Gregórios_Gregory 
+			Hektórios_Hector Helías_Elijah Heródotos_Herodotus Himerios_Himerius Hippolytos_Hippolytus Hypatios_Hypatius 
+			Iákobos_Jacob Iason_Jason Ieremías_Jeremiah Ignatios_Ignatius Ilías_Elijah Innokéntios_Innocent Ioánnes_John Iordánes_Jordan Ioseph_Joseph Iraklís_Hercules Isaakios_Isaac Isídoros_Isidore Ioulianos_Julian Ioustinianós_Justinian Ioustínos_Justin 
+			Kaisários_Caesar Kállistos_Callistus Kitsos Konstantínos_Constantine Konstántios_Constantius Kóstas_Constans Kosmás_Cosmas Kyriákos_Cyriacus Kyrillos_Cyril Kyros_Cyrus 
+			Lauréntios_Lawrence Lázaros_Lazarus Lekkas Leon_Leo Leonídas_Leonidas Leóntios_Leontius Loukás_Luke
+			Makários_Macarius Manólis_Emmanuel Márkos_Mark Martinos_Martin Matthaios_Matthew Maurikios_Maurice Maximos_Maximus Mégistos_Magnus Melétis Menélaos_Menelaus Methódios_Methodius Mihas_Michael
+			Neóphytos_Neophytus Neoptólemos_Neoptolemus Nikephóros_Nicephorus Nikítas_Niketas Nikodemos_Nicodemus Nikólaos_Nicholas 
+			Pamphilios_Pamphilus Pankrátios_Pancratius Pantoléon Paschális_Pascal Pávlos_Paul Pelágios_Pelagius Periandros Periklís_Pericles Pétros_Peter Philáretos_Philaretus Phílippos_Phillip Philotheos_Philotheus Phinéas_Phineas Phókas_Phocas Photios_Photius Ploutarchos_Plutarch Polykarpos_Polycarp Polyvios_Polybius Porphyrios_Porphyrius Prokópios_Procopius Pyrros_Pyrrhus
+			Raphail_Raphael Romanos_Roman 
+			Sabas_Sabas Samuel_Samuel Sarpedon Serapion_Serapion Sebastianos_Sebastian Sergios_Sergius Skevos Stéphanos_Stephen Spyrídon Stamatis Stavrákios_Stauracius Stelios Symeon_Simon Symmachos_Symmachus 
+			Telémakhos_Telemachus Thanos_Athanasius Theocháristos_Theocharis Theódoros_Theodore Theodosios_Theodosius Theódotos_Theodat Theódoulos_Theodulus Theókritos_Theocritus Theóktistos_Theoctistus Theophánes Theóphilos_Theophilus Theophylaktos_Theophylact Thomás_Thomas Tibérios_Tiberius Traianós_Trajan Timotheos_Timothy Tryphonas_Tryphon
+			Valérios_Valerius Vardas_Bardas Vartholomaios_Bartolomeus Vasíleios_Basil Velisários_Belisarius Vellerophon_Bellerophontes Vellerophontes_Bellerophontes Voíthios_Boethius Vospórios_Bosporius Vrasídas 
+            Zacharías_Zachary Zenóbios_Zenobius Zenon_Zenon
+		}
+		female_names = {
+			Adriane_Adriana Aethra Agápi Agáthe_Agatha Aglaia Agne_Agnes Aigidia Aikateríne_Catherine Aithra Alexándra_Alexandra Alexeia_Alexia Alíki_Alice Anastasía_Anastasia Andromeda Andromakhe Anna_Anna Anthe Anthousa Antigóni Antipatra Antonia_Antonia Aretí Apollonia_Apollonia Atalanta Athanasía_Athanasia 
+			Briseis
+			Cassándra Cleopátra_Cleopatra Chryseis Chrysogone_Chrysogone Clio Clymene
+			Damiane_Damiane Demetra_Demetra Déspoina Diomede Dionysia_Dionysia Dorothea_Dorothy 
+			Eirini_Irene Elaiodora Eléctra Elefthería Elpída_Elpis Erato Epiphania_Epiphania Eudokía_Eudocia Eugenia_Eugenia Eulalia_Eulalia Eunike_Eunice Euphemia_Euphemia Euphrasia_Euphrasia Euphrosyne_Euphrosyne Eurykleia Euterpe Eupraxia_Eupraxia Eusebia_Eusebia Eustathia_Eustathia Evanthia_Evanthia 
+			Gabriélia_Gabriela Garyphallia_Garyphallia Georgía_Georgia Gorgo Gregoria_Gregoria 
+			Hará Hecamede Helene_Helen Hippodamia Hypatia_Hypatia 
+			Ioánna_Jane Ioulia_Julia Iouliana_Juliana Ioustína_Justina Iphigeneia Iphis Ismene
+			Kale Kalliópi Konstantia_Constantia Konstantína_Constantina Kyra_Kyra Kyriake_Kyriake
+			Laodamia Laodice Leontía_Leontia Lydia_Lydia
+			Máchi Margaríta_Margaret María_Mary Marína_Marina Markia_Marcia Mártha_Martha Medeia Melantho Mélissa_Melissa Melpomene
+			Nikarete_Nikarete Néki Nikolétta_Nicole Nonna 
+            Olga_Helga Olympia_Olympia
+			Parthéna_Parthena Pavlína_Paula Pelagia_Pelagia Penelope Penthesilea Petronia_Petronia Philippa_Philippa Photiní Phyllis_Phyllis Polyhymnia Pulcheria_Pulcheria 
+			Rhodanthe_Rhodanthe Romane_Romana Romylia_Romylia 
+			Sapfo Sergia_Sergia Sibylla_Sibyl Simonis_Simone Sophía_Sophia Stélla Stephania_Stephanie 
+			Terpsihóri Thalia Theano Thékla_Thekla Theocháriste_Theochariste Theodóra_Theodora Theodosía_Theodosia Theognosia_Theognosia Theoktiste_Theoktiste Theophano_Theophano Thomais_Thomasina 
+            Urania
+			Valeria_Valeria Várbara_Barbara Vasillikí_Basilia Viviana_Vivian 
+			Xene_Xenia 
+			Zenobia_Zenobia Zoe_Zoe
+		}		
+		parent = greek
+		
+		from_dynasty_prefix = "tou "
+
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+	}
+}

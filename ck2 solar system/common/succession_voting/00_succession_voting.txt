@@ -123,6 +123,31 @@ feudal_elective = {
 
 	elector_vote_strength = {
 		days = 1
+		additive_modifier = { #MPS
+			value = 2
+			localisation_key = tooltip_member_parliament
+			vassal_of = FROMFROM 
+			OR = {
+				has_minor_title = title_member_parliament_britannia
+				has_minor_title = title_member_parliament_britannia_1
+				has_minor_title = title_member_parliament_britannia_2
+				has_minor_title = title_member_parliament_EU
+				has_minor_title = title_member_parliament_EU_1
+				has_minor_title = title_member_parliament_EU_2
+				has_minor_title = title_member_parliament_russia
+				has_minor_title = title_member_parliament_russia_1
+				has_minor_title = title_member_parliament_russia_2
+				has_minor_title = title_member_parliament_germany
+				has_minor_title = title_member_parliament_germany_1
+				has_minor_title = title_member_parliament_germany_2
+				has_minor_title = title_senator
+				has_minor_title = title_senator_1
+				has_minor_title = title_senator_2
+				has_minor_title = title_chechnik
+				has_minor_title = title_chechnik_1
+				has_minor_title = title_chechnik_2
+			}
+		}
 	}
 	
 	elector_selection = {
@@ -139,6 +164,30 @@ feudal_elective = {
 				holder_scope = {
 					character = PREVPREV
 				}
+			}
+		}
+		additive_modifier = { #MPS
+			value = 10
+			vassal_of = FROMFROM 
+			OR = {
+				has_minor_title = title_member_parliament_britannia
+				has_minor_title = title_member_parliament_britannia_1
+				has_minor_title = title_member_parliament_britannia_2
+				has_minor_title = title_member_parliament_EU
+				has_minor_title = title_member_parliament_EU_1
+				has_minor_title = title_member_parliament_EU_2
+				has_minor_title = title_member_parliament_russia
+				has_minor_title = title_member_parliament_russia_1
+				has_minor_title = title_member_parliament_russia_2
+				has_minor_title = title_member_parliament_germany
+				has_minor_title = title_member_parliament_germany_1
+				has_minor_title = title_member_parliament_germany_2
+				has_minor_title = title_senator
+				has_minor_title = title_senator_1
+				has_minor_title = title_senator_2
+				has_minor_title = title_chechnik
+				has_minor_title = title_chechnik_1
+				has_minor_title = title_chechnik_2
 			}
 		}
 		additive_modifier = { #
@@ -372,15 +421,7 @@ feudal_elective = {
 			FROMFROM = {
 				has_law = cognatic_succession
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -393,33 +434,19 @@ feudal_elective = {
 			}
 			NOR = {
 				has_religion_feature = religion_patriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
+				is_equalist_religion = yes
 			}
 			FROM = {
 				is_female = no
 			}
 		}
-
 		additive_modifier = { #Gender weights
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_sow
 			FROMFROM = {
 				has_law = status_of_women_0
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -430,15 +457,7 @@ feudal_elective = {
 			FROMFROM = {
 				has_law = status_of_women_1
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -449,15 +468,7 @@ feudal_elective = {
 			FROMFROM = {
 				has_law = status_of_women_2
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -468,15 +479,7 @@ feudal_elective = {
 			FROMFROM = {
 				has_law = status_of_women_3
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -509,6 +512,7 @@ feudal_elective = {
 				is_female = no
 			}
 		}
+
 
 		#Ageism
 		additive_modifier = { 
@@ -589,6 +593,7 @@ feudal_elective = {
 		additive_modifier = { 
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_fellow_culture
+			NOT = { religion = blorgist }
 			NOT = { character = FROM }
 			culture = FROM
 		}
@@ -597,16 +602,19 @@ feudal_elective = {
 			localisation_key = tooltip_feudal_elector_vote_stranger
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
 			NOT = { culture = FROM }
+			NOT = { religion = blorgist }
 		}
 		additive_modifier = { 
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_foreigner
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
 			NOT = { culture_group = FROM }
+			NOT = { religion = blorgist }
 		}
 		additive_modifier = { #Candidate is a foreigner's pet 
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_strangers_pet
+			NOT = { religion = blorgist }
 			FROM = { 
 				character = ROOT_FROMFROMFROM 
 				culture = ROOT
@@ -616,6 +624,7 @@ feudal_elective = {
 		additive_modifier = { #Candidate is a foreigner's pet 
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_foreigners_pet
+			NOT = { religion = blorgist }
 			FROM = { 
 				character = ROOT_FROMFROMFROM 
 				culture = ROOT
@@ -625,29 +634,38 @@ feudal_elective = {
 		additive_modifier = { #If candidate is elected, he will rule from a capital outside this dejure.
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_political_concerns
-			capital_scope = { de_jure_liege = FROMFROM }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
 			FROM = {
 				is_ruler = yes 
-				vassal_of = FROMFROM
-				capital_scope = { NOT = { de_jure_liege = ROOT_FROMFROM } }
+				is_vassal_or_below_of = ROOT_FROMFROM
+				capital_scope = { NOT = { de_jure_liege_or_above = ROOT_FROMFROM } }
 			}
 		}
 		additive_modifier = { #Candidate is a foreign ruler.
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
-			capital_scope = { de_jure_liege = FROMFROM }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
+			NOT = { religion = blorgist }
 			FROM = {
 				is_ruler = yes 
 				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+				OR = {
+					capital_scope = { de_jure_liege_or_above = ROOT_FROMFROM }
+					de_jure_liege_or_above = ROOT_FROMFROM
+				}
 			}
 		}
 		additive_modifier = { #Candidate is a foreign non-dejure ruler.
 			value = -500
 			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
-			NOT = { capital_scope = { de_jure_liege = FROMFROM } }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
 			FROM = {
 				is_ruler = yes 
 				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+				NOR = {
+					capital_scope = { de_jure_liege_or_above = ROOT_FROMFROM }
+					de_jure_liege_or_above = ROOT_FROMFROM
+				}
 			}
 		}
 
@@ -658,6 +676,7 @@ feudal_elective = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -670,31 +689,11 @@ feudal_elective = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
-			NOR = { 
-				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
-				} 
+			NOT = { religion_group = buddhist_group }
+			FROM = {
+				ROOT = {
+					has_sympathy_for_public_religion_of_prev_trigger = yes
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -707,6 +706,7 @@ feudal_elective = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
@@ -982,14 +982,14 @@ feudal_elective = {
 			value = 30
 			localisation_key = tooltip_feudal_elector_vote_strong_claimant
 			FROM = { 
-				has_claim = FROMFROM
+				has_claim = ROOT_FROMFROM
 			}
 		}
 		additive_modifier = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_weak_claimant
 			FROM = { 
-				has_weak_claim = FROMFROM
+				has_weak_claim = ROOT_FROMFROM
 			}
 		}
 
@@ -1457,7 +1457,10 @@ feudal_elective = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_born_in_the_purple
 			NOT = { character = FROM } #Do not judge yourself.
+			OR = {
 			culture_group = byzantine
+			religion = marblists
+			}
 			FROM = { 
 				trait = born_in_the_purple
 			}
@@ -1865,6 +1868,8 @@ feudal_elective = {
 				religion_group = muslim
 				religion_group = jewish_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				religion_group = syncratic_group
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
 				religion = bon
@@ -1887,6 +1892,8 @@ feudal_elective = {
 					NOT = { religion = bon_reformed }
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
+					NOT = { religion = novelist }
+					NOT = { religion = novelist_reformed }
 				}
 			}
 			NOT = { trait = temperate }
@@ -1901,6 +1908,8 @@ feudal_elective = {
 			OR = { 
 				religion_group = christian 
 				religion_group = muslim
+				religion_group = syncratic_group
+				is_communist_religion_trigger = yes
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -1984,7 +1993,9 @@ feudal_elective = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -2029,6 +2040,7 @@ feudal_elective = {
 				}
 				trait = lustful
 				trait = hedonist
+				is_esoteric_religion_trigger = yes
 			}
 			FROM = { 
 				trait = lustful
@@ -2116,7 +2128,10 @@ feudal_elective = {
 			OR = { 
 				religion_group = christian
 				religion_group = muslim
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				is_communist_religion_trigger = yes
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -2199,7 +2214,9 @@ feudal_elective = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion_group = jewish_group
+				religion_group = syncratic_group
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -2235,7 +2252,9 @@ feudal_elective = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -2303,9 +2322,10 @@ feudal_elective = {
 			localisation_key = tooltip_feudal_elector_vote_content_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
-				religion = buddhist
+				religion_group = buddhist_group
 				religion = jain
 				religion = bon
+				religion = bahai
 				pacifist = yes
 			}
 			FROM = { 
@@ -2606,8 +2626,89 @@ feudal_elective = {
 			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			religion_group = zoroastrian_group
+			FROM = {
+				trait = saoshyant_descendant
+			}
+		}
+		additive_modifier = { #Praised for being a possible_reincarnation_of_god 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_possible_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = possible_reincarnation_of_god
+			}
+		}
+		additive_modifier = { #Praised for being a real_reincarnation_of_god 
+			value = 30
+			localisation_key = tooltip_feudal_elector_vote_real_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = real_reincarnation_of_god
+			}
+		}
+		additive_modifier = { #Praised for being an israeli_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
 			FROM = { 
-				trait = saoshyant_descendant 
+				trait = israeli_messiah
+			}
+		}
+		additive_modifier = { #Praised for being a mikraist_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = mikraist_messiah
+			}
+		}
+		additive_modifier = { #Praised for being a leninov 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_leninov_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = leninist
+			FROM = { 
+				trait = leninov 
+			}
+		}
+		additive_modifier = { #Shunned for being an israeli_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = israeli_messiah
+			}
+		}
+		additive_modifier = { #Shunned for being a mikraist_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
+			FROM = { 
+				trait = mikraist_messiah
+			}
+		}
+		additive_modifier = { #Shunned for being a leninov 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_leninov_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = stalinist
+			FROM = { 
+				trait = leninov 
+			}
+		}
+		additive_modifier = { #Shunned for being a sparrow 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_sparrow_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			OR = { religion = maoist religion = red_cult }
+			FROM = { 
+				trait = sparrow 
 			}
 		}
 		additive_modifier = { #Praised for being Adventurer
@@ -2914,6 +3015,7 @@ feudal_elective = {
 			religion = FROM
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			NOT = { religion = bon }
 			OR = { 
 				AND = { 
@@ -2938,6 +3040,15 @@ feudal_elective = {
 					trait = sympathy_zoroastrianism
 					trait = sympathy_pagans
 					trait = sympathy_indian
+					trait = sympathy_buddhism
+					trait = sympathy_old_world_cultist
+					trait = sympathy_esoteric
+					trait = sympathy_syncratic
+					trait = sympathy_oceanic
+					trait = sympathy_alien
+					trait = sympathy_synth
+					trait = sympathy_chinese
+					trait = sympathy_shinto
 				}
 			}
 		}
@@ -3662,15 +3773,7 @@ tanistry = {
 			FROMFROM = {
 				has_law = cognatic_succession
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -3683,33 +3786,19 @@ tanistry = {
 			}
 			NOR = {
 				has_religion_feature = religion_patriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
+				is_equalist_religion = yes
 			}
 			FROM = {
 				is_female = no
 			}
 		}
-
 		additive_modifier = { #Gender weights
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_sow
 			FROMFROM = {
 				has_law = status_of_women_0
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -3720,15 +3809,7 @@ tanistry = {
 			FROMFROM = {
 				has_law = status_of_women_1
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -3739,15 +3820,7 @@ tanistry = {
 			FROMFROM = {
 				has_law = status_of_women_2
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -3758,15 +3831,7 @@ tanistry = {
 			FROMFROM = {
 				has_law = status_of_women_3
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -3880,6 +3945,7 @@ tanistry = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_fellow_culture
 			NOT = { character = FROM }
+			NOT = { religion = blorgist }
 			culture = FROM
 		}
 		additive_modifier = { 
@@ -3887,18 +3953,21 @@ tanistry = {
 			localisation_key = tooltip_feudal_elector_vote_stranger
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
 			NOT = { culture = FROM }
+			NOT = { religion = blorgist }
 		}
 		additive_modifier = { 
 			value = -40
 			localisation_key = tooltip_feudal_elector_vote_foreigner
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
 			NOT = { culture_group = FROM }
+			NOT = { religion = blorgist }
 		}
 		additive_modifier = { #Candidate is a foreigner's pet 
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_strangers_pet
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
-			FROM = { 
+			NOT = { religion = blorgist }
+			FROM = {
 				character = ROOT_FROMFROMFROM 
 				culture = ROOT
 			}
@@ -3908,6 +3977,7 @@ tanistry = {
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_foreigners_pet
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
+			NOT = { religion = blorgist }
 			FROM = { 
 				character = ROOT_FROMFROMFROM 
 				culture = ROOT
@@ -3917,30 +3987,39 @@ tanistry = {
 		additive_modifier = { #If candidate is elected, he will rule from a capital outside this dejure.
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_political_concerns
-			capital_scope = { de_jure_liege = FROMFROM }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
 			FROM = {
 				is_ruler = yes 
-				vassal_of = FROMFROM
-				capital_scope = { NOT = { de_jure_liege = FROMFROM } }
+				is_vassal_or_below_of = ROOT_FROMFROM
+				capital_scope = { NOT = { de_jure_liege_or_above = ROOT_FROMFROM } }
 			}
 		}
 		additive_modifier = { #Candidate is a foreign ruler.
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
-			capital_scope = { de_jure_liege = FROMFROM }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
+			NOT = { religion = blorgist }
 			FROM = {
 				is_ruler = yes 
-				NOT = { is_vassal_or_below_of = FROMFROM }
+				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+				OR = {
+					capital_scope = { de_jure_liege_or_above = ROOT_FROMFROM }
+					de_jure_liege_or_above = ROOT_FROMFROM
+				}
 			}
 		}
 		additive_modifier = { #Candidate is a foreign non-dejure ruler.
 			value = -500
 			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
-			NOT = { capital_scope = { de_jure_liege = FROMFROM } }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
 			FROM = {
 				is_ruler = yes 
 				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+				NOR = {
+					capital_scope = { de_jure_liege_or_above = ROOT_FROMFROM }
+					de_jure_liege_or_above = ROOT_FROMFROM
+				}
 			}
 		}
 
@@ -3951,6 +4030,7 @@ tanistry = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -3963,31 +4043,11 @@ tanistry = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
-			NOR = { 
-				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
-				} 
+			NOT = { religion_group = buddhist_group }
+			FROM = {
+				ROOT = {
+					has_sympathy_for_public_religion_of_prev_trigger = yes
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -4000,6 +4060,7 @@ tanistry = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
@@ -4318,14 +4379,14 @@ tanistry = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_strong_claimant
 			FROM = { 
-				has_claim = FROMFROM
+				has_claim = ROOT_FROMFROM
 			}
 		}
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_weak_claimant
 			FROM = { 
-				has_weak_claim = FROMFROM
+				has_weak_claim = ROOT_FROMFROM
 			}
 		}
 
@@ -5186,6 +5247,7 @@ tanistry = {
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
 				}
+				is_esoteric_religion_trigger = yes
 			}
 			NOT = { trait = chaste }
 			FROM = { 
@@ -5201,10 +5263,13 @@ tanistry = {
 				religion_group = muslim
 				religion_group = jewish_group
 				religion_group = indian_group
+				religion_group = syncratic_group
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
 				religion = bon
 				religion = bon_reformed
+				religion = novelist
+				religion = novelist_reformed
 			}
 			NOT = { trait = gluttonous }
 			FROM = { 
@@ -5223,6 +5288,8 @@ tanistry = {
 					NOT = { religion = bon_reformed }
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
+					NOT = { religion = novelist }
+					NOT = { religion = novelist_reformed }
 				}
 			}
 			NOT = { trait = temperate }
@@ -5237,6 +5304,8 @@ tanistry = {
 			OR = { 
 				religion_group = christian 
 				religion_group = muslim
+				religion_group = syncratic_group
+				is_communist_religion_trigger = yes
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -5320,7 +5389,9 @@ tanistry = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -5365,6 +5436,7 @@ tanistry = {
 				}
 				trait = lustful
 				trait = hedonist
+				is_esoteric_religion_trigger = yes
 			}
 			FROM = { 
 				trait = lustful
@@ -5378,6 +5450,7 @@ tanistry = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -5417,6 +5490,7 @@ tanistry = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -5453,6 +5527,9 @@ tanistry = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = indian_group
+				religion_group = buddhist_group
+				religion_group = syncratic_group
+				is_communist_religion_trigger = yes
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -5535,7 +5612,9 @@ tanistry = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion_group = jewish_group
+				religion_group = syncratic_group
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -5572,6 +5651,8 @@ tanistry = {
 				religion_group = muslim
 				religion_group = jewish_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				religion_group = syncratic_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -5639,9 +5720,10 @@ tanistry = {
 			localisation_key = tooltip_feudal_elector_vote_content_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
-				religion = buddhist
+				religion_group = buddhist_group
 				religion = jain
 				religion = bon
+				religion = bahai
 				pacifist = yes
 			}
 			FROM = { 
@@ -5942,8 +6024,89 @@ tanistry = {
 			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			religion_group = zoroastrian_group
+			FROM = {
+				trait = saoshyant_descendant
+			}
+		}
+		additive_modifier = { #Praised for being a possible_reincarnation_of_god 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_possible_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = possible_reincarnation_of_god
+			}
+		}
+		additive_modifier = { #Praised for being a real_reincarnation_of_god 
+			value = 30
+			localisation_key = tooltip_feudal_elector_vote_real_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = real_reincarnation_of_god
+			}
+		}
+		additive_modifier = { #Praised for being an israeli_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
 			FROM = { 
-				trait = saoshyant_descendant 
+				trait = israeli_messiah
+			}
+		}
+		additive_modifier = { #Praised for being a mikraist_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = mikraist_messiah
+			}
+		}
+		additive_modifier = { #Praised for being a leninov 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_leninov_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = leninist
+			FROM = { 
+				trait = leninov 
+			}
+		}
+		additive_modifier = { #Shunned for being an israeli_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = israeli_messiah
+			}
+		}
+		additive_modifier = { #Shunned for being a mikraist_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
+			FROM = { 
+				trait = mikraist_messiah
+			}
+		}
+		additive_modifier = { #Shunned for being a leninov 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_leninov_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = stalinist
+			FROM = { 
+				trait = leninov 
+			}
+		}
+		additive_modifier = { #Shunned for being a sparrow 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_sparrow_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			OR = { religion = maoist religion = red_cult }
+			FROM = { 
+				trait = sparrow 
 			}
 		}
 		additive_modifier = { #Praised for being Adventurer
@@ -6250,6 +6413,7 @@ tanistry = {
 			religion = FROM
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			NOT = { religion = bon }
 			OR = { 
 				AND = { 
@@ -6274,6 +6438,15 @@ tanistry = {
 					trait = sympathy_zoroastrianism
 					trait = sympathy_pagans
 					trait = sympathy_indian
+					trait = sympathy_buddhism
+					trait = sympathy_old_world_cultist
+					trait = sympathy_esoteric
+					trait = sympathy_syncratic
+					trait = sympathy_oceanic
+					trait = sympathy_alien
+					trait = sympathy_synth
+					trait = sympathy_chinese
+					trait = sympathy_shinto
 				}
 			}
 		}
@@ -6940,15 +7113,7 @@ elective_gavelkind = {
 			FROMFROM = {
 				has_law = cognatic_succession
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -6961,33 +7126,19 @@ elective_gavelkind = {
 			}
 			NOR = {
 				has_religion_feature = religion_patriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
+				is_equalist_religion = yes
 			}
 			FROM = {
 				is_female = no
 			}
 		}
-
 		additive_modifier = { #Gender weights
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_sow
 			FROMFROM = {
 				has_law = status_of_women_0
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -6998,15 +7149,7 @@ elective_gavelkind = {
 			FROMFROM = {
 				has_law = status_of_women_1
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -7017,15 +7160,7 @@ elective_gavelkind = {
 			FROMFROM = {
 				has_law = status_of_women_2
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -7036,15 +7171,7 @@ elective_gavelkind = {
 			FROMFROM = {
 				has_law = status_of_women_3
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -7163,6 +7290,7 @@ elective_gavelkind = {
 		additive_modifier = { 
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_fellow_culture
+			NOT = { religion = blorgist }
 			NOT = { character = FROM }
 			culture = FROM
 		}
@@ -7170,17 +7298,20 @@ elective_gavelkind = {
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_stranger
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
+			NOT = { religion = blorgist }
 			NOT = { culture = FROM }
 		}
 		additive_modifier = { 
 			value = -40
 			localisation_key = tooltip_feudal_elector_vote_foreigner
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
+			NOT = { religion = blorgist }
 			NOT = { culture_group = FROM }
 		}
 		additive_modifier = { #Candidate is a foreigner's pet 
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_strangers_pet
+			NOT = { religion = blorgist }
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
 			FROM = { 
 				character = ROOT_FROMFROMFROM 
@@ -7191,6 +7322,7 @@ elective_gavelkind = {
 		additive_modifier = { #Candidate is a foreigner's pet 
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_foreigners_pet
+			NOT = { religion = blorgist }
 			FROM = { 
 				character = ROOT_FROMFROMFROM 
 				culture = ROOT
@@ -7200,29 +7332,39 @@ elective_gavelkind = {
 		additive_modifier = { #If candidate is elected, he will rule from a capital outside this dejure.
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_political_concerns
-			capital_scope = { de_jure_liege = FROMFROM }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
 			FROM = {
 				is_ruler = yes 
-				vassal_of = FROMFROM
-				capital_scope = { NOT = { de_jure_liege = FROMFROM } }
+				is_vassal_or_below_of = ROOT_FROMFROM
+				capital_scope = { NOT = { de_jure_liege_or_above = ROOT_FROMFROM } }
 			}
 		}
 		additive_modifier = { #Candidate is a foreign ruler.
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
-			capital_scope = { de_jure_liege = FROMFROM }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
+			NOT = { religion = blorgist }
 			FROM = {
 				is_ruler = yes 
-				NOT = { is_vassal_or_below_of = FROMFROM }
+				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+				OR = {
+					capital_scope = { de_jure_liege_or_above = ROOT_FROMFROM }
+					de_jure_liege_or_above = ROOT_FROMFROM
+				}
 			}
 		}
 		additive_modifier = { #Candidate is a foreign non-dejure ruler.
 			value = -500
 			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
-			NOT = { capital_scope = { de_jure_liege = FROMFROM } }
+			capital_scope = { de_jure_liege_or_above = FROMFROM }
+			NOT = { religion = blorgist }
 			FROM = {
 				is_ruler = yes 
 				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+				NOR = {
+					capital_scope = { de_jure_liege_or_above = ROOT_FROMFROM }
+					de_jure_liege_or_above = ROOT_FROMFROM
+				}
 			}
 		}
 
@@ -7233,10 +7375,11 @@ elective_gavelkind = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
-			FROM = { 
+			NOT = { religion_group = buddhist_group }
+			FROM = {
 				religion_group = ROOT
-				NOT = { religion = ROOT } 
-				NOT = { is_heresy_of = ROOT } 
+				NOT = { religion = ROOT }
+				NOT = { is_heresy_of = ROOT }
 			}
 		}
 		additive_modifier = { #Heathen
@@ -7245,31 +7388,11 @@ elective_gavelkind = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
-			NOR = { 
-				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
-				} 
+			NOT = { religion_group = buddhist_group }
+			FROM = {
+				ROOT = {
+					has_sympathy_for_public_religion_of_prev_trigger = yes
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -7282,6 +7405,7 @@ elective_gavelkind = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
@@ -7644,14 +7768,14 @@ elective_gavelkind = {
 			value = 30
 			localisation_key = tooltip_feudal_elector_vote_strong_claimant
 			FROM = { 
-				has_claim = FROMFROM
+				has_claim = ROOT_FROMFROM
 			}
 		}
 		additive_modifier = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_weak_claimant
 			FROM = { 
-				has_weak_claim = FROMFROM
+				has_weak_claim = ROOT_FROMFROM
 			}
 		}
 
@@ -8512,6 +8636,7 @@ elective_gavelkind = {
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
 				}
+				is_esoteric_religion_trigger = yes
 			}
 			NOT = { trait = chaste }
 			FROM = { 
@@ -8526,7 +8651,9 @@ elective_gavelkind = {
 				religion_group = christian 
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
 				religion = bon
@@ -8549,6 +8676,8 @@ elective_gavelkind = {
 					NOT = { religion = bon_reformed }
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
+					NOT = { religion = novelist }
+					NOT = { religion = novelist_reformed }
 				}
 			}
 			NOT = { trait = temperate }
@@ -8563,6 +8692,8 @@ elective_gavelkind = {
 			OR = { 
 				religion_group = christian 
 				religion_group = muslim
+				religion_group = syncratic_group
+				is_communist_religion_trigger = yes
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -8646,7 +8777,9 @@ elective_gavelkind = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -8691,6 +8824,7 @@ elective_gavelkind = {
 				}
 				trait = lustful
 				trait = hedonist
+				is_esoteric_religion_trigger = yes
 			}
 			FROM = { 
 				trait = lustful
@@ -8778,7 +8912,10 @@ elective_gavelkind = {
 			OR = { 
 				religion_group = christian
 				religion_group = muslim
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				is_communist_religion_trigger = yes
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -8861,7 +8998,9 @@ elective_gavelkind = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion_group = jewish_group
+				religion_group = syncratic_group
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -8897,7 +9036,9 @@ elective_gavelkind = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -8965,9 +9106,10 @@ elective_gavelkind = {
 			localisation_key = tooltip_feudal_elector_vote_content_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
-				religion = buddhist
+				religion_group = buddhist_group
 				religion = jain
 				religion = bon
+				religion = bahai
 				pacifist = yes
 			}
 			FROM = { 
@@ -9268,8 +9410,89 @@ elective_gavelkind = {
 			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			religion_group = zoroastrian_group
+			FROM = {
+				trait = saoshyant_descendant
+			}
+		}
+		additive_modifier = { #Praised for being a possible_reincarnation_of_god 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_possible_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = possible_reincarnation_of_god
+			}
+		}
+		additive_modifier = { #Praised for being a real_reincarnation_of_god 
+			value = 30
+			localisation_key = tooltip_feudal_elector_vote_real_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = real_reincarnation_of_god
+			}
+		}
+		additive_modifier = { #Praised for being an israeli_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
 			FROM = { 
-				trait = saoshyant_descendant 
+				trait = israeli_messiah
+			}
+		}
+		additive_modifier = { #Praised for being a mikraist_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = mikraist_messiah
+			}
+		}
+		additive_modifier = { #Praised for being a leninov 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_leninov_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = leninist
+			FROM = { 
+				trait = leninov 
+			}
+		}
+		additive_modifier = { #Shunned for being an israeli_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = israeli_messiah
+			}
+		}
+		additive_modifier = { #Shunned for being a mikraist_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
+			FROM = { 
+				trait = mikraist_messiah
+			}
+		}
+		additive_modifier = { #Shunned for being a leninov 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_leninov_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = stalinist
+			FROM = { 
+				trait = leninov 
+			}
+		}
+		additive_modifier = { #Shunned for being a sparrow 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_sparrow_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			OR = { religion = maoist religion = red_cult }
+			FROM = { 
+				trait = sparrow 
 			}
 		}
 		additive_modifier = { #Praised for being Adventurer - Boosted for Elective Gavelkind
@@ -9576,6 +9799,7 @@ elective_gavelkind = {
 			religion = FROM
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			NOT = { religion = bon }
 			OR = { 
 				AND = { 
@@ -9600,6 +9824,15 @@ elective_gavelkind = {
 					trait = sympathy_zoroastrianism
 					trait = sympathy_pagans
 					trait = sympathy_indian
+					trait = sympathy_buddhism
+					trait = sympathy_old_world_cultist
+					trait = sympathy_esoteric
+					trait = sympathy_syncratic
+					trait = sympathy_oceanic
+					trait = sympathy_alien
+					trait = sympathy_synth
+					trait = sympathy_chinese
+					trait = sympathy_shinto
 				}
 			}
 		}
@@ -10467,20 +10700,9 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = cognatic_succession
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
 			}
 		}
 		additive_modifier = { #Gender weights
@@ -10491,41 +10713,21 @@ eldership_rules = {
 			}
 			NOR = {
 				has_religion_feature = religion_patriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
+				is_equalist_religion = yes
 			}
 			FROM = {
 				is_female = no
 			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
 		}
-
 		additive_modifier = { #Gender weights
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_sow
 			FROMFROM = {
 				has_law = status_of_women_0
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
 			}
 		}
 		additive_modifier = { #Gender weights
@@ -10534,20 +10736,9 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = status_of_women_1
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
 			}
 		}
 		additive_modifier = { #Gender weights
@@ -10556,20 +10747,9 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = status_of_women_2
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
 			}
 		}
 		additive_modifier = { #Gender weights
@@ -10578,20 +10758,9 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = status_of_women_3
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
 			}
 		}
 		additive_modifier = { #Gender weights
@@ -10607,9 +10776,6 @@ eldership_rules = {
 			FROM = {
 				is_female = yes
 			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
 		}
 		additive_modifier = { #Gender weights
 			value = -75
@@ -10624,18 +10790,15 @@ eldership_rules = {
 			FROM = {
 				is_female = no
 			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
 		}
-
 		#NO Ageism - The ruler will not care, as long as they are its children.
 
 		#Culturism - Eldership is a tribalistic succession, therefore malus/bonus on cultural bias are increased.
-		additive_modifier = { 
+		additive_modifier = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_fellow_culture
 			NOT = { character = FROM }
+			NOT = { religion = blorgist }
 			culture = FROM
 			FROMFROM = { 
 				holder_scope = { character = ROOT } 
@@ -10645,6 +10808,7 @@ eldership_rules = {
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_stranger
 			NOT = { culture = FROM }
+			NOT = { religion = blorgist }
 			FROMFROM = { 
 				holder_scope = { character = ROOT } 
 			}
@@ -10654,8 +10818,9 @@ eldership_rules = {
 			localisation_key = tooltip_feudal_elector_vote_foreigner
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
 			NOT = { culture_group = FROM }
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
+			NOT = { religion = blorgist }
+			FROMFROM = {
+				holder_scope = { character = ROOT }
 			}
 		}
 
@@ -10666,6 +10831,7 @@ eldership_rules = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -10681,31 +10847,11 @@ eldership_rules = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
-			NOR = { 
-				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
-				} 
+			NOT = { religion_group = buddhist_group }
+			FROM = {
+				ROOT = {
+					has_sympathy_for_public_religion_of_prev_trigger = yes
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -10721,6 +10867,7 @@ eldership_rules = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { is_heresy_of = ROOT }
 			FROMFROM = { 
 				holder_scope = { character = ROOT } 
@@ -10735,7 +10882,7 @@ eldership_rules = {
 				holder_scope = { character = ROOT } 
 			}
 		}
-
+		
 		#Barbarism - Tribal succession, that is the point.
 	#	additive_modifier = { 
 	#		value = -15
@@ -11947,6 +12094,8 @@ eldership_rules = {
 				religion_group = muslim
 				religion_group = jewish_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				religion_group = syncratic_group
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
 				religion = bon
@@ -11972,6 +12121,8 @@ eldership_rules = {
 					NOT = { religion = bon_reformed }
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
+					NOT = { religion = novelist }
+					NOT = { religion = novelist_reformed }
 				}
 			}
 			NOT = { trait = temperate }
@@ -11987,8 +12138,10 @@ eldership_rules = {
 			localisation_key = tooltip_feudal_elector_vote_charitable_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
-				religion_group = christian 
+				religion_group = christian
 				religion_group = muslim
+				religion_group = syncratic_group
+				is_communist_religion_trigger = yes
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -12096,7 +12249,9 @@ eldership_rules = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -12147,6 +12302,7 @@ eldership_rules = {
 				}
 				trait = lustful
 				trait = hedonist
+				is_esoteric_religion_trigger = yes
 			}
 			FROM = { 
 				trait = lustful
@@ -12249,7 +12405,10 @@ eldership_rules = {
 			OR = { 
 				religion_group = christian
 				religion_group = muslim
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				is_communist_religion_trigger = yes
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -12353,7 +12512,9 @@ eldership_rules = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion_group = jewish_group
+				religion_group = syncratic_group
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -12395,7 +12556,9 @@ eldership_rules = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -12478,9 +12641,10 @@ eldership_rules = {
 			localisation_key = tooltip_feudal_elector_vote_content_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
-				religion = buddhist
+				religion_group = buddhist_group
 				religion = jain
 				religion = bon
+				religion = bahai
 				pacifist = yes
 			}
 			FROM = { 
@@ -12854,10 +13018,115 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			religion_group = zoroastrian_group
 			FROM = { 
-				trait = saoshyant_descendant 
+				trait = saoshyant_descendant
 			}
 			FROMFROM = { 
 				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Praised for being a possible_reincarnation_of_god 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_possible_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = possible_reincarnation_of_god
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Praised for being a real_reincarnation_of_god 
+			value = 30
+			localisation_key = tooltip_feudal_elector_vote_real_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = real_reincarnation_of_god
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Praised for being an israeli_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
+			FROM = { 
+				trait = israeli_messiah
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Praised for being a mikraist_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = mikraist_messiah
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Praised for being a leninov 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_leninov_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = leninist
+			FROM = { 
+				trait = leninov 
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Shunned for being an israeli_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = israeli_messiah
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Shunned for being a mikraist_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
+			FROM = { 
+				trait = mikraist_messiah
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Shunned for being a leninov 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_leninov_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = stalinist
+			FROM = { 
+				trait = leninov 
+			}
+			FROMFROM = { 
+				holder_scope = { character = ROOT } 
+			}
+		}
+		additive_modifier = { #Shunned for being a sparrow 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_sparrow_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			OR = { religion = maoist religion = red_cult }
+			FROM = { 
+				trait = sparrow 
 			}
 		}
 		additive_modifier = { #Praised for being Adventurer 
@@ -13227,6 +13496,7 @@ eldership_rules = {
 			religion = FROM
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			NOT = { religion = bon }
 			OR = { 
 				AND = { 
@@ -13251,6 +13521,15 @@ eldership_rules = {
 					trait = sympathy_zoroastrianism
 					trait = sympathy_pagans
 					trait = sympathy_indian
+					trait = sympathy_buddhism
+					trait = sympathy_old_world_cultist
+					trait = sympathy_esoteric
+					trait = sympathy_syncratic
+					trait = sympathy_oceanic
+					trait = sympathy_alien
+					trait = sympathy_synth
+					trait = sympathy_chinese
+					trait = sympathy_shinto
 				}
 			}
 			FROMFROM = { 
@@ -13645,15 +13924,7 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = cognatic_succession
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -13667,12 +13938,7 @@ eldership_rules = {
 			}
 			NOR = {
 				has_religion_feature = religion_patriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
+				is_equalist_religion = yes
 			}
 			FROM = {
 				is_female = no
@@ -13685,15 +13951,7 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = status_of_women_0
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -13705,15 +13963,7 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = status_of_women_1
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -13725,15 +13975,7 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = status_of_women_2
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -13745,15 +13987,7 @@ eldership_rules = {
 			FROMFROM = {
 				has_law = status_of_women_3
 			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
+			is_feminist_religion = no
 			FROM = {
 				is_female = yes
 			}
@@ -13789,7 +14023,6 @@ eldership_rules = {
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
-
 		#Ageism - Boosted for Elders, they will always prefer more experienced leaders.
 		additive_modifier = { 
 			value = -70
@@ -13848,6 +14081,7 @@ eldership_rules = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_fellow_culture
 			NOT = { character = FROM }
+			NOT = { religion = blorgist }
 			culture = FROM
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
@@ -13855,6 +14089,7 @@ eldership_rules = {
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_stranger
 			NOT = { culture = FROM }
+			NOT = { religion = blorgist }
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
 		additive_modifier = { 
@@ -13862,6 +14097,7 @@ eldership_rules = {
 			localisation_key = tooltip_feudal_elector_vote_foreigner
 			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
 			NOT = { culture_group = FROM }
+			NOT = { religion = blorgist }
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
 
@@ -13872,6 +14108,7 @@ eldership_rules = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -13885,31 +14122,11 @@ eldership_rules = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
-			NOR = { 
-				AND = {  
-					trait = sympathy_christendom
-					FROM = { religion_group = christian } 
-				} 
-				AND = {  
-					trait = sympathy_islam
-					FROM = { religion_group = muslim } 
-				} 
-				AND = {  
-					trait = sympathy_pagans
-					FROM = { religion_group = pagan_group } 
-				} 
-				AND = {  
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group } 
-				} 
-				AND = {  
-					trait = sympathy_judaism
-					FROM = { religion_group = jewish_group } 
-				} 
-				AND = {  
-					trait = sympathy_indian
-					FROM = { religion_group = indian_group } 
-				} 
+			NOT = { religion_group = buddhist_group }
+			FROM = {
+				ROOT = {
+					has_sympathy_for_public_religion_of_prev_trigger = yes
+				}
 			}
 			FROM = { 
 				NOT = { religion_group = ROOT } 
@@ -13923,6 +14140,7 @@ eldership_rules = {
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			FROM = { is_heresy_of = ROOT }
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
@@ -14242,7 +14460,7 @@ eldership_rules = {
 			value = 30
 			localisation_key = tooltip_feudal_elector_vote_strong_claimant
 			FROM = { 
-				has_claim = FROMFROM
+				has_claim = ROOT_FROMFROM
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
@@ -14250,7 +14468,7 @@ eldership_rules = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_weak_claimant
 			FROM = { 
-				has_weak_claim = FROMFROM
+				has_weak_claim = ROOT_FROMFROM
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
@@ -15012,6 +15230,7 @@ eldership_rules = {
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
 				}
+				is_esoteric_religion_trigger = yes
 			}
 			NOT = { trait = chaste }
 			FROM = { 
@@ -15028,6 +15247,8 @@ eldership_rules = {
 				religion_group = muslim
 				religion_group = jewish_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				religion_group = syncratic_group
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
 				religion = bon
@@ -15051,6 +15272,8 @@ eldership_rules = {
 					NOT = { religion = bon_reformed }
 					NOT = { religion = hellenic_pagan }
 					NOT = { religion = hellenic_pagan_reformed }
+					NOT = { religion = novelist }
+					NOT = { religion = novelist_reformed }
 				}
 			}
 			NOT = { trait = temperate }
@@ -15066,6 +15289,8 @@ eldership_rules = {
 			OR = { 
 				religion_group = christian 
 				religion_group = muslim
+				religion_group = syncratic_group
+				is_communist_religion_trigger = yes
 			}
 			NOT = { trait = greedy }
 			FROM = { 
@@ -15157,7 +15382,9 @@ eldership_rules = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -15204,6 +15431,7 @@ eldership_rules = {
 				}
 				trait = lustful
 				trait = hedonist
+				is_esoteric_religion_trigger = yes
 			}
 			FROM = { 
 				trait = lustful
@@ -15296,7 +15524,10 @@ eldership_rules = {
 			OR = { 
 				religion_group = christian
 				religion_group = muslim
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
+				is_communist_religion_trigger = yes
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -15388,7 +15619,9 @@ eldership_rules = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion_group = jewish_group
+				religion_group = syncratic_group
 			}
 			OR = { 
 				trait = arbitrary #No need for consistency
@@ -15426,7 +15659,9 @@ eldership_rules = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
+				religion_group = syncratic_group
 				religion_group = indian_group
+				religion_group = buddhist_group
 				religion = bon
 				religion = bon_reformed
 			}
@@ -15499,9 +15734,10 @@ eldership_rules = {
 			localisation_key = tooltip_feudal_elector_vote_content_positive
 			NOT = { character = FROM } #Do not judge yourself.
 			OR = { 
-				religion = buddhist
+				religion_group = buddhist_group
 				religion = jain
 				religion = bon
+				religion = bahai
 				pacifist = yes
 			}
 			FROM = { 
@@ -15827,7 +16063,97 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			religion_group = zoroastrian_group
 			FROM = { 
-				trait = saoshyant_descendant 
+				trait = saoshyant_descendant
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Praised for being a possible_reincarnation_of_god 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_possible_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = possible_reincarnation_of_god
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Praised for being a real_reincarnation_of_god 
+			value = 30
+			localisation_key = tooltip_feudal_elector_vote_real_reincarnation_of_god_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion_group = zoroastrian_group
+			FROM = {
+				trait = real_reincarnation_of_god
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Praised for being an israeli_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
+			FROM = { 
+				trait = israeli_messiah
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Praised for being a mikraist_messiah 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = mikraist_messiah
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Praised for being a leninov 
+			value = 10
+			localisation_key = tooltip_feudal_elector_vote_leninov_positive
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = leninist
+			FROM = { 
+				trait = leninov 
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Shunned for being an israeli_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_israeli_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = mikraist
+			FROM = { 
+				trait = israeli_messiah
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Shunned for being a mikraist_messiah 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_mikraist_messiah_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = jewish
+			FROM = { 
+				trait = mikraist_messiah
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Shunned for being a leninov
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_leninov_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			religion = stalinist
+			FROM = { 
+				trait = leninov 
+			}
+			has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		}
+		additive_modifier = { #Shunned for being a sparrow 
+			value = -10
+			localisation_key = tooltip_feudal_elector_vote_sparrow_negative
+			NOT = { character = FROM } #Do not judge yourself.
+			OR = { religion = maoist religion = red_cult }
+			FROM = { 
+				trait = sparrow 
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
@@ -16156,6 +16482,7 @@ eldership_rules = {
 			religion = FROM
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = buddhist_group }
 			NOT = { religion = bon }
 			OR = { 
 				AND = { 
@@ -16180,6 +16507,15 @@ eldership_rules = {
 					trait = sympathy_zoroastrianism
 					trait = sympathy_pagans
 					trait = sympathy_indian
+					trait = sympathy_buddhism
+					trait = sympathy_old_world_cultist
+					trait = sympathy_esoteric
+					trait = sympathy_syncratic
+					trait = sympathy_oceanic
+					trait = sympathy_alien
+					trait = sympathy_synth
+					trait = sympathy_chinese
+					trait = sympathy_shinto
 				}
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }

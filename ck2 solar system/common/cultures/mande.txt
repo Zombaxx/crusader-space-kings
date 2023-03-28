@@ -1,0 +1,207 @@
+mande = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { muslimgfx }	
+	
+	malian = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.45 0.45 0.2 }
+		
+		male_names = {
+			Abdelhamid_Abdalhamid Abdelmalik_Abdalmalik Abdoulaye_Abdullah Abdul_Abdul Abubakari_Abubakr Alhaji_Hajj Alhassan_Hasan Ali_Ali Ali-Zalil Alpha Amadou_Ahmad Amine_Amin André_Andrew 
+			Bachir_Bashir Bakr-Kanbu Bamari Bankanu Bassarou Bilal_Bilal Birama 
+			Cheick_Sheikh Cisse 
+			Dankaran Dawud_David Diara 
+			Eric_Erik
+			Farid_Farid Farouk_Faruq Fuluku 
+			Gane Gao 
+			Habib_Habib Hafiz_Hafiz Hakim_Hakim Haroun_Aaron 
+			Ibrahim_Abraham Igoumou Ilyas_Elijah Ishaq_Isaac Islam_Islam Ismail_Ismail Iyad 
+			Jamal_Jamal
+			Kabayo Kalabi Kambine Kanafa Kassei Kaya Kodama Kusoy 
+			Lahiltoul Lawalo 
+			Maghan Mahmud_Mahmud Malla Mamadou_Muhammad Mandé Manding-Bory Mari-Djata Moctar_Mukhtar Mohammed_Muhammad Morobani Moussa_Moses Moustapha_Mustafa
+			Nintasanay Nasir_Nasir Nuh_Noah 
+			Oumar_Umar Ousmane_Uthman 
+			Rachid_Rashid
+			Sakoura Samsou-Keina Sandaki Sané Soumaba Soumaoro Soundiata Souleyman_Solomon 
+			Takoi Tariq_Tariq Tunka 
+			Umar_Umar 
+			Wahid_Wahid Wali_Wali
+			Yahya_John Yacoub_Jacob Yoro Younoussi_Jonah Yousef_Joseph 
+			Zain_Zain Zakoi Zenku
+		}
+		female_names = {
+			Adja Aichata Aissata Alima Aminata Amita Aoua 
+			Barakissa Bintou 
+			Carole_Caroline
+			Deye Diane_Diana Djeneba Djenly Djire 
+			Elisabeth_Elizabeth
+			Fadima_Fatima Fatoumata_Fatima 
+			Halima Hawa Helen_Helen 
+			Ina 
+			Kadi Kamala Kilia Kolonkan 
+			Lorane 
+			Mariam_Mary 
+			Nafissa Namiss Nana
+			Safiatou Salimata Sarah_Sarah Sassouma Siya Sogolon 
+			Tekhaye 
+			Youma Yvonne_Yvonne 
+			Zeinab
+		}
+		from_dynasty_prefix = "de "		
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	mandinka = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.55 0.45 0.25 }
+		
+		male_names = {
+			Abdoulie_Abdul Adama Ahmad_Ahmad Alex_Alexander Alhaji_Hajj Alhassane_Hasan Ali_Ali Aliou Alpha Amadou_Ahmad Amara
+			Baba Brima Boukary
+			Cheick_Sheikh Cheikhou_Sheikh Cisse 
+			Daba Daoud_David Demba Diara Djeli 
+			Eric_Erik Ehsan_Ihsan
+			Famoudou Farid_Farid Fode 
+			Gane Gao 
+			Hargani Harun_Aaron Hassane_Hasan 
+			Ibrahim_Abraham Ishaq_Isaac Ismail_Ishmael 
+			Jalil_Jalil Jatto Joseph_Joseph
+			Kaba Kanji Karamoh Kasim_Qasim 
+			Lahiltoul Lamin Lansana Ludovic_Louis 
+			Mahmud_Mahmud Mamadi Mamadou_Muhammad "Mansa Musa" Martin_Martin Modibo Mohamed_Muhammad Momolu Mory Moussa_Moses
+			N'Faly Nintasanay Nuh_Noah 
+			Ouali Ousainou Ouati 
+			"Papa Demba"
+			Reidja 
+			Sadio Salif Salman_Solomon Samori Saye Sekou Seydou Sheriff_Sharif Sidique Souleymane_Solomon Sundiata 
+			Tariq_Tariq Tejan Toumani
+			Umar_Umar 
+			Yaqub_Jacob Yaya_John Yinsa Yoro 
+			Zargo
+		}
+		female_names = {
+			Adja Aichata_Aisha Aissata_Aisha Alima Aminata Amita Aoua Anna_Anna 
+			Barakissa Bintou 
+			Deye Djeneba Djenly Djire 
+			Fadima_Fatima Fatim_Fatima Fatoumata_Fatima 
+			Halima Hawa Henriette_Henriette 
+			Ina 
+			Kadi Kamala Kilia Kolonkan 
+			Lorane 
+			Mariam_Mary 
+			Nafissa Namiss Nana
+			Safiatou Salimata Sassouma Siya Sogolon 
+			Tekhaye 
+			Youma 
+			Zeinab
+		}
+		from_dynasty_prefix = "de "		
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	bambara = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.631 0.454 0.176 }
+		
+		male_names = {
+			Abdou_Abdul Adama_Adam Agafe Almoustapha_Mustafa Amadou_Ahmad Andre_Andrew 
+			Bachir_Bashir Bafi Bele Benjamin_Benjamin Borama 
+			Chaka 
+			Diamou Dirissa Djibril_Gabriel Do 
+			Emanuel_Emmanuel Etoile Evalistus 
+			François_Francis 
+			Godfrey_Godfrey 
+			Ibrahim_Abraham Ismaila_Ishmael Issa_Jesus 
+			Kibol Koumati 
+			Lassine_Hasan 
+			Mamady_Muhammad Mohamed_Muhammad Moise_Moses Mourad_Muard Moussa_Moses
+			Ousby 
+			Sanoh Sekou Souleymane_Solomon
+		}
+		female_names = {
+			Agustina Ahicha_Aisha Alexia_Alexia Anabell Awa
+			Bridget_Bridget Bintou 
+			Chata 
+			Diallo Doreen Dyness
+			Fatima_Fatima Florida 
+			Jenneh 
+			Lynn 
+			Mantwa 
+			Pauline_Paula 
+			Sangare Sesyliaa Ssidi 
+			Ugogo 
+			Violet
+		}
+		
+		from_dynasty_prefix = "de "	
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	soussou = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.380 0.274 0.105 }
+		
+		male_names = {
+			Abdoul_Abdul Abdoulaye_Abdullah Abdullah_Abdullah Abubakar_Abubakr Adama_Adam Afonso_Alphonse Aguibou Ahmed_Ahmad Aladji_Hajj Alhassane_Hasan Alpho Amar_Amar Antoine_Anthony Arafan Armand_Herman
+			Bachir_Bashir Benja Bernardo_Bernard 
+			Carlos_Charles Chérif_Sharif
+			Daud_David Diaby Domingos_Dominic
+			Eugène_Eugene
+			Facinet Félix_Felix Fernando_Ferdinand Fodé François_Francis
+			Gabriel_Gabriel Gérard_Gerard Guillaume_William
+			Hamid_Hamid Hasmieu Henrique_Henry
+			Ibrahim_Abraham Idrissa_Idris Ismaël_Ishmael
+			Jean-Marie Jeneba Jimmy_James João_John José_Joseph Jules_Julius
+			Kadialseny Kamil_Kamil Kandeh Kaoussoulaye Karim_Karim Kémoko
+			Louis_Louis Luís_Louis
+			Malick_Malik Mamadou_Muhammad Mário_Marius Mathieu_Matthew Mokhtar_Mukhtar Moussa_Moses Moustapha_Mustafa Muhammad_Muhammad
+			Oumar_Umar Ousmane_Uthman
+			Paul_Paul
+			Raimundo_Raymond Ramadan_Ramadan Richard_Richard Robert_Robert Rockslyn Roland_Roland
+			Said_Said Sekouba Souleymane_Solomon
+			Vicente_Vincent Victor_Victor
+			Yaya_John Yousef_Joseph
+		}
+		female_names = {
+			Aicha_Aisha Aisha_Aisha Aissatou Anna_Anna Aminata
+			Baba Balde Binta 
+			Cecile_Cecilia Chero 
+			Djenabou Djeyna
+			Fatim_Fatima Fatima_Fatima Fatimatou_Fatima Flora_Flora Freida 
+			Habiba Hadja Hawaou Hawlatou Helene Houline 
+			Isabelle_Elizabeth Isatu 
+			Jalloh 
+			Kadiatou Kadija 
+			Lamine Linda 
+			Mafory Mahawa Maraiama_Mary Mariama_Mary Marlybalde M'Balia Moune 
+			Namba Neneh
+			Ouste 
+			Rama 
+			Safiatou Sara_Sarah Satou  
+			Tanti Thierno Tigui Tatiana_Tatiana
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}		
+}

@@ -1,0 +1,1035 @@
+chinese_group = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+	
+	han = { #Standard Han. DO NOT DELETE
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 211 44 44 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	gaoshan = { #Gaoshan Chinese culture, AKA northern transplants to south China
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 168 5 5 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	manchurian = { #Northeastern Chinese with some Manchurian names
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 180 44 175 }
+
+		male_names = {
+			Alin An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Eje Elden Enlai Erdeni 
+			Fa Feng Fengge Fodo Fu Fulin 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Hongtaiji Honghui Hongli Huang Huizhong
+			Jakdan Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Minning Mingli Mingyu Mu Muke 
+			Niowanggiyan Nurhaci
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Sahaliyan Shanyuan Shaoqing Shen Shi Shihong Shirong Sholontu Shoushan Shunyuan Šolontu Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xuanye Xueqin 
+			Yang Yanlin Yaoting Ye Yelu Yingjie Yinzhen Yizhu Yong Yongliang Yongnian Yongrui Yongran Yongzheng Yuan Yusheng 
+			Zaichun Zaitian Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hojo Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Ilha
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Sain Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Ulhicun
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	jin = { #Shaanxi Chinese Culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 180 44 140 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	ji_lu = { #Shandong Chinese Culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 211 25 118 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	jiao_liao = { #Very specific Shangdong Chinese culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 138 21 79 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	beijing = { #Beijinger Culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 209 96 128 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	dongbei = { #Standard Northeastern Chinese culture, non Manchu
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 217 46 71 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	lan_yin = { #Gansu or Western Chinese culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 199 0 30 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	zhongyang = { #Central Chinese culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 249 10 180 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	jiang_huai = { #Anhui and Jiangsu area culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 214 69 110 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	xinan = { #Southwestern Chinese culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 196 100 6 }
+
+		male_names = {
+			An 
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chaolang Chen Cheng Chin Chonglin Chuanli
+			Da Datong Delun Deming Dingxiang Dong Donghai Duyi 
+			Enlai 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Heung Hong Honghui Huang Huizhong
+			Jia Jiahao Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jiayi Jie Jin Jing Jingguo Jingyi Jun Jun-fan
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei 
+			Min Ming Mingli Mingyu Mu Mulingzi
+			Nuan
+			Peng Pengfei Ping Po
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Sanfeng Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Song 
+			Tai Tai-San Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang "Xiao Po" Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yang Yanlin Yaoting Ye Yingjie Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yusheng 
+			Zemin Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou Zushi
+		}
+		female_names = {
+			Ai 
+			Bao 
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			He Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kun
+			Lan Lanfen Lanying Li Lihua Lijuan Liling Ling Liqin Liqiu Luli 
+			Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu Mulan
+			Ning Nuan Nuying 
+			Qiao Qiaolian Qing Qingge Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shan Shu Shuang Shuchun Su Suyin 
+			Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yu Yun 
+			Zan Zhen Zhenzhen Zhilan Zongying
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	taiwanese = { #Mainstream Taiwanese culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 181 73 14 }
+
+		male_names = {
+			An 
+			Bai Bo 
+			Cao Chang Changpu Chao Chen Cheng Che-tsai Chia-ching Chi-chun Chi-hsiang Chih-ying Chin Ching-jung Cho-liang Chou Chu Chuan-huing Chun-lin
+			Da Dong 
+			Fa Fei Feng Fu 
+			Gang Gen Gui 
+			Hai Han Heng Hong Houei-kuen Hsiao-hsien Hsien-chi Huang Hung-hsiang
+			In-ting
+			Kai Kang Kong Kuan-lin Kun-fang
+			Leehom Lei Li Lian Liang Lin Liu Long 
+			Maolin Mei-shu Min Ming Ming-liang Min-you Mu 
+			Pan Peng Ping Po-cheng 
+			Qi Qilong Qiu Quan 
+			Ru 
+			Shen Shi Shih-chiao Shin-che Shoushan Shu-hao Shui-long Song 
+			Tai Tang Tao Teng-pho Te-sheng Tshiong-tso Tu Tuan Tze-fan
+			Uen
+			Wei Wen Wong Wu
+			Xia Xiang Xin Xing Xuzhong 
+			Yang Yao-ting Ye Yong You-peng You-sheng Yuan Yu-Chien Yu-ching Yuk-hei Yusheng 
+			Zhi Zhong Zhou
+		}
+		female_names = {
+			Ai
+			Bao 
+			Chiao-en Chi-chen Chi-ling Ching-hsia Ching-hui Ching-yi Ching-yun Chiu-luan Chun Chun-chen 
+			Fan Fang Fen 
+			Guang 
+			Hsi-Lei Hsin Hua Huan Hui Hui-hsin 
+			I-ling
+			Ka Kun
+			Lan Li-Chun Lim Ling 
+			Mei 
+			Naiwen Ning Nuan 
+			Qiao Qing 
+			Rong 
+			Shan Shih-hsin Shu Shuang Shuhui Su Su-wei Syulan 
+			Ting Tzu-yu 
+			Xiu Xue 
+			Ya Ya-chih Yan Yi Yi-chen Ying Ying-git Yu Yun Yun-yun
+			Zan Zhen
+		}
+		allow_looting = yes
+		seafarer = yes
+		feminist = yes
+		
+		parent = hokkien
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	chungyangren = { #Mountain Taiwanese
+		graphical_cultures = { sinosoutheastasiangfx chinesegfx bodpagfx mongolgfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 237 185 40 }
+
+		male_names = {
+			An 
+			Bai Bo Bolin 
+			Cao Chang Changpu Chao Chen Cheng Che-tsai Chia-ching Chi-chun Chi-hsiang Chih-ying Chin Ching-jung Cho-liang Chou Chu Chuan-huing Chun-lin
+			Da Dong 
+			Fa Fei Feng Fu 
+			Gang Gen Gui 
+			Hai Han Heng Hong Houei-kuen Hsiao-hsien Hsien-chi Huang Hung-hsiang
+			In-ting
+			Kai Kang Kong Kuan-lin Kun-fang
+			Leehom Lei Li Lian Liang Lin Liu Long 
+			Maolin Mei-shu Min Ming Ming-liang Min-you Mu 
+			Pan Peng Ping Po-cheng 
+			Qi Qilong Qiu Quan 
+			Ru 
+			Shen Shi Shih-chiao Shin-che Shoushan Shu-hao Shui-long Song 
+			Tai Tang Tao Teng-pho Te-sheng Tshiong-tso Tu Tuan Tze-fan
+			Uen
+			Wei Wen Wong Wu
+			Xia Xiang Xin Xing Xuzhong 
+			Yang Yangzhen Yao-ting Ye Yong You-peng You-sheng Yuan Yu-Chien Yu-ching Yuk-hei Yusheng 
+			Zhi Zhong Zhou
+		}
+		female_names = {
+			Ai
+			Bao 
+			Chiao-en Chi-chen Chi-ling Ching-hsia Ching-hui Ching-yi Ching-yun Chiu-luan Chun Chun-chen 
+			Fan Fang Fen 
+			Guang 
+			Hsi-Lei Hsin Hua Huan Hui Hui-hsin 
+			I-ling
+			Ka Kun
+			Lan Li-Chun Lim Ling 
+			Mei 
+			Naiwen Ning Nuan 
+			Qiao Qing 
+			Rong 
+			Shan Shih-hsin Shu Shuang Shuhui Su Su-wei Syulan 
+			Ting Tzu-yu 
+			Xiu Xue 
+			Ya Ya-chih Yan Yi Yi-chen Ying Ying-git Yu Yun Yun-yun
+			Zan Zhen
+		}
+		
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		tribal_name = "TRIBAL_NAME_PROV_CLAN"
+		dukes_called_kings = yes
+		parent = hokkien
+		disinherit_from_blinding = yes
+	}
+	hui = { #Hui culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 144 217 34 }
+
+		male_names = {
+			Abd-al-Qayyum Abdul_Abdul Al-Hajj_Hajj Anliang
+			Bai Bingwen Bo Bohai Bojing Bolin Boqin 
+			Chang Changming Changpu Chao Chen Cheng Chonglin Chuanli Chongxi Chun Chengxiang
+			Da Delun Deming Dingxiang Dong Donghai Duyi Dunjing 
+			Fa Fan Fang Feng Fengge Fu Fuxiang Fulu Fushou Fuyuan
+			Gang Geming Gen Guang Guang Guangli Gui Guiren Guoliang Guowei Guozhi 
+			Ha_Hasan Hai Han Hasan He Heng Hong Honghui Huan Huang Hui Huiqing Huizhong Hongbo Hu_Hussayn Haiyan Hongbin Hongkui Hushan
+			Jian Jiang Jiangguo Jianjun Jianyu Jiayi Jing Jingguo Jingguo Jinhai Junjie Jianbin Jiyuan 
+			Kang Ke 
+			Lei Li Liang Ling Liqin Liu Liwei Longwei Liangyu Linyi 
+			Ma_Muhammad Majid_Majid Meilin Mengyao Mingli Mingyu Mingfeng Muazzam Mu_Muhammad Muhammad_Muhammad
+			Nasulading_Nasruddin Nianzu Niu Nur-al-Haqq
+			Peizhi Peng Pengfei Ping 
+			Qi Qiang Qiao Qing Qingshan Qingsheng Qiqiang Qiu Quan Qixi Qianling 
+			Renshu Rong Ru Ruh-al-Din Rulong 
+			Shan Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shun Shunyuan Song Shouyi Songshan Sayyid_Sayyid 
+			Tao Tengfei Tingguang Tengfei Tingfeng Tsai_Uthman Tzu-li 
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xiang Xianliang Xiaobo Xiaodan Xiaojian Xiaojian Xiaoli Xiaosheng Xiaotong Xiaosi Xiaowen Xin Xing Xiu Xue Xueqin Xinyi 
+			Yan Yang Yanlin Yaoting Yaozu Ye Yi Ying Yingjie Yong Yongliang Yongnian Yongrui Yongzheng You Yuan Yuanjun Yun Yunru Yusheng Yusuf_Joseph Yuanzhang 
+			Zhaohui Zhen Zhengsheng Zhenghong Zhiqiang Zhong Zhu Zian Zihao Zixin Zhi Zhanshan Zhancang Zhanao	
+		}
+		female_names = { 
+			Abrar Afifah Ai Anabia Ayesha
+			Baozhai Biyu 
+			Changchang Changying Chen Chenguang Chunhua Chuntao Cuifen 
+			Daiyu Dandan Dongmei 
+			Ehuang
+			Fan Fang Fenfang Fatumai_Fatima 
+			Guang 
+			Hareem Hind Hijirah Hong Hualing Huan Huian Huifang Huiling Huiqing 
+			Iqra
+			Jia Jiao Jiayi Jiaying Jie Jingfei Jinghua Jinjing Ju Juan Judi
+			Karida Khadijah Khalidah Khawlah 
+			Lan Lanfen Lanying Li Lihua Lijuan Liling Lin Ling Liqin Liqiu Liu Luli 
+			Madeeha Maryam Mariyah Maymunah Mariam Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mina Mingxia Mingzhu 
+			Ngo-Kwang Ning Niu Nuwwarrah Nuying 
+			O-Huang 
+			Peizhi
+			Qi Qiang Qiao Qiaolian Qing Qingge Qingling Qingzhao Qismah Qiu Qiuyue 
+			Rong Ruolan Ruqayyah
+			Saba Safaa Safiyyah Salma Shan Shahrazad Shu Shuang Shuchun Sirin Song Sumaiyah Suyin 
+			Thuwaibah Ting Tung-Mei 
+			Umamah
+			Wen Wenling Wenqian 
+			Xia Xiang Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yan Yanmei Yanyu Ying Yingtai Yu Yuan Yuanjun Yue Yun 
+			Zainab Zhenzhen Zhilan Zhu Zongying Zubaidah
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	sinoshan = { #Chinese Tibetan culture
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		unit_graphical_cultures = { chinesegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 122 161 6 }
+
+		male_names = {
+			Andelu_Andrew 
+			Bai Baoluo_Paul Bide_Peter Bingwen Bo Bohai Bojing Bolin Boqin 
+			Cao Chang Changming Changpu Chao Chen Cheng Chin Chonglin Chuanli
+			Da Dawei_David Delun Deming Dingxiang Dong Donghai Duyi 
+			Fa Feng Fengge Fu 
+			Gang Geming Gen Guangli Guangyu Gui Guoliang Guowei Guozhi 
+			Hai Han Heng Hong Honghui Huang Huizhong
+			Jiacuo_Gyatso Jiahao Jialei_Caleb Jian Jiang Jiangguo Jianhong Jianjun Jianyu Jianzan_Gyaltsen Jiayi Jie Jin Jing Jingguo Jingyi Jun 
+			Kai Kang 
+			Lei Li Lian Liang Lin Liu Liwei Long Longwei Luben_Reuben Lujia_Luke Luosang_Lobsang 
+			Maike_Michael Min Ming Mingli Mingyu Moxi_Moses Mu 
+			Peng Pengfei Ping 
+			Qi Qiang Qingshan Qingsheng Qiu Quan 
+			Renshu Ru 
+			Saimouer_Samuel Shanyuan Shaoqing Shen Shi Shihong Shirong Shoushan Shunyuan Sidifen_Stephen Song 
+			Tai Tao Tengfei Tingguang Tingfeng Tu
+			Wei Weimin Weisheng Weiyuan Weizhong Wen Wencheng Wenyan 
+			Xia Xiang Xianliang Xiaobo Xiaojian Xiaosheng Xiaotong Xiaowen Xin Xinyi Xing Xueqin 
+			Yabolahan_Abraham Yadang_Adam Yalun_Aaron Yang Yanlin Yaoting Ye Yesu_Jesus Yingjie Yisa_Isaac Yong Yongliang Yongnian Yongrui Yongzheng Yuan Yuehan_John Yuesefu_Joseph Yusheng 
+			Zhaohui Zhengsheng Zhenghong Zhi Zhihao Zhiqiang Zhong Zhou
+		}
+		female_names = {
+			Ailisi_Alice Anna_Anna
+			Changchang Changying Chun Chunhua Chuntao Cuifen 
+			Daibola_Deborah Dandan Dongmei 
+			Fan Fang Fen Fenfang 
+			Guang 
+			Hanna_Hannah Hua Hualing Huan Hui Huian Huifang Huiling Huiqing 
+			Jiao Jiaying Jingfei Jinghua Jinjing Ju Juan 
+			Kaiselin_Catherine Keluoyi_Chloe
+			Lan Lanfen Lanying Libeika_Rebecca Lijuan Liling Ling Liqin Liqiu Liya_Leah Luli 
+			Mali_Mary Masha_Martha Mei Meifen Meifeng Meihui Meili Meilin Meirong Mexiang Meixiu Mingxia Mingzhu 
+			Nike_Nicole Ning Nuan Nuying 
+			Qiaoanna_Jane Qiaolian Qing Qingling Qingzhao Qiuyue 
+			Rong Ruolan 
+			Shala_Sarah Shan Shu Shuang Shuchun Su Suyin 
+			Tamala_Tamar Ting 
+			Wenling Wenqian 
+			Xiaodan Xiaofan Xiaohui Xiaoli Xiaolian Xiaoling Xiaoqing Xiawa_Eve Xifeng Xijuan Xiu Xiulan Xiurong Xiuying Xue 
+			Ya Yahui Yan Yanmei Yanyu Yi Ying Yingtai Yisitie_Esther Yu Yun 
+			Zhen Zhenzhen Zhilan Zhudisi_Judith Zongying Zuoyi_Zoe
+		}
+		
+		dynasty_title_names = no
+		allow_looting = yes
+		
+		from_dynasty_prefix = "of "
+		
+		modifier = default_culture_modifier
+		disinherit_from_blinding = yes
+	}
+	tau_cetinese = {
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 211 100 100 }
+
+		male_names = {
+			Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou Da'an Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin Zhengyi Jingchen Junliang Cha Fangzhi Lübing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
+		}
+		female_names = {
+			Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu'er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei Yao'er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua Tong'e Mingyue Zhaojun "Zu'e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E'zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan'er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E'huang" "Nüying" Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi'er" "Xian'e" Nanxian Shanxiang Ai Shanli Jinluan "Xi'er" "Zhen'er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao'er Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao'e" Xiaoying Xiaoyuan Xiaoji Xiuui "Nüjie" Qingyu Zhichong "Yi'an" Youwu Yupan Jinnu Jinluo Fujin "Hu'er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin'er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A'wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo'er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A'man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = ""
+		
+		modifier = default_culture_modifier
+	}
+}

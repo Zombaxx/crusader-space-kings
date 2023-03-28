@@ -1,0 +1,620 @@
+oghuz = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { turkishgfx byzantinegfx muslimgfx }
+
+	turkish = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.55 0.15 }
+
+		male_names = {
+			Abdülhamit_Abdulhamid Abdülkadir_Abdulqadir Abdülkerim_Abdalkarim Abdullah_Abdullah Abdüllatif_Abdullatif Abdurrahman_Abdalrahman Adem_Adam Adil_Adil Adnan_Adnan Afsin_Afsin Ahmet_Ahmad Alaattin_Alaeddin Ali_Ali Alim_Alim Alp_Alp Alparslan_Alparslan Alperen_Alperen Altan_Altan Arda_Arda Arif_Arif Arslan_Aslan Asil_Asil Asim_Asim Atilla_Attila Ayaz_Ayaz Ayberk_Ayberk Aydin_Aydin Azat_Azad Aziz_Aziz 
+			Babür_Babur Bahadir_Bahadur Bahtiyar_Bakhtiar Bakir_Baqir Batuhan_Batuhan Bayezid_Bayezid Bayram_Bayram Behram_Bahram Berat_Berat Berkant_Berkant Berker_Berker Besim_Basim Bilal_Bilal Boran_Boran Bülent_Bülent Bünyamin_Benjamin Burak_Burak Burhan_Burhan 
+			Cafer_Jafar Caner_Caner Cebrail_Gabriel Cemal_Jamal Cevdet_Jawdat Cihangir_Jahangir Cüneyt_Junayd 
+			Danyal_Daniel Davud_David Demir_Timur Devrim_Devrim Doruk_Doruk 
+			Ebubekir_Abubakr Ediz_Ediz Egemen_Egemen Ekber_Akbar Emin_Amin Emir_Amir Ender_Ender Engin_Engin Enver_Anwar Erdem_Erdem Erhan_Erhan Eyüp_Job 
+			Farrukhzad_Farrukhzad Faruk_Faruq Ferhat_Farhad Feridun_Feridun Ferit_Farid Fikret_Fikret Fuat_Fuad
+			Galip_Ghalib Göker  
+			Haci_Hajj Halil_Khalil Halim_Halim Halit_Khalid Hamit_Hamid Harun_Aaron Hasan_Hasan Hizir_Khidr Hüseyin_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ihsan_Ihsan Ilhami_Ilham Ilyas_Elijah Isa_Jesus Ishak_Isaac Iskender_Alexander Ismail_Ishmael Izzet_Izzet 
+			Kadri_Kadri Kasim_Qasim Kara_Kara Kemal_Kamal Kerim_Karim 
+			Mahir_Mahir Mahmut_Mahmud Mansur_Mansur Mazhar_Mazhar Mecit_Majid Mehmet_Muhammad Melik_Malik Mesut_Masud Mikail_Michael Mubarak_Mubarak Muhammet_Muhammad Muhtar_Mukhtar Murat_Morad Musa_Moses Mustafa_Mustafa 
+			Nadir_Nadir Nebil_Nabil Nuh_Noah 
+			Ömer_Umar Orhan_Orhan Osman_Uthman 
+			Poyraz 
+			Ramazan_Ramadan Resat_Rashad Ridvan_Ridwan Rüstem_Rostam
+			Sadik_Sadiq Sait_Said Selim_Selim Semir_Samir Serhan_Serhan Süleyman_Solomon Sultan_Sultan
+			Tahir_Tahir Talip_Talib Tarik_Tariq Temel_Temel Tolga Tugrul_Tugrul Tuncay 
+			Ümran_Imran
+			Vahit_Wahid Vural_Vural
+			Yahya_John Yakup_Jacob Yaser_Yasir Yunus_Jonah Yusuf_Joseph 
+			Zafer_Zafar Zekeriya_Zachary
+		}
+		female_names = {
+			Adalet_Adalet Adile_Adila Amina_Amina Asena_Asena Ayda_Ayda Ayla_Ayla Ayse_Ayse Ayten_Ayten Azize_Aziza 
+			Bahar_Bahar Banu_Banu Bozçin_Bozcin 
+			Canan_Canan Ceylan_Ceylan 
+			Dunya_Dunya Dilber_Dilber Dilek_Dilek 
+			Emine_Emine Esin_Esin 
+			Fadime_Fatima Firuze_Firuze 
+			Gulçiçek_Gulçiçek Gulay_Gulay Gulbahar_Gulbahar Gulfem_Gulfem Gulsum_Gulsum Gumus_Gumus Gunduz_Gunduz Gundes_Gundes Gunes_Gunes 
+			Hatice_Hatice Hayat_Hayat Huriye_Huriye 
+			Ilkay_Ilkay Ilknur_Ilknur Ipek_Ipek Ipekel_Ipekel Irge_Irge
+			Karacik_Karacik 
+			Lale_Lale Leyla_Laila 
+			Mala_Mala Mansure_Mansura Merve_Merve Mutlu_Mutlu 
+			Nagihan_Nagihan Nergis_Nergis Neslihan_Neslihan Nilufer_Nilufer 
+			Peksen_Peksen 
+			Samur_Samur Sarica_Sarica Sati_Sati Sehnaz_Sehnaz Serife_Serife Sevilay_Sevilay Sevindik_Sevindik Sibel_Sibylla Sirin_Sirin Sirma_Sirma Songul_Songul Sumru_Sumru 
+			Tekçe_Tekce Terkhen_Terkhen Tura_Tura 
+			Umay_Umay Usunbike_Usunbike 
+			Vahide_Wahida 
+			Yasar_Yasar Yeldem_Yeldem Yildiz_Yildiz 
+			Zehra_Zehra Zuhal_Zuhal
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "oglu"
+		prefix = no
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	rumeli = { # turkish greeks
+		graphical_cultures = { byzantinegfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.45 0.45 }
+
+		male_names = {
+			Akhilleus_Achilles Adamantiyos_Adamantius Adrastos_Adrastus Edirne_Adrian Agamémnon Agesílaos Agínor Aiacos Aias Aineías Aisymnos Akákios_Acacius Akis Aktoros Aléxandros_Alexander Aléxios_Alexis Alkaios_Alcaeus Amphiaraos_Amphiaraus Amphínomos_Amphinomus Anastásios_Anastasius Anatólios_Anatolius Andréas_Andrew Andrónikos_Andronicus Antenor Anthémios_Anthemius Anthimos_Anthimus Antilochos_Antilochus Antinoos_Antinous Antiochos_Antiochus Antónios_Anthony Adonis_Anthony Apollónios_Apollonius Apóstolos Asklipiós Archimídis Argyris Aristarchos Aristeidis_Aristides Aristophánis Aristotélis_Aristotle Arsénios_Arsenius Artémios_Artemius Askánios_Ascanius Athanásios_Athanasius Atréas_Atreus Augustinos_Augustine Autolykos_Autolycus
+			Calais Cálchas Charilaos Christóphoros_Christopher Chrysanthos_Chrysanthus Chrysippos_Chrysippus Chrysóstomos Chrysógonos_Chrysogonus 
+			Damianós_Damian Daniel_Daniel David_David Demetrios_Demetrius Demosthenes_Demosthenes Diogénes_Diogenes Diomedes_Diomedes Dionysios_Dionysus Dorotheos_Dorotheus 
+			Ector_Hector Eirenaios_Irenaeus Elefthérios Emerikos Epameinondas Epíkouros Evripídis Eros Eudóxios_Eudoxius Eustrátios_Eustratius Eugénios_Eugene Euklídis_Euclides Eumaios Euphemios_Euphemius Euryalos_Euryalus Eurymachos_Eurymachus Eusébios_Eusebius Eustáthios_Eustace Evángelos_Evangelus
+            Fragkískos_Francis
+			Gabriel_Gabriel Gennádios_Gennadius Gennaios Geórgios_George Gerásimos_Gerasimus Germanós_German Giánnis_John Glaucos_Glaucus Gregórios_Gregory 
+			Háris_Harry Hektórios_Hector Helías_Elijah Heraklís_Hercules Heródotos_Herodotus Hierotheos_Hierotheus Himerios_Himerius Hippocrátes Hippolytos_Hippolytus Hypatios_Hypatius 
+			Iákovos_Jacob Iason_Jason Idas Idmon Idomeneus Ieremías_Jeremiah Ignatios_Ignatius Innokéntios_Innocent Ioánnes_John Ioannikios_Ioannicius Iordánes_Jordan Ioseph_Joseph Ilías_Elijah Isaakios_Isaac Isaias_Isaiah Isídoros_Isidore Isocrátes Ioulianós_Julian Ioustinianós_Justinian Ioustínos_Justin 
+			Kadmos_Cadmus Kaisários_Caesar Kallinikos_Callinicus Kállistos_Callistus Kapaneus Karagiózis Kastor_Castor Kítsos Kléarchos_Clearchus Kleoménis Kollitíris Komitas_Komitas Konstantínos_Constantine Konstántios_Constantius Kóstas_Constans Kopreus Kosmás_Cosmas Kratos Kreon Kyriákos_Cyriacus Kyrillos_Cyril Kyros_Cyrus 
+			Laertes Laios Lámbros Lasthenes Lauréntios_Lawrence Lázaros_Lazarus Leon_Leo Leonídas_Leonidas Leóntios_Leontius Loukás_Luke Lycaon Lygeas
+			Makários_Macarius Mákis Manólis_Emmanuel Márkos_Mark Matthaios_Matthew Maurikios_Maurice Maximos_Maximus Megareos Mégistos_Magnus Melánippos Meléagros Melétis_Meletius Memnon Menélaos_Menelaus Methódios_Methodius Mídas Mihális_Michael Mílos Minoas_Minos Mítsos Morfoniós
+			Narsís_Narses Nektários Neóphytos_Neophytus Neoptólemos_Neoptolemus Néstor Nikephóros_Nicephorus Nikítas_Niketas Nikodemos_Nicodemus Nikólaos_Nicholas Niphon_Niphon 
+			Odysséas_Odysseus Oidípous_Oedipus Oileus Oineus Oinomaos Omiros_Homer Orestes_Orestes Orphéas_Orpheus
+			Pamphilios_Pamphilus Panagiótis_Panagiotis Pándaros_Pandarus Pankrátios_Pancratius Pános Pantelís Pantoléon_Panteleimon Páris Parthenopéos Paschális_Pascal Pátroklos_Patroclus Pávlos_Paul Pausanías Pelágios_Pelagius Peleus Pelopas Períandros Periklís_Pericles Periklymenos Perséas Pétros_Peter Philáretos_Philaretus Phílippos_Phillip Philotheos_Philotheus Phinéas_Phineas Phoinix Phókas_Phocas Photios_Photius Plátonas_Plato Peistarchos Plisthenes Ploutarchos_Plutarch Poeas Poludámas Polydeukes Polykarpos_Polycarp Polyvios_Polybius Polyneices Polyphemos_Polyphemus Polyphontes Porphyrios_Porphyrius Príamos Prokópios_Procopius Pyrros_Pyrrhus Pythagóras
+			Radamanthes Raphail_Raphael Rhesus Romanós_Roman 
+			Sabas_Sabas Sákis Samuel_Samuel Sarpedon Serapion_Serapion Sebastianos_Sebastian Sergios_Sergius Stélios Stéphanos_Stephen Stylianós Sokrátis_Socrates Sólonas Sophoklís_Sophocles Sotíris Spyrídon Stávros Stavrákios_Stauracius Strátos_Stratos Symeon_Simon Symmachos_Symmachus 
+			Tákis Tásos Telamon Telémakhos_Telemachus Teucros Thanos_Athanasius Themistoklís_Themistocles Theocháristos_Theocharis Theódoros_Theodore Theodosios_Theodosius Theódotos_Theodat Theódoulos_Theodulus Theókritos_Theocritus Theóktistos_Theoctistus Theophánes_Theophanes Theóphilos_Theophilus Theophylaktos_Theophylact Theséas Thomás_Thomas Thucydídes Thyestes Tibérios_Tiberius Tiphys Traianós_Trajan Timoleon Timotheos_Timothy Tryphonas_Tryphon Tydeus
+			Valérios_Valerius Vardas_Bardas Vartholomaios_Bartholomew Vasíleios_Basil Velisários_Belisarius Vellerophon_Bellerophontes Vellerophontes_Bellerophontes Venizélos Voíthios_Boethius Vospórios_Bosporius Vrasídas 
+            Xenophón_Xenophon
+			Ylas Ypervios
+			Zacharías_Zachary Zenóvios_Zenobius Zenon_Zenon Zetes
+		}
+		female_names = {
+			Adriane_Adriana Aethra Agápi Agáthe_Agatha Aglaia Agne_Agnes Aigidia Aikateríne_Catherine Aithra Alexándra_Alexandra Alexeia_Alexia Alíki_Alice Anastasía_Anastasia Andromeda Andromakhe Anna_Anna Anthe Anthousa Antigóni Antipatra Antonia_Antonia Aretí Apollonia_Apollonia Atalanta Athanasía_Athanasia 
+			Briseis
+			Cassándra Cleopátra_Cleopatra Chryseis Chrysogone_Chrysogone Clio Clymene
+			Damiane_Damiane Demetra_Demetra Déspoina Diomede Dionysia_Dionysia Dorothea_Dorothy 
+			Eirini_Irene Elaiodora Eléctra Elefthería Elpída_Elpis Erato Epiphania_Epiphania Eudokía_Eudocia Eugenia_Eugenia Eulalia_Eulalia Eunike_Eunice Euphemia_Euphemia Euphrasia_Euphrasia Euphrosyne_Euphrosyne Eurykleia Euterpe Eupraxia_Eupraxia Eusebia_Eusebia Eustathia_Eustathia Evanthia_Evanthia 
+			Gabriélia_Gabriela Garyphallia_Garyphallia Georgía_Georgia Gorgo Gregoria_Gregoria 
+			Hará Hecamede Helene_Helen Hippodamia Hypatia_Hypatia 
+			Ioánna_Jane Ioulia_Julia Iouliana_Juliana Ioustína_Justina Iphigeneia Iphis Ismene
+			Kale Kalliópi Konstantia_Constantia Konstantína_Constantina Kyra_Kyra Kyriake_Kyriake
+			Laodamia Laodice Leontía_Leontia Lydia_Lydia
+			Máchi Margaríta_Margaret María_Mary Marína_Marina Markia_Marcia Mártha_Martha Medeia Melantho Mélissa_Melissa Melpomene
+			Neféli Nikarete_Nikarete Néki Nikolétta_Nicole Nonna 
+            Olga_Helga Olympia_Olympia
+			Parthéna_Parthena Pavlína_Paula Pelagia_Pelagia Penelope Penthesilea Petronia_Petronia Philippa_Philippa Photiní Phyllis_Phyllis Polyhymnia Pulcheria_Pulcheria 
+			Rhodanthe_Rhodanthe Romane_Romana Romylia_Romylia 
+			Sapfo Sergia_Sergia Sibylla_Sibyl Simonis_Simone Sophía_Sophia Stélla Stephania_Stephanie 
+			Terpsihóri Thalia Theano Thékla_Thekla Theocháriste_Theochariste Theodóra_Theodora Theodosía_Theodosia Theognosia_Theognosia Theoktiste_Theoktiste Theophano_Theophano Thomais_Thomasina 
+            Urania
+			Valeria_Valeria Várbara_Barbara Vasillikí_Basilia Viviana_Vivian 
+			Xene_Xenia 
+			Zenobia_Zenobia Zoe_Zoe
+		}
+		
+		parent = greek
+		parent = aigionoi
+		parent = makedonas
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "oglu"
+		prefix = no
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	elbistanli = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.75 0.55 0.15 }
+
+		male_names = {
+			Abdülhamit_Abdulhamid Abdülkadir_Abdulqadir Abdülkerim_Abdalkarim Abdullah_Abdullah Abdüllatif_Abdullatif Abdurrahman_Abdalrahman Adem_Adam Adil_Adil Adnan_Adnan Afsin_Afsin Ahmet_Ahmad Alaattin_Alaeddin Ali_Ali Alim_Alim Alp_Alp Alparslan_Alparslan Alperen_Alperen Altan_Altan Arda_Arda Arif_Arif Arslan_Aslan Asil_Asil Asim_Asim Atilla_Attila Ayaz_Ayaz Ayberk_Ayberk Aydin_Aydin Azat_Azad Aziz_Aziz 
+			Babür_Babur Bahadir_Bahadur Bahtiyar_Bakhtiar Bakir_Baqir Batuhan_Batuhan Bayezid_Bayezid Bayram_Bayram Behram_Bahram Berat_Berat Berkant_Berkant Berker_Berker Besim_Basim Bilal_Bilal Boran_Boran Bülent_Bülent Bünyamin_Benjamin Burak_Burak Burhan_Burhan 
+			Cafer_Jafar Caner_Caner Cebrail_Gabriel Cemal_Jamal Cevdet_Jawdat Cihangir_Jahangir Cüneyt_Junayd 
+			Danyal_Daniel Davud_David Demir_Timur Devrim_Devrim Doruk_Doruk 
+			Ebubekir_Abubakr Ediz_Ediz Egemen_Egemen Ekber_Akbar Emin_Amin Emir_Amir Ender_Ender Engin_Engin Enver_Anwar Erdem_Erdem Erhan_Erhan Eyüp_Job 
+			Farrukhzad_Farrukhzad Faruk_Faruq Ferhat_Farhad Feridun_Feridun Ferit_Farid Fikret_Fikret Fuat_Fuad
+			Galip_Ghalib Göker  
+			Haci_Hajj Halil_Khalil Halim_Halim Halit_Khalid Hamit_Hamid Harun_Aaron Hasan_Hasan Hizir_Khidr Hüseyin_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ihsan_Ihsan Ilhami_Ilham Ilyas_Elijah Isa_Jesus Ishak_Isaac Iskender_Alexander Ismail_Ishmael Izzet_Izzet 
+			Kadri_Kadri Kasim_Qasim Kara_Kara Kemal_Kamal Kerim_Karim 
+			Mahir_Mahir Mahmut_Mahmud Mansur_Mansur Mazhar_Mazhar Mecit_Majid Mehmet_Muhammad Melik_Malik Mesut_Masud Mikail_Michael Mubarak_Mubarak Muhammet_Muhammad Muhtar_Mukhtar Murat_Morad Musa_Moses Mustafa_Mustafa 
+			Nadir_Nadir Nebil_Nabil Nuh_Noah 
+			Ömer_Umar Orhan_Orhan Osman_Uthman 
+			Poyraz 
+			Ramazan_Ramadan Resat_Rashad Ridvan_Ridwan Rüstem_Rostam
+			Sadik_Sadiq Sait_Said Selim_Selim Semir_Samir Serhan_Serhan Süleyman_Solomon Sultan_Sultan
+			Tahir_Tahir Talip_Talib Tarik_Tariq Temel_Temel Tolga Tugrul_Tugrul Tuncay 
+			Ümran_Imran
+			Vahit_Wahid Vural_Vural
+			Yahya_John Yakup_Jacob Yaser_Yasir Yunus_Jonah Yusuf_Joseph 
+			Zafer_Zafar Zekeriya_Zachary
+		}
+		female_names = {
+			Adalet_Adalet Adile_Adila Amina_Amina Asena_Asena Ayda_Ayda Ayla_Ayla Ayse_Ayse Ayten_Ayten Azize_Aziza 
+			Bahar_Bahar Banu_Banu Bozçin_Bozcin 
+			Canan_Canan Ceylan_Ceylan 
+			Dunya_Dunya Dilber_Dilber Dilek_Dilek 
+			Emine_Emine Esin_Esin 
+			Fadime_Fatima Firuze_Firuze 
+			Gulçiçek_Gulçiçek Gulay_Gulay Gulbahar_Gulbahar Gulfem_Gulfem Gulsum_Gulsum Gumus_Gumus Gunduz_Gunduz Gundes_Gundes Gunes_Gunes 
+			Hatice_Hatice Hayat_Hayat Huriye_Huriye 
+			Ilkay_Ilkay Ilknur_Ilknur Ipek_Ipek Ipekel_Ipekel Irge_Irge
+			Karacik_Karacik 
+			Lale_Lale Leyla_Laila 
+			Mala_Mala Mansure_Mansura Merve_Merve Mutlu_Mutlu 
+			Nagihan_Nagihan Nergis_Nergis Neslihan_Neslihan Nilufer_Nilufer 
+			Peksen_Peksen 
+			Samur_Samur Sarica_Sarica Sati_Sati Sehnaz_Sehnaz Serife_Serife Sevilay_Sevilay Sevindik_Sevindik Sibel_Sibylla Sirin_Sirin Sirma_Sirma Songul_Songul Sumru_Sumru 
+			Tekçe_Tekce Terkhen_Terkhen Tura_Tura 
+			Umay_Umay Usunbike_Usunbike 
+			Vahide_Wahida 
+			Yasar_Yasar Yeldem_Yeldem Yildiz_Yildiz 
+			Zehra_Zehra Zuhal_Zuhal
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "oglu"
+		prefix = no		
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	egeli = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.9 0.55 0.2 }
+
+		male_names = {
+			Abdülhamit_Abdulhamid Abdülkadir_Abdulqadir Abdülkerim_Abdalkarim Abdullah_Abdullah Abdüllatif_Abdullatif Abdurrahman_Abdalrahman Adem_Adam Adil_Adil Adnan_Adnan Afsin_Afsin Ahmet_Ahmad Alaattin_Alaeddin Ali_Ali Alim_Alim Alp_Alp Alparslan_Alparslan Alperen_Alperen Altan_Altan Arda_Arda Arif_Arif Arslan_Aslan Asil_Asil Asim_Asim Atilla_Attila Ayaz_Ayaz Ayberk_Ayberk Aydin_Aydin Azat_Azad Aziz_Aziz 
+			Babür_Babur Bahadir_Bahadur Bahtiyar_Bakhtiar Bakir_Baqir Batuhan_Batuhan Bayezid_Bayezid Bayram_Bayram Behram_Bahram Berat_Berat Berkant_Berkant Berker_Berker Besim_Basim Bilal_Bilal Boran_Boran Bülent_Bülent Bünyamin_Benjamin Burak_Burak Burhan_Burhan 
+			Cafer_Jafar Caner_Caner Cebrail_Gabriel Cemal_Jamal Cevdet_Jawdat Cihangir_Jahangir Cüneyt_Junayd 
+			Danyal_Daniel Davud_David Demir_Timur Devrim_Devrim Doruk_Doruk 
+			Ebubekir_Abubakr Ediz_Ediz Egemen_Egemen Ekber_Akbar Emin_Amin Emir_Amir Ender_Ender Engin_Engin Enver_Anwar Erdem_Erdem Erhan_Erhan Eyüp_Job 
+			Farrukhzad_Farrukhzad Faruk_Faruq Ferhat_Farhad Feridun_Feridun Ferit_Farid Fikret_Fikret Fuat_Fuad
+			Galip_Ghalib Göker  
+			Haci_Hajj Halil_Khalil Halim_Halim Halit_Khalid Hamit_Hamid Harun_Aaron Hasan_Hasan Hizir_Khidr Hüseyin_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ihsan_Ihsan Ilhami_Ilham Ilyas_Elijah Isa_Jesus Ishak_Isaac Iskender_Alexander Ismail_Ishmael Izzet_Izzet 
+			Kadri_Kadri Kasim_Qasim Kara_Kara Kemal_Kamal Kerim_Karim 
+			Mahir_Mahir Mahmut_Mahmud Mansur_Mansur Mazhar_Mazhar Mecit_Majid Mehmet_Muhammad Melik_Malik Mesut_Masud Mikail_Michael Mubarak_Mubarak Muhammet_Muhammad Muhtar_Mukhtar Murat_Morad Musa_Moses Mustafa_Mustafa 
+			Nadir_Nadir Nebil_Nabil Nuh_Noah 
+			Ömer_Umar Orhan_Orhan Osman_Uthman 
+			Poyraz 
+			Ramazan_Ramadan Resat_Rashad Ridvan_Ridwan Rüstem_Rostam
+			Sadik_Sadiq Sait_Said Selim_Selim Semir_Samir Serhan_Serhan Süleyman_Solomon Sultan_Sultan
+			Tahir_Tahir Talip_Talib Tarik_Tariq Temel_Temel Tolga Tugrul_Tugrul Tuncay 
+			Ümran_Imran
+			Vahit_Wahid Vural_Vural
+			Yahya_John Yakup_Jacob Yaser_Yasir Yunus_Jonah Yusuf_Joseph 
+			Zafer_Zafar Zekeriya_Zachary
+		}
+		female_names = {
+			Adalet_Adalet Adile_Adila Amina_Amina Asena_Asena Ayda_Ayda Ayla_Ayla Ayse_Ayse Ayten_Ayten Azize_Aziza 
+			Bahar_Bahar Banu_Banu Bozçin_Bozcin 
+			Canan_Canan Ceylan_Ceylan 
+			Dunya_Dunya Dilber_Dilber Dilek_Dilek 
+			Emine_Emine Esin_Esin 
+			Fadime_Fatima Firuze_Firuze 
+			Gulçiçek_Gulçiçek Gulay_Gulay Gulbahar_Gulbahar Gulfem_Gulfem Gulsum_Gulsum Gumus_Gumus Gunduz_Gunduz Gundes_Gundes Gunes_Gunes 
+			Hatice_Hatice Hayat_Hayat Huriye_Huriye 
+			Ilkay_Ilkay Ilknur_Ilknur Ipek_Ipek Ipekel_Ipekel Irge_Irge
+			Karacik_Karacik 
+			Lale_Lale Leyla_Laila 
+			Mala_Mala Mansure_Mansura Merve_Merve Mutlu_Mutlu 
+			Nagihan_Nagihan Nergis_Nergis Neslihan_Neslihan Nilufer_Nilufer 
+			Peksen_Peksen 
+			Samur_Samur Sarica_Sarica Sati_Sati Sehnaz_Sehnaz Serife_Serife Sevilay_Sevilay Sevindik_Sevindik Sibel_Sibylla Sirin_Sirin Sirma_Sirma Songul_Songul Sumru_Sumru 
+			Tekçe_Tekce Terkhen_Terkhen Tura_Tura 
+			Umay_Umay Usunbike_Usunbike 
+			Vahide_Wahida 
+			Yasar_Yasar Yeldem_Yeldem Yildiz_Yildiz 
+			Zehra_Zehra Zuhal_Zuhal
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "oglu"
+		prefix = no		
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	gagauz = { # Moldovan Turkish
+		graphical_cultures = { romaniangfx serbsouthslavicgfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+		
+		color = { 222 235 52 }
+
+		male_names = {	
+			Alexandru_Alexander Alexeu_Alexis Anastasiu_Anastasius Anatolie_Anatolius Andrian_Adrian Anghel_Angel Antoniu_Anthony Aron_Aaron Arsenie_Aresnius Aureliu_Aurelius
+			Barbatu_Barbat Basarabu_Basarab Bogdanu_Bogdan Boris_Boris 
+			Carol_Charles Cazimir_Casimir Cezar_Caesar Ciprian_Cyprianus Ciril_Cyril Ciubar Claudiu_Claudius Constantin_Constantine Corneliu_Cornelius Cristian_Christian Cristofor_Christopher
+			Damian_Damian Danut_Daniel Dimitriu_Demetrius Dorin_Dorian Dragosoru_Drago Dzianisiu_Dionysus
+			Efemiu_Euphemius Egidiu_Egidius Egoru_Ingvar Emericu_Aymeric Evgheniu_Eugene
+			Fedoseiu_Theodosius Florin_Florinus Franciscu_Francis 
+			Gavrilu_Gabriel Georgu_George Ghedeon_Gideon Ghenadie_Gennadius Gheorghiu_George Grigore_Gregory
+			Iacob_Jacob Iancu_John Iaroslau_Jaroslav Ieremia_Jeremiah Iliu_Elijah Ioan_John Iorghu_George Iosif_Joseph Iurie_George Iustinian_Justinian
+			Janos_John 
+			Ladislau_Vladislav Latcu Laurentiu_Lawrence Liviu_Livius Lucian_Lucian
+			Marcel_Marcellus Marin_Marinus Maximu_Maximus Metodiu_Methodius Mihail_Michael Mirceau Moise_Moses 
+			Naum_Nahum Nicolae_Nicholas Nicodim_Nicodemus
+			Octavian_Octavian Olegu_Helge
+			Pantelimon_Panteleimon Pavlu_Paul Petricu_Peter 
+			Radoslau_Radoslav Radovanu_Radovan Rodislau_Rodislav Rogvolodu_Rogvolod Roman_Roman Rostislau_Rostislav Ruricu_Rurik Ruslanu_Ruslan
+			Seneslau_Seneslav Serghei_Sergius Simon_Simon Stanislau_Stanislav Stelian_Stylianos Stepanu_Stephen
+			Teodosie_Theodosius Tiboru_Tiburtius Tihomiru_Tihomir Timofie_Timothy Tudoru_Theodore 
+			Ursu_Ursus
+			Vadimu_Vadim Valentinu_Valentine Valeriu_Valerius Vasilu_Basil Veaceslau_Vaclav Victor_Victor Vilhelmu_William Visarion_Bessarion Vitalie_Vitale Vladislau_Vladislav Vlaicu_Vladimir
+			Zenovie_Zenobius
+		}
+		female_names = {
+			Adelina_Adelina Andriana_Adriana Alexandra_Alexandra Alexea_Alexia Anna_Anna Anastasia_Anastasia Anghela_Angela Antonia_Antonia Aurora_Aurora 
+			Caterina_Catherine Clara_Clara Cornelia_Cornelia Cristina_Christina
+			Daria_Daria Diana_Diana Dimitra_Demetria Domnica_Dominique
+			Ecatarina_Catherine Edviga_Hedwig Efimia_Euphemia Efrosinia_Euphrosyne Elena_Helen Elisabeta_Elizabeth Emilia_Emily Eva_Eve Evdochia_Eudocia
+			Fedosia_Theodosia Felicia_Felicia Flavia_Flavia Florina_Flora 
+			Gavrila_Gabriela Georgeta_Georgia
+			Iacoba_Jacoba Ioana_Jane Ionela_Jane Iosefina_Josephine Irina_Irene Iulia_Julia Iuliana_Juliana 
+			Katea_Catherine
+			Lidia_Lydia Lilia_Lily Liuba_Lyubov Lorena_Lorraine Ludmila_Ludmila
+			Madalena_Madeline Maria_Mary Marina_Marina Marta_Martha Mihaila_Michelle Monica_Monica
+			Nadea_Nadezhda Natalia_Natalie Nicoleta_Nicole
+			Olesea_Alexandra Olena_Helen Olga_Helga Olimpia_Olympia Oxana_Xenia
+			Pavela_Paulina Petra_Petra 
+			Rahela_Rachel Rebeca_Rebecca Rodica Ruxandra_Roxana 
+			Sara_Sarah Sofia_Sophia Sorina Stana_Stanislava Stefania_Stephanie Svetlana_Svetlana 
+			Tatiana_Tatiana Teodora_Theodora Tereza_Theresa 
+			Valentina_Valentina Vasilica_Basilica Vera_Vera Veronica_Veronica Victoria_Victoria Violeta_Violet 
+			Zenovia_Zenobia Zoia_Zoe
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "oglo"
+		prefix = no
+		
+		dynasty_title_names = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	kapadokyali = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.55 0.05 }
+
+		male_names = {
+			Abdülhamit_Abdulhamid Abdülkadir_Abdulqadir Abdülkerim_Abdalkarim Abdullah_Abdullah Abdüllatif_Abdullatif Abdurrahman_Abdalrahman Adem_Adam Adil_Adil Adnan_Adnan Afsin_Afsin Ahmet_Ahmad Alaattin_Alaeddin Ali_Ali Alim_Alim Alp_Alp Alparslan_Alparslan Alperen_Alperen Altan_Altan Arda_Arda Arif_Arif Arslan_Aslan Asil_Asil Asim_Asim Atilla_Attila Ayaz_Ayaz Ayberk_Ayberk Aydin_Aydin Azat_Azad Aziz_Aziz 
+			Babür_Babur Bahadir_Bahadur Bahtiyar_Bakhtiar Bakir_Baqir Batuhan_Batuhan Bayezid_Bayezid Bayram_Bayram Behram_Bahram Berat_Berat Berkant_Berkant Berker_Berker Besim_Basim Bilal_Bilal Boran_Boran Bülent_Bülent Bünyamin_Benjamin Burak_Burak Burhan_Burhan 
+			Cafer_Jafar Caner_Caner Cebrail_Gabriel Cemal_Jamal Cevdet_Jawdat Cihangir_Jahangir Cüneyt_Junayd 
+			Danyal_Daniel Davud_David Demir_Timur Devrim_Devrim Doruk_Doruk 
+			Ebubekir_Abubakr Ediz_Ediz Egemen_Egemen Ekber_Akbar Emin_Amin Emir_Amir Ender_Ender Engin_Engin Enver_Anwar Erdem_Erdem Erhan_Erhan Eyüp_Job 
+			Farrukhzad_Farrukhzad Faruk_Faruq Ferhat_Farhad Feridun_Feridun Ferit_Farid Fikret_Fikret Fuat_Fuad
+			Galip_Ghalib Göker  
+			Haci_Hajj Halil_Khalil Halim_Halim Halit_Khalid Hamit_Hamid Harun_Aaron Hasan_Hasan Hizir_Khidr Hüseyin_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ihsan_Ihsan Ilhami_Ilham Ilyas_Elijah Isa_Jesus Ishak_Isaac Iskender_Alexander Ismail_Ishmael Izzet_Izzet 
+			Kadri_Kadri Kasim_Qasim Kara_Kara Kemal_Kamal Kerim_Karim 
+			Mahir_Mahir Mahmut_Mahmud Mansur_Mansur Mazhar_Mazhar Mecit_Majid Mehmet_Muhammad Melik_Malik Mesut_Masud Mikail_Michael Mubarak_Mubarak Muhammet_Muhammad Muhtar_Mukhtar Murat_Morad Musa_Moses Mustafa_Mustafa 
+			Nadir_Nadir Nebil_Nabil Nuh_Noah 
+			Ömer_Umar Orhan_Orhan Osman_Uthman 
+			Poyraz 
+			Ramazan_Ramadan Resat_Rashad Ridvan_Ridwan Rüstem_Rostam
+			Sadik_Sadiq Sait_Said Selim_Selim Semir_Samir Serhan_Serhan Süleyman_Solomon Sultan_Sultan
+			Tahir_Tahir Talip_Talib Tarik_Tariq Temel_Temel Tolga Tugrul_Tugrul Tuncay 
+			Ümran_Imran
+			Vahit_Wahid Vural_Vural
+			Yahya_John Yakup_Jacob Yaser_Yasir Yunus_Jonah Yusuf_Joseph 
+			Zafer_Zafar Zekeriya_Zachary
+		}
+		female_names = {
+			Adalet_Adalet Adile_Adila Amina_Amina Asena_Asena Ayda_Ayda Ayla_Ayla Ayse_Ayse Ayten_Ayten Azize_Aziza 
+			Bahar_Bahar Banu_Banu Bozçin_Bozcin 
+			Canan_Canan Ceylan_Ceylan 
+			Dunya_Dunya Dilber_Dilber Dilek_Dilek 
+			Emine_Emine Esin_Esin 
+			Fadime_Fatima Firuze_Firuze 
+			Gulçiçek_Gulçiçek Gulay_Gulay Gulbahar_Gulbahar Gulfem_Gulfem Gulsum_Gulsum Gumus_Gumus Gunduz_Gunduz Gundes_Gundes Gunes_Gunes 
+			Hatice_Hatice Hayat_Hayat Huriye_Huriye 
+			Ilkay_Ilkay Ilknur_Ilknur Ipek_Ipek Ipekel_Ipekel Irge_Irge
+			Karacik_Karacik 
+			Lale_Lale Leyla_Laila 
+			Mala_Mala Mansure_Mansura Merve_Merve Mutlu_Mutlu 
+			Nagihan_Nagihan Nergis_Nergis Neslihan_Neslihan Nilufer_Nilufer 
+			Peksen_Peksen 
+			Samur_Samur Sarica_Sarica Sati_Sati Sehnaz_Sehnaz Serife_Serife Sevilay_Sevilay Sevindik_Sevindik Sibel_Sibylla Sirin_Sirin Sirma_Sirma Songul_Songul Sumru_Sumru 
+			Tekçe_Tekce Terkhen_Terkhen Tura_Tura 
+			Umay_Umay Usunbike_Usunbike 
+			Vahide_Wahida 
+			Yasar_Yasar Yeldem_Yeldem Yildiz_Yildiz 
+			Zehra_Zehra Zuhal_Zuhal
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "oglu"
+		prefix = no		
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	karadenizci = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.45 0.15 }
+
+		male_names = {
+			Abdülhamit_Abdulhamid Abdülkadir_Abdulqadir Abdülkerim_Abdalkarim Abdullah_Abdullah Abdüllatif_Abdullatif Abdurrahman_Abdalrahman Adem_Adam Adil_Adil Adnan_Adnan Afsin_Afsin Ahmet_Ahmad Alaattin_Alaeddin Ali_Ali Alim_Alim Alp_Alp Alparslan_Alparslan Alperen_Alperen Altan_Altan Arda_Arda Arif_Arif Arslan_Aslan Asil_Asil Asim_Asim Atilla_Attila Ayaz_Ayaz Ayberk_Ayberk Aydin_Aydin Azat_Azad Aziz_Aziz 
+			Babür_Babur Bahadir_Bahadur Bahtiyar_Bakhtiar Bakir_Baqir Batuhan_Batuhan Bayezid_Bayezid Bayram_Bayram Behram_Bahram Berat_Berat Berkant_Berkant Berker_Berker Besim_Basim Bilal_Bilal Boran_Boran Bülent_Bülent Bünyamin_Benjamin Burak_Burak Burhan_Burhan 
+			Cafer_Jafar Caner_Caner Cebrail_Gabriel Cemal_Jamal Cevdet_Jawdat Cihangir_Jahangir Cüneyt_Junayd 
+			Danyal_Daniel Davud_David Demir_Timur Devrim_Devrim Doruk_Doruk 
+			Ebubekir_Abubakr Ediz_Ediz Egemen_Egemen Ekber_Akbar Emin_Amin Emir_Amir Ender_Ender Engin_Engin Enver_Anwar Erdem_Erdem Erhan_Erhan Eyüp_Job 
+			Farrukhzad_Farrukhzad Faruk_Faruq Ferhat_Farhad Feridun_Feridun Ferit_Farid Fikret_Fikret Fuat_Fuad
+			Galip_Ghalib Göker  
+			Haci_Hajj Halil_Khalil Halim_Halim Halit_Khalid Hamit_Hamid Harun_Aaron Hasan_Hasan Hizir_Khidr Hüseyin_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ihsan_Ihsan Ilhami_Ilham Ilyas_Elijah Isa_Jesus Ishak_Isaac Iskender_Alexander Ismail_Ishmael Izzet_Izzet 
+			Kadri_Kadri Kasim_Qasim Kara_Kara Kemal_Kamal Kerim_Karim 
+			Mahir_Mahir Mahmut_Mahmud Mansur_Mansur Mazhar_Mazhar Mecit_Majid Mehmet_Muhammad Melik_Malik Mesut_Masud Mikail_Michael Mubarak_Mubarak Muhammet_Muhammad Muhtar_Mukhtar Murat_Morad Musa_Moses Mustafa_Mustafa 
+			Nadir_Nadir Nebil_Nabil Nuh_Noah 
+			Ömer_Umar Orhan_Orhan Osman_Uthman 
+			Poyraz 
+			Ramazan_Ramadan Resat_Rashad Ridvan_Ridwan Rüstem_Rostam
+			Sadik_Sadiq Sait_Said Selim_Selim Semir_Samir Serhan_Serhan Süleyman_Solomon Sultan_Sultan
+			Tahir_Tahir Talip_Talib Tarik_Tariq Temel_Temel Tolga Tugrul_Tugrul Tuncay 
+			Ümran_Imran
+			Vahit_Wahid Vural_Vural
+			Yahya_John Yakup_Jacob Yaser_Yasir Yunus_Jonah Yusuf_Joseph 
+			Zafer_Zafar Zekeriya_Zachary
+		}
+		female_names = {
+			Adalet_Adalet Adile_Adila Amina_Amina Asena_Asena Ayda_Ayda Ayla_Ayla Ayse_Ayse Ayten_Ayten Azize_Aziza 
+			Bahar_Bahar Banu_Banu Bozçin_Bozcin 
+			Canan_Canan Ceylan_Ceylan 
+			Dunya_Dunya Dilber_Dilber Dilek_Dilek 
+			Emine_Emine Esin_Esin 
+			Fadime_Fatima Firuze_Firuze 
+			Gulçiçek_Gulçiçek Gulay_Gulay Gulbahar_Gulbahar Gulfem_Gulfem Gulsum_Gulsum Gumus_Gumus Gunduz_Gunduz Gundes_Gundes Gunes_Gunes 
+			Hatice_Hatice Hayat_Hayat Huriye_Huriye 
+			Ilkay_Ilkay Ilknur_Ilknur Ipek_Ipek Ipekel_Ipekel Irge_Irge
+			Karacik_Karacik 
+			Lale_Lale Leyla_Laila 
+			Mala_Mala Mansure_Mansura Merve_Merve Mutlu_Mutlu 
+			Nagihan_Nagihan Nergis_Nergis Neslihan_Neslihan Nilufer_Nilufer 
+			Peksen_Peksen 
+			Samur_Samur Sarica_Sarica Sati_Sati Sehnaz_Sehnaz Serife_Serife Sevilay_Sevilay Sevindik_Sevindik Sibel_Sibylla Sirin_Sirin Sirma_Sirma Songul_Songul Sumru_Sumru 
+			Tekçe_Tekce Terkhen_Terkhen Tura_Tura 
+			Umay_Umay Usunbike_Usunbike 
+			Vahide_Wahida 
+			Yasar_Yasar Yeldem_Yeldem Yildiz_Yildiz 
+			Zehra_Zehra Zuhal_Zuhal
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "oglu"
+		prefix = no
+		
+		dynasty_title_names = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	qashqai = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.65 0.55 0.15 }
+
+		male_names = {
+			Abbas_Abbas Abolhassan_Hasan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Ali_Ali Allahyar Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Assad_Asad Aurang Ayeshah 
+			Babak_Babak Bahman Bahram_Bahram Bakhtiar_Bakhtiar Behrad Behrouz Bozorg 
+			Danush_Danush Darab Dariush_Darius Davud_David Djamasp 
+			Ebrahim_Abraham Ehsan_Ihsan Esfandiar_Esfandiar Eskander_Alexander Esma'il_Ishmael
+			Faramarz_Faramarz Faraz_Faraz Fareed_Farid Farhad_Farhad Fariborz_Fariborz Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fath Ferdows_Firdaus Fereedun_Feridun 
+			Ghobad Gholam Godarz Goshtasb_Goshtasb 
+			Hafez_Hafiz Hassan_Hasan Hazarasp_Hazarasp Hedayat Hooshyar_Hooshyar Hormazd_Hormazd Hormoz Hossein_Hossein Humayun
+			Jahandar_Jahandar Jahangir_Jahangir Jahanshah_Jahanshah Jamshid_Jamshid Javeed_Javeed 
+			Kambiz Kamran Kavoos_Kavoos Keyghobad Keykhosrau_Keykhosrau Kharmandar_Kharmandar Khashayar_Khashayar Kavadh Khodadad_Khodadad Khosrau_Khosrau Khudayar_Khudayar Khurshid_Khurshid Kurush_Cyrus 
+			Mahmud_Mahmud Manuchihr_Manuchihr Manushihr_Manushihr Marzuban_Marzuban Mashad_Mashad Maziar Mehrab Mehrzad Mohammed_Muhammad Morad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Nasr_Nasir Naveed Nawid Nezam 
+			Parviz_Parviz Pashang_Pashang Peroz_Peroz Pujman 
+			Reza Rostam_Rostam Ruhollah 
+			Sadri Salman_Solomon Shahab_Shahab Shahbaz_Shahbaz Shahin_Shahin Shahram_Shahram Shahrokh_Sharokh Shahruz_Shahruz Shahryar_Shahryar Shapur_Shapur Shayan_Shayan Sina 
+			Tahmasb_Tahmasb 
+			Vahhab_Vahhab Vahid_Wahid Vali_Wali Vandad Varshasb_Varshasb Vishtasb_Vishtasb 
+			Yazdegerd Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zartosht_Zartosht Zia
+		}
+		female_names = {
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh 
+			Bahar Banafsheh Behnaz Burandokht_Pourandokht 
+			Darya Delaram Delbar Dinah Donya 
+			Elham Elnaz 
+			Farah Fareedeh Farnaz Farrin Farva Furuzan 
+			Ghamze Ghazal Ghoncheh_Ghoncheh Golbahar_Golbahar Golnaz_Golnaz Golpari Golshan 
+			Hamdam Hurmat 
+			Irandokht 
+			Jamileh Javaneh 
+			Leila 
+			Mahdokht Mahtab Mariam_Maria
+			Navvaba Nazgol_Nazgol Nazilla Noor 
+			Parvaneh_Parvaneh Parvin Pertevniyal Pourandokht_Pourandokht 
+			Roshanora Roxana 
+			Salomeh Shahrzad Shahzadeh Shirin Soraya 
+			Touran Tourandokht 
+			Yasaman_Jasmine Yekta 
+			Zarrindokht Zeynab Zohreh
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "pur"
+		prefix = no				
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	turkmen = {
+        graphical_cultures = { turkishgfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+		
+        color = { 144 203 101 }
+        
+        male_names = {
+			Abdullah_Abdullah Abdurrahman_Abdalrahman Adnan Ahmet_Ahmad Ali_Ali Andrey_Andrew Arslan_Aslan Azat_Azad Abdy
+			Bahadir Bashim_Basim Behram_Bahram Balysh Begenç Berdi Boris_Boris
+			Cihangir_Jahangir 
+			Dawut_David Dzhamaldin Dzhuma
+			Ekber_Akbar Eymir_Amir Eyyub_Job Eziz_Aziz 
+			Fyodor_Theodore 
+			Gadyr Gapbar_Ghafir Grigory_Gregory Gurbanguly Gurbanmyrat Gylyç 
+			Harun_Aaron Hasan_Hasan Huseyin_Hussayn 
+			Ibrahim_Abraham Ivan_John Ilya_Elijah Ishak_Isaac Iskender_Alexander 
+			Kaikhusraw_Keykhosrau Kasym_Qasim Kemal_Kamal Kerim_Karim Khan Kaikhaziz Kurban_Qurban 
+			Mahmut_Mahmud Maksim_Maximus Mati_Mahdi Mubarak_Mubarak Muhammet_Muhammad Myrat_Morad Musa_Moses Mustafa_Mustafa Mikhail_Michael Muhammetnazar Murgen 
+			Nadyr_Nadir Nazar_Nazarius Nikolay_Nicholas Nedirbay 
+			Oraz_Ramadan Osman_Uthman
+			Parahat Pyotr_Peter
+			Rahym_Rahim Renat_Renatus Rustem_Rostam Rowsen_Roshan Rasit_Rashid Ruslan_Ruslan
+			Salyh_Salih Suleyman_Solomon Selim_Selim Shirzad Shaymardan Shadzha Sohbet Sukhan
+			Tagan Timur_Timur
+			Vasily_Basil Vladimir_Vladimir
+			Yakov_Jacob Yinal_Inal Yunus_Jonah Yury_George Yusup_Joseph
+		}
+		female_names = {
+			Abadan Akgul Akja Alexandra_Alexandra Alma Arzygul Aygul Ayla Aysoltan Ayten Azize Anna_Anna 
+			Bahar Banu Bozçin 
+			Cynar 
+			Daria_Daria Dunya Dildara Dileg_Dilek Dursun 
+			Elena_Helen Eva_Eve 
+			Gulçiçek_Gulçiçek Gulay Gulbahar Gulfem Gülsat Gulsum Gumus Gunduz 
+			Hatyja Humay Huriye 
+			Jennet
+			Karacik Katya_Catherine 
+			Lale Leyla_Laila 
+			Mahri Mahym Marishka_Mary Maya 
+			Nafisa Natalia_Natalie
+			Oksana_Xenia Owadan
+			Patma_Fatima
+			Ryzwan
+			Tatiana_Tatiana Terkhen 
+			Saryya Sibel_Sibylla Sofiya_Sophia 
+			Tylla
+			Yevgeniya_Eugenia Yildiz Yuliana_Juliana Yuliya_Julia Yupek 
+			Zhanna_Jane Zohre Zyba
+		}
+		
+		from_dynasty_prefix = "özü "
+		
+		male_patronym = "ewiç"
+		female_patronym = "ewna"		
+		prefix = no
+		
+		allow_looting = yes
+		nomadic_in_alt_start = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	azerbaijani = {
+        graphical_cultures = { caucasiangfx turkishgfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { cossackgfx turkishgfx muslimgfx }
+		
+        color = { 0.8 0.6 0.4  }
+        
+        male_names = {
+            Abulfaz Ali_Ali Anar Alirza Arif_Arif Artur_Arthur Aslan_Aslan Ayaz Azad_Azad Aziz_Aziz Allahshukur Aleksandr_Alexander Aydin Albert_Albert Ahmed_Ahmad Adil_Adil Anatoliy_Anatolius 
+            Bahram_Bahram Boris_Boris
+			Davud_David Dmitriy_Demetrius
+			Elchin Elçin Eldar Elnur Emin_Amin Eyyub_Job 
+            Ferid_Farid Farid_Farid 
+            Günay Grigory_Gregory 
+            Hüseyn_Hussein Heydar Hasan_Hasan Hamid_Hamid Hajibey
+            Ibrahim_Abraham Ilham_Ilham Isa_Jesus Islam_Islam Ilya_Elijah 
+            Javad Jamil_Jamil Jabbar_Jabbar
+			Khan Kamran_Kamran Kerim_Karim
+            Mahammad_Muhammad Murad_Murad Mirza_Mirza Maksim_Maximus Matvey_Matthew
+            Nazim_Nazim Niyazi Nikolai_Nicholas
+			Osman_Uthman Oleg_Helge			
+            Qadirqulu 
+            Ramazan_Ramadan Ramiz Rashad_Rashad Rasim_Rasim Ruslan Rüstam_Rustem Rustam_Rostam Ruben_Reuben 
+            Samil_Shamil Samir_Samir Shamil_Shamil Sardar_Sardar Salman_Solomon Soltan_Sultan Seyid_Sayyid Sergey_Sergius 
+            Tural Teymur_Timur 
+            Ülvi 
+            Vahid_Wahid Vugar Vüsal Vali_Wali Vladimir_Vladimir Vyacheslav_Vaclav
+			Yaqub_Jacob Yusif_Joseph Yunis_Jonah 
+			Zaur Zakir_Zakir
+        }
+        female_names = {
+            Aygul Aygün Aylin Aynur Aysel
+			Borislava
+			Darya_Daria
+			Fatma_Fatima Fodam Forize Firuza 
+            Gülnar_Golnar Gülnare_Golnar Gulnara_Golnar Günay Günel 
+            Konül Kseniya_Xenia 
+            Leyla_Laila 
+            Madina Maral Mehriban
+			Natalia_Natalie
+			Parvana_Parvana Parvin_Parvin 
+			Sevda Sevinc_Sevinc Sevinj_Sevinc Sara_Sarah 
+			Tarana 
+			Ülviyya 
+			Vüsala_Vüsala
+			Yelena_Helen Yulia_Juia
+			Zarifa Zemfira Zeynab 
+        }
+
+		from_dynasty_prefix = "özü "
+		
+		dukes_called_kings = yes
+		
+		male_patronym = "oghlu"
+		female_patronym = "qizi"
+		prefix = no
+		
+		modifier = default_culture_modifier
+    }
+}

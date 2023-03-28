@@ -14,7 +14,6 @@
 #		alt_start_achievements = no					# by default alt_start_achievements = yes, allows or disallows achievements in alt start. Note that it defaults to yes even when achievements = no
 #	}
 # }
-
 epidemics = {
 	name = "RULE_EPIDEMICS"
 	dlc = "The Reaper's Due"
@@ -62,57 +61,119 @@ minor_epidemics = {
 	}
 }
 
-mongol_invasion = {
-	name = "RULE_MONGOL_INVASION"
+eastern_invasion = {
+	name = "RULE_EASTERN_INVASION"
 	group = "RULE_GROUP_RAILROADING"
 	alt_start_default = off
-	option = {
-		name = random
-		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_MONGOL_INVASION_RANDOM_DESC"
-	}
-	option = {
-		name = delayed_random
-		text = "RULE_OPTION_DELAYED_RANDOM"
-		desc = "RULE_MONGOL_INVASION_DELAYED_RANDOM_DESC"
-	}
 	option = {
 		name = historical
 		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_MONGOL_INVASION_HISTORICAL_DESC"
+		desc = "RULE_EASTERN_INVASION_HISTORICAL_DESC"
+	}
+	option = {
+		name = random
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_EASTERN_INVASION_RANDOM_DESC"
+	}
+	option = {
+		name = delayed_random
+		text = "RULE_OPTION_DELAYED_RANDOM"
+		desc = "RULE_EASTERN_INVASION_DELAYED_RANDOM_DESC"
 	}
 	option = {
 		name = off
-		achievements = no
 		text = "RULE_OPTION_OFF"
-		desc = "RULE_MONGOL_INVASION_OFF_DESC"
+		desc = "RULE_EASTERN_INVASION_OFF_DESC"
 	}
 }
 
-aztec_invasion = {
-	name = "RULE_AZTEC_INVASION"
-	dlc = "Sunset Invasion"
+american_invasion = { # TODO
+	name = "RULE_AMERICAN_INVASION"
+	group = "RULE_GROUP_RAILROADING"
+	alt_start_default = off
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_AMERICAN_INVASION_ON_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_AMERICAN_INVASION_OFF_DESC"
+	}
+}
+
+jacobinist_revolution = {
+	name = "RULE_JACOBINIST_REVOLUTION"
+	group = "RULE_GROUP_RAILROADING"
+	alt_start_default = off
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_JACOBINIST_REVOLUTION_ON_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_JACOBINIST_REVOLUTION_OFF_DESC"
+	}
+}
+
+coloniser = {
+	name = "RULE_COLONISERS"
+	group = "RULE_GROUP_RAILROADING"
+	alt_start_default = off
+	option = {
+		name = historical
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_COLONISER_HISTORICAL_DESC"
+	}
+	option = {
+		name = random
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_COLONISER_RANDOM_DESC"
+	}
+	option = {
+		name = delayed_random
+		text = "RULE_OPTION_DELAYED_RANDOM"
+		desc = "RULE_COLONISER_DELAYED_RANDOM_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_COLONISER_OFF_DESC"
+	}
+}
+
+invader_nations = {
+	name = "RULE_INVADER_NATIONS"
 	group = "RULE_GROUP_RAILROADING"
 	alt_start_default = off
 	option = {
 		name = random
 		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_AZTEC_INVASION_RANDOM_DESC"
+		desc = "RULE_INVADER_NATIONS_RANDOM_DESC"
 	}
 	option = {
-		name = delayed_random
-		text = "RULE_OPTION_DELAYED_RANDOM"
-		desc = "RULE_AZTEC_INVASION_DELAYED_RANDOM_DESC"
+		name = chosen
+		text = "RULE_OPTION_CHOSEN"
+		desc = "RULE_INVADER_NATIONS_CHOSEN_DESC"
 	}
+}
+
+playing_as_invaders = {
+	name = "RULE_PLAYING_AS_INVADER"
+	group = "RULE_GROUP_VARIOUS"
+	alt_start_default = off
 	option = {
-		name = historical
-		text = "RULE_AZTEC_13TH"
-		desc = "RULE_AZTEC_INVASION_HISTORICAL_DESC"
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_PLAYING_AS_INVADER_ON_DESC"
 	}
 	option = {
 		name = off
 		text = "RULE_OPTION_OFF"
-		desc = "RULE_AZTEC_INVASION_OFF_DESC"
+		desc = "RULE_PLAYING_AS_INVADER_OFF_DESC"
 	}
 }
 
@@ -210,12 +271,6 @@ chinese_interactions = {
 	group = "RULE_GROUP_VARIOUS"
 	group = "RULE_GROUP_JD"
 	option = {
-		name = all
-		achievements = no
-		text = "RULE_OPTION_ANYONE"
-		desc = "RULE_ANYONE_DESC"
-	}
-	option = {
 		name = within_range
 		text = "RULE_OPTION_WITHIN_RANGE"
 		desc = "RULE_WITHIN_RANGE_DESC"
@@ -224,6 +279,12 @@ chinese_interactions = {
 		name = restricted
 		text = "RULE_OPTION_RESTRICTED"
 		desc = "RULE_RESTRICTED_DESC"
+	}
+	option = {
+		name = all
+		achievements = no
+		text = "RULE_OPTION_ANYONE"
+		desc = "RULE_ANYONE_DESC"
 	}
 }
 
@@ -289,28 +350,6 @@ secret_cults = {
 		name = none
 		text = "RULE_OPTION_NONE"
 		desc = "RULE_SECRET_CULTS_NONE_DESC"
-	}
-}
-
-turkic_invasions = {
-	name = "RULE_TURKIC_INVASIONS"
-	group = "RULE_GROUP_RAILROADING"
-	alt_start_default = off
-	option = {
-		name = historical
-		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_TURKIC_INVASIONS_HISTORICAL_DESC"
-	}
-	option = {
-		name = random
-		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_TURKIC_INVASIONS_RANDOM_DESC"
-	}
-	option = {
-		name = off
-		achievements = no
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_TURKIC_INVASIONS_OFF_DESC"
 	}
 }
 
@@ -501,14 +540,14 @@ dejure_drift = {
 	name = "RULE_DEJURE"
 	group = "RULE_GROUP_DEJURE_DRIFT"
 	option = {
-		name = default
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_DEJURE_DEFAULT_DESC"
-	}
-	option = {
 		name = restricted
 		text = "RULE_OPTION_RESTRICTED"
 		desc = "RULE_DEJURE_RESTRICTED_DESC"
+	}
+	option = {
+		name = default
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_DEJURE_DEFAULT_DESC"
 	}
 	option = {
 		name = off
@@ -714,39 +753,6 @@ dynamic_realms = {
 		name = off
 		text = "RULE_OPTION_OFF"
 		desc = "RULE_DYNAMIC_REALMS_OFF_DESC"
-	}
-}
-
-charlemagne_story = {
-	name = "RULE_CHARLEMAGNE_STORY"
-	dlc = "Charlemagne"
-	group = "RULE_GROUP_RAILROADING"
-	alt_start_default = off
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_CHARLEMAGNE_STORY_ON_DESC"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_CHARLEMAGNE_STORY_OFF_DESC"
-	}
-}
-
-otto_story = {
-	name = "RULE_OTTO_STORY"
-	group = "RULE_GROUP_RAILROADING"
-	alt_start_default = off
-	option = {
-		name = "on"
-		text = "RULE_OPTION_ON"
-		desc = "RULE_OTTO_STORY_ON_DESC"
-	}
-	option = {
-		name = "off"
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_OTTO_STORY_OFF_DESC"
 	}
 }
 
@@ -1242,22 +1248,6 @@ shepherds_crusade = {
 	}
 }
 
-fourth_crusade = {
-	name = "RULE_FOURTH_CRUSADE"
-	dlc = "Holy Fury"
-	group = "RULE_GROUP_CRUSADE"
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_FOURTH_CRUSADE_ON"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_FOURTH_CRUSADE_OFF"
-	}
-}
-
 childrens_crusade = {
 	name = "RULE_CHILDRENS_CRUSADE"
 	dlc = "Holy Fury"
@@ -1271,43 +1261,6 @@ childrens_crusade = {
 		name = off
 		text = "RULE_OPTION_OFF"
 		desc = "RULE_CHILDRENS_CRUSADE_OFF"
-	}
-}
-
-northern_crusade = {
-	name = "RULE_NORTHERN_CRUSADE"
-	dlc = "Holy Fury"
-	group = "RULE_GROUP_CRUSADE"
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_NORTHERN_CRUSADE_ON"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_NORTHERN_CRUSADE_OFF"
-	}
-}
-
-reconquista = {
-	name = "RULE_RECONQUISTA"
-	dlc = "Holy Fury"
-	group = "RULE_GROUP_CRUSADE"
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_RECONQUISTA_ON"
-	}
-	option = {
-		name = limited
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_RECONQUISTA_LIMITED"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_RECONQUISTA_OFF"
 	}
 }
 
@@ -1391,21 +1344,6 @@ blood_splatter_rule = {
 		name = off
 		text = "RULE_OPTION_OFF"
 		desc = "RULE_BLOOD_SPLATTER_OFF"
-	}
-}
-
-hellenism_rule = {
-	name = "RULE_HELLENISM"
-	group = "RULE_GROUP_RELIGION"
-	option = {
-		name = on
-		text = "RULE_OPTION_ON"
-		desc = "RULE_HELLENISM_ON"
-	}
-	option = {
-		name = off
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_HELLENISM_OFF"
 	}
 }
 

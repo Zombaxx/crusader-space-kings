@@ -1,0 +1,1020 @@
+francophone = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { westerngfx }
+
+	french = {
+		graphical_cultures = { frankishgfx westerngfx }
+		
+		color = { 0.8 0.8 0.2 }
+		male_names = {
+			Abbé-Faria_Abbe-Faria Abraracourcix_Abraracourcix Adamaï_Adamai Adrien_Adrian Aimery_Aymeric Aiwendil_Aiwendil Alaeddine_Alaeddin Alain_Alan Alatar_Alatar Albert_Albert Aldarion_Aldarion Alexandre_Alexander Alexis_Alexis Alphonse_Alphonse Amandil_Amandil Amaury_Amalric Amédée_Amadeus Amroth_Amroth Anárion_Anarion André_Andrew Anthony_Anthony Antoine_Anthony Arador_Arador Aragorn_Aragorn Aramis_Aramis Arathorn_Arathorn Arnaud_Arnold Arnault_Arnold Aronnax_Aronnax Arthur_Arthur Arvedui_Arvedui Astérix_Asterix Atanamir_Atanamir Atanatar_Atanatar Athos_Athos Aubry_Aubrey Axel_Axel Azaghâl_Azaghal
+			Balin_Balin Bandobras_Bandobras Barahir_Barahir Barbicane_Barbicane Bard_Bard Barthélémi_Bartholomew Baudouin_Baldwin Beaufort_Beaufort Beleg_Beleg Benjamin_Benjamin Benoît_Benedict Bëor_Beor Beorn_Bjorn Beregond_Beregond Beren_Beren Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand Bifur_Bifur Bilbon_Bilbon Bill_Bill Blaise-Pascal_Blaise-Pascal Bödvar_Bodvar Bofur_Bofur Bombur_Bombur Bór_Bor Boromir_Boromir Brandir_Brandir Bree_Bree Brego_Brego Bruno_Bruno
+			Caderousse_Caderousse Calogrenant_Calogrenant Cambacérès_Cambaceres Camille-Desmoulins_Camille-Desmoulins Caspian_Caspian Cédric_Cedric Celebrimbor_Celebrimbor Celeborn_Celeborn Charles_Charles Chasseur-de-Truffes_Chasseur-de-Truffes Chirac_Chirac Christian_Christian Christophe_Christopher Cirion_Cirion Ciryatan_Ciryatan Claude_Claudius Clemenceau_Clemenceau Clément_Clement Clerval_Clerval Clopin_Clopin Clotaire_Lothar Clovis_Clovis Coluche_Coluche Condorcet_Condorcet Conseil_Conseil Coriakin_Coriakin Cousteau_Cousteau Curumo_Curumo Cyrus_Cyrus
+			Dakkar_Dakkar D'Artagnan_D'Artagnan Dáin_Dain Damien_Damian Daniel_Daniel Dantès_Dantes Danton_Danton David_David DeGaulle_DeGaulle Denethor_Denethor Denis_Dionysus Descartes_Descartes Didier_Desiderius Digory_Digory Dimitri_Demetrius Dior_Dior Dominique_Dominic Dori_Dori Drinian_Drinian Durkheim_Durkheim Durin_Durin Dwalin_Dwalin
+			Eärendil_Earendil Eärnil_Earnil Eärnur_Earnur Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Egalmoth_Egalmoth Eldacar_Eldacar Eldarion_Eldarion Elendil_Elendil Elfhelm_Elfhelm Elrond_Elrond Elros_Elros Émile_Emil Emmanuel_Emmanuel Enjolras_Enjolras Enzo Éomer_Eomer Eorl_Earl Erkenbrand_Erkenbrand Éric_Erik Étienne_Stephen Eudes_Otto Eustace_Eustace
+			Fabien_Fabian Fabrice_Fabrice Fantasio_Fantasio Faramir_Faramir Fauchelevent_Fauchelevent Fëanor_Feanor Felaróf_Felarof Félix-Faure_Félix-Faure Fernand_Ferdinand Fíli_Fili Finarfin_Finarfin Fingolfin_Fingolfin Fingon_Fingon Flopin_Flopin Florian_Florian Franck_Francis François_Francis Frédégar_Fredegar Frédéric_Frederick Frodon_Frodon
+			Gabriel_Gabriel Galdor_Galdor Gandalf_Gandalf Gargamel_Gargamel Gaston_Gaston Gauthier_Walter Gavroche_Gavroche Geoffroy_Geoffrey Georges_George Gérard_Gerard Géraud_Gerard Gerontius_Gerontius Gilbert_Gilbert Gil-galad_Gilgalad Gilles_Egidius Gimli_Gimli Glóin_Gloin Glorfindel_Glorfindel Godefroy_Godfrey Gringoire_Gringoire Gripoil_Gripoil Grougaloragran_Grougaloragran Guillaume_William Guy_Guy Gwaihir_Gwaihir
+			Haddock_Haddock Halbarad_Halbarad Haldir_Haldir Háma_Hama Harbert_Harbert Helm_Helm Henri_Henry Herbert_Herbert Hervé_Harvey Horn_Horn Huan Hugo_Hugh Huor_Huor Húrin_Hurin Hyarmendacil_Hyarmendacil 
+			Idéfix_Idefix Imrahil_Imrahil Isildur_Isildur
+			Jacques_Jacob Jacques-Yves_Jacques-Yves Jaspert_Jaspert Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claude Jean-Luc_John-Luke Jean-Pierre_John-Peter Jeanvaljean_Jeanvaljean Jérémy_Jeremiah Jérôme_Jerome Joël_Joel Joseph_Joseph Jules_Julius J-T-Maston_J-T-Maston Jules-César_Julius-Caesar Julien_Julian 
+			Kenzo_Kenzo Kévin_Kevin Kíli_Kili 
+			Lafayette_Lafayette Lanfeust_Lanfeust Laurent_Lawrence Legolas_Legolas Lidenbrock_Lidenbrock Léon_Leo Léonard_Leonard Lothaire_Lothar Louis_Louis Lucas_Luke Lucien_Lucian Ludovic_Louis
+			Mablung_Mablung Maedhros_Maedhros Marc_Mark Marcel_Marcellus Marius_Marius Marquais_Marquais Mathieu_Matthew Maurice_Maurice Maxime_Maximus Meriadoc_Meriadoc Michel_Michael Minastir_Minastir Mitterrand_Mitterrand Mohammed_Muhammad Molière_Moliere Montaigne_Montaigne Montesquieu_Montesquieu Morrel_Morrel Myriel_Myriel
+			Napoléon_Napoleon Ned-Land_Ned-Land Némo_Nemo Nicéphore_Nicephorus Nicolas_Nicholas Nicholl_Nicholas Nivacrin_Nivacrin Noirtier-de-Villefort_Noirtier-de-Villefort Norbert_Norbert Numérobis_Numerobis 
+			Obélix_Obelix Ocatarinetabellatchitchix_Ocatarinetabellatchitchix Odoacer_Odoacer Óin_Oin Olivier_Oliver Olórin_Olorin Orodreth_Orodreth Orophin_Orophin Oscar_Oscar Ostoher_Ostoher
+			Paladin_Paladin Pallando_Pallando Panoramix_Panoramix Passepartout_Passepartout Pasteur_Pasteur Patrice_Patrick Paul_Paul Pencroff_Pencroff Peregrïn_Peregrin Phileas-Fogg_Phileas-Fogg Philippe_Phillip Phoebus_Phoebus Picsou_Picsou Pierre_Peter Pompidou_Pompidou Pontmercy_Pontmercy Porthos_Porthos
+			Quasimodo_Quasimodo Quentin_Quentin
+			Radagast_Radagast Ramandu_Ramandu Raoul_Ralph Raphaël_Raphael Raymond_Raymond Raynaud_Reynold Renaud_Reynold Renard_Renard René_Renatus Richard_Richard Rillian_Rillian Ripitchip_Ripitchip Roland_Roland Robert_Robert Robin_Robin Robur_Robur Roger_Roger Roheryn_Roheryn Romain_Roman Rousseau_Rousseau Ruel_Ruel
+			Saint-Just_Saint-Just Salomon_Solomon Samsagace_Samsagace Sartre_Sartre Sébastien_Sebastian Serge_Sergius Siéyès_Sieyes Simon_Simon Sméagol_Smeagol Spirou_Spirou Stéphane_Stephen Sylvain_Silvanus Sylvebarbe_Sylvebarbe
+			Thengel_Thengel Théo_Theodore Théoden_Theoden Théodred_Theodred Thibault_Theobald Thierry_Theodoric Thingol_Thingol Thomas_Thomas Thorgal_Thorgal Thorin_Thorin Thorondor_Thorondor Thráin_Thrain Thranduil_Thranduil Thrór_Thror Timothé_Timothy Tintin_Tintin Tirian_Tirian Tocqueville_Tocqueville Tom-Bombadil_Tom-Bombadil Tréville_Treville Tristepin_Tristepin Trompillon_Trompillon Tumnus_Tumnus Tuor_Tuor Turgon_Turgon Túrin_Turin
+			Valacar_Valacar Valéry-Giscard-d'Estaing_Valery-Giscard-d'Estaing Vercingétorix_Vercingetorix Victor_Victor Vincent_Vincent Vlad_Vladimir Voltaire_Voltaire
+			Waldman_Waldman Walton_Walton Wiglaf_Wiglaf
+			Xavier_Xavier
+			Yugo Yves_Yves
+			Zain_Zain Zidane_Zaydan Zinédine_Zaynaddin Zola_Zola
+		}
+		female_names = {
+			Aaricia_Aaricia Adèle_Adela Aerin_Aerin Agathe_Agatha Agnès_Agnes Alice_Alice Alberta_Alberta Aliénor_Eleanor Alix_Alice Amalie_Amelia Amarië_Amarie Amélie_Amelia Anaïs_Anna Anastasie_Anastasia Ancalimë_Ancalime Andrée_Andrea Anne_Anna Annick_Anna Annie_Anna Antoinette_Antonia Aouda Aredhel Arwen Audrey Aurélie_Aurelia Aurore_Aurora
+			Baie-d'Or_Baie-d'Or Béatrice_Beatrix Belladonna Benoîte_Benedicta Bérengère_Berengaria Bernadette Blanche_Blanche Bonemine_Bonemine Brigitte_Bridget 
+			Camilla_Camilla Caroline_Caroline Catherine_Catherine Cécile_Cecilia Celebrían_Celebrian Céline_Celine Cendrillon_Cendrillon Chantal Charlotte_Charlotte Chloé_Chloe Christelle_Christina Christine_Christina Cixi_Cixi Claire_Clara Claudette_Claudia Claudine_Claudia Cléopâtre_Cleopatra Clotilde_Clotilde Colette_Nicole Constance_Constance Corinne_Corinne Cosette_Cosette
+			Dalida_Delilah Danielle_Daniela Delphine_Delphine Denise_Denise Dís_Dis Dominique_Dominique 
+			Eärwen_Earwen Edith_Edith Éléonore_Eleanor Elely Elenwë_Elenwe Eliane_Helen Elisabeth_Elizabeth Elise_Elizabeth Élodie_Alodia Elwing_Elwing Emma_Emma Emmanuelle_Emanuela Émilie_Emily Éowyn_Eowyn Éponine_Eponine Erendis Esméralda_Esmeralda Estella Eugénie_Eugenia Eve_Eve Evangelyne_Evangelia Evelyne_Aveline
+			Falbala_Falbala Fantine_Fantine Fatima_Fatima Finduilas_Finduilas Fleur-de-Lys_Fleur-de-Lys Florence_Florence Françoise_Frances
+			Galadriel_Galadriel Geneviève_Genevieve Germaine_Germana Georgette_Georgia Gilraen_Gilraen Ginette_Genevieve Gisèle_Gisela Gwendolen
+			Haleth Haydée Hélène_Helen Héloise_Eloise Henriette_Henriette Hermione_Hermine Hild_Hilda Hwin_Hwin 
+			Idril_Idril Indis_Indis Ioreth_Ioreth Isabelle_Elizabeth 
+			Jacqueline_Jacqueline Javotte_Genevieve Jeanne_Jane Jeanne-d'Arc_Jeanne-d'Arc Jeannine_Jane Jill_Jill Joséphine_Josephine Josette_Josephine Josiane_Josephine Judith_Judith Julie_Julia Julienne_Juliana Juliette_Julia Justine_Justina 
+			Karine_Catherine
+			Laetitia_Letitia Lalaith_Lalaith Laura_Laura Laurence_Laurentia Laurette_Laurentia Léa_Leah Lilliandil_Lilliandil Lobelia_Lobelia Lothíriel_Lothiriel Louise_Louise Louve_Louve Lucie_Lucia Lucienne_Luciana Lucy_Lucia Lúthien_Luthien 
+			Madeleine_Madeline Malefique_Malefique Manon Marcelle_Marcella Marine_Marina Marion_Mary Margot_Margaret Marguerite_Margaret Maria_Mary Marie_Mary Marie-Antoinette_Marie-Antoinette Marie-Curie_Marie-Curie Marie-Louise_Marie-Louise Marie-Thérèse_Marie-Theresa Martine_Martina Mathilde_Matilda Meg_Margaret Mélanie_Melanie Melian_Melian Mélusine_Melusine Mercédès_Mercedes Michèle_Michelle Miranda_Miranda Mireille_Mireille Monique_Monica
+			Nadia_Nadezhda Nadine_Nadezhda Nathalie_Natalie Nerdanel Nicole_Nicole Nienor_Nienor Níniel_Niniel 
+			Odette
+			Patricia_Patricia Paulette_Paula Pauline_Paula Polly_Mary Primula_Primula Prunaprismia_Prunaprismia 
+			Raymonde_Ramona Renée_Renata Rían_Rian Rose_Rosa
+			Sandrine_Alexandra Sarah_Sarah Ségolène_Segolene Silmarien_Silmarien Simone_Simone Solène_Solange Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan Sybille_Sibyl Sylvie_Silvia
+			Telperien_Telperien Théodwyn_Theodwyn Thérèse_Theresa Tinúviel_Tinuviel 
+			Vairë_Vaire Valérie_Valeria Vanimeldë_Vanimelde Varda_Rosa Véronique_Veronica Virginie_Virginia
+			Yavanna_Yavanna Yvette_Yvonne Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+	
+	poitevin = {
+		graphical_cultures = { frankishgfx westerngfx }
+		
+		color = { 0.95 0.75 0.175 }
+		male_names = {
+			Abbé-Faria_Abbe-Faria Abraracourcix_Abraracourcix Adamaï_Adamai Adrien_Adrian Aimery_Aymeric Aiwendil_Aiwendil Alaeddine_Alaeddin Alain_Alan Alatar_Alatar Albert_Albert Aldarion_Aldarion Alexandre_Alexander Alexis_Alexis Alphonse_Alphonse Amandil_Amandil Amaury_Amalric Amédée_Amadeus Amroth_Amroth Anárion_Anarion André_Andrew Anthony_Anthony Antoine_Anthony Arador_Arador Aragorn_Aragorn Aramis_Aramis Arathorn_Arathorn Arnaud_Arnold Arnault_Arnold Aronnax_Aronnax Arthur_Arthur Arvedui_Arvedui Astérix_Asterix Atanamir_Atanamir Atanatar_Atanatar Athos_Athos Aubry_Aubrey Axel_Axel Azaghâl_Azaghal
+			Balin_Balin Bandobras_Bandobras Barahir_Barahir Barbicane_Barbicane Bard_Bard Barthélémi_Bartholomew Baudouin_Baldwin Beaufort_Beaufort Beleg_Beleg Benjamin_Benjamin Benoît_Benedict Bëor_Beor Beorn_Bjorn Beregond_Beregond Beren_Beren Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand Bifur_Bifur Bilbon_Bilbon Bill_Bill Blaise-Pascal_Blaise-Pascal Bödvar_Bodvar Bofur_Bofur Bombur_Bombur Bór_Bor Boromir_Boromir Brandir_Brandir Bree_Bree Brego_Brego Bruno_Bruno
+			Caderousse_Caderousse Calogrenant_Calogrenant Cambacérès_Cambaceres Camille-Desmoulins_Camille-Desmoulins Caspian_Caspian Cédric_Cedric Celebrimbor_Celebrimbor Celeborn_Celeborn Charles_Charles Chasseur-de-Truffes_Chasseur-de-Truffes Chirac_Chirac Christian_Christian Christophe_Christopher Cirion_Cirion Ciryatan_Ciryatan Claude_Claudius Clemenceau_Clemenceau Clément_Clement Clerval_Clerval Clopin_Clopin Clotaire_Lothar Clovis_Clovis Coluche_Coluche Condorcet_Condorcet Conseil_Conseil Coriakin_Coriakin Cousteau_Cousteau Curumo_Curumo Cyrus_Cyrus
+			Dakkar_Dakkar D'Artagnan_D'Artagnan Dáin_Dain Damien_Damian Daniel_Daniel Dantès_Dantes Danton_Danton David_David DeGaulle_DeGaulle Denethor_Denethor Denis_Dionysus Descartes_Descartes Didier_Desiderius Digory_Digory Dimitri_Demetrius Dior_Dior Dominique_Dominic Dori_Dori Drinian_Drinian Durkheim_Durkheim Durin_Durin Dwalin_Dwalin
+			Eärendil_Earendil Eärnil_Earnil Eärnur_Earnur Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Egalmoth_Egalmoth Eldacar_Eldacar Eldarion_Eldarion Elendil_Elendil Elfhelm_Elfhelm Elrond_Elrond Elros_Elros Émile_Emil Emmanuel_Emmanuel Enjolras_Enjolras Enzo Éomer_Eomer Eorl_Earl Erkenbrand_Erkenbrand Éric_Erik Étienne_Stephen Eudes_Otto Eustace_Eustace
+			Fabien_Fabian Fabrice_Fabrice Fantasio_Fantasio Faramir_Faramir Fauchelevent_Fauchelevent Fëanor_Feanor Felaróf_Felarof Félix-Faure_Félix-Faure Fernand_Ferdinand Fíli_Fili Finarfin_Finarfin Fingolfin_Fingolfin Fingon_Fingon Flopin_Flopin Florian_Florian Franck_Francis François_Francis Frédégar_Fredegar Frédéric_Frederick Frodon_Frodon
+			Gabriel_Gabriel Galdor_Galdor Gandalf_Gandalf Gargamel_Gargamel Gaston_Gaston Gauthier_Walter Gavroche_Gavroche Geoffroy_Geoffrey Georges_George Gérard_Gerard Géraud_Gerard Gerontius_Gerontius Gilbert_Gilbert Gil-galad_Gilgalad Gilles_Egidius Gimli_Gimli Glóin_Gloin Glorfindel_Glorfindel Godefroy_Godfrey Gringoire_Gringoire Gripoil_Gripoil Grougaloragran_Grougaloragran Guillaume_William Guy_Guy Gwaihir_Gwaihir
+			Haddock_Haddock Halbarad_Halbarad Haldir_Haldir Háma_Hama Harbert_Harbert Helm_Helm Henri_Henry Herbert_Herbert Hervé_Harvey Horn_Horn Huan Hugo_Hugh Huor_Huor Húrin_Hurin Hyarmendacil_Hyarmendacil 
+			Idéfix_Idefix Imrahil_Imrahil Isildur_Isildur
+			Jacques_Jacob Jacques-Yves_Jacques-Yves Jaspert_Jaspert Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claude Jean-Luc_John-Luke Jean-Pierre_John-Peter Jeanvaljean_Jeanvaljean Jérémy_Jeremiah Jérôme_Jerome Joël_Joel Joseph_Joseph Jules_Julius J-T-Maston_J-T-Maston Jules-César_Julius-Caesar Julien_Julian 
+			Kenzo_Kenzo Kévin_Kevin Kíli_Kili 
+			Lafayette_Lafayette Lanfeust_Lanfeust Laurent_Lawrence Legolas_Legolas Lidenbrock_Lidenbrock Léon_Leo Léonard_Leonard Louis_Louis Lucas_Luke Lucien_Lucian Ludovic_Louis
+			Mablung_Mablung Maedhros_Maedhros Marc_Mark Marcel_Marcellus Marius_Marius Marquais_Marquais Mathieu_Matthew Maurice_Maurice Maxime_Maximus Meriadoc_Meriadoc Michel_Michael Minastir_Minastir Mitterrand_Mitterrand Mohammed_Muhammad Molière_Moliere Montaigne_Montaigne Montesquieu_Montesquieu Morrel_Morrel Myriel_Myriel
+			Napoléon_Napoleon Ned-Land_Ned-Land Némo_Nemo Nicéphore_Nicephorus Nicolas_Nicholas Nicholl_Nicholas Nivacrin_Nivacrin Noirtier-de-Villefort_Noirtier-de-Villefort Norbert_Norbert Numérobis_Numerobis 
+			Obélix_Obelix Ocatarinetabellatchitchix_Ocatarinetabellatchitchix Odoacer_Odoacer Óin_Oin Olivier_Oliver Olórin_Olorin Orodreth_Orodreth Orophin_Orophin Oscar_Oscar Ostoher_Ostoher
+			Paladin_Paladin Pallando_Pallando Panoramix_Panoramix Passepartout_Passepartout Pasteur_Pasteur Patrice_Patrick Paul_Paul Pencroff_Pencroff Peregrïn_Peregrin Phileas-Fogg_Phileas-Fogg Philippe_Phillip Phoebus_Phoebus Picsou_Picsou Pierre_Peter Pompidou_Pompidou Pontmercy_Pontmercy Porthos_Porthos
+			Quasimodo_Quasimodo Quentin_Quentin
+			Radagast_Radagast Ramandu_Ramandu Raoul_Ralph Raphaël_Raphael Raymond_Raymond Raynaud_Reynold Renaud_Reynold Renard_Renard René_Renatus Richard_Richard Rillian_Rillian Ripitchip_Ripitchip Roland_Roland Robert_Robert Robin_Robin Robur_Robur Roger_Roger Roheryn_Roheryn Romain_Roman Rousseau_Rousseau Ruel_Ruel
+			Saint-Just_Saint-Just Salomon_Solomon Samsagace_Samsagace Sartre_Sartre Sébastien_Sebastian Serge_Sergius Siéyès_Sieyes Simon_Simon Sméagol_Smeagol Spirou_Spirou Stéphane_Stephen Sylvain_Silvanus Sylvebarbe_Sylvebarbe
+			Thengel_Thengel Théo_Theodore Théoden_Theoden Théodred_Theodred Thibault_Theobald Thierry_Theodoric Thingol_Thingol Thomas_Thomas Thorgal_Thorgal Thorin_Thorin Thorondor_Thorondor Thráin_Thrain Thranduil_Thranduil Thrór_Thror Timothé_Timothy Tintin_Tintin Tirian_Tirian Tocqueville_Tocqueville Tom-Bombadil_Tom-Bombadil Tréville_Treville Tristepin_Tristepin Trompillon_Trompillon Tumnus_Tumnus Tuor_Tuor Turgon_Turgon Túrin_Turin
+			Valacar_Valacar Valéry-Giscard-d'Estaing_Valery-Giscard-d'Estaing Vercingétorix_Vercingetorix Victor_Victor Vincent_Vincent Vlad_Vladimir Voltaire_Voltaire
+			Waldman_Waldman Walton_Walton Wiglaf_Wiglaf
+			Xavier_Xavier
+			Yugo Yves_Yves
+			Zain_Zain Zidane_Zaydan Zinédine_Zaynaddin Zola_Zola
+		}
+		female_names = {
+			Aaricia_Aaricia Adèle_Adela Aerin_Aerin Agathe_Agatha Agnès_Agnes Alice_Alice Alberta_Alberta Aliénor_Eleanor Alix_Alice Amalie_Amelia Amarië_Amarie Amélie_Amelia Anaïs_Anna Anastasie_Anastasia Ancalimë_Ancalime Andrée_Andrea Anne_Anna Annick_Anna Annie_Anna Antoinette_Antonia Aouda Aredhel Arwen Audrey Aurélie_Aurelia Aurore_Aurora
+			Baie-d'Or_Baie-d'Or Béatrice_Beatrix Belladonna Benoîte_Benedicta Bérengère_Berengaria Bernadette Blanche_Blanche Bonemine_Bonemine Brigitte_Bridget 
+			Camilla_Camilla Caroline_Caroline Catherine_Catherine Cécile_Cecilia Celebrían_Celebrian Céline_Celine Cendrillon_Cendrillon Chantal Charlotte_Charlotte Chloé_Chloe Christelle_Christina Christine_Christina Cixi_Cixi Claire_Clara Claudette_Claudia Claudine_Claudia Cléopâtre_Cleopatra Clotilde_Clotilde Colette_Nicole Constance_Constance Corinne_Corinne Cosette_Cosette
+			Dalida_Delilah Danielle_Daniela Delphine_Delphine Denise_Denise Dís_Dis Dominique_Dominique 
+			Eärwen_Earwen Edith_Edith Éléonore_Eleanor Elely Elenwë_Elenwe Eliane_Helen Elisabeth_Elizabeth Elise_Elizabeth Élodie_Alodia Elwing_Elwing Emma_Emma Emmanuelle_Emanuela Émilie_Emily Éowyn_Eowyn Éponine_Eponine Erendis Esméralda_Esmeralda Estella Eugénie_Eugenia Eve_Eve Evangelyne_Evangelia Evelyne_Aveline
+			Falbala_Falbala Fantine_Fantine Fatima_Fatima Finduilas_Finduilas Fleur-de-Lys_Fleur-de-Lys Florence_Florence Françoise_Frances
+			Galadriel_Galadriel Geneviève_Genevieve Germaine_Germana Georgette_Georgia Gilraen_Gilraen Ginette_Genevieve Gisèle_Gisela Gwendolen
+			Haleth Haydée Hélène_Helen Héloise_Eloise Henriette_Henriette Hermione_Hermine Hild_Hilda Hwin_Hwin 
+			Idril_Idril Indis_Indis Ioreth_Ioreth Isabelle_Elizabeth 
+			Jacqueline_Jacqueline Javotte_Genevieve Jeanne_Jane Jeanne-d'Arc_Jeanne-d'Arc Jeannine_Jane Jill_Jill Joséphine_Josephine Josette_Josephine Josiane_Josephine Judith_Judith Julie_Julia Julienne_Juliana Juliette_Julia Justine_Justina 
+			Karine_Catherine
+			Laetitia_Letitia Lalaith_Lalaith Laura_Laura Laurence_Laurentia Laurette_Laurentia Léa_Leah Lilliandil_Lilliandil Lobelia_Lobelia Lothíriel_Lothiriel Louise_Louise Louve_Louve Lucie_Lucia Lucienne_Luciana Lucy_Lucia Lúthien_Luthien 
+			Madeleine_Madeline Malefique_Malefique Manon Marcelle_Marcella Marine_Marina Marion_Mary Margot_Margaret Marguerite_Margaret Maria_Mary Marie_Mary Marie-Antoinette_Marie-Antoinette Marie-Curie_Marie-Curie Marie-Louise_Marie-Louise Marie-Thérèse_Marie-Theresa Martine_Martina Mathilde_Matilda Meg_Margaret Mélanie_Melanie Melian_Melian Mélusine_Melusine Mercédès_Mercedes Michèle_Michelle Miranda_Miranda Mireille_Mireille Monique_Monica
+			Nadia_Nadezhda Nadine_Nadezhda Nathalie_Natalie Nerdanel Nicole_Nicole Nienor_Nienor Níniel_Niniel 
+			Odette
+			Patricia_Patricia Paulette_Paula Pauline_Paula Polly_Mary Primula_Primula Prunaprismia_Prunaprismia 
+			Raymonde_Ramona Renée_Renata Rían_Rian Rose_Rosa
+			Sandrine_Alexandra Sarah_Sarah Ségolène_Segolene Silmarien_Silmarien Simone_Simone Solène_Solange Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan Sybille_Sibyl Sylvie_Silvia
+			Telperien_Telperien Théodwyn_Theodwyn Thérèse_Theresa Tinúviel_Tinuviel 
+			Vairë_Vaire Valérie_Valeria Vanimeldë_Vanimelde Varda_Rosa Véronique_Veronica Virginie_Virginia
+			Yavanna_Yavanna Yvette_Yvonne Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+	
+	gallo = {
+		graphical_cultures = { celticgfx frankishgfx westerngfx }
+		unit_graphical_cultures = { frankishgfx }
+		
+		color = { 0.8 0.7 0.35 } #idk
+		male_names = {
+			Abran_Abraham Adan_Adam Adof_Adolf Adriyèn_Adrian Alecsi_Alexis Amalric_Amalric Amédée_Amadeus Armand_Herman Antouènn_Anthony Arturr_Arthur Aobin_Albinus Armè Ashe
+			Barnabë_Barnabas Barthélémi_Bartholomew Baodouin_Baldwin Bastièn_Sebastian Bénoni_Benjamin Benouâ_Benedict Berieû Brnard_Bernard Bertrand_Bertrand Brâzz_Blaise 
+			Cayèl_Caelan Charl_Charles Chinao_Francis Christian_Christian Cllemens_Clement Clotaire_Lothar Cristof_Christopher Colin_Colin Constans_Constant
+			Damien_Damian Daniè_Daniel Davidd_David Dëniz_Dionysus Dezirë_Desideratus Douard_Edward Domineu_Dominic Doviq_Louis Driyèn_Adrian
+			Énoga Èran_Aaron Èrblon Érik_Erik Étienn_Stephen
+			Félicss_Felix Fernand_Ferdinand Florian_Florian Fransâez_Francis Fransouâz_Francis Frédéric_Frederick
+			Gabriel_Gabriel Gaotier_Walter Geoffroy_Godfrey Ghinou Ghughu_Augustus Gilbert_Gilbert Glaodd_Claudius Gllaomin_William Gregouèrr_Gregory Gripoil
+			Henri_Henry Hèrbèrt_Herbert Hèrvé_Harvey Hubèrt_Hubert Hugo_Hugh
+			Ivon_Yves Ilèrr_Hilarius
+			Jacot_Jacob Jan_John Jan-Batiss_Jean-Baptiste Jan-Glaodd_Jean-Claude Jan-Mari_Jean-Marie Jaozèt_Joseph Jefràit_Geoffroy Jeliao_Julius Jelièn_Julian Jerard_Gerard Jérémy_Jeremiah Jérôme_Jerome
+			Lanbèrt_Lambert Lénard_Leonard Lescandr_Alexander Léyon_Leo Louitao_Louis Lorens_Lawrence Louiz_Louis
+			Maogan_Morgan Marr_Mark Marsè_Marcellus Martin_Martin Mathieu_Matthew Michel_Michael Michië_Michael Moriss_Maurice
+			Nicolâ_Nicholas Nicholl_Nicholas Nouèl_Noah
+			Ôghust_Augustus Olivier_Oliver Ouèn_Eugene
+			Patrice_Patrick Paul_Paul Pèreû_Peter Philippe_Phillip Pièrot_Peter Pièroton_Peter Prospèrr_Prosper
+			Qhemein_Quentin Qhiwètt
+			Raynaud_Reynold Remond_Raymond Renaud_Reynold René_Renatus Richard_Richard Riton_Henry Rnaod_Renatus Robèrt_Robert Robin_Robin Roger_Roger Roland_Roland Rou_Ralph
+			Saoveurr Sebastièn_Sebastian Selestin_Celestine Simon_Simon Solèn Souâz_Francis Stéphane_Stephen Sylvain_Silvanus 
+			Tènghi_Theodoric Tewenn_Anthony Théoden_Theoden Théodred_Theodred Thibault_Theobald Tiodorr_Theodore Tomaz_Thomas Toussènt Trimouè Turichon
+			Ujenn_Eugene Urbèn_Urabn Umil_Emil
+			Valacar_Valacar Victorr_Victor Vinsent_Vincent Vochèt_Yves
+			Witao_Louis Woghust_Augustus
+			Zidorr Zavier_Xavier Zido_Isidore
+		}
+		female_names = {
+			Éléonore_Eleanor Élodie_Alodia Émilie_Emily
+			Âliss_Alice Adèl_Adela Agathe_Agatha Agnès_Agnes Alice_Alice Aliénor_Eleanor Amalie_Amalia Amélie_Amelia Ânn_Anna Anasta_Anastasia Andrée_Andrea Annette_Anna Aouda Ânn-Mari
+			Bèrtinn Benoîte_Benedicta Bérengère Bernadette Bllanch_Blanche Brjitt_Bridget 
+			Clementinn_Clementia Caroline_Caroline Catrinn_Catherine Cécile_Cecilia Céline_Celine Cadichon Charlott_Charlotte Clara_Clara Claudette_Claudia Claudine_Claudia Clotilde_Clotilde Colètt_Nicole Constanss_Constance
+			Dèdènn Dèdètt Dënizz_Denise Donâssienn Dolfinn
+			Élinn Eliane_Helen Elizz_Elizabeth Emma_Emma Èdmée
+			Fanchètt_Frances Filomenn_Philomena Fonsinn Fransinn_Frances Fransouâzz_Frances Fanchonn_Frances 
+			Geneviève_Genevieve Gllaomètt Ghustinn_Justina Gilraen Gravée 
+			Hélènn_Helen Héloise_Eloise Henriètt_Henriette 
+			Ivonètt_Yvonne Ivonn_Yvonne Ingrid_Ingrid
+			Jacminn_Jacqueline Jânètt_Jane Janot_jane Jefràitt Jèrmènn Jilètt_Julia
+			Layidd Léontinn_Leontia Lewizon Lestinn Lohizz_Louise Lonorr_Eleanor Louizètt_Louise 
+			Madlenn_Madeline Mari-Terèzz Margot_Margaret Margheritt_Margaret Manètt_Mary Marantouanètt Mari-Louizz Mathilde_Matilda Mercédès_Mercedes Marianj Marinètt Marjôzèt Mari-Fransouâzz
+			Nahizz_Nadezhda Nânn-Mari Nânon Norinn Nénètt Nienor Níniel 
+			Pièrètt_Paula Paolètt_Paula 
+			Rènètt_Renata Renée_Renata Rían Rôzz_Rosa Rôzali
+			Sèrvann Sissinn_Sophia Stéphanie_Stephanie Suzann_Susan Souâzz Selinn Sandrinn_Alexandra
+			Turichonn Terèzz_Theresa Touanètt Tienètt Touanètt
+			Ujeni_Eugenia
+			Vairë Virjini Vonètt Vinsentt Valentinn_Valentina
+			Wizz 
+			Yontinn
+			Zablon_Elizabeth Zoée_Zoe Zèna
+		}
+		from_dynasty_prefix = "de " #they use de
+		grammar_transform = french #they're latinate
+		dukes_called_kings = yes #what
+		feminist = yes #what
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+	
+	norman = {
+		graphical_cultures = { normangfx frankishgfx westerngfx }
+
+		color = { 0.7 0.75 0.5 }
+		
+		male_names = {
+			Abelart_Abelard Âbréhan_Abraham Achard Âdam_Adam Ailmar Albrei Albreid Alcide Amalri_Amalric Anchetil Andrâ_Andrew Ansfrei Ansketil Arnald_Arnold Artus_Arthur Aubîn Avenel
+			Balduin_Baldwin Barthélémy_Bartholomew Batistin_Baptist Bênardin_Bernard Benjamîn_Benjamin Benouét_Benedict Berenger_Berengar Blaise_Blaise Boemunt
+			Calogrenant_Calogrenant Charles_Charles Charlot_Charles Clovis_Clovis Constant_Constantine Croque
+			Dgibèrt_Gilbert Dgilliaume_William Drogue
+			Edelmir Êdouard_Edward Emery_Aymeric Engelmar Engenulf Ernulf Estienne_Stephen Étienne_Stephen Everart
+			Firmin Françouais_Francis Franc_Francis Frédéris_Frederick Fulcher Fulkes_Folke Fulques_Folke
+			Galbert Galter_Walter Georges_George Gentian Gerard_Gerard German_German Gilbert_Gilbert Gislebert Gobald Godebalt Gofreid_Godfrey Grimalt Guide_Guy Guie_Guy Guies_Guy Guillaume_William Guérôme_Jerome Guian Gundwin
+			Hamelin Helinand Herculles_Hercules Herluin Hilbert Hug_Hugh Hunfrei_Hunfreid Hunfreid_Hunfreid
+			Isaac_Isaac Isembart Isidore_Isidore Ive_Yves
+			Jâcob_Jacob Jâosé_Joseph Jaques_Jacob Jeaun_John Jerome_Jerome Jimce_James Josué_Joshua Jozelme
+			Lambert_Lambert Laurent_Lawrence Léan_Leo Louothains Luc_Luke Ludovi_Louis
+			Marc_Mark Mathurin Maurice_Maurice Médéric
+			Nic'lesse_Nicholas Niel_Neil
+			Oliver_Oliver Olympe_Olympus Ortaire Osbern Osmund Ouesslé
+			Pierre_Peter Pierrot_Peter Pomponne Prudent Pyire
+			Quentin_Quentin
+			Raimund_Raymond Rainald_Reynold Rainer_Rainer Rainbald Rémin Rodalt Rainfreid Richard_Richard Robèrt_Robert Romoald_Romoald Romoalt_Romoald Romain_Roman Roulf_Rudolf
+			Sarles Seinfrei_Seinfreid Seinfreid_Seinfreid Serles Simon_Simon Simun_Simon
+			Tancrède_Tancred Tedbald Tedri Teduin Teobalt_Theobald Théodore_Theodore Thimothée_Timothy Thiophile_Theophilus Thonmas_Thomas Turulf Turold_Torvald Turolt_Torvald Turketil Turgis Turald_Torvald Turbert
+			Ugène_Eugene
+			Valentîn_Valentine Valeri_Valerius Vincent_Vincent
+			Waleran_Valerian Waleri_Valerius Wandrille Warin Warinfreid Wid Wide_Guy Widmund
+		}
+		female_names = {
+			Arlette Aonène_Anna Anfrie Adile Ambre Aungélina_Angelina Aspasie Anfreide
+			Barbe_Barbara Beatriz_Beatrix Brunhilde Berrie Bonne Bellé_Elizabeth Bilelde 
+			Claudile_Claudia Chimâne Cath'rinne_Catherine Cllâodène Cyrille
+			Délaïde_Adelaide Diane_Diana
+			Emélie_Emily Esile Ernestène Eulalie Elyzée Êve_Eve
+			Françoise_Frances Fllavie_Flavia Félicitaé Fredesende Fresende Fleurie_Flora Féréolle
+			Gozeline Génie_Eugenia Gisele Guustène Guiromène Gabyelle_Gabriela
+			Heloise_Eloise Hildeburge Hièrru Hélène_Helen
+			Isabel_Elizabeth
+			Juliette_Julia Judith_Judith Jacotte
+			Louiseu_Louise Launde Léontine
+			Mélonie Margerie_Margaret Mabille Mélie Matilde_Matilda Marotène Marguerite_Margaret Mathide_Matilda Mathie_Mary Marie-Madelène
+			Naïse_Athena Nathalée_Natalie Nânette_Anna Nancy_Nancy
+			Ouinneteur
+			Pllagie_Pelagia Philiberthe Palmyre Pérotène_Petra
+			Rousalie
+			Soucique Suzoun_Susan Sébire Saundrène_Alexandra
+			Touènette_Antonia
+			Vonette Victoire_Victoria Violâte_Violet Victorène_Victoria
+			Yvanne_Yvonne
+			Weuve
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+		
+		bastard_dynasty_prefix = "Fitz"
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
+	burgundian = { #Modern French with a slight Frankish larp
+		graphical_cultures = { frankishgfx westerngfx }
+		color = { 0.8 0.6 0.2 }
+		
+		male_names = {
+			Adam_Adam Adrien_Adrian Aétius_Aetius Ahmed_Ahmad Aiwendil_Aiwendil Alaric_Alaric Alatar_Alatar Albert_Albert Aldarion_Aldarion Alexandre_Alexander Alphonse_Alphonse Amandil_Amandil Amroth_Amroth Anárion_Anarion Anatole_Anatolius Antoine_Anthony Arador_Arador Aragorn_Aragorn Aramis_Aramis Arathorn_Arathorn Aronnax_Aronnax Arsène_Arsenius Atanamir_Atanamir Atanatar_Atanatar Athos_Athos Aubry_Aubrey August_Augustus Axel_Axel
+			Balin_Balin Barahir_Barahir Basile_Basil Beleg_Beleg Bëor_Beor Beregond_Beregond Bernard_Bernard Bödvar_Bodvar Boromir_Boromir Brandir_Brandir Bruno_Bruno
+			Caius_Gaius Calogrenant_Calogrenant Cambacérès_Cambaceres Casimir_Casimir Cédric_Cedric Celebrimbor_Celebrimbor César_Caesar Cirion_Cirion Charles_Charles Charles-François Childebert Chilpéric_Chilperic Christophe_Christopher Claude_Claudius Clotaire_Lothar Clovis_Clovis Conrad_Konrad Constantin_Constantine Cyrus_Cyrus
+			Eärendil_Earendil Eärnil_Earnil Eärnur_Earnur Ecthelion_Ecthelion Édouard_Edward Egidius_Egidius Eldacar_Eldacar Eldarion_Eldarion Elendil_Elendil Elros_Elros Émenon Émile_Emil Emmanuel_Emmanuel Éric_Erik Étienne_Stephen Étienne-François Eugène_Eugene
+			Dagobert_Dagobert Daniel_Daniel David_David Dimitri_Demetrius Dorian
+			Fabien_Fabian Faramir_Faramir Ferdinand_Ferdinand Finarfin_Finarfin Flavius_Flavius François_Francis François-Joseph Frédégar_Fredegar Frédéric_Frederick Frodon_Frodon Fulbert
+			Gabriel_Gabriel Galère_Galerius Gandalf_Gandalf Gerard_Gerard Gerontius_Gerontius Gilbert_Gilbert Gil-galad_Gilgalad Gimli_Gimli Giselher Glorfindel_Glorfindel Gondemar Gonthaire Gondioc Gondebaud Gustave_Gustav Guillaume_William
+			Halbarad_Halbarad Haldir_Haldir Henri_Henry Hubert_Hubert Hugh_Hugh Humbert_Humbert Húrin_Hurin
+			Imrahil_Imrahil Isildur_Isildur
+			Jean_John Jean-Baptiste_John-Baptist Jean-Jacques_Jean-Jacques Jean-Nicolas_Jean-Nicolas Jean-Pierre_John-Peter Joachim_Joachim Joseph_Joseph Jourdain_Jordan Jules_Julius
+			Kévin_Kevin Kilian_Kilian
+			Lazare_Lazarus Legolas_Legolas Léonard_Leonard Léopold_Leopold Lothaire_Lothar Louis_Louis Louis-Alexandre Louis-Annibal Louis-Eugène Lucien_Lucian Ludovic_Louis
+			Maedhros_Maedhros Marc_Mark Marc-Antoine Marius_Marius Marquais_Marquais Martin_Martin Mathieu_Matthew Maximilien_Maximilian Michel_Michael Minastir_Minastir Mohammed_Muhammad
+			Napoléon_Napoleon Nibelung Nicéphore_Nicephorus Nicolas_Nicholas Nivacrin_Nivacrin Norbert_Norbert Numérobis_Numerobis
+			Odoacer_Odoacer Olórin_Olorin Orodreth_Orodreth Oscar_Oscar Ostoher_Ostoher Otto_Otto
+			Paladin_Paladin Paul_Paul Perrenot_Peter Pétion Philippe_Phillip Pierre_Peter Pierre-Joseph Pontius_Pontius Porthos_Porthos
+			Quasimodo_Quasimodo Quentin_Quentin
+			Radagast_Radagast Raymond_Raymond Renaud_Reynold Richard_Richard Robert_Robert Roger_Roger Roheryn_Roheryn Roland_Roland Rudolph_Rudolph Ruel_Ruel
+			Sébastien_Sebastian Serge_Sergius Sigismond_Sigmund Simon_Simon Sméagol_Smeagol
+			Thengel_Thengel Théodred_Theodred Thibert Thierry_Theodoric Thomas_Thomas Thorgal_Thorgal Thorondor_Thorondor Tirian_Tirian Túrin_Turin
+			Ulysse_Odysseus
+			Valacar_Valacar Victor_Victor Vlad_Vladimir
+			Wiglaf_Wiglaf
+			Yves_Yves
+			Xavier_Xavier
+			Zénon_Zenon
+		}
+		female_names = {
+			Aaricia_Aaricia Adèle_Adela Aerin_Aerin Agathe_Agatha Agnès_Agnes Alice_Alice Alberta_Alberta Aliénor_Eleanor Alix_Alice Amalie_Amelia Amarië_Amarie Amélie_Amelia Anaïs_Anna Anastasie_Anastasia Ancalimë_Ancalime Andrée_Andrea Anne_Anna Annick_Anna Annie_Anna Antoinette_Antonia Aouda Aredhel Arwen Audrey Aurélie_Aurelia Aurore_Aurora
+			Baie-d'Or_Baie-d'Or Béatrice_Beatrix Belladonna Benoîte_Benedicta Bérengère_Berengaria Bernadette Blanche_Blanche Bonemine_Bonemine Brigitte_Bridget 
+			Camilla_Camilla Caroline_Caroline Catherine_Catherine Cécile_Cecilia Celebrían_Celebrian Céline_Celine Cendrillon_Cendrillon Chantal Charlotte_Charlotte Chloé_Chloe Christelle_Christina Christine_Christina Cixi_Cixi Claire_Clara Claudette_Claudia Claudine_Claudia Cléopâtre_Cleopatra Clotilde_Clotilde Colette_Nicole Constance_Constance Corinne_Corinne Cosette_Cosette
+			Dalida_Delilah Danielle_Daniela Delphine_Delphine Denise_Denise Dís_Dis Dominique_Dominique 
+			Eärwen_Earwen Edith_Edith Éléonore_Eleanor Elely Elenwë_Elenwe Eliane_Helen Elisabeth_Elizabeth Elise_Elizabeth Élodie_Alodia Elwing_Elwing Emma_Emma Emmanuelle_Emanuela Émilie_Emily Éowyn_Eowyn Éponine_Eponine Erendis Esméralda_Esmeralda Estella Eugénie_Eugenia Eve_Eve Evangelyne_Evangelia Evelyne_Aveline
+			Falbala_Falbala Fantine_Fantine Fatima_Fatima Finduilas_Finduilas Fleur-de-Lys_Fleur-de-Lys Florence_Florence Françoise_Frances
+			Galadriel_Galadriel Geneviève_Genevieve Germaine_Germana Georgette_Georgia Gilraen_Gilraen Ginette_Genevieve Gisèle_Gisela Gwendolen
+			Haleth Haydée Hélène_Helen Héloise_Eloise Henriette_Henriette Hermione_Hermine Hild_Hilda Hwin_Hwin 
+			Idril_Idril Indis_Indis Ioreth_Ioreth Isabelle_Elizabeth 
+			Jacqueline_Jacqueline Javotte_Genevieve Jeanne_Jane Jeanne-d'Arc_Jeanne-d'Arc Jeannine_Jane Jill_Jill Joséphine_Josephine Josette_Josephine Josiane_Josephine Judith_Judith Julie_Julia Julienne_Juliana Juliette_Julia Justine_Justina 
+			Karine_Catherine
+			Laetitia_Letitia Lalaith_Lalaith Laura_Laura Laurence_Laurentia Laurette_Laurentia Léa_Leah Lilliandil_Lilliandil Lobelia_Lobelia Lothíriel_Lothiriel Louise_Louise Louve_Louve Lucie_Lucia Lucienne_Luciana Lucy_Lucia Lúthien_Luthien 
+			Madeleine_Madeline Malefique_Malefique Manon Marcelle_Marcella Marine_Marina Marion_Mary Margot_Margaret Marguerite_Margaret Maria_Mary Marie_Mary Marie-Antoinette_Marie-Antoinette Marie-Curie_Marie-Curie Marie-Louise_Marie-Louise Marie-Thérèse_Marie-Theresa Martine_Martina Mathilde_Matilda Meg_Margaret Mélanie_Melanie Melian_Melian Mélusine_Melusine Mercédès_Mercedes Michèle_Michelle Miranda_Miranda Mireille_Mireille Monique_Monica
+			Nadia_Nadezhda Nadine_Nadezhda Nathalie_Natalie Nerdanel Nicole_Nicole Nienor_Nienor Níniel_Niniel 
+			Odette
+			Patricia_Patricia Paulette_Paula Pauline_Paula Polly_Mary Primula_Primula Prunaprismia_Prunaprismia 
+			Raymonde_Ramona Renée_Renata Rían_Rian Rose_Rosa
+			Sandrine_Alexandra Sarah_Sarah Ségolène_Segolene Silmarien_Silmarien Simone_Simone Solène_Solange Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan Sybille_Sibyl Sylvie_Silvia
+			Telperien_Telperien Théodwyn_Theodwyn Thérèse_Theresa Tinúviel_Tinuviel 
+			Vairë_Vaire Valérie_Valeria Vanimeldë_Vanimelde Varda_Rosa Véronique_Veronica Virginie_Virginia
+			Yavanna_Yavanna Yvette_Yvonne Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}	
+	lorraine = {
+		graphical_cultures = { frankishgfx westerngfx }
+		color = { 0.6 0.7 0.32 }
+		
+		male_names = {
+			Aaron_Aaron Adam_Adam Adrien_Adrian Abraham_Abraham Auburtin Albert_Albert Alexandre_Alexander Alphonse_Alphonse Anatole_Anatolius Antoine_Anthony Arnaud_Arnold Aubry_Aubrey Audoin Auguste_Augustus Axel_Axel
+			Barthélémy_Bartholomew Baudouin_Baldwin Benjamîn_Benjamin Benoît_Benedict Bernard_Bernard Bruno_Bruno
+			Caleb_Caleb Castor Casimir_Casimir Cédric_Cedric Charles_Charles Charles-François Christian_Christian Christophe_Christopher Claude_Claudius Clotaire_Lothar Clovis_Clovis Conrad_Konrad
+			Damien_Damian Daniel_Daniel David_David Dimitri_Demetrius
+			Édouard_Edward Élie_Elijah Émile_Emil Emmanuel_Emmanuel Émeric_Aymeric Éric_Erik Étienne_Stephen Étienne-François Eugène_Eugene Ezekiel_Ezekiel
+			Fabien_Fabian Félix_Felix Ferdinand_Ferdinand François_Francis François-Joseph Frédéric_Frederick Fulbert
+			Gabriel_Gabriel Gautier_Walter Georges_George Gerard_Gerard Gilbert_Gilbert Gustave_Gustav Guillaume_William Guy_Guy
+			Henri_Henry Hubert_Hubert Hugh_Hugh Humbert_Humbert
+			Ignatius_Ignatius Isaac_Isaac
+			Jean_John Jean-Baptiste_John-Baptist Jean-Jacques_Jean-Jacques Jean-Nicolas_Jean-Nicolas Jean-Pierre_John-Peter Jérémy_Jeremiah Joachim_Joachim Johannes_John Jordan_Jordan Joseph_Joseph Jules_Julius Julien_Julian Justin_Justin
+			Kévin_Kevin Kilian_Kilian
+			Laurent_Lawrence Léonard_Leonard Léopold_Leopold Léon_Leo Lothaire_Lothar Louis_Louis Louis-Alexandre Louis-Annibal Louis-Eugène Lucas_Luke Lucien_Lucian Ludovic_Louis
+			Marc_Mark Marquais_Marquais Martin_Martin Mathieu_Matthew Maximilien_Maximilian Michel_Michael
+			Napoléon_Napoleon Nicéphore_Nicephorus Nicolas_Nicholas Norbert_Norbert
+			Oscar_Oscar Otto_Otto
+			Paul_Paul Pétion Philippe_Phillip Pierre_Peter Pierre-Joseph Pontius_Pontius
+			Quentin_Quentin Quirin_Quirinus
+			Raymond_Raymond Renaud_Reynold Réne_Renatus Richard_Richard Robert_Robert Roger_Roger Roland_Roland Rudolph_Rudolf Ruel_Ruel
+			Sébastien_Sebastian Sigismond_Sigmund Simon_Simon Stanislas_Stanislav Sylvain_Silvanus
+			Thibert Thierry_Theodoric Thomas_Thomas Thibault_Theobald
+			Ulysse_Odysseus
+			Victor_Victor Vincent_Vincent Vlad_Vladimir
+			Yves_Yves
+			Xavier_Xavier
+			Zacharie_Zachary
+		}
+		female_names = {
+			Adèle_Adela Agathe_Agatha Agnès_Agnes Alice_Alice Alberta_Alberta Aliénor_Eleanor Alix_Alice Amalie_Amelia Amarië_Amarie Amélie_Amelia Anaïs_Anna Anastasie_Anastasia Andrée_Andrea Anne_Anna Annick_Anna Annie_Anna Antoinette_Antonia Audrey Aurélie_Aurelia Aurore_Aurora
+			Béatrice_Beatrix Benoîte_Benedicta Bérengère_Berengaria Bernadette Blanche_Blanche Brigitte_Bridget 
+			Camilla_Camilla Caroline_Caroline Catherine_Catherine Cécile_Cecilia Céline_Celine Chantal Charlotte_Charlotte Chloé_Chloe Christelle_Christina Christine_Christina Claire_Clara Claudette_Claudia Claudine_Claudia Clotilde_Clotilde Colette_Nicole Constance_Constance Corinne_Corinne Cosette_Cosette
+			Dalida_Delilah Danielle_Daniela Delphine_Delphine Denise_Denise Dominique_Dominique 
+			Edith_Edith Éléonore_Eleanor Eliane_Helen Elisabeth_Elizabeth Elise_Elizabeth Élodie_Alodia Emma_Emma Emmanuelle_Emanuela Émilie_Emily Eugénie_Eugenia Eve_Eve Evangelyne_Evangelia Evelyne_Aveline
+			Florence_Florence Françoise_Frances
+			Geneviève_Genevieve Germaine_Germana Georgette_Georgia Ginette_Genevieve Gisèle_Gisela
+			Hélène_Helen Héloise_Eloise Henriette_Henriette Hermione_Hermine 
+			Indis_Indis Isabelle_Elizabeth 
+			Jacqueline_Jacqueline Javotte_Genevieve Jeanne_Jane Jeannine_Jane Joséphine_Josephine Josette_Josephine Josiane_Josephine Judith_Judith Julie_Julia Julienne_Juliana Juliette_Julia Justine_Justina 
+			Karine_Catherine
+			Laetitia_Letitia Laura_Laura Laurence_Laurentia Laurette_Laurentia Léa_Leah Louise_Louise Lucie_Lucia Lucienne_Luciana Lucy_Lucia 
+			Madeleine_Madeline Manon Marcelle_Marcella Marine_Marina Marion_Mary Margot_Margaret Marguerite_Margaret Maria_Mary Marie_Mary Marie-Louise_Marie-Louise Marie-Thérèse_Marie-Theresa Martine_Martina Mathilde_Matilda Meg_Margaret Mélanie_Melanie Melian_Melian Mélusine_Melusine Michèle_Michelle Miranda_Miranda Mireille_Mireille Monique_Monica
+			Nadia_Nadezhda Nadine_Nadezhda Nathalie_Natalie Nerdanel Nicole_Nicole 
+			Odette Olivia_Olivia
+			Patricia_Patricia Paulette_Paula Pauline_Paula  
+			Raymonde_Ramona Renée_Renata Rose_Rosa
+			Sandrine_Alexandra Sarah_Sarah Ségolène_Segolene Simone_Simone Solène_Solange Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan Sybille_Sibyl Sylvie_Silvia
+			Thérèse_Theresa 
+			Valérie_Valeria Véronique_Veronica Virginie_Virginia
+			Yavanna_Yavanna Yvette_Yvonne Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}	
+	
+	occitan = { #Mostly standard French names with a few regional variants
+		graphical_cultures = { trueoccitangfx occitangfx }
+		
+		color = { 0.9 0.9 0.4 }
+
+		male_names = { 
+			Abbé-Faria_Abbe-Faria Abèl_Abel Adrien_Adrian Ahmed_Ahmad Aiwendil_Aiwendil Alatar_Alatar Albert_Albert Aldarion_Aldarion Alexandre_Alexander Alexis_Alexis Ali_Ali Alphonse_Alphonse Amalric_Amalric Amandil_Amandil Amroth_Amroth Anárion_Anarion Anatole_Anatolius André_Andrew Antoine_Anthony Aragorn_Aragorn Aramis_Aramis Archambaut_Archibald Armand_Herman Arnaut_Arnold Arthur_Arthur Atanamir_Atanamir Athos_Athos Auguste_Augustus Aurèle_Aurelius Avrigny Axel_Axel Aymar_Aymeric
+			Baptistin_Baptist Barahir_Barahir Bartoumiéu_Bartholomew Basile_Basil Baudoin_Baldwin Beneset_Benedict Bëor_Beor Bérard_Bernard Berenguié_Berengar Bermond_Vermudo Bernat_Bernard Bertrand_Bertrand Beauchamp Boromir_Boromir Boville Brandir_Brandir Bruno_Bruno 
+			Calixte_Callistus Calogrenant_Calogrenant Cambacérès_Cambaceres Casimir_Casimir Caspian_Caspian Castelmore Cédric_Cedric Celebrimbor_Celebrimbor César_Caesar Charles_Charles Christophe_Christopher Clamenç_Clement Claude_Claudius Constantin_Constantine 
+			Damien_Damian Daniel_Daniel Darius_Darius D'Artagnan_D'Artagnan Dàvi_David DeGaulle_DeGaulle Denis_Dionysus Didier_Desiderius Dimitri_Demetrius Donat_Donatus Doumenge_Dominic Draco_Drago Drinian_Drinian Driss_Idris 
+			Eärendil_Earendil Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Eldacar_Eldacar Elros_Elros Émile_Emil Emmanuèl_Emmanuel Erkenbrand_Erkenbrand Estève_Stephen Eugène_Eugene 
+			Fabien_Fabian Faramir_Faramir Felaróf_Felarof Félix_Felix Fernand_Ferdinand Flavius_Flavius Florènç_Florentius Folquet_Folke François_Francis Frederi_Frederick 
+			Gabriel_Gabriel Galdor_Galdor Gaspard_Caspar Gaston_Gaston Gautier_Walter Georges_George Gerontius_Gerontius Gilbèrt_Gilbert Girard_Gerard Grégory_Gregory Guillaume_William Guiraud_Gerald Gustave_Gustav Guy_Guy
+			Haldir_Haldir Henri_Henry Herbert_Herbert Hugo_Hugh Hyarmendacil_Hyarmendacil
+			Igòr_Ingvar Isildur_Isildur Ismaël_Ishmael 
+			Jacme_James Jaufret_Geoffrey Jean_John Jean-Antoine_Jean-Antoine Jean-Armand_Jean-Armand Jean-Baptiste_John-Baptist Jean-Charles_John-Charles Jean-Christophe_Jean-Christophe Jean-Nestor_Jean-Nestor Jean-Pierre_John-Peter Jerome_Jerome Joachim_Joachim Jordan_Jordan Josèp_Joseph Julian_Julian Jules_Julius 
+			Kenzo_Kenzo Kévin_Kevin Kylian_Kilian
+			Lafayette_Lafayette Lahcène_Hasan Lambert_Lambert Laurènç_Lawrence Legolas_Legolas Léon_Leo Louis_Louis Luc_Luke Lucien_Lucian Ludovic_Louis 
+			Marc_Mark Marius_Marius Martin_Martin Matias_Matthew Michel_Michael Mohamed_Muhammad Montaigne_Montaigne Mousqueton
+			Napoléon_Napoleon Nicholaus_Nicholas Noirtier-de-Villefort_Noirtier-de-Villefort Numérobis_Numerobis 
+			Olivier_Oliver Oscar_Oscar Otton_Otto 
+			Paladin_Paladin Pascal_Pascal Patrice_Patrick Paul_Paul Pierre_Peter Philippe_Phillip Planchet Pontus_Pontius Porthos_Porthos
+			Quasimodo_Quasimodo
+			Raphaël_Raphael Raimond_Raymond Rainaut_Reynold Rainer_Rainer Raoul_Ralph René_Renatus Richard_Richard Robèrt_Robert Rodrigue_Roderick Rogier_Roger Roheryn_Roheryn Roland_Roland
+			Samuel_Samuel Sandre_Alexander Sébastien_Sebastian Serge_Sergius Sigismond_Sigmund Simon_Simon Sméagol_Smeagol Sylvain_Silvanus 
+			Thengel_Thengel Thierry_Theodoric Thomas_Thomas Thorondor_Thorondor Tibaud_Theobald Timothé_Timothy Tréville_Treville Tristan_Tristan
+			Ubert_Humbert Ulysse_Odysseus Urbain_Urban
+			Valacar_Valacar Vézian Vicenç_Vincent Victor_Victor Villefort Vlad_Vladimir
+			Walton_Walton Wilmore
+			Younès_Jonah Yves_Yves
+			Xavier_Xavier
+			Zain_Zain Zénon_Zenon Zola_Zola
+		}
+		female_names = {
+			Adèle_Adela Adalaide_Adelaide Agata_Agatha Agnès_Agnes Aisha_Aisha Alice_Alice Almòdis_Almodis Ana_Anna Ancalimë_Ancalime Antoinette_Antonia Arsenda_Arsenda Audrey 
+			Beatrix_Beatrix Belladonna Blanche_Blanche Bonne_Bonne Bridgette_Bridget
+			Camille_Camilla Caroline_Caroline Catherine_Catherine Cecilia_Cecilia Celebrían_Celebrian Cendrillon_Cendrillon Charlotte_Charlotte Claire_Clara Clemència_Clementia Cloutilda_Clotilde Constància_Constance 
+			Danielle_Daniela Daphné_Daphne
+			Eärwen_Earwen Elenwë_Elenwe Éléonore_Eleanor Élisabeth_Elizabeth Éowyn_Eowyn Ermengarda_Ermengarde Ermessentz_Ermesinda Eufèmia_Euphemia Eugénie_Eugenia
+			Fatima_Fatima Filipa_Philippa Fleur-de-Lys_Fleur-de-Lys Francine_Frances 
+			Gabrielle_Gabriela Galadriel_Galadriel Georgette_Georgia Gilraen_Gilraen Gloria_Gloria Guenièvre_Jennifer Guilheumina_Willhelmina 
+			Haleth Haydée Hélène_Helen Heloise_Eloise Henriette_Henriette Hermione
+			Ioreth_Ioreth Irène_Irene Isabelle_Elizabeth 
+			Jeanette_Jane Joana_Jane Juliana_Juliana Julie_Julia
+			Laura_Laura Louise_Louise 
+			Madeleine_Madeline Marguerite_Margaret Marie_Mary Marta_Martha Matilda_Matilda Melisènda_Melisende Mercédès_Mercedes
+			Nathalie_Natalie Nicole_Nicole 
+			Patricia_Patricia Pauline_Paula Pétronille_Peronella 
+			Raimonda_Ramona Renée_Renata Richènda_Ricarda Rosa_Rosa 
+			Sibil_Sibyl Silmarien_Silmarien Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan
+			Tamara_Tamar Telperien_Telperien Terèsa_Theresa Théodora_Theodora Tinúviel_Tinuviel 
+			Valentine_Valentina Vera_Vera Véronique_Veronica Victoire_Victoria
+			Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	marocain = { #Occitan plus Maghrebi
+		graphical_cultures = { latinsemitegfx arabicgfx westerngfx }
+		unit_graphical_cultures = { trueoccitangfx occitangfx }
+		
+		color = { 1.0 0.8 0.35 }
+
+		male_names = { 
+			Abbas_Abbas Abbé-Faria_Abbe-Faria Abdel_Abdul Abdelazim_Abdulazim Abdelbaki_Abdulbaqi Abdelhalim_Abdulhalim Abdelkrim_Abdalkarim Abderrahmane_Abdalrahman Abdellah_Abdullah Abdelmoumene_Abdalmumin Abèl_Abel Adnane_Adnan Adrien_Adrian Ahmed_Ahmad Aiwendil_Aiwendil Alaeddin_Alaeddin Alatar_Alatar Albert_Albert Aldarion_Aldarion Alexandre_Alexander Alexis_Alexis Ali_Ali Alphonse_Alphonse Amalric_Amalric Amandil_Amandil Amine_Amin Amroth_Amroth Anárion_Anarion Anatole_Anatolius André_Andrew Anouar_Anwar Antoine_Anthony Aragorn_Aragorn Aramis_Aramis Archambaut_Archibald Armand_Herman Arnaut_Arnold Arthur_Arthur Atanamir_Atanamir Athos_Athos Auguste_Augustus Aurèle_Aurelius Avrigny Axel_Axel Aymar_Aymeric
+			Balin_Balin Baptistin_Baptist Barahir_Barahir Barakat_Barak Bartoumiéu_Bartholomew Basile_Basil Baudoin_Baldwin Béchir_Bashir Beneset_Benedict Bëor_Beor Bérard_Bernard Berenguié_Berengar Bermond_Vermudo Bernat_Bernard Bertrand_Bertrand Beauchamp Billel_Bilal Boromir_Boromir Boualem Boville Brahim_Abraham Brandir_Brandir Bruno_Bruno 
+			Calixte_Callistus Calogrenant_Calogrenant Cambacérès_Cambaceres Casimir_Casimir Caspian_Caspian Castelmore Cédric_Cedric Celebrimbor_Celebrimbor César_Caesar Chafik_Shafiq Cheikh_Sheikh Chérif_Sharif Charles_Charles Choukri_Shukri Christophe_Christopher Clamenç_Clement Claude_Claudius Constantin_Constantine 
+			Damien_Damian Daniel_Daniel Darius_Darius D'Artagnan_D'Artagnan Dàvi_David DeGaulle_DeGaulle Denis_Dionysus Didier_Desiderius Dimitri_Demetrius Djafar_Jafar Djalil_Jalil Djamel_Jamal Donat_Donatus Doumenge_Dominic Draco_Drago Drinian_Drinian Driss_Idris 
+			Eärendil_Earendil Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Eldacar_Eldacar Elros_Elros Elyès_Elijah Émile_Emil Emmanuèl_Emmanuel Erkenbrand_Erkenbrand Essaïd_Said Estève_Stephen Eugène_Eugene 
+			Fabien_Fabian Faramir_Faramir Farès_Faris Fayçal_Faysal Felaróf_Felarof Félix_Felix Fernand_Ferdinand Flavius_Flavius Florènç_Florentius Folquet_Folke François_Francis Frederi_Frederick 
+			Gabriel_Gabriel Galdor_Galdor Gaspard_Caspar Gaston_Gaston Gautier_Walter Georges_George Gerontius_Gerontius Gilbèrt_Gilbert Girard_Gerard Grégory_Gregory Guillaume_William Guiraud_Gerald Gustave_Gustav Guy_Guy
+			Hacène_Hasan Hadj_Hajj Hafid_Hafiz Haidar_Haidar Haldir_Haldir Hamad_Hamad Henri_Henry Herbert_Herbert Hichem_Hisham Hocine_Hussayn Houari_Hawari Hugo_Hugh Hyarmendacil_Hyarmendacil
+			Igòr_Ingvar Isildur_Isildur Ismaïl_Ishmael 
+			Jacme_James Jaufret_Geoffrey Jean_John Jean-Antoine_Jean-Antoine Jean-Armand_Jean-Armand Jean-Baptiste_John-Baptist Jean-Charles_John-Charles Jean-Christophe_Jean-Christophe Jean-Nestor_Jean-Nestor Jean-Pierre_John-Peter Jerome_Jerome Joachim_Joachim Jordan_Jordan Julian_Julian Jules_Julius 
+			Kaddour Kenzo_Kenzo Kévin_Kevin Kheireddine_Khairaddin Kylian_Kilian
+			Lafayette_Lafayette Lambert_Lambert Laurènç_Lawrence Legolas_Legolas Léon_Leo Louis_Louis Luc_Luke Lucien_Lucian Ludovic_Louis 
+			Madani Madjid_Majid Mahieddine Malik_Malik Marc_Mark Marius_Marius Marouane_Marwan Martin_Martin Matias_Matthew Mehdi_Mahdi Michel_Michael Mohammed_Muhammad Mokhtar_Mukhtar Montaigne_Montaigne Mourad_Murad Mousa_Moses Mousqueton Moustafa_Mustafa
+			Nacer_Nasir Nadjib_Najib Napoléon_Napoleon Nicholaus_Nicholas Noirtier-de-Villefort_Noirtier-de-Villefort Nouh_Noah Numérobis_Numerobis 
+			Olivier_Oliver Omar_Umar Oscar_Oscar Otton_Otto Ouahid_Wahid Oualid_Walid Oussama_Usama
+			Paladin_Paladin Pascal_Pascal Patrice_Patrick Paul_Paul Pierre_Peter Philippe_Phillip Planchet Pontus_Pontius Porthos_Porthos
+			Quasimodo_Quasimodo
+			Rachide_Rashid Rafik_Rafiq Ramdane_Ramadan Raphaël_Raphael Raimond_Raymond Rainaut_Reynold Rainer_Rainer Raoul_Ralph Rédouane_Ridwan René_Renatus Richard_Richard Robèrt_Robert Rodrigue_Roderick Rogier_Roger Roheryn_Roheryn Roland_Roland
+			Saddek_Sadiq Salah_Salah Samuel_Samuel Sandre_Alexander Sébastien_Sebastian Seghir_Saghir Serge_Sergius Sigismond_Sigmund Simon_Simon Sméagol_Smeagol Sofyane_Sufyan Souleymane_Solomon Sylvain_Silvanus 
+			Tahar_Tahir Taïeb_Tayyib Tariq_Tariq Thengel_Thengel Thierry_Theodoric Thomas_Thomas Thorondor_Thorondor Tibaud_Theobald Timothé_Timothy Tréville_Treville Tristan_Tristan
+			Ubert_Humbert Ulysse_Odysseus Urbain_Urban
+			Valacar_Valacar Vézian Vicenç_Vincent Victor_Victor Villefort Vlad_Vladimir
+			Walton_Walton Wilmore
+			Yasine_Yasin Youcef_Joseph Younès_Jonah Yves_Yves
+			Xavier_Xavier
+			Zafir_Zafar Zakarya_Zachary Zeine_Zain Zénon_Zenon Zinédine_Zaynaddin Zola_Zola			
+		}
+		female_names = {
+			Adèle_Adela Adalaide_Adelaide Adila Agata_Agatha Agnès_Agnes Aïcha_Aisha Alice_Alice Almòdis_Almodis Amina_Amina Ana_Anna Ancalimë_Ancalime Antoinette_Antonia Arsenda_Arsenda Audrey Aziza_Aziza 
+			Bahija Basira_Basira Basma Batul Beatrix_Beatrix Belladonna Blanche_Blanche Bonne_Bonne Bouchra_Bushra Bridgette_Bridget
+			Camille_Camilla Caroline_Caroline Catherine_Catherine Cecilia_Cecilia Celebrían_Celebrian Cendrillon_Cendrillon Charlotte_Charlotte Claire_Clara Clemència_Clementia Cloutilda_Clotilde Constància_Constance 
+			Dalal Danielle_Daniela Daniyah Daphné_Daphne
+			Eärwen_Earwen Elenwë_Elenwe Éléonore_Eleanor Élisabeth_Elizabeth Éowyn_Eowyn Ermengarda_Ermengarde Ermessentz_Ermesinda Eufèmia_Euphemia Eugénie_Eugenia
+			Fadila_Fadila Faiza_Faiza Falbala_Falbala Farida_Farida Farah_Farah Fatima_Fatima Filipa_Philippa Fleur-de-Lys_Fleur-de-Lys Francine_Frances 
+			Gabrielle_Gabriela Galadriel_Galadriel Georgette_Georgia Ghada Ghaliya Gilraen_Gilraen Gloria_Gloria Guenièvre_Jennifer Guilheumina_Willhelmina 
+			Habiba_Habiba Hadiyya Hafsa Haleth Halima_Halima Hanifa_Hanifa Hawa_Eve Haydée Hélène_Helen Heloise_Eloise Henriette_Henriette Hermione Huda Husna
+			Ibtisam Ioreth_Ioreth Irène_Irene Isabelle_Elizabeth Isra 
+			Jalila_Jalila Jamila_Jamila Janan Jeanette_Jane Joana_Jane Juliana_Juliana Julie_Julia
+			Karima_Karima Khadija
+			Laura_Laura Layla_Laila Louise_Louise 
+			Madeleine_Madeline Maha Malika_Malika Marguerite_Margaret Marta_Martha Matilda_Matilda Melisènda_Melisende Maryam_Mary Mercédès_Mercedes Midha
+			Nafisa Nathalie_Natalie Nawra Nicole_Nicole Njla 
+			Patricia_Patricia Pauline_Paula Pétronille_Peronella 
+			Rafiqa Raimonda_Ramona Ramlah Rana Rashida_Rashida Renée_Renata Richènda_Ricarda Ridwana_Ridwana Rosa_Rosa 
+			Sadaf Sahar_Sahar Saida_Saida Salha_Salha Samira_Samira Sara_Sarah Sawsan_Susan Shakira_Shakira Sibil_Sibyl Silmarien_Silmarien Sophie_Sophia Stéphanie_Stephanie
+			Tahira_Tahira Taliba_Taliba Tamara_Tamar Tasnim Telperien_Telperien Terèsa_Theresa Théodora_Theodora Tinúviel_Tinuviel 
+			Uzma
+			Valentine_Valentina Vera_Vera Véronique_Veronica Victoire_Victoria
+			Wahida_Wahida
+			Yasmin_Jasmine Yusra Yvonne_Yvonne			
+			Zaynab_Zaynab	
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		
+		feminist = yes
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		allow_looting = yes
+		seafarer = yes
+	}
+	gascon = { #Mostly standard French names with a few regional variants
+		graphical_cultures = { trueoccitangfx occitangfx }
+		
+		color = { 0.9 0.9 0.57 }
+
+		male_names = { 
+			Abbé-Faria_Abbe-Faria Abèl_Abel Adrien_Adrian Ahmed_Ahmad Aimeric_Aymeric Aiwendil_Aiwendil Alatar_Alatar Albèrt_Albert Aldarion_Aldarion Alexandre_Alexander Alèxis_Alexis Alfrèd_Alfred Ali_Ali Alphonse_Alphonse Amalric_Amalric Amandil_Amandil Amadèu_Amadeus Amroth_Amroth Anárion_Anarion Anatole_Anatolius André_Andrew Antoine_Anthony Aquiles_Achilles Aragorn_Aragorn Aramis_Aramis Armand_Herman Arnaut_Arnold Artús_Arthur Atanamir_Atanamir Athos_Athos Auguste_Augustus Aurèle_Aurelius Avrigny Axel_Axel
+			Barahir_Barahir Bartoumiéu_Bartholomew Basile_Basil Baudoin_Baldwin Beneset_Benedict Bëor_Beor Bérard_Bernard Berenguié_Berengar Bermond_Vermudo Bernat_Bernard Bertrand_Bertrand Beauchamp Boromir_Boromir Boville Brandir_Brandir Brunon_Bruno 
+			Calixte_Callistus Calogrenant_Calogrenant Cambacérès_Cambaceres Casimir_Casimir Caspian_Caspian Castelmore Cédric_Cedric Celebrimbor_Celebrimbor César_Caesar Charles_Charles Christophe_Christopher Clamenç_Clement Claude_Claudius Constantin_Constantine 
+			Damien_Damian Daniel_Daniel Dàrius_Darius D'Artagnan_D'Artagnan Dàvi_David DeGaulle_DeGaulle Demètri_Demetrius Denis_Dionysus Didier_Desiderius Donat_Donatus Doumenge_Dominic Draco_Drago Drinian_Drinian Driss_Idris 
+			Eärendil_Earendil Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Eldacar_Eldacar Elros_Elros Émile_Emil Emmanuel_Emmanuel Erkenbrand_Erkenbrand Estève_Stephen Eugène_Eugene 
+			Fabien_Fabian Faramir_Faramir Felaróf_Felarof Félix_Felix Fernand_Ferdinand Flavius_Flavius Florènç_Florentius Fortaner François_Francis Frederic_Frederick 
+			Gabriel_Gabriel Galdor_Galdor Gaspard_Caspar Gaston_Gaston Gautier_Walter Georges_George Gerontius_Gerontius Gilbèrt_Gilbert Girard_Gerard Grégory_Gregory Guillaume_William Guiraud_Gerald Gustave_Gustav Guy_Guy
+			Haldir_Haldir Henri_Henry Herbert_Herbert Hugo_Hugh Hyarmendacil_Hyarmendacil
+			Igòr_Ingvar Isildur_Isildur Ismaël_Ishmael 
+			Jacmes_James Jaufré_Geoffrey Jean_John Jean-Antoine_Jean-Antoine Jean-Armand_Jean-Armand Jean-Baptiste_John-Baptist Jean-Charles_John-Charles Jean-Christophe_Jean-Christophe Jean-Nestor_Jean-Nestor Jean-Pierre_John-Peter Jerome_Jerome Joachim_Joachim Jordan_Jordan Josèp_Joseph Julian_Julian Jules_Julius 
+			Kenzo_Kenzo Kévin_Kevin Kylian_Kilian
+			Lafayette_Lafayette Lahcène_Hasan Lambert_Lambert Laurènç_Lawrence Legolas_Legolas Léon_Leo Louis_Louis Luc_Luke Lucien_Lucian Ludovic_Louis 
+			Marc_Mark Marius_Marius Martin_Martin Matias_Matthew Michel_Michael Mohamed_Muhammad Montaigne_Montaigne Mousqueton
+			Napoléon_Napoleon Nicholaus_Nicholas Noirtier-de-Villefort_Noirtier-de-Villefort Numérobis_Numerobis 
+			Olivier_Oliver Oscar_Oscar Otton_Otto 
+			Paladin_Paladin Pascal_Pascal Patrice_Patrick Paul_Paul Pierre_Peter Philippe_Phillip Planchet Pontus_Pontius Porthos_Porthos
+			Quasimodo_Quasimodo
+			Raphaël_Raphael Raimond_Raymond Rainaut_Reynold Rainer_Rainer Raoul_Ralph René_Renatus Richard_Richard Robèrt_Robert Rodric_Roderick Rogèr_Roger Roheryn_Roheryn Roland_Roland
+			Samuel_Samuel Sandre_Alexander Sébastien_Sebastian Serge_Sergius Sigismond_Sigmund Simon_Simon Sméagol_Smeagol Sylvain_Silvanus 
+			Thengel_Thengel Thierry_Theodoric Thomas_Thomas Thorondor_Thorondor Tibaud_Theobald Timotèu_Timothy Tréville_Treville Tristan_Tristan
+			Ubert_Humbert Ulysse_Odysseus Urbain_Urban
+			Valacar_Valacar Vézian Vicenç_Vincent Victor_Victor Villefort Vlad_Vladimir
+			Walton_Walton Wilmore
+			Younès_Jonah Yves_Yves
+			Xavièr_Xavier
+			Zacàrias_Zachary Zain_Zain Zénon_Zenon Zola_Zola
+		}
+		female_names = {
+			Adèle_Adela Adalaide_Adelaide Agata_Agatha Agnès_Agnes Aisha_Aisha Alice_Alice Almòdis_Almodis Ana_Anna Ancalimë_Ancalime Antoinette_Antonia Arsenda_Arsenda Audrey 
+			Beatrix_Beatrix Belladonna Blanche_Blanche Bonne_Bonne Bridgette_Bridget
+			Camille_Camilla Caroline_Caroline Catherine_Catherine Cecilia_Cecilia Celebrían_Celebrian Cendrillon_Cendrillon Charlotte_Charlotte Claire_Clara Clemència_Clementia Cloutilda_Clotilde Constància_Constance 
+			Danielle_Daniela Daphné_Daphne
+			Eärwen_Earwen Elenwë_Elenwe Éléonore_Eleanor Élisabeth_Elizabeth Éowyn_Eowyn Ermengarda_Ermengarde Ermessentz_Ermesinda Eufèmia_Euphemia Eugénie_Eugenia
+			Fatima_Fatima Filipa_Philippa Fleur-de-Lys_Fleur-de-Lys Francine_Frances 
+			Gabrielle_Gabriela Galadriel_Galadriel Georgette_Georgia Gilraen_Gilraen Gloria_Gloria Guenièvre_Jennifer Guilheumina_Willhelmina 
+			Haleth Haydée Hélène_Helen Heloise_Eloise Henriette_Henriette Hermione
+			Ioreth_Ioreth Irène_Irene Isabelle_Elizabeth 
+			Jeanette_Jane Joana_Jane Juliana_Juliana Julie_Julia
+			Laura_Laura Louise_Louise 
+			Madeleine_Madeline Marguerite_Margaret Marie_Mary Marta_Martha Matilda_Matilda Melisènda_Melisende Mercédès_Mercedes
+			Nathalie_Natalie Nicole_Nicole 
+			Patricia_Patricia Pauline_Paula Pétronille_Peronella 
+			Raimonda_Ramona Renée_Renata Richènda_Ricarda Rosa_Rosa 
+			Sibil_Sibyl Silmarien_Silmarien Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan
+			Tamara_Tamar Telperien_Telperien Terèsa_Theresa Théodora_Theodora Tinúviel_Tinuviel 
+			Valentine_Valentina Vera_Vera Véronique_Veronica Victoire_Victoria
+			Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	provencal = { #Modern French with a few regional variants
+		graphical_cultures = { trueoccitangfx occitangfx }
+		
+		color = { 0.99 0.8 0.35 }
+
+		male_names = {
+			Aaroun_Aaron Abbé-Faria_Abbe-Faria Abèl_Abel Abraracourcix_Abraracourcix Adamaï_Adamai Adrien_Adrian Aguste_Augustus Aimeric_Aymeric Aiwendil_Aiwendil Alaeddine_Alaeddin Alain_Alan Alatar_Alatar Albert_Albert Aldarion_Aldarion Alessandrou_Alexander Alèssì_Alexis Alfounse_Alphonse Alfrèd_Alfred Amadieu_Amadeus Amandil_Amandil Amaury_Amalric Amroth_Amroth Anárion_Anarion André_Andrew Anthony_Anthony Antoine_Anthony Arador_Arador Aragorn_Aragorn Aramis_Aramis Arathorn_Arathorn Arnaud_Arnold Arnols_Arnold Aronnax_Aronnax Artús_Arthur Arvedui_Arvedui Astérix_Asterix Atanamir_Atanamir Atanatar_Atanatar Athos_Athos Aubry_Aubrey Axel_Axel Azaghâl_Azaghal
+			Balin_Balin Bandobras_Bandobras Barahir_Barahir Barbicane_Barbicane Bard_Bard Barthélémi_Bartholomew Baudouin_Baldwin Beaufort_Beaufort Beleg_Beleg Benjamin_Benjamin Bénézet_Benedict Bëor_Beor Beorn_Bjorn Beregond_Beregond Beren_Beren Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand Bifur_Bifur Bilbon_Bilbon Bill_Bill Blaise-Pascal_Blaise-Pascal Bödvar_Bodvar Bofur_Bofur Bombur_Bombur Bór_Bor Boromir_Boromir Brandir_Brandir Bree_Bree Brego_Brego Brunon_Bruno
+			Caderousse_Caderousse Calogrenant_Calogrenant Cambacérès_Cambaceres Camille-Desmoulins_Camille-Desmoulins Casimer_Casimir Caspian_Caspian Cédric_Cedric Celebrimbor_Celebrimbor Celeborn_Celeborn Charles_Charles Chasseur-de-Truffes_Chasseur-de-Truffes Chirac_Chirac Christian_Christian Christophe_Christopher Cirion_Cirion Ciryatan_Ciryatan Claude_Claudius Clemenceau_Clemenceau Clément_Clement Clerval_Clerval Clopin_Clopin Clotaire_Lothar Clovis_Clovis Coluche_Coluche Condorcet_Condorcet Conseil_Conseil Coriakin_Coriakin Cousteau_Cousteau Curumo_Curumo Cyrus_Cyrus
+			Dakkar_Dakkar D'Artagnan_D'Artagnan Dáin_Dain Damien_Damian Daniel_Daniel Dantès_Dantes Danton_Danton David_David DeGaulle_DeGaulle Denethor_Denethor Denis_Dionysus Descartes_Descartes Didier_Desiderius Digory_Digory Dimitrí_Demetrius Dior_Dior Domenge_Dominic Dori_Dori Drinian_Drinian Durkheim_Durkheim Durin_Durin Dwalin_Dwalin
+			Eärendil_Earendil Eärnil_Earnil Eärnur_Earnur Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Egalmoth_Egalmoth Eldacar_Eldacar Eldarion_Eldarion Elendil_Elendil Elfhelm_Elfhelm Elrond_Elrond Elros_Elros Émile_Emil Emmanuel_Emmanuel Enjolras_Enjolras Enzo Éomer_Eomer Eorl_Earl Erkenbrand_Erkenbrand Éric_Erik Étienne_Stephen Eudes_Otto Eustace_Eustace
+			Fabien_Fabian Fabrice_Fabrice Fantasio_Fantasio Faramir_Faramir Fauchelevent_Fauchelevent Fëanor_Feanor Felaróf_Felarof Félix-Faure_Félix-Faure Ferrand_Ferdinand Fíli_Fili Finarfin_Finarfin Fingolfin_Fingolfin Fingon_Fingon Flopin_Flopin Florian_Florian Franck_Francis François_Francis Frédégar_Fredegar Frédéric_Frederick Frodon_Frodon
+			Gabriel_Gabriel Galdor_Galdor Gandalf_Gandalf Gargamel_Gargamel Gaston_Gaston Gauthier_Walter Gavroche_Gavroche Geoffroy_Geoffrey Georges_George Gérard_Gerard Géraud_Gerard Gerontius_Gerontius Gilbert_Gilbert Gil-galad_Gilgalad Gilles_Egidius Gimli_Gimli Glóin_Gloin Glorfindel_Glorfindel Godefroy_Godfrey Gringoire_Gringoire Gripoil_Gripoil Grougaloragran_Grougaloragran Guillaume_William Guy_Guy Gwaihir_Gwaihir
+			Haddock_Haddock Halbarad_Halbarad Haldir_Haldir Háma_Hama Harbert_Harbert Helm_Helm Henri_Henry Herbert_Herbert Hervé_Harvey Horn_Horn Huan Hugo_Hugh Huor_Huor Húrin_Hurin Hyarmendacil_Hyarmendacil 
+			Idéfix_Idefix Imrahil_Imrahil Isildur_Isildur
+			Jacques_Jacob Jacques-Yves_Jacques-Yves Jaspert_Jaspert Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claude Jean-Luc_John-Luke Jean-Pierre_John-Peter Jeanvaljean_Jeanvaljean Jérémy_Jeremiah Jérôme_Jerome Joël_Joel Joseph_Joseph Jules_Julius J-T-Maston_J-T-Maston Jules-César_Julius-Caesar Julien_Julian 
+			Kenzo_Kenzo Kévin_Kevin Kíli_Kili 
+			Lafayette_Lafayette Lanfeust_Lanfeust Laurent_Lawrence Legolas_Legolas Lidenbrock_Lidenbrock Léon_Leo Léonard_Leonard Louis_Louis Lucàs_Luke Lucien_Lucian Ludovic_Louis
+			Mablung_Mablung Maedhros_Maedhros Marc_Mark Marcel_Marcellus Marius_Marius Marquais_Marquais Matièu_Matthew Maurice_Maurice Maxime_Maximus Meriadoc_Meriadoc Michel_Michael Minastir_Minastir Mitterrand_Mitterrand Mohammed_Muhammad Molière_Moliere Montaigne_Montaigne Montesquieu_Montesquieu Morrel_Morrel Myriel_Myriel
+			Napoléon_Napoleon Ned-Land_Ned-Land Némo_Nemo Nicefòr_Nicephorus Nicolas_Nicholas Nicholl_Nicholas Nivacrin_Nivacrin Noirtier-de-Villefort_Noirtier-de-Villefort Norbert_Norbert Numérobis_Numerobis 
+			Obélix_Obelix Ocatarinetabellatchitchix_Ocatarinetabellatchitchix Odoacer_Odoacer Óin_Oin Olivier_Oliver Olórin_Olorin Orodreth_Orodreth Orophin_Orophin Oscar_Oscar Ostoher_Ostoher
+			Paladin_Paladin Pallando_Pallando Panoramix_Panoramix Passepartout_Passepartout Pasteur_Pasteur Patrice_Patrick Paul_Paul Pencroff_Pencroff Peregrïn_Peregrin Phileas-Fogg_Phileas-Fogg Philippe_Phillip Phoebus_Phoebus Picsou_Picsou Pierre_Peter Pompidou_Pompidou Pontmercy_Pontmercy Porthos_Porthos
+			Quasimodo_Quasimodo Quentin_Quentin
+			Radagast_Radagast Ramandu_Ramandu Raoul_Ralph Raphaël_Raphael Raymond_Raymond Raynaud_Reynold Renaud_Reynold Renard_Renard René_Renatus Richard_Richard Rillian_Rillian Ripitchip_Ripitchip Roland_Roland Robert_Robert Robin_Robin Robur_Robur Roger_Roger Roheryn_Roheryn Romain_Roman Rousseau_Rousseau Ruel_Ruel
+			Saint-Just_Saint-Just Salomon_Solomon Samsagace_Samsagace Sartre_Sartre Sébastien_Sebastian Serge_Sergius Siéyès_Sieyes Simon_Simon Sméagol_Smeagol Spirou_Spirou Stéphane_Stephen Sylvain_Silvanus Sylvebarbe_Sylvebarbe
+			Thengel_Thengel Théo_Theodore Théoden_Theoden Théodred_Theodred Thibault_Theobald Thierry_Theodoric Thingol_Thingol Thomas_Thomas Thorgal_Thorgal Thorin_Thorin Thorondor_Thorondor Thráin_Thrain Thranduil_Thranduil Thrór_Thror Timothé_Timothy Tintin_Tintin Tirian_Tirian Tocqueville_Tocqueville Tom-Bombadil_Tom-Bombadil Tréville_Treville Tristepin_Tristepin Trompillon_Trompillon Tumnus_Tumnus Tuor_Tuor Turgon_Turgon Túrin_Turin
+			Valacar_Valacar Valéry-Giscard-d'Estaing_Valery-Giscard-d'Estaing Vercingétorix_Vercingetorix Victor_Victor Vincent_Vincent Vlad_Vladimir Voltaire_Voltaire
+			Waldman_Waldman Walton_Walton Wiglaf_Wiglaf
+			Xavier_Xavier
+			Yugo Yves_Yves
+			Zain_Zain Zidane_Zaydan Zinédine_Zaynaddin Zola_Zola
+		}
+		female_names = {
+			Aaricia_Aaricia Adèle_Adela Aerin_Aerin Agathe_Agatha Agnès_Agnes Alice_Alice Alberta_Alberta Aliénor_Eleanor Alix_Alice Amalie_Amelia Amarië_Amarie Amélie_Amelia Anaïs_Anna Anastasie_Anastasia Ancalimë_Ancalime Andrée_Andrea Anne_Anna Annick_Anna Annie_Anna Antoinette_Antonia Aouda Aredhel Arwen Audrey Aurélie_Aurelia Aurore_Aurora
+			Baie-d'Or_Baie-d'Or Béatrice_Beatrix Belladonna Benoîte_Benedicta Bérengère_Berengaria Bernadette Blanche_Blanche Bonemine_Bonemine Brigitte_Bridget 
+			Camilla_Camilla Caroline_Caroline Catherine_Catherine Cécile_Cecilia Celebrían_Celebrian Céline_Celine Cendrillon_Cendrillon Chantal Charlotte_Charlotte Chloé_Chloe Christelle_Christina Christine_Christina Cixi_Cixi Claire_Clara Claudette_Claudia Claudine_Claudia Cléopâtre_Cleopatra Clotilde_Clotilde Colette_Nicole Constance_Constance Corinne_Corinne Cosette_Cosette
+			Dalida_Delilah Danielle_Daniela Delphine_Delphine Denise_Denise Dís_Dis Dominique_Dominique 
+			Eärwen_Earwen Edith_Edith Éléonore_Eleanor Elely Elenwë_Elenwe Eliane_Helen Elisabeth_Elizabeth Elise_Elizabeth Élodie_Alodia Elwing_Elwing Emma_Emma Emmanuelle_Emanuela Émilie_Emily Éowyn_Eowyn Éponine_Eponine Erendis Esméralda_Esmeralda Estella Eugénie_Eugenia Eve_Eve Evangelyne_Evangelia Evelyne_Aveline
+			Falbala_Falbala Fantine_Fantine Fatima_Fatima Finduilas_Finduilas Fleur-de-Lys_Fleur-de-Lys Florence_Florence Françoise_Frances
+			Galadriel_Galadriel Geneviève_Genevieve Germaine_Germana Georgette_Georgia Gilraen_Gilraen Ginette_Genevieve Gisèle_Gisela Gwendolen
+			Haleth Haydée Hélène_Helen Héloise_Eloise Henriette_Henriette Hermione_Hermine Hild_Hilda Hwin_Hwin 
+			Idril_Idril Indis_Indis Ioreth_Ioreth Isabelle_Elizabeth 
+			Jacqueline_Jacqueline Javotte_Genevieve Jeanne_Jane Jeanne-d'Arc_Jeanne-d'Arc Jeannine_Jane Jill_Jill Joséphine_Josephine Josette_Josephine Josiane_Josephine Judith_Judith Julie_Julia Julienne_Juliana Juliette_Julia Justine_Justina 
+			Karine_Catherine
+			Laetitia_Letitia Lalaith_Lalaith Laura_Laura Laurence_Laurentia Laurette_Laurentia Léa_Leah Lilliandil_Lilliandil Lobelia_Lobelia Lothíriel_Lothiriel Louise_Louise Louve_Louve Lucie_Lucia Lucienne_Luciana Lucy_Lucia Lúthien_Luthien 
+			Madeleine_Madeline Malefique_Malefique Manon Marcelle_Marcella Marine_Marina Marion_Mary Margot_Margaret Marguerite_Margaret Maria_Mary Marie_Mary Marie-Antoinette_Marie-Antoinette Marie-Curie_Marie-Curie Marie-Louise_Marie-Louise Marie-Thérèse_Marie-Theresa Martine_Martina Mathilde_Matilda Meg_Margaret Mélanie_Melanie Melian_Melian Mélusine_Melusine Mercédès_Mercedes Michèle_Michelle Miranda_Miranda Mireille_Mireille Monique_Monica
+			Nadia_Nadezhda Nadine_Nadezhda Nathalie_Natalie Nerdanel Nicole_Nicole Nienor_Nienor Níniel_Niniel 
+			Odette
+			Patricia_Patricia Paulette_Paula Pauline_Paula Polly_Mary Primula_Primula Prunaprismia_Prunaprismia 
+			Raymonde_Ramona Renée_Renata Rían_Rian Rose_Rosa
+			Sandrine_Alexandra Sarah_Sarah Ségolène_Segolene Silmarien_Silmarien Simone_Simone Solène_Solange Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan Sybille_Sibyl Sylvie_Silvia
+			Telperien_Telperien Théodwyn_Theodwyn Thérèse_Theresa Tinúviel_Tinuviel 
+			Vairë_Vaire Valérie_Valeria Vanimeldë_Vanimelde Varda_Rosa Véronique_Veronica Virginie_Virginia
+			Yavanna_Yavanna Yvette_Yvonne Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	picard = {
+		graphical_cultures = { normangfx frankishgfx westerngfx }
+		
+		color = { 0.93 0.78 0.4 }
+
+		male_names = {
+			Abbé-Faria_Abbe-Faria Abraracourcix_Abraracourcix Adamaï_Adamai Adrien_Adrian Aimery_Aymeric Aiwendil_Aiwendil Alaeddine_Alaeddin Alain_Alan Alatar_Alatar Albert_Albert Aldarion_Aldarion Alexandre_Alexander Alexis_Alexis Alphonse_Alphonse Amandil_Amandil Amaury_Amalric Amédée_Amadeus Amroth_Amroth Anárion_Anarion André_Andrew Anthony_Anthony Antoine_Anthony Arador_Arador Aragorn_Aragorn Aramis_Aramis Arathorn_Arathorn Arnaud_Arnold Arnault_Arnold Aronnax_Aronnax Arthur_Arthur Arvedui_Arvedui Astérix_Asterix Atanamir_Atanamir Atanatar_Atanatar Athos_Athos Aubry_Aubrey Axel_Axel Azaghâl_Azaghal
+			Balin_Balin Bandobras_Bandobras Batisse_Baptist Barahir_Barahir Barbicane_Barbicane Bard_Bard Barthélémi_Bartholomew Baudouin_Baldwin Beaufort_Beaufort Beleg_Beleg Bénouet_Benedict Bëor_Beor Beorn_Bjorn Beregond_Beregond Beren_Beren Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand Bifur_Bifur Bilbon_Bilbon Bill_Bill Binjamin_Benjamin Blaise-Pascal_Blaise-Pascal Bödvar_Bodvar Bofur_Bofur Bombur_Bombur Bór_Bor Boromir_Boromir Brandir_Brandir Bree_Bree Brego_Brego Bruno_Bruno
+			Caderousse_Caderousse Caloguernant_Calogrenant Cambacérès_Cambaceres Camille-Desmoulins_Camille-Desmoulins Caspian_Caspian Cédric_Cedric Celebrimbor_Celebrimbor Celeborn_Celeborn Charles_Charles Chasseur-de-Truffes_Chasseur-de-Truffes Chirac_Chirac Christian_Christian Christophe_Christopher Cirion_Cirion Ciryatan_Ciryatan Claude_Claudius Clemenceau_Clemenceau Clément_Clement Clerval_Clerval Clopin_Clopin Clotaire_Lothar Clovis_Clovis Coluche_Coluche Condorcet_Condorcet Conseil_Conseil Coriakin_Coriakin Cousteau_Cousteau Curumo_Curumo Cyrus_Cyrus
+			Dakkar_Dakkar D'Artagnan_D'Artagnan Dáin_Dain Damien_Damian Daniel_Daniel Dantès_Dantes Danton_Danton David_David DeGaulle_DeGaulle Denethor_Denethor Denis_Dionysus Descartes_Descartes Didier_Desiderius Digory_Digory Dimitri_Demetrius Dior_Dior Dominique_Dominic Dori_Dori Drinian_Drinian Druon Durkheim_Durkheim Durin_Durin Dwalin_Dwalin
+			Eärendil_Earendil Eärnil_Earnil Eärnur_Earnur Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Egalmoth_Egalmoth Eldacar_Eldacar Eldarion_Eldarion Elendil_Elendil Elfhelm_Elfhelm Elrond_Elrond Elros_Elros Émile_Emil Emmanuel_Emmanuel Enjolras_Enjolras Enzo Éomer_Eomer Eorl_Earl Erkenbrand_Erkenbrand Éric_Erik Étienne_Stephen Eudes_Otto Eustace_Eustace
+			Fabien_Fabian Fabrice_Fabrice Fantasio_Fantasio Faramir_Faramir Fauchelevent_Fauchelevent Fëanor_Feanor Felaróf_Felarof Félix-Faure_Félix-Faure Fernand_Ferdinand Fíli_Fili Finarfin_Finarfin Fingolfin_Fingolfin Fingon_Fingon Flopin_Flopin Florian_Florian Franck_Francis François_Francis Frédégar_Fredegar Frédéric_Frederick Frodon_Frodon
+			Gabriel_Gabriel Galdor_Galdor Gandalf_Gandalf Gargamel_Gargamel Gaston_Gaston Gauthier_Walter Gavroche_Gavroche Geoffroy_Geoffrey Georges_George Gérard_Gerard Géraud_Gerard Gerontius_Gerontius Gilbert_Gilbert Gil-galad_Gilgalad Gilles_Egidius Gimli_Gimli Glóin_Gloin Glorfindel_Glorfindel Godefroy_Godfrey Gringoire_Gringoire Gripoil_Gripoil Grougaloragran_Grougaloragran Gueuvain_Gavin Guillaume_William Guy_Guy Gwaihir_Gwaihir
+			Haddock_Haddock Halbarad_Halbarad Haldir_Haldir Háma_Hama Harbert_Harbert Helm_Helm Henri_Henry Herbert_Herbert Hervé_Harvey Horn_Horn Huan Hugo_Hugh Huor_Huor Húrin_Hurin Hyarmendacil_Hyarmendacil 
+			Idéfix_Idefix Imrahil_Imrahil Isildur_Isildur
+			Jacques_Jacob Jacques-Yves_Jacques-Yves Jaspert_Jaspert Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claude Jean-Luc_John-Luke Jean-Pierre_John-Peter Jeanvaljean_Jeanvaljean Jérémy_Jeremiah Jérôme_Jerome Joël_Joel Joseph_Joseph Jules_Julius J-T-Maston_J-T-Maston Jules-César_Julius-Caesar Julien_Julian 
+			Kenzo_Kenzo Kévin_Kevin Kíli_Kili 
+			Lafayette_Lafayette Lançlot_Lancelot Lanfeust_Lanfeust Laurent_Lawrence Legolas_Legolas Lidenbrock_Lidenbrock Léon_Leo Léonard_Leonard Louis_Louis Lucas_Luke Lucien_Lucian Ludovic_Louis
+			Mablung_Mablung Maedhros_Maedhros Marc_Mark Marcel_Marcellus Marius_Marius Marquais_Marquais Mathieu_Matthew Maurice_Maurice Maxime_Maximus Meriadoc_Meriadoc Michel_Michael Minastir_Minastir Mitterrand_Mitterrand Mohammed_Muhammad Molière_Moliere Montaigne_Montaigne Montesquieu_Montesquieu Morrel_Morrel Myriel_Myriel
+			Napoléon_Napoleon Ned-Land_Ned-Land Némo_Nemo Nicéphore_Nicephorus Nicolas_Nicholas Nicholl_Nicholas Nivacrin_Nivacrin Noirtier-de-Villefort_Noirtier-de-Villefort Norbert_Norbert Numérobis_Numerobis 
+			Obélix_Obelix Ocatarinetabellatchitchix_Ocatarinetabellatchitchix Odoacer_Odoacer Óin_Oin Olivier_Oliver Olórin_Olorin Orodreth_Orodreth Orophin_Orophin Oscar_Oscar Ostoher_Ostoher Osval_Oswald
+			Paladin_Paladin Pallando_Pallando Panoramix_Panoramix Passepartout_Passepartout Pasteur_Pasteur Patrice_Patrick Paul_Paul Pencroff_Pencroff Peregrïn_Peregrin Phileas-Fogg_Phileas-Fogg Philippe_Phillip Phoebus_Phoebus Picsou_Picsou Pierre_Peter Pompidou_Pompidou Pontmercy_Pontmercy Porthos_Porthos
+			Quasimodo_Quasimodo Quentin_Quentin
+			Radagast_Radagast Ramandu_Ramandu Raoul_Ralph Raphaël_Raphael Raymond_Raymond Raynaud_Reynold Renaud_Reynold Renard_Renard René_Renatus Richard_Richard Rillian_Rillian Ripitchip_Ripitchip Roland_Roland Robert_Robert Robin_Robin Robur_Robur Roger_Roger Roheryn_Roheryn Romain_Roman Rousseau_Rousseau Ruel_Ruel
+			Saint-Just_Saint-Just Salomon_Solomon Samsagace_Samsagace Sartre_Sartre Sébastien_Sebastian Serge_Sergius Siéyès_Sieyes Simon_Simon Sméagol_Smeagol Spirou_Spirou Stéphane_Stephen Sylvain_Silvanus Sylvebarbe_Sylvebarbe
+			Thengel_Thengel Théo_Theodore Théoden_Theoden Théodred_Theodred Thibault_Theobald Thierry_Theodoric Thingol_Thingol Thomas_Thomas Thorgal_Thorgal Thorin_Thorin Thorondor_Thorondor Thráin_Thrain Thranduil_Thranduil Thrór_Thror Timothé_Timothy Tintin_Tintin Tirian_Tirian Tocqueville_Tocqueville Tom-Bombadil_Tom-Bombadil Tréville_Treville Tristepin_Tristepin Trompillon_Trompillon Tumnus_Tumnus Tuor_Tuor Turgon_Turgon Túrin_Turin
+			Valacar_Valacar Valéry-Giscard-d'Estaing_Valery-Giscard-d'Estaing Vercingétorix_Vercingetorix Victor_Victor Vincent_Vincent Vlad_Vladimir Voltaire_Voltaire
+			Waldman_Waldman Walton_Walton Wiglaf_Wiglaf
+			Xavier_Xavier
+			Yugo Yves_Yves
+			Zain_Zain Zidane_Zaydan Zinédine_Zaynaddin Zola_Zola
+		}
+		female_names = {
+			Aaricia_Aaricia Adèle_Adela Aerin_Aerin Agathe_Agatha Agnès_Agnes Alberta_Alberta Aliénor_Eleanor Alisse_Alice Alix_Alice Amalie_Amelia Amarië_Amarie Amélie_Amelia Anaïs_Anna Anastasie_Anastasia Ancalimë_Ancalime Andrée_Andrea Anne_Anna Annick_Anna Annie_Anna Antoinette_Antonia Aouda Aredhel Arwen Audrey Aurélie_Aurelia Aurore_Aurora
+			Baie-d'Or_Baie-d'Or Béatrice_Beatrix Belladonna Benoîte_Benedicta Bérengère_Berengaria Bernadette Blanche_Blanche Bonemine_Bonemine Brigitte_Bridget 
+			Camilla_Camilla Caroline_Caroline Catheleine_Catherine Cécile_Cecilia Celebrían_Celebrian Céline_Celine Cendrillon_Cendrillon Chantal Charlotte_Charlotte Chloé_Chloe Christelle_Christina Christine_Christina Cixi_Cixi Claire_Clara Claudette_Claudia Claudine_Claudia Cléopâtre_Cleopatra Clotilde_Clotilde Colette_Nicole Constance_Constance Corinne_Corinne Cosette_Cosette
+			Dalida_Delilah Danielle_Daniela Delphine_Delphine Denise_Denise Dís_Dis Dominique_Dominique 
+			Eärwen_Earwen Edith_Edith Éléonore_Eleanor Elely Elenwë_Elenwe Eliane_Helen Elisabeth_Elizabeth Elise_Elizabeth Élodie_Alodia Elwing_Elwing Emma_Emma Emmanuelle_Emanuela Émilie_Emily Éowyn_Eowyn Éponine_Eponine Erendis Esméralda_Esmeralda Estella Eugénie_Eugenia Eve_Eve Evangelyne_Evangelia Evelyne_Aveline
+			Falbala_Falbala Fantine_Fantine Fatima_Fatima Finduilas_Finduilas Fleur-de-Lys_Fleur-de-Lys Florence_Florence Françoise_Frances
+			Galadriel_Galadriel Geneviève_Genevieve Germaine_Germana Georgette_Georgia Gilraen_Gilraen Ginette_Genevieve Gisèle_Gisela Gwendolen
+			Haleth Haydée Hélène_Helen Héloise_Eloise Henriette_Henriette Hermione_Hermine Hild_Hilda Hwin_Hwin 
+			Idril_Idril Indis_Indis Ioreth_Ioreth Isabelle_Elizabeth 
+			Jacqueline_Jacqueline Javotte_Genevieve Jeanne_Jane Jeanne-d'Arc_Jeanne-d'Arc Jeannine_Jane Jill_Jill Joséphine_Josephine Josette_Josephine Josiane_Josephine Judith_Judith Julie_Julia Julienne_Juliana Juliette_Julia Justine_Justina 
+			Karine_Catherine
+			Laetitia_Letitia Lalaith_Lalaith Laura_Laura Laurence_Laurentia Laurette_Laurentia Léa_Leah Lilliandil_Lilliandil Lobelia_Lobelia Lothíriel_Lothiriel Louise_Louise Louve_Louve Lucie_Lucia Lucienne_Luciana Lucy_Lucia Lúthien_Luthien 
+			Madeleine_Madeline Malefique_Malefique Manon Marcelle_Marcella Marine_Marina Marion_Mary Margot_Margaret Marguerite_Margaret Maria_Mary Marie_Mary Marie-Antoinette_Marie-Antoinette Marie-Curie_Marie-Curie Marie-Louise_Marie-Louise Marie-Thérèse_Marie-Theresa Martine_Martina Mathilde_Matilda Meg_Margaret Mélanie_Melanie Melian_Melian Mélusine_Melusine Mercédès_Mercedes Michèle_Michelle Miranda_Miranda Mireille_Mireille Monique_Monica
+			Nadia_Nadezhda Nadine_Nadezhda Nathalie_Natalie Nerdanel Nicole_Nicole Nienor_Nienor Níniel_Niniel 
+			Odette
+			Patricia_Patricia Paulette_Paula Pauline_Paula Polly_Mary Primula_Primula Prunaprismia_Prunaprismia 
+			Raymonde_Ramona Renée_Renata Rían_Rian Rose_Rosa
+			Sandrine_Alexandra Sarah_Sarah Ségolène_Segolene Silmarien_Silmarien Simone_Simone Solène_Solange Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan Sybille_Sibyl Sylvie_Silvia
+			Telperien_Telperien Théodwyn_Theodwyn Thérèse_Theresa Tinúviel_Tinuviel 
+			Vairë_Vaire Valérie_Valeria Vanimeldë_Vanimelde Varda_Rosa Véronique_Veronica Virginie_Virginia
+			Yavanna_Yavanna Yvette_Yvonne Yvonne_Yvonne
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	pondicherien = { #Franco-Indian
+		graphical_cultures = { southindiangfx indiangfx muslimgfx }
+		secondary_event_pictures = bengali
+		
+		color = { 0.9 0.8 0.6 }
+		
+		male_names = {
+		    Abhishek Âditya Ajay Ajith Amit Ananth Anbu Anil Aravind Arjun Arun Aruna Âshish Ashok Ashwin Arasan Ârumugam Arunachalam Azhagan
+			Bâlâ Bharath Bâlâji Bâlasubramaniam Bâlasubramanian
+			Chandra Chandrasekhar
+			Deepak Dileep Dinesh Durai Durga
+			Ezhil
+			Ganesh Gopal Ganesan Gautham Geetha Gopâlakrishna Gopâlakrishnan 
+			Hari Harish
+			Jaya Jothi Jagadishwara Jayaraj
+			Kali Kamal Kamala Kannan Kârthik Kârthikeyan Kiran Kishor Krishna Kumar Kumaran Kathiravan Krishnamoorthi Krishnan Krishnakumar
+			Lakshman
+			Madhu Mahesh Mani Manoj Mohan Murali Murugan Mânickam Mohanbabu 
+			Nanda Nârâyana Nârâyanan Naveen Nikhil Nirmal Nithin Nâgarâj Nâgendran Nâgesh Nakkeeran Nandini Narasimma Narasimman Narendhiran
+			Padma Prabhâkar Prabhu Pradeep Prakâsh Prasâd Prasanna Prashânth Praveen Prem Palanivel Pândian Puspa
+			Râdha Râhul Râjâ Râjeev Râjesh Râjiv Râju Râkesh Râm Râma Ramesh Rashmi Rathna Ravi Râjan Râjarâjan Râjasekar Râjasekaran Râjaselvan Ramanan Râmanâthan Ranganâthan Ruthiresh
+			Sandeep Sanjay Sekar Shankar Shyam Siva Sivan Sree Subramaniam Subramanian Sudarshan Sundar Sunil Suresh Suriya Santhosh Saravanan Satheesh Sathishkumar Selvam Senthil Senthilkumar Sethubathi Sudharshan Surendiran
+			Thulasi 
+			Ujjayan
+			Vâsu Venkata Vijay Vikram Vimal Vinay Vishâl Vishnu Vivek Vairamuthu Vaishnavan Veerasâmi Venkatesh Venkatraman Venugopal Vignesh Vigneshwaran Vinothan
+			#old names
+			Amarapuyankan_Amarabhujanga Aparâjita_Aparajita Aparâjitavarman_Aparajitavarman Appûtaiyân Arikêsari_Arikesari Ariñjaya_Arinjaya Arulmolitêvar 
+			Arulmolivarman Atirâjêntira_Athirajendra Atitta_Aditya Avaniyâlappirantâr Avraaham_Abraham 
+			Brahmamârâyar 
+			Sadayan Sankili Sataiyavarman_Sadayavarman Satturukâlamakalâtittan Jayantavarman_Jayantavarman SeliyanSentan Sekarâjasêkaran_Segarajasekaran Sevakattevan Seyavîra Chaacko_Jacob Chaandy_Alexander Simmavisnu_Simhavishnu Sinkapâku_Singhabahu Sivakkoluntân Suntara_Sundara Sâramutaiyân Sâttanân Sîvallapa_Seervallabha Sîvallapan_Seervallabhan 
+			Daniyel_Daniel 
+			Eappen_Stephen Eccavarâkan Eisow_Jesus 
+			Impânâyarpattan Irattapadikonda Râjasimman_Rajasingan Râjakesaripanmar Râjarâja_Rajaraja Râjâsekara_Rajasekhara Râjâtirâja_Rajadhiraja Râjâtirâjatevar Râjâtitta_Rajaditya Râjêntira_Rajendra Ittac_Isaac Iyob_Job 
+			Kadarangkonda Kanakasûriya Kantarâtitta_Gandarditya Karaikkiyemarrayilaiyân Karunandadakkan Karunandan Katunkon Kilân Kirâmarâcapattan Kontân Kossy_Joshua Kotukulapattan Kulasêkara_Kulasekhara Kulasêkaran_Kulasekharan Kulôttunka_Kulothunga Kunapûsana Kunavîra Kurian_Cyrus Kutameratiruvatikal Kôpperuñsimman_Kopperunchinga 
+			Lukose_Luke 
+			Makêntiravarman_Mahendravarman Manappâkkîlan Manavâlapperumâl Munnûrruvappattan Mâmpâkkamutaiyân Mânaticcuran Mârapanmar Mâravarman_Maravarman Mârkantaiyan Markose_Marcus Mâtevapattan Mâtevipattan 
+			Nantivarman_Nandivarman Narasimmavarman_Narasimhavarman Nirupatunkavarman_Nirupatonkavarman Niyâyaparipâlapattan Nârpattennâyirapattan Nâtittañsâttan 
+			Pantâram_Pandaram Parakesaripanmar Paramêsvaravarman_Parameswaravarman Paranirupacinkam_Paranirupasingham Pararâjasêkaran_Pararajasekharan Parâkkirama_Parakrama Parânkusan_Parankusan Parântaka_Parantaka Pathrose_Peter Pañjavan Paulose_Paul Periyapillai Perumâl Peruñjintevar Piramârâyan Piyliypaos_Philip Puvirâja_Puviraja Pâkkilân Pâlarâvâyan 
+			Ranatitta_Ranaditya Ranatîran_Ranadhiran Ravivarman 
+			Samuel_Samuel 
+			Tantivarman_Dantivarman Tennavan Thoma_Thomas Tiruccirrampalapattan Tirunattapperumâl Tirupuvanavîratevar Tripuvanasakkaravattikal 
+			Uravâkkinân Utaiya_Udaya Uttama 
+			Varakunan_Varagunan Varakunavarman_Varagunavarman Varôtaya Varughese_George Vellantânkinân Vijayâlaya_Vijayalaya Vijayâraka_Vijayaraga Vijayâtitta_Vijayaditya Vikkirama Vikramâtittâ_Vikramaditya Viranârâyanapattan Virâjakesaripanmar Vîrasêkara_Virasekhara Vîrakêsari_Virakhesari Vîrarâjêntira_Virarajendra Vîrôtaya_Virodaya Yohannaan_John Yosef_Joseph Zacharria_Zachary Âccinataratippan Ânûrrenmanpiccan Âyirattalipattan
+			Abbé-Faria_Abbe-Faria Abraracourcix_Abraracourcix Adamaï_Adamai Adrien_Adrian Aimery_Aymeric Aiwendil_Aiwendil Alaeddine_Alaeddin Alain_Alan Alatar_Alatar Albert_Albert Aldarion_Aldarion Alexandre_Alexander Alexis_Alexis Alphonse_Alphonse Amandil_Amandil Amaury_Amalric Amédée_Amadeus Amroth_Amroth Anárion_Anarion André_Andrew Anthony_Anthony Antoine_Anthony Arador_Arador Aragorn_Aragorn Aramis_Aramis Arathorn_Arathorn Arnaud_Arnold Arnault_Arnold Aronnax_Aronnax Arthur_Arthur Arvedui_Arvedui Astérix_Asterix Atanamir_Atanamir Atanatar_Atanatar Athos_Athos Aubry_Aubrey Axel_Axel Azaghâl_Azaghal
+			Balin_Balin Bandobras_Bandobras Barahir_Barahir Barbicane_Barbicane Bard_Bard Barthélémi_Bartholomew Baudouin_Baldwin Beaufort_Beaufort Beleg_Beleg Benjamin_Benjamin Benoît_Benedict Bëor_Beor Beorn_Bjorn Beregond_Beregond Beren_Beren Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand Bifur_Bifur Bilbon_Bilbon Bill_Bill Blaise-Pascal_Blaise-Pascal Bödvar_Bodvar Bofur_Bofur Bombur_Bombur Bór_Bor Boromir_Boromir Brandir_Brandir Bree_Bree Brego_Brego Bruno_Bruno
+			Caderousse_Caderousse Cambacérès_Cambaceres Camille-Desmoulins_Camille-Desmoulins Caspian_Caspian Cédric_Cedric Celebrimbor_Celebrimbor Celeborn_Celeborn Charles_Charles Chasseur-de-Truffes_Chasseur-de-Truffes Chirac_Chirac Christian_Christian Christophe_Christopher Cirion_Cirion Ciryatan_Ciryatan Claude_Claudius Clemenceau_Clemenceau Clément_Clement Clerval_Clerval Clopin_Clopin Clotaire_Lothar Clovis_Clovis Coluche_Coluche Condorcet_Condorcet Conseil_Conseil Coriakin_Coriakin Cousteau_Cousteau Curumo_Curumo Cyrus_Cyrus
+			Dakkar_Dakkar D'Artagnan_D'Artagnan Dáin_Dain Damien_Damian Daniel_Daniel Dantès_Dantes Danton_Danton David_David DeGaulle_DeGaulle Denethor_Denethor Denis_Dionysus Descartes_Descartes Didier_Desiderius Digory_Digory Dimitri_Demetrius Dior_Dior Dominique_Dominic Dori_Dori Drinian_Drinian Durkheim_Durkheim Durin_Durin Dwalin_Dwalin
+			Eärendil_Earendil Eärnil_Earnil Eärnur_Earnur Ecthelion_Ecthelion Edmond_Edmund Édouard_Edward Egalmoth_Egalmoth Eldacar_Eldacar Eldarion_Eldarion Elendil_Elendil Elfhelm_Elfhelm Elrond_Elrond Elros_Elros Émile_Emil Emmanuel_Emmanuel Enjolras_Enjolras Enzo Éomer_Eomer Eorl_Earl Erkenbrand_Erkenbrand Éric_Erik Étienne_Stephen Eudes_Otto Eustace_Eustace
+			Fabien_Fabian Fabrice_Fabrice Fantasio_Fantasio Faramir_Faramir Fauchelevent_Fauchelevent Fëanor_Feanor Felaróf_Felarof Félix-Faure_Félix-Faure Fernand_Ferdinand Fíli_Fili Finarfin_Finarfin Fingolfin_Fingolfin Fingon_Fingon Flopin_Flopin Florian_Florian Franck_Francis François_Francis Frédégar_Fredegar Frédéric_Frederick Frodon_Frodon
+			Gabriel_Gabriel Galdor_Galdor Gandalf_Gandalf Gargamel_Gargamel Gaston_Gaston Gauthier_Walter Gavroche_Gavroche Geoffroy_Geoffrey Georges_George Gérard_Gerard Géraud_Gerard Gerontius_Gerontius Gilbert_Gilbert Gil-galad_Gilgalad Gilles_Egidius Gimli_Gimli Glóin_Gloin Glorfindel_Glorfindel Godefroy_Godfrey Gringoire_Gringoire Gripoil_Gripoil Grougaloragran_Grougaloragran Guillaume_William Guy_Guy Gwaihir_Gwaihir
+			Haddock_Haddock Halbarad_Halbarad Haldir_Haldir Háma_Hama Harbert_Harbert Helm_Helm Henri_Henry Herbert_Herbert Hervé_Harvey Horn_Horn Huan Hugo_Hugh Huor_Huor Húrin_Hurin Hyarmendacil_Hyarmendacil 
+			Idéfix_Idefix Imrahil_Imrahil Isildur_Isildur
+			Jacques_Jacob Jacques-Yves_Jacques-Yves Jaspert_Jaspert Jean_John Jean-Baptiste_John-Baptist Jean-Claude_John-Claude Jean-Luc_John-Luke Jean-Pierre_John-Peter Jeanvaljean_Jeanvaljean Jérémy_Jeremiah Jérôme_Jerome Joël_Joel Joseph_Joseph Jules_Julius J-T-Maston_J-T-Maston Jules-César_Julius-Caesar Julien_Julian 
+			Kenzo_Kenzo Kévin_Kevin Kíli_Kili 
+			Lafayette_Lafayette Lanfeust_Lanfeust Laurent_Lawrence Legolas_Legolas Lidenbrock_Lidenbrock Léon_Leo Léonard_Leonard Lothaire_Lothar Louis_Louis Lucas_Luke Lucien_Lucian Ludovic_Louis
+			Mablung_Mablung Maedhros_Maedhros Marc_Mark Marcel_Marcellus Marius_Marius Marquais_Marquais Mathieu_Matthew Maurice_Maurice Maxime_Maximus Meriadoc_Meriadoc Michel_Michael Minastir_Minastir Mitterrand_Mitterrand Mohammed_Muhammad Molière_Moliere Montaigne_Montaigne Montesquieu_Montesquieu Morrel_Morrel Myriel_Myriel
+			Napoléon_Napoleon Ned-Land_Ned-Land Némo_Nemo Nicéphore_Nicephorus Nicolas_Nicholas Nicholl_Nicholas Nivacrin_Nivacrin Noirtier-de-Villefort_Noirtier-de-Villefort Norbert_Norbert Numérobis_Numerobis 
+			Obélix_Obelix Ocatarinetabellatchitchix_Ocatarinetabellatchitchix Odoacer_Odoacer Óin_Oin Olivier_Oliver Olórin_Olorin Orodreth_Orodreth Orophin_Orophin Oscar_Oscar Ostoher_Ostoher
+			Paladin_Paladin Pallando_Pallando Panoramix_Panoramix Passepartout_Passepartout Pasteur_Pasteur Patrice_Patrick Paul_Paul Pencroff_Pencroff Peregrïn_Peregrin Phileas-Fogg_Phileas-Fogg Philippe_Phillip Phoebus_Phoebus Picsou_Picsou Pierre_Peter Pompidou_Pompidou Pontmercy_Pontmercy Porthos_Porthos
+			Quasimodo_Quasimodo Quentin_Quentin
+			Radagast_Radagast Ramandu_Ramandu Raoul_Ralph Raphaël_Raphael Raymond_Raymond Raynaud_Reynold Renaud_Reynold Renard_Renard René_Renatus Richard_Richard Rillian_Rillian Ripitchip_Ripitchip Roland_Roland Robert_Robert Robin_Robin Robur_Robur Roger_Roger Roheryn_Roheryn Romain_Roman Rousseau_Rousseau Ruel_Ruel
+			Saint-Just_Saint-Just Salomon_Solomon Samsagace_Samsagace Sartre_Sartre Sébastien_Sebastian Serge_Sergius Siéyès_Sieyes Simon_Simon Sméagol_Smeagol Spirou_Spirou Stéphane_Stephen Sylvain_Silvanus Sylvebarbe_Sylvebarbe
+			Thengel_Thengel Théo_Theodore Théoden_Theoden Théodred_Theodred Thibault_Theobald Thierry_Theodoric Thingol_Thingol Thomas_Thomas Thorgal_Thorgal Thorin_Thorin Thorondor_Thorondor Thráin_Thrain Thranduil_Thranduil Thrór_Thror Timothé_Timothy Tintin_Tintin Tirian_Tirian Tocqueville_Tocqueville Tom-Bombadil_Tom-Bombadil Tréville_Treville Tristepin_Tristepin Trompillon_Trompillon Tumnus_Tumnus Tuor_Tuor Turgon_Turgon Túrin_Turin
+			Valacar_Valacar Valéry-Giscard-d'Estaing_Valery-Giscard-d'Estaing Vercingétorix_Vercingetorix Victor_Victor Vincent_Vincent Vlad_Vladimir Voltaire_Voltaire
+			Waldman_Waldman Walton_Walton Wiglaf_Wiglaf
+			Xavier_Xavier
+			Yugo Yves_Yves
+			Zain_Zain Zidane_Zaydan Zinédine_Zaynaddin Zola_Zola
+		}
+		female_names = {
+		    Aarthi Aishwarya Amala Anjali Aparna Archana Aruna Anitha Anuradha Arasi Azhagi 
+			Bala Bhagwati 
+			Chandrâ Chandrika Chandini Chithrâ 
+			Deepâ Deepikâ Devi Divyâ Durgâ Devasenâ
+			Ezhil
+			Gâyathri Gowri
+			Hemâ Harini 
+			Indirâ Indumathi
+			Jayâ Jayanti Jothi Jayasree
+			Kalâ Kali Kalpanâ Kamalâ Kamatchi Kanchanâ Karthikâ Kasi Kavithâ Kiran Kalaivani Kalaiarasi Kavyâ Korravai
+			Lakshmi Lalithâ Lavanyâ Leelâ Leelavathi
+			Madhu Meenâ Meerâ\ Manimegalai Meenakshi 
+			Nalini Neelâ Nikithâ Nirmalâ Nishâ Nithyâ Nandhini
+			Padma Padmini Pallavi Poojâ Poornimâ Praveenâ Preethi Premâ Priyâ Priyankâ Pujâ Purnimâ Pârvathi Priyadarshini Puspâ
+			Rajeshwari Ramani Ramyâ Revathi Radhâ Radhikâ Rashmi Rathnâ
+			Sandhiyâ Saralâ Seethâ Shanthi Sharmilâ Sheelâ Shyamala Sree Sreedevi Sreenivas Sunitâ Swathi Sangeethâ Saraswathi Selvi Shruti Sivalogini Suchitrâ Sumithrâ
+			Thâmarai Thamizhselvi Thulasi
+			Umâ Ushâ
+			Vaishnavi Varshâ Vidyâ Vijayâ Vimalâ Veenâ Vijayalakshmi Vennilâ 
+			Yamunâ Yazhini
+			#old names
+			Aaleyaamma_Elizabeth Accamma_Rebecca Accattêvi Annamma_Anna Aiyyârratikal Akkâranankayâr Amittiravalli Ammaiyâlvi Ammakkanâr Ammankâtêvi_Ammangadevi Ankâti Aramutaiyâl Aricukâti Ariyapillai Ariñcikai Ariñcikaipirâtti Ariñcikaippirâttiyâr Arulmolinankaiyâr Aruvanki Atavallâl Atittapatâriyâr Atittapitâri Atittapitâriyâr Atticapitâriyâr Avutaiyâlccâni 
+			Cankâni Cantirâdêvi Cenkulam Ceyyacôlam Ceyyavâymani Civatêvi Civallapatevi Corappaiyâr Câmuntappai Cêramankai Côlamâtêvi 
+			Eccumantai Eluvanai Eluvattûr Etuttapâtam 
+			Irâcinkam Irâcâticci Irâcacuntari 
+			Kalacci Kalicci Kanavati Kannapparaciyâr Kantiyûr Kariyamâtêvi Karumânikkam Kaucalaiyâr Kavatiyakkan Kañciakkan Kutitânkinâl Kuñcaramalli Kuñciramalli Kâmuttiri Kâraikkâl Kôkilânadigal Kôlâliyâr Kômalavalli Kôyinâccipitâriyâr Kûrrantêvi Kûttâtunâcci 
+			Mahâdeviyâr Malaiyamân Malapâti Maraikkâtu Mañcavi Mânikkam Mariamma Mâtêvatikal Mâtêvatikalâr 
+			Nakarattâl Naltêviyâr Namaiyâr Nankaiyâr Nantirinankai Netuntukkai Nilammai Nimmatikal Nâcci Nâcciyâlvi Nârani Nârâyani Nâñcûri Nîlakanti Nîliyâr
+			Olimatiyâr Orriâlvi 
+			Pavitram Pennaraciyâr Peranankai Periyanâcci Perrappai Pillayâlvi Piramaccâni Piratamâtevi Pirriccâni Pollâtapillai Pommavâyi Ponnampalattatikalâr Punniyavâtti Pûvânti
+			Raahelamma_Rachel Râcatêviyâr Râcakêcari 
+			Sâmavâyi Saramma_Sarah Sosamma_Susan 
+			Taturântakiyâr Tavañceytâl Tayânitiyâr Thresiamma_Teresa Tirumûlattânam Tiruvaranki Tiruvennâval Tiruvânaikkâvi Tiruvênkatam Tunaiyiruntâlcâni Tânatonkiyâr Têcappukal Têmpâvai Têvânrâl Tûnkânai 
+			Umaiyâlvâr Utaiyaval Utaiyañceytâl 
+			Vaccavaiyâr Varakuni Vatavâyil Venankai Vennâval Vicciyakkan Viccâtiri Vikkiramâtitti Viraiyâccilai Vitari Vânavanmâtêvi
+			Éléonore_Eleanor Élodie_Alodia Émilie_Emily Éowyn_Eowyn
+			Aaricia_Aaricia Adèle_Adela Aerin_Aerin Agathe_Agatha Agnès_Agnes Alice_Alice Alberta_Alberta Aliénor_Eleanor Alix_Alice Amalie_Amelia Amarië_Amarie Amélie_Amelia Anaïs_Anna Anastasie_Anastasia Ancalimë_Ancalime Andrée_Andrea Anne_Anna Annick_Anna Annie_Anna Antoinette_Antonia Aouda Aredhel Arwen Audrey Aurélie_Aurelia Aurore_Aurora
+			Baie-d'Or_Baie-d'Or Béatrice_Beatrix Belladonna Benoîte_Benedicta Bérengère_Berengaria Bernadette Blanche_Blanche Bonemine_Bonemine Brigitte_Bridget 
+			Camilla_Camilla Caroline_Caroline Catherine_Catherine Cécile_Cecilia Celebrían_Celebrian Céline_Celine Cendrillon_Cendrillon Chantal Charlotte_Charlotte Chloé_Chloe Christelle_Christina Christine_Christina Cixi_Cixi Claire_Clara Claudette_Claudia Claudine_Claudia Cléopâtre_Cleopatra Clotilde_Clotilde Colette_Nicole Constance_Constance Corinne_Corinne Cosette_Cosette
+			Dalida_Delilah Danielle_Daniela Delphine_Delphine Denise_Denise Dís_Dis Dominique_Dominique 
+			Eärwen_Earwen Edith_Edith Éléonore_Eleanor Elely Elenwë_Elenwe Eliane_Helen Elisabeth_Elizabeth Elise_Elizabeth Élodie_Alodia Elwing_Elwing Emma_Emma Emmanuelle_Emanuela Émilie_Emily Éowyn_Eowyn Éponine_Eponine Erendis Esméralda_Esmeralda Estella Eugénie_Eugenia Eve_Eve Evangelyne_Evangelia Evelyne_Aveline
+			Falbala_Falbala Fantine_Fantine Fatima_Fatima Finduilas_Finduilas Fleur-de-Lys_Fleur-de-Lys Florence_Florence Françoise_Frances
+			Galadriel_Galadriel Geneviève_Genevieve Germaine_Germana Georgette_Georgia Gilraen_Gilraen Ginette_Genevieve Gisèle_Gisela Gwendolen
+			Haleth Haydée Hélène_Helen Héloise_Eloise Henriette_Henriette Hermione_Hermine Hild_Hilda Hwin_Hwin 
+			Idril_Idril Indis_Indis Ioreth_Ioreth Isabelle_Elizabeth 
+			Jacqueline_Jacqueline Javotte_Genevieve Jeanne_Jane Jeanne-d'Arc_Jeanne-d'Arc Jeannine_Jane Jill_Jill Joséphine_Josephine Josette_Josephine Josiane_Josephine Judith_Judith Julie_Julia Julienne_Juliana Juliette_Julia Justine_Justina 
+			Karine_Catherine
+			Laetitia_Letitia Lalaith_Lalaith Laura_Laura Laurence_Laurentia Laurette_Laurentia Léa_Leah Lilliandil_Lilliandil Lobelia_Lobelia Lothíriel_Lothiriel Louise_Louise Louve_Louve Lucie_Lucia Lucienne_Luciana Lucy_Lucia Lúthien_Luthien 
+			Madeleine_Madeline Malefique_Malefique Manon Marcelle_Marcella Marine_Marina Marion_Mary Margot_Margaret Marguerite_Margaret Maria_Mary Marie_Mary Marie-Antoinette_Marie-Antoinette Marie-Curie_Marie-Curie Marie-Louise_Marie-Louise Marie-Thérèse_Marie-Theresa Martine_Martina Mathilde_Matilda Meg_Margaret Mélanie_Melanie Melian_Melian Mélusine_Melusine Mercédès_Mercedes Michèle_Michelle Miranda_Miranda Mireille_Mireille Monique_Monica
+			Nadia_Nadezhda Nadine_Nadezhda Nathalie_Natalie Nerdanel Nicole_Nicole Nienor_Nienor Níniel_Niniel 
+			Odette
+			Patricia_Patricia Paulette_Paula Pauline_Paula Polly_Mary Primula_Primula Prunaprismia_Prunaprismia 
+			Raymonde_Ramona Renée_Renata Rían_Rian Rose_Rosa
+			Sandrine_Alexandra Sarah_Sarah Ségolène_Segolene Silmarien_Silmarien Simone_Simone Solène_Solange Sophie_Sophia Stéphanie_Stephanie Suzanne_Susan Sybille_Sibyl Sylvie_Silvia
+			Telperien_Telperien Théodwyn_Theodwyn Thérèse_Theresa Tinúviel_Tinuviel 
+			Vairë_Vaire Valérie_Valeria Vanimeldë_Vanimelde Varda_Rosa Véronique_Veronica Virginie_Virginia
+			Yavanna_Yavanna Yvette_Yvonne Yvonne_Yvonne
+		}
+		dynasty_title_names = yes
+
+		founder_named_dynasties = no
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+		castes = no
+		
+		modifier = default_culture_modifier
+	}
+	breton = { #Heavily Frenchified Bretons
+		graphical_cultures = { celticgfx frankishgfx westerngfx }
+		unit_graphical_cultures = { frankishgfx }
+		
+		color = { 0.7 0.8 0.5 }
+		
+		male_names = {
+			Abraham_Abraham Accolon_Accolon Adam_Adam Adrien_Adrian Alan_Alan Alaric_Alaric Albert_Albert Alexandre_Alexander Alphonse_Alphonse Ambroise_Ambrose André_Andrew Antoine_Anthony Armel_Armel Arnaud_Arnold Arthur_Arthur Aurèle_Aurelius Ayden_Aidan Axel_Axel 
+			Barthélémy_Bartholomew Baudouin_Baldwin Bédivère_Bedivere Benoît_Benedict Bernard_Bernard Brendan_Brandon Bruno_Bruno
+			Cai_Gaius Calogrenant_Calogrenant Cédric_Cedric Charles_Charles Christophe_Christopher Claude_Claudius Constantin_Constantine Corentin
+			Dagonet_Dagonet Damien_Damian David_David Deniel_Daniel Denis_Dionysus Didier_Desiderius
+			Edern_Eternus Edmond_Edmund Édouard_Edward Elouan Émile_Emil Éric_Erik Erwan_Yves Erwann_Yves Étienne_Stephen Eugène_Eugene
+			Fabian_Fabian Félix_Felix Ferdinant_Ferdinand François_Francis Frédéric_Frederick
+			Gabriel_Gabriel Galahad_Galahad Gareth_Gareth Gaston_Gaston Gautier_Walter Geraint_Gerontius Gérard_Gerard Gilbert_Gilbert Goulven Grégory_Gregory Guillaume_William Gurvan Guy_Guy Gweltaz_Gildas Gwenaël
+			Hector_Hector Herbert_Herbert Henri_Henry Hoël_Hywel Hugo_Hugh
+			Ismaël_Ishmael
+			Jean_John Joachim_Joachim Jord_George Joseph_Joseph Judicaël Jules_Julius Justin_Justin
+			Kaëlig Kénan_Kenan Kévin_Kevin Konan_Kenan Kylian_Kilian
+			Lambert_Lambert Lanselod_Lancelot Laurent_Lawrence Léo_Leo Léonard_Leonard Liam_William Loïc_Louis Lucien_Lucian
+			Maël Malo Marc_Mark Martin_Martin Mathieu_Matthew Maurice_Maurice Maxime_Maximus Meven Mikael_Michael Mordred_Mordred Morgan_Morgan
+			Nathan_Nathan Nicolas_Nicholas 
+			Olivier_Oliver Oscar_Oscar
+			Paol_Paul Patrice_Patrick Perceval_Percival Philippe_Phillip Pierrick_Peter
+			Renan_Ronan Renaud_Reynold Riwal_Riwal Robert_Robert Roland_Roland Ronan_Ronan Roparzh_Robert
+			Sagramor_Sagramore Salomon_Solomon Sébastien_Sebastian Simon_Simon Stéphane_Stephen Sylvain_Silvanus
+			Tanguy Théodore_Theodore Thierry_Theodoric Thomas_Thomas Treveur Tristan_Tristan
+			Ulysse_Odysseus Urien_Urbgenius Uther_Uther 
+			Xavier_Xavier
+			Yann_John Yannick_John Youri_George Yves_Yves
+		}
+		female_names = {
+			Adrienne_Adriana Aéla_Angela Agathe_Agatha Alice_Alice Alwena_Alwen Anaëlle Annick_Anna Antoinette_Antonia Armelle
+			Béatrice_Beatrix Blanche_Blanche Bridgette_Bridget
+			Caroline_Caroline Charlotte_Charlotte Chloé_Chloe Clara_Clara Colette_Nicole
+			Dafne_Daphne Danielle_Daniela Dominique_Dominique Dorothée_Dorothy
+			Élaine_Helen Élisabeth_Elizabeth Emma_Emma Enora_Honoria Erell Ève_Eve
+			Fleur_Flora Frañseza_Frances
+			Georgine_Georgia Gwenaëlle
+			Haydée Hélène_Helen Henriette_Henriette
+			Irène_Irene Isabelle_Elizabeth
+			Jasmine_Jasmine Jennifer_Jennifer Judith_Judith Juliane_Juliana Justine_Justina
+			Katarin_Catherine Katell_Catherine Klervi_Creirwy Kristen_Christina
+			Léa_Leah Lilwenn Loane_Eloane Louise_Louise
+			Madeleine_Madeline Maëla_Maela Maelie_Maela Maëliss_Maela Maëlle_Maela Maëlys_Maela Maiwenn Marguerite_Margaret Mari_Mary Marine_Marina Monique_Monica Morgana			
+			Natacha_Natalie Nicole_Nicole Nolwenn 
+			Oanez_Agnes Olivia_Olivia
+			Pauline_Paula
+			Rachel_Rachel Rébecca_Rebecca Rozenn_Rosa
+			Sandra_Alexandra Sara_Sarah Simone_Simone Solène_Solange Stéphanie_Stephanie Suzanne_Susan
+			Thérèse_Theresa
+			Véronique_Veronica Victoire_Victoria Vivianne_Vivian
+			Yanna_Jane Ygraine_Igraine
+			Zoé_Zoe
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "a "
+		
+		male_patronym = "Mab"
+		female_patronym = "Merc'h"
+		prefix = yes
+		feminist = yes
+
+		modifier = default_culture_modifier
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+	}
+}

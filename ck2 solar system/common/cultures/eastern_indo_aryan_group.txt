@@ -1,0 +1,235 @@
+eastern_indo_aryan_group = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { indiangfx muslimgfx }
+	
+	bengali = { # Both Hindu and Muslim Bengalis
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.45 0.0 0.0 }
+	
+		male_names = {
+			Abesh Abdulhalim_Abdulhalim Abdulhamid_Abdulhamid Abduljalil_Abduljalil Abdullah_Abdullah Abdus_Abdul Adhir Ahmed_Ahmad Akbar_Akbar Alauddin_Alaeddin Ali_Ali Alok Amritnarayan Anwarullah Ashish Ayub_Job Azam
+			Babur_Babur Bahir_Bahir Ballalsen Bahadur_Bahadur Bhabani Bhavashankari Bhishmadev Bilal_Bilal Biren Brojen 
+			Chandrasen Chaturanan Chilarai Chirantan 
+			Danujmadhava Daud_David Devakhadga Devapala Dhiman Dhirendra Dhirsingha 
+			Emran_Imran
+			Fadil_Fadl Farid_Farid Faisal_Faysal Fateh Firuz
+			Gajnarayan Ghiyasuddin Ghulam_Ghulam Gopala Govindapala 
+			Hajo Harendranarayan Hamid_Hamid Hariyamandal Haroon_Aaron Hasan_Hasan Hemantasen Huseyn_Hussayn
+			Ibrahim_Abraham Ilyas_Elijah Islam_Islam Ismail_Ishmael	
+			Jabbar_Jabbar Jadu Jahangir_Jahangir Jalaluddin Jamal_Jamal Jayanarayan 
+			Kalyanachandra Kamalnarayan Kasim_Qasim Kawsar Keshabsen Kesto Khabeeruddin Khaled_Khalid Khidr_Khidr Krishna Krishnaroy Kumar
+			Lakshmansen Lomapada 
+			Mahdi_Mahdi Mahendrapala Mahmudullah Manoranjan Maqsud_Maqsud Mir-Muhammad Mir-Qasim Mirza_Mirza Mithun Mrinal Muhammad_Muhammad Murad_Murad Murshid-Quli Musa_Moses Muzaffar_Muzaffar
+			Najib_Najib Naranarayan Narasingha Narayanapala Nasir_Nasir Nasiruddin Nawab Nazmul 
+			Ogan Ommannan
+			Pankaj Pinak Prananarayan Prannath 
+			Raghudev Raja Ramadan_Ramadan Ramesh Ramnath Ranjitsingha Rasheed_Rashid Rifat 
+			Sadhan Saifuddin_Saifaldin Salih_Salih Salimullah Salman_Solomon Samir_Samir Samudrasen Sanjit Shahabuddin Shakib Sharif_Sharif Shamsuddin Shanibhangar Sher Shuvam Sikandar_Alexander Shurapala Suranjit Surendra Swapan Syed_Sayyid
+			Tajuddin Talib_Talib Tapash Tariq_Tariq
+			Udirnakhadga Umar_Umar Usman_Uthman 
+			Vakapala Vapyata Vijaynarayan Vijaysingha
+			Yaqub_Jacob Yunus_Jonah Yusuf_Joseph
+			Zakir_Zakir Ziaur						
+		}
+		female_names = {
+			Adila Amrapali Amritakala Anwara Asima Ayesha_Aisha 
+			Bhavashankari Bishwas-Devi Bhogavati Bibibai 
+			Dattadevi Devavati Devi-Ahiylya
+			Fatima_Fatima
+			Gandharavati Gayatri 
+			Habiba Hira
+			Iffat
+			Jaya Jira 
+			Kamala 
+			Maheera Mahendrani Malavyadevi Maliha 
+			Nayanadevi Nahida
+			Rafiqa Rani Ratnadevi Resna 
+			Sara_Sarah Shamsia Sharat Sumita Syamadevi
+			Taliba			
+			Vijnayavati Vina 
+			Yajnavati
+			Zainab_Zaynab
+		}
+		
+		from_dynasty_prefix = "of "
+				
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	oriya = { # Indo-Aryan
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.4 0.0 }
+	
+		male_names = {
+			Anangabhima Anantasaktivarman Anantavarman Apsaradeva Arthapatiraja Ayasobhita Balabhadra Barjena 
+			Betta Bhanu Bhavadattavarman Bhimaratha Bhimasena Bhramarbara Bhupendra Bhupendravarman Chandravarman 
+			Charamparaja Damodara Danai Danarnava Dayita Dayitavarman Devananda Devendravarman Dharmaraja Dharmarstha 
+			Dhruvananda Dibyasingha Digbhanja Durgaraja Durjaya Durjayabhanja Gangadhara Gandhata Gangakavilasa Gayada 
+			Gopinatha Gunamaharnava Gunarnava Gundama Hamvira Harekrushna Hastivarman Hemantavarman Indranatha Indravarman 
+			Jahangir Janmejaya Jayananda Jayaraja Jayasimha Jayasthambha Jayavarma Jayavarmadeva Kakharua Kalaha Kalahastambha 
+			Kalasa Kalua Kalyankalasa Kamarnava Kanchana Kanchanastambha Kapilendra Kapilendradeva Karnadeva Khadaga Kotta 
+			Kottabhanja Ksemankaradeva Kulastambha Lakshmikaradeva Madhavaraja Madhavavarman Madhukamarnava Mahendraditya 
+			Mahendravarman Mahinda Manamatra Matradhyarya Mukunda Nahusa Nandaprabhanjana Nandaprabhanjanavarman Nandavarman 
+			Narasimha Narendra Netta Nettabhanja Padmanava Paramananda Prasannamatra Prataparudra Pravaraja Prithivarman 
+			Prithivimaharaja Prithvibhanja Prithvidena Pulindasena Puranjaya Purushottama Rajabhanja Rajaraja Ramachandra 
+			Ramachandradeva Ranabhanja Ranabhita Ranadurjaya Ranga Rangabhanja Sailobhava Sainyabita Saktivarman Samantavarman 
+			Sambhuyasa Sankaravarman Santikaradeva Sarabha Satru Satrubhanja Satyavarman Sila Silabhanja Sivakaradeva Sivananda 
+			Skandavarman Sobhanaraja Solyana Subhakaradeva Sudevaraja Suravala Teja Tejavarsha Tustikara Udaya Udayavarsha Udita 
+			Udyotakesari Umavarman Unmattasimha Utidavarsha Vaaraharaja Vajrahasta Vidhyadhara Vidhyadharabhanja Vijaya Vinayaditya 
+			Vinita Vishakavarman Vrishadhvaja Vyaghraraja Yayati
+		}
+		female_names = {
+			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati 
+			Gauri Gaurimahadevi Kalyanavati Karnadevi Kuladevi Lakshmi Lakshmikaradevi Lilavati Mahadevi Nayanadevi Rajasundari 
+			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
+		}
+		
+		from_dynasty_prefix = "of "
+				
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	bihari = { # Indo-Aryan
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.4 0.25 }
+	
+		male_names = {
+			Anangabhima Anantasaktivarman Anantavarman Apsaradeva Arthapatiraja Ayasobhita 
+			Balabhadra Barjena Betta Bhanu Bhavadattavarman Bhimaratha Bhimasena Bhramarbara Bhupendra Bhupendravarman 
+			Chandravarman Charamparaja 
+			Damodara Danai Danarnava Dayita Dayitavarman Devananda Devendravarman Dharmaraja Dharmarstha Dhruvananda Dibyasingha Digbhanja Durgaraja Durjaya Durjayabhanja 
+			Gangadhara Gandhata Gangakavilasa Gayada Gopinatha Gunamaharnava Gunarnava Gundama 
+			Hamvira Harekrushna Hastivarman Hemantavarman 
+			Indranatha Indravarman 
+			Jahangir Janmejaya Jayananda Jayaraja Jayasimha Jayasthambha Jayavarma Jayavarmadeva 
+			Kakharua Kalaha Kalahastambha Kalasa Kalua Kalyankalasa Kamarnava Kanchana Kanchanastambha Kapilendra Kapilendradeva Karnadeva Khadaga Kotta Kottabhanja Ksemankaradeva Kulastambha 
+			Lakshmikaradeva 
+			Madhavaraja Madhavavarman Madhukamarnava Mahendraditya Mahendravarman Mahinda Manamatra Matradhyarya Mukunda 
+			Nahusa Nandaprabhanjana Nandaprabhanjanavarman Nandavarman Narasimha Narendra Netta Nettabhanja 
+			Padmanava Paramananda Prasannamatra Prataparudra Pravaraja Prithivarman Prithivimaharaja Prithvibhanja Prithvidena Pulindasena Puranjaya Purushottama 
+			Rajabhanja Rajaraja Ramachandra Ramachandradeva Ranabhanja Ranabhita Ranadurjaya Ranga Rangabhanja 
+			Sailobhava Sainyabita Saktivarman Samantavarman Sambhuyasa Sankaravarman Santikaradeva Sarabha Satru Satrubhanja Satyavarman Sila Silabhanja Sivakaradeva Sivananda Skandavarman Sobhanaraja Solyana Subhakaradeva Sudevaraja Suravala 
+			Teja Tejavarsha Tustikara 
+			Udaya Udayavarsha Udita Udyotakesari Umavarman Unmattasimha Utidavarsha 
+			Vaaraharaja Vajrahasta Vidhyadhara Vidhyadharabhanja Vijaya Vinayaditya Vinita Vishakavarman Vrishadhvaja Vyaghraraja 
+			Yayati
+		}
+		female_names = {
+			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati 
+			Gauri Gaurimahadevi Kalyanavati Karnadevi Kuladevi Lakshmi Lakshmikaradevi Lilavati Mahadevi Nayanadevi Rajasundari 
+			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
+		}
+		
+		from_dynasty_prefix = "of "
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}
+	andamani = { # Indo-Aryan
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.72 0.37 0.32 }
+	
+		male_names = {
+			Anangabhima Anantasaktivarman Anantavarman Apsaradeva Arthapatiraja Ayasobhita 
+			Balabhadra Barjena Betta Bhanu Bhavadattavarman Bhimaratha Bhimasena Bhramarbara Bhupendra Bhupendravarman 
+			Chandravarman Charamparaja 
+			Damodara Danai Danarnava Dayita Dayitavarman Devananda Devendravarman Dharmaraja Dharmarstha Dhruvananda Dibyasingha Digbhanja Durgaraja Durjaya Durjayabhanja 
+			Gangadhara Gandhata Gangakavilasa Gayada Gopinatha Gunamaharnava Gunarnava Gundama 
+			Hamvira Harekrushna Hastivarman Hemantavarman 
+			Indranatha Indravarman 
+			Jahangir Janmejaya Jayananda Jayaraja Jayasimha Jayasthambha Jayavarma Jayavarmadeva 
+			Kakharua Kalaha Kalahastambha Kalasa Kalua Kalyankalasa Kamarnava Kanchana Kanchanastambha Kapilendra Kapilendradeva Karnadeva Khadaga Kotta Kottabhanja Ksemankaradeva Kulastambha 
+			Lakshmikaradeva 
+			Madhavaraja Madhavavarman Madhukamarnava Mahendraditya Mahendravarman Mahinda Manamatra Matradhyarya Mukunda 
+			Nahusa Nandaprabhanjana Nandaprabhanjanavarman Nandavarman Narasimha Narendra Netta Nettabhanja 
+			Padmanava Paramananda Prasannamatra Prataparudra Pravaraja Prithivarman Prithivimaharaja Prithvibhanja Prithvidena Pulindasena Puranjaya Purushottama 
+			Rajabhanja Rajaraja Ramachandra Ramachandradeva Ranabhanja Ranabhita Ranadurjaya Ranga Rangabhanja 
+			Sailobhava Sainyabita Saktivarman Samantavarman Sambhuyasa Sankaravarman Santikaradeva Sarabha Satru Satrubhanja Satyavarman Sila Silabhanja Sivakaradeva Sivananda Skandavarman Sobhanaraja Solyana Subhakaradeva Sudevaraja Suravala 
+			Teja Tejavarsha Tustikara 
+			Udaya Udayavarsha Udita Udyotakesari Umavarman Unmattasimha Utidavarsha 
+			Vaaraharaja Vajrahasta Vidhyadhara Vidhyadharabhanja Vijaya Vinayaditya Vinita Vishakavarman Vrishadhvaja Vyaghraraja 
+			Yayati
+		}
+		female_names = {
+			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati 
+			Gauri Gaurimahadevi Kalyanavati Karnadevi Kuladevi Lakshmi Lakshmikaradevi Lilavati Mahadevi Nayanadevi Rajasundari 
+			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
+		}
+		
+		allow_looting = yes
+		seafarer = yes
+		
+		from_dynasty_prefix = "of "
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	assamese = { # Indo-Aryan
+		graphical_cultures = { indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.6 0.3 0.0 }
+	
+		male_names = {
+			Aaron_Aaron Abel_Abel Abraham_Abraham Adam_Adam Amos_Amos Andrew_Andrew
+			Baghpala_Baghpala Balavarman Benjamin_Benjamin Bhaskarvarman Bhutivarman Birapala Brahmapala 
+			Caleb_Caleb
+			Dharmapala Daniel_Daniel David_David
+			Elijah_Elijah Emmanuel_Emmanuel
+			Gabriel_Gabriel Ganapativarman Gandadeva Gideon_Gideon Gopala 
+			Harjjaravarman Harshadeva Harshapala Harshavarman Hiram_Hiram 
+			Indrapala Isaac_Isaac Ishmael_Ishmael 
+			James_James Jayapala Jacob_Jacob Job_Job John_John Joseph_Joseph Joshua_Joshua
+			Kalyanavarman Kumarapala
+			Lucas_Luke
+			Mahendravarman Malachi_Malachi Mark_Mark Matthew_Matthew Moses_Moses 
+			Narayanavarman Nathan_Nathan Noah_Noah
+			Paul_Paul Peter_Peter Pralambha Purandelapala Pushyavarman
+			Rahul Rajyapala Ratnapala 
+			Salasthamba Samudravarman Simeon_Simon Solomon_Solomon
+			Tejpal_Tejpal Timgyadeva Tyagasimha Thomas_Thomas 
+			Vachhal Vanamalavarmadeva Vigrahastambha Vijaya Virabahu
+			Zebulun_Zebulun
+		}
+		female_names = {
+			Ahiavadevi Abigail_Abigail Alice_Alice Anantadevi Anne_Anna Angela_Angela 
+			Bhogavati 
+			Dattadevi Devavati Durlabha Deborah_Deborah
+			Edna Edith_Edith Esther_Esther Eve_Eve
+			Gandharavati
+			Joanna_Jane Julia_Julia
+			Kakanvati Katherine_Catherine Kuladevi
+			Laura_Laura Leah_Leah
+			Mariam_Mary Martha_Martha
+			Nayanadevi
+			Rajamati Ratnavati Rachel_Rachel Ruth_Ruth
+			Sara_Sarah Suvrata Syamadevi Susanna_Susan
+			Tamara_Tamar
+			Vasumati Victoria_Victoria Vijnanavati Vijnayavati 
+			Yajiyavati Yajnavati
+		}
+		
+		from_dynasty_prefix = "of "				
+				
+		modifier = default_culture_modifier
+	}
+}

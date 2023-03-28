@@ -450,7 +450,10 @@ de_jure_laws = {
 			holder_scope = {
 				OR = {
 					religion = catholic
+					religion = cadaverist
 					religion = fraticelli
+					religion = katoliko
+					religion = aglipayan
 				}
 				is_tribal = no
 				is_nomadic = no
@@ -462,7 +465,8 @@ de_jure_laws = {
 			}
 		}
 		allow = {
-			year = 1000
+			#year = 1000
+			always = yes
 		}
 		revoke_allowed = {
 			always = no
@@ -493,7 +497,10 @@ de_jure_laws = {
 			holder_scope = {
 				OR = {
 					religion = catholic
+					religion = cadaverist
 					religion = fraticelli
+					religion = katoliko
+					religion = aglipayan
 				}
 				is_tribal = no
 				is_nomadic = no
@@ -535,5 +542,6 @@ de_jure_laws = {
 			}
 			set_investiture = any
 		}
-	}	
+	}
+	
 }
