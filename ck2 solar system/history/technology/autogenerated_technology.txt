@@ -12,9 +12,9 @@ technology = {
 		d_duchy0060
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 1.0
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -24,9 +24,9 @@ technology = {
 		d_duchy0024
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -41,9 +41,9 @@ technology = {
 		d_duchy0077
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -60,9 +60,9 @@ technology = {
 		d_duchy0120
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -85,9 +85,9 @@ technology = {
 		d_duchy0174
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -107,9 +107,9 @@ technology = {
 		d_duchy0330
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.8
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -136,9 +136,9 @@ technology = {
 		d_duchy0349
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 1.7
+		economy = 2.0
+		culture = 1.2
 	}
 }
 
@@ -148,9 +148,9 @@ technology = {
 		d_duchy0188
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 2.0
+		economy = 1.0
+		culture = 1.6
 	}
 }
 
@@ -166,9 +166,9 @@ technology = {
 		d_duchy0222
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.7
+		economy = 1.7
+		culture = 0.8
 	}
 }
 
@@ -182,9 +182,9 @@ technology = {
 		d_duchy0223
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.7
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -202,9 +202,9 @@ technology = {
 		d_duchy0291
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 2.0
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -220,9 +220,9 @@ technology = {
 		d_duchy0276
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.7
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -232,9 +232,9 @@ technology = {
 		d_duchy0302
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 1.6
+		culture = 0.8
 	}
 }
 
@@ -258,9 +258,9 @@ technology = {
 		d_duchy0309
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.6
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -270,9 +270,9 @@ technology = {
 		d_duchy0333
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.6
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -287,9 +287,9 @@ technology = {
 		d_duchy0361
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.6
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -299,9 +299,9 @@ technology = {
 		d_duchy0351
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -328,9 +328,9 @@ technology = {
 		d_duchy0391
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -340,9 +340,9 @@ technology = {
 		d_duchy0383
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -358,9 +358,9 @@ technology = {
 		d_duchy0447
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -373,9 +373,9 @@ technology = {
 		d_duchy0454
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -393,9 +393,9 @@ technology = {
 		d_duchy0551
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -434,9 +434,9 @@ technology = {
 		d_duchy0569
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -457,9 +457,9 @@ technology = {
 		d_duchy0635
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.7
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -469,9 +469,9 @@ technology = {
 		d_duchy0531
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -485,9 +485,9 @@ technology = {
 		d_duchy0560
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -528,9 +528,9 @@ technology = {
 		d_duchy0777
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -540,9 +540,9 @@ technology = {
 		d_duchy0711
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -582,9 +582,9 @@ technology = {
 		d_duchy0865
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -603,9 +603,9 @@ technology = {
 		d_duchy0849
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -623,9 +623,9 @@ technology = {
 		d_duchy0835
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -640,9 +640,9 @@ technology = {
 		d_duchy0836
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -667,9 +667,9 @@ technology = {
 		d_duchy0941
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -679,9 +679,9 @@ technology = {
 		d_duchy0935
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -736,9 +736,9 @@ technology = {
 		d_duchy1159
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -748,9 +748,9 @@ technology = {
 		d_duchy0954
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -760,9 +760,9 @@ technology = {
 		d_duchy0956
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -775,9 +775,9 @@ technology = {
 		d_duchy0970
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -787,9 +787,9 @@ technology = {
 		d_duchy0976
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -803,9 +803,9 @@ technology = {
 		d_duchy1006
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -817,9 +817,9 @@ technology = {
 		d_duchy1036
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -832,9 +832,9 @@ technology = {
 		d_duchy1005
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -844,9 +844,9 @@ technology = {
 		d_duchy1018
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -859,9 +859,9 @@ technology = {
 		d_duchy1030
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -871,9 +871,9 @@ technology = {
 		d_duchy1034
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -883,9 +883,9 @@ technology = {
 		d_duchy1047
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -896,9 +896,9 @@ technology = {
 		d_duchy1064
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -908,9 +908,9 @@ technology = {
 		d_duchy1073
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -924,9 +924,9 @@ technology = {
 		d_duchy1083
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -937,9 +937,9 @@ technology = {
 		d_duchy1097
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -954,9 +954,9 @@ technology = {
 		d_duchy1136
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -966,9 +966,9 @@ technology = {
 		d_duchy1127
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -979,8 +979,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 3.0
+		culture = 2.4
 	}
 }
 
@@ -993,8 +993,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1005,8 +1005,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1017,8 +1017,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1036,8 +1036,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1048,8 +1048,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1072,8 +1072,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1085,8 +1085,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1101,8 +1101,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1115,8 +1115,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1132,8 +1132,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1144,8 +1144,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1157,8 +1157,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1169,8 +1169,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1199,8 +1199,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1226,8 +1226,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1238,8 +1238,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -1265,8 +1265,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1284,8 +1284,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1297,9 +1297,9 @@ technology = {
 		d_duchy1486
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
 	}
 }
 
@@ -1311,8 +1311,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 2.8
 	}
 }
 
@@ -1329,8 +1329,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1359,8 +1359,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1370,9 +1370,9 @@ technology = {
 		d_duchy1530
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 3.2
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1383,8 +1383,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1402,8 +1402,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1436,8 +1436,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1448,8 +1448,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 3.8
 	}
 }
 
@@ -1478,8 +1478,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1497,8 +1497,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1518,8 +1518,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1535,8 +1535,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1579,8 +1579,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1590,9 +1590,9 @@ technology = {
 		d_duchy1858
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 2.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1603,8 +1603,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 2.8
 	}
 }
 
@@ -1627,8 +1627,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1639,8 +1639,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 2.0
+		culture = 0.8
 	}
 }
 
@@ -1666,9 +1666,9 @@ technology = {
 		d_duchy2133
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 1.0
+		economy = 1.0
+		culture = 0.6
 	}
 }
 
@@ -1699,9 +1699,9 @@ technology = {
 		d_duchy2022
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.4
+		economy = 1.3
+		culture = 0.9
 	}
 }
 
@@ -1712,8 +1712,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1728,9 +1728,9 @@ technology = {
 		d_duchy2101
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 0.5
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1760,8 +1760,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1771,9 +1771,9 @@ technology = {
 		d_duchy2155
 	}
 	1066 = {
-		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		military = 3.8
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1806,8 +1806,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 0.8
 	}
 }
 
@@ -1818,8 +1818,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 4.0
+		culture = 0.8
 	}
 }
 
@@ -1830,8 +1830,8 @@ technology = {
 	}
 	1066 = {
 		military = 0.0
-		economy = 0.0
-		culture = 0.0
+		economy = 1.0
+		culture = 3.8
 	}
 }
 

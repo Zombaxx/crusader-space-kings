@@ -11,6 +11,12 @@ bon;Ancestor Worship;;;;;;;;;;;;;x
 bon_DESC;Ancestor Worship is a collection of beliefs partially Buddhist in nature, with polytheistic animist traditions guided by shamans. The ancestral dieties often interact with the world of the living, at times protecting people, and at other times seeming to cause harm.;;;;;;;;;;;;;x
 bon_reformed;Ancestor Worship;;;;;;;;;;;;;x
 bon_reformed_DESC;Ancestor Worship is a collection of beliefs partially Buddhist in nature, with polytheistic animist traditions guided by shamans. The ancestral dieties often interact with the world of the living, at times protecting people, and at other times seeming to cause harm.
+GOD_SANGPO_BUMTRI;Moni Mekhala;;;;;;;;;;;;;x
+GOD_SHENLA_OKAR;Vorachhun;;;;;;;;;;;;;x
+#GOD_YESHE_WALMO;Ream Eyso;;;;;;;;;;;;;x
+GOD_THE_EVIL_ONES;Ream Eyso;;;;;;;;;;;;;x
+MDODUS;Robam Moni Mekhala;;;;;;;;;;;;;x
+LAMA;Preahsang;;;;;;;;;;;;;x
 messalian;Cult of the Reborn;;;;;;;;;;;;;x
 messalian_DESC;The Cult of the Reborn are a heretical Christian sect that originated near the Great Ocean Road in Southern Australia in the wake of the Great Disaster, influenced by dualistic faiths like Zoroastrianism. They believe that God can be perceived by the carnal senses, and that this perception is necessary to reach perfection. Each person is born with an inner demon, and only intense prayer can drive it out. They also believe that Lucifer is the elder son of God and a force for good, and that incest is sacred since it was practised by the children of Adam and Eve. They have no formal rites and no strict church hierarchy.;Les messaliens, ou euchites (''ceux qui prient'') sont une secte hérétique issue du christianisme qui trouve ses origines en Mésopotamie, influencée par des fois dualistiques comme le zoroastrisme. Les messaliens croient que Dieu peut être perçu par les cinq sens et que cette perception est nécessaire pour atteindre la perfection. Chacun est né avec un démon intérieur et seule la prière intense permet de le chasser. Ils croient également que Lucifer est le fils aîné de Dieu et qu'il est une force bénéfique. Pour eux, l'inceste est sacré car il a été pratiqué par les enfants d'Adam et Eve. Ils ne possèdent ni rites officiels ni structure hiérarchique stricte.;Die Messalianiten oder Euchiten ("Jene, die beten") sind eine christlich-ketzerische Sekte mit Ursprung in Mesopotamien, beeinflusst von dualistischen Glauben wie dem Zoroastrianismus. Messalianiten glauben, dass Gott durch körperliche Sinne wahrgenommen werden kann und dass dies notwendig ist, um Vollkommenheit zu erreichen. Jede Person wird mit einem inneren Dämon geboren und nur intensive Gebete können ihn vertreiben. Sie glauben außerdem, dass Luzifer ein Sohn und eine Kraft Gottes ist und dass Inzest geheiligt ist, da die Kinder von Adam und Eva desgleichen taten. Sie haben keine formellen Riten und keine echte Kirchenhierarchie.;;Los Mesalianos, o Euchitas ('quienes no rezan'), son una secta herética cristiana originaria de Mesopotamia, influenciada por fes dualistas como el Zoroastrismo. Los Mesalianos creen que dios puede percibirse por los sentidos carnales, y que esa percepción es necesaria para la perfección. Cada persona nace con un demonio interior, y sólo con intensa oración puede expulsarse. También creen que Lucifer es el hijo mayor de Dios y una fuerza del bien, y que el incesto es sagrado pues lo practicaron los hijos de Adán y Eva. No tienen ritos formales ni jerarquía eclesiástica.;;;;;;;;;;;x
 hellenic_pagan;Olympic;hellénique;Hellenisch;;Helenística;;;;;;;;;x
@@ -82,7 +88,7 @@ PIETY_TE;Stardust;;;;;;;;;;;;;x
 
 GOD_THOR;the Universe;the Universe;the Universe;;the Universe;;;;;;;;;x
 GOD_THE_THUNDERER;the Spaced;le Tonnant;den Donnerer;;Dios del Trueno;;;;;;;;;x
-GOD_THE_ALLFATHER;the Darkfather;le Père de tout;den Allvater;;El Todopoderoso;;;;;;;;;x
+GOD_THE_ALLFATHER;Captain Sunbeard;le Père de tout;den Allvater;;El Todopoderoso;;;;;;;;;x
 GOD_ODIN;the Pirate King;the Pirate King;the Pirate King;;the Pirate King;;;;;;;;;x
 GOD_TENGRI;Anubis;Anubis;Anubis;;Anubis;;;;;;;;;x
 GOD_ERLIK_KHAN;Sekhmet;Sekhmet;Sekhmet;;Sekhmet;;;;;;;;;x
@@ -106,3 +112,13 @@ GOD_ZUN;Ra;Ra;Ra;;Ra;;;;;;;;;x
 GOD_THE_SUN;the Sun;le Soleil;die Sonne;;el Sol;;;;;;;;;x
 GOD_THE_GIVER_OF_JUSTICE;the Giver of Justice;le Justicier;den Geber der Gerechtigkeit;;el que Imparte Justicia;;;;;;;;;x
 THE_DARKNESS;Elohim;les Ténèbres;Die Dunkelheit;;la Oscuridad;;;;;;;;;x
+
+GOD_GAIA;Gaia;;;;;;;;;;;;;x
+GOD_SURVIVORS;The Survivors;;;;;;;;;;;;;x
+GOD_HOMELAND;The Homeland;;;;;;;;;;;;;x
+GOD_FATHER_MARS;Father Mars;;;;;;;;;;;;;x
+EGOD_DISASTER;The Great Disaster;;;;;;;;;;;;;x
+HOLY_TERRA;Holy Terra;;;;;;;;;;;;;x
+
+form_the_hre;Form the Holy Terran Empire;Constituer le Saint-Empire romain;Errichtet das Heilige Römische Reich;;Del Sagrado Imperio Romano;;;;;;;;;x
+form_the_hre_desc;With a realm to rival that of the homeworld Terra itself, I could be recognized as the true successor and, invoking Translatio Imperii, have [Root.RelHead.GetBestName] crown me Emperor of a new Terran Empire on Mars!;Si j'avais un royaume rivalisant avec celui de Charlemagne, on pourrait me reconnaître comme son véritable successeur. En invoquant le principe de Translatio Imperii (transfert de puissance), je pourrais même faire en sorte que [Root.RelHead.Get_only_le_Title][Root.RelHead.GetBestName] me couronne empereur d'un nouvel empire romain de l'Ouest !;Mit einem Reich, das dem von Karl dem Großen gleichkommt, könnte ich als sein wahrer Nachfolger gelten und mich durch die Anrufung der Translatio Imperii von [Root.RelHead.GetBestName] zum Kaiser des neuen Römischen Imperiums des Westens krönen lassen!;; Con un reino para rivalizar con el de Carlomagno, yo podría ser reconocido como su verdadero sucesor e, invocando a Translatio Imperii, que [Root.RelHead.GetBestName] me corone emperador de un Nuevo Imperio Romano en el oeste!;;;;;;;;;x

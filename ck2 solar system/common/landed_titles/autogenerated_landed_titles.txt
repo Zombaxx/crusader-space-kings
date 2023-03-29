@@ -834,9 +834,122 @@ e_empire0046 = {
 	color={ 190 198 80 }
 	color2={ 255 255 255 }
 	
-	capital = 46
+	capital = 131
 	
 	culture = castillan
+
+	k_mexico = {
+		color={ 184 182 59 }
+		color2={ 255 255 255 }
+		
+		capital = 131
+		
+		culture = castillan
+		
+		d_duchy0080 = {
+			color={ 231 208 67 }
+			color2={ 255 255 255 }
+			
+			capital = 80
+			
+			c_tenochtitlan = {
+				color={ 192 192 73 }
+				color2={ 255 255 255 }
+				
+				holy_site = catholic
+				holy_site = cathar
+				holy_site = lollard
+				
+				b_tenochtitlan = {
+				dynasty_title_names = no
+				}
+				b_tenochtitlan = { }
+				b_barony0069b = { }
+				b_barony0069c = { }
+				b_barony0069d = { }
+				b_barony0069e = { }
+				b_barony0069f = { }
+				b_barony0069g = { }
+			}
+			c_province0105 = {
+				color={ 200 163 68 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0105` = { }
+				b_barony0105a = { }
+				b_barony0105b = { }
+				b_barony0105c = { }
+				b_barony0105d = { }
+				b_barony0105e = { }
+				b_barony0105f = { }
+				b_barony0105g = { }
+			}
+			c_province0080 = {
+				color={ 231 208 67 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0080` = { }
+				b_barony0080a = { }
+				b_barony0080b = { }
+				b_barony0080c = { }
+				b_barony0080d = { }
+				b_barony0080e = { }
+				b_barony0080f = { }
+				b_barony0080g = { }
+			}
+		}
+		d_duchy0131 = {
+			color={ 184 182 59 }
+			color2={ 255 255 255 }
+			
+			capital = 131
+			
+			c_province0103 = {
+				color={ 241 185 41 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0103` = { }
+				b_barony0103a = { }
+				b_barony0103b = { }
+				b_barony0103c = { }
+				b_barony0103d = { }
+				b_barony0103e = { }
+				b_barony0103f = { }
+				b_barony0103g = { }
+			}
+			c_province0125 = {
+				color={ 239 214 18 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0125` = { }
+				b_barony0125a = { }
+				b_barony0125b = { }
+				b_barony0125c = { }
+				b_barony0125d = { }
+				b_barony0125e = { }
+				b_barony0125f = { }
+				b_barony0125g = { }
+			}
+			c_province0131 = {
+				color={ 184 182 59 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0131` = { }
+				b_barony0131a = { }
+				b_barony0131b = { }
+				b_barony0131c = { }
+				b_barony0131d = { }
+				b_barony0131e = { }
+				b_barony0131f = { }
+				b_barony0131g = { }
+			}
+		}
+	}
 	
 	k_kingdom0019 = {
 		color={ 209 150 10 }
@@ -2502,126 +2615,619 @@ e_empire0056 = {
 		}
 	}
 }
-e_empire0181 = {
-	color={ 96 184 159 }
+e_empire0188 = {
+	color={ 123 170 126 }
 	color2={ 255 255 255 }
 	
-	capital = 181
+	capital = 188
 	
-	culture = irish
+	culture = nubian
 	
-	k_mexico = {
-		color={ 184 182 59 }
+	k_kingdom0188 = {
+		color={ 123 170 126 }
 		color2={ 255 255 255 }
 		
-		capital = 131
+		capital = 188
 		
-		culture = castillan
+		culture = nubian
 		
-		d_duchy0080 = {
-			color={ 231 208 67 }
+		d_duchy0188 = {
+			color={ 123 170 126 }
 			color2={ 255 255 255 }
 			
-			capital = 80
+			capital = 188
 			
-			c_tenochtitlan = {
-				color={ 192 192 73 }
-				color2={ 255 255 255 }
-				
-				holy_site = catholic
-				holy_site = cathar
-				holy_site = lollard
-				
-				b_tenochtitlan = {
-				dynasty_title_names = no
-				}
-				b_tenochtitlan = { }
-				b_barony0069b = { }
-				b_barony0069c = { }
-				b_barony0069d = { }
-				b_barony0069e = { }
-				b_barony0069f = { }
-				b_barony0069g = { }
-			}
-			c_province0105 = {
-				color={ 200 163 68 }
+			c_province0188 = {
+				color={ 123 170 126 }
 				color2={ 255 255 255 }
 				
 				
-				b_barony0105` = { }
-				b_barony0105a = { }
-				b_barony0105b = { }
-				b_barony0105c = { }
-				b_barony0105d = { }
-				b_barony0105e = { }
-				b_barony0105f = { }
-				b_barony0105g = { }
-			}
-			c_province0080 = {
-				color={ 231 208 67 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0080` = { }
-				b_barony0080a = { }
-				b_barony0080b = { }
-				b_barony0080c = { }
-				b_barony0080d = { }
-				b_barony0080e = { }
-				b_barony0080f = { }
-				b_barony0080g = { }
-			}
-		}
-		d_duchy0131 = {
-			color={ 184 182 59 }
-			color2={ 255 255 255 }
-			
-			capital = 131
-			
-			c_province0103 = {
-				color={ 241 185 41 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0103` = { }
-				b_barony0103a = { }
-				b_barony0103b = { }
-				b_barony0103c = { }
-				b_barony0103d = { }
-				b_barony0103e = { }
-				b_barony0103f = { }
-				b_barony0103g = { }
-			}
-			c_province0125 = {
-				color={ 239 214 18 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0125` = { }
-				b_barony0125a = { }
-				b_barony0125b = { }
-				b_barony0125c = { }
-				b_barony0125d = { }
-				b_barony0125e = { }
-				b_barony0125f = { }
-				b_barony0125g = { }
-			}
-			c_province0131 = {
-				color={ 184 182 59 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0131` = { }
-				b_barony0131a = { }
-				b_barony0131b = { }
-				b_barony0131c = { }
-				b_barony0131d = { }
-				b_barony0131e = { }
-				b_barony0131f = { }
-				b_barony0131g = { }
+				b_barony0188` = { }
+				b_barony0188a = { }
+				b_barony0188b = { }
+				b_barony0188c = { }
+				b_barony0188d = { }
+				b_barony0188e = { }
+				b_barony0188f = { }
+				b_barony0188g = { }
 			}
 		}
 	}
+}
+e_empire0203 = {
+	color={ 202 215 48 }
+	color2={ 255 255 255 }
+	
+	capital = 203
+	
+	culture = castillan
+	
+	k_kingdom0132 = {
+		color={ 83 120 141 }
+		color2={ 255 255 255 }
+		
+		capital = 132
+		
+		culture = old_frankish
+		
+		d_duchy0132 = {
+			color={ 83 120 141 }
+			color2={ 255 255 255 }
+			
+			capital = 132
+			
+			c_province0132 = {
+				color={ 83 120 141 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0132` = { }
+				b_barony0132a = { }
+				b_barony0132b = { }
+				b_barony0132c = { }
+				b_barony0132d = { }
+				b_barony0132e = { }
+				b_barony0132f = { }
+				b_barony0132g = { }
+			}
+		}
+	}
+	k_kingdom0151 = {
+		color={ 224 115 41 }
+		color2={ 255 255 255 }
+		
+		capital = 151
+		
+		culture = nahuatl
+		
+		d_duchy0139 = {
+			color={ 244 98 61 }
+			color2={ 255 255 255 }
+			
+			capital = 139
+			
+			c_province0111 = {
+				color={ 213 158 20 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0111` = { }
+				b_barony0111a = { }
+				b_barony0111b = { }
+				b_barony0111c = { }
+				b_barony0111d = { }
+				b_barony0111e = { }
+				b_barony0111f = { }
+				b_barony0111g = { }
+			}
+			c_province0169 = {
+				color={ 223 143 32 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0169` = { }
+				b_barony0169a = { }
+				b_barony0169b = { }
+				b_barony0169c = { }
+				b_barony0169d = { }
+				b_barony0169e = { }
+				b_barony0169f = { }
+				b_barony0169g = { }
+			}
+			c_province0139 = {
+				color={ 244 98 61 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0139` = { }
+				b_barony0139a = { }
+				b_barony0139b = { }
+				b_barony0139c = { }
+				b_barony0139d = { }
+				b_barony0139e = { }
+				b_barony0139f = { }
+				b_barony0139g = { }
+			}
+		}
+		d_duchy0151 = {
+			color={ 224 115 41 }
+			color2={ 255 255 255 }
+			
+			capital = 151
+			
+			c_province0114 = {
+				color={ 224 125 58 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0114` = { }
+				b_barony0114a = { }
+				b_barony0114b = { }
+				b_barony0114c = { }
+				b_barony0114d = { }
+				b_barony0114e = { }
+				b_barony0114f = { }
+				b_barony0114g = { }
+			}
+			c_province0151 = {
+				color={ 224 115 41 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0151` = { }
+				b_barony0151a = { }
+				b_barony0151b = { }
+				b_barony0151c = { }
+				b_barony0151d = { }
+				b_barony0151e = { }
+				b_barony0151f = { }
+				b_barony0151g = { }
+			}
+		}
+	}
+	k_kingdom0172 = {
+		color={ 78 92 149 }
+		color2={ 255 255 255 }
+		
+		capital = 172
+		
+		culture = old_frankish
+		
+		d_duchy0172 = {
+			color={ 78 92 149 }
+			color2={ 255 255 255 }
+			
+			capital = 172
+			
+			c_province0172 = {
+				color={ 78 92 149 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0172` = { }
+				b_barony0172a = { }
+				b_barony0172b = { }
+				b_barony0172c = { }
+				b_barony0172d = { }
+				b_barony0172e = { }
+				b_barony0172f = { }
+				b_barony0172g = { }
+			}
+		}
+	}
+	k_kingdom0222 = {
+		color={ 91 112 144 }
+		color2={ 255 255 255 }
+		
+		capital = 222
+		
+		culture = old_frankish
+		
+		d_duchy0222 = {
+			color={ 91 112 144 }
+			color2={ 255 255 255 }
+			
+			capital = 222
+			
+			c_province0213 = {
+				color={ 97 70 111 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0213` = { }
+				b_barony0213a = { }
+				b_barony0213b = { }
+				b_barony0213c = { }
+				b_barony0213d = { }
+				b_barony0213e = { }
+				b_barony0213f = { }
+				b_barony0213g = { }
+			}
+			c_province0222 = {
+				color={ 91 112 144 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0222` = { }
+				b_barony0222a = { }
+				b_barony0222b = { }
+				b_barony0222c = { }
+				b_barony0222d = { }
+				b_barony0222e = { }
+				b_barony0222f = { }
+				b_barony0222g = { }
+			}
+		}
+	}
+	k_kingdom0203 = {
+		color={ 202 215 48 }
+		color2={ 255 255 255 }
+		
+		capital = 203
+		
+		culture = castillan
+		
+		d_duchy0129 = {
+			color={ 233 183 24 }
+			color2={ 255 255 255 }
+			
+			capital = 129
+			
+			c_province0101 = {
+				color={ 210 164 74 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0101` = { }
+				b_barony0101a = { }
+				b_barony0101b = { }
+				b_barony0101c = { }
+				b_barony0101d = { }
+				b_barony0101e = { }
+				b_barony0101f = { }
+				b_barony0101g = { }
+			}
+			c_province0129 = {
+				color={ 233 183 24 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0129` = { }
+				b_barony0129a = { }
+				b_barony0129b = { }
+				b_barony0129c = { }
+				b_barony0129d = { }
+				b_barony0129e = { }
+				b_barony0129f = { }
+				b_barony0129g = { }
+			}
+		}
+		d_duchy0203 = {
+			color={ 202 215 48 }
+			color2={ 255 255 255 }
+			
+			capital = 203
+			
+			c_province0168 = {
+				color={ 195 202 23 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0168` = { }
+				b_barony0168a = { }
+				b_barony0168b = { }
+				b_barony0168c = { }
+				b_barony0168d = { }
+				b_barony0168e = { }
+				b_barony0168f = { }
+				b_barony0168g = { }
+			}
+			c_province0203 = {
+				color={ 202 215 48 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0203` = { }
+				b_barony0203a = { }
+				b_barony0203b = { }
+				b_barony0203c = { }
+				b_barony0203d = { }
+				b_barony0203e = { }
+				b_barony0203f = { }
+				b_barony0203g = { }
+			}
+		}
+	}
+}
+e_empire0223 = {
+	color={ 233 191 20 }
+	color2={ 255 255 255 }
+	
+	capital = 223
+	
+	culture = castillan
+	
+	k_kingdom0162 = {
+		color={ 214 135 30 }
+		color2={ 255 255 255 }
+		
+		capital = 162
+		
+		culture = nahuatl
+		
+		d_duchy0091 = {
+			color={ 240 138 21 }
+			color2={ 255 255 255 }
+			
+			capital = 91
+			
+			c_province0062 = {
+				color={ 242 129 44 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0062` = { }
+				b_barony0062a = { }
+				b_barony0062b = { }
+				b_barony0062c = { }
+				b_barony0062d = { }
+				b_barony0062e = { }
+				b_barony0062f = { }
+				b_barony0062g = { }
+			}
+			c_province0084 = {
+				color={ 210 101 6 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0084` = { }
+				b_barony0084a = { }
+				b_barony0084b = { }
+				b_barony0084c = { }
+				b_barony0084d = { }
+				b_barony0084e = { }
+				b_barony0084f = { }
+				b_barony0084g = { }
+			}
+			c_province0109 = {
+				color={ 244 119 44 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0109` = { }
+				b_barony0109a = { }
+				b_barony0109b = { }
+				b_barony0109c = { }
+				b_barony0109d = { }
+				b_barony0109e = { }
+				b_barony0109f = { }
+				b_barony0109g = { }
+			}
+			c_province0091 = {
+				color={ 240 138 21 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0091` = { }
+				b_barony0091a = { }
+				b_barony0091b = { }
+				b_barony0091c = { }
+				b_barony0091d = { }
+				b_barony0091e = { }
+				b_barony0091f = { }
+				b_barony0091g = { }
+			}
+		}
+		d_duchy0122 = {
+			color={ 231 148 10 }
+			color2={ 255 255 255 }
+			
+			capital = 122
+			
+			c_province0107 = {
+				color={ 212 136 49 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0107` = { }
+				b_barony0107a = { }
+				b_barony0107b = { }
+				b_barony0107c = { }
+				b_barony0107d = { }
+				b_barony0107e = { }
+				b_barony0107f = { }
+				b_barony0107g = { }
+			}
+			c_province0136 = {
+				color={ 242 150 50 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0136` = { }
+				b_barony0136a = { }
+				b_barony0136b = { }
+				b_barony0136c = { }
+				b_barony0136d = { }
+				b_barony0136e = { }
+				b_barony0136f = { }
+				b_barony0136g = { }
+			}
+			c_province0122 = {
+				color={ 231 148 10 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0122` = { }
+				b_barony0122a = { }
+				b_barony0122b = { }
+				b_barony0122c = { }
+				b_barony0122d = { }
+				b_barony0122e = { }
+				b_barony0122f = { }
+				b_barony0122g = { }
+			}
+		}
+		d_duchy0162 = {
+			color={ 214 135 30 }
+			color2={ 255 255 255 }
+			
+			capital = 162
+			
+			c_province0152 = {
+				color={ 197 155 37 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0152` = { }
+				b_barony0152a = { }
+				b_barony0152b = { }
+				b_barony0152c = { }
+				b_barony0152d = { }
+				b_barony0152e = { }
+				b_barony0152f = { }
+				b_barony0152g = { }
+			}
+			c_province0199 = {
+				color={ 208 136 26 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0199` = { }
+				b_barony0199a = { }
+				b_barony0199b = { }
+				b_barony0199c = { }
+				b_barony0199d = { }
+				b_barony0199e = { }
+				b_barony0199f = { }
+				b_barony0199g = { }
+			}
+			c_province0240 = {
+				color={ 246 142 10 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0240` = { }
+				b_barony0240a = { }
+				b_barony0240b = { }
+				b_barony0240c = { }
+				b_barony0240d = { }
+				b_barony0240e = { }
+				b_barony0240f = { }
+				b_barony0240g = { }
+			}
+			c_province0162 = {
+				color={ 214 135 30 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0162` = { }
+				b_barony0162a = { }
+				b_barony0162b = { }
+				b_barony0162c = { }
+				b_barony0162d = { }
+				b_barony0162e = { }
+				b_barony0162f = { }
+				b_barony0162g = { }
+			}
+		}
+	}
+	k_kingdom0196 = {
+		color={ 178 174 136 }
+		color2={ 255 255 255 }
+		
+		capital = 196
+		
+		culture = nubian
+		
+		d_duchy0196 = {
+			color={ 178 174 136 }
+			color2={ 255 255 255 }
+			
+			capital = 196
+			
+			c_province0196 = {
+				color={ 178 174 136 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0196` = { }
+				b_barony0196a = { }
+				b_barony0196b = { }
+				b_barony0196c = { }
+				b_barony0196d = { }
+				b_barony0196e = { }
+				b_barony0196f = { }
+				b_barony0196g = { }
+			}
+		}
+	}
+	k_kingdom0223 = {
+		color={ 233 191 20 }
+		color2={ 255 255 255 }
+		
+		capital = 223
+		
+		culture = castillan
+		
+		d_duchy0223 = {
+			color={ 233 191 20 }
+			color2={ 255 255 255 }
+			
+			capital = 223
+			
+			c_province0189 = {
+				color={ 243 179 19 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0189` = { }
+				b_barony0189a = { }
+				b_barony0189b = { }
+				b_barony0189c = { }
+				b_barony0189d = { }
+				b_barony0189e = { }
+				b_barony0189f = { }
+				b_barony0189g = { }
+			}
+			c_province0221 = {
+				color={ 244 196 69 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0221` = { }
+				b_barony0221a = { }
+				b_barony0221b = { }
+				b_barony0221c = { }
+				b_barony0221d = { }
+				b_barony0221e = { }
+				b_barony0221f = { }
+				b_barony0221g = { }
+			}
+			c_province0223 = {
+				color={ 233 191 20 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0223` = { }
+				b_barony0223a = { }
+				b_barony0223b = { }
+				b_barony0223c = { }
+				b_barony0223d = { }
+				b_barony0223e = { }
+				b_barony0223f = { }
+				b_barony0223g = { }
+			}
+		}
+	}
+}
+e_united_states = {
+	color={ 153 163 142 }
+	color2={ 255 255 255 }
+	
+	capital = 272
+	
+	culture = irish
+	
 	k_texas = {
 		color={ 165 153 114 }
 		color2={ 255 255 255 }
@@ -3408,621 +4014,7 @@ e_empire0181 = {
 				b_kings_canyon = { }
 			}
 		}
-	}
-}
-e_empire0188 = {
-	color={ 123 170 126 }
-	color2={ 255 255 255 }
-	
-	capital = 188
-	
-	culture = nubian
-	
-	k_kingdom0188 = {
-		color={ 123 170 126 }
-		color2={ 255 255 255 }
-		
-		capital = 188
-		
-		culture = nubian
-		
-		d_duchy0188 = {
-			color={ 123 170 126 }
-			color2={ 255 255 255 }
-			
-			capital = 188
-			
-			c_province0188 = {
-				color={ 123 170 126 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0188` = { }
-				b_barony0188a = { }
-				b_barony0188b = { }
-				b_barony0188c = { }
-				b_barony0188d = { }
-				b_barony0188e = { }
-				b_barony0188f = { }
-				b_barony0188g = { }
-			}
-		}
-	}
-}
-e_empire0203 = {
-	color={ 202 215 48 }
-	color2={ 255 255 255 }
-	
-	capital = 203
-	
-	culture = castillan
-	
-	k_kingdom0132 = {
-		color={ 83 120 141 }
-		color2={ 255 255 255 }
-		
-		capital = 132
-		
-		culture = old_frankish
-		
-		d_duchy0132 = {
-			color={ 83 120 141 }
-			color2={ 255 255 255 }
-			
-			capital = 132
-			
-			c_province0132 = {
-				color={ 83 120 141 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0132` = { }
-				b_barony0132a = { }
-				b_barony0132b = { }
-				b_barony0132c = { }
-				b_barony0132d = { }
-				b_barony0132e = { }
-				b_barony0132f = { }
-				b_barony0132g = { }
-			}
-		}
-	}
-	k_kingdom0151 = {
-		color={ 224 115 41 }
-		color2={ 255 255 255 }
-		
-		capital = 151
-		
-		culture = nahuatl
-		
-		d_duchy0139 = {
-			color={ 244 98 61 }
-			color2={ 255 255 255 }
-			
-			capital = 139
-			
-			c_province0111 = {
-				color={ 213 158 20 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0111` = { }
-				b_barony0111a = { }
-				b_barony0111b = { }
-				b_barony0111c = { }
-				b_barony0111d = { }
-				b_barony0111e = { }
-				b_barony0111f = { }
-				b_barony0111g = { }
-			}
-			c_province0169 = {
-				color={ 223 143 32 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0169` = { }
-				b_barony0169a = { }
-				b_barony0169b = { }
-				b_barony0169c = { }
-				b_barony0169d = { }
-				b_barony0169e = { }
-				b_barony0169f = { }
-				b_barony0169g = { }
-			}
-			c_province0139 = {
-				color={ 244 98 61 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0139` = { }
-				b_barony0139a = { }
-				b_barony0139b = { }
-				b_barony0139c = { }
-				b_barony0139d = { }
-				b_barony0139e = { }
-				b_barony0139f = { }
-				b_barony0139g = { }
-			}
-		}
-		d_duchy0151 = {
-			color={ 224 115 41 }
-			color2={ 255 255 255 }
-			
-			capital = 151
-			
-			c_province0114 = {
-				color={ 224 125 58 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0114` = { }
-				b_barony0114a = { }
-				b_barony0114b = { }
-				b_barony0114c = { }
-				b_barony0114d = { }
-				b_barony0114e = { }
-				b_barony0114f = { }
-				b_barony0114g = { }
-			}
-			c_province0151 = {
-				color={ 224 115 41 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0151` = { }
-				b_barony0151a = { }
-				b_barony0151b = { }
-				b_barony0151c = { }
-				b_barony0151d = { }
-				b_barony0151e = { }
-				b_barony0151f = { }
-				b_barony0151g = { }
-			}
-		}
-	}
-	k_kingdom0172 = {
-		color={ 78 92 149 }
-		color2={ 255 255 255 }
-		
-		capital = 172
-		
-		culture = old_frankish
-		
-		d_duchy0172 = {
-			color={ 78 92 149 }
-			color2={ 255 255 255 }
-			
-			capital = 172
-			
-			c_province0172 = {
-				color={ 78 92 149 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0172` = { }
-				b_barony0172a = { }
-				b_barony0172b = { }
-				b_barony0172c = { }
-				b_barony0172d = { }
-				b_barony0172e = { }
-				b_barony0172f = { }
-				b_barony0172g = { }
-			}
-		}
-	}
-	k_kingdom0222 = {
-		color={ 91 112 144 }
-		color2={ 255 255 255 }
-		
-		capital = 222
-		
-		culture = old_frankish
-		
-		d_duchy0222 = {
-			color={ 91 112 144 }
-			color2={ 255 255 255 }
-			
-			capital = 222
-			
-			c_province0213 = {
-				color={ 97 70 111 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0213` = { }
-				b_barony0213a = { }
-				b_barony0213b = { }
-				b_barony0213c = { }
-				b_barony0213d = { }
-				b_barony0213e = { }
-				b_barony0213f = { }
-				b_barony0213g = { }
-			}
-			c_province0222 = {
-				color={ 91 112 144 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0222` = { }
-				b_barony0222a = { }
-				b_barony0222b = { }
-				b_barony0222c = { }
-				b_barony0222d = { }
-				b_barony0222e = { }
-				b_barony0222f = { }
-				b_barony0222g = { }
-			}
-		}
-	}
-	k_kingdom0203 = {
-		color={ 202 215 48 }
-		color2={ 255 255 255 }
-		
-		capital = 203
-		
-		culture = castillan
-		
-		d_duchy0129 = {
-			color={ 233 183 24 }
-			color2={ 255 255 255 }
-			
-			capital = 129
-			
-			c_province0101 = {
-				color={ 210 164 74 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0101` = { }
-				b_barony0101a = { }
-				b_barony0101b = { }
-				b_barony0101c = { }
-				b_barony0101d = { }
-				b_barony0101e = { }
-				b_barony0101f = { }
-				b_barony0101g = { }
-			}
-			c_province0129 = {
-				color={ 233 183 24 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0129` = { }
-				b_barony0129a = { }
-				b_barony0129b = { }
-				b_barony0129c = { }
-				b_barony0129d = { }
-				b_barony0129e = { }
-				b_barony0129f = { }
-				b_barony0129g = { }
-			}
-		}
-		d_duchy0203 = {
-			color={ 202 215 48 }
-			color2={ 255 255 255 }
-			
-			capital = 203
-			
-			c_province0168 = {
-				color={ 195 202 23 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0168` = { }
-				b_barony0168a = { }
-				b_barony0168b = { }
-				b_barony0168c = { }
-				b_barony0168d = { }
-				b_barony0168e = { }
-				b_barony0168f = { }
-				b_barony0168g = { }
-			}
-			c_province0203 = {
-				color={ 202 215 48 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0203` = { }
-				b_barony0203a = { }
-				b_barony0203b = { }
-				b_barony0203c = { }
-				b_barony0203d = { }
-				b_barony0203e = { }
-				b_barony0203f = { }
-				b_barony0203g = { }
-			}
-		}
-	}
-}
-e_empire0223 = {
-	color={ 233 191 20 }
-	color2={ 255 255 255 }
-	
-	capital = 223
-	
-	culture = castillan
-	
-	k_kingdom0162 = {
-		color={ 214 135 30 }
-		color2={ 255 255 255 }
-		
-		capital = 162
-		
-		culture = nahuatl
-		
-		d_duchy0091 = {
-			color={ 240 138 21 }
-			color2={ 255 255 255 }
-			
-			capital = 91
-			
-			c_province0062 = {
-				color={ 242 129 44 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0062` = { }
-				b_barony0062a = { }
-				b_barony0062b = { }
-				b_barony0062c = { }
-				b_barony0062d = { }
-				b_barony0062e = { }
-				b_barony0062f = { }
-				b_barony0062g = { }
-			}
-			c_province0084 = {
-				color={ 210 101 6 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0084` = { }
-				b_barony0084a = { }
-				b_barony0084b = { }
-				b_barony0084c = { }
-				b_barony0084d = { }
-				b_barony0084e = { }
-				b_barony0084f = { }
-				b_barony0084g = { }
-			}
-			c_province0109 = {
-				color={ 244 119 44 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0109` = { }
-				b_barony0109a = { }
-				b_barony0109b = { }
-				b_barony0109c = { }
-				b_barony0109d = { }
-				b_barony0109e = { }
-				b_barony0109f = { }
-				b_barony0109g = { }
-			}
-			c_province0091 = {
-				color={ 240 138 21 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0091` = { }
-				b_barony0091a = { }
-				b_barony0091b = { }
-				b_barony0091c = { }
-				b_barony0091d = { }
-				b_barony0091e = { }
-				b_barony0091f = { }
-				b_barony0091g = { }
-			}
-		}
-		d_duchy0122 = {
-			color={ 231 148 10 }
-			color2={ 255 255 255 }
-			
-			capital = 122
-			
-			c_province0107 = {
-				color={ 212 136 49 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0107` = { }
-				b_barony0107a = { }
-				b_barony0107b = { }
-				b_barony0107c = { }
-				b_barony0107d = { }
-				b_barony0107e = { }
-				b_barony0107f = { }
-				b_barony0107g = { }
-			}
-			c_province0136 = {
-				color={ 242 150 50 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0136` = { }
-				b_barony0136a = { }
-				b_barony0136b = { }
-				b_barony0136c = { }
-				b_barony0136d = { }
-				b_barony0136e = { }
-				b_barony0136f = { }
-				b_barony0136g = { }
-			}
-			c_province0122 = {
-				color={ 231 148 10 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0122` = { }
-				b_barony0122a = { }
-				b_barony0122b = { }
-				b_barony0122c = { }
-				b_barony0122d = { }
-				b_barony0122e = { }
-				b_barony0122f = { }
-				b_barony0122g = { }
-			}
-		}
-		d_duchy0162 = {
-			color={ 214 135 30 }
-			color2={ 255 255 255 }
-			
-			capital = 162
-			
-			c_province0152 = {
-				color={ 197 155 37 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0152` = { }
-				b_barony0152a = { }
-				b_barony0152b = { }
-				b_barony0152c = { }
-				b_barony0152d = { }
-				b_barony0152e = { }
-				b_barony0152f = { }
-				b_barony0152g = { }
-			}
-			c_province0199 = {
-				color={ 208 136 26 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0199` = { }
-				b_barony0199a = { }
-				b_barony0199b = { }
-				b_barony0199c = { }
-				b_barony0199d = { }
-				b_barony0199e = { }
-				b_barony0199f = { }
-				b_barony0199g = { }
-			}
-			c_province0240 = {
-				color={ 246 142 10 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0240` = { }
-				b_barony0240a = { }
-				b_barony0240b = { }
-				b_barony0240c = { }
-				b_barony0240d = { }
-				b_barony0240e = { }
-				b_barony0240f = { }
-				b_barony0240g = { }
-			}
-			c_province0162 = {
-				color={ 214 135 30 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0162` = { }
-				b_barony0162a = { }
-				b_barony0162b = { }
-				b_barony0162c = { }
-				b_barony0162d = { }
-				b_barony0162e = { }
-				b_barony0162f = { }
-				b_barony0162g = { }
-			}
-		}
-	}
-	k_kingdom0196 = {
-		color={ 178 174 136 }
-		color2={ 255 255 255 }
-		
-		capital = 196
-		
-		culture = nubian
-		
-		d_duchy0196 = {
-			color={ 178 174 136 }
-			color2={ 255 255 255 }
-			
-			capital = 196
-			
-			c_province0196 = {
-				color={ 178 174 136 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0196` = { }
-				b_barony0196a = { }
-				b_barony0196b = { }
-				b_barony0196c = { }
-				b_barony0196d = { }
-				b_barony0196e = { }
-				b_barony0196f = { }
-				b_barony0196g = { }
-			}
-		}
-	}
-	k_kingdom0223 = {
-		color={ 233 191 20 }
-		color2={ 255 255 255 }
-		
-		capital = 223
-		
-		culture = castillan
-		
-		d_duchy0223 = {
-			color={ 233 191 20 }
-			color2={ 255 255 255 }
-			
-			capital = 223
-			
-			c_province0189 = {
-				color={ 243 179 19 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0189` = { }
-				b_barony0189a = { }
-				b_barony0189b = { }
-				b_barony0189c = { }
-				b_barony0189d = { }
-				b_barony0189e = { }
-				b_barony0189f = { }
-				b_barony0189g = { }
-			}
-			c_province0221 = {
-				color={ 244 196 69 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0221` = { }
-				b_barony0221a = { }
-				b_barony0221b = { }
-				b_barony0221c = { }
-				b_barony0221d = { }
-				b_barony0221e = { }
-				b_barony0221f = { }
-				b_barony0221g = { }
-			}
-			c_province0223 = {
-				color={ 233 191 20 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0223` = { }
-				b_barony0223a = { }
-				b_barony0223b = { }
-				b_barony0223c = { }
-				b_barony0223d = { }
-				b_barony0223e = { }
-				b_barony0223f = { }
-				b_barony0223g = { }
-			}
-		}
-	}
-}
-e_united_states = {
-	color={ 153 163 142 }
-	color2={ 255 255 255 }
-	
-	capital = 272
-	
-	culture = nubian
-	
+	}	
 	k_the_south = {
 		color={ 223 215 74 }
 		color2={ 255 255 255 }
