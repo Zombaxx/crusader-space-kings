@@ -23,54 +23,6 @@ bm_wp = {
 		}
 	}
 	selectable_character = {
-		id = 101415 #
-		age = 23
-		name = ERA_CHAR_NAME_101415
-		title = c_province0003
-		title_name = c_province0003
-		dlc = "The Republic"		
-		character = {
-			dna = lxfmdjoqjay
-			properties = cj0dck
-			religion="catholic"
-			culture="irish"
-			government = merchant_republic
-			dynasty=100780
-		}
-	}
-	selectable_character = {
-		id = 107175 # The Cywizard Khan of Eurasia
-		age = 1065
-		name = ERA_CHAR_NAME_107175
-		title = c_province0003
-		title_name = c_province0003
-		dlc = "Jade Dragon"
-		character = {
-			dna = jsyetkwqpxw
-			properties = ai0lil
-			religion="taoist"
-			culture="han"
-			trait = full_cybernetic_conversion
-			government = nomadic_government
-			dynasty=100780
-		}
-	}
-	selectable_character = {
-		id = 101105 #
-		age = 29
-		name = ERA_CHAR_NAME_101105
-		title = c_province0003
-		title_name = c_province0003		
-		character = {
-			dna = fnyvbfskhrp
-			properties = casekd
-			religion="catholic"
-			culture="castillan"
-			government = feudal_government
-			dynasty=100780
-		}
-	}
-	selectable_character = {
 		id = 112385 # Olympian of Mars
 		age = 35
 		name = ERA_CHAR_NAME_112385
@@ -102,5 +54,52 @@ bm_wp = {
 			dynasty=100780
 		}
 	}
-
+	selectable_character = {
+		id = 101415 #
+		age = 23
+		name = ERA_CHAR_NAME_101415
+		title = c_province0003
+		title_name = c_province0003
+		dlc = "The Republic"		
+		character = {
+			dna = lxfmdjoqjay
+			properties = cj0dck
+			religion="catholic"
+			culture="irish"
+			government = merchant_republic
+			dynasty=100780
+		}
+	}
+	selectable_character = {
+		id = 101105 #
+		age = 29
+		name = ERA_CHAR_NAME_101105
+		title = c_province0003
+		title_name = c_province0003		
+		character = {
+			dna = fnyvbfskhrp
+			properties = casekd
+			religion="catholic"
+			culture="castillan"
+			government = feudal_government
+			dynasty=100780
+		}
+	}
+	selectable_character = {
+		id = 107175 # The Cywizard Khan of Eurasia
+		age = 1065
+		name = ERA_CHAR_NAME_107175
+		title = c_province0003
+		title_name = c_province0003
+		dlc = "Jade Dragon"
+		character = {
+			dna = jsyetkwqpxw
+			properties = ai0lil
+			religion="taoist"
+			culture="han"
+			trait = full_cybernetic_conversion
+			government = nomadic_government
+			dynasty=100780
+		}
+	}
 }
