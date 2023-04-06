@@ -8,7 +8,7 @@ bm_wp = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 
 	selectable_character = {
-		id = 108275 #
+		id = 108275 #Venus
 		age = 21
 		name = ERA_CHAR_NAME_108275
 		title = c_province0003
@@ -23,7 +23,24 @@ bm_wp = {
 		}
 	}
 	selectable_character = {
-		id = 112385 # Olympian of Mars
+		id = 121585 # Caliph of Galilean Moons
+		age = 34
+		name = ERA_CHAR_NAME_121585
+		title = c_province0003
+		title_name = c_province0003
+		dlc = "The Sword of Islam"
+		
+		character = {
+			dna = ivlefdjkqen
+			properties = ab00hc
+			religion="kharijite"
+			culture="english"
+			government = feudal_government
+			dynasty=102260
+		}
+	}
+	selectable_character = {
+		id = 112385 # Olympians of Mars
 		age = 35
 		name = ERA_CHAR_NAME_112385
 		title = c_province0003
@@ -55,7 +72,7 @@ bm_wp = {
 		}
 	}
 	selectable_character = {
-		id = 101415 #
+		id = 101415 #USA
 		age = 23
 		name = ERA_CHAR_NAME_101415
 		title = c_province0003
@@ -71,7 +88,7 @@ bm_wp = {
 		}
 	}
 	selectable_character = {
-		id = 101105 #
+		id = 101105 #Brazil
 		age = 29
 		name = ERA_CHAR_NAME_101105
 		title = c_province0003
@@ -81,6 +98,22 @@ bm_wp = {
 			properties = casekd
 			religion="catholic"
 			culture="castillan"
+			government = feudal_government
+			dynasty=100780
+		}
+	}
+	selectable_character = {
+		id = 104265 # Kemetics of Mercury
+		age = 27
+		name = ERA_CHAR_NAME_104265
+		title = c_province0003
+		title_name = c_province0003	
+		dlc = "Holy Fury"
+		character = {
+			dna = kbwnbgufhyj
+			properties = nd0ddk
+			religion="zun_pagan"
+			culture="mongol"
 			government = feudal_government
 			dynasty=100780
 		}
