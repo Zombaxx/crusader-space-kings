@@ -3186,7 +3186,7 @@ e_united_states = {
 			color={ 81 200 200 }
 			color2={ 255 255 255 }
 			
-			capital = 161
+			capital = 144
 			
 			c_province0144 = {
 				color={ 72 156 212 }
@@ -3215,20 +3215,6 @@ e_united_states = {
 				b_barony0190e = { }
 				b_barony0190f = { }
 				b_barony0190g = { }
-			}
-			c_province0161 = {
-				color={ 81 200 200 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0161` = { }
-				b_barony0161a = { }
-				b_barony0161b = { }
-				b_barony0161c = { }
-				b_barony0161d = { }
-				b_barony0161e = { }
-				b_barony0161f = { }
-				b_barony0161g = { }
 			}
 		}
 	}
@@ -3686,12 +3672,40 @@ e_united_states = {
 				b_boca_raton = { }
 				b_mar-a-lago = { }
 			}
+			c_province0165 = {
+				color={ 168 116 120 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0165` = { }
+				b_barony0165a = { }
+				b_barony0165b = { }
+				b_barony0165c = { }
+				b_barony0165d = { }
+				b_barony0165e = { }
+				b_barony0165f = { }
+				b_barony0165g = { }
+			}
+			c_province0184 = {
+				color={ 120 158 108 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0184` = { }
+				b_barony0184a = { }
+				b_barony0184b = { }
+				b_barony0184c = { }
+				b_barony0184d = { }
+				b_barony0184e = { }
+				b_barony0184f = { }
+				b_barony0184g = { }
+			}
 		}
 		d_austin = {
 			color={ 165 153 114 }
 			color2={ 255 255 255 }
 			
-			capital = 150
+			capital = 145
 			
 			c_austin2 = {
 				color={ 165 166 152 }
@@ -3721,20 +3735,6 @@ e_united_states = {
 				b_barony0182f = { }
 				b_barony0182g = { }
 			}
-			c_austin = {
-				color={ 165 153 114 }
-				color2={ 255 255 255 }
-				
-				
-				b_austin = { }
-				b_barony0150a = { }
-				b_barony0150b = { }
-				b_barony0150c = { }
-				b_barony0150d = { }
-				b_barony0150e = { }
-				b_barony0150f = { }
-				b_barony0150g = { }
-			}
 		}
 		d_duchy0184 = {
 			color={ 120 158 108 }
@@ -3742,34 +3742,6 @@ e_united_states = {
 			
 			capital = 184
 			
-			c_province0165 = {
-				color={ 168 116 120 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0165` = { }
-				b_barony0165a = { }
-				b_barony0165b = { }
-				b_barony0165c = { }
-				b_barony0165d = { }
-				b_barony0165e = { }
-				b_barony0165f = { }
-				b_barony0165g = { }
-			}
-			c_province0184 = {
-				color={ 120 158 108 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0184` = { }
-				b_barony0184a = { }
-				b_barony0184b = { }
-				b_barony0184c = { }
-				b_barony0184d = { }
-				b_barony0184e = { }
-				b_barony0184f = { }
-				b_barony0184g = { }
-			}
 		}
 		d_duchy0198 = {
 			color={ 81 96 104 }
@@ -3829,6 +3801,34 @@ e_united_states = {
 				b_barony0126e = { }
 				b_barony0126f = { }
 				b_barony0126g = { }
+			}
+			c_austin = {
+				color={ 165 153 114 }
+				color2={ 255 255 255 }
+				
+				
+				b_austin = { }
+				b_barony0150a = { }
+				b_barony0150b = { }
+				b_barony0150c = { }
+				b_barony0150d = { }
+				b_barony0150e = { }
+				b_barony0150f = { }
+				b_barony0150g = { }
+			}
+			c_province0161 = {
+				color={ 81 200 200 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0161` = { }
+				b_barony0161a = { }
+				b_barony0161b = { }
+				b_barony0161c = { }
+				b_barony0161d = { }
+				b_barony0161e = { }
+				b_barony0161f = { }
+				b_barony0161g = { }
 			}
 		}
 	}

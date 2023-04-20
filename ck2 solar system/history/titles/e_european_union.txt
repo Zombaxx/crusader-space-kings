@@ -1,11 +1,9 @@
-919.1.1 = {
-	holder = 105300
+997.1.1={
+	law = succ_byzantine_elective
+	law = imperial_administration
 }
-1014.1.1 = {
+997.1.1 = {
 	holder = 105301
-}
-1039.1.1 = {
-	holder = 105302
 }
 1050.1.1 = {
 	holder = 105305
