@@ -3202,6 +3202,7 @@ tribal_invasion = {
 			}
 			is_nomadic = no
 			OR = {
+				religion = taoist
 				AND = {
 					has_dlc = "Horse Lords"
 					higher_tier_than = COUNT
