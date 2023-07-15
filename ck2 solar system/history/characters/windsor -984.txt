@@ -1,0 +1,374 @@
+7000000 = {
+	name="Elizabeth"
+	female=yes
+	dynasty=7000000
+	religion="nestorian"
+	culture="saxon"
+	942.1.1={birth=yes}
+	963.1.1={add_spouse = 7000001}
+	1038.1.1={death=yes}
+}
+7000001 = {
+	name="Philip"
+	female=no
+	dynasty=7000001
+	religion="nestorian"
+	culture="saxon"
+	937.1.1={birth=yes}
+	963.1.1={add_spouse = 7000000}
+	1037.1.1={death=yes}
+}
+7000002 = {
+	name="Charles"
+	female=no
+	dynasty=7000000
+
+	father=7000001
+	mother=7000000
+
+	religion="nestorian"
+	culture="saxon"
+	964.1.1={birth=yes}
+	997.1.1={add_spouse = 7000003}
+}
+7000003 = {
+	name="Diana"
+	female=yes
+	dynasty=7000003
+	religion="nestorian"
+	culture="saxon"
+	977.1.1={birth=yes}
+	997.1.1={add_spouse = 7000002}
+	1013.1.1={death=yes}
+}
+7000004 = {
+	name="William"
+	female=no
+	dynasty=7000000
+
+	father=7000002
+	mother=7000003
+
+	religion="nestorian"
+	culture="saxon"
+	998.1.1={birth=yes}
+	1027.1.1={add_spouse = 7000005}
+}
+7000005 = {
+	name="Catherine"
+	female=yes
+	dynasty=7000005
+	religion="nestorian"
+	culture="saxon"
+	998.1.1={birth=yes}
+	1027.1.1={add_spouse = 7000004}
+}
+7000006 = {
+	name="George"
+	female=no
+	dynasty=7000000
+
+	father=7000004
+	mother=7000005
+
+	religion="nestorian"
+	culture="saxon"
+	1029.1.1={birth=yes}
+}
+7000007 = {
+	name="Charlotte"
+	female=yes
+	dynasty=7000000
+
+	father=7000004
+	mother=7000005
+
+	religion="nestorian"
+	culture="saxon"
+	1031.1.1={birth=yes}
+}
+7000008 = {
+	name="Louis"
+	female=no
+	dynasty=7000000
+
+	father=7000004
+	mother=7000005
+
+	religion="nestorian"
+	culture="saxon"
+	1034.1.1={birth=yes}
+}
+7000009 = {
+	name="Harry"
+	female=no
+	dynasty=7000000
+
+	father=7000002
+	mother=7000003
+
+	religion="nestorian"
+	culture="saxon"
+	1000.1.1={birth=yes}
+	1034.1.1={add_spouse = 7000010}
+}
+7000010 = {
+	name="Meghan"
+	female=yes
+	dynasty=7000010
+	religion="nestorian"
+	culture="saxon"
+	997.1.1={birth=yes}
+	1034.1.1={add_spouse = 7000009}
+}
+7000011 = {
+	name="Archie"
+	female=no
+	dynasty=7000000
+
+	father=7000009
+	mother=7000010
+
+	religion="nestorian"
+	culture="saxon"
+	1035.1.1={birth=yes}
+}
+7000012 = {
+	name="Lilibet"
+	female=yes
+	dynasty=7000000
+
+	father=7000009
+	mother=7000010
+
+	religion="nestorian"
+	culture="saxon"
+	1037.1.1={birth=yes}
+}
+7000013 = {
+	name="Andrew"
+	female=no
+	dynasty=7000000
+
+	father=7000001
+	mother=7000000
+
+	religion="nestorian"
+	culture="saxon"
+	976.1.1={birth=yes}
+	1002.1.1={add_spouse = 7000014}
+}
+7000014 = {
+	name="Sarah"
+	female=yes
+	dynasty=7000014
+	religion="nestorian"
+	culture="saxon"
+	975.1.1={birth=yes}
+	1002.1.1={add_spouse = 7000013}
+}
+7000015 = {
+	name="Beatrice"
+	female=yes
+	dynasty=7000000
+
+	father=7000013
+	mother=7000014
+
+	religion="nestorian"
+	culture="saxon"
+	1004.1.1={birth=yes}
+}
+7000016 = {
+	name="Eugenie"
+	female=yes
+	dynasty=7000000
+
+	father=7000013
+	mother=7000014
+
+	religion="nestorian"
+	culture="saxon"
+	1006.1.1={birth=yes}
+}
+7000017 = {
+	name="Edward"
+	female=no
+	dynasty=7000000
+
+	father=7000001
+	mother=7000000
+
+	religion="nestorian"
+	culture="saxon"
+	980.1.1={birth=yes}
+	1015.1.1={add_spouse = 7000018}
+}
+7000018 = {
+	name="Sophie"
+	female=yes
+	dynasty=7000018
+	religion="nestorian"
+	culture="saxon"
+	981.1.1={birth=yes}
+	1015.1.1={add_spouse = 7000017}
+}
+7000019 = {
+	name="Louise"
+	female=yes
+	dynasty=7000000
+
+	father=7000017
+	mother=7000018
+
+	religion="nestorian"
+	culture="saxon"
+	1019.1.1={birth=yes}
+}
+7000020 = {
+	name="James"
+	female=no
+	dynasty=7000000
+
+	father=7000017
+	mother=7000018
+
+	religion="nestorian"
+	culture="saxon"
+	1033.1.1={birth=yes}
+}
+7000021 = {
+	name="Camilla"
+	female=yes
+	dynasty=7000021
+	religion="nestorian"
+	culture="saxon"
+	963.1.1={birth=yes}
+	1021.1.1={add_spouse = 7000002}
+}
+7000022 = {
+	name="Anne"
+	female=yes
+	dynasty=7000000
+
+	father=7000001
+	mother=7000000
+
+	religion="nestorian"
+	culture="saxon"
+	966.1.1={birth=yes}
+	989.1.1={add_spouse = 7000023}
+}
+7000023 = {
+	name="Mark"
+	female=no
+	dynasty=7000023
+	religion="nestorian"
+	culture="saxon"
+	964.1.1={birth=yes}
+	989.1.1={add_spouse = 7000022}
+}
+7000024 = {
+	name="Peter"
+	female=no
+	dynasty=7000023
+
+	father=7000023
+	mother=7000022
+
+	religion="nestorian"
+	culture="saxon"
+	993.1.1={birth=yes}
+	1024.1.1={add_spouse = 7000025}
+}
+7000025 = {
+	name="Autumn"
+	female=yes
+	dynasty=7000025
+	religion="nestorian"
+	culture="saxon"
+	994.1.1={birth=yes}
+	1024.1.1={add_spouse = 7000024}
+}
+7000026 = {
+	name="Savannah"
+	female=yes
+	dynasty=7000023
+
+	father=7000024
+	mother=7000025
+
+	religion="nestorian"
+	culture="saxon"
+	1027.1.1={birth=yes}
+}
+7000027 = {
+	name="Isla"
+	female=yes
+	dynasty=7000023
+
+	father=7000024
+	mother=7000025
+
+	religion="nestorian"
+	culture="saxon"
+	1028.1.1={birth=yes}
+}
+7000028 = {
+	name="Zara"
+	female=yes
+	dynasty=7000023
+
+	father=7000023
+	mother=7000022
+
+	religion="nestorian"
+	culture="saxon"
+	997.1.1={birth=yes}
+	1027.1.1={add_spouse = 7000029}
+}
+7000029 = {
+	name="Mike"
+	female=no
+	dynasty=7000029
+	religion="nestorian"
+	culture="saxon"
+	994.1.1={birth=yes}
+	1027.1.1={add_spouse = 7000028}
+}
+7000030 = {
+	name="Mia"
+	female=yes
+	dynasty=7000029
+
+	father=7000029
+	mother=7000028
+
+	religion="nestorian"
+	culture="saxon"
+	1030.1.1={birth=yes}
+}
+7000031 = {
+	name="Lena"
+	female=yes
+	dynasty=7000029
+
+	father=7000029
+	mother=7000028
+
+	religion="nestorian"
+	culture="saxon"
+	1034.1.1={birth=yes}
+}
+7000032 = {
+	name="Lucas"
+	female=yes
+	dynasty=7000029
+
+	father=7000029
+	mother=7000028
+
+	religion="nestorian"
+	culture="saxon"
+	1037.1.1={birth=yes}
+}

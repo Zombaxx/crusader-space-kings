@@ -46,9 +46,9 @@ freed_slaves = {
 }
 mad_slavers = {
 	icon = 36
-	local_revolt_risk = 0.15
+	local_revolt_risk = 0.05
 	siege_defence = -0.5
 	local_build_time_modifier = 0.25
 	local_build_cost_modifier = 0.25
-	local_tax_modifier = -1.00
+	local_tax_modifier = -0.20
 }
