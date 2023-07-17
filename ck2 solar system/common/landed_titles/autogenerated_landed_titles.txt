@@ -21740,7 +21740,7 @@ e_empire1184 = {
 		color={ 175 13 38 }
 		color2={ 255 255 255 }
 		
-		capital = 1184
+		capital = 1237
 		
 		culture = dragon_culture
 		
@@ -22112,7 +22112,7 @@ e_empire1184 = {
 			color={ 137 29 42 }
 			color2={ 255 255 255 }
 			
-			capital = 1238
+			capital = 1237
 			
 			c_olympus_mons = {
 				color={ 135 36 45 }

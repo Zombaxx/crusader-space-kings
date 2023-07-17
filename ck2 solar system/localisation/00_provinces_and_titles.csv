@@ -1073,7 +1073,7 @@ PROV1071;Wyasimir;Wyasimir;Wyasimir;;Wyasimir;;;;;;;;;x
 PROV1072;Atatira;Atatira;Atatira;;Atatira;;;;;;;;;x
 PROV1073;Limava;Limava;Limava;;Limava;;;;;;;;;x
 PROV1074;Secusi;Secusi;Secusi;;Secusi;;;;;;;;;x
-PROV1075;Ericemma;Ericemma;Ericemma;;Ericemma;;;;;;;;;x
+PROV1075;Sydney;Sydney;Sydney;;Sydney;;;;;;;;;x
 PROV1076;Rabozar;Rabozar;Rabozar;;Rabozar;;;;;;;;;x
 PROV1077;Qilotus;Qilotus;Qilotus;;Qilotus;;;;;;;;;x
 PROV1078;Tazuko;Tazuko;Tazuko;;Tazuko;;;;;;;;;x
@@ -13154,15 +13154,15 @@ b_barony1074d;Biruara;Biruara;Biruara;;Biruara;;;;;;;;;x
 b_barony1074e;Laweva;Laweva;Laweva;;Laweva;;;;;;;;;x
 b_barony1074f;Qanimha;Qanimha;Qanimha;;Qanimha;;;;;;;;;x
 b_barony1074g;Tibija;Tibija;Tibija;;Tibija;;;;;;;;;x
-c_province1075_adj;Qiegohn;Qiegohn;Qiegohn;;Qiegohn;;;;;;;;;x
-b_barony1075`;Tyoukuis;Tyoukuis;Tyoukuis;;Tyoukuis;;;;;;;;;x
-b_barony1075a;Rakeva;Rakeva;Rakeva;;Rakeva;;;;;;;;;x
-b_barony1075b;Aksemn;Aksemn;Aksemn;;Aksemn;;;;;;;;;x
-b_barony1075c;Sugivoj;Sugivoj;Sugivoj;;Sugivoj;;;;;;;;;x
-b_barony1075d;Bopalgi;Bopalgi;Bopalgi;;Bopalgi;;;;;;;;;x
-b_barony1075e;Tehela;Tehela;Tehela;;Tehela;;;;;;;;;x
-b_barony1075f;Winalek;Winalek;Winalek;;Winalek;;;;;;;;;x
-b_barony1075g;Quwedro;Quwedro;Quwedro;;Quwedro;;;;;;;;;x
+c_province1075_adj;Sydneysider;Sydneysider;Sydneysider;;Sydneysider;;;;;;;;;x
+b_barony1075`;Sydney;Sydney;Sydney;;Sydney;;;;;;;;;x
+b_barony1075a;Canbera;Canbera;Canbera;;Canbera;;;;;;;;;x
+b_barony1075b;Newcastle;Newcastle;Newcastle;;Newcastle;;;;;;;;;x
+b_barony1075c;Port Macquarie;Port Macquarie;Port Macquarie;;Port Macquarie;;;;;;;;;x
+b_barony1075d;Coffs Harbour;Coffs Harbour;Coffs Harbour;;Coffs Harbour;;;;;;;;;x
+b_barony1075e;Dubbo;Dubbo;Dubbo;;Dubbo;;;;;;;;;x
+b_barony1075f;Wollongong;Wollongong;Wollongong;;Wollongong;;;;;;;;;x
+b_barony1075g;Mascot;Mascot;Mascot;;Mascot;;;;;;;;;x
 c_province1076_adj;Sodory;Sodory;Sodory;;Sodory;;;;;;;;;x
 b_barony1076`;Ronaola;Ronaola;Ronaola;;Ronaola;;;;;;;;;x
 b_barony1076a;Awinelen;Awinelen;Awinelen;;Awinelen;;;;;;;;;x
@@ -16206,8 +16206,8 @@ b_barony1378d;Ilie;Ilie;Ilie;;Ilie;;;;;;;;;x
 b_barony1378e;Ubew;Ubew;Ubew;;Ubew;;;;;;;;;x
 b_barony1378f;Afeg;Afeg;Afeg;;Afeg;;;;;;;;;x
 b_barony1378g;Umeu;Umeu;Umeu;;Umeu;;;;;;;;;x
-k_kingdom1379;Omil;Omil;Omil;;Omil;;;;;;;;;x
-k_kingdom1379_adj;Elok;Elok;Elok;;Elok;;;;;;;;;x
+k_kingdom1379;Argyre;Argyre;Argyre;;Argyre;;;;;;;;;x
+k_kingdom1379_adj;Argyrian;Argyrian;Argyrian;;Argyrian;;;;;;;;;x
 d_duchy1379;Utav;Utav;Utav;;Utav;;;;;;;;;x
 d_duchy1379_adj;Offe;Offe;Offe;;Offe;;;;;;;;;x
 c_province1379_adj;Amas;Amas;Amas;;Amas;;;;;;;;;x

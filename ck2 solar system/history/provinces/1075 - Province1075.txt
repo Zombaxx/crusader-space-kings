@@ -4,9 +4,14 @@
 title = c_province1075
 
 # Settlements
-max_settlements = 3
+max_settlements = 7
 b_barony1075` = castle
 b_barony1075a = temple
+b_barony1075b = city
+b_barony1075c = castle
+b_barony1075d = temple
+b_barony1075e = city
+b_barony1075f = castle
 
 # Misc
 culture = saxon

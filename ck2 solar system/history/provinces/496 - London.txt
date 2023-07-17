@@ -4,9 +4,13 @@
 title = c_london
 
 # Settlements
-max_settlements = 3
+max_settlements = 6
 b_london = castle
 b_barony0496a = temple
+b_barony0496b = city
+b_barony0496c = castle
+b_barony0496d = temple
+b_barony0496e = city
 
 # Misc
 culture = saxon

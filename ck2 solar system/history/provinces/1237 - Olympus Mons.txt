@@ -4,9 +4,14 @@
 title = c_olympus_mons
 
 # Settlements
-max_settlements = 3
+max_settlements = 7
 b_olympus_mons = castle
 b_barony1237a = temple
+b_barony1237b = city
+b_barony1237c = castle
+b_barony1237d = temple
+b_barony1237e = city
+b_barony1237f = castle
 
 # Misc
 culture = alan

@@ -4,7 +4,7 @@
 title = c_san_francisco
 
 # Settlements
-max_settlements = 5
+max_settlements = 7
 b_san_francisco = city
 b_daly = temple
 b_san_jose = castle
