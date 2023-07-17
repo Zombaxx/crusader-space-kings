@@ -4,12 +4,12 @@
 title = c_province0622
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_barony0622` = castle
 b_barony0622a = temple
 
 # Misc
-culture = bedouin_arabic
+culture = turkish
 religion = sunni
 
 # History
