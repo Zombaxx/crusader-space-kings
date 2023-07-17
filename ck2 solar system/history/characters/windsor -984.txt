@@ -6,6 +6,12 @@
 	culture="saxon"
 	942.1.1={birth=yes}
 	963.1.1={add_spouse = 7000001}
+	1034.2.6 = {
+		create_bloodline = {
+			type = carolingian
+			has_dlc = "Holy Fury"
+		}
+	}
 	1038.1.1={death=yes}
 }
 7000001 = {

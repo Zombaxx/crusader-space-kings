@@ -7504,7 +7504,7 @@ b_barony0510d;Qelanda;Qelanda;Qelanda;;Qelanda;;;;;;;;;x
 b_barony0510e;Egeirri;Egeirri;Egeirri;;Egeirri;;;;;;;;;x
 b_barony0510f;Lonno;Lonno;Lonno;;Lonno;;;;;;;;;x
 b_barony0510g;Tacelgil;Tacelgil;Tacelgil;;Tacelgil;;;;;;;;;x
-c_paris_adj;Parisian;Parisian;Parisian;;Parisian;;;;;;;;;x
+c_netherlands_adj;Parisian;Parisian;Parisian;;Parisian;;;;;;;;;x
 b_netherlands;Paris;Paris;Paris;;Paris;;;;;;;;;x
 b_barony0511a;Versailles;Wodarma;Wodarma;;Wodarma;;;;;;;;;x
 b_barony0511b;Creteil;Wenatsi;Wenatsi;;Wenatsi;;;;;;;;;x
@@ -7675,8 +7675,8 @@ b_barony0527d;Qokunda;Qokunda;Qokunda;;Qokunda;;;;;;;;;x
 b_barony0527e;Tenana;Tenana;Tenana;;Tenana;;;;;;;;;x
 b_barony0527f;Qaticta;Qaticta;Qaticta;;Qaticta;;;;;;;;;x
 b_barony0527g;Kyaqarya;Kyaqarya;Kyaqarya;;Kyaqarya;;;;;;;;;x
-c_amsterdam_adj;Beneluxer;Amsterdam;Amsterdam;;Amsterdam;;;;;;;;;x
-b_amsterdam;Belgium;Amsterdam;Amsterdam;;Amsterdam;;;;;;;;;x
+c_berlin_adj;Beneluxer;Amsterdam;Amsterdam;;Amsterdam;;;;;;;;;x
+b_berlin;Belgium;Amsterdam;Amsterdam;;Amsterdam;;;;;;;;;x
 b_barony0528a;Netherlands;Ademavan;Ademavan;;Ademavan;;;;;;;;;x
 b_barony0528b;Luxembourg;Wemenna;Wemenna;;Wemenna;;;;;;;;;x
 b_barony0528c;Brussels;Nitotho;Nitotho;;Nitotho;;;;;;;;;x
@@ -7973,7 +7973,7 @@ b_barony0557f;Skelleftea;Dahemma;Dahemma;;Dahemma;;;;;;;;;x
 b_barony0557g;Ornskoldsvik;Saliam;Saliam;;Saliam;;;;;;;;;x
 d_duchy0558;Kanadha;Kanadha;Kanadha;;Kanadha;;;;;;;;;x
 d_duchy0558_adj;Raqalah;Raqalah;Raqalah;;Raqalah;;;;;;;;;x
-c_berlin_adj;Berlin;Berlin;Berlin;;Berlin;;;;;;;;;x
+c_province0558_adj;German;Beneluxer;Beneluxer;;Beneluxer;;;;;;;;;x
 b_barony0558`;Berlin;Berlin;Berlin;;Berlin;;;;;;;;;x
 b_barony0558a;Sonagol;Sonagol;Sonagol;;Sonagol;;;;;;;;;x
 b_barony0558b;Lohajda;Lohajda;Lohajda;;Lohajda;;;;;;;;;x
