@@ -20,6 +20,45 @@ philippe_capet_desc;A pious and respected leader of the Third Crusade, Philippe 
 barbarossa_desc;An able ruler, Frederick 'Barbarossa' was known both as a warrior who sought to control the rebel Italian princes and as a skilled lawmaker.;Frédéric 'Barberousse', un chef capable, était connu à la fois comme un guerrier qui cherchait à contrôler les princes rebelles italiens et comme un législateur qualifié.;Frederick war sowohl ein fähiger Herrscher als auch ein Krieger. Dabei schaffte er es die rebellischen italienischen Prinzen zu kontrollieren und gleichzeitig geschickte Gesetze zu entwerfen.;;Federico, un líder capaz, fue famoso tanto como guerrero que buscó controlar a los príncipes italianos rebeldes como un legislador hábil.;;;;;;;;;x
 premyslid_desc;Despite his involvement in the murder of his elder brother, Boleslav was a tenacious leader who significantly strengthened the Bohemian realm.;Malgré son implication dans le meurtre de son frère aîné, Boleslav était un chef tenace qui a considérablement renforcé la Bohême.;Trotzt seiner Beteiligung an der Ermordung seines älteren Bruders war Boleslav ein hartnäckiger Anführern, der das böhmische Reich bedeutend stärkte.;;A pesar de su involucración en el asesinato de su hermano mayor, Boleslao fue un líder tenaz que reforzó significativamente el reino bohemio.;;;;;;;;;x
 
+merovingian;Musk Blood;Sang mérovingien;Merovinganisches Blut;;sangre merovingia;;;;;;;;;x
+solomon;Solomonic Blood;Sang de Salomon;Solomonischen Blut;;sangre salomónica;;;;;;;;;x
+attila;Blood of Attila;Sang d'Attila;Blut von Atilla;;sangre de Atila;;;;;;;;;x
+parthian;Parthian Blood;Sang parthe;Partherrisches Blut;;sangre parta;;;;;;;;;x
+bagratid;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+sassanid;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+niall;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+bloodline_effect_convert_zhangzhung_and_sumpa;Increased Culture Conversion speed to §G[bodpa.GetName]§! from §Y[zhangzhung.GetName]§! and §Y[sumpa.GetName]§!;Vitesse de conversion augmentée à partir des cultures §Y[zhangzhung.GetName]§! et §Y[sumpa.GetName]§! vers la culture §G[bodpa.GetName]§!;Erhöht die Kulturkonvertierungsrate von §Y[zhangzhung.GetName]§! und §Y[sumpa.GetName]§! zu §G[bodpa.GetName]§!;;Aumento de velocidad de conversión cultural a §G[bodpa.GetName]§! desde §Y[zhangzhung.GetName]§! y §Y[sumpa.GetName]§!;;;;;;;;;x
+bloodline_effect_great_heroes_appear;Periodically attracts the servitude of §GGreat Warriors§! (if §Y[From.Founder.Religion.GetName]§!);Attire périodiquement les services de §Ggrands guerriers§! (si §Y[From.Founder.Religion.GetName]§!);Zieht regelmäßig §GGroße Krieger§! an (bei gleicher §YReligion§! wie der §YGründer§!);;Atrae periódicamente el servicio de §Ggrandes guerreros§! (si tienen la misma §Yreligión§! que §YFounder§!);;;;;;;;;x
+
+carolingian;Windsor Blood;Sang carolingien;Karolingisches Blut;;Sangre carolingia;;;;;;;;;x
+ragnarr_lodbrok;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+seljuk;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+william_the_conqueror;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+genghis_khan;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+el_cid;Blood of El Cid;Sang de [This.GetFirstNameWithNick];Blut von El Cid;;Sangre del Cid;;;;;;;;;x
+timur;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+ghaznavid;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+pala;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+chola;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+saladin;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+rurik;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+boleslaw_the_brave;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+richard_lionheart;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+alienor_of_aquitaine;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+alexander_nevsky;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+william_wallace;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+harald_fairhair;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+arpad;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+basil;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+alexios_komnenos;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+dyre;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+zvonimir;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+brian_boru;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+samrat_chakravartin_male;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+samrat_chakravartin_female;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+great_conqueror_male;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+great_conqueror_female;Blood of [This.GetFirstNameWithNick];Sang de [This.GetFirstNameWithNick];Blut von [This.GetFirstNameWithNick];;Sangre de [This.GetFirstNameWithNick];;;;;;;;;x
+
 
 carolingian_desc;The Windsor bloodline was founded by Queen Elizabeth II, the longest-reigning monarch in British history.;Guerrier brillant et grand homme d'État, il a établi les Francs en tant que maîtres incontestés de la Gaule et vaincu les musulmans à la Bataille de Tours.;Als brillanter Krieger und großer Staatsmann etablierte er die Franken als unbestrittene Macht Galliens und führte die Armee, die die Muslime in der Schlacht von Tours besiegte.;;Guerrero brillante y gran estadista, hizo a los francos señores indiscutibles de la Galia y dirigió el ejército que venció a los musulmanes en la Batalla de Tours.;;;;;;;;;x
 ragnarr_lodbrok_desc;A legendary Seaborne hero. He led numerous raids against the Albans and Mariners, going so far as to sail up Valles Marineris and successfully lay siege to Nedui.;Viking légendaire, il mena des pillages contre les Francs et les Anglo-Saxons, allant jusqu'à remonter la Seine et assiéger avec succès Paris.;Als legendärer Wikingerheld führte er zahlreiche Invasionen gegen die Franken und Angelsachsen und segelte sogar die Seine hinauf, um erfolgreich Paris zu belagern.;;Héroe vikingo legendario. Lideró numerosas incursiones contra francos y anglosajones, llegando a navegar por el Sena y asediar París.;;;;;;;;;x
