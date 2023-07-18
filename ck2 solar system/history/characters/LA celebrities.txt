@@ -1,0 +1,342 @@
+7000100 = {
+	name="Ariana"
+	female=yes
+	dynasty=7000030
+
+	religion="Catholic"
+	culture="Latin"
+	1009.1.1={birth=yes}
+}
+7000101 = {
+	name="Kris"
+	female=yes
+	dynasty=7000031
+
+	religion="Catholic"
+	culture="old_frankish"
+	971.1.1={birth=yes}
+	1007.1.1={add_spouse = 7000033}
+}
+7000102 = {
+	name="Robert"
+	female=no
+	dynasty=7000032
+
+	religion="Orthodox"
+	culture="persian"
+	960.1.1={birth=yes}
+	994.1.1={add_spouse = 7000031}
+	1019.1.1={death=yes}
+}
+7000103 = {
+	name="Caitlyn"
+	female=yes
+	dynasty=7000033
+
+	father=7000102
+	mother=7000101
+
+	religion="Catholic"
+	culture="irish"
+	965.1.1={birth=yes}
+	1007.1.1={add_spouse = 7000031}
+}
+7000104 = {
+	name="Kim"
+	female=yes
+	dynasty=7000032
+
+	father=7000102
+	mother=7000101
+
+	religion="Orthodox"
+	culture="old_frankish"
+	996.1.1={birth=yes}
+	1030.1.1={add_spouse = 7000110}
+}
+7000105 = {
+	name="Khloe"
+	female=yes
+	dynasty=7000032
+
+	father=7000102
+	mother=7000101
+
+	religion="nestorian"
+	culture="old_frankish"
+	1000.1.1={birth=yes}
+	1025.1.1={add_spouse = 7000113}
+}
+7000106 = {
+	name="Kourtney"
+	female=yes
+	dynasty=7000032
+
+	father=7000102
+	mother=7000101
+
+	religion="Orthodox"
+	culture="old_frankish"
+	995.1.1={birth=yes}
+	1038.1.1={add_spouse = 7000111}
+}
+7000107 = {
+	name="Robert"
+	female=no
+	dynasty=7000032
+
+	father=7000102
+	mother=7000101
+
+	religion="Orthodox"
+	culture="old_frankish"
+	1003.1.1={birth=yes}
+	1032.1.1={add_spouse = 7000128}
+}
+7000108 = {
+	name="Kylie"
+	female=yes
+	dynasty=7000033
+
+	father=7000103
+	mother=7000101
+
+	religion="nestorian"
+	culture="old_frankish"
+	1013.1.1={birth=yes}
+}
+7000109 = {
+	name="Kendall"
+	female=yes
+	dynasty=7000033
+
+	father=7000103
+	mother=7000101
+
+	religion="nestorian"
+	culture="old_frankish"
+	1011.1.1={birth=yes}
+}
+7000110 = {
+	name="Kanye"
+	female=no
+	dynasty=7000034
+
+	religion="nestorian"
+	culture="nubian"
+	993.1.1={birth=yes}
+	1030.1.1={add_spouse = 7000104}
+}
+7000111 = {
+	name="Travis"
+	female=no
+	dynasty=7000035
+
+	religion="Catholic"
+	culture="irish"
+	991.1.1={birth=yes}
+	1038.1.1={add_spouse = 7000105}
+}
+7000112 = {
+	name="Scott"
+	female=no
+	dynasty=7000036
+
+	religion="jewish"
+	culture="ashkenazi"
+	999.1.1={birth=yes}
+}
+7000113 = {
+	name="Lamar"
+	female=no
+	dynasty=7000037
+
+	religion="nestorian"
+	culture="nubian"
+	995.1.1={birth=yes}
+	1025.1.1={add_spouse = 7000105}
+}
+7000114 = {
+	name="Travis Scott"
+	female=no
+	dynasty=7000038
+
+	religion="nestorian"
+	culture="nubian"
+	1007.1.1={birth=yes}
+}
+7000115 = {
+	name="Stormi"
+	female=yes
+	dynasty=7000038
+
+	father=7000114
+	mother=7000108
+
+	religion="nestorian"
+	culture="nubian"
+	1034.1.1={birth=yes}
+}
+7000116 = {
+	name="Aire"
+	female=no
+	dynasty=7000038
+
+	father=7000114
+	mother=7000108
+
+	religion="nestorian"
+	culture="nubian"
+	1038.1.1={birth=yes}
+}
+7000117 = {
+	name="North"
+	female=yes
+	dynasty=7000034
+
+	father=7000110
+	mother=7000104
+
+	religion="orthodox"
+	culture="nubian"
+	1029.1.1={birth=yes}
+}
+7000118 = {
+	name="Saint"
+	female=no
+	dynasty=7000034
+
+	father=7000110
+	mother=7000104
+
+	religion="orthodox"
+	culture="nubian"
+	1031.1.1={birth=yes}
+}
+7000119 = {
+	name="Chicago"
+	female=yes
+	dynasty=7000034
+
+	father=7000110
+	mother=7000104
+
+	religion="orthodox"
+	culture="nubian"
+	1034.1.1={birth=yes}
+}
+7000120 = {
+	name="Psalm"
+	female=no
+	dynasty=7000034
+
+	father=7000110
+	mother=7000104
+
+	religion="orthodox"
+	culture="nubian"
+	1035.1.1={birth=yes}
+}
+7000121 = {
+	name="Tristan"
+	female=no
+	dynasty=7000035
+
+	religion="nestorian"
+	culture="nubian"
+	1007.1.1={birth=yes}
+}
+7000122 = {
+	name="True"
+	female=yes
+	dynasty=7000035
+
+	father=7000121
+	mother=7000105
+
+	religion="nestorian"
+	culture="nubian"
+	1034.1.1={birth=yes}
+}
+7000123 = {
+	name="Tatum"
+	female=no
+	dynasty=7000035
+
+	father=7000121
+	mother=7000105
+
+	religion="nestorian"
+	culture="nubian"
+	1038.1.1={birth=yes}
+}
+7000124 = {
+	name="Mason"
+	female=no
+	dynasty=7000036
+
+	father=7000112
+	mother=7000106
+
+	religion="Orthodox"
+	culture="old_frankish"
+	1025.1.1={birth=yes}
+}
+7000125 = {
+	name="Penelope"
+	female=yes
+	dynasty=7000036
+
+	father=7000112
+	mother=7000106
+
+	religion="Orthodox"
+	culture="old_frankish"
+	1028.1.1={birth=yes}
+}
+7000126 = {
+	name="Reign"
+	female=no
+	dynasty=7000036
+
+	father=7000112
+	mother=7000106
+
+	religion="Orthodox"
+	culture="old_frankish"
+	1030.1.1={birth=yes}
+}
+7000127 = {
+	name="Travis"
+	female=no
+	dynasty=7000035
+
+	father=7000111
+	mother=7000106
+
+	religion="Catholic"
+	culture="irish"
+	1040.1.1={birth=yes}
+}
+7000128 = {
+	name="Blac"
+	female=yes
+	dynasty=7000036
+
+	religion="nestorian"
+	culture="nubian"
+	1004.1.1={birth=yes}
+	1032.1.1={add_spouse = 7000107}
+}
+7000129 = {
+	name="Dream"
+	female=yes
+	dynasty=7000032
+
+	father=7000107
+	mother=7000128
+
+	religion="Orthodox"
+	culture="nubian"
+	1032.1.1={birth=yes}
+}

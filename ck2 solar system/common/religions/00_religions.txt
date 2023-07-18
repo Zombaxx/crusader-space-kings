@@ -678,6 +678,9 @@ christian = {
 		priests_can_inherit = no
 		allow_looting = yes
 		allow_viking_invasion = yes
+		female_temple_holders = yes
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+
 		
 		can_retire_to_monastery = yes
 		

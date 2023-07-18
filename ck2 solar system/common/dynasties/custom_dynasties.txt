@@ -53,9 +53,63 @@
 	culture="saxon"
 	religion="nesotrian"
 }
-666666={
-{	
+666666={	
 	name="Musk"
 	culture="irish"
 	religion="nesotrian"
+}
+7000030={	
+	name="Grande"
+	culture="Latin"
+	religion="Catholic"
+}
+7000031={	
+	name="Houghton"
+	culture="old_frankish"
+	religion="Catholic"
+}
+7000032={	
+	name="Kardashian"
+	culture="persian"
+	religion="Orthodox"
+}
+7000033={	
+	name="Jenner"
+	culture="irish"
+	religion="Catholic"
+}
+7000034={	
+	name="West"
+	culture="nubian"
+	religion="nestorian"
+}
+7000035={	
+	name="Barker"
+	culture="irish"
+	religion="Catholic"
+}
+7000036={	
+	name="Disick"
+	culture="ashkenazi"
+	religion="jewish"
+}
+7000037={	
+	name="Odom"
+	culture="nubian"
+	religion="nestorian"
+}
+7000038={	
+	name="Webster"
+	culture="nubian"
+	religion="nestorian"
+}
+7000035={	
+	name="Thompson"
+	culture="nubian"
+	religion="nestorian"
+}
+7000036={	
+	name="Chyna"
+	culture="nubian"
+	religion="nestorian"
 }

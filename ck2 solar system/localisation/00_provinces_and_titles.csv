@@ -3583,13 +3583,13 @@ b_barony0123f;Ranaud;Ranaud;Ranaud;;Ranaud;;;;;;;;;x
 b_barony0123g;Ekenuna;Ekenuna;Ekenuna;;Ekenuna;;;;;;;;;x
 c_santa_barbara_adj;Santa Barbara;Santa Barbara;Santa Barbara;;Santa Barbara;;;;;;;;;x
 b_santa_barbara;Santa Barbara;Santa Barbara;Santa Barbara;;Santa Barbara;;;;;;;;;x
-b_santa_maria;Santa Maria;Santa Maria;Santa Maria;;Santa Maria;;;;;;;;;x
-b_oxnard;Oxnard;Oxnard;Oxnard;;Oxnard;;;;;;;;;x
-b_vandenberg;Vandenberg;Vandenberg;Vandenberg;;Vandenberg;;;;;;;;;x
-b_solvang;Solvang;Solvang;Solvang;;Solvang;;;;;;;;;x
-b_lompoc;Lompoc;Lompoc;Lompoc;;Lompoc;;;;;;;;;x
-b_buelton;Buelton;Buelton;Buelton;;Buelton;;;;;;;;;x
-b_barony0124g;Ezucius;Ezucius;Ezucius;;Ezucius;;;;;;;;;x
+b_santa_maria;Hidden Hills;Hidden Hills;Hidden Hills;;Hidden Hills;;;;;;;;;x
+b_oxnard;Los Angeles;Los Angeles;Los Angeles;;Los Angeles;;;;;;;;;x
+b_vandenberg;San Diego;San Diego;San Diego;;San Diego;;;;;;;;;x
+b_solvang;Santa Monica;Santa Monica;Santa Monica;;Santa Monica;;;;;;;;;x
+b_lompoc;San Luis Obispo;San Luis Obispo;San Luis Obispo;;San Luis Obispo;;;;;;;;;x
+b_buelton;Bakersfield;Bakersfield;Bakersfield;;Bakersfield;;;;;;;;;x
+b_barony0124g;Fresno;Fresno;Fresno;;Fresno;;;;;;;;;x
 c_province0125_adj;Bajaian;Bajaian;Bajaian;;Bajaian;;;;;;;;;x
 b_barony0125`;Tijuana;Tijuana;Tijuana;;Tijuana;;;;;;;;;x
 b_barony0125a;La Paz;La Paz;La Paz;;La Paz;;;;;;;;;x
