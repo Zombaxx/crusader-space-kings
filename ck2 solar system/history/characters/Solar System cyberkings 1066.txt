@@ -1,0 +1,76 @@
+666666 = {
+	name = "Elon"
+	dynasty = 666666
+	culture = "irish"
+	religion = "nestorian"
+	trait = brilliant_strategist
+	martial = 10
+	trait = full_cybernetic_conversion
+	trait = hunter
+	trait = scarred
+	trait = brave
+	trait = genius
+	trait = cruel
+	987.6.28={birth=yes}
+	1034.2.6 = {
+		create_bloodline = {
+			type = merovingian
+			has_dlc = "Holy Fury"
+		}
+	}
+}
+6666672 = {
+	name = "Griffin"
+	dynasty = 66666
+	culture = "irish"
+	religion = "nestorian"
+	father = 666666
+	trait = twin
+	1020.1.1={birth=yes}
+}
+6666673 = {
+	name = "Vivian"
+	dynasty = 66666
+	culture = "irish"
+	religion = "nestorian"
+	female = yes
+	father = 666666
+	trait = twin
+	1020.1.1={birth=yes}
+}
+6666667 = {
+	name = "Kai"
+	dynasty = 66666
+	culture = "irish"
+	religion = "nestorian"
+	father = 666666
+	trait = twin
+	1022.1.1={birth=yes}
+}
+6666668 = {
+	name = "Saxon"
+	dynasty = 66666
+	culture = "irish"
+	religion = "nestorian"
+	father = 666666
+	trait = twin
+	1022.1.1={birth=yes}
+}
+6666669 = {
+	name = "Damian"
+	dynasty = 66666
+	culture = "irish"
+	religion = "nestorian"
+	father = 666666
+	trait = twin
+	1022.1.1={birth=yes}
+}
+6666671 = {
+	name = "Exa Dark Siderael"
+	dynasty = 66666
+	culture = "irish"
+	religion = "nestorian"
+	female = yes
+	father = 666666
+	1036.5.1={birth=yes}
+}
