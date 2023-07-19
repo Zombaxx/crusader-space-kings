@@ -3,6 +3,7 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			age = 21
+			ai = no
 			prisoner = no
 			is_female = no
 			is_heir = no
@@ -37,12 +38,12 @@ decisions = {
 
 		}
 		allow = {
-			prestige = 200
-			wealth = 150
+			prestige = 10000
+			wealth = 1000
 		}
 		effect = {
-			prestige = -200
-			wealth = -150
+			prestige = -2000
+			wealth = -1000
 			set_character_flag = cadetbranch
 			hidden_tooltip = {
 			create_character = {
