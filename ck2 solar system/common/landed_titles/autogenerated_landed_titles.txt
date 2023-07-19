@@ -948,6 +948,125 @@ e_empire0046 = {
 				b_barony0131g = { }
 			}
 		}
+		d_belize = {
+			color={ 225 122 29 }
+			color2={ 255 255 255 }
+			
+			capital = 58
+			
+			c_guatemala = {
+				color={ 239 132 40 }
+				color2={ 255 255 255 }
+				
+				
+				b_guatemala = { }
+				b_barony0035a = { }
+				b_barony0035b = { }
+				b_barony0035c = { }
+				b_barony0035d = { }
+				b_barony0035e = { }
+				b_barony0035f = { }
+				b_barony0035g = { }
+			}
+			c_province0089 = {
+				color={ 232 99 49 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0089` = { }
+				b_barony0089a = { }
+				b_barony0089b = { }
+				b_barony0089c = { }
+				b_barony0089d = { }
+				b_barony0089e = { }
+				b_barony0089f = { }
+				b_barony0089g = { }
+			}
+			c_belize = {
+				color={ 225 122 29 }
+				color2={ 255 255 255 }
+				
+				
+				b_belize = { }
+				b_san_pedro = { }
+				b_ambergris_caye = { }
+				b_san_ignacio = { }
+				b_belmopan = { }
+				b_orange_walk = { }
+				b_belmopan = { }
+				b_barony0058g = { }
+			}
+		}
+		d_duchy0042 = {
+			color={ 195 117 5 }
+			color2={ 255 255 255 }
+			
+			capital = 42
+			
+			c_province0038 = {
+				color={ 246 116 62 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0038` = { }
+				b_barony0038a = { }
+				b_barony0038b = { }
+				b_barony0038c = { }
+				b_barony0038d = { }
+				b_barony0038e = { }
+				b_barony0038f = { }
+				b_barony0038g = { }
+			}
+			c_province0042 = {
+				color={ 195 117 5 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0042` = { }
+				b_barony0042a = { }
+				b_barony0042b = { }
+				b_barony0042c = { }
+				b_barony0042d = { }
+				b_barony0042e = { }
+				b_barony0042f = { }
+				b_barony0042g = { }
+			}
+		}
+		d_duchy0074 = {
+			color={ 199 103 31 }
+			color2={ 255 255 255 }
+			
+			capital = 74
+			
+			c_province0050 = {
+				color={ 238 104 57 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0050` = { }
+				b_barony0050a = { }
+				b_barony0050b = { }
+				b_barony0050c = { }
+				b_barony0050d = { }
+				b_barony0050e = { }
+				b_barony0050f = { }
+				b_barony0050g = { }
+			}
+			c_province0074 = {
+				color={ 199 103 31 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0074` = { }
+				b_barony0074a = { }
+				b_barony0074b = { }
+				b_barony0074c = { }
+				b_barony0074d = { }
+				b_barony0074e = { }
+				b_barony0074f = { }
+				b_barony0074g = { }
+			}
+		}
 	}
 	k_kingdom0188 = {
 		color={ 123 170 126 }
@@ -1004,41 +1123,6 @@ e_empire0046 = {
 		
 		culture = nahuatl
 		
-		d_duchy0042 = {
-			color={ 195 117 5 }
-			color2={ 255 255 255 }
-			
-			capital = 42
-			
-			c_province0038 = {
-				color={ 246 116 62 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0038` = { }
-				b_barony0038a = { }
-				b_barony0038b = { }
-				b_barony0038c = { }
-				b_barony0038d = { }
-				b_barony0038e = { }
-				b_barony0038f = { }
-				b_barony0038g = { }
-			}
-			c_province0042 = {
-				color={ 195 117 5 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0042` = { }
-				b_barony0042a = { }
-				b_barony0042b = { }
-				b_barony0042c = { }
-				b_barony0042d = { }
-				b_barony0042e = { }
-				b_barony0042f = { }
-				b_barony0042g = { }
-			}
-		}
 		d_central_america = {
 			color={ 232 113 41 }
 			color2={ 255 255 255 }
@@ -1086,90 +1170,6 @@ e_empire0046 = {
 				b_gotera = { }
 				b_santa_rosa_de_lima = { }
 				b_ahuachapan = { }
-			}
-		}
-		d_duchy0074 = {
-			color={ 199 103 31 }
-			color2={ 255 255 255 }
-			
-			capital = 74
-			
-			c_province0050 = {
-				color={ 238 104 57 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0050` = { }
-				b_barony0050a = { }
-				b_barony0050b = { }
-				b_barony0050c = { }
-				b_barony0050d = { }
-				b_barony0050e = { }
-				b_barony0050f = { }
-				b_barony0050g = { }
-			}
-			c_province0074 = {
-				color={ 199 103 31 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0074` = { }
-				b_barony0074a = { }
-				b_barony0074b = { }
-				b_barony0074c = { }
-				b_barony0074d = { }
-				b_barony0074e = { }
-				b_barony0074f = { }
-				b_barony0074g = { }
-			}
-		}
-		d_belize = {
-			color={ 225 122 29 }
-			color2={ 255 255 255 }
-			
-			capital = 58
-			
-			c_guatemala = {
-				color={ 239 132 40 }
-				color2={ 255 255 255 }
-				
-				
-				b_guatemala = { }
-				b_barony0035a = { }
-				b_barony0035b = { }
-				b_barony0035c = { }
-				b_barony0035d = { }
-				b_barony0035e = { }
-				b_barony0035f = { }
-				b_barony0035g = { }
-			}
-			c_province0089 = {
-				color={ 232 99 49 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0089` = { }
-				b_barony0089a = { }
-				b_barony0089b = { }
-				b_barony0089c = { }
-				b_barony0089d = { }
-				b_barony0089e = { }
-				b_barony0089f = { }
-				b_barony0089g = { }
-			}
-			c_belize = {
-				color={ 225 122 29 }
-				color2={ 255 255 255 }
-				
-				
-				b_belize = { }
-				b_san_pedro = { }
-				b_ambergris_caye = { }
-				b_san_ignacio = { }
-				b_belmopan = { }
-				b_orange_walk = { }
-				b_belmopan = { }
-				b_barony0058g = { }
 			}
 		}
 	}
@@ -4207,15 +4207,6 @@ e_latin_america = {
 				b_barony0234g = { }
 			}
 		}
-	}
-	k_kingdom0247 = {
-		color={ 203 211 73 }
-		color2={ 255 255 255 }
-		
-		capital = 247
-		
-		culture = castillan
-		
 		d_duchy0243 = {
 			color={ 235 191 26 }
 			color2={ 255 255 255 }
@@ -4300,15 +4291,6 @@ e_latin_america = {
 				b_barony0247g = { }
 			}
 		}
-	}
-	k_kingdom0276 = {
-		color={ 203 109 59 }
-		color2={ 255 255 255 }
-		
-		capital = 276
-		
-		culture = nahuatl
-		
 		d_duchy0276 = {
 			color={ 203 109 59 }
 			color2={ 255 255 255 }
@@ -4330,6 +4312,24 @@ e_latin_america = {
 				b_barony0276g = { }
 			}
 		}
+	}
+	k_kingdom0247 = {
+		color={ 203 211 73 }
+		color2={ 255 255 255 }
+		
+		capital = 247
+		
+		culture = castillan
+		
+	}
+	k_kingdom0276 = {
+		color={ 203 109 59 }
+		color2={ 255 255 255 }
+		
+		capital = 276
+		
+		culture = nahuatl
+		
 	}
 	k_kingdom0162 = {
 		color={ 214 135 30 }
@@ -4544,15 +4544,6 @@ e_latin_america = {
 				b_barony0196g = { }
 			}
 		}
-	}
-	k_kingdom0223 = {
-		color={ 233 191 20 }
-		color2={ 255 255 255 }
-		
-		capital = 223
-		
-		culture = castillan
-		
 		d_duchy0223 = {
 			color={ 233 191 20 }
 			color2={ 255 255 255 }
@@ -4602,6 +4593,15 @@ e_latin_america = {
 				b_barony0223g = { }
 			}
 		}
+	}
+	k_kingdom0223 = {
+		color={ 233 191 20 }
+		color2={ 255 255 255 }
+		
+		capital = 223
+		
+		culture = castillan
+
 	}
 }
 e_empire0302 = {
