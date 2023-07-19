@@ -1,11 +1,14 @@
-1066.1.1 = {
+817.1.1 = {
 	liege=k_kingdom0480
+}
+938.1.1 = {
+	liege=0
 }
 944.1.1 = {
 	holder = 104560
 }
-938.1.1 = {
-	liege=0
+1008.1.1 = {
+	liege=e_european_union
 }
 1021.1.1 = {
 	holder = 104561

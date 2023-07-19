@@ -1,3 +1,9 @@
+779.1.1 = {
+	set_tribute_suzerain = {
+		who = e_empire0531
+		type = permanent 
+	}
+}
 944.1.1 = {
 	holder = 102450
 }
@@ -8,8 +14,5 @@
 	holder = 102452
 }
 1059.1.1 = {
-	holder = 102455
-}
-1066.1.1 = {
-	liege=e_united_states
+	holder = 103595
 }

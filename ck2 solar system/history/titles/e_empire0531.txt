@@ -1,0 +1,14 @@
+968.1.1 = {
+	holder = 7000000
+}
+1009.1.1 = {
+	liege=e_european_union
+}
+1038.1.1 = {
+	holder = 7000002
+}
+1046.1.1 = {
+	liege=0
+	law = true_cognatic_succession
+	law = succ_primogeniture
+}
