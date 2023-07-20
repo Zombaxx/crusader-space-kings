@@ -1,0 +1,91 @@
+
+japanese_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { japanesegfx chinesegfx mongolgfx indiangfx muslimgfx }
+	
+	japanese = {
+		graphical_cultures = { japanesegfx chinesegfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 0.9 0.1 0.1 }
+
+		male_names = {
+			Kiyochika Kiyofusa Kiyohisa Kiyoie Kiyomasa Kiyonaga Kiyonobu Kiyotaka Kiyotoki Kiyotsuna Kiyouji 
+			Michichika Michifusa Michihisa Michiie Michimasa Michinaga Michinobu Michitaka Michitoki Michitsuna Michiuji 
+			Morichika Morifusa Morihisa Moriie Morimasa Morinaga Morinobu Moritaka Moritoki Moritsuna Moriuji 
+			Sadachika Sadafusa Sadahisa Sadaie Sadamasa Sadanaga Sadanobu Sadataka Sadatoki Sadatsuna Sadauji 
+			Sanechika Sanefusa Sanehisa Saneie Sanemasa Sanenaga Sanenobu Sanetaka Sanetoki Sanetsuna Saneuji 
+			Tadachika Tadafusa Tadahisa Tadaie Tadamasa Tadanaga Tadanobu Tadataka Tadatoki Tadatsuna Tadauji 
+			Tamechika Tamefusa Tamehisa Tameie Tamemasa Tamenaga Tamenobu Tametaka Tametoki Tametsuna Tameuji 
+			Yasuchika Yasufusa Yasuhisa Yasuie Yasumasa Yasunaga Yasunobu Yasutaka Yasutoki Yasutsuna Yasuuji 
+			Yorichika Yorifusa Yorihisa Yoriie Yorimasa Yorinaga Yorinobu Yoritaka Yoritoki Yoritsuna Yoriuji 
+			Yoshichika Yoshifusa Yoshihisa Yoshiie Yoshimasa Yoshinaga Yoshinobu Yoshitaka Yoshitoki Yoshitsuna Yoshiuji 
+		}
+		female_names = {
+			Ai Akane Akari Aki Aoi Aya Azusa Cho Fue Fuji 
+			Fuyu Hana Haru Haruka Hibiki Hikari Hoshi Kaede Kaoru Kasumi 
+			Katsura Kiku Kiri Kiyo Koto Kurenai Kyo Maa Man Mari 
+			Midori Momo Mutsu Nagisa Nara Natsu Ren Sai Sakura Satsuki 
+			Sen Shinobu Shizuku Sumire Suzu Suzume Tachibana Tae Taka Tama 
+			Toku Tomo Tomoe Tsubaki Tsuki Tsuyu Ushio Yodo Yu Yui 
+			Yukari Yuki Yumi 
+		}
+
+		prefix = no # The patronym is added as a suffix
+
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+		dynasty_title_names = no
+
+		modifier = default_culture_modifier
+	}
+
+	ninja_culture = { # Dummy (I have no plan to add the NINJA culture in game.)
+		alternate_start = { year > 1500 }
+		graphical_cultures = { ninjagfx japanesegfx chinesegfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 0.1 0.1 0.1 }
+
+		male_names = {
+			Danzo Dojun Goemon Hakuun Hanzo Hikoshiro Isuke Jingoro Jinnai Jinpachi
+			Jinzaburo Joun Juzo Kamanosuke Kansuke Kosuke Kotaro Kurando Magoroku Raikei
+			Rinzo Rokuro Saizo Sandayu Sasuke Seikai Shunkai Tohee Toranosuke Yazaemon
+			# Generic
+			Danjo Genba Kenmotsu Sakon Sakyo Shogen Ukon Ukyo
+		}
+		female_names = {
+			Ai Akane Akari Aki Aoi Aya Azusa Cho Fue Fuji 
+			Fuyu Hana Haru Haruka Hibiki Hikari Hoshi Kaede Kaoru Kasumi 
+			Katsura Kiku Kiri Kiyo Koto Kurenai Kyo Maa Man Mari 
+			Midori Momo Mutsu Nagisa Nara Natsu Ren Sai Sakura Satsuki 
+			Sen Shinobu Shizuku Sumire Suzu Suzume Tachibana Tae Taka Tama 
+			Toku Tomo Tomoe Tsubaki Tsuki Tsuyu Ushio Yodo Yu Yui 
+			Yukari Yuki Yumi 
+		}
+
+		prefix = no # The patronym is added as a suffix
+
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+		dynasty_title_names = no
+		allow_in_ruler_designer = no
+		parent = japanese
+		
+		modifier = default_culture_modifier
+	}
+}

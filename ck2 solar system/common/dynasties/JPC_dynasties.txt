@@ -1,0 +1,627 @@
+# Japanese Culture
+
+7000000 = {
+	name="Minamoto"
+	culture = japanese
+	religion = shinto
+}
+7000001 = {
+	name="Taira"
+	culture = japanese
+	religion = shinto
+}
+7000002 = {
+	name="Fujiwara"
+	culture = japanese
+	religion = shinto
+}
+7000003 = {
+	name="Hojo"
+	culture = japanese
+	religion = shinto
+}
+7000004 = {
+	name="Ando"
+	culture = japanese
+	religion = shinto
+}
+7000005 = {
+	name="Bito"
+	culture = japanese
+	religion = shinto
+}
+7000006 = {
+	name="Chiba"
+	culture = japanese
+	religion = shinto
+}
+7000007 = {
+	name="Chikugo"
+	culture = japanese
+	religion = shinto
+}
+7000008 = {
+	name="Funada"
+	culture = japanese
+	religion = shinto
+}
+7000009 = {
+	name="Hiki"
+	culture = japanese
+	religion = shinto
+}
+7000010 = {
+	name="Ishikawa"
+	culture = japanese
+	religion = shinto
+}
+7000011 = {
+	name="Kato"
+	culture = japanese
+	religion = shinto
+}
+7000012 = {
+	name="Kira"
+	culture = japanese
+	religion = shinto
+}
+7000013 = {
+	name="Kiyohara"
+	culture = japanese
+	religion = shinto
+}
+7000014 = {
+	name="Kudo"
+	culture = japanese
+	religion = shinto
+}
+7000015 = {
+	name="Makabe"
+	culture = japanese
+	religion = shinto
+}
+7000016 = {
+	name="Miura"
+	culture = japanese
+	religion = shinto
+}
+7000017 = {
+	name="Mori"
+	culture = japanese
+	religion = shinto
+}
+7000018 = {
+	name="Moro"
+	culture = japanese
+	religion = shinto
+}
+7000019 = {
+	name="Murakami"
+	culture = japanese
+	religion = shinto
+}
+7000020 = {
+	name="Muto"
+	culture = japanese
+	religion = shinto
+}
+7000021 = {
+	name="Ota"
+	culture = japanese
+	religion = shinto
+}
+7000022 = {
+	name="Saito"
+	culture = japanese
+	religion = shinto
+}
+7000023 = {
+	name="Satake"
+	culture = japanese
+	religion = shinto
+}
+7000024 = {
+	name="Suruga"
+	culture = japanese
+	religion = shinto
+}
+7000025 = {
+	name="Takashina"
+	culture = japanese
+	religion = shinto
+}
+7000026 = {
+	name="Takeda"
+	culture = japanese
+	religion = shinto
+}
+7000027 = {
+	name="Wada"
+	culture = japanese
+	religion = shinto
+}
+7000028 = {
+	name="Wakasa"
+	culture = japanese
+	religion = shinto
+}
+7000029 = {
+	name="Yamada"
+	culture = japanese
+	religion = shinto
+}
+7000030 = {
+	name="Yokoyama"
+	culture = japanese
+	religion = shinto
+}
+7000031 = {
+	name="Yoshida"
+	culture = japanese
+	religion = shinto
+}
+
+# for ninja
+
+7000050 = {
+	name="Iga"
+	culture = ninja_culture
+	religion = shinto
+}
+7000051 = {
+	name="Hattori"
+	culture = ninja_culture
+	religion = shinto
+}
+7000052 = {
+	name="Momochi"
+	culture = ninja_culture
+	religion = shinto
+}
+7000053 = {
+	name="Fujibayashi"
+	culture = ninja_culture
+	religion = shinto
+}
+7000054 = {
+	name="Tsuge"
+	culture = ninja_culture
+	religion = shinto
+}
+7000055 = {
+	name="Kozuki"
+	culture = ninja_culture
+	religion = shinto
+}
+7000056 = {
+	name="Koka"
+	culture = ninja_culture
+	religion = shinto
+}
+7000057 = {
+	name="Mochizuki"
+	culture = ninja_culture
+	religion = shinto
+}
+7000058 = {
+	name="Yamanaka"
+	culture = ninja_culture
+	religion = shinto
+}
+7000059 = {
+	name="Wada"
+	culture = ninja_culture
+	religion = shinto
+}
+7000060 = {
+	name="Kazama"
+	culture = ninja_culture
+	religion = shinto
+}
+7000061 = {
+	name="Kato"
+	culture = ninja_culture
+	religion = shinto
+}
+7000062 = {
+	name="Haguro"
+	culture = ninja_culture
+	religion = shinto
+}
+7000063 = {
+	name="Togakushi"
+	culture = ninja_culture
+	religion = shinto
+}
+7000064 = {
+	name="Ideura"
+	culture = ninja_culture
+	religion = shinto
+}
+7000065 = {
+	name="Anayama"
+	culture = ninja_culture
+	religion = shinto
+}
+7000066 = {
+	name="Yuri"
+	culture = ninja_culture
+	religion = shinto
+}
+7000067 = {
+	name="Unno"
+	culture = ninja_culture
+	religion = shinto
+}
+7000068 = {
+	name="Nezu"
+	culture = ninja_culture
+	religion = shinto
+}
+7000069 = {
+	name="Kosaka"
+	culture = ninja_culture
+	religion = shinto
+}
+
+7000070 = {
+	name="Hachiya"
+	culture = ninja_culture
+	religion = shinto
+}
+7000071 = {
+	name="Yamamoto"
+	culture = ninja_culture
+	religion = shinto
+}
+7000072 = {
+	name="Ishikawa"
+	culture = ninja_culture
+	religion = shinto
+}
+7000073 = {
+	name="Yagyu"
+	culture = ninja_culture
+	religion = shinto
+}
+
+# for scenarios
+
+7000100 = {
+	name="Abe"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0 # Gold
+			color = 2 # Blue
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000101 = {
+	name="Fujiwara"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 1 # White
+			color = 2 # Blue
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000102 = {
+	name="Haguri"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 43
+			emblem = 0
+			color = 1 # White
+			color = 12
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000110 = {
+	name="Kiyohara"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 31
+			emblem = 0
+			color = 5 # Black
+			color = 1 # White
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000120 = {
+	name="Tachibana"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 51
+			emblem = 0
+			color = 5 # Black
+			color = 8 # Orange
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000121 = {
+	name="Yuchi"
+	culture = han
+	religion = taoism
+	used_for_random = no
+}
+7000122 = {
+	name="Deng"
+	culture = han
+	religion = taoism
+	used_for_random = no
+}
+7000123 = {
+	name="Sun"
+	culture = han
+	religion = taoism
+	used_for_random = no
+}
+7000124 = {
+	name="Yan"
+	culture = han
+	religion = taoism
+	used_for_random = no
+}
+7000125 = {
+	name="Dugu"
+	culture = han
+	religion = taoism
+	used_for_random = no
+}
+7000130 = {
+	name="Fujiwara"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 1 # White
+			color = 5 # Black
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000140 = {
+	name="Minamoto"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 2
+			emblem = 0
+			color = 2 # Blue
+			color = 1 # White
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000141 = {
+	name="Kawagoe"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			emblem = 0
+			color = 5	# Sable (Black)
+			color = 32  #
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000142 = {
+	name="Musashibo"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 5 # Black
+			color = 1 # White
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000143 = {
+	name="Ise"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 5 # Black
+			color = 17
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000144 = {
+	name="Suzuki"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 9
+			emblem = 0
+			color = 5 # Black
+			color = 3 # Red
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000145 = {
+	name="Kamei"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 9
+			emblem = 0
+			color = 5 # Black
+			color = 4 # Green
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000146 = {
+	name="Kataoka"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 22
+			emblem = 0
+			color = 5	# Sable (Black)
+			color = 31
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000147 = {
+	name="Nakahara"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 42
+			emblem = 0
+			color = 5
+			color = 4 # Vert (Light Green)
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000148 = {
+	name="Asahina"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 25
+			emblem = 0
+			color = 5	# Sable (Black)
+			color = 22  #
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000149 = {
+	name="Izumi"
+	culture = japanese
+	religion = shinto
+	used_for_random = no
+}
+7000150 = {
+	name="Hojo"
+	culture = japanese
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 17	# Mitsu Uroko (Hojo Uroko)
+			emblem = 0
+			color = 1 # White
+			color = 9 # Bleu-Celeste (Sky Blue)
+			color = 0
+		}
+		religion = shinto
+	}
+	used_for_random = no
+}
+7000190 = {
+	name="Washio"
+	culture = japanese
+	religion = shinto
+	used_for_random = no
+}
+7000191 = {
+	name="Awaji"
+	culture = japanese
+	religion = shinto
+	used_for_random = no
+}
+7000192 = {
+	name="Suruga"
+	culture = japanese
+	religion = shinto
+	used_for_random = no
+}
+7000193 = {
+	name="Hitachibo"
+	culture = japanese
+	religion = shinto
+	used_for_random = no
+}
+7000199 = {
+	name="Awa"
+	culture = japanese
+	religion = shinto
+	used_for_random = no
+}

@@ -1,0 +1,12 @@
+newemperor_bloodline = {
+	castle_opinion = 5
+	monthly_character_prestige = 0.2
+	combat_rating = 10
+	light_infantry_offensive = 0.1
+	light_infantry_morale = 0.05
+	inheritance = patrilineal
+	matrilineal_override = no
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_zun_sun
+	flags = { historical_bloodline newemperor_bloodline }
+}

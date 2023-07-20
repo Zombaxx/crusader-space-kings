@@ -1,0 +1,31 @@
+########################################
+# JPC MOD Events
+########################################
+
+namespace = JPC
+
+character_event = {
+	id = JPC.90
+	desc = EVTDESCJPC.90
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAJPC.90
+
+		if = {
+			limit = {
+				is_female = yes
+			}
+			create_bloodline = {
+				type = newemperor_bloodline
+				inheritance = matrilineal
+			}
+		}
+		else = {
+			create_bloodline = {
+				type = newemperor_bloodline
+			}
+		}
+	}
+}

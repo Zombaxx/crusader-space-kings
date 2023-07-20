@@ -1,0 +1,162 @@
+
+d_ronin_company = { 
+	color={ 235 235 235 }
+	color2={ 255 255 255 }
+	
+	capital = 1318 # Samatata
+	hire_range = 1300
+	
+	# Hire Trigger
+	allow = {
+		OR={
+			culture = japanese
+			any_vassal = {
+				culture = japanese
+			}
+		}
+	}
+	
+	# Parent Religion 
+	religion = shinto
+	
+	# Parent Culture
+	culture = japanese
+	
+	mercenary = yes
+
+	title = "JPC_HEAD"
+	foa = "JPC_HEAD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = ronin_composition
+
+	male_names = { 
+	# Characters in Kurosawa's films
+	Kanbee Kikuchiyo Katsushiro Gorobee Shichiroji Heihachi Kyuzo Rokurota Sanjuro 
+	# Historical ronins
+	Baiken Bungoro Denshichiro Hanbee Jinsuke Jubee Kakubee Kihee Kojiro Koroku 
+	Magoichi Magoroku Matabee Musashi Saizo Seijuro Tahee Tenzen
+	# Generic
+	Taro Jiro Saburo Shiro Goro Rokuro
+	Danjo Genba Kenmotsu Sakon Sakyo Shogen Ukon Ukyo
+	}
+}
+
+d_sohei_monks = { 
+	color={ 235 235 235 }
+	color2={ 255 255 255 }
+	
+	capital = 1318 # Samatata
+	hire_range = 1300
+	
+	# Hire Trigger
+	allow = {
+		OR={
+			religion = shinto
+			AND = {
+			culture = japanese
+			religion = buddhist
+			}
+		}
+	}
+	
+	# Parent Religion 
+	religion = buddhist
+	
+	# Parent Culture
+	culture = japanese
+	
+	mercenary = yes
+
+	title = "JPC_HEAD"
+	foa = "JPC_HEAD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = sohei_composition
+
+	male_names = { 
+	Docho Doei Doen Dogan Dogo Doi Doju Dokan 
+	Dokei Doken Doko Dokyo Donen Dorin Doshin Dosho 
+	Doshu Doson Dotan Dotatsu Dotetsu Doun Doyo Dozen 
+	Kocho Koei Koen Kogan Kogo Koi Koju Kokan 
+	Kokei Koken Koko Kokyo Konen Korin Koshin Kosho 
+	Koshu Koson Kotan Kotatsu Kotetsu Koun Koyo Kozen 
+	Raicho Raiei Raien Raigan Raigo Raii Raiju Raikan 
+	Raikei Raiken Raiko Raikyo Rainen Rairin Raishin Raisho 
+	Raishu Raison Raitan Raitatsu Raitetsu Raiun Raiyo Raizen 
+	Socho Soei Soen Sogan Sogo Soi Soju Sokan 
+	Sokei Soken Soko Sokyo Sonen Sorin Soshin Sosho 
+	Soshu Soson Sotan Sotatsu Sotetsu Soun Soyo Sozen 
+	}
+}
+
+d_wokou_ships = {
+	color={ 222 80 20 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+
+	capital = 1318 # Samatata
+	hire_range = 1000
+	
+	# Hire Trigger
+	allow = {
+		OR={
+			culture = japanese
+			any_vassal = {
+				culture = japanese
+			}
+		}
+	}
+	
+	# Parent Religion 
+	religion = shinto
+	
+	# Parent Culture
+	culture = japanese
+	
+	mercenary = yes
+
+	title = "JPC_HEAD"
+	foa = "JPC_HEAD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+
+	mercenary_type = naval_merc_composition
+
+	male_names = { 
+	# Historical pirates and merchants
+	Dendayu Heizo Jingoro Jintaro Magozaemon Matasuke Nizaemon Ryokei Ryoun Ryoi Shinbee Shingoro Shinkuro 
+	Soan Soetsu Sogen Sohaku Soji Sokan Sokei Soku Sokun Sokyu Sosa Soshitsu Sotan Sotaro Sotatsu Soyo
+	Sukezaemon Tokubee Yahee Yaheiji Yamatonosuke
+	# Generic
+	Taro Jiro Saburo Shiro Goro Rokuro
+	}
+}

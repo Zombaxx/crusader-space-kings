@@ -1,0 +1,133 @@
+# JPC MOD
+
+culture = {
+	religion = {
+		"shinto"
+	}
+	
+	templates = { 
+		"coa_plain_indian:1"
+	}
+
+	color = {
+		{ 255 231 93 }	#0  	Or (Gold)
+		{ 245 245 245 } #1   	Argent (White )
+		{ 48 92 164 } 	#2   	Azure ( Blue)
+		{ 201 43 43 } 	#3   	Gules (Red)
+		{ 131 192 114 } #4   	Vert (Light Green)
+		{ 20 20 20 }	#5   	Sable (Black)
+		{ 129 24 164 }	#6   	Purple
+		{ 113 0 0 }		#7   	Sanguine (Blood Red)
+		{ 205 87 10 }	#8   	Tawny aka orange
+		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
+		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
+		{ 17 53 13 }	#11  	Dark green
+		{ 51 33 20 }	#12  	Brown
+		{ 50 173 192 }	#13  	Turqouise
+		{ 1 182 108 }	#14  	Teal
+		{ 0 83 121 }    #15     Ai-iro #105779
+		{ 102 204 183 } #16     Aotake-iro #7EBEAB
+		{ 249 241 192 } #17     Usukihada #F9F1C0
+		{ 247 113 56 }  #18     Hanezu #F4A57A
+		{ 121 82 11 }   #19     harizuri #79520B
+		{ 101 146 198 } #20     Konfuji #6592C6
+		{ 148 168 176 } #21     Asaginezu #94A8B0
+		{ 202 072 041 } #22     Soho #CA4829
+		{ 205 097 024 } #23     Ame-iro #CD6118
+		{ 0 134 173 }   #24     Hanada-iro #0086AD
+		{ 184 200 209 } #25     Soraironezu #B8C8D1
+		{ 121 82 11 }   #26     Harizuri #79520B
+		{ 164 202 104 } #27     Wakaba-iro #A4CA68
+		{ 138 162 211 } #28     Aofuji #8AA2D3
+		{ 238 134 154 } #29     Nakakurenai #EE869A
+		{ 249 241 192 } #30     Usukihada #F9F1C0
+		{ 130 169 218 } #31     Usuhana-iro #82A9DA
+		{ 157 137 108 } #32     Utsubushi-iro #9D896C
+		{ 157 137 108 } #33     Utsubushi-iro #9D896C
+		{ 202 229 205 } #34     Usumidori #CAE5CD
+		{ 190 132 184 } #35     Wakamurasaki #BE84B8
+		{ 243 166 150 } #36     Tokiiro #F3A696
+		{ 173 125 076 } #37     Kouzome #AD7D4C
+		{ 067 054 052 } #38     Kureba-iro #433634
+		{ 173 000 045 } #39     kurenainoyashio #AD002D
+		{ 106 064 040 } #40     Kurikawa-iro #6A4028
+		{ 000 065 080 } #41     Fukaai #004150
+		{ 080 020 070 } #42     Shitan-iro #6A1435
+		{ 210 063 064 } #43     Benitou #D23F40
+		{ 106 093 033 } #44     Rikancha #6A5D21
+		{ 108 187 090 } #45     Senryoku #6CBB5A
+		{ 000 091 152 } #46     Konpeki #005B98
+		{ 140 101 137 } #47     Kodaimurasaki #8C6589
+		{ 250 220 233 } #48     Tankoushoku #FADCE9
+		{ 165 205 137 } #49     Wakamidori #A5CD89
+		{ 219 132 073 } #50     Akakuchiba #db8449
+		{ 238 157 025 } #51     Yuuou #EE9D19
+		{ 223 242 252 } #52     Shirohanada #DFF2FC
+		{ 105 103 171 } #53     Rindou-iro #6967AB
+		{ 241 043 000 } #54     Ginshu #F12B00
+		{ 113 092 031 } #55     Uguisucha #715C1F
+		{ 243 244 127 } #56     Soga-iro #F3F47F
+		{ 159 187 000 } #57     Ouryoku #9FBB00
+		{ 000 134 204 } #58     Ama-iro #0086CC
+	}
+	
+	rebel_colors = { 3 5 7 }
+	
+	banned_colors = 
+	{ 
+		{ 0 1 }						#0		
+		{ 0 1 9}					#1		
+		{ 2 3 4 6 7 8 9 12 14 }		#2		
+		{ 2 3 4 7 9 10  }			#3		
+		{ 2 4 6 7 9 10 13 14}		#4		
+		{ 5 10 14 15}				#5		
+		{ 2 4 6 10 11 12 }			#6		
+		{ 2 3 4 7 8 10 13 }			#7		
+		{ 2 4 6 7 8 9 }				#8		
+		{ 2 3 4 8 9 10 11 13 }		#9		
+		{ 3 4 5 6 7 9 10 }			#10		
+		{ 6 9 11 }					#11
+		{ 6 12 }					#12
+		{ 4 7 9 13 14 }				#13
+		{ 2 4 13 14 }				#14
+	}
+
+	emblem = {
+		file = "gfx\\coats_of_arms\\emblem.tga"
+		noOfFrames = 25
+	}
+
+	# WHEN ADDING NEW, ALWAYS ADD AT THE END
+	textures = {
+
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_japanese.tga"
+			size = { x = 10 y = 11 }
+			noOfFrames = 101
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_japanese2.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_japanese3.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 22
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_japanese4.tga"
+			size = { x = 10 y = 2 }
+			noOfFrames = 19
+			color = 2
+			emblem = no
+		}
+	}
+}
+
