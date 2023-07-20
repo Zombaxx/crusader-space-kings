@@ -52,10 +52,12 @@ buy_mech.4;AP-6 STRIKER;;;;;;;;;;;;;x
 EVTDESCbuy_mech.4;The AP-6 STRIKER is the most advanced Mech Suit made with the material available on Mars. Its defensive capabilities and foreign armaments make it impossible to defeat on the battlefield. You have invested a lot of gold and time, and now your STRIKER has finally arrived in [Root.Capital.GetName].;;;;;;;;;;x
 EVTbuy_mech.4;The world is mine!;;;;;;;;;;;;;x
 
+EVTNAMEsuit_events.1;Lend extra Mech Suit;;;;;;;;;x
 EVTDESCsuit_events.1;Your [GetFromFromRelation] [FromFrom.GetTitledName] has asked you to entrust one of your spare Mech Suits to [FromFrom.GetHerHim]. "A man can only pilot one at a time themselves," [FromFrom.GetSheHe] reminds you...;;;x
 EVTOPTAsuit_events.1;Hopefully you don't don't use it against me...;;;x
 EVTOPTBsuit_events.1;I would rather not.;;;x
 
+EVTNAMEsuit_events.0;Mind and Body;;;;;;;;;x
 EVTTITsuit_events.0;Mind and Body;;;x
 EVTDESCsuit_events; With each engagement you get better and better at fighting inside your Mech suit. However, Piloting an Armored Mech Suit is heavily taxing on the human body. Due to having to connect to the pilot's spine every use, over time the Mech Suit can kill its pilot.;;;x
 EVTOPTAsuit_events.0;Such is life.;;;x
@@ -67,18 +69,22 @@ suitevt3;Unlike most pilots, you are unaffected by the drawbacks of extensive fi
 good_pilot;Experienced Pilot;;;x
 good_pilot_desc;This character handles their Mech Suit well.;;;x
 
+EVTNAMEsuit_events.2;Advanced Mech Suit;;;;;;;;;x
 EVTDESCsuit_events.2;As an Emperor, it simply will not do to pilot a standard Mech Suit like every other Commander. No, you have tasked your researchers with developing an AP-6 STRIKER. At last, their construction is complete and you can now pilot her yourself if you can handle it...;;;x
 EVTOPTAsuit_events.2;All will bow to me!;;;x
 suitevt4;Your Mech Suit is scrapped to build an AP-6 STRIKER;;;x
 
+EVTNAMEsuit_events.3;Mechanical Beast;;;;;;;;;x
 EVTDESCsuit_events.3;In the heat of battle, you and your men encounter your enemy [roboduel.GetFirstName]'s Mech Suit wreaking great havoc among your lines. Unlike anything you've ever seen, the creature kills scores of men with just one swoop of its gigantic metal claws. Watching your men demoralized and fleeing, you contemplate going for a charge...;;;x
 EVTOPTAsuit_events.3;No, that would be too dangerous.;;;x
 EVTOPTBsuit_events.3; May [Root.Religion.GetHighGodName] guide my sword to victory. Charge!!!;;;x
 suitevt5;You charge forward and face the metal beast on your own.;;;x
 
+EVTNAMEsuit_events.4;Metal Demon;;;;;;;;;x
 EVTDESCsuit_events.4;By the grace of [Root.Religion.GetHighGodName], you managed to narrowly dodge an attack from the metal demon, ramming your lance right into where it hides its master. The beast groans and staggers, ejecting its master [roboduel.GetFirstName] from its chest and falling to pieces.;;;x
 EVTOPTAsuit_events.4;Men will sing songs of this day for years to come!;;;x
 
+EVTNAMEsuit_events.5;Metallic Devil;;;;;;;;;x
 EVTDESCsuit_events.5;Before you could make it to the beast, one sweep of its claw knocks you off your horse and flings you into the air. You land on your back, a great distance from where you once were, alive, but badly injured.;;;x
 EVTOPTAsuit_events.5;My leg...!;;;x
 
