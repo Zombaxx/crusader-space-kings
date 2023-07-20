@@ -6286,8 +6286,8 @@ b_barony0388d;Tacakk;Tacakk;Tacakk;;Tacakk;;;;;;;;;x
 b_barony0388e;Wityuns;Wityuns;Wityuns;;Wityuns;;;;;;;;;x
 b_barony0388f;Rati;Rati;Rati;;Rati;;;;;;;;;x
 b_barony0388g;Socuzniq;Socuzniq;Socuzniq;;Socuzniq;;;;;;;;;x
-k_kingdom0389;Helluland;Helluland;Helluland;;Helluland;;;;;;;;;x
-k_kingdom0389_adj;Hellulander;Hellulander;Hellulander;;Hellulander;;;;;;;;;x
+k_kingdom0389;Nunangat;Helluland;Helluland;;Helluland;;;;;;;;;x
+k_kingdom0389_adj;Nunangatuit;Hellulander;Hellulander;;Hellulander;;;;;;;;;x
 d_duchy0389;Baffin Island;Baffin Island;Baffin Island;;Baffin Island;;;;;;;;;x
 d_duchy0389_adj;Baffinoian;Baffinoian;Baffinoian;;Baffinoian;;;;;;;;;x
 c_province0389_adj;Safupo;Safupo;Safupo;;Safupo;;;;;;;;;x

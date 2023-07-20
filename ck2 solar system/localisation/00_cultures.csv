@@ -1,5 +1,5 @@
 #cultures
-bedouin_arabic;Arabic;;;;;;;;;;;;;x
+bedouin_arabic;Middle Eastern;;;;;;;;;;;;;x
 greek;Mediterranean;;;;;;;;;;;;;x
 irish;Murican;;;;;;;;;;;;;x
 hausa;Bantu;;;;;;;;;;;;;x
@@ -13,15 +13,19 @@ frankish;Australiander;;;;;;;;;;;;;x
 nahuatl;Nativican;;;;;;;;;;;;;x
 zhangzhung;Zhonguonese;;;;;;;;;;;;;x
 manden;First Peoples;;;;;;;;;;;;;x
-saxon;Westerner;;;;;;;;;;;;;x
+saxon;European;;;;;;;;;;;;;x
 old_saxon;Aussie;;;;;;;;;;;;;x
 han;Celestial;;;;;;;;;;;;;x
 alan;Olympian;;;;;;;;;;;;;x
 turkish;Ixians;;;;;;;;;;;;;x
 panjabi;Sarduaker;;;;;;;;;;;;;x
-english;Landsraad;;;;;;;;;;;;;x
+english;British;;;;;;;;;;;;;x
+frisian;Landsraad;;;;;;;;;;;;;x
 cuman;Tleilax;;;;;;;;;;;;;x
 mongol;Rakian;;;;;;;;;;;;;x
 daju;Pantharian;;;;;;;;;;;;;x
 khitan;Choam;;;;;;;;;;;;;x
 persian;Navardanian;;;;;;;;;;;;;x
+norse;Scandinavian;;;;;;;;;;;;;x
+karluk;Inuit;;;;;;;;;;;;;x
+jurchen;Siberian;;;;;;;;;;;;;x

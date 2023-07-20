@@ -2,8 +2,8 @@
 	name="Elizabeth"
 	female=yes
 	dynasty=7000000
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	942.1.1={birth=yes}
 	963.1.1={add_spouse = 7000001}
 	1034.2.6 = {
@@ -18,8 +18,8 @@
 	name="Philip"
 	female=no
 	dynasty=7000001
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	937.1.1={birth=yes}
 	963.1.1={add_spouse = 7000000}
 	1037.1.1={death=yes}
@@ -32,8 +32,8 @@
 	father=7000001
 	mother=7000000
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	964.1.1={birth=yes}
 	997.1.1={add_spouse = 7000003}
 }
@@ -41,8 +41,8 @@
 	name="Diana"
 	female=yes
 	dynasty=7000003
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	977.1.1={birth=yes}
 	997.1.1={add_spouse = 7000002}
 	1013.1.1={death=yes}
@@ -55,8 +55,8 @@
 	father=7000002
 	mother=7000003
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	998.1.1={birth=yes}
 	1027.1.1={add_spouse = 7000005}
 }
@@ -64,8 +64,8 @@
 	name="Catherine"
 	female=yes
 	dynasty=7000005
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	998.1.1={birth=yes}
 	1027.1.1={add_spouse = 7000004}
 }
@@ -77,8 +77,8 @@
 	father=7000004
 	mother=7000005
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1029.1.1={birth=yes}
 }
 7000007 = {
@@ -89,8 +89,8 @@
 	father=7000004
 	mother=7000005
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1031.1.1={birth=yes}
 }
 7000008 = {
@@ -101,8 +101,8 @@
 	father=7000004
 	mother=7000005
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1034.1.1={birth=yes}
 }
 7000009 = {
@@ -113,8 +113,8 @@
 	father=7000002
 	mother=7000003
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1000.1.1={birth=yes}
 	1034.1.1={add_spouse = 7000010}
 }
@@ -122,8 +122,8 @@
 	name="Meghan"
 	female=yes
 	dynasty=7000010
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="old_frankish"
 	997.1.1={birth=yes}
 	1034.1.1={add_spouse = 7000009}
 }
@@ -135,8 +135,8 @@
 	father=7000009
 	mother=7000010
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="old_frankish"
 	1035.1.1={birth=yes}
 }
 7000012 = {
@@ -147,8 +147,8 @@
 	father=7000009
 	mother=7000010
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="old_frankish"
 	1037.1.1={birth=yes}
 }
 7000013 = {
@@ -159,8 +159,8 @@
 	father=7000001
 	mother=7000000
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	976.1.1={birth=yes}
 	1002.1.1={add_spouse = 7000014}
 }
@@ -168,8 +168,8 @@
 	name="Sarah"
 	female=yes
 	dynasty=7000014
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	975.1.1={birth=yes}
 	1002.1.1={add_spouse = 7000013}
 }
@@ -181,8 +181,8 @@
 	father=7000013
 	mother=7000014
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1004.1.1={birth=yes}
 }
 7000016 = {
@@ -193,8 +193,8 @@
 	father=7000013
 	mother=7000014
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1006.1.1={birth=yes}
 }
 7000017 = {
@@ -205,8 +205,8 @@
 	father=7000001
 	mother=7000000
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	980.1.1={birth=yes}
 	1015.1.1={add_spouse = 7000018}
 }
@@ -214,8 +214,8 @@
 	name="Sophie"
 	female=yes
 	dynasty=7000018
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	981.1.1={birth=yes}
 	1015.1.1={add_spouse = 7000017}
 }
@@ -227,8 +227,8 @@
 	father=7000017
 	mother=7000018
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1019.1.1={birth=yes}
 }
 7000020 = {
@@ -239,16 +239,16 @@
 	father=7000017
 	mother=7000018
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1033.1.1={birth=yes}
 }
 7000021 = {
 	name="Camilla"
 	female=yes
 	dynasty=7000021
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	963.1.1={birth=yes}
 	1021.1.1={add_spouse = 7000002}
 }
@@ -260,8 +260,8 @@
 	father=7000001
 	mother=7000000
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	966.1.1={birth=yes}
 	989.1.1={add_spouse = 7000023}
 }
@@ -269,8 +269,8 @@
 	name="Mark"
 	female=no
 	dynasty=7000023
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	964.1.1={birth=yes}
 	989.1.1={add_spouse = 7000022}
 }
@@ -282,8 +282,8 @@
 	father=7000023
 	mother=7000022
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	993.1.1={birth=yes}
 	1024.1.1={add_spouse = 7000025}
 }
@@ -291,8 +291,8 @@
 	name="Autumn"
 	female=yes
 	dynasty=7000025
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	994.1.1={birth=yes}
 	1024.1.1={add_spouse = 7000024}
 }
@@ -304,8 +304,8 @@
 	father=7000024
 	mother=7000025
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1027.1.1={birth=yes}
 }
 7000027 = {
@@ -316,8 +316,8 @@
 	father=7000024
 	mother=7000025
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1028.1.1={birth=yes}
 }
 7000028 = {
@@ -328,8 +328,8 @@
 	father=7000023
 	mother=7000022
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	997.1.1={birth=yes}
 	1027.1.1={add_spouse = 7000029}
 }
@@ -337,8 +337,8 @@
 	name="Mike"
 	female=no
 	dynasty=7000029
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	994.1.1={birth=yes}
 	1027.1.1={add_spouse = 7000028}
 }
@@ -350,8 +350,8 @@
 	father=7000029
 	mother=7000028
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1030.1.1={birth=yes}
 }
 7000031 = {
@@ -362,8 +362,8 @@
 	father=7000029
 	mother=7000028
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1034.1.1={birth=yes}
 }
 7000032 = {
@@ -374,7 +374,7 @@
 	father=7000029
 	mother=7000028
 
-	religion="nestorian"
-	culture="saxon"
+	religion="cathar"
+	culture="english"
 	1037.1.1={birth=yes}
 }
