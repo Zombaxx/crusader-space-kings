@@ -5164,6 +5164,30 @@ join_prev_warrior_lodge_society_effect = {
 		limit = { PREV = { society_member_of = warrior_lodge_hellenic } }
 		join_society = warrior_lodge_hellenic
 	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_cws_christian } }
+		join_society = warrior_lodge_cws_christian
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_ws_mazdan } }
+		join_society = warrior_lodge_ws_mazdan
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_ws_eastern } }
+		join_society = warrior_lodge_ws_eastern
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_ws_aztec } }
+		join_society = warrior_lodge_ws_aztec
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_ws_muslim } }
+		join_society = warrior_lodge_ws_muslim
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_ws_jewish } }
+		join_society = warrior_lodge_ws_jewish
+	}
 }
 give_this_warrior_lodge_religion_effect = { #Mostly for spawned characters.
 	if = {
@@ -5291,6 +5315,20 @@ give_this_warrior_lodge_religion_effect = { #Mostly for spawned characters.
 			has_global_flag = hellenic_reformation
 		}
 		religion = hellenic_pagan_reformed
+	}
+	if = {
+		limit = { 
+			society_member_of = warrior_lodge_ws_aztec 
+			NOT = { has_global_flag = aztec_reformation }
+		}
+		religion = aztec
+	}
+	if = {
+		limit = { 
+			society_member_of = warrior_lodge_ws_aztec 
+			has_global_flag = aztec_reformation
+		}
+		religion = aztec_reformed
 	}
 }
 
@@ -15944,85 +15982,85 @@ spawn_good_commander_effect = {
 			3 = { 
 				add_trait = giant
 			}
-		# Cybernetics
-		if = {
-			limit = { NOT = { religion_group = religious_group } }
-			random_list = {
-				100 = { }
-				25 = { add_trait = cybernetic_limb }
-				25 = {
-					if = {
-						limit = { has_dlc = "Reapers" }
-						add_trait = cybernetic_leg
+			# Cybernetics
+			if = {
+				limit = { religion = taoist }
+				random_list = {
+					100 = { }
+					25 = { add_trait = cybernetic_limb }
+					25 = {
+						if = {
+							limit = { has_dlc = "Reapers" }
+							add_trait = cybernetic_leg
+						}
+						else = { add_trait = cybernetic_limb }
 					}
-					else = { add_trait = cybernetic_limb }
 				}
 			}
-		}
-		if = {
-			limit = {
-				NOT = { trait = one_eyed }
-				NOT = { religion_group = religious_group }
+			if = {
+				limit = {
+					NOT = { trait = one_eyed }
+					religion = taoist
+				}
+				random = {
+					chance = 20
+					add_trait = odin_mk_i
+				}
 			}
-			random = {
-				chance = 20
-				add_trait = odin_mk_i
+			if = {
+				limit = {
+					NOT = { trait = one_eyed }
+					religion = taoist
+					location = { TECH_POPULAR_CUSTOMS = 2 }
+				}
+				random = {
+					chance = 20
+					remove_trait = odin_mk_i
+					add_trait = odin_mk_ii
+				}
 			}
-		}
-		if = {
-			limit = {
-				NOT = { trait = one_eyed }
-				NOT = { religion_group = religious_group }
-				location = { TECH_POPULAR_CUSTOMS = 2 }
+			if = {
+				limit = {
+					NOT = { trait = one_eyed }
+					religion = taoist
+					location = { TECH_POPULAR_CUSTOMS = 4 }
+				}
+				random = {
+					chance = 20
+					remove_trait = odin_mk_i
+					remove_trait = odin_mk_ii
+					add_trait = odin_mk_iii
+				}
 			}
-			random = {
-				chance = 20
-				remove_trait = odin_mk_i
-				add_trait = odin_mk_ii
+			if = {
+				limit = {
+					NOT = { trait = one_eyed }
+					religion = taoist
+					location = { TECH_POPULAR_CUSTOMS = 6 }
+				}
+				random = {
+					chance = 20
+					remove_trait = odin_mk_i
+					remove_trait = odin_mk_ii
+					remove_trait = odin_mk_iii
+					add_trait = odin_mk_iv
+				}
 			}
-		}
-		if = {
-			limit = {
-				NOT = { trait = one_eyed }
-				NOT = { religion_group = religious_group }
-				location = { TECH_POPULAR_CUSTOMS = 4 }
+			if = {
+				limit = {
+					NOT = { trait = one_eyed }
+					religion = taoist
+					location = { TECH_POPULAR_CUSTOMS = 8 }
+				}
+				random = {
+					chance = 20
+					remove_trait = odin_mk_i
+					remove_trait = odin_mk_ii
+					remove_trait = odin_mk_iii
+					remove_trait = odin_mk_iv
+					add_trait = odin_mk_v
+				}
 			}
-			random = {
-				chance = 20
-				remove_trait = odin_mk_i
-				remove_trait = odin_mk_ii
-				add_trait = odin_mk_iii
-			}
-		}
-		if = {
-			limit = {
-				NOT = { trait = one_eyed }
-				NOT = { religion_group = religious_group }
-				location = { TECH_POPULAR_CUSTOMS = 6 }
-			}
-			random = {
-				chance = 20
-				remove_trait = odin_mk_i
-				remove_trait = odin_mk_ii
-				remove_trait = odin_mk_iii
-				add_trait = odin_mk_iv
-			}
-		}
-		if = {
-			limit = {
-				NOT = { trait = one_eyed }
-				NOT = { religion_group = religious_group }
-				location = { TECH_POPULAR_CUSTOMS = 8 }
-			}
-			random = {
-				chance = 20
-				remove_trait = odin_mk_i
-				remove_trait = odin_mk_ii
-				remove_trait = odin_mk_iii
-				remove_trait = odin_mk_iv
-				add_trait = odin_mk_v
-			}
-		}
 		}
 		hidden_tooltip = {
 			if = {
@@ -24665,6 +24703,42 @@ add_warrior_lodge_leader_trait_effect = {
 		}
 		warrior_lodge_hellenic = {
 			add_trait = hellenic_leader
+		}
+		# warrior_lodge_cws_christian = {
+			# add_trait = cws_christian_leader
+		# }
+		warrior_lodge_cws_christian = {
+			add_trait = hellenic_leader
+		}
+		# warrior_lodge_ws_mazdan = {
+			# add_trait = ws_mazdan_leader
+		# }
+		warrior_lodge_ws_mazdan = {
+			add_trait = tengri_leader
+		}
+		# warrior_lodge_ws_eastern = {
+			# add_trait = ws_eastern_leader
+		# }
+		warrior_lodge_ws_eastern = {
+			add_trait = bon_leader
+		}
+		# warrior_lodge_ws_aztec = {
+			# add_trait = ws_aztec_leader
+		# }
+		warrior_lodge_ws_aztec = {
+			add_trait = west_african_leader
+		}
+		# warrior_lodge_ws_muslim = {
+			# add_trait = ws_muslim_leader
+		# }
+		warrior_lodge_ws_muslim = {
+			add_trait = zun_leader
+		}
+		# warrior_lodge_ws_jewish = {
+			# add_trait = ws_jewish_leader
+		# }
+		warrior_lodge_ws_jewish = {
+			add_trait = zun_leader
 		}
 	}
 }
