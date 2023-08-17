@@ -856,7 +856,6 @@ e_empire0046 = {
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
-				holy_site = cathar
 				holy_site = lollard
 				
 				b_tenochtitlan = {
@@ -3297,7 +3296,9 @@ e_united_states = {
 			c_province0349 = {
 				color={ 64 169 161 }
 				color2={ 255 255 255 }
-				
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony0349` = { }
 				b_barony0349a = { }
@@ -3344,7 +3345,6 @@ e_united_states = {
 				color={ 80 200 211 }
 				color2={ 255 255 255 }
 				
-				holy_site = cathar
 				holy_site = lollard
 				
 				b_san_francisco = {
@@ -3928,10 +3928,10 @@ e_united_states = {
 				color={ 119 64 158 }
 				color2={ 255 255 255 }
 				
+				holy_site = cathar
 				holy_site = nestorian
 				holy_site = monothelite
 				holy_site = samaritan
-				holy_site = cathar
 				holy_site = waldensian
 				
 				b_new_york = {
@@ -5814,7 +5814,9 @@ e_empire0350 = {
 			c_province0359 = {
 				color={ 200 102 85 }
 				color2={ 255 255 255 }
-				
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony0359` = { }
 				b_barony0359a = { }
@@ -7188,6 +7190,8 @@ e_empire0393 = {
 				color={ 67 178 186 }
 				color2={ 255 255 255 }
 				
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed
 				
 				b_barony0389` = { }
 				b_barony0389a = { }
@@ -7364,7 +7368,9 @@ e_empire0393 = {
 			c_province0393 = {
 				color={ 198 87 109 }
 				color2={ 255 255 255 }
-				
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony0393` = { }
 				b_barony0393a = { }
@@ -9792,6 +9798,7 @@ e_european_union = {
 				color={ 193 121 79 }
 				color2={ 255 255 255 }
 				
+				holy_site = cathar
 				
 				b_barony0452` = { }
 				b_barony0452a = { }
@@ -9857,6 +9864,7 @@ e_european_union = {
 				color={ 183 103 105 }
 				color2={ 255 255 255 }
 				
+				holy_site = cathar
 				holy_site = nestorian
 				holy_site = bogomilist
 				holy_site = monothelite
@@ -9897,6 +9905,7 @@ e_european_union = {
 				color={ 166 90 76 }
 				color2={ 255 255 255 }
 				
+				holy_site = cathar
 				
 				b_barony0474` = { }
 				b_barony0474a = { }
@@ -12351,7 +12360,9 @@ e_empire0717 = {
 			c_province0531 = {
 				color={ 187 86 105 }
 				color2={ 255 255 255 }
-				
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony0531` = { }
 				b_barony0531a = { }
@@ -35765,8 +35776,6 @@ e_empire2021 = {
 				
 				holy_site = norse_pagan
 				holy_site = norse_pagan_reformed
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
 				
 				b_upper_triton_shores = {
 				dynasty_title_names = no
@@ -35826,9 +35835,6 @@ e_empire2021 = {
 			c_naiad = {
 				color={ 224 254 202 }
 				color2={ 255 255 255 }
-				
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
 				
 				b_naiad = {
 				dynasty_title_names = no
@@ -36413,9 +36419,6 @@ e_empire2021 = {
 				color={ 203 199 244 }
 				color2={ 255 255 255 }
 				
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
-				
 				b_proteus = {
 				dynasty_title_names = no
 				}
@@ -36861,9 +36864,6 @@ e_empire2021 = {
 			c_galatea = {
 				color={ 96 87 204 }
 				color2={ 255 255 255 }
-				
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
 				
 				b_galatea = {
 				dynasty_title_names = no
