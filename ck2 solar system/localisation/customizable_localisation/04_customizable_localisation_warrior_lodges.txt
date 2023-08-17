@@ -72,6 +72,7 @@ defined_text = { #Used in HF.10040 (Power: Warrior Training)
     }
     text = {
         trigger = { society_member_of = warrior_lodge_titan }
+        localisation_key = string_titan_training
     }
     text = {
         trigger = { society_member_of = warrior_lodge_egyptian }
@@ -550,6 +551,7 @@ defined_text = { #Used in HFP.11038 (battle event)
         localisation_key = string_WL_britannic_religion
     }
     text = {
+        trigger = { FROM = { is_society = warrior_lodge_titan } }
         localisation_key = string_WL_titan_religion
     }
     text = {
