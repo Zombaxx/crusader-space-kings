@@ -13,13 +13,13 @@ TITLE_GAINED_RELIGIOUS_LOG;$NEWHOLDER$ was given a seat in the [Root.GetReligiou
 b_meir;Akhetaten;;;;;;;;;;;;;x
 ###### Vanilla religions;;;;;;;;;;;;;;x
 job_spiritual_hellenic_pagan;Augur;Augure;;;;;;;;;;;;x
-finnish_pagan_reformed;Suomenusko;Suomenusko;;;;;;;;;;;;x
-norse_pagan_reformed;Asatru;Asatru;;;;;;;;;;;;x
-baltic_pagan_reformed;Romuva;Romuva;;;;;;;;;;;;x
-slavic_pagan_reformed;Rodnovery;Rodnovery;;;;;;;;;;;;x
-west_african_pagan_reformed;Akan;Akan;;;;;;;;;;;;x
-finnish_pagan;Finnic;Finnic;;;;;;;;;;;;x
-baltic_pagan;Baltic;Baltic;;;;;;;;;;;;x
+#finnish_pagan_reformed;Suomenusko;Suomenusko;;;;;;;;;;;;x
+#norse_pagan_reformed;Asatru;Asatru;;;;;;;;;;;;x
+#baltic_pagan_reformed;Romuva;Romuva;;;;;;;;;;;;x
+#slavic_pagan_reformed;Rodnovery;Rodnovery;;;;;;;;;;;;x
+#west_african_pagan_reformed;Akan;Akan;;;;;;;;;;;;x
+#finnish_pagan;Finnic;Finnic;;;;;;;;;;;;x
+#baltic_pagan;Baltic;Baltic;;;;;;;;;;;;x
 ###### Vanilla events;;;;;;;;;;;;;;x
 hf.25600.desc.celtic;Tonight, the mead hall has been inflamed by rumors of a great wolf wandering through the forests near [Root.Capital.GetName]. The man who spotted the beast claims that it is without a doubt one of Airitech's children, escaped from her den beneath the earth. The older members of the Lodge agree that, as the [Root.GetLordLady] of [Root.Capital.GetName], it is my duty to track down and slay this beast.;;;;;;;;;;;;;;x
 hf.25600.desc.egyptian;Tonight, the mead hall has been inflamed by rumors of a great lion terrorizing the plains of [Root.Capital.GetName]. The warrior who spotted the beast claims that it is a child of Bast and a known eater of men. The older members of the Lodge agree that, as the [Root.GetLordLady] of [Root.Capital.GetName], it is my duty to track down and slay this beast.;;;;;;;;;;;;;;x

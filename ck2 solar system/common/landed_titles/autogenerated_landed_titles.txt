@@ -2516,6 +2516,9 @@ e_empire0056 = {
 				holy_site = jewish
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
+				holy_site = egyptian_pagan
+				holy_site = egyptian_pagan_reformed
+				holy_site = aten_pagan
 				
 				b_jungusalem = {
 				dynasty_title_names = no
@@ -6098,6 +6101,9 @@ e_empire0372 = {
 				holy_site = zoroastrian
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
+				holy_site = egyptian_pagan
+				holy_site = egyptian_pagan_reformed
+				holy_site = aten_pagan
 				
 				b_northern_jungle = {
 				dynasty_title_names = no
@@ -6472,6 +6478,9 @@ e_empire0372 = {
 				holy_site = tengri_pagan_reformed
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
+				holy_site = egyptian_pagan
+				holy_site = egyptian_pagan_reformed
+				holy_site = aten_pagan
 				
 				b_northern_oasis = {
 				dynasty_title_names = no
@@ -6586,6 +6595,9 @@ e_empire0372 = {
 				holy_site = jewish
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
+				holy_site = egyptian_pagan
+				holy_site = egyptian_pagan_reformed
+				holy_site = aten_pagan
 				
 				b_southern_jungles = {
 				dynasty_title_names = no
@@ -8986,6 +8998,9 @@ e_empire0513 = {
 				holy_site = shiite
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
+				holy_site = egyptian_pagan
+				holy_site = egyptian_pagan_reformed
+				holy_site = aten_pagan
 				
 				b_barony0573` = {
 				dynasty_title_names = no
