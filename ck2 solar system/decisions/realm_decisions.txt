@@ -2631,10 +2631,7 @@ decisions = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
-					}
+                    is_organized_religion_trigger = yes
 				}
 			}
 			primary_title = { has_law = tribal_organization_4 }
@@ -2815,10 +2812,7 @@ decisions = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
-					}
+                    is_organized_religion_trigger = yes
 				}
 			}
 			liege = {
@@ -2830,10 +2824,7 @@ decisions = {
 						custom_tooltip = {
 							text = TT_NOT_UNREFORMED_PAGAN
 							hidden_tooltip = {
-								OR = {
-									NOT = { religion_group = pagan_group }
-									is_reformed_religion = yes
-								}
+								is_organized_religion_trigger = yes
 							}
 						}
 					}
@@ -3100,10 +3091,7 @@ decisions = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
-					}
+                    is_organized_religion_trigger = yes
 				}
 			}
 			primary_title = { has_law = tribal_organization_4 }

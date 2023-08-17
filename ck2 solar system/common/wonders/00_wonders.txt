@@ -460,12 +460,12 @@ wonder_temple_pagan = {
 	model = wonder_temple
 	potential = {
 		religion_group = pagan_group
-		is_reformed_religion = yes
+		is_organized_religion_trigger = yes
 	}
 	active = {
 		ROOT = {
 			religion_group = pagan_group
-			is_reformed_religion = yes
+			is_organized_religion_trigger = yes
 		}
 	}
 	flags = {
@@ -2030,18 +2030,8 @@ wonder_university = {
 	potential = {
 		is_nomadic = no
 		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-			religion_group = zoroastrian_group
-			religion_group = indian_group
-			religion_group = pagan_group
-		}
-		trigger_if = {
-			limit = {
-				religion_group = pagan_group
-			}
-			is_reformed_religion = yes
+			is_organized_religion_trigger = yes
+			religion = hellenic_pagan
 		}
 	}
 	active = {
@@ -2050,7 +2040,7 @@ wonder_university = {
 				religion_group = pagan_group
 			}
 			ROOT = {
-				is_reformed_religion = yes
+				is_organized_religion_trigger = yes
 			}
 		}
 	}
@@ -2181,20 +2171,8 @@ wonder_library = {
 	potential = {
 		is_nomadic = no
 		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-			religion_group = zoroastrian_group
-			religion_group = indian_group
-			religion_group = pagan_group
-		}
-		trigger_if = {
-			limit = {
-				religion_group = pagan_group
-			}
-			ROOT = {
-				is_reformed_religion = yes
-			}
+			is_organized_religion_trigger = yes
+			religion = hellenic_pagan
 		}
 	}
 	active = {
@@ -2203,7 +2181,7 @@ wonder_library = {
 				religion_group = pagan_group
 			}
 			ROOT = {
-				is_reformed_religion = yes
+				is_organized_religion_trigger = yes
 			}
 		}
 	}
@@ -2432,9 +2410,11 @@ wonder_pyramid = {
 		OR = {
 			culture = egyptian_arabic
 			culture = coptic
-			religion = tengri_pagan
+			culture = egyptian_coptic
+			
 			trait = lunatic
 			has_religion_feature = religion_feature_pyramids
+            religion_openly_in_egyptian_subgroup_trigger = yes
 		}
 	}
 	active = {
@@ -2776,9 +2756,10 @@ wonder_pyramid_giza = {
 			OR = {
 				culture = egyptian_arabic
 				culture = coptic
-				religion = tengri_pagan
+				culture = egyptian_coptic
 				trait = lunatic
 				has_religion_feature = religion_feature_pyramids
+				religion_openly_in_egyptian_subgroup_trigger = yes
 			}
 		}
 	}

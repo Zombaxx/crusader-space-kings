@@ -2090,6 +2090,36 @@ government_flavor = {
 	}
 }
 
+government_flavor = {
+	name = gov_matriarchal_imperial_government
+	graphics = GFX_evt_princess_byzantine
+	priority = 3
+	trigger = {
+		has_law = succ_byzantine_elective
+		is_landed = yes
+		has_religion_feature = religion_matriarchal
+		NOR = {
+			has_landed_title = e_roman_empire
+			has_landed_title = e_byzantium
+		}
+	}	
+}
+
+government_flavor = {
+	name = gov_pagan_imperial_government
+	graphics = GFX_evt_camaraderie
+	priority = 1
+	trigger = {
+		has_law = succ_byzantine_elective
+		is_landed = yes
+		religion_group = pagan_group
+		NOR = {
+			has_landed_title = e_roman_empire
+			has_landed_title = e_byzantium
+		}
+	}	
+}
+
 #####################################
 # Special Flavor Names (priority 2) #
 #####################################

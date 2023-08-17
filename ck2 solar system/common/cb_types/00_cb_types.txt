@@ -68,6 +68,8 @@ claim = {
 								has_law = status_of_women_4
 								has_religion_feature = religion_matriarchal
 								has_religion_feature = religion_equal
+								has_religion_feature = religion_feature_celtic
+								has_religion_feature = religion_feature_egyptian
 								has_religion_feature = religion_feature_bon
 							} 
 						}
@@ -77,6 +79,8 @@ claim = {
 								NOR = { 
 									has_religion_feature = religion_matriarchal
 									has_religion_feature = religion_equal
+									has_religion_feature = religion_feature_celtic
+									has_religion_feature = religion_feature_egyptian
 									has_religion_feature = religion_feature_bon
 									has_law = status_of_women_4 
 									has_game_rule = { name = gender value = all } 
@@ -4292,10 +4296,30 @@ new_crusade = {
 						}
 					}
 				}
-				religion_group = christian
-				custom_tooltip = {
-					text = CTT_CHRISTIAN_CRUSADES_UNLOCKED
-					has_global_flag = christian_crusades_unlocked
+				OR = {
+					religion_group = zoroastrian_group
+					religion_group = jewish_group
+					AND = {
+						religion_group = pagan_group
+						custom_tooltip = {
+							text = CTT_PAGAN_GHWS_UNLOCKED
+							has_global_flag = pagan_ghws_unlocked
+						}
+					}
+					AND = { 
+						religion_group = christian
+						custom_tooltip = {
+							text = CTT_CHRISTIAN_CRUSADES_UNLOCKED
+							has_global_flag = christian_crusades_unlocked
+						}
+					}
+					AND = {
+						religion_group = muslim
+						custom_tooltip = {
+							text = CTT_MUSLIM_JIHADS_UNLOCKED
+							has_global_flag = muslim_jihads_unlocked
+						}
+					}
 				}
 			}
 			mercenary = no
@@ -4341,6 +4365,9 @@ new_crusade = {
 				OR = {
 					religion = catholic
 					religion = fraticelli
+					religion = orthodox
+					religion = iconoclast
+					religion = paulician
 				}
 				has_global_flag = schism_mended
 			}
@@ -5861,6 +5888,7 @@ religious = {
 			is_nomadic = no
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
+			NOT = { religion = taoist }
 			NAND = {
 				OR = {
 					has_landed_title = k_teutonic_state
@@ -9577,12 +9605,12 @@ imperial_reconquest = {
 	}
 
 	can_use_title = {
-			OR = {
-				has_landed_title = k_rome
-				has_landed_title = e_united_states
-				has_landed_title = e_european_union
-				has_landed_title = e_eurasia
-			}
+		OR = {
+			has_landed_title = k_rome
+			has_landed_title = e_united_states
+			has_landed_title = e_european_union
+			has_landed_title = e_eurasia
+		}
 	}
 	
 	is_valid = {
@@ -10358,7 +10386,7 @@ pagan_subjugation = {
 	can_use = {
 		ROOT = {
 			religion_group = pagan_group
-			is_reformed_religion = no
+			is_organized_religion_trigger = no
 			NOT = { religion = hellenic_pagan }
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
@@ -10411,7 +10439,9 @@ pagan_subjugation = {
 			NOT = { is_offmap_governor = yes }
 			OR = {
 				is_reformed_religion = no
-				is_reformed_religion = ROOT
+				ROOT = {
+					is_organized_religion_trigger = yes
+				}
 			}
 			NOT = {
 				any_war = {
@@ -10458,7 +10488,7 @@ pagan_subjugation = {
 			
 			if = {
 				limit = {
-					is_reformed_religion = ROOT
+					ROOT = { is_organized_religion_trigger = yes }
 					controls_religion = no
 				}
 				religion = ROOT # Reformed pagans are forced to convert back
@@ -11872,6 +11902,11 @@ pagan_holy_war = {
 				religion = aztec
 				religion = west_african_pagan_reformed
 				religion = zun_pagan_reformed
+
+				religion = celtic_pagan_reformed
+				religion = britannic_pagan
+				religion = egyptian_pagan_reformed
+				religion = aten_pagan
 			}
 			NOT = { has_religion_feature = religion_peaceful }
 			NOT = { same_realm = FROM }
@@ -11953,6 +11988,11 @@ pagan_holy_war = {
 				religion = aztec
 				religion = west_african_pagan_reformed
 				religion = zun_pagan_reformed
+
+				religion = celtic_pagan_reformed
+				religion = britannic_pagan
+				religion = egyptian_pagan_reformed
+				religion = aten_pagan
 			}
 			NOT = { same_realm = FROM }
 			NOT = { religion = FROM }
@@ -12704,10 +12744,23 @@ pagan_county_conquest = {
 			}
 			location = {
 				any_neighbor_province = {
-					owner = {
-						OR = {
-							character = ROOT
-							is_liege_or_above = ROOT
+					OR = {
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
+							}
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
+								owner = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
 						}
 					}
 				}
@@ -17689,7 +17742,7 @@ nomad_subjugation = {
 			
 			if = {
 				limit = {
-					is_reformed_religion = ROOT
+					ROOT = { is_organized_religion_trigger = yes }
 					controls_religion = no
 				}
 				religion = ROOT # Reformed pagans are forced to convert back

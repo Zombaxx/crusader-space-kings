@@ -16,9 +16,12 @@ laws = {
 		allow = {
 			has_law = status_of_women_1
 			NOR = {
+				holder_scope = { religion = britannic_pagan }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 			}
 		}
 		potential = {
@@ -28,6 +31,8 @@ laws = {
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 				has_game_rule = {
 					name = gender
 					value = historical
@@ -38,13 +43,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -132,9 +131,12 @@ laws = {
 				has_law = status_of_women_2
 			}
 			NOR = {
+				holder_scope = { religion = britannic_pagan }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 				holder_scope = { has_religion_feature = religion_patriarchal }
 			}
 		}
@@ -145,6 +147,8 @@ laws = {
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 				holder_scope = { has_religion_feature = religion_patriarchal }
 				has_game_rule = {
 					name = gender
@@ -156,13 +160,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -241,8 +239,11 @@ laws = {
 				has_law = status_of_women_3
 			}
 			NOR = {
+				holder_scope = { religion = britannic_pagan }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 				holder_scope = { has_religion_feature = religion_feature_bon }
 				holder_scope = { has_religion_feature = religion_patriarchal }
 			}
@@ -253,8 +254,11 @@ laws = {
 			NOR = {
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 				holder_scope = { has_religion_feature = religion_feature_bon }
 				holder_scope = { has_religion_feature = religion_patriarchal }
+				holder_scope = { religion = britannic_pagan }
 				has_game_rule = {
 					name = gender
 					value = historical
@@ -265,13 +269,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -343,9 +341,12 @@ laws = {
 				has_law = status_of_women_4
 			}
 			NOR = {
+				holder_scope = { religion = britannic_pagan }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 				holder_scope = { has_religion_feature = religion_patriarchal }
 			}
 		}
@@ -353,9 +354,12 @@ laws = {
 			has_dlc = "Zeus"
 			holy_order = no
 			NOR = {
+				holder_scope = { religion = britannic_pagan }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
+				holder_scope = { has_religion_feature = religion_feature_celtic }
+				holder_scope = { has_religion_feature = religion_feature_egyptian }
 				holder_scope = { has_religion_feature = religion_patriarchal }
 				has_game_rule = {
 					name = gender
@@ -367,13 +371,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -443,8 +441,11 @@ laws = {
 	status_of_women_4 = {
 		group = status_of_women
 		allow = {
-			has_law = status_of_women_3
-			NOR = {
+			OR = {
+				has_law = status_of_women_3
+				holder_scope = { religion = britannic_pagan }
+			}
+			NOT = {
 				holder_scope = { has_religion_feature = religion_patriarchal }
 			}
 		}
@@ -463,13 +464,7 @@ laws = {
 				}
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -565,9 +560,7 @@ laws = {
 			NOT = { holder_scope = { is_nomadic = yes } }
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
-		revoke_allowed = { always = no }
 		ai_will_do = { factor = 0 }
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = no
@@ -586,7 +579,6 @@ laws = {
 			NOT = { holder_scope = { is_nomadic = yes } }
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
-		revoke_allowed = { always = no }
 		ai_will_do = { 
 			factor = 1
 			modifier = {
@@ -598,7 +590,6 @@ laws = {
 				has_law = revoke_title_law_2
 			}
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = yes
@@ -633,7 +624,6 @@ laws = {
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
-		revoke_allowed = { always = no }
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -644,7 +634,6 @@ laws = {
 				holder_scope = { trait = zealous }
 			}
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = yes
@@ -671,7 +660,6 @@ laws = {
 			NOT = { holder_scope = { is_theocracy = yes } }
 		}
 		ai_will_do = { factor = 0 }
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {
@@ -724,7 +712,6 @@ laws = {
 				has_law = ze_administration_laws_2
 			}
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {
@@ -790,7 +777,6 @@ laws = {
 		ai_will_do = {
 			factor = 10
 		}
-		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {
@@ -815,7 +801,6 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_0
 				revoke_law = ze_administration_laws_1
-				#revoke_law = ze_administration_laws_3
 			}
 		}
 		

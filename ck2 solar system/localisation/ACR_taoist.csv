@@ -1,0 +1,36 @@
+GOD_JADE_EMPEROR;The Jade Emperor;;;;;;;;;;;;;x
+GOD_TAISHUNG_LAUJUNG;The Great Sage;;;;;;;;;;;;;x
+DEMON_LORD;Lords of the Demonic Realms;;;;;;;;;;;;;x
+JIAOZU;Jiaozu;;;;;;;;;;;;;x
+d_western_wudang;Wudang Sect West Branch;;;;;;;;;;;;;x
+EVTTITLEACRtaoist.1;Wudang Sect West Branch is assembled;;;;;;;;;;;;;x
+ACRtaoist.desc;The Wudang Sect has sent practitioners along the Silk Route to protect Chinese traders and spread knowledge of the Heavenly Harmony. A stout body of martial artists, the Western Branch of the Wudang Sect stands ready to come to the aid of any Taoists in need of succor against the forces of evil.;;;;;;;;;;;;;x
+ACRtaoist.1.a;Good luck!;;;;;;;;;;;;;x
+warrior_lodge_taoist;[GetTaoistWarriorLodge];;;;;;;;;;;;;x
+warrior_lodge_taoist_desc;[GetTaoistWarriorLodgeDesc];;;;;;;;;;;;;x
+warrior_lodge_taoist_real;The Wudang School;;;;;;;;;;;;;x
+warrior_lodge_taoist_desc_real;The Wudang School is an academy of martial artists following the precepts of Taoism to seek enlightenment, using the physical arts to develop their mental state and health. Practitioners of this martial art emphasize slow, harmonious movements that pose unbreakable defences and simultaneously prolong the lifespan of the user. Exercise of the mind is just as important as of the body, and virtuous behavior is required lest the Jiaozu cast students out for going astray.;;;;;;;;;;;;;x
+warrior_lodge_taoist_rank_1_female;Novice;Novice;Anfängerin;;Novata;;;;;;;;;x
+warrior_lodge_taoist_rank_2_female;Accepted;Guerrière;Kriegerin;;Guerrera;;;;;;;;;x
+warrior_lodge_taoist_rank_3_female;Master;Vétérane;Veteranin;;Veterana;;;;;;;;;x
+warrior_lodge_taoist_rank_4_female;Zhanglao;Héroïne;Heldin;;Heroína;;;;;;;;;x
+warrior_lodge_taoist_rank_1_male;Novice;Novice;Anfänger;;Novato;;;;;;;;;x
+warrior_lodge_taoist_rank_2_male;Accepted;Guerrier;Krieger;;Guerrero;;;;;;;;;x
+warrior_lodge_taoist_rank_3_male;Master;Vétéran;Veteran;;Veterano;;;;;;;;;x
+warrior_lodge_taoist_rank_4_male;Zhanglao;Héros;Held;;Héroe;;;;;;;;;x
+string_taoist_training;noticing me in deep meditation, and sits down across to join in. Eventually, a state of spiritual connection is reached with the [fellow_member.GetManWoman], and you smile silently at each other.;;;;;;;;;;;;;x
+taoist_leader;Enlightened Observer;;;;;;;;;;;;;x
+taoist_leader_desc;The Enlightened commander observes all that happens on the field simultaneously in his mind's eye, and knows precisely when to strike, and where, to surgically remove enemy commanders and sow chaos among their ranks.;;;;;;;;;;;;;x
+currency_name_warrior_lodge_taoist;Shiuxing;;;;;;;;;;;;;x
+request_to_rank_up_within_warrior_lodge_taoist;Request Ceremony of Acension.;;;;;;;;;;;;;x
+ACRtaoist.2.title;Dream of a Butterfly;;;;;;;;;;;;;x
+ACRtaoist.2.desc;You are a butterly, happily flitting and fluttering about, happy that you are a butterfly and doing as you please. Suddenly, you wake up and realize that you are actually human, not a butterfly. But are you actually a butterfly dreaming of being human, or a human dreaming of being a butterfly? Surely, there must be a distinction, to know what is reality?;;;;;;;;;;;;;x
+ACRtaoist.2.a;Fascinating! I must write about this...;;;;;;;;;;;;;x
+ACRtaoist.2.b;Maybe this life isn't so bad after all?;;;;;;;;;;;;;x
+ACRtaoist.2.c;This surely puts my existence into perspective. Reflection is needed.;;;;;;;;;;;;;x
+ACRtaoist.2.d;No need to think too much, it was just a dream! Right?;;;;;;;;;;;;;x
+ACRtaoist.3.desc;Recently, a group of travelling Daoshi from a martial sect have arrived in the vicinity of your capital. They plan to stay awhile before deciding whether to move on or set up a chapter here.;;;;;;;;;;;;;x
+ACRtaoist.3.a;I must find their leader for some deep discussions about the universe and its universal harmony!;;;;;;;;;;;;;x
+ACRtaoist.3.b;Surely, their leader is versed in the art of war, and perhaps I could learn something?;;;;;;;;;;;;;x
+ACRtaoist.3.c;This is an excellent chance to strengthen my physical form....;;;;;;;;;;;;;x
+ACRtaoist.3.d;Thieves! Criminals! Arrest them immediately!;;;;;;;;;;;;;x

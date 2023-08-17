@@ -1,0 +1,48 @@
+#dragon
+#Titles
+emperor_dragon;Augustus;Augustus;Augustus;;Augusto;;;;;;;;;x
+emperor_female_dragon;Augusta;Augusta;Augusta;;Augusta;;;;;;;;;x
+empire_of_dragon;Empire of;Empire de;Reich von;;Imperio de;;;;;;;;;x
+title_prince_dragon;Caesar;César;Cäsar;;César;;;;;;;;;x
+title_prince_female_dragon;Caesarina;Caesarina;Cäsarina;;Cesarina;;;;;;;;;x
+king_dragon;Rex;Rex;Rex;;Rex;;;;;;;;;x
+king_female_dragon;Regina;Regina;Regina;;Regina;;;;;;;;;x
+kingdom_of_dragon;Regnum of;Regnum de;Regna von;;Reino de;;;;;;;;;x
+duke_dragon;Doux;Doux;Herzog;;Dux;;;;;;;;;x
+duke_female_dragon;Duchess;Duchesse;Herzogin;;Duquesa;;;;;;;;;x
+duchy_of_dragon;Duchy of;Duché de;Herzogtum von;;Ducado de;;;;;;;;;x
+count_dragon;Comes;Comes;Comes;;Comes;;;;;;;;;x
+count_female_dragon;Countess;Comtesse;Gräfin;;Condesa;;;;;;;;;x
+county_of_dragon;County of;Comté de;Grafschaft von;;Condado de;;;;;;;;;x
+baron_dragon;Legatus;Legatus;Legatus;;Legado;;;;;;;;;x
+baron_female_dragon;Legata;Legata;Legata;;Legada;;;;;;;;;x
+#barony_of_dragon;Outpost of;Avant-poste de;Außenposten von;;Puesto avanzado de;;;;;;;;;x
+vice_royalty_duke_dragon;Governor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+vice_royalty_duke_female_dragon;Governess;Gouverneure;Gouverneurin;;Gobernadora;;;;;;;;;x
+vice_royalty_duchy_of_dragon;Province of;Province de;Provinz von;;Provincia de;;;;;;;;;x
+vice_royalty_king_dragon;Proconsul;Proconsul;Prokonsul;;Procónsul;;;;;;;;;x
+vice_royalty_king_female_dragon;Proconsula;Proconsula;Prokonsulin;;Proconsulesa;;;;;;;;;x
+vice_royalty_kingdom_of_dragon;Proconsulate of;Proconsulat de;Prokonsulat von;;Proconsulado de;;;;;;;;;x
+vice_royalty_emperor_dragon;Princeps;Princeps;Princeps;;Prínceps;;;;;;;;;x
+vice_royalty_emperor_female_dragon;Princess;Princesse;Prinzessin;;Princesa;;;;;;;;;x
+vice_royalty_empire_of_dragon;Principate of;Principat de;Prinzipat von;;Principado de;;;;;;;;;x
+city_baron_dragon;Magister;Magister;Magister;;Magister;;;;;;;;;x
+city_baron_female_dragon;Magistra;Magistra;Magistra;;Magistra;;;;;;;;;x
+city_count_dragon;Praefect;Praefect;Präfekt;;Prefecto;;;;;;;;;x
+city_count_female_dragon;Praefect;Praefect;Präfekt;;Prefecta;;;;;;;;;x
+city_duke_dragon;Tribune;Tribun;Tribun;;Tribuno;;;;;;;;;x
+city_duke_female_dragon;Tribune;Tribun;Tribun;;Tribuna;;;;;;;;;x
+city_king_dragon;Consul;Consul;Konsul;;Cónsul;;;;;;;;;x
+city_king_female_dragon;Consul;Consule;Konsulin;;Consulesa;;;;;;;;;x
+city_emperor_dragon;Princeps;Princeps;Princeps;;Prínceps;;;;;;;;;x
+city_emperor_female_dragon;Princess;Princesse;Prinzessin;;Princesa;;;;;;;;;x
+city_barony_of_dragon;City of;Cité de;Stadt von;;Ciudad de;;;;;;;;;x
+city_county_of_dragon;Grand City of;Grande cité de;Großstadt von;;Gran ciudad de;;;;;;;;;x
+city_duchy_of_dragon;League of;Ligue de;Liga von;;Liga de;;;;;;;;;x
+city_kingdom_of_dragon;Republic of;République de;Republik von;;República de;;;;;;;;;x
+city_empire_of_dragon;Grand Republic of;Grande République de;Großrepublik von;;Gran República de;;;;;;;;;x
+city_barony_dragon;City;Cité;Stadt;;Ciudad;;;;;;;;;x
+city_county_dragon;Grand City;Grande cité;Großstadt;;Gran Ciudad;;;;;;;;;x
+city_duchy_dragon;League;Ligue;Liga;;Liga;;;;;;;;;x
+city_kingdom_dragon;Republic;République;Republik;;República;;;;;;;;;x
+city_empire_dragon;Grand Republic;Grande République;Großrepublik;;Gran República;;;;;;;;;x

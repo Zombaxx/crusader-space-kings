@@ -25,13 +25,7 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -42,15 +36,11 @@ de_jure_laws = {
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
-			
-			#set_appoint_generals = no
-			#set_appoint_regents = no
 			set_the_kings_peace = no
 			set_the_kings_full_peace = no
 			set_protected_inheritance = no
 			set_allow_title_revokation = no
 			set_allow_free_infidel_revokation = no
-			#set_allow_free_revokation = no
 		}
 		
 		city_vassal_min_levy = 0.0
@@ -78,19 +68,13 @@ de_jure_laws = {
 				is_tribal = no
 				is_nomadic = no
 			}
-		}
-		revoke_allowed = {
-			always = no
-		}			
+		}		
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
 				NOT = { has_law = crown_authority_0 }
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		
 		pass_effect = {
@@ -124,14 +108,11 @@ de_jure_laws = {
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
-			#set_appoint_generals = yes
-			#set_appoint_regents = no
 			set_the_kings_peace = no
 			set_the_kings_full_peace = no
 			set_protected_inheritance = no
 			set_allow_title_revokation = yes
 			set_allow_free_infidel_revokation = no
-			#set_allow_free_revokation = no
 		}
 		
 		city_vassal_min_levy = 0.2
@@ -155,8 +136,7 @@ de_jure_laws = {
 					text = TT_NOT_UNREFORMED_PAGAN
 					hidden_tooltip = {
 						OR = {
-							NOT = { religion_group = pagan_group }
-							is_reformed_religion = yes
+							is_organized_religion_trigger = yes
 							religion = bon
 							religion = bon_reformed
 						}
@@ -175,9 +155,7 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}			
+		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -187,9 +165,6 @@ de_jure_laws = {
 				factor = 0
 				NOT = { has_law = crown_authority_1 }
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		
 		pass_effect = {
@@ -223,14 +198,11 @@ de_jure_laws = {
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
-			#set_appoint_generals = yes
-			#set_appoint_regents = no
 			set_the_kings_peace = yes
 			set_the_kings_full_peace = no
 			set_protected_inheritance = no
 			set_allow_title_revokation = yes
 			set_allow_free_infidel_revokation = yes
-			#set_allow_free_revokation = no
 		}
 		
 		city_vassal_min_levy = 0.4
@@ -253,8 +225,7 @@ de_jure_laws = {
 					text = TT_NOT_UNREFORMED_PAGAN
 					hidden_tooltip = {
 						OR = {
-							NOT = { religion_group = pagan_group }
-							is_reformed_religion = yes
+							is_organized_religion_trigger = yes
 							religion = bon
 							religion = bon_reformed
 						}
@@ -273,9 +244,6 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -289,10 +257,6 @@ de_jure_laws = {
 				}
 			}
 		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -325,14 +289,11 @@ de_jure_laws = {
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
-			#set_appoint_generals = yes
-			#set_appoint_regents = yes
 			set_the_kings_peace = yes
 			set_the_kings_full_peace = no
 			set_protected_inheritance = yes
 			set_allow_title_revokation = yes
 			set_allow_free_infidel_revokation = yes
-			#set_allow_free_revokation = no
 		}
 		
 		city_vassal_min_levy = 0.6
@@ -355,8 +316,7 @@ de_jure_laws = {
 					text = TT_NOT_UNREFORMED_PAGAN
 					hidden_tooltip = {
 						OR = {
-							NOT = { religion_group = pagan_group }
-							is_reformed_religion = yes
+							is_organized_religion_trigger = yes
 							religion = bon
 							religion = bon_reformed
 						}
@@ -372,9 +332,6 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
-		revoke_allowed = {
-			always = no
-		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -388,11 +345,6 @@ de_jure_laws = {
 				}
 			}
 		}
-		
-		ai_will_revoke = {
-			factor = 0
-		}
-		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -424,14 +376,11 @@ de_jure_laws = {
 				revoke_law = crown_authority_3
 				revoke_law = crown_authority_4
 			}
-			#set_appoint_generals = yes
-			#set_appoint_regents = yes
 			set_the_kings_peace = yes
 			set_the_kings_full_peace = yes
 			set_protected_inheritance = yes
 			set_allow_title_revokation = yes
 			set_allow_free_infidel_revokation = yes
-			#set_allow_free_revokation = yes
 		}
 		
 		city_vassal_min_levy = 0.8
@@ -451,6 +400,7 @@ de_jure_laws = {
 				OR = {
 					religion = catholic
 					religion = fraticelli
+					religion = britannic_pagan
 				}
 				is_tribal = no
 				is_nomadic = no
@@ -462,15 +412,15 @@ de_jure_laws = {
 			}
 		}
 		allow = {
-			year = 1000
-		}
-		revoke_allowed = {
-			always = no
+			OR = {
+				year = 1000
+				AND = {
+					holder_scope = { religion = britannic_pagan }
+					is_title_active = k_britannic_pagan
+				}
+			}
 		}			
 		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -506,9 +456,6 @@ de_jure_laws = {
 		}
 		allow = {
 			holy_order = no
-		}
-		revoke_allowed = {
-			always = no
 		}			
 		ai_will_do = {
 			factor = 1
@@ -522,11 +469,9 @@ de_jure_laws = {
 						NOT = { trait = cynical }
 					}
 					NOT = { has_law = investiture_law_0 }
+					holder_scope = { religion = britannic_pagan }
 				}
 			}
-		}
-		ai_will_revoke = {
-			factor = 0
 		}
 		effect = {
 			hidden_tooltip = {

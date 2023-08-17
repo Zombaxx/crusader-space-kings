@@ -1867,11 +1867,31 @@ set_bloodline_founder_religion_flag_effect = {
 		limit = { religion = jain }
 		new_bloodline = { set_bloodline_flag = requires_jain_religion }
 	}
+	else_if = {
+		limit = { religion_openly_celtic_or_reformed_trigger = yes }
+		new_bloodline = { set_bloodline_flag = requires_celtic_religion }
+	}
+	else_if = {
+		limit = { religion = britannic_pagan }
+		new_bloodline = { set_bloodline_flag = requires_britannic_religion }
+	}
+	else_if = {
+		limit = { religion = titan_pagan }
+		new_bloodline = { set_bloodline_flag = requires_titan_religion }
+	}
+	else_if = {
+		limit = { religion = promethean_pagan }
+		new_bloodline = { set_bloodline_flag = requires_promethean_religion }
+	}
+	else_if = {
+		limit = { religion_openly_egyptian_or_reformed_trigger = yes }
+		new_bloodline = { set_bloodline_flag = requires_egyptian_religion }
+	}
+	else_if = {
+		limit = { religion = aten_pagan }
+		new_bloodline = { set_bloodline_flag = requires_aten_religion }
+	}
 	else = {
 		# Add new religions in new else-if limits.
 	}
 }
-
-
-
-

@@ -1,0 +1,593 @@
+# Referenced by the "Join Crusade" button in the Crusade view for Crusades using the new Crusade system
+pledge_crusade_trigger = {
+	#age = 16
+	NOT = { trait = incapable }
+	custom_tooltip = {
+		text = recent_crusade_unpledge_TT
+
+		NOT = {
+			has_character_modifier = recently_unpledged_to_crusade_cooldown
+		}
+	}
+
+	custom_tooltip = {
+		text = crusade_no_antipope_TT
+
+	}
+	rightful_religious_head_scope = {
+		NOT = {
+			war_with = ROOT
+		}
+	}
+	custom_tooltip = {
+		text = pledge_crusade_alternate_crusades
+
+		check_if_alternate_crusades_trigger = yes
+	}
+}
+
+# Referenced by the "Leave Crusade" button in the Crusade view for Crusades using the new Crusade system
+unpledge_crusade_trigger = {
+	
+	conditional_tooltip = {
+		trigger = {
+			has_character_flag = forced_to_crusade
+			check_if_not_fourth_crusade_trigger = yes
+		}
+
+		custom_tooltip = { 
+			text = forced_to_crusade_TT 
+
+			always = no
+		}
+	}
+
+	conditional_tooltip = {
+		trigger = {
+			NOT = {
+				has_character_flag = forced_to_crusade
+			}
+			check_if_not_fourth_crusade_trigger = yes
+		}
+
+		custom_tooltip = {
+			text = unpledge_crusade_trigger_TT
+			NOT = { any_war = { using_cb = new_crusade } }
+		}
+	}
+	conditional_tooltip = {
+		trigger = {
+			NOT = {
+				any_war = { using_cb = new_crusade  }
+			}
+			NOT = {
+				has_character_flag = forced_to_crusade
+			}
+			check_if_not_fourth_crusade_trigger = yes	
+		}
+		custom_tooltip = {
+			text = recent_crusade_pledge_TT
+
+			NOT = {
+				has_character_modifier = recently_pledged_to_crusade_cooldown
+			}
+		}
+	}
+}
+
+# Referenced by the "Join Crusade" button in the Crusade defender view for Crusades using the new Crusade system
+defender_pledge_crusade_trigger = {
+	custom_tooltip = {
+		text = defense_pledge_crusade_target_TT_2
+		
+		OR = {
+			catholic = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			fraticelli = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			hellenic_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			celtic_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			orthodox = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			nestorian = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			miaphysite = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			monophysite = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			iconoclast = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			zoroastrian = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			monothelite = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			paulician = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			norse_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			tengri_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			britannic_pagan = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			baltic_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			finnish_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			slavic_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			west_african_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			zun_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			bon_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			mazdaki = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			manichean = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			khurzmata= {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			jewish = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			samaritan = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			karaite = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			egyptian_pagan_reformed = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+			aten_pagan = {
+				crusade_target_char = {
+					is_within_diplo_range = ROOT
+				}
+			}
+		}
+	}
+
+#	custom_tooltip = {
+#		text = defense_pledge_crusade_target_TT
+#		
+#		catholic = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			} 
+#		}
+#		fraticelli = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		hellenic_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		celtic_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		orthodox = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		nestorian = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		monophysite= {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		miaphysite = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		iconoclast= {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		monothelite = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		paulician= {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		norse_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		tengri_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		egyptian_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		aten_pagan = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		slavic_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		finnish_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		baltic_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		zun_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		bon_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		west_african_pagan_reformed = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		mazdaki = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		khurzmata = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		manichean = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		jewish= {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		samaritan = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#		karaite = {
+#			NOT = {
+#				crusade_target_char = {
+#					character = PREVPREV
+#				}
+#			}
+#		}
+#	}
+}
+
+# Referenced by the "Leave Crusade" button in the Crusade defender view for Crusades using the new Crusade system
+defender_unpledge_crusade_trigger = {
+
+}
+
+contribute_to_crusade_pot_trigger = {
+
+}
+
+# Referenced by the "Select Receiver Stance" button in the Crusade view for Crusades using the new Crusade system
+select_crusade_receiver_stance_trigger = {
+	has_pledged_crusade_participation = yes
+}
+
+check_if_crusader_trigger = {
+	conditional_tooltip = {
+		trigger = {
+			ROOT = {
+				OR = {
+					religion = catholic
+					religion = fraticelli
+					religion = britannic_pagan
+				}
+				OR = {
+					has_pledged_crusade_participation = yes
+					any_war = {
+						using_cb = new_crusade
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = crusade_invalidate_other_wars_TT
+
+			NOR = {
+				AND = {
+					ROOT = {
+						religion = catholic
+						has_pledged_crusade_participation = yes
+					}
+					catholic = {
+						OR = {
+							is_preparing_crusade = yes
+							ROOT = {
+								any_war = {
+									using_cb = new_crusade
+								}
+							}
+						}
+					}
+					FROM = {
+						religion = catholic
+						OR = {
+							has_landed_title = k_papal_state
+							has_pledged_crusade_participation = yes
+						}
+					}
+				}
+				AND = {
+					ROOT = {
+						religion = fraticelli
+						has_pledged_crusade_participation = yes
+					}
+					fraticelli = {
+						OR = {
+							is_preparing_crusade = yes
+							ROOT = {
+								any_war = {
+									using_cb = new_crusade
+								}
+							}
+						}
+					}
+					FROM = {
+						religion = fraticelli
+						OR = {
+							has_landed_title = d_fraticelli
+							has_pledged_crusade_participation = yes
+						}
+					}
+				}
+				AND = {
+					ROOT = {
+						religion = britannic_pagan
+						has_pledged_crusade_participation = yes
+					}
+					britannic_pagan = {
+						OR = {
+							is_preparing_crusade = yes
+							ROOT = {
+								any_war = {
+									using_cb = new_crusade
+								}
+							}
+						}
+					}
+					FROM = {
+						religion = britannic_pagan
+						OR = {
+							has_landed_title = k_britannic_pagan
+							has_pledged_crusade_participation = yes
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+check_if_alternate_crusades_trigger = {
+	NOR = {
+		any_war = {
+			OR = {
+				using_cb = northern_crusade_war
+				using_cb = shepherds_crusade_invasion
+			}
+		}
+		AND = {
+			OR = {
+                has_landed_title = d_teutonic_order
+                has_landed_title = k_teutonic_state
+            }
+            has_global_flag = northern_crusades_active
+		}
+		AND = {
+			has_global_flag = active_reconquista
+			OR = {
+				has_character_flag = currently_reconquering_iberia
+				has_character_flag = reconquista_sponsor
+				has_character_flag = promised_reconquista_ally
+			}
+		}
+		reconquista_check_trigger = yes
+	}
+}
+
+check_if_fourth_crusade_trigger = {
+	crusade_target_title = {
+		title = k_thrace
+	}
+	has_global_flag = 4th_crusade_official
+	crusade_target_char = {
+		e_byzantium = {
+			owner = {
+				character = PREVPREV
+			}
+		}
+		religion_group = ROOT
+	}
+}
+
+check_if_not_fourth_crusade_trigger = {
+	NAND = {
+		crusade_target_title = {
+			title = k_thrace
+		}
+		has_global_flag = 4th_crusade_official
+		crusade_target_char = {
+			e_byzantium = {
+				owner = {
+					character = PREVPREV
+				}
+			}
+			religion_group = ROOT
+		}
+	}
+}
