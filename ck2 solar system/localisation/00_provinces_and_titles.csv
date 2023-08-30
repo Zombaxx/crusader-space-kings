@@ -780,7 +780,7 @@ PROV778;Abusbu;Abusbu;Abusbu;;Abusbu;;;;;;;;;x
 PROV779;Nenzu;Nenzu;Nenzu;;Nenzu;;;;;;;;;x
 PROV780;Salka;Salka;Salka;;Salka;;;;;;;;;x
 PROV781;Etoyau;Etoyau;Etoyau;;Etoyau;;;;;;;;;x
-PROV782;Rikahra;Rikahra;Rikahra;;Rikahra;;;;;;;;;x
+PROV782;Cape Town;Rikahra;Rikahra;;Rikahra;;;;;;;;;x
 PROV783;Kevur;Kevur;Kevur;;Kevur;;;;;;;;;x
 PROV784;Akujai;Akujai;Akujai;;Akujai;;;;;;;;;x
 PROV785;Dauloul;Dauloul;Dauloul;;Dauloul;;;;;;;;;x
@@ -10191,14 +10191,14 @@ b_barony0781d;Kilara;Kilara;Kilara;;Kilara;;;;;;;;;x
 b_barony0781e;Boricta;Boricta;Boricta;;Boricta;;;;;;;;;x
 b_barony0781f;Wemevon;Wemevon;Wemevon;;Wemevon;;;;;;;;;x
 b_barony0781g;Remurre;Remurre;Remurre;;Remurre;;;;;;;;;x
-c_province0782_adj;Semaybat;Semaybat;Semaybat;;Semaybat;;;;;;;;;x
-b_barony0782`;Wilassi;Wilassi;Wilassi;;Wilassi;;;;;;;;;x
-b_barony0782a;Wyawaul;Wyawaul;Wyawaul;;Wyawaul;;;;;;;;;x
-b_barony0782b;Aparya;Aparya;Aparya;;Aparya;;;;;;;;;x
-b_barony0782c;Teubrio;Teubrio;Teubrio;;Teubrio;;;;;;;;;x
-b_barony0782d;Wivamr;Wivamr;Wivamr;;Wivamr;;;;;;;;;x
-b_barony0782e;Qilani;Qilani;Qilani;;Qilani;;;;;;;;;x
-b_barony0782f;Deluda;Deluda;Deluda;;Deluda;;;;;;;;;x
+c_province0782_adj;Cape Towner;Semaybat;Semaybat;;Semaybat;;;;;;;;;x
+b_barony0782`;Cape Town;Wilassi;Wilassi;;Wilassi;;;;;;;;;x
+b_barony0782a;Stellenbosch;Wyawaul;Wyawaul;;Wyawaul;;;;;;;;;x
+b_barony0782b;Paarl;Aparya;Aparya;;Aparya;;;;;;;;;x
+b_barony0782c;Bgeberha;Teubrio;Teubrio;;Teubrio;;;;;;;;;x
+b_barony0782d;Lesotho;Wivamr;Wivamr;;Wivamr;;;;;;;;;x
+b_barony0782e;Bloemfontein;Qilani;Qilani;;Qilani;;;;;;;;;x
+b_barony0782f;Bredasdrop;Deluda;Deluda;;Deluda;;;;;;;;;x
 b_barony0782g;Rezuna;Rezuna;Rezuna;;Rezuna;;;;;;;;;x
 c_province0783_adj;Tasugh;Tasugh;Tasugh;;Tasugh;;;;;;;;;x
 b_barony0783`;Riulf;Riulf;Riulf;;Riulf;;;;;;;;;x
@@ -16293,10 +16293,10 @@ b_barony1387d;Ledr;Ledr;Ledr;;Ledr;;;;;;;;;x
 b_barony1387e;Elei;Elei;Elei;;Elei;;;;;;;;;x
 b_barony1387f;Saka;Saka;Saka;;Saka;;;;;;;;;x
 b_barony1387g;Iole;Iole;Iole;;Iole;;;;;;;;;x
-e_empire1388;Imiy;Imiy;Imiy;;Imiy;;;;;;;;;x
-e_empire1388_adj;Ibej;Ibej;Ibej;;Ibej;;;;;;;;;x
-k_kingdom1388;Ojol;Ojol;Ojol;;Ojol;;;;;;;;;x
-k_kingdom1388_adj;Adas;Adas;Adas;;Adas;;;;;;;;;x
+e_empire1388;Mars;Mars;Mars;;Mars;;;;;;;;;x
+e_empire1388_adj;Martian;Martian;Martian;;Martian;;;;;;;;;x
+k_kingdom1388;SpaceX;SpaceX;SpaceX;;SpaceX;;;;;;;;;x
+k_kingdom1388_adj;Martian;Martian;Martian;;Martian;;;;;;;;;x
 d_duchy1388;Oet;Oet;Oet;;Oet;;;;;;;;;x
 d_duchy1388_adj;Stah;Stah;Stah;;Stah;;;;;;;;;x
 c_province1388_adj;Conn;Conn;Conn;;Conn;;;;;;;;;x

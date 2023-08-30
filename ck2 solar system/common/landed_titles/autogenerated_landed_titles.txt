@@ -25249,7 +25249,7 @@ e_empire1388 = {
 	color={ 117 40 22 }
 	color2={ 255 255 255 }
 	
-	capital = 1388
+	capital = 1184
 	
 	culture = dragon_culture
 	
@@ -25261,28 +25261,8 @@ e_empire1388 = {
 		
 		culture = dragon_culture
 		
-		d_duchy1388 = {
-			color={ 117 40 22 }
-			color2={ 255 255 255 }
-			
-			capital = 1388
-			
-			c_province1388 = {
-				color={ 117 40 22 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony1388` = { }
-				b_barony1388a = { }
-				b_barony1388b = { }
-				b_barony1388c = { }
-				b_barony1388d = { }
-				b_barony1388e = { }
-				b_barony1388f = { }
-				b_barony1388g = { }
-			}
-		}
 	}
+	
 }
 e_empire1401 = {
 	color={ 252 231 209 }
@@ -26772,6 +26752,27 @@ e_empire1460 = {
 				b_barony1460e = { }
 				b_barony1460f = { }
 				b_barony1460g = { }
+			}
+		}
+		d_duchy1388 = {
+			color={ 117 40 22 }
+			color2={ 255 255 255 }
+			
+			capital = 1388
+			
+			c_province1388 = {
+				color={ 117 40 22 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony1388` = { }
+				b_barony1388a = { }
+				b_barony1388b = { }
+				b_barony1388c = { }
+				b_barony1388d = { }
+				b_barony1388e = { }
+				b_barony1388f = { }
+				b_barony1388g = { }
 			}
 		}
 	}

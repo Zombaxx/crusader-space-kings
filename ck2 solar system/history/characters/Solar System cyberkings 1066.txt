@@ -18,6 +18,11 @@
 			has_dlc = "Holy Fury"
 		}
 	}
+	1066.1.1 = {
+		effect = {
+			k_kingdom0750 = { add_claim = ROOT }
+		}
+	}
 }
 6666672 = {
 	name = "Griffin"
