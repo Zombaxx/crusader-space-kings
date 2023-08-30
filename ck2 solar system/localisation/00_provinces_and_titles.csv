@@ -9036,8 +9036,8 @@ b_barony0664d;Dorad;Dorad;Dorad;;Dorad;;;;;;;;;x
 b_barony0664e;Bimusa;Bimusa;Bimusa;;Bimusa;;;;;;;;;x
 b_barony0664f;Tahunda;Tahunda;Tahunda;;Tahunda;;;;;;;;;x
 b_barony0664g;Teonne;Teonne;Teonne;;Teonne;;;;;;;;;x
-k_kingdom0665;Saholun;Saholun;Saholun;;Saholun;;;;;;;;;x
-k_kingdom0665_adj;Negou;Negou;Negou;;Negou;;;;;;;;;x
+k_kingdom0665;Uralia;Saholun;Saholun;;Saholun;;;;;;;;;x
+k_kingdom0665_adj;Uralian;Negou;Negou;;Negou;;;;;;;;;x
 d_duchy0665;Rezaaz;Rezaaz;Rezaaz;;Rezaaz;;;;;;;;;x
 d_duchy0665_adj;Lyua;Lyua;Lyua;;Lyua;;;;;;;;;x
 c_province0665_adj;Tobedey;Tobedey;Tobedey;;Tobedey;;;;;;;;;x
