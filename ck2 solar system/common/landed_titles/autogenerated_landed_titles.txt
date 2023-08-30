@@ -2514,8 +2514,6 @@ e_empire0056 = {
 				
 				holy_site = druze
 				holy_site = jewish
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
 				holy_site = aten_pagan
@@ -6099,8 +6097,6 @@ e_empire0372 = {
 				color2={ 255 255 255 }
 				
 				holy_site = zoroastrian
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
 				holy_site = aten_pagan
@@ -6476,8 +6472,6 @@ e_empire0372 = {
 				
 				holy_site = tengri_pagan
 				holy_site = tengri_pagan_reformed
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
 				holy_site = aten_pagan
@@ -6593,8 +6587,6 @@ e_empire0372 = {
 				holy_site = tengri_pagan
 				holy_site = tengri_pagan_reformed
 				holy_site = jewish
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
 				holy_site = aten_pagan
@@ -8996,8 +8988,6 @@ e_empire0513 = {
 				holy_site = taoist
 				holy_site = zoroastrian
 				holy_site = shiite
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
 				holy_site = aten_pagan
@@ -17428,6 +17418,11 @@ e_empire0953 = {
 				color={ 206 186 194 }
 				color2={ 255 255 255 }
 				
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
+				holy_site = britannic_pagan
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				
 				b_barony1008` = { }
 				b_barony1008a = { }
@@ -18031,6 +18026,9 @@ e_empire0953 = {
 				holy_site = west_african_pagan_reformed
 				holy_site = aztec
 				holy_site = aztec_reformed
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
+				holy_site = britannic_pagan
 				
 				b_barony1063` = {
 				dynasty_title_names = no
@@ -18495,6 +18493,11 @@ e_empire0953 = {
 				color={ 184 214 181 }
 				color2={ 255 255 255 }
 				
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
+				holy_site = britannic_pagan
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				
 				b_barony1150` = { }
 				b_barony1150a = { }
@@ -21337,6 +21340,8 @@ e_empire1175 = {
 				color={ 248 254 227 }
 				color2={ 255 255 255 }
 				
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				
 				b_barony1122` = { }
 				b_barony1122a = { }
@@ -21365,6 +21370,9 @@ e_empire1175 = {
 				color={ 219 193 233 }
 				color2={ 255 255 255 }
 				
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
+				holy_site = britannic_pagan
 				
 				b_barony1134` = { }
 				b_barony1134a = { }
@@ -21673,6 +21681,9 @@ e_empire1184 = {
 				
 				holy_site = hellenic_pagan_reformed
 				holy_site = hellenic_pagan
+				holy_site = titan_pagan
+				holy_site = promethean_pagan
+				holy_site = titan_pagan
 				holy_site = monophysite
 				holy_site = miaphysite
 				
@@ -22150,6 +22161,8 @@ e_empire1184 = {
 				
 				holy_site = hellenic_pagan_reformed
 				holy_site = hellenic_pagan
+				holy_site = titan_pagan
+				holy_site = promethean_pagan
 				holy_site = monophysite
 				holy_site = miaphysite
 				
@@ -22565,6 +22578,8 @@ e_empire1243 = {
 				color={ 29 108 16 }
 				color2={ 255 255 255 }
 				
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				
 				b_barony1202` = { }
 				b_barony1202a = { }
@@ -22958,6 +22973,11 @@ e_empire1283 = {
 				color={ 32 86 52 }
 				color2={ 255 255 255 }
 				
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
+				holy_site = britannic_pagan
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				
 				b_barony1280` = { }
 				b_barony1280a = { }
@@ -23521,6 +23541,8 @@ e_empire1322 = {
 				
 				holy_site = hellenic_pagan_reformed
 				holy_site = hellenic_pagan
+				holy_site = titan_pagan
+				holy_site = promethean_pagan
 				holy_site = taoist
 				holy_site = monophysite
 				holy_site = yazidi
@@ -23930,6 +23952,8 @@ e_empire1322 = {
 				
 				holy_site = hellenic_pagan_reformed
 				holy_site = hellenic_pagan
+				holy_site = titan_pagan
+				holy_site = promethean_pagan
 				holy_site = monophysite
 				holy_site = yazidi
 				holy_site = miaphysite
@@ -24144,6 +24168,8 @@ e_empire1322 = {
 				
 				holy_site = hellenic_pagan_reformed
 				holy_site = hellenic_pagan
+				holy_site = titan_pagan
+				holy_site = promethean_pagan
 				holy_site = monophysite
 				holy_site = yazidi
 				holy_site = miaphysite

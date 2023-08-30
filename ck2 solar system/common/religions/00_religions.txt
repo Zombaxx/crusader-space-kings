@@ -803,7 +803,7 @@ muslim = {
 		icon = 3
 		heresy_icon = 8
 		
-		color = { 0.7 0.7 0.5 }
+		color = { 0 0.6 0 }
 		
 		crusade_name = JIHAD
 		scripture_name = THE_KORAN
@@ -879,7 +879,7 @@ muslim = {
 		intermarry = hurufi
 		intermarry = qarmatian
 	}
-	yazidi = {
+	yazidi = {#Terraformed of Mars
 		graphical_culture = muslimgfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
@@ -903,7 +903,7 @@ muslim = {
 			THE_DARK_SPIRITS
 		}
 		
-		parent = sunni
+		#parent = sunni
 		priests_can_marry = yes
 		can_excommunicate = yes
 		can_call_crusade = yes
@@ -1061,7 +1061,7 @@ muslim = {
 		scripture_name = THE_EPISTLES_OF_WISDOM
 		
 		color = { 0.0 0.9 0.4 }
-		parent = shiite
+		parent = yazidi
 		priests_can_marry = yes
 		psc_marriage = no
 		max_wives = 2
@@ -2959,7 +2959,7 @@ indian_group = {
 		icon = 53
 		heresy_icon = 54
 		
-		color = { 226 241 182 }
+		color = { 0 0 0 }
 		
 		interface_skin = { taoist_interface indian_interface muslim_interface }
 		

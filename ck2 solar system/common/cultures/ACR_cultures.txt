@@ -94,7 +94,7 @@ arabic = {
 		female_patronym = "ari ne "
 		prefix = yes
 		
-		founder_named_dynasties = yes
+		founder_named_dynasties = no
 		seafarer = yes
 
 		modifier = default_culture_modifier
