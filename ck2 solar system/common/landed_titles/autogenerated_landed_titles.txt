@@ -19842,36 +19842,24 @@ e_empire1034 = {
 	
 	culture = bear
 	
-	k_kingdom1034 = {
-		color={ 35 63 82 }
-		color2={ 255 255 255 }
-		
-		capital = 1034
-		
-		culture = bear
-		
-		d_duchy1034 = {
-			color={ 35 63 82 }
-			color2={ 255 255 255 }
-			
-			capital = 1034
-			
-			c_province1034 = {
-				color={ 35 63 82 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony1034` = { }
-				b_barony1034a = { }
-				b_barony1034b = { }
-				b_barony1034c = { }
-				b_barony1034d = { }
-				b_barony1034e = { }
-				b_barony1034f = { }
-				b_barony1034g = { }
-			}
-		}
-	}
+}
+e_empire1064 = {
+	color={ 197 87 63 }
+	color2={ 255 255 255 }
+	
+	capital = 1064
+	
+	culture = saxon
+	
+}
+e_empire1073 = {
+	color={ 40 81 247 }
+	color2={ 255 255 255 }
+	
+	capital = 1073
+	
+	culture = hedgehog_culture
+	
 }
 e_empire1047 = {
 	color={ 48 71 117 }
@@ -19953,15 +19941,36 @@ e_empire1047 = {
 			}
 		}
 	}
-}
-e_empire1064 = {
-	color={ 197 87 63 }
-	color2={ 255 255 255 }
-	
-	capital = 1064
-	
-	culture = saxon
-	
+	k_kingdom1034 = {
+		color={ 35 63 82 }
+		color2={ 255 255 255 }
+		
+		capital = 1034
+		
+		culture = bear
+		
+		d_duchy1034 = {
+			color={ 35 63 82 }
+			color2={ 255 255 255 }
+			
+			capital = 1034
+			
+			c_province1034 = {
+				color={ 35 63 82 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony1034` = { }
+				b_barony1034a = { }
+				b_barony1034b = { }
+				b_barony1034c = { }
+				b_barony1034d = { }
+				b_barony1034e = { }
+				b_barony1034f = { }
+				b_barony1034g = { }
+			}
+		}
+	}
 	k_kingdom1056 = {
 		color={ 161 161 58 }
 		color2={ 255 255 255 }
@@ -20036,15 +20045,6 @@ e_empire1064 = {
 			}
 		}
 	}
-}
-e_empire1073 = {
-	color={ 40 81 247 }
-	color2={ 255 255 255 }
-	
-	capital = 1073
-	
-	culture = hedgehog_culture
-	
 	k_kingdom1073 = {
 		color={ 40 81 247 }
 		color2={ 255 255 255 }

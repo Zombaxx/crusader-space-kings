@@ -587,7 +587,7 @@ PROV585;Tibeph;Tibeph;Tibeph;;Tibeph;;;;;;;;;x
 PROV586;Solenzu;Solenzu;Solenzu;;Solenzu;;;;;;;;;x
 PROV587;Murmansk;Tuzaram;Tuzaram;;Tuzaram;;;;;;;;;x
 PROV588;Tonantia;Tonantia;Tonantia;;Tonantia;;;;;;;;;x
-PROV589;Petrograd;Petrograd;Petrograd;;Petrograd;;;;;;;;;x
+PROV589;Estonia;Estonia;Estonia;;Estonia;;;;;;;;;x
 PROV590;Larey;Larey;Larey;;Larey;;;;;;;;;x
 PROV591;Greece;Lebegen;Lebegen;;Lebegen;;;;;;;;;x
 PROV592;Qyaraqar;Qyaraqar;Qyaraqar;;Qyaraqar;;;;;;;;;x
@@ -841,8 +841,8 @@ PROV839;Beyao;Beyao;Beyao;;Beyao;;;;;;;;;x
 PROV840;Dalair;Dalair;Dalair;;Dalair;;;;;;;;;x
 PROV841;Kulisce;Kulisce;Kulisce;;Kulisce;;;;;;;;;x
 PROV842;Nyonu;Nyonu;Nyonu;;Nyonu;;;;;;;;;x
-PROV843;Losana;Losana;Losana;;Losana;;;;;;;;;x
-PROV844;Aguidy;Aguidy;Aguidy;;Aguidy;;;;;;;;;x
+PROV843;North Korea;Losana;Losana;;Losana;;;;;;;;;x
+PROV844;Bejing;Aguidy;Aguidy;;Aguidy;;;;;;;;;x
 PROV845;Dinyuchi;Dinyuchi;Dinyuchi;;Dinyuchi;;;;;;;;;x
 PROV846;Lathani;Lathani;Lathani;;Lathani;;;;;;;;;x
 PROV847;Benegs;Benegs;Benegs;;Benegs;;;;;;;;;x
@@ -863,24 +863,24 @@ PROV861;Beleuta;Beleuta;Beleuta;;Beleuta;;;;;;;;;x
 PROV862;Sahemma;Sahemma;Sahemma;;Sahemma;;;;;;;;;x
 PROV863;Denain;Denain;Denain;;Denain;;;;;;;;;x
 PROV864;Kying;Kying;Kying;;Kying;;;;;;;;;x
-PROV865;Adeyao;Adeyao;Adeyao;;Adeyao;;;;;;;;;x
+PROV865;South Korea;Adeyao;Adeyao;;Adeyao;;;;;;;;;x
 PROV866;Rutaani;Rutaani;Rutaani;;Rutaani;;;;;;;;;x
 PROV867;Ronto;Ronto;Ronto;;Ronto;;;;;;;;;x
 PROV868;Athong;Athong;Athong;;Athong;;;;;;;;;x
 PROV869;Kibinie;Kibinie;Kibinie;;Kibinie;;;;;;;;;x
-PROV870;Amadeusz;Amadeusz;Amadeusz;;Amadeusz;;;;;;;;;x
+PROV870;Chongqing;Amadeusz;Amadeusz;;Amadeusz;;;;;;;;;x
 PROV871;Ahjeth;Ahjeth;Ahjeth;;Ahjeth;;;;;;;;;x
 PROV872;Tokyo;Tokyo;Tokyo;;Tokyo;;;;;;;;;x
 PROV873;Kahara;Kahara;Kahara;;Kahara;;;;;;;;;x
 PROV874;Ler;Ler;Ler;;Ler;;;;;;;;;x
 PROV875;Tenart;Tenart;Tenart;;Tenart;;;;;;;;;x
-PROV876;Tusash;Tusash;Tusash;;Tusash;;;;;;;;;x
+PROV876;Wuhan;Tusash;Tusash;;Tusash;;;;;;;;;x
 PROV877;Byusyt;Byusyt;Byusyt;;Byusyt;;;;;;;;;x
 PROV878;Radili;Radili;Radili;;Radili;;;;;;;;;x
 PROV879;Saboras;Saboras;Saboras;;Saboras;;;;;;;;;x
 PROV880;Tiubuna;Tiubuna;Tiubuna;;Tiubuna;;;;;;;;;x
 PROV881;Runda;Runda;Runda;;Runda;;;;;;;;;x
-PROV882;Kaymele;Kaymele;Kaymele;;Kaymele;;;;;;;;;x
+PROV882;Shanghai;Kaymele;Kaymele;;Kaymele;;;;;;;;;x
 PROV883;Laning;Laning;Laning;;Laning;;;;;;;;;x
 PROV884;Keupawud;Keupawud;Keupawud;;Keupawud;;;;;;;;;x
 PROV885;Bumunai;Bumunai;Bumunai;;Bumunai;;;;;;;;;x
@@ -901,17 +901,17 @@ PROV899;Asopyka;Asopyka;Asopyka;;Asopyka;;;;;;;;;x
 PROV900;Atuberic;Atuberic;Atuberic;;Atuberic;;;;;;;;;x
 PROV901;Dumandar;Dumandar;Dumandar;;Dumandar;;;;;;;;;x
 PROV902;Ajobuida;Ajobuida;Ajobuida;;Ajobuida;;;;;;;;;x
-PROV903;Wirit;Wirit;Wirit;;Wirit;;;;;;;;;x
+PROV903;East China;Wirit;Wirit;;Wirit;;;;;;;;;x
 PROV904;Sicilda;Sicilda;Sicilda;;Sicilda;;;;;;;;;x
 PROV905;Bemoste;Bemoste;Bemoste;;Bemoste;;;;;;;;;x
 PROV906;Larizhen;Larizhen;Larizhen;;Larizhen;;;;;;;;;x
-PROV907;Akamiya;Akamiya;Akamiya;;Akamiya;;;;;;;;;x
-PROV908;Ranili;Ranili;Ranili;;Ranili;;;;;;;;;x
+PROV907;Northern Laos;Akamiya;Akamiya;;Akamiya;;;;;;;;;x
+PROV908;Hanoi;Ranili;Ranili;;Ranili;;;;;;;;;x
 PROV909;Sawemir;Sawemir;Sawemir;;Sawemir;;;;;;;;;x
 PROV910;Rikavy;Rikavy;Rikavy;;Rikavy;;;;;;;;;x
 PROV911;Banory;Banory;Banory;;Banory;;;;;;;;;x
 PROV912;Etena;Etena;Etena;;Etena;;;;;;;;;x
-PROV913;Dyeju;Dyeju;Dyeju;;Dyeju;;;;;;;;;x
+PROV913;South-Central China;Dyeju;Dyeju;;Dyeju;;;;;;;;;x
 PROV914;Epedula;Epedula;Epedula;;Epedula;;;;;;;;;x
 PROV915;Linon;Linon;Linon;;Linon;;;;;;;;;x
 PROV916;Abhipaz;Abhipaz;Abhipaz;;Abhipaz;;;;;;;;;x
@@ -919,7 +919,7 @@ PROV917;Sri Lanka;Sri Lanka;Sri Lanka;;Sri Lanka;;;;;;;;;x
 PROV918;Kumoura;Kumoura;Kumoura;;Kumoura;;;;;;;;;x
 PROV919;Wina;Wina;Wina;;Wina;;;;;;;;;x
 PROV920;Qalunda;Qalunda;Qalunda;;Qalunda;;;;;;;;;x
-PROV921;Lizarun;Lizarun;Lizarun;;Lizarun;;;;;;;;;x
+PROV921;North Central Coast;Lizarun;Lizarun;;Lizarun;;;;;;;;;x
 PROV922;Rumashi;Rumashi;Rumashi;;Rumashi;;;;;;;;;x
 PROV923;Teuves;Teuves;Teuves;;Teuves;;;;;;;;;x
 PROV924;Byiga;Byiga;Byiga;;Byiga;;;;;;;;;x
@@ -928,7 +928,7 @@ PROV926;Tegara;Tegara;Tegara;;Tegara;;;;;;;;;x
 PROV927;Wala;Wala;Wala;;Wala;;;;;;;;;x
 PROV928;Kabdenia;Kabdenia;Kabdenia;;Kabdenia;;;;;;;;;x
 PROV929;Tehoura;Tehoura;Tehoura;;Tehoura;;;;;;;;;x
-PROV930;Roheas;Roheas;Roheas;;Roheas;;;;;;;;;x
+PROV930;Southern Laos;Roheas;Roheas;;Roheas;;;;;;;;;x
 PROV931;Ralijah;Ralijah;Ralijah;;Ralijah;;;;;;;;;x
 PROV932;Wyes;Wyes;Wyes;;Wyes;;;;;;;;;x
 PROV933;Ruvaul;Ruvaul;Ruvaul;;Ruvaul;;;;;;;;;x
@@ -8280,14 +8280,14 @@ b_barony0588d;Raata;Raata;Raata;;Raata;;;;;;;;;x
 b_barony0588e;Botian;Botian;Botian;;Botian;;;;;;;;;x
 b_barony0588f;Tudyeju;Tudyeju;Tudyeju;;Tudyeju;;;;;;;;;x
 b_barony0588g;Rimeras;Rimeras;Rimeras;;Rimeras;;;;;;;;;x
-c_petrograd_adj;Petrograd;Petrograd;Petrograd;;Petrograd;;;;;;;;;x
-b_petrograd;Petrograd;Petrograd;Petrograd;;Petrograd;;;;;;;;;x
-b_barony0589a;Demaja;Demaja;Demaja;;Demaja;;;;;;;;;x
-b_barony0589b;Alibine;Alibine;Alibine;;Alibine;;;;;;;;;x
-b_barony0589c;Eoka;Eoka;Eoka;;Eoka;;;;;;;;;x
-b_barony0589d;Wioka;Wioka;Wioka;;Wioka;;;;;;;;;x
-b_barony0589e;Kaaqiuva;Kaaqiuva;Kaaqiuva;;Kaaqiuva;;;;;;;;;x
-b_barony0589f;Rivingi;Rivingi;Rivingi;;Rivingi;;;;;;;;;x
+c_petrograd_adj;Estonian;Petrograd;Petrograd;;Petrograd;;;;;;;;;x
+b_petrograd;Tallinn;Petrograd;Petrograd;;Petrograd;;;;;;;;;x
+b_barony0589a;Parnu;Demaja;Demaja;;Demaja;;;;;;;;;x
+b_barony0589b;Narva;Alibine;Alibine;;Alibine;;;;;;;;;x
+b_barony0589c;Viljandi;Eoka;Eoka;;Eoka;;;;;;;;;x
+b_barony0589d;Tartu;Wioka;Wioka;;Wioka;;;;;;;;;x
+b_barony0589e;Paide;Kaaqiuva;Kaaqiuva;;Kaaqiuva;;;;;;;;;x
+b_barony0589f;Rakvere;Rivingi;Rivingi;;Rivingi;;;;;;;;;x
 b_barony0589g;Amale;Amale;Amale;;Amale;;;;;;;;;x
 d_duchy0590;Barents;Barents;Barents;;Barents;;;;;;;;;x
 d_duchy0590_adj;Ropeida;Ropeida;Ropeida;;Ropeida;;;;;;;;;x
@@ -10796,25 +10796,25 @@ b_barony0842d;Nisara;Nisara;Nisara;;Nisara;;;;;;;;;x
 b_barony0842e;Salos;Salos;Salos;;Salos;;;;;;;;;x
 b_barony0842f;Qohua;Qohua;Qohua;;Qohua;;;;;;;;;x
 b_barony0842g;Rerezhav;Rerezhav;Rerezhav;;Rerezhav;;;;;;;;;x
-c_province0843_adj;Qavacha;Qavacha;Qavacha;;Qavacha;;;;;;;;;x
-b_barony0843`;Lusua;Lusua;Lusua;;Lusua;;;;;;;;;x
-b_barony0843a;Bilakk;Bilakk;Bilakk;;Bilakk;;;;;;;;;x
-b_barony0843b;Lyasozar;Lyasozar;Lyasozar;;Lyasozar;;;;;;;;;x
-b_barony0843c;Revoor;Revoor;Revoor;;Revoor;;;;;;;;;x
-b_barony0843d;Kisitya;Kisitya;Kisitya;;Kisitya;;;;;;;;;x
-b_barony0843e;Evyaiah;Evyaiah;Evyaiah;;Evyaiah;;;;;;;;;x
-b_barony0843f;Ritaja;Ritaja;Ritaja;;Ritaja;;;;;;;;;x
+c_province0843_adj;Korean;Qavacha;Qavacha;;Qavacha;;;;;;;;;x
+b_barony0843`;Pyongyang;Lusua;Lusua;;Lusua;;;;;;;;;x
+b_barony0843a;Hamhung;Bilakk;Bilakk;;Bilakk;;;;;;;;;x
+b_barony0843b;Sariwon;Lyasozar;Lyasozar;;Lyasozar;;;;;;;;;x
+b_barony0843c;Kwail;Revoor;Revoor;;Revoor;;;;;;;;;x
+b_barony0843d;Haeju;Kisitya;Kisitya;;Kisitya;;;;;;;;;x
+b_barony0843e;Kusong;Evyaiah;Evyaiah;;Evyaiah;;;;;;;;;x
+b_barony0843f;Chongjin;Ritaja;Ritaja;;Ritaja;;;;;;;;;x
 b_barony0843g;Raculiu;Raculiu;Raculiu;;Raculiu;;;;;;;;;x
-d_duchy0844;Devast;Devast;Devast;;Devast;;;;;;;;;x
-d_duchy0844_adj;Kilinga;Kilinga;Kilinga;;Kilinga;;;;;;;;;x
-c_province0844_adj;Bepipava;Bepipava;Bepipava;;Bepipava;;;;;;;;;x
-b_barony0844`;Ayei;Ayei;Ayei;;Ayei;;;;;;;;;x
-b_barony0844a;Senilia;Senilia;Senilia;;Senilia;;;;;;;;;x
-b_barony0844b;Qopippa;Qopippa;Qopippa;;Qopippa;;;;;;;;;x
-b_barony0844c;Ripakrao;Ripakrao;Ripakrao;;Ripakrao;;;;;;;;;x
-b_barony0844d;Ecotole;Ecotole;Ecotole;;Ecotole;;;;;;;;;x
-b_barony0844e;Asyana;Asyana;Asyana;;Asyana;;;;;;;;;x
-b_barony0844f;Kinira;Kinira;Kinira;;Kinira;;;;;;;;;x
+d_duchy0844;Bejing;Devast;Devast;;Devast;;;;;;;;;x
+d_duchy0844_adj;Bejinger;Kilinga;Kilinga;;Kilinga;;;;;;;;;x
+c_province0844_adj;Bejinger;Bepipava;Bepipava;;Bepipava;;;;;;;;;x
+b_barony0844`;Bejing;Ayei;Ayei;;Ayei;;;;;;;;;x
+b_barony0844a;Tangshan;Senilia;Senilia;;Senilia;;;;;;;;;x
+b_barony0844b;Tianjin;Qopippa;Qopippa;;Qopippa;;;;;;;;;x
+b_barony0844c;Zhangjiakou;Ripakrao;Ripakrao;;Ripakrao;;;;;;;;;x
+b_barony0844d;Shijazhuang;Ecotole;Ecotole;;Ecotole;;;;;;;;;x
+b_barony0844e;Langfang;Asyana;Asyana;;Asyana;;;;;;;;;x
+b_barony0844f;Great Wall;Kinira;Kinira;;Kinira;;;;;;;;;x
 b_barony0844g;Kiniban;Kiniban;Kiniban;;Kiniban;;;;;;;;;x
 c_province0845_adj;Torira;Torira;Torira;;Torira;;;;;;;;;x
 b_barony0845`;Dumeuta;Dumeuta;Dumeuta;;Dumeuta;;;;;;;;;x
@@ -11004,14 +11004,14 @@ b_barony0864f;Sunarak;Sunarak;Sunarak;;Sunarak;;;;;;;;;x
 b_barony0864g;Leseva;Leseva;Leseva;;Leseva;;;;;;;;;x
 d_duchy0865;Kamaaz;Kamaaz;Kamaaz;;Kamaaz;;;;;;;;;x
 d_duchy0865_adj;Nyyab;Nyyab;Nyyab;;Nyyab;;;;;;;;;x
-c_province0865_adj;Wasyab;Wasyab;Wasyab;;Wasyab;;;;;;;;;x
-b_barony0865`;Weoneya;Weoneya;Weoneya;;Weoneya;;;;;;;;;x
-b_barony0865a;Qeonyab;Qeonyab;Qeonyab;;Qeonyab;;;;;;;;;x
-b_barony0865b;Nefabib;Nefabib;Nefabib;;Nefabib;;;;;;;;;x
-b_barony0865c;Tasila;Tasila;Tasila;;Tasila;;;;;;;;;x
-b_barony0865d;Qesilda;Qesilda;Qesilda;;Qesilda;;;;;;;;;x
-b_barony0865e;Katius;Katius;Katius;;Katius;;;;;;;;;x
-b_barony0865f;Lietapa;Lietapa;Lietapa;;Lietapa;;;;;;;;;x
+c_province0865_adj;Korean;Wasyab;Wasyab;;Wasyab;;;;;;;;;x
+b_barony0865`;Seoul;Weoneya;Weoneya;;Weoneya;;;;;;;;;x
+b_barony0865a;Incheon;Qeonyab;Qeonyab;;Qeonyab;;;;;;;;;x
+b_barony0865b;Daegu;Nefabib;Nefabib;;Nefabib;;;;;;;;;x
+b_barony0865c;Busan;Tasila;Tasila;;Tasila;;;;;;;;;x
+b_barony0865d;Pohang;Qesilda;Qesilda;;Qesilda;;;;;;;;;x
+b_barony0865e;Sokcho;Katius;Katius;;Katius;;;;;;;;;x
+b_barony0865f;Donghae;Lietapa;Lietapa;;Lietapa;;;;;;;;;x
 b_barony0865g;Redelen;Redelen;Redelen;;Redelen;;;;;;;;;x
 d_duchy0866;Riruigi;Riruigi;Riruigi;;Riruigi;;;;;;;;;x
 d_duchy0866_adj;Qayma;Qayma;Qayma;;Qayma;;;;;;;;;x
@@ -11051,14 +11051,14 @@ b_barony0869d;Nobakk;Nobakk;Nobakk;;Nobakk;;;;;;;;;x
 b_barony0869e;Ronenr;Ronenr;Ronenr;;Ronenr;;;;;;;;;x
 b_barony0869f;Qamaba;Qamaba;Qamaba;;Qamaba;;;;;;;;;x
 b_barony0869g;Kalenr;Kalenr;Kalenr;;Kalenr;;;;;;;;;x
-c_province0870_adj;Nelarma;Nelarma;Nelarma;;Nelarma;;;;;;;;;x
-b_barony0870`;Nanunya;Nanunya;Nanunya;;Nanunya;;;;;;;;;x
-b_barony0870a;Datyu;Datyu;Datyu;;Datyu;;;;;;;;;x
-b_barony0870b;Weirurd;Weirurd;Weirurd;;Weirurd;;;;;;;;;x
-b_barony0870c;Leraaz;Leraaz;Leraaz;;Leraaz;;;;;;;;;x
-b_barony0870d;Lopuigi;Lopuigi;Lopuigi;;Lopuigi;;;;;;;;;x
-b_barony0870e;Donuna;Donuna;Donuna;;Donuna;;;;;;;;;x
-b_barony0870f;Remeph;Remeph;Remeph;;Remeph;;;;;;;;;x
+c_province0870_adj;Chongqinger;Nelarma;Nelarma;;Nelarma;;;;;;;;;x
+b_barony0870`;Chongqing;Nanunya;Nanunya;;Nanunya;;;;;;;;;x
+b_barony0870a;Chendu;Datyu;Datyu;;Datyu;;;;;;;;;x
+b_barony0870b;Nanchong;Weirurd;Weirurd;;Weirurd;;;;;;;;;x
+b_barony0870c;Luzhou;Leraaz;Leraaz;;Leraaz;;;;;;;;;x
+b_barony0870d;Dazhou;Lopuigi;Lopuigi;;Lopuigi;;;;;;;;;x
+b_barony0870e;Enshi;Donuna;Donuna;;Donuna;;;;;;;;;x
+b_barony0870f;Leshan;Remeph;Remeph;;Remeph;;;;;;;;;x
 b_barony0870g;Balnan;Balnan;Balnan;;Balnan;;;;;;;;;x
 c_province0871_adj;Wachof;Wachof;Wachof;;Wachof;;;;;;;;;x
 b_barony0871`;Dohenia;Dohenia;Dohenia;;Dohenia;;;;;;;;;x
@@ -11109,16 +11109,16 @@ b_barony0875d;Nura;Nura;Nura;;Nura;;;;;;;;;x
 b_barony0875e;Tosia;Tosia;Tosia;;Tosia;;;;;;;;;x
 b_barony0875f;Ekodeig;Ekodeig;Ekodeig;;Ekodeig;;;;;;;;;x
 b_barony0875g;Lavualis;Lavualis;Lavualis;;Lavualis;;;;;;;;;x
-d_duchy0876;Ekodono;Ekodono;Ekodono;;Ekodono;;;;;;;;;x
-d_duchy0876_adj;Kenomea;Kenomea;Kenomea;;Kenomea;;;;;;;;;x
-c_province0876_adj;Tadilal;Tadilal;Tadilal;;Tadilal;;;;;;;;;x
-b_barony0876`;Lanahsa;Lanahsa;Lanahsa;;Lanahsa;;;;;;;;;x
-b_barony0876a;Suitach;Suitach;Suitach;;Suitach;;;;;;;;;x
-b_barony0876b;Amohaul;Amohaul;Amohaul;;Amohaul;;;;;;;;;x
-b_barony0876c;Tachebia;Tachebia;Tachebia;;Tachebia;;;;;;;;;x
-b_barony0876d;Kucho;Kucho;Kucho;;Kucho;;;;;;;;;x
-b_barony0876e;Nihal;Nihal;Nihal;;Nihal;;;;;;;;;x
-b_barony0876f;Eneorge;Eneorge;Eneorge;;Eneorge;;;;;;;;;x
+d_duchy0876;Wuhan;Ekodono;Ekodono;;Ekodono;;;;;;;;;x
+d_duchy0876_adj;Wuhaner;Kenomea;Kenomea;;Kenomea;;;;;;;;;x
+c_province0876_adj;Wuhaner;Tadilal;Tadilal;;Tadilal;;;;;;;;;x
+b_barony0876`;Wuhan;Lanahsa;Lanahsa;;Lanahsa;;;;;;;;;x
+b_barony0876a;Huangang;Suitach;Suitach;;Suitach;;;;;;;;;x
+b_barony0876b;Xinyang;Amohaul;Amohaul;;Amohaul;;;;;;;;;x
+b_barony0876c;Yueyang;Tachebia;Tachebia;;Tachebia;;;;;;;;;x
+b_barony0876d;Changsha;Kucho;Kucho;;Kucho;;;;;;;;;x
+b_barony0876e;Changde;Nihal;Nihal;;Nihal;;;;;;;;;x
+b_barony0876f;Jiujiang;Eneorge;Eneorge;;Eneorge;;;;;;;;;x
 b_barony0876g;Kasajid;Kasajid;Kasajid;;Kasajid;;;;;;;;;x
 c_province0877_adj;Weuta;Weuta;Weuta;;Weuta;;;;;;;;;x
 b_barony0877`;Beuta;Beuta;Beuta;;Beuta;;;;;;;;;x
@@ -11173,14 +11173,14 @@ b_barony0881d;Awilan;Awilan;Awilan;;Awilan;;;;;;;;;x
 b_barony0881e;Lanura;Lanura;Lanura;;Lanura;;;;;;;;;x
 b_barony0881f;Tairn;Tairn;Tairn;;Tairn;;;;;;;;;x
 b_barony0881g;Woharos;Woharos;Woharos;;Woharos;;;;;;;;;x
-c_province0882_adj;Kibyt;Kibyt;Kibyt;;Kibyt;;;;;;;;;x
-b_barony0882`;Ranid;Ranid;Ranid;;Ranid;;;;;;;;;x
-b_barony0882a;Nanyad;Nanyad;Nanyad;;Nanyad;;;;;;;;;x
-b_barony0882b;Egajomez;Egajomez;Egajomez;;Egajomez;;;;;;;;;x
-b_barony0882c;Najomez;Najomez;Najomez;;Najomez;;;;;;;;;x
-b_barony0882d;Asimar;Asimar;Asimar;;Asimar;;;;;;;;;x
-b_barony0882e;Rimene;Rimene;Rimene;;Rimene;;;;;;;;;x
-b_barony0882f;Laleco;Laleco;Laleco;;Laleco;;;;;;;;;x
+c_province0882_adj;Shanghainese;Kibyt;Kibyt;;Kibyt;;;;;;;;;x
+b_barony0882`;Shanghai;Ranid;Ranid;;Ranid;;;;;;;;;x
+b_barony0882a;Hangzhou;Nanyad;Nanyad;;Nanyad;;;;;;;;;x
+b_barony0882b;Weifang;Egajomez;Egajomez;;Egajomez;;;;;;;;;x
+b_barony0882c;Nanjing;Najomez;Najomez;;Najomez;;;;;;;;;x
+b_barony0882d;Suzhou;Asimar;Asimar;;Asimar;;;;;;;;;x
+b_barony0882e;Qingdao;Rimene;Rimene;;Rimene;;;;;;;;;x
+b_barony0882f;Yancheng;Laleco;Laleco;;Laleco;;;;;;;;;x
 b_barony0882g;Wajomez;Wajomez;Wajomez;;Wajomez;;;;;;;;;x
 c_province0883_adj;Tiking;Tiking;Tiking;;Tiking;;;;;;;;;x
 b_barony0883`;Duhaim;Duhaim;Duhaim;;Duhaim;;;;;;;;;x
@@ -11380,14 +11380,14 @@ b_barony0902d;Kesay;Kesay;Kesay;;Kesay;;;;;;;;;x
 b_barony0902e;Nomay;Nomay;Nomay;;Nomay;;;;;;;;;x
 b_barony0902f;Ecasulia;Ecasulia;Ecasulia;;Ecasulia;;;;;;;;;x
 b_barony0902g;Lacesh;Lacesh;Lacesh;;Lacesh;;;;;;;;;x
-c_province0903_adj;Kabatha;Kabatha;Kabatha;;Kabatha;;;;;;;;;x
-b_barony0903`;Bisand;Bisand;Bisand;;Bisand;;;;;;;;;x
-b_barony0903a;Kaluo;Kaluo;Kaluo;;Kaluo;;;;;;;;;x
-b_barony0903b;Luperin;Luperin;Luperin;;Luperin;;;;;;;;;x
-b_barony0903c;Avyaiah;Avyaiah;Avyaiah;;Avyaiah;;;;;;;;;x
-b_barony0903d;Busyay;Busyay;Busyay;;Busyay;;;;;;;;;x
-b_barony0903e;Nelen;Nelen;Nelen;;Nelen;;;;;;;;;x
-b_barony0903f;Beatkim;Beatkim;Beatkim;;Beatkim;;;;;;;;;x
+c_province0903_adj;Chinese;Kabatha;Kabatha;;Kabatha;;;;;;;;;x
+b_barony0903`;Zenzhou;Bisand;Bisand;;Bisand;;;;;;;;;x
+b_barony0903a;Taiwan;Kaluo;Kaluo;;Kaluo;;;;;;;;;x
+b_barony0903b;Fuzhou;Luperin;Luperin;;Luperin;;;;;;;;;x
+b_barony0903c;Xiamen;Avyaiah;Avyaiah;;Avyaiah;;;;;;;;;x
+b_barony0903d;Chaozhou;Busyay;Busyay;;Busyay;;;;;;;;;x
+b_barony0903e;Shantou;Nelen;Nelen;;Nelen;;;;;;;;;x
+b_barony0903f;Putian;Beatkim;Beatkim;;Beatkim;;;;;;;;;x
 b_barony0903g;Qiubuda;Qiubuda;Qiubuda;;Qiubuda;;;;;;;;;x
 c_province0904_adj;Domyi;Domyi;Domyi;;Domyi;;;;;;;;;x
 b_barony0904`;Qiryula;Qiryula;Qiryula;;Qiryula;;;;;;;;;x
@@ -11416,25 +11416,25 @@ b_barony0906d;Werena;Werena;Werena;;Werena;;;;;;;;;x
 b_barony0906e;Kabakk;Kabakk;Kabakk;;Kabakk;;;;;;;;;x
 b_barony0906f;Reova;Reova;Reova;;Reova;;;;;;;;;x
 b_barony0906g;Qureta;Qureta;Qureta;;Qureta;;;;;;;;;x
-c_province0907_adj;Dedatha;Dedatha;Dedatha;;Dedatha;;;;;;;;;x
-b_barony0907`;Asaceta;Asaceta;Asaceta;;Asaceta;;;;;;;;;x
-b_barony0907a;Rizeitek;Rizeitek;Rizeitek;;Rizeitek;;;;;;;;;x
-b_barony0907b;Tanavi;Tanavi;Tanavi;;Tanavi;;;;;;;;;x
-b_barony0907c;Teina;Teina;Teina;;Teina;;;;;;;;;x
-b_barony0907d;Kaulaha;Kaulaha;Kaulaha;;Kaulaha;;;;;;;;;x
-b_barony0907e;Dugaha;Dugaha;Dugaha;;Dugaha;;;;;;;;;x
-b_barony0907f;Nacay;Nacay;Nacay;;Nacay;;;;;;;;;x
+c_province0907_adj;Laotian;Dedatha;Dedatha;;Dedatha;;;;;;;;;x
+b_barony0907`;Vientiane;Asaceta;Asaceta;;Asaceta;;;;;;;;;x
+b_barony0907a;Luang;Rizeitek;Rizeitek;;Rizeitek;;;;;;;;;x
+b_barony0907b;Prabang;Tanavi;Tanavi;;Tanavi;;;;;;;;;x
+b_barony0907c;Xanamkhan;Teina;Teina;;Teina;;;;;;;;;x
+b_barony0907d;Xayaboury;Kaulaha;Kaulaha;;Kaulaha;;;;;;;;;x
+b_barony0907e;Phonsavan;Dugaha;Dugaha;;Dugaha;;;;;;;;;x
+b_barony0907f;Nong Khiaw;Nacay;Nacay;;Nacay;;;;;;;;;x
 b_barony0907g;Keriulf;Keriulf;Keriulf;;Keriulf;;;;;;;;;x
-d_duchy0908;Wabekay;Wabekay;Wabekay;;Wabekay;;;;;;;;;x
-d_duchy0908_adj;Ahugeva;Ahugeva;Ahugeva;;Ahugeva;;;;;;;;;x
-c_province0908_adj;Ratan;Ratan;Ratan;;Ratan;;;;;;;;;x
-b_barony0908`;Wyalaaz;Wyalaaz;Wyalaaz;;Wyalaaz;;;;;;;;;x
-b_barony0908a;Tacielo;Tacielo;Tacielo;;Tacielo;;;;;;;;;x
-b_barony0908b;Ekrayaad;Ekrayaad;Ekrayaad;;Ekrayaad;;;;;;;;;x
-b_barony0908c;Dashir;Dashir;Dashir;;Dashir;;;;;;;;;x
-b_barony0908d;Nadall;Nadall;Nadall;;Nadall;;;;;;;;;x
-b_barony0908e;Lyokyuns;Lyokyuns;Lyokyuns;;Lyokyuns;;;;;;;;;x
-b_barony0908f;Amilkas;Amilkas;Amilkas;;Amilkas;;;;;;;;;x
+d_duchy0908;North Vietnam;Wabekay;Wabekay;;Wabekay;;;;;;;;;x
+d_duchy0908_adj;Vietnamese;Ahugeva;Ahugeva;;Ahugeva;;;;;;;;;x
+c_province0908_adj;Hanoian;Ratan;Ratan;;Ratan;;;;;;;;;x
+b_barony0908`;Hanoi;Wyalaaz;Wyalaaz;;Wyalaaz;;;;;;;;;x
+b_barony0908a;Haiphong;Tacielo;Tacielo;;Tacielo;;;;;;;;;x
+b_barony0908b;Ha Long;Ekrayaad;Ekrayaad;;Ekrayaad;;;;;;;;;x
+b_barony0908c;Lao Cai;Dashir;Dashir;;Dashir;;;;;;;;;x
+b_barony0908d;Vinh;Nadall;Nadall;;Nadall;;;;;;;;;x
+b_barony0908e;Thanh Hoa;Lyokyuns;Lyokyuns;;Lyokyuns;;;;;;;;;x
+b_barony0908f;Ban Gioc;Amilkas;Amilkas;;Amilkas;;;;;;;;;x
 b_barony0908g;Bizonto;Bizonto;Bizonto;;Bizonto;;;;;;;;;x
 c_province0909_adj;Kusoan;Kusoan;Kusoan;;Kusoan;;;;;;;;;x
 b_barony0909`;Bahelka;Bahelka;Bahelka;;Bahelka;;;;;;;;;x
@@ -11472,16 +11472,16 @@ b_barony0912d;Siedars;Siedars;Siedars;;Siedars;;;;;;;;;x
 b_barony0912e;Axinonn;Axinonn;Axinonn;;Axinonn;;;;;;;;;x
 b_barony0912f;Qanna;Qanna;Qanna;;Qanna;;;;;;;;;x
 b_barony0912g;Kudami;Kudami;Kudami;;Kudami;;;;;;;;;x
-d_duchy0913;Bobakk;Bobakk;Bobakk;;Bobakk;;;;;;;;;x
-d_duchy0913_adj;Raronas;Raronas;Raronas;;Raronas;;;;;;;;;x
-c_province0913_adj;Nilatis;Nilatis;Nilatis;;Nilatis;;;;;;;;;x
-b_barony0913`;Wavasus;Wavasus;Wavasus;;Wavasus;;;;;;;;;x
-b_barony0913a;Rasan;Rasan;Rasan;;Rasan;;;;;;;;;x
-b_barony0913b;Adapatan;Adapatan;Adapatan;;Adapatan;;;;;;;;;x
-b_barony0913c;Sanars;Sanars;Sanars;;Sanars;;;;;;;;;x
-b_barony0913d;Tanomas;Tanomas;Tanomas;;Tanomas;;;;;;;;;x
-b_barony0913e;Wyet;Wyet;Wyet;;Wyet;;;;;;;;;x
-b_barony0913f;Linelen;Linelen;Linelen;;Linelen;;;;;;;;;x
+d_duchy0913;South-Central China;Bobakk;Bobakk;;Bobakk;;;;;;;;;x
+d_duchy0913_adj;Chinese;Raronas;Raronas;;Raronas;;;;;;;;;x
+c_province0913_adj;Chinese;Nilatis;Nilatis;;Nilatis;;;;;;;;;x
+b_barony0913`;Guangzhou;Wavasus;Wavasus;;Wavasus;;;;;;;;;x
+b_barony0913a;Hong Kong;Rasan;Rasan;;Rasan;;;;;;;;;x
+b_barony0913b;Zhanjiang;Adapatan;Adapatan;;Adapatan;;;;;;;;;x
+b_barony0913c;Hainan;Sanars;Sanars;;Sanars;;;;;;;;;x
+b_barony0913d;Zhaoqing;Tanomas;Tanomas;;Tanomas;;;;;;;;;x
+b_barony0913e;Maoming;Wyet;Wyet;;Wyet;;;;;;;;;x
+b_barony0913f;Nanning;Linelen;Linelen;;Linelen;;;;;;;;;x
 b_barony0913g;Tinyab;Tinyab;Tinyab;;Tinyab;;;;;;;;;x
 c_province0914_adj;Dozidia;Dozidia;Dozidia;;Dozidia;;;;;;;;;x
 b_barony0914`;Tautao;Tautao;Tautao;;Tautao;;;;;;;;;x
@@ -11554,14 +11554,14 @@ b_barony0920d;Kinid;Kinid;Kinid;;Kinid;;;;;;;;;x
 b_barony0920e;Welan;Welan;Welan;;Welan;;;;;;;;;x
 b_barony0920f;Ematolam;Ematolam;Ematolam;;Ematolam;;;;;;;;;x
 b_barony0920g;Birald;Birald;Birald;;Birald;;;;;;;;;x
-c_province0921_adj;Lacur;Lacur;Lacur;;Lacur;;;;;;;;;x
-b_barony0921`;Rukapur;Rukapur;Rukapur;;Rukapur;;;;;;;;;x
-b_barony0921a;Kabar;Kabar;Kabar;;Kabar;;;;;;;;;x
-b_barony0921b;Qurund;Qurund;Qurund;;Qurund;;;;;;;;;x
-b_barony0921c;Bohasia;Bohasia;Bohasia;;Bohasia;;;;;;;;;x
-b_barony0921d;Evacijah;Evacijah;Evacijah;;Evacijah;;;;;;;;;x
-b_barony0921e;Araneth;Araneth;Araneth;;Araneth;;;;;;;;;x
-b_barony0921f;Ramateg;Ramateg;Ramateg;;Ramateg;;;;;;;;;x
+c_province0921_adj;Vietnamese;Lacur;Lacur;;Lacur;;;;;;;;;x
+b_barony0921`;Hue;Rukapur;Rukapur;;Rukapur;;;;;;;;;x
+b_barony0921a;Dong Hoi;Kabar;Kabar;;Kabar;;;;;;;;;x
+b_barony0921b;Hoi An;Qurund;Qurund;;Qurund;;;;;;;;;x
+b_barony0921c;Quang Ngai;Bohasia;Bohasia;;Bohasia;;;;;;;;;x
+b_barony0921d;Dong Ha;Evacijah;Evacijah;;Evacijah;;;;;;;;;x
+b_barony0921e;Hoai Tan;Araneth;Araneth;;Araneth;;;;;;;;;x
+b_barony0921f;Ba Na;Ramateg;Ramateg;;Ramateg;;;;;;;;;x
 b_barony0921g;Rianins;Rianins;Rianins;;Rianins;;;;;;;;;x
 c_province0922_adj;Wyogan;Wyogan;Wyogan;;Wyogan;;;;;;;;;x
 b_barony0922`;Roryu;Roryu;Roryu;;Roryu;;;;;;;;;x
@@ -11648,15 +11648,15 @@ b_barony0929g;Qekuzer;Qekuzer;Qekuzer;;Qekuzer;;;;;;;;;x
 k_kingdom0930;Indochina;Indochina;Indochina;;Indochina;;;;;;;;;x
 k_kingdom0930_adj;Kevudo;Kevudo;Kevudo;;Kevudo;;;;;;;;;x
 d_duchy0930;Qahebia;Qahebia;Qahebia;;Qahebia;;;;;;;;;x
-d_duchy0930_adj;Nadashi;Nadashi;Nadashi;;Nadashi;;;;;;;;;x
-c_province0930_adj;Emutic;Emutic;Emutic;;Emutic;;;;;;;;;x
-b_barony0930`;Kateis;Kateis;Kateis;;Kateis;;;;;;;;;x
-b_barony0930a;Kudian;Kudian;Kudian;;Kudian;;;;;;;;;x
-b_barony0930b;Teirith;Teirith;Teirith;;Teirith;;;;;;;;;x
-b_barony0930c;Tolatan;Tolatan;Tolatan;;Tolatan;;;;;;;;;x
-b_barony0930d;Rudapur;Rudapur;Rudapur;;Rudapur;;;;;;;;;x
-b_barony0930e;Kutomas;Kutomas;Kutomas;;Kutomas;;;;;;;;;x
-b_barony0930f;Eleontas;Eleontas;Eleontas;;Eleontas;;;;;;;;;x
+d_duchy0930_adj;Central Indochina;Nadashi;Nadashi;;Nadashi;;;;;;;;;x
+c_province0930_adj;Laotian;Emutic;Emutic;;Emutic;;;;;;;;;x
+b_barony0930`;Pakse;Kateis;Kateis;;Kateis;;;;;;;;;x
+b_barony0930a;Sekong;Kudian;Kudian;;Kudian;;;;;;;;;x
+b_barony0930b;Attapeu;Teirith;Teirith;;Teirith;;;;;;;;;x
+b_barony0930c;Xeno;Tolatan;Tolatan;;Tolatan;;;;;;;;;x
+b_barony0930d;Muang;Rudapur;Rudapur;;Rudapur;;;;;;;;;x
+b_barony0930e;Champassak;Kutomas;Kutomas;;Kutomas;;;;;;;;;x
+b_barony0930f;Salavan;Eleontas;Eleontas;;Eleontas;;;;;;;;;x
 b_barony0930g;Rutan;Rutan;Rutan;;Rutan;;;;;;;;;x
 c_province0931_adj;Kiband;Kiband;Kiband;;Kiband;;;;;;;;;x
 b_barony0931`;Roupen;Roupen;Roupen;;Roupen;;;;;;;;;x
