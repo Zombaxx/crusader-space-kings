@@ -634,7 +634,7 @@
 	religion="tengri_pagan"
 }	
 101410={	
-	name="de Daly"
+	name="Pelosi"
 	culture="irish"
 	religion="catholic"
 }	
@@ -824,7 +824,7 @@
 	religion="jewish"
 }	
 101810={	
-	name="de Tahoe"
+	name="Newsom"
 	culture="irish"
 	religion="catholic"
 }	
@@ -1269,27 +1269,27 @@
 	religion="jewish"
 }	
 102640={	
-	name="de Washington DC"
+	name="Walton"
 	culture="old_frankish"
-	religion="nestorian"
+	religion="catholic"
 }	
 102641={	
-	name="de Washington DC"
+	name="Kennedy"
 	culture="old_frankish"
 	religion="nestorian"
 }	
 102642={	
-	name="de Baltimore"
+	name="Drumpf"
 	culture="old_frankish"
 	religion="nestorian"
 }	
 102643={	
-	name="de Alexandria"
-	culture="old_frankish"
-	religion="nestorian"
+	name="Biden"
+	culture="irish"
+	religion="catholic"
 }	
 102644={	
-	name="de The White House"
+	name="Obama"
 	culture="old_frankish"
 	religion="nestorian"
 }	

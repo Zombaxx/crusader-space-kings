@@ -1984,7 +1984,6 @@ cancer = {
 	female_insult_adj = INSULT_WITHERING
 	child_insult_adj = INSULT_WITHERING
 	
-	opposites = { full_cybernetic_conversion }
 }
 
 immortal = {
