@@ -1,0 +1,1482 @@
+#Высшлие эльфы - Лучники и Копейщики
+#Гномы - Тяжелая Пехота
+#Тёмные эльфы - Кавалерия
+#Тёмные гномы - Тяжелая Пехота
+#Орки - тяжелая Пехота
+
+castle = {
+#Elven Pike and Archer formations
+	ca_culture_elven_1 = {
+		desc = ca_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ca_culture_elven_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		pikemen = 30
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 30
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_elven_2 = {
+		desc = ca_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 
+				has_building = ca_culture_elven_1
+				has_building = ca_culture_elven_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ca_culture_elven_1
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 40
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 40
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_elven_3 = {
+		desc = ca_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ca_culture_elven_1
+				has_building = ca_culture_elven_2
+				has_building = ca_culture_elven_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ca_culture_elven_2
+		gold_cost = 400
+		build_time = 2190
+		pikemen = 50
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 50
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_elven_4 = {
+		desc = ca_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ca_culture_elven_1
+				has_building = ca_culture_elven_2
+				has_building = ca_culture_elven_3
+				has_building = ca_culture_elven_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ca_culture_elven_3
+		gold_cost = 500
+		build_time = 2190
+		pikemen = 60
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 60
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+#Dwarven Armories
+	ca_culture_dwarven_1 = {
+		desc = ca_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_culture_dwarven_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_dwarven_2 = {
+		desc = ca_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_culture_dwarven_1
+				has_building = ca_culture_dwarven_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ca_culture_dwarven_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 40
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_dwarven_3 = {
+		desc = ca_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_culture_dwarven_1
+				has_building = ca_culture_dwarven_2
+				has_building = ca_culture_dwarven_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ca_culture_dwarven_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 50
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_dwarven_4 = {
+		desc = ca_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_culture_dwarven_1
+				has_building = ca_culture_dwarven_2
+				has_building = ca_culture_dwarven_3
+				has_building = ca_culture_dwarven_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ca_culture_dwarven_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 60
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	# Dark Elven Silt Striders
+	ca_culture_dark_elven_1 = {
+		desc = ca_culture_dark_elven_1_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ca_culture_dark_elven_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven				
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		war_elephants = 6
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_dark_elven_2 = {
+		desc = ca_culture_dark_elven_2_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ca_culture_dark_elven_1
+				has_building = ca_culture_dark_elven_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = dark_elven
+					
+				}
+			}
+		}
+		upgrades_from = ca_culture_dark_elven_1
+		gold_cost = 300
+		build_time = 1095
+		war_elephants = 10
+		war_elephants_offensive = 0.05
+		war_elephants_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_dark_elven_3 = {
+		desc = ca_culture_dark_elven_3_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ca_culture_dark_elven_1
+				has_building = ca_culture_dark_elven_2
+				has_building = ca_culture_dark_elven_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		upgrades_from = ca_culture_dark_elven_2
+		gold_cost = 400
+		build_time = 2190
+		war_elephants = 22
+		war_elephants_offensive = 0.05
+		war_elephants_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_dark_elven_4 = {
+		desc = ca_culture_dark_elven_4_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ca_culture_dark_elven_1
+				has_building = ca_culture_dark_elven_2
+				has_building = ca_culture_dark_elven_3
+				has_building = ca_culture_dark_elven_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven
+					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		upgrades_from = ca_culture_dark_elven_3
+		gold_cost = 500
+		build_time = 2190
+		war_elephants = 22
+		war_elephants_offensive = 0.05
+		war_elephants_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+
+#############################
+#Non-Levy Cultural Buildings#
+#############################
+	
+	#Elven Pier
+	ca_elven_shipyard_1 = {
+		desc = ca_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ca_elven_shipyard_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 0 
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		tax_income = 3
+		galleys = 7
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Elven Harbor
+	ca_elven_shipyard_2 = {
+		desc = ca_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 
+				has_building = ca_elven_shipyard_1
+				has_building = ca_elven_shipyard_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 1
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ca_elven_shipyard_1
+		gold_cost = 300
+		build_time = 1095
+		galleys = 8
+		tax_income = 3
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Elven Port
+	ca_elven_shipyard_3 = {
+		desc = ca_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ca_elven_shipyard_1
+				has_building = ca_elven_shipyard_2
+				has_building = ca_elven_shipyard_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 2
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ca_elven_shipyard_2
+		gold_cost = 400
+		build_time = 2190
+		galleys = 9
+		tax_income = 3
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Elven Shipyards
+	ca_elven_shipyard_4 = {
+		desc = ca_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ca_elven_shipyard_1
+				has_building = ca_elven_shipyard_2
+				has_building = ca_elven_shipyard_3
+				has_building = ca_elven_shipyard_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 4
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ca_elven_shipyard_3
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 3
+		galleys = 10
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven Mines
+	ca_dwarf_fortress_1 = {
+		desc = ca_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_dwarf_fortress_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		tax_income = 3
+		fort_level = 0.5
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven underground settlement
+	ca_dwarf_fortress_2 = {
+		desc = ca_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_dwarf_fortress_1
+				has_building = ca_dwarf_fortress_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ca_dwarf_fortress_1
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 3
+		fort_level = 1.0
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven Undeground Town
+	ca_dwarf_fortress_3 = {
+		desc = ca_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_dwarf_fortress_1
+				has_building = ca_dwarf_fortress_2
+				has_building = ca_dwarf_fortress_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ca_dwarf_fortress_2
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 3
+		fort_level = 1.0
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven Fortress
+	ca_dwarf_fortress_4 = {
+		desc = ca_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ca_dwarf_fortress_1
+				has_building = ca_dwarf_fortress_2
+				has_building = ca_dwarf_fortress_3
+				has_building = ca_dwarf_fortress_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ca_dwarf_fortress_3
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 3
+		fort_level = 1.0
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+}
+
+city = {
+    ct_culture_elven_1 = {
+		desc = ct_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ct_culture_elven_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		prerequisites = { ct_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		pikemen = 30
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 30
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_elven_2 = {
+		desc = ct_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 
+				has_building = ct_culture_elven_1
+				has_building = ct_culture_elven_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ct_culture_elven_1
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 40
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 40
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_elven_3 = {
+		desc = ct_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ct_culture_elven_1
+				has_building = ct_culture_elven_2
+				has_building = ct_culture_elven_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ct_culture_elven_2
+		gold_cost = 400
+		build_time = 2190
+		pikemen = 50
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 50
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_elven_4 = {
+		desc = ct_culture_elven_1_desc
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ct_culture_elven_1
+				has_building = ct_culture_elven_2
+				has_building = ct_culture_elven_3
+				has_building = ct_culture_elven_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ct_culture_elven_3
+		gold_cost = 500
+		build_time = 2190
+		pikemen = 60
+		pikemen_morale = 0.15
+		archers_offensive = 0.15
+		archers = 60
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+#Dwarven Armories
+	ct_culture_dwarven_1 = {
+		desc = ct_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_culture_dwarven_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		prerequisites = { ct_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_dwarven_2 = {
+		desc = ct_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_culture_dwarven_1
+				has_building = ct_culture_dwarven_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ct_culture_dwarven_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 40
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_dwarven_3 = {
+		desc = ct_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_culture_dwarven_1
+				has_building = ct_culture_dwarven_2
+				has_building = ct_culture_dwarven_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ct_culture_dwarven_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 50
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_dwarven_4 = {
+		desc = ct_culture_dwarven_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_culture_dwarven_1
+				has_building = ct_culture_dwarven_2
+				has_building = ct_culture_dwarven_3
+				has_building = ct_culture_dwarven_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ct_culture_dwarven_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 60
+		heavy_infantry_defensive = 0.15
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	# Dark Elven Silt Striders
+	ct_culture_dark_elven_1 = {
+		desc = ct_culture_dark_elven_1_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ct_culture_dark_elven_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven				
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		prerequisites = { ct_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		war_elephants = 6
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_dark_elven_2 = {
+		desc = ct_culture_dark_elven_2_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ct_culture_dark_elven_1
+				has_building = ct_culture_dark_elven_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = dark_elven
+					
+				}
+			}
+		}
+		upgrades_from = ct_culture_dark_elven_1
+		gold_cost = 300
+		build_time = 1095
+		war_elephants = 10
+		war_elephants_offensive = 0.05
+		war_elephants_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_dark_elven_3 = {
+		desc = ct_culture_dark_elven_3_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ct_culture_dark_elven_1
+				has_building = ct_culture_dark_elven_2
+				has_building = ct_culture_dark_elven_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		upgrades_from = ct_culture_dark_elven_2
+		gold_cost = 400
+		build_time = 2190
+		war_elephants = 22
+		war_elephants_offensive = 0.05
+		war_elephants_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ct_culture_dark_elven_4 = {
+		desc = ct_culture_dark_elven_4_desc
+		potential = {
+			OR = {
+				culture = dark_elven				
+				has_building = ct_culture_dark_elven_1
+				has_building = ct_culture_dark_elven_2
+				has_building = ct_culture_dark_elven_3
+				has_building = ct_culture_dark_elven_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = dark_elven
+					
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = dark_elven					
+				}
+			}
+		}
+		upgrades_from = ct_culture_dark_elven_3
+		gold_cost = 500
+		build_time = 2190
+		war_elephants = 22
+		war_elephants_offensive = 0.05
+		war_elephants_defensive = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+
+#############################
+#Non-Levy Cultural Buildings#
+#############################
+	
+	#Elven Pier
+	ct_elven_shipyard_1 = {
+		desc = ct_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ct_elven_shipyard_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 0 
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		prerequisites = { ct_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		tax_income = 3
+		galleys = 7
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Elven Harbor
+	ct_elven_shipyard_2 = {
+		desc = ct_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 
+				has_building = ct_elven_shipyard_1
+				has_building = ct_elven_shipyard_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 1
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ct_elven_shipyard_1
+		gold_cost = 300
+		build_time = 1095
+		galleys = 8
+		tax_income = 3
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Elven Port
+	ct_elven_shipyard_3 = {
+		desc = ct_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ct_elven_shipyard_1
+				has_building = ct_elven_shipyard_2
+				has_building = ct_elven_shipyard_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 2
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ct_elven_shipyard_2
+		gold_cost = 400
+		build_time = 2190
+		galleys = 9
+		tax_income = 3
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Elven Shipyards
+	ct_elven_shipyard_4 = {
+		desc = ct_elven_shipyard_1_desc
+		port = yes
+		potential = {
+			OR = { 
+				culture = high_elven 				
+				has_building = ct_elven_shipyard_1
+				has_building = ct_elven_shipyard_2
+				has_building = ct_elven_shipyard_3
+				has_building = ct_elven_shipyard_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 4
+			ROOT = {
+				OR = {
+					culture = high_elven					
+				}
+			}
+		}
+		upgrades_from = ct_elven_shipyard_3
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 3
+		galleys = 10
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven Mines
+	ct_dwarf_fortress_1 = {
+		desc = ct_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_dwarf_fortress_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		prerequisites = { ct_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		tax_income = 3
+		fort_level = 0.5
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven underground settlement
+	ct_dwarf_fortress_2 = {
+		desc = ct_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_dwarf_fortress_1
+				has_building = ct_dwarf_fortress_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ct_dwarf_fortress_1
+		gold_cost = 300
+		build_time = 1095
+		tax_income = 3
+		fort_level = 1.0
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven Undeground Town
+	ct_dwarf_fortress_3 = {
+		desc = ct_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_dwarf_fortress_1
+				has_building = ct_dwarf_fortress_2
+				has_building = ct_dwarf_fortress_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ct_dwarf_fortress_2
+		gold_cost = 400
+		build_time = 2190
+		tax_income = 3
+		fort_level = 1.0
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	#Dwarven Fortress
+	ct_dwarf_fortress_4 = {
+		desc = ct_dwarf_fortress_1_desc
+		potential = {
+			OR = { 
+				culture = dwarven_dawi 
+				culture = dark_dwarven 
+				has_building = ct_dwarf_fortress_1
+				has_building = ct_dwarf_fortress_2
+				has_building = ct_dwarf_fortress_3
+				has_building = ct_dwarf_fortress_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+			    OR = {
+				    culture = dwarven_dawi
+				    culture = dark_dwarven 
+				}
+			}
+		}
+		upgrades_from = ct_dwarf_fortress_3
+		gold_cost = 500
+		build_time = 2190
+		tax_income = 3
+		fort_level = 1.0
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}
+}	

@@ -1,0 +1,35 @@
+overseers_composition = {
+	levy_size = 6
+	heavy_infantry = 700
+	pikemen = 300
+	archers = 400
+}
+
+golden_eagle_guard_composition = {
+	levy_size = 6
+	heavy_infantry = 800
+	pikemen = 400
+	archers = 400
+}
+
+lore_keepers_composition = {
+	levy_size = 6
+	heavy_infantry = 700
+	light_infantry = 200
+	archers = 200
+}
+
+jolly_brewers_composition = {
+	levy_size = 4
+	archers = 300
+	heavy_infantry = 500
+	pikemen = 200
+}
+
+squirrel_tails_composition = {
+	levy_size = 4
+	archers = 300
+	light_infantry = 500
+	pikemen = 200
+	light_cavalry = 200
+}

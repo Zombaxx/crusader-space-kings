@@ -1,0 +1,56 @@
+namespace = eadrac
+
+#Racial trait
+character_event = {
+	id = eadrac.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			graphical_culture = elvengfx
+			graphical_culture = dwarvengfx
+			graphical_culture = darkdwarvengfx
+			graphical_culture = darkelvengfx
+			graphical_culture = catfolkgfx
+			graphical_culture = orcishgfx
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_racial_trait = no
+			}
+			assign_racial_trait = yes
+		}
+	}
+}
+
+#Bloodline racial trait assign
+character_event = {
+	id = eadrac.2
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		random_owned_bloodline = {
+			has_bloodline_flag = elven_bloodline
+			NOT = { graphical_culture = elvengfx }
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			75 = {
+				#Nothing happend
+			}
+			25 = {
+				set_graphical_culture = high_elven
+				assign_racial_trait = yes
+			}
+		}
+	}
+}

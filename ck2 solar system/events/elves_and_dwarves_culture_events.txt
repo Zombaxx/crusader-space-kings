@@ -1,0 +1,170 @@
+#################################################
+#
+# CULTURAL CONVERSION EVENTS
+#
+#################################################
+
+# Province culture changes
+
+namespace = EADCCE
+
+# Chud
+character_event = {
+	id = EADCCE.1
+	desc = "EVTDESCEADCCE.1"
+	picture = GFX_evt_alfaransi
+	
+	only_playable = yes
+	
+	trigger = {
+		OR = { 
+		    culture_group = east_slavic
+            culture_group = west_slavic
+			culture_group = south_slavic
+            culture = high_elven			
+		}
+		any_demesne_province = {
+		    AND = {
+			    culture = high_elven
+				OR = { 
+				    culture_group = east_slavic
+                    culture_group = west_slavic
+			        culture_group = south_slavic
+				}
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.5
+			culture = chud
+		}
+		modifier = {
+			factor = 0.93
+			learning = 7
+		}
+		modifier = {
+			factor = 0.935
+			learning = 11
+		}
+		modifier = {
+			factor = 0.9
+			learning = 15
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAEADCCE.93
+		random_demesne_province = {
+			limit = {
+				culture = high_elven
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = chud
+		}
+	}
+}
+
+character_event = {
+	id = EADCCE.2
+	desc = "EVTDESCEADCCE.2"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		NOT = { culture = chud }
+		any_demesne_province = {
+			culture = chud
+			is_capital = yes
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAEADCCE.94
+		culture = chud
+		prestige = -5
+	}
+
+	option = {
+		name = EVTOPTBEADCCE.94
+		prestige = 5
+	}
+}
+#chud
+character_event = {
+	id = EADCCE.3
+	desc = "EVTDESCSWMH.3"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.95"
+		culture = chud
+	}
+}

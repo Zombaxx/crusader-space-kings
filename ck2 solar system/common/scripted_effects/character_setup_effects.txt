@@ -1,0 +1,50 @@
+remove_racial_trait = {
+	remove_trait = elf
+	remove_trait = fantasy_dwarf
+	remove_trait = dark_elf
+	remove_trait = dark_dwarf
+	remove_trait = cat_folk
+	remove_trait = orc
+}
+assign_racial_trait = {
+	#First remove any existing racial trait
+	remove_racial_trait = yes
+	
+	#Then add correct trait for graphical culture.
+	if = {
+		limit = {
+			graphical_culture = elvengfx
+		}
+		add_trait = elf
+	}
+	if = {
+		limit = {
+			graphical_culture = dwarvengfx
+		}
+		add_trait = fantasy_dwarf
+	}
+	if = {
+		limit = {
+			graphical_culture = darkelvengfx
+		}
+		add_trait = dark_elf
+	}
+	if = {
+		limit = {
+			graphical_culture = darkdwarvengfx
+		}
+		add_trait = dark_dwarf
+	}
+	if = {
+		limit = {
+			graphical_culture = catfolkgfx
+		}
+		add_trait = cat_folk
+	}
+	if = {
+		limit = {
+			graphical_culture = orcishgfx
+		}
+		add_trait = orc
+	}
+}

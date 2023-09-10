@@ -1,0 +1,517 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_evt_elven_ships"
+		texturefile = "gfx\\event_pictures\elven_ships.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_battle_elven"
+		texturefile = "gfx\\event_pictures\battle_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_battle_blood_elven"
+		texturefile = "gfx\\event_pictures\blood_elves_battle.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_battle_dwarven"
+		texturefile = "gfx\\event_pictures\battle_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_battle_oruk"
+		texturefile = "gfx\\event_pictures\battle_orc.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_battle_oruk_hai"
+		texturefile = "gfx\\event_pictures\battle_uruk_hai.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dwarven_gates"
+		texturefile = "gfx\\event_pictures\dwarven_gates.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_orcish_gates"
+		texturefile = "gfx\\event_pictures\orc_gates.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_beatification_dark_elven"
+		texturefile = "gfx\\event_pictures\beatification_dunmer.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_battle_dark_elven"
+		texturefile = "gfx\\event_pictures\battle_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_battle_dark_elven_nomad"
+		texturefile = "gfx\\event_pictures\battle_ashlanders.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_war_planning_elven"
+		texturefile = "gfx\\event_pictures\war_planning_wol_elves.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_war_planning_dwarven"
+		texturefile = "gfx\\event_pictures\war_planning_wol_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_elven_adventurer"
+		texturefile = "gfx\\event_pictures\elven_adventurer.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dwarven_adventurer"
+		texturefile = "gfx\\event_pictures\dwarven_hero.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_elven_partisans_one"
+		texturefile = "gfx\\event_pictures\scoiatael_three.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_elven_partisans_two"
+		texturefile = "gfx\\event_pictures\scoiataels_one.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_elven_partisans_negotiations"
+		texturefile = "gfx\\event_pictures\scoiataels_negotiations.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_culture_change_elven"
+		texturefile = "gfx\\event_pictures\culture_change_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_culture_change_dwarven"
+		texturefile = "gfx\\event_pictures\culture_change_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_culture_change_dark_elven"
+		texturefile = "gfx\\event_pictures\culture_change_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_elven_defeat"
+		texturefile = "gfx\\event_pictures\elven_defeat.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dark_elven_defeat"
+		texturefile = "gfx\\event_pictures\dunmer_defeat.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dwarven_defeat"
+		texturefile = "gfx\\event_pictures\dwarven_defeat.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_died_funeral_elven"
+		texturefile = "gfx\\event_pictures\\died_funeral_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_died_funeral_dwarven"
+		texturefile = "gfx\\event_pictures\\died_funeral_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_marriage_elven"
+		texturefile = "gfx\\event_pictures\\marriage_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_bishop_dark_elven"
+		texturefile = "gfx\\event_pictures\\dark_elven_preacher.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_feast_dwarven"
+		texturefile = "gfx\\event_pictures\\Banquet_hall_Feast_Dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_feast_oruk"
+		texturefile = "gfx\\event_pictures\\banquet_hall_orcish.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_market_dark_elven"
+		texturefile = "gfx\\event_pictures\\Market_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_market_dwarven"
+		texturefile = "gfx\\event_pictures\\Market_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_market_oruk"
+		texturefile = "gfx\\event_pictures\\orc_market.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_catching_heretic_dark_elven"
+		texturefile = "gfx\\event_pictures\catching_a_heretic_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_catching_heretic_elven"
+		texturefile = "gfx\\event_pictures\catching_a_heretic_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_catching_heretic_oruk"
+		texturefile = "gfx\\event_pictures\catching_a_heretic_orc.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_cathedral_dwarven"
+		texturefile = "gfx\\event_pictures\ancestor_gods_shrine.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_dark_elven"
+		texturefile = "gfx\\event_pictures\cathedral_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_cathedral_elven"
+		texturefile = "gfx\\event_pictures\elven_shrine.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_pagan_blood_sacrifice_darkdwarven"
+		texturefile = "gfx\\event_pictures\\pagan_sacrifice_dark_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_treasure_chamber_dwarven"
+		texturefile = "gfx\\event_pictures\\treasure_chamber_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_lovers_elven"
+		texturefile = "gfx\\event_pictures\\Lovers_entwined_elves.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_emissary_elven"
+		texturefile = "gfx\\event_pictures\\emissary_kneeling_before_throne_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_emissary_blood_elven"
+		texturefile = "gfx\\event_pictures\\emissar_kneeling_before_throne_blood_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_emissary_dwarven"
+		texturefile = "gfx\\event_pictures\\emissary_kneeling_before_throne_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_throne_room_elven"
+		texturefile = "gfx\\event_pictures\\emissary_kneeling_before_throne_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_throne_room_blood_elven"
+		texturefile = "gfx\\event_pictures\\emissar_kneeling_before_throne_blood_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_throne_room_dwarven"
+		texturefile = "gfx\\event_pictures\\emissary_kneeling_before_throne_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_religious_exultation_dark_elven"
+		texturefile = "gfx\\event_pictures\religious_exultation_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_weaponsmith_dwarven"
+		texturefile = "gfx\\event_pictures\smith_making_weapons_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_pagan_blood_sacrifice_elven_heresy"
+		texturefile = "gfx\\event_pictures\sacrifice_blood_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_lunatic_elven"
+		texturefile = "gfx\\event_pictures\\king_lunatic_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_lunatic_blood_elven"
+		texturefile = "gfx\\event_pictures\\king_lunatic_blood_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_lunatic_dwarven"
+		texturefile = "gfx\\event_pictures\\king_lunatic_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_vikings_arriving_oldgods_elven"
+		texturefile = "gfx\\event_pictures\blood_elves_raiders.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_magnificent_castle_elven"
+		texturefile = "gfx\\event_pictures\\castle_elven.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_magnificent_castle_dwarven"
+		texturefile = "gfx\\event_pictures\\castle_dwarven.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_magnificent_castle_oruk"
+		texturefile = "gfx\\event_pictures\\castle_orc.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_monk_dwarven"
+		texturefile = "gfx\\event_pictures\\book_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_library_dwarven"
+		texturefile = "gfx\\event_pictures\\book_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_monk_elven"
+		texturefile = "gfx\\event_pictures\\elven_book.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_library_elven"
+		texturefile = "gfx\\event_pictures\\elven_library.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_hunting_scene_elven"
+		texturefile = "gfx\\event_pictures\hunt_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_died_battle_dark_elven"
+		texturefile = "gfx\\event_pictures\\dunmer_defeat.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_died_battle_dwarven"
+		texturefile = "gfx\\event_pictures\\dwarven_defeat.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_died_battle_elven"
+		texturefile = "gfx\\event_pictures\\elven_defeat.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_experiment"
+		texturefile = "gfx\\event_pictures\scientific_experiment.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_peasants_elven"
+		texturefile = "gfx\\event_pictures\\peasant_mob_in_arms_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_brothel_dark_elven"
+		texturefile = "gfx\\event_pictures\\dark_elven_tabern.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_family_dark_elven"
+		texturefile = "gfx\\event_pictures\\dark_elven_family.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_whispers_dark_elven"
+		texturefile = "gfx\\event_pictures\\dark_elven_whispering_in_ear.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_feast_dark_elven"
+		texturefile = "gfx\\event_pictures\\dark_elven_feast.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_powerful_ruler_dark_elven"
+		texturefile = "gfx\\event_pictures\mighty_ruler_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_powerful_ruler_dwarven"
+		texturefile = "gfx\\event_pictures\dwarven_adventurer.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_powerful_ruler_blood_elven"
+		texturefile = "gfx\\event_pictures\powerful_ruler_blood_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_eavesdropping_elven"
+		texturefile = "gfx\\event_pictures\eavesdropping_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_eavesdropping_dark_elven"
+		texturefile = "gfx\\event_pictures\eavesdropping_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_powerful_ruler_darkelven"
+		texturefile = "gfx\\event_pictures\\mighty_ruler_dark_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_longbowman_elven"
+		texturefile = "gfx\\event_pictures\\longbowman_elven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_longbowman_dwarven"
+		texturefile = "gfx\\event_pictures\\longbowman_dwarven.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_longbowman_dark_elven"
+		texturefile = "gfx\\event_pictures\\longbowman_dunmer.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dark_dwarven_planetarium"
+		texturefile = "gfx\\event_pictures\\dark_dwarven_planetarium.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dark_elven_hero"
+		texturefile = "gfx\\event_pictures\\dark_elven_hero.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_blood_elven_hero"
+		texturefile = "gfx\\event_pictures\\blood_elven_hero.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dark_dwarven_engineer"
+		texturefile = "gfx\\event_pictures\\dark_dwarven_engineer.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dark_dwarven_merchant"
+		texturefile = "gfx\\event_pictures\\dark_dwarven_merchant.dds"
+		allwaystransparent = yes
+	}
+	
+}

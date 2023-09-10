@@ -1,0 +1,1771 @@
+settlement_decisions = {	
+	invite_minority_elf = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = elven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_elven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #High Elf
+							random_traits = yes
+							dynasty = none
+							culture = high_elven
+							religion = elven
+						}
+					}
+					1 = {
+						create_character = { #Blood Elf
+							random_traits = yes
+							dynasty = none
+							culture = blood_elven
+							religion = elven_heresy
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	
+	invite_minority_elven_women = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = elven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_elven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #High Elf
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = high_elven
+							religion = elven
+						}
+					}
+					1 = {
+						create_character = { #Blood Elf
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = blood_elven
+							religion = elven_heresy
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	invite_minority_dark_elf = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = dark_elven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_dark_elven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #Dameri Elf
+							random_traits = yes
+							dynasty = none
+							culture = dark_elven
+							religion = elven_tribunal
+						}
+					}
+					1 = {
+						create_character = { #Velori Elf
+							random_traits = yes
+							dynasty = none
+							culture = dark_elven_nomad
+							religion = elven_tribunal_heresy
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	
+	invite_minority_dark_elven_women = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = dark_elven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_dark_elven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #Dameri Elf
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = dark_elven
+							religion = elven_tribunal
+						}
+					}
+					1 = {
+						create_character = { #Velori Elf
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = dark_elven_nomad
+							religion = elven_tribunal_heresy
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	invite_minority_dwarf = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = dwarven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_dwarven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					culture = dwarven_dawi
+					religion = dwarven
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	
+	invite_minority_dwarven_women = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = dwarven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_dwarven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					female = yes
+					culture = dwarven_dawi
+					religion = dwarven
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	invite_minority_dark_dwarf = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = dark_dwarven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_dark_dwarven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #Cult of Knowledge
+							random_traits = yes
+							dynasty = none
+							culture = dark_dwarven
+							religion = dwarven_dwemer
+						}
+					}
+					1 = {
+						create_character = { #Nurutushian
+							random_traits = yes
+							dynasty = none
+							culture = dark_dwarven
+							religion = dwarven_dwemer_heresy
+						}
+					}
+					1 = {
+						create_character = { #Hazhut
+							random_traits = yes
+							dynasty = none
+							culture = dark_dwarven
+							religion = dwarven_dwemer_heresy_hashut
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	
+	invite_minority_dark_dwarven_women = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = dark_dwarven_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_dark_dwarven_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #Cult of Knowledge
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = dark_dwarven
+							religion = dwarven_dwemer
+						}
+					}
+					1 = {
+						create_character = { #Nurutushian
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = dark_dwarven
+							religion = dwarven_dwemer_heresy
+						}
+					}
+					1 = {
+						create_character = { #Hazhut
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = dark_dwarven
+							religion = dwarven_dwemer_heresy_hashut
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	invite_minority_cat_folk = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = cat_folk_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_cat_folk_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					culture = cat_folk
+					religion = cat_folk_religion
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	
+	invite_minority_cat_folk_women = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = cat_folk_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_cat_folk_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					female = yes
+					culture = cat_folk
+					religion = cat_folk_religion
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	invite_minority_orc = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = orc_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_oruk_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #Oruk Gar Wargadanist
+							random_traits = yes
+							dynasty = none
+							culture = oruk
+							religion = orc_religion
+						}
+					}
+					1 = {
+						create_character = { #Oruk Gar Traditionalist
+							random_traits = yes
+							dynasty = none
+							culture = oruk
+							religion = orc_religion_heresy
+						}
+					}
+					1 = {
+						create_character = { #Oruk Hai Dark Lordist
+							random_traits = yes
+							dynasty = none
+							culture = oruk_hai
+							religion = orc_religion_dark_lord
+						}
+					}
+					1 = {
+						create_character = { #Oruk Hai Bright Lordist
+							random_traits = yes
+							dynasty = none
+							culture = oruk_hai
+							religion = orc_religion_bright_lord
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+	
+	invite_minority_orc_women = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 12
+	
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = BARON
+		}
+		
+		potential = {
+			NOT = {
+				holding_type = nomad
+			}
+			holder_scope = {
+				character = FROM
+			}
+			location = {
+				has_province_modifier = orc_diaspora
+			}
+		}
+		
+		allow = {
+			FROM = {
+				scaled_wealth = 0.05
+				NOT = {
+					has_character_modifier = in_seclusion
+				}
+				NOT = {
+					is_earth_or_otherworlden_oruk_culture = yes
+				}	
+			}
+		}
+		
+		effect = {
+			FROM = {
+				scaled_wealth = -0.05
+				random_list = {
+					1 = {
+						create_character = { #Oruk Gar Wargadanist
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = oruk
+							religion = orc_religion
+						}
+					}
+					1 = {
+						create_character = { #Oruk Gar Traditionalist
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = oruk
+							religion = orc_religion_heresy
+						}
+					}
+					1 = {
+						create_character = { #Oruk Hai Dark Lordist
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = oruk_hai
+							religion = orc_religion_dark_lord
+						}
+					}
+					1 = {
+						create_character = { #Oruk Hai Bright Lordist
+							random_traits = yes
+							dynasty = none
+							female = yes
+							culture = oruk_hai
+							religion = orc_religion_bright_lord
+						}
+					}
+				}
+				new_character = {
+
+					save_event_target_as = invited_character
+				}
+				character_event = { id = NE.1 }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = COUNT
+					num_of_courtiers <= 5
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = DUKE
+					num_of_courtiers <= 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = KING
+					num_of_courtiers <= 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 25
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers <= 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = COUNT
+					num_of_courtiers = 10
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = DUKE
+					num_of_courtiers = 15
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = KING
+					num_of_courtiers = 20
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0.01
+				FROM = {
+					tier = EMPEROR
+					num_of_courtiers = 25
+				}
+				ROOT = { is_capital = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					wealth = 200
+				}
+			}
+		}
+	}
+}

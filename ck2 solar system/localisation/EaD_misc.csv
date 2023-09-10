@@ -1,0 +1,48 @@
+elven_opinion;Elven Pantheon opinion;;;;;;;;;;;;;x
+elven_heresy_opinion;Cult of Kaine opinion;;;;;;;;;;;;;x
+high_elven_opinion;Aldari opinion;;;;;;;;;;;;;x
+dwarven_dawi_opinion;Khazuk opinion;;;;;;;;;;;;;x
+oruk_hai_opinion;Oruk Hay opinion;;;;;;;;;;;;;x
+oruk_opinion;Orug Gar opinion;;;;;;;;;;;;;x
+blood_elven_opinion;Nagrathi opinion;;;;;;;;;;;;;x
+loyalty_to_traditions;Loyalty to traditions;;;;;;;;;;;;;x
+player_character_invasion_leader;Start playing as [Root.GetTitledName];;;;;;;;;;;;;x
+dark_elves_assassins_debt;Owns money to the assassins;;;;;;;;;;;;;x
+scoiatael_incursion;Otherworlden Partisans;;;;;;;;;;;;;x
+scoiatael_incursion_desc;Otherworlden freedom fighters operating in this province with the support of the local population, killing our warriors and carrying out robbery raids.;;;;;;;;;;;;;x
+scoiatael_incursion_weakened;Otherworlden Partisans Weakened;;;;;;;;;;;;;x
+scoiatael_incursion_weakened_desc;In the course of recent events, local freedom fighters were weakened, but not completely destroyed.;;;;;;;;;;;;;x
+scoiatael_incursion_heavy_weakened;Otherworlden Partisans Extremly Weakened;;;;;;;;;;;;;x
+scoiatael_incursion_heavy_weakened_desc;In the course of recent events, local freedom fighters were almost destroyed.;;;;;;;;;;;;;x
+scoiatael_agitation;Partisan Agitation;;;;;;;;;;;;;x
+scoiatael_incursion_desc;Agitators of otherworlden partisans seriously spurred the aggressiveness of local population, increasing the chance of an uprising.;;;;;;;;;;;;;x
+scoiatael_robbery_raids;Partisan Robbery Raids;;;;;;;;;;;;;x
+scoiatael_robbery_raids_desc;A rare merchant can travel through this province without losing either his purse or life. Better not to talk about tax collectors.;;;;;;;;;;;;;x
+scoiatael_ambushes;Partisan ambushes;;;;;;;;;;;;;x 
+scoiatael_ambushes_desc;The constant ambushes and attacks by local partisans groups requires constant presence of troops in this province and make the passage of large armies through this lands extremly difficult.;;;;;;;;;;;;;x 
+RETTYPE_CUL_CATHRIAN;Cathrian Sun Shields;;;;;;;;;;;;;x 
+RETTYPE_CUL_DWARVEN;Dwarven Warriors;;;;;;;;;;;;;x 
+RETTYPE_CUL_ELVEN;Elven Phalanx;;;;;;;;;;;;;x 
+RETTYPE_CUL_DARK_ELVEN;Dark Elven Sand Striders;;;;;;;;;;;;;x 
+RETTYPE_CUL_ORUK_HAY;Oruk Hay Phalanx;;;;;;;;;;;;;x
+RETTYPE_CUL_ORUK_GAR;Oruk Gar Warriors;;;;;;;;;;;;;x
+RULE_FANTASY_INVASION_INVASION_RANDOM_DESC;The Fantasy Invasion will occur at a random date, though at the earliest 50 years after the game is started.;;;;;;;;;;;;;x
+RULE_FANTASY_INVASION_INVASION_RANDOM;Random;;;;;;;;;;;;;x 
+RULE_FANTASY_INVASION_DELAYED_RANDOM_DESC;The Fantasy Invasion will occur at a random date, though at the earliest 100 years after the game is started.;;;;;;;;;;;;;x
+RULE_FANTASY_INVASION_DELAYED_RANDOM;Delayed Random;;;;;;;;;;;;;x
+RULE_FANTASY_INVASION_OFF;Off;;;;;;;;;;;;;x
+RULE_FANTASY_INVASION_OFF_DESC;The Fantasy Invasion will not occur.;;;;;;;;;;;;;x
+RULE_FANTASY_INVASION_IMMEDIATLY;Immediatly;;;;;;;;;;;;;x
+RULE_FANTASY_INVASION_IMMEDIATLY_DESC;The Fantasy Invasion will occur right after the game start;;;;;;;;;;;;;x
+cruelly_drove_out_minority;Cruelly drove out minority;;;;;;;;;;x
+elven_tradepost;Elven Tradepost;;;;;;;;;;x
+dwarven_tradepost;Dwarven Tradepost;;;;;;;;;;x
+dark_elven_tradepost;Dark Elven Tradepost;;;;;;;;;;x
+dark_dwarven_tradepost;Dark Dwarven Tradepost;;;;;;;;;;x
+cat_folk_tradepost;Cathrian Tradepost;;;;;;;;;;x
+elven_diaspora;Elven Diaspora;;;;;;;;;;x
+dwarven_diaspora;Dwarven Diaspora;;;;;;;;;;x
+dark_elven_diaspora;Dark Elven Diaspora;;;;;;;;;;x
+dark_dwarven_diaspora;Dark Dwarven Diaspora;;;;;;;;;;x
+cat_folk_diaspora;Cathrian Diaspora;;;;;;;;;;x
+orc_diaspora;Orcish Diaspora;;;;;;;;;;x

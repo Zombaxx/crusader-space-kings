@@ -1,0 +1,359 @@
+on_startup = {
+	effect = {
+		if = {
+			limit = {
+				OR = { 
+				has_racial_trait = no 
+				graphical_culture = elvengfx
+				graphical_culture = dwarvengfx
+				graphical_culture = darkdwarvengfx
+				graphical_culture = darkelvengfx
+				graphical_culture = orcishgfx
+				}
+			}
+			assign_racial_trait = yes
+		}	
+	}
+	events = {
+	    EADAS.6990 #Makes sure d_dark_elves_assassins owner is always tribunal & member of the_dark_elves_assassins
+	}
+	
+}
+
+on_post_birth = {
+	effect = {
+		if = {
+			limit = {
+				real_father = { always = yes }
+			}
+			random_list = {
+				40 = { #Father's race
+					if = { 
+						limit = {
+							real_father = { graphical_culture = elvengfx }
+						}
+						set_graphical_culture = elven
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = dwarvengfx }
+						}
+						set_graphical_culture = dwarven_dawi
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = darkdwarvengfx }
+						}
+						set_graphical_culture = dark_dwarven
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = darkelvengfx }
+						}
+						set_graphical_culture = dark_elven
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = catfolkgfx }
+						}
+						set_graphical_culture = cat_folk
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = orcishgfx }
+						}
+						set_graphical_culture = oruk
+						real_father = { reverse_culture = ROOT }
+					}
+				}
+				60 = { #Mother's race
+					if = { 
+						limit = {
+							mother_even_if_dead = { graphical_culture = elvengfx }
+						}
+						set_graphical_culture = elven
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = dwarvengfx }
+						}
+						set_graphical_culture = dwarven_dawi
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = darkdwarvengfx }
+						}
+						set_graphical_culture = dark_dwarven
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = darkelvengfx }
+						}
+						set_graphical_culture = dark_elven
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = catfolkgfx }
+						}
+						set_graphical_culture = cat_folk
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = orcishgfx }
+						}
+						set_graphical_culture = oruk
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+				}
+			}
+			assign_racial_trait = yes
+		}
+		if = {
+			limit = {
+				NOT = { real_father = { always = yes } }
+			}
+			random_list = {
+				40 = { #Father's race
+					if = { 
+						limit = {
+							real_father = { graphical_culture = elvengfx }
+						}
+						set_graphical_culture = elven
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = dwarvengfx }
+						}
+						set_graphical_culture = dwarven_dawi
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = darkdwarvengfx }
+						}
+						set_graphical_culture = dark_dwarven
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = darkelvengfx }
+						}
+						set_graphical_culture = dark_elven
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = catfolkgfx }
+						}
+						set_graphical_culture = cat_folk
+						real_father = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							real_father = { graphical_culture = orcishgfx }
+						}
+						set_graphical_culture = oruk
+						real_father = { reverse_culture = ROOT }
+					}
+				}
+				60 = { #Mother's race
+					if = { 
+						limit = {
+							mother_even_if_dead = { graphical_culture = elvengfx }
+						}
+						set_graphical_culture = elven
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = dwarvengfx }
+						}
+						set_graphical_culture = dwarven_dawi
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = darkdwarvengfx }
+						}
+						set_graphical_culture = dark_dwarven
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = darkelvengfx }
+						}
+						set_graphical_culture = dark_elven
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}	
+                    if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = catfolkgfx }
+						}
+						set_graphical_culture = cat_folk
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}		
+					if = {
+						limit = {
+							mother_even_if_dead = { graphical_culture = orcishgfx }
+						}
+						set_graphical_culture = oruk
+						mother_even_if_dead = { reverse_culture = ROOT }
+					}
+				}
+			}
+			assign_racial_trait = yes
+		}
+	}
+	events = {
+		eadrac.2 #Assign racial trate if bloodline is right
+	}
+}
+
+on_employer_change = {
+	effect = {
+		if = {
+			limit = {
+				OR = { 
+				has_racial_trait = no 
+					graphical_culture = elvengfx
+					graphical_culture = dwarvengfx
+					graphical_culture = darkdwarvengfx
+					graphical_culture = darkelvengfx
+					graphical_culture = catfolkgfx
+					graphical_culture = orcishgfx
+				}
+			}
+			assign_racial_trait = yes
+		}	
+	}
+	events = {
+		eadrac.1 #A new character is created
+	}
+}
+
+on_host_change = {
+	effect = {
+		if = {
+			limit = {
+				OR = { 
+				has_racial_trait = no 
+					graphical_culture = elvengfx
+					graphical_culture = dwarvengfx
+					graphical_culture = darkdwarvengfx
+					graphical_culture = darkelvengfx
+					graphical_culture = catfolkgfx
+					graphical_culture = orcishgfx
+				}
+			}
+			assign_racial_trait = yes
+		}
+	}
+	events = {
+		eadrac.1 #A new character is created
+	}
+}	
+on_character_switch_society_interest = {
+	events = {
+		EADKOS.10011
+	}
+}
+
+on_death = {
+    events = {
+	    EADAS.6844 #Removes mark of death block for Assassins GM
+		EADAS.6991 #Clears any quests targeting this character
+		EADAS.6012 #Transfers assassins debt to heir
+		EADRE.23430 #Bloodthirsty Gods gain points for sacrifying people.
+	}
+}
+
+on_new_holder = {
+	events = {
+	    EADAS.6990 #Makes sure d_dark_elves_assassins owner is always tribunal & member of the_dark_elves_assassins
+		EADESCOIA.1 #Check for scoia'taels
+		EADESCOIA.2 #Clear up event		
+		EADESCOIA.8 #Clear up event
+		EADESCOIA.9 #Another clear up event
+	}
+}
+
+on_new_holder_inheritance = {
+	events = {
+        EADAS.6990
+		EADESCOIA.1 #Check for scoia'taels
+		EADESCOIA.2 #Clear up event	for scoia'taels	
+		EADESCOIA.8 #Clear up event for scoia'taels
+		EADESCOIA.9 #Another clear up event for scoia'taels
+	}
+}
+
+on_new_holder_usurpation = {
+	events = {	
+	    EADAS.6990
+		EADESCOIA.1 #Check for scoia'taels
+		EADESCOIA.2 #Clear up event	for scoia'taels	
+		EADESCOIA.8 #Clear up event for scoia'taels
+		EADESCOIA.9 #Another clear up event for scoia'taels
+	}
+}
+
+on_society_bi_yearly_pulse = {
+	events = {
+		EADAS.6199 # Assassins quest tombola
+	}
+	random_events = {
+	    100 = EADAS.6899 # Assassins: friend or foe?
+		100 = EADAS.6910 # Assassins: assisting a murder plot
+		50 = EADAS.6920 # Assassins: blackmailing superior
+	}
+}
+
+on_siege_over_winner = {
+	events = {
+	    EADAS.6222 # Assassins occupy holding
+    }
+}	
+
+on_decade_pulse = {
+    events = {
+	    EADOAD.2 #If one of invaders realms is destroyed, another will take its place
+	}
+}
+
+on_yearly_pulse = {
+    events = {
+	    EADOAD.11 #Check if any otherworlen realm has fallen
+		EADESCOIA.1 #Check for scoia'taels
+		EADESCOIA.2 #Clear up event		
+		EADESCOIA.8 #Clear up event
+		EADESCOIA.9 #Another clear up event
+		EADESCOIA.3 #Start rebellion
+		EADESCOIA.12 #Scoia'taels shenanigans tombola
+	}
+}
+
+on_rebel_revolt = {
+	events = {
+        EADESCOIA.3 #Start rebellion
+	}
+}
+
+on_character_convert_religion = {
+	events = {
+		EADRE.2
+		EADRE.4
+		EADRE.7
+		EADRE.9
+	}
+}

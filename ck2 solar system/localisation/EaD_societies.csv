@@ -1,0 +1,159 @@
+############### The Cursed House ###############
+the_cursed_house;The Cursed House;;;;;;;;;;;;;x
+the_cursed_house_desc;Children of the Cursed House prowl in the shadows, hiding from those who once betrayed them to fire and oblivion, offering their prayers to the Mad God. Shurdum, Lord of the Deceived House, rewards his followers generously, endowing them with unnatural longevity and cursed magic..;;;;;;;;;;;;;x
+currency_name_the_cursed_house;Dark Power;;;;;;;;;;;;;x
+the_cursed_house_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
+the_cursed_house_rank_1_female;Sleeper;;;;;;;;;;;;;x
+the_cursed_house_rank_2_female;Dreamer;;;;;;;;;;;;;x
+the_cursed_house_rank_3_female;Ascended Dreamer;;;;;;;;;;;;;x
+the_cursed_house_rank_4_female;Awakened;;;;;;;;;;;;;x
+the_cursed_house_rank_1_male;Sleeper;;;;;;;;;;;;;x
+the_cursed_house_rank_2_male;Dreamer;;;;;;;;;;;;;x
+the_cursed_house_rank_3_male;Ascended Dreamer;;;;;;;;;;;;;x
+the_cursed_house_rank_4_male;Awakened;;;;;;;;;;;;;x
+the_cursed_house_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
+the_cursed_house_recruit_block_tooltip;Has not been approached by The Cursed House before.;;;;;;;;;;;;;x
+the_cursed_house_recruit;Recruit to The Cursed House;;;;;;;;;;;;;x
+the_cursed_house_recruit_desc;Attempt to find out whether Y[Root.GetTitledFirstName]! is open to the power of the occult. If so, you may invite [Root.GetHerHim] to become a member of The Cursed House.;;;;;;;;;;;;;x
+
+############### The Cult of Pleasures ###############
+the_cult_of_excess;The Cult of Pleasures;;;;;;;;;;;;;x
+the_cult_of_excess_desc;Followers of the Cult of Pleasures were ruthlessly persecuted both by the followers of the Elven Pantheon and by the Blood Cultists, for the rituals and customs of the hedonistic Cult of Pleasures can seem disgusting even for the bloodthirsty maniacs of the Blood Cult. But those hedonists still surviving, hiding in the shadows and luring the weak and impious into their ranks...;;;;;;;;;;;;;x
+currency_name_the_cult_of_excess;Dark Power;;;;;;;;;;;;;x
+the_cult_of_excess_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
+the_cult_of_excess_rank_1_female;Follower;;;;;;;;;;;;;x
+the_cult_of_excess_rank_2_female;Cultist;;;;;;;;;;;;;x
+the_cult_of_excess_rank_3_female;High Cultist;;;;;;;;;;;;;x
+the_cult_of_excess_rank_4_female;Grandmaster;;;;;;;;;;;;;x
+the_cult_of_excess_rank_1_male;Follower;;;;;;;;;;;;;x
+the_cult_of_excess_rank_2_male;Cultist;;;;;;;;;;;;;x
+the_cult_of_excess_rank_3_male;High Cultist;;;;;;;;;;;;;x
+the_cult_of_excess_rank_4_male;Grandmaster;;;;;;;;;;;;;x
+the_cult_of_excess_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
+the_cult_of_excess_recruit_block_tooltip;Has not been approached by The Cult of Pleasures before.;;;;;;;;;;;;;x
+the_cult_of_excess_recruit;Recruit to The Cult of Pleasures;;;;;;;;;;;;;x
+the_cult_of_excess_recruit_desc;Attempt to find out whether Y[Root.GetTitledFirstName]! is open to the power of the occult. If so, you may invite [Root.GetHerHim] to become a member of The Cult of Pleasures.;;;;;;;;;;;;;x
+
+############### The Monster Hunters ###############
+warrior_lodge_dwarven;The Monster Hunters;;;;;;;;;;;;;x
+warrior_lodge_dwarven_desc;Monster Hunters are a group of dwarven warriors who hunted the most dangerous creatures of their homeworld - trolls, giants and even dragons. Although these dangerous creatures do not exist in the new world, dwarves can still gain honor and glory on the battlefield.;;;;;;;;;;;;;x
+currency_name_warrior_lodge_dwarven;Renown;;;;;;;;;;;;;x
+warrior_lodge_dwarven_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_1_female;Hunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_2_female;Trollhunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_3_female;Gianthunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_4_female;Dragonhunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_1_male;Hunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_2_male;Trollhunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_3_male;Gianthunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_4_male;Dragonhunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
+
+############### Morai Sath Reth ###############
+dark_elven_assassins;Shadows of Reth;;;;;;;;;;;;;x
+dark_elven_assassins_desc;Morai sath Reth, "The Shadows of Reth" is a religious order of Reanna, who pleased they lady with artful murders. Each stab, each drop of poison in the wine, each rigged "accident" - everything must be arranged with grace so that Lady Reth was pleased with this poetry of murder.;;;;;;;;;;;;;x
+currency_name_dark_elven_assassins;Fervor;;;;;;;;;;;;;x
+dark_elven_assassins_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
+dark_elven_assassins_rank_1_male;Initiate;;;;;;;;;;;;;x
+dark_elven_assassins_rank_1_female;Initiate;;;;;;;;;;;;;x
+dark_elven_assassins_rank_2_male;Thinker;;;;;;;;;;;;;x
+dark_elven_assassins_rank_2_female;Thinker;;;;;;;;;;;;;x
+dark_elven_assassins_rank_3_male;Poet;;;;;;;;;;;;;x
+dark_elven_assassins_rank_3_female;Poet;;;;;;;;;;;;;x
+dark_elven_assassins_rank_4_male;Master-Poet;;;;;;;;;;;;;x
+dark_elven_assassins_rank_4_female;Master-Poet;;;;;;;;;;;;;x
+
+############### Secret Religious Cult ###############
+
+secret_religious_society_elven;[GetReligiousCommunityName_elven];[GetReligiousCommunityName_elven];[GetReligiousCommunityName_elven];;[GetReligiousCommunityName_elven];;;;;;;;;x
+secret_religious_society_elven_desc;[GetReligiousSocietyDesc_elven];[GetReligiousSocietyDesc_elven];[GetReligiousSocietyDesc_elven];;[GetReligiousSocietyDesc_elven];;;;;;;;;x
+secret_religious_society_elven_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_elven_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_elven;The [elven.GetName] Faithful;Fid?les [elven.GetName]s;Die [elven.GetName]en Gl?ubigen;;Creyentes [elven.GetName]s;;;;;;;;;x
+secretly_convert_to_elven_holy_site;Secretly Convert to [elven.GetName];Adopter en secret la foi [elven.GetName];Heimlich zum [elven.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [elven.GetName];;;;;;;;;x
+secretly_convert_to_elven_holy_site_desc;The Y[elven.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[elven.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[elven.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[elven.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_elven;The Childrens of Elibereth;;;;;;;;;;;;;x
+secret_religious_society_elven_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_elven_heresy;[GetReligiousCommunityName_elven_heresy];[GetReligiousCommunityName_elven_heresy];[GetReligiousCommunityName_elven_heresy];;[GetReligiousCommunityName_elven_heresy];;;;;;;;;x
+secret_religious_society_elven_heresy_desc;[GetReligiousSocietyDesc_elven_heresy];[GetReligiousSocietyDesc_elven_heresy];[GetReligiousSocietyDesc_elven_heresy];;[GetReligiousSocietyDesc_elven_heresy];;;;;;;;;x
+secret_religious_society_elven_heresy_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_elven_heresy_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_elven_heresy;The [elven_heresy.GetName] Faithful;Fid?les [elven_heresy.GetName]s;Die [elven_heresy.GetName]en Gl?ubigen;;Creyentes [elven_heresy.GetName]s;;;;;;;;;x
+secretly_convert_to_elven_heresy_holy_site;Secretly Convert to [elven_heresy.GetName];Adopter en secret la foi [elven_heresy.GetName];Heimlich zum [elven_heresy.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [elven_heresy.GetName];;;;;;;;;x
+secretly_convert_to_elven_heresy_holy_site_desc;The Y[elven_heresy.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[elven_heresy.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[elven_heresy.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[elven_heresy.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_elven_heresy;The Childrens of Khane;;;;;;;;;;;;;x
+secret_religious_society_elven_heresy_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_elven_tribunal;[GetReligiousCommunityName_elven_tribunal];[GetReligiousCommunityName_elven_tribunal];[GetReligiousCommunityName_elven_tribunal];;[GetReligiousCommunityName_elven_tribunal];;;;;;;;;x
+secret_religious_society_elven_tribunal_desc;[GetReligiousSocietyDesc_elven_tribunal];[GetReligiousSocietyDesc_elven_tribunal];[GetReligiousSocietyDesc_elven_tribunal];;[GetReligiousSocietyDesc_elven_tribunal];;;;;;;;;x
+secret_religious_society_elven_tribunal_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_elven_tribunal_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_elven_tribunal;The [elven_tribunal.GetName] Faithful;Fid?les [elven_tribunal.GetName]s;Die [elven_tribunal.GetName]en Gl?ubigen;;Creyentes [elven_tribunal.GetName]s;;;;;;;;;x
+secretly_convert_to_elven_tribunal_holy_site;Secretly Convert to [elven_tribunal.GetName];Adopter en secret la foi [elven_tribunal.GetName];Heimlich zum [elven_tribunal.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [elven_tribunal.GetName];;;;;;;;;x
+secretly_convert_to_elven_tribunal_holy_site_desc;The Y[elven_tribunal.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[elven_tribunal.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[elven_tribunal.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[elven_tribunal.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_elven_tribunal;Followers of Three;;;;;;;;;;;;;x
+secret_religious_society_elven_tribunal_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_elven_tribunal_heresy;[GetReligiousCommunityName_elven_tribunal_heresy];[GetReligiousCommunityName_elven_tribunal_heresy];[GetReligiousCommunityName_elven_tribunal_heresy];;[GetReligiousCommunityName_elven_tribunal_heresy];;;;;;;;;x
+secret_religious_society_elven_tribunal_heresy_desc;[GetReligiousSocietyDesc_elven_tribunal_heresy];[GetReligiousSocietyDesc_elven_tribunal_heresy];[GetReligiousSocietyDesc_elven_tribunal_heresy];;[GetReligiousSocietyDesc_elven_tribunal_heresy];;;;;;;;;x
+secret_religious_society_elven_tribunal_heresy_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_elven_tribunal_heresy_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_elven_tribunal_heresy;The [elven_tribunal_heresy.GetName] Faithful;Fid?les [elven_tribunal_heresy.GetName]s;Die [elven_tribunal_heresy.GetName]en Gl?ubigen;;Creyentes [elven_tribunal_heresy.GetName]s;;;;;;;;;x
+secretly_convert_to_elven_tribunal_heresy_holy_site;Secretly Convert to [elven_tribunal_heresy.GetName];Adopter en secret la foi [elven_tribunal_heresy.GetName];Heimlich zum [elven_tribunal_heresy.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [elven_tribunal_heresy.GetName];;;;;;;;;x
+secretly_convert_to_elven_tribunal_heresy_holy_site_desc;The Y[elven_tribunal_heresy.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[elven_tribunal_heresy.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[elven_tribunal_heresy.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[elven_tribunal_heresy.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_elven_tribunal_heresy;Followers of Navruz;;;;;;;;;;;;;x
+secret_religious_society_elven_tribunal_heresy_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_dwarven;[GetReligiousCommunityName_dwarven];[GetReligiousCommunityName_dwarven];[GetReligiousCommunityName_dwarven];;[GetReligiousCommunityName_dwarven];;;;;;;;;x
+secret_religious_society_dwarven_desc;[GetReligiousSocietyDesc_dwarven];[GetReligiousSocietyDesc_dwarven];[GetReligiousSocietyDesc_dwarven];;[GetReligiousSocietyDesc_dwarven];;;;;;;;;x
+secret_religious_society_dwarven_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_dwarven_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_dwarven;The [dwarven.GetName] Faithful;Fid?les [dwarven.GetName]s;Die [dwarven.GetName]en Gl?ubigen;;Creyentes [dwarven.GetName]s;;;;;;;;;x
+secretly_convert_to_dwarven_holy_site;Secretly Convert to [dwarven.GetName];Adopter en secret la foi [dwarven.GetName];Heimlich zum [dwarven.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [dwarven.GetName];;;;;;;;;x
+secretly_convert_to_dwarven_holy_site_desc;The Y[dwarven.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[dwarven.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[dwarven.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[dwarven.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_dwarven;The Ancestor Gods Faithul;;;;;;;;;;;;;x
+secret_religious_society_dwarven_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_dwarven_dwemer;[GetReligiousCommunityName_dwarven_dwemer];[GetReligiousCommunityName_dwarven_dwemer];[GetReligiousCommunityName_dwarven_dwemer];;[GetReligiousCommunityName_dwarven_dwemer];;;;;;;;;x
+secret_religious_society_dwarven_dwemer_desc;[GetReligiousSocietyDesc_dwarven_dwemer];[GetReligiousSocietyDesc_dwarven_dwemer];[GetReligiousSocietyDesc_dwarven_dwemer];;[GetReligiousSocietyDesc_dwarven_dwemer];;;;;;;;;x
+secret_religious_society_dwarven_dwemer_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_dwarven_dwemer_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_dwarven_dwemer;The [dwarven_dwemer.GetName] Faithful;Fid?les [dwarven_dwemer.GetName]s;Die [dwarven_dwemer.GetName]en Gl?ubigen;;Creyentes [dwarven_dwemer.GetName]s;;;;;;;;;x
+secretly_convert_to_dwarven_dwemer_holy_site;Secretly Convert to [dwarven_dwemer.GetName];Adopter en secret la foi [dwarven_dwemer.GetName];Heimlich zum [dwarven_dwemer.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [dwarven_dwemer.GetName];;;;;;;;;x
+secretly_convert_to_dwarven_dwemer_holy_site_desc;The Y[dwarven_dwemer.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[dwarven_dwemer.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[dwarven_dwemer.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[dwarven_dwemer.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_dwarven_dwemer;Keepers of Knowledge;;;;;;;;;;;;;x
+secret_religious_society_dwarven_dwemer_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_dwarven_dwemer_heresy;[GetReligiousCommunityName_dwarven_dwemer_heresy];[GetReligiousCommunityName_dwarven_dwemer_heresy];[GetReligiousCommunityName_dwarven_dwemer_heresy];;[GetReligiousCommunityName_dwarven_dwemer_heresy];;;;;;;;;x
+secret_religious_society_dwarven_dwemer_heresy_desc;[GetReligiousSocietyDesc_dwarven_dwemer_heresy];[GetReligiousSocietyDesc_dwarven_dwemer_heresy];[GetReligiousSocietyDesc_dwarven_dwemer_heresy];;[GetReligiousSocietyDesc_dwarven_dwemer_heresy];;;;;;;;;x
+secret_religious_society_dwarven_dwemer_heresy_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_dwarven_dwemer_heresy_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_dwarven_dwemer_heresy;The [dwarven_dwemer_heresy.GetName] Faithful;Fid?les [dwarven_dwemer_heresy.GetName]s;Die [dwarven_dwemer_heresy.GetName]en Gl?ubigen;;Creyentes [dwarven_dwemer_heresy.GetName]s;;;;;;;;;x
+secretly_convert_to_dwarven_dwemer_heresy_holy_site;Secretly Convert to [dwarven_dwemer_heresy.GetName];Adopter en secret la foi [dwarven_dwemer_heresy.GetName];Heimlich zum [dwarven_dwemer_heresy.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [dwarven_dwemer_heresy.GetName];;;;;;;;;x
+secretly_convert_to_dwarven_dwemer_heresy_holy_site_desc;The Y[dwarven_dwemer_heresy.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[dwarven_dwemer_heresy.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[dwarven_dwemer_heresy.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[dwarven_dwemer_heresy.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_dwarven_dwemer_heresy;Voices of Nurutush;;;;;;;;;;;;;x
+secret_religious_society_dwarven_dwemer_heresy_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_dwarven_dwarven_dwemer_heresy_hashut;[GetReligiousCommunityName_dwarven_dwarven_dwemer_heresy_hashut];[GetReligiousCommunityName_dwarven_dwarven_dwemer_heresy_hashut];[GetReligiousCommunityName_dwarven_dwarven_dwemer_heresy_hashut];;[GetReligiousCommunityName_dwarven_dwarven_dwemer_heresy_hashut];;;;;;;;;x
+secret_religious_society_dwarven_dwarven_dwemer_heresy_hashut_desc;[GetReligiousSocietyDesc_dwarven_dwarven_dwemer_heresy_hashut];[GetReligiousSocietyDesc_dwarven_dwarven_dwemer_heresy_hashut];[GetReligiousSocietyDesc_dwarven_dwarven_dwemer_heresy_hashut];;[GetReligiousSocietyDesc_dwarven_dwarven_dwemer_heresy_hashut];;;;;;;;;x
+secret_religious_society_dwarven_dwarven_dwemer_heresy_hashut_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_dwarven_dwarven_dwemer_heresy_hashut_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_dwarven_dwarven_dwemer_heresy_hashut;The [dwarven_dwarven_dwemer_heresy_hashut.GetName] Faithful;Fid?les [dwarven_dwarven_dwemer_heresy_hashut.GetName]s;Die [dwarven_dwarven_dwemer_heresy_hashut.GetName]en Gl?ubigen;;Creyentes [dwarven_dwarven_dwemer_heresy_hashut.GetName]s;;;;;;;;;x
+secretly_convert_to_dwarven_dwarven_dwemer_heresy_hashut_holy_site;Secretly Convert to [dwarven_dwarven_dwemer_heresy_hashut.GetName];Adopter en secret la foi [dwarven_dwarven_dwemer_heresy_hashut.GetName];Heimlich zum [dwarven_dwarven_dwemer_heresy_hashut.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [dwarven_dwarven_dwemer_heresy_hashut.GetName];;;;;;;;;x
+secretly_convert_to_dwarven_dwarven_dwemer_heresy_hashut_holy_site_desc;The Y[dwarven_dwarven_dwemer_heresy_hashut.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[dwarven_dwarven_dwemer_heresy_hashut.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[dwarven_dwarven_dwemer_heresy_hashut.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[dwarven_dwarven_dwemer_heresy_hashut.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_dwarven_dwarven_dwemer_heresy_hashut;Childrens of Darkness;;;;;;;;;;;;;x
+secret_religious_society_dwarven_dwarven_dwemer_heresy_hashut_desc_REAL;;;;;;;;;;;;;;x
+
+secret_religious_society_cat_folk_religion;[GetReligiousCommunityName_cat_folk_religion];[GetReligiousCommunityName_cat_folk_religion];[GetReligiousCommunityName_cat_folk_religion];;[GetReligiousCommunityName_cat_folk_religion];;;;;;;;;x
+secret_religious_society_cat_folk_religion_desc;[GetReligiousSocietyDesc_cat_folk_religion];[GetReligiousSocietyDesc_cat_folk_religion];[GetReligiousSocietyDesc_cat_folk_religion];;[GetReligiousSocietyDesc_cat_folk_religion];;;;;;;;;x
+secret_religious_society_cat_folk_religion_currency;Devotion;D?votion;Hingabe;;Devoci?n;;;;;;;;;x
+secret_religious_society_cat_folk_religion_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
+alt_start_community_name_cat_folk_religion;The [cat_folk_religion.GetName] Faithful;Fid?les [cat_folk_religion.GetName]s;Die [cat_folk_religion.GetName]en Gl?ubigen;;Creyentes [cat_folk_religion.GetName]s;;;;;;;;;x
+secretly_convert_to_cat_folk_religion_holy_site;Secretly Convert to [cat_folk_religion.GetName];Adopter en secret la foi [cat_folk_religion.GetName];Heimlich zum [cat_folk_religion.GetName] Glauben konvertieren;;Convertirse en secreto a la religi?n [cat_folk_religion.GetName];;;;;;;;;x
+secretly_convert_to_cat_folk_religion_holy_site_desc;The Y[cat_folk_religion.GetName]! pilgrims that flock to the holy site in Y[Root.Location.GetName]! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les p?lerins Y[cat_folk_religion.GetName]! qui affluent vers le site saint en Y[Root.Location.GetName]! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tent?[Root.Get_E] de me convertir en secret...;Die Y[cat_folk_religion.GetName]istischen! Pilger in Y[Root.Location.GetName]! beeindrucken mich durch die Tiefe und die Leidenschaft ihres Glaubens. Ich bin versucht, heimlich zu konvertieren ...;;Los peregrinos Y[cat_folk_religion.GetName]! que acuden en masa al lugar sagrado en Y[Root.Location.GetName]! me impresionan con la profundidad y la pasi?n de su fe. Me tienta convertirme en secreto...;;;;;;;;;x
+secret_religious_society_REAL_cat_folk_religion;Solar Adherents;;;;;;;;;;;;;x
+secret_religious_society_cat_folk_religion_desc_REAL;;;;;;;;;;;;;;x
+
+String_Praise_to_Prince_of_Darkness;Praise to Prince of Darkness!;;;;;;;;;;;;;;x
+String_Prince_Of_Darkness;Prince of Darkness;;;;;;;;;;;;;;x

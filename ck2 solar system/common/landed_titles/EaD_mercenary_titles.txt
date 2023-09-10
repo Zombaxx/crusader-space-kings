@@ -1,0 +1,202 @@
+d_blood_elven_mercenaries = { #Corsairs of the Chill Coast
+	color = { 49 33 66 }
+	color2 = { 255 255 255 }
+
+	capital = 301 #
+	
+	# Parent Religion 
+	religion = elven_heresy
+	culture = blood_elven
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = treasure_fleet_composition
+}
+
+d_dark_dwarven_mercenaries = { #White Ziggurat Arheologists
+	color = { 123 82 33 }
+	color2 = { 255 255 255 }
+
+	capital = 657 #
+	
+	# Parent Religion 
+	religion = dwarven_dwemer
+	culture = dark_dwarven
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = jolly_brewers_composition
+}
+
+d_dark_elven_mercenaries = { #Slavers of the Black Coast
+	color = { 115 99 82 }
+	color2 = { 255 255 255 }
+
+	capital = 868 #
+	
+	# Parent Religion 
+	religion = elven_tribunal
+	culture = dark_elven
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = treasure_fleet_composition
+}
+
+d_dwarven_mercenaries = { #Jolly Brewers
+	color = { 41 90 123 }
+	color2 = { 255 255 255 }
+
+	capital = 238 #
+	
+	# Parent Religion 
+	religion = dwarven
+	culture = dwarven_dawi
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = jolly_brewers_composition
+}
+
+d_high_elven_mercenaries = { #Squirrel Tails
+	color = { 66 173 66 }
+	color2 = { 255 255 255 }
+
+	capital = 1937 #
+	
+	# Parent Religion 
+	religion = elven
+	culture = high_elven
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = squirrel_tails_composition
+}
+
+d_cat_folk_mercenaries = { #Solemn Desert Trade Guards
+	color = { 198 165 123 }
+	color2 = { 255 255 255 }
+
+	capital = 1732 #
+	
+	# Parent Religion 
+	religion = cat_folk_religion
+	culture = cat_folk
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = persian_caravan_guards_composition
+}
+
+d_oruk_hai_mercenaries = { #White Hand Legion
+	color = { 23 23 23 }
+	color2 = { 255 255 255 }
+
+	capital = 1475 #
+	
+	# Parent Religion 
+	religion = orc_religion_dark_lord
+	culture = oruk_hai
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = jolly_brewers_composition
+}

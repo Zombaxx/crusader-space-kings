@@ -1,0 +1,170 @@
+#CODE;#ENGLISH;;;;;;;;;;;;;x
+otherworlden;Other World Religions;;;;;;;;;;;;;x
+elven;Elven Pantheon;;;;;;;;;;;;;x
+elven_DESC;The elven pantheon is based on the worship of a single god simply known as The Divine and his "vicars" - "Vares", who control different aspects of the world like skies, seas, nature and others. Since this religion combines both elements of monotheism and paganism, it's followers can easily coexist with various Earth religions;;;;;;;;;x
+WAR_OF_JUSTICE;War of Justice;;;;;;;;;;;;;x
+ANCIENT_SCRIPTURES;Ancient Sriptures;;;;;;;;;;;;;x
+LOREMASTER;Loremaster;;;;;;;;;;;;;x
+GOD_FATHER_OF_ALL;The Divine;;;;;;;;;;;;;x
+GOD_LORD_OF_THE_WIND;Vare Amane;;;;;;;;;;;;;x
+GOD_LORD_OF_THE_SEAS;Vare Ulime;;;;;;;;;;;;;x
+GOD_LORD_OF_THE_EARTH;Vare Aliur;;;;;;;;;;;;;x
+GOD_LORD_OF_THE_HUNT;Vare Tulithe;;;;;;;;;;;;;x
+GOD_LADY_OF_NATURE;Vari Yalareth;;;;;;;;;;;;;x
+GOD_LADY_OF_THE_STARS;Vari Elibereth;;;;;;;;;;;;;x
+GOD_LADY_OF_TEARS;Vari Neinna;;;;;;;;;;;;;x
+GOD_LADY_OF_FATE;Vari Valira;;;;;;;;;;;;;x
+GOD_LORD_OF_WAR;Vare Kaine;;;;;;;;;;;;;x
+elven_heresy;Cult of Kaine;;;;;;;;;;;;;x
+elven_heresy_DESC;The Cult of Kaine is a terrifying religion, whose adherents worship and make human sacrifices to the relentless Vicar of War, Kaine. In addition to the Vicar of War, they also worshipping other fallen ones that were condemed by others Vicars, such as Renneth, Vicar of Battle and daughter of Kaine, and Berethan, Vicar of Shadows. Followers of traditional Elven Pantheon despise Blood Cultists for their practices, and that feeling is mutual;;;;;;;;;x
+WAR_OF_BLOOD;War of Blood;;;;;;;;;;;;;x
+GOD_LADY_OF_BATTLE;Vari Renneth;;;;;;;;;;;;x
+GOD_LADY_OF_SHADOWS;Vare Berethan;;;;;;;;;;;;;x
+GOD_THE_ENEMY_OF_THE_WORLD;Moru Tor Goroth;;;;;;;;;;;;;x
+elven_tribunal;The Triarchy;;;;;;;;;;;;;x
+elven_tribunal_DESC;The Triarchy, or VERIAL, is a religion based on the worship of three Gods-Triarchs: Lady Reanna, warrior-poet, patroness of military, Lord Al-Setep, patron of craft and knowledge and Lord Verios, patron of laws and diplomacy. The Triarchy is opposed by the evil god Shurdum, the ruler of the Cursed House and the lord of nightmares and diseases, who, according to legend, betrayed the Triarchy and killed Lord Naveruz, the herald of VERIAL;;;;;;;;;x
+FORTY_TWO_LESSONS_OF_REANNA;Forty Two Lessons of Reanna;;;;;;;;;;;;;x
+GOD_VERIAL;VERIAL;;;;;;;;;;;;;x
+GOD_THE_THIARCHY;The Triarchy;;;;;;;;;;;;;x
+GOD_THE_SAINTS;The Saints;;;;;;;;;;;;;x
+GOD_VERIOS;Lord Verios;;;;;;;;;;;;;x
+GOD_REANNA;Lady Reanna;;;;;;;;;;;;;x
+GOD_AL_SETEP;Lord Al-Setep;;;;;;;;;;;;;x
+GOD_PROPHET_NAVRUZ;Saint Naveruz;;;;;;;;;;;;;x
+GOD_SHURDUM;Shurdum;;;;;;;;;;;;;x
+GOD_MAD_GOD;The Mad God;;;;;;;;;;;;;x
+GOD_THE_TRAITOR;The Traitor;;;;;;;;;;;;;x
+elven_tribunal_heresy;The True Triarchy;;;;;;;;;;;;;x
+elven_tribunal_heresy_DESC;Followers of the True Triarchy claim that VERIAL are false gods, that replaced the True Triarchy of the ancient deities Alereth, Mali-Ra and Berat-Tashi. Moreover, they claim that it was VERIAL who killed Lord Naveruz, and not Shurdum, who fell into evil and madness because of the betrayal of the False Triarchy.";;;;;;;;;x
+BOOK_OF_TRUE;Book of True;;;;;;;;;;;;;x
+GOD_TRUE_TRIARCHY;The True Triarchy;;;;;;;;;;;;;x
+GOD_ALERET;Lady Alereth;;;;;;;;;;;;;x
+GOD_MALI_RA;Lady Mali-Ra;;;;;;;;;;;;;x
+GOD_BERAT_TASHI;Lord Berat-Tashi;;;;;;;;;;;;;x
+GOD_FALSE_TRIARCHY;The False Triarchy;;;;;;;;;;;;;x
+dwarven;Dwarven;;;;;;;;;;;;;x
+dwarven_DESC;The religion of the dwarves is based on the worship of the Creator God Marach, who, according to legend, carved the first dwarves from stone, and then taught the first seven forefathers of the dwarves in language and crafts. In addition to Marach, the dwarves also worship these seven forefathers, as well as many numerous ancestors who, according to their beliefs, help and guide them in their daily life. Evil tongues claim that the dwarf god Marach is in fact the elven Vare Aliur, which the dwarves vehemently deny;;;;;;;;;x
+WAR_OF_VENGEANCE;War of Vengeance;;;;;;;;;;;;;x
+RUNIC_TABLETS;The Runic Tablets;;;;;;;;;;;;;x
+GOD_THE_DWARVEN_CREATOR;Marach;;;;;;;;;;;;;x
+GOD_ANCESTOR_GODS;The Ancestor Gods;;;;;;;;;;;;;x
+GOD_SEVEN_FOREFATHERS;The Seven Forefathers;;;;;;;;;;;;;x
+GOD_THE_DESTROYER;The Destroyer;;;;;;;;;;;;;x
+dwarven_dwemer;Cult of Knowledge;;;;;;;;;;;;;x
+dwarven_dwemer_DESC;The Cult of Knowledge cannot be considered a religion in the usual sense of the word. It is rather a philosophy aimed at comprehending and studying the world. Even "The One Omniscient" described in the texts of this "religion" is rather an incomprehensible ideal of a perfect being to strive for, rather than a deity. Nevertheless, like the followers of the Triarchy, the followers of the Cult of Knowledge fear and hate the evil god Shurdum...;;;;;;;;;x
+WAR_FOR_KNOWLEDGE;War for Knowledge;;;;;;;;;;;;;x
+UNIVERSAL_LAWS;Eight Universal Laws;;;;;;;;;;;;;x
+SCHOLAR;Scholar;;;;;;;;;;;;;x
+KNOWLEDGE;Knowledge;;;;;;;;;;;;;x
+GOD_OMNISCIENT;The One Omniscient;;;;;;;;;;;;;x
+GOD_KNOWLEDGE;Knowledge;;;;;;;;;;;;;x
+GOD_LOGIC;Logic;;;;;;;;;;;;;x
+GOD_MOTIVE_FORCE;Motive Force;;;;;;;;;;;;;x
+MONTHLY_PIETY_KNOWLEDGE;Knowledge;;;;;;;;;;;;;x
+STAT_PIETY_KNOWLEDGE;Knowledge;;;;;;;;;;;;;x
+STAT_PIETY_DESC_KNOWLEDGE;;;;;;;;;;;;;;x
+dwarven_dwemer_heresy;Nurutushian;;;;;;;;;;;;;x
+dwarven_dwemer_heresy_DESC;The religion of the Nurutushians deviates from the materialism of the Cult of Knowledge towards blind faith in Nurutush, also known as "The Brass God", a magical construct that helped the dwarves move to another world, and its creator, Saint Karotech. Nurutushians believe that "The Brass God" remaining in the dying world will soon join them in the new world and begin a new era of peace and prosperity;;;;;;;;;x
+SACRIFICE_OF_NURUTUSH;The Sacrifice of Nurutush;;;;;;;;;;;;;x
+GOD_NURUTUSH;Nurutush;;;;;;;;;;;;;x
+GOD_BRASS_GOD;The Brass God;;;;;;;;;;;;;x
+GOD_SAINT_KAROTECH;Saint Karotech;;;;;;;;;;;;;x
+GOD_FALSE_GODS;The False Gods;;;;;;;;;;;;;x
+dwarven_dwemer_heresy_hashut;Cult of Hazhut;;;;;;;;;;;;;x
+dwarven_dwemer_heresy_hashut_DESC;The Cult of Hazhut is a distorting mirror of the Cult of Knowledge, embodying the most negative traits of dark dwarves - greed, lust for power, hatred of others. Slave labor, bloody sacrifices, ruthless exploitation and tyranny are the pillars of this religion, for such is the will of the Father of Darkness. At one time, the followers of this religion were ruthlessly exterminated by the followers of the Cult of Knowledge, but, apparently, not completely.;;;;;;;;;;;;;x
+WILL_OF_HAZHUT;The Will of Hazhut;;;;;;;;;;;;;x
+GOD_HAZHUT;Hazhut;;;;;;;;;;;;;x
+GOD_BRASS_BULL;The Brass Bull;;;;;;;;;;;;;x
+GOD_FATHER_OF_DARKNESS;The Father of Darkness;;;;;;;;;;;;;x
+cat_folk_religion;Rajatral'tar;;;;;;;;;;;;;x
+cat_folk_religion_DESC;Rajatral'tar is a polytheistic religion based on the worship of numerous gods. The number of gods of this religion is huge, but several main gods stand out in it: the supreme god Rajatra, whose sphere is the sun and royal power, the goddess of war Serhejet, the god of fire and the desert Yajatra, the goddess of death Mafredejt, the goddess of fertility and rain Teferjerut and the goddess of knowledge Shejart. They all fight against the monstrous Apojri, the Great Serpent, who wants to devour the world;;;;;;;;;x
+SOLAR_WAR;Solar War;;;;;;;;;;;;;x
+GOD_SOLAR_GOD_RAJATRA;Rajatra;;;;;;;;;;;;;x
+GODDES_FERTILITY_TEPHERJERUT;Teferjerut;;;;;;;;;;;;;x
+GODDES_WAR_SERHEJET;Serhejet;;;;;;;;;;;;;x
+GODDES_KNOWLEDGE_SHEJART;Shejart;;;;;;;;;;;;;x
+GODDES_DEATH_MARFEDEJT;Mafredejt;;;;;;;;;;;;;x
+GOD_FIRE_YAJATRA;Yajatra;;;;;;;;;;;;;x
+GOD_LUNAR_GODDES_JAHRA;Jahra;;;;;;;;;;;;;x
+GOD_SERPENT_APOJRI;Apojri;;;;;;;;;;;;;x
+ANCIENT_RITES;Ancient Rites;;;;;;;;;;;;;x
+GOD_THE_GODS;The Gods;;;;;;;;;;;;;x
+orc_religion;Wargadanism;;;;;;;;;;;;;x
+orc_religion_DESC;Wargadanism is a monotheistic religion based upon worshipping of a single warrior god - Wargadan. Wargadan originally was an oruk tribe chief, whose truly name was long forgotten, who managed to unify the various oruk tribes and build a mighty Oruk Empire. According to the oruk legends, he did not die, but ascended to the eternal sky to rule not only the Oruk, but the spirits as well. Wargadan favour those brave warriors who show courage and strength on the battlefield and ascend them after their death to join his great army that wage war against various evil spirits and various foreign gods that seeks to destroy his followers.;;;;;;;;;;;;;x
+orc_religion_heresy;Old Ways;;;;;;;;;;;;;x
+orc_religion_heresy_DESC;A group of beliefs that existed before the advent of Vargadan, the Old Ways worshipping the forces of nature and the enless spirits, that exists in all things. And althrough the majority of Oruks have accepted the faith in Wargadan, there is still Oruks that deny his divinity and follows the Old Ways.;;;;;;;;;;;;;x
+GOD_WARGADAN;Wardagan;;;;;;;;;;;;;x
+GOD_THE_FURIOUS;The Furious One;;;;;;;;;;;;;x
+GOD_THE_ETERNAL_WARRIOR;The Eternal Warrior;;;;;;;;;;;;;x
+GOD_THE_SPIRITS;The Spirits;;;;;;;;;;;;;x
+GOD_THE_EVIL_SPIRITS;The Evils Spirits;;;;;;;;;;;;;x
+GOD_THE_EVIL_GODS;The Evil Gods;;;;;;;;;;;;;x
+orc_religion_dark_lord;Cult of the Dark Lord;;;;;;;;;;;;;x
+orc_religion_dark_lord_DESC;The followers of this religion worship and revere the first emperor of the Oruk Empire, Gorthauron Tar-Mairon, who was knowns to everyone as fearsome Dark Lord. The distant heirs of the Dark Lord or powerful rulers can claim this title and enjoy almost the same authority as the First Dark Lord.;;;;;;;;;;;;;x
+THE_BLACK_BOOK;The Black Book;;;;;;;;;;;;;x
+THE_WHITE_BOOK;The White Book;;;;;;;;;;;;;x
+GOD_THE_DARK_LORD;Dark Lord;;;;;;;;;;;;;x
+GOD_THE_ONE;The One;;;;;;;;;;;;;x
+GOD_THE_BRIGHT_LORD;Bright Lord;;;;;;;;;;;;;x
+orc_religion_bright_lord;Cult of the Bright Lord;;;;;;;;;;;;;x
+orc_religion_bright_lord_DESC;The followers of this religion worship the worst enemy of the Dark Lord, the only worthy opponent who managed to challenge him - the Bright Lord. The distant heirs of the Bright Lord or powerful rulers can claim this title and enjoy almost the same authority as the First Bright Lord.;;;;;;;;;;;;;x
+#Religion patrons and events
+#TRIARCHY GODS
+EADREDESC.1;The gods of the Triarchy help and guide their people. To which of the Three Lords should I dedicate my prayers to become a better [Root.GetManWoman]?;;;;;;;;;;;;;x
+tribunal_patron_1_a;A Lord Verios, the Divine Ruler!;;;;;;;;;;;;;x
+tribunal_patron_1_b;A Lady Reanna, the Warior-Poetess!;;;;;;;;;;;;;x
+tribunal_patron_1_c;A Lord Al-Setep, the Great Teacher!;;;;;;;;;;;;;x
+select_patron_deity_tribunal;Select patron deity;;;;;;;;;;;;;x
+select_patron_deity_tribunal_desc;Choose a patron god from the Triarchy;;;;;;;;;;;;;x
+change_patron_deity_tribunal;Choose another patron deity.;;;;;;;;;;;;;x
+change_patron_deity_tribunal_desc;Choose a patron god from the Triarchy;;;;;;;;;;;;;x
+patron_verios;Follower of Lord Verios;;;;;;;;;;;;;x
+patron_verios_desc;This character worshipping Lord Verios, the God of Fair Rule and Diplomacy, as main patron deity.;;;;;;;;;;;;;x
+patron_reanna;Follower of Lady Reanna;;;;;;;;;;;;;x
+patron_reanna_desc;This character worshipping Lady Reanna, the Goddes of Warriors and Assassins, as main patron deity.;;;;;;;;;;;;;x
+patron_al_setep;Follower of Lord Al-Setep;;;;;;;;;;;;;x
+patron_al_setep_desc;This character worshipping Lord Al-Setep, the God of Knowledge, as main patron deity.;;;;;;;;;;;;;x
+select_patron_deity_true_tribunal;Select patron deity;;;;;;;;;;;;;x
+select_patron_deity_true_tribunal_DESC;Choose a patron god from the Triarchy;;;;;;;;;;;;;x
+change_patron_deity_true_tribunal;Choose another patron deity.;;;;;;;;;;;;;x
+change_patron_deity_true_tribunal_desc;Choose a patron god from the Triarchy;;;;;;;;;;;;;x
+select_patron_saint_tribunal;Select patron saint;;;;;;;;;;;;;x
+select_patron_saint_tribunal_desc;Choose a patron saint of Triarchy church;;;;;;;;;;;;;x
+choose_patron_saint;Choose Patron Saint;;;;;;;;;;;;;x
+change_patron_saint_tribunal;Choose another patron saint of Triarchy church;;;;;;;;;;;;;x
+change_patron_saint_tribunal_desc;Choose a patron saint of Triarchy church;;;;;;;;;;;;;x
+true_tribunal_patron_1_a;Lady Aleret, the Lady of Day and Night!;;;;;;;;;;;;;x
+true_tribunal_patron_1_b;Lady Mali Ra, the Singing Blade!;;;;;;;;;;;;;x
+true_tribunal_patron_1_c;Lord Berat-Tashi, the Lord of Secrets!;;;;;;;;;;;;;x
+patron_aleret;Follower of Lady Aleret;;;;;;;;;;;;;x
+patron_aleret_desc;This character worshipping Lady Aleret, the Goddes of Moon and Sun, as main patron deity.;;;;;;;;;;;;;x
+patron_mali_ra;Follower of Lady Mali Ra;;;;;;;;;;;;;x
+patron_mali_ra_desc;This character worshipping Lady Mali Ra, the Goddes of War, as main patron deity.;;;;;;;;;;;;;x
+patron_berat_tashi;Follower of Lord Berat-Tashi;;;;;;;;;;;;;x
+patron_berat_tashi_desc;This character worshipping Lord Berat-Tashi, the God of Secrets, as main patron deity.;;;;;;;;;;;;;x
+#TRIARCHY Saints
+EADREDESC.2;The blessed saints of the Triarchy, canonized by the church, serve as examples of virtue for the faithful. What saint will serve as an example of virtue for me?;;;;;;;;;;;;;x
+tribunal_saint_1_a;Saint Veros, The Piligrim!;;;;;;;;;;;;;x  
+tribunal_saint_1_b;Saint Naveruz, The Herald of Gods!;;;;;;;;;;;;;x
+tribunal_saint_1_c;Saint Resin, The Protector of Poor!;;;;;;;;;;;;;x
+tribunal_saint_1_d;Or maybe...;;;;;;;;;;;;;x
+tribunal_saint_1_e;Saint Oros, The Judge!;;;;;;;;;;;;;x
+tribunal_saint_1_f;Saint Neris, The Healer!;;;;;;;;;;;;;x
+tribunal_saint_1_g;Saint Lloris, The Blessed!;;;;;;;;;;;;;x
+saint_veros;Follower of Saint Veros;;;;;;;;;;;;;x
+saint_navruz;Follower of Saint Naveruz;;;;;;;;;;;;;x
+saint_resin;Follower of Saint Resin;;;;;;;;;;;;;x
+saint_oros;Follower of Saint Oros;;;;;;;;;;;;;x
+saint_neris;Follower of Saint Neris;;;;;;;;;;;;;x
+saint_lloris;Follower of Saint Lloris;;;;;;;;;;;;;x
+#DARK DWARVEN SCHOOLS
+EADREDESC.3;Created at the dawn of the civilization of the dark dwarves, the Three Schools directs our society to a brighter future. Which of the Three Schools should I choose?;;;;;;;;;;;;;x
+dark_dwarven_school_1_a;The School Nchar-Ashdaar, The Aspect of Destruction!;;;;;;;;;;;;;x
+dark_dwarven_school_1_b;The School Nchuad-Ashdaar, The Aspect of Creation!;;;;;;;;;;;;;x
+dark_dwarven_school_1_c;The School Nzar-Ashdaar, The Aspect of Preservation!;;;;;;;;;;;;;x
+school_nchar_ashdaar;Follower of School Nchar-Ashdaar;;;;;;;;;;;;;x
+school_nchar_ashdaar_desc;This character belongs to the School Nchar-Ashdaar. This philosophical school specializes in army management and warfare.;;;;;;;;;;;;;x
+school_nchuad_ashdaar;Follower of School Nchuad-Ashdaar;;;;;;;;;;;;;x
+school_nchuad_ashdaar_desc;This character belongs to the School Nchuad-Ashdaar. This philosophical school specializes in architecture, construction and economics.;;;;;;;;;;;;;x
+school_nzar_ashdaar;Follower of School Nzar-Ashdaar;;;;;;;;;;;;;x
+school_nzar_ashdaar_desc;This character belongs to the School Nzar-Ashdaar. This philosophical school specializes in administration and diplomacy.;;;;;;;;;;;;;x

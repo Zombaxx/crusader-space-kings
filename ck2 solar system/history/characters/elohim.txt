@@ -2,7 +2,7 @@
 	name="Rahab"
 	dynasty=77777
 	culture=dragon_culture 
-	religion=shiite
+	religion=elven_tribunal_heresy
 	diplomacy=90
 	trait=charismatic_negotiator
 	trait=immortal
@@ -16,7 +16,7 @@
 	name="Tehom"
 	#dynasty=77777
 	culture=dragon_culture 
-	religion=shiite
+	religion=elven_tribunal_heresy
 	female=yes
 	martial=90
 	trait=duelist
@@ -33,7 +33,7 @@
 	name="Elyon"
 	dynasty=77777
 	culture=dragon_culture 
-	religion=shiite
+	religion=elven_tribunal_heresy
 	father=777771
 	mother=777772
 	diplomacy=9
@@ -51,7 +51,7 @@
 	name="Beruth"
 	#dynasty=77777
 	culture=dragon_culture 
-	religion=shiite
+	religion=elven_tribunal_heresy
 	#father=777771
 	mother=777772
 	female=yes
@@ -68,7 +68,7 @@
 	name="Epigeius"
 	dynasty=77777
 	culture=dragon_culture 
-	religion=shiite
+	religion=elven_tribunal_heresy
 	father=777773
 	mother=777774
 	martial=9
@@ -86,7 +86,7 @@
 	name="Gaia"
 	#dynasty=77777
 	culture=dragon_culture 
-	religion=shiite
+	religion=elven_tribunal_heresy
 	#father=777773
 	mother=777774
 	diplomacy=9
@@ -102,8 +102,8 @@
 777777={
 	name="El"
 	dynasty=77777
-	culture=roman 
-	religion=shiite
+	culture=dark_elven_tribunal_heresy 
+	religion=elven_tribunal_heresy
 	father=777775
 	mother=777776
 	trait=immortal
@@ -117,8 +117,8 @@
 7777771={
 	name="Dione"
 	dynasty=77777
-	culture=roman 
-	religion=shiite
+	culture=dark_elven_tribunal_heresy 
+	religion=elven_tribunal_heresy
 	father=777775
 	mother=777776
 	female=yes
@@ -128,8 +128,8 @@
 7777772={
 	name="Rhea"
 	dynasty=77777
-	culture=roman 
-	religion=shiite
+	culture=dark_elven_tribunal_heresy 
+	religion=elven_tribunal_heresy
 	father=777775
 	mother=777776
 	female=yes
@@ -139,8 +139,8 @@
 7777773={
 	name="Baetyl"
 	dynasty=77777
-	culture=roman 
-	religion=shiite
+	culture=dark_elven_tribunal_heresy 
+	religion=elven_tribunal_heresy
 	father=777775
 	mother=777776
 	trait=immortal
@@ -150,8 +150,8 @@
 7777774={
 	name="Dagon"
 	dynasty=77777
-	culture=roman 
-	religion=shiite
+	culture=dark_elven_tribunal_heresy 
+	religion=elven_tribunal_heresy
 	father=777775
 	mother=777776
 	trait=immortal
@@ -160,8 +160,8 @@
 7777775={
 	name="Atlas"
 	dynasty=77777
-	culture=roman 
-	religion=shiite
+	culture=dark_elven_tribunal_heresy 
+	religion=elven_tribunal_heresy
 	father=777775
 	mother=777776
 	trait=immortal
@@ -171,8 +171,8 @@
 777778={
 	name="Asherah"
 	#dynasty=77777
-	culture=roman 
-	religion=shiite
+	culture=dark_elven_tribunal_heresy 
+	religion=elven_tribunal_heresy
 	#father=777775
 	mother=777776
 	trait=immortal
@@ -184,8 +184,8 @@
 777779={
 	name="Baal"
 	dynasty=77778
-	culture=roman
-	religion=hellenic_pagan
+	culture=dark_elven_tribunal_heresy
+	religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=giant
@@ -200,7 +200,7 @@
 7777791={
 	name="Athena"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -212,7 +212,7 @@
 7777792={
 	name="Artemis"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -221,7 +221,7 @@
 7777793={
 	name="Apollo"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -230,7 +230,7 @@
 7777794={
 	name="Ares"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -239,7 +239,7 @@
 7777795={
 	name="Hebe"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -248,7 +248,7 @@
 7777796={
 	name="Eileithia"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -257,7 +257,7 @@
 7777797={
 	name="Hermes"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -266,7 +266,7 @@
 7777798={
 	name="Dionysus"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -275,7 +275,7 @@
 7777799={
 	name="Moirai"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -284,7 +284,7 @@
 77777910={
 	name="Horae"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -293,7 +293,7 @@
 77777911={
 	name="Muses"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -302,7 +302,7 @@
 77777912={
 	name="Charites"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	15.1.1={birth=yes}
@@ -310,7 +310,7 @@
 77777913={
 	name="Pan"
 	dynasty=77778
-	culture=roman
+	culture=dark_elven_tribunal_heresy
 	religion=hellenic_pagan
 	father=777779
 	trait=immortal
@@ -320,8 +320,8 @@
 777780={
 	name="Shahar"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	female=yes
@@ -331,8 +331,8 @@
 777781={
 	name="Anath"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	female=yes
@@ -342,8 +342,8 @@
 777782={
 	name="Yam"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -352,8 +352,8 @@
 777783={
 	name="Mot"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -363,8 +363,8 @@
 777784={
 	name="Derketo"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	female=yes
@@ -374,8 +374,8 @@
 777785={
 	name="Shaddai"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -384,8 +384,8 @@
 777786={
 	name="Attar"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -394,8 +394,8 @@
 777787={
 	name="Moloch"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -404,8 +404,8 @@
 777788={
 	name="Shapash"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	female=yes
@@ -415,8 +415,8 @@
 777789={
 	name="Nikelah"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	female=yes
@@ -426,8 +426,8 @@
 777790={
 	name="Eros"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -436,8 +436,8 @@
 7777901={
 	name="Pothos"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -446,8 +446,8 @@
 7777902={
 	name="Anobret"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -456,8 +456,8 @@
 7777903={
 	name="Ieoud"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -466,8 +466,8 @@
 7777904={
 	name="Artemides"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -476,8 +476,8 @@
 7777905={
 	name="Asclepius"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=7777904
 	trait=immortal
     15.7.1={birth=yes}
@@ -485,8 +485,8 @@
 777791={
 	name="Athena"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	female=yes
@@ -496,8 +496,8 @@
 777792={
 	name="Shaddai"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	female=yes
@@ -507,8 +507,8 @@
 777793={
 	name="Persephone"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -517,16 +517,17 @@
 777794={
 	name="Demarun"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
+	trait=immortal
     5.1.30={birth=yes}
 }
 777795={
 	name="Melqart"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777794
 	trait=immortal
     20.10.30={birth=yes}
@@ -534,8 +535,8 @@
 777796={
 	name="Cronus"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -544,8 +545,8 @@
 777797={
 	name="Apollo"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -554,8 +555,8 @@
 777798={
 	name="Nous"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -565,8 +566,8 @@
 777799={
 	name="Aletheia"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777777
 	mother=777778
 	trait=immortal
@@ -577,8 +578,8 @@
 777100={
 	name="Logos"#Spirit of Christ
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777798
 	mother=777799
 	trait=immortal
@@ -588,8 +589,8 @@
 777101={
 	name="Zoe"
     dynasty=77777
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777798
 	mother=777799
 	trait=immortal
@@ -601,8 +602,8 @@
 777102={
 	name="Anthropos"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -613,8 +614,8 @@
 777103={
 	name="Ekklesia"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -626,8 +627,8 @@
 777104={
 	name="Bythios" #Decad
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -638,8 +639,8 @@
 777105={
 	name="Mixis"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -651,8 +652,8 @@
 777106={
 	name="Ageratos"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -663,8 +664,8 @@
 777107={
 	name="Henosis"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -676,8 +677,8 @@
 777108={
 	name="Autophues"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -688,8 +689,8 @@
 777109={
 	name="Hedone"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -701,8 +702,8 @@
 777110={
 	name="Akinetos"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -713,8 +714,8 @@
 777111={
 	name="Synkrasis"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -726,8 +727,8 @@
 777112={
 	name="Monogenes"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -738,8 +739,8 @@
 777113={
 	name="Makaria"
     dynasty=77779
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777100
 	mother=777101
 	trait=immortal
@@ -751,8 +752,8 @@
 777114={
 	name="Parakletos" #Dodecad
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -763,8 +764,8 @@
 777115={
 	name="Pistis"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -776,8 +777,8 @@
 777116={
 	name="Patrikos"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -788,8 +789,8 @@
 777117={
 	name="Elpis"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -801,8 +802,8 @@
 777118={
 	name="Metrikos"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -813,8 +814,8 @@
 777119={
 	name="Agape"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -826,8 +827,8 @@
 777120={
 	name="Ainos"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -838,8 +839,8 @@
 777121={
 	name="Synesis"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -851,8 +852,8 @@
 7771121={
 	name="Ekklesiastikos"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -863,8 +864,8 @@
 777122={
 	name="Makariotes"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	female=yes
@@ -876,8 +877,8 @@
 777123={
 	name="Theletos"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	trait=immortal
@@ -888,8 +889,8 @@
 777124={
 	name="Sophia"
     dynasty=77780
-    culture=roman
-    religion=shiite
+    culture=dark_elven_tribunal_heresy
+    religion=elven_tribunal_heresy
 	father=777102
 	mother=777103
 	female=yes
@@ -900,6 +901,7 @@
 777125={
 	name="Yaldabaoth"
     dynasty=77781
+	graphical_culture=dark_elven_tribunal
     culture=ashkenazi
     religion=catholic
 	real_father=777779

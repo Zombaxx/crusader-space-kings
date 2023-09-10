@@ -1,0 +1,2164 @@
+namespace = EADENCLAVE
+
+province_event = { #Elven count attract elven diaspora
+	id = EADENCLAVE.8
+	
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	trigger = {
+		controller = {
+			is_earth_or_otherworlden_elven_culture = yes
+		}
+		ROOT = {
+			NOR = {
+				has_province_modifier = elven_diaspora
+				is_earth_or_otherworlden_elven_culture = yes
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = elven_diaspora
+			duration = -1
+		}
+		owner = {
+			top_liege = { # Inform the liege
+				character_event = {
+					id = EADENCLAVE.13
+				}
+			}
+		}
+	}
+}
+
+province_event = { #Dwarven count attract dwarven diaspora
+	id = EADENCLAVE.9
+	
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	trigger = {
+		controller = {
+			is_earth_or_otherworlden_dwarven_culture = yes
+		}
+		ROOT = {
+			NOR = {
+				has_province_modifier = dwarven_diaspora
+				is_earth_or_otherworlden_dwarven_culture = yes
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = dwarven_diaspora
+			duration = -1
+		}
+		owner = {
+			top_liege = { # Inform the liege
+				character_event = {
+					id = EADENCLAVE.14
+				}
+			}
+		}
+	}
+}
+
+province_event = { #Dark elven count attract dark elven diaspora
+	id = EADENCLAVE.10
+	
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	trigger = {
+		controller = {
+			is_earth_or_otherworlden_dark_elven_culture = yes
+		}
+		ROOT = {
+			NOR = {
+				has_province_modifier = dark_elven_diaspora
+				is_earth_or_otherworlden_dark_elven_culture = yes
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = dark_elven_diaspora
+			duration = -1
+		}
+		owner = {
+			top_liege = { # Inform the liege
+				character_event = {
+					id = EADENCLAVE.15
+				}
+			}
+		}
+	}
+}
+
+province_event = { #Dark dwarven count attract dark dwarven diaspora
+	id = EADENCLAVE.11
+	
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	trigger = {
+		controller = {
+			is_earth_or_otherworlden_dark_dwarven_culture = yes
+		}
+		ROOT = {
+			NOR = {
+				has_province_modifier = dark_dwarven_diaspora
+				is_earth_or_otherworlden_dark_dwarven_culture = yes
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = dark_dwarven_diaspora
+			duration = -1
+		}
+		owner = {
+			top_liege = { # Inform the liege
+				character_event = {
+					id = EADENCLAVE.16
+				}
+			}
+		}
+	}
+}
+
+province_event = { #Cathrian count attract cathrian diaspora
+	id = EADENCLAVE.12
+	
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	trigger = {
+		controller = {
+			is_earth_or_otherworlden_cat_folk_culture = yes
+		}
+		ROOT = {
+			NOR = {
+				has_province_modifier = cat_folk_diaspora
+				is_earth_or_otherworlden_cat_folk_culture = yes
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = cat_folk_diaspora
+			duration = -1
+		}
+		owner = {
+			top_liege = { # Inform the liege
+				character_event = {
+					id = EADENCLAVE.17
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Liege informed about elven diaspora
+	id = EADENCLAVE.13
+	is_triggered_only = yes
+	desc = EVTDESC_EADENCLAVE_13
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_economy
+	
+	notification = yes
+	
+	option = {
+		name = "EVTOPTA_EADENCLAVE_13"
+	}
+}
+
+character_event = { #Liege informed about dwarven diaspora
+	id = EADENCLAVE.14
+	is_triggered_only = yes
+	desc = EVTDESC_EADENCLAVE_14
+	picture = GFX_evt_market_dwarven
+	border = GFX_event_normal_frame_economy
+	
+	notification = yes
+	
+	option = {
+		name = "EVTOPTA_EADENCLAVE_13"
+	}
+}
+
+character_event = { #Liege informed about dark elven diaspora
+	id = EADENCLAVE.15
+	is_triggered_only = yes
+	desc = EVTDESC_EADENCLAVE_15
+	picture = GFX_evt_market_dark_elven
+	border = GFX_event_normal_frame_economy
+	
+	notification = yes
+	
+	option = {
+		name = "EVTOPTA_EADENCLAVE_13"
+	}
+}
+
+character_event = { #Liege informed about dark dwarven diaspora
+	id = EADENCLAVE.16
+	is_triggered_only = yes
+	desc = EVTDESC_EADENCLAVE_16
+	picture = GFX_evt_market_dwarven
+	border = GFX_event_normal_frame_economy
+	
+	notification = yes
+	
+	option = {
+		name = "EVTOPTA_EADENCLAVE_13"
+	}
+}
+
+character_event = { #Liege informed about cat folk diaspora
+	id = EADENCLAVE.17
+	is_triggered_only = yes
+	desc = EVTDESC_EADENCLAVE_17
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_economy
+	
+	notification = yes
+	
+	option = {
+		name = "EVTOPTA_EADENCLAVE_13"
+	}
+}
+
+#On culture conversion, save province as possible diaspora place
+
+province_event = {
+	id = EADENCLAVE.18
+	hide_window = yes
+	
+	trigger = {
+		OR = {
+			is_fantasy_culture = yes
+			is_earthlings_fantasy_culture = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				ROOT = {
+					is_earth_or_otherworlden_elven_culture = yes
+				}
+			}
+			set_province_flag = possible_elven_diaspora
+		}
+		if = {
+			limit = {
+				ROOT = {
+					is_earth_or_otherworlden_dwarven_culture = yes
+				}
+			}
+			set_province_flag = possible_dwarven_diaspora
+		}
+		if = {
+			limit = {
+				ROOT = {
+					is_earth_or_otherworlden_dark_elven_culture = yes
+				}
+			}
+			set_province_flag = possible_dark_elven_diaspora
+		}
+		if = {
+			limit = {
+				ROOT = {
+					is_earth_or_otherworlden_dark_dwarven_culture = yes
+				}
+			}
+			set_province_flag = possible_dark_dwarven_diaspora
+		}
+		if = {
+			limit = {
+				ROOT = {
+					is_earth_or_otherworlden_cat_folk_culture = yes
+				}
+			}
+			set_province_flag = possible_cat_folk_diaspora
+		}
+	}
+}
+
+#On culture conversion, spawn diaspora
+
+province_event = {
+	id = EADENCLAVE.19
+	hide_window = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_province_flag = possible_elven_diaspora
+				NOT = { 
+					ROOT = {
+						is_earth_or_otherworlden_elven_culture = yes
+					}
+				}
+			}
+			AND = {
+				has_province_flag = possible_dwarven_diaspora
+				NOT = { 
+					ROOT = {
+						is_earth_or_otherworlden_dwarven_culture = yes
+					}
+				}
+			}
+			AND = {
+				has_province_flag = possible_dark_elven_diaspora
+				NOT = { 
+					ROOT = {
+						is_earth_or_otherworlden_dark_elven_culture = yes
+					}
+				}
+			} 
+			AND = {
+				has_province_flag = possible_dark_dwarven_diaspora
+				NOT = { 
+					ROOT = {
+						is_earth_or_otherworlden_dark_dwarven_culture = yes
+					}
+				}
+			}
+			AND = {
+				has_province_flag = possible_cat_folk_diaspora
+				NOT = { 
+					ROOT = {
+						is_earth_or_otherworlden_cat_folk_culture = yes
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { #Spawn diaspora
+				if = {
+					limit = {
+						has_province_flag = possible_elven_diaspora
+						NOT = { 
+							ROOT = {
+								is_earth_or_otherworlden_elven_culture = yes
+							}
+						}
+					}
+					add_province_modifier = {
+						name = elven_diaspora
+						duration = -1
+					}
+					clr_province_flag = possible_elven_diaspora
+				}
+				if = {
+					limit = {
+						has_province_flag = possible_dwarven_diaspora
+						NOT = { 
+							ROOT = {
+								is_earth_or_otherworlden_dwarven_culture = yes
+							}
+						}
+					}
+					add_province_modifier = {
+						name = dwarven_diaspora
+						duration = -1
+					}
+					clr_province_flag = possible_dwarven_diaspora
+				}
+				if = {
+					limit = {
+						has_province_flag = possible_dark_elven_diaspora
+						NOT = { 
+							ROOT = {
+								is_earth_or_otherworlden_dark_elven_culture = yes
+							}
+						}
+					}
+					add_province_modifier = {
+						name = dark_elven_diaspora
+						duration = -1
+					}
+					clr_province_flag = possible_dark_elven_diaspora
+				}
+				if = {
+					limit = {
+						has_province_flag = possible_dark_dwarven_diaspora
+						NOT = { 
+							ROOT = {
+								is_earth_or_otherworlden_dark_dwarven_culture = yes
+							}
+						}
+					}
+					add_province_modifier = {
+						name = dark_dwarven_diaspora
+						duration = -1
+					}
+					clr_province_flag = possible_dark_dwarven_diaspora
+				}
+				if = {
+					limit = {
+						has_province_flag = possible_cat_folk_diaspora
+						NOT = { 
+							ROOT = {
+								is_earth_or_otherworlden_cat_folk_culture = yes
+							}
+						}
+					}
+					add_province_modifier = {
+						name = cat_folk_diaspora
+						duration = -1
+					}
+					clr_province_flag = possible_cat_folk_diaspora
+				}
+			}
+			50 = { #No diaspora, sorry
+				clr_province_flag = possible_elven_diaspora
+				clr_province_flag = possible_dwarven_diaspora
+				clr_province_flag = possible_dark_elven_diaspora
+				clr_province_flag = possible_dark_dwarven_diaspora
+				clr_province_flag = possible_cat_folk_diaspora
+			}
+		}
+	}
+}
+
+province_event = { #Remove elven diaspora if it has become a majority
+	id = EADENCLAVE.20
+	desc = EVTDESC_EADENCLAVE_20
+	
+	picture = GFX_evt_culture_change_elven
+	border = GFX_event_normal_frame_economy
+	
+	trigger = {
+		has_province_modifier = elven_diaspora
+		is_earth_or_otherworlden_elven_culture = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate={
+		remove_province_modifier = elven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_20"
+	}
+}
+
+province_event = { #Remove dwarven diaspora if it has become a majority
+	id = EADENCLAVE.21
+	desc = EVTDESC_EADENCLAVE_21
+	
+	picture = GFX_evt_culture_change_dwarven
+	border = GFX_event_normal_frame_economy
+	
+	trigger = {
+		has_province_modifier = dwarven_diaspora
+		is_earth_or_otherworlden_dwarven_culture = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate={
+		remove_province_modifier = dwarven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_20"
+	}
+}
+
+province_event = { #Remove dark elven diaspora if it has become a majority
+	id = EADENCLAVE.22
+	desc = EVTDESC_EADENCLAVE_22
+	
+	picture = GFX_evt_culture_change_dwarven
+	border = GFX_event_normal_frame_economy
+	
+	trigger = {
+		has_province_modifier = dark_elven_diaspora
+		is_earth_or_otherworlden_dark_elven_culture = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate={
+		remove_province_modifier = dark_elven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_20"
+	}
+}
+
+province_event = { #Remove dark dwarven diaspora if it has become a majority
+	id = EADENCLAVE.23
+	desc = EVTDESC_EADENCLAVE_23
+	
+	picture = GFX_evt_culture_change_dwarven
+	border = GFX_event_normal_frame_economy
+	
+	trigger = {
+		has_province_modifier = dark_dwarven_diaspora
+		is_earth_or_otherworlden_dark_dwarven_culture = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate={
+		remove_province_modifier = dark_dwarven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_20"
+	}
+}
+
+province_event = { #Remove cat folk diaspora if it has become a majority
+	id = EADENCLAVE.24
+	desc = EVTDESC_EADENCLAVE_24
+	
+	picture = GFX_evt_carriage
+	border = GFX_event_normal_frame_economy
+	
+	trigger = {
+		has_province_modifier = dark_dwarven_diaspora
+		is_earth_or_otherworlden_dark_dwarven_culture = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate={
+		remove_province_modifier = dark_dwarven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_20"
+	}
+}
+
+province_event = { #Borrowed from NEOW, elven diaspora spawn by itself
+	id = EADENCLAVE.25
+	desc = EVTDESC_EADENCLAVE_25
+	
+	picture = GFX_evt_culture_change_elven
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		owner = {
+			NOT = { has_character_modifier = cruelly_drove_out_minority }
+		}
+		NOR = {
+			has_province_modifier = elven_diaspora
+			has_province_modifier = elven_tradepost #there is a different event for that
+			is_earth_or_otherworlden_elven_culture = yes
+			is_looting_in = ROOT
+			is_occupied = yes
+#			units_in_province = 1
+			has_disease = yes
+		}
+		has_global_flag = everyone_invaded
+		NOT = { has_global_flag = elven_empire_landed }
+	}
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.95
+			has_province_modifier = prosperity_modifier_1 
+		}
+		modifier = {
+			factor = 0.90
+			has_province_modifier = prosperity_modifier_2
+		}
+		modifier = {
+			factor = 0.85
+			has_province_modifier = prosperity_modifier_3
+		}
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_25"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.05
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = just }
+			}
+		}
+		add_province_modifier = {
+			name = elven_diaspora
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB_EADENCLAVE_25"
+		trigger = {
+			NOT = { 
+				is_earth_or_otherworlden_elven_culture = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = charitable }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+		}
+		wealth = 25
+		owner = {
+			add_character_modifier = {
+				name = cruelly_drove_out_minority
+				duration = 90
+			}
+		}
+	}
+}
+
+province_event = { #Borrowed from NEOW, dwarven diaspora spawn by itself
+	id = EADENCLAVE.26
+	desc = EVTDESC_EADENCLAVE_26
+	
+	picture = GFX_evt_culture_change_dwarven
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		owner = {
+			NOT = { has_character_modifier = cruelly_drove_out_minority }
+		}
+		NOR = {
+			has_province_modifier = dwarven_diaspora
+			has_province_modifier = dwarven_tradepost #there is a different event for that
+			is_earth_or_otherworlden_dwarven_culture = yes
+			is_looting_in = ROOT
+			is_occupied = yes
+#			units_in_province = 1
+			has_disease = yes
+		}
+		has_global_flag = everyone_invaded
+		NOT = { has_global_flag = dwarven_empire_landed }
+	}
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.95
+			has_province_modifier = prosperity_modifier_1 
+		}
+		modifier = {
+			factor = 0.90
+			has_province_modifier = prosperity_modifier_2
+		}
+		modifier = {
+			factor = 0.85
+			has_province_modifier = prosperity_modifier_3
+		}
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_25"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.05
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = just }
+			}
+		}
+		add_province_modifier = {
+			name = dwarven_diaspora
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB_EADENCLAVE_25"
+		trigger = {
+			NOT = { 
+				is_earth_or_otherworlden_dwarven_culture = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = charitable }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+		}
+		wealth = 25
+		owner = {
+			add_character_modifier = {
+				name = cruelly_drove_out_minority
+				duration = 90
+			}
+		}
+	}
+}
+
+province_event = { #Borrowed from NEOW, dark elven diaspora spawn by itself
+	id = EADENCLAVE.27
+	desc = EVTDESC_EADENCLAVE_27
+	
+	picture = GFX_evt_culture_change_dark_elven
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		owner = {
+			NOT = { has_character_modifier = cruelly_drove_out_minority }
+		}
+		NOR = {
+			has_province_modifier = dark_elven_diaspora
+			has_province_modifier = dark_elven_tradepost #there is a different event for that
+			is_earth_or_otherworlden_dark_elven_culture = yes
+			is_looting_in = ROOT
+			is_occupied = yes
+#			units_in_province = 1
+			has_disease = yes
+		}
+		has_global_flag = everyone_invaded
+		NOT = { has_global_flag = dark_elven_empire_landed }
+	}
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.95
+			has_province_modifier = prosperity_modifier_1 
+		}
+		modifier = {
+			factor = 0.90
+			has_province_modifier = prosperity_modifier_2
+		}
+		modifier = {
+			factor = 0.85
+			has_province_modifier = prosperity_modifier_3
+		}
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_25"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.05
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = just }
+			}
+		}
+		add_province_modifier = {
+			name = dark_elven_diaspora
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB_EADENCLAVE_25"
+		trigger = {
+			NOT = { 
+				is_earth_or_otherworlden_dark_elven_culture = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = charitable }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+		}
+		wealth = 25
+		owner = {
+			add_character_modifier = {
+				name = cruelly_drove_out_minority
+				duration = 90
+			}
+		}
+	}
+}
+
+province_event = { #Borrowed from NEOW, dark dwarven diaspora spawn by itself
+	id = EADENCLAVE.28
+	desc = EVTDESC_EADENCLAVE_28
+	
+	picture = GFX_evt_culture_change_dwarven
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		owner = {
+			NOT = { has_character_modifier = cruelly_drove_out_minority }
+		}
+		NOR = {
+			has_province_modifier = dark_dwarven_diaspora
+			has_province_modifier = dark_dwarven_tradepost #there is a different event for that
+			is_earth_or_otherworlden_dark_dwarven_culture = yes
+			is_looting_in = ROOT
+			is_occupied = yes
+#			units_in_province = 1
+			has_disease = yes
+		}
+		has_global_flag = everyone_invaded
+		NOT = { has_global_flag = dark_dwarven_empire_landed }
+	}
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.95
+			has_province_modifier = prosperity_modifier_1 
+		}
+		modifier = {
+			factor = 0.90
+			has_province_modifier = prosperity_modifier_2
+		}
+		modifier = {
+			factor = 0.85
+			has_province_modifier = prosperity_modifier_3
+		}
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_25"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.05
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = just }
+			}
+		}
+		add_province_modifier = {
+			name = dark_dwarven_diaspora
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB_EADENCLAVE_25"
+		trigger = {
+			NOT = { 
+				is_earth_or_otherworlden_dark_dwarven_culture = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = charitable }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+		}
+		wealth = 25
+		owner = {
+			add_character_modifier = {
+				name = cruelly_drove_out_minority
+				duration = 90
+			}
+		}
+	}
+}
+
+province_event = { #Borrowed from NEOW, cat folk diaspora spawn by itself
+	id = EADENCLAVE.29
+	desc = EVTDESC_EADENCLAVE_29
+	
+	picture = GFX_evt_carriage
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		owner = {
+			NOT = { has_character_modifier = cruelly_drove_out_minority }
+		}
+		NOR = {
+			has_province_modifier = cat_folk_diaspora
+			has_province_modifier = cat_folk_tradepost #there is a different event for that
+			is_earth_or_otherworlden_cat_folk_culture = yes
+			is_looting_in = ROOT
+			is_occupied = yes
+#			units_in_province = 1
+			has_disease = yes
+		}
+		has_global_flag = everyone_invaded
+		NOT = { has_global_flag = cat_folk_empire_landed }
+	}
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.95
+			has_province_modifier = prosperity_modifier_1 
+		}
+		modifier = {
+			factor = 0.90
+			has_province_modifier = prosperity_modifier_2
+		}
+		modifier = {
+			factor = 0.85
+			has_province_modifier = prosperity_modifier_3
+		}
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_25"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.05
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = just }
+			}
+		}
+		add_province_modifier = {
+			name = cat_folk_diaspora
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB_EADENCLAVE_25"
+		trigger = {
+			NOT = { 
+				is_earth_or_otherworlden_cat_folk_culture = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = charitable }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+		}
+		wealth = 25
+		owner = {
+			add_character_modifier = {
+				name = cruelly_drove_out_minority
+				duration = 90
+			}
+		}
+	}
+}
+
+province_event = { #Borrowed from NEOW. Elves decided that this place sucks and decided to move elsewhere
+	id = EADENCLAVE.30
+	desc = EVTDESC_EADENCLAVE_30
+	
+	picture = GFX_evt_culture_change_elven
+	border = GFX_event_normal_frame_diplomacy
+	
+	notification = yes
+	
+	trigger = {
+		has_province_modifier = elven_diaspora
+		owner = {
+			NOT = { is_earth_or_otherworlden_elven_culture } #Had no reason to move out if liege has their culture
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.95
+			is_looting_in = ROOT
+		}
+		modifier = {
+			factor = 0.95
+			is_occupied = yes
+		}
+#		modifier = {
+#			factor = 0.95
+#			units_in_province = 1
+#		}
+		modifier = {
+			factor = 0.95
+			has_disease = yes
+		}
+	}
+	immediate={
+		remove_province_modifier = elven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_30"
+	}
+}
+
+province_event = { #Borrowed from NEOW. Dwarves decided that this place sucks and decided to move elsewhere
+	id = EADENCLAVE.31
+	desc = EVTDESC_EADENCLAVE_31
+	
+	notification = yes
+	
+	picture = GFX_evt_culture_change_dwarven
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		has_province_modifier = dwarven_diaspora
+		owner = {
+			NOT = { is_earth_or_otherworlden_dwarven_culture } #Had no reason to move out if liege has their culture
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.95
+			is_looting_in = ROOT
+		}
+		modifier = {
+			factor = 0.95
+			is_occupied = yes
+		}
+#		modifier = {
+#			factor = 0.95
+#			units_in_province = 1
+#		}
+		modifier = {
+			factor = 0.95
+			has_disease = yes
+		}
+	}
+	immediate={
+		remove_province_modifier = dwarven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_30"
+	}
+}
+
+province_event = { #Borrowed from NEOW. Dark Elves decided that this place sucks and decided to move elsewhere
+	id = EADENCLAVE.32
+	desc = EVTDESC_EADENCLAVE_32
+	
+	notification = yes
+	
+	picture = GFX_evt_culture_change_dark_elven
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		has_province_modifier = dark_elven_diaspora
+		owner = {
+			NOT = { is_earth_or_otherworlden_dark_elven_culture } #Had no reason to move out if liege has their culture
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.95
+			is_looting_in = ROOT
+		}
+		modifier = {
+			factor = 0.95
+			is_occupied = yes
+		}
+#		modifier = {
+#			factor = 0.95
+#			units_in_province = 1
+#		}
+		modifier = {
+			factor = 0.95
+			has_disease = yes
+		}
+	}
+	immediate={
+		remove_province_modifier = dark_elven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_30"
+	}
+}
+
+province_event = { #Borrowed from NEOW. Dark Dwarves decided that this place sucks and decided to move elsewhere
+	id = EADENCLAVE.33
+	desc = EVTDESC_EADENCLAVE_33
+	
+	notification = yes
+	
+	picture = GFX_evt_culture_change_dwarven
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		has_province_modifier = dark_dwarven_diaspora
+		owner = {
+			NOT = { is_earth_or_otherworlden_dark_dwarven_culture } #Had no reason to move out if liege has their culture
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.95
+			is_looting_in = ROOT
+		}
+		modifier = {
+			factor = 0.95
+			is_occupied = yes
+		}
+#		modifier = {
+#			factor = 0.95
+#			units_in_province = 1
+#		}
+		modifier = {
+			factor = 0.95
+			has_disease = yes
+		}
+	}
+	immediate={
+		remove_province_modifier = dark_dwarven_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_30"
+	}
+}
+
+province_event = { #Borrowed from NEOW. Cat Folk decided that this place sucks and decided to move elsewhere
+	id = EADENCLAVE.34
+	desc = EVTDESC_EADENCLAVE_34
+	
+	notification = yes
+	
+	picture = GFX_evt_carriage
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		has_province_modifier = cat_folk_diaspora
+		owner = {
+			NOT = { is_earth_or_otherworlden_cat_folk_culture } #Had no reason to move out if liege has their culture
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.95
+			is_looting_in = ROOT
+		}
+		modifier = {
+			factor = 0.95
+			is_occupied = yes
+		}
+#		modifier = {
+#			factor = 0.95
+#			units_in_province = 1
+#		}
+		modifier = {
+			factor = 0.95
+			has_disease = yes
+		}
+	}
+	immediate={
+		remove_province_modifier = cat_folk_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_30"
+	}
+}
+
+###Courter spawn events###
+
+#High Elven Diplomat
+character_event = {
+	id = EADENCLAVE.35
+	desc = EVTDESC_EADENCLAVE_35
+	picture = GFX_evt_monk_elven
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = high_elven 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = elven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = high_elven 
+			dynasty = culture
+			religion = elven
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+		}
+	}
+	
+	option = {
+	trigger = {
+		NOT = { culture = high_elven  }
+	}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = high_elven 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+# Blood Elven Assassin Appears at Court
+character_event = {
+	id = EADENCLAVE.36
+	desc = EVTDESC_EADENCLAVE_36
+	picture = GFX_evt_eavesdropping_elven
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = blood_elven 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = elven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = blood_elven 
+			dynasty = culture
+			religion = elven_heresy
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			NOT = { culture = blood_elven  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = blood_elven 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+# Dark Elven Assassin Appears at Court
+character_event = {
+	id = EADENCLAVE.37
+	desc = EVTDESC_EADENCLAVE_37
+	picture = GFX_evt_eavesdropping_dark_elven
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = dark_elven 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = dark_elven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = dark_elven 
+			dynasty = culture
+			religion = elven_tribunal
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			NOT = { culture = dark_elven  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = dark_elven 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+#Dwarven Administrator
+character_event = {
+	id = EADENCLAVE.38
+	desc = EVTDESC_EADENCLAVE_38
+	picture = GFX_evt_treasure_chamber_dwarven
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = dwarven_dawi 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = dwarven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = dwarven_dawi 
+			dynasty = culture
+			religion = dwarven
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			NOT = { culture = dwarven_dawi  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = dwarven_dawi 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+
+
+# Dwarven Warrior Appears at Court
+character_event = {
+	id = EADENCLAVE.39
+	desc = EVTDESC_EADENCLAVE_39
+	picture = GFX_evt_dwarven_adventurer
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = dwarven_dawi 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = dwarven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = dwarven_dawi 
+			dynasty = culture
+			religion = dwarven
+			female = no
+			age = 30
+			trait = skilled_tactician
+			attributes = {
+				martial = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				45 = {
+					add_trait = strategist
+				}
+				45 = {
+					add_trait = duelist
+				}
+				15 = {
+					add_trait = strategist
+					add_trait = shrewd
+				}
+				15 = {
+					add_trait = duelist
+					add_trait = shrewd
+				}
+			}
+
+		}
+	}
+    option = {
+		trigger = {
+			NOT = { culture = dwarven_dawi  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = dwarven_dawi 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+# Dark Dwarven Scholar Appears at Court
+character_event = {
+	id = EADENCLAVE.40
+	desc = EVTDESC_EADENCLAVE_40
+	picture = GFX_evt_dark_dwarven_engineer
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.95
+			culture = dark_dwarven 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = dark_dwarven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = dark_dwarven 
+			dynasty = culture
+			religion = dwarven_dwemer
+			female = no
+			age = 30
+			trait = scholarly_theologian
+			attributes = {
+				learning = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				45 = {
+					add_trait = mystic
+				}
+				45 = {
+					add_trait = scholar
+				}
+				15 = {
+					add_trait = mystic
+					add_trait = shrewd
+				}
+				15 = {
+					add_trait = scholar
+					add_trait = shrewd
+				}
+			}
+
+		}
+	}
+    option = {
+		trigger = {
+			NOT = { culture = dark_dwarven  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = dark_dwarven 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+#Dark Dwarven Administrator
+character_event = {
+	id = EADENCLAVE.41
+	desc = EVTDESC_EADENCLAVE_41
+	picture = GFX_evt_dark_dwarven_merchant
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = dark_dwarven 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = dark_dwarven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = dark_dwarven 
+			dynasty = culture
+			religion = dwarven_dwemer
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			NOT = { culture = dark_dwarven  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = dark_dwarven 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+# Dark Elven Nomad Warrior Appears at Court
+character_event = {
+	id = EADENCLAVE.42
+	desc = EVTDESC_EADENCLAVE_42
+	picture = GFX_evt_dark_elven_hero
+	border = GFX_event_normal_frame_diplomacy
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = dark_elven_nomad 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = dark_elven_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = dark_elven_nomad 
+			dynasty = culture
+			religion = elven_tribunal_heresy
+			female = no
+			age = 30
+			trait = skilled_tactician
+			attributes = {
+				martial = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				45 = {
+					add_trait = strategist
+				}
+				45 = {
+					add_trait = duelist
+				}
+				15 = {
+					add_trait = strategist
+					add_trait = shrewd
+				}
+				15 = {
+					add_trait = duelist
+					add_trait = shrewd
+				}
+			}
+
+		}
+	}
+    option = {
+		trigger = {
+			NOT = { culture = dark_elven_nomad  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = dark_elven_nomad 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+# Cat folk merchant appears at court
+character_event = {
+	id = EADENCLAVE.43
+	desc = EVTDESC_EADENCLAVE_43
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = everyone_invaded
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		modifier = {
+			factor = 0.85
+			culture = cat_folk 
+		}
+		modifier = {
+			factor = 0.85
+			any_realm_title = {
+				has_province_modifier = cat_folk_diaspora
+			}
+		}
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = cat_folk 
+			dynasty = culture
+			religion = cat_folk_religion
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			NOT = { culture = cat_folk  }
+		}
+	    name = EVTOPTA_SoA_200
+	}
+	option = {
+		trigger = {
+			culture = cat_folk 
+		}
+	    name = EVTOPTA_EADENCLAVE_35
+	}
+}
+
+province_event = { #Borrowed from NEOW, orc diaspora spawn by itself
+	id = EADENCLAVE.44
+	desc = EVTDESC_EADENCLAVE_44
+	
+	picture = GFX_evt_carriage
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		owner = {
+			NOT = { has_character_modifier = cruelly_drove_out_minority }
+		}
+		NOR = {
+			has_province_modifier = orc_diaspora
+			is_earth_or_otherworlden_oruk_culture = yes
+			is_looting_in = ROOT
+			is_occupied = yes
+#			units_in_province = 1
+			has_disease = yes
+		}
+		has_global_flag = everyone_invaded
+	}
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.95
+			has_province_modifier = prosperity_modifier_1 
+		}
+		modifier = {
+			factor = 0.90
+			has_province_modifier = prosperity_modifier_2
+		}
+		modifier = {
+			factor = 0.85
+			has_province_modifier = prosperity_modifier_3
+		}
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_25"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.05
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.05
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = just }
+			}
+		}
+		add_province_modifier = {
+			name = orc_diaspora
+			duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB_EADENCLAVE_25"
+		trigger = {
+			NOT = { 
+				is_earth_or_otherworlden_oruk_culture = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = charitable }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = arbitrary }
+			}
+		}
+		wealth = 25
+		owner = {
+			add_character_modifier = {
+				name = cruelly_drove_out_minority
+				duration = 90
+			}
+		}
+	}
+}
+
+province_event = { #Borrowed from NEOW. Orcs decided that this place sucks and decided to move elsewhere
+	id = EADENCLAVE.45
+	desc = EVTDESC_EADENCLAVE_45
+	
+	picture = GFX_evt_carriage
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		has_province_modifier = orc_diaspora
+		owner = {
+			NOT = { is_earth_or_otherworlden_oruk_culture } #Had no reason to move out if liege has their culture
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.95
+			is_looting_in = ROOT
+		}
+		modifier = {
+			factor = 0.95
+			is_occupied = yes
+		}
+#		modifier = {
+#			factor = 0.95
+#			units_in_province = 1
+#		}
+		modifier = {
+			factor = 0.95
+			has_disease = yes
+		}
+	}
+	immediate={
+		remove_province_modifier = orc_diaspora
+	}
+	option = {
+		name = "EVTOPTA_EADENCLAVE_30"
+	}
+}
+
+province_event = { #Orc count attract orc diaspora
+	id = EADENCLAVE.46
+	
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	trigger = {
+		controller = {
+			is_earth_or_otherworlden_oruk_culture = yes
+		}
+		ROOT = {
+			NOR = {
+				has_province_modifier = orc_diaspora
+				is_earth_or_otherworlden_oruk_culture = yes
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = orc_diaspora
+			duration = -1
+		}
+		owner = {
+			top_liege = { # Inform the liege
+				character_event = {
+					id = EADENCLAVE.47
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Liege informed about orc diaspora
+	id = EADENCLAVE.47
+	is_triggered_only = yes
+	desc = EVTDESC_EADENCLAVE_47
+	picture = GFX_evt_market
+	border = GFX_event_normal_frame_economy
+	
+	option = {
+		name = "EVTOPTA_EADENCLAVE_13"
+	}
+}
+

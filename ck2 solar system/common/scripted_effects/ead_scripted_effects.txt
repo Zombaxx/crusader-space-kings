@@ -1,0 +1,1743 @@
+join_prev_warrior_lodge_society_effect = {
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_norse } }
+		join_society = warrior_lodge_norse
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_tengri } }
+		join_society = warrior_lodge_tengri
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_baltic } }
+		join_society = warrior_lodge_baltic
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_finnish } }
+		join_society = warrior_lodge_finnish
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_slavic } }
+		join_society = warrior_lodge_slavic
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_west_african } }
+		join_society = warrior_lodge_west_african
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_zun } }
+		join_society = warrior_lodge_zun
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_bon } }
+		join_society = warrior_lodge_bon
+	}
+	if = {
+		limit = { PREV = { society_member_of = warrior_lodge_hellenic } }
+		join_society = warrior_lodge_hellenic
+	}
+	if = {
+	    limit = { PREV = { society_member_of = warrior_lodge_dwarven } }
+		join_society = warrior_lodge_dwarven
+	}
+}
+
+add_warrior_lodge_leader_trait_effect = {
+	trigger_switch = {
+		on_trigger = society_member_of
+		warrior_lodge_norse = {
+			add_trait = norse_leader
+		}
+		warrior_lodge_tengri = {
+			add_trait = tengri_leader
+		}
+		warrior_lodge_baltic = {
+			add_trait = baltic_leader
+		}
+		warrior_lodge_finnish = {
+			add_trait = finnish_leader
+		}
+		warrior_lodge_slavic = {
+			add_trait = slavic_leader
+		}
+		warrior_lodge_west_african = {
+			add_trait = west_african_leader
+		}
+		warrior_lodge_zun = {
+			add_trait = zun_leader
+		}
+		warrior_lodge_bon = {
+			add_trait = bon_leader
+		}
+		warrior_lodge_hellenic = {
+			add_trait = hellenic_leader
+		}
+		
+		### EaD ###
+		warrior_lodge_dwarven = {
+			add_trait = dwarven_leader
+		}
+	}
+}
+
+remove_dark_elves_assassins_debt_effect = {
+	if = {
+		limit = { has_character_modifier = dark_elves_assassins_debt }
+		remove_character_modifier = dark_elves_assassins_debt
+		hidden_tooltip = {
+			set_variable = { which = dark_elves_assassins_debt value = 0 } 
+		}
+		clr_character_flag = dark_elves_assassins_target_debt
+		clear_delayed_event = { id = MNM.6009 }
+	}
+}
+
+pay_back_dark_elves_assassins_effect = {
+	if = {
+		limit = { is_variable_equal = { which = dark_elves_assassins_debt value = 50 } }
+		wealth = -50
+		hidden_tooltip = {
+			event_target:grand_master  = {
+				if = {
+					limit = {
+						ai = yes
+						primary_title = { title = d_dark_elves_assassins } 
+					}
+					wealth = 50
+				}
+			}
+		}
+	}
+	if = {
+		limit = { is_variable_equal = { which = dark_elves_assassins_debt value = 250 } }
+		wealth = -250	
+		hidden_tooltip = {
+			event_target:grand_master  = {
+				if = {
+					limit = {
+						ai = yes
+						primary_title = { title = d_dark_elves_assassins } 
+					}
+					wealth = 250
+				}
+			}
+		}
+	}
+	if = {
+		limit = { is_variable_equal = { which = dark_elves_assassins_debt value = 300 } }
+		wealth = -300
+		hidden_tooltip = {
+			event_target:grand_master  = {
+				if = {
+					limit = {
+						ai = yes
+						primary_title = { title = d_dark_elves_assassins } 
+					}
+					wealth = 300
+				}
+			}
+		}
+	}
+	if = {
+		limit = { is_variable_equal = { which = dark_elves_assassins_debt value = 500 } }
+		wealth = -500
+		hidden_tooltip = {
+			event_target:grand_master = {
+				if = {
+					limit = {
+						ai = yes
+						primary_title = { title = d_dark_elves_assassins } 
+					}
+					wealth = 500
+				}
+			}
+		}
+	}
+}
+
+spawn_good_dwarven_warrior_effect = {
+	if = { 
+		limit = { has_religion_feature = religion_matriarchal }
+		create_random_soldier = {
+			random_traits = yes
+			religion = dwarven
+			culture = dwarven_dawi
+			dynasty = random
+			female = yes
+			attributes = {
+				diplomacy = 2
+				learning = 2
+				stewardship = 2
+				intrigue = 2
+				martial = 8
+			}
+		}
+	}
+	if = { 
+		limit = { NOT = { has_religion_feature = religion_matriarchal } }
+		create_random_soldier = {
+			random_traits = yes
+			religion = dwarven
+			culture = dwarven_dawi
+			dynasty = random
+			female = no
+			attributes = {
+				diplomacy = 2
+				learning = 2
+				stewardship = 2
+				intrigue = 2
+				martial = 8
+			}
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+		
+		random_list = { # Flavor Randomization
+			35 = { 
+				# Nothing
+			}
+			15 = {
+				change_martial = 2
+			}
+			10 = {
+				add_trait = robust
+			}
+			10 = {
+				add_trait = duelist
+			}
+			10 = {
+				add_trait = hunter
+			}
+			5 = {
+				add_trait = strategist
+			}
+			5 = {
+				change_martial = 4
+			}
+			5 = {
+				if = {
+					limit = {
+						has_dlc = "Reapers"
+					}
+					add_trait = one_eyed
+				}
+			}
+			5 = { 
+				add_trait = shrewd
+			}
+			3 = { 
+				add_trait = giant
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+				}
+				add_trait = kshatriya
+				character_event = { id = RoI.30121 }
+			}
+			if = {
+				limit = {
+					OR = {
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						has_religion_feature = religion_astrology
+					}
+				}
+				hidden_tooltip = { add_western_zodiac_trait_effect = yes }
+			}
+			if = {
+				limit = {
+					has_religion_feature = religion_no_leader
+					religion_group = pagan_group
+				}
+				random_list = {  
+					5 = {
+						add_trait = pagan_branch_1
+					}
+					25 = {
+						add_trait = pagan_branch_2
+					}
+					25 = {
+						add_trait = pagan_branch_3
+					}
+					25 = {
+						add_trait = pagan_branch_4
+					}
+				}
+			}
+		}
+		set_character_flag = invited_soldier
+		save_event_target_as = invited_character
+	}
+}
+
+spawn_great_dwarven_warrior_effect = {
+	if = { 
+		limit = { has_religion_feature = religion_matriarchal }
+		create_random_soldier = {
+			random_traits = yes
+			religion = dwarven
+			culture = dwarven_dawi
+			dynasty = random
+			female = yes
+			attributes = {
+				diplomacy = 3
+				learning = 3
+				stewardship = 3
+				intrigue = 3
+				martial = 9
+			}
+		}
+	}
+	if = { 
+		limit = { NOT = { has_religion_feature = religion_matriarchal } }
+		create_random_soldier = {
+			random_traits = yes
+			religion = dwarven
+			culture = dwarven_dawi
+			dynasty = random
+			female = no
+			attributes = {
+				diplomacy = 3
+				learning = 3
+				stewardship = 3
+				intrigue = 3
+				martial = 9
+			}
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		remove_trait = dwarf
+		remove_trait = giant
+		remove_trait = hunchback
+		remove_trait = clubfooted
+		remove_trait = craven
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+		
+		remove_trait = misguided_warrior
+		remove_trait = tough_soldier
+		remove_trait = skilled_tactician
+		remove_trait = brilliant_strategist
+
+		random_list = {
+			5 = { add_trait = misguided_warrior }
+			10 = { add_trait = tough_soldier }
+			20 = { add_trait = skilled_tactician }
+			30 = { add_trait = brilliant_strategist }
+		}
+	
+		random_list = { # Flavor Randomization
+			35 = { 
+				# Nothing
+			}
+			15 = {
+				change_martial = 2
+			}
+			10 = {
+				add_trait = robust
+			}
+			10 = {
+				add_trait = duelist
+			}
+			10 = {
+				add_trait = hunter
+			}
+			5 = {
+				add_trait = strategist
+			}
+			5 = {
+				change_martial = 4
+			}
+			5 = {
+				if = {
+					limit = {
+						has_dlc = "Reapers"
+					}
+					add_trait = one_eyed
+				}
+			}
+			5 = { 
+				add_trait = shrewd
+			}
+			1 = { 
+				add_trait = giant
+			}
+		}
+		random_list = {
+			50 = {
+				#Nothing
+			}
+			10 = {
+				add_trait = narrow_flank_leader
+			}
+			10 = {
+				add_trait = defensive_leader
+			}
+			10 = {
+				add_trait = experimenter
+			}
+			10 = {
+				add_trait = flanker
+			}
+			10 = {
+				add_trait = heavy_infantry_leader
+			}
+			10 = {
+				add_trait = inspiring_leader
+			}
+			10 = {
+				add_trait = organizer
+			}
+			10 = {
+				add_trait = siege_leader
+			}
+			10 = {
+				add_trait = trickster
+			}
+			10 = {
+				add_trait = aggressive_leader
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+				}
+				add_trait = kshatriya
+				character_event = { id = RoI.30121 }
+			}
+			if = {
+				limit = {
+					OR = {
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						has_religion_feature = religion_astrology
+					}
+				}
+				hidden_tooltip = { add_western_zodiac_trait_effect = yes }
+			}
+			if = {
+				limit = {
+					has_religion_feature = religion_no_leader
+					religion_group = pagan_group
+				}
+				random_list = {  
+					5 = {
+						add_trait = pagan_branch_1
+					}
+					25 = {
+						add_trait = pagan_branch_2
+					}
+					25 = {
+						add_trait = pagan_branch_3
+					}
+					25 = {
+						add_trait = pagan_branch_4
+					}
+				}
+			}
+		}
+		set_character_flag = invited_soldier
+		save_event_target_as = invited_character
+	}
+}
+
+spawn_fantastic_dwarven_warrior_effect = {
+
+	if = { 
+		limit = { has_religion_feature = religion_matriarchal }
+		create_random_soldier = {
+			random_traits = yes
+			religion = dwarven
+			culture = dwarven_dawi
+			dynasty = actually_culture
+			female = yes
+			attributes = {
+				diplomacy = 4
+				learning = 4
+				stewardship = 4
+				intrigue = 4
+				martial = 12
+			}
+		}
+	}
+	if = { 
+		limit = { NOT = { has_religion_feature = religion_matriarchal } }
+		create_random_soldier = {
+			random_traits = yes
+            religion = dwarven
+			culture = dwarven_dawi
+			dynasty = actually_culture
+			female = no
+			attributes = {
+				diplomacy = 4
+				learning = 4
+				stewardship = 4
+				intrigue = 4
+				martial = 12
+			}
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		remove_trait = dwarf
+		remove_trait = giant
+		remove_trait = hunchback
+		remove_trait = clubfooted
+		remove_trait = craven
+		remove_trait = paranoid
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+		
+		remove_trait = misguided_warrior
+		remove_trait = tough_soldier
+		remove_trait = skilled_tactician
+		
+		add_trait = brilliant_strategist
+		
+		random_list = {
+			20 = {
+				add_trait = robust
+			}
+			10 = {
+				add_trait = strong
+			}
+			5 = {
+				health = 1
+			}
+		}
+		
+		random_list = {
+			10 = {
+				add_trait = narrow_flank_leader
+			}
+			10 = {
+				add_trait = defensive_leader
+			}
+			10 = {
+				add_trait = experimenter
+			}
+			10 = {
+				add_trait = flanker
+			}
+			10 = {
+				add_trait = heavy_infantry_leader
+			}
+			10 = {
+				add_trait = inspiring_leader
+			}
+			10 = {
+				add_trait = organizer
+			}
+			10 = {
+				add_trait = siege_leader
+			}
+			10 = {
+				add_trait = trickster
+			}
+			10 = {
+				add_trait = aggressive_leader
+			}
+		}
+		
+		random_list = { # Flavor Randomization
+			20 = {
+				add_trait = giant
+				add_trait = robust
+				add_trait = hunter
+				change_martial = 2
+				give_nickname = nick_the_giant
+			}
+			20 = {
+				modifier = {
+					factor = 0
+					NOT = {
+						has_dlc = "Reapers"
+					}
+				}
+				add_trait = giant
+				add_trait = robust
+				add_trait = strategist
+				add_trait = one_eyed
+				change_martial = 1
+				give_nickname = nick_the_cyclops
+			}
+			20 = {
+				add_trait = holy_warrior
+				add_trait = scarred
+				change_martial = 3
+				give_nickname = nick_the_hammer
+			}
+			20 = {
+				add_trait = brave
+				add_trait = poet
+				change_martial = 2
+				give_nickname = nick_the_fearless
+			}
+			20 = {
+				add_trait = robust
+				remove_trait = temperate
+				add_trait = wroth
+				add_trait = falconer
+				change_martial = 1
+				give_nickname = nick_the_ill_tempered
+			}
+			20 = {
+				add_trait = unyielding_leader
+				remove_trait = wroth
+				add_trait = patient
+				change_martial = 2
+				give_nickname = nick_the_defender
+			}
+			20 = {
+				add_trait = aggressive_leader
+				remove_trait = patient
+				add_trait = wroth
+				change_martial = 3
+				give_nickname = nick_the_destroyer
+			}
+			20 = {
+				add_trait = shrewd
+				add_trait = brave
+				change_martial = 2
+				give_nickname = nick_the_brave
+			}
+			20 = {
+				add_trait = robust
+				add_trait = strategist
+				change_martial = 1
+				give_nickname = nick_the_strong
+			}
+			20 = {
+				add_trait = genius
+				add_trait = socializer
+				add_trait = poet
+				change_martial = 4
+				give_nickname = nick_the_noble
+			}
+			20 = {
+				add_trait = blinded
+				add_trait = strategist
+				add_trait = genius
+				change_martial = 4
+				give_nickname = nick_the_blind
+			}
+			20 = {
+				remove_trait = humble
+				add_trait = proud
+				add_trait = duelist
+				change_martial = 2
+				give_nickname = nick_the_proud
+			}
+			20 = {
+				add_trait = hunter
+				add_trait = shrewd
+				change_martial = 3
+				give_nickname = nick_the_hunter
+			}
+			20 = {
+				modifier = {
+					factor = 0
+					NOT = {
+						has_dlc = "Reapers"
+					}
+				}
+				add_trait = disfigured
+				add_trait = scarred
+				add_trait = genius
+				change_martial = 2
+				change_intrigue = 12
+				give_nickname = nick_of_a_thousand_faces
+			}
+			20 = {
+				add_trait = genius
+				add_trait = clubfooted
+				change_martial = 1
+				give_nickname = nick_the_bear
+			}
+			20 = {
+				add_trait = trusting
+				add_trait = quick
+				change_martial = 4
+				give_nickname = nick_the_loyal
+			}
+			20 = {
+				add_trait = ugly
+				add_trait = strong
+				add_trait = duelist
+				change_martial = 1
+				give_nickname = nick_the_boar
+			}
+			20 = {
+				add_trait = fair
+				add_trait = strategist
+				change_martial = 4
+				give_nickname = nick_the_lion
+			}
+			20 = {
+				add_trait = brave
+				add_trait = duelist
+				change_martial = 3
+				give_nickname = nick_the_bold
+			}
+			20 = {
+				add_trait = shrewd
+				add_trait = hedonist
+				change_martial = 4
+				give_nickname = nick_the_quarreller
+			}
+			20 = {
+				add_trait = shrewd
+				add_trait = cavalry_leader
+				change_martial = 2
+				give_nickname = nick_the_wolf
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+				}
+				add_trait = kshatriya
+				character_event = { id = RoI.30121 }
+			}
+			if = {
+				limit = {
+					has_religion_feature = religion_no_leader
+					religion_group = pagan_group
+				}
+				random_list = {  
+					5 = {
+						add_trait = pagan_branch_1
+					}
+					25 = {
+						add_trait = pagan_branch_2
+					}
+					25 = {
+						add_trait = pagan_branch_3
+					}
+					25 = {
+						add_trait = pagan_branch_4
+					}
+				}
+			}
+		}
+		set_character_flag = invited_soldier
+		save_event_target_as = invited_character
+	}
+}
+
+spawn_elven_noble_effect = {
+
+	if = { 
+		limit = { has_religion_feature = religion_matriarchal }
+		create_random_diplomat = {
+			random_traits = yes
+			religion = elven
+			culture = high_elven
+			dynasty = random
+			female = yes
+			attributes = {
+				diplomacy = 8
+				learning = 2
+				stewardship = 2
+				intrigue = 2
+				martial = 2
+			}
+		}
+	}
+	if = { 
+		limit = { NOT = { has_religion_feature = religion_matriarchal } }
+		create_random_diplomat = {
+			random_traits = yes
+			religion = elven
+			culture = high_elven
+			dynasty = random
+			female = no
+			attributes = {
+				diplomacy = 8
+				learning = 2
+				stewardship = 2
+				intrigue = 2
+				martial = 2
+			}
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		remove_trait = dwarf
+		remove_trait = giant
+		remove_trait = hunchback
+		remove_trait = clubfooted
+		remove_trait = craven
+		remove_trait = paranoid
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+
+		random_list = {
+			27 = {
+				add_trait = shrewd
+			}
+			3 = {
+				add_trait = quick
+			}
+			15 = {
+			    add_trait = poet
+			}
+			15 = {
+			    add_trait = falconer
+			}
+			10 = {
+			    add_trait = socializer
+			}
+			10 = {
+			    add_trait = gamer
+			}
+			20 = {
+				health = 1
+			}
+		}
+		
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+				}
+				add_trait = kshatriya
+				character_event = { id = RoI.30121 }
+			}
+			if = {
+				limit = {
+					has_religion_feature = religion_no_leader
+					religion_group = pagan_group
+				}
+				random_list = {  
+					5 = {
+						add_trait = pagan_branch_1
+					}
+					25 = {
+						add_trait = pagan_branch_2
+					}
+					25 = {
+						add_trait = pagan_branch_3
+					}
+					25 = {
+						add_trait = pagan_branch_4
+					}
+				}
+			}
+		}
+		set_character_flag = invited_soldier
+		save_event_target_as = invited_character
+	}
+}
+
+spawn_dark_elven_assassin_effect = {
+
+	if = { 
+		limit = { has_religion_feature = religion_matriarchal }
+		create_random_intriguer = {
+			random_traits = yes
+			religion = elven_tribunal
+			culture = dark_elven
+			dynasty = random
+			female = yes
+			attributes = {
+				diplomacy = 2
+				learning = 2
+				stewardship = 2
+				intrigue = 8
+				martial = 2
+			}
+		}
+	}
+	if = { 
+		limit = { NOT = { has_religion_feature = religion_matriarchal } }
+		create_random_intriguer = {
+			random_traits = yes
+			religion = elven_tribunal
+			culture = dark_elven
+			dynasty = random
+			female = no
+			attributes = {
+				diplomacy = 2
+				learning = 2
+				stewardship = 2
+				intrigue = 8
+				martial = 2
+			}
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		remove_trait = dwarf
+		remove_trait = giant
+		remove_trait = hunchback
+		remove_trait = clubfooted
+		remove_trait = craven
+		remove_trait = paranoid
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+
+		random_list = {
+			27 = {
+				add_trait = shrewd
+			}
+			3 = {
+				add_trait = quick
+			}
+			15 = {
+			    add_trait = poet
+			}
+			15 = {
+			    if = { 
+				    limit = { is_female = yes } 
+				    add_trait = seductress
+				}
+				else_if = {
+				    limit = { is_female = no }
+					add_trait = seducer
+				}
+			}
+			10 = {
+			    add_trait = schemer
+			}
+			10 = {
+			    add_trait = impaler
+			}
+			20 = {
+				health = 1
+			}
+		}
+		
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+				}
+				add_trait = kshatriya
+				character_event = { id = RoI.30121 }
+			}
+			if = {
+				limit = {
+					has_religion_feature = religion_no_leader
+					religion_group = pagan_group
+				}
+				random_list = {  
+					5 = {
+						add_trait = pagan_branch_1
+					}
+					25 = {
+						add_trait = pagan_branch_2
+					}
+					25 = {
+						add_trait = pagan_branch_3
+					}
+					25 = {
+						add_trait = pagan_branch_4
+					}
+				}
+			}
+		}
+		save_event_target_as = invited_character
+	}
+}
+
+spawn_dark_dwarven_scholar_effect = {
+
+	if = { 
+		limit = { has_religion_feature = religion_matriarchal }
+		create_random_intriguer = {
+			random_traits = yes
+			religion = dwarven_dwemer
+			culture = dark_dwarven
+			dynasty = random
+			female = yes
+			attributes = {
+				diplomacy = 2
+				learning = 8
+				stewardship = 2
+				intrigue = 2
+				martial = 2
+			}
+		}
+	}
+	if = { 
+		limit = { NOT = { has_religion_feature = religion_matriarchal } }
+		create_random_intriguer = {
+			random_traits = yes
+			religion = dwarven_dwemer
+			culture = dark_dwarven
+			dynasty = random
+			female = no
+			attributes = {
+				diplomacy = 2
+				learning = 8
+				stewardship = 2
+				intrigue = 2
+				martial = 2
+			}
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		remove_trait = dwarf
+		remove_trait = giant
+		remove_trait = hunchback
+		remove_trait = clubfooted
+		remove_trait = craven
+		remove_trait = paranoid
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+
+		random_list = {
+			27 = {
+				add_trait = shrewd
+			}
+			3 = {
+				add_trait = quick
+			}
+			20 = {
+			    add_trait = scholar
+			}
+			20 = {
+			    add_trait = mystic
+			}
+			10 = {
+      			add_trait = physician
+			}	
+			20 = {
+				health = 1
+			}
+		}
+		
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+				}
+				add_trait = kshatriya
+				character_event = { id = RoI.30121 }
+			}
+			if = {
+				limit = {
+					has_religion_feature = religion_no_leader
+					religion_group = pagan_group
+				}
+				random_list = {  
+					5 = {
+						add_trait = pagan_branch_1
+					}
+					25 = {
+						add_trait = pagan_branch_2
+					}
+					25 = {
+						add_trait = pagan_branch_3
+					}
+					25 = {
+						add_trait = pagan_branch_4
+					}
+				}
+			}
+		}
+		save_event_target_as = invited_character
+	}
+}
+
+spawn_cathrian_merchant_effect = {
+
+	if = { 
+		limit = { has_religion_feature = religion_matriarchal }
+		create_random_intriguer = {
+			random_traits = yes
+			religion = cat_folk_religion
+			culture = cat_folk
+			dynasty = random
+			female = yes
+			attributes = {
+				diplomacy = 2
+				learning = 2
+				stewardship = 8
+				intrigue = 2
+				martial = 2
+			}
+		}
+	}
+	if = { 
+		limit = { NOT = { has_religion_feature = religion_matriarchal } }
+		create_random_intriguer = {
+			random_traits = yes
+			religion = cat_folk_religion
+			culture = cat_folk
+			dynasty = random
+			female = no
+			attributes = {
+				diplomacy = 2
+				learning = 2
+				stewardship = 8
+				intrigue = 2
+				martial = 2
+			}
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		remove_trait = dwarf
+		remove_trait = giant
+		remove_trait = hunchback
+		remove_trait = clubfooted
+		remove_trait = craven
+		remove_trait = paranoid
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+
+		random_list = {
+			27 = {
+				add_trait = shrewd
+			}
+			3 = {
+				add_trait = quick
+			}
+			15 = {
+			    add_trait = greedy
+			}
+			15 = {
+                add_trait = administrator
+			}
+			10 = {
+			    add_trait = architect
+			}
+			10 = {
+			    add_trait = gardener
+			}
+			20 = {
+				health = 1
+			}
+		}
+		
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dharmic_religion_trigger = yes
+				}
+				add_trait = kshatriya
+				character_event = { id = RoI.30121 }
+			}
+			if = {
+				limit = {
+					has_religion_feature = religion_no_leader
+					religion_group = pagan_group
+				}
+				random_list = {  
+					5 = {
+						add_trait = pagan_branch_1
+					}
+					25 = {
+						add_trait = pagan_branch_2
+					}
+					25 = {
+						add_trait = pagan_branch_3
+					}
+					25 = {
+						add_trait = pagan_branch_4
+					}
+				}
+			}
+		}
+		save_event_target_as = invited_character
+	}
+}
+
+add_sympathy_for_prevs_true_religion_effect = {
+	if = {
+		limit = { 
+			PREV = { true_religion_group_christian_trigger = yes } 
+			NOT = { religion_group = christian }
+		}
+		add_trait = sympathy_christendom
+	}
+	if = {
+		limit = { 
+			PREV = { true_religion_group_muslim_trigger = yes } 
+			NOT = { religion_group = muslim }
+		}
+		add_trait = sympathy_islam
+	}
+	if = {
+		limit = { 
+			PREV = { true_religion_group_pagan_group_trigger = yes } 
+			NOT = { religion_group = pagan_group }
+		}
+		add_trait = sympathy_pagans
+	}
+	if = {
+		limit = { 
+			PREV = { true_religion_group_zoroastrian_group_trigger = yes } 
+			NOT = { religion_group = zoroastrian_group }
+		}
+		add_trait = sympathy_zoroastrianism
+	}
+	if = {
+		limit = { 
+			PREV = { true_religion_group_jewish_group_trigger = yes } 
+			NOT = { religion_group = jewish_group }
+		}
+		add_trait = sympathy_judaism
+	}
+	if = {
+		limit = { 
+			PREV = { true_religion_group_indian_group_trigger = yes } 
+			NOT = { religion_group = indian_group }
+		}
+		add_trait = sympathy_indian
+	}
+	if = {
+		limit = { 
+			PREV = { true_religion_group_otherworlden_trigger = yes } 
+			NOT = { religion_group = otherworlden }
+		}
+		add_trait = sympathy_otherworlden
+	}
+}
+
+add_sympathy_for_prevs_open_religion_effect = {
+	if = {
+		limit = { 
+			PREV = { religion_group = christian } 
+			NOT = { religion_group = christian }
+		}
+		add_trait = sympathy_christendom
+	}
+	if = {
+		limit = { 
+			PREV = { religion_group = muslim } 
+			NOT = { religion_group = muslim }
+		}
+		add_trait = sympathy_islam
+	}
+	if = {
+		limit = { 
+			PREV = { religion_group = pagan_group } 
+			NOT = { religion_group = pagan_group }
+		}
+		add_trait = sympathy_pagans
+	}
+	if = {
+		limit = { 
+			PREV = { religion_group = zoroastrian_group } 
+			NOT = { religion_group = zoroastrian_group }
+		}
+		add_trait = sympathy_zoroastrianism
+	}
+	if = {
+		limit = { 
+			PREV = { religion_group = jewish_group } 
+			NOT = { religion_group = jewish_group }
+		}
+		add_trait = sympathy_judaism
+	}
+	if = {
+		limit = { 
+			PREV = { religion_group = indian_group } 
+			NOT = { religion_group = indian_group }
+		}
+		add_trait = sympathy_indian
+	}
+	if = {
+		limit = { 
+			PREV = { religion_group = otherworlden }
+			NOT = { religion_group = otherworlden }
+		}
+		add_trait = sympathy_otherworlden
+	}
+}
+
+spawn_fantasy_migrators_army_effect = {
+    new_character = {
+					#This is now done after victory in war
+					#reverse_culture = FROM
+					#reverse_religion = FROM
+
+		create_title = {
+			tier = DUKE
+			landless = yes
+			temporary = yes
+			rebel = yes
+			culture = FROM
+			name = "PEASANT_REVOLT"
+			holder = THIS
+		}
+		random_list = {
+			17 = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = THIS
+					leader = THIS
+					scaled_by_biggest_garrison = 0.75
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 4 4 }
+						light_infantry = { 10 10 }
+			    	}
+			    attrition = 1.0
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.75
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 4 4 }
+						light_infantry = { 10 10 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.75
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 4 4 }
+						light_infantry = { 10 10 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+			}
+			17 = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = THIS
+					leader = THIS
+					scaled_by_biggest_garrison = 0.5
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 4 4 }
+						light_infantry = { 10 10 }
+			    	}
+			    attrition = 1.0
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.5
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 4 4 }
+						light_infantry = { 10 10 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.5
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 4 4 }
+						light_infantry = { 10 10 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+			}
+			16 = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = THIS
+					leader = THIS
+					scaled_by_biggest_garrison = 0.75
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						light_infantry = { 11 11 }
+			    	}
+			    attrition = 1.0
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.75
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						light_infantry = { 11 11 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.75
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						light_infantry = { 11 11 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+			}
+			17 = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = THIS
+					leader = THIS
+					scaled_by_biggest_garrison = 0.5
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						light_infantry = { 11 11 }
+			    	}
+			    attrition = 1.0
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.5
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						light_infantry = { 11 11 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+				create_character = {
+				    random_traits = yes
+					dynasty = none
+					religion = THIS
+					culture = THIS
+					female = no
+					age = 30
+					trait = peasant_leader
+					trait = tough_soldier
+				}
+				new_character = {
+					spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = PREV
+					scaled_by_biggest_garrison = 0.5
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						light_infantry = { 11 11 }
+					    }
+					attrition = 1.0
+					disband_on_peace = yes
+				    }
+				}
+			}
+		}	
+		# DoW on the
+		FROM = {
+			owner = {
+				top_liege = {
+	#				set_defacto_vassal = PREVPREVPREV
+					reverse_war = {
+						target = PREVPREVPREV
+						casus_belli = peasant_revolt
+						thirdparty_title = FROM # The county
+					}
+					reverse_opinion = {
+						who = PREVPREVPREV
+						modifier = opinion_evil_tyrant
+    				}
+				}
+			}
+		}
+	}	
+}
+
+bloodthirsty_fantasy_tiered_traits_effect = {
+	hidden_effect = {
+		change_variable = { which = burned_hearts_points value = 1 }
+		if = { #Tier 1
+			limit = {
+				check_variable = { which = burned_hearts_points value = 10 }
+				NOR = { 
+					trait = bloodthirsty_gods_1
+					trait = bloodthirsty_gods_2
+					trait = bloodthirsty_gods_3
+					has_character_modifier = bloodthirsty_gods_exp_cooldown
+				}
+			}
+			character_event = { id = EADRE.23431 days = 6 } #Notify and assign trait.
+			add_character_modifier = { name = bloodthirsty_gods_exp_cooldown days = 12 hidden = yes } #Prevent event cascade.
+		}
+		if = { #Tier 2
+			limit = {
+				check_variable = { which = burned_hearts_points value = 50 }
+				trait = bloodthirsty_gods_1
+				NOR = { 
+					trait = bloodthirsty_gods_2
+					trait = bloodthirsty_gods_3
+					has_character_modifier = bloodthirsty_gods_exp_cooldown
+				}
+			}
+			character_event = { id = EADRE.23432 days = 6 } #Notify and assign trait.
+			add_character_modifier = { name = bloodthirsty_gods_exp_cooldown days = 12 hidden = yes } #Prevent event cascade.
+		}
+		if = { #Tier 3
+			limit = {
+				check_variable = { which = burned_hearts_points value = 100 }
+				trait = bloodthirsty_gods_2
+				NOR = { 
+					trait = bloodthirsty_gods_3
+					has_character_modifier = bloodthirsty_gods_exp_cooldown
+				}
+			}
+			character_event = { id = EADRE.23433 days = 6 } #Notify and assign trait.
+			add_character_modifier = { name = bloodthirsty_gods_exp_cooldown days = 12 hidden = yes } #Prevent event cascade.
+		}
+		if = { #Bloodline.
+			limit = {
+				check_variable = { which = burned_hearts_points value = 200 }
+				trait = bloodthirsty_gods_3
+				is_ruler = yes
+				is_playable = yes
+				NOR = { 
+					trait = kind 
+					has_character_modifier = bloodthirsty_gods_exp_cooldown
+					any_owned_bloodline = { # Not already has a Bloodthirsty bloodline.
+						has_bloodline_flag = bloodline_created_bloodthirsty
+					}
+				}
+			}
+			character_event = { id = EADRE.23434 days = 6 } #Notify and assign trait.
+			add_character_modifier = { name = bloodthirsty_gods_exp_cooldown days = 12 hidden = yes } #Prevent event cascade.
+		}
+	}
+}

@@ -1,0 +1,270 @@
+#CODE;#ENGLISH;;;;;;;;;x
+e_elven_empire;Atherilion;;;;;;;;;x
+e_dwarven_empire;Kharazd-Zhadum;;;;;;;;;x
+e_dark_elven_empire;Damereth;;;;;;;;;x
+e_ashlander_empire;Veloreth;;;;;;;;;x
+e_dark_dwarven_empire;Dwur Ashu'ur;;;;;;;;;x
+e_blood_elven_empire;Nagrath;;;;;;;;;x
+e_blood_elven_empire_adj;Nagrath;;;;;;;;;x
+k_elven_church;Varethion;;;;;;;;;x
+e_elven_empire_adj;Atherilion;;;;;;;;;x
+e_dwarven_empire_adj;Kharazd-Zhadum;;;;;;;;;x
+e_dark_elven_empire_adj;Damereth;;;;;;;;;x
+e_dark_dwarven_empire_adj;Dwur Ashu'ur;;;;;;;;;x
+e_cat_folk_empire;Tar-Eremket;;;;;;;;;x
+e_cat_folk_empire_adj;Tar-Eremket;;;;;;;;;x
+d_cat_folk_church;Solar Priesthood;;;;;;;;;x
+d_cat_folk_church_adj;Solar Priesthood;;;;;;;;;x
+d_cat_folk_holy_order;Solar Warriors;;;;;;;;;x
+d_cat_folk_holy_order_adj;Solar Warrior;;;;;;;;;x
+k_elven_church_adj;Elven;;;;;;;;;x
+d_dark_lord;The Dark Throne;;;;;;;;;x
+d_dark_lord_adj;The Dark Throne;;;;;;;;;x
+DARK_LORD;Dark Lord;;;;;;;;;x
+DARK_LORD_FOA;My Lord;;;;;;;;;x
+d_bright_lord;The Bright Throne;;;;;;;;;x
+d_bright_lord_adj;The Bright Throne;;;;;;;;;x
+BRIGHT_LORD;Bright Lord;;;;;;;;;x
+BRIGHT_LORD_FOA;My Lord;;;;;;;;;x
+e_orcish_horde;Oruk Horde;;;;;;;;;x
+e_orcish_horde_adj;Oruk Horde;;;;;;;;;x
+e_orcish_empire;Oruk Empire;;;;;;;;;x
+e_orcish_empire_adj;Oruk Empire;;;;;;;;;x
+VARENEDIL;Varenedil;;;;;;;;;x
+VARENEDIL_FOA;Your Eminence;;;;;;;;;x
+d_blood_cult;Blood Cult;;;;;;;;;x
+d_blood_cult_adj;Blood Cult;;;;;;;;;x
+k_dark_elven_church;Church of Triarchy;;;;;;;;;x
+k_dark_elven_church_adj;Triarchian;;;;;;;;;x
+ARCHCANON;Archcanon;;;;;;;;;x
+ARCHCANON_FOA;Your Eminence;;;;;;;;;x
+k_dark_elven_heresy_church;Church of True Triarchy;;;;;;;;;x
+k_dark_elven_heresy_church_adj;Triarchian;;;;;;;;;x
+k_dwarven_church;The Stone Church;;;;;;;;;x
+k_dwarven_church_adj;Dwarven;;;;;;;;;x
+HIGH_RUNEMASTER;High Runemaster;;;;;;;;;x
+HIGH_RUNEMASTER_FOA;The Wise One;;;;;;;;;x
+d_dwarven_dwemer_heresy_church;Nurutushian Church;;;;;;;;;x
+d_dwarven_dwemer_heresy_church_adj;Nurutushian;;;;;;;;;x
+d_overseers;The Order of Overseers;;;;;;;;;x
+d_overseers_adj;Overseer;;;;;;;;;x
+HIGH_OVERSEER;High Overseer;;;;;;;;;x
+d_golden_eagle_guard;Golden Eagle Guard;;;;;;;;;x
+d_golden_eagle_guard_adj;Golden Eagle Guard;;;;;;;;;x
+d_lore_keepers;The Lorekeepers;;;;;;;;;x
+d_lore_keepers_adj;Dwarven;;;;;;;;;x
+d_guardians_of_knowledge;The Guardians of Knowledge;;;;;;;;;x
+d_guardians_of_knowledge_adj;Dwarven;;;;;;;;;x
+d_dark_elves_assassins;Shadows of Reth;;;;;;;;;x
+d_dark_elves_assassins_adj;Elven;;;;;;;;;x
+d_dwarven_dwemer_heresy_hashut_church;Temple of Hazhut;;;;;;;;;x
+d_dwarven_dwemer_heresy_hashut_church_adj;Dark Dwarven;;;;;;;;;x
+SCHOLAST_MILITANT;Sholar-Militant;;;;;;;;;x
+HIGH_PRIEST;High Priest;;;;;;;;;x
+HIGH_PRIEST_FOA;Your Eminence;;;;;;;;;x
+#MERCENARIES
+d_blood_elven_mercenaries;Corsairs of the Chill Coast;;;;;;;;;;;;;x
+d_blood_elven_mercenaries_adj;Corsair;;;;;;;;;;;;;x
+d_dark_dwarven_mercenaries;Arheologists of the White Ziggurat;;;;;;;;;;;;;x
+d_dark_dwarven_mercenaries_adj;Arheologist;;;;;;;;;;;;;x
+d_dark_elven_mercenaries;Slavers of the Black Coast;;;;;;;;;;;;;x
+d_dark_elven_mercenaries_adj;Slaver;;;;;;;;;;;;;x
+d_dwarven_mercenaries;Jolly Brewers;;;;;;;;;;;;;x
+d_dwarven_mercenaries_adj;Jolly Brewer;;;;;;;;;;;;;x
+d_high_elven_mercenaries;Squirrel Tails;;;;;;;;;;;;;x
+d_high_elven_mercenaries_adj;Squirrel Tail;;;;;;;;;;;;;x
+d_cat_folk_mercenaries;Trade Guards of the Solemn Desert;;;;;;;;;;;;;x
+d_cat_folk_mercenaries_adj;Trade Guard;;;;;;;;;;;;;x
+d_oruk_hai_mercenaries;Legion of the White Hand;;;;;;;;;;;;;x
+d_oruk_hai_mercenaries_adj;Legion;;;;;;;;;;;;;x
+#Religious titles
+temple_baron_elven;Priest;;;;;;;;;;;;;x
+temple_baron_female_elven;Priestess;;;;;;;;;;;;;x
+temple_barony_of_elven;Temple of;;;;;;;;;;;;;x
+temple_baron_elven_heresy;Priest;;;;;;;;;;;;;x
+temple_baron_female_elven_heresy;Priestess;;;;;;;;;;;;;x
+temple_barony_of_elven_heresy;Temple of;;;;;;;;;;;;;x
+temple_baron_elven_tribunal;Priest;;;;;;;;;;;;;x
+temple_baron_female_elven_tribunal;Priestess;;;;;;;;;;;;;x
+temple_baron_elven_tribunal_heresy;Priest;;;;;;;;;;;;;x
+temple_barony_of_elven_tribunal;Temple of;;;;;;;;;;;;;x
+temple_baron_female_elven_tribunal_heresy;Priestess;;;;;;;;;;;;;x
+temple_baron_dwarven;Runemaster;;;;;;;;;;;;;x
+temple_baron_female_dwarven;Runemaster;;;;;;;;;;;;;x
+temple_barony_of_dwarven;Temple of;;;;;;;;;;;;;x
+temple_baron_dwarven_dwemer;Scholar;;;;;;;;;;;;;x
+temple_baron_female_dwarven_dwemer;Scholar;;;;;;;;;;;;;x
+temple_barony_of_dwarven_dwemer;Academy of;;;;;;;;;;;;;x
+temple_baron_dwarven_dwemer_heresy;Priest;;;;;;;;;;;;;x
+temple_baron_female_dwarven_dwemer_heresy;Priest;;;;;;;;;;;;;x
+temple_barony_of_dwarven_dwemer_heresy;Temple of;;;;;;;;;;;;;x
+temple_baron_dwarven_dwemer_heresy_hashut;Priest;;;;;;;;;;;;;x
+temple_baron_female_dwarven_dwemer_heresy_hashut;Priestess;;;;;;;;;;;;;x
+temple_barony_of_dwarven_dwemer_heresy_hashut;Temple of;;;;;;;;;;;;;x
+temple_baron_cat_folk_religion;Priest;;;;;;;;;;;;;x
+temple_baron_female_cat_folk_religion;Priestess;;;;;;;;;;;;;x
+temple_barony_of_cat_folk_religion;Temple of;;;;;;;;;;;;;x
+temple_baron_orc_religion;Shaman;;;;;;;;;;;;;x
+temple_baron_female_orc_religion;Shamaness;;;;;;;;;;;;;x
+temple_barony_of_orc_religion;Temple of;;;;;;;;;;;;;x
+temple_baron_orc_religion_heresy;Shaman;;;;;;;;;;;;;x
+temple_baron_female_orc_religion_heresy;Shamaness;;;;;;;;;;;;;x
+temple_barony_of_orc_religion_heresy;Temple of;;;;;;;;;;;;;x
+temple_baron_orc_religion_dark_lord;Priest;;;;;;;;;;;;;x
+temple_baron_female_orc_religion_dark_lord;Priestess;;;;;;;;;;;;;x
+temple_barony_of_orc_religion_dark_lord;Temple of;;;;;;;;;;;;;x
+temple_baron_orc_religion_bright_lord;Priest;;;;;;;;;;;;;x
+temple_baron_female_orc_religion_bright_lord;Priestess;;;;;;;;;;;;;x
+temple_barony_of_orc_religion_bright_lord;Temple of;;;;;;;;;;;;;x
+#TITLE NAMES
+#DWARFS
+emperor_dwarven_dawi;High King;;;;;;;;;;;;;x
+emperor_female_dwarven_dawi;High Queen;;;;;;;;;;;;;x
+king_dwarven_dawi;King;;;;;;;;;;;;;x
+king_female_dwarven_dawi;Queen;;;;;;;;;;;;;x
+duke_dwarven_dawi;Jarl;;;;;;;;;;;;;x
+duke_female_dwarven_dawi;Jarl;;;;;;;;;;;;;x
+count_dwarven_dawi;Thane;;;;;;;;;;;;;x
+count_female_dwarven_dawi;Thane;;;;;;;;;;;;;x
+city_baron_dwarven_dawi;Thane;;;;;;;;;;;;;x
+city_baron_female_dwarven_dawi;Thane;;;;;;;;;;;;;x
+baron_dwarven_dawi;Thane;;;;;;;;;;;;;x
+baron_female_dwarven_dawi;Thane;;;;;;;;;;;;;x
+#DARK DWARFS
+emperor_dark_dwarven;Lugalzagesi;;;;;;;;;;;;;x
+emperor_female_dark_dwarven;Ninzagesi;;;;;;;;;;;;;x
+king_dark_dwarven;Lugal;;;;;;;;;;;;;x
+king_female_dark_dwarven;Nin;;;;;;;;;;;;;x
+duke_dark_dwarven;Patesi;;;;;;;;;;;;;x
+duke_female_dark_dwarven;Nintesi;;;;;;;;;;;;;x
+count_dark_dwarven;En;;;;;;;;;;;;;x
+count_female_dark_dwarven;Entum;;;;;;;;;;;;;x
+city_baron_dark_dwarven;En;;;;;;;;;;;;;x
+city_baron_female_dark_dwarven;Entum;;;;;;;;;;;;;x
+baron_dark_dwarven;En;;;;;;;;;;;;;x
+baron_female_dark_dwarven;Entum;;;;;;;;;;;;;x
+#HIGH ELVES
+emperor_high_elven;High King;;;;;;;;;;;;;x
+emperor_female_high_elven;High Queen;;;;;;;;;;;;;x
+king_high_elven;King;;;;;;;;;;;;;x
+king_female_high_elven;Queen;;;;;;;;;;;;;x
+duke_high_elven;Grand Prince;;;;;;;;;;;;;x
+duke_female_high_elven;Grand Princess;;;;;;;;;;;;;x
+count_high_elven;Prince;;;;;;;;;;;;;x
+count_female_high_elven;Princess;;;;;;;;;;;;;x
+city_baron_high_elven;Lord;;;;;;;;;;;;;x
+city_baron_female_high_elven;Lady;;;;;;;;;;;;;x
+baron_high_elven;Lord;;;;;;;;;;;;;x
+baron_female_high_elven;Lady;;;;;;;;;;;;;x
+#HIGH ELVES
+emperor_blood_elven;High King;;;;;;;;;;;;;x
+emperor_female_blood_elven;High Queen;;;;;;;;;;;;;x
+king_blood_elven;King;;;;;;;;;;;;;x
+king_female_blood_elven;Queen;;;;;;;;;;;;;x
+duke_blood_elven;Grand Prince;;;;;;;;;;;;;x
+duke_female_blood_elven;Grand Princess;;;;;;;;;;;;;x
+count_blood_elven;Prince;;;;;;;;;;;;;x
+count_female_blood_elven;Princess;;;;;;;;;;;;;x
+city_baron_blood_elven;Lord;;;;;;;;;;;;;x
+city_baron_female_blood_elven;Lady;;;;;;;;;;;;;x
+baron_blood_elven;Lord;;;;;;;;;;;;;x
+baron_female_blood_elven;Lady;;;;;;;;;;;;;x
+#DARK ELVES
+emperor_dark_elven;Hortator;;;;;;;;;;;;;x
+emperor_female_dark_elven;Hortator;;;;;;;;;;;;;x
+king_dark_elven;Ashkhan;;;;;;;;;;;;;x
+king_female_dark_elven;Ashkhatun;;;;;;;;;;;;;x
+duke_dark_elven;Gulakhan;;;;;;;;;;;;;x
+duke_female_dark_elven;Gulakhatun;;;;;;;;;;;;;x
+count_dark_elven;Khan;;;;;;;;;;;;;x
+count_female_dark_elven;Khatun;;;;;;;;;;;;;x
+city_baron_dark_elven;Lord;;;;;;;;;;;;;x
+city_baron_female_dark_elven;Lady;;;;;;;;;;;;;x
+baron_dark_elven;Lord;;;;;;;;;;;;;x
+baron_female_dark_elven;Lady;;;;;;;;;;;;;x
+nomadic_king_dark_elven;Gulakhan;;;;;;;;;;;;;x
+nomadic_king_female_dark_elven;Gulakhatun;;;;;;;;;;;;;x
+nomadic_emperor_dark_elven;Ashkhan;;;;;;;;;;;;;x
+nomadic_emperor_female_dark_elven;Ashkhatun;;;;;;;;;;;;;x
+#DARK ELVES NOMADS
+emperor_dark_elven_nomad;Hortator;;;;;;;;;;;;;x
+emperor_female_dark_elven_nomad;Hortator;;;;;;;;;;;;;x
+king_dark_elven_nomad;Ashkhan;;;;;;;;;;;;;x
+king_female_dark_elven_nomad;Ashkhatun;;;;;;;;;;;;;x
+duke_dark_elven_nomad;Gulakhan;;;;;;;;;;;;;x
+duke_female_dark_elven_nomad;Gulakhatun;;;;;;;;;;;;;x
+count_dark_elven_nomad;Khan;;;;;;;;;;;;;x
+count_female_dark_elven_nomad;Khatun;;;;;;;;;;;;;x
+city_baron_dark_elven_nomad;Lord;;;;;;;;;;;;;x
+city_baron_female_dark_elven_nomad;Lady;;;;;;;;;;;;;x
+baron_dark_elven_nomad;Lord;;;;;;;;;;;;;x
+baron_female_dark_elven_nomad;Lady;;;;;;;;;;;;;x
+nomadic_king_dark_elven_nomad;Gulakhan;;;;;;;;;;;;;x
+nomadic_king_female_dark_elven_nomad;Gulakhatun;;;;;;;;;;;;;x
+nomadic_emperor_dark_elven_nomad;Ashkhan;;;;;;;;;;;;;x
+nomadic_emperor_female_dark_elven_nomad;Ashkhatun;;;;;;;;;;;;;x
+#ORUK
+emperor_oruk;Overlord;;;;;;;;;;;;;x
+emperor_female_oruk;Overlord;;;;;;;;;;;;;x
+king_oruk;Warmaster;;;;;;;;;;;;;x
+king_female_oruk;Warmaster;;;;;;;;;;;;;x
+duke_oruk;Warlord;;;;;;;;;;;;;x
+duke_female_oruk;Warlord;;;;;;;;;;;;;x
+count_oruk;Chieftain;;;;;;;;;;;;;x
+count_female_oruk;Chieftain;;;;;;;;;;;;;x
+city_baron_oruk;Chief;;;;;;;;;;;;;x
+city_baron_female_oruk;Chief;;;;;;;;;;;;;x
+baron_oruk;Chief;;;;;;;;;;;;;x
+baron_female_oruk;Chief;;;;;;;;;;;;;x
+nomadic_king_oruk;Chieftain;;;;;;;;;;;;;x
+nomadic_king_female_oruk;Chieftain;;;;;;;;;;;;;x
+nomadic_emperor_oruk;Wargadangar;;;;;;;;;;;;;x
+nomadic_emperor_female_oruk;Wargadangar;;;;;;;;;;;;;x
+#ORUK-HAI
+emperor_oruk_hai;Overlord;;;;;;;;;;;;;x
+emperor_female_oruk_hai;Overlord;;;;;;;;;;;;;x
+king_oruk_hai;Warmaster;;;;;;;;;;;;;x
+king_female_oruk_hai;Warmaster;;;;;;;;;;;;;x
+duke_oruk_hai;Warlord;;;;;;;;;;;;;x
+duke_female_oruk_hai;Warlord;;;;;;;;;;;;;x
+count_oruk_hai;Lord;;;;;;;;;;;;;x
+count_female_oruk_hai;Lord;;;;;;;;;;;;;x
+city_baron_oruk_hai;Lord;;;;;;;;;;;;;x
+city_baron_female_oruk_hai;Lady;;;;;;;;;;;;;x
+baron_oruk_hai;Chief;;;;;;;;;;;;;x
+baron_female_oruk_hai;Chief;;;;;;;;;;;;;x
+nomadic_king_oruk_hai;Chieftain;;;;;;;;;;;;;x
+nomadic_king_female_oruk_hai;Chieftain;;;;;;;;;;;;;x
+nomadic_emperor_oruk_hai;Warmaster;;;;;;;;;;;;;x
+nomadic_emperor_female_oruk_hai;Warmaster;;;;;;;;;;;;;x
+#LAND TITLES
+#ELVEN
+duchy_high_elven;Grand Principality;;;;;;;;;;;;;x
+duchy_of_high_elven;Grand Principality of;;;;;;;;;;;;;x
+county_high_elven;Principality;;;;;;;;;;;;;x
+county_of_high_elven;Principality of;;;;;;;;;;;;;x
+#BLOOD ELVEN
+duchy_blood_elven;Grand Principality;;;;;;;;;;;;;x
+duchy_of_blood_elven;Grand Principality of;;;;;;;;;;;;;x
+county_blood_elven;Principality;;;;;;;;;;;;;x
+county_of_blood_elven;Principality of;;;;;;;;;;;;;x
+#DWARVEN
+duchy_dwarven_dawi;Jarldom;;;;;;;;;;;;;x
+duchy_of_dwarven_dawi;Jarldom of;;;;;;;;;;;;;x
+county_dwarven_dawi;Thanedom;;;;;;;;;;;;;x
+county_of_dwarven_dawi;Thanedom of;;;;;;;;;;;;;x
+#DARK ELVEN
+nomadic_empire_dark_elven;Ashkhanate;;;;;;;;;;;;;x
+nomadic_empire_of_dark_elven;Ashkhanate of;;;;;;;;;;;;;x
+nomadic_kingdom_dark_elven;Gulakhananate;;;;;;;;;;;;;x
+nomadic_kingdom_of_dark_elven;Gulakhananate of;;;;;;;;;;;;;x
+#DARK ELVEN NOMADS
+nomadic_empire_oruk_hai;Ashkhanate;;;;;;;;;;;;;x
+nomadic_empire_of_oruk_hai;Ashkhanate of;;;;;;;;;;;;;x
+nomadic_kingdom_oruk_hai;Gulakhananate;;;;;;;;;;;;;x
+nomadic_kingdom_of_oruk_hai;Gulakhananate of;;;;;;;;;;;;;x
+#GOVERNMENT
+dark_dwarven_tyranny_government;Dark Dwarven Despotism;;;;;;;;;;;;;x
+dark_dwarven_tyranny_government_desc;The despotism of the Dark Dwarves is a complex centralized bureaucratic system in which numerous temple and castle lands belong to the sole tyrant - Lugal. Lugal manages a vast bureaucratic and military apparatus of governors and officials who ensure that the country is governed by Lugal through military force or the dependence of his subjects on centrally allocated resources. This type of government is supported by the scholastics of the Cult of Knowledge, who consider it the optimal form of government in the current era, but the direct vassals of Lugal may thinks otherwise...;;;;;;;;;;;;;x
+#GOVERNMENT FLAVOR
+gov_dwemer;Dark Dwarven Despotism;;;;;;;;;;;;;x

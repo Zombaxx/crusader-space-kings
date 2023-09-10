@@ -1,0 +1,581 @@
+1256001 = {
+	name = "Fenorion"
+	culture = high_elven
+}
+
+1256002 = {
+	name = "Aundae"
+	culture = high_elven
+}
+
+1256003 = {
+	name = "Rilis"
+	culture = high_elven
+}
+
+1256004 = {
+	name = "Areleth"
+	culture = high_elven
+}
+
+1256005 = {
+	name = "Annatar"
+	culture = high_elven
+}
+
+1256006 = {
+	name = "Pereldar"
+	culture = high_elven
+}
+
+1256007 = {
+	name = "Allatar"
+	culture = high_elven
+}
+
+1256008 = {
+	name = "Elorin"
+	culture = high_elven
+}
+
+1256009 = {
+	name = "Curume"
+	culture = high_elven
+}
+
+1256010 = {
+	name = "Remestame"
+	culture = high_elven
+}
+
+1256011 = {
+    name = "Aiwendil"
+	culture = high_elven
+}
+
+1256012 = {
+    name = "Olerino"
+	culture = high_elven
+}
+
+1256013 = {
+    name = "Curunir"
+	culture = high_elven
+}
+
+1256014 = {
+    name = "Telconthir"
+	culture = high_elven
+}
+
+1256015 = {
+    name = "Nelothir"
+	culture = high_elven
+}
+
+1256016 = {
+    name = "Grilron"
+	culture = dwarven_dawi
+}
+
+1256017 = {
+    name = "Gimmar"
+	culture = dwarven_dawi
+}
+
+1256018 = {
+    name = "Beldar"
+	culture = dwarven_dawi
+}
+
+1256019 = {
+    name = "Grennom"
+	culture = dwarven_dawi
+}
+
+1256020 = {
+    name = "Branmiir"
+	culture = dwarven_dawi
+}
+
+1256021 = {
+    name = "Adrik"
+	culture = dwarven_dawi
+}
+
+1256022 = {
+    name = "Botmurdem"
+	culture = dwarven_dawi
+}
+
+1256023 = {
+    name = "Kargrim"
+	culture = dwarven_dawi
+}
+
+1256024 = {
+    name = "Kramnur"
+	culture = dwarven_dawi
+}
+
+1256025 = {
+    name = "Ceretelir"
+	culture = dwarven_dawi
+}
+
+1256026 = {
+    name = "Torrus"
+	culture = dwarven_dawi
+}
+
+1256027 = {
+    name = "Bharryl"
+	culture = dwarven_dawi
+}
+
+1256028 = {
+    name = "Thurkuhm"
+	culture = dwarven_dawi
+}
+
+1256029 = {
+    name = "Tarkun"
+	culture = dwarven_dawi
+}
+
+1256030 = {
+    name = "Kurumun"
+	culture = dwarven_dawi
+}
+1256031 = {
+    name = "Sadri"
+	culture = dark_elven
+}
+1256032 = {
+    name = "Atheron"
+	culture = dark_elven
+}
+1256033 = {
+    name = "Alor"
+	culture = dark_elven
+}
+1256034 = {
+    name = "Arano"
+	culture = dark_elven
+}
+1256035 = {
+    name = "Gatharian"
+	culture = dark_elven
+}
+1256036 = {
+    name = "Ienth"
+	culture = dark_elven
+}
+1256037 = {
+    name = "Rendas"
+	culture = dark_elven
+}
+1256038 = {
+    name = "Sarethi"
+	culture = dark_elven
+}
+1256039 = {
+    name = "Velothe"
+	culture = dark_elven
+}
+1256040 = {
+    name = "Invaril"
+	culture = dark_elven
+}
+1256041 = {
+    name = "Relodan"
+	culture = dark_elven
+}
+1256042 = {
+    name = "Deres"
+	culture = dark_elven
+}
+1256043 = {
+    name = "Hilaaru"
+	culture = dark_elven
+}
+1256044 = {
+    name = "Teliranni"
+	culture = dark_elven
+}
+1256045 = {
+    name = "Satharas"
+	culture = dark_elven
+}
+1256046 = {
+    name = "Bagarn"
+	culture = dark_dwarven
+}
+1256047 = {
+    name = "Mezalf"
+	culture = dark_dwarven
+}
+1256048 = {
+    name = "Radlin"
+	culture = dark_dwarven
+}
+1256049 = {
+    name = "Nchuwarn"
+	culture = dark_dwarven
+}
+1256050 = {
+    name = "Menrynn"
+	culture = dark_dwarven
+}
+1256051 = {
+    name = "Inragrenz"
+	culture = dark_dwarven
+}
+1256052 = {
+    name = "Druvarn"
+	culture = dark_dwarven
+}
+1256053 = {
+    name = "Mzahnch"
+	culture = dark_dwarven
+}
+1256054 = {
+    name = "Bretvar"
+	culture = dark_dwarven
+}
+1256055 = {
+    name = "Nromrorn"
+	culture = dark_dwarven
+}
+1256056 = {
+    name = "Druvarn"
+	culture = dark_dwarven
+}
+1256057 = {
+    name = "Ncheharvarn"
+	culture = dark_dwarven
+}
+1256058 = {
+    name = "Jagarn"
+	culture = dark_dwarven
+}
+1256059 = {
+    name = "Bnorach"
+	culture = dark_dwarven
+}
+1256060 = {
+    name = "Mezalf"
+	culture = dark_dwarven
+}
+1256061 = {
+    name = "Awemedinade"
+	culture = dwarven_dawi
+}
+1256062 = {
+    name = "Zabiri"
+	culture = cat_folk
+}
+
+1256063 = {
+    name = "Avandi"
+	culture = cat_folk
+}
+
+1256064 = {
+    name = "Baratani"
+	culture = cat_folk
+}
+
+
+1256065 = {
+    name = "Hammustae"
+	culture = cat_folk
+}
+
+1256066 = {
+    name = "Jarabi"
+	culture = cat_folk
+}
+
+1256067 = {
+    name = "Khaoni"
+	culture = cat_folk
+}
+
+1256068 = {
+    name = "Kinai"
+	culture = cat_folk
+
+}
+
+1256069 = {
+    name = "Mahmnin"
+	culture = cat_folk
+}
+
+1256070 = {
+    name = "Raimanni"
+	culture = cat_folk
+}
+
+1256071 = {
+    name = "Rokar"
+	culture = cat_folk
+}
+
+1256072 = {
+    name = "Sahir"
+	culture = cat_folk
+}
+
+1256073 = {
+    name = "Sihan"
+	culture = cat_folk
+}
+
+1256074 = {
+    name = "Soldavi"
+	culture = cat_folk
+}
+
+1256075 = {
+    name = "Tavakhan"
+	culture = cat_folk
+}
+
+1256076 = {
+    name = "Zakar"
+	culture = cat_folk
+}
+
+1256077 = {
+    name = "Zenammu"
+	culture = dark_elven_nomad
+}
+
+1256078 = {
+    name = "Urshummarnamus"
+	culture = dark_elven_nomad
+}
+
+1256079 = {
+    name = "Yansurnummu"
+	culture = dark_elven_nomad
+}
+
+1256080 = {
+    name = "Ilabael"
+	culture = dark_elven_nomad
+}
+
+1256081 = {
+    name = "Assunbahanammu"
+	culture = dark_elven_nomad
+}
+
+1256082 = {
+    name = "Assantinalit"
+	culture = dark_elven_nomad
+}
+
+1256083 = {
+    name = "Dunsamsi"
+	culture = dark_elven_nomad
+}
+
+1256084 = {
+    name = "Kuntarnammu"
+	culture = dark_elven_nomad
+}
+
+1256085 = {
+    name = "Shin-Ilu"
+	culture = dark_elven_nomad
+}
+
+1256086 = {
+    name = "Erushara"
+	culture = dark_elven_nomad
+}
+
+1256087 = {
+    name = "Maessabibi"
+	culture = dark_elven_nomad
+}
+
+1256088 = {
+    name = "Sammalamus"
+	culture = dark_elven_nomad
+}
+
+1256089 = {
+    name = "Gilu"
+	culture = dark_elven_nomad
+}
+
+1256090 = {
+    name = "Dun-Ahhe"
+	culture = dark_elven_nomad
+}
+
+1256091 = {
+    name = "Asserrumusa"
+	culture = dark_elven_nomad
+}
+
+1256092 = {
+    name = "Ranarbatus"
+	culture = dark_elven_nomad
+}
+
+1256093 = {
+    name = "Yessur-Disadon"
+	culture = dark_elven_nomad
+}
+
+1256094 = {
+    name = "Hansar"
+	culture = dark_elven_nomad
+}
+
+1256095 = {
+    name = "Ilath-Pal"
+	culture = dark_elven_nomad
+}
+
+1256096 = {
+    name = "Bael"
+	culture = dark_elven_nomad
+}
+
+1256097 = {
+    name = "Benamamat"
+	culture = dark_elven_nomad
+}
+
+1256098 = {
+    name = "Ashirbibi"
+	culture = dark_elven_nomad
+}
+
+1256099 = {
+    name = "Addinibi"
+	culture = dark_elven_nomad
+}
+
+1256100 = {
+    name = "Longbrod"
+	culture = dwarven_dawi
+}
+
+1256101 = {
+	name = "Riatil"
+	culture = blood_elven
+}
+
+1256102 = {
+	name = "Sarath"
+	culture = blood_elven
+}
+
+1256103 = {
+	name = "Heretos"
+	culture = blood_elven
+}
+
+1256104 = {
+	name = "Thrandil"
+	culture = blood_elven
+}
+
+1256105 = {
+	name = "Nagarine"
+	culture = blood_elven
+}
+
+1256106 = {
+	name = "Nirith"
+	culture = blood_elven
+}
+
+1256107 = {
+	name = "Vothiel"
+	culture = blood_elven
+}
+
+1256108 = {
+	name = "Kar-Nazar"
+	culture = blood_elven
+}
+
+1256109 = {
+	name = "Sar-Kurothi"
+	culture = blood_elven
+}
+
+1256110 = {
+	name = "Calywen"
+	culture = blood_elven
+}
+
+1256111 = {
+    name = "Aenerox"
+	culture = blood_elven
+}
+
+1256112 = {
+    name = "Kallax"
+	culture = blood_elven
+}
+
+1256113 = {
+    name = "Tal-Valar"
+	culture = blood_elven
+}
+
+1256114 = {
+    name = "Zandar"
+	culture = blood_elven
+}
+
+1256115 = {
+    name = "Korus"
+	culture = blood_elven
+}
+
+1256116 = {
+    name = "Awemedinade"
+	culture = high_elven
+}
+
+1256117 = { name = "Bulag" 	culture = oruk } 
+1256118 = { name = "Mogduk" 	culture = oruk } 
+1256119 = { name = "Shugham" 	culture = oruk } 
+1256120 = { name = "Gurub" 	culture = oruk } 
+1256121 = { name = "Grambak" 	culture = oruk } 
+1256122 = { name = "Bagrat" 	culture = oruk } 
+1256123 = { name = "Lazgarn" 	culture = oruk } 
+1256124 = { name = "Muzgub" 	culture = oruk } 
+1256125 = { name = "Khatub" 	culture = oruk } 
+1256126 = { name = "Khazor" 	culture = oruk } 
+1256127 = { name = "Uzuk" 	culture = oruk } 
+1256128 = { name = "Ular" 	culture = oruk } 
+1256129 = { name = "Mughol" 	culture = oruk } 
+1256130 = { name = "Borbog" 	culture = oruk } 
+1256131 = { name = "Azorku" 	culture = oruk }
+
+1256132 = { name = "Ar-Baruk" 	culture = oruk_hai } 
+1256133 = { name = "Ar-Kaius" 	culture = oruk_hai } 
+1256134 = { name = "Az-Bror" 	culture = oruk_hai } 
+1256135 = { name = "Ur-Gram" 	culture = oruk_hai } 
+1256136 = { name = "Ur-Masi" 	culture = oruk_hai } 
+1256137 = { name = "Ar-Beka" 	culture = oruk_hai } 
+1256138 = { name = "Ar-Karo" 	culture = oruk_hai } 
+1256139 = { name = "Az-Grels" 	culture = oruk_hai } 
+1256140 = { name = "Ur-Hakon" 	culture = oruk_hai } 
+1256141 = { name = "Ar-Gul" 	culture = oruk_hai } 
+1256142 = { name = "Ar-Pratu" 	culture = oruk_hai } 
+1256143 = { name = "Az-Harto" 	culture = oruk_hai } 
+1256144 = { name = "Ur-Dag" 	culture = oruk_hai } 
+1256145 = { name = "Ur-Edin" 	culture = oruk_hai } 
+1256146 = { name = "Az-Adar" 	culture = oruk_hai }

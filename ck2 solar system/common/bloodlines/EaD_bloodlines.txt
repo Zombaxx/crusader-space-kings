@@ -1,0 +1,44 @@
+bloodline_cacame = {
+	high_elven_opinion = -10
+	dwarven_dawi_opinion = 10
+	command_modifier = {
+		morale_offence = 0.05
+	}
+	combat_rating = 10
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_ruthless
+	flags = { historical_bloodline elven_bloodline }
+}
+
+bloodline_gorthaur = {
+	high_elven_opinion = -10
+	oruk_hai_opinion = 10
+	oruk_opinion = 10
+	blood_elven_opinion = 10
+	command_modifier = {
+		morale_offence = 0.05
+	}
+	combat_rating = 10
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_ruthless
+	flags = { historical_bloodline elven_bloodline dark_ring_bloodline }
+}
+
+bloodline_celebrimbor = {
+	high_elven_opinion = 10
+	oruk_hai_opinion = 10
+	oruk_opinion = 10
+	blood_elven_opinion = -10
+	command_modifier = {
+		morale_offence = 0.05
+	}
+	bloodline_effect_elven_bloodline = 1
+	bloodline_effect_bright_ring = 1
+	combat_rating = 10
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_benevolent
+	flags = { historical_bloodline elven_bloodline bright_ring_bloodline }
+}

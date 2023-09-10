@@ -1,0 +1,27 @@
+#Traits
+elf;High Elf;;;;;;;;;;;;;x
+elf_desc;A human-like race with pointed ears, slightly longer lifespan but lower fertility. Many people find elves quite attractive;;;;;;;;;;;;;x
+dark_elf;Dark Elf;;;;;;;;;;;;;x
+dark_elf_desc;A human-like race with pointed ears, gray skin color, slightly longer lifespan but lower fertility. They are considered by many to be more ambitious and cunning than high elves, but nonetheless recognized for their exotic beauty;;;;;;;;;;;;;x
+fantasy_dwarf;Dwarf;;;;;;;;;;;;;x
+fantasy_dwarf_desc;A human-like race with low height and beards. They are generally considered to be good miners and warriors;;;;;;;;;;;;;x
+dark_dwarf;Dark Dwarf;;;;;;;;;;;;;x
+dark_dwarf_desc;A human-like race with low height, blue skin color and beards. They are considered much wiser and more intelligent than others;;;;;;;;;;;;;x
+cat_folk;Cathrian;;;;;;;;;;;;;x
+cat_folk_desc;A human-like race with feline features. Usually dexterious and fertile;;;;;;;;;;;;;x
+orc;Orc;;;;;;;;;;;;;x
+orc_desc;A human-like race with green skin and small tusks. They are considered to be fearsome warriors;;;;;;;;;;;;;x
+dwarven_leader;Mountain Warrior;;;;;;;;;;;;;x
+sympathy_otherworlden;Sympathy for Otherworlden Religions;;;;;;;;;;;;;x
+sympathy_otherworlden_desc;This character, though not a member of any of the otherworlden religions, understand many of their faiths and sympathises with them.;;;;;;;;;;;;;x
+#Complimetnt and insults
+INSULT_WITCH;witch;;;;;;;;;;;;;x
+INSULT_KNIFE_EARED;knife-eared;;;;;;;;;;;;;x
+COMPLIMENT_BEAUTIFUL;beautiful;;;;;;;;;;;;;x
+COMPLIMENT_HANDSOME;handsome;;;;;;;;;;;;;x
+INSULT_STONE_EATER;stone eater;;;;;;;;;;;;;x
+INSULT_STUNTED;stunted;;;;;;;;;;;;;x
+INSULT_BEAST;beast;;;;;;;;;;;;;x
+INSULT_HAIRY;hairy;;;;;;;;;;;;;x
+COMPLIMENT_ELEGANT;elegant;;;;;;;;;;;;;x
+INSULT_GREENSKIN;greenskin;;;;;;;;;;;;;x

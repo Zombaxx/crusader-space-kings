@@ -1,0 +1,565 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_blood_elven_clothes"
+		texturefile = "gfx\\characters\\elven_male\\blood_elven_male_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_blood_elven_clothes_behind"
+		texturefile = "gfx\\characters\\elven_male\\elven_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_blood_elven_headgear"
+		texturefile = "gfx\\characters\\elven_male\\blood_elven_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_blood_elven_headgear_behind"
+		texturefile = "gfx\\characters\\elven_male\\blood_elven_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+    spriteType = {
+		name = "GFX_blood_elven_clothes_female"
+		texturefile = "gfx\\characters\\elven_female\\blood_elven_female_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_blood_elven_clothes_behind_female"
+		texturefile = "gfx\\characters\\elven_female\\elven_female_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_blood_elven_headgear_female"
+		texturefile = "gfx\\characters\\elven_female\\blood_elven_female_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_blood_elven_headgear_behind_female"
+		texturefile = "gfx\\characters\\elven_male\\blood_elven_female_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_uruk_hai_clothes"
+		texturefile = "gfx\\characters\\orc_male\\uruk_hai_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_uruk_hai_clothes_behind"
+		texturefile = "gfx\\characters\\elven_male\\elven_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_uruk_hai_headgear"
+		texturefile = "gfx\\characters\\orc_male\\uruk_hai_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_uruk_hai_headgear_behind"
+		texturefile = "gfx\\characters\\orc_male\\uruk_hai_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+
+    spriteType = {
+		name = "GFX_uruk_hai_clothes_female"
+		texturefile = "gfx\\characters\\orc_female\\uruk_hai_female_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_uruk_hai_clothes_behind_female"
+		texturefile = "gfx\\characters\\elven_female\\elven_female_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_uruk_hai_headgear_female"
+		texturefile = "gfx\\characters\\orc_female\\uruk_hai_female_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_uruk_hai_headgear_behind_female"
+		texturefile = "gfx\\characters\\orc_female\\uruk_hai_female_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+	}
+		
+	portraitType = { #Portraits - Male
+		effectFile = "gfx/FX/portrait.lua"
+		name = "PORTRAIT_blood_elf_male"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = no
+				portrait_clothing = yes
+				portrait_culture_group = elven_group
+					OR = {
+						portrait_religion = elven_heresy
+						portrait_culture = blood_elven
+					}
+				NOT = { portrait_government = theocracy_government }
+			}
+		}
+		
+		layer = { 
+			"GFX_blood_elven_clothes_behind:p3:c0"
+            "GFX_blood_elven_clothes:p3:c2"
+            "GFX_empty:c3"
+            "GFX_blood_elven_headgear:p5:c5"
+            "GFX_blood_elven_headgear_behind:p5:c1"
+			"GFX_empty:c6"
+			"GFX_empty:c7"
+            "GFX_empty:c4"
+		}
+		
+		# Correct rank
+		allow_property_values = {
+			3 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+			5 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+		}
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	portraitType = { #Portraits - female
+		effectFile = "gfx/FX/portrait.lua"
+		name = "PORTRAIT_blood_elf_female"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = yes
+				portrait_clothing = yes
+				portrait_culture_group = elven_group
+					OR = {
+						portrait_religion = elven_heresy
+						portrait_culture = blood_elven
+					}
+				NOT = { portrait_government = theocracy_government }
+			}
+		}
+		
+		layer = { 
+			"GFX_blood_elven_clothes_behind_female:p3:c0"
+            "GFX_blood_elven_clothes_female:p3:c2"
+            "GFX_empty:c3"
+            "GFX_blood_elven_headgear_female:p5:c5"
+            "GFX_blood_elven_headgear_behind_female:p5:c1"
+			"GFX_empty:c6"
+			"GFX_empty:c7"
+            "GFX_empty:c4"
+		}
+		
+		# Correct rank
+		allow_property_values = {
+			3 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+			5 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+		}
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	portraitType = { #Portraits - Male
+		effectFile = "gfx/FX/portrait.lua"
+		name = "PORTRAIT_uruk_hai_male"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = no
+				portrait_clothing = yes
+				#portrait_culture_group = orcish_group
+					OR = {
+						portrait_religion = orc_religion_dark_lord
+						portrait_religion = orc_religion_bright_lord
+						portrait_culture = oruk_hai
+					}
+				NOT = { portrait_government = theocracy_government }
+			}
+		}
+		
+		layer = { 
+			"GFX_uruk_hai_clothes_behind:p3:c0"
+            "GFX_uruk_hai_clothes:p3:c2"
+            "GFX_empty:c3"
+            "GFX_uruk_hai_headgear:p5:c5"
+            "GFX_uruk_hai_headgear_behind:p5:c1"
+			"GFX_empty:c6"
+			"GFX_empty:c7"
+            "GFX_empty:c4"
+		}
+		
+		# Correct rank
+		allow_property_values = {
+			3 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+			5 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+		}
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	portraitType = { #Portraits - Female
+		effectFile = "gfx/FX/portrait.lua"
+		name = "PORTRAIT_uruk_hai_female"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = yes
+				portrait_clothing = yes
+				#portrait_culture_group = orcish_group
+					OR = {
+						portrait_religion = orc_religion_dark_lord
+						portrait_religion = orc_religion_bright_lord
+						portrait_culture = oruk_hai
+					}
+				NOT = { portrait_government = theocracy_government }
+			}
+		}
+		
+		layer = { 
+			"GFX_uruk_hai_clothes_behind_female:p3:c0"
+            "GFX_uruk_hai_clothes_female:p3:c2"
+            "GFX_empty:c3"
+            "GFX_uruk_hai_headgear_female:p5:c5"
+            "GFX_uruk_hai_headgear_behind_female:p5:c1"
+			"GFX_empty:c6"
+			"GFX_empty:c7"
+            "GFX_empty:c4"
+		}
+		
+		# Correct rank
+		allow_property_values = {
+			3 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+			5 = {
+				0 = {
+					in_command = no
+				}
+				1 = {
+					in_command = no
+				}
+				2 = {
+					in_command = no
+				}
+				3 = {
+					in_command = no
+				}
+				4 = {
+					in_command = no
+				}
+				5 = {
+					in_command = no
+				}
+				6 = {
+					in_command = no
+				}
+				7 = {
+					in_command = no
+				}
+				8 = {
+					in_command = no
+				}
+				9 = {
+					in_command = no
+				}
+				10 = {
+					in_command = yes
+				}
+				11 = {
+					in_command = no
+				}
+			}
+		}
+		headgear_that_hides_hair = { 10 }
+	}
+
+}

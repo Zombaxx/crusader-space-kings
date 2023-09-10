@@ -1,0 +1,544 @@
+elven_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { elvengfx }
+	
+	high_elven = { #Basicly LotR elves
+		graphical_cultures = { elvengfx }
+		unit_graphical_cultures = { byzantinegfx }
+		secondary_event_pictures = elven
+		
+		color = { 1.0 1.0 0.5 }
+		
+		used_for_random = no
+		
+
+		male_names = {
+			Antheron Annatar Angolchon Aphadon Aradheldir Arodon Aedros Bangedir Bastedir Brundir Cacame Calarchon Camaendaer Colfinnor Coruchon Crithon Colben Curufir 
+			Daedhrochanar Delgarandir Dravron Dulindir Edraithanar Eithon Elohir Elrond Esgaldir Esgalnorchon Faegon Faindir Fanchanar Feiron 
+			Finor Fenor Galchon Galedir Gaurdor Gaven Gelinnasson Glachon Glavron Golvon Gomben Gwaerenor Gudon Hamdaer Harnedir Haudhanar Haudhon 
+			Halben Ialledir Lagoruthon Lanthirdaer Lanthirdor Legolas Loborchon Loegon Madron Maethon Manadhanar Meluichanar Mudon Nalledir Nallon Narchon 
+			Naron Narthon Naurchanar Nestedir Ningannelchon Olchanar Osbon Osgardir Padedir Padron Pelchon Raegnir Ranaer Redhedon Taethon 
+			Tatharon Teliedir Thorchanar Tinunaer Torthedir Torthon Traston Uildir Urben
+		}
+		female_names = {
+			Achasdes Aearonith Aglarebel Amarthrien Amathel Angoliel Anniel Annonil Annonthel Aphadriel Aphedriel Banneth Barhel Bastadis Belegornien Breniril
+			Borien Cadhril Cadwordis Caladwen Caledhelwen Carvrien Cedhriel Cendis Coldis Crithadis Cilil Damel Devriel Duvainel Duventhel Eithriel Eithril Eliadis Elirien
+			Faegnith Faugnith Faunel Feiradis Feirriel Feirril Felil Filegel Filegwen Ferhel Gaildes Galdis Garaves Glavradis Glavroleth Gobelnith Gonodissiel Gowestiel Gwaedhiel
+			Gwaenes Gwedhriel Gweluwen Gudel Haeroneth Harthrien Hatholnith Hennethien Horneth Ianien Istrien Iuithrien Lagorthel Laindes Lamaenthel Leithadis Lhingnis
+			Lhines Lobordis Lorndis Lostiel Lireth Maidhel Melel Mistril Mylnith Miresgalhel Miriril Nagnissien Nediadis Northril Nurdis Orthoril Padadis Pelingilil Peniril Pethel
+			Prestadis Redhril Reniadis Rirosdis Seregeth Thawiel Theriadis Tinuneth Tirdis Toliel Trastrien Trevadissien Ungolien
+		}
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ion"
+		female_patronym = "iel"
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		
+
+		modifier = default_culture_modifier
+	}
+	
+	blood_elven = { #Basically the druchii from Warhammer Fantasy/dark eldar from 40k
+		graphical_cultures = { elvengfx }
+		unit_graphical_cultures = { byzantinegfx }
+		secondary_event_pictures = elven
+
+		color = { 1.0 0.2 0.5 }
+
+		male_names = {
+			Fharsbaehr Mazromar Le'utaz Tahryq Drazgard Garavan Ar'otzar Ar'odros Kaharhyque Yratzar Lazarihz Kahrkos Fraerior Ga'ondovur Le'udazar Asdrudazar
+			Bahrusarith Ourazaen Tezarad Yzumahr Kahrrath Ezarsath Crahlsyr Laerhqir Ozunyr Ozubaehr Bahrumahr Armasaros Ga'onriaq Crahlvor Yravyn Gahurath Lazavhar
+			Mo'uthara Irubran Yrasar Ga'onbaehr Asdrumoque Erzateque Bazekos Arqara Graruin Crahlnahr Bazhasarith Mezamar Fahartyhr Fharsruin Oriraes Dradovur Fahrzaq
+			Cra'ozatharn Dazavhar Mo'umor Muchdiaq Lahzavhar Caenzaen Mo'uzon Fraemor Bahrukyth Garabran Asdruraz Id'arbryn Aeskos Bragrath Charmahr Mezarad Dazavan
+			Bahrvall Izraneque Fharstiron Ozumass Bahrusyr Kaharzaq Masramien Bahruqir Mezavan Mazroteque Lakusque Garamaq Mazroshar Yranaer Le'uryq Drazbaehr Asdrugrath
+			Or'isaros Khangahn Gararath Bazeras Izrazaq Ezruin Bahruthara Lahzabran Kaerihz Fureriaq Lazazhan Faharnahr Fahrkos Mezaruin  Bahrura Arzurrad Kaetiron
+			Garavall Orqahyque Laerhra Mazrozaen Le'unyr Trazhrath Aesvor Laerhzaq Murinyr Grahyque Kahrneque Eznazar Arqasarith Yzuzhar Dazariaq Orinahr Arhra
+			Arzurruin Ga'onvan Izradhar Trazhvhar Ga'onvhar Marunazar Laerhmass Orqamaq Grizakei Dazaneque Buravall Drazzyth Kaltelar Ysurad Araggen Menerroth
+			Arromaer Menervel Farvyn Machshor Idraleath Calnar Talrys Amonlath Yraran Belseth Kalduin Baharshor Maubryn Talnedor Callyth Lohith Kaesen Belbryn
+			Karankon Morrohyn Fortelar Belerian Morleath Baharhyn Baharr Karangroth Tanbryn Baranvor Donvyn Gonbas Calir Forhidon Caerroth Osubas Mautar Caeragan
+			Galatari Ylkon Arghyn Maugard Beneroth Arlon Idrantien Maunedor Faengan Gulnar Farsen Amonshin Belemes Elraros Dunmes Amoros Lentari Baleban Belhyn Morrotar
+			Ongen Yrathanil Fueban Barkyn Amonir Dunran Kayseth Taelas Irilbaer Ellath Alruin Dondrad Baramen Gulros Karankon Elrian Machvor Gulvel Ammar Amogen Malekith Gorthauron
+		}
+		female_names = {
+			Bahreseqe Fihrresse Gariasher Merigrynn Ferabrique Lohzaraesh Iredaque Ide'arihque Erazadreos Ohzakeri Oravero Kheldhae Baehneque Grihzaseth Yr'azaehn Al'oqinn Kihrerunae
+			Iazezoh Arqigwyss Tazakryss Aezomirenne Tehadove Oramirenne Arzerunae Arqiriza Lae'omea Fraeseth Cri'orariza Ezirzoh Bhrariza Kehnatarin Baeszysh Belzevelle Erazaraesh
+			Laezabrique Arqizae Meradeza Derthara Ferazysh Fhatyhs Crehnraesh Kehnabaehra Orazae Grihzakeo Lanuthera Bhrakeo Cri'oraraesh Derneque Grivaesh Deranaehr Fehsavero
+			Merivero  Drehzdaque Derresse Meraresse Bahredove Deradreos Griseos Fraekysse Ide'anaehr Bhrakryss Besnuzysh Chersaer Dehzarihque Mehavelle Izeranaehr Tazaseth Meriteque
+			Fhasyrr Kahnariza Kehnaqore Birariza Besnurenar Dehzatyhs Tehaseos Kahnazysh Carenneza Deravynn Maerozaehn Mero'aresse Yr'aseth Khelzoh Kehnareaq Cherhia Ohzarae Arzezae
+			Fhashi Oratihr Bezhareah Kihremehra Fhazhenne Bhrarizora Gahnumirenne Crehnvelle Chersher Kahnatarin Iyesqore Ferakryss Mehaseos Al'otihr Gahnurizora Drehzqore Baesvynn
+			Arqimirenne Aezorenn Birabris Lohzamyss Fhariza Kihrereah Cri'orahira Crehnzhenne Arzevelle Trezhdove Derateque Arzerith Ide'aneque Iazezhenne Fihrriza Meridera Ohzatarin
+			Gahnuhia Lae'orunae Lae'oshi Besnuzhenne Mehamaque Izerarae Ide'avaesh Kheltaez Aeszoh Tazarenn Mehryna Orekae Linel Menehish Bahamyna Telbera Lensae Irlilya Taphelara
+			Lilyth Gilgwen Laebrae Oresys Faemena Menellith Baeriar Baeratera Elasis Taenel Elsarvela Baerleth Oneryna Celathala Tapherain Kaemyn Baeratara Oneleth Firhynn
+			Irlityra Mehtara Kaelyth Behnegren Yselaeth Irlibala Oneryna Borerys Orenae Ilrothala Caensis Ynaryna Gellansya Caellamyna Kaebenne Menelrosa Menelrith Irlidona
+			Baeralira Boremia Maesya Baergren Lenvela Khelsys Kaeleth Menelmyn Laerith Baersela Menanae Kelnae Gennera Celdaen Tapheryna Ilrodaen Celthala Kaylira Tapherain
+			Tapherith Aemvae Dilsa Balanmyn Aemerys Morathi
+		}
+		from_dynasty_prefix = "of "
+
+		baron_titles_hidden = yes
+		count_titles_hidden = no
+
+		male_patronym = "ion"
+		female_patronym = "iel"
+
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 5
+		father_name_chance = 5
+
+		pat_grm_name_chance = 5
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		allow_looting = yes
+		seafarer = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	dark_elven = { #you n'wah
+		graphical_cultures = { darkelvengfx }
+		unit_graphical_cultures = { arabicgfx }
+		secondary_event_pictures = dark_elven
+		
+		color = { 0.2 0.2 0.3 }
+		
+		used_for_random = no
+		
+
+		male_names = {
+			Adaves Adil Adondasi Adosi Adren Alam Alanil Aldam Alds Alms Alnas Alvan Alven Alvis Alvor Alvos Alvur Anas Anden Andril Anel Angaredhel Aras Arelvam 
+			Aren Arethan Arnas Aroa Aron Arsyn Arven Arver Arvs Arvyn Aryon Athal Athanden Athelyn Ather Athyn Avron Baladas Balver Balyn Banden Banor Baren Barusi 
+			Bedal Belas Beldrose Belos Bels Belvis Benar Beraren Berel Berela Bertis Bervaso Bervyn Bethes Bevadar Bildren Bilen Bilos Birer Bolayn Boler Bolnor Bols
+			Bolvus Bolvyn Bolyn Boryn Bradil Bralas Bralen Bralis Bralyn Brarayni Bratheru Brathus Bravosi Braynas Brelar Brelo Brelyn Brerama Brethas Breves Breynis 
+			Briras Broder Broris Brothes Dalam Daldur Dalin Dalmil Dalos Dals Dalvus Danar Dandras Danel Daral Daras Daren Darns Daroder Dartis Darvam Daryn Dather 
+			Dathus Davas Davis Davur Daynes Daynil Dedaenc Delmon Delmus Delvam Deras Dethresa Deval Devas Dils Dinor Dirver Divayth Dolmyn Dolyn Dondos Donus Dovor
+			Dovres Dralas Drals Dralval Dram Dramis Drandryn Dranos Drarayne Drarel Draron Drarus Draryn Drathyn Dravasa Dredase Drelayn Drelis Drelse Drerel Dreynis 
+			Dreynos Dridas Dridyn Drinar Drodos Dronos Drores Drulvan Duldrar Dunel Edd Edras Edril Elam Eldil Eldrar Elethus Elms Elo Elvas Elvil Endar Endris Endryn 
+			Endul Erene Erer Ereven Eris Ernil Erns Ervas Ethes Ethys Evo Evos Fadren Falam Falso Falvel Falvis Farvam Farvyn Favas Favel Faven Faver Faves Fedar 
+			Felayn Felen Felisi Felsen Felvan Felvos Femer Fendros Fendryn Feranos Ferele Feril Feruren Fervas Fevris Fevus Fevyn Folms Folvys Folyni Fons Fonus Forven 
+			Foryn Fothas Fothyna Foves Fovus Gadayn Gaelion Galam Galdres Galen Galis Galmis Galms Gals Gamin Ganalyn Ganus Garer Garisa Garnas Garvs Garyn Gathal Gavas 
+			Gavesu Gavis Gidar Giden Gilan Gilmyn Gilur Gilvas Gilyan Gilyn Gilyne Gindas Ginur Giras Giren Giron Giryn Golar Goldyn Goler Gols Golven Goras Gordol 
+			Goren Goris Goron Gothren Goval Gragus Gulmon Guls Guril Helseth Hlaren Hlaroi Hlenil Hleras Hloris Hort Idros Ildos Ilen Ilet Ilver Iner Irarak Irer Irver 
+			Ivulen Jiub Llaals Llanas Llandras Llandris Llanel Llarar Llarel Llaren Llaro Llavam Lleran Lleras Lleris Llero Llether Llevas Llevel Lliram Lliros Lliryn 
+			Lloden Llonas Llondryn Lloros Llovyn Madran Madres Madsu Malar Mallam Mals Manabi Mandran Mandur Mandyn Manel Maner Manolos Marayn Maros Mastrius Mathis Mathyn 
+			Mavis Mavon Mavus Meder Medyn Melar Melur Menus Meril Mertis Mertisi Mervis Mervs Meryn Methal Methas Mevel Meven Mevil Midar Milar Mils Milyn Miner Miron 
+			Mirvon Mivul Mondros Movis Muvis Nads Nalis Nalmen Nalosi Nals Nalur Naral Naris Nathyn Navam Navil Neldris Nelmil Nelos Neloth Nels Nelvon Nelyn Nerer Nethyn 
+			Nevil Nevon Nevos Nevosi Niden Nilas Nilos Niras Nivel Nivos Norus Odral Odron Oisig Ondar Ondres Orns Orval Orvas Ovis Ralam Ralds Ralmyn Ralos Ranes Ranor 
+			Rararyn Raril Raryn Rathal Raviso Ravos Raynilie Relam Relas Relen Relms Rels Relur Relyn Remas Rernel Reron Rervam Reynis Rilas Rilos Rilver Rindral Rirnas 
+			Rirns Rivame Rolis Rols Roner Rothis Rovone Sadas Sadryn Salas Salen Salvas Salver Salyn Sanvyn Saras Sarayn Sarvil Sarvur Saryn Sathas Savor Savure Sedam 
+			Sedrane Seldus Seler Selman Selmen Selvil Sendel Sendus Seras Serer Serul Seryn Sevilo Shashev Sodres Sortis Sovor Stlennius Sulen Sulis Sunel Sur Suryn Suvryn 
+			Svadstar Tadas Talms Tandram Tanel Tanur Tarar Tarer Taros Tarvus Tarvyn Taves Tedril Tedryn Tedur Telis Tels Telvon Temis Tendren Tendris Tens Terer Teres 
+			Teris Tervur Tevyn Thadar Thaden Thanelen Tharer Thauraver Theldyn Thervam Tholer Thoryn Threvul Tidras Tidros Tinos Tiram Tiras Tirer Tirnur Tirvel Tivam 
+			Toris Tralas Tralayn Traven Tredyn Trelam Trels Trendrus Treram Treras Trevyn Trilam Trivon Tuls Ultis Ulves Ulvil Ulvon Unel Uradras Ureval Urnel Urvel 
+			Urven Uryn Uthrel Uvele Uvren Vaden Vanel Vares Varis Varon Varvur Vatollia Vaves Vavran Vedam Vedran Velis Velms Velyn Veros Vevos Vevul Vilval Vilyn Viras 
+			Virvyn Vobend Vonden Vonos Vorar Voruse Vuvil
+		}
+		female_names = {
+			Adrusu Alarvyne Alavesa Aldyne Alenus Aleri Alfe Almse Almsi Aloie Alonisea Alurue Alvela Alveno Alvura Alynu Amili Andalin Andilo Andilu Ane 
+			Angahran Anis Anise Aralosea Arara Arns Arnsa Arnsi Artisa Arvama Arvamea Arvela Arvso Aryne Aryni Athesie Avoni Badala Badama Balen Baleni Balsa 
+			Balynu Barenziah Bedenea Bedynea Beleru Bevene Beyte Bidsi Bilsa Birama Bivale Boderi Bodsa Boldrisa Bralsea Brara Bravora Bredasu Brelayne Brelda 
+			Brelyna Brerayne Brevasu Brevosi Brildraso Brilnosu Bronosa Dalami Dalnorea Dalse Dalyne Danaronea Danasi Dandera Dandynea Danoso Danso Darane Dareru 
+			Daroso Darvala Darvame Darvasa Darvynea Daynali Daynas Daynillo Deldasa Deldrise Delmene Delte Delyna Derar Derayna Dilami Dileno Dilvene Dinara Dinere 
+			Dinuro Diradeni Dirara Diren Dolmesa Dolsa Dolvasie Domesea Dorisa Dorynu Dothasi Dovrosi Dralasa Dralcea Dralisi Dralora Dralosa Dralsea Draramu Drarayne 
+			Dratha Dravynea Dredyni Drelasa Drelyne Drendrisa Dreveni Drilame Driloru Drireri Drolora Drorayni Drulene Drurile Duldresi Dulnea Edryno Eldrasea Eldrilu 
+			Elmera Elmussa Elvasea Elynea Elynu Endase Endroni Eralane Erirvase Ernse Ervesa Ervona Ervyna Ethal Ethasi Evesa Evilu Fadase Fadile Falanu Falena 
+			Falura Fanasa Fanisea Fanuse Faral Faralenu Farare Faras Farena Farusea Fathasa Fathusa Favani Favela Favilea Favise Favona Fedura Feldrelo Felisa 
+			Felmena Felsa Felsu Feralea Ferise Ferone Fervsea Ferynu Fevasa Fevila Fieryra Folsi Folvalie Fomesa Fonari Fonas Forvse Gadasu Gadela Gadyni Galas 
+			Galasa Galdal Galeri Galero Galore Galsu Galuro Galvene Galviso Galyn Gandela Gandosa Garalo Garas Garila Garyne Gilse Ginadura Gindrala Girara Girvani 
+			Girynu Golana Golena Golmerea Golveso Golvyni Gomeso Gorenea Gorven Guldrise Gulena Gulvilie Gureryne Haleneri Hlavora Hlendrisa Hlevala Hlireni Hlodala 
+			Idrenie Idronea Idroso Idula Ienasa Ienase Ienaso Ilmeni Ilmyna Indrele Inera Irna Irvama Irvsie Ivela Iveri Ivramie Ivrosa Lauravenya Llaalamu Llaalsa 
+			Llandrale Llandreri Llarara Llaros Llarusea Llathise Llathyno Llavane Llavelea Llavesa Llaynasa Lledsa Lledsea Llemisa Llerusa Llevana Llirala Llivas 
+			Llondresa Llorayna Llunela Madayna Madaynu Madrale Madura Malsa Malven Manara Manse Manwe Maralie Marasa Maren Marena Marilia Mathesa Medila Medresi 
+			Melsu Meluria Melvona Melvuli Melvure Meralyn Methulu Mevrenea Mevure Miara Milara Miluru Milvela Milvonu Minasi Mindeli Miraso Mirnelea Mornsu Moroni 
+			Morusu Movisa Muldroni Mulvisie Mundrila Muvrulea Nadene Nalami Nalasa Nalmila Nalsie Nalvilie Nalvyna Narese Narile Narisa Nartise Nathala Nathyne Nedeni 
+			Nelmyne Nelso Nerile Nervana Nevama Nevena Nevrasa Nevrila Nevusa Nidara Nidryne Nileno Nilera Nilvyn Nina Nirasa Nireli Noldrasi Nothasea Novrynea Nuleno 
+			Nurisea Olvyne Omesu Orero Orvona Radene Raldenu Ranis Ranosa Rarusu Rarvela Rathyne Ravani Raven Ravoso Rayna Raynasa Raynila Relamu Relmerea Relosa 
+			Relvese Remasa Rerilie Rerynea Reynel Ridena Rilasi Rilvase Rinori Riraynea Rolasa Runethyne Ruthrisu Ruvene Sadal Sadela Salama Salora Salyni Sanaso 
+			Saruse Sathasa Satheri Satyana Savesea Savile Sedris Sedyni Selvura Senise Serila Sernsi Seryne Sethesi Sevame Sevisa Sevyni Sodrara Sondryn Sorosi Sovali 
+			Sovisa Suldreni Tadara Tadera Talamu Talare Talmeni Talmsa Talsi Taluri Taluro Tamira Tanar Tandasea Tanisie Tanusea Tarani Tavilu Tavynu Tedysa Teleri 
+			Telura Tenaru Tenisi Terenu Tereri Teril Teruise Teryne Thalurea Thavere Thelsa Thelvamu Therana Thilse Thovasi Thurisea Tilena Tilore Tinaso Tirasie 
+			Tirele Tolmera Tolvise Tolvone Tonas Tonasi Toranu Torasa Torosi Traldrisa Traynili Tredere Tremona Trerayna Trivura Tumsa Tunila Tuvene Tuvenie Tuveso 
+			Ulenea Uleni Ulmesi Ulmiso Ulvena Ulveni Ulyne Ulyno Unila Urandile Urene Uresa Ureso Urtisa Urtiso Uryne Uupse Uvisea Uvoo Vadeni Vadramea Vadusa Valveli 
+			Valvesu Valvosa Valyne Varasa Varenu Varona Varvsa Vaveli Vedelea Velanda Velyna Venasa Vendrela Verara Vevrana Vilvyni Vindamea Vindyne Vireveri Vivyne 
+			Volene Volmyni Voneri Vuldronu Vulyne
+		}
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	dark_elven_nomad = { #basicly ashlanders
+		graphical_cultures = { darkelvengfx }
+		unit_graphical_cultures = { arabicgfx }
+		secondary_event_pictures = dark_elven
+		
+		color = { 0.2 0.019 0.3 }
+		
+		used_for_random = no
+		
+
+		male_names = {
+			Ababael Abassel Abibaal Abishpulu Adairan Adaishah Addammus Addarnat Adibael Ahasour Ahaz Ainab Ainat Anasour Anit Asha-Ammu Ashibaal Ashu-Ahhe Ashuma-Nud
+			Ashur-Dan Assaba-Bentus Assallit Assamanut Assamma-Idan Assantus Assatlit Assemmus Assurdan Balur Beden Conoon Dakin Dralas Dun-Ilu Dunsalipal Dutadalk Elibael
+			Emul-Ran Erur-Dan Esar-Don Esib-Nummu Hainab Hairan Han-Ammu Hannat Hassour Hemus Hentus Hibaddar Hinammu Hirarend Ibarnadad Ibasour Ilasour Kanat Kanit Kanud
+			Kashtes Kaushad Kausi Kind Kitbael Kummi-Namus Kund Lassour Mabarrabael Maesat Mal Malay Mansilamat Massarapal Massour Mibdinahaz Minassour Minisun Minnibi Musan
+			Mut Nind Ninimilk Ninirrasour Nirait Nund Odaishah Ohibaal Patababi Patus Pilun Punibi Ranabi Sakin Sakulerib Sal Salattanat Salay Salmat Salmus Sannit Sargon Seldus
+			Selk Selkirnemus Shabinbael Shanat Shanit Shannat Shanud Shargon Shilipuran Shimsun Shin Shipal Shirerib Shullay Subenend Sul-Matuul Talkin Teshmus Tibdan Tinti Tis
+			Truan Tubilalk Tussurradad Ulabael Ulath-Pal Yahaz Yakin Yakum Yan Yanit Yantus Yapal Yassour Yeherradad Yen Yenammu Zabamund Zabarbael Zainat Zairan Zalabelk Zalit
+			Zallay Zanat Zanmulk Zebba Zebdusipal Zelaku Zelay Zenabi Zennammu
+		}
+		female_names = {
+			Addut-Lamanu Adusamsi Ahanabi Ansu Antu Ashamanu Asharapli Ashumanu Assamanu Assi Assimusa Assirari Assumanu Benudni Berapli Dissu Elitlaya Elumabi Hainab
+			Hairan Hanarai Hannabi Hansi Hinummu Ibanammu Kammu Kausha Kummu Kurapli Kushishi Lanabi Maela Maeli Mamusa Manabi Man-Ilu Mi-Ilu Midnabi Milynea Mimanu
+			Minabibi Missamsi Munbebi Musa Nammu Nibani Nirai Peakstar Pilu Raishi Rasamsi Rawia Sakiran Samsi Santinti Seba Sen Senipu Shali Shallath-Piremus Shinammu
+			Shishi Shulki Shullay Sinnammu Sonummu Tashpi Tissamsi Tunipy Tussi Ulibabi Ulisamsi Urshamusa Vabbar Yan-Ahhe Yanabani Yanibi Yenabi Zaba Zabi Zanummu Zennammu Zula
+		}
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+}
+
+dwarven_group = {
+	graphical_cultures = { dwarvengfx }
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	
+	dwarven_dawi = { #despite the name this is not Warhammer dwarfs but LotR dwarves.
+		graphical_cultures = { dwarvengfx }
+	    unit_graphical_cultures = { norsegfx }
+		secondary_event_pictures = dwarven
+		
+		used_for_random = no
+
+		
+		color = { 0.6 0.2 0.2 }
+		
+		# Ю 222 ю 254 Р 208 р 240 ж
+		
+		male_names = {
+			Barimbur Limbur Lombur Khambur Orimbur Strombur Thimbur Thombur Damfur Difur Dofur Khafur Dwofur Gifur Glofur Romfur Stromfur Thofur Tifur Damri Dwuri Glori Limri Liri Lori
+			Miri Mori Modri Romri Rori Stromri Bali Damli Dwali Dwoli Dwuli Foli Gali Gamli Gili Gilmli Gimli Khali Koli Kili Limli Moli Noli Stroli Stromli Torli Tomli Dain Damrin
+			Durin Dwurin Gain Gloin Glorin Lirin Lorin Nain Mirin Morin Moin Rorin Strorin Thrain Thorin Bomfin Damfin Difin Dofin Strofin Balin Dwalin Dwulin Folin Folorin Galin
+			Khalin Kolin Molin Nolin Strolin Gror Thror Telror Balor Telchar Melchar Relchar
+		}
+		female_names = {
+			Dis Hidis Hildis Kis Kos Dos Khas Tis Tamis Galis Danis Mis Mos Nis Nos Dannys Ataris Carmis Idis Lilis Navis Rina Hilda Dana Tala Hon Kona Mar
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		
+		#male_patronym = "son of "
+		#female_patronym = "daughter of "
+		#prefix = yes # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	dark_dwarven = { #let's build Numidium! Mix of dwemer names and sumerian.
+		graphical_cultures = { darkdwarvengfx }
+		unit_graphical_cultures = { persiangfx }
+		secondary_event_pictures = dwarven
+
+		used_for_random = no
+		
+		color = { 1.0 0.54 0.1 }
+		
+		# Ю 222 ю 254 Р 208 р 240 ж
+		
+		male_names = {
+			Anchard Brazzefk Bthuand Cuolec Dalen-Zanchu Dhark Dumac Gharen Ihlendam Jnaggo Kagrenac Klathzgar Mithas Mzulchond Nbthld Nchylbar Nchunak Nevith Razak Rkungthunch Sthovin
+			Dahrk Radac Yagrum Chiulec Chrafru Rthuand Dhalac Nevidit Bthund Kavvazar Nendam Schtrafak Schtobrac Rathas Neddit Dulen Damrand Sthomac Ythamin Yradzir Brazzerlac Dagrac 
+		    Dhagrac Cuongar Nchuamord Raletharn Danch Tchaznak Mchand Ythadgir Nchubond Athazgar Irhalec Rkumrond Anchalbar Neznak Agrurd Aanepada Akalamdug Amar-Sin Eannatum Ekur Enmebaragisi 
+			Ishme-Dagand Mesanepadak Meskalamdug Naram-Sinch Shulgi Ur-Nammu Astragoth Zhatan 
+		}
+		female_names = {
+			Bluthanch Kamdida Nhenwess Nchurek Nrifrinn Kathzgar Mlildilan Mimrond Blutrez Mzunach Kahner Athand Duolara Katchan Ctunch Ghronac Klagrac Mird Ilhend Schtralac Mzuvnak Rahlac
+		    Suodrak Irhavind Dhagrum Mithld Ralendam Suofrak Szaren Nchuvin Chulen Dhafrak Solirda Davlara Yradhis Alzivzal Ryahner Nadryna Mhefwinn Ithofwinn Doumzlin Tatchis Alzilnmer Drilamch
+            Yradrys Thrilnmer Naflis Glivlara Dahrada Chefwinn Ryathanch Yzravrin Araznara Kzuabryn Ruenwess Gzihvlin Somtrin Rlodlen Ylrelirda Mramdida Jaretrez Jomzlin Ahunatum Irkalla Ninshuel Radjni 
+			Silili Shiptu Nanna Abi-Simti Mesh-He Kishar Ninhursag Manatum Shubure Arwi-AIltani Ningal Gemekala Asharru Nindukugga Sapurtum
+		}
+		
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "son of "
+		female_patronym = "daughter of "
+		prefix = yes # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
+
+cathrian_group = {
+    graphical_cultures = { catfolkgfx }
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	
+	cat_folk = { #or "cathrian" culture. Definetly not khajits nor arabian
+		graphical_cultures = { catfolkgfx }
+
+		used_for_random = no
+		
+		color = { 1.0 0.54 0.1 }
+		
+		# Ю 222 ю 254 Р 208 р 240 ж
+		
+		male_names = {
+			Ab'ar Ab'bar Ab'bil Ab'der Ab'ir Ab'kir Ab'nir Ab'noud Ab'sien Ab'soud Ab'taba Ab'tabe Ab'urabi Ak'ar Ak'bil Ak'der Ak'dul
+			Ak'ir Ak'kir Ak'nir Ak'noud Ak'sien Ak'soud Ak'taba Ak'tabe Ak'urabi Akh'ar Akh'bil Akh'der Akh'dul Akh'gh Akh'ir Akh'kir
+			Akh'nir Akh'noud Akh'sien Akh'soud Akh'taba Akh'tabe Akh'urabi Amar Ambil Amder Amdul Amgh Amir Amkir Ammed Amnir Amnoud Amsien Amsoud Amtaba Amtabe
+			Amurabi Fa'ar Fa'bar Fa'bil Fa'der Fa'dul Fa'gh Fa'ir Fa'kir Fa'med Fa'nir Fa'noud Fa'sien Fa'soud Fa'taba Fa'tabe Fa'urabi Husar Husbar Husbil Husder Husdul
+			Husgh Husir Huskir Husmed Husnir Husnoud Hussoud Hustaba Hustabe Husurabi Moar Mobar Mobil Moder Modul Mogh Moir Mokir Momed Monir Monoud Mosien
+			Motaba Motabe Mourabi Mohamar Mohambar Mohambil Mohamder Mohamdul Mohamgh Mohamir Mohamkir Mohamnir Mohamnoud Mohamsien Mohamsoud Mohamtaba Mohamtabe
+			Mohamurabi Mojar Mojbar Mojbil Mojder Mojdul Mojgh Mojir Mojkir Mojmed Mojnir Mojnoud Mojsien Mojsoud Mojtaba Mojtabe Mojurabi Naar Nabar Nabil Nader Nadul Nagh
+			Nair Nakir Named Nanir Nanoud Nasien Nasoud Nataba Natabe Naurabi Omar Ombar Ombil Omder Omdul Omgh Omir Omkir Ommed Omnir Omnoud Omsien Omsoud Omtaba Omtabe
+			Omurabi Shaar Shabar Shabil Shader Shadul Shagh Shair Shakir Shamed Shanir Shanoud Shasien Shasoud Shataba Shatabe Shaurabi Sinar Sinbil Sinder Sindul
+			Singh Sinir Sinkir Sinmed Sinnir Sinnoud Sinsien Sinsoud Sintaba Sintabe Sinurabi Za'ar Za'bar Za'bil Za'der Za'dul Za'gh Za'ir Za'kir Za'med Za'nir Za'noud
+			Za'sien Za'soud Za'taba Za'tabe Za'urabi Zan'ar Zan'bar Zan'bil Zan'der Zan'dul Zan'gh Zan'ir Zan'kir Zan'med Zan'nir Zan'noud Zan'sien Zan'soud Zan'taba Zan'tabe Zan'urabi 
+		}
+		female_names = {
+			Aahin Aahni Afeliz Ahana Aheh Ahrazad Ajjan Akhtar Anita Araya Ariba Ashima Ashivari Asrin Atima Azita Aziahin Aziahni Azifeliz Azihana Aziheh
+			Azihrazad Azijjan Azikhtar Azinita Aziraya Aziriba Azishima Azisrin Azitima Azizita Elaahin Elaahni Elafeliz Elahana Elaheh Elahrazad Elajjan Elakhtar
+			Elanita Elaraya Elariba Elashima Elasrin Elatima Elazita Faahin Faahni Fafeliz Fahana Faheh Fahrazad Fajjan Fakhtar Fanita Faraya Fariba Fashima Fasrin
+			Fatima Fazita Khaahin Khaahni Khafeliz Khahana Khaheh Khahrazad Khajjan Khakhtar Khanita Kharaya Khariba Khashima Khasrin Khatima Khazita Kiahin Kiahni
+			Kifeliz Kihana Kiheh Kihrazad Kijjan Kikhtar Kinita Kiraya Kiriba Kishima Kisrin Kitima Kizita Moahin Moahni Mofeliz Mohana Moheh Mohrazad Mojjan Monita 
+			Moraya Moriba Moshima Mosrin Motima Mozita Naahin Naahni Nafeliz Nahana Naheh Nahrazad Najjan Nakhtar Nanita Naraya Nariba Nashima Nasrin Natima Nazita 
+			Raahin Raahni Rafeliz Rahana Raheh Rahrazad Rajjan Rakhtar Ranita Raraya Rariba Rashima Rasrin Ratima Razita Riahin Riahni Rifeliz Rihana Riheh Rihrazad 
+			Rijjan Rikhtar Rinita Riraya Ririba Rishima Risrin Ritima Rizita Saahin Saahni Safeliz Sahana Saheh Sahrazad Sajjan Sakhtar Sanita Saraya Sariba Sashima 
+			Sasrin Satima Sazita Shaahin Shaahni Shafeliz Shahana Shaheh Shahrazad Shajjan Shakhtar Shanita Sharaya Shariba Shashima Shasrin Shatima Shazita Soahin 
+			Soahni Sofeliz Sohana Soheh Sohrazad Sojjan Sokhtar Sonita Soraya Soriba Soshima Sosrin Sotima Sozita Taahin Taahni Tafeliz Tahana Taheh Tahrazad Tajjan
+			Takhtar Tanita Taraya Tariba Tashima Tasrin Tatima Tazita Zaahin Zaahni Zafeliz Zahana Zaheh Zahrazad Zajjan Zakhtar Zanita Zaraya Zariba Zashima Zasrin
+			Zatima Zazita
+		}
+		
+		#baron_titles_hidden = yes
+		#count_titles_hidden = yes
+		
+		from_dynasty_prefix = "tar "
+		
+		male_patronym = "'riht"
+		female_patronym = "'raht"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	high_cathrian = { #Ancient cathrian. More Egypt-Like
+		graphical_cultures = { catfolkgfx }
+        alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+		
+		used_for_random = no
+		
+		color = { 1.0 0.54 0.1 }
+		
+		# Ю 222 ю 254 Р 208 р 240 ж
+		
+		male_names = {
+			Ab'arhath Ab'barhath Ab'beru Ab'derjet Ab'irheru Ab'kirheru Ab'nirheru Ab'nepri Ab'seti Ab'sedep Ab'tepheret Ab'tabereti Ab'urabi Ak'arhath Ak'heru Ak'derjet Ak'dera
+			Ak'irheru Ak'kirheru Ak'nirheru Ak'nepri Ak'seti Ak'sedep Ak'tepheret Ak'tabereti Ak'urabi Akher'arhath Akher'heru Akher'derjet Akher'dera Akher'gh Akher'irheru Akher'kirheru
+			Akher'nirheru Akher'nepri Akher'seti Akher'sedep Akher'tepheret Akher'tabereti Akher'urabi Amarhath Amberu Amderjet Amdul Amgh Amirheru Amkirheru Ammed Amnirheru Amnepri Amseti Amsoud Amtaba Amtabe
+			Amurabi Fa'arhath Fa'barhath Fa'heru Fa'derjet Fa'dera Fa'gh Fa'irheru Fa'kirheru Fa'medheri Fa'nirheru Fa'nepri Fa'seti Fa'sedep Fa'tepheret Fa'tabereti Fa'urabi Hesuarhath Hesubarhath Hesuberu Hesuderjet Hesudul
+			Hesugh Hesuirheru Hesukirheru Hesumedheri Hesunirheru Hesunepri Hesusedep Hesutaba Hesutabe Hesuurabi Moarhath Mobarhath Moberu Moderjet Modul Mogh Moirheru Mokirheru Momedheri Monirheru Monepri Moseti
+			Motaba Motabe Mourabi Mohamarhath Mohambarhath Mohamberu Mohamderjet Mohamdul Mohamgh Mohamirheru Mohamkirheru Mohamnirheru Mohamnepri Mohamseti Mohamsedep Mohamtaba Mohamtabe
+			Mohamurabi Mojarhath Mojbarhath Mojberu Mojderjet Mojdul Mojgh Mojirheru Mojkirheru Mojmedheri Mojnirheru Mojnepri Mojseti Mojsedep Mojtaba Mojtabe Mojurabi Naarhath Nabarhath Naberu Naderjet Nadul Nagh
+			Nairheru Nakirheru Namedheri Nanirheru Nanepri Naseti Nasedep Nataba Natabe Naurabi Omarhath Ombarhath Omberu Omderjet Omdul Omgh Omirheru Omkirheru Ommedheri Omnirheru Omnepri Omseti Omsedep Omtaba Omtabe
+			Omurabi Shaarhath Shabarhath Shaberu Shaderjet Shadul Shagh Shairheru Shakirheru Shamedheri Shanirheru Shanepri Shaseti Shasedep Shataba Shatabe Shaurabi Sinarhath Sinberu Sinderjet Sindul
+			Singh Sinirheru Sinkirheru Sinmedheri Sinnirheru Sinnepri Sinseti Sinsedep Sintaba Sintabe Sinurabi Za'arhath Za'barhath Za'heru Za'derjet Za'dera Za'gh Za'irheru Za'kirheru Za'medheri Za'nirheru Za'nepri
+			Za'seti Za'sedep Za'tepheret Za'tabereti Za'urabi Zan'arhath Zan'barhath Zan'heru Zan'derjet Zan'dera Zan'gh Zan'irheru Zan'kirheru Zan'medheri Zan'nirheru Zan'nepri Zan'seti Zan'sedep Zan'tepheret Zan'tabereti Zan'urabi 
+		}
+		female_names = {
+			Aahin Aahnikerti Afelizet Ahana Aheh Ahrazedi Ajjaaneti Akhtarmet Anitamunet Araya Ariba Ashima Ashivari Asrin Atima Azitamunet Aziahin Aziahnikerti Azifelizet Azihana Aziheh
+			Azihrazedi Azijjaaneti Azikhtarmet Azinitamunet Aziraya Aziriba Azishima Azisrin Azitima Azizitamunet Elaahin Elaahnikerti Elafelizet Elahana Elaheh Elahrazedi Elajjaaneti Elakhtarmet
+			Elanitamunet Elaraya Elariba Elashima Elasrin Elatima Elazitamunet Faahin Faahnikerti Fafelizet Fahana Faheh Fahrazedi Fajjaaneti Fakhtarmet Fanitamunet Faraya Fariba Fashima Fasrin
+			Fazitamunet Khaahin Khaahnikerti Khafelizet Khahana Khaheh Khahrazedi Khajjaaneti Khakhtarmet Khanitamunet Kharaya Khariba Khashima Khasrin Khatima Khazitamunet Kiahin Kiahnikerti
+			Kifelizet Kihana Kiheh Kihrazedi Kijjaaneti Kikhtarmet Kinitamunet Kiraya Kiriba Kishima Kisrin Kitima Kizitamunet Moahin Moahnikerti Mofelizet Mohana Moheh Mohrazedi Mojjaaneti Monitamunet 
+			Moraya Moriba Moshima Mosrin Motima Mozitamunet Naahin Naahnikerti Nafelizet Nahana Naheh Nahrazedi Najjaaneti Nakhtarmet Nanitamunet Naraya Nariba Nashima Nasrin Natima Nazitamunet 
+			Raahin Raahnikerti Rafelizet Rahana Raheh Rahrazedi Rajjaaneti Rakhtarmet Ranitamunet Raraya Rariba Rashima Rasrin Ratima Razitamunet Riahin Riahnikerti Rifelizet Rihana Riheh Rihrazedi 
+			Rijjaaneti Rikhtarmet Rinitamunet Riraya Ririba Rishima Risrin Ritima Rizitamunet Saahin Saahnikerti Safelizet Sahana Saheh Sahrazedi Sajjaaneti Sakhtarmet Sanitamunet Saraya Sariba Sashima 
+			Sasrin Satima Sazitamunet Shaahin Shaahnikerti Shafelizet Shahana Shaheh Shahrazedi Shajjaaneti Shakhtarmet Shanitamunet Sharaya Shariba Shashima Shasrin Shatima Shazitamunet Soahin 
+			Soahnikerti Sofelizet Sohana Soheh Sohrazedi Sojjaaneti Sokhtarmet Sonitamunet Soraya Soriba Soshima Sosrin Sotima Sozitamunet Taahin Taahnikerti Tafelizet Tahana Taheh Tahrazedi Tajjaaneti
+			Takhtarmet Tanitamunet Taraya Tariba Tashima Tasrin Tatima Tazitamunet Zaahin Zaahnikerti Zafelizet Zahana Zaheh Zahrazedi Zajjaaneti Zakhtarmet Zanitamunet Zaraya Zariba Zashima Zasrin
+			Zatima Zazitamunet
+		}
+		
+		#baron_titles_hidden = yes
+		#count_titles_hidden = yes
+		
+		from_dynasty_prefix = "tar "
+		
+		male_patronym = "'riht"
+		female_patronym = "'raht"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}			
+
+orcish_group = {
+    graphical_cultures = { orcishgfx }
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	
+	oruk = { #Basically orsimer from TES
+		graphical_cultures = { orcishgfx }
+
+		used_for_random = no
+		
+		color = { 73 55 55 }
+		
+		
+		male_names = {
+			Atulg Azuk Bagamul Bakh Baronk Bashag Bazgulub Bogakh Bologra Borug Both Bugdul Bugharz Bugrash Bugrol Bumbub Burul Dul Dular Duluk
+			Duma Dumbuk Dumburz Dur Durbul Durgash Durz Durzol Durzub Durzum Garothmuk Garzonk Gashna Ghamborz Ghamonk Ghoragdush Ghorlorz Glush Grat
+			Gruzgob Guarg Gurak Khadba Khagra Khargol Koffutto Largakh Lorbumol Lorzub Lugdum Lugrub Lurog Mash Matuk Mauhul Mazorn Mol Morbash Mug
+			Mugdul Muk Murag Murkub Murzol Muzgonk Nag Nar Nash Ogrul Ogrumbu Olfin Olumba Orakh Rogdul Shakh Shamar Shamob Shargam Sharkub Shat
+			Shazgob Shulong Shura Shurkul Shuzug Snaglak Snakha Snat Ugdumph Ughash Ulam Umug Uram Urim Urul Urzog Ushamph Ushat Yadba Yagak Yak
+			Yam Yambagorn Yambul Yargol Yashnarz Yatur 
+		}
+		female_names = {
+			Agrob Badbog Bashuk Bogdub Bugdurash Bula Bulak Bulfim Bum Burub Burzob Dura Durgat Durz Gashnakh Ghob Glasha Glob Gluronk
+			Gonk Grat Grazob Gulfim Kharzug Lagakh Lambug Lazgar Mogak Morn Murob Murzush Nargol Orbul Ragash Rolfish Rulfim Shadbak Shagar
+			Shagdub Sharn Sharog Shelur Sloomalah Uloth Ulumpha Urzoth Urzul Ushug Yazgash
+		}
+		
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "gor "
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	oruk_hai = { #Uruk Hai from LoTR
+		graphical_cultures = { orcishgfx }
+
+		used_for_random = no
+		
+		color = { 108 15 15 }
+		
+		
+		male_names = {
+			Amug Ashgarn Azdush Azgrom Bagabug Blorg Bolg Borgu Bork Brogg Bubol Dharg Dugz Dush Dushrat
+			Feldush Felgrat Flak Flogg Folgum Garl Gham Ghash Gimub Gluk Golm Gorgum Goroth Grisha Grom Grublik Gruk
+			Gundza Hoglik Horhog Hork Horza Hoshgrish Hoshu Humgrat Hura Ishgha Ishmoz Kaka Khrosh Koth Kothug Krimp Krakhorn Kruk Kuga
+			Kugaluga Lamlug Latbag Lorm Luga Lugdash Lugnak Malmug Mogg Mormog Mozfel Mug Muggrish
+			Mugluk Muzglob Nakra Nazdug Nazkuga Nazu Norsko Noruk Ogbur Ogg Ogthrak Olgoth Olrok Orthog Pash
+			Pigug Prak Pug Pugrish Pushkrimp Rash Ratak Ratanak Ratbag Ratlug Ronk Rug Rukdug Shag Shagflak
+			Shaka Skak Skog Skun Snagog Takra Tarz Thakrak Thrak Torz Tugog Tuhorn Tuka
+			Tumhom Tumug Ugol Ugakuga Ugguukbuk Ukrom Ukshak Ushbaka Ushgol Uthug Zathra Zog Zogdush Zugor Zuka Zumug Zunn
+		}
+		female_names = {
+			Akoth Baggu Barfu Buth Dugzu Ghuru Bulak Bulfim Gorfel Gubu Gund Hoshu Guru Ishghu Kugu Kugalugu Mozfel Nazkugu Maku Mozu Nakru
+			Rugu Skoth Snafu Zathru
+		}
+		
+		#baron_titles_hidden = yes
+		#count_titles_hidden = yes
+		
+		from_dynasty_prefix = "ghor "
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+}			

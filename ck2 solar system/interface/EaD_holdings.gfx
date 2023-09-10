@@ -1,0 +1,150 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_settlement_castle_darkelvengfx"
+		texturefile = "gfx\\interface\\castle_dark_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_castle_darkdwarvengfx"
+		texturefile = "gfx\\interface\\castle_dark_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_castle_elvengfx"
+		texturefile = "gfx\\interface\\castle_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_castle_dwarvengfx"
+		texturefile = "gfx\\interface\\castle_dwarven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_castle_orcishgfx"
+		texturefile = "gfx\\interface\\castle_orcish.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_darkelvengfx"
+		texturefile = "gfx\\interface\\city_dark_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_darkdwarvengfx"
+		texturefile = "gfx\\interface\\city_dark_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_elvengfx"
+		texturefile = "gfx\\interface\\city_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_dwarvengfx"
+		texturefile = "gfx\\interface\\city_dwarven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_orcishgfx"
+		texturefile = "gfx\\interface\\city_orcish.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_elvengfx_hellenicgfx"
+		texturefile = "gfx\\interface\\temple_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_elvengfx_reformedhellenicgfx"
+		texturefile = "gfx\\interface\\temple_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_darkelvengfx_persiangfx"
+		texturefile = "gfx\\interface\\temple_dark_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_dwarvengfx_hellenicgfx"
+		texturefile = "gfx\\interface\\temple_dwarven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_dwarvengfx_reformedhellenicgfx"
+		texturefile = "gfx\\interface\\temple_dwarven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_dwarvengfx_persiangfx"
+		texturefile = "gfx\\interface\\temple_dark_dwarven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_darkdwarvengfx_persiangfx"
+		texturefile = "gfx\\interface\\temple_dark_dwarven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_castle_catfolkgfx"
+		texturefile = "gfx\\interface\\castle_dark_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_catfolkgfx"
+		texturefile = "gfx\\interface\\city_dark_elven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_catfolkgfx_persiangfx"
+		texturefile = "gfx\\interface\\temple_dark_dwarven.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_orcishgfx_persiangfx"
+		texturefile = "gfx\\interface\\temple_orcish.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+}

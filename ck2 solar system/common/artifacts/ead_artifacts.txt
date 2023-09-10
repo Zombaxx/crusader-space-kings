@@ -1,0 +1,33 @@
+the_dark_ring = {
+	combat_rating = 25
+	defensive_plot_power_modifier = 0.25
+	monthly_character_piety = 0.75
+	health = 5
+	martial = 5
+	diplomacy = 5
+	quality = 5
+	active = {
+		learning = 10
+	}
+	stacking = no
+	picture = "GFX_the_dark_ring"
+	slot = hand
+	indestructible = yes
+}
+
+the_bright_ring = {
+	combat_rating = 25
+	defensive_plot_power_modifier = 0.25
+	monthly_character_piety = 0.75
+	health = 5
+	martial = 5
+	diplomacy = 5
+	quality = 5
+	active = {
+		learning = 10
+	}
+	stacking = no
+	picture = "GFX_the_bright_ring"
+	slot = hand
+	indestructible = yes
+}

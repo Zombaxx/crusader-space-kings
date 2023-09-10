@@ -1,0 +1,192 @@
+namespace = EADSSUE
+
+character_event = { #Elven Degenerates
+    id = EADSSUE.1
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}	
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			create_character = {
+				name = Morathi
+				dynasty = actually_culture
+				religion = elven
+				culture = high_elven
+				female = yes
+				age = 25
+				trait = elf
+				trait = elusive_shadow
+				trait = fair
+				trait = quick
+				trait = groomed
+				trait = seductress
+				trait = lustful
+				trait = ambitious
+				trait = cruel
+				trait = cynical
+				trait = deceitful
+			}
+			new_character = { 
+				join_society = the_cult_of_excess
+				set_society_grandmaster = yes # Set character as Grand Master
+				add_society_currency_massive_effect = yes				
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = elven
+				culture = high_elven
+				female = no
+				age = 18
+			}
+			new_character = { join_society = the_cult_of_excess }
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = elven
+				culture = high_elven
+				female = yes
+				age = 18
+			}
+			new_character = { join_society = the_cult_of_excess }
+		}
+	}
+}
+
+character_event = { #Dark Elven Cursed House Cultists
+    id = EADSSUE.2
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}	
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				religion = elven_tribunal
+				culture = dark_elven
+				female = no
+				age = 28
+			}
+			new_character = { 
+				join_society = the_cursed_house
+				set_society_grandmaster = yes # Set character as Grand Master
+				add_society_currency_massive_effect = yes				
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = elven_tribunal
+				culture = dark_elven
+				female = no
+				age = 18
+			}
+			new_character = { join_society = the_cursed_house }
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = elven_tribunal
+				culture = dark_elven
+				female = yes
+				age = 18
+			}
+			new_character = { join_society = the_cursed_house }
+		}
+	}
+}
+
+character_event = { #Dwarven Warrior Lodge
+    id = EADSSUE.3
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}	
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			create_character = {
+				name = Gotrek
+				dynasty = actually_culture
+				religion = dwarven
+				culture = dwarven_dawi
+				female = no
+				age = 28
+				trait = fantasy_dwarf
+				trait = brilliant_strategist
+				trait = scarred_high
+				trait = one_eyed
+				trait = strong
+				trait = robust
+				trait = duelist
+				trait = diligent
+				trait = wroth
+				trait = brave
+				trait = honest
+				trait = stubborn
+				trait = aggressive_leader
+				trait = unyielding_leader
+				trait = mountain_terrain_leader
+			}
+			new_character = { 
+				join_society = warrior_lodge_dwarven
+				set_society_grandmaster = yes # Set character as Grand Master
+				add_society_currency_massive_effect = yes				
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = dwarven
+				culture = dwarven_dawi
+				female = no
+				age = 18
+			}
+			new_character = { join_society = warrior_lodge_dwarven }
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = dwarven
+				culture = dwarven_dawi
+				female = yes
+				age = 18
+			}
+			new_character = { join_society = warrior_lodge_dwarven }
+		}
+	}
+}

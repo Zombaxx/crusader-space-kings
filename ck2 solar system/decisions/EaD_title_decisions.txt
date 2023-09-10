@@ -1,0 +1,183 @@
+title_decisions = {
+    scoiatael_local_autonomy = {
+		only_playable = yes
+		filter = sub_realm_owned
+		ai_target_filter = sub_realm_owned
+		ai_check_interval = 3
+		
+		from_potential = {
+			is_playable = yes
+            NOT = { is_fantasy_culture = yes }
+			higher_tier_than = COUNT
+			any_realm_province = {
+				has_province_modifier = scoiatael_incursion
+			}
+		}
+		
+		potential = {
+			tier = COUNT
+			location = {
+				is_fantasy_culture = yes
+				has_province_modifier = scoiatael_incursion
+				can_be_given_away = no
+			}
+			holder_scope = {
+				OR = {
+					is_liege_or_above = FROM
+					character = FROM
+				}
+			}
+		}
+		
+		allow = {
+			FROM = {
+				prestige = 100
+			}
+			location = {
+				is_fantasy_culture = yes
+				has_province_modifier = scoiatael_incursion
+			}
+		}
+		
+		effect = {
+			save_event_target_as = target_title
+			FROM = { save_event_target_as = target_ruler }
+			hidden_tooltip = {
+			    create_random_soldier = {
+				random_traits = yes
+				religion = ROOT
+				culture = ROOT
+				dynasty = random
+				female = 50
+					attributes = {
+					diplomacy = 2
+					learning = 2
+					stewardship = 2
+					intrigue = 2
+					martial = 8
+					}
+			    }
+				new_character = {
+					remove_trait = weak
+					remove_trait = slow
+					remove_trait = imbecile
+					remove_trait = dull
+		
+					remove_trait = mystic
+					remove_trait = socializer
+					remove_trait = gamer
+					remove_trait = hedonist
+					remove_trait = duelist
+					remove_trait = hunter
+					remove_trait = strategist
+					remove_trait = administrator
+					remove_trait = architect
+					remove_trait = gardener
+					remove_trait = schemer
+					remove_trait = impaler
+					remove_trait = seducer
+					remove_trait = seductress
+					remove_trait = theologian
+					remove_trait = scholar
+		
+					random_list = { # Flavor Randomization
+						35 = { 
+							# Nothing
+						}
+						15 = {
+							change_martial = 2
+						}
+						10 = {
+							add_trait = robust
+						}
+						10 = {
+							add_trait = duelist
+						}
+						10 = {
+							add_trait = hunter
+						}
+						5 = {
+							add_trait = strategist
+						}
+						5 = {
+							change_martial = 4
+						}
+						5 = {
+							if = {
+								limit = {
+									has_dlc = "Reapers"
+								}
+								add_trait = one_eyed
+							}
+						}
+						5 = { 
+							add_trait = shrewd
+						}
+						3 = { 
+							add_trait = giant
+						}
+					}
+					save_event_target_as = scoiatael_commander
+				}
+				event_target:target_ruler = {
+			        character_event = { id = EADESCOIA.11 }
+		        }
+			}
+		}
+        revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				FROM = { 
+					trait = greedy
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = { 
+					trait = wroth	
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = { 
+					trait = cruel	
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = { 
+					trait = zealous
+				}
+			}
+			modifier = {
+				factor = 1
+				FROM = { 
+					trait = kind
+				}
+			}
+			modifier = {
+				factor = 1
+				FROM = { 
+					trait = charitable	
+				}
+			}
+			modifier = {
+				factor = 1
+				FROM = { 
+					trait = trusting	
+				}
+			}
+			modifier = {
+				factor = 1
+				FROM = { 
+					trait = craven
+				}
+			}
+		}
+	}
+}

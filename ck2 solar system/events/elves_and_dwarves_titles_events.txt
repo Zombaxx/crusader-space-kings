@@ -1,0 +1,281 @@
+namespace = EADTITLE
+
+character_event = { #Blood Elven Mercenaries
+    id = EADTITLE.1
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}	
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			activate_title = { title = d_blood_elven_mercenaries status = yes }		
+			create_random_soldier = {
+				random_traits = yes
+				religion = elven_heresy
+				culture = blood_elven
+				dynasty = NONE
+				female = no
+				age = 40
+			}
+			new_character = {
+				prestige = 300
+				wealth = 300
+				d_blood_elven_mercenaries = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Dark Dwarven Mercenaries
+    id = EADTITLE.2
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}	
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			activate_title = { title = d_dark_dwarven_mercenaries status = yes }		
+			create_random_soldier = {
+				random_traits = yes
+				religion = dwarven_dwemer
+				culture = dark_dwarven
+				dynasty = NONE
+				female = no
+				age = 40
+			}
+			new_character = {
+				prestige = 300
+				wealth = 300
+				d_dark_dwarven_mercenaries = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Dark Elven Mercenaries
+    id = EADTITLE.3
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}	
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			activate_title = { title = d_dark_elven_mercenaries status = yes }		
+			create_random_soldier = {
+				random_traits = yes
+				religion = elven_tribunal
+				culture = dark_elven
+				dynasty = NONE
+				female = no
+				age = 40
+			}
+			new_character = {
+				prestige = 300
+				wealth = 300
+				d_dark_elven_mercenaries = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Dwarven Mercenaries
+    id = EADTITLE.4
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			activate_title = { title = d_dwarven_mercenaries status = yes }		
+			create_random_soldier = {
+				random_traits = yes
+				religion = dwarven
+				culture = dwarven_dawi
+				dynasty = NONE
+				female = no
+				age = 40
+			}
+			new_character = {
+				prestige = 300
+				wealth = 300
+				d_dwarven_mercenaries = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Elven Mercenaries
+    id = EADTITLE.5
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			activate_title = { title = d_high_elven_mercenaries status = yes }		
+			create_random_soldier = {
+				random_traits = yes
+				religion = elven
+				culture = high_elven
+				dynasty = NONE
+				female = no
+				age = 40
+			}
+			new_character = {
+				prestige = 300
+				wealth = 300
+				d_high_elven_mercenaries = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Cathrian Mercenaries
+    id = EADTITLE.6
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+		OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			activate_title = { title = d_cat_folk_mercenaries status = yes }		
+			create_random_soldier = {
+				random_traits = yes
+				religion = cat_folk_religion
+				culture = cat_folk
+				dynasty = NONE
+				female = no
+				age = 40
+			}
+			new_character = {
+				prestige = 300
+				wealth = 300
+				d_cat_folk_mercenaries = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Orc Mercenaries
+    id = EADTITLE.7
+	
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+	trigger = { 
+	    OR = { 
+			has_global_flag = elves_britain
+			has_global_flag = elves_france
+			has_global_flag = elves_german
+			has_global_flag = elves_russia			
+		}
+	}
+	
+	immediate = {
+	    hidden_tooltip = {
+			activate_title = { title = d_oruk_hai_mercenaries status = yes }		
+			create_random_soldier = {
+				random_traits = yes
+				religion = orc_religion_dark_lord
+				culture = oruk_hai
+				dynasty = NONE
+				female = no
+				age = 40
+			}
+			new_character = {
+				prestige = 300
+				wealth = 300
+				d_oruk_hai_mercenaries = {
+					grant_title = PREV
+				}
+			}
+		}
+	}
+}
