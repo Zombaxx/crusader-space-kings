@@ -829,8 +829,8 @@ e_cordoba;Abotofia;;;;;;;;;;;;;x
 e_golden_horde;Titanium Horde;;;;;;;;;;;;;x
 e_il-khanate;Qilofia;;;;;;;;;;;;;x
 e_lechczechrus;Amaxica;;;;;;;;;;;;;x
-e_mexikha;Celestial Horde;;;;;;;;;;;;;x
-e_mexikha_adj;Celestial;aztèque;Aztekisch;;Aztec;;;;;;;;;x
+e_mexikha;Kingdom of Heaven;;;;;;;;;;;;;x
+e_mexikha_adj;Angelic;aztèque;Aztekisch;;Aztec;;;;;;;;;x
 e_mongol_empire;Cetinese;;;;;;;;;;;;;x
 e_nicaea;Riostin;;;;;;;;;;;;;x
 e_outremer;Tekitar;;;;;;;;;;;;;x
@@ -1770,7 +1770,7 @@ e_cordoba_DESC;Abotofiain;;;;;;;;;;;;;x
 e_golden_horde_DESC;Titanium;;;;;;;;;;;;;x
 e_il-khanate_DESC;Qilofiain;;;;;;;;;;;;;x
 e_lechczechrus_DESC;Amaxicanian;;;;;;;;;;;;;x
-e_mexikha_DESC;Spacer;;;;;;;;;;;;;x
+e_mexikha_DESC;Angelic;;;;;;;;;;;;;x
 e_mongol_empire_DESC;Cetinese;;;;;;;;;;;;;x
 e_nicaea_DESC;Riostinan;;;;;;;;;;;;;x
 e_outremer_DESC;Tekitaran;;;;;;;;;;;;;x

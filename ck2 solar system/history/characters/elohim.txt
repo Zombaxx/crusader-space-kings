@@ -1,0 +1,912 @@
+777771={
+	name="Rahab"
+	dynasty=77777
+	culture=dragon_culture 
+	religion=shiite
+	diplomacy=90
+	trait=charismatic_negotiator
+	trait=immortal
+	1.1.1={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
+	1.1.31={
+		add_spouse = 777772
+	}
+	2.1.1={death=yes}
+}
+777772={
+	name="Tehom"
+	#dynasty=77777
+	culture=dragon_culture 
+	religion=shiite
+	female=yes
+	martial=90
+	trait=duelist
+	trait=wrath
+	trait=charismatic_negotiator
+	trait=immortal
+	1.1.7={birth=yes}
+	1.1.31={
+		add_spouse = 777771
+	}
+	2.1.30={death=yes}
+}
+777773={
+	name="Elyon"
+	dynasty=77777
+	culture=dragon_culture 
+	religion=shiite
+	father=777771
+	mother=777772
+	diplomacy=9
+	trait=duelist
+	trait=wrath
+	trait=charismatic_negotiator
+	trait=immortal
+	1.7.7={birth=yes}
+	1.11.11={
+		add_spouse = 777774
+	}
+	7.7.7={death=yes}
+}
+777774{
+	name="Beruth"
+	#dynasty=77777
+	culture=dragon_culture 
+	religion=shiite
+	#father=777771
+	mother=777772
+	female=yes
+	trait=immortal
+	diplomacy=9
+	trait=charismatic_negotiator
+	1.8.1={birth=yes}
+	1.11.11={
+		add_spouse = 777773
+	}
+	7.7.7={death=yes}
+}
+777775={
+	name="Epigeius"
+	dynasty=77777
+	culture=dragon_culture 
+	religion=shiite
+	father=777773
+	mother=777774
+	martial=9
+	trait=duelist
+	trait=wrath
+	trait=charismatic_negotiator
+	trait=immortal
+	1.12.31={birth=yes}
+	2.2.14={
+		add_spouse = 777776
+	}
+	2.1.28={death=yes}
+}
+777776={
+	name="Gaia"
+	#dynasty=77777
+	culture=dragon_culture 
+	religion=shiite
+	#father=777773
+	mother=777774
+	diplomacy=9
+	female = yes
+	trait=immortal
+	trait=charismatic_negotiator
+	2.1.1={birth=yes}
+	2.2.14={
+		add_spouse = 777775
+	}
+	2.1.200={death=yes}
+}
+777777={
+	name="El"
+	dynasty=77777
+	culture=roman 
+	religion=shiite
+	father=777775
+	mother=777776
+	trait=immortal
+	diplomacy=50
+	trait=ambitious
+	trait=kind
+	trait=charismatic_negotiator
+	2.2.15={birth=yes}
+}
+
+7777771={
+	name="Dione"
+	dynasty=77777
+	culture=roman 
+	religion=shiite
+	father=777775
+	mother=777776
+	female=yes
+	trait=immortal
+	2.3.1={birth=yes}
+}
+7777772={
+	name="Rhea"
+	dynasty=77777
+	culture=roman 
+	religion=shiite
+	father=777775
+	mother=777776
+	female=yes
+	trait=immortal
+	2.4.1={birth=yes}
+}
+7777773={
+	name="Baetyl"
+	dynasty=77777
+	culture=roman 
+	religion=shiite
+	father=777775
+	mother=777776
+	trait=immortal
+	trait=fair
+	2.5.1={birth=yes}
+}
+7777774={
+	name="Dagon"
+	dynasty=77777
+	culture=roman 
+	religion=shiite
+	father=777775
+	mother=777776
+	trait=immortal
+	2.6.1={birth=yes}
+}
+7777775={
+	name="Atlas"
+	dynasty=77777
+	culture=roman 
+	religion=shiite
+	father=777775
+	mother=777776
+	trait=immortal
+	2.7.1={birth=yes}
+}
+
+777778={
+	name="Asherah"
+	#dynasty=77777
+	culture=roman 
+	religion=shiite
+	#father=777775
+	mother=777776
+	trait=immortal
+	female=yes
+	2.2.17={birth=yes}
+	300.10.30={death=yes}
+}
+
+777779={
+	name="Baal"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777777
+	mother=777778
+	trait=giant
+	trait=strong
+	trait=wrath
+	trait=immortal
+	martial=50
+	stewardship=20
+	trait=charismatic_negotiator
+	3.5.1={birth=yes}
+}
+7777791={
+	name="Athena"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	martial=50
+	stewardship=20
+	trait=charismatic_negotiator
+	4.1.1={birth=yes}
+}
+7777792={
+	name="Artemis"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	5.1.1={birth=yes}
+}
+7777793={
+	name="Apollo"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	6.1.1={birth=yes}
+}
+7777794={
+	name="Ares"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	7.1.1={birth=yes}
+}
+7777795={
+	name="Hebe"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	8.1.1={birth=yes}
+}
+7777796={
+	name="Eileithia"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	9.1.1={birth=yes}
+}
+7777797={
+	name="Hermes"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	10.1.1={birth=yes}
+}
+7777798={
+	name="Dionysus"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	11.1.1={birth=yes}
+}
+7777799={
+	name="Moirai"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	12.1.1={birth=yes}
+}
+77777910={
+	name="Horae"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	13.1.1={birth=yes}
+}
+77777911={
+	name="Muses"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	14.1.1={birth=yes}
+}
+77777912={
+	name="Charites"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	15.1.1={birth=yes}
+}
+77777913={
+	name="Pan"
+	dynasty=77778
+	culture=roman
+	religion=hellenic_pagan
+	father=777779
+	trait=immortal
+	16.1.1={birth=yes}
+}
+
+777780={
+	name="Shahar"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	female=yes
+	trait=immortal
+    3.1.25={birth=yes}
+}
+777781={
+	name="Anath"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	female=yes
+	trait=immortal
+    3.1.25={birth=yes}
+}
+777782={
+	name="Yam"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    4.1.1={birth=yes}
+}
+777783={
+	name="Mot"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    4.1.5={birth=yes}
+}
+
+777784={
+	name="Derketo"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	female=yes
+	trait=immortal
+    4.1.10={birth=yes}
+}
+777785={
+	name="Shaddai"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    4.1.15={birth=yes}
+}
+777786={
+	name="Attar"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    4.1.20={birth=yes}
+}
+777787={
+	name="Moloch"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    4.1.25={birth=yes}
+}
+777788={
+	name="Shapash"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	female=yes
+	trait=immortal
+    4.1.25={birth=yes}
+}
+777789={
+	name="Nikelah"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	female=yes
+	trait=immortal
+    4.1.30={birth=yes}
+}
+777790={
+	name="Eros"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    5.5.1={birth=yes}
+}
+7777901={
+	name="Pothos"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    5.1.1={birth=yes}
+}
+7777902={
+	name="Anobret"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    5.10.1={birth=yes}
+}
+7777903={
+	name="Ieoud"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    5.7.1={birth=yes}
+}
+7777904={
+	name="Artemides"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    5.7.1={birth=yes}
+}
+7777905={
+	name="Asclepius"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=7777904
+	trait=immortal
+    15.7.1={birth=yes}
+}
+777791={
+	name="Athena"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	female=yes
+	trait=immortal
+    5.1.15={birth=yes}
+}
+777792={
+	name="Shaddai"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	female=yes
+	trait=immortal
+    5.1.20={birth=yes}
+}
+777793={
+	name="Persephone"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    5.1.25={birth=yes}
+}
+777794={
+	name="Demarun"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+    5.1.30={birth=yes}
+}
+777795={
+	name="Melqart"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777794
+	trait=immortal
+    20.10.30={birth=yes}
+}
+777796={
+	name="Cronus"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    3.1.1={birth=yes}
+}
+777797={
+	name="Apollo"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+    3.10.1={birth=yes}
+}
+777798={
+	name="Nous"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+	trait=clone
+    5.11.11={birth=yes}
+}
+777799={
+	name="Aletheia"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777777
+	mother=777778
+	trait=immortal
+	trait=clone
+	female=yes
+    5.11.11={birth=yes}
+}
+777100={
+	name="Logos"#Spirit of Christ
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777798
+	mother=777799
+	trait=immortal
+	trait=vat_born
+    7.7.7={birth=yes}
+}
+777101={
+	name="Zoe"
+    dynasty=77777
+    culture=roman
+    religion=shiite
+	father=777798
+	mother=777799
+	trait=immortal
+	trait=vat_born
+	female=yes
+    7.7.7={birth=yes}
+
+}
+777102={
+	name="Anthropos"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+    8.11.11={birth=yes}
+
+}
+777103={
+	name="Ekklesia"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+	female=yes
+    8.11.11={birth=yes}
+
+}
+777104={
+	name="Bythios" #Decad
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+    10.1.10={birth=yes}
+
+}
+777105={
+	name="Mixis"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+	female=yes
+    10.1.10={birth=yes}
+
+}
+777106={
+	name="Ageratos"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+    10.3.10={birth=yes}
+
+}
+777107={
+	name="Henosis"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+	female=yes
+    10.3.10={birth=yes}
+
+}
+777108={
+	name="Autophues"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+    10.5.10={birth=yes}
+
+}
+777109={
+	name="Hedone"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+	female=yes
+    10.5.10={birth=yes}
+
+}
+777110={
+	name="Akinetos"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+    10.7.10={birth=yes}
+
+}
+777111={
+	name="Synkrasis"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+	female=yes
+    10.7.10={birth=yes}
+
+}
+777112={
+	name="Monogenes"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+    10.9.10={birth=yes}
+
+}
+777113={
+	name="Makaria"
+    dynasty=77779
+    culture=roman
+    religion=shiite
+	father=777100
+	mother=777101
+	trait=immortal
+	trait=vat_born
+	female=yes
+    10.9.10={birth=yes}
+
+}
+777114={
+	name="Parakletos" #Dodecad
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	trait=vat_born
+    11.1.12={birth=yes}
+
+}
+777115={
+	name="Pistis"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	female=yes
+	trait=vat_born
+    11.1.12={birth=yes}
+
+}
+777116={
+	name="Patrikos"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	trait=vat_born
+    11.2.12={birth=yes}
+
+}
+777117={
+	name="Elpis"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	female=yes
+	trait=vat_born
+    11.2.12={birth=yes}
+
+}
+777118={
+	name="Metrikos"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	trait=vat_born
+    11.3.12={birth=yes}
+
+}
+777119={
+	name="Agape"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	trait=vat_born
+	female=yes
+    11.3.12={birth=yes}
+
+}
+777120={
+	name="Ainos"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	trait=vat_born
+    11.4.12{birth=yes}
+
+}
+777121={
+	name="Synesis"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	female=yes
+	trait=vat_born
+    11.4.12={birth=yes}
+
+}
+7771121={
+	name="Ekklesiastikos"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	trait=vat_born
+    11.5.12={birth=yes}
+
+}
+777122={
+	name="Makariotes"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	female=yes
+	trait=immortal
+	trait=vat_born
+    11.5.12={birth=yes}
+
+}
+777123={
+	name="Theletos"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	trait=immortal
+	trait=vat_born
+    11.6.12={birth=yes}
+
+}
+777124={
+	name="Sophia"
+    dynasty=77780
+    culture=roman
+    religion=shiite
+	father=777102
+	mother=777103
+	female=yes
+	trait=immortal
+	trait=vat_born
+    11.6.12={birth=yes}
+}
+777125={
+	name="Yaldabaoth"
+    dynasty=77781
+    culture=ashkenazi
+    religion=catholic
+	real_father=777779
+	mother=777124
+	trait=immortal
+	trait=giant
+	trait=jealous
+	trait=wrath
+    11.11.11={birth=yes}
+}

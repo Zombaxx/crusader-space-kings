@@ -19834,7 +19834,7 @@ e_empire1030 = {
 		}
 	}
 }
-e_empire1034 = {
+e_empire1034 = { #Russia
 	color={ 35 63 82 }
 	color2={ 255 255 255 }
 	
@@ -19852,7 +19852,7 @@ e_empire1064 = {
 	culture = saxon
 	
 }
-e_empire1073 = {
+e_empire1073 = { #China
 	color={ 40 81 247 }
 	color2={ 255 255 255 }
 	
