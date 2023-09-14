@@ -5,14 +5,14 @@ title = c_phobos
 
 # Settlements
 max_settlements = 7
-b_phobos = city
+b_phobos = castle
 b_barony1143a = temple
 b_barony1143b = castle
 b_barony1143c = city
 b_barony1143d = temple
 
 # Misc
-culture = alan
-religion = norse_pagan
+culture = dark_elven_nomad
+religion = hellenic_pagan
 
 # History

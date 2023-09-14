@@ -106,13 +106,39 @@ province_event = {
 		k_papal_state = {
 			holder_scope = {
 				create_random_soldier = {
-					dynasty = 1035000 # Acatl
+					dynasty = 77781 #
+					name = Yaldaboath
 					random_traits = yes
-					culture = han
-					religion = taoist
+					culture=dark_elven 
+					religion=elven_tribunal
+					age = 1000
+					trait=full_cybernetic_conversion
+					real_father=777779
+					mother=777124
+					trait=full_cybernetic_conversion
+					trait=giant
+					trait=jealous
+					trait = wroth
+					trait = cruel
+					trait = proud
+					trait = zealous
+					trait = ambitious
+					attributes = {
+						martial = 50
+						diplomacy = 50
+						stewardship = 50
+						intrigue = 50
+						learning = 50
+					}
+					health = 10
+					trait = brilliant_strategist
+
 				}
 				new_character = {
 					e_mexikha = {
+						grant_title = PREV
+					}
+					k_dark_elven_church {
 						grant_title = PREV
 					}
 					set_government_type = feudal_government

@@ -45,12 +45,12 @@ decisions = {
 			tier = EMPEROR
 			realm_size = 200
 			conditional_tooltip = {
-				trigger = { religion = taoist }
+				trigger = { religion = elven_tribunal_heresy }
 				prestige = 8000
 				wealth = 500
 			}
 			conditional_tooltip = {
-				trigger = { NOT = { religion = taoist } }
+				trigger = { NOT = { religion = elven_tribunal_heresy } }
 				prestige = 16000
 				wealth = 1000
 			}
@@ -62,7 +62,7 @@ decisions = {
 		}
 		effect = {
 			if = {
-			    limit = { religion = taoist }
+			    limit = { religion = elven_tribunal_heresy }
 			    wealth = -500
 			}
 			else = {

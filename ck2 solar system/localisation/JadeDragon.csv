@@ -413,31 +413,31 @@ china_golden_age;Golden Age;Age d'or;Goldenes Zeitalter;;Edad de Oro;;;;;;;;;x
 TXT_GRACE;Grace;Grâce;Gunst;;Gracia;;;;;;;;;x
 title_china_emperor;Admiral;Admiral;Admiral;;Admiral;;;;;;;;;x
 tang_china;Mothership;;;;;;;;;;x
-jin_china;Freedom Bringer;;;;;;;;;;x
+jin_china;Omnipotent;;;;;;;;;;x
 wei_china;Celestial Overlords;;;;;;;;;;x
-qi_china;People's Republic;;;;;;;;;;x
-zhou_china;Fallen Empire;;;;;;;;;;x
-han_china;Tau Ceti;;;;;;;;;;x
-qin_china;TCSC Peacekeeper;;;;;;;;;;x
-yan_china;Imperium of New Terra;;;;;;;;;;x
-zhao_china;Alliance of Man;;;;;;;;;;x
-liao_china;Aurora;;;;;;;;;;x
+qi_china;Elyon;;;;;;;;;;x
+zhou_china;Tau Ceti;;;;;;;;;;x
+han_china;Elohim;;;;;;;;;;x
+qin_china;Celestial;;;;;;;;;;x
+yan_china;Anglic;;;;;;;;;;x
+zhao_china;Aeonic;;;;;;;;;;x
+liao_china;Phoenician;;;;;;;;;;x
 yuan_china;TCSC Behemoth;;;;;;;;;;x
-xia_china;Canterbury;;;;;;;;;;x
+xia_china;Elohim;;;;;;;;;;x
 qing_china;High Solar;;;;;;;;;;x
 dai_china;Pure Celestial Plane;;;;;;;;;;x
-cheng_china;TCSS Nauvoo;;;;;;;;;;x
-liang_china;New Terra;;;;;;;;;;x
-song_china;Tau Ceti Defectors;;;;;;;;;;x
-ming_china;U.P.T.C.;;;;;;;;;;x
-shu_china;Humanitarian Expedition;;;;;;;;;;x
-wu_china;Spacer's Choice;;;;;;;;;;x
-chu_china;TCSC Infinity;;;;;;;;;;x
-yue_china;Starship Galactica;;;;;;;;;;x
-yin_china;TCSC Serenity;;;;;;;;;;x
-shun_china;TCSC Spaceball;;;;;;;;;;x
-china_china;Tau Ceti;Chine;China;;China;;;;;;;;;x
-china_china_full;Tau Ceti Republic;Empire chinois;Chinesisches Kaiserreich;;Imperio chino;;;;;;;;;x
+cheng_china;Elohim;;;;;;;;;;x
+liang_china;Elohim;;;;;;;;;;x
+song_china;Elohim;;;;;;;;;;x
+ming_china;Elohim;;;;;;;;;;x
+shu_china;Elohim;;;;;;;;;;x
+wu_china;Elohim;;;;;;;;;;x
+chu_china;Elohim;;;;;;;;;;x
+yue_china;Elohim;;;;;;;;;;x
+yin_china;Elohim;;;;;;;;;;x
+shun_china;Elohim;;;;;;;;;;x
+china_china;Kobol;Kobol;Kobol;;Kobol;;;;;;;;;x
+china_china_full;Elohim Empire;Empire chinois;Chinesisches Kaiserreich;;Imperio chino;;;;;;;;;x
 EVTDESC_JD_10011;My [adventurous_spirit.GetRootRelation] [adventurous_spirit.GetFirstName] has offered to travel to the [the_protector_general.Offmap.GetFullName], on a mission to bring glory to the [Root.PrimaryTitle.GetFullName]. 'Please, my [Root.GetLordLady]', [adventurous_spirit.GetSheHe] says. 'Let a humble servant strengthen your relations with the [the_protector_general.Offmap.Ruler.GetShortChineseEmperorName]!';M[adventurous_spirit.GetOnA] [adventurous_spirit.GetRootRelation] [adventurous_spirit.GetFirstName] a proposé de se rendre en mission dans l'[the_protector_general.Offmap.GetFullName] pour apporter la gloire [Root.PrimaryTitle.Get_au_RealmFull]. « S'il vous plaît, M[Root.GetOnA][Root.GetLordLady], laissez un humble serviteur renforcer vos relations avec l'[the_protector_general.Offmap.Ruler.GetShortChineseEmperorName]! », vous dit-[adventurous_spirit.GetIlElle].;M[adventurous_spirit.Geteineine] [adventurous_spirit.GetRootRelation] [adventurous_spirit.GetFirstName] hat angeboten, nach [the_protector_general.Offmap.GetFullName] zu reisen, um auf eine Mission für Ruhm für [Root.PrimaryTitle.GetFullName] zu gehen. "Bitte, m[Root.Geteineine] [Root.GetLordLady]", sagt [adventurous_spirit.GetSheHe]. "Lasst einen bescheidenden Diener Eure Beziehungen mit [the_protector_general.Offmap.Ruler.GetShortChineseEmperorName] stärken!";;Mi [adventurous_spirit.GetRootRelation] [adventurous_spirit.GetFirstName] se ha ofrecido a viajar al [the_protector_general.Offmap.GetFullName] en una misión para traer gloria al [Root.PrimaryTitle.GetFullName]. 'Por favor, mi [Root.GetLordLady]', dice. 'Dejad que este humilde servidor refuerce vuestras relaciones con el [the_protector_general.Offmap.Ruler.GetShortChineseEmperorName]!';;;;;;;;;x
 EVTOPTA_JD_10011;What a brilliant idea! Go, with my blessing.;Quelle bonne idée ! Allez-y, vous avez ma bénédiction.;Ausgezeichnete Idee! Gehe mit meinem Segen.;;¡Qué idea más brillante! Parte con mis bendiciones.;;;;;;;;;x
 EVTOPTA_JD_10011_TT;§Y[adventurous_spirit.GetTitledFirstName]§! lights up like the sun, before rushing off to pack [adventurous_spirit.GetHerHis] belongings.\n;[adventurous_spirit.Get_Le_TitledFirstNameJ] rayonne, avant de se précipiter pour préparer ses affaires.\n;§Y[adventurous_spirit.GetTitledFirstName]§! strahlt wie die Sonne, bevor [adventurous_spirit.GetSheHe] davon eilt, um [adventurous_spirit.GetHerHis]e Sachen zu packen.\n;;§Y[adventurous_spirit.GetTitledFirstName]§! se ilumina como el sol, antes de lanzarse a preparar sus cosas.\n;;;;;;;;;x
