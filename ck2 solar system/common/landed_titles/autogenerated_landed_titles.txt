@@ -803,6 +803,8 @@ e_empire0041 = {
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
 				holy_site = messalian
+				holy_site = elven
+				holy_site = elven_heresy
 				
 				b_moonlanding = {
 				dynasty_title_names = no
@@ -860,6 +862,9 @@ e_empire0046 = {
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
+				holy_site = dwarven
+				holy_site = elven
+				holy_site = elven_heresy
 				holy_site = lollard
 				
 				b_tenochtitlan = {
@@ -3330,6 +3335,8 @@ e_united_states = {
 		
 		culture = irish
 		
+		sunni = 1000
+		
 		d_bay_area = {
 			color={ 80 200 211 }
 			color2={ 255 255 255 }
@@ -3876,6 +3883,8 @@ e_united_states = {
 		
 		culture = old_frankish
 		
+		sunni = 1000
+		
 		d_chesapeake_bay = {
 			color={ 105 94 115 }
 			color2={ 255 255 255 }
@@ -4108,6 +4117,7 @@ e_latin_america = {
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
+				holy_site = dwarven
 				holy_site = lollard
 				
 				b_rio = {
@@ -4835,6 +4845,8 @@ e_empire0305 = {
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
 				holy_site = messalian
+				holy_site = elven
+				holy_site = elven_heresy
 				
 				b_ryha = {
 				dynasty_title_names = no
@@ -5059,6 +5071,8 @@ e_empire0305 = {
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
 				holy_site = messalian
+				holy_site = elven
+				holy_site = elven_heresy
 				
 				b_barony0142` = {
 				dynasty_title_names = no
@@ -5283,6 +5297,8 @@ e_empire0305 = {
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
 				holy_site = messalian
+				holy_site = elven
+				holy_site = elven_heresy
 				
 				b_foothills_of_mun = {
 				dynasty_title_names = no
@@ -5318,6 +5334,10 @@ e_empire0305 = {
 		capital = 305
 		
 		culture = horse
+		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
 		
 		d_duchy0279 = {
 			color={ 83 65 26 }
@@ -5541,6 +5561,8 @@ e_empire0305 = {
 				
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
+				holy_site = elven
+				holy_site = elven_heresy
 				
 				b_barony0333` = {
 				dynasty_title_names = no
@@ -6754,6 +6776,9 @@ e_empire0372 = {
 		capital = 388
 		
 		culture = red_panda
+		
+		catholic = 3000
+		yazidi = 1000
 		
 		d_duchy0368 = {
 			color={ 11 79 24 }
@@ -9595,6 +9620,8 @@ e_european_union = {
 		
 		culture = greek
 		
+		sunni = 1000
+		
 		d_duchy0548 = {
 			color={ 193 97 188 }
 			color2={ 255 255 255 }
@@ -9788,8 +9815,12 @@ e_european_union = {
 				color2={ 255 255 255 }
 				
 				holy_site = orthodox
+				holy_site = dwarven_dwemer
+				holy_site = dwarven_dwemer_heresy
 				holy_site = sunni
+				holy_site = elven_tribunal
 				holy_site = catholic
+				holy_site = dwarven
 				holy_site = paulician
 				holy_site = bogomilist
 				
@@ -10258,6 +10289,8 @@ e_european_union = {
 		
 		culture = saxon
 		
+		sunni = 1000
+		
 		d_france = {
 			color={ 176 94 72 }
 			color2={ 255 255 255 }
@@ -10299,6 +10332,7 @@ e_european_union = {
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
+				holy_site = dwarven
 				holy_site = paulician
 				holy_site = bogomilist
 				
@@ -11200,6 +11234,9 @@ e_empire0604 = {
 				color2={ 255 255 255 }
 				
 				holy_site = orthodox
+				holy_site = dwarven_dwemer
+				holy_site = dwarven_dwemer_heresy
+				holy_site = elven_tribunal
 				holy_site = paulician
 				holy_site = samaritan
 				
@@ -11318,6 +11355,9 @@ e_empire0604 = {
 				
 				holy_site = hurufi
 				holy_site = orthodox
+				holy_site = dwarven_dwemer
+				holy_site = dwarven_dwemer_heresy
+				holy_site = elven_tribunal
 				holy_site = sunni
 				holy_site = paulician
 				holy_site = khurmazta
@@ -11870,6 +11910,7 @@ e_empire0604 = {
 				
 				holy_site = hurufi
 				holy_site = sunni
+				holy_site = elven_tribunal
 				holy_site = khurmazta
 				holy_site = samaritan
 				
@@ -12150,7 +12191,11 @@ e_empire0604 = {
 				color2={ 255 255 255 }
 				
 				holy_site = orthodox
+				holy_site = dwarven_dwemer
+				holy_site = dwarven_dwemer_heresy
+				holy_site = elven_tribunal
 				holy_site = catholic
+				holy_site = dwarven
 				holy_site = khurmazta
 				
 				b_istanbul = {
@@ -12406,6 +12451,8 @@ e_empire0717 = {
 				color2={ 255 255 255 }
 				
 				holy_site = orthodox
+				holy_site = dwarven_dwemer
+				holy_site = dwarven_dwemer_heresy
 				
 				b_moscow = {
 				dynasty_title_names = no
@@ -14570,6 +14617,7 @@ e_empire0786 = {
 				color2={ 255 255 255 }
 				
 				holy_site = jain
+				holy_site = cat_folk_religion
 				
 				b_barony0697` = {
 				dynasty_title_names = no
@@ -14739,6 +14787,10 @@ e_empire0786 = {
 		
 		culture = dragon_culture
 		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
+		
 		d_duchy0732 = {
 			color={ 160 12 6 }
 			color2={ 255 255 255 }
@@ -14813,6 +14865,7 @@ e_empire0786 = {
 				color2={ 255 255 255 }
 				
 				holy_site = jain
+				holy_site = cat_folk_religion
 				
 				b_barony0805` = {
 				dynasty_title_names = no
@@ -14995,6 +15048,10 @@ e_empire0786 = {
 		capital = 928
 		
 		culture = dragon_culture
+		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
 		
 		d_duchy0889 = {
 			color={ 119 25 39 }
@@ -16554,6 +16611,7 @@ e_empire0953 = {
 				color2={ 255 255 255 }
 				
 				holy_site = jain
+				holy_site = cat_folk_religion
 				holy_site = mazdaki
 				holy_site = west_african_pagan
 				holy_site = zikri
@@ -16936,6 +16994,10 @@ e_empire0953 = {
 		capital = 1053
 		
 		culture = elephant_culture
+		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
 		
 		d_duchy1045 = {
 			color={ 168 200 172 }
@@ -19074,6 +19136,7 @@ e_empire1005 = { #Western Venus
 				color2={ 255 255 255 }
 				
 				holy_site = jain
+				holy_site = cat_folk_religion
 				holy_site = mazdaki
 				holy_site = west_african_pagan
 				holy_site = zikri
@@ -19776,6 +19839,10 @@ e_empire1102 = {
 		
 		culture = bear
 		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
+		
 		d_duchy1089 = {
 			color={ 26 46 69 }
 			color2={ 255 255 255 }
@@ -20466,6 +20533,7 @@ e_empire1102 = {
 				color2={ 255 255 255 }
 				
 				holy_site = jain
+				holy_site = cat_folk_religion
 				
 				b_barony0952` = {
 				dynasty_title_names = no
@@ -22432,6 +22500,9 @@ e_empire1184 = {
 		
 		culture = dragon_culture
 		
+		catholic = 3000
+		yazidi = 1000
+		
 		d_duchy1167 = {
 			color={ 134 34 29 }
 			color2={ 255 255 255 }
@@ -23613,6 +23684,10 @@ e_empire1322 = {
 				holy_site = taoist
 				holy_site = monophysite
 				holy_site = yazidi
+				holy_site = orc_religion
+				holy_site = orc_religion_heresy
+				holy_site = orc_religion_dark_lord
+				holy_site = orc_religion_bright_lord
 				holy_site = miaphysite
 				
 				b_pavonis_mons = {
@@ -24023,6 +24098,10 @@ e_empire1322 = {
 				holy_site = promethean_pagan
 				holy_site = monophysite
 				holy_site = yazidi
+				holy_site = orc_religion
+				holy_site = orc_religion_heresy
+				holy_site = orc_religion_dark_lord
+				holy_site = orc_religion_bright_lord
 				holy_site = miaphysite
 				
 				b_valles = {
@@ -24239,6 +24318,10 @@ e_empire1322 = {
 				holy_site = promethean_pagan
 				holy_site = monophysite
 				holy_site = yazidi
+				holy_site = orc_religion
+				holy_site = orc_religion_heresy
+				holy_site = orc_religion_dark_lord
+				holy_site = orc_religion_bright_lord
 				holy_site = miaphysite
 				
 				b_argyre = {
@@ -25350,6 +25433,10 @@ e_empire1401 = {
 		
 		culture = bear
 		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
+		
 		d_duchy1393 = {
 			color={ 68 37 59 }
 			color2={ 255 255 255 }
@@ -25411,6 +25498,10 @@ e_empire1401 = {
 				
 				holy_site = taoist
 				holy_site = yazidi
+				holy_site = orc_religion
+				holy_site = orc_religion_heresy
+				holy_site = orc_religion_dark_lord
+				holy_site = orc_religion_bright_lord
 				
 				b_planum_australe = {
 				dynasty_title_names = no
@@ -26226,6 +26317,10 @@ e_empire1405 = {
 		
 		culture = dragon_culture
 		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
+		
 		d_duchy1363 = {
 			color={ 133 19 29 }
 			color2={ 255 255 255 }
@@ -26678,6 +26773,10 @@ e_empire1460 = {
 		capital = 1460
 		
 		culture = cat
+		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
 		
 		d_duchy1418 = {
 			color={ 71 94 65 }
@@ -27757,6 +27856,8 @@ e_empire1522 = {
 				
 				holy_site = bon
 				holy_site = bon_reformed
+				holy_site = elven_tribunal_heresy
+				holy_site = dwarven_dwemer_heresy_hashut
 				holy_site = qarmatian
 				holy_site = shiite
 				holy_site = kharijite
@@ -27848,6 +27949,8 @@ e_empire1522 = {
 				
 				holy_site = bon
 				holy_site = bon_reformed
+				holy_site = elven_tribunal_heresy
+				holy_site = dwarven_dwemer_heresy_hashut
 				holy_site = qarmatian
 				
 				b_barony1624` = {
@@ -28521,6 +28624,8 @@ e_empire1548 = {
 				
 				holy_site = bon
 				holy_site = bon_reformed
+				holy_site = elven_tribunal_heresy
+				holy_site = dwarven_dwemer_heresy_hashut
 				holy_site = qarmatian
 				
 				b_barony1479` = {
@@ -28786,6 +28891,8 @@ e_empire1548 = {
 				
 				holy_site = bon
 				holy_site = bon_reformed
+				holy_site = elven_tribunal_heresy
+				holy_site = dwarven_dwemer_heresy_hashut
 				holy_site = qarmatian
 				
 				b_barony1532` = {
@@ -29703,6 +29810,10 @@ e_empire1596 = {
 				color2={ 255 255 255 }
 				
 				holy_site = yazidi
+				holy_site = orc_religion
+				holy_site = orc_religion_heresy
+				holy_site = orc_religion_dark_lord
+				holy_site = orc_religion_bright_lord
 				
 				b_hellas_delta = {
 				dynasty_title_names = no
@@ -31556,6 +31667,8 @@ e_empire1719 = {
 				
 				holy_site = bon
 				holy_site = bon_reformed
+				holy_site = elven_tribunal_heresy
+				holy_site = dwarven_dwemer_heresy_hashut
 				holy_site = qarmatian
 				
 				b_barony1696` = {
@@ -32180,6 +32293,10 @@ e_empire1780 = {
 		capital = 1742
 		
 		culture = cat
+		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
 		
 		d_duchy1731 = {
 			color={ 43 74 83 }
@@ -38729,6 +38846,10 @@ e_empire2158 = {
 		
 		culture = cat
 		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
+		
 		d_duchy2097 = {
 			color={ 43 114 73 }
 			color2={ 255 255 255 }
@@ -39354,6 +39475,10 @@ e_empire2158 = {
 		capital = 2158
 		
 		culture = dog_culture
+		
+		catholic = 3000
+		kharijite = 1000
+		yazidi = 1000
 		
 		d_duchy2144 = {
 			color={ 110 88 35 }

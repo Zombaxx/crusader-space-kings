@@ -337,7 +337,7 @@ otherworlden = {
 			GOD_FALSE_GODS
 		}
 		
-		parent = dwarven_dwemer
+		parent = dwarven
 		
 		can_grant_invasion_cb = invasion
 		can_grant_claim = yes

@@ -170,14 +170,14 @@ city_baron_female_blood_elven;Lady;;;;;;;;;;;;;x
 baron_blood_elven;Lord;;;;;;;;;;;;;x
 baron_female_blood_elven;Lady;;;;;;;;;;;;;x
 #DARK ELVES
-emperor_dark_elven;Hortator;;;;;;;;;;;;;x
-emperor_female_dark_elven;Hortator;;;;;;;;;;;;;x
-king_dark_elven;Ashkhan;;;;;;;;;;;;;x
-king_female_dark_elven;Ashkhatun;;;;;;;;;;;;;x
-duke_dark_elven;Gulakhan;;;;;;;;;;;;;x
-duke_female_dark_elven;Gulakhatun;;;;;;;;;;;;;x
-count_dark_elven;Khan;;;;;;;;;;;;;x
-count_female_dark_elven;Khatun;;;;;;;;;;;;;x
+emperor_dark_elven;Demiurge;;;;;;;;;;;;;x
+emperor_female_dark_elven;Demiurge;;;;;;;;;;;;;x
+king_dark_elven;Most High;;;;;;;;;;;;;x
+king_female_dark_elven;Most High;;;;;;;;;;;;;x
+duke_dark_elven;Archangel;;;;;;;;;;;;;x
+duke_female_dark_elven;Archangel;;;;;;;;;;;;;x
+count_dark_elven;Angel;;;;;;;;;;;;;x
+count_female_dark_elven;Angel;;;;;;;;;;;;;x
 city_baron_dark_elven;Lord;;;;;;;;;;;;;x
 city_baron_female_dark_elven;Lady;;;;;;;;;;;;;x
 baron_dark_elven;Lord;;;;;;;;;;;;;x
@@ -187,14 +187,14 @@ nomadic_king_female_dark_elven;Gulakhatun;;;;;;;;;;;;;x
 nomadic_emperor_dark_elven;Ashkhan;;;;;;;;;;;;;x
 nomadic_emperor_female_dark_elven;Ashkhatun;;;;;;;;;;;;;x
 #DARK ELVES NOMADS
-emperor_dark_elven_nomad;Hortator;;;;;;;;;;;;;x
-emperor_female_dark_elven_nomad;Hortator;;;;;;;;;;;;;x
-king_dark_elven_nomad;Ashkhan;;;;;;;;;;;;;x
-king_female_dark_elven_nomad;Ashkhatun;;;;;;;;;;;;;x
-duke_dark_elven_nomad;Gulakhan;;;;;;;;;;;;;x
-duke_female_dark_elven_nomad;Gulakhatun;;;;;;;;;;;;;x
-count_dark_elven_nomad;Khan;;;;;;;;;;;;;x
-count_female_dark_elven_nomad;Khatun;;;;;;;;;;;;;x
+emperor_dark_elven_nomad;Monad;;;;;;;;;;;;;x
+emperor_female_dark_elven_nomad;Monad;;;;;;;;;;;;;x
+king_dark_elven_nomad;Most High;;;;;;;;;;;;;x
+king_female_dark_elven_nomad;Most High;;;;;;;;;;;;;x
+duke_dark_elven_nomad;Archangel;;;;;;;;;;;;;x
+duke_female_dark_elven_nomad;Archangel;;;;;;;;;;;;;x
+count_dark_elven_nomad;Angel;;;;;;;;;;;;;x
+count_female_dark_elven_nomad;Angel;;;;;;;;;;;;;x
 city_baron_dark_elven_nomad;Lord;;;;;;;;;;;;;x
 city_baron_female_dark_elven_nomad;Lady;;;;;;;;;;;;;x
 baron_dark_elven_nomad;Lord;;;;;;;;;;;;;x
@@ -264,7 +264,7 @@ nomadic_empire_of_oruk_hai;Ashkhanate of;;;;;;;;;;;;;x
 nomadic_kingdom_oruk_hai;Gulakhananate;;;;;;;;;;;;;x
 nomadic_kingdom_of_oruk_hai;Gulakhananate of;;;;;;;;;;;;;x
 #GOVERNMENT
-dark_dwarven_tyranny_government;Dark Dwarven Despotism;;;;;;;;;;;;;x
-dark_dwarven_tyranny_government_desc;The despotism of the Dark Dwarves is a complex centralized bureaucratic system in which numerous temple and castle lands belong to the sole tyrant - Lugal. Lugal manages a vast bureaucratic and military apparatus of governors and officials who ensure that the country is governed by Lugal through military force or the dependence of his subjects on centrally allocated resources. This type of government is supported by the scholastics of the Cult of Knowledge, who consider it the optimal form of government in the current era, but the direct vassals of Lugal may thinks otherwise...;;;;;;;;;;;;;x
+dark_dwarven_tyranny_government;Dark Despotism;;;;;;;;;;;;;x
+dark_dwarven_tyranny_government_desc;The despotism of the Titans is a complex centralized bureaucratic system in which numerous temple and castle lands belong to the sole tyrant - Lugal. Lugal manages a vast bureaucratic and military apparatus of governors and officials who ensure that the country is governed by Lugal through military force or the dependence of his subjects on centrally allocated resources. This type of government is supported by the scholastics of the Cult of Knowledge, who consider it the optimal form of government in the current era, but the direct vassals of Lugal may thinks otherwise...;;;;;;;;;;;;;x
 #GOVERNMENT FLAVOR
-gov_dwemer;Dark Dwarven Despotism;;;;;;;;;;;;;x
+gov_dwemer;Dark Despotism;;;;;;;;;;;;;x
