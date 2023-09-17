@@ -1,6 +1,7 @@
 997.1.1={
 	law = succ_byzantine_elective
 	law = imperial_administration
+	law = true_cognatic_succession
 }
 997.1.1 = {
 	holder = 105301

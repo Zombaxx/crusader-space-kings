@@ -5516,24 +5516,6 @@ e_empire0305 = {
 				b_barony0305g = { }
 			}
 		}
-	}
-}
-e_empire0333 = {
-	color={ 146 39 28 }
-	color2={ 255 255 255 }
-	
-	capital = 333
-	
-	culture = dragon_culture
-	
-	k_kingdom0333 = {
-		color={ 146 39 28 }
-		color2={ 255 255 255 }
-		
-		capital = 333
-		
-		culture = dragon_culture
-		
 		d_duchy0333 = {
 			color={ 146 39 28 }
 			color2={ 255 255 255 }
@@ -5559,6 +5541,24 @@ e_empire0333 = {
 				b_barony0333g = { }
 			}
 		}
+	}
+}
+e_empire0333 = { #unused
+	color={ 146 39 28 }
+	color2={ 255 255 255 }
+	
+	capital = 333
+	
+	culture = dragon_culture
+	
+	k_kingdom0333 = { #unused
+		color={ 146 39 28 }
+		color2={ 255 255 255 }
+		
+		capital = 333
+		
+		culture = dragon_culture
+		
 	}
 }
 e_empire0350 = {

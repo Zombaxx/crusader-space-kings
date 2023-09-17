@@ -36,6 +36,13 @@
 	culture="english"
 	964.1.1={birth=yes}
 	997.1.1={add_spouse = 7000003}
+	1066.1.1 = {
+		effect = {
+			k_kingdom0359 = { add_claim = ROOT }
+			k_kingdom0245 = { add_claim = ROOT }
+			d_melbourne = { add_claim = ROOT }
+		}
+	}
 }
 7000003 = {
 	name="Diana"
@@ -59,6 +66,13 @@
 	culture="english"
 	998.1.1={birth=yes}
 	1027.1.1={add_spouse = 7000005}
+	1066.1.1 = {
+		effect = {
+			k_kingdom0359 = { add_claim = ROOT }
+			k_kingdom0245 = { add_claim = ROOT }
+			d_melbourne = { add_claim = ROOT }
+		}
+	}
 }
 7000005 = {
 	name="Catherine"
@@ -117,6 +131,13 @@
 	culture="english"
 	1000.1.1={birth=yes}
 	1034.1.1={add_spouse = 7000010}
+	1066.1.1 = {
+		effect = {
+			k_kingdom0359 = { add_claim = ROOT }
+			k_kingdom0245 = { add_claim = ROOT }
+			d_melbourne = { add_claim = ROOT }
+		}
+	}
 }
 7000010 = {
 	name="Meghan"

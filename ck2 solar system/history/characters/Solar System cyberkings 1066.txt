@@ -21,6 +21,9 @@
 	1066.1.1 = {
 		effect = {
 			k_kingdom0750 = { add_claim = ROOT }
+			k_kingdom1412 = { add_claim = ROOT }
+			k_kingdom1460 = { add_claim = ROOT }
+			k_phobos = { add_claim = ROOT }
 		}
 	}
 }

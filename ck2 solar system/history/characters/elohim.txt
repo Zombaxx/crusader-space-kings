@@ -207,6 +207,11 @@
 	stewardship=20
 	trait=charismatic_negotiator
 	3.5.1={birth=yes}
+	1065.1.1 = {
+		effect = {
+			e_empire1184 = { add_claim = ROOT }
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 5000
