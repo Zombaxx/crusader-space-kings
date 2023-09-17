@@ -2,6 +2,7 @@ e_empire0009 = {
 	color={ 196 161 80 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 9
 	
 	culture = castillan
@@ -515,6 +516,7 @@ e_empire0024 = {
 	color={ 49 71 18 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 24
 	
 	culture = red_panda
@@ -554,6 +556,7 @@ e_empire0041 = {
 	color={ 172 160 154 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 41
 	
 	culture = elephant_culture
@@ -833,6 +836,7 @@ e_empire0046 = {
 	color={ 190 198 80 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 131
 	
 	culture = castillan
@@ -1323,6 +1327,7 @@ e_empire0048 = {
 	color={ 123 62 41 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 48
 	
 	culture = dragon_culture
@@ -2019,6 +2024,7 @@ e_empire0056 = {
 	color={ 34 86 16 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 56
 	
 	culture = red_panda
@@ -2648,6 +2654,7 @@ e_empire0188 = {
 	color={ 123 170 126 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 188
 	
 	culture = nubian
@@ -2657,6 +2664,7 @@ e_empire0203 = {
 	color={ 202 215 48 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 203
 	
 	culture = castillan
@@ -2942,6 +2950,7 @@ e_empire0223 = {
 	color={ 233 191 20 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 223
 	
 	culture = castillan
@@ -2950,6 +2959,7 @@ e_united_states = {
 	color={ 153 163 142 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 272
 	
 	culture = irish
@@ -3997,6 +4007,7 @@ e_latin_america = {
 	color={ 203 109 59 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 276
 	
 	culture = nahuatl
@@ -4609,6 +4620,7 @@ e_empire0302 = {
 	color={ 45 108 9 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 302
 	
 	culture = red_panda
@@ -4662,6 +4674,7 @@ e_empire0305 = {
 	color={ 67 82 83 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 305
 	
 	culture = horse
@@ -5547,6 +5560,7 @@ e_empire0333 = { #unused
 	color={ 146 39 28 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 333
 	
 	culture = dragon_culture
@@ -5565,6 +5579,7 @@ e_empire0350 = {
 	color={ 115 90 147 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 317
 	
 	culture = old_frankish
@@ -6035,6 +6050,7 @@ e_empire0351 = {
 	color={ 93 28 67 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 351
 	
 	culture = horse
@@ -6074,6 +6090,7 @@ e_empire0372 = {
 	color={ 28 80 8 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 372
 	
 	culture = red_panda
@@ -6998,6 +7015,7 @@ e_empire0383 = {
 	color={ 49 73 22 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 383
 	
 	culture = red_panda
@@ -7060,6 +7078,7 @@ e_empire0393 = {
 	color={ 198 87 109 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 393
 	
 	culture = saxon
@@ -7392,6 +7411,7 @@ e_empire0454 = {
 	color={ 75 147 44 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 454
 	
 	culture = bedouin_arabic
@@ -7629,6 +7649,7 @@ e_empire0504 = {
 	color={ 52 94 7 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 504
 	
 	culture = red_panda
@@ -8100,6 +8121,7 @@ e_empire0513 = {
 	color={ 203 163 207 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 513
 	
 	culture = elephant_culture
@@ -9560,6 +9582,7 @@ e_european_union = {
 	color={ 180 116 96 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 528
 	
 	culture = saxon
@@ -10451,6 +10474,7 @@ e_empire0531 = { #British Commonwealth Titular Title
 	color={ 187 86 105 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 496
 	
 	culture = saxon
@@ -10469,6 +10493,7 @@ e_empire0560 = {
 	color={ 172 108 166 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 560
 	
 	culture = kanuri
@@ -10727,6 +10752,7 @@ e_empire0604 = {
 	color={ 26 161 36 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 604
 	
 	culture = bedouin_arabic
@@ -12145,6 +12171,7 @@ e_empire0711 = { #unused
 	color={ 168 168 165 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 711
 	
 	culture = elephant_culture
@@ -12163,6 +12190,7 @@ e_empire0717 = {
 	color={ 250 110 5 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 717
 	
 	culture = zhangzhung
@@ -13853,6 +13881,7 @@ e_empire0750 = {
 	color={ 221 118 157 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 750
 	
 	culture = hausa
@@ -14426,6 +14455,7 @@ e_empire0786 = {
 	color={ 116 16 14 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 786
 	
 	culture = dragon_culture
@@ -15444,6 +15474,7 @@ e_empire0836 = { #unused
 	color={ 96 108 2 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 836
 	
 	culture = dog_culture
@@ -15453,6 +15484,7 @@ e_empire0897 = {
 	color={ 214 108 34 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 897
 	
 	culture = zhangzhung
@@ -16318,6 +16350,7 @@ e_empire0935 = {
 	color={ 226 127 20 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 935
 	
 	culture = zhangzhung
@@ -16357,6 +16390,7 @@ e_empire0953 = {
 	color={ 180 165 215 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 953
 	
 	culture = elephant_culture
@@ -17913,6 +17947,7 @@ e_empire0954 = { #unused
 	color={ 101 78 23 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 954
 	
 	culture = dog_culture
@@ -17922,6 +17957,7 @@ e_empire0956 = {
 	color={ 188 120 58 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 956
 	
 	culture = kannada
@@ -17961,6 +17997,7 @@ e_empire0970 = {
 	color={ 43 40 78 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 970
 	
 	culture = bear
@@ -17970,6 +18007,7 @@ e_empire0976 = {
 	color={ 72 28 91 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 976
 	
 	culture = bear
@@ -17979,6 +18017,7 @@ e_empire0982 = {
 	color={ 199 126 52 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 982
 	
 	culture = kannada
@@ -18268,6 +18307,7 @@ e_empire1004 = {
 	color={ 183 90 202 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1004
 	
 	culture = kanuri
@@ -18437,6 +18477,7 @@ e_empire1005 = { #Western Venus
 	color={ 180 193 210 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 942
 	
 	culture = elephant_culture
@@ -19303,6 +19344,7 @@ e_empire1018 = { #unused
 	color={ 80 63 66 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1018
 	
 	culture = bear
@@ -19312,6 +19354,7 @@ e_empire1030 = { #unused
 	color={ 95 88 218 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1030
 	
 	culture = hedgehog_culture
@@ -19346,6 +19389,7 @@ e_empire1034 = { #Russia
 	color={ 35 63 82 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1034
 	
 	culture = bear
@@ -19355,6 +19399,7 @@ e_empire1064 = { #unused
 	color={ 197 87 63 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1064
 	
 	culture = saxon
@@ -19364,6 +19409,7 @@ e_empire1073 = { #China
 	color={ 40 81 247 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1073
 	
 	culture = hedgehog_culture
@@ -19373,6 +19419,7 @@ e_empire1047 = { #unused
 	color={ 48 71 117 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1047
 	
 	culture = bear
@@ -19382,6 +19429,7 @@ e_empire1083 = {
 	color={ 183 194 85 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1083
 	
 	culture = frankish
@@ -19625,6 +19673,7 @@ e_empire1097 = {
 	color={ 194 164 46 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1097
 	
 	culture = frankish
@@ -19714,6 +19763,7 @@ e_empire1102 = {
 	color={ 60 56 61 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1102
 	
 	culture = bear
@@ -20641,6 +20691,7 @@ e_empire1127 = { #unused
 	color={ 212 214 248 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1127
 	
 	culture = duck_culture
@@ -20659,6 +20710,7 @@ e_empire1143 = {
 	color={ 141 1 60 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1143
 	
 	culture = dragon_culture
@@ -20716,6 +20768,7 @@ e_empire1145 = {
 	color={ 43 114 248 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1145
 	
 	culture = hedgehog_culture
@@ -21088,6 +21141,7 @@ e_empire1153 = {
 	color={ 200 172 216 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1153
 	
 	culture = elephant_culture
@@ -21127,6 +21181,7 @@ e_empire1168 = { #unused
 	color={ 210 196 241 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1168
 	
 	culture = duck_culture
@@ -21136,6 +21191,7 @@ e_empire1175 = {
 	color={ 14 82 50 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1175
 	
 	culture = red_panda
@@ -22228,6 +22284,7 @@ e_empire1177 = { #unused
 	color={ 154 211 196 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1177
 	
 	culture = elephant_culture
@@ -22246,6 +22303,7 @@ e_empire1184 = {
 	color={ 175 13 38 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1184
 	
 	culture = dragon_culture
@@ -22941,6 +22999,7 @@ e_empire1215 = { #unused
 	color={ 56 91 50 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1215
 	
 	culture = red_panda
@@ -22959,6 +23018,7 @@ e_empire1243 = {
 	color={ 29 67 12 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1243
 	
 	culture = red_panda
@@ -22968,6 +23028,7 @@ e_empire1252 = {
 	color={ 171 167 205 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1252
 	
 	culture = elephant_culture
@@ -23261,6 +23322,7 @@ e_empire1283 = { #unused
 	color={ 10 103 33 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1283
 	
 	culture = red_panda
@@ -23270,6 +23332,7 @@ e_empire1288 = { #unused
 	color={ 169 197 197 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1288
 	
 	culture = elephant_culture
@@ -23296,6 +23359,7 @@ e_empire1301 = { #unused
 	color={ 183 195 179 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1301
 	
 	culture = elephant_culture
@@ -23330,6 +23394,7 @@ e_empire1310 = { #unused
 	color={ 16 79 39 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1310
 	
 	culture = red_panda
@@ -23348,6 +23413,7 @@ e_empire1322 = {
 	color={ 136 60 37 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1322
 	
 	culture = dog_culture
@@ -24337,6 +24403,7 @@ e_empire1378 = {
 	color={ 224 231 239 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1378
 	
 	culture = duck_culture
@@ -25250,6 +25317,7 @@ e_empire1388 = {
 	color={ 117 40 22 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1184
 	
 	culture = dragon_culture
@@ -25269,6 +25337,7 @@ e_empire1401 = {
 	color={ 252 231 209 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1401
 	
 	culture = duck_culture
@@ -26144,6 +26213,7 @@ e_empire1405 = {
 	color={ 167 8 24 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1405
 	
 	culture = dragon_culture
@@ -26596,6 +26666,7 @@ e_empire1460 = {
 	color={ 55 78 52 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1460
 	
 	culture = cat
@@ -26782,6 +26853,7 @@ e_empire1508 = {
 	color={ 48 33 60 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1508
 	
 	culture = bear
@@ -26865,6 +26937,7 @@ e_empire1513 = {
 	color={ 135 0 46 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1513
 	
 	culture = dragon_culture
@@ -27193,6 +27266,7 @@ e_empire1522 = {
 	color={ 22 25 97 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1522
 	
 	culture = bear
@@ -28202,6 +28276,7 @@ e_empire1530 = {
 	color={ 47 54 105 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1530
 	
 	culture = bear
@@ -28255,6 +28330,7 @@ e_empire1539 = {
 	color={ 57 80 108 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1539
 	
 	culture = bear
@@ -28294,6 +28370,7 @@ e_empire1548 = {
 	color={ 207 246 228 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1548
 	
 	culture = duck_culture
@@ -28745,6 +28822,7 @@ e_empire1596 = {
 	color={ 57 78 57 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1596
 	
 	culture = cat
@@ -29882,6 +29960,7 @@ e_empire1682 = {
 	color={ 61 22 116 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1682
 	
 	culture = bear
@@ -29921,6 +30000,7 @@ e_empire1702 = {
 	color={ 26 94 66 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1702
 	
 	culture = cat
@@ -30974,6 +31054,7 @@ e_empire1705 = {
 	color={ 65 37 86 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1705
 	
 	culture = bear
@@ -31290,6 +31371,7 @@ e_empire1719 = {
 	color={ 41 29 74 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1719
 	
 	culture = bear
@@ -31820,6 +31902,7 @@ e_empire1771 = {
 	color={ 59 24 91 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1771
 	
 	culture = bear
@@ -32085,6 +32168,7 @@ e_empire1780 = {
 	color={ 7 60 16 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1780
 	
 	culture = red_panda
@@ -33867,6 +33951,7 @@ e_empire1858 = {
 	color={ 26 72 117 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1858
 	
 	culture = bear
@@ -33906,6 +33991,7 @@ e_empire1925 = {
 	color={ 64 82 84 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1925
 	
 	culture = bear
@@ -33945,6 +34031,7 @@ e_empire1994 = {
 	color={ 138 93 3 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 1994
 	
 	culture = dog_culture
@@ -34632,6 +34719,7 @@ e_empire2009 = {
 	color={ 32 59 64 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2009
 	
 	culture = cat
@@ -34685,6 +34773,7 @@ e_empire2014 = {
 	color={ 213 204 214 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2014
 	
 	culture = duck_culture
@@ -35641,6 +35730,7 @@ e_empire2021 = {
 	color={ 48 118 198 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2021
 	
 	culture = hedgehog_culture
@@ -36961,6 +37051,7 @@ e_empire2038 = {
 	color={ 68 81 63 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2038
 	
 	culture = bear
@@ -37000,6 +37091,7 @@ e_empire2049 = {
 	color={ 138 106 11 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2049
 	
 	culture = dog_culture
@@ -37316,6 +37408,7 @@ e_empire2059 = {
 	color={ 75 110 247 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2059
 	
 	culture = hedgehog_culture
@@ -38292,6 +38385,7 @@ e_empire2155 = {
 	color={ 56 60 229 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2155
 	
 	culture = hedgehog_culture
@@ -38373,6 +38467,7 @@ e_empire2158 = {
 	color={ 83 111 62 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2158
 	
 	culture = dog_culture
@@ -39543,6 +39638,7 @@ e_empire2174 = {
 	color={ 95 115 28 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2174
 	
 	culture = dog_culture
@@ -39582,6 +39678,7 @@ e_empire2176 = {
 	color={ 96 98 12 }
 	color2={ 255 255 255 }
 	
+	purple_born_heirs = yes
 	capital = 2176
 	
 	culture = dog_culture
