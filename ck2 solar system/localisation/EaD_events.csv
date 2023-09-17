@@ -2,7 +2,7 @@ EVTNAME_EADI_001;A Ships Out Of Nowhere;;;;;;;;;;;;;x
 EVTDESC_EADI_001;A strange tall people with pointed ears set foot on our shores today, having sailed on unusual ships, and tried to gain an audience. They arrived with gifts and unusual goods that no one had ever seen. None of the courtiers understood their strange, melodious language, but it seems that they wanted to buy land for themselves in exchandge for they goods. Rejected, they seem to have become desperate and quickly set off out to sea, heading for a strange mist in the midst of the still waves, from which they appear to have arrived.;;;;;;;;;;;;;x
 EVTOPTA_EADI_001;I have a bad feeling about this...;;;;;;;;;;;;;x
 EVTNAME_EADI_002;A Ships Out Of Nowhere;;;;;;;;;;;;;x
-EVTDESC_EADI_002;There are rumors of strange people with pointed ears mooring to the shores of Europe and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become more and more desperate, clearly planning to get what they want by force.;;;;;;;;;;;;;x
+EVTDESC_EADI_002;There are rumors of strange people with pointed ears mooring among the many worlds and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become more and more desperate, clearly planning to get what they want by force.;;;;;;;;;;;;;x
 EVTOPTA_EADI_002;Hah! - A Fantasy Menace.;;;;;;;;;;;;;x
 EVTNAME_EADI_004;Invasion From Another World;;;;;;;;;;;;;x
 EVTDESC_EADI_003;A huge fleet emerged from the fog of the sea. Countless legions of warriors in shining armor set foot on the shores, and lined up in battle formations, began to march towards our cities and castles!;;;;;;;;;;;;;x
@@ -18,11 +18,11 @@ EVTDESC_EADI_006;There are rumors that hunters have seen strange stone gates in 
 EVTOPTA_EADI_006;Nothing bad probably going to happen this time, right?;;;;;;;;;;;;;x
 EVTOPTA_EADI_006_F;So the Khazuk have escaped too...;;;;;;;;;;;;;x
 EVTNAME_EADI_008;The Dwarven Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_007;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of Europe...;;;;;;;;;;;;;x
+EVTDESC_EADI_007;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other worlds...;;;;;;;;;;;;;x
 EVTOPTA_EADI_007;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
-EVTDESCA_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Alpine Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of Europe...;;;;;;;;;;;;;x
-EVTDESCB_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Carpathian Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of Europe...;;;;;;;;;;;;;x
-EVTDESCC_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Ural Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of Europe...;;;;;;;;;;;;;x
+EVTDESCA_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Alpine Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other lands...;;;;;;;;;;;;;x
+EVTDESCB_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Carpathian Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other lands...;;;;;;;;;;;;;x
+EVTDESCC_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Ural Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other lands...;;;;;;;;;;;;;x
 EVTOPTA_EADI_008;As if these "elves" were not enough!;;;;;;;;;;;;;x
 EVTOPTA_EADI_008_F;I thought they would be too stubborn for run away...;;;;;;;;;;;;;x
 EVTNAME_EADI_009;A Ships From The South;;;;;;;;;;;;;x
@@ -33,15 +33,15 @@ EVTDESC_EADI_010;A huge fleet emerged from the fog of the sea. Countless legions
 EVTNAME_EADI_011;The Dark Elven Invasion;;;;;;;;;;;;;x
 EVTOPTA_EADI_010;When it will end?;;;;;;;;;;;;;x
 EVTNAME_EADI_011;The Dark Elven Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_011;Thousands of strange ships arrived to the shores of Arabian Peninsula, spewing out countless legions of pointed-eared warriors in gilded armor made from bones stepped ashore. It seems that these gray-skined people came with the help of magic from the same world as the pointed-eared people and stunted creatures, that wage wars in Europe.;;;;;;;;;;;;;x
+EVTDESC_EADI_011;Thousands of strange ships arrived to the shores of Arabian Peninsula, spewing out countless legions of pointed-eared warriors in gilded armor made from bones stepped ashore. It seems that these gray-skined people came with the help of magic from the same world as the pointed-eared people and stunted creatures, that wage wars in other lands.;;;;;;;;;;;;;x
 EVTOPTA_EADI_011;When will these invasions end?;;;;;;;;;;;;;x
 EVTOPTA_EADI_011_F;And I kept thinking, when will they show up?;;;;;;;;;;;;;x
 EVTNAME_EADI_013;A Second Gates;;;;;;;;;;;;;x
-EVTDESC_EADI_013;There are rumors that hunters have seen strange stone gates in the mountains, that have appeared out of nowhere. They are wery similar to the gates, that appear in Europe, and the are rumors, that someone came out of this gates...;;;;;;;;;;;;;x
+EVTDESC_EADI_013;There are rumors that hunters have seen strange stone gates in the mountains, that have appeared out of nowhere. They are wery similar to the gates, that appear in other worlds, and the are rumors, that someone came out of this gates...;;;;;;;;;;;;;x
 EVTOPTA_EADI_013;Another army of "dwarves", huh?;;;;;;;;;;;;;x
 EVTOPTA_EADI_013_F;I had no doubt that they would appear.;;;;;;;;;;;;;x
 EVTNAME_EADI_015;The Dark Dwarven Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_015;Thousands of stunted warriors in bronze-like armor, armed with maces and axes, began to descend from the mountains, emerging from the mysterious stone gates. The way they arriwed is similar to the way of those "dwarves" in Europe...;;;;;;;;;;;;;x
+EVTDESC_EADI_015;Thousands of stunted warriors in bronze-like armor, armed with maces and axes, began to descend from the mountains, emerging from the mysterious stone gates. The way they arriwed is similar to the way of those "dwarves" in other lands...;;;;;;;;;;;;;x
 EVTOPTA_EADI_015;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTOPTA_EADI_015_F;Looks like their giant magic golem did work after all.;;;;;;;;;;;;;x
 #Realm Fallen Events
@@ -59,7 +59,7 @@ EADITITLE50;The Fall of Tar-Eremket;;;;;;;;;;;;;x
 EADIDESC50;The once proud Kingdom of Tar-Eremket is now in ruins, for the cathrian forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee cathrians who have nowhere to go.;;;;;;;;;;;;;x
 #
 EVTNAME_EADI_016;A Giant Sandstorm;;;;;;;;;;;;;x
-EVTDESC_EADI_016;There is rumors that an unusual sandstorm has broken out in the lands of Africa, which has been going on for several weeks. Those desert dwellers who managed to get into the heart of the storm say that they heard the sounds of a huge army marching under a curtain of flying sand, although they did not see anyone or anything.;;;;;;;;;;;;;x
+EVTDESC_EADI_016;There is rumors that an unusual sandstorm has broken out, which has been going on for several weeks. Those desert dwellers who managed to get into the heart of the storm say that they heard the sounds of a huge army marching under a curtain of flying sand, although they did not see anyone or anything.;;;;;;;;;;;;;x
 EVTOPTA_EADI_016;No more invasion, please!;;;;;;;;;;;;;x
 EVTOPTA_EADI_016_F;Looks like our desert friends are next.;;;;;;;;;;;;;x
 EVTNAME_EADI_017;The Cathrian Invasion;;;;;;;;;;;;;x
@@ -68,29 +68,29 @@ EVTOPTA_EADI_017;Is there really no more places in the world that was not been a
 EVTOPTA_EADI_017_F;Soon their merchants will again flood the whole world...;;;;;;;;;;;;;x
 #
 EADITITLE36;The Realm of the Elves;;;;;;;;;;;;;x 
-EADIDESC36;Overcoming the resistance of local rulers, the elves conquered the kingdom in the lands of Europe. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
+EADIDESC36;Overcoming the resistance of local rulers, the elves conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_36_A;These "elves" won't last long.;;;;;;;;;;;;;x
 EVTOPTA_EADI_36_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EADITITLE37;The Realm of the Dwarves;;;;;;;;;;;;;x 
-EADIDESC37;Overcoming the resistance of local rulers, the dwarves conquered the kingdom in the lands of Europe. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADIDESC37;Overcoming the resistance of local rulers, the dwarves conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_37_A;I am sure that sooner or later these "dwarves" will be defeated.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_37_F;Stubborn beardies are not so easy to expel.;;;;;;;;;;;;;x
 EVTOPTA_EADI_37_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTA_EADI_37_B_F;Sometimes, I wonder if I was a Dwarf...;;;;;;;;;;;;;x
 EADITITLE38;The Realm of the Dark Elves;;;;;;;;;;;;;x 
-EADIDESC38;Overcoming the resistance of local rulers, the dark elves conquered the kingdom in the lands of Asia. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADIDESC38;Overcoming the resistance of local rulers, the dark elves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_38_A;Those grey-skinned fanatics will meet their defeat sooner or later.;;;;;;;;;;;;;x
 EVTOPTA_EADI_38_F;You can't defeat Dameri Overseers so easely.;;;;;;;;;;;;;x
 EVTOPTA_EADI_38_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTA_EADI_38_B_F;Sometimes I wonder if I was a Dark Elf...;;;;;;;;;;;;;x
 EADITITLE39;The Realm of the Dark Dwarves;;;;;;;;;;;;;x
-EADIDESC39;Overcoming the resistance of local rulers, the dark dwarves conquered the kingdom in the lands of Asia. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADIDESC39;Overcoming the resistance of local rulers, the dark dwarves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_39_A;I doubt that these mad scholastics will be able to hold on to their conquest.;;;;;;;;;;;;;x
 EVTOPTA_EADI_39_F;Maybe they're not so stubborn as their cousens, but still.;;;;;;;;;;;;;x
 EVTOPTA_EADI_39_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTA_EADI_39_B_F;Sometimes I wonder if I was a Dark Dwarf...;;;;;;;;;;;;;x
 EADITITLE40;The Realm of the Cathrians;;;;;;;;;;;;;x
-EADIDESC40;Overcoming the resistance of local rulers, the dark dwarves conquered the kingdom in the lands of Africa. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADIDESC40;Overcoming the resistance of local rulers, the dark dwarves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_40_A;These creatures will be hunted down and killed like the beasts they are.;;;;;;;;;;;;;x   
 EVTOPTA_EADI_40_F;So, they has finally found their "Blessed Sands"?;;;;;;;;;;;;;x   
 EVTOPTA_EADI_40_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
@@ -100,25 +100,25 @@ EVTDESC_EADI_051;It seems that peoples from another world are not as united as t
 EVTOPTA_EADI_051;I don't like where this is going...;;;;;;;;;;;;;x
 EVTOPTA_EADI_051_F;And do never come back, you heretics!;;;;;;;;;;;;;x
 EVTNAME_EADI_052;The Migration to Dagestan;;;;;;;;;;;;;x
-EVTDESC_EADI_052;The Velori tribes ended their migration by crossing the mountains of Caucasus and arriving in the steppes of the Ciscaucasia. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTDESC_EADI_052;The Velori tribes ended their migration by crossing the mountains of Caucasus and arriving in the steppes. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_052;Yet another invasion. I'm tired of those...;;;;;;;;;;;;;x
 EVTOPTA_EADI_052_F;Interesting...;;;;;;;;;;;;;x
 EVTNAME_EADI_053;The Migration to Aral;;;;;;;;;;;;;x
-EVTDESC_EADI_053;The Velori tribes ended their migration in the Central Asia and arriving in the steppes near Aral Sea. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x   
+EVTDESC_EADI_053;The Velori tribes ended their migration. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x   
 EVTNAME_EADI_054;The Migration to Cumania;;;;;;;;;;;;;x
-EVTDESC_EADI_054;The Velori tribes ended their migration in the Central Asia and arriving in the steppes of Turan. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
+EVTDESC_EADI_054;The Velori tribes ended their migration. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
 EVTNAME_EADI_055;The Migration to Caspian Sea;;;;;;;;;;;;;x
-EVTDESC_EADI_055;The Velori tribes ended their migration in the Central Asia and arriving in the steppes in the north of Caspian Sea. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
+EVTDESC_EADI_055;The Velori tribes ended their migration . They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
 EVTNAME_EADI_059;The Sundering;;;;;;;;;;;;;x
 EVTDESC_EADI_059;It seems that peoples from another world are not as united as they seem. Recently, elven inquisitors discovered a large group of followers of the Cult of Kaine. The cultists, without waiting for them all to be killed, have quickly embarked on ships and left the lands of the elves. They intend to build their kingdom where they can freely practice their horrific religion.;;;;;;;;;;;;;x
-EVTNAME_EADI_060;Scandinavia Invaded!;;;;;;;;;;;;;x
-EVTDESC_EADI_060;The Cultists of Kaine, that was expelled from the lands of the elves, have reached Scandinavia! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
-EVTNAME_EADI_061;Nenetsia Invaded!;;;;;;;;;;;;;x
-EVTDESC_EADI_061;The Cultists of Kaine, that was expelled from the lands of the elves, have reached Nenetsia! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTNAME_EADI_060;World Invaded!;;;;;;;;;;;;;x
+EVTDESC_EADI_060;The Cultists of Kaine, that was expelled from the lands of the elves, have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTNAME_EADI_061;World Invaded!;;;;;;;;;;;;;x
+EVTDESC_EADI_061;The Cultists of Kaine, that was expelled from the lands of the elves, have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 EADITITLE64;The Realm of the Blood Elves;;;;;;;;;;;;;x
-EADIDESC64;Overcoming the resistance of local rulers, the blood elves have conquered the kingdom in the lands of Europe. A huge number of Nagrathi settlers have settled these lands, and although some of the local population and feudal lords may have survived in the slaughter, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADIDESC64;Overcoming the resistance of local rulers, the blood elves have conquered the kingdom. A huge number of Nagrathi settlers have settled these lands, and although some of the local population and feudal lords may have survived in the slaughter, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EADITITLE94;The Realm of Oruk Hay;;;;;;;;;;;;;x
-EADIDESC94;Overcoming the resistance of local rulers, the Oruk Hay conquered the kingdom in the lands of Asia. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADIDESC94;Overcoming the resistance of local rulers, the Oruk Hay conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_94_A;Let's hope that those "oruks" will soon be defeated.;;;;;;;;;;;;;x
 EVTOPTA_EADI_94_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTA_EADI_94_B_F;I wonder if I was an Oruk Hay...;;;;;;;;;;;;;x
@@ -143,7 +143,7 @@ EVTOPTA_EADI_083_F;I hoped they wouldn't follow us...;;;;;;;;;;;;;x
 EVTNAME_EADI_084;The Orc Invasion;;;;;;;;;;;;;x
 EVTDESC_EADI_084;Those who hastened to move away from the mysterious gigantic gates acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Orcs seem to have come from the same world as the Elves, Dwarves and Cathrians.;;;;;;;;;;;;;x
 EADITITLE87;The Realm of Orcs;;;;;;;;;;;;;x
-EADIDESC87;Overcoming the resistance of local rulers, the elves conquered the kingdom in the lands of Europe. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords may remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
+EADIDESC87;Overcoming the resistance of local rulers, the elves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords may remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_87_A;These "orcs" surely will be defeated;;;;;;;;;;;;;x
 EVTOPTB_EADI_87_A;Well, my condolences to their neighbors.;;;;;;;;;;;;;x
 EVTOPTA_EADI_87_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
@@ -153,9 +153,9 @@ EADIDESC88;The once proud Oruk Horde is no more now, for the orc forces have bee
 EVTNAME_EADI_089;The Sundering;;;;;;;;;;;;;x
 EVTDESC_EADI_089;It seems that peoples from another world are not as united as they seem. The people of Oruk Hay, who came along with their nomadic brothers - Oruk Gar, no longer intend to live with them due to cultural differences and way of life. Hearing about rich lands of south, the Oruk Hai armies set out to move, hoping to rebuild their own ancient empire in these lands.;;;;;;;;;;;;;x  
 EVTNAME_EADI_090;The Oruk Hay March;;;;;;;;;;;;;x
-EVTDESC_EADI_090;The Oruk Hay armies have reached lands of Bengal! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTDESC_EADI_090;The Oruk Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 EVTNAME_EADI_091;The Oruk Hay March;;;;;;;;;;;;;x
-EVTDESC_EADI_091;The Oruk Hay armies have reached lands of Pamir! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTDESC_EADI_091;The Oruk Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 #
 EVTOPTE_EADAW_7001;Gold and jewelry, to appease with gifts from the depths of the earth!;;;;;;;;;;;;;x 
 EVTOPTE_EADAW_7002_gold;With solemn prayers, I offer gold and jewelry to the altar of my ancestors. Having consecrated the offerings, the priest takes the jewelry and lowers them into a specially dug grave so that it can enter the world of the dead.;;;;;;;;;;;;;x 
@@ -188,13 +188,13 @@ EVTDESC_EADOAD_11;After the fall of one of the realms of aliens from another wor
 EVT_OPTA_EADOAD_11;Worrysome...;;;;;;;;;;;;;x 
 #
 EVT_TITLE_EADOAD_13;Rise of the Adventurer;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_A;One landless elven nobleman managed to gather support of numerous other landless nobles and elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the European kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
-EVT_DESC_EADOAD_13_B;One landless leader of a dwarven clan managed to gather support of numerous other landless clans and dwarven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the European kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_A;One landless elven nobleman managed to gather support of numerous other landless nobles and elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
+EVT_DESC_EADOAD_13_B;One landless leader of a dwarven clan managed to gather support of numerous other landless clans and dwarven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_C;One leader of a noble house of the dark elves managed to gather support of numerous other small noble houses and dark elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_D;One landless leader of a dark dwarven clan managed to gather support of numerous other landless clans and dark dwarven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_E;One clan leader of the cathrian clan was able to gather support of numerous other clans and cathrian mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of Africa in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_F;One landless blood elven nobleman managed to gather support of numerous other landless nobles and elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the European kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
-EVT_DESC_EADOAD_13_G;One orc warchief was able to gather support of numerous other orc clans and mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of Asia in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_E;One clan leader of the cathrian clan was able to gather support of numerous other clans and cathrian mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_F;One landless blood elven nobleman managed to gather support of numerous other landless nobles and elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
+EVT_DESC_EADOAD_13_G;One orc warchief was able to gather support of numerous other orc clans and mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_OPTA_EADOAD_13;I doubt that they will succeed.;;;;;;;;;;;;;x  
 #
 EVTDESC_EADESCOIA_1;The local otherworlden population was far from happy about the new rulers. Rumor has it that in the otherworlden provinces, armed partisan groups have emerged that rob or slay tax collectors and merchant caravans, actively supported by the local population. As long as they are ruled by a human, the locals will create constant problems.;;;;;;;;;;;;;x

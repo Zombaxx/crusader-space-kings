@@ -75,10 +75,12 @@ zun_pagan_DESC;Zun, the Giver of Justice, is the sun-god originally worshipped o
 
 bon;Ancestor Worship;;;;;;;;;;;;;x
 hellenic_pagan;Olympian;;;;;;;;;;;;;x
-fraticelli;Christofacist;;;;;;;;;;;;;x
+fraticelli;Gnostic;;;;;;;;;;;;;x
 
 yazidi;Terraformed;;;;;;;;;;;;;x
+yazidi_DESC;Sacred guardians of the dormant atmospheric machines, The Terraformed belive humanity had to transform Mars into a new home using the gifts given by the Singularity in time to survive as a test. Living against the Terraformers Code could cause all colonists to die making the management of decadence a priority. They believe the terraforming machines must be preserved and reactivated before the atmosphere escapes, forcing them to proselytize and spread their faith through any means necessary.;;;;;;;;;;;;;x
 kharijite;Zensunni;;;;;;;;;;;;;x
+kharijite_DESC;The Zensunni faith melds introspective Zen Buddhism principles with the spiritual tenants of Sunni Islam, emphasizing inner enlightenment through disciplined devotion and meditative practices. Followers seek harmonious balance in life, blending its emphasis on the mystical and a reversion to "the ways of the fathers" with the wisdom of Zen masters to achieve spiritual ascension.;;;;;;;;;;;;;x
 
 taoist;Spacer;Spacer;Spacer;;Spacer;;;;;;;;;x
 taoist_DESC;A fleet of ships from a nearby star system has arrived to investigate in the wake of the disaster. Because light travel is impossible it took this intersystem ship 1000 years to reach its destination in the Solar System.\nDue to unforseen circumstances, the crew is less prepared than would be viable to complete their mission. \nThe ship containing most of the medicine needed for Spacers to acclimate to gravity, and most of the supplies and tools needed for the mission itself, were lost. \n\nMost Spacers are left stuck in space with dwindling food, resources, and few tools beyond the cybernetic and mech manufacturing facilities. Most other fabricators and resources needed for long-term sustainable survival in space were on the lost ships of the fleet. \nThey must trade their advanced tech and knowledge, seen as magic by the majority of Martians, for food and resources in order to survive. ;;;;;;;;;;;;x
@@ -114,10 +116,10 @@ THE_LEGENDS;The Legends;Légendes;Die Legenden;;Las Leyendas;;;;;;;;;x
 THE_SAGAS;The Pirate's Code;The Pirate's Code;The Pirate's Code;;The Pirate's Code;;;;;;;;;x
 THE_GATHAS;The Gathas;Gathas;Die Gathas;;Las Gathas;;;;;;;;;x
 
-GOD_ZUN;Ra;Ra;Ra;;Ra;;;;;;;;;x
-GOD_THE_SUN;the Sun;le Soleil;die Sonne;;el Sol;;;;;;;;;x
-GOD_THE_GIVER_OF_JUSTICE;the Giver of Justice;le Justicier;den Geber der Gerechtigkeit;;el que Imparte Justicia;;;;;;;;;x
-THE_DARKNESS;Elohim;les Ténèbres;Die Dunkelheit;;la Oscuridad;;;;;;;;;x
+#GOD_ZUN;Ra;Ra;Ra;;Ra;;;;;;;;;x
+#GOD_THE_SUN;the Sun;le Soleil;die Sonne;;el Sol;;;;;;;;;x
+#GOD_THE_GIVER_OF_JUSTICE;the Giver of Justice;le Justicier;den Geber der Gerechtigkeit;;el que Imparte Justicia;;;;;;;;;x
+#THE_DARKNESS;Elohim;les Ténèbres;Die Dunkelheit;;la Oscuridad;;;;;;;;;x
 
 GOD_GAIA;Gaia;;;;;;;;;;;;;x
 GOD_SURVIVORS;The Survivors;;;;;;;;;;;;;x

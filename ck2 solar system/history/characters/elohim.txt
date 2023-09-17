@@ -112,6 +112,12 @@
 	trait=kind
 	trait=charismatic_negotiator
 	2.2.15={birth=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 10000
+			piety = 30000
+			}
+	}
 }
 
 7777771={
@@ -201,6 +207,12 @@
 	stewardship=20
 	trait=charismatic_negotiator
 	3.5.1={birth=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 5000
+			piety = 3000
+			}
+	}
 }
 7777791={
 	name="Athena"
@@ -613,6 +625,12 @@
 	trait=full_cybernetic_conversion
 	trait=clone
     5.11.11={birth=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 5000
+			piety = 3000
+			}
+	}
 }
 777799={
 	name="Aletheia"
@@ -638,6 +656,12 @@
 	trait=full_cybernetic_conversion
 	trait=vat_born
     7.7.7={birth=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 5000
+			piety = 3000
+			}
+	}
 }
 777101={
 	name="Zoe"
