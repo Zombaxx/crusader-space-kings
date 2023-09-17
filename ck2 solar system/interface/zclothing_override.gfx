@@ -1,0 +1,271 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_modern_male_clothes_behind"
+		texturefile = "gfx/characters/modern_male/modern_male_clothes_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_modern_male_headgear_behind"
+		texturefile = "gfx/characters/modern_male/modern_male_headgear_behind.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
+		name = "GFX_modern_male_clothes"
+		texturefile = "gfx/characters/modern_male/modern_male_clothes.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_modern_male_headgear_mid"
+		texturefile = "gfx/characters/modern_male/modern_male_headgear_mid.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
+		name = "GFX_modern_male_clothes_infront"
+		texturefile = "gfx/characters/modern_male/modern_male_clothes_infront.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_modern_male_headgear"
+		texturefile = "gfx/characters/modern_male/modern_male_headgear.dds"
+		noOfFrames = 12
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	portraitType = {
+		effectFile = "gfx/FX/portrait.lua"
+		name = "PORTRAIT_modern_clothes"
+		
+		weight = {
+			additive_modifier = {
+				value = 10000
+				portrait_age > child
+				portrait_is_female = no
+				portrait_clothing = yes
+				OR = {
+					portrait_culture = greek
+					portrait_culture = irish
+					portrait_culture = hausa
+					portrait_culture = old_frankish
+					portrait_culture = nubian
+					portrait_culture = russian
+					portrait_culture = castillan
+					portrait_culture = frankish
+					portrait_culture = nahuatl
+					portrait_culture = zhangzhung
+					portrait_culture = saxon
+					portrait_culture = old_saxon
+					portrait_culture = norse
+					portrait_culture = karluk
+					portrait_culture = jurchen
+					portrait_culture = catalan
+					portrait_culture = hindustani
+					portrait_culture = pictish
+					#portrait_culture = english
+				}
+				#portrait_religion = catholic
+				#portrait_has_trait = catholic
+				#portrait_society = the_commission
+			}
+		}
+		
+		layer = { 
+			"GFX_modern_male_clothes_behind:c0"
+			"GFX_modern_male_clothes:c2"
+			"GFX_empty:c3"
+			"GFX_empty:c5"
+			"GFX_empty:c1"
+			"GFX_empty:c6"
+			"GFX_empty:c7"
+			"GFX_modern_male_clothes_infront:c4"
+		}
+		allow_property_values = {
+			0 = {
+				0 = {
+					portrait_in_command = no
+				}
+				1 = {
+					portrait_in_command = no
+				}
+				2 = {
+					portrait_in_command = no
+				}
+				3 = {
+					portrait_in_command = no
+				}
+				4 = {
+					portrait_in_command = no
+				}
+				5 = {
+					portrait_in_command = no
+				}
+				6 = {
+					portrait_in_command = no
+				}
+				7 = {
+					portrait_in_command = no
+				}
+				8 = {
+					portrait_in_command = no
+				}
+				9 = {
+					portrait_in_command = no
+				}
+				10 = {
+					portrait_in_command = yes
+				}
+				11 = {
+					portrait_in_command = no
+				}
+			}
+			2 = {
+				0 = {
+					portrait_in_command = no
+				}
+				1 = {
+					portrait_in_command = no
+				}
+				2 = {
+					portrait_in_command = no
+				}
+				3 = {
+					portrait_in_command = no
+				}
+				4 = {
+					portrait_in_command = no
+				}
+				5 = {
+					portrait_in_command = no
+				}
+				6 = {
+					portrait_in_command = no
+				}
+				7 = {
+					portrait_in_command = no
+				}
+				8 = {
+					portrait_in_command = no
+				}
+				9 = {
+					portrait_in_command = no
+				}
+				10 = {
+					portrait_in_command = yes
+				}
+				11 = {
+					portrait_in_command = no
+				}
+			}
+			5 = {
+				0 = {
+					portrait_in_command = no
+				}
+				1 = {
+					portrait_in_command = no
+				}
+				2 = {
+					portrait_in_command = no
+				}
+				3 = {
+					portrait_in_command = no
+				}
+				4 = {
+					portrait_in_command = no
+				}
+				5 = {
+					portrait_in_command = no
+				}
+				6 = {
+					portrait_in_command = no
+				}
+				7 = {
+					portrait_in_command = no
+				}
+				8 = {
+					portrait_in_command = no
+				}
+				9 = {
+					portrait_in_command = no
+				}
+				10 = {
+					portrait_in_command = yes
+				}
+				11 = {
+					portrait_in_command = no
+				}
+			}
+		}
+	}
+#	portraitType = {
+#		effectFile = "gfx/FX/portrait.lua"
+#		name = "PORTRAIT_modern_male_headgear" #modern hats
+#		
+#		weight = {
+#			additive_modifier = {
+#				value = 10000
+#				portrait_age > child
+#				#portrait_is_female = no
+#				#portrait_clothing = yes
+#				#portrait_religion = catholic
+#				#portrait_has_trait = catholic
+#				#portrait_society = the_commission
+#			}
+#		}
+#		
+#		layer = { 
+#			"GFX_empty:c0"
+#			"GFX_empty:c2"
+#			"GFX_modern_male_headgear_mid:c3"
+#			"GFX_modern_male_headgear:c5"
+#			"GFX_modern_male_headgear_behind:c1"
+#			"GFX_empty:c6"
+#			"GFX_empty:c7"
+#			"GFX_empty:c4"
+#		}
+#		allow_property_values = {
+#
+#			5 = {
+#				0 = {
+#					portrait_in_command = no
+#				}
+#				1 = {
+#					portrait_in_command = yes
+#					#NOT = { portrait_tier = emperor }
+#					#NOT = { portrait_tier = king }
+#				}	
+#				2 = {
+#					portrait_in_command = yes
+#					#NOT = { portrait_tier = count }
+#					#NOT = { portrait_tier = duke }
+#					#NOT = { portrait_tier = baron }
+#				}
+#			}
+#			3 = {
+#				0 = {
+#					portrait_in_command = no
+#				}
+#				1 = {
+#					portrait_in_command = yes
+#				}	
+#				2 = {
+#					portrait_in_command = yes
+#				}
+#				3 = {
+#					portrait_in_command = yes	
+#				}
+#			}
+#		}	
+#	}
+}
