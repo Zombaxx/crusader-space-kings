@@ -19341,6 +19341,20 @@ e_empire1097 = {
 				b_barony1075f = { }
 				b_barony1075g = { }
 			}
+			c_province1097 = {
+				color={ 194 164 46 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony1097` = { }
+				b_barony1097a = { }
+				b_barony1097b = { }
+				b_barony1097c = { }
+				b_barony1097d = { }
+				b_barony1097e = { }
+				b_barony1097f = { }
+				b_barony1097g = { }
+			}
 			c_melbourne = {
 				color={ 174 59 116 }
 				color2={ 255 255 255 }
@@ -19359,46 +19373,7 @@ e_empire1097 = {
 				b_barony1086f = { }
 				b_barony1086g = { }
 			}
-		d_duchy1097 = {
-			color={ 194 164 46 }
-			color2={ 255 255 255 }
-			
-			capital = 1097
-			
-			c_province1097 = {
-				color={ 194 164 46 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony1097` = { }
-				b_barony1097a = { }
-				b_barony1097b = { }
-				b_barony1097c = { }
-				b_barony1097d = { }
-				b_barony1097e = { }
-				b_barony1097f = { }
-				b_barony1097g = { }
-			}
 		}
-		}
-	}
-	k_kingdom1097 = { #unused
-		color={ 194 164 46 }
-		color2={ 255 255 255 }
-		
-		capital = 1097
-		
-		culture = frankish
-		
-	}
-	k_kingdom1036 = {
-		color={ 201 207 101 }
-		color2={ 255 255 255 }
-		
-		capital = 1036
-		
-		culture = frankish
-		
 		d_duchy1036 = {
 			color={ 201 207 101 }
 			color2={ 255 255 255 }
@@ -20793,6 +20768,31 @@ e_empire1127 = { #unused
 		
 		culture = kannada
 		
+	}
+	k_kingdom1097 = { #unused
+		color={ 194 164 46 }
+		color2={ 255 255 255 }
+		
+		capital = 1097
+		
+		culture = frankish
+		
+	}
+	k_kingdom1036 = { #unused
+		color={ 201 207 101 }
+		color2={ 255 255 255 }
+		
+		capital = 1036
+		
+		culture = frankish
+		
+		d_duchy1097 = { #unused
+			color={ 194 164 46 }
+			color2={ 255 255 255 }
+			
+			capital = 1097
+			
+		}
 	}
 }
 e_empire1143 = {
