@@ -4,10 +4,13 @@
 title = c_istanbul
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_istanbul = castle
 b_barony0604a = temple
 b_barony0604b = city
+b_barony0604c = castle
+b_barony0604d = temple
+b_barony0604e = city
 
 # Misc
 culture = bedouin_arabic

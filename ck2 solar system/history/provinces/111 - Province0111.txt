@@ -8,7 +8,7 @@ max_settlements = 4
 b_barony0111` = tribal
 
 # Misc
-culture = nahuatl
-religion = hindu
+culture=dark_elven
+religion=elven_tribunal
 
 # History

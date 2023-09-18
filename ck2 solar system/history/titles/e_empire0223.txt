@@ -1,0 +1,7 @@
+997.1.1={
+	law = succ_byzantine_elective
+	law = imperial_administration
+}
+1050.1.1 = {
+	holder = 101675
+}

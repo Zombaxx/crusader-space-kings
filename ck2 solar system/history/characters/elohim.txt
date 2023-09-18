@@ -986,9 +986,8 @@
 777125={
 	name="Yaldabaoth"
     dynasty=77781
-	race=dark_elven_tribunal
-    culture=ashkenazi
-    religion=catholic
+	culture=dark_elven
+    religion=elven_tribunal
 	real_father=777779
 	mother=777124
 	martial=50
