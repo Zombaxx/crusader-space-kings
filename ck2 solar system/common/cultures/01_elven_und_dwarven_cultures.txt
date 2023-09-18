@@ -337,6 +337,7 @@ cathrian_group = {
 		graphical_cultures = { catfolkgfx }
 
 		used_for_random = no
+		allow_looting = yes
 		
 		color = { 1.0 0.54 0.1 }
 		
@@ -397,6 +398,7 @@ cathrian_group = {
         alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
 		
 		used_for_random = no
+		allow_looting = yes
 		
 		color = { 1.0 0.54 0.1 }
 		
@@ -505,7 +507,7 @@ orcish_group = {
 		used_for_random = no
 		
 		color = { 108 15 15 }
-		
+		horde = yes
 		
 		male_names = {
 			Amug Ashgarn Azdush Azgrom Bagabug Blorg Bolg Borgu Bork Brogg Bubol Dharg Dugz Dush Dushrat

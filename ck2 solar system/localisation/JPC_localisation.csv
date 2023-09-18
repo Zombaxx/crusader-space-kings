@@ -149,7 +149,7 @@ sengoku_invasion_desc;This CB allows warlords to expand his territory further in
 CB_NAME_SENGOKU_INVASION;Invasion of [Title.GetBaseName];;;;;;;;;;;;;;x
 WAR_SENGOKU_INVASION;$ORDER$$FIRST_ADJ$ Invasion of $OTHER_TITLE$;;;;;;;;;;;;;;x
 # Other
-ninja_culture;Ninja;;;;;;;;;;;;;x
+ninja_culture;Yonagunian;;;;;;;;;;;;;x
 d_ronin_company;Ronin Company;;;;;;;;;;;;;x
 d_sohei_monks;Sohei Monks;;;;;;;;;;;;;x
 d_wokou_ships;Wokou Ships;;;;;;;;;;;;;x

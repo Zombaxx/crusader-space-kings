@@ -204,12 +204,14 @@
 	trait=wrath
 	trait=full_cybernetic_conversion
 	martial=50
+	combat_rating=100
 	stewardship=20
 	trait=charismatic_negotiator
 	3.5.1={birth=yes}
 	1065.1.1 = {
 		effect = {
 			e_empire1184 = { add_claim = ROOT }
+			k_kingdom1184 = {add_claim = ROOT }
 		}
 	}
 	1066.1.1 = {
@@ -981,17 +983,33 @@
 	trait=vat_born
     11.6.12={birth=yes}
 }
-#777125={
-#	name="Yaldabaoth"
-#    dynasty=77781
-#	graphical_culture=dark_elven_tribunal
-#    culture=ashkenazi
-#    religion=catholic
-#	real_father=777779
-#	mother=777124
-#	trait=full_cybernetic_conversion
-#	trait=giant
-#	trait=jealous
-#	trait=wrath
-#    11.11.11={birth=yes}
-#}
+777125={
+	name="Yaldabaoth"
+    dynasty=77781
+	graphical_culture=dark_elven_tribunal
+    culture=ashkenazi
+    religion=catholic
+	real_father=777779
+	mother=777124
+	martial=50
+	combat_rating=100
+	trait=full_cybernetic_conversion
+	trait=giant
+	trait=jealous
+	trait=wrath
+	trait=mystic
+	
+    11.11.11={birth=yes}
+	1065.1.1 = {
+		effect = {
+			k_kingdom0622 = { add_claim = ROOT }
+			k_rome = { add_claim = ROOT }
+		}
+	}
+	1066.1.1 = {
+		effect = { 
+			prestige = 5000
+			piety = 3000
+			}
+	}
+}

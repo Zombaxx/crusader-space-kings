@@ -11,8 +11,8 @@ b_barony0928b = castle
 b_barony0928c = city
 
 # Misc
-culture = alan
-religion = jain
+culture = ninja_culture
+religion = shinto
 
 # History
 1066.1.1 = {
