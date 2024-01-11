@@ -24,12 +24,12 @@ warrior_lodge_celtic = {
     
 	active = {
 		has_dlc = "Holy Fury"
-        OR = {
-            NOT = {
-                has_alternate_start_parameter = { key = religion value = historical }
-            }
-            has_global_flag = flag_restored_warrior_lodge_celtic
-        }
+        #OR = {
+        #    NOT = {
+        #        has_alternate_start_parameter = { key = religion value = historical }
+        #    }
+        #    has_global_flag = flag_restored_warrior_lodge_celtic
+        #}
 	}
 	indestructible = yes
 	
@@ -3774,7 +3774,7 @@ warrior_lodge_taoist = {
 		   	religion = taoist
 			is_adult = yes
 			is_in_society = no
-			NOT = { has_landed_title = e_china
+			NOT = { has_landed_title = e_china }
 			OR = {
 				trait = zealous
 				martial = 12

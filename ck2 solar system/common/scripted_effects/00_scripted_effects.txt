@@ -5243,6 +5243,10 @@ join_prev_warrior_lodge_society_effect = {
 		limit = { PREV = { society_member_of = warrior_lodge_hellenic } }
 		join_society = warrior_lodge_hellenic
 	}
+	if = {
+	    limit = { PREV = { society_member_of = warrior_lodge_dwarven } }
+		join_society = warrior_lodge_dwarven
+	}
 }
 give_this_warrior_lodge_religion_effect = { #Mostly for spawned characters.
 	if = {
@@ -13605,39 +13609,86 @@ spawn_good_commander_effect = {
 			3 = { 
 				add_trait = giant
 			}
+		# Cybernetics
+		if = {
+			limit = {  }
+			random_list = {
+				100 = { }
+				25 = { add_trait = cybernetic_limb }
+				25 = {
+					if = {
+						limit = { has_dlc = "Reapers" }
+						add_trait = cybernetic_leg
+					}
+					else = { add_trait = cybernetic_limb }
+				}
+			}
 		}
-					add_trait = odin_mk_iii
-				}
+		if = {
+			limit = {
+				NOT = { trait = one_eyed }
+				
 			}
-			if = {
-				limit = {
-					NOT = { trait = one_eyed }
-					religion = taoist
-					location = { TECH_POPULAR_CUSTOMS = 6 }
-				}
-				random = {
-					chance = 20
-					remove_trait = odin_mk_i
-					remove_trait = odin_mk_ii
-					remove_trait = odin_mk_iii
-					add_trait = odin_mk_iv
-				}
+			random = {
+				chance = 20
+				add_trait = odin_mk_i
 			}
-			if = {
-				limit = {
-					NOT = { trait = one_eyed }
-					religion = taoist
-					location = { TECH_POPULAR_CUSTOMS = 8 }
-				}
-				random = {
-					chance = 20
-					remove_trait = odin_mk_i
-					remove_trait = odin_mk_ii
-					remove_trait = odin_mk_iii
-					remove_trait = odin_mk_iv
-					add_trait = odin_mk_v
-				}
+		}
+		if = {
+			limit = {
+				NOT = { trait = one_eyed }
+				
+				location = { TECH_POPULAR_CUSTOMS = 2 }
 			}
+			random = {
+				chance = 20
+				remove_trait = odin_mk_i
+				add_trait = odin_mk_ii
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = one_eyed }
+				
+				location = { TECH_POPULAR_CUSTOMS = 4 }
+			}
+			random = {
+				chance = 20
+				remove_trait = odin_mk_i
+				remove_trait = odin_mk_ii
+				add_trait = odin_mk_iii
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = one_eyed }
+				
+				location = { TECH_POPULAR_CUSTOMS = 6 }
+			}
+			random = {
+				chance = 20
+				remove_trait = odin_mk_i
+				remove_trait = odin_mk_ii
+				remove_trait = odin_mk_iii
+				add_trait = odin_mk_iv
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = one_eyed }
+				
+				location = { TECH_POPULAR_CUSTOMS = 8 }
+			}
+			random = {
+				chance = 20
+				remove_trait = odin_mk_i
+				remove_trait = odin_mk_ii
+				remove_trait = odin_mk_iii
+				remove_trait = odin_mk_iv
+				add_trait = odin_mk_v
+			}
+		}
+		}
 		hidden_tooltip = {
 			if = {
 				limit = {
@@ -22430,6 +22481,10 @@ add_warrior_lodge_leader_trait_effect = {
 		}
 		warrior_lodge_egyptian = {
 			add_trait = egyptian_leader
+		}
+		### EaD ###
+		warrior_lodge_dwarven = {
+			add_trait = dwarven_leader
 		}
 	}
 }

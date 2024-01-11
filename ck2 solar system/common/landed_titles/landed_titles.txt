@@ -6464,3 +6464,4 @@ d_scholae_palatinae = {
 	strength_growth_per_century = 0.10
 	
 	mercenary_type = Scholae_Palatinae_compositio
+}
