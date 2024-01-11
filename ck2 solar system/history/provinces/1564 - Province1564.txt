@@ -11,8 +11,8 @@ b_barony1564b = castle
 b_barony1564c = city
 
 # Misc
-culture = oruk_hai
-religion = shiite
+culture = dark_elven_nomad
+religion = elven_tribunal_heresy
 
 # History
 1066.1.1 = {
