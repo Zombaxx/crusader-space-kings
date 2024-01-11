@@ -377,7 +377,6 @@ damaged_cybernetics = {
 
 # HIVER IMPLANT
 hiver_implant = {
-	potential = { has_global_flag = flag_hiver_implant_invented }
 
 	customizer = no
 	random = no
