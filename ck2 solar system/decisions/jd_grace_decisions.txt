@@ -4755,7 +4755,7 @@ offmap_decisions = {
 				NOT = { trait = incapable }
 				is_inaccessible_trigger = no
 				OR = {
-					ai = no
+					#ai = no
 					trait = infirm
 					trait = mystic
 					prestige = 5000
@@ -4784,13 +4784,13 @@ offmap_decisions = {
 				}
 				custom_tooltip = { text = chinese_artifact_effect_tt }
 				if = {
-					limit = {
-						OR = {
-							trait = incapable
-							trait = lunatic
-							trait = possessed
-						}
-					}
+					#limit = {
+					#	OR = {
+					#		trait = incapable
+					#		trait = lunatic
+					#		trait = possessed
+					#	}
+					#}
 					add_trait = hiver_implant
 					remove_trait = infirm
 				}
