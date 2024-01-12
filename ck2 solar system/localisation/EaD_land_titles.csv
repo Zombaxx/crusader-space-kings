@@ -26,10 +26,10 @@ d_bright_lord;The Bright Throne;;;;;;;;;x
 d_bright_lord_adj;The Bright Throne;;;;;;;;;x
 BRIGHT_LORD;Bright Lord;;;;;;;;;x
 BRIGHT_LORD_FOA;My Lord;;;;;;;;;x
-e_orcish_horde;Oruk Horde;;;;;;;;;x
-e_orcish_horde_adj;Oruk Horde;;;;;;;;;x
-e_orcish_empire;Oruk Empire;;;;;;;;;x
-e_orcish_empire_adj;Oruk Empire;;;;;;;;;x
+e_orcish_horde;Denisovan Horde;;;;;;;;;x
+e_orcish_horde_adj;Denisovan Horde;;;;;;;;;x
+e_orcish_empire;Denisovan Empire;;;;;;;;;x
+e_orcish_empire_adj;Denisovan Empire;;;;;;;;;x
 VARENEDIL;Varenedil;;;;;;;;;x
 VARENEDIL_FOA;Your Eminence;;;;;;;;;x
 d_blood_cult;Blood Cult;;;;;;;;;x
@@ -130,7 +130,7 @@ city_baron_dwarven_dawi;Thane;;;;;;;;;;;;;x
 city_baron_female_dwarven_dawi;Thane;;;;;;;;;;;;;x
 baron_dwarven_dawi;Thane;;;;;;;;;;;;;x
 baron_female_dwarven_dawi;Thane;;;;;;;;;;;;;x
-#DARK DWARFS
+#TitanS
 emperor_dark_dwarven;Lugalzagesi;;;;;;;;;;;;;x
 emperor_female_dark_dwarven;Ninzagesi;;;;;;;;;;;;;x
 king_dark_dwarven;Lugal;;;;;;;;;;;;;x
@@ -143,7 +143,7 @@ city_baron_dark_dwarven;En;;;;;;;;;;;;;x
 city_baron_female_dark_dwarven;Entum;;;;;;;;;;;;;x
 baron_dark_dwarven;En;;;;;;;;;;;;;x
 baron_female_dark_dwarven;Entum;;;;;;;;;;;;;x
-#HIGH ELVES
+#HIGH Archaics
 emperor_high_elven;High King;;;;;;;;;;;;;x
 emperor_female_high_elven;High Queen;;;;;;;;;;;;;x
 king_high_elven;King;;;;;;;;;;;;;x
@@ -156,7 +156,7 @@ city_baron_high_elven;Lord;;;;;;;;;;;;;x
 city_baron_female_high_elven;Lady;;;;;;;;;;;;;x
 baron_high_elven;Lord;;;;;;;;;;;;;x
 baron_female_high_elven;Lady;;;;;;;;;;;;;x
-#HIGH ELVES
+#HIGH Archaics
 emperor_blood_elven;High King;;;;;;;;;;;;;x
 emperor_female_blood_elven;High Queen;;;;;;;;;;;;;x
 king_blood_elven;King;;;;;;;;;;;;;x
@@ -169,7 +169,7 @@ city_baron_blood_elven;Lord;;;;;;;;;;;;;x
 city_baron_female_blood_elven;Lady;;;;;;;;;;;;;x
 baron_blood_elven;Lord;;;;;;;;;;;;;x
 baron_female_blood_elven;Lady;;;;;;;;;;;;;x
-#DARK ELVES
+#Elohim
 emperor_dark_elven;Demiurge;;;;;;;;;;;;;x
 emperor_female_dark_elven;Demiurge;;;;;;;;;;;;;x
 king_dark_elven;Most High;;;;;;;;;;;;;x
@@ -186,7 +186,7 @@ nomadic_king_dark_elven;Gulakhan;;;;;;;;;;;;;x
 nomadic_king_female_dark_elven;Gulakhatun;;;;;;;;;;;;;x
 nomadic_emperor_dark_elven;Ashkhan;;;;;;;;;;;;;x
 nomadic_emperor_female_dark_elven;Ashkhatun;;;;;;;;;;;;;x
-#DARK ELVES NOMADS
+#Elohim NOMADS
 emperor_dark_elven_nomad;Divine;;;;;;;;;;;;;x
 emperor_female_dark_elven_nomad;Divine;;;;;;;;;;;;;x
 king_dark_elven_nomad;Most High;;;;;;;;;;;;;x
@@ -243,7 +243,7 @@ duchy_high_elven;Grand Principality;;;;;;;;;;;;;x
 duchy_of_high_elven;Grand Principality of;;;;;;;;;;;;;x
 county_high_elven;Principality;;;;;;;;;;;;;x
 county_of_high_elven;Principality of;;;;;;;;;;;;;x
-#BLOOD ELVEN
+#BLOOD Archaic
 duchy_blood_elven;Grand Principality;;;;;;;;;;;;;x
 duchy_of_blood_elven;Grand Principality of;;;;;;;;;;;;;x
 county_blood_elven;Principality;;;;;;;;;;;;;x
@@ -253,12 +253,12 @@ duchy_dwarven_dawi;Jarldom;;;;;;;;;;;;;x
 duchy_of_dwarven_dawi;Jarldom of;;;;;;;;;;;;;x
 county_dwarven_dawi;Thanedom;;;;;;;;;;;;;x
 county_of_dwarven_dawi;Thanedom of;;;;;;;;;;;;;x
-#DARK ELVEN
+#Elohim
 nomadic_empire_dark_elven;Ashkhanate;;;;;;;;;;;;;x
 nomadic_empire_of_dark_elven;Ashkhanate of;;;;;;;;;;;;;x
 nomadic_kingdom_dark_elven;Gulakhananate;;;;;;;;;;;;;x
 nomadic_kingdom_of_dark_elven;Gulakhananate of;;;;;;;;;;;;;x
-#DARK ELVEN NOMADS
+#Elohim NOMADS
 nomadic_empire_oruk_hai;Ashkhanate;;;;;;;;;;;;;x
 nomadic_empire_of_oruk_hai;Ashkhanate of;;;;;;;;;;;;;x
 nomadic_kingdom_oruk_hai;Gulakhananate;;;;;;;;;;;;;x

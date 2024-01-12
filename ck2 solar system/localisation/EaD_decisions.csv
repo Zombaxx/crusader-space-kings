@@ -26,14 +26,14 @@ dark_elves_assassins_raise_ships;Hire Ships;Recruter des navires;Schiffe anheuer
 dark_elves_assassins_raise_ships_desc;Since [Root.Society.GetName] have little time for naval matters, it is best to simply hire ships when needed.;Йtant donnй que les Assassins ont peu de temps pour les questions navales, il est prйfйrable de recruter des navires simplement quand c'est nйcessaire.;Da Assassinen wenig Zeit fьr seefahrerische Angelegenheiten haben, ist es am besten, wenn nцtig einfach Schiffe anzuheuern.;;Los Asesinos tienen poca experiencia con asuntos navales, por lo que te interesa alquilar barcos siempre que lo necesites.;;;;;;;;;x
 scoiatael_local_autonomy;Give Local Autonomy;;;;;;;;;x
 scoiatael_local_autonomy_desc;We can give this province cultural autonomy by negotiating with the local partisans leader.;;;;;;;;;x
-invite_local_elf;Invite local Elf;;;;;;;;;;x
-invite_local_elf_female;Invite local Elf woman;;;;;;;;;;x
-invite_local_dark_elf;Invite local Dark Elf;;;;;;;;;;x
-invite_local_dark_elf_female;Invite local Dark Elf woman;;;;;;;;;;x
-invite_local_dwarf;Invite local Dwarf;;;;;;;;;;x
-invite_local_dwarf_woman;Invite local Dwarf woman;;;;;;;;;;x
-invite_local_dark_dwarf;Invite local Dark Dwarf;;;;;;;;;;x
-invite_local_dark_dwarf_woman;Invite local Dark Dwarf woman;;;;;;;;;;x
+invite_local_elf;Invite local Archaic;;;;;;;;;;x
+invite_local_elf_female;Invite local Archaic woman;;;;;;;;;;x
+invite_local_dark_elf;Invite local Elohim;;;;;;;;;;x
+invite_local_dark_elf_female;Invite local Elohim woman;;;;;;;;;;x
+invite_local_dwarf;Invite local Neanderthal;;;;;;;;;;x
+invite_local_dwarf_woman;Invite local Neanderthal woman;;;;;;;;;;x
+invite_local_dark_dwarf;Invite local Titan;;;;;;;;;;x
+invite_local_dark_dwarf_woman;Invite local Titan woman;;;;;;;;;;x
 invite_local_cat_boy;Invite local Cathrian;;;;;;;;;;x
 invite_local_cat_girl;Invite local Cathrian woman;;;;;;;;;;x
 select_dark_dwarven_school;Select Cult of Knowledge School;;;;;;;;;;x
@@ -44,18 +44,18 @@ select_patron_deity_true_tribunal;Select Triarchy Patron Deity;;;;;;;;;;x
 select_patron_deity_true_tribunal_desc;Select one of the Gods of Triarchy as a main object of worshipping;;;;;;;;;;x
 select_patron_deity_tribunal;Select Triarchy Patron Deity;;;;;;;;;;x
 select_patron_deity_tribunal_desc;Select one of the Gods of Triarchy as a main object of worshipping;;;;;;;;;;x
-invite_minority_elf;Invite local diaspora Elf;;;;;;;;;;x
-invite_minority_elven_women;Invite local diaspora Elven Woman;;;;;;;;;;x
-invite_minority_dark_elf;Invite local diaspora Dark Elf;;;;;;;;;;x
-invite_minority_dark_elven_women;Invite local diaspora Dark Elven Woman;;;;;;;;;;x
-invite_minority_dwarf;Invite local diaspora Dwarf;;;;;;;;;;x
+invite_minority_elf;Invite local diaspora Archaic;;;;;;;;;;x
+invite_minority_elven_women;Invite local diaspora Archaic Woman;;;;;;;;;;x
+invite_minority_dark_elf;Invite local diaspora Elohim;;;;;;;;;;x
+invite_minority_dark_elven_women;Invite local diaspora Elohim Woman;;;;;;;;;;x
+invite_minority_dwarf;Invite local diaspora Neanderthal;;;;;;;;;;x
 invite_minority_dwarven_women;Invite local diaspora Dwarven Woman;;;;;;;;;;x
-invite_minority_dark_dwarf;Invite local diaspora Dark Dwarf;;;;;;;;;;x
+invite_minority_dark_dwarf;Invite local diaspora Titan;;;;;;;;;;x
 invite_minority_dark_dwarven_women;Invite local diaspora Dark Dwarven Woman;;;;;;;;;;x
 invite_minority_cat_folk;Invite local diaspora Cathrian;;;;;;;;;;x
 invite_minority_cat_folk_women;Invite local diaspora Cathrian Woman;;;;;;;;;;x
-invite_minority_orc;Invite local diaspora Orc;;;;;;;;;;x
-invite_minority_orc_women;Invite local diaspora Orcish Woman;;;;;;;;;;x
+invite_minority_orc;Invite local diaspora Denisovan;;;;;;;;;;x
+invite_minority_orc_women;Invite local diaspora Denisovanish Woman;;;;;;;;;;x
 elven_sympathy_decision;Study Another Faith;;;;;;;;;;x
 elven_sympathy_decision_desc;Gain �YSympathy�! for another religious group.;;;;;;;;;;x
 ancestor_worship_dwarven;Worship the Ancestors;;;;;;;;;;;;;x

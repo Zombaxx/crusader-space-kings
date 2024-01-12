@@ -27,7 +27,7 @@ EVTDESC_EADAS_6020_A;Most guests have departed and evening has turned into early
 EVTDESC_EADAS_6020_B;Most guests have departed and evening has turned into early morning, yet I and [assassins_recruiter.GetTitledFirstName] are still deep in conversation. We discussштп the events at the Scarlet Mountain and the fall of Shurdum. [assassins_recruiter.GetSheHeCap] suggest that He suggests that the official interpretation of these events is not entirely correct, and the acquisition of divinity for VERIAL is a real fact, like the self-sacrifice of Saint Navruz.;;;;;;;;;;x
 EVTOPTA_EADAS_6020_NOTMUSLIM;Those are noble actions, indeed.;;;;;;;;;;x
 EVTOPTA_EADAS_6020_MUSLIM;Perhaps you are right. I tend to find this interpretation of events more convincing.;;;;;;;;;;x
-EVTOPTB_EADAS_6020_NOTMUSLIM;Like the dark elven infidels? Never!;;;;;;;;;;x
+EVTOPTB_EADAS_6020_NOTMUSLIM;Like the Elohim infidels? Never!;;;;;;;;;;x
 EVTOPTB_EADAS_6020_MUSLIM;[assassins_recruiter.GetFirstName], you sound like a mindless follower of False Triarchy!;;;;;;;;;;x
 EVTDESC_EADAS_6021_A;I approached [From.GetTitledFirstName] during a feast last night, intending to figure out whether [From.GetSheHe] might be persuaded to convert to the true faith. We had a long, deep conversation and it seems like [From.GetFirstName] is of sound opinions!;;;;;;;;;;x
 EVTDESC_EADAS_6021_B;Last night I approached [From.GetTitledFirstName] during a feast, intending to figure out whether [From.GetSheHe] might be persuaded to convert to the true faith. Unfortunately, as soon I steered the conversation towards the topics of the Triarchy and the Saint Navruz, the narrow-minded [From.GetManWoman] became quite disagreeable...;;;;;;;;;;x

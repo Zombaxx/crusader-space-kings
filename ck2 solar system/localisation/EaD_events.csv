@@ -1,5 +1,5 @@
 EVTNAME_EADI_001;A Ships Out Of Nowhere;;;;;;;;;;;;;x
-EVTDESC_EADI_001;A strange tall people with pointed ears set foot on our shores today, having sailed on unusual ships, and tried to gain an audience. They arrived with gifts and unusual goods that no one had ever seen. None of the courtiers understood their strange, melodious language, but it seems that they wanted to buy land for themselves in exchandge for they goods. Rejected, they seem to have become desperate and quickly set off out to sea, heading for a strange mist in the midst of the still waves, from which they appear to have arrived.;;;;;;;;;;;;;x
+EVTDESC_EADI_001;A strange tall people with pointed ears set foot on our shores today, having sailed on unusual ships, and tried to gain an audience. They arrived with gifts and unusual goods that no one had ever seen. None of the courtiers understood their strange, melodious language, but it seems that they wanted to buy land for themsArchaics in exchandge for they goods. Rejected, they seem to have become desperate and quickly set off out to sea, heading for a strange mist in the midst of the still waves, from which they appear to have arrived.;;;;;;;;;;;;;x
 EVTOPTA_EADI_001;I have a bad feeling about this...;;;;;;;;;;;;;x
 EVTNAME_EADI_002;A Ships Out Of Nowhere;;;;;;;;;;;;;x
 EVTDESC_EADI_002;There are rumors of strange people with pointed ears mooring among the many worlds and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become more and more desperate, clearly planning to get what they want by force.;;;;;;;;;;;;;x
@@ -27,12 +27,12 @@ EVTOPTA_EADI_008;As if these "elves" were not enough!;;;;;;;;;;;;;x
 EVTOPTA_EADI_008_F;I thought they would be too stubborn for run away...;;;;;;;;;;;;;x
 EVTNAME_EADI_009;A Ships From The South;;;;;;;;;;;;;x
 EVTDESC_EADI_009;There are rumors of strange people with gray skin mooring to the shores of Arabia and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become furious, clearly planning to get what they want by force.;;;;;;;;;;;;;x
-EVTOPTA_EADI_009;Is another elven fleet coming?;;;;;;;;;;;;;x
+EVTOPTA_EADI_009;Is another Archaic fleet coming?;;;;;;;;;;;;;x
 EVTOPTA_EADI_009_F;Looks like Dameri also escaping...;;;;;;;;;;;;;x
 EVTDESC_EADI_010;A huge fleet emerged from the fog of the sea. Countless legions of warriors in gilded armor made of bones set foot on the shores, and lined up in battle formations, began to march towards our cities and castles!;;;;;;;;;;;;;x
-EVTNAME_EADI_011;The Dark Elven Invasion;;;;;;;;;;;;;x
+EVTNAME_EADI_011;The Elohim Invasion;;;;;;;;;;;;;x
 EVTOPTA_EADI_010;When it will end?;;;;;;;;;;;;;x
-EVTNAME_EADI_011;The Dark Elven Invasion;;;;;;;;;;;;;x
+EVTNAME_EADI_011;The Elohim Invasion;;;;;;;;;;;;;x
 EVTDESC_EADI_011;Thousands of strange ships arrived to the shores of Arabian Peninsula, spewing out countless legions of pointed-eared warriors in gilded armor made from bones stepped ashore. It seems that these gray-skined people came with the help of magic from the same world as the pointed-eared people and stunted creatures, that wage wars in other lands.;;;;;;;;;;;;;x
 EVTOPTA_EADI_011;When will these invasions end?;;;;;;;;;;;;;x
 EVTOPTA_EADI_011_F;And I kept thinking, when will they show up?;;;;;;;;;;;;;x
@@ -46,15 +46,15 @@ EVTOPTA_EADI_015;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTOPTA_EADI_015_F;Looks like their giant magic golem did work after all.;;;;;;;;;;;;;x
 #Realm Fallen Events
 EADITITLE46;The Fall of Atherillion;;;;;;;;;;;;;x
-EADIDESC46;The once proud Kingdom of Aterillion is now in ruins, for the elven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee elves who have nowhere to go.;;;;;;;;;;;;;x
+EADIDESC46;The once proud Kingdom of Aterillion is now in ruins, for the Archaic forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Archaics who have nowhere to go.;;;;;;;;;;;;;x
 EVTOPTA_EADI_46_A;Good riddance!;;;;;;;;;;;;;x
 EVTOPTA_EADI_46_F;Oh, well.;;;;;;;;;;;;;x
 EADITITLE47;The Fall of Kharazd-Zhadum;;;;;;;;;;;;;x
-EADIDESC47;The once proud Kingdom of Kharazd-Zhadum is now in ruins, for the dwarven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee dwarves who have nowhere to go.;;;;;;;;;;;;;x
+EADIDESC47;The once proud Kingdom of Kharazd-Zhadum is now in ruins, for the dwarven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Neanderthals who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE48;The Fall of Damereth;;;;;;;;;;;;;x
-EADIDESC48;The once proud Kingdom of Damereth is now in ruins, for the dark elven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee dark elves who have nowhere to go.;;;;;;;;;;;;;x
+EADIDESC48;The once proud Kingdom of Damereth is now in ruins, for the Elohim forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Elohim who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE49;The Fall of Dwur Ashu'ur;;;;;;;;;;;;;x
-EADIDESC49;The once proud Kingdom of Dwur Ashu'ur is now in ruins, for the dark dwarven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee dark dwarves who have nowhere to go.;;;;;;;;;;;;;x
+EADIDESC49;The once proud Kingdom of Dwur Ashu'ur is now in ruins, for the dark dwarven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Titans who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE50;The Fall of Tar-Eremket;;;;;;;;;;;;;x
 EADIDESC50;The once proud Kingdom of Tar-Eremket is now in ruins, for the cathrian forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee cathrians who have nowhere to go.;;;;;;;;;;;;;x
 #
@@ -67,36 +67,36 @@ EVTDESC_EADI_017;A giant sand storm dissipated, revealing to the world a huge ar
 EVTOPTA_EADI_017;Is there really no more places in the world that was not been attacked?;;;;;;;;;;;;;x
 EVTOPTA_EADI_017_F;Soon their merchants will again flood the whole world...;;;;;;;;;;;;;x
 #
-EADITITLE36;The Realm of the Elves;;;;;;;;;;;;;x 
-EADIDESC36;Overcoming the resistance of local rulers, the elves conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
+EADITITLE36;The Realm of the Archaics;;;;;;;;;;;;;x 
+EADIDESC36;Overcoming the resistance of local rulers, the Archaics conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_36_A;These "elves" won't last long.;;;;;;;;;;;;;x
 EVTOPTA_EADI_36_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EADITITLE37;The Realm of the Dwarves;;;;;;;;;;;;;x 
-EADIDESC37;Overcoming the resistance of local rulers, the dwarves conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADITITLE37;The Realm of the Neanderthals;;;;;;;;;;;;;x 
+EADIDESC37;Overcoming the resistance of local rulers, the Neanderthals conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_37_A;I am sure that sooner or later these "dwarves" will be defeated.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_37_F;Stubborn beardies are not so easy to expel.;;;;;;;;;;;;;x
 EVTOPTA_EADI_37_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTA_EADI_37_B_F;Sometimes, I wonder if I was a Dwarf...;;;;;;;;;;;;;x
-EADITITLE38;The Realm of the Dark Elves;;;;;;;;;;;;;x 
-EADIDESC38;Overcoming the resistance of local rulers, the dark elves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EVTOPTA_EADI_37_B_F;Sometimes, I wonder if I was a Neanderthal...;;;;;;;;;;;;;x
+EADITITLE38;The Realm of the Elohim;;;;;;;;;;;;;x 
+EADIDESC38;Overcoming the resistance of local rulers, the Elohim conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_38_A;Those grey-skinned fanatics will meet their defeat sooner or later.;;;;;;;;;;;;;x
 EVTOPTA_EADI_38_F;You can't defeat Dameri Overseers so easely.;;;;;;;;;;;;;x
 EVTOPTA_EADI_38_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTA_EADI_38_B_F;Sometimes I wonder if I was a Dark Elf...;;;;;;;;;;;;;x
-EADITITLE39;The Realm of the Dark Dwarves;;;;;;;;;;;;;x
-EADIDESC39;Overcoming the resistance of local rulers, the dark dwarves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EVTOPTA_EADI_38_B_F;Sometimes I wonder if I was a Elohim...;;;;;;;;;;;;;x
+EADITITLE39;The Realm of the Titans;;;;;;;;;;;;;x
+EADIDESC39;Overcoming the resistance of local rulers, the Titans conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_39_A;I doubt that these mad scholastics will be able to hold on to their conquest.;;;;;;;;;;;;;x
 EVTOPTA_EADI_39_F;Maybe they're not so stubborn as their cousens, but still.;;;;;;;;;;;;;x
 EVTOPTA_EADI_39_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTA_EADI_39_B_F;Sometimes I wonder if I was a Dark Dwarf...;;;;;;;;;;;;;x
+EVTOPTA_EADI_39_B_F;Sometimes I wonder if I was a Titan...;;;;;;;;;;;;;x
 EADITITLE40;The Realm of the Cathrians;;;;;;;;;;;;;x
-EADIDESC40;Overcoming the resistance of local rulers, the dark dwarves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADIDESC40;Overcoming the resistance of local rulers, the Titans conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_40_A;These creatures will be hunted down and killed like the beasts they are.;;;;;;;;;;;;;x   
 EVTOPTA_EADI_40_F;So, they has finally found their "Blessed Sands"?;;;;;;;;;;;;;x   
 EVTOPTA_EADI_40_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTA_EADI_40_B_F;Sometimes I wonder if I was a Cathrian...;;;;;;;;;;;;;x
 EVTNAME_EADI_051;The Sundering;;;;;;;;;;;;;x
-EVTDESC_EADI_051;It seems that peoples from another world are not as united as they seem. The tribes of nomads of the dark elves - Velori, who came along with the sedentary city elves - Dameri, no longer intend to live with them due to cultural and religious differences. Hearing about the great steppes to the north, the Velori tribes set out to move, hoping to find a new home in these steppes.;;;;;;;;;;;;;x  
+EVTDESC_EADI_051;It seems that peoples from another world are not as united as they seem. The tribes of nomads of the Elohim - Velori, who came along with the sedentary city Archaics - Dameri, no longer intend to live with them due to cultural and religious differences. Hearing about the great steppes to the north, the Velori tribes set out to move, hoping to find a new home in these steppes.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_051;I don't like where this is going...;;;;;;;;;;;;;x
 EVTOPTA_EADI_051_F;And do never come back, you heretics!;;;;;;;;;;;;;x
 EVTNAME_EADI_052;The Migration to Dagestan;;;;;;;;;;;;;x
@@ -110,19 +110,19 @@ EVTDESC_EADI_054;The Velori tribes ended their migration. They immediately launc
 EVTNAME_EADI_055;The Migration to Caspian Sea;;;;;;;;;;;;;x
 EVTDESC_EADI_055;The Velori tribes ended their migration . They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
 EVTNAME_EADI_059;The Sundering;;;;;;;;;;;;;x
-EVTDESC_EADI_059;It seems that peoples from another world are not as united as they seem. Recently, elven inquisitors discovered a large group of followers of the Cult of Kaine. The cultists, without waiting for them all to be killed, have quickly embarked on ships and left the lands of the elves. They intend to build their kingdom where they can freely practice their horrific religion.;;;;;;;;;;;;;x
+EVTDESC_EADI_059;It seems that peoples from another world are not as united as they seem. Recently, Archaic inquisitors discovered a large group of followers of the Cult of Kaine. The cultists, without waiting for them all to be killed, have quickly embarked on ships and left the lands of the Archaics. They intend to build their kingdom where they can freely practice their horrific religion.;;;;;;;;;;;;;x
 EVTNAME_EADI_060;World Invaded!;;;;;;;;;;;;;x
-EVTDESC_EADI_060;The Cultists of Kaine, that was expelled from the lands of the elves, have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTDESC_EADI_060;The Cultists of Kaine, that was expelled from the lands of the Archaics, have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 EVTNAME_EADI_061;World Invaded!;;;;;;;;;;;;;x
-EVTDESC_EADI_061;The Cultists of Kaine, that was expelled from the lands of the elves, have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
-EADITITLE64;The Realm of the Blood Elves;;;;;;;;;;;;;x
-EADIDESC64;Overcoming the resistance of local rulers, the blood elves have conquered the kingdom. A huge number of Nagrathi settlers have settled these lands, and although some of the local population and feudal lords may have survived in the slaughter, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
-EADITITLE94;The Realm of Oruk Hay;;;;;;;;;;;;;x
-EADIDESC94;Overcoming the resistance of local rulers, the Oruk Hay conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EVTDESC_EADI_061;The Cultists of Kaine, that was expelled from the lands of the Archaics, have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EADITITLE64;The Realm of the Blood Archaics;;;;;;;;;;;;;x
+EADIDESC64;Overcoming the resistance of local rulers, the blood Archaics have conquered the kingdom. A huge number of Nagrathi settlers have settled these lands, and although some of the local population and feudal lords may have survived in the slaughter, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADITITLE94;The Realm of Denisovan Hay;;;;;;;;;;;;;x
+EADIDESC94;Overcoming the resistance of local rulers, the Denisovan Hay conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_94_A;Let's hope that those "oruks" will soon be defeated.;;;;;;;;;;;;;x
 EVTOPTA_EADI_94_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTA_EADI_94_B_F;I wonder if I was an Oruk Hay...;;;;;;;;;;;;;x
-EVTOPTA_EADI_64_A;Let's hope that those "blood elves" will soon be defeated.;;;;;;;;;;;;;x
+EVTOPTA_EADI_94_B_F;I wonder if I was an Denisovan Hay...;;;;;;;;;;;;;x
+EVTOPTA_EADI_64_A;Let's hope that those "blood Archaics" will soon be defeated.;;;;;;;;;;;;;x
 EVTOPTB_EADI_64_A;I was hoping that they would be defeated.;;;;;;;;;;;;;x
 EVTOPTA_EADI_64_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTB_EADI_64_B;I wonder if I was a Nagrathi...;;;;;;;;;;;;;x
@@ -135,38 +135,38 @@ EVTOPTB_EADI_65_B;I wonder if I was a Velori...;;;;;;;;;;;;;x
 EVTNAME_EADI_082;The Dark Gates;;;;;;;;;;;;;x
 EVTDESC_EADI_082;A huge stone arch, whose passage is covered with a strange green veil, appeared out of nowhere among the steppes of the far east. No one has yet dared to look behind this gate, but those who were brave enough to come closer to the gate swear that they heard the drums of war and the noise of a huge army encamped on the other side.;;;;;;;;;;;;;x
 EVTOPTA_EADI_082;Oh, for [This.Religion.GetRandomGodNameCap] sake!;;;;;;;;;;;;;x
-EVTOPTA_EADI_082_F;Oh. Orcs.;;;;;;;;;;;;;x
-EVTNAME_EADI_083;The Orc Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_083;Those who hastened to move away from the mysterious gigantic gates acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Orcs seem to have come from the same world as the Elves, Dwarves and Cathrians.;;;;;;;;;;;;;x
+EVTOPTA_EADI_082_F;Oh. Denisovans.;;;;;;;;;;;;;x
+EVTNAME_EADI_083;The Denisovans Invasion;;;;;;;;;;;;;x
+EVTDESC_EADI_083;Those who hastened to move away from the mysterious gigantic gates acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Denisovans seem to have come from the same world as the Archaics, Neanderthals and Cathrians.;;;;;;;;;;;;;x
 EVTOPTA_EADI_083;I'm tired of this.;;;;;;;;;;;;;x
 EVTOPTA_EADI_083_F;I hoped they wouldn't follow us...;;;;;;;;;;;;;x
-EVTNAME_EADI_084;The Orc Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_084;Those who hastened to move away from the mysterious gigantic gates acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Orcs seem to have come from the same world as the Elves, Dwarves and Cathrians.;;;;;;;;;;;;;x
-EADITITLE87;The Realm of Orcs;;;;;;;;;;;;;x
-EADIDESC87;Overcoming the resistance of local rulers, the elves conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords may remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
+EVTNAME_EADI_084;The Denisovans Invasion;;;;;;;;;;;;;x
+EVTDESC_EADI_084;Those who hastened to move away from the mysterious gigantic gates acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Denisovans seem to have come from the same world as the Archaics, Neanderthals and Cathrians.;;;;;;;;;;;;;x
+EADITITLE87;The Realm of Denisovans;;;;;;;;;;;;;x
+EADIDESC87;Overcoming the resistance of local rulers, the Archaics conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords may remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_87_A;These "orcs" surely will be defeated;;;;;;;;;;;;;x
 EVTOPTB_EADI_87_A;Well, my condolences to their neighbors.;;;;;;;;;;;;;x
 EVTOPTA_EADI_87_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTB_EADI_87_B;I wonder if I was an Oruk...;;;;;;;;;;;;;x
-EADITITLE88;The Fall of the Oruk Horde;;;;;;;;;;;;;x
-EADIDESC88;The once proud Oruk Horde is no more now, for the orc forces have been completely defeated by the defenders of the human realms. The roads are full of refugee orcs who have nowhere to go.;;;;;;;;;;;;;x
+EVTOPTB_EADI_87_B;I wonder if I was an Denisovan...;;;;;;;;;;;;;x
+EADITITLE88;The Fall of the Denisovan Horde;;;;;;;;;;;;;x
+EADIDESC88;The once proud Denisovan Horde is no more now, for the Denisovans forces have been completely defeated by the defenders of the human realms. The roads are full of refugee Denisovans who have nowhere to go.;;;;;;;;;;;;;x
 EVTNAME_EADI_089;The Sundering;;;;;;;;;;;;;x
-EVTDESC_EADI_089;It seems that peoples from another world are not as united as they seem. The people of Oruk Hay, who came along with their nomadic brothers - Oruk Gar, no longer intend to live with them due to cultural differences and way of life. Hearing about rich lands of south, the Oruk Hai armies set out to move, hoping to rebuild their own ancient empire in these lands.;;;;;;;;;;;;;x  
-EVTNAME_EADI_090;The Oruk Hay March;;;;;;;;;;;;;x
-EVTDESC_EADI_090;The Oruk Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
-EVTNAME_EADI_091;The Oruk Hay March;;;;;;;;;;;;;x
-EVTDESC_EADI_091;The Oruk Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTDESC_EADI_089;It seems that peoples from another world are not as united as they seem. The people of Denisovan Hay, who came along with their nomadic brothers - Denisovan Gar, no longer intend to live with them due to cultural differences and way of life. Hearing about rich lands of south, the Denisovan Hai armies set out to move, hoping to rebuild their own ancient empire in these lands.;;;;;;;;;;;;;x  
+EVTNAME_EADI_090;The Denisovan Hay March;;;;;;;;;;;;;x
+EVTDESC_EADI_090;The Denisovan Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTNAME_EADI_091;The Denisovan Hay March;;;;;;;;;;;;;x
+EVTDESC_EADI_091;The Denisovan Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 #
 EVTOPTE_EADAW_7001;Gold and jewelry, to appease with gifts from the depths of the earth!;;;;;;;;;;;;;x 
 EVTOPTE_EADAW_7002_gold;With solemn prayers, I offer gold and jewelry to the altar of my ancestors. Having consecrated the offerings, the priest takes the jewelry and lowers them into a specially dug grave so that it can enter the world of the dead.;;;;;;;;;;;;;x 
 #
 EVT_TITLE_EADOAD_4;A Growing Threat;;;;;;;;;;;;;x
-EVT_DESC_EADOAD_4_A;A landless elven noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_4_A;A landless Archaic noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_B;A landless dwarven noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_4_C;A landless dark elven noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_4_C;A landless Elohim noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_D;A landless dark dwarven noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_E;A landless cathrian noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_4_F;A landless blood elven noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_4_F;A landless blood Archaic noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 #
 EVT_DESC_EADOAD_6;After the death of the adventurer, his host plunged into chaos and internal squabbles. Any possible threat from otherworlden adventurers has been eliminated so far.;;;;;;;;;;;;;x 
 EVT_OPTA_EADOAD_6;Curious...;;;;;;;;;;;;;x
@@ -176,9 +176,9 @@ EVTDESC_EADOAD_10;After the defeat of the adventurer, his troops were scattered 
 EVT_OPTA_EADOAD_10;Curious...;;;;;;;;;;;;;x
 #
 EVT_TITLE_EADOAD_9;A New Realm;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_9_A;After a long and bloody war, the elven forces were finally victorious. The leader of the elven army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_9_A;After a long and bloody war, the Archaic forces were finally victorious. The leader of the Archaic army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_B;After a long and bloody war, the dwarven forces were finally victorious. The leader of the dwarven army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_9_C;After a long and bloody war, the dark elven forces were finally victorious. The leader of the dark elven army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_9_C;After a long and bloody war, the Elohim forces were finally victorious. The leader of the Elohim army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_D;After a long and bloody war, the dark dwarven forces were finally victorious. The leader of the dark dwarven army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_E;After a long and bloody war, the cathrian forces were finally victorious. The leader of the cathrian army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_OPTA_EADOAD_9;This new realm won't last long;;;;;;;;;;;;;x 
@@ -188,13 +188,13 @@ EVTDESC_EADOAD_11;After the fall of one of the realms of aliens from another wor
 EVT_OPTA_EADOAD_11;Worrysome...;;;;;;;;;;;;;x 
 #
 EVT_TITLE_EADOAD_13;Rise of the Adventurer;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_A;One landless elven nobleman managed to gather support of numerous other landless nobles and elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
+EVT_DESC_EADOAD_13_A;One landless Archaic nobleman managed to gather support of numerous other landless nobles and Archaic mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
 EVT_DESC_EADOAD_13_B;One landless leader of a dwarven clan managed to gather support of numerous other landless clans and dwarven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_C;One leader of a noble house of the dark elves managed to gather support of numerous other small noble houses and dark elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_C;One leader of a noble house of the Elohim managed to gather support of numerous other small noble houses and Elohim mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_D;One landless leader of a dark dwarven clan managed to gather support of numerous other landless clans and dark dwarven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_E;One clan leader of the cathrian clan was able to gather support of numerous other clans and cathrian mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_F;One landless blood elven nobleman managed to gather support of numerous other landless nobles and elven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
-EVT_DESC_EADOAD_13_G;One orc warchief was able to gather support of numerous other orc clans and mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_F;One landless blood Archaic nobleman managed to gather support of numerous other landless nobles and Archaic mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
+EVT_DESC_EADOAD_13_G;One Denisovans warchief was able to gather support of numerous other Denisovans clans and mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_OPTA_EADOAD_13;I doubt that they will succeed.;;;;;;;;;;;;;x  
 #
 EVTDESC_EADESCOIA_1;The local otherworlden population was far from happy about the new rulers. Rumor has it that in the otherworlden provinces, armed partisan groups have emerged that rob or slay tax collectors and merchant caravans, actively supported by the local population. As long as they are ruled by a human, the locals will create constant problems.;;;;;;;;;;;;;x
@@ -230,54 +230,54 @@ EVTDESC_EADEM_4;Otherworlden migrators have settled into one of our realm provin
 EADEM.5.desc;Our liege has decided to let otherworlden migrators settle into one of our provinces, there is little we can do about this.;;;;;;;;;;;;;x
 EADEM.5.a;Does he prefer these filthy otherwordeners over me?!;;;;;;;;;;;;;x
 #Diaspora
-EVTDESCA_EADENCLAVE_2;A group of elven merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
+EVTDESCA_EADENCLAVE_2;A group of Archaic merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCB_EADENCLAVE_2;A group of dwarven merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
-EVTDESCC_EADENCLAVE_2;A group of dark elven merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
+EVTDESCC_EADENCLAVE_2;A group of Elohim merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCD_EADENCLAVE_2;A group of dark dwarven merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCE_EADENCLAVE_2;A group of cathrian merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_2;Sure, they can establish they route.;;;;;;;;;;;;;x
 EVTOPTB_EADENCLAVE_2;I don't think so.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_3;It seems that the traderoute established bu elves in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_4;It seems that the traderoute established bu dwarves in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_5;It seems that the traderoute established bu dark elves in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_6;It seems that the traderoute established by dark dwarves in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_3;It seems that the traderoute established bu Archaics in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_4;It seems that the traderoute established bu Neanderthals in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_5;It seems that the traderoute established bu Elohim in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_6;It seems that the traderoute established by Titans in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_7;It seems that the traderoute established by cathrians in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_3;I hope they don't cause any troubles.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_13;It seems that one of our elven vassals have attracted a big amount of their kind in his domain. There is sufficient population of the elves now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_13;It seems that one of our Archaic vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Archaics now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_14;It seems that one of our dwarven vassals have attracted a big amount of their kind in his domain. There is sufficient population of the dwarven now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_15;It seems that one of our dark elven vassals have attracted a big amount of their kind in his domain. There is sufficient population of the dark elves now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_15;It seems that one of our Elohim vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Elohim now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_16;It seems that one of our dark dwarven vassals have attracted a big amount of their kind in his domain. There is sufficient population of the dark dwarven now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_47;It seems that one of our orcish vassals have attracted a big amount of their kind in his domain. There is sufficient population of the cathrians now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_47;It seems that one of our Denisovanish vassals have attracted a big amount of their kind in his domain. There is sufficient population of the cathrians now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_17;I hope they don't cause any troubles.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_20;As the population of the province has become majority elven, the elven diaspora has melded into the wider population.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_20;As the population of the province has become majority Archaic, the Archaic diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_21;As the population of the province has become majority dwarven, the dwarven diaspora has melded into the wider population.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_22;As the population of the province has become majority dark elven, the dark elven diaspora has melded into the wider population.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_22;As the population of the province has become majority Elohim, the Elohim diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_23;As the population of the province has become majority dark dwarven, the dark dwarven diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_24;As the population of the province has become majority cathrian, the cathrian diaspora has melded into the wider population.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_20;Okay.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_25;A community of elves has become established within your province, will you allow them to remain?;;;;;;;;;;x
-EVTDESC_EADENCLAVE_26;A community of dwarves has become established within your province, will you allow them to remain?;;;;;;;;;;x
-EVTDESC_EADENCLAVE_27;A community of dark elves has become established within your province, will you allow them to remain?;;;;;;;;;;x
-EVTDESC_EADENCLAVE_28;A community of dark dwarves has become established within your province, will you allow them to remain?;;;;;;;;;;x
+EVTDESC_EADENCLAVE_25;A community of Archaics has become established within your province, will you allow them to remain?;;;;;;;;;;x
+EVTDESC_EADENCLAVE_26;A community of Neanderthals has become established within your province, will you allow them to remain?;;;;;;;;;;x
+EVTDESC_EADENCLAVE_27;A community of Elohim has become established within your province, will you allow them to remain?;;;;;;;;;;x
+EVTDESC_EADENCLAVE_28;A community of Titans has become established within your province, will you allow them to remain?;;;;;;;;;;x
 EVTDESC_EADENCLAVE_29;A community of cathrians has become established within your province, will you allow them to remain?;;;;;;;;;;x
-EVTDESC_EADENCLAVE_44;A community of orcs has become established within your province, will you allow them to remain?;;;;;;;;;;x
+EVTDESC_EADENCLAVE_44;A community of Denisovans has become established within your province, will you allow them to remain?;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_25;They may stay.;;;;;;;;;;x
 EVTOPTB_EADENCLAVE_25;Drive them from their camps and seize their goods!;;;;;;;;;;x
-EVTDESC_EADENCLAVE_30;The minority elven population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_30;The minority Archaic population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_31;The minority dwarven population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_32;The minority dark elven population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_32;The minority Elohim population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_33;The minority dark dwarven population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_34;The minority cathrian population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_45;The minority orcish population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_45;The minority Denisovanish population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_30;Okay.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_35;Welcome Brother!;;;;;;;;;x
-EVTDESC_EADENCLAVE_35;A petty Aldari Elf noble, fleeing persecution elsewhere, has showed up at your court. His time spent abroad has gifted him with many connections, and by all accounts he is an able diplomat. He would make a fine chancellor.;;;;;;;;;x
-EVTDESC_EADENCLAVE_36;A mysterious Nagrathi Elf assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
-EVTDESC_EADENCLAVE_37;A mysterious Dameri Elf assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
-EVTDESC_EADENCLAVE_38;A learned Khazuk Dwarf has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
-EVTDESC_EADENCLAVE_39;A robust Khazuk Dwarf Warrior has offered his services at your court. He is well-versed in military strategy and has a past a mercenary. If he can be trusted, he could very well prove to be an indispensable asset to your military forces.;;;;;;;;;x
-EVTDESC_EADENCLAVE_40;A Dwurush Dwarf Scholar has arrived at your court offering his services. He is a very learned man and would make an excellent court physician if he can be trusted.;;;;;;;;;x
-EVTDESC_EADENCLAVE_41;A learned Dwurush Dwarf has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
+EVTDESC_EADENCLAVE_35;A petty Aldari Archaic noble, fleeing persecution elsewhere, has showed up at your court. His time spent abroad has gifted him with many connections, and by all accounts he is an able diplomat. He would make a fine chancellor.;;;;;;;;;x
+EVTDESC_EADENCLAVE_36;A mysterious Nagrathi Archaic assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
+EVTDESC_EADENCLAVE_37;A mysterious Dameri Archaic assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
+EVTDESC_EADENCLAVE_38;A learned Khazuk Neanderthal has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
+EVTDESC_EADENCLAVE_39;A robust Khazuk Neanderthal Warrior has offered his services at your court. He is well-versed in military strategy and has a past a mercenary. If he can be trusted, he could very well prove to be an indispensable asset to your military forces.;;;;;;;;;x
+EVTDESC_EADENCLAVE_40;A Dwurush Neanderthal Scholar has arrived at your court offering his services. He is a very learned man and would make an excellent court physician if he can be trusted.;;;;;;;;;x
+EVTDESC_EADENCLAVE_41;A learned Dwurush Neanderthal has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
 EVTDESC_EADENCLAVE_42;A robust Velori Warrior has offered his services at your court. He is well-versed in military strategy and has a past a mercenary. If he can be trusted, he could very well prove to be an indispensable asset to your military forces.;;;;;;;;;x
 EVTDESC_EADENCLAVE_43;A wealthy Cathrian Merchant has arrived at your court. He is learned in the ways of general stewardship and money management and he will be a valuable asset to your realm. He has additionally has offered you a gift of gold.;;;;;;;;;x
 EVTOPTA_EADENCLAVE_13;Interesting...;;;;;;;;;;x

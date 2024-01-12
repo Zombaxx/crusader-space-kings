@@ -18,7 +18,7 @@ the_cursed_house_recruit_desc;Attempt to find out whether Y[Root.GetTitledFirstN
 
 ############### The Cult of Pleasures ###############
 the_cult_of_excess;The Cult of Pleasures;;;;;;;;;;;;;x
-the_cult_of_excess_desc;Followers of the Cult of Pleasures were ruthlessly persecuted both by the followers of the Elven Pantheon and by the Blood Cultists, for the rituals and customs of the hedonistic Cult of Pleasures can seem disgusting even for the bloodthirsty maniacs of the Blood Cult. But those hedonists still surviving, hiding in the shadows and luring the weak and impious into their ranks...;;;;;;;;;;;;;x
+the_cult_of_excess_desc;Followers of the Cult of Pleasures were ruthlessly persecuted both by the followers of the Archaic Pantheon and by the Blood Cultists, for the rituals and customs of the hedonistic Cult of Pleasures can seem disgusting even for the bloodthirsty maniacs of the Blood Cult. But those hedonists still surviving, hiding in the shadows and luring the weak and impious into their ranks...;;;;;;;;;;;;;x
 currency_name_the_cult_of_excess;Dark Power;;;;;;;;;;;;;x
 the_cult_of_excess_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
 the_cult_of_excess_rank_1_female;Follower;;;;;;;;;;;;;x
@@ -36,7 +36,7 @@ the_cult_of_excess_recruit_desc;Attempt to find out whether Y[Root.GetTitledFirs
 
 ############### The Monster Hunters ###############
 warrior_lodge_dwarven;The Monster Hunters;;;;;;;;;;;;;x
-warrior_lodge_dwarven_desc;Monster Hunters are a group of dwarven warriors who hunted the most dangerous creatures of their homeworld - trolls, giants and even dragons. Although these dangerous creatures do not exist in the new world, dwarves can still gain honor and glory on the battlefield.;;;;;;;;;;;;;x
+warrior_lodge_dwarven_desc;Monster Hunters are a group of dwarven warriors who hunted the most dangerous creatures of their homeworld - trolls, giants and even dragons. Although these dangerous creatures do not exist in the new world, Neanderthals can still gain honor and glory on the battlefield.;;;;;;;;;;;;;x
 currency_name_warrior_lodge_dwarven;Renown;;;;;;;;;;;;;x
 warrior_lodge_dwarven_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
 warrior_lodge_dwarven_rank_1_female;Hunter;;;;;;;;;;;;;x
