@@ -11,8 +11,5 @@
 	holder = 111845
 }
 1066.1.1 = {
-	set_tribute_suzerain = {
-		who = k_kingdom1388
-		type = permanent 
-	}
+	holder = 666666
 }

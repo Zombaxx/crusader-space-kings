@@ -1,18 +1,9 @@
-804.1.1 = {
+1058.1.1 = {
+	holder = 108725
+}
+1066.1.1 = {
 	set_tribute_suzerain = {
-		who = e_empire0531
+		who = e_united_states
 		type = permanent 
 	}
-}
-927.1.1 = {
-	holder = 110970
-}
-991.1.1 = {
-	holder = 110971
-}
-1019.1.1 = {
-	holder = 110972
-}
-1058.1.1 = {
-	holder = 110975
 }

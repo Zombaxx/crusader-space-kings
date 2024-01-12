@@ -11002,8 +11002,8 @@ b_barony0864d;Wugeric;Wugeric;Wugeric;;Wugeric;;;;;;;;;x
 b_barony0864e;Qanangar;Qanangar;Qanangar;;Qanangar;;;;;;;;;x
 b_barony0864f;Sunarak;Sunarak;Sunarak;;Sunarak;;;;;;;;;x
 b_barony0864g;Leseva;Leseva;Leseva;;Leseva;;;;;;;;;x
-d_duchy0865;Kamaaz;Kamaaz;Kamaaz;;Kamaaz;;;;;;;;;x
-d_duchy0865_adj;Nyyab;Nyyab;Nyyab;;Nyyab;;;;;;;;;x
+d_duchy0865;Korea;Korea;Korea;;Korea;;;;;;;;;x
+d_duchy0865_adj;Korean;Korean;Korean;;Korean;;;;;;;;;x
 c_province0865_adj;Korean;Wasyab;Wasyab;;Wasyab;;;;;;;;;x
 b_barony0865`;Seoul;Weoneya;Weoneya;;Weoneya;;;;;;;;;x
 b_barony0865a;Incheon;Qeonyab;Qeonyab;;Qeonyab;;;;;;;;;x
@@ -12751,8 +12751,8 @@ b_barony1035d;Kumond;Kumond;Kumond;;Kumond;;;;;;;;;x
 b_barony1035e;Lehava;Lehava;Lehava;;Lehava;;;;;;;;;x
 b_barony1035f;Qidita;Qidita;Qidita;;Qidita;;;;;;;;;x
 b_barony1035g;Rawoj;Rawoj;Rawoj;;Rawoj;;;;;;;;;x
-k_kingdom1036;Queensland;Queensland;Queensland;;Queensland;;;;;;;;;x
-k_kingdom1036_adj;Queenslander;Adrukhia;Adrukhia;;Adrukhia;;;;;;;;;x
+k_kingdom1036;KoJa;Queensland;Queensland;;Queensland;;;;;;;;;x
+k_kingdom1036_adj;KoJanese;Adrukhia;Adrukhia;;Adrukhia;;;;;;;;;x
 d_duchy1036;Queensland;Nanetar;Nanetar;;Nanetar;;;;;;;;;x
 d_duchy1036_adj;Queenslander;Sit;Sit;;Sit;;;;;;;;;x
 c_province1036_adj;Townsviller;Salami;Salami;;Salami;;;;;;;;;x
@@ -13374,8 +13374,8 @@ e_empire1097;Oceania;Tecelen;Tecelen;;Tecelen;;;;;;;;;x
 e_empire1097_adj;Oceanian;Tinisla;Tinisla;;Tinisla;;;;;;;;;x
 k_kingdom1097;Tasmania;Tasmania;Tasmania;;Tasmania;;;;;;;;;x
 k_kingdom1097_adj;Tasmanian;Tasmanian;Tasmanian;;Tasmanian;;;;;;;;;x
-d_duchy1097;Tasmania;Qabyi;Qabyi;;Qabyi;;;;;;;;;x
-d_duchy1097_adj;Tasmanian;Lolerge;Lolerge;;Lolerge;;;;;;;;;x
+d_duchy1097;Japan;Qabyi;Qabyi;;Qabyi;;;;;;;;;x
+d_duchy1097_adj;Japanese;Lolerge;Lolerge;;Lolerge;;;;;;;;;x
 c_province1097_adj;Tasmanian;Qeloise;Qeloise;;Qeloise;;;;;;;;;x
 b_barony1097`;Hobart;Ranoj;Ranoj;;Ranoj;;;;;;;;;x
 b_barony1097a;Launceston;Daduvje;Daduvje;;Daduvje;;;;;;;;;x
@@ -14253,8 +14253,8 @@ b_barony1183d;Edepan;Edepan;Edepan;;Edepan;;;;;;;;;x
 b_barony1183e;Tegepan;Tegepan;Tegepan;;Tegepan;;;;;;;;;x
 b_barony1183f;Achepan;Achepan;Achepan;;Achepan;;;;;;;;;x
 b_barony1183g;Lemibé;Lemibé;Lemibé;;Lemibé;;;;;;;;;x
-e_empire1184;Olympus;Olympus;Olympus;;Olympus;;;;;;;;;x
-e_empire1184_adj;Olympian;Olympian;Olympian;;Olympian;;;;;;;;;x
+e_empire1184;Mars;Mars;Mars;;Mars;;;;;;;;;x
+e_empire1184_adj;Martian;Martian;Martian;;Martian;;;;;;;;;x
 k_kingdom1184;Olympus;Olympus;Olympus;;Olympus;;;;;;;;;x
 k_kingdom1184_adj;Olympian;Olympian;Olympian;;Olympian;;;;;;;;;x
 d_duchy1184;Kohida;Kohida;Kohida;;Kohida;;;;;;;;;x
@@ -15332,8 +15332,8 @@ b_barony1290d;Avay;Avay;Avay;;Avay;;;;;;;;;x
 b_barony1290e;Adew;Adew;Adew;;Adew;;;;;;;;;x
 b_barony1290f;Oror;Oror;Oror;;Oror;;;;;;;;;x
 b_barony1290g;M;M;M;;M;;;;;;;;;x
-k_kingdom1291;Utun;Utun;Utun;;Utun;;;;;;;;;x
-k_kingdom1291_adj;Uder;Uder;Uder;;Uder;;;;;;;;;x
+k_kingdom1291;Tharsis;Utun;Utun;;Utun;;;;;;;;;x
+k_kingdom1291_adj;Tharsian;Uder;Uder;;Uder;;;;;;;;;x
 d_duchy1291;Aran;Aran;Aran;;Aran;;;;;;;;;x
 d_duchy1291_adj;Aluj;Aluj;Aluj;;Aluj;;;;;;;;;x
 c_province1291_adj;Wasu;Wasu;Wasu;;Wasu;;;;;;;;;x
@@ -15505,8 +15505,8 @@ b_barony1307d;Ucun;Ucun;Ucun;;Ucun;;;;;;;;;x
 b_barony1307e;Ory;Ory;Ory;;Ory;;;;;;;;;x
 b_barony1307f;Ohn;Ohn;Ohn;;Ohn;;;;;;;;;x
 b_barony1307g;Agit;Agit;Agit;;Agit;;;;;;;;;x
-k_kingdom1308;Yuha;Yuha;Yuha;;Yuha;;;;;;;;;x
-k_kingdom1308_adj;Alaf;Alaf;Alaf;;Alaf;;;;;;;;;x
+k_kingdom1308;Aonia;Yuha;Yuha;;Yuha;;;;;;;;;x
+k_kingdom1308_adj;Aonian;Alaf;Alaf;;Alaf;;;;;;;;;x
 d_duchy1308;Oman;Oman;Oman;;Oman;;;;;;;;;x
 d_duchy1308_adj;Aazi;Aazi;Aazi;;Aazi;;;;;;;;;x
 c_province1308_adj;Eyeo;Eyeo;Eyeo;;Eyeo;;;;;;;;;x
@@ -15653,8 +15653,8 @@ e_empire1322;Valles Marineris;Valles Marineris;Valles Marineris;;Valles Marineri
 e_empire1322_adj;Mariner;Mariner;Mariner;;Mariner;;;;;;;;;x
 k_kingdom1322;Solis Planum;Solis Planum;Solis Planum;;Solis Planum;;;;;;;;;x
 k_kingdom1322_adj;Icil;Icil;Icil;;Icil;;;;;;;;;x
-d_duchy1322;Emos;Emos;Emos;;Emos;;;;;;;;;x
-d_duchy1322_adj;Ariz;Ariz;Ariz;;Ariz;;;;;;;;;x
+d_duchy1322;Helium;Emos;Emos;;Emos;;;;;;;;;x
+d_duchy1322_adj;Heliumian;Ariz;Ariz;;Ariz;;;;;;;;;x
 c_province1322_adj;Awem;Awem;Awem;;Awem;;;;;;;;;x
 b_barony1322`;Ikav;Ikav;Ikav;;Ikav;;;;;;;;;x
 b_barony1322a;Anor;Anor;Anor;;Anor;;;;;;;;;x
@@ -15841,8 +15841,8 @@ b_barony1341d;Udid;Udid;Udid;;Udid;;;;;;;;;x
 b_barony1341e;Aiti;Aiti;Aiti;;Aiti;;;;;;;;;x
 b_barony1341f;Ogim;Ogim;Ogim;;Ogim;;;;;;;;;x
 b_barony1341g;Enzo;Enzo;Enzo;;Enzo;;;;;;;;;x
-k_kingdom1342;Amil;Amil;Amil;;Amil;;;;;;;;;x
-k_kingdom1342_adj;Iesi;Iesi;Iesi;;Iesi;;;;;;;;;x
+k_kingdom1342;Sirenum;Amil;Amil;;Amil;;;;;;;;;x
+k_kingdom1342_adj;Sirenumian;Iesi;Iesi;;Iesi;;;;;;;;;x
 d_duchy1342;Ameu;Ameu;Ameu;;Ameu;;;;;;;;;x
 d_duchy1342_adj;Anab;Anab;Anab;;Anab;;;;;;;;;x
 c_province1342_adj;Apav;Apav;Apav;;Apav;;;;;;;;;x
@@ -16293,10 +16293,10 @@ b_barony1387d;Ledr;Ledr;Ledr;;Ledr;;;;;;;;;x
 b_barony1387e;Elei;Elei;Elei;;Elei;;;;;;;;;x
 b_barony1387f;Saka;Saka;Saka;;Saka;;;;;;;;;x
 b_barony1387g;Iole;Iole;Iole;;Iole;;;;;;;;;x
-e_empire1388;Mars;Mars;Mars;;Mars;;;;;;;;;x
-e_empire1388_adj;Martian;Martian;Martian;;Martian;;;;;;;;;x
-k_kingdom1388;SpaceX;SpaceX;SpaceX;;SpaceX;;;;;;;;;x
-k_kingdom1388_adj;Martian;Martian;Martian;;Martian;;;;;;;;;x
+e_empire1388;SpaceX;Mars;Mars;;Mars;;;;;;;;;x
+e_empire1388_adj;X;Martian;Martian;;Martian;;;;;;;;;x
+k_kingdom1388;X;SpaceX;SpaceX;;SpaceX;;;;;;;;;x
+k_kingdom1388_adj;X;Martian;Martian;;Martian;;;;;;;;;x
 d_duchy1388;Oet;Oet;Oet;;Oet;;;;;;;;;x
 d_duchy1388_adj;Stah;Stah;Stah;;Stah;;;;;;;;;x
 c_province1388_adj;Conn;Conn;Conn;;Conn;;;;;;;;;x
@@ -16432,8 +16432,8 @@ b_barony1400f;Ibet;Ibet;Ibet;;Ibet;;;;;;;;;x
 b_barony1400g;Dile;Dile;Dile;;Dile;;;;;;;;;x
 e_empire1401;Planum Australe;Planum Australe;Planum Australe;;Planum Australe;;;;;;;;;x
 e_empire1401_adj;Acin;Acin;Acin;;Acin;;;;;;;;;x
-k_kingdom1401;Abaj;Abaj;Abaj;;Abaj;;;;;;;;;x
-k_kingdom1401_adj;Avar;Avar;Avar;;Avar;;;;;;;;;x
+k_kingdom1401;Cimmeria;Abaj;Abaj;;Abaj;;;;;;;;;x
+k_kingdom1401_adj;Cimmerian;Avar;Avar;;Avar;;;;;;;;;x
 d_duchy1401;Yusu;Yusu;Yusu;;Yusu;;;;;;;;;x
 d_duchy1401_adj;Eruj;Eruj;Eruj;;Eruj;;;;;;;;;x
 c_province1401_adj;Ucan;Ucan;Ucan;;Ucan;;;;;;;;;x
@@ -17186,8 +17186,8 @@ b_barony1476d;Akor;Akor;Akor;;Akor;;;;;;;;;x
 b_barony1476e;Teie;Teie;Teie;;Teie;;;;;;;;;x
 b_barony1476f;Orul;Orul;Orul;;Orul;;;;;;;;;x
 b_barony1476g;Ohou;Ohou;Ohou;;Ohou;;;;;;;;;x
-k_kingdom1477;Southern Highlands;Southern Highlands;Southern Highlands;;Southern Highlands;;;;;;;;;x
-k_kingdom1477_adj;Highlander;Highlander;Highlander;;Highlander;;;;;;;;;x
+k_kingdom1477;Prometheia;Southern Highlands;Southern Highlands;;Southern Highlands;;;;;;;;;x
+k_kingdom1477_adj;Prometheian;Highlander;Highlander;;Highlander;;;;;;;;;x
 d_duchy1477;Ekie;Ekie;Ekie;;Ekie;;;;;;;;;x
 d_duchy1477_adj;Etat;Etat;Etat;;Etat;;;;;;;;;x
 c_province1477_adj;Asa;Asa;Asa;;Asa;;;;;;;;;x
@@ -17200,7 +17200,7 @@ b_barony1477e;Amir;Amir;Amir;;Amir;;;;;;;;;x
 b_barony1477f;Arud;Arud;Arud;;Arud;;;;;;;;;x
 b_barony1477g;Amid;Amid;Amid;;Amid;;;;;;;;;x
 k_kingdom1478;Magi;Magi;Magi;;Magi;;;;;;;;;x
-k_kingdom1478_adj;Ijun;Ijun;Ijun;;Ijun;;;;;;;;;x
+k_kingdom1478_adj;Magician;Ijun;Ijun;;Ijun;;;;;;;;;x
 d_duchy1478;Ethe;Ethe;Ethe;;Ethe;;;;;;;;;x
 d_duchy1478_adj;Yami;Yami;Yami;;Yami;;;;;;;;;x
 c_province1478_adj;Yuvo;Yuvo;Yuvo;;Yuvo;;;;;;;;;x
@@ -17455,8 +17455,8 @@ b_barony1503d;Anaz;Anaz;Anaz;;Anaz;;;;;;;;;x
 b_barony1503e;Make;Make;Make;;Make;;;;;;;;;x
 b_barony1503f;Iroc;Iroc;Iroc;;Iroc;;;;;;;;;x
 b_barony1503g;Krop;Krop;Krop;;Krop;;;;;;;;;x
-k_kingdom1504;Erig;Erig;Erig;;Erig;;;;;;;;;x
-k_kingdom1504_adj;Cila;Cila;Cila;;Cila;;;;;;;;;x
+k_kingdom1504;Sabbaea;Erig;Erig;;Erig;;;;;;;;;x
+k_kingdom1504_adj;Sabbaean;Cila;Cila;;Cila;;;;;;;;;x
 d_duchy1504;Ecro;Ecro;Ecro;;Ecro;;;;;;;;;x
 d_duchy1504_adj;Aloz;Aloz;Aloz;;Aloz;;;;;;;;;x
 c_province1504_adj;Alol;Alol;Alol;;Alol;;;;;;;;;x
@@ -17645,8 +17645,8 @@ b_barony1521f;Usev;Usev;Usev;;Usev;;;;;;;;;x
 b_barony1521g;Eliz;Eliz;Eliz;;Eliz;;;;;;;;;x
 e_empire1522;Ganymede;Ganymede;Ganymede;;Ganymede;;;;;;;;;x
 e_empire1522_adj;Ganymedien;Ganymedien;Ganymedien;;Ganymedien;;;;;;;;;x
-k_kingdom1522;Llyr;Llyr;Llyr;;Llyr;;;;;;;;;x
-k_kingdom1522_adj;Ucel;Ucel;Ucel;;Ucel;;;;;;;;;x
+k_kingdom1522;Vilon;Llyr;Llyr;;Llyr;;;;;;;;;x
+k_kingdom1522_adj;Vilonian;Ucel;Ucel;;Ucel;;;;;;;;;x
 d_duchy1522;Zuim;Zuim;Zuim;;Zuim;;;;;;;;;x
 d_duchy1522_adj;Oghe;Oghe;Oghe;;Oghe;;;;;;;;;x
 c_province1522_adj;Ucae;Ucae;Ucae;;Ucae;;;;;;;;;x
@@ -17917,8 +17917,8 @@ b_barony1547f;Otyu;Otyu;Otyu;;Otyu;;;;;;;;;x
 b_barony1547g;Erle;Erle;Erle;;Erle;;;;;;;;;x
 e_empire1548;Illus;Illus;Illus;;Illus;;;;;;;;;x
 e_empire1548_adj;Illusian;Illusian;Illusian;;Illusian;;;;;;;;;x
-k_kingdom1548;Iger;Iger;Iger;;Iger;;;;;;;;;x
-k_kingdom1548_adj;Enga;Enga;Enga;;Enga;;;;;;;;;x
+k_kingdom1548;Raki'a;Iger;Iger;;Iger;;;;;;;;;x
+k_kingdom1548_adj;Raki'aian;Enga;Enga;;Enga;;;;;;;;;x
 d_duchy1548;Isul;Isul;Isul;;Isul;;;;;;;;;x
 d_duchy1548_adj;Ecep;Ecep;Ecep;;Ecep;;;;;;;;;x
 c_province1548_adj;Mome;Mome;Mome;;Mome;;;;;;;;;x
@@ -18269,8 +18269,8 @@ b_barony1583d;Valu;Valu;Valu;;Valu;;;;;;;;;x
 b_barony1583e;Rui;Rui;Rui;;Rui;;;;;;;;;x
 b_barony1583f;Ugoi;Ugoi;Ugoi;;Ugoi;;;;;;;;;x
 b_barony1583g;Enou;Enou;Enou;;Enou;;;;;;;;;x
-k_kingdom1584;Uham;Uham;Uham;;Uham;;;;;;;;;x
-k_kingdom1584_adj;Josi;Josi;Josi;;Josi;;;;;;;;;x
+k_kingdom1584;Pleroma;Uham;Uham;;Uham;;;;;;;;;x
+k_kingdom1584_adj;Pleromian;Josi;Josi;;Josi;;;;;;;;;x
 d_duchy1584;Okia;Okia;Okia;;Okia;;;;;;;;;x
 d_duchy1584_adj;Akar;Akar;Akar;;Akar;;;;;;;;;x
 c_province1584_adj;Im;Im;Im;;Im;;;;;;;;;x
@@ -18520,8 +18520,8 @@ b_barony1608d;Iloa;Iloa;Iloa;;Iloa;;;;;;;;;x
 b_barony1608e;Uzan;Uzan;Uzan;;Uzan;;;;;;;;;x
 b_barony1608f;Evna;Evna;Evna;;Evna;;;;;;;;;x
 b_barony1608g;Aode;Aode;Aode;;Aode;;;;;;;;;x
-k_kingdom1609;Cari;Cari;Cari;;Cari;;;;;;;;;x
-k_kingdom1609_adj;Ehah;Ehah;Ehah;;Ehah;;;;;;;;;x
+k_kingdom1609;Zebul;Cari;Cari;;Cari;;;;;;;;;x
+k_kingdom1609_adj;Zebulian;Ehah;Ehah;;Ehah;;;;;;;;;x
 d_duchy1609;Yava;Yava;Yava;;Yava;;;;;;;;;x
 d_duchy1609_adj;Ilih;Ilih;Ilih;;Ilih;;;;;;;;;x
 c_province1609_adj;Iana;Iana;Iana;;Iana;;;;;;;;;x
@@ -18582,8 +18582,8 @@ b_barony1614d;Ugua;Ugua;Ugua;;Ugua;;;;;;;;;x
 b_barony1614e;Edak;Edak;Edak;;Edak;;;;;;;;;x
 b_barony1614f;Omun;Omun;Omun;;Omun;;;;;;;;;x
 b_barony1614g;Izas;Izas;Izas;;Izas;;;;;;;;;x
-d_duchy1615;Izol;Izol;Izol;;Izol;;;;;;;;;x
-d_duchy1615_adj;Elav;Elav;Elav;;Elav;;;;;;;;;x
+d_duchy1615;Araboth;Izol;Izol;;Izol;;;;;;;;;x
+d_duchy1615_adj;Arabothian;Elav;Elav;;Elav;;;;;;;;;x
 c_province1615_adj;Vlur;Vlur;Vlur;;Vlur;;;;;;;;;x
 b_barony1615`;Ibib;Ibib;Ibib;;Ibib;;;;;;;;;x
 b_barony1615a;Hema;Hema;Hema;;Hema;;;;;;;;;x
@@ -18770,8 +18770,8 @@ b_barony1634d;Agik;Agik;Agik;;Agik;;;;;;;;;x
 b_barony1634e;Udia;Udia;Udia;;Udia;;;;;;;;;x
 b_barony1634f;Ilee;Ilee;Ilee;;Ilee;;;;;;;;;x
 b_barony1634g;Enea;Enea;Enea;;Enea;;;;;;;;;x
-k_kingdom1635;Odio;Odio;Odio;;Odio;;;;;;;;;x
-k_kingdom1635_adj;Suse;Suse;Suse;;Suse;;;;;;;;;x
+k_kingdom1635;Shehaqim;Odio;Odio;;Odio;;;;;;;;;x
+k_kingdom1635_adj;Shehaqimi;Suse;Suse;;Suse;;;;;;;;;x
 d_duchy1635;Agio;Agio;Agio;;Agio;;;;;;;;;x
 d_duchy1635_adj;Ulid;Ulid;Ulid;;Ulid;;;;;;;;;x
 c_province1635_adj;Icon;Icon;Icon;;Icon;;;;;;;;;x
@@ -19467,8 +19467,8 @@ b_barony1703d;Ayal;Ayal;Ayal;;Ayal;;;;;;;;;x
 b_barony1703e;Ohom;Ohom;Ohom;;Ohom;;;;;;;;;x
 b_barony1703f;Eash;Eash;Eash;;Eash;;;;;;;;;x
 b_barony1703g;Acen;Acen;Acen;;Acen;;;;;;;;;x
-k_kingdom1704;Eell;Eell;Eell;;Eell;;;;;;;;;x
-k_kingdom1704_adj;Efac;Efac;Efac;;Efac;;;;;;;;;x
+k_kingdom1704;Ma'on;Ma'on;Ma'on;;Eell;;;;;;;;;x
+k_kingdom1704_adj;Ma'oni;Efac;Efac;;Efac;;;;;;;;;x
 d_duchy1704;Asap;Asap;Asap;;Asap;;;;;;;;;x
 d_duchy1704_adj;Acoy;Acoy;Acoy;;Acoy;;;;;;;;;x
 c_province1704_adj;Loqu;Loqu;Loqu;;Loqu;;;;;;;;;x
@@ -19522,8 +19522,8 @@ b_barony1708d;Klil;Klil;Klil;;Klil;;;;;;;;;x
 b_barony1708e;Auri;Auri;Auri;;Auri;;;;;;;;;x
 b_barony1708f;Imou;Imou;Imou;;Imou;;;;;;;;;x
 b_barony1708g;Akuy;Akuy;Akuy;;Akuy;;;;;;;;;x
-k_kingdom1709;Aytu;Aytu;Aytu;;Aytu;;;;;;;;;x
-k_kingdom1709_adj;Iaky;Iaky;Iaky;;Iaky;;;;;;;;;x
+k_kingdom1709;Machon;Aytu;Aytu;;Aytu;;;;;;;;;x
+k_kingdom1709_adj;Machoner;Iaky;Iaky;;Iaky;;;;;;;;;x
 d_duchy1709;Eewu;Eewu;Eewu;;Eewu;;;;;;;;;x
 d_duchy1709_adj;Baya;Baya;Baya;;Baya;;;;;;;;;x
 c_province1709_adj;Pelo;Pelo;Pelo;;Pelo;;;;;;;;;x

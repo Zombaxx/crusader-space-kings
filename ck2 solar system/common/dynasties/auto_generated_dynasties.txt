@@ -4184,8 +4184,8 @@
 	religion="west_african_pagan"
 }	
 108430={	
-	name="Koyaeda"
-	culture="zhangzhung"
+	name="Kim"
+	culture="jurchen"
 	religion="buddhist"
 }	
 108440={	
@@ -4294,9 +4294,9 @@
 	religion="hindu"
 }	
 108650={	
-	name="Degar"
-	culture="zhangzhung"
-	religion="buddhist"
+	name="Samsung"
+	culture="jurchen"
+	religion="nestorian"
 }	
 108660={	
 	name="Sankamid"

@@ -11,5 +11,8 @@
 	holder = 108655
 }
 1066.1.1 = {
-	liege=d_duchy0865
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = permanent 
+	}
 }

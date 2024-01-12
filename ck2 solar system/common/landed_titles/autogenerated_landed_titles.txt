@@ -13320,20 +13320,6 @@ e_empire0717 = {
 				b_barony0811f = { }
 				b_barony0811g = { }
 			}
-			c_province0830 = {
-				color={ 244 123 15 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0830` = { }
-				b_barony0830a = { }
-				b_barony0830b = { }
-				b_barony0830c = { }
-				b_barony0830d = { }
-				b_barony0830e = { }
-				b_barony0830f = { }
-				b_barony0830g = { }
-			}
 			c_province0823 = {
 				color={ 193 133 12 }
 				color2={ 255 255 255 }
@@ -13461,59 +13447,6 @@ e_empire0717 = {
 				b_barony0844g = { }
 			}
 		}
-		d_duchy0865 = {
-			color={ 213 81 63 }
-			color2={ 255 255 255 }
-			
-			capital = 865
-			
-			c_province0843 = {
-				color={ 192 100 58 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0843` = { }
-				b_barony0843a = { }
-				b_barony0843b = { }
-				b_barony0843c = { }
-				b_barony0843d = { }
-				b_barony0843e = { }
-				b_barony0843f = { }
-				b_barony0843g = { }
-			}
-			c_tokyo = {
-				color={ 218 94 10 }
-				color2={ 255 255 255 }
-				
-				holy_site = buddhist
-				holy_site = shinto
-				
-				b_tokyo = {
-				dynasty_title_names = no
-				}
-				b_barony0872a = { }
-				b_barony0872b = { }
-				b_barony0872c = { }
-				b_barony0872d = { }
-				b_barony0872e = { }
-				b_barony0872f = { }
-				b_barony0872g = { }
-			}
-			c_province0865 = {
-				color={ 213 81 63 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0865` = { }
-				b_barony0865a = { }
-				b_barony0865b = { }
-				b_barony0865c = { }
-				b_barony0865d = { }
-				b_barony0865e = { }
-				b_barony0865f = { }
-				b_barony0865g = { }
-			}
-		}
 		d_duchy0797 = {
 			color={ 223 100 9 }
 			color2={ 255 255 255 }
@@ -13561,6 +13494,91 @@ e_empire0717 = {
 				b_barony0797e = { }
 				b_barony0797f = { }
 				b_barony0797g = { }
+			}
+		}
+	}
+	k_kingdom1036 = { #Korea-Japan
+		color={ 201 207 101 }
+		color2={ 255 255 255 }
+		
+		capital = 872
+		
+		culture = jurchen
+		
+		d_duchy1097 = { #Japan
+			color={ 194 164 46 }
+			color2={ 255 255 255 }
+			
+			capital = 872
+
+			c_tokyo = {
+				color={ 218 94 10 }
+				color2={ 255 255 255 }
+				
+				holy_site = buddhist
+				holy_site = shinto
+				
+				b_tokyo = {
+				dynasty_title_names = no
+				}
+				b_barony0872a = { }
+				b_barony0872b = { }
+				b_barony0872c = { }
+				b_barony0872d = { }
+				b_barony0872e = { }
+				b_barony0872f = { }
+				b_barony0872g = { }
+			}
+			
+			c_province0830 = {
+				color={ 244 123 15 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0830` = { }
+				b_barony0830a = { }
+				b_barony0830b = { }
+				b_barony0830c = { }
+				b_barony0830d = { }
+				b_barony0830e = { }
+				b_barony0830f = { }
+				b_barony0830g = { }
+			}
+			
+		}
+		d_duchy0865 = { #Korea
+			color={ 213 81 63 }
+			color2={ 255 255 255 }
+			
+			capital = 865
+			
+			c_province0843 = {
+				color={ 192 100 58 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0843` = { }
+				b_barony0843a = { }
+				b_barony0843b = { }
+				b_barony0843c = { }
+				b_barony0843d = { }
+				b_barony0843e = { }
+				b_barony0843f = { }
+				b_barony0843g = { }
+			}
+			c_province0865 = {
+				color={ 213 81 63 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0865` = { }
+				b_barony0865a = { }
+				b_barony0865b = { }
+				b_barony0865c = { }
+				b_barony0865d = { }
+				b_barony0865e = { }
+				b_barony0865f = { }
+				b_barony0865g = { }
 			}
 		}
 	}
@@ -20777,22 +20795,6 @@ e_empire1127 = { #unused
 		
 		culture = frankish
 		
-	}
-	k_kingdom1036 = { #unused
-		color={ 201 207 101 }
-		color2={ 255 255 255 }
-		
-		capital = 1036
-		
-		culture = frankish
-		
-		d_duchy1097 = { #unused
-			color={ 194 164 46 }
-			color2={ 255 255 255 }
-			
-			capital = 1097
-			
-		}
 	}
 }
 e_empire1143 = {
