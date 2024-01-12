@@ -1,23 +1,23 @@
 #CODE;#ENGLISH;;;;;;;;;x
-e_elven_empire;Atherilion;;;;;;;;;x
-e_dwarven_empire;Kharazd-Zhadum;;;;;;;;;x
-e_dark_elven_empire;Damereth;;;;;;;;;x
-e_ashlander_empire;Veloreth;;;;;;;;;x
-e_dark_dwarven_empire;Dwur Ashu'ur;;;;;;;;;x
+e_elven_empire;Archaia;;;;;;;;;x
+e_dwarven_empire;Neandera;;;;;;;;;x
+e_dark_elven_empire;Hyperborea;;;;;;;;;x
+e_ashlander_empire;Totality;;;;;;;;;x
+e_dark_dwarven_empire;Titania;;;;;;;;;x
 e_blood_elven_empire;Nagrath;;;;;;;;;x
 e_blood_elven_empire_adj;Nagrath;;;;;;;;;x
-k_elven_church;Varethion;;;;;;;;;x
+k_elven_church;Archaic;;;;;;;;;x
 e_elven_empire_adj;Atherilion;;;;;;;;;x
-e_dwarven_empire_adj;Kharazd-Zhadum;;;;;;;;;x
-e_dark_elven_empire_adj;Damereth;;;;;;;;;x
-e_dark_dwarven_empire_adj;Dwur Ashu'ur;;;;;;;;;x
-e_cat_folk_empire;Tar-Eremket;;;;;;;;;x
-e_cat_folk_empire_adj;Tar-Eremket;;;;;;;;;x
+e_dwarven_empire_adj;Neanderaian;;;;;;;;;x
+e_dark_elven_empire_adj;Hyperborean;;;;;;;;;x
+e_dark_dwarven_empire_adj;Titanian;;;;;;;;;x
+e_cat_folk_empire;Nine Lives;;;;;;;;;x
+e_cat_folk_empire_adj;Niner;;;;;;;;;x
 d_cat_folk_church;Solar Priesthood;;;;;;;;;x
 d_cat_folk_church_adj;Solar Priesthood;;;;;;;;;x
 d_cat_folk_holy_order;Solar Warriors;;;;;;;;;x
 d_cat_folk_holy_order_adj;Solar Warrior;;;;;;;;;x
-k_elven_church_adj;Elven;;;;;;;;;x
+k_elven_church_adj;Archaian;;;;;;;;;x
 d_dark_lord;The Dark Throne;;;;;;;;;x
 d_dark_lord_adj;The Dark Throne;;;;;;;;;x
 DARK_LORD;Dark Lord;;;;;;;;;x

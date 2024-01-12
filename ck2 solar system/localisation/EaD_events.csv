@@ -45,16 +45,15 @@ EVTDESC_EADI_015;Thousands of stunted warriors in bronze-like armor, armed with 
 EVTOPTA_EADI_015;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTOPTA_EADI_015_F;Looks like their giant magic golem did work after all.;;;;;;;;;;;;;x
 #Realm Fallen Events
-EADITITLE46;The Fall of Atherillion;;;;;;;;;;;;;x
-EADIDESC46;The once proud Kingdom of Aterillion is now in ruins, for the Archaic forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Archaics who have nowhere to go.;;;;;;;;;;;;;x
+ArchaiaEADIDESC46;The once proud Kingdom of Archaia is now in ruins, for the Archaic forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Archaics who have nowhere to go.;;;;;;;;;;;;;x
 EVTOPTA_EADI_46_A;Good riddance!;;;;;;;;;;;;;x
 EVTOPTA_EADI_46_F;Oh, well.;;;;;;;;;;;;;x
-EADITITLE47;The Fall of Kharazd-Zhadum;;;;;;;;;;;;;x
-EADIDESC47;The once proud Kingdom of Kharazd-Zhadum is now in ruins, for the Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Neanderthals who have nowhere to go.;;;;;;;;;;;;;x
-EADITITLE48;The Fall of Damereth;;;;;;;;;;;;;x
-EADIDESC48;The once proud Kingdom of Damereth is now in ruins, for the Elohim forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Elohim who have nowhere to go.;;;;;;;;;;;;;x
-EADITITLE49;The Fall of Dwur Ashu'ur;;;;;;;;;;;;;x
-EADIDESC49;The once proud Kingdom of Dwur Ashu'ur is now in ruins, for the dark Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Titans who have nowhere to go.;;;;;;;;;;;;;x
+EADITITLE47;The Fall of Neandera;;;;;;;;;;;;;x
+EADIDESC47;The once proud Kingdom of Neandera now in ruins, for the Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Neanderthals who have nowhere to go.;;;;;;;;;;;;;x
+EADITITLE48;The Fall of Hyperborea;;;;;;;;;;;;;x
+EADIDESC48;The once proud Kingdom of Hyperborea is now in ruins, for the Elohim forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Elohim who have nowhere to go.;;;;;;;;;;;;;x
+EADITITLE49;The Fall of Titania;;;;;;;;;;;;;x
+EADIDESC49;The once proud Kingdom of Titania is now in ruins, for the dark Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Titans who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE50;The Fall of Tar-Eremket;;;;;;;;;;;;;x
 EADIDESC50;The once proud Kingdom of Tar-Eremket is now in ruins, for the cathrian forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee cathrians who have nowhere to go.;;;;;;;;;;;;;x
 #
