@@ -100,7 +100,7 @@ GOD_THE_SPIRITS;The Spirits;;;;;;;;;;;;;x
 GOD_THE_EVIL_SPIRITS;The Evils Spirits;;;;;;;;;;;;;x
 GOD_THE_EVIL_GODS;The Evil Gods;;;;;;;;;;;;;x
 orc_religion_dark_lord;Cult of the Dark Lord;;;;;;;;;;;;;x
-orc_religion_dark_lord_DESC;The followers of this religion worship and revere the first emperor of the Denisovan Empire, Gorthauron Tar-Mairon, who was knowns to everyone as fearsome Dark Lord. The distant heirs of the Dark Lord or powerful rulers can claim this title and enjoy almost the same authority as the First Dark Lord.;;;;;;;;;;;;;x
+orc_religion_dark_lord_DESC;The followers of this religion worship and revere the first emperor of the Denisovan Empire, Denny Homini, who was knowns to everyone as fearsome Dark Lord. The distant heirs of the Dark Lord or powerful rulers can claim this title and enjoy almost the same authority as the First Dark Lord.;;;;;;;;;;;;;x
 THE_BLACK_BOOK;The Black Book;;;;;;;;;;;;;x
 THE_WHITE_BOOK;The White Book;;;;;;;;;;;;;x
 GOD_THE_DARK_LORD;Dark Lord;;;;;;;;;;;;;x
@@ -157,7 +157,7 @@ saint_resin;Follower of Saint Resin;;;;;;;;;;;;;x
 saint_oros;Follower of Saint Oros;;;;;;;;;;;;;x
 saint_neris;Follower of Saint Neris;;;;;;;;;;;;;x
 saint_lloris;Follower of Saint Lloris;;;;;;;;;;;;;x
-#DARK DWARVEN SCHOOLS
+#DARK Titan SCHOOLS
 EADREDESC.3;Created at the dawn of the civilization of the Titans, the Three Schools directs our society to a brighter future. Which of the Three Schools should I choose?;;;;;;;;;;;;;x
 dark_dwarven_school_1_a;The School Nchar-Ashdaar, The Aspect of Destruction!;;;;;;;;;;;;;x
 dark_dwarven_school_1_b;The School Nchuad-Ashdaar, The Aspect of Creation!;;;;;;;;;;;;;x

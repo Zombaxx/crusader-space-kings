@@ -1,10 +1,10 @@
 elven_opinion;Archaic Pantheon opinion;;;;;;;;;;;;;x
 elven_heresy_opinion;Cult of Kaine opinion;;;;;;;;;;;;;x
-high_elven_opinion;Aldari opinion;;;;;;;;;;;;;x
-dwarven_dawi_opinion;Khazuk opinion;;;;;;;;;;;;;x
-oruk_hai_opinion;Denisovan Hay opinion;;;;;;;;;;;;;x
-oruk_opinion;Orug Gar opinion;;;;;;;;;;;;;x
-blood_elven_opinion;Nagrathi opinion;;;;;;;;;;;;;x
+high_elven_opinion;Antecessor opinion;;;;;;;;;;;;;x
+dwarven_dawi_opinion;Neanderthal opinion;;;;;;;;;;;;;x
+oruk_hai_opinion;Thark opinion;;;;;;;;;;;;;x
+oruk_opinion;Torquas opinion;;;;;;;;;;;;;x
+blood_elven_opinion;Aes Sidhe opinion;;;;;;;;;;;;;x
 loyalty_to_traditions;Loyalty to traditions;;;;;;;;;;;;;x
 player_character_invasion_leader;Start playing as [Root.GetTitledName];;;;;;;;;;;;;x
 dark_elves_assassins_debt;Owns money to the assassins;;;;;;;;;;;;;x
@@ -21,9 +21,9 @@ scoiatael_robbery_raids_desc;A rare merchant can travel through this province wi
 scoiatael_ambushes;Partisan ambushes;;;;;;;;;;;;;x 
 scoiatael_ambushes_desc;The constant ambushes and attacks by local partisans groups requires constant presence of troops in this province and make the passage of large armies through this lands extremly difficult.;;;;;;;;;;;;;x 
 RETTYPE_CUL_CATHRIAN;Cathrian Sun Shields;;;;;;;;;;;;;x 
-RETTYPE_CUL_DWARVEN;Dwarven Warriors;;;;;;;;;;;;;x 
+RETTYPE_CUL_DWARVEN;Titan Warriors;;;;;;;;;;;;;x 
 RETTYPE_CUL_ELVEN;Archaic Phalanx;;;;;;;;;;;;;x 
-RETTYPE_CUL_DARK_ELVEN;Elohim Sand Striders;;;;;;;;;;;;;x 
+RETTYPE_CUL_DARK_ELVEN;Elohim Orphanims;;;;;;;;;;;;;x 
 RETTYPE_CUL_ORUK_HAY;Denisovan Hay Phalanx;;;;;;;;;;;;;x
 RETTYPE_CUL_ORUK_GAR;Denisovan Gar Warriors;;;;;;;;;;;;;x
 RULE_FANTASY_INVASION_INVASION_RANDOM_DESC;The Fantasy Invasion will occur at a random date, though at the earliest 50 years after the game is started.;;;;;;;;;;;;;x
@@ -36,13 +36,13 @@ RULE_FANTASY_INVASION_IMMEDIATLY;Immediatly;;;;;;;;;;;;;x
 RULE_FANTASY_INVASION_IMMEDIATLY_DESC;The Fantasy Invasion will occur right after the game start;;;;;;;;;;;;;x
 cruelly_drove_out_minority;Cruelly drove out minority;;;;;;;;;;x
 elven_tradepost;Archaic Tradepost;;;;;;;;;;x
-dwarven_tradepost;Dwarven Tradepost;;;;;;;;;;x
+dwarven_tradepost;Neanderthal Tradepost;;;;;;;;;;x
 dark_elven_tradepost;Elohim Tradepost;;;;;;;;;;x
-dark_dwarven_tradepost;Dark Dwarven Tradepost;;;;;;;;;;x
+dark_dwarven_tradepost;Titan Tradepost;;;;;;;;;;x
 cat_folk_tradepost;Cathrian Tradepost;;;;;;;;;;x
 elven_diaspora;Archaic Diaspora;;;;;;;;;;x
-dwarven_diaspora;Dwarven Diaspora;;;;;;;;;;x
+dwarven_diaspora;Neanderthal Diaspora;;;;;;;;;;x
 dark_elven_diaspora;Elohim Diaspora;;;;;;;;;;x
-dark_dwarven_diaspora;Dark Dwarven Diaspora;;;;;;;;;;x
+dark_dwarven_diaspora;Titan Diaspora;;;;;;;;;;x
 cat_folk_diaspora;Cathrian Diaspora;;;;;;;;;;x
-orc_diaspora;Orcish Diaspora;;;;;;;;;;x
+orc_diaspora;Denisovan Diaspora;;;;;;;;;;x

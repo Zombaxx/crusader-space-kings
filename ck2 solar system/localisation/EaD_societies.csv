@@ -36,17 +36,17 @@ the_cult_of_excess_recruit_desc;Attempt to find out whether Y[Root.GetTitledFirs
 
 ############### The Monster Hunters ###############
 warrior_lodge_dwarven;The Monster Hunters;;;;;;;;;;;;;x
-warrior_lodge_dwarven_desc;Monster Hunters are a group of dwarven warriors who hunted the most dangerous creatures of their homeworld - trolls, giants and even dragons. Although these dangerous creatures do not exist in the new world, Neanderthals can still gain honor and glory on the battlefield.;;;;;;;;;;;;;x
+warrior_lodge_dwarven_desc;Monster Hunters are a group of Neanderthal and Titan warriors who hunted the most dangerous creatures of their homelands - mammoths, sabertooth tigers, and even dinosaurs. Although these dangerous creatures are now extinct, Neanderthals and Titans can still gain honor and glory on the battlefield.;;;;;;;;;;;;;x
 currency_name_warrior_lodge_dwarven;Renown;;;;;;;;;;;;;x
 warrior_lodge_dwarven_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
-warrior_lodge_dwarven_rank_1_female;Hunter;;;;;;;;;;;;;x
-warrior_lodge_dwarven_rank_2_female;Trollhunter;;;;;;;;;;;;;x
-warrior_lodge_dwarven_rank_3_female;Gianthunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_1_female;Huntress;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_2_female;Sabertooth-hunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_3_female;Woolly-hunter;;;;;;;;;;;;;x
 warrior_lodge_dwarven_rank_4_female;Dragonhunter;;;;;;;;;;;;;x
 warrior_lodge_dwarven_rank_1_male;Hunter;;;;;;;;;;;;;x
-warrior_lodge_dwarven_rank_2_male;Trollhunter;;;;;;;;;;;;;x
-warrior_lodge_dwarven_rank_3_male;Gianthunter;;;;;;;;;;;;;x
-warrior_lodge_dwarven_rank_4_male;Dragonhunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_2_male;Tigerhunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_3_male;Mammoth-hunter;;;;;;;;;;;;;x
+warrior_lodge_dwarven_rank_4_male;Dinohunter;;;;;;;;;;;;;x
 warrior_lodge_dwarven_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;;x
 
 ############### Morai Sath Reth ###############

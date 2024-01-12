@@ -41,7 +41,7 @@ ARCHCANON_FOA;Your Eminence;;;;;;;;;x
 k_dark_elven_heresy_church;Church of True Triarchy;;;;;;;;;x
 k_dark_elven_heresy_church_adj;Triarchian;;;;;;;;;x
 k_dwarven_church;The Stone Church;;;;;;;;;x
-k_dwarven_church_adj;Dwarven;;;;;;;;;x
+k_dwarven_church_adj;Paleolithic;;;;;;;;;x
 HIGH_RUNEMASTER;High Runemaster;;;;;;;;;x
 HIGH_RUNEMASTER_FOA;The Wise One;;;;;;;;;x
 d_dwarven_dwemer_heresy_church;Nurutushian Church;;;;;;;;;x
@@ -52,13 +52,13 @@ HIGH_OVERSEER;High Overseer;;;;;;;;;x
 d_golden_eagle_guard;Golden Eagle Guard;;;;;;;;;x
 d_golden_eagle_guard_adj;Golden Eagle Guard;;;;;;;;;x
 d_lore_keepers;The Lorekeepers;;;;;;;;;x
-d_lore_keepers_adj;Dwarven;;;;;;;;;x
+d_lore_keepers_adj;Paleolithic;;;;;;;;;x
 d_guardians_of_knowledge;The Guardians of Knowledge;;;;;;;;;x
-d_guardians_of_knowledge_adj;Dwarven;;;;;;;;;x
+d_guardians_of_knowledge_adj;Paleolithic;;;;;;;;;x
 d_dark_elves_assassins;Shadows of Reth;;;;;;;;;x
 d_dark_elves_assassins_adj;Elven;;;;;;;;;x
 d_dwarven_dwemer_heresy_hashut_church;Temple of Hazhut;;;;;;;;;x
-d_dwarven_dwemer_heresy_hashut_church_adj;Dark Dwarven;;;;;;;;;x
+d_dwarven_dwemer_heresy_hashut_church_adj;Dark Titan;;;;;;;;;x
 SCHOLAST_MILITANT;Sholar-Militant;;;;;;;;;x
 HIGH_PRIEST;High Priest;;;;;;;;;x
 HIGH_PRIEST_FOA;Your Eminence;;;;;;;;;x

@@ -1,5 +1,5 @@
 EVTNAME_EADI_001;A Ships Out Of Nowhere;;;;;;;;;;;;;x
-EVTDESC_EADI_001;A strange tall people with pointed ears set foot on our shores today, having sailed on unusual ships, and tried to gain an audience. They arrived with gifts and unusual goods that no one had ever seen. None of the courtiers understood their strange, melodious language, but it seems that they wanted to buy land for themsArchaics in exchandge for they goods. Rejected, they seem to have become desperate and quickly set off out to sea, heading for a strange mist in the midst of the still waves, from which they appear to have arrived.;;;;;;;;;;;;;x
+EVTDESC_EADI_001;A strange tall people with uncannily graceful movements set foot on our shores today, having sailed on unusual ships, and tried to gain an audience. They arrived with gifts and unusual goods that no one had ever seen. None of the courtiers understood their strange, melodious language, but it seems that they wanted to buy land for themselves in exchandge for they goods. Rejected, they seem to have become desperate and quickly set off out to sea, heading for a strange mist in the midst of the still waves, from which they appear to have arrived.;;;;;;;;;;;;;x
 EVTOPTA_EADI_001;I have a bad feeling about this...;;;;;;;;;;;;;x
 EVTNAME_EADI_002;A Ships Out Of Nowhere;;;;;;;;;;;;;x
 EVTDESC_EADI_002;There are rumors of strange people with pointed ears mooring among the many worlds and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become more and more desperate, clearly planning to get what they want by force.;;;;;;;;;;;;;x
@@ -17,7 +17,7 @@ EVTNAME_EADI_006;A Gates In The Mountains;;;;;;;;;;;;;x
 EVTDESC_EADI_006;There are rumors that hunters have seen strange stone gates in the mountains, that have appeared out of nowhere. It is unknown who was able to build them unnoticed in such a short time, and many believe that they were placed here by magic. The gates are closed most of the time, but witnesses said they saw strange, stunted and bearded people coming out of them and quickly returned back if they were noticed.;;;;;;;;;;;;;x
 EVTOPTA_EADI_006;Nothing bad probably going to happen this time, right?;;;;;;;;;;;;;x
 EVTOPTA_EADI_006_F;So the Khazuk have escaped too...;;;;;;;;;;;;;x
-EVTNAME_EADI_008;The Dwarven Invasion;;;;;;;;;;;;;x
+EVTNAME_EADI_008;The Titan Invasion;;;;;;;;;;;;;x
 EVTDESC_EADI_007;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other worlds...;;;;;;;;;;;;;x
 EVTOPTA_EADI_007;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTDESCA_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Alpine Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other lands...;;;;;;;;;;;;;x
@@ -40,7 +40,7 @@ EVTNAME_EADI_013;A Second Gates;;;;;;;;;;;;;x
 EVTDESC_EADI_013;There are rumors that hunters have seen strange stone gates in the mountains, that have appeared out of nowhere. They are wery similar to the gates, that appear in other worlds, and the are rumors, that someone came out of this gates...;;;;;;;;;;;;;x
 EVTOPTA_EADI_013;Another army of "dwarves", huh?;;;;;;;;;;;;;x
 EVTOPTA_EADI_013_F;I had no doubt that they would appear.;;;;;;;;;;;;;x
-EVTNAME_EADI_015;The Dark Dwarven Invasion;;;;;;;;;;;;;x
+EVTNAME_EADI_015;The Dark Titan Invasion;;;;;;;;;;;;;x
 EVTDESC_EADI_015;Thousands of stunted warriors in bronze-like armor, armed with maces and axes, began to descend from the mountains, emerging from the mysterious stone gates. The way they arriwed is similar to the way of those "dwarves" in other lands...;;;;;;;;;;;;;x
 EVTOPTA_EADI_015;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTOPTA_EADI_015_F;Looks like their giant magic golem did work after all.;;;;;;;;;;;;;x
@@ -50,11 +50,11 @@ EADIDESC46;The once proud Kingdom of Aterillion is now in ruins, for the Archaic
 EVTOPTA_EADI_46_A;Good riddance!;;;;;;;;;;;;;x
 EVTOPTA_EADI_46_F;Oh, well.;;;;;;;;;;;;;x
 EADITITLE47;The Fall of Kharazd-Zhadum;;;;;;;;;;;;;x
-EADIDESC47;The once proud Kingdom of Kharazd-Zhadum is now in ruins, for the dwarven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Neanderthals who have nowhere to go.;;;;;;;;;;;;;x
+EADIDESC47;The once proud Kingdom of Kharazd-Zhadum is now in ruins, for the Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Neanderthals who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE48;The Fall of Damereth;;;;;;;;;;;;;x
 EADIDESC48;The once proud Kingdom of Damereth is now in ruins, for the Elohim forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Elohim who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE49;The Fall of Dwur Ashu'ur;;;;;;;;;;;;;x
-EADIDESC49;The once proud Kingdom of Dwur Ashu'ur is now in ruins, for the dark dwarven forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Titans who have nowhere to go.;;;;;;;;;;;;;x
+EADIDESC49;The once proud Kingdom of Dwur Ashu'ur is now in ruins, for the dark Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Titans who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE50;The Fall of Tar-Eremket;;;;;;;;;;;;;x
 EADIDESC50;The once proud Kingdom of Tar-Eremket is now in ruins, for the cathrian forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee cathrians who have nowhere to go.;;;;;;;;;;;;;x
 #
@@ -162,9 +162,9 @@ EVTOPTE_EADAW_7002_gold;With solemn prayers, I offer gold and jewelry to the alt
 #
 EVT_TITLE_EADOAD_4;A Growing Threat;;;;;;;;;;;;;x
 EVT_DESC_EADOAD_4_A;A landless Archaic noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_4_B;A landless dwarven noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_4_B;A landless Titan noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_C;A landless Elohim noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_4_D;A landless dark dwarven noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_4_D;A landless dark Titan noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_E;A landless cathrian noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_F;A landless blood Archaic noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 #
@@ -177,9 +177,9 @@ EVT_OPTA_EADOAD_10;Curious...;;;;;;;;;;;;;x
 #
 EVT_TITLE_EADOAD_9;A New Realm;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_A;After a long and bloody war, the Archaic forces were finally victorious. The leader of the Archaic army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_9_B;After a long and bloody war, the dwarven forces were finally victorious. The leader of the dwarven army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_9_B;After a long and bloody war, the Titan forces were finally victorious. The leader of the Titan army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_C;After a long and bloody war, the Elohim forces were finally victorious. The leader of the Elohim army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_9_D;After a long and bloody war, the dark dwarven forces were finally victorious. The leader of the dark dwarven army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_9_D;After a long and bloody war, the dark Titan forces were finally victorious. The leader of the dark Titan army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_E;After a long and bloody war, the cathrian forces were finally victorious. The leader of the cathrian army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_OPTA_EADOAD_9;This new realm won't last long;;;;;;;;;;;;;x 
 #
@@ -189,9 +189,9 @@ EVT_OPTA_EADOAD_11;Worrysome...;;;;;;;;;;;;;x
 #
 EVT_TITLE_EADOAD_13;Rise of the Adventurer;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_A;One landless Archaic nobleman managed to gather support of numerous other landless nobles and Archaic mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
-EVT_DESC_EADOAD_13_B;One landless leader of a dwarven clan managed to gather support of numerous other landless clans and dwarven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_B;One landless leader of a Titan clan managed to gather support of numerous other landless clans and Titan mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_C;One leader of a noble house of the Elohim managed to gather support of numerous other small noble houses and Elohim mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_D;One landless leader of a dark dwarven clan managed to gather support of numerous other landless clans and dark dwarven mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_D;One landless leader of a dark Titan clan managed to gather support of numerous other landless clans and dark Titan mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_E;One clan leader of the cathrian clan was able to gather support of numerous other clans and cathrian mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_F;One landless blood Archaic nobleman managed to gather support of numerous other landless nobles and Archaic mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
 EVT_DESC_EADOAD_13_G;One Denisovans warchief was able to gather support of numerous other Denisovans clans and mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
@@ -231,9 +231,9 @@ EADEM.5.desc;Our liege has decided to let otherworlden migrators settle into one
 EADEM.5.a;Does he prefer these filthy otherwordeners over me?!;;;;;;;;;;;;;x
 #Diaspora
 EVTDESCA_EADENCLAVE_2;A group of Archaic merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
-EVTDESCB_EADENCLAVE_2;A group of dwarven merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
+EVTDESCB_EADENCLAVE_2;A group of Titan merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCC_EADENCLAVE_2;A group of Elohim merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
-EVTDESCD_EADENCLAVE_2;A group of dark dwarven merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
+EVTDESCD_EADENCLAVE_2;A group of dark Titan merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCE_EADENCLAVE_2;A group of cathrian merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_2;Sure, they can establish they route.;;;;;;;;;;;;;x
 EVTOPTB_EADENCLAVE_2;I don't think so.;;;;;;;;;;;;;x
@@ -244,15 +244,15 @@ EVTDESC_EADENCLAVE_6;It seems that the traderoute established by Titans in one o
 EVTDESC_EADENCLAVE_7;It seems that the traderoute established by cathrians in one of our provinces have attracted a big amount of their kind. And althrough their numbers is relatively small, comparing to local populations, their presence is a common thing there now.;;;;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_3;I hope they don't cause any troubles.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_13;It seems that one of our Archaic vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Archaics now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_14;It seems that one of our dwarven vassals have attracted a big amount of their kind in his domain. There is sufficient population of the dwarven now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_14;It seems that one of our Titan vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Titan now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_15;It seems that one of our Elohim vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Elohim now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_16;It seems that one of our dark dwarven vassals have attracted a big amount of their kind in his domain. There is sufficient population of the dark dwarven now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_16;It seems that one of our dark Titan vassals have attracted a big amount of their kind in his domain. There is sufficient population of the dark Titan now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_47;It seems that one of our Denisovanish vassals have attracted a big amount of their kind in his domain. There is sufficient population of the cathrians now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_17;I hope they don't cause any troubles.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_20;As the population of the province has become majority Archaic, the Archaic diaspora has melded into the wider population.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_21;As the population of the province has become majority dwarven, the dwarven diaspora has melded into the wider population.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_21;As the population of the province has become majority Titan, the Titan diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_22;As the population of the province has become majority Elohim, the Elohim diaspora has melded into the wider population.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_23;As the population of the province has become majority dark dwarven, the dark dwarven diaspora has melded into the wider population.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_23;As the population of the province has become majority dark Titan, the dark Titan diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_24;As the population of the province has become majority cathrian, the cathrian diaspora has melded into the wider population.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_20;Okay.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_25;A community of Archaics has become established within your province, will you allow them to remain?;;;;;;;;;;x
@@ -264,20 +264,20 @@ EVTDESC_EADENCLAVE_44;A community of Denisovans has become established within yo
 EVTOPTA_EADENCLAVE_25;They may stay.;;;;;;;;;;x
 EVTOPTB_EADENCLAVE_25;Drive them from their camps and seize their goods!;;;;;;;;;;x
 EVTDESC_EADENCLAVE_30;The minority Archaic population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_31;The minority dwarven population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_31;The minority Titan population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_32;The minority Elohim population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_33;The minority dark dwarven population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_33;The minority dark Titan population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_34;The minority cathrian population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_45;The minority Denisovanish population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_30;Okay.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_35;Welcome Brother!;;;;;;;;;x
-EVTDESC_EADENCLAVE_35;A petty Aldari Archaic noble, fleeing persecution elsewhere, has showed up at your court. His time spent abroad has gifted him with many connections, and by all accounts he is an able diplomat. He would make a fine chancellor.;;;;;;;;;x
-EVTDESC_EADENCLAVE_36;A mysterious Nagrathi Archaic assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
-EVTDESC_EADENCLAVE_37;A mysterious Dameri Archaic assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
-EVTDESC_EADENCLAVE_38;A learned Khazuk Neanderthal has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
-EVTDESC_EADENCLAVE_39;A robust Khazuk Neanderthal Warrior has offered his services at your court. He is well-versed in military strategy and has a past a mercenary. If he can be trusted, he could very well prove to be an indispensable asset to your military forces.;;;;;;;;;x
-EVTDESC_EADENCLAVE_40;A Dwurush Neanderthal Scholar has arrived at your court offering his services. He is a very learned man and would make an excellent court physician if he can be trusted.;;;;;;;;;x
-EVTDESC_EADENCLAVE_41;A learned Dwurush Neanderthal has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
-EVTDESC_EADENCLAVE_42;A robust Velori Warrior has offered his services at your court. He is well-versed in military strategy and has a past a mercenary. If he can be trusted, he could very well prove to be an indispensable asset to your military forces.;;;;;;;;;x
+EVTDESC_EADENCLAVE_35;A petty Antecessor Archaic noble, fleeing persecution elsewhere, has showed up at your court. His time spent abroad has gifted him with many connections, and by all accounts he is an able diplomat. He would make a fine chancellor.;;;;;;;;;x
+EVTDESC_EADENCLAVE_36;A mysterious Aes Sidhe Archaic assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
+EVTDESC_EADENCLAVE_37;A mysterious Archaeon assassin has offered his services at your court. He is well-versed in feudal court intrigue and has a past as both a assassin and a spy. If he can be trusted, he could very well prove to be an indispensable asset in your council...;;;;;;;;;x
+EVTDESC_EADENCLAVE_38;A learned Neanderthal has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
+EVTDESC_EADENCLAVE_39;A robust Neanderthal Warrior has offered his services at your court. He is well-versed in military strategy and has a past a mercenary. If he can be trusted, he could very well prove to be an indispensable asset to your military forces.;;;;;;;;;x
+EVTDESC_EADENCLAVE_40;A Titan Scholar has arrived at your court offering his services. He is a very learned man and would make an excellent court physician if he can be trusted.;;;;;;;;;x
+EVTDESC_EADENCLAVE_41;A learned Titan has appeared at your court. He comes highly recommended in the arts of bookkeeping and administration. Already he has suggested several ways of improving the bureaucratic efficiency of the realm, and he could potentially make a fine steward.;;;;;;;;;x
+EVTDESC_EADENCLAVE_42;A robust Aeon Warrior has offered his services at your court. He is well-versed in military strategy and has a past a mercenary. If he can be trusted, he could very well prove to be an indispensable asset to your military forces.;;;;;;;;;x
 EVTDESC_EADENCLAVE_43;A wealthy Cathrian Merchant has arrived at your court. He is learned in the ways of general stewardship and money management and he will be a valuable asset to your realm. He has additionally has offered you a gift of gold.;;;;;;;;;x
 EVTOPTA_EADENCLAVE_13;Interesting...;;;;;;;;;;x
