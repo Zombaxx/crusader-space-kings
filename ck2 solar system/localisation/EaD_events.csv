@@ -1,15 +1,15 @@
 EVTNAME_EADI_001;A Ships Out Of Nowhere;;;;;;;;;;;;;x
-EVTDESC_EADI_001;A strange tall people with uncannily graceful movements set foot on our shores today, having sailed on unusual ships, and tried to gain an audience. They arrived with gifts and unusual goods that no one had ever seen. None of the courtiers understood their strange, melodious language, but it seems that they wanted to buy land for themselves in exchandge for they goods. Rejected, they seem to have become desperate and quickly set off out to sea, heading for a strange mist in the midst of the still waves, from which they appear to have arrived.;;;;;;;;;;;;;x
+EVTDESC_EADI_001;A strange tall people with uncannily graceful movements set foot on our shores today, having sailed on unusual chrome ships, and tried to gain an audience. They arrived with gifts and unusual goods that no one had ever seen. None of the courtiers understood their strange, melodious language, but it seems that they wanted to buy land for themselves in exchandge for they goods. Rejected, they seem to have become desperate and quickly set off out to sea, heading for a strange mist in the midst of the still waves, from which they appear to have arrived.;;;;;;;;;;;;;x
 EVTOPTA_EADI_001;I have a bad feeling about this...;;;;;;;;;;;;;x
 EVTNAME_EADI_002;A Ships Out Of Nowhere;;;;;;;;;;;;;x
-EVTDESC_EADI_002;There are rumors of strange people with pointed ears mooring among the many worlds and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become more and more desperate, clearly planning to get what they want by force.;;;;;;;;;;;;;x
-EVTOPTA_EADI_002;Hah! - A Fantasy Menace.;;;;;;;;;;;;;x
+EVTDESC_EADI_002;There are rumors of strange people uncannily graceful movements mooring among the many worlds and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become more and more desperate, clearly planning to get what they want by force.;;;;;;;;;;;;;x
+EVTOPTA_EADI_002;Hah! - An Archaic Menace.;;;;;;;;;;;;;x
 EVTNAME_EADI_004;Invasion From Another World;;;;;;;;;;;;;x
-EVTDESC_EADI_003;A huge fleet emerged from the fog of the sea. Countless legions of warriors in shining armor set foot on the shores, and lined up in battle formations, began to march towards our cities and castles!;;;;;;;;;;;;;x
+EVTDESC_EADI_003;A huge fleet emerged from the ether of the celestial. Countless legions of warriors in shining armor set foot on the shores, and lined up in battle formations, began to march towards our cities and castles!;;;;;;;;;;;;;x
 EVTOPTA_EADI_003;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
-EVTDESCA_EADI_004;Thousands of strange ships arrived to the shores of Britain, spewing out countless legions of pointed-eared warriors in shinig armor stepped ashore. It is not known where they came from, for their appearance and language are not described anywhere in our scriptures, and some believe that these foreigners came from another world...;;;;;;;;;;;;;x
-EVTDESCB_EADI_004;Thousands of strange ships arrived to the shores of Brttany, spewing out countless legions of pointed-eared warriors in shinig armor stepped ashore. It is not known where they came from, for their appearance and language are not described anywhere in our scriptures, and some believe that these foreigners came from another world...;;;;;;;;;;;;;x
-EVTDESCC_EADI_004;Thousands of strange ships arrived to the shores of Germany, spewing out countless legions of pointed-eared warriors in shinig armor stepped ashore. It is not known where they came from, for their appearance and language are not described anywhere in our scriptures, and some believe that these foreigners came from another world...;;;;;;;;;;;;;x
+EVTDESCA_EADI_004;Thousands of strange ships arrived to the shores, spewing out countless legions of pointed-eared warriors in shinig armor stepped ashore. It is not known where they came from, for their appearance and language are not described anywhere in our scriptures, and some believe that these foreigners came from another world...;;;;;;;;;;;;;x
+EVTDESCB_EADI_004;Thousands of strange ships arrived to the shores, spewing out countless legions of pointed-eared warriors in shinig armor stepped ashore. It is not known where they came from, for their appearance and language are not described anywhere in our scriptures, and some believe that these foreigners came from another world...;;;;;;;;;;;;;x
+EVTDESCC_EADI_004;Thousands of strange ships arrived to the shores, spewing out countless legions of pointed-eared warriors in shinig armor stepped ashore. It is not known where they came from, for their appearance and language are not described anywhere in our scriptures, and some believe that these foreigners came from another world...;;;;;;;;;;;;;x
 EVTOPTA_EADI_004;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTDESC_EADI_005;There are rumors that hunters have seen strange stone gates in the mountains, that have appeared out of nowhere. It is unknown who was able to build them unnoticed in such a short time, and many believe that they were placed here by magic. The gates are closed most of the time, but witnesses said they saw strange, stunted and bearded people coming out of them and quickly returned back if they were noticed.;;;;;;;;;;;;;x
 EVTOPTA_EADI_005;This is definitely not good...;;;;;;;;;;;;;x
@@ -23,25 +23,25 @@ EVTOPTA_EADI_007;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTDESCA_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Alpine Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other lands...;;;;;;;;;;;;;x
 EVTDESCB_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Carpathian Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other lands...;;;;;;;;;;;;;x
 EVTDESCC_EADI_008;Thousands of stunted, bearded warriors, armed with spears and axes, began to descend from the Ural Mountains, emerging from the mysterious stone gates. It seems that these mysterious bearded men came with the help of magic from the same world as the pointed-eared people ravaging the shores of other lands...;;;;;;;;;;;;;x
-EVTOPTA_EADI_008;As if these "elves" were not enough!;;;;;;;;;;;;;x
+EVTOPTA_EADI_008;As if these "Archaic" were not enough!;;;;;;;;;;;;;x
 EVTOPTA_EADI_008_F;I thought they would be too stubborn for run away...;;;;;;;;;;;;;x
-EVTNAME_EADI_009;A Ships From The South;;;;;;;;;;;;;x
-EVTDESC_EADI_009;There are rumors of strange people with gray skin mooring to the shores of Arabia and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become furious, clearly planning to get what they want by force.;;;;;;;;;;;;;x
+EVTNAME_EADI_009;A Ships From The Sky;;;;;;;;;;;;;x
+EVTDESC_EADI_009;There are rumors of strange people with gray skin mooring to the shores of other lands and trying to buy land from local rulers in exchange for unusual goods. Being rejected over and over again, they become furious, clearly planning to get what they want by force.;;;;;;;;;;;;;x
 EVTOPTA_EADI_009;Is another Archaic fleet coming?;;;;;;;;;;;;;x
 EVTOPTA_EADI_009_F;Looks like Dameri also escaping...;;;;;;;;;;;;;x
-EVTDESC_EADI_010;A huge fleet emerged from the fog of the sea. Countless legions of warriors in gilded armor made of bones set foot on the shores, and lined up in battle formations, began to march towards our cities and castles!;;;;;;;;;;;;;x
+EVTDESC_EADI_010;A huge fleet emerged from the ether of the celestial. Countless legions of warriors in gilded armor made of bones set foot on the shores, and lined up in battle formations, began to march towards our cities and castles!;;;;;;;;;;;;;x
 EVTNAME_EADI_011;The Elohim Invasion;;;;;;;;;;;;;x
 EVTOPTA_EADI_010;When it will end?;;;;;;;;;;;;;x
 EVTNAME_EADI_011;The Elohim Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_011;Thousands of strange ships arrived to the shores of Arabian Peninsula, spewing out countless legions of pointed-eared warriors in gilded armor made from bones stepped ashore. It seems that these gray-skined people came with the help of magic from the same world as the pointed-eared people and stunted creatures, that wage wars in other lands.;;;;;;;;;;;;;x
+EVTDESC_EADI_011;Thousands of strange ships arrived to the shores of other lands, spewing out countless legions of pointed-eared warriors in gilded armor made from bones stepped ashore. It seems that these gray-skined people came with the help of magic from the same world as the pointed-eared people and stunted creatures, that wage wars in other lands.;;;;;;;;;;;;;x
 EVTOPTA_EADI_011;When will these invasions end?;;;;;;;;;;;;;x
 EVTOPTA_EADI_011_F;And I kept thinking, when will they show up?;;;;;;;;;;;;;x
 EVTNAME_EADI_013;A Second Gates;;;;;;;;;;;;;x
 EVTDESC_EADI_013;There are rumors that hunters have seen strange stone gates in the mountains, that have appeared out of nowhere. They are wery similar to the gates, that appear in other worlds, and the are rumors, that someone came out of this gates...;;;;;;;;;;;;;x
-EVTOPTA_EADI_013;Another army of "dwarves", huh?;;;;;;;;;;;;;x
+EVTOPTA_EADI_013;Another invading army, and this time attacks from "Titans", huh?;;;;;;;;;;;;;x
 EVTOPTA_EADI_013_F;I had no doubt that they would appear.;;;;;;;;;;;;;x
-EVTNAME_EADI_015;The Dark Titan Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_015;Thousands of stunted warriors in bronze-like armor, armed with maces and axes, began to descend from the mountains, emerging from the mysterious stone gates. The way they arriwed is similar to the way of those "dwarves" in other lands...;;;;;;;;;;;;;x
+EVTNAME_EADI_015;The Titan Invasion;;;;;;;;;;;;;x
+EVTDESC_EADI_015;Thousands of stunted warriors in bronze-like armor, armed with maces and axes, began to descend from the mountains, emerging from the mysterious stone gates. The way they arriwed is similar to the way of those "Neanderthals" in other lands...;;;;;;;;;;;;;x
 EVTOPTA_EADI_015;[This.Religion.GetRandomGodNameCap] have Mercy!;;;;;;;;;;;;;x
 EVTOPTA_EADI_015_F;Looks like their giant magic golem did work after all.;;;;;;;;;;;;;x
 #Realm Fallen Events
@@ -53,7 +53,7 @@ EADIDESC47;The once proud Kingdom of Neandera now in ruins, for the Titan forces
 EADITITLE48;The Fall of Hyperborea;;;;;;;;;;;;;x
 EADIDESC48;The once proud Kingdom of Hyperborea is now in ruins, for the Elohim forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Elohim who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE49;The Fall of Titania;;;;;;;;;;;;;x
-EADIDESC49;The once proud Kingdom of Titania is now in ruins, for the dark Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Titans who have nowhere to go.;;;;;;;;;;;;;x
+EADIDESC49;The once proud Kingdom of Titania is now in ruins, for the Titan forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee Titans who have nowhere to go.;;;;;;;;;;;;;x
 EADITITLE50;The Fall of Tar-Eremket;;;;;;;;;;;;;x
 EADIDESC50;The once proud Kingdom of Tar-Eremket is now in ruins, for the cathrian forces have been completely defeated by the defenders of the human kingdoms. The roads are full of refugee cathrians who have nowhere to go.;;;;;;;;;;;;;x
 #
@@ -68,11 +68,11 @@ EVTOPTA_EADI_017_F;Soon their merchants will again flood the whole world...;;;;;
 #
 EADITITLE36;The Realm of the Archaics;;;;;;;;;;;;;x 
 EADIDESC36;Overcoming the resistance of local rulers, the Archaics conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
-EVTOPTA_EADI_36_A;These "elves" won't last long.;;;;;;;;;;;;;x
+EVTOPTA_EADI_36_A;These "Archaic" won't last long.;;;;;;;;;;;;;x
 EVTOPTA_EADI_36_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EADITITLE37;The Realm of the Neanderthals;;;;;;;;;;;;;x 
 EADIDESC37;Overcoming the resistance of local rulers, the Neanderthals conquered the kingdom on another world. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
-EVTOPTA_EADI_37_A;I am sure that sooner or later these "dwarves" will be defeated.;;;;;;;;;;;;;x  
+EVTOPTA_EADI_37_A;I am sure that sooner or later these "Neanderthals" will be defeated.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_37_F;Stubborn beardies are not so easy to expel.;;;;;;;;;;;;;x
 EVTOPTA_EADI_37_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTA_EADI_37_B_F;Sometimes, I wonder if I was a Neanderthal...;;;;;;;;;;;;;x
@@ -95,19 +95,19 @@ EVTOPTA_EADI_40_F;So, they has finally found their "Blessed Sands"?;;;;;;;;;;;;;
 EVTOPTA_EADI_40_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
 EVTOPTA_EADI_40_B_F;Sometimes I wonder if I was a Cathrian...;;;;;;;;;;;;;x
 EVTNAME_EADI_051;The Sundering;;;;;;;;;;;;;x
-EVTDESC_EADI_051;It seems that peoples from another world are not as united as they seem. The tribes of nomads of the Elohim - Velori, who came along with the sedentary city Archaics - Dameri, no longer intend to live with them due to cultural and religious differences. Hearing about the great steppes to the north, the Velori tribes set out to move, hoping to find a new home in these steppes.;;;;;;;;;;;;;x  
+EVTDESC_EADI_051;It seems that peoples from another world are not as united as they seem. The tribes of nomads of the Elohim - Aeon, who came along with the sedentary city Archaics - Dameri, no longer intend to live with them due to cultural and religious differences. Hearing about the great steppes to the north, the Aeon tribes set out to move, hoping to find a new home in these steppes.;;;;;;;;;;;;;x  
 EVTOPTA_EADI_051;I don't like where this is going...;;;;;;;;;;;;;x
 EVTOPTA_EADI_051_F;And do never come back, you heretics!;;;;;;;;;;;;;x
 EVTNAME_EADI_052;The Migration to Dagestan;;;;;;;;;;;;;x
-EVTDESC_EADI_052;The Velori tribes ended their migration by crossing the mountains of Caucasus and arriving in the steppes. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTDESC_EADI_052;The Aeon tribes ended their migration by crossing the mountains of Caucasus and arriving in the steppes. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 EVTOPTA_EADI_052;Yet another invasion. I'm tired of those...;;;;;;;;;;;;;x
 EVTOPTA_EADI_052_F;Interesting...;;;;;;;;;;;;;x
-EVTNAME_EADI_053;The Migration to Aral;;;;;;;;;;;;;x
-EVTDESC_EADI_053;The Velori tribes ended their migration. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x   
-EVTNAME_EADI_054;The Migration to Cumania;;;;;;;;;;;;;x
-EVTDESC_EADI_054;The Velori tribes ended their migration. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
+EVTNAME_EADI_053;The Migration;;;;;;;;;;;;;x
+EVTDESC_EADI_053;The Aeon tribes ended their migration. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x   
+EVTNAME_EADI_054;The Migration;;;;;;;;;;;;;x
+EVTDESC_EADI_054;The Aeon tribes ended their migration. They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
 EVTNAME_EADI_055;The Migration to Caspian Sea;;;;;;;;;;;;;x
-EVTDESC_EADI_055;The Velori tribes ended their migration . They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
+EVTDESC_EADI_055;The Aeon tribes ended their migration . They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x
 EVTNAME_EADI_059;The Sundering;;;;;;;;;;;;;x
 EVTDESC_EADI_059;It seems that peoples from another world are not as united as they seem. Recently, Archaic inquisitors discovered a large group of followers of the Cult of Kaine. The cultists, without waiting for them all to be killed, have quickly embarked on ships and left the lands of the Archaics. They intend to build their kingdom where they can freely practice their horrific religion.;;;;;;;;;;;;;x
 EVTNAME_EADI_060;World Invaded!;;;;;;;;;;;;;x
@@ -115,46 +115,46 @@ EVTDESC_EADI_060;The Cultists of Kaine, that was expelled from the lands of the 
 EVTNAME_EADI_061;World Invaded!;;;;;;;;;;;;;x
 EVTDESC_EADI_061;The Cultists of Kaine, that was expelled from the lands of the Archaics, have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 EADITITLE64;The Realm of the Blood Archaics;;;;;;;;;;;;;x
-EADIDESC64;Overcoming the resistance of local rulers, the blood Archaics have conquered the kingdom. A huge number of Nagrathi settlers have settled these lands, and although some of the local population and feudal lords may have survived in the slaughter, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
-EADITITLE94;The Realm of Denisovan Hay;;;;;;;;;;;;;x
-EADIDESC94;Overcoming the resistance of local rulers, the Denisovan Hay conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
-EVTOPTA_EADI_94_A;Let's hope that those "oruks" will soon be defeated.;;;;;;;;;;;;;x
+EADIDESC64;Overcoming the resistance of local rulers, the blood Archaics have conquered the kingdom. A huge number of Archaic settlers have settled these lands, and although some of the local population and feudal lords may have survived in the slaughter, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EADITITLE94;The Realm of Denisovan Dark Lord;;;;;;;;;;;;;x
+EADIDESC94;Overcoming the resistance of local rulers, the Denisovan conquered the kingdom in the name of their Dark Lord. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x 
+EVTOPTA_EADI_94_A;Let's hope that those "Denisovan" will soon be defeated.;;;;;;;;;;;;;x
 EVTOPTA_EADI_94_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTA_EADI_94_B_F;I wonder if I was an Denisovan Hay...;;;;;;;;;;;;;x
+EVTOPTA_EADI_94_B_F;I wonder if I was an Denisovan of the Dark Lord...;;;;;;;;;;;;;x
 EVTOPTA_EADI_64_A;Let's hope that those "blood Archaics" will soon be defeated.;;;;;;;;;;;;;x
 EVTOPTB_EADI_64_A;I was hoping that they would be defeated.;;;;;;;;;;;;;x
 EVTOPTA_EADI_64_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTB_EADI_64_B;I wonder if I was a Nagrathi...;;;;;;;;;;;;;x
-EADITITLE65;The Realm of Velori;;;;;;;;;;;;;x
-EADIDESC65;Overcoming the resistance of local rulers, the Velori tribes have conquered the kingdom in the lands of Great Steppes. And although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x
+EVTOPTB_EADI_64_B;I wonder if I was an Archaic...;;;;;;;;;;;;;x
+EADITITLE65;The Realm of Aeons;;;;;;;;;;;;;x
+EADIDESC65;Overcoming the resistance of local rulers, the Aeon tribes have conquered the kingdom in the lands of Great Steppes. And although some of the local population and feudal lords remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x
 EVTOPTA_EADI_65_A;Let's hope that those nomads will soon be defeated.;;;;;;;;;;;;;x
 EVTOPTB_EADI_65_A;Interesting...;;;;;;;;;;;;;x
 EVTOPTA_EADI_65_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTB_EADI_65_B;I wonder if I was a Velori...;;;;;;;;;;;;;x
-EVTNAME_EADI_082;The Dark Gates;;;;;;;;;;;;;x
-EVTDESC_EADI_082;A huge stone arch, whose passage is covered with a strange green veil, appeared out of nowhere among the steppes of the far east. No one has yet dared to look behind this gate, but those who were brave enough to come closer to the gate swear that they heard the drums of war and the noise of a huge army encamped on the other side.;;;;;;;;;;;;;x
+EVTOPTB_EADI_65_B;I wonder if I was a Aeon...;;;;;;;;;;;;;x
+EVTNAME_EADI_082;The Endless Ornate Tunnels;;;;;;;;;;;;;x
+EVTDESC_EADI_082;A seemingly endless ornate tunnel, whose passage is covered with strange green geometric patterns, has seemingly activated into a portal from deep within the caverns. No one has yet dared to look behind this gate, but those who were brave enough to come closer to the gate swear that they heard the drums of war and the noise of a huge army encamped on the other side.;;;;;;;;;;;;;x
 EVTOPTA_EADI_082;Oh, for [This.Religion.GetRandomGodNameCap] sake!;;;;;;;;;;;;;x
 EVTOPTA_EADI_082_F;Oh. Denisovans.;;;;;;;;;;;;;x
-EVTNAME_EADI_083;The Denisovans Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_083;Those who hastened to move away from the mysterious gigantic gates acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Denisovans seem to have come from the same world as the Archaics, Neanderthals and Cathrians.;;;;;;;;;;;;;x
+EVTNAME_EADI_083;The Denisovan Invasion;;;;;;;;;;;;;x
+EVTDESC_EADI_083;Those who hastened to move away from the mysterious ornate tunnel acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Denisovans seem to have come from the same world as the Archaics, Neanderthals and Cathrians.;;;;;;;;;;;;;x
 EVTOPTA_EADI_083;I'm tired of this.;;;;;;;;;;;;;x
 EVTOPTA_EADI_083_F;I hoped they wouldn't follow us...;;;;;;;;;;;;;x
-EVTNAME_EADI_084;The Denisovans Invasion;;;;;;;;;;;;;x
-EVTDESC_EADI_084;Those who hastened to move away from the mysterious gigantic gates acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Denisovans seem to have come from the same world as the Archaics, Neanderthals and Cathrians.;;;;;;;;;;;;;x
-EADITITLE87;The Realm of Denisovans;;;;;;;;;;;;;x
+EVTNAME_EADI_084;The Denisovan Invasion;;;;;;;;;;;;;x
+EVTDESC_EADI_084;Those who hastened to move away from the mysterious ornate tunnel acted wisely, because a gigantic army of green-skinned creatures poured out from there. These so-called Denisovans seem to have come from the same world as the Archaics, Neanderthals and Cathrians.;;;;;;;;;;;;;x
+EADITITLE87;The Realm of Denisovan;;;;;;;;;;;;;x
 EADIDESC87;Overcoming the resistance of local rulers, the Archaics conquered the kingdom. A huge number of settlers from the homeworld of these creatures settled these lands, and although some of the local population and feudal lords may remained on their lands, it is unlikely that they will be able to resist the forces of the invaders.;;;;;;;;;;;;;x  
-EVTOPTA_EADI_87_A;These "orcs" surely will be defeated;;;;;;;;;;;;;x
+EVTOPTA_EADI_87_A;These "Denisovan" surely will be defeated;;;;;;;;;;;;;x
 EVTOPTB_EADI_87_A;Well, my condolences to their neighbors.;;;;;;;;;;;;;x
 EVTOPTA_EADI_87_B;I wonder how it feels to guide your people in a completely alien world?;;;;;;;;;;;;;x
-EVTOPTB_EADI_87_B;I wonder if I was an Denisovan...;;;;;;;;;;;;;x
+EVTOPTB_EADI_87_B;I wonder if I was a Denisovan...;;;;;;;;;;;;;x
 EADITITLE88;The Fall of the Denisovan Horde;;;;;;;;;;;;;x
 EADIDESC88;The once proud Denisovan Horde is no more now, for the Denisovans forces have been completely defeated by the defenders of the human realms. The roads are full of refugee Denisovans who have nowhere to go.;;;;;;;;;;;;;x
 EVTNAME_EADI_089;The Sundering;;;;;;;;;;;;;x
-EVTDESC_EADI_089;It seems that peoples from another world are not as united as they seem. The people of Denisovan Hay, who came along with their nomadic brothers - Denisovan Gar, no longer intend to live with them due to cultural differences and way of life. Hearing about rich lands of south, the Denisovan Hai armies set out to move, hoping to rebuild their own ancient empire in these lands.;;;;;;;;;;;;;x  
-EVTNAME_EADI_090;The Denisovan Hay March;;;;;;;;;;;;;x
-EVTDESC_EADI_090;The Denisovan Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
-EVTNAME_EADI_091;The Denisovan Hay March;;;;;;;;;;;;;x
-EVTDESC_EADI_091;The Denisovan Hay armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTDESC_EADI_089;It seems that peoples from another world are not as united as they seem. The people of the Denisovan Dark Lord, who came along with their nomadic brothers - the Denisovan of the Ancient Ways, no longer intend to live with them due to cultural differences and way of life. Hearing about rich worlds across the Solar System, the Dark Lord's armies set out to move, hoping to rebuild their own ancient empire in these lands.;;;;;;;;;;;;;x  
+EVTNAME_EADI_090;The Denisovan of the Dark Lord March;;;;;;;;;;;;;x
+EVTDESC_EADI_090;The Dark Lord's armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
+EVTNAME_EADI_091;The Denisovan of the Dark Lord March;;;;;;;;;;;;;x
+EVTDESC_EADI_091;The Dark Lord's armies have reached their destination! They immediately launched a war against the local rulers, seeking to conquer this land for their people.;;;;;;;;;;;;;x 
 #
 EVTOPTE_EADAW_7001;Gold and jewelry, to appease with gifts from the depths of the earth!;;;;;;;;;;;;;x 
 EVTOPTE_EADAW_7002_gold;With solemn prayers, I offer gold and jewelry to the altar of my ancestors. Having consecrated the offerings, the priest takes the jewelry and lowers them into a specially dug grave so that it can enter the world of the dead.;;;;;;;;;;;;;x 
@@ -163,7 +163,7 @@ EVT_TITLE_EADOAD_4;A Growing Threat;;;;;;;;;;;;;x
 EVT_DESC_EADOAD_4_A;A landless Archaic noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_B;A landless Titan noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_C;A landless Elohim noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_4_D;A landless dark Titan noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_4_D;A landless Titan noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_E;A landless cathrian noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_4_F;A landless blood Archaic noble-born, having gathered sufficient support from his kindred, is preparing to attack you! He wants to seize your lands in order to build an independent kingdom for his people.;;;;;;;;;;;;;x 
 #
@@ -178,7 +178,7 @@ EVT_TITLE_EADOAD_9;A New Realm;;;;;;;;;;;;;x
 EVT_DESC_EADOAD_9_A;After a long and bloody war, the Archaic forces were finally victorious. The leader of the Archaic army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_B;After a long and bloody war, the Titan forces were finally victorious. The leader of the Titan army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_C;After a long and bloody war, the Elohim forces were finally victorious. The leader of the Elohim army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_9_D;After a long and bloody war, the dark Titan forces were finally victorious. The leader of the dark Titan army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_9_D;After a long and bloody war, the Titan forces were finally victorious. The leader of the Titan army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_9_E;After a long and bloody war, the cathrian forces were finally victorious. The leader of the cathrian army, [Root.GetDynName], was crowned [Root.GetTitle] of the new empire of [Root.PrimaryTitle.GetFullName].;;;;;;;;;;;;;x 
 EVT_OPTA_EADOAD_9;This new realm won't last long;;;;;;;;;;;;;x 
 #
@@ -190,7 +190,7 @@ EVT_TITLE_EADOAD_13;Rise of the Adventurer;;;;;;;;;;;;;x
 EVT_DESC_EADOAD_13_A;One landless Archaic nobleman managed to gather support of numerous other landless nobles and Archaic mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
 EVT_DESC_EADOAD_13_B;One landless leader of a Titan clan managed to gather support of numerous other landless clans and Titan mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_C;One leader of a noble house of the Elohim managed to gather support of numerous other small noble houses and Elohim mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
-EVT_DESC_EADOAD_13_D;One landless leader of a dark Titan clan managed to gather support of numerous other landless clans and dark Titan mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
+EVT_DESC_EADOAD_13_D;One landless leader of a Titan clan managed to gather support of numerous other landless clans and Titan mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms of the Middle East in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_E;One clan leader of the cathrian clan was able to gather support of numerous other clans and cathrian mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
 EVT_DESC_EADOAD_13_F;One landless blood Archaic nobleman managed to gather support of numerous other landless nobles and Archaic mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x  
 EVT_DESC_EADOAD_13_G;One Denisovans warchief was able to gather support of numerous other Denisovans clans and mercenaries. Gathering an impressive army, this adventurer plans to conquer one of the kingdoms in order to establish an independent realm for his people.;;;;;;;;;;;;;x 
@@ -232,7 +232,7 @@ EADEM.5.a;Does he prefer these filthy otherwordeners over me?!;;;;;;;;;;;;;x
 EVTDESCA_EADENCLAVE_2;A group of Archaic merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCB_EADENCLAVE_2;A group of Titan merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCC_EADENCLAVE_2;A group of Elohim merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
-EVTDESCD_EADENCLAVE_2;A group of dark Titan merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
+EVTDESCD_EADENCLAVE_2;A group of Titan merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTDESCE_EADENCLAVE_2;A group of cathrian merchants have arrived at your court. Apparently, they want to establish a trade route to your province an humbly asking for your permission.;;;;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_2;Sure, they can establish they route.;;;;;;;;;;;;;x
 EVTOPTB_EADENCLAVE_2;I don't think so.;;;;;;;;;;;;;x
@@ -245,13 +245,13 @@ EVTOPTA_EADENCLAVE_3;I hope they don't cause any troubles.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_13;It seems that one of our Archaic vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Archaics now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_14;It seems that one of our Titan vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Titan now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_15;It seems that one of our Elohim vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Elohim now.;;;;;;;;;;;;;x
-EVTDESC_EADENCLAVE_16;It seems that one of our dark Titan vassals have attracted a big amount of their kind in his domain. There is sufficient population of the dark Titan now.;;;;;;;;;;;;;x
+EVTDESC_EADENCLAVE_16;It seems that one of our Titan vassals have attracted a big amount of their kind in his domain. There is sufficient population of the Titan now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_47;It seems that one of our Denisovanish vassals have attracted a big amount of their kind in his domain. There is sufficient population of the cathrians now.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_17;I hope they don't cause any troubles.;;;;;;;;;;;;;x
 EVTDESC_EADENCLAVE_20;As the population of the province has become majority Archaic, the Archaic diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_21;As the population of the province has become majority Titan, the Titan diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_22;As the population of the province has become majority Elohim, the Elohim diaspora has melded into the wider population.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_23;As the population of the province has become majority dark Titan, the dark Titan diaspora has melded into the wider population.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_23;As the population of the province has become majority Titan, the Titan diaspora has melded into the wider population.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_24;As the population of the province has become majority cathrian, the cathrian diaspora has melded into the wider population.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_20;Okay.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_25;A community of Archaics has become established within your province, will you allow them to remain?;;;;;;;;;;x
@@ -265,7 +265,7 @@ EVTOPTB_EADENCLAVE_25;Drive them from their camps and seize their goods!;;;;;;;;
 EVTDESC_EADENCLAVE_30;The minority Archaic population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_31;The minority Titan population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_32;The minority Elohim population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
-EVTDESC_EADENCLAVE_33;The minority dark Titan population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
+EVTDESC_EADENCLAVE_33;The minority Titan population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_34;The minority cathrian population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTDESC_EADENCLAVE_45;The minority Denisovanish population of your province has moved elsewhere, they may some day ask to return.;;;;;;;;;;x
 EVTOPTA_EADENCLAVE_30;Okay.;;;;;;;;;;x
