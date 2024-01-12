@@ -1,7 +1,7 @@
 #CODE;#ENGLISH;;;;;;;;;;;;;x
 otherworlden;Other World Religions;;;;;;;;;;;;;x
-elven;Elven Pantheon;;;;;;;;;;;;;x
-elven_DESC;The elven pantheon is based on the worship of a single god simply known as The Divine and his "vicars" - "Vares", who control different aspects of the world like skies, seas, nature and others. Since this religion combines both elements of monotheism and paganism, it's followers can easily coexist with various Earth religions;;;;;;;;;x
+elven;Archaic Pantheon;;;;;;;;;;;;;x
+elven_DESC;The Archaic pantheon is based on the worship of a single god simply known as The Divine and his "vicars" - "Vares", who control different aspects of the world like skies, seas, nature and others. Since this religion combines both elements of monotheism and paganism, it's followers can easily coexist with various Earth religions;;;;;;;;;x
 WAR_OF_JUSTICE;War of Justice;;;;;;;;;;;;;x
 ANCIENT_SCRIPTURES;Ancient Sriptures;;;;;;;;;;;;;x
 LOREMASTER;Loremaster;;;;;;;;;;;;;x
@@ -16,7 +16,7 @@ GOD_LADY_OF_TEARS;Vari Neinna;;;;;;;;;;;;;x
 GOD_LADY_OF_FATE;Vari Valira;;;;;;;;;;;;;x
 GOD_LORD_OF_WAR;Vare Kaine;;;;;;;;;;;;;x
 elven_heresy;Cult of Kaine;;;;;;;;;;;;;x
-elven_heresy_DESC;The Cult of Kaine is a terrifying religion, whose adherents worship and make human sacrifices to the relentless Vicar of War, Kaine. In addition to the Vicar of War, they also worshipping other fallen ones that were condemed by others Vicars, such as Renneth, Vicar of Battle and daughter of Kaine, and Berethan, Vicar of Shadows. Followers of traditional Elven Pantheon despise Blood Cultists for their practices, and that feeling is mutual;;;;;;;;;x
+elven_heresy_DESC;The Cult of Kaine is a terrifying religion, whose adherents worship and make human sacrifices to the relentless Vicar of War, Kaine. In addition to the Vicar of War, they also worshipping other fallen ones that were condemed by others Vicars, such as Renneth, Vicar of Battle and daughter of Kaine, and Berethan, Vicar of Shadows. Followers of traditional Archaic Pantheon despise Blood Cultists for their practices, and that feeling is mutual;;;;;;;;;x
 WAR_OF_BLOOD;War of Blood;;;;;;;;;;;;;x
 GOD_LADY_OF_BATTLE;Vari Renneth;;;;;;;;;;;;x
 GOD_LADY_OF_SHADOWS;Vare Berethan;;;;;;;;;;;;;x
@@ -42,8 +42,8 @@ GOD_ALERET;Lady Alereth;;;;;;;;;;;;;x
 GOD_MALI_RA;Lady Mali-Ra;;;;;;;;;;;;;x
 GOD_BERAT_TASHI;Lord Berat-Tashi;;;;;;;;;;;;;x
 GOD_FALSE_TRIARCHY;The False Triarchy;;;;;;;;;;;;;x
-dwarven;Dwarven;;;;;;;;;;;;;x
-dwarven_DESC;The religion of the dwarves is based on the worship of the Creator God Marach, who, according to legend, carved the first dwarves from stone, and then taught the first seven forefathers of the dwarves in language and crafts. In addition to Marach, the dwarves also worship these seven forefathers, as well as many numerous ancestors who, according to their beliefs, help and guide them in their daily life. Evil tongues claim that the dwarf god Marach is in fact the elven Vare Aliur, which the dwarves vehemently deny;;;;;;;;;x
+dwarven;Paleolithic ;;;;;;;;;;;;;x
+dwarven_DESC;Sacred rituals and intricate stone carvings form the core of Paleolithic practice, echoing whispers of ancient earth-bound mysteries and reverence for the natural world. Their beliefs are steeped in legends of ancestral spirits dwelling in deep caverns, guiding them in the art of forging and the secrets of the earth, thus endowing their culture with a profound connection to the land and its hidden treasures. Evil tongues claim that the Paleolithic god is in fact the Archaic Vare Aliur, which the Palelitchics vehemently deny;;;;;;;;;x
 WAR_OF_VENGEANCE;War of Vengeance;;;;;;;;;;;;;x
 RUNIC_TABLETS;The Runic Tablets;;;;;;;;;;;;;x
 GOD_THE_DWARVEN_CREATOR;Marach;;;;;;;;;;;;;x
@@ -64,17 +64,17 @@ MONTHLY_PIETY_KNOWLEDGE;Knowledge;;;;;;;;;;;;;x
 STAT_PIETY_KNOWLEDGE;Knowledge;;;;;;;;;;;;;x
 STAT_PIETY_DESC_KNOWLEDGE;;;;;;;;;;;;;;x
 dwarven_dwemer_heresy;Nurutushian;;;;;;;;;;;;;x
-dwarven_dwemer_heresy_DESC;The religion of the Nurutushians deviates from the materialism of the Cult of Knowledge towards blind faith in Nurutush, also known as "The Brass God", a magical construct that helped the dwarves move to another world, and its creator, Saint Karotech. Nurutushians believe that "The Brass God" remaining in the dying world will soon join them in the new world and begin a new era of peace and prosperity;;;;;;;;;x
+dwarven_dwemer_heresy_DESC;The religion of the Nurutushians deviates from the materialism of the Cult of Knowledge towards blind faith in Nurutush, also known as "The Chrome God", a magical construct that helped the titans move to another world, and its creator, Cronus. Nurutushians believe that "The Chrome God" remaining in the dying world will soon join them in the new world and begin a new era of peace and prosperity;;;;;;;;;x
 SACRIFICE_OF_NURUTUSH;The Sacrifice of Nurutush;;;;;;;;;;;;;x
 GOD_NURUTUSH;Nurutush;;;;;;;;;;;;;x
-GOD_BRASS_GOD;The Brass God;;;;;;;;;;;;;x
-GOD_SAINT_KAROTECH;Saint Karotech;;;;;;;;;;;;;x
+GOD_BRASS_GOD;The Chrome God;;;;;;;;;;;;;x
+GOD_SAINT_KAROTECH;Saint Cronus;;;;;;;;;;;;;x
 GOD_FALSE_GODS;The False Gods;;;;;;;;;;;;;x
 dwarven_dwemer_heresy_hashut;Cult of Hazhut;;;;;;;;;;;;;x
-dwarven_dwemer_heresy_hashut_DESC;The Cult of Hazhut is a distorting mirror of the Cult of Knowledge, embodying the most negative traits of dark dwarves - greed, lust for power, hatred of others. Slave labor, bloody sacrifices, ruthless exploitation and tyranny are the pillars of this religion, for such is the will of the Father of Darkness. At one time, the followers of this religion were ruthlessly exterminated by the followers of the Cult of Knowledge, but, apparently, not completely.;;;;;;;;;;;;;x
+dwarven_dwemer_heresy_hashut_DESC;The Cult of Hazhut is a distorting mirror of the Cult of Knowledge, embodying the most negative traits of titans - greed, lust for power, hatred of others. Slave labor, bloody sacrifices, ruthless exploitation and tyranny are the pillars of this religion, for such is the will of the Father of Darkness. At one time, the followers of this religion were ruthlessly exterminated by the followers of the Cult of Knowledge, but, apparently, not completely.;;;;;;;;;;;;;x
 WILL_OF_HAZHUT;The Will of Hazhut;;;;;;;;;;;;;x
 GOD_HAZHUT;Hazhut;;;;;;;;;;;;;x
-GOD_BRASS_BULL;The Brass Bull;;;;;;;;;;;;;x
+GOD_BRASS_BULL;The Chrome Bull;;;;;;;;;;;;;x
 GOD_FATHER_OF_DARKNESS;The Father of Darkness;;;;;;;;;;;;;x
 cat_folk_religion;Rajatral'tar;;;;;;;;;;;;;x
 cat_folk_religion_DESC;Rajatral'tar is a polytheistic religion based on the worship of numerous gods. The number of gods of this religion is huge, but several main gods stand out in it: the supreme god Rajatra, whose sphere is the sun and royal power, the goddess of war Serhejet, the god of fire and the desert Yajatra, the goddess of death Mafredejt, the goddess of fertility and rain Teferjerut and the goddess of knowledge Shejart. They all fight against the monstrous Apojri, the Great Serpent, who wants to devour the world;;;;;;;;;x
@@ -90,9 +90,9 @@ GOD_SERPENT_APOJRI;Apojri;;;;;;;;;;;;;x
 ANCIENT_RITES;Ancient Rites;;;;;;;;;;;;;x
 GOD_THE_GODS;The Gods;;;;;;;;;;;;;x
 orc_religion;Wargadanism;;;;;;;;;;;;;x
-orc_religion_DESC;Wargadanism is a monotheistic religion based upon worshipping of a single warrior god - Wargadan. Wargadan originally was an oruk tribe chief, whose truly name was long forgotten, who managed to unify the various oruk tribes and build a mighty Oruk Empire. According to the oruk legends, he did not die, but ascended to the eternal sky to rule not only the Oruk, but the spirits as well. Wargadan favour those brave warriors who show courage and strength on the battlefield and ascend them after their death to join his great army that wage war against various evil spirits and various foreign gods that seeks to destroy his followers.;;;;;;;;;;;;;x
+orc_religion_DESC;Wargadanism is a monotheistic religion based upon worshipping of a single warrior god - Wargadan. Wargadan originally was an Denisovan tribe chief, whose truly name was long forgotten, who managed to unify the various Denisovan tribes and build a mighty Denisovan Empire. According to the Denisovan legends, he did not die, but ascended to the eternal sky to rule not only the Denisovan, but the spirits as well. Wargadan favour those brave warriors who show courage and strength on the battlefield and ascend them after their death to join his great army that wage war against various evil spirits and various foreign gods that seeks to destroy his followers.;;;;;;;;;;;;;x
 orc_religion_heresy;Old Ways;;;;;;;;;;;;;x
-orc_religion_heresy_DESC;A group of beliefs that existed before the advent of Vargadan, the Old Ways worshipping the forces of nature and the enless spirits, that exists in all things. And althrough the majority of Oruks have accepted the faith in Wargadan, there is still Oruks that deny his divinity and follows the Old Ways.;;;;;;;;;;;;;x
+orc_religion_heresy_DESC;A group of beliefs that existed before the advent of Vargadan, the Old Ways worshipping the forces of nature and the enless spirits, that exists in all things. And althrough the majority of Denisovans have accepted the faith in Wargadan, there are still Denisovan that deny his divinity and follows the Old Ways.;;;;;;;;;;;;;x
 GOD_WARGADAN;Wardagan;;;;;;;;;;;;;x
 GOD_THE_FURIOUS;The Furious One;;;;;;;;;;;;;x
 GOD_THE_ETERNAL_WARRIOR;The Eternal Warrior;;;;;;;;;;;;;x
@@ -100,7 +100,7 @@ GOD_THE_SPIRITS;The Spirits;;;;;;;;;;;;;x
 GOD_THE_EVIL_SPIRITS;The Evils Spirits;;;;;;;;;;;;;x
 GOD_THE_EVIL_GODS;The Evil Gods;;;;;;;;;;;;;x
 orc_religion_dark_lord;Cult of the Dark Lord;;;;;;;;;;;;;x
-orc_religion_dark_lord_DESC;The followers of this religion worship and revere the first emperor of the Oruk Empire, Gorthauron Tar-Mairon, who was knowns to everyone as fearsome Dark Lord. The distant heirs of the Dark Lord or powerful rulers can claim this title and enjoy almost the same authority as the First Dark Lord.;;;;;;;;;;;;;x
+orc_religion_dark_lord_DESC;The followers of this religion worship and revere the first emperor of the Denisovan Empire, Gorthauron Tar-Mairon, who was knowns to everyone as fearsome Dark Lord. The distant heirs of the Dark Lord or powerful rulers can claim this title and enjoy almost the same authority as the First Dark Lord.;;;;;;;;;;;;;x
 THE_BLACK_BOOK;The Black Book;;;;;;;;;;;;;x
 THE_WHITE_BOOK;The White Book;;;;;;;;;;;;;x
 GOD_THE_DARK_LORD;Dark Lord;;;;;;;;;;;;;x
@@ -158,7 +158,7 @@ saint_oros;Follower of Saint Oros;;;;;;;;;;;;;x
 saint_neris;Follower of Saint Neris;;;;;;;;;;;;;x
 saint_lloris;Follower of Saint Lloris;;;;;;;;;;;;;x
 #DARK DWARVEN SCHOOLS
-EADREDESC.3;Created at the dawn of the civilization of the dark dwarves, the Three Schools directs our society to a brighter future. Which of the Three Schools should I choose?;;;;;;;;;;;;;x
+EADREDESC.3;Created at the dawn of the civilization of the Titans, the Three Schools directs our society to a brighter future. Which of the Three Schools should I choose?;;;;;;;;;;;;;x
 dark_dwarven_school_1_a;The School Nchar-Ashdaar, The Aspect of Destruction!;;;;;;;;;;;;;x
 dark_dwarven_school_1_b;The School Nchuad-Ashdaar, The Aspect of Creation!;;;;;;;;;;;;;x
 dark_dwarven_school_1_c;The School Nzar-Ashdaar, The Aspect of Preservation!;;;;;;;;;;;;;x

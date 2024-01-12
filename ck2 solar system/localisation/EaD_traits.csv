@@ -1,6 +1,6 @@
 #Traits
-elf;Aes Sidhe;;;;;;;;;;;;;x
-elf_desc;A human-like race with pointed ears, slightly longer lifespan but lower fertility. Many people find them quite attractive.;;;;;;;;;;;;;x
+elf;Archaic;;;;;;;;;;;;;x
+elf_desc;Archaic are blessed with a modest extension of life, coupled with a refined elegance and a profound affinity for historical lore. These beings exhibit a keen awareness of their surroundings, harmoniously blending age-old wisdom with a timeless, graceful presence.;;;;;;;;;;;;;x
 dark_elf;Elohim;;;;;;;;;;;;;x
 dark_elf_desc;A celestial race known for their ethereal beauty and cosmic wisdom. Possessing a unique blend of ancient tradition and cosmic connection, they are revered as guardians and wise rulers across many worlds.;;;;;;;;;;;;;x
 fantasy_dwarf;Neanderthal;;;;;;;;;;;;;x
@@ -8,15 +8,15 @@ fantasy_dwarf_desc;Neanderthals boast a robust and stocky build, with pronounced
 dark_dwarf;Titan;;;;;;;;;;;;;x
 dark_dwarf_desc;Titans are immense beings known for their towering stature and intelligence. Their imposing presence, both in diplomacy and on the battlefield, often overshadows their deep wisdom and ancient traditions.;;;;;;;;;;;;;x
 cat_folk;Mau'Khet;;;;;;;;;;;;;x
-cat_folk_desc;A human-like race with feline features. Usually dexterious and fertile.;;;;;;;;;;;;;x
-orc;Thark;;;;;;;;;;;;;x
-orc_desc;A human-like race with green skin and small tusks. They are considered to be fearsome warriors.;;;;;;;;;;;;;x
-dwarven_leader;Mountain Warrior;;;;;;;;;;;;;x
+cat_folk_desc;Mau'Khet are characterized by agile, graceful movements and sharp, perceptive senses, evoking an air of feline mystique. They display a unique blend of curiosity and independence, combined with a sleek and stealthy demeanor.";;;;;;;;;;;;;x
+orc;Denisovan;;;;;;;;;;;;;x
+orc_desc;Denisovan are distinguished by striking green skin and small tusks, accentuating their rugged and imposing appearance. Known for their exceptional resilience and combat prowess, they are formidable in both physical strength and enduring spirit, often dominating in roles of warriors and protectors.;;;;;;;;;;;;;x
+dwarven_leader;Mammoth Warrior;;;;;;;;;;;;;x
 sympathy_otherworlden;Sympathy for Otherworlden Religions;;;;;;;;;;;;;x
 sympathy_otherworlden_desc;This character, though not a member of any of the otherworlden religions, understand many of their faiths and sympathises with them.;;;;;;;;;;;;;x
 #Complimetnt and insults
 INSULT_WITCH;witch;;;;;;;;;;;;;x
-INSULT_KNIFE_EARED;knife-eared;;;;;;;;;;;;;x
+INSULT_KNIFE_EARED;archaic;;;;;;;;;;;;;x
 COMPLIMENT_BEAUTIFUL;beautiful;;;;;;;;;;;;;x
 COMPLIMENT_HANDSOME;handsome;;;;;;;;;;;;;x
 INSULT_STONE_EATER;stone eater;;;;;;;;;;;;;x
