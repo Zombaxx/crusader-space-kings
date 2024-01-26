@@ -3505,6 +3505,7 @@ targeted_decisions = {
 			NOT = { is_fighter_societies_trigger = yes }
 			FROM = { NOT = { is_fighter_societies_trigger = yes } }
 			FROM = { is_incapable = no }
+			prestige = 2000
 			custom_tooltip = {
 				text = chivalry_no_bounty_tooltip
 				FROM = { NOT = { has_character_flag = chivalry_hunt_bounty } }
@@ -3550,34 +3551,34 @@ targeted_decisions = {
 				limit = {
 					ROOT = { tier = emperor }
 				}
-				FROM = { wealth = -500 }
+				FROM = { wealth = -2000 }
 			}
 			else_if = {
 				limit = {
 					ROOT = { tier = king }
 				}
-				FROM = { wealth = -400 }
+				FROM = { wealth = -1000 }
 			}
 			else_if = {
 				limit = {
 					ROOT = { tier = duke }
 				}
-				FROM = { wealth = -300 }
+				FROM = { wealth = -800 }
 			}
 			else_if = {
 				limit = {
 					ROOT = { tier = count }
 				}
-				FROM = { wealth = -200 }
+				FROM = { wealth = -600 }
 			}
 			else_if = {
 				limit = {
 					ROOT = { tier = baron }
 				}
-				FROM = { wealth = -100 }
+				FROM = { wealth = -400 }
 			}
 			else = {
-				FROM = { wealth = -50 }
+				FROM = { wealth = -200 }
 			}
 		}
 
@@ -3600,27 +3601,27 @@ targeted_decisions = {
 					}
 					AND = {
 						ROOT = { is_ruler = no }
-						FROM = { NOT = { wealth = 50 } }
-					}
-					AND = {
-						ROOT = { tier = baron }
-						FROM = { NOT = { wealth = 100 } }
-					}
-					AND = {
-						ROOT = { tier = count }
 						FROM = { NOT = { wealth = 200 } }
 					}
 					AND = {
-						ROOT = { tier = duke }
-						FROM = { NOT = { wealth = 300 } }
-					}
-					AND = {
-						ROOT = { tier = king }
+						ROOT = { tier = baron }
 						FROM = { NOT = { wealth = 400 } }
 					}
 					AND = {
+						ROOT = { tier = count }
+						FROM = { NOT = { wealth = 600 } }
+					}
+					AND = {
+						ROOT = { tier = duke }
+						FROM = { NOT = { wealth = 800 } }
+					}
+					AND = {
+						ROOT = { tier = king }
+						FROM = { NOT = { wealth = 1000 } }
+					}
+					AND = {
 						ROOT = { tier = emperor }
-						FROM = { NOT = { wealth = 500 } }
+						FROM = { NOT = { wealth = 2000 } }
 					}
 				}
 			}
