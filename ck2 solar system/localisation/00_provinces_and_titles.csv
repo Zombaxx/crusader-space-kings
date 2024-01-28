@@ -9781,7 +9781,7 @@ b_barony0739d;Wathi;Wathi;Wathi;;Wathi;;;;;;;;;x
 b_barony0739e;Nirotho;Nirotho;Nirotho;;Nirotho;;;;;;;;;x
 b_barony0739f;Apuneva;Apuneva;Apuneva;;Apuneva;;;;;;;;;x
 b_barony0739g;Rozumay;Rozumay;Rozumay;;Rozumay;;;;;;;;;x
-k_kingdom0740;Themisia;Themisia;Themisia;;Themisia;;;;;;;;;x
+k_kingdom0740;West Themisia;West Themisia;West Themisia;;West Themisia;;;;;;;;;x
 k_kingdom0740_adj;Themisian;Themisian;Themisian;;Themisian;;;;;;;;;x
 d_duchy0740;Lobeca;Lobeca;Lobeca;;Lobeca;;;;;;;;;x
 d_duchy0740_adj;Larile;Larile;Larile;;Larile;;;;;;;;;x
@@ -10721,7 +10721,7 @@ b_barony0835f;Deineh;Deineh;Deineh;;Deineh;;;;;;;;;x
 b_barony0835g;Reas;Reas;Reas;;Reas;;;;;;;;;x
 e_empire0836;Mu;Mu;Mu;;Mu;;;;;;;;;x
 e_empire0836_adj;Mu;Mu;Mu;;Mu;;;;;;;;;x
-k_kingdom0836;Themisia;Themisia;Themisia;;Themisia;;;;;;;;;x
+k_kingdom0836;East Themisia;East Themisia;East Themisia;;East Themisia;;;;;;;;;x
 k_kingdom0836_adj;Themisian;Themisian;Themisian;;Themisian;;;;;;;;;x
 d_duchy0836;Samolam;Samolam;Samolam;;Samolam;;;;;;;;;x
 d_duchy0836_adj;Konopluk;Konopluk;Konopluk;;Konopluk;;;;;;;;;x
@@ -10734,10 +10734,10 @@ b_barony0836d;Diiraba;Diiraba;Diiraba;;Diiraba;;;;;;;;;x
 b_barony0836e;Elavanse;Elavanse;Elavanse;;Elavanse;;;;;;;;;x
 b_barony0836f;Kinaja;Kinaja;Kinaja;;Kinaja;;;;;;;;;x
 b_barony0836g;Letanya;Letanya;Letanya;;Letanya;;;;;;;;;x
-k_kingdom0837;Alta;Alta;Alta;;Alta;;;;;;;;;x
-k_kingdom0837_adj;Altan;Altan;Altan;;Altan;;;;;;;;;x
-d_duchy0837;Altia;Altia;Altia;;Altia;;;;;;;;;x
-d_duchy0837_adj;Altia;Altia;Altia;;Altia;;;;;;;;;x
+k_kingdom0837;Ganisia;Ganisia;Ganisia;;Ganisia;;;;;;;;;x
+k_kingdom0837_adj;Ganisian;Ganisian;Ganisian;;Ganisian;;;;;;;;;x
+d_duchy0837;Ganis;Ganis;Ganis;;Ganis;;;;;;;;;x
+d_duchy0837_adj;Ganisan;Ganisan;Ganisan;;Ganisan;;;;;;;;;x
 c_province0837_adj;Emunund;Emunund;Emunund;;Emunund;;;;;;;;;x
 b_barony0837`;Tofad;Tofad;Tofad;;Tofad;;;;;;;;;x
 b_barony0837a;Ehyer;Ehyer;Ehyer;;Ehyer;;;;;;;;;x
@@ -11769,8 +11769,8 @@ b_barony0941d;Wadamas;Wadamas;Wadamas;;Wadamas;;;;;;;;;x
 b_barony0941e;Barimon;Barimon;Barimon;;Barimon;;;;;;;;;x
 b_barony0941f;Qolotia;Qolotia;Qolotia;;Qolotia;;;;;;;;;x
 b_barony0941g;Sarotia;Sarotia;Sarotia;;Sarotia;;;;;;;;;x
-k_kingdom0942;Regio;Regio;Regio;;Regio;;;;;;;;;x
-k_kingdom0942_adj;Regioian;Regioian;Regioian;;Regioian;;;;;;;;;x
+k_kingdom0942;Alta;Alta;Alta;;Alta;;;;;;;;;x
+k_kingdom0942_adj;Altan;Alta;Altan;;n;;;;;;;;;x
 d_duchy0942;Bomirin;Bomirin;Bomirin;;Bomirin;;;;;;;;;x
 d_duchy0942_adj;Tautai;Tautai;Tautai;;Tautai;;;;;;;;;x
 c_province0942_adj;Datakra;Datakra;Datakra;;Datakra;;;;;;;;;x
@@ -12281,8 +12281,8 @@ b_barony0989d;Dilahu;Dilahu;Dilahu;;Dilahu;;;;;;;;;x
 b_barony0989e;Remeila;Remeila;Remeila;;Remeila;;;;;;;;;x
 b_barony0989f;Qanahal;Qanahal;Qanahal;;Qanahal;;;;;;;;;x
 b_barony0989g;Nella;Nella;Nella;;Nella;;;;;;;;;x
-k_kingdom0990;Anuncan;Anuncan;Anuncan;;Anuncan;;;;;;;;;x
-k_kingdom0990_adj;Qadenna;Qadenna;Qadenna;;Qadenna;;;;;;;;;x
+k_kingdom0990;Rusalka;Rusalka;Rusalka;;Rusalka;;;;;;;;;x
+k_kingdom0990_adj;Rusalkian;Rusalkian;Rusalkian;;Rusalkian;;;;;;;;;x
 d_duchy0990;Tach;Tach;Tach;;Tach;;;;;;;;;x
 d_duchy0990_adj;Lakh;Lakh;Lakh;;Lakh;;;;;;;;;x
 c_province0990_adj;Taomifa;Taomifa;Taomifa;;Taomifa;;;;;;;;;x
@@ -14986,8 +14986,8 @@ b_barony1256d;Utat;Utat;Utat;;Utat;;;;;;;;;x
 b_barony1256e;Umui;Umui;Umui;;Umui;;;;;;;;;x
 b_barony1256f;Meki;Meki;Meki;;Meki;;;;;;;;;x
 b_barony1256g;Egs;Egs;Egs;;Egs;;;;;;;;;x
-d_duchy1257;Inan;Inan;Inan;;Inan;;;;;;;;;x
-d_duchy1257_adj;Ear;Ear;Ear;;Ear;;;;;;;;;x
+d_duchy1257;Ascraeus;Inan;Inan;;Inan;;;;;;;;;x
+d_duchy1257_adj;Ascraeuser;Ear;Ear;;Ear;;;;;;;;;x
 c_province1257_adj;Eyna;Eyna;Eyna;;Eyna;;;;;;;;;x
 b_barony1257`;Er-O;Er-O;Er-O;;Er-O;;;;;;;;;x
 b_barony1257a;Ekeg;Ekeg;Ekeg;;Ekeg;;;;;;;;;x
@@ -15354,8 +15354,8 @@ b_barony1292d;Uana;Uana;Uana;;Uana;;;;;;;;;x
 b_barony1292e;Iniu;Iniu;Iniu;;Iniu;;;;;;;;;x
 b_barony1292f;Jabi;Jabi;Jabi;;Jabi;;;;;;;;;x
 b_barony1292g;Ucor;Ucor;Ucor;;Ucor;;;;;;;;;x
-d_duchy1293;Ayol;Ayol;Ayol;;Ayol;;;;;;;;;x
-d_duchy1293_adj;Olai;Olai;Olai;;Olai;;;;;;;;;x
+d_duchy1293;Pavonis;Ayol;Ayol;;Ayol;;;;;;;;;x
+d_duchy1293_adj;Pavonisic;Olai;Olai;;Olai;;;;;;;;;x
 c_province1293_adj;Egev;Egev;Egev;;Egev;;;;;;;;;x
 b_barony1293`;Akat;Akat;Akat;;Akat;;;;;;;;;x
 b_barony1293a;Arut;Arut;Arut;;Arut;;;;;;;;;x
@@ -15507,8 +15507,8 @@ b_barony1307f;Ohn;Ohn;Ohn;;Ohn;;;;;;;;;x
 b_barony1307g;Agit;Agit;Agit;;Agit;;;;;;;;;x
 k_kingdom1308;Aonia;Yuha;Yuha;;Yuha;;;;;;;;;x
 k_kingdom1308_adj;Aonian;Alaf;Alaf;;Alaf;;;;;;;;;x
-d_duchy1308;Oman;Oman;Oman;;Oman;;;;;;;;;x
-d_duchy1308_adj;Aazi;Aazi;Aazi;;Aazi;;;;;;;;;x
+d_duchy1308;Arsia;Arsia;Arsia;;Arsia;;;;;;;;;x
+d_duchy1308_adj;Arsian;Aazi;Aazi;;Aazi;;;;;;;;;x
 c_province1308_adj;Eyeo;Eyeo;Eyeo;;Eyeo;;;;;;;;;x
 b_barony1308`;Yasi;Yasi;Yasi;;Yasi;;;;;;;;;x
 b_barony1308a;Enup;Enup;Enup;;Enup;;;;;;;;;x
@@ -21640,10 +21640,10 @@ b_barony1924d;Budpynon;Budpynon;Budpynon;;Budpynon;;;;;;;;;x
 b_barony1924e;Nar;Nar;Nar;;Nar;;;;;;;;;x
 b_barony1924f;Tarn;Tarn;Tarn;;Tarn;;;;;;;;;x
 b_barony1924g;Qarn;Qarn;Qarn;;Qarn;;;;;;;;;x
-e_empire1925;Karn;Karn;Karn;;Karn;;;;;;;;;x
-e_empire1925_adj;War;War;War;;War;;;;;;;;;x
-k_kingdom1925;Larn;Larn;Larn;;Larn;;;;;;;;;x
-k_kingdom1925_adj;Sanpaestar;Sanpaestar;Sanpaestar;;Sanpaestar;;;;;;;;;x
+e_empire1925;Galileo;Galileo;Galileo;;Galileo;;;;;;;;;x
+e_empire1925_adj;Galilean;Galilean;Galilean;;Galilean;;;;;;;;;x
+k_kingdom1925;Galiloia;Galiloia;Galiloia;;Galiloia;;;;;;;;;x
+k_kingdom1925_adj;Galiloian;Galiloian;Galiloian;;Galiloian;;;;;;;;;x
 d_duchy1925;Lar;Lar;Lar;;Lar;;;;;;;;;x
 d_duchy1925_adj;Kegiye;Kegiye;Kegiye;;Kegiye;;;;;;;;;x
 c_province1925_adj;Amohinie;Amohinie;Amohinie;;Amohinie;;;;;;;;;x

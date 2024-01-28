@@ -5543,6 +5543,7 @@ e_empire0305 = {
 	}
 }
 e_empire0333 = { #unused
+	allow = { always = no }
 	color={ 146 39 28 }
 	color2={ 255 255 255 }
 	
@@ -5552,6 +5553,7 @@ e_empire0333 = { #unused
 	culture = dragon_culture
 	
 	k_kingdom0333 = { #unused
+		allow = { always = no }
 		color={ 146 39 28 }
 		color2={ 255 255 255 }
 		
@@ -5561,6 +5563,7 @@ e_empire0333 = { #unused
 		
 	}
 	k_kingdom0151 = { #unused
+		allow = { always = no }
 		color={ 224 115 41 }
 		color2={ 255 255 255 }
 		
@@ -5570,6 +5573,7 @@ e_empire0333 = { #unused
 		
 	}
 	k_kingdom0172 = { #unused
+		allow = { always = no }
 		color={ 78 92 149 }
 		color2={ 255 255 255 }
 		
@@ -5579,6 +5583,7 @@ e_empire0333 = { #unused
 		
 	}
 	k_kingdom0222 = { #unused
+		allow = { always = no }
 		color={ 91 112 144 }
 		color2={ 255 255 255 }
 		
@@ -5588,6 +5593,7 @@ e_empire0333 = { #unused
 		
 	}
 	k_kingdom0203 = { #unused
+		allow = { always = no }
 		color={ 202 215 48 }
 		color2={ 255 255 255 }
 		
@@ -12213,6 +12219,7 @@ e_empire0604 = {
 	}
 }
 e_empire0711 = { #unused
+		allow = { always = no }
 	color={ 168 168 165 }
 	color2={ 255 255 255 }
 	
@@ -15546,6 +15553,7 @@ e_empire0786 = {
 	}
 }
 e_empire0836 = { #unused
+		allow = { always = no }
 	color={ 96 108 2 }
 	color2={ 255 255 255 }
 	
@@ -16422,6 +16430,7 @@ e_empire0897 = {
 	}
 }
 e_empire0935 = { #unused
+		allow = { always = no }
 	color={ 226 127 20 }
 	color2={ 255 255 255 }
 	
@@ -17994,6 +18003,7 @@ e_empire0953 = {
 	}
 }
 e_empire0954 = { #unused
+		allow = { always = no }
 	color={ 101 78 23 }
 	color2={ 255 255 255 }
 	
@@ -18004,6 +18014,7 @@ e_empire0954 = { #unused
 	
 }
 e_empire0956 = { #unused
+		allow = { always = no }
 	color={ 188 120 58 }
 	color2={ 255 255 255 }
 	
@@ -18013,6 +18024,7 @@ e_empire0956 = { #unused
 	culture = kannada
 	
 	k_kingdom0956 = { #unused
+		allow = { always = no }
 		color={ 188 120 58 }
 		color2={ 255 255 255 }
 		
@@ -18021,6 +18033,7 @@ e_empire0956 = { #unused
 		culture = kannada
 		
 		d_duchy0956 = { #unused
+		allow = { always = no }
 			color={ 188 120 58 }
 			color2={ 255 255 255 }
 			
@@ -18340,6 +18353,7 @@ e_empire0982 = {
 	}
 }
 e_empire1004 = { #unused
+		allow = { always = no }
 	color={ 183 90 202 }
 	color2={ 255 255 255 }
 	
@@ -19217,6 +19231,7 @@ e_empire1005 = { #Western Venus
 	}	
 }
 e_empire1018 = { #unused
+		allow = { always = no }
 	color={ 80 63 66 }
 	color2={ 255 255 255 }
 	
@@ -19226,6 +19241,7 @@ e_empire1018 = { #unused
 	culture = bear
 
 	k_kingdom0989 = { #unused
+		allow = { always = no }
 		color={ 207 160 26 }
 		color2={ 255 255 255 }
 		
@@ -19236,6 +19252,7 @@ e_empire1018 = { #unused
 	}	
 }
 e_empire1030 = { #unused
+		allow = { always = no }
 	color={ 95 88 218 }
 	color2={ 255 255 255 }
 	
@@ -19245,6 +19262,7 @@ e_empire1030 = { #unused
 	culture = hedgehog_culture
 	
 	k_kingdom0884 = { #unused
+		allow = { always = no }
 		color={ 50 88 29 }
 		color2={ 255 255 255 }
 		
@@ -19254,6 +19272,7 @@ e_empire1030 = { #unused
 		
 	}
 	k_kingdom1014 = { #unused
+		allow = { always = no }
 		color={ 200 195 180 }
 		color2={ 255 255 255 }
 		
@@ -19262,6 +19281,7 @@ e_empire1030 = { #unused
 		culture = elephant_culture
 		
 		d_duchy1014 = { #unused
+		allow = { always = no }
 			color={ 200 195 180 }
 			color2={ 255 255 255 }
 			
@@ -19281,6 +19301,7 @@ e_empire1034 = { #Russia
 	
 }
 e_empire1064 = { #unused
+		allow = { always = no }
 	color={ 197 87 63 }
 	color2={ 255 255 255 }
 	
@@ -19301,6 +19322,7 @@ e_empire1073 = { #China
 	
 }
 e_empire1047 = { #unused
+		allow = { always = no }
 	color={ 48 71 117 }
 	color2={ 255 255 255 }
 	
@@ -19311,6 +19333,7 @@ e_empire1047 = { #unused
 	
 }
 e_empire1083 = { #unused
+		allow = { always = no }
 	color={ 183 194 85 }
 	color2={ 255 255 255 }
 	
@@ -20752,6 +20775,7 @@ e_empire1102 = {
 	
 }
 e_empire1127 = { #unused
+		allow = { always = no }
 	color={ 212 214 248 }
 	color2={ 255 255 255 }
 	
@@ -20761,6 +20785,7 @@ e_empire1127 = { #unused
 	culture = duck_culture
 	
 	k_kingdom1127 = { #unused
+		allow = { always = no }
 		color={ 212 214 248 }
 		color2={ 255 255 255 }
 		
@@ -20770,6 +20795,7 @@ e_empire1127 = { #unused
 		
 	}
 	k_kingdom1057 = { #unused
+		allow = { always = no }
 		color={ 192 115 119 }
 		color2={ 255 255 255 }
 		
@@ -20779,6 +20805,7 @@ e_empire1127 = { #unused
 		
 	}
 	k_kingdom1056 = { #unused
+		allow = { always = no }
 		color={ 161 161 58 }
 		color2={ 255 255 255 }
 		
@@ -20788,6 +20815,7 @@ e_empire1127 = { #unused
 		
 	}
 	k_kingdom1097 = { #unused
+		allow = { always = no }
 		color={ 194 164 46 }
 		color2={ 255 255 255 }
 		
@@ -21229,6 +21257,7 @@ e_empire1145 = {
 	}
 }
 e_empire1153 = { #unused
+		allow = { always = no }
 	color={ 200 172 216 }
 	color2={ 255 255 255 }
 	
@@ -21238,6 +21267,7 @@ e_empire1153 = { #unused
 	culture = elephant_culture
 	
 	k_kingdom1153 = { #unused
+		allow = { always = no }
 		color={ 200 172 216 }
 		color2={ 255 255 255 }
 		
@@ -21248,6 +21278,7 @@ e_empire1153 = { #unused
 	}
 }
 e_empire1168 = { #unused
+		allow = { always = no }
 	color={ 210 196 241 }
 	color2={ 255 255 255 }
 	
@@ -22351,6 +22382,7 @@ e_empire1175 = {
 	}
 }
 e_empire1177 = { #unused
+		allow = { always = no }
 	color={ 154 211 196 }
 	color2={ 255 255 255 }
 	
@@ -22360,6 +22392,7 @@ e_empire1177 = { #unused
 	culture = elephant_culture
 	
 	k_kingdom1177 = { #unused
+		allow = { always = no }
 		color={ 154 211 196 }
 		color2={ 255 255 255 }
 		
@@ -23069,6 +23102,7 @@ e_empire1184 = {
 	}
 }
 e_empire1215 = { #unused
+		allow = { always = no }
 	color={ 56 91 50 }
 	color2={ 255 255 255 }
 	
@@ -23078,6 +23112,7 @@ e_empire1215 = { #unused
 	culture = red_panda
 	
 	k_kingdom1199 = { #unused
+		allow = { always = no }
 		color={ 216 180 176 }
 		color2={ 255 255 255 }
 		
@@ -23392,6 +23427,7 @@ e_empire1252 = {
 	}
 }
 e_empire1283 = { #unused
+		allow = { always = no }
 	color={ 10 103 33 }
 	color2={ 255 255 255 }
 	
@@ -23402,6 +23438,7 @@ e_empire1283 = { #unused
 	
 }
 e_empire1288 = { #unused
+		allow = { always = no }
 	color={ 169 197 197 }
 	color2={ 255 255 255 }
 	
@@ -23411,6 +23448,7 @@ e_empire1288 = { #unused
 	culture = elephant_culture
 	
 	k_kingdom1288 = { #unused
+		allow = { always = no }
 		color={ 169 197 197 }
 		color2={ 255 255 255 }
 		
@@ -23419,6 +23457,7 @@ e_empire1288 = { #unused
 		culture = elephant_culture
 
 		d_duchy1199 = { #unused
+		allow = { always = no }
 			color={ 216 180 176 }
 			color2={ 255 255 255 }
 			
@@ -23429,6 +23468,7 @@ e_empire1288 = { #unused
 	}
 }
 e_empire1301 = { #unused
+		allow = { always = no }
 	color={ 183 195 179 }
 	color2={ 255 255 255 }
 	
@@ -23438,6 +23478,7 @@ e_empire1301 = { #unused
 	culture = elephant_culture
 	
 	k_kingdom1284 = { #unused
+		allow = { always = no }
 		color={ 14 98 25 }
 		color2={ 255 255 255 }
 		
@@ -23447,6 +23488,7 @@ e_empire1301 = { #unused
 		
 	}
 	k_kingdom1301 = { #unused
+		allow = { always = no }
 		color={ 183 195 179 }
 		color2={ 255 255 255 }
 		
@@ -23455,6 +23497,7 @@ e_empire1301 = { #unused
 		culture = elephant_culture
 		
 		d_duchy1301 = { #unused
+		allow = { always = no }
 			color={ 183 195 179 }
 			color2={ 255 255 255 }
 			
@@ -23464,6 +23507,7 @@ e_empire1301 = { #unused
 	}
 }
 e_empire1310 = { #unused
+		allow = { always = no }
 	color={ 16 79 39 }
 	color2={ 255 255 255 }
 	
@@ -23473,6 +23517,7 @@ e_empire1310 = { #unused
 	culture = red_panda
 	
 	k_kingdom1310 = { #unused
+		allow = { always = no }
 		color={ 16 79 39 }
 		color2={ 255 255 255 }
 		
