@@ -1797,7 +1797,7 @@ e_empire0048 = {
 				holy_site = druze
 				holy_site = tengri_pagan_reformed
 				holy_site = jewish
-				holy_site = zoroastrian
+				holy_site = khurmazta
 				
 				b_sun's_oasis = {
 				dynasty_title_names = no
@@ -6141,7 +6141,7 @@ e_empire0372 = {
 				color={ 67 62 64 }
 				color2={ 255 255 255 }
 				
-				holy_site = zoroastrian
+				holy_site = khurmazta
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
 				holy_site = aten_pagan
@@ -8261,7 +8261,7 @@ e_empire0513 = {
 				
 				holy_site = tengri_pagan
 				holy_site = tengri_pagan_reformed
-				holy_site = zoroastrian
+				holy_site = khurmazta
 				
 				b_jungle_peninsula = {
 				dynasty_title_names = no
@@ -8688,7 +8688,7 @@ e_empire0513 = {
 				color={ 58 71 67 }
 				color2={ 255 255 255 }
 				
-				holy_site = zoroastrian
+				holy_site = khurmazta
 				
 				b_joro_jungle = {
 				dynasty_title_names = no
@@ -9039,7 +9039,7 @@ e_empire0513 = {
 				
 				holy_site = druze
 				holy_site = taoist
-				holy_site = zoroastrian
+				holy_site = khurmazta
 				holy_site = shiite
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
@@ -11197,7 +11197,7 @@ e_empire0604 = {
 				holy_site = elven_tribunal
 				holy_site = sunni
 				holy_site = paulician
-				holy_site = khurmazta
+
 				holy_site = samaritan
 				
 				b_jerusalem = {
@@ -11289,7 +11289,7 @@ e_empire0604 = {
 				color2={ 255 255 255 }
 				
 				holy_site = hurufi
-				holy_site = khurmazta
+
 				
 				b_cairo = {
 				dynasty_title_names = no
@@ -11706,7 +11706,7 @@ e_empire0604 = {
 				holy_site = hurufi
 				holy_site = sunni
 				holy_site = elven_tribunal
-				holy_site = khurmazta
+
 				holy_site = samaritan
 				
 				b_mecca = {
@@ -11874,7 +11874,7 @@ e_empire0604 = {
 				color2={ 255 255 255 }
 				
 				holy_site = hurufi
-				holy_site = khurmazta
+
 				
 				b_tehran = {
 				dynasty_title_names = no
@@ -12116,7 +12116,7 @@ e_empire0604 = {
 				holy_site = elven_tribunal
 				holy_site = catholic
 				holy_site = dwarven
-				holy_site = khurmazta
+
 				
 				b_istanbul = {
 				dynasty_title_names = no
@@ -22924,6 +22924,7 @@ e_empire1184 = {
 				holy_site = hellenic_pagan
 				holy_site = titan_pagan
 				holy_site = promethean_pagan
+				holy_site = zoroastrian
 				holy_site = monophysite
 				holy_site = miaphysite
 				
@@ -23736,6 +23737,7 @@ e_empire1322 = {
 				holy_site = hellenic_pagan
 				holy_site = titan_pagan
 				holy_site = promethean_pagan
+				holy_site = zoroastrian
 				holy_site = taoist
 				holy_site = monophysite
 				holy_site = yazidi
@@ -24151,6 +24153,7 @@ e_empire1322 = {
 				holy_site = hellenic_pagan
 				holy_site = titan_pagan
 				holy_site = promethean_pagan
+				holy_site = zoroastrian
 				holy_site = monophysite
 				holy_site = yazidi
 				holy_site = orc_religion
@@ -25128,6 +25131,7 @@ e_empire1378 = {
 				color={ 67 57 61 }
 				color2={ 255 255 255 }
 				
+				holy_site = zoroastrian
 				
 				b_barony1323` = { }
 				b_barony1323a = { }
@@ -25552,6 +25556,7 @@ e_empire1401 = {
 				color2={ 255 255 255 }
 				
 				holy_site = taoist
+				holy_site = zoroastrian
 				holy_site = yazidi
 				holy_site = orc_religion
 				holy_site = orc_religion_heresy
