@@ -11158,6 +11158,61 @@ e_empire0604 = {
 			}
 		}
 	}
+	k_kingdom0956 = { #Levant
+		color={ 188 120 58 }
+		color2={ 255 255 255 }
+		
+		capital = 642
+		
+		culture = levantine_arabic
+		
+		d_duchy0956 = { #Levant
+			color={ 188 120 58 }
+			color2={ 255 255 255 }
+			
+			capital = 642
+			
+			c_province0636 = {
+				color={ 29 183 80 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0636` = { }
+				b_barony0636a = { }
+				b_barony0636b = { }
+				b_barony0636c = { }
+				b_barony0636d = { }
+				b_barony0636e = { }
+				b_barony0636f = { }
+				b_barony0636g = { }
+			}
+			c_jerusalem = {
+				color={ 56 193 22 }
+				color2={ 255 255 255 }
+				
+				holy_site = hurufi
+				holy_site = orthodox
+				holy_site = dwarven_dwemer
+				holy_site = dwarven_dwemer_heresy
+				holy_site = elven_tribunal
+				holy_site = sunni
+				holy_site = paulician
+				holy_site = khurmazta
+				holy_site = samaritan
+				
+				b_jerusalem = {
+				dynasty_title_names = no
+				}
+				b_barony0642a = { }
+				b_barony0642b = { }
+				b_barony0642c = { }
+				b_barony0642d = { }
+				b_barony0642e = { }
+				b_barony0642f = { }
+				b_barony0642g = { }
+			}
+		}
+	}
 	k_kingdom0622 = {
 		color={ 73 151 64 }
 		color2={ 255 255 255 }
@@ -11228,31 +11283,6 @@ e_empire0604 = {
 				b_barony0631e = { }
 				b_barony0631f = { }
 				b_barony0631g = { }
-			}
-			c_jerusalem = {
-				color={ 56 193 22 }
-				color2={ 255 255 255 }
-				
-				holy_site = hurufi
-				holy_site = orthodox
-				holy_site = dwarven_dwemer
-				holy_site = dwarven_dwemer_heresy
-				holy_site = elven_tribunal
-				holy_site = sunni
-				holy_site = paulician
-				holy_site = khurmazta
-				holy_site = samaritan
-				
-				b_jerusalem = {
-				dynasty_title_names = no
-				}
-				b_barony0642a = { }
-				b_barony0642b = { }
-				b_barony0642c = { }
-				b_barony0642d = { }
-				b_barony0642e = { }
-				b_barony0642f = { }
-				b_barony0642g = { }
 			}
 			c_cairo = {
 				color={ 74 152 58 }
@@ -12196,20 +12226,6 @@ e_empire0604 = {
 				b_barony0614e = { }
 				b_barony0614f = { }
 				b_barony0614g = { }
-			}
-			c_province0636 = {
-				color={ 29 183 80 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0636` = { }
-				b_barony0636a = { }
-				b_barony0636b = { }
-				b_barony0636c = { }
-				b_barony0636d = { }
-				b_barony0636e = { }
-				b_barony0636f = { }
-				b_barony0636g = { }
 			}
 			c_province0622 = {
 				color={ 73 151 64 }
@@ -18033,24 +18049,6 @@ e_empire0956 = { #unused
 	
 	culture = kannada
 	
-	k_kingdom0956 = { #unused
-		allow = { always = no }
-		color={ 188 120 58 }
-		color2={ 255 255 255 }
-		
-		capital = 956
-		
-		culture = kannada
-		
-		d_duchy0956 = { #unused
-		allow = { always = no }
-			color={ 188 120 58 }
-			color2={ 255 255 255 }
-			
-			capital = 956
-			
-		}
-	}
 }
 e_empire0970 = {
 	color={ 43 40 78 }
