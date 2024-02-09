@@ -10680,7 +10680,7 @@ e_empire0560 = {
 			}
 		}
 	}
-	k_kingdom0560 = {
+	k_kingdom0560 = { #Saharah
 		color={ 172 108 166 }
 		color2={ 255 255 255 }
 		
@@ -11209,69 +11209,6 @@ e_empire0604 = {
 				b_barony0623g = { }
 			}
 		}
-		d_duchy0638 = {
-			color={ 59 194 70 }
-			color2={ 255 255 255 }
-			
-			capital = 638
-			
-			c_province0653 = {
-				color={ 44 167 25 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0653` = { }
-				b_barony0653a = { }
-				b_barony0653b = { }
-				b_barony0653c = { }
-				b_barony0653d = { }
-				b_barony0653e = { }
-				b_barony0653f = { }
-				b_barony0653g = { }
-			}
-			c_province0654 = {
-				color={ 30 172 49 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0654` = { }
-				b_barony0654a = { }
-				b_barony0654b = { }
-				b_barony0654c = { }
-				b_barony0654d = { }
-				b_barony0654e = { }
-				b_barony0654f = { }
-				b_barony0654g = { }
-			}
-			c_province0655 = {
-				color={ 52 186 33 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0655` = { }
-				b_barony0655a = { }
-				b_barony0655b = { }
-				b_barony0655c = { }
-				b_barony0655d = { }
-				b_barony0655e = { }
-				b_barony0655f = { }
-				b_barony0655g = { }
-			}
-			c_province0638 = {
-				color={ 59 194 70 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0638` = { }
-				b_barony0638a = { }
-				b_barony0638b = { }
-				b_barony0638c = { }
-				b_barony0638d = { }
-				b_barony0638e = { }
-				b_barony0638f = { }
-				b_barony0638g = { }
-			}
-		}
 		d_cairo = {
 			color={ 74 152 58 }
 			color2={ 255 255 255 }
@@ -11689,81 +11626,15 @@ e_empire0604 = {
 			}
 		}
 	}
-	k_kingdom0704 = {
-		color={ 33 189 45 }
+	k_kingdom0989 = { #Arabia
+		allow = { always = no }
+		color={ 207 160 26 }
 		color2={ 255 255 255 }
 		
-		capital = 704
+		capital = 689
 		
-		culture = bedouin_arabic
+		culture = kannada
 		
-		d_duchy0675 = {
-			color={ 78 164 42 }
-			color2={ 255 255 255 }
-			
-			capital = 675
-			
-			c_tehran = {
-				color={ 73 155 37 }
-				color2={ 255 255 255 }
-				
-				holy_site = hurufi
-				holy_site = khurmazta
-				
-				b_tehran = {
-				dynasty_title_names = no
-				}
-				b_barony0674a = { }
-				b_barony0674b = { }
-				b_barony0674c = { }
-				b_barony0674d = { }
-				b_barony0674e = { }
-				b_barony0674f = { }
-				b_barony0674g = { }
-			}
-			c_province0676 = {
-				color={ 63 151 41 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0676` = { }
-				b_barony0676a = { }
-				b_barony0676b = { }
-				b_barony0676c = { }
-				b_barony0676d = { }
-				b_barony0676e = { }
-				b_barony0676f = { }
-				b_barony0676g = { }
-			}
-			c_province0691 = {
-				color={ 65 205 70 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0691` = { }
-				b_barony0691a = { }
-				b_barony0691b = { }
-				b_barony0691c = { }
-				b_barony0691d = { }
-				b_barony0691e = { }
-				b_barony0691f = { }
-				b_barony0691g = { }
-			}
-			c_province0675 = {
-				color={ 78 164 42 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0675` = { }
-				b_barony0675a = { }
-				b_barony0675b = { }
-				b_barony0675c = { }
-				b_barony0675d = { }
-				b_barony0675e = { }
-				b_barony0675f = { }
-				b_barony0675g = { }
-			}
-		}
 		d_mecca = {
 			color={ 27 204 59 }
 			color2={ 255 255 255 }
@@ -11918,6 +11789,117 @@ e_empire0604 = {
 				b_barony0739g = { }
 			}
 		}
+		d_duchy0764 = {
+			color={ 51 178 69 }
+			color2={ 255 255 255 }
+			
+			capital = 764
+			
+			c_province0746 = {
+				color={ 48 175 23 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0746` = { }
+				b_barony0746a = { }
+				b_barony0746b = { }
+				b_barony0746c = { }
+				b_barony0746d = { }
+				b_barony0746e = { }
+				b_barony0746f = { }
+				b_barony0746g = { }
+			}
+			c_province0764 = {
+				color={ 51 178 69 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0764` = { }
+				b_barony0764a = { }
+				b_barony0764b = { }
+				b_barony0764c = { }
+				b_barony0764d = { }
+				b_barony0764e = { }
+				b_barony0764f = { }
+				b_barony0764g = { }
+			}
+		}
+	}
+	k_kingdom0704 = { #Iran
+		color={ 33 189 45 }
+		color2={ 255 255 255 }
+		
+		capital = 704
+		
+		culture = bedouin_arabic
+		
+		d_duchy0675 = {
+			color={ 78 164 42 }
+			color2={ 255 255 255 }
+			
+			capital = 675
+			
+			c_tehran = {
+				color={ 73 155 37 }
+				color2={ 255 255 255 }
+				
+				holy_site = hurufi
+				holy_site = khurmazta
+				
+				b_tehran = {
+				dynasty_title_names = no
+				}
+				b_barony0674a = { }
+				b_barony0674b = { }
+				b_barony0674c = { }
+				b_barony0674d = { }
+				b_barony0674e = { }
+				b_barony0674f = { }
+				b_barony0674g = { }
+			}
+			c_province0676 = {
+				color={ 63 151 41 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0676` = { }
+				b_barony0676a = { }
+				b_barony0676b = { }
+				b_barony0676c = { }
+				b_barony0676d = { }
+				b_barony0676e = { }
+				b_barony0676f = { }
+				b_barony0676g = { }
+			}
+			c_province0691 = {
+				color={ 65 205 70 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0691` = { }
+				b_barony0691a = { }
+				b_barony0691b = { }
+				b_barony0691c = { }
+				b_barony0691d = { }
+				b_barony0691e = { }
+				b_barony0691f = { }
+				b_barony0691g = { }
+			}
+			c_province0675 = {
+				color={ 78 164 42 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0675` = { }
+				b_barony0675a = { }
+				b_barony0675b = { }
+				b_barony0675c = { }
+				b_barony0675d = { }
+				b_barony0675e = { }
+				b_barony0675f = { }
+				b_barony0675g = { }
+			}
+		}
 		d_duchy0743 = {
 			color={ 76 154 30 }
 			color2={ 255 255 255 }
@@ -11995,41 +11977,6 @@ e_empire0604 = {
 				b_barony0743g = { }
 			}
 		}
-		d_duchy0764 = {
-			color={ 51 178 69 }
-			color2={ 255 255 255 }
-			
-			capital = 764
-			
-			c_province0746 = {
-				color={ 48 175 23 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0746` = { }
-				b_barony0746a = { }
-				b_barony0746b = { }
-				b_barony0746c = { }
-				b_barony0746d = { }
-				b_barony0746e = { }
-				b_barony0746f = { }
-				b_barony0746g = { }
-			}
-			c_province0764 = {
-				color={ 51 178 69 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0764` = { }
-				b_barony0764a = { }
-				b_barony0764b = { }
-				b_barony0764c = { }
-				b_barony0764d = { }
-				b_barony0764e = { }
-				b_barony0764f = { }
-				b_barony0764g = { }
-			}
-		}
 		d_duchy0704 = {
 			color={ 33 189 45 }
 			color2={ 255 255 255 }
@@ -12063,6 +12010,55 @@ e_empire0604 = {
 				b_barony0704e = { }
 				b_barony0704f = { }
 				b_barony0704g = { }
+			}
+		}
+		d_duchy0638 = {
+			color={ 59 194 70 }
+			color2={ 255 255 255 }
+			
+			capital = 655
+			
+			c_province0653 = {
+				color={ 44 167 25 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0653` = { }
+				b_barony0653a = { }
+				b_barony0653b = { }
+				b_barony0653c = { }
+				b_barony0653d = { }
+				b_barony0653e = { }
+				b_barony0653f = { }
+				b_barony0653g = { }
+			}
+			c_province0654 = {
+				color={ 30 172 49 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0654` = { }
+				b_barony0654a = { }
+				b_barony0654b = { }
+				b_barony0654c = { }
+				b_barony0654d = { }
+				b_barony0654e = { }
+				b_barony0654f = { }
+				b_barony0654g = { }
+			}
+			c_province0655 = {
+				color={ 52 186 33 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0655` = { }
+				b_barony0655a = { }
+				b_barony0655b = { }
+				b_barony0655c = { }
+				b_barony0655d = { }
+				b_barony0655e = { }
+				b_barony0655f = { }
+				b_barony0655g = { }
 			}
 		}
 	}
@@ -12158,7 +12154,21 @@ e_empire0604 = {
 			color2={ 255 255 255 }
 			
 			capital = 622
-			
+
+			c_province0638 = {
+				color={ 59 194 70 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0638` = { }
+				b_barony0638a = { }
+				b_barony0638b = { }
+				b_barony0638c = { }
+				b_barony0638d = { }
+				b_barony0638e = { }
+				b_barony0638f = { }
+				b_barony0638g = { }
+			}
 			c_province0632 = {
 				color={ 71 182 72 }
 				color2={ 255 255 255 }
@@ -12218,8 +12228,8 @@ e_empire0604 = {
 		}
 	}
 }
-e_empire0711 = { #unused
-		allow = { always = no }
+e_empire0711 = { #Divinity
+	allow = { always = no }
 	color={ 168 168 165 }
 	color2={ 255 255 255 }
 	
@@ -15552,15 +15562,15 @@ e_empire0786 = {
 		}
 	}
 }
-e_empire0836 = { #unused
-		allow = { always = no }
+e_empire0836 = { #Arab League
+	allow = { always = no }
 	color={ 96 108 2 }
 	color2={ 255 255 255 }
 	
 	purple_born_heirs = yes
-	capital = 836
+	capital = 647 #Cairo
 	
-	culture = dog_culture
+	culture = bedouin_arabic
 	
 }
 e_empire0897 = {

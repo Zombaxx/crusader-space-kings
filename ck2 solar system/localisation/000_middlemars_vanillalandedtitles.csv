@@ -808,9 +808,9 @@ d_baltic_pagan_reformed;Kanatka;;;;;;;;;;;;;x
 d_bon_reformed;Mekhala;;;;;;;;;;;;;x
 d_finnish_pagan_reformed;Martian;;;;;;;;;;;;;x
 d_jewish;Truther;;;;;;;;;;;;;x
-d_norse_pagan_reformed;Seas of Oceanus Borealis;;;;;;;;;;;;;x
-d_slavic_pagan_reformed;Kanend;;;;;;;;;;;;;x
-d_tengri_pagan_reformed;Pharaoh;;;;;;;;;;;;;x
+d_norse_pagan_reformed;Seas of Ether;;;;;;;;;;;;;x
+#d_slavic_pagan_reformed;Kanend;;;;;;;;;;;;;x
+#d_tengri_pagan_reformed;Pharaoh;;;;;;;;;;;;;x
 d_west_african_pagan_reformed;Jeddak;;;;;;;;;;;;;x
 d_zoroastrian;Divine Scientist;;;;;;;;;;;;;x
 d_zun_pagan_reformed;Solius;;;;;;;;;;;;;x
@@ -818,10 +818,10 @@ d_manichean;Divine Prophesizer;;;;;;;;;;;;;x
 d_persian_caravan_guards;Wamal Caravan Guards;;;;;;;;;;;;;x
 d_silk_road_sentinels;Celestial Road Sentinels;;;;;;;;;;;;;x
 d_turkic_guard;Versian Guard;;;;;;;;;;;;;x
-d_papal_guards;Holy Terra Guard;;;;;;;;;;;;;x
-d_qarmatian;Ecalp;;;;;;;;;;;;;x
-d_shiite;The Altered Caliphate;;;;;;;;;;;;;x
-d_sunni;The Terraformed Caliphate;;;;;;;;;;;;;x
+#d_papal_guards;Holy Terra Guard;;;;;;;;;;;;;x
+#d_qarmatian;Ecalp;;;;;;;;;;;;;x
+#d_shiite;The Altered Caliphate;;;;;;;;;;;;;x
+#d_sunni;The Terraformed Caliphate;;;;;;;;;;;;;x
 e_bulgaria;Amuseph;;;;;;;;;;;;;x
 e_chagatai;Tivuit;;;;;;;;;;;;;x
 e_china_west_governor;Celestial Protectorate;;;;;;;;;;;;;x
