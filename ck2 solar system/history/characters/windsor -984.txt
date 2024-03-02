@@ -42,6 +42,20 @@
 			k_kingdom0245 = { add_claim = ROOT }
 			d_melbourne = { add_claim = ROOT }
 		}
+        effect={
+            spawn_unit={
+                province=496 #London
+                owner=ROOT
+                troops={
+                    archers={500 500}
+                    heavy_infantry={500 500}
+                    light_infantry={1000 1000}
+					light_cavalry={500 500}
+					heavy_cavalry={250 250}
+                }
+                attrition=0.5
+            }
+		}
 	}
 }
 7000003 = {

@@ -668,6 +668,20 @@
 			prestige = 5000
 			piety = 3000
 			}
+        effect={
+            spawn_unit={
+                province=1615 #Ganymede
+                owner=ROOT
+                troops={
+                    archers={500 500}
+                    heavy_infantry={500 500}
+                    light_infantry={1000 1000}
+					light_cavalry={500 500}
+					heavy_cavalry={250 250}
+                }
+                attrition=0.5
+            }
+		}
 	}
 }
 777101={
@@ -1010,5 +1024,19 @@
 			prestige = 5000
 			piety = 3000
 			}
+        effect={
+            spawn_unit={
+                province=139 #Antartica
+                owner=ROOT
+                troops={
+                    archers={500 500}
+                    heavy_infantry={500 500}
+                    light_infantry={1000 1000}
+					light_cavalry={500 500}
+					heavy_cavalry={250 250}
+                }
+                attrition=0.5
+            }
+		}
 	}
 }
