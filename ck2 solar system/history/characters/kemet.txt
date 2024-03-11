@@ -1,0 +1,390 @@
+776000={
+	name="Nu"
+	dynasty=77600
+	culture=dragon_culture 
+	religion=egyptian_pagan
+	female=yes
+	diplomacy=90
+	trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	1.1.1={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
+	1.1.2={death=yes}
+}
+775999={
+	name="Aten"
+	#dynasty=77600
+	culture=dark_elven 
+	religion=egyptian_pagan
+	female=yes
+	diplomacy=90
+	trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	1.1.3={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
+	#1.1.2={death=yes}
+}
+775998={
+	name="Apep"
+	#dynasty=77600
+	culture=dragon_culture 
+	religion=egyptian_pagan
+	female=yes
+	diplomacy=90
+	trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	1.1.1={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
+	1.1.2={death=yes}
+}
+776001={
+	name="Atum"
+	dynasty=77600 #Kemet
+	culture=blood_elven 
+	religion=egyptian_pagan
+	mother=776000	
+	#diplomacy=9
+	trait=twin
+	#trait=duelist
+	#trait=wrath
+	#trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	1.1.2={birth=yes}
+	#1.11.11={
+	#	add_spouse = 776004
+	#}
+	#7.7.7={death=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 10000
+			piety = 30000
+			}
+	}	
+}
+776002={
+	name="Ra"
+	dynasty=77600
+	culture=high_cathrian 
+	religion=egyptian_pagan
+	mother=776000
+	#diplomacy=9
+	trait=twin
+	#trait=duelist
+	#trait=wrath
+	#trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	1.1.2={birth=yes}
+	#1.11.11={
+	#	add_spouse = 776004
+	#}
+	#7.7.7={death=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 10000
+			piety = 30000
+			}
+	}
+}
+776003{
+	name="Shu"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776002
+	mother=776001
+	trait=twin
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	18.1.1={birth=yes}
+	34.1.1={
+		add_spouse = 776004
+	}
+}
+776004={
+	name="Tefnut"
+	dynasty=77600
+	culture=high_cathrian 
+	religion=egyptian_pagan
+	trait=twin
+	father=776002
+	mother=776001
+	female=yes
+	martial=9
+	trait=duelist
+	trait=wrath
+	trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	18.1.1={birth=yes}
+	34.1.1={
+		add_spouse = 776003
+	}
+}
+776005={
+	name="Geb"
+	#dynasty=77600
+	culture=dragon_culture 
+	religion=egyptian_pagan
+	father=776003
+	mother=776004
+	diplomacy=9
+	trait=twin
+	trait=full_cybernetic_conversion
+	trait=charismatic_negotiator
+	34.9.1={birth=yes}
+	50.1.1={
+		add_spouse = 776006
+	}
+}
+776006={
+	name="Nut"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776003
+	mother=776004
+	female=yes
+	trait=twin
+	trait=full_cybernetic_conversion
+	diplomacy=50
+	trait=ambitious
+	trait=kind
+	trait=charismatic_negotiator
+	34.9.1={birth=yes}
+	50.1.1={
+		add_spouse = 776005
+	}
+}
+
+776007={
+	name="Isis"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776005
+	mother=776006
+	employer=776001
+	female=yes
+	trait=full_cybernetic_conversion
+	50.11.11={birth=yes}
+	67.1.1={
+		add_spouse = 776008
+	}
+}
+776008={
+	name="Osiris"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776005
+	mother=776006
+	employer=776001
+	female=yes
+	trait=full_cybernetic_conversion
+	50.11.11={birth=yes}
+	67.1.1={
+		add_spouse = 776007
+	}
+}
+776009={
+	name="Nephithys"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776005
+	mother=776006
+	employer=776001
+	trait=full_cybernetic_conversion
+	trait=fair
+	52.5.1={birth=yes}
+}
+776010={
+	name="Set"
+	dynasty=77600
+	culture=high_cathrian 
+	religion=egyptian_pagan
+	father=776005
+	mother=776006
+	employer=776001
+	trait=full_cybernetic_conversion
+	53.6.1={birth=yes}
+}
+776011={
+	name="Horus"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776008
+	mother=776007
+	trait=full_cybernetic_conversion
+	67.10.30={birth=yes}
+	82.1.1={
+		add_spouse = 7760018
+	}
+}
+
+776012={
+	name="Anubus"
+	dynasty=77600
+	culture=high_cathrian 
+	religion=egyptian_pagan
+	father=776008
+	mother=776009
+	employer=776001
+	trait=full_cybernetic_conversion
+	70.2.17={birth=yes}
+}
+
+7760013={
+	name="Thoth"
+	dynasty=77778
+	culture=high_cathrian
+	religion=egyptian_pagan
+	father=776010
+	trait=giant
+	trait=strong
+	trait=wrath
+	trait=full_cybernetic_conversion
+	martial=50
+	combat_rating=100
+	stewardship=20
+	trait=charismatic_negotiator
+	70.1.1={birth=yes}
+	1065.1.1 = {
+		effect = {
+			e_empire1184 = { add_claim = ROOT }
+			k_kingdom1184 = {add_claim = ROOT }
+		}
+	}
+	1066.1.1 = {
+		effect = { 
+			prestige = 5000
+			piety = 3000
+			}
+	}
+}
+776014={
+	name="Sekhmet"
+	dynasty=77600
+	culture=high_cathrian 
+	religion=egyptian_pagan
+	female=yes
+	father=776002
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	18.3.1={birth=yes}
+	35.1.1={
+		add_spouse = 7760015
+	}
+}
+776015={
+	name="Ptah"
+	#dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	18.1.1={birth=yes}
+	35.1.1={
+		add_spouse = 776014
+	}
+}
+776016={
+	name="Nefertem"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776015
+	mother=776015
+	female=yes
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	35.1.1={birth=yes}
+}
+776017={
+	name="Imhotep"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	father=776015
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	34.1.1={birth=yes}
+}
+776018={
+	name="Hathor"
+	dynasty=77600
+	culture=high_elven 
+	religion=egyptian_pagan
+	female=yes
+	father=776002
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	19.1.1={birth=yes}
+	82.1.1={
+		add_spouse = 776011
+	}
+}
+776019={
+	name="Hapi"
+	dynasty=77600
+	culture=high_elven 
+	religion=egyptian_pagan
+	female=yes
+	father=776011
+	mother=776018
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	82.3.1={birth=yes}
+}
+776020={
+	name="Bastet"
+	dynasty=77600
+	culture=high_cathrian 
+	religion=egyptian_pagan
+	female=yes
+	father=776002
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	19.11.1={birth=yes}
+}
+776021={
+	name="Maat"
+	dynasty=77600
+	culture=blood_elven 
+	religion=egyptian_pagan
+	female=yes
+	father=776002
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	83.10.1={birth=yes}
+}
+776022={
+	name="Bastet"
+	dynasty=77600
+	culture=high_cathrian 
+	religion=egyptian_pagan
+	female=yes
+	father=776002
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	84.8.1={birth=yes}
+}
+776022={
+	name="Khepri"
+	dynasty=77600
+	culture=dark_elven 
+	religion=egyptian_pagan
+	female=yes
+	mother=776006
+	trait=full_cybernetic_conversion
+	diplomacy=9
+	trait=charismatic_negotiator
+	50.1.1={birth=yes}
+}
