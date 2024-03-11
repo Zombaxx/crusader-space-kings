@@ -5,7 +5,6 @@
 	religion=egyptian_pagan
 	female=yes
 	diplomacy=90
-	trait=charismatic_negotiator
 	trait=full_cybernetic_conversion
 	1.1.1={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	1.1.2={death=yes}
@@ -15,9 +14,9 @@
 	#dynasty=77600
 	culture=dark_elven 
 	religion=egyptian_pagan
-	female=yes
+	trait=ambitious
 	diplomacy=90
-	trait=charismatic_negotiator
+	combat_rating=100
 	trait=full_cybernetic_conversion
 	1.1.3={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	#1.1.2={death=yes}
@@ -27,9 +26,8 @@
 	#dynasty=77600
 	culture=dragon_culture 
 	religion=egyptian_pagan
-	female=yes
-	diplomacy=90
-	trait=charismatic_negotiator
+	martial=90
+	combat_rating=100
 	trait=full_cybernetic_conversion
 	1.1.1={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	1.1.2={death=yes}
@@ -41,16 +39,16 @@
 	religion=egyptian_pagan
 	mother=776000	
 	#diplomacy=9
+	diplomacy=50
+	martial=40
+	combat_rating=100
+	trait=ambitious	
 	trait=twin
-	#trait=duelist
-	#trait=wrath
-	#trait=charismatic_negotiator
+	trait=duelist
+	trait=wrath
+	trait=brilliant_strategist
 	trait=full_cybernetic_conversion
 	1.1.2={birth=yes}
-	#1.11.11={
-	#	add_spouse = 776004
-	#}
-	#7.7.7={death=yes}
 	1066.1.1 = {
 		effect = { 
 			prestige = 10000
@@ -64,17 +62,16 @@
 	culture=high_cathrian 
 	religion=egyptian_pagan
 	mother=776000
-	#diplomacy=9
+	diplomacy=50
+	martial=40
+	combat_rating=100
+	trait=ambitious	
 	trait=twin
-	#trait=duelist
-	#trait=wrath
-	#trait=charismatic_negotiator
+	trait=duelist
+	trait=wrath
+	trait=brilliant_strategist
 	trait=full_cybernetic_conversion
 	1.1.2={birth=yes}
-	#1.11.11={
-	#	add_spouse = 776004
-	#}
-	#7.7.7={death=yes}
 	1066.1.1 = {
 		effect = { 
 			prestige = 10000
@@ -92,7 +89,6 @@
 	trait=twin
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	18.1.1={birth=yes}
 	34.1.1={
 		add_spouse = 776004
@@ -107,10 +103,6 @@
 	father=776002
 	mother=776001
 	female=yes
-	martial=9
-	trait=duelist
-	trait=wrath
-	trait=charismatic_negotiator
 	trait=full_cybernetic_conversion
 	18.1.1={birth=yes}
 	34.1.1={
@@ -119,7 +111,7 @@
 }
 776005={
 	name="Geb"
-	#dynasty=77600
+	dynasty=77600
 	culture=dragon_culture 
 	religion=egyptian_pagan
 	father=776003
@@ -127,7 +119,6 @@
 	diplomacy=9
 	trait=twin
 	trait=full_cybernetic_conversion
-	trait=charismatic_negotiator
 	34.9.1={birth=yes}
 	50.1.1={
 		add_spouse = 776006
@@ -144,9 +135,6 @@
 	trait=twin
 	trait=full_cybernetic_conversion
 	diplomacy=50
-	trait=ambitious
-	trait=kind
-	trait=charismatic_negotiator
 	34.9.1={birth=yes}
 	50.1.1={
 		add_spouse = 776005
@@ -245,14 +233,13 @@
 	martial=50
 	combat_rating=100
 	stewardship=20
-	trait=charismatic_negotiator
 	70.1.1={birth=yes}
-	1065.1.1 = {
-		effect = {
-			e_empire1184 = { add_claim = ROOT }
-			k_kingdom1184 = {add_claim = ROOT }
-		}
-	}
+	#1065.1.1 = {
+	#	effect = {
+	#		e_empire1184 = { add_claim = ROOT }
+	#		k_kingdom1184 = {add_claim = ROOT }
+	#	}
+	#}
 	1066.1.1 = {
 		effect = { 
 			prestige = 5000
@@ -269,7 +256,6 @@
 	father=776002
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	18.3.1={birth=yes}
 	35.1.1={
 		add_spouse = 7760015
@@ -282,7 +268,6 @@
 	religion=egyptian_pagan
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	18.1.1={birth=yes}
 	35.1.1={
 		add_spouse = 776014
@@ -298,7 +283,6 @@
 	female=yes
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	35.1.1={birth=yes}
 }
 776017={
@@ -309,7 +293,6 @@
 	father=776015
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	34.1.1={birth=yes}
 }
 776018={
@@ -321,7 +304,6 @@
 	father=776002
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	19.1.1={birth=yes}
 	82.1.1={
 		add_spouse = 776011
@@ -337,7 +319,6 @@
 	mother=776018
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	82.3.1={birth=yes}
 }
 776020={
@@ -349,7 +330,6 @@
 	father=776002
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	19.11.1={birth=yes}
 }
 776021={
@@ -361,7 +341,6 @@
 	father=776002
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	83.10.1={birth=yes}
 }
 776022={
@@ -373,7 +352,6 @@
 	father=776002
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	84.8.1={birth=yes}
 }
 776022={
@@ -385,6 +363,5 @@
 	mother=776006
 	trait=full_cybernetic_conversion
 	diplomacy=9
-	trait=charismatic_negotiator
 	50.1.1={birth=yes}
 }
