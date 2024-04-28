@@ -48,7 +48,7 @@ PROV46;Pacifica;Rucius;Rucius;;Rucius;;;;;;;;;x
 PROV47;Tenina;Tenina;Tenina;;Tenina;;;;;;;;;x
 PROV48;Akamud;Akamud;Akamud;;Akamud;;;;;;;;;x
 PROV49;Samuko;Samuko;Samuko;;Samuko;;;;;;;;;x
-PROV50;Relam;Relam;Relam;;Relam;;;;;;;;;x
+PROV50;Pacific Coast;Relam;Relam;;Relam;;;;;;;;;x
 PROV51;Costa Rica;Costa Rica;Costa Rica;;Costa Rica;;;;;;;;;x
 PROV52;Akojema;Akojema;Akojema;;Akojema;;;;;;;;;x
 PROV53;Amucath;Amucath;Amucath;;Amucath;;;;;;;;;x
@@ -72,13 +72,13 @@ PROV70;Honduras;Honduras;Honduras;;Honduras;;;;;;;;;x
 PROV71;Lajory;Lajory;Lajory;;Lajory;;;;;;;;;x
 PROV72;Sasirai;Sasirai;Sasirai;;Sasirai;;;;;;;;;x
 PROV73;Kamoger;Kamoger;Kamoger;;Kamoger;;;;;;;;;x
-PROV74;Deinory;Deinory;Deinory;;Deinory;;;;;;;;;x
+PROV74;Tamaulipas;Deinory;Deinory;;Deinory;;;;;;;;;x
 PROV75;Sanonne;Sanonne;Sanonne;;Sanonne;;;;;;;;;x
 PROV76;Qedideva;Qedideva;Qedideva;;Qedideva;;;;;;;;;x
 PROV77;Togyuk;Togyuk;Togyuk;;Togyuk;;;;;;;;;x
 PROV78;Wabdurna;Wabdurna;Wabdurna;;Wabdurna;;;;;;;;;x
 PROV79;Lakoka;Lakoka;Lakoka;;Lakoka;;;;;;;;;x
-PROV80;Doyan;Doyan;Doyan;;Doyan;;;;;;;;;x
+PROV80;Sinola;Doyan;Doyan;;Doyan;;;;;;;;;x
 PROV81;Bajunno;Bajunno;Bajunno;;Bajunno;;;;;;;;;x
 PROV82;Latheek;Latheek;Latheek;;Latheek;;;;;;;;;x
 PROV83;Taa;Taa;Taa;;Taa;;;;;;;;;x
@@ -101,7 +101,7 @@ PROV99;Tizarya;Tizarya;Tizarya;;Tizarya;;;;;;;;;x
 PROV100;Bajoras;Bajoras;Bajoras;;Bajoras;;;;;;;;;x
 PROV101;Laulint;Laulint;Laulint;;Laulint;;;;;;;;;x
 PROV102;Terefan;Terefan;Terefan;;Terefan;;;;;;;;;x
-PROV103;Border;Border;Border;;Border;;;;;;;;;x
+PROV103;Sonora;Border;Border;;Border;;;;;;;;;x
 PROV104;Keludan;Keludan;Keludan;;Keludan;;;;;;;;;x
 PROV105;Chihuahua;Chihuahua;Chihuahua;;Chihuahua;;;;;;;;;x
 PROV106;Dacaya;Dacaya;Dacaya;;Dacaya;;;;;;;;;x
@@ -129,7 +129,7 @@ PROV127;Namint;Namint;Namint;;Namint;;;;;;;;;x
 PROV128;Navabib;Navabib;Navabib;;Navabib;;;;;;;;;x
 PROV129;Kutato;Kutato;Kutato;;Kutato;;;;;;;;;x
 PROV130;Ryha;Ryha;Ryha;;Ryha;;;;;;;;;x
-PROV131;Tumuisa;Tumuisa;Tumuisa;;Tumuisa;;;;;;;;;x
+PROV131;Border;Tumuisa;Tumuisa;;Tumuisa;;;;;;;;;x
 PROV132;Amekim;Amekim;Amekim;;Amekim;;;;;;;;;x
 PROV133;Begs;Begs;Begs;;Begs;;;;;;;;;x
 PROV134;Ninanka;Ninanka;Ninanka;;Ninanka;;;;;;;;;x
@@ -188,9 +188,9 @@ PROV186;Tiegew;Tiegew;Tiegew;;Tiegew;;;;;;;;;x
 PROV187;Larunai;Larunai;Larunai;;Larunai;;;;;;;;;x
 PROV188;Caribbean;Caribbean;Caribbean;;Caribbean;;;;;;;;;x
 PROV189;Duwund;Duwund;Duwund;;Duwund;;;;;;;;;x
-PROV190;Karuigi;Karuigi;Karuigi;;Karuigi;;;;;;;;;x
+PROV190;Kansas;Karuigi;Karuigi;;Karuigi;;;;;;;;;x
 PROV191;Wereuta;Wereuta;Wereuta;;Wereuta;;;;;;;;;x
-PROV192;Elibi;Elibi;Elibi;;Elibi;;;;;;;;;x
+PROV192;Rocky Mountain;Elibi;Elibi;;Elibi;;;;;;;;;x
 PROV193;Lakawuj;Lakawuj;Lakawuj;;Lakawuj;;;;;;;;;x
 PROV194;Duelle;Duelle;Duelle;;Duelle;;;;;;;;;x
 PROV195;Taaz;Taaz;Taaz;;Taaz;;;;;;;;;x
@@ -210,28 +210,28 @@ PROV208;Cascadia;Cascadia;Cascadia;;Cascadia;;;;;;;;;x
 PROV209;Teneka;Teneka;Teneka;;Teneka;;;;;;;;;x
 PROV210;Kautiat;Kautiat;Kautiat;;Kautiat;;;;;;;;;x
 PROV211;Susidis;Susidis;Susidis;;Susidis;;;;;;;;;x
-PROV212;Gold Country;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
+PROV212;East Cascadia;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
 PROV213;Ehamaut;Ehamaut;Ehamaut;;Ehamaut;;;;;;;;;x
 PROV214;Enyea;Enyea;Enyea;;Enyea;;;;;;;;;x
 PROV215;Ryuvine;Ryuvine;Ryuvine;;Ryuvine;;;;;;;;;x
 PROV216;Reposlan;Reposlan;Reposlan;;Reposlan;;;;;;;;;x
 PROV217;Nokalram;Nokalram;Nokalram;;Nokalram;;;;;;;;;x
 PROV218;Teupiero;Teupiero;Teupiero;;Teupiero;;;;;;;;;x
-PROV219;Kivana;Kivana;Kivana;;Kivana;;;;;;;;;x
+PROV219;Midwest;Kivana;Kivana;;Kivana;;;;;;;;;x
 PROV220;Atlanta;Atlanta;Atlanta;;Atlanta;;;;;;;;;x
 PROV221;Kutawtus;Kutawtus;Kutawtus;;Kutawtus;;;;;;;;;x
 PROV222;Takomez;Takomez;Takomez;;Takomez;;;;;;;;;x
 PROV223;Kata;Kata;Kata;;Kata;;;;;;;;;x
-PROV224;Tobina;Tobina;Tobina;;Tobina;;;;;;;;;x
+PROV224;Wyoming;Tobina;Tobina;;Tobina;;;;;;;;;x
 PROV225;Northern Jungle;Northern Jungle;Northern Jungle;;Northern Jungle;;;;;;;;;x
-PROV226;Missouri;Balaud;Balaud;;Balaud;;;;;;;;;x
+PROV226;Illinois;Balaud;Balaud;;Balaud;;;;;;;;;x
 PROV227;Leliek;Leliek;Leliek;;Leliek;;;;;;;;;x
 PROV228;Nashville;Nashville;Nashville;;Nashville;;;;;;;;;x
 PROV229;Kentucky;Rerawuj;Rerawuj;;Rerawuj;;;;;;;;;x
 PROV230;Nerivka;Nerivka;Nerivka;;Nerivka;;;;;;;;;x
-PROV231;Dareter;Dareter;Dareter;;Dareter;;;;;;;;;x
+PROV231;Idaho;Dareter;Dareter;;Dareter;;;;;;;;;x
 PROV232;Neoka;Neoka;Neoka;;Neoka;;;;;;;;;x
-PROV233;Kanandi;Kanandi;Kanandi;;Kanandi;;;;;;;;;x
+PROV233;Yellowstone;Kanandi;Kanandi;;Kanandi;;;;;;;;;x
 PROV234;Taarozar;Taarozar;Taarozar;;Taarozar;;;;;;;;;x
 PROV235;Ezeleva;Ezeleva;Ezeleva;;Ezeleva;;;;;;;;;x
 PROV236;Lidani;Lidani;Lidani;;Lidani;;;;;;;;;x
@@ -244,7 +244,7 @@ PROV242;Neilaka;Neilaka;Neilaka;;Neilaka;;;;;;;;;x
 PROV243;Renawma;Renawma;Renawma;;Renawma;;;;;;;;;x
 PROV244;Louisville;Kagoa;Kagoa;;Kagoa;;;;;;;;;x
 PROV245;North Shore;North Shore;North Shore;;North Shore;;;;;;;;;x
-PROV246;Rorang;Rorang;Rorang;;Rorang;;;;;;;;;x
+PROV246;Minnesota;Rorang;Rorang;;Rorang;;;;;;;;;x
 PROV247;Ricoste;Ricoste;Ricoste;;Ricoste;;;;;;;;;x
 PROV248;Bumanda;Bumanda;Bumanda;;Bumanda;;;;;;;;;x
 PROV249;Daraila;Daraila;Daraila;;Daraila;;;;;;;;;x
@@ -252,10 +252,10 @@ PROV250;North Carolina;North Carolina;North Carolina;;North Carolina;;;;;;;;;x
 PROV251;Ryuvelm;Ryuvelm;Ryuvelm;;Ryuvelm;;;;;;;;;x
 PROV252;Olympus;Olympus;Olympus;;Olympus;;;;;;;;;x
 PROV253;Waun;Waun;Waun;;Waun;;;;;;;;;x
-PROV254;Activia;Activia;Activia;;Activia;;;;;;;;;x
+PROV254;Montana;Activia;Activia;;Activia;;;;;;;;;x
 PROV255;Tunavo;Tunavo;Tunavo;;Tunavo;;;;;;;;;x
 PROV256;Rarala;Rarala;Rarala;;Rarala;;;;;;;;;x
-PROV257;Atheoran;Atheoran;Atheoran;;Atheoran;;;;;;;;;x
+PROV257;Dakota;Atheoran;Atheoran;;Atheoran;;;;;;;;;x
 PROV258;Rust Belt;Keneba;Keneba;;Keneba;;;;;;;;;x
 PROV259;West Virginia;Teoda;Teoda;;Teoda;;;;;;;;;x
 PROV260;Qand;Qand;Qand;;Qand;;;;;;;;;x
@@ -272,7 +272,7 @@ PROV270;Wimedek;Wimedek;Wimedek;;Wimedek;;;;;;;;;x
 PROV271;Delaware;Delmarva;Delmarva;;Delmarva;;;;;;;;;x
 PROV272;Virginias;Koloul;Koloul;;Koloul;;;;;;;;;x
 PROV273;Kojara;Kojara;Kojara;;Kojara;;;;;;;;;x
-PROV274;Upper Midwest;Amahegin;Amahegin;;Amahegin;;;;;;;;;x
+PROV274;Wisconsin;Amahegin;Amahegin;;Amahegin;;;;;;;;;x
 PROV275;Rolorri;Rolorri;Rolorri;;Rolorri;;;;;;;;;x
 PROV276;Kamapa;Kamapa;Kamapa;;Kamapa;;;;;;;;;x
 PROV277;Nomas;Nomas;Nomas;;Nomas;;;;;;;;;x
@@ -2759,8 +2759,8 @@ b_barony0041d;Ramabib;Ramabib;Ramabib;;Ramabib;;;;;;;;;x
 b_barony0041e;Ejosayya;Ejosayya;Ejosayya;;Ejosayya;;;;;;;;;x
 b_barony0041f;Nazi;Nazi;Nazi;;Nazi;;;;;;;;;x
 b_barony0041g;Qovya;Qovya;Qovya;;Qovya;;;;;;;;;x
-d_duchy0042;Kamaya;Kamaya;Kamaya;;Kamaya;;;;;;;;;x
-d_duchy0042_adj;Bilari;Bilari;Bilari;;Bilari;;;;;;;;;x
+d_duchy0042;Oaxaca and Veracruz;Kamaya;Kamaya;;Kamaya;;;;;;;;;x
+d_duchy0042_adj;Oaxaca-Veracruzian;Bilari;Bilari;;Bilari;;;;;;;;;x
 c_province0042_adj;Naya;Naya;Naya;;Naya;;;;;;;;;x
 b_barony0042`;Narid;Narid;Narid;;Narid;;;;;;;;;x
 b_barony0042a;Kohork;Kohork;Kohork;;Kohork;;;;;;;;;x
@@ -2849,12 +2849,12 @@ b_barony0049d;Rolajan;Rolajan;Rolajan;;Rolajan;;;;;;;;;x
 b_barony0049e;Relaham;Relaham;Relaham;;Relaham;;;;;;;;;x
 b_barony0049f;Qacoriy;Qacoriy;Qacoriy;;Qacoriy;;;;;;;;;x
 b_barony0049g;Nolas;Nolas;Nolas;;Nolas;;;;;;;;;x
-c_province0050_adj;Aclovya;Aclovya;Aclovya;;Aclovya;;;;;;;;;x
-b_barony0050`;Savac;Savac;Savac;;Savac;;;;;;;;;x
-b_barony0050a;Tacayya;Tacayya;Tacayya;;Tacayya;;;;;;;;;x
-b_barony0050b;Taraya;Taraya;Taraya;;Taraya;;;;;;;;;x
-b_barony0050c;Barory;Barory;Barory;;Barory;;;;;;;;;x
-b_barony0050d;Sopluk;Sopluk;Sopluk;;Sopluk;;;;;;;;;x
+c_province0050_adj;Jaliscan;Aclovya;Aclovya;;Aclovya;;;;;;;;;x
+b_barony0050`;Michoacan;Savac;Savac;;Savac;;;;;;;;;x
+b_barony0050a;Jalisco;Tacayya;Tacayya;;Tacayya;;;;;;;;;x
+b_barony0050b;Guerrero;Taraya;Taraya;;Taraya;;;;;;;;;x
+b_barony0050c;Colima;Barory;Barory;;Barory;;;;;;;;;x
+b_barony0050d;Guadalajara;Sopluk;Sopluk;;Sopluk;;;;;;;;;x
 b_barony0050e;Dudavac;Dudavac;Dudavac;;Dudavac;;;;;;;;;x
 b_barony0050f;Tandail;Tandail;Tandail;;Tandail;;;;;;;;;x
 b_barony0050g;Tephen;Tephen;Tephen;;Tephen;;;;;;;;;x
@@ -3091,10 +3091,10 @@ b_barony0073f;Eforipa;Eforipa;Eforipa;;Eforipa;;;;;;;;;x
 b_barony0073g;Kahadro;Kahadro;Kahadro;;Kahadro;;;;;;;;;x
 d_duchy0074;Becolad;Becolad;Becolad;;Becolad;;;;;;;;;x
 d_duchy0074_adj;Wara;Wara;Wara;;Wara;;;;;;;;;x
-c_province0074_adj;Kuraksa;Kuraksa;Kuraksa;;Kuraksa;;;;;;;;;x
-b_barony0074`;Tonara;Tonara;Tonara;;Tonara;;;;;;;;;x
-b_barony0074a;Lamaim;Lamaim;Lamaim;;Lamaim;;;;;;;;;x
-b_barony0074b;Bamella;Bamella;Bamella;;Bamella;;;;;;;;;x
+c_province0074_adj;Tamaulipas;Kuraksa;Kuraksa;;Kuraksa;;;;;;;;;x
+b_barony0074`;Tampico;Tonara;Tonara;;Tonara;;;;;;;;;x
+b_barony0074a;Matamoror;Lamaim;Lamaim;;Lamaim;;;;;;;;;x
+b_barony0074b;Reynosa;Bamella;Bamella;;Bamella;;;;;;;;;x
 b_barony0074c;Linano;Linano;Linano;;Linano;;;;;;;;;x
 b_barony0074d;Sakork;Sakork;Sakork;;Sakork;;;;;;;;;x
 b_barony0074e;Ateiel;Ateiel;Ateiel;;Ateiel;;;;;;;;;x
@@ -3151,16 +3151,16 @@ b_barony0079d;Kohiami;Kohiami;Kohiami;;Kohiami;;;;;;;;;x
 b_barony0079e;Esanaug;Esanaug;Esanaug;;Esanaug;;;;;;;;;x
 b_barony0079f;Kogeda;Kogeda;Kogeda;;Kogeda;;;;;;;;;x
 b_barony0079g;Tajyer;Tajyer;Tajyer;;Tajyer;;;;;;;;;x
-d_duchy0080;Kumaret;Kumaret;Kumaret;;Kumaret;;;;;;;;;x
+d_duchy0080;Mexico;Mexico;Mexico;;Mexico;;;;;;;;;x
 d_duchy0080_adj;Kerasia;Kerasia;Kerasia;;Kerasia;;;;;;;;;x
-c_province0080_adj;Rakoda;Rakoda;Rakoda;;Rakoda;;;;;;;;;x
-b_barony0080`;Teveka;Teveka;Teveka;;Teveka;;;;;;;;;x
-b_barony0080a;Ceraunius;Ceraunius;Ceraunius;;Ceraunius;;;;;;;;;x
-b_barony0080b;Asuducho;Asuducho;Asuducho;;Asuducho;;;;;;;;;x
-b_barony0080c;Nanodis;Nanodis;Nanodis;;Nanodis;;;;;;;;;x
-b_barony0080d;Nagija;Nagija;Nagija;;Nagija;;;;;;;;;x
-b_barony0080e;Dajawit;Dajawit;Dajawit;;Dajawit;;;;;;;;;x
-b_barony0080f;Nyuning;Nyuning;Nyuning;;Nyuning;;;;;;;;;x
+c_province0080_adj;Sinolian;Rakoda;Rakoda;;Rakoda;;;;;;;;;x
+b_barony0080`;Mazatlan;Teveka;Teveka;;Teveka;;;;;;;;;x
+b_barony0080a;Los Mochis;Ceraunius;Ceraunius;;Ceraunius;;;;;;;;;x
+b_barony0080b;Culiancan;Asuducho;Asuducho;;Asuducho;;;;;;;;;x
+b_barony0080c;Guamuchil;Nanodis;Nanodis;;Nanodis;;;;;;;;;x
+b_barony0080d;Guasave;Nagija;Nagija;;Nagija;;;;;;;;;x
+b_barony0080e;Eldorado;Dajawit;Dajawit;;Dajawit;;;;;;;;;x
+b_barony0080f;La Cruz;Nyuning;Nyuning;;Nyuning;;;;;;;;;x
 b_barony0080g;Karyuk;Karyuk;Karyuk;;Karyuk;;;;;;;;;x
 c_province0081_adj;Welovai;Welovai;Welovai;;Welovai;;;;;;;;;x
 b_barony0081`;Etubyula;Etubyula;Etubyula;;Etubyula;;;;;;;;;x
@@ -3374,7 +3374,7 @@ b_barony0102d;Teinita;Teinita;Teinita;;Teinita;;;;;;;;;x
 b_barony0102e;Boshel;Boshel;Boshel;;Boshel;;;;;;;;;x
 b_barony0102f;Solastu;Solastu;Solastu;;Solastu;;;;;;;;;x
 b_barony0102g;Kimaksa;Kimaksa;Kimaksa;;Kimaksa;;;;;;;;;x
-c_province0103_adj;Borderian;Borderian;Borderian;;Borderian;;;;;;;;;x
+c_province0103_adj;Sonoran;Borderian;Borderian;;Borderian;;;;;;;;;x
 b_barony0103`;Mexicali;Mexicali;Mexicali;;Mexicali;;;;;;;;;x
 b_barony0103a;Nogales;Nogales;Nogales;;Nogales;;;;;;;;;x
 b_barony0103b;Agua Prieta;Agua Prieta;Agua Prieta;;Agua Prieta;;;;;;;;;x
@@ -3654,14 +3654,14 @@ k_mexico;Mexico;Mexico;Mexico;;Mexico;;;;;;;;;x
 k_mexico_adj;Mexico;Mexico;Mexico;;Mexico;;;;;;;;;x
 d_duchy0131;Gulf of California;Gulf of California;Gulf of California;;Gulf of California;;;;;;;;;x
 d_duchy0131_adj;Californian;Californian;Californian;;Californian;;;;;;;;;x
-c_province0131_adj;Taveka;Taveka;Taveka;;Taveka;;;;;;;;;x
-b_barony0131`;Difegin;Difegin;Difegin;;Difegin;;;;;;;;;x
-b_barony0131a;Talad;Talad;Talad;;Talad;;;;;;;;;x
-b_barony0131b;Neyfelm;Neyfelm;Neyfelm;;Neyfelm;;;;;;;;;x
-b_barony0131c;Lefibor;Lefibor;Lefibor;;Lefibor;;;;;;;;;x
-b_barony0131d;Ranira;Ranira;Ranira;;Ranira;;;;;;;;;x
-b_barony0131e;Byusoch;Byusoch;Byusoch;;Byusoch;;;;;;;;;x
-b_barony0131f;Danet;Danet;Danet;;Danet;;;;;;;;;x
+c_province0131_adj;Border;Taveka;Taveka;;Taveka;;;;;;;;;x
+b_barony0131`;Border;Difegin;Difegin;;Difegin;;;;;;;;;x
+b_barony0131a;Nogales;Talad;Talad;;Talad;;;;;;;;;x
+b_barony0131b;Agua Preita;Neyfelm;Neyfelm;;Neyfelm;;;;;;;;;x
+b_barony0131c;Sonoyta;Lefibor;Lefibor;;Lefibor;;;;;;;;;x
+b_barony0131d;Puerto Penasco;Ranira;Ranira;;Ranira;;;;;;;;;x
+b_barony0131e;Caborca;Byusoch;Byusoch;;Byusoch;;;;;;;;;x
+b_barony0131f;Santa Ana;Danet;Danet;;Danet;;;;;;;;;x
 b_barony0131g;Kugaret;Kugaret;Kugaret;;Kugaret;;;;;;;;;x
 k_kingdom0132;Antartica;Byrdland;Byrdland;;Byrdland;;;;;;;;;x
 k_kingdom0132_adj;Antartican;Byrdlander;Byrdlander;;Byrdlander;;;;;;;;;x
@@ -4267,8 +4267,8 @@ b_barony0189d;Tenalan;Tenalan;Tenalan;;Tenalan;;;;;;;;;x
 b_barony0189e;Qacanna;Qacanna;Qacanna;;Qacanna;;;;;;;;;x
 b_barony0189f;Wucadan;Wucadan;Wucadan;;Wucadan;;;;;;;;;x
 b_barony0189g;Dacigun;Dacigun;Dacigun;;Dacigun;;;;;;;;;x
-c_province0190_adj;Rurakk;Rurakk;Rurakk;;Rurakk;;;;;;;;;x
-b_barony0190`;Bacika;Bacika;Bacika;;Bacika;;;;;;;;;x
+c_province0190_adj;Kansas;Rurakk;Rurakk;;Rurakk;;;;;;;;;x
+b_barony0190`;Wichita;Bacika;Bacika;;Bacika;;;;;;;;;x
 b_barony0190a;Timir;Timir;Timir;;Timir;;;;;;;;;x
 b_barony0190b;Robalp;Robalp;Robalp;;Robalp;;;;;;;;;x
 b_barony0190c;Rifena;Rifena;Rifena;;Rifena;;;;;;;;;x
@@ -4287,15 +4287,15 @@ b_barony0191f;Tudimha;Tudimha;Tudimha;;Tudimha;;;;;;;;;x
 b_barony0191g;Tilula;Tilula;Tilula;;Tilula;;;;;;;;;x
 d_duchy0192;Mojave;Mojave;Mojave;;Mojave;;;;;;;;;x
 d_duchy0192_adj;Mojavian;Mojavian;Mojavian;;Mojavian;;;;;;;;;x
-c_province0192_adj;Durli;Durli;Durli;;Durli;;;;;;;;;x
-b_barony0192`;Taret;Taret;Taret;;Taret;;;;;;;;;x
-b_barony0192a;Tubafiz;Tubafiz;Tubafiz;;Tubafiz;;;;;;;;;x
-b_barony0192b;Arush;Arush;Arush;;Arush;;;;;;;;;x
-b_barony0192c;Sesay;Sesay;Sesay;;Sesay;;;;;;;;;x
-b_barony0192d;Elubuke;Elubuke;Elubuke;;Elubuke;;;;;;;;;x
-b_barony0192e;Siero;Siero;Siero;;Siero;;;;;;;;;x
-b_barony0192f;Laoji;Laoji;Laoji;;Laoji;;;;;;;;;x
-b_barony0192g;Ehelaka;Ehelaka;Ehelaka;;Ehelaka;;;;;;;;;x
+c_province0192_adj;Mountainer;Durli;Durli;;Durli;;;;;;;;;x
+b_barony0192`;Colorado;Taret;Taret;;Taret;;;;;;;;;x
+b_barony0192a;Utah;Tubafiz;Tubafiz;;Tubafiz;;;;;;;;;x
+b_barony0192b;Denver;Arush;Arush;;Arush;;;;;;;;;x
+b_barony0192c;Salt Lake;Sesay;Sesay;;Sesay;;;;;;;;;x
+b_barony0192d;Zion;Elubuke;Elubuke;;Elubuke;;;;;;;;;x
+b_barony0192e;Aspen;Siero;Siero;;Siero;;;;;;;;;x
+b_barony0192f;Bryce Canyon;Laoji;Laoji;;Laoji;;;;;;;;;x
+b_barony0192g;Grand Junction;Ehelaka;Ehelaka;;Ehelaka;;;;;;;;;x
 c_province0193_adj;Rusohn;Rusohn;Rusohn;;Rusohn;;;;;;;;;x
 b_barony0193`;Nanunai;Nanunai;Nanunai;;Nanunai;;;;;;;;;x
 b_barony0193a;Rausuko;Rausuko;Rausuko;;Rausuko;;;;;;;;;x
@@ -4487,10 +4487,10 @@ b_barony0211d;Tilire;Tilire;Tilire;;Tilire;;;;;;;;;x
 b_barony0211e;Niken;Niken;Niken;;Niken;;;;;;;;;x
 b_barony0211f;Adayater;Adayater;Adayater;;Adayater;;;;;;;;;x
 b_barony0211g;Luone;Luone;Luone;;Luone;;;;;;;;;x
-c_gold_country_adj;Gold Country;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
-b_gold_country;Gold Country;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
-b_barony0212a;Kunerna;Kunerna;Kunerna;;Kunerna;;;;;;;;;x
-b_barony0212b;Taneya;Taneya;Taneya;;Taneya;;;;;;;;;x
+c_gold_country_adj;Cascadian;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
+b_gold_country;Spokane;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
+b_barony0212a;Bend;Kunerna;Kunerna;;Kunerna;;;;;;;;;x
+b_barony0212b;Klamath;Taneya;Taneya;;Taneya;;;;;;;;;x
 b_barony0212c;Difory;Difory;Difory;;Difory;;;;;;;;;x
 b_barony0212d;Teiogs;Teiogs;Teiogs;;Teiogs;;;;;;;;;x
 b_barony0212e;Apokodia;Apokodia;Apokodia;;Apokodia;;;;;;;;;x
@@ -4552,9 +4552,9 @@ b_barony0218d;Tyai;Tyai;Tyai;;Tyai;;;;;;;;;x
 b_barony0218e;Qiad;Qiad;Qiad;;Qiad;;;;;;;;;x
 b_barony0218f;Laga;Laga;Laga;;Laga;;;;;;;;;x
 b_barony0218g;Tibara;Tibara;Tibara;;Tibara;;;;;;;;;x
-c_province0219_adj;Toroj;Toroj;Toroj;;Toroj;;;;;;;;;x
-b_barony0219`;Taulozar;Taulozar;Taulozar;;Taulozar;;;;;;;;;x
-b_barony0219a;Qila;Qila;Qila;;Qila;;;;;;;;;x
+c_province0219_adj;Midwestern;Toroj;Toroj;;Toroj;;;;;;;;;x
+b_barony0219`;Iowa;Taulozar;Taulozar;;Taulozar;;;;;;;;;x
+b_barony0219a;Nebraska;Qila;Qila;;Qila;;;;;;;;;x
 b_barony0219b;Sikofan;Sikofan;Sikofan;;Sikofan;;;;;;;;;x
 b_barony0219c;Totohai;Totohai;Totohai;;Totohai;;;;;;;;;x
 b_barony0219d;Noberas;Noberas;Noberas;;Noberas;;;;;;;;;x
@@ -4607,10 +4607,10 @@ b_barony0223d;Qyaakiva;Qyaakiva;Qyaakiva;;Qyaakiva;;;;;;;;;x
 b_barony0223e;Qahoke;Qahoke;Qahoke;;Qahoke;;;;;;;;;x
 b_barony0223f;Tyiat;Tyiat;Tyiat;;Tyiat;;;;;;;;;x
 b_barony0223g;Qeyaam;Qeyaam;Qeyaam;;Qeyaam;;;;;;;;;x
-c_province0224_adj;Ryaakavy;Ryaakavy;Ryaakavy;;Ryaakavy;;;;;;;;;x
-b_barony0224`;Lomint;Lomint;Lomint;;Lomint;;;;;;;;;x
-b_barony0224a;Syaydia;Syaydia;Syaydia;;Syaydia;;;;;;;;;x
-b_barony0224b;Turavo;Turavo;Turavo;;Turavo;;;;;;;;;x
+c_province0224_adj;Wyomingite;Ryaakavy;Ryaakavy;;Ryaakavy;;;;;;;;;x
+b_barony0224`;Jackson;Lomint;Lomint;;Lomint;;;;;;;;;x
+b_barony0224a;Gillette;Syaydia;Syaydia;;Syaydia;;;;;;;;;x
+b_barony0224b;Bow-Routt;Turavo;Turavo;;Turavo;;;;;;;;;x
 b_barony0224c;Kobantay;Kobantay;Kobantay;;Kobantay;;;;;;;;;x
 b_barony0224d;Dugou;Dugou;Dugou;;Dugou;;;;;;;;;x
 b_barony0224e;Nonunai;Nonunai;Nonunai;;Nonunai;;;;;;;;;x
@@ -4627,7 +4627,7 @@ b_barony0225f;Qounund;Qounund;Qounund;;Qounund;;;;;;;;;x
 b_barony0225g;Kubila;Kubila;Kubila;;Kubila;;;;;;;;;x
 d_duchy0226;Midwest;Tosorri;Tosorri;;Tosorri;;;;;;;;;x
 d_duchy0226_adj;Midwester;Qaret;Qaret;;Qaret;;;;;;;;;x
-c_province0226_adj;Missourians;Rusimir;Rusimir;;Rusimir;;;;;;;;;x
+c_province0226_adj;Illinoisan;Rusimir;Rusimir;;Rusimir;;;;;;;;;x
 b_barony0226`;Suneike;Suneike;Suneike;;Suneike;;;;;;;;;x
 b_barony0226a;Licora;Licora;Licora;;Licora;;;;;;;;;x
 b_barony0226b;Lanorri;Lanorri;Lanorri;;Lanorri;;;;;;;;;x
@@ -4676,8 +4676,8 @@ b_barony0230d;Kamant;Kamant;Kamant;;Kamant;;;;;;;;;x
 b_barony0230e;Talooma;Talooma;Talooma;;Talooma;;;;;;;;;x
 b_barony0230f;Weenakh;Weenakh;Weenakh;;Weenakh;;;;;;;;;x
 b_barony0230g;Rarik;Rarik;Rarik;;Rarik;;;;;;;;;x
-c_province0231_adj;Lahotia;Lahotia;Lahotia;;Lahotia;;;;;;;;;x
-b_barony0231`;Kegaram;Kegaram;Kegaram;;Kegaram;;;;;;;;;x
+c_province0231_adj;Idaho;Lahotia;Lahotia;;Lahotia;;;;;;;;;x
+b_barony0231`;Boise;Kegaram;Kegaram;;Kegaram;;;;;;;;;x
 b_barony0231a;Epokaba;Epokaba;Epokaba;;Epokaba;;;;;;;;;x
 b_barony0231b;Davik;Davik;Davik;;Davik;;;;;;;;;x
 b_barony0231c;Segaba;Segaba;Segaba;;Segaba;;;;;;;;;x
@@ -4698,15 +4698,15 @@ b_barony0232d;Kusarya;Kusarya;Kusarya;;Kusarya;;;;;;;;;x
 b_barony0232e;Qyaka;Qyaka;Qyaka;;Qyaka;;;;;;;;;x
 b_barony0232f;Byaya;Byaya;Byaya;;Byaya;;;;;;;;;x
 b_barony0232g;Raisaka;Raisaka;Raisaka;;Raisaka;;;;;;;;;x
-d_duchy0233;Montana;Montana;Montana;;Montana;;;;;;;;;x
-d_duchy0233_adj;Montanian;Montanian;Montanian;;Montanian;;;;;;;;;x
-c_province0233_adj;Kepersin;Kepersin;Kepersin;;Kepersin;;;;;;;;;x
-b_barony0233`;Dukar;Dukar;Dukar;;Dukar;;;;;;;;;x
-b_barony0233a;Qiisa;Qiisa;Qiisa;;Qiisa;;;;;;;;;x
-b_barony0233b;Rusucia;Rusucia;Rusucia;;Rusucia;;;;;;;;;x
-b_barony0233c;Asawarka;Asawarka;Asawarka;;Asawarka;;;;;;;;;x
-b_barony0233d;Kojucia;Kojucia;Kojucia;;Kojucia;;;;;;;;;x
-b_barony0233e;Gigia;Gigia;Gigia;;Gigia;;;;;;;;;x
+d_duchy0233;Yellowstone;Montana;Montana;;Montana;;;;;;;;;x
+d_duchy0233_adj;Yellowstoned;Montanian;Montanian;;Montanian;;;;;;;;;x
+c_province0233_adj;Yellowstoned;Kepersin;Kepersin;;Kepersin;;;;;;;;;x
+b_barony0233`;Yellowstone;Dukar;Dukar;;Dukar;;;;;;;;;x
+b_barony0233a;Old Faithful;Qiisa;Qiisa;;Qiisa;;;;;;;;;x
+b_barony0233b;Thumb Geyser;Rusucia;Rusucia;;Rusucia;;;;;;;;;x
+b_barony0233c;Prismatic;Asawarka;Asawarka;;Asawarka;;;;;;;;;x
+b_barony0233d;Norris Geyser;Kojucia;Kojucia;;Kojucia;;;;;;;;;x
+b_barony0233e;Washburn;Gigia;Gigia;;Gigia;;;;;;;;;x
 b_barony0233f;Egisalaf;Egisalaf;Egisalaf;;Egisalaf;;;;;;;;;x
 b_barony0233g;Resha;Resha;Resha;;Resha;;;;;;;;;x
 k_kingdom0234;Bahia;Bahia;Bahia;;Bahia;;;;;;;;;x
@@ -4837,7 +4837,7 @@ b_barony0245d;Limali;Limali;Limali;;Limali;;;;;;;;;x
 b_barony0245e;Kanelm;Kanelm;Kanelm;;Kanelm;;;;;;;;;x
 b_barony0245f;Saeswar;Saeswar;Saeswar;;Saeswar;;;;;;;;;x
 b_barony0245g;Rahonne;Rahonne;Rahonne;;Rahonne;;;;;;;;;x
-c_province0246_adj;Bunuju;Bunuju;Bunuju;;Bunuju;;;;;;;;;x
+c_province0246_adj;Minnesotan;Bunuju;Bunuju;;Bunuju;;;;;;;;;x
 b_barony0246`;Dohibad;Dohibad;Dohibad;;Dohibad;;;;;;;;;x
 b_barony0246a;Plume;Plume;Plume;;Plume;;;;;;;;;x
 b_barony0246b;Kaerine;Kaerine;Kaerine;;Kaerine;;;;;;;;;x
@@ -4919,9 +4919,9 @@ b_barony0253d;Saleka;Saleka;Saleka;;Saleka;;;;;;;;;x
 b_barony0253e;Wenann;Wenann;Wenann;;Wenann;;;;;;;;;x
 b_barony0253f;Akenoa;Akenoa;Akenoa;;Akenoa;;;;;;;;;x
 b_barony0253g;Reiraud;Reiraud;Reiraud;;Reiraud;;;;;;;;;x
-c_province0254_adj;Boreer;Boreer;Boreer;;Boreer;;;;;;;;;x
-b_barony0254`;Tokato;Tokato;Tokato;;Tokato;;;;;;;;;x
-b_barony0254a;Adhavo;Adhavo;Adhavo;;Adhavo;;;;;;;;;x
+c_province0254_adj;Montanan;Boreer;Boreer;;Boreer;;;;;;;;;x
+b_barony0254`;Bozeman;Tokato;Tokato;;Tokato;;;;;;;;;x
+b_barony0254a;Billings;Adhavo;Adhavo;;Adhavo;;;;;;;;;x
 b_barony0254b;Qanda;Qanda;Qanda;;Qanda;;;;;;;;;x
 b_barony0254c;Ercusz;Ercusz;Ercusz;;Ercusz;;;;;;;;;x
 b_barony0254d;Qibulad;Qibulad;Qibulad;;Qibulad;;;;;;;;;x
@@ -4946,9 +4946,9 @@ b_barony0256d;Kisuall;Kisuall;Kisuall;;Kisuall;;;;;;;;;x
 b_barony0256e;Tataig;Tataig;Tataig;;Tataig;;;;;;;;;x
 b_barony0256f;Bediog;Bediog;Bediog;;Bediog;;;;;;;;;x
 b_barony0256g;Kaula;Kaula;Kaula;;Kaula;;;;;;;;;x
-c_province0257_adj;Litei;Litei;Litei;;Litei;;;;;;;;;x
-b_barony0257`;Taluma;Taluma;Taluma;;Taluma;;;;;;;;;x
-b_barony0257a;Bohira;Bohira;Bohira;;Bohira;;;;;;;;;x
+c_province0257_adj;Dakotan;Litei;Litei;;Litei;;;;;;;;;x
+b_barony0257`;North Dakota;Taluma;Taluma;;Taluma;;;;;;;;;x
+b_barony0257a;South Dakota;Bohira;Bohira;;Bohira;;;;;;;;;x
 b_barony0257b;Byusato;Byusato;Byusato;;Byusato;;;;;;;;;x
 b_barony0257c;Seoniya;Seoniya;Seoniya;;Seoniya;;;;;;;;;x
 b_barony0257d;Tahelbo;Tahelbo;Tahelbo;;Tahelbo;;;;;;;;;x
@@ -5109,7 +5109,7 @@ b_barony0273d;Rasaria;Rasaria;Rasaria;;Rasaria;;;;;;;;;x
 b_barony0273e;Talim;Talim;Talim;;Talim;;;;;;;;;x
 b_barony0273f;Rareth;Rareth;Rareth;;Rareth;;;;;;;;;x
 b_barony0273g;Aleuta;Aleuta;Aleuta;;Aleuta;;;;;;;;;x
-c_province0274_adj;Midwester;Kagit;Kagit;;Kagit;;;;;;;;;x
+c_province0274_adj;Wisconsinite;Kagit;Kagit;;Kagit;;;;;;;;;x
 b_barony0274`;Minnesota;Birim;Birim;;Birim;;;;;;;;;x
 b_barony0274a;Wisconsin;Qeiroa;Qeiroa;;Qeiroa;;;;;;;;;x
 b_barony0274b;Wabayor;Wabayor;Wabayor;;Wabayor;;;;;;;;;x

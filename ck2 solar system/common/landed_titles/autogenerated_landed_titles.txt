@@ -37247,20 +37247,6 @@ e_empire2038 = {
 			
 			capital = 2038
 			
-			c_province2038 = {
-				color={ 68 81 63 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony2038` = { }
-				b_barony2038a = { }
-				b_barony2038b = { }
-				b_barony2038c = { }
-				b_barony2038d = { }
-				b_barony2038e = { }
-				b_barony2038f = { }
-				b_barony2038g = { }
-			}
 		}
 	}
 }
@@ -38697,7 +38683,21 @@ e_empire2158 = {
 			color2={ 255 255 255 }
 			
 			capital = 1997
-			
+
+			c_province2038 = {
+				color={ 68 81 63 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony2038` = { }
+				b_barony2038a = { }
+				b_barony2038b = { }
+				b_barony2038c = { }
+				b_barony2038d = { }
+				b_barony2038e = { }
+				b_barony2038f = { }
+				b_barony2038g = { }
+			}			
 			c_province1961 = {
 				color={ 82 50 102 }
 				color2={ 255 255 255 }

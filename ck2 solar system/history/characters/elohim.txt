@@ -1029,11 +1029,11 @@
                 province=139 #Antartica
                 owner=ROOT
                 troops={
-                    archers={500 500}
-                    heavy_infantry={500 500}
-                    light_infantry={1000 1000}
-					light_cavalry={500 500}
-					heavy_cavalry={250 250}
+                    archers={5000 5000}
+                    heavy_infantry={5000 5000}
+                    light_infantry={10000 10000}
+					light_cavalry={5000 5000}
+					heavy_cavalry={2500 2500}
                 }
                 attrition=0.5
             }
