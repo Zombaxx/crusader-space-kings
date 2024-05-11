@@ -2187,8 +2187,7 @@ e_empire0056 = {
 				color={ 87 106 56 }
 				color2={ 255 255 255 }
 				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				
 				holy_site = jewish
 				
 				b_gateway_shores = {
@@ -3277,8 +3276,8 @@ e_united_states = {
 				color={ 64 169 161 }
 				color2={ 255 255 255 }
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed				
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed				
 				
 				b_barony0349` = { }
 				b_barony0349a = { }
@@ -5859,8 +5858,8 @@ e_empire0350 = {
 				color={ 200 102 85 }
 				color2={ 255 255 255 }
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed				
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed				
 				
 				b_barony0359` = { }
 				b_barony0359a = { }
@@ -6515,8 +6514,7 @@ e_empire0372 = {
 				color={ 81 67 27 }
 				color2={ 255 255 255 }
 				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
 				holy_site = aten_pagan
@@ -6629,8 +6627,7 @@ e_empire0372 = {
 				color={ 39 70 44 }
 				color2={ 255 255 255 }
 				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				
 				holy_site = jewish
 				holy_site = egyptian_pagan
 				holy_site = egyptian_pagan_reformed
@@ -7244,8 +7241,8 @@ e_empire0393 = {
 				color={ 67 178 186 }
 				color2={ 255 255 255 }
 				
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed
 				
 				b_barony0389` = { }
 				b_barony0389a = { }
@@ -7423,8 +7420,8 @@ e_empire0393 = {
 				color={ 198 87 109 }
 				color2={ 255 255 255 }
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed				
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed				
 				
 				b_barony0393` = { }
 				b_barony0393a = { }
@@ -8259,8 +8256,7 @@ e_empire0513 = {
 				color={ 59 42 61 }
 				color2={ 255 255 255 }
 				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				
 				holy_site = khurmazta
 				
 				b_jungle_peninsula = {
@@ -12451,8 +12447,8 @@ e_empire0717 = {
 				color={ 187 86 105 }
 				color2={ 255 255 255 }
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed				
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed				
 				
 				b_barony0531` = { }
 				b_barony0531a = { }
@@ -36070,6 +36066,8 @@ e_empire2021 = {
 				color={ 201 198 219 }
 				color2={ 255 255 255 }
 				
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony1795` = { }
 				b_barony1795a = { }
@@ -36205,6 +36203,8 @@ e_empire2021 = {
 				color={ 95 78 207 }
 				color2={ 255 255 255 }
 				
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed					
 				
 				b_barony1855` = { }
 				b_barony1855a = { }
@@ -36486,7 +36486,9 @@ e_empire2021 = {
 			c_province1923 = {
 				color={ 219 223 198 }
 				color2={ 255 255 255 }
-				
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony1923` = { }
 				b_barony1923a = { }
@@ -36592,6 +36594,8 @@ e_empire2021 = {
 				color={ 243 203 207 }
 				color2={ 255 255 255 }
 				
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony1875` = { }
 				b_barony1875a = { }
@@ -37068,6 +37072,8 @@ e_empire2021 = {
 				color={ 72 80 205 }
 				color2={ 255 255 255 }
 				
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed				
 				
 				b_barony1986` = { }
 				b_barony1986a = { }

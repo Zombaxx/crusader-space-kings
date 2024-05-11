@@ -556,8 +556,8 @@ PROV554;Italy;Italy;Italy;;Italy;;;;;;;;;x
 PROV555;Quanakk;Quanakk;Quanakk;;Quanakk;;;;;;;;;x
 PROV556;Binius;Binius;Binius;;Binius;;;;;;;;;x
 PROV557;Norrland;Ajabiana;Ajabiana;;Ajabiana;;;;;;;;;x
-PROV558;Germany;Berlin;Berlin;;Berlin;;;;;;;;;x
-PROV559;Czechia;Kayoll;Kayoll;;Kayoll;;;;;;;;;x
+PROV558;North Germany;Berlin;Berlin;;Berlin;;;;;;;;;x
+PROV559;South Germany;Kayoll;Kayoll;;Kayoll;;;;;;;;;x
 PROV560;Etarin;Etarin;Etarin;;Etarin;;;;;;;;;x
 PROV561;Kolaida;Kolaida;Kolaida;;Kolaida;;;;;;;;;x
 PROV562;Segevi;Segevi;Segevi;;Segevi;;;;;;;;;x
@@ -7982,14 +7982,14 @@ b_barony0558d;Kalim;Kalim;Kalim;;Kalim;;;;;;;;;x
 b_barony0558e;Sohijah;Sohijah;Sohijah;;Sohijah;;;;;;;;;x
 b_barony0558f;Lodamy;Lodamy;Lodamy;;Lodamy;;;;;;;;;x
 b_barony0558g;Qonalah;Qonalah;Qonalah;;Qonalah;;;;;;;;;x
-c_province0559_adj;Czech;Qarimha;Qarimha;;Qarimha;;;;;;;;;x
-b_barony0559`;Czechia;Duzul;Duzul;;Duzul;;;;;;;;;x
+c_province0559_adj;German;Qarimha;Qarimha;;Qarimha;;;;;;;;;x
+b_barony0559`;Munich;Duzul;Duzul;;Duzul;;;;;;;;;x
 b_barony0559a;Prague;Waremma;Waremma;;Waremma;;;;;;;;;x
-b_barony0559b;Brno;Kelomas;Kelomas;;Kelomas;;;;;;;;;x
-b_barony0559c;Ostrava;Kekacon;Kekacon;;Kekacon;;;;;;;;;x
-b_barony0559d;Pilsen;Rara;Rara;;Rara;;;;;;;;;x
-b_barony0559e;Olomouc;Qimost;Qimost;;Qimost;;;;;;;;;x
-b_barony0559f;Liberec;Tena;Tena;;Tena;;;;;;;;;x
+b_barony0559b;Frankfurt;Kelomas;Kelomas;;Kelomas;;;;;;;;;x
+b_barony0559c;Stuttgart;Kekacon;Kekacon;;Kekacon;;;;;;;;;x
+b_barony0559d;Nuremberg;Rara;Rara;;Rara;;;;;;;;;x
+b_barony0559e;Mannheim;Qimost;Qimost;;Qimost;;;;;;;;;x
+b_barony0559f;Augsburg;Tena;Tena;;Tena;;;;;;;;;x
 b_barony0559g;Ceske;Agukpo;Agukpo;;Agukpo;;;;;;;;;x
 e_empire0560;Wumamd;Wumamd;Wumamd;;Wumamd;;;;;;;;;x
 e_empire0560_adj;Qalila;Qalila;Qalila;;Qalila;;;;;;;;;x

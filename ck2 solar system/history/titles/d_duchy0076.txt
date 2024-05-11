@@ -10,3 +10,9 @@
 1063.1.1 = {
 	holder = 100765
 }
+1066.1.1 = {
+	set_tribute_suzerain = {
+		who = e_empire1388
+		type = permanent 
+	}
+}

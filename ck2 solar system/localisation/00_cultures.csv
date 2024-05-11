@@ -1,7 +1,7 @@
 #cultures
 bedouin_arabic;Middle Eastern;;;;;;;;;;;;;x
 greek;Mediterranean;;;;;;;;;;;;;x
-irish;Murican;;;;;;;;;;;;;x
+irish;Gdonyos;;;;;;;;;;;;;x
 hausa;Bantu;;;;;;;;;;;;;x
 kanuri;Sahelian;;;;;;;;;;;;;x
 old_frankish;Liblander;;;;;;;;;;;;;x
@@ -9,12 +9,12 @@ kannada;Southeast Asian;;;;;;;;;;;;;x
 nubian;Black;;;;;;;;;;;;;x
 russian;Slavic;;;;;;;;;;;;;x
 castillan;Latin;;;;;;;;;;;;;x
-frankish;Australiander;;;;;;;;;;;;;x
+frankish;Lib;;;;;;;;;;;;;x
 nahuatl;Nativican;;;;;;;;;;;;;x
 zhangzhung;Chinese;;;;;;;;;;;;;x
 manden;First Peoples;;;;;;;;;;;;;x
-saxon;European;;;;;;;;;;;;;x
-old_saxon;Aussie;;;;;;;;;;;;;x
+saxon;Aussie;;;;;;;;;;;;;x
+#old_saxon;;;;;;;;;;;;;;x
 han;Celestial;;;;;;;;;;;;;x
 alan;Olympian;;;;;;;;;;;;;x
 turkish;Ixians;;;;;;;;;;;;;x
@@ -34,4 +34,14 @@ tamil;Dravidian;;;;;;;;;;;;;x
 hindustani;Indic;;;;;;;;;;;;;x
 welsh;Fenisaidd;;;;;;;;;;;;;x
 pictish;Irish;;;;;;;;;;;;;x
-roman;Elohim;;;;;;;;;;;;;x
+roman;Terran;;;;;;;;;;;;;x
+sephardi;Ivri;;;;;;;;;;;;;x
+levantine_arabic;Partisan;;;;;;;;;;;;;x
+andalusian_arabic;Al-Mercuric;;;;;;;;;;;;;x
+breton;Murican;;;;;;;;;;;;;x
+polish;Eastern European;;;;;;;;;;;;;x
+dutch;Afrikaner;;;;;;;;;;;;;x
+songhay;Papuan;;;;;;;;;;;;;x
+
+
+
