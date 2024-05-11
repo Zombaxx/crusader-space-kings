@@ -1,7 +1,7 @@
 666666 = {
 	name = "Elon"
 	dynasty = 666666
-	culture = "irish"
+	culture = "breton"
 	religion = "nestorian"
 	trait = brilliant_strategist
 	martial = 10
@@ -30,7 +30,7 @@
 6666672 = {
 	name = "Griffin"
 	dynasty = 666666
-	culture = "irish"
+	culture = "breton"
 	religion = "nestorian"
 	father = 666666
 	trait = twin
@@ -39,7 +39,7 @@
 6666673 = {
 	name = "Vivian"
 	dynasty = 666666
-	culture = "irish"
+	culture = "breton"
 	religion = "nestorian"
 	female = yes
 	father = 666666
@@ -49,7 +49,7 @@
 6666667 = {
 	name = "Kai"
 	dynasty = 666666
-	culture = "irish"
+	culture = "breton"
 	religion = "nestorian"
 	father = 666666
 	trait = twin
@@ -58,7 +58,7 @@
 6666668 = {
 	name = "Saxon"
 	dynasty = 666666
-	culture = "irish"
+	culture = "breton"
 	religion = "nestorian"
 	father = 666666
 	trait = twin
@@ -67,7 +67,7 @@
 6666669 = {
 	name = "Damian"
 	dynasty = 666666
-	culture = "irish"
+	culture = "breton"
 	religion = "nestorian"
 	father = 666666
 	trait = twin
@@ -76,7 +76,7 @@
 6666671 = {
 	name = "Exa Dark Siderael"
 	dynasty = 666666
-	culture = "irish"
+	culture = "breton"
 	religion = "nestorian"
 	female = yes
 	father = 666666
