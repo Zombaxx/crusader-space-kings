@@ -1,0 +1,307 @@
+778000={
+	name="Rick"
+	dynasty=77800
+	culture=irish 
+	religion=taoist
+	learning=90
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	trait=genius
+	trait=ambitious
+	trait=cynical
+	trait=brave
+	trait=drunkard
+	trait=strong
+	trait=vat_born
+	trait=brilliant_strategist
+	trait=full_cybernetic_conversion
+	trait=hedonist
+	trait=scholar
+	trait=mystic
+	trait=berserker
+	trait=physician
+	health=10
+	combat_rating=100
+	959.1.26={birth=yes}
+	997.1.1={
+		add_spouse = 778001
+	}
+}
+778001={
+	name="Diane"
+	culture=old_frankish 
+	religion=nestorian
+	female=yes
+	martial=90
+	trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	960.1.7={birth=yes}
+	997.1.1={
+		add_spouse = 778000
+	}
+	1005.10.30={death=yes}
+}
+778002={
+	name="Beth"
+	dynasty=77800
+	culture=old_frankish 
+	religion=nestorian
+	father=778000
+	female=yes
+	diplomacy=6
+	learning=12
+	trait=wrath
+	trait=drunkard
+	trait=charismatic_negotiator
+	trait=quick
+	#trait=twin
+	trait=physician
+	combat_rating=15
+	health=10
+	998.11.19={birth=yes}
+	1012.1.1={
+		add_spouse = 778004
+	}
+	1038.9.18={
+		add_lover = 778003
+	}
+}
+778003{
+	name="Space Beth"
+	#dynasty=77800
+	culture=old_frankish 
+	religion=nestorian
+	father=778000
+	female=yes
+	martial=10
+	learning=12
+	diplomacy=6
+	health=10
+	trait=adventurer
+	trait=ambitious
+	trait=vat_born
+	#trait=twin
+	trait=physician
+	trait=skilled_tactician
+	combat_rating=75
+	998.11.19={birth=yes}
+	#1012.1.1={
+	#	add_spouse = 777773
+	#}
+	1036.5.31 = {
+		effect = {
+			add_trait = scarred
+			add_trait = scarred_type_5		
+		}
+	}
+	1038.9.18={
+		add_lover = 778002
+	}
+}
+778004={
+	name="Jerry"
+	dynasty=77801
+	culture=old_frankish 
+	religion=nestorian
+	trait=dull
+	trait=kind
+	trait=naive_appeaser
+	trait=trusting
+	trait=slothful
+	trait=craiven
+	health=10
+	combat_rating=20
+	998.4.20={birth=yes}
+	1012.1.1={
+		add_spouse = 778002
+	}
+}
+778005={
+	name="Summer"
+	dynasty=77801
+	culture=old_frankish 
+	religion=nestorian
+	father=778002
+	mother=778004
+	diplomacy=9
+	trait=socializer
+	trait=brave
+	health=10
+	female = yes
+	combat_rating=30
+	trait=charismatic_negotiator
+	1013.12.2={birth=yes}
+}
+778006={
+	name="Morty"
+	dynasty=77801
+	culture=old_frankish 
+	religion=nestorian
+	secret_religion=taoist
+	father=778002
+	mother=778004
+	diplomacy=50
+	trait=adventurer
+	trait=kind
+	trait=skilled_tactician
+	trait=quick
+	trait=dull
+	trait=gamer
+	trait=berserker
+	health=10
+	combat_rating=40
+	1018.2.6={birth=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 2000
+			piety = 1000
+			}
+	}
+}
+778007={
+	name="Morty"
+	dynasty=77801
+	culture=oruk 
+	religion=nestorian
+	father=778006
+	trait=skilled_tactician
+	trait=gamer
+	1030.10.14={birth=yes}
+	1038.9.4={death=yes}
+}
+778008={
+	name="Naruto"
+	dynasty=77801
+	culture=greek
+	religion=shinto
+	father=778006
+	mother=778005
+	diplomacy=50
+	health=20
+	trait=bastard
+	trait=mystic
+	trait=adventurer
+	trait=kind
+	trait=skilled_tactician
+	trait=dark_dwarf
+	trait=genius
+	trait=shrewd
+	trait=strong
+	trait=giant
+	trait=brawny
+	trait=inbred
+	combat_rating=60
+	1037.7.11={birth=yes}
+}
+778009={
+	name="Jessica"
+	culture=old_frankish 
+	religion=nestorian
+	trait=fair
+	trait=skilled_tactician
+	female=yes
+	1017.1.1={birth=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 2000
+			piety = 1000
+			}
+	}
+}
+778010={
+	name="Rick"#Evil Morty's Rick
+	dynasty=77802
+	culture=old_frankish 
+	religion=taoist
+	learning=90
+	trait=genius
+	trait=strong
+	trait=vat_born
+	trait=brilliant_strategist
+	trait=full_cybernetic_conversion
+	health=10
+	959.1.26={birth=yes}
+	997.1.1={
+		add_spouse = 778001
+	}
+	1039.1.25={death=yes}
+}
+778011={
+	name="Diane"
+	culture=old_frankish 
+	religion=nestorian
+	female=yes
+	martial=90
+	trait=charismatic_negotiator
+	trait=full_cybernetic_conversion
+	960.1.7={birth=yes}
+	997.1.1={
+		add_spouse = 778000
+	}
+	1005.10.30={death=yes}
+}
+778012={
+	name="Beth"
+	dynasty=77802
+	culture=old_frankish 
+	religion=nestorian
+	female=yes
+	father=778010
+	diplomacy=9
+	trait=wrath
+	trait=charismatic_negotiator
+	trait=quick
+	trait=physician
+	health=10
+	998.11.19={birth=yes}
+	1012.1.1={
+		add_spouse = 778004
+	}
+	1038.1.1={
+		death=yes
+	}
+}
+778013={
+	name="Jerry"
+	#dynasty=77802
+	culture=old_frankish 
+	religion=nestorian
+	trait=dull
+	trait=kind
+	trait=naive_appeaser
+	998.4.20={birth=yes}
+	1012.1.1={
+		add_spouse = 778002
+	}
+	1038.1.1={
+		death=yes
+	}
+}
+778015={
+	name="Morty" #Evil Morty
+	dynasty=77802
+	culture=old_frankish 
+	religion=nestorian
+	secret_religion=taoist
+	father=778013
+	mother=778012
+	trait=adventurer
+	trait=cruel
+	trait=genius
+	trait=shrewd
+	trait=ambitious
+	trait=brilliant_strategist
+	trait=impaler
+	trait=greedy
+	health=10
+	combat_rating=100
+	1018.2.6={birth=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 10000
+			piety = 5000
+			}
+	}
+}
