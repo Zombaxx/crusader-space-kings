@@ -298,6 +298,12 @@
 	health=10
 	combat_rating=100
 	1018.2.6={birth=yes}
+	1062.1.1 = {
+		effect = {
+			e_united_states = { add_claim = ROOT }
+			e_new_england = { add_claim = ROOT }
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 10000
