@@ -56,22 +56,6 @@ bm_wp = {
 		}
 	}
 	selectable_character = {
-		id = 113075 # Terraformed of Mars
-		age = 30
-		name = ERA_CHAR_NAME_113075
-		title = c_province0003
-		title_name = c_province0003	
-		dlc = "The Sword of Islam"
-		character = {
-			dna = uodslusymye
-			properties = no0cnd
-			religion="yazidi"
-			culture="turkish"
-			government = feudal_government
-			dynasty=100780
-		}
-	}
-	selectable_character = {
 		id = 101415 #USA
 		age = 23
 		name = ERA_CHAR_NAME_101415
@@ -84,21 +68,6 @@ bm_wp = {
 			religion="catholic"
 			culture="irish"
 			government = merchant_republic
-			dynasty=100780
-		}
-	}
-	selectable_character = {
-		id = 101105 #Brazil
-		age = 29
-		name = ERA_CHAR_NAME_101105
-		title = c_province0003
-		title_name = c_province0003		
-		character = {
-			dna = fnyvbfskhrp
-			properties = casekd
-			religion="catholic"
-			culture="castillan"
-			government = feudal_government
 			dynasty=100780
 		}
 	}
@@ -132,6 +101,37 @@ bm_wp = {
 			culture="han"
 			trait = full_cybernetic_conversion
 			government = nomadic_government
+			dynasty=100780
+		}
+	}
+	selectable_character = {
+		id = 113075 # Terraformed of Mars
+		age = 30
+		name = ERA_CHAR_NAME_113075
+		title = c_province0003
+		title_name = c_province0003	
+		dlc = "The Sword of Islam"
+		character = {
+			dna = uodslusymye
+			properties = no0cnd
+			religion="yazidi"
+			culture="turkish"
+			government = feudal_government
+			dynasty=100780
+		}
+	}
+	selectable_character = {
+		id = 101105 #Brazil
+		age = 29
+		name = ERA_CHAR_NAME_101105
+		title = c_province0003
+		title_name = c_province0003		
+		character = {
+			dna = fnyvbfskhrp
+			properties = casekd
+			religion="catholic"
+			culture="castillan"
+			government = feudal_government
 			dynasty=100780
 		}
 	}
