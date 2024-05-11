@@ -10006,6 +10006,14 @@ e_european_union = {
 				b_barony0480g = { }
 			}
 		}
+		d_duchy1199 = { #Sussex
+		#allow = { always = no }
+			color={ 216 180 176 }
+			color2={ 255 255 255 }
+			
+			capital = 496
+			
+		}
 	}
 	k_kingdom0506 = {
 		color={ 192 111 192 }
@@ -23460,15 +23468,6 @@ e_empire1288 = { #unused
 		capital = 1288
 		
 		culture = elephant_culture
-
-		d_duchy1199 = { #unused
-		allow = { always = no }
-			color={ 216 180 176 }
-			color2={ 255 255 255 }
-			
-			capital = 1288
-			
-		}
 
 	}
 }

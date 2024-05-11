@@ -554,8 +554,8 @@
 	religion="tengri_pagan"
 }	
 101240={	
-	name="de Santa Barbara"
-	culture="irish"
+	name="Iger"
+	culture="breton"
 	religion="catholic"
 }	
 101250={	
@@ -1274,7 +1274,7 @@
 	religion="catholic"
 }	
 102641={	
-	name="Kennedy"
+	name="Bush"
 	culture="old_frankish"
 	religion="nestorian"
 }	

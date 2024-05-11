@@ -136,7 +136,7 @@
 7000009 = {
 	name="Harry"
 	female=no
-	dynasty=7000000
+	dynasty=7000037
 
 	father=7000002
 	mother=7000003
@@ -165,7 +165,7 @@
 7000011 = {
 	name="Archie"
 	female=no
-	dynasty=7000000
+	dynasty=7000037
 
 	father=7000009
 	mother=7000010
@@ -177,7 +177,7 @@
 7000012 = {
 	name="Lilibet"
 	female=yes
-	dynasty=7000000
+	dynasty=7000037
 
 	father=7000009
 	mother=7000010

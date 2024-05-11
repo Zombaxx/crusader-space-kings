@@ -3581,10 +3581,10 @@ b_barony0123d;Nielita;Nielita;Nielita;;Nielita;;;;;;;;;x
 b_barony0123e;Rajare;Rajare;Rajare;;Rajare;;;;;;;;;x
 b_barony0123f;Ranaud;Ranaud;Ranaud;;Ranaud;;;;;;;;;x
 b_barony0123g;Ekenuna;Ekenuna;Ekenuna;;Ekenuna;;;;;;;;;x
-c_santa_barbara_adj;Santa Barbara;Santa Barbara;Santa Barbara;;Santa Barbara;;;;;;;;;x
-b_santa_barbara;Santa Barbara;Santa Barbara;Santa Barbara;;Santa Barbara;;;;;;;;;x
+c_santa_barbara_adj;Socal;Socal;Socal;;Socal;;;;;;;;;x
+b_santa_barbara;Los Angeles;Los Angeles;Los Angeles;;Los Angeles;;;;;;;;;x
 b_santa_maria;Hidden Hills;Hidden Hills;Hidden Hills;;Hidden Hills;;;;;;;;;x
-b_oxnard;Los Angeles;Los Angeles;Los Angeles;;Los Angeles;;;;;;;;;x
+b_oxnard;Santa Barbara;Santa Barbara;Santa Barbara;;Santa Barbara;;;;;;;;;x
 b_vandenberg;San Diego;San Diego;San Diego;;San Diego;;;;;;;;;x
 b_solvang;Santa Monica;Santa Monica;Santa Monica;;Santa Monica;;;;;;;;;x
 b_lompoc;San Luis Obispo;San Luis Obispo;San Luis Obispo;;San Luis Obispo;;;;;;;;;x
@@ -14404,8 +14404,8 @@ b_barony1198f;Ketanay;Ketanay;Ketanay;;Ketanay;;;;;;;;;x
 b_barony1198g;Kalanay;Kalanay;Kalanay;;Kalanay;;;;;;;;;x
 k_kingdom1199;Birind;Birind;Birind;;Birind;;;;;;;;;x
 k_kingdom1199_adj;Letanay;Letanay;Letanay;;Letanay;;;;;;;;;x
-d_duchy1199;Qisanwei;Qisanwei;Qisanwei;;Qisanwei;;;;;;;;;x
-d_duchy1199_adj;Qishan;Qishan;Qishan;;Qishan;;;;;;;;;x
+d_duchy1199;Sussex;Sussex;Sussex;;Sussex;;;;;;;;;x
+d_duchy1199_adj;Royal;Royal;Royal;;Royal;;;;;;;;;x
 c_province1199_adj;Bisawa;Bisawa;Bisawa;;Bisawa;;;;;;;;;x
 b_barony1199`;Bayogan;Bayogan;Bayogan;;Bayogan;;;;;;;;;x
 b_barony1199a;Abwarkus;Abwarkus;Abwarkus;;Abwarkus;;;;;;;;;x
