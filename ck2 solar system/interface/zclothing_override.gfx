@@ -56,7 +56,7 @@ spriteTypes = {
 				portrait_clothing = yes
 				OR = {
 					portrait_culture = greek
-					portrait_culture = irish
+					portrait_culture = breton
 					portrait_culture = hausa
 					portrait_culture = old_frankish
 					portrait_culture = nubian
@@ -73,6 +73,7 @@ spriteTypes = {
 					portrait_culture = catalan
 					portrait_culture = hindustani
 					portrait_culture = pictish
+					portrait_culture = european_european
 					#portrait_culture = english
 				}
 				#portrait_religion = catholic
