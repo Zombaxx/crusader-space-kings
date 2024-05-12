@@ -539,6 +539,7 @@
 	religion=shinto
 	father=778118
 	mother=778120
+	female=yes
 	health=10
 	1052.1.1={birth=yes}
 }
