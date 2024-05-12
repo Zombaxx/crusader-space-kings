@@ -149,7 +149,7 @@
 7000113 = {
 	name="Lamar"
 	female=no
-	dynasty=7000037
+	dynasty=7000039
 
 	religion="nestorian"
 	culture="nubian"
@@ -321,7 +321,7 @@
 7000128 = {
 	name="Blac"
 	female=yes
-	dynasty=7000036
+	dynasty=7000040
 
 	religion="nestorian"
 	culture="nubian"

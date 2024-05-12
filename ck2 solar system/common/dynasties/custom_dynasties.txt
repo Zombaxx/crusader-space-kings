@@ -103,18 +103,23 @@
 	culture="nubian"
 	religion="nestorian"
 }
-7000035={	
+7000039={	
 	name="Thompson"
 	culture="nubian"
 	religion="nestorian"
 }
-7000036={	
+7000040={	
 	name="Chyna"
 	culture="nubian"
 	religion="nestorian"
 }
-7000037={	
+7000041={	
 	name="Sussex"
 	culture="saxon"
+	religion="nesotrian"
+}
+7000042={	
+	name="Monroe"
+	culture="old_frankish"
 	religion="nesotrian"
 }
