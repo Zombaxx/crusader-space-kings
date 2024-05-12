@@ -212,7 +212,7 @@
 }
 778010={
 	name="Rick"#Evil Morty's Rick
-	dynasty=77802
+	dynasty=77799
 	culture=old_frankish 
 	religion=taoist
 	learning=90
@@ -244,7 +244,7 @@
 }
 778012={
 	name="Beth"
-	dynasty=77802
+	dynasty=77799
 	culture=old_frankish 
 	religion=nestorian
 	female=yes
@@ -265,7 +265,7 @@
 }
 778013={
 	name="Jerry"
-	#dynasty=77802
+	#dynasty=77799
 	culture=old_frankish 
 	religion=nestorian
 	trait=dull
@@ -281,7 +281,7 @@
 }
 778015={
 	name="Morty" #Evil Morty
-	dynasty=77802
+	dynasty=77799
 	culture=old_frankish 
 	religion=nestorian
 	secret_religion=taoist

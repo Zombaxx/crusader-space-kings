@@ -1,7 +1,7 @@
 778100={
 	name="Bardock"
 	dynasty=77810
-	culture=ninja_culture 
+	culture=japanese 
 	religion=taoist
 	learning=90
 	military=20
@@ -31,13 +31,12 @@
 }
 778101={
 	name="Gine"
-	culture=ninja_culture 
+	culture=japanese 
 	religion=shinto
 	female=yes
 	martial=90
 	trait=heavy_worlder
-	trait=charismatic_negotiator
-	trait=full_cybernetic_conversion
+	trait=skilled_tactician
 	991.1.1={birth=yes}
 	1008.1.1={
 		add_spouse = 778100
@@ -47,7 +46,7 @@
 778102={
 	name="Raditz"
 	dynasty=77810
-	culture=ninja_culture 
+	culture=japanese 
 	religion=shinto
 	father=778100
 	mother=778101
@@ -64,7 +63,7 @@
 778103{
 	name="Goku"
 	dynasty=77810
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	father=778100
 	mother=778101
@@ -77,16 +76,47 @@
 	trait=brave
 	trait=adventurer
 	trait=strong
+	trait=agile
 	trait=sturdy
 	trait=brawny
 	trait=duelist
 	trait=dull
 	trait=vat_born
+	trait=berserker
 	trait=tough_soldier
 	combat_rating=100
 	1018.4.16={birth=yes}
 	1035.1.1={
 		add_spouse = 778104
+	}
+	1065.1.1={
+		effect={
+			add_friend=778111
+		}
+		effect={
+			add_friend=778116
+		}
+		effect={
+			add_friend=778117
+		}
+		effect={
+			add_friend=778118
+		}
+		effect={
+			add_friend=778123
+		}
+		effect={
+			add_friend=778124
+		}
+		effect={
+			add_rival=778125
+		}
+		effect={
+			add_rival=778110
+		}
+		effect={
+			add_rival=778126
+		}
 	}
 	1066.1.1 = {
 		effect = { 
@@ -98,7 +128,7 @@
 778104={
 	name="Chichi"
 	dynasty=77811
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	female=yes
 	trait=dull
@@ -106,6 +136,7 @@
 	trait=naive_appeaser
 	trait=trusting
 	trait=slothful
+	trait=agile
 	combat_rating=50
 	1018.5.12={birth=yes}
 	1035.1.1={
@@ -115,30 +146,36 @@
 778105={
 	name="Gohan"
 	dynasty=77810
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	father=778102
 	mother=778103
 	diplomacy=9
 	combat_rating=150
-	trait=heavy_worlder
+	trait=heavy_worlde
+	trait=strong
+	trait=genius
+	trait=agile
+	trait=adventurer
 	trait=socializer
 	trait=scholarly_theologian
 	1038.5.18={birth=yes}
 	1057.1.1={
-		add_spouse = 778007
+		add_spouse = 778107
 	}
 }
-778006={
+778106={
 	name="Goten"
 	dynasty=77810
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	father=778102
 	mother=778103
 	diplomacy=50
 	combat_rating=110
 	trait=heavy_worlder
+	trait=strong
+	trait=agile
 	trait=adventurer
 	trait=kind
 	trait=skilled_tactician
@@ -150,7 +187,7 @@
 	1047.8.26={birth=yes}
 	1055.1.1={
 		effect={
-			add_friend=778012
+			add_friend=778112
 		}
 	}
 	1066.1.1 = {
@@ -160,39 +197,44 @@
 			}
 	}
 }
-778007={
+778107={
 	name="Videl"
+	female=yes
 	dynasty=77811
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
-	father=778009
+	father=778109
 	combat_rating=20
 	trait=skilled_tactician
 	trait=duelist
+	trait=fair
+	trait=quick
 	health=10
 	1037.3.14={birth=yes}
 	1057.1.1={
 		add_spouse = 778105
 	}
 }
-778008={
+778108={
 	name="Pan"
 	dynasty=77810
-	culture=zhangzhung
+	culture=ninja_culture
 	religion=shinto
-	father=778006
-	mother=778005
+	female=yes
+	father=778105
+	mother=778107
 	diplomacy=50
 	health=10
 	combat_rating=200
 	trait=heavy_worlder
 	trait=mystic
-	trait=adventurer
 	trait=kind
 	trait=skilled_tactician
 	trait=genius
 	trait=shrewd
 	trait=strong
+	trait=agile
+	trait=fair
 	trait=brawny
 	1058.7.11={birth=yes}
 	1066.1.1 = {
@@ -202,15 +244,16 @@
 			}
 	}
 }
-778009={
+778109={
 	name="Mr"
 	dynasty=77811
-	culture=old_frankish 
-	religion=nestorian
+	culture=breton 
+	religion=catholic
 	trait=fair
 	trait=charismatic_negotiator
 	trait=brawny
 	trait=craven
+	trait=quick
 	health=10
 	1017.1.31={birth=yes}
 	1066.1.1 = {
@@ -220,10 +263,10 @@
 			}
 	}
 }
-778010={
+778110={
 	name="Vegeta"
 	dynasty=77802
-	culture=ninja_culture 
+	culture=japanese 
 	religion=taoist
 	martial=90
 	combat_rating=95
@@ -232,12 +275,15 @@
 	trait=cruel
 	trait=quick
 	trait=strong
+	trait=agile
 	trait=vat_born
+	trait=heavy_worlder
 	trait=brilliant_strategist
+	trait=berserker
 	health=10
 	1013.8.14={birth=yes}
 	1043.1.1={
-		add_spouse = 778011
+		add_spouse = 778111
 	}
 	1066.1.1 = {
 		effect = { 
@@ -246,9 +292,9 @@
 			}
 	}
 }
-778011={
+778111={
 	name="Bulma"
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	female=yes
 	trait=scholarly_theologian
@@ -258,68 +304,79 @@
 	trait=craven
 	1014.8.18={birth=yes}
 	1043.1.1={
-		add_spouse = 778010
+		add_spouse = 778110
 	}
 }
-778012={
+778112={
 	name="Trunks"
 	dynasty=77802
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
-	father=778010
-	mother=778011
+	father=778110
+	mother=778111
 	martial=9
 	combat_rating=125
+	trait=heavy_worlder
 	trait=wrath
 	trait=strong
 	trait=quick
+	trait=agile
+	trait=berserker
 	health=10
 	1047.6.1={birth=yes}
 	1055.1.1={
 		effect={
-			add_friend=778006
+			add_friend=778106
 		}
 	}
 }
-778013={
+778113={
 	name="Katas"
 	dynasty=77803
 	culture=oruk 
 	religion=orc_religion_bright_lord
 	health=10
+	trait=orc
+	trait=strong
+	trait=agile
+	trait=quick
 	600.1.1={birth=yes}
 	730.11.11={
 		death=yes
 	}
 }
-778014={
+778114={
 	name="Picillo"
 	dynasty=77803
 	culture=oruk 
 	religion=orc_religion_dark_lord
-	father=778013
+	father=778113
 	diplomacy=9
 	combat_rating=50
+	trait=orc
 	trait=clone
 	trait=wrath
-	trait=quick
+	trait=shrewd
 	trait=strong
+	trait=agile
 	trait=twin
 	trait=clone
 	trait=immortal
+	trait=berserker
 	health=10
 	730.1.1={birth=yes}
 	1038.1.1={
 		death=yes
 	}
 }
-778015={
+778115={
 	name="Kami"
 	dynasty=77803
 	culture=oruk 
 	religion=orc_religion_bright_lord
-	father=778013
+	father=778113
 	diplomacy=9
+	trait=orc
 	trait=clone
 	trait=wrath
 	trait=charismatic_negotiator
@@ -333,14 +390,15 @@
 		death=yes
 	}
 }
-778016={
+778116={
 	name="Picillo"
 	dynasty=77803
 	culture=oruk 
 	religion=shinto
-	father=778014
+	father=778114
 	diplomacy=9
 	combat_rating=60
+	trait=orc
 	trait=clone
 	trait=immortal
 	trait=wrath
@@ -349,21 +407,28 @@
 	trait=mystic
 	trait=skilled_tactician
 	trait=quick
+	trait=strong
+	trait=agile
+	trait=berserker
 	1030.5.9={birth=yes}
 }
-778017={
+778117={
 	name="Trunks"
 	dynasty=77804
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	martial=9
 	combat_rating=125
+	trait=adventurer
+	trait=heavy_worlder
 	trait=brilliant_strategist
 	trait=duelest
 	trait=kind
 	trait=strong
 	trait=quick
+	trait=agile
 	trait=shrewd
+	trait=berserker
 	health=10
 	1049.6.1={birth=yes}
 	1066.1.1 = {
@@ -373,19 +438,21 @@
 			}
 	}
 }
-778018={
+778118={
 	name="Krillin"
 	dynasty=77805
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	martial=9
 	combat_rating=30
+	trait=adventurer
 	trait=kind
 	trait=strong
+	trait=agile
 	health=10
 	1017.10.29={birth=yes}
 	1051.1.1={
-		add_spouse = 778020
+		add_spouse = 778120
 	}
 	1066.1.1 = {
 		effect = { 
@@ -394,11 +461,11 @@
 			}
 	}
 }
-778019={
+778119={
 	name="Gero"
 	dynasty=77806
 	female=yes
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
 	martial=9
 	combat_rating=80
@@ -417,13 +484,13 @@
 	}
 	1071.1.1={death=yes}
 }
-778020={
+778120={
 	name="18"
 	dynasty=77806
 	female=yes
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
-	father=778019
+	father=778119
 	martial=9
 	combat_rating=80
 	trait=quick
@@ -431,6 +498,7 @@
 	trait=full_cybernetic_conversion
 	trait=kind
 	trait=strong
+	trait=agile
 	health=10
 	1025.1.1={birth=yes}
 	1050.1.11 = {
@@ -439,15 +507,15 @@
 		}
 	}
 	1051.1.1={
-		add_spouse = 778018
+		add_spouse = 778118
 	}
 }
-778021={
+778121={
 	name="17"
 	dynasty=77806
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
-	father=778019
+	father=778119
 	martial=9
 	combat_rating=80
 	trait=quick
@@ -455,6 +523,7 @@
 	trait=full_cybernetic_conversion
 	trait=kind
 	trait=strong
+	trait=agile
 	health=10
 	1025.1.1={birth=yes}
 	1050.1.11 = {
@@ -463,37 +532,42 @@
 		}
 	}
 }
-778022={
+778122={
 	name="Marron"
 	dynasty=77805
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
-	father=778018
-	mother=778020
+	father=778118
+	mother=778120
 	health=10
 	1052.1.1={birth=yes}
 }
-778023={
+778123={
 	name="Roshi"
 	dynasty=77807
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
+	trait=adventurer
 	trait=duelest
 	trait=strong
 	trait=brawny
+	trait=agile
 	trait=lustful
 	trait=brilliant_strategist
+	trait=immortal
 	combat_rating=40
 	health=10
 	711.7.11={birth=yes}
 }
-778023={
+778124={
 	name="Yamcha"
 	dynasty=77808
-	culture=zhangzhung 
+	culture=ninja_culture 
 	religion=shinto
+	trait=adventurer
 	trait=duelest
 	trait=brawny
+	trait=agile
 	trait=fair
 	trait=scarred
 	trait=scarred_type_5
@@ -501,7 +575,7 @@
 	health=10
 	1014.1.1={birth=yes}
 }
-778023={
+778125={
 	name="Freiza"
 	dynasty=77809
 	culture=dark_elven 
@@ -512,16 +586,18 @@
 	trait=brawny
 	trait=strong
 	trait=genius
+	trait=agile
 	trait=cruel
 	trait=impaler
+	trait=slothful
 	trait=full_cybernetic_conversion
 	combat_rating=150
 	health=10
 	1007.1.1={birth=yes}
 }
-778103{
+778126{
 	name="Broly"
-	culture=ninja_culture 
+	culture=japanese 
 	religion=taoist
 	martial=10
 	health=10
@@ -529,6 +605,7 @@
 	trait=brave
 	trait=adventurer
 	trait=strong
+	trait=agile
 	trait=sturdy
 	trait=brawny
 	trait=wrath
