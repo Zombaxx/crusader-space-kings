@@ -46,6 +46,8 @@ otherworlden = {
 		religious_clothing_head = 12
 		religious_clothing_priest = 11
 		
+		intermarry = elven_heresy
+		
 		#character_modifier = {
 		#	elven_heresy_opinion = - 20
 		#}
@@ -99,6 +101,8 @@ otherworlden = {
 		religious_clothing_head = 15
 		religious_clothing_priest = 3
 		
+		intermarry = elven
+		
 		#character_modifier = {
 		#	elven_opinion = - 20
 		#}
@@ -143,6 +147,8 @@ otherworlden = {
 		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
+		
+		intermarry = elven_tribunal_heresy
 	
 	}
 	
@@ -187,6 +193,8 @@ otherworlden = {
 		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
+		
+		intermarry = elven_tribunal
 	
 	}
 	
@@ -223,6 +231,10 @@ otherworlden = {
 		
 		religious_clothing_head = 15
 		religious_clothing_priest = 3
+		
+		intermarry = dwarven_dwemer
+		intermarry = dwarven_dwemer_heresy
+		intermarry = dwarven_dwemer_heresy_hashut
 
 	}
 	
@@ -266,6 +278,10 @@ otherworlden = {
 		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5	
+		
+		intermarry = dwarven
+		intermarry = dwarven_dwemer_heresy
+		intermarry = dwarven_dwemer_heresy_hashut
 	}
 	
 	dwarven_dwemer_heresy = {
@@ -309,6 +325,10 @@ otherworlden = {
 		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5	
+		
+		intermarry = dwarven
+		intermarry = dwarven_dwemer
+		intermarry = dwarven_dwemer_heresy_hashut
 	}
 	
 	dwarven_dwemer_heresy_hashut = { #If you want to become evil, crazy, bloodthirsty piece of crap with industrialization. Like chaos dwarf.
@@ -351,7 +371,11 @@ otherworlden = {
 		aggression = 2.0
 		
 		religious_clothing_head = 5
-		religious_clothing_priest = 5	
+		religious_clothing_priest = 5
+
+		intermarry = dwarven
+		intermarry = dwarven_dwemer_heresy
+		intermarry = dwarven_dweme		
 	}
 	
 	cat_folk_religion = { #Religion of cat folk. Egypt-like paganism with a lot of gods.
@@ -395,6 +419,10 @@ otherworlden = {
 		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
+		
+		intermarry = egyptian_pagan
+		intermarry = egyptian_pagan_reformed
+		intermarry = aten_pagan
 	
 	}
 	
@@ -436,6 +464,8 @@ otherworlden = {
 		
 		religious_clothing_head = 13
 		religious_clothing_priest = 4
+		
+		intermarry = orc_religion_dark_lord
 	
 	}
 	
@@ -479,6 +509,8 @@ otherworlden = {
 		
 		religious_clothing_head = 13
 		religious_clothing_priest = 4
+		
+		intermarry = orc_religion_bright_lord
 	
 	}
 	

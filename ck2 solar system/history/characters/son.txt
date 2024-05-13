@@ -464,7 +464,6 @@
 778119={
 	name="Gero"
 	dynasty=77806
-	female=yes
 	culture=ninja_culture 
 	religion=shinto
 	martial=9
@@ -482,7 +481,7 @@
 			add_trait = full_cybernetic_conversion		
 		}
 	}
-	1071.1.1={death=yes}
+	1050.1.1={death=yes}
 }
 778120={
 	name="18"

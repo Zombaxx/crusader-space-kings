@@ -22,6 +22,11 @@
 	name="Yahweh"
 	culture="ashkenazi"
 	religion="jewish"
+}
+77782={	
+	name="Lightbringer"
+	culture="dark_elven"
+	religion="elven_tribunal"
 }	
 77600={	
 	name="Kemet"

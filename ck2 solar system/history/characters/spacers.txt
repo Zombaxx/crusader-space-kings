@@ -1,0 +1,33 @@
+778300={
+	name="Wei"
+	dynasty=7000043
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	1029.1.26={birth=yes}
+}
+778301={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	1029.1.26={birth=yes}
+}

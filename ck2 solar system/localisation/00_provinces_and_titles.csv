@@ -207,7 +207,7 @@ PROV205;Nerar;Nerar;Nerar;;Nerar;;;;;;;;;x
 PROV206;Lenitya;Lenitya;Lenitya;;Lenitya;;;;;;;;;x
 PROV207;Baiy;Baiy;Baiy;;Baiy;;;;;;;;;x
 PROV208;Cascadia;Cascadia;Cascadia;;Cascadia;;;;;;;;;x
-PROV209;Teneka;Teneka;Teneka;;Teneka;;;;;;;;;x
+PROV209;Moonlanding;Moonlanding;Moonlanding;;Moonlanding;;;;;;;;;x
 PROV210;Kautiat;Kautiat;Kautiat;;Kautiat;;;;;;;;;x
 PROV211;Susidis;Susidis;Susidis;;Susidis;;;;;;;;;x
 PROV212;East Cascadia;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
@@ -4460,8 +4460,8 @@ b_barony0208d;Eugene;Eugene;Eugene;;Eugene;;;;;;;;;x
 b_barony0208e;Salem;Salem;Salem;;Salem;;;;;;;;;x
 b_barony0208f;Olympia;Olympia;Olympia;;Olympia;;;;;;;;;x
 b_barony0208g;Medford;Medford;Medford;;Medford;;;;;;;;;x
-c_province0209_adj;Rareva;Rareva;Rareva;;Rareva;;;;;;;;;x
-b_barony0209`;Ebhidha;Ebhidha;Ebhidha;;Ebhidha;;;;;;;;;x
+c_province0209_adj;Moonlander;Moonlander;Moonlander;;Moonlander;;;;;;;;;x
+b_barony0209`;Moonlanding;Ebhidha;Ebhidha;;Ebhidha;;;;;;;;;x
 b_barony0209a;Toralim;Toralim;Toralim;;Toralim;;;;;;;;;x
 b_barony0209b;Retert;Retert;Retert;;Retert;;;;;;;;;x
 b_barony0209c;Wahine;Wahine;Wahine;;Wahine;;;;;;;;;x
@@ -19620,8 +19620,8 @@ b_barony1718d;Wale;Wale;Wale;;Wale;;;;;;;;;x
 b_barony1718e;Tyan;Tyan;Tyan;;Tyan;;;;;;;;;x
 b_barony1718f;Uina;Uina;Uina;;Uina;;;;;;;;;x
 b_barony1718g;Ubit;Ubit;Ubit;;Ubit;;;;;;;;;x
-e_empire1719;Uber;Uber;Uber;;Uber;;;;;;;;;x
-e_empire1719_adj;Unya;Unya;Unya;;Unya;;;;;;;;;x
+e_empire1719;Kolob;Kolob;Kolob;;Kolob;;;;;;;;;x
+e_empire1719_adj;Heavenly;Heavenly;Heavenly;;Heavenly;;;;;;;;;x
 k_kingdom1719;Kalv;Kalv;Kalv;;Kalv;;;;;;;;;x
 k_kingdom1719_adj;Keor;Keor;Keor;;Keor;;;;;;;;;x
 d_duchy1719;Amua;Amua;Amua;;Amua;;;;;;;;;x
