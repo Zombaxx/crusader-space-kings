@@ -149,7 +149,7 @@
 	culture=ninja_culture 
 	religion=shinto
 	father=778102
-	mother=778103
+	mother=778104
 	diplomacy=9
 	combat_rating=150
 	trait=heavy_worlde
@@ -170,7 +170,7 @@
 	culture=ninja_culture 
 	religion=shinto
 	father=778102
-	mother=778103
+	mother=778104
 	diplomacy=50
 	combat_rating=110
 	trait=heavy_worlder
