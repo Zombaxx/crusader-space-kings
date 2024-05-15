@@ -13,4 +13,5 @@
 1066.1.1 = {
 	holder = 1020120
 	liege=d_duchy0201
+	law = succ_feudal_elective
 }

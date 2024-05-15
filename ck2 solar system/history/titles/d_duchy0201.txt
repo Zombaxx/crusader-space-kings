@@ -1,5 +1,6 @@
 926.1.1 = {
 	holder = 102010
+	law = succ_seniority
 }
 992.1.1 = {
 	holder = 102011
@@ -12,4 +13,5 @@
 }
 1066.1.1 = {
 	holder = 1020120
+	law = succ_feudal_elective
 }

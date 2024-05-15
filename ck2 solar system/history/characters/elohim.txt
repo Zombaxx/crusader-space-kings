@@ -114,9 +114,23 @@
 	2.2.15={birth=yes}
 	1066.1.1 = {
 		effect = { 
-			prestige = 10000
+			prestige = 15000
 			piety = 30000
 			}
+        effect={
+            spawn_unit={
+                province=1615 #Ganymede
+                owner=ROOT
+                troops={
+                    archers={500 500}
+                    heavy_infantry={700 700}
+                    light_infantry={1500 1500}
+					light_cavalry={10000 10000}
+					heavy_cavalry={500 500}
+                }
+                attrition=0.5
+            }
+		}
 	}
 }
 
