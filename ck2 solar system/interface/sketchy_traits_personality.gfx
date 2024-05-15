@@ -1,0 +1,52 @@
+
+spriteTypes = {
+  spriteType = {
+   name = "GFX_trait_psychopath"
+   texturefile = "gfx/traits/psychopath.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_frugal"
+   texturefile = "gfx/traits/frugal.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_creative"
+   texturefile = "gfx/traits/creative.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_independent"
+   texturefile = "gfx/traits/independent.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_obedient"
+   texturefile = "gfx/traits/obedient.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_family_oriented"
+   texturefile = "gfx/traits/family_oriented.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_romantic"
+   texturefile = "gfx/traits/romantic.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+}

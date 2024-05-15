@@ -1,0 +1,146 @@
+#############
+# EDUCATION #
+#############
+
+###########################
+#    BUILDER EDUCATION    #
+###########################
+
+shameful_builder = {
+	education = yes
+
+	global_tax_modifier = 0.05
+
+    local_build_cost_modifier = -0.05
+	local_build_time_modifier = -0.05
+
+	martial = -2
+
+    ruler_designer_cost = 0
+}
+efficient_worker = {
+	education = yes
+
+	
+	global_tax_modifier = 0.1
+
+    local_build_cost_modifier = -0.1
+	local_build_time_modifier = -0.1
+
+	martial = -2
+
+}
+master_mason = {	
+	education = yes
+
+	demesne_size = 1
+	global_tax_modifier = 0.15
+
+    local_build_cost_modifier = -0.2
+	local_build_time_modifier = -0.2
+	siege_speed = 0.1
+
+	martial = -2
+
+}
+royal_craftsman = {
+	education = yes
+        
+    demesne_size = 1
+    global_tax_modifier = 0.25
+
+    local_build_cost_modifier = -0.33
+	local_build_time_modifier = -0.33
+	siege_speed = 0.2
+
+	martial = -2
+ 
+}
+
+###########################
+#    MILITARY EDUCATION   #
+###########################
+
+common_soldier = {
+	education = yes
+		global_movement_speed = 0.1
+		levy_reinforce_rate = 0.1
+		combat_rating = 3
+	
+	ruler_designer_cost = 0	
+}
+
+experienced_captain = {
+	education = yes
+		global_movement_speed = 0.2
+		levy_reinforce_rate = 0.15
+		siege_speed = 0.05
+		combat_rating = 6
+	
+	martial = 1
+	
+}
+
+seasoned_commander = {
+	education = yes
+		global_movement_speed = 0.2
+		levy_reinforce_rate = 0.2
+		siege_speed = 0.1
+		combat_rating = 10
+	
+	martial = 2
+		
+}
+
+great_general = {
+	education = yes
+		global_movement_speed = 0.3
+		levy_reinforce_rate = 0.25
+		siege_speed = 0.2
+		combat_rating = 20
+	
+	martial = 3
+	leadership_traits = 1
+	
+}
+###########################
+#    POLITICS EDUCATION   #
+###########################
+beginner_backstabber = {
+	education = yes
+		diplomacy = 1
+		intrigue = 1
+		global_revolt_risk = -0.05
+		liege_opinion = 5
+		vassal_opinion = 5
+		ruler_designer_cost = 0
+}
+cunning_conspirator = {
+	education = yes
+		diplomacy = 1
+		intrigue = 1
+		global_revolt_risk = -0.05
+		liege_opinion = 10
+		vassal_opinion = 10
+}
+political_maneuverer = {
+	education = yes
+		diplomacy = 2
+		intrigue = 2
+		global_revolt_risk = -0.05
+		plot_power_modifier = 0.05
+		liege_opinion = 15
+		vassal_opinion = 15
+		general_opinion = 5
+}
+machiavellian_manipulator = {
+	education = yes
+		diplomacy = 2
+		intrigue = 2
+		global_revolt_risk = -0.1
+		plot_power_modifier = 0.1
+		liege_opinion = 20
+		vassal_opinion = 20
+		general_opinion = 10
+
+}

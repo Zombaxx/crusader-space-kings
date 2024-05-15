@@ -1,0 +1,26 @@
+shameful_builder;Shameful Builder;;;;;;;;;;;;;x,
+shameful_builder_desc;The shameful builder can build things, just not very well.;;;;;;;;;;;;;x
+efficient_worker;Efficient Architect;;;;;;;;;;;;;x,
+efficient_worker_desc;The efficient architect can design and build impressive structures.;;;;;;;;;;;;;x,
+master_mason;Master Mason;;;;;;;;;;;;;x,
+master_mason_desc;The master mason is an experienced builder, his experience allows him to build structures extremely fast and efficiently.;;;;;;;;;;;;;x
+royal_craftsman;Royal Craftsman;;;;;;;;;;;;;x,
+royal_craftsman_desc;Amongst the best builders in the realm, the royal craftsman builds castles for the likes of kings..;;;;;;;;;;;;;x
+
+common_soldier;Common Soldier;;;;;;;;;;;;;x,
+common_soldier_desc;This character has a rudimentary knowledge of combat skills.;;;;;;;;;;;;;x,
+experienced_captain;Experienced Captain;;;;;;;;;;;;;x,
+experience_captain_desc;This character has trained in combat and command.;;;;;;;;;;;;;x,
+seasoned_commander;Seasoned Commander;;;;;;;;;;;;;x,
+seasoned_commander_desc;This character is an expert warrior and leader of men.;;;;;;;;;;;;;x,
+great_general;Great General;;;;;;;;;;;;;x,
+great_general_desc;This character is a master in the art of war.;;;;;;;;;;;;;x,
+
+beginner_backstabber;Beginner Backstabber;;;;;;;;;;;;;x,
+beginner_backstabber_desc;This character has been tutored in court politics.;;;;;;;;;;;;;x,
+cunning_conspirator;Cunning Conspirator;;;;;;;;;;;;;x,
+cunning_conspirator_desc;This character is adept at manipulating others.;;;;;;;;;;;;;x,
+political_maneuverer;Political Maneuverer;;;;;;;;;;;;;x,
+political_maneuverer_desc;This character is an illusive adversary, plotting from the shadows.;;;;;;;;;;;;;x,
+machiavellian_manipulator;Machiavellian Manipulator;;;;;;;;;;;;;x,
+machiavellian_manipulator_desc;This character is a master at deceit and dishonesty.;;;;;;;;;;;;;x,

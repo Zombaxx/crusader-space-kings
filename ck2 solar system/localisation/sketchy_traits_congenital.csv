@@ -1,0 +1,20 @@
+meager;Meager;;;;;;;;;;;;;x
+meager_desc;This character's..erm.."bits" are smaller than most.;;;;;;;;;;;;;x
+short;Short;;;;;;;;;;;;;x
+short_desc;This character is shorter than most.;;;;;;;;;;;;;x
+tall;Tall;;;;;;;;;;;;;x
+tall_desc;This character is taller than most.;;;;;;;;;;;;;x
+melodious;Melodious;;;;;;;;;;;;;x
+melodious_desc;This character has a voice like an angel.;;;;;;;;;;;;;x
+well_endowed;Well Endowed;;;;;;;;;;;;;x
+well_endowed_desc;This character's..erm.."bits" are larger than most.;;;;;;;;;;;;;x
+fluent;Fluent;;;;;;;;;;;;;x
+fluent_desc;This character has a clear and coherent voice.;;;;;;;;;;;;;x
+feeble2;Feeble;;;;;;;;;;;;;x
+feeble2_desc;This character is unhealthy and susceptible to illness.;;;;;;;;;;;;;x
+resilient;Resilient;;;;;;;;;;;;;x
+resilient_desc;This character is especially resistant to illness.;;;;;;;;;;;;;x
+barren;Barren;;;;;;;;;;;;;x
+barren_desc;This character is infertile, having children will be especially hard for them.;;;;;;;;;;;;;x
+fertile;Fertile;;;;;;;;;;;;;x
+fertile_desc;This character is fertile, having children will be especially easy for them.;;;;;;;;;;;;;x

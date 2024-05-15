@@ -1,0 +1,74 @@
+
+spriteTypes = {
+  spriteType = {
+   name = "GFX_trait_feeble2"
+   texturefile = "gfx/traits/feeble2.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_resilient"
+   texturefile = "gfx/traits/resilient.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_barren"
+   texturefile = "gfx/traits/barren.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_fertile"
+   texturefile = "gfx/traits/fertile.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_meager"
+   texturefile = "gfx/traits/meager.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_tall"
+   texturefile = "gfx/traits/tall.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_short"
+   texturefile = "gfx/traits/short.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_melodious"
+   texturefile = "gfx/traits/melodious.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_fluent"
+   texturefile = "gfx/traits/fluent.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+  }
+  spriteType = {
+   name = "GFX_trait_well_endowed"
+   texturefile = "gfx/traits/well_endowed.dds"
+   noOfFrames = 1
+   norefcount = yes
+   effectFile = "gfx/FX/buttonstate.lua"
+   
+ }
+}

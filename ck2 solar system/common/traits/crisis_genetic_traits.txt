@@ -60,19 +60,19 @@ beautiful = {
 	}
 	
 }
-tall = {
-	birth = 100
-	inherit_chance = 33
-
-	opposites =  {
-		dwarf
-	}
-
-	diplomacy = 1
-
-	sex_appeal_opinion = 5
-	vassal_opinion = 5
-}
+#tall = { #moved to different file
+#	birth = 100
+#	inherit_chance = 33
+#
+#	opposites =  {
+#		dwarf
+#	}
+#
+#	diplomacy = 1
+#
+#	sex_appeal_opinion = 5
+#	vassal_opinion = 5
+#}
 #cloning_defects = {
 	#potential = { trait = clone }
 	#inherit_chance = 10

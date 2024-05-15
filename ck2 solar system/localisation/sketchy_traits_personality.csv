@@ -1,0 +1,20 @@
+psychopath;Psychopath;;;;;;;;;;;;;x
+psychopath_desc;This character is predisposed to antisocial and violent behaviour.;;;;;;;;;;;;;x
+
+frugal;Frugal;;;;;;;;;;;;;x
+frugal_desc;This character dislikes spending their wealth.;;;;;;;;;;;;;x
+
+creative;Creative;;;;;;;;;;;;;x
+creative_desc;This character has a vast imagination and a talent for innovation.;;;;;;;;;;;;;x
+
+independent;Independent;;;;;;;;;;;;;x
+independent_desc;This character prefers to make their own decisions wherever possible.;;;;;;;;;;;;;x
+
+obedient;Obedient;;;;;;;;;;;;;x
+obedient_desc;This character is suited to following orders.;;;;;;;;;;;;;x
+
+family_oriented;Family-oriented;;;;;;;;;;;;;x
+family_oriented_desc;This character has particularly strong drive to provide for their family.;;;;;;;;;;;;;x
+
+romantic;Romantic;;;;;;;;;;;;;x
+romantic_desc;This character is a hopeless romantic constantly seeking love, often in the worst places.;;;;;;;;;;;;;x

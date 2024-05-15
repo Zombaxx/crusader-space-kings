@@ -1,0 +1,102 @@
+namespace = sketchy
+character_event = {
+    id = sketchy.1
+    desc = EVTDESC_sketchy_1
+    picture = "GFX_evt_shadow"
+
+    min_age = 14
+    max_age = 18
+
+    trigger = {
+        NOT = { trait = kind }
+        NOT = { trait = psychopath }
+        OR = {
+            father = {
+                NOT = { trait = kind }
+                NOT = { trait = temperate }
+                NOT = { trait = patient }
+                NOT = { trait = just }
+                NOT = { trait = humble }
+
+                calc_true_if = {
+                    amount = 2
+                    trait = cruel
+                    trait = wroth
+                    trait = psychopath
+                    trait = envious
+                    trait = impaler
+                    trait = lunatic
+                    trait = possessed
+                    trait = drunkard
+                    trait = stressed
+                    trait = depressed
+                    trait = greedy
+                    trait = deceitful
+                    trait = kinslayer
+                    trait = gluttonous
+                }
+            }
+            mother = {
+                NOT = { trait = kind }
+                NOT = { trait = temperate }
+                NOT = { trait = patient }
+                NOT = { trait = just }
+                NOT = { trait = humble }
+
+                calc_true_if = {
+                    amount = 3
+                    trait = cruel
+                    trait = wroth
+                    trait = psychopath
+                    trait = envious
+                    trait = impaler
+                    trait = lunatic
+                    trait = possessed
+                    trait = drunkard
+                    trait = stressed
+                    trait = depressed
+                    trait = greedy
+                    trait = deceitful
+                    trait = kinslayer
+                    trait = gluttonous
+                    trait = lustful
+                }
+            }
+        }  
+
+        calc_true_if = {
+            amount = 4
+            NOT = { trait = honest }
+            NOT = { trait = just }
+            NOT = { trait = charitable }
+            NOT = { trait = humble }
+        }
+    }
+
+
+    mean_time_to_happen = {
+		years = 8
+		modifier = {
+			factor = 0.5 # Increases chances by half
+			trait = cruel
+		}
+        modifier = {
+            factor = 0.5  # Increases chances by half
+            trait = rowdy
+        }
+        modifier = {
+            factor = 0.5  # Increases chances by half
+            trait = haughty
+        }
+        modifier = {
+            factor = 0.5  # Increases chances by half
+            trait = wroth
+        }
+	}
+
+    option = {
+       name = "EVTOPTA_sketchy_1"
+       add_trait = psychopath
+    }
+
+}
