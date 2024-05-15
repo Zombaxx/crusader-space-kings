@@ -40,6 +40,14 @@
 	trait=giant
 	1.1.3={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	#1.1.2={death=yes}
+	1065.1.1={
+		effect={
+			add_rival=776001
+		}
+		effect={
+			add_rival=776002
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 75000
@@ -133,6 +141,14 @@
 	trait=clone
 	immortal_age = 25
 	1.1.2={birth=yes}
+	1065.1.1={
+		effect={
+			add_rival=776001
+		}
+		effect={
+			add_rival=775999
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 10000
