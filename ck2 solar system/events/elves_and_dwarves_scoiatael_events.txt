@@ -2,867 +2,867 @@ namespace = EADESCOIA
 
 
 #Province with otherworlden population but human liege will get their scoia'taels
-province_event = {
-    id = EADESCOIA.1
-    desc = EVTDESC_EADESCOIA_1
-	picture = GFX_evt_elven_partisans_one
-	border = GFX_event_normal_frame_war
-	
-    mean_time_to_happen = {
-		months = 1
-	}
-	
-	trigger = {
-		ROOT = { 
-			is_fantasy_culture = yes
-			NOT = { 
-				has_province_modifier = scoiatael_incursion
-			}
-		}
-		holder_scope = {
-		    AND = { 
-			    AND = { 
-				    higher_tier_than = BARON
-			        NOT = { is_fantasy_culture = yes }
-				}
-				top_liege = {
-					NOT = { is_fantasy_culture = yes }
-				}			
-			}	
-		}
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = scoiatael_incursion
-			duration = -1
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA_EADESCOIA_1"
-	}
-	
-}	
-
-#Province without otherworlden culture will not have scoia'taels
-province_event = {
-    id = EADESCOIA.2
-    desc = EVTDESC_EADESCOIA_2
-	picture = GFX_evt_elven_partisans_one
-	border = GFX_event_normal_frame_war
-	
-    mean_time_to_happen = {
-		months = 1
-	}
-	
-	trigger = {
-		ROOT = { 
-			NOT = { is_fantasy_culture = yes }
-			has_province_modifier = scoiatael_incursion
-		}
-	}
-	
-	immediate = {
-		remove_province_modifier = scoiatael_incursion
-	}
-	
-	option = {
-		name = "EVTOPTA_EADESCOIA_2"
-	}
-	
-}	
-
-# Scoia'taels will rise up to establish an independent otherworlden kingdom
-province_event = {
-	id = EADESCOIA.3
-	desc = EVTDESC_EADESCOIA_3
-	picture = GFX_evt_elven_partisans_two
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-
-	trigger = {
-		has_dlc = "The Old Gods"
-		
-		NOR = { 
-		    has_province_modifier = scoiatael_incursion_weakened
-            has_province_modifier = scoiatael_incursion_heavy_weakened			
-		}
-		has_province_modifier = scoiatael_incursion
-		
-		owner = {
-		    AND = { 
-			    AND = { 
-				    higher_tier_than = BARON
-			        NOT = { is_fantasy_culture = yes }
-				}
-				top_liege = {
-					NOT = { is_fantasy_culture = yes }
-				}			
-			}	
-		}
-		
-		NOT = { # Not if there is already an ongoing revolt
-			owner = {
-				top_liege = {
-					war = yes
-					any_war = {
-						defender = { character = PREV }
-						OR = {
-							AND = {
-								using_cb = heretic_revolt
-								attacker = { religion = ROOT }
-							}
-							AND = {
-								using_cb = liberation_revolt
-								thirdparty_title_scope = {
-									ROOT = {
-										kingdom = {
-											title = PREVPREV
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	immediate = {
-	    
-		add_province_modifier = {
-            name = scoiatael_incursion_weakened
-            years = 5
-		}
-		remove_province_modifier = scoiatael_ambushes
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = ROOT
-				culture = ROOT
-				female = 50
-				age = 20
-				health = 7
-				fertility = 0.7
-				attributes = {
-					martial = 8
-					diplomacy = 9
-				}
-				trait = just
-				trait = brave
-				trait = gregarious
-				trait = ambitious
-				trait = brilliant_strategist
-				trait = inspiring_leader
-			}
-		
-			new_character = {
-				set_character_flag = scoiatael_rebel
-			
-				create_title = {
-					tier = DUKE
-					landless = yes
-					temporary = yes
-					rebel = yes
-					culture = ROOT
-					name = "NATIONALIST_REVOLT"
-					holder = THIS
-				}
-			
-				wealth = 100
-			
-				spawn_unit = {
-					province = ROOT
-					home = ROOT
-					owner = THIS
-					#leader = THIS
-					scaled_by_biggest_garrison = 1.75
-					troops = {
-						archers = { 6 6 }
-						light_cavalry = { 3 3 }
-						knights = { 1 1 }
-						light_infantry = { 7 7 }
-						heavy_infantry = { 3 3 }
-					}
-					attrition = 1.0
-				}
-				
-				spawn_nationalist_army_effect = yes
-				spawn_nationalist_army_effect = yes
-				
-				if = {
-					limit = {
-						has_game_rule = {
-							name = provincial_revolt_strength
-							value = powerful
-						}
-					}
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes
-					wealth = 150
-				}
-				
-				if = {
-					limit = {
-						has_game_rule = {
-							name = provincial_revolt_strength
-							value = very_powerful
-						}
-					}
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes
-					wealth = 250
-				}
-				
-				if = {
-					limit = {
-						has_game_rule = {
-							name = provincial_revolt_strength
-							value = extremely_powerful
-						}
-					}
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes
-					spawn_nationalist_army_effect = yes	
-					spawn_nationalist_army_effect = yes
-					wealth = 350
-				}
-			
-				# DoW on the province top liege
-				ROOT = {
-					owner = {
-						top_liege = {
-							reverse_war = {
-								target = PREVPREVPREV
-								casus_belli = scoiatael_revolt
-								thirdparty_title = ROOT # The county...
-								tier = KING # ... but really the de jure kingdom
-							}
-							reverse_opinion = {
-								who = PREVPREVPREV
-								modifier = opinion_evil_tyrant
-							}
-						}
-					}
-				}
-			}
-		
-			owner = {
-				any_liege = { # Inform the lieges
-					character_event = {
-						id = EADESCOIA.4
-					}
-				}
-			}
-	}
-	
-	option = {
-		name = "EVTOPTA_EADESCOIA_3"
-	}
-}
-
-character_event = {
-	id = EADESCOIA.4
-	desc = EVTDESC_EADESCOIA_4
-	picture = GFX_evt_elven_partisans_two
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_4
-	}
-}
-
-# Nationalists seize a holding. Fired from 'on_siege_over_winner'.
-character_event = {
-	id = EADESCOIA.5
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		rebel = yes
-		FROM = { 
-			is_capital = yes # The capital holding
-		}
-		any_war = {
-			attacker = { character = ROOT }
-			using_cb = scoiatael_revolt
-		}
-	}
-	
-	immediate = {
-		FROM = {
-			location = {
-				if = {
-					limit = {
-						NOT = { culture = ROOT }
-					}
-					random = {
-						chance = 20
-						culture = ROOT
-					}
-				}
-				if = {
-					limit = {
-						culture = ROOT
-						NOT = { has_province_modifier = cultural_unrest }
-					}
-					add_province_modifier = {
-						name = cultural_unrest
-						duration = 730
-					}
-				}
-			}
-		}
-	}
-}
-
-# Nationalist Rebels rise up to reinforce an ongoing revolt
-# Triggered from "on_rebel_revolt"
-province_event = {
-	id = EADESCOIA.6
-	desc = EVTDESC_EADESCOIA_6
-	picture = GFX_evt_elven_partisans_two
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-
-	trigger = {
-		has_dlc = "The Old Gods"
-
-		any_province_holding = {
-			NOT = { holding_type = nomad }
-		}
-		
-		# There is already an ongoing nationalist revolt for the same kingdom
-		owner = {
-			top_liege = {
-				war = yes
-				any_war = {
-					defender = { character = PREV }
-					using_cb = scoiatael_revolt
-					thirdparty_title_scope = {
-						ROOT = {
-							kingdom = {
-								title = PREVPREV
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = recent_county_uprising
-			duration = 1825 # Five years of -100% revolt risk in this county
-		}
-		owner = {
-			top_liege = {
-				any_war = {
-					limit = {
-						defender = { character = PREV }
-						using_cb = scoiatael_revolt
-						thirdparty_title_scope = {
-							ROOT = {
-								kingdom = {
-									title = PREVPREV
-								}
-							}
-						}
-					}
-					attacker = {
-						spawn_nationalist_reinforcements_effect = yes
-						spawn_nationalist_reinforcements_effect = yes
-						
-						if = {
-							limit = {
-								has_game_rule = {
-									name = provincial_revolt_strength
-									value = powerful
-								}
-							}
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-						}
-						
-						if = {
-							limit = {
-								has_game_rule = {
-									name = provincial_revolt_strength
-									value = very_powerful
-								}
-							}
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-						}
-						
-						if = {
-							limit = {
-								has_game_rule = {
-									name = provincial_revolt_strength
-									value = extremely_powerful
-								}
-							}
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-							spawn_nationalist_reinforcements_effect = yes
-						}
-					}
-				}
-			}
-		}
-		
-		owner = {
-			any_liege = { # Inform the lieges
-				character_event = {
-					id = EADESCOIA.7
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA_TOG_1000"
-	}
-}
-
-character_event = {
-	id = EADESCOIA.7
-	desc = EVTDESC_EADESCOIA_6
-	picture = GFX_evt_elven_partisans_two
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_6
-	}
-}
-
-#Province with otherworlden liege will lose scoia'taels
-character_event = {
-    id = EADESCOIA.8
-    desc = EVTDESC_EADESCOIA_8
-	picture = GFX_evt_elven_partisans_one
-	border = GFX_event_normal_frame_war
-    is_triggered_only = yes
-	
-	trigger = {
-		any_realm_province = {
-			has_province_modifier = scoiatael_incursion
-		}
-		owner = {
-		    OR = { 
-			    AND = { 
-				    higher_tier_than = BARON
-			        is_fantasy_culture = yes
-				}
-				top_liege = {
-					is_fantasy_culture = yes
-				}			
-			}	
-		}
-	}
-	
-	immediate = {
-	    any_realm_province = {
-		    limit = {
-			    is_fantasy_culture = yes 
-			    has_province_modifier = scoiatael_incursion
-				owner = {
-				    OR = { 
-					    AND = { 
-						    higher_tier_than = BARON
-					        is_fantasy_culture = yes
-						}
-						top_liege = {
-							is_fantasy_culture = yes
-						}			
-					}	
-				}
-			}
-		    remove_province_modifier = scoiatael_incursion
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA_EADESCOIA_8"
-	}
-	
-}	
-
-character_event = {
-    id = EADESCOIA.9
-	border = GFX_event_normal_frame_war
-    is_triggered_only = yes
-	
-	hide_window = yes
-	
-	trigger = {
-		any_realm_province = {
-			has_province_modifier = scoiatael_incursion_weakened
-		}
-		owner = {
-		    OR = { 
-			    AND = { 
-				    higher_tier_than = BARON
-			        is_fantasy_culture = yes
-				}
-				top_liege = {
-					is_fantasy_culture = yes
-				}			
-			}	
-		}
-	}
-	
-	immediate = {
-	    any_realm_province = {
-		    limit = {
-			    is_fantasy_culture = yes 
-			    has_province_modifier = scoiatael_incursion_weakened
-				owner = {
-		    		higher_tier_than = BARON
-					is_fantasy_culture = yes
-				}
-			}
-		    remove_province_modifier = scoiatael_incursion_weakened
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA_EADESCOIA_2"
-	}
-	
-}
-
-character_event = {
-	id = EADESCOIA.10
-	desc = EVTDESC_EADESCOIA_10
-	picture = GFX_evt_elven_partisans_two
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_10
-	}
-}
-
-character_event = {
-	id = EADESCOIA.11
-	desc = EVTDESC_EADESCOIA_11
-	picture = GFX_evt_elven_partisans_negotiations
-	border = GFX_event_normal_frame_diplomacy
-	portrait = event_target:scoiatael_commander
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_11
-		ai_chance = { factor = 1 }
-		
-		event_target:target_title = {
-			grant_title = event_target:scoiatael_commander
-			remove_province_modifier = scoiatael_incursion
-		}
-		hidden_tooltip = {
-			FROM = {
-				prestige = -100
-				if = {
-					limit = {
-						ROOT = {
-							primary_title = {
-								higher_tier_than = COUNT
-							}
-						}
-					}
-					set_defacto_liege = ROOT
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_11_NO
-		ai_chance = { factor = 0 }
-		random_list = {
-		    90 = { #Pissed off scoi'ataels starts a revolt
-				hidden_tooltip = { 
-				    event_target:scoiatael_commander = {
-			    	    death = { death_reason = death_missing }
-				    }
-				}
-				province_event = { id = EADESCOIA.3 }
-		    }
-            10 = {
-				hidden_tooltip = { 
-				    event_target:scoiatael_commander = {
-			    	    death = { death_reason = death_missing }
-				    }
-				}
-		    }			
-		}
-		custom_tooltip = {
-            text = pissed_off_scoiataels
-        }
-	}
-}
-
-province_event = { #Scoia'taels shenanigans tombola
-	id = EADESCOIA.12
-	hide_window = yes
-
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	trigger = {
-		NOR = { 
-		    has_province_modifier = scoiatael_incursion_weakened
-            has_province_modifier = scoiatael_incursion_heavy_weakened			
-		}
-		has_province_modifier = scoiatael_incursion
-		NOT = {
-			has_province_modifier = scoiatael_cooldown
-		}
-	}
-
-	immediate = {
-		add_province_modifier = {
-            name = scoiatael_cooldown
-            days = 365
-			is_hidden = yes
-        }
-		random_list = {
-			20 = { 
-				add_province_modifier = {
-                    name = scoiatael_agitation
-                    days = 365
-                }
-				owner = {
-					character_event = {
-						id = EADESCOIA.13
-					}
-			    }
-			}
-			20 = { 
-				add_province_modifier = {
-                    name = scoiatael_robbery_raids
-                    days = 365
-                }
-				owner = {
-					character_event = {
-						id = EADESCOIA.14
-					}
-			    }
-			}
-			10 = {
-                modifier = { factor = 0 true_religion_group_otherworlden_trigger = yes }			
-				if = {
-					limit = { 
-						ROOT = { 
-						    is_high_elven_culture = yes 
-						}
-						NOT = { religion = elven }
-					}
-					religion = elven
-					owner = {
-						character_event = {
-							id = EADESCOIA.18
-						}
-					}
-				}
-                else_if = {
-					limit = { 
-						ROOT = { 
-						    is_dwarven_dawi_culture = yes 
-						}
-						NOT = { religion = dwarven }
-					}
-					religion = dwarven
-					owner = {
-						character_event = {
-							id = EADESCOIA.18
-						}
-					}
-				}
-                else_if = {
-					limit = { 
-						ROOT = { 
-						    is_dark_elven_culture = yes 
-						}
-						NOT = { religion = elven_tribunal }
-					}
-					religion = elven_tribunal
-					owner = {
-						character_event = {
-							id = EADESCOIA.18
-						}
-					}
-				}
-				else_if = {
-					limit = { 
-						ROOT = { 
-						    is_dark_dwarven_culture = yes 
-						}
-						NOT = { religion = dwarven_dwemer }
-					}
-					religion = dwarven_dwemer
-					owner = {
-						character_event = {
-							id = EADESCOIA.18
-						}
-					}
-				}
-				else_if = {
-					limit = { 
-						ROOT = { 
-						    is_cat_folk_culture = yes 
-						}
-						NOT = { religion = cat_folk_religion }
-					}
-					religion = cat_folk_religion
-					owner = {
-						character_event = {
-							id = EADESCOIA.18
-						}
-					}
-				}					
-			}
-			20 = { 
-				add_province_modifier = {
-                    name = scoiatael_ambushes
-                    days = 365
-                }
-				owner = {
-					character_event = {
-						id = EADESCOIA.15
-					}
-			    }
-			}
-			15 = { 
-				add_province_modifier = {
-                    name = scoiatael_incursion_weakened
-                    years = 5
-                }
-				owner = {
-					character_event = {
-						id = EADESCOIA.16
-					}
-			    }
-			}
-			10 = {
-			    owner = { province_event = { id = EADESCOIA.3 } }
-			}
-			5 = { 
-				add_province_modifier = {
-                    name = scoiatael_incursion_heavy_weakened
-                    years = 10
-                }
-				owner = {
-					any_liege = { # Inform the lieges
-						character_event = {
-							id = EADESCOIA.17
-						}
-				    }
-					character_event = {
-						id = EADESCOIA.17
-					}
-			    }
-			}
-		}
-	}
-}
-
-character_event = {
-	id = EADESCOIA.13
-	desc = EVTDESC_EADESCOIA_12
-	picture = GFX_evt_elven_partisans_one
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_1
-	}
-}
-
-character_event = {
-	id = EADESCOIA.14
-	desc = EVTDESC_EADESCOIA_13
-	picture = GFX_evt_elven_partisans_two
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_1
-	}
-}
-
-character_event = {
-	id = EADESCOIA.15
-	desc = EVTDESC_EADESCOIA_14
-	picture = GFX_evt_elven_partisans_two
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_1
-	}
-}
-
-character_event = {
-	id = EADESCOIA.16
-	desc = EVTDESC_EADESCOIA_15
-	picture = GFX_evt_elven_partisans_one
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_15
-	}
-}
-
-character_event = {
-	id = EADESCOIA.17
-	desc = EVTDESC_EADESCOIA_16
-	picture = GFX_evt_elven_partisans_one
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_15
-	}
-}
-
-character_event = {
-	id = EADESCOIA.18
-	desc = EVTDESC_EADESCOIA_17
-	picture = GFX_evt_elven_partisans_one
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_EADESCOIA_17
-	}
-}
+#province_event = {
+#    id = EADESCOIA.1
+#    desc = EVTDESC_EADESCOIA_1
+#	picture = GFX_evt_elven_partisans_one
+#	border = GFX_event_normal_frame_war
+#	
+#    mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	trigger = {
+#		ROOT = { 
+#			is_fantasy_culture = yes
+#			NOT = { 
+#				has_province_modifier = scoiatael_incursion
+#			}
+#		}
+#		holder_scope = {
+#		    AND = { 
+#			    AND = { 
+#				    higher_tier_than = BARON
+#			        NOT = { is_fantasy_culture = yes }
+#				}
+#				top_liege = {
+#					NOT = { is_fantasy_culture = yes }
+#				}			
+#			}	
+#		}
+#	}
+#	
+#	immediate = {
+#		add_province_modifier = {
+#			name = scoiatael_incursion
+#			duration = -1
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA_EADESCOIA_1"
+#	}
+#	
+#}	
+#
+##Province without otherworlden culture will not have scoia'taels
+#province_event = {
+#    id = EADESCOIA.2
+#    desc = EVTDESC_EADESCOIA_2
+#	picture = GFX_evt_elven_partisans_one
+#	border = GFX_event_normal_frame_war
+#	
+#    mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	trigger = {
+#		ROOT = { 
+#			NOT = { is_fantasy_culture = yes }
+#			has_province_modifier = scoiatael_incursion
+#		}
+#	}
+#	
+#	immediate = {
+#		remove_province_modifier = scoiatael_incursion
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA_EADESCOIA_2"
+#	}
+#	
+#}	
+#
+## Scoia'taels will rise up to establish an independent otherworlden kingdom
+#province_event = {
+#	id = EADESCOIA.3
+#	desc = EVTDESC_EADESCOIA_3
+#	picture = GFX_evt_elven_partisans_two
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		has_dlc = "The Old Gods"
+#		
+#		NOR = { 
+#		    has_province_modifier = scoiatael_incursion_weakened
+#            has_province_modifier = scoiatael_incursion_heavy_weakened			
+#		}
+#		has_province_modifier = scoiatael_incursion
+#		
+#		owner = {
+#		    AND = { 
+#			    AND = { 
+#				    higher_tier_than = BARON
+#			        NOT = { is_fantasy_culture = yes }
+#				}
+#				top_liege = {
+#					NOT = { is_fantasy_culture = yes }
+#				}			
+#			}	
+#		}
+#		
+#		NOT = { # Not if there is already an ongoing revolt
+#			owner = {
+#				top_liege = {
+#					war = yes
+#					any_war = {
+#						defender = { character = PREV }
+#						OR = {
+#							AND = {
+#								using_cb = heretic_revolt
+#								attacker = { religion = ROOT }
+#							}
+#							AND = {
+#								using_cb = liberation_revolt
+#								thirdparty_title_scope = {
+#									ROOT = {
+#										kingdom = {
+#											title = PREVPREV
+#										}
+#									}
+#								}
+#							}
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#	
+#	immediate = {
+#	    
+#		add_province_modifier = {
+#            name = scoiatael_incursion_weakened
+#            years = 5
+#		}
+#		remove_province_modifier = scoiatael_ambushes
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = ROOT
+#				culture = ROOT
+#				female = 50
+#				age = 20
+#				health = 7
+#				fertility = 0.7
+#				attributes = {
+#					martial = 8
+#					diplomacy = 9
+#				}
+#				trait = just
+#				trait = brave
+#				trait = gregarious
+#				trait = ambitious
+#				trait = brilliant_strategist
+#				trait = inspiring_leader
+#			}
+#		
+#			new_character = {
+#				set_character_flag = scoiatael_rebel
+#			
+#				create_title = {
+#					tier = DUKE
+#					landless = yes
+#					temporary = yes
+#					rebel = yes
+#					culture = ROOT
+#					name = "NATIONALIST_REVOLT"
+#					holder = THIS
+#				}
+#			
+#				wealth = 100
+#			
+#				spawn_unit = {
+#					province = ROOT
+#					home = ROOT
+#					owner = THIS
+#					#leader = THIS
+#					scaled_by_biggest_garrison = 1.75
+#					troops = {
+#						archers = { 6 6 }
+#						light_cavalry = { 3 3 }
+#						knights = { 1 1 }
+#						light_infantry = { 7 7 }
+#						heavy_infantry = { 3 3 }
+#					}
+#					attrition = 1.0
+#				}
+#				
+#				spawn_nationalist_army_effect = yes
+#				spawn_nationalist_army_effect = yes
+#				
+#				if = {
+#					limit = {
+#						has_game_rule = {
+#							name = provincial_revolt_strength
+#							value = powerful
+#						}
+#					}
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes
+#					wealth = 150
+#				}
+#				
+#				if = {
+#					limit = {
+#						has_game_rule = {
+#							name = provincial_revolt_strength
+#							value = very_powerful
+#						}
+#					}
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes
+#					wealth = 250
+#				}
+#				
+#				if = {
+#					limit = {
+#						has_game_rule = {
+#							name = provincial_revolt_strength
+#							value = extremely_powerful
+#						}
+#					}
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes
+#					spawn_nationalist_army_effect = yes	
+#					spawn_nationalist_army_effect = yes
+#					wealth = 350
+#				}
+#			
+#				# DoW on the province top liege
+#				ROOT = {
+#					owner = {
+#						top_liege = {
+#							reverse_war = {
+#								target = PREVPREVPREV
+#								casus_belli = scoiatael_revolt
+#								thirdparty_title = ROOT # The county...
+#								tier = KING # ... but really the de jure kingdom
+#							}
+#							reverse_opinion = {
+#								who = PREVPREVPREV
+#								modifier = opinion_evil_tyrant
+#							}
+#						}
+#					}
+#				}
+#			}
+#		
+#			owner = {
+#				any_liege = { # Inform the lieges
+#					character_event = {
+#						id = EADESCOIA.4
+#					}
+#				}
+#			}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA_EADESCOIA_3"
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.4
+#	desc = EVTDESC_EADESCOIA_4
+#	picture = GFX_evt_elven_partisans_two
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_4
+#	}
+#}
+#
+## Nationalists seize a holding. Fired from 'on_siege_over_winner'.
+#character_event = {
+#	id = EADESCOIA.5
+#	hide_window = yes
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		rebel = yes
+#		FROM = { 
+#			is_capital = yes # The capital holding
+#		}
+#		any_war = {
+#			attacker = { character = ROOT }
+#			using_cb = scoiatael_revolt
+#		}
+#	}
+#	
+#	immediate = {
+#		FROM = {
+#			location = {
+#				if = {
+#					limit = {
+#						NOT = { culture = ROOT }
+#					}
+#					random = {
+#						chance = 20
+#						culture = ROOT
+#					}
+#				}
+#				if = {
+#					limit = {
+#						culture = ROOT
+#						NOT = { has_province_modifier = cultural_unrest }
+#					}
+#					add_province_modifier = {
+#						name = cultural_unrest
+#						duration = 730
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
+#
+## Nationalist Rebels rise up to reinforce an ongoing revolt
+## Triggered from "on_rebel_revolt"
+#province_event = {
+#	id = EADESCOIA.6
+#	desc = EVTDESC_EADESCOIA_6
+#	picture = GFX_evt_elven_partisans_two
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		has_dlc = "The Old Gods"
+#
+#		any_province_holding = {
+#			NOT = { holding_type = nomad }
+#		}
+#		
+#		# There is already an ongoing nationalist revolt for the same kingdom
+#		owner = {
+#			top_liege = {
+#				war = yes
+#				any_war = {
+#					defender = { character = PREV }
+#					using_cb = scoiatael_revolt
+#					thirdparty_title_scope = {
+#						ROOT = {
+#							kingdom = {
+#								title = PREVPREV
+#							}
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#	
+#	immediate = {
+#		add_province_modifier = {
+#			name = recent_county_uprising
+#			duration = 1825 # Five years of -100% revolt risk in this county
+#		}
+#		owner = {
+#			top_liege = {
+#				any_war = {
+#					limit = {
+#						defender = { character = PREV }
+#						using_cb = scoiatael_revolt
+#						thirdparty_title_scope = {
+#							ROOT = {
+#								kingdom = {
+#									title = PREVPREV
+#								}
+#							}
+#						}
+#					}
+#					attacker = {
+#						spawn_nationalist_reinforcements_effect = yes
+#						spawn_nationalist_reinforcements_effect = yes
+#						
+#						if = {
+#							limit = {
+#								has_game_rule = {
+#									name = provincial_revolt_strength
+#									value = powerful
+#								}
+#							}
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#						}
+#						
+#						if = {
+#							limit = {
+#								has_game_rule = {
+#									name = provincial_revolt_strength
+#									value = very_powerful
+#								}
+#							}
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#						}
+#						
+#						if = {
+#							limit = {
+#								has_game_rule = {
+#									name = provincial_revolt_strength
+#									value = extremely_powerful
+#								}
+#							}
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#							spawn_nationalist_reinforcements_effect = yes
+#						}
+#					}
+#				}
+#			}
+#		}
+#		
+#		owner = {
+#			any_liege = { # Inform the lieges
+#				character_event = {
+#					id = EADESCOIA.7
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA_TOG_1000"
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.7
+#	desc = EVTDESC_EADESCOIA_6
+#	picture = GFX_evt_elven_partisans_two
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_6
+#	}
+#}
+#
+##Province with otherworlden liege will lose scoia'taels
+#character_event = {
+#    id = EADESCOIA.8
+#    desc = EVTDESC_EADESCOIA_8
+#	picture = GFX_evt_elven_partisans_one
+#	border = GFX_event_normal_frame_war
+#    is_triggered_only = yes
+#	
+#	trigger = {
+#		any_realm_province = {
+#			has_province_modifier = scoiatael_incursion
+#		}
+#		owner = {
+#		    OR = { 
+#			    AND = { 
+#				    higher_tier_than = BARON
+#			        is_fantasy_culture = yes
+#				}
+#				top_liege = {
+#					is_fantasy_culture = yes
+#				}			
+#			}	
+#		}
+#	}
+#	
+#	immediate = {
+#	    any_realm_province = {
+#		    limit = {
+#			    is_fantasy_culture = yes 
+#			    has_province_modifier = scoiatael_incursion
+#				owner = {
+#				    OR = { 
+#					    AND = { 
+#						    higher_tier_than = BARON
+#					        is_fantasy_culture = yes
+#						}
+#						top_liege = {
+#							is_fantasy_culture = yes
+#						}			
+#					}	
+#				}
+#			}
+#		    remove_province_modifier = scoiatael_incursion
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA_EADESCOIA_8"
+#	}
+#	
+#}	
+#
+#character_event = {
+#    id = EADESCOIA.9
+#	border = GFX_event_normal_frame_war
+#    is_triggered_only = yes
+#	
+#	hide_window = yes
+#	
+#	trigger = {
+#		any_realm_province = {
+#			has_province_modifier = scoiatael_incursion_weakened
+#		}
+#		owner = {
+#		    OR = { 
+#			    AND = { 
+#				    higher_tier_than = BARON
+#			        is_fantasy_culture = yes
+#				}
+#				top_liege = {
+#					is_fantasy_culture = yes
+#				}			
+#			}	
+#		}
+#	}
+#	
+#	immediate = {
+#	    any_realm_province = {
+#		    limit = {
+#			    is_fantasy_culture = yes 
+#			    has_province_modifier = scoiatael_incursion_weakened
+#				owner = {
+#		    		higher_tier_than = BARON
+#					is_fantasy_culture = yes
+#				}
+#			}
+#		    remove_province_modifier = scoiatael_incursion_weakened
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA_EADESCOIA_2"
+#	}
+#	
+#}
+#
+#character_event = {
+#	id = EADESCOIA.10
+#	desc = EVTDESC_EADESCOIA_10
+#	picture = GFX_evt_elven_partisans_two
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_10
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.11
+#	desc = EVTDESC_EADESCOIA_11
+#	picture = GFX_evt_elven_partisans_negotiations
+#	border = GFX_event_normal_frame_diplomacy
+#	portrait = event_target:scoiatael_commander
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_11
+#		ai_chance = { factor = 1 }
+#		
+#		event_target:target_title = {
+#			grant_title = event_target:scoiatael_commander
+#			remove_province_modifier = scoiatael_incursion
+#		}
+#		hidden_tooltip = {
+#			FROM = {
+#				prestige = -100
+#				if = {
+#					limit = {
+#						ROOT = {
+#							primary_title = {
+#								higher_tier_than = COUNT
+#							}
+#						}
+#					}
+#					set_defacto_liege = ROOT
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_11_NO
+#		ai_chance = { factor = 0 }
+#		random_list = {
+#		    90 = { #Pissed off scoi'ataels starts a revolt
+#				hidden_tooltip = { 
+#				    event_target:scoiatael_commander = {
+#			    	    death = { death_reason = death_missing }
+#				    }
+#				}
+#				province_event = { id = EADESCOIA.3 }
+#		    }
+#            10 = {
+#				hidden_tooltip = { 
+#				    event_target:scoiatael_commander = {
+#			    	    death = { death_reason = death_missing }
+#				    }
+#				}
+#		    }			
+#		}
+#		custom_tooltip = {
+#            text = pissed_off_scoiataels
+#        }
+#	}
+#}
+#
+#province_event = { #Scoia'taels shenanigans tombola
+#	id = EADESCOIA.12
+#	hide_window = yes
+#
+#	mean_time_to_happen = {
+#		months = 12
+#	}
+#
+#	trigger = {
+#		NOR = { 
+#		    has_province_modifier = scoiatael_incursion_weakened
+#            has_province_modifier = scoiatael_incursion_heavy_weakened			
+#		}
+#		has_province_modifier = scoiatael_incursion
+#		NOT = {
+#			has_province_modifier = scoiatael_cooldown
+#		}
+#	}
+#
+#	immediate = {
+#		add_province_modifier = {
+#            name = scoiatael_cooldown
+#            days = 365
+#			is_hidden = yes
+#        }
+#		random_list = {
+#			20 = { 
+#				add_province_modifier = {
+#                    name = scoiatael_agitation
+#                    days = 365
+#                }
+#				owner = {
+#					character_event = {
+#						id = EADESCOIA.13
+#					}
+#			    }
+#			}
+#			20 = { 
+#				add_province_modifier = {
+#                    name = scoiatael_robbery_raids
+#                    days = 365
+#                }
+#				owner = {
+#					character_event = {
+#						id = EADESCOIA.14
+#					}
+#			    }
+#			}
+#			10 = {
+#                modifier = { factor = 0 true_religion_group_otherworlden_trigger = yes }			
+#				if = {
+#					limit = { 
+#						ROOT = { 
+#						    is_high_elven_culture = yes 
+#						}
+#						NOT = { religion = elven }
+#					}
+#					religion = elven
+#					owner = {
+#						character_event = {
+#							id = EADESCOIA.18
+#						}
+#					}
+#				}
+#                else_if = {
+#					limit = { 
+#						ROOT = { 
+#						    is_dwarven_dawi_culture = yes 
+#						}
+#						NOT = { religion = dwarven }
+#					}
+#					religion = dwarven
+#					owner = {
+#						character_event = {
+#							id = EADESCOIA.18
+#						}
+#					}
+#				}
+#                else_if = {
+#					limit = { 
+#						ROOT = { 
+#						    is_dark_elven_culture = yes 
+#						}
+#						NOT = { religion = elven_tribunal }
+#					}
+#					religion = elven_tribunal
+#					owner = {
+#						character_event = {
+#							id = EADESCOIA.18
+#						}
+#					}
+#				}
+#				else_if = {
+#					limit = { 
+#						ROOT = { 
+#						    is_dark_dwarven_culture = yes 
+#						}
+#						NOT = { religion = dwarven_dwemer }
+#					}
+#					religion = dwarven_dwemer
+#					owner = {
+#						character_event = {
+#							id = EADESCOIA.18
+#						}
+#					}
+#				}
+#				else_if = {
+#					limit = { 
+#						ROOT = { 
+#						    is_cat_folk_culture = yes 
+#						}
+#						NOT = { religion = cat_folk_religion }
+#					}
+#					religion = cat_folk_religion
+#					owner = {
+#						character_event = {
+#							id = EADESCOIA.18
+#						}
+#					}
+#				}					
+#			}
+#			20 = { 
+#				add_province_modifier = {
+#                    name = scoiatael_ambushes
+#                    days = 365
+#                }
+#				owner = {
+#					character_event = {
+#						id = EADESCOIA.15
+#					}
+#			    }
+#			}
+#			15 = { 
+#				add_province_modifier = {
+#                    name = scoiatael_incursion_weakened
+#                    years = 5
+#                }
+#				owner = {
+#					character_event = {
+#						id = EADESCOIA.16
+#					}
+#			    }
+#			}
+#			10 = {
+#			    owner = { province_event = { id = EADESCOIA.3 } }
+#			}
+#			5 = { 
+#				add_province_modifier = {
+#                    name = scoiatael_incursion_heavy_weakened
+#                    years = 10
+#                }
+#				owner = {
+#					any_liege = { # Inform the lieges
+#						character_event = {
+#							id = EADESCOIA.17
+#						}
+#				    }
+#					character_event = {
+#						id = EADESCOIA.17
+#					}
+#			    }
+#			}
+#		}
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.13
+#	desc = EVTDESC_EADESCOIA_12
+#	picture = GFX_evt_elven_partisans_one
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_1
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.14
+#	desc = EVTDESC_EADESCOIA_13
+#	picture = GFX_evt_elven_partisans_two
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_1
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.15
+#	desc = EVTDESC_EADESCOIA_14
+#	picture = GFX_evt_elven_partisans_two
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_1
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.16
+#	desc = EVTDESC_EADESCOIA_15
+#	picture = GFX_evt_elven_partisans_one
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_15
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.17
+#	desc = EVTDESC_EADESCOIA_16
+#	picture = GFX_evt_elven_partisans_one
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_15
+#	}
+#}
+#
+#character_event = {
+#	id = EADESCOIA.18
+#	desc = EVTDESC_EADESCOIA_17
+#	picture = GFX_evt_elven_partisans_one
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_EADESCOIA_17
+#	}
+#}
