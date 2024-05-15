@@ -1,33 +1,71 @@
 776000={
 	name="Nu"
 	dynasty=77600
-	culture=dragon_culture 
+	culture=dark_elven 
 	religion=egyptian_pagan
 	female=yes
 	diplomacy=90
 	trait=full_cybernetic_conversion
+	trait=giant
+	trait=clone
+	trait=genius
+	trait=beautiful
+	trait=strong
+	trait=agile
+	trait=tall
 	immortal_age = 25
 	1.1.1={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	1.1.2={death=yes}
 }
 775999={
 	name="Aten"
-	#dynasty=77600
+	dynasty=77601
 	culture=dark_elven 
-	religion=egyptian_pagan
+	religion=aten_pagan
 	trait=ambitious
 	diplomacy=90
 	combat_rating=100
 	trait=full_cybernetic_conversion
+	trait=genius
+	trait=beautiful
+	trait=strong
+	trait=agile
+	trait=giant
+	trait=tall
+	trait=heavy_worlder
+	trait=gmo
+	trait=vat_born
+	trait=clone
 	immortal_age = 25
+	trait=giant
 	1.1.3={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	#1.1.2={death=yes}
+	1066.1.1 = {
+		effect = { 
+			prestige = 75000
+			piety = 4000
+			}
+        effect={
+            spawn_unit={
+                province=143
+                owner=ROOT
+                troops={
+                    archers={500 500}
+                    heavy_infantry={500 500}
+                    light_infantry={1000 1000}
+					light_cavalry={500 500}
+					heavy_cavalry={250 250}
+                }
+                attrition=0.5
+            }
+		}
+	}
 }
 775998={
 	name="Apep"
 	#dynasty=77600
 	culture=dragon_culture 
-	religion=egyptian_pagan
+	religion=orc_religion_dark_lord
 	martial=90
 	combat_rating=100
 	trait=full_cybernetic_conversion
@@ -45,20 +83,36 @@
 	diplomacy=50
 	martial=40
 	combat_rating=100
+	trait=giant
 	trait=ambitious	
 	trait=twin
 	trait=duelist
 	trait=wrath
 	trait=brilliant_strategist
 	trait=full_cybernetic_conversion
+	trait=clone
 	immortal_age = 25
 	1.1.2={birth=yes}
 	1066.1.1 = {
 		effect = { 
 			prestige = 10000
-			piety = 30000
+			piety = 5000
 			}
-	}	
+        effect={
+            spawn_unit={
+                province=467
+                owner=ROOT
+                troops={
+                    archers={500 500}
+                    heavy_infantry={500 500}
+                    light_infantry={1000 1000}
+					light_cavalry={500 500}
+					heavy_cavalry={500 500}
+                }
+                attrition=0.5
+            }
+		}
+	}
 }
 776002={
 	name="Ra"
@@ -69,19 +123,35 @@
 	diplomacy=50
 	martial=40
 	combat_rating=100
+	trait=giant
 	trait=ambitious	
 	trait=twin
 	trait=duelist
 	trait=wrath
 	trait=brilliant_strategist
 	trait=full_cybernetic_conversion
+	trait=clone
 	immortal_age = 25
 	1.1.2={birth=yes}
 	1066.1.1 = {
 		effect = { 
 			prestige = 10000
-			piety = 30000
+			piety = 5000
 			}
+        effect={
+            spawn_unit={
+                province=428
+                owner=ROOT
+                troops={
+                    archers={600 600}
+                    heavy_infantry={600 600}
+                    light_infantry={1500 1500}
+					light_cavalry={600 600}
+					heavy_cavalry={350 350}
+                }
+                attrition=0.5
+            }
+		}
 	}
 }
 776003{
@@ -160,6 +230,8 @@
 	employer=776001
 	female=yes
 	trait=full_cybernetic_conversion
+	trait=beautiful
+	trait=quick
 	immortal_age = 25
 	50.11.11={birth=yes}
 	67.1.1={
@@ -175,10 +247,33 @@
 	mother=776006
 	employer=776001
 	trait=full_cybernetic_conversion
+	trait=brilliant_strategist
+	trait=quick
+	trait=strong
 	immortal_age = 25
 	50.11.11={birth=yes}
 	67.1.1={
 		add_spouse = 776007
+	}
+	1066.1.1 = {
+		effect = { 
+			prestige = 2500
+			piety = 3000
+			}
+        effect={
+            spawn_unit={
+                province=429
+                owner=ROOT
+                troops={
+                    archers={500 500}
+                    heavy_infantry={500 500}
+                    light_infantry={1000 1000}
+					light_cavalry={500 500}
+					heavy_cavalry={250 250}
+                }
+                attrition=0.5
+            }
+		}
 	}
 }
 776009={
