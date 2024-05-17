@@ -319,6 +319,127 @@ character_event = {
 					add_trait = homosexual
 				}
 			}
+			if = {
+				limit = { ROOT = { trait = short } }
+				random = {
+					chance = 90
+					add_trait = short
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = melodious } }
+				random = {
+					chance = 90
+					add_trait = melodious
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fluent } }
+				random = {
+					chance = 90
+					add_trait = fluent
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = well_endowed } }
+				random = {
+					chance = 90
+					add_trait = well_endowed
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = meager } }
+				random = {
+					chance = 90
+					add_trait = meager
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = barren } }
+				random = {
+					chance = 90
+					add_trait = barren
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = resilient } }
+				random = {
+					chance = 90
+					add_trait = resilient
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = feeble2 } }
+				random = {
+					chance = 90
+					add_trait = feeble2
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = psychopath } }
+				random = {
+					chance = 90
+					add_trait = psychopath
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = frugal } }
+				random = {
+					chance = 90
+					add_trait = frugal
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = creative } }
+				random = {
+					chance = 90
+					add_trait = creative
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = independent } }
+				random = {
+					chance = 90
+					add_trait = independent
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = obedient } }
+				random = {
+					chance = 90
+					add_trait = obedient
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = family_oriented } }
+				random = {
+					chance = 90
+					add_trait = family_oriented
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = romantic } }
+				random = {
+					chance = 90
+					add_trait = romantic
+				}
+			}
+			
+			
 			# Send to parent's court
 			ROOT = { reverse_banish = PREV }
 		}
@@ -575,6 +696,125 @@ character_event = {
 					add_trait = homosexual
 				}
 			}
+			if = {
+				limit = { ROOT = { trait = short } }
+				random = {
+					chance = 90
+					add_trait = short
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = melodious } }
+				random = {
+					chance = 90
+					add_trait = melodious
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fluent } }
+				random = {
+					chance = 90
+					add_trait = fluent
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = well_endowed } }
+				random = {
+					chance = 90
+					add_trait = well_endowed
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = meager } }
+				random = {
+					chance = 90
+					add_trait = meager
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = barren } }
+				random = {
+					chance = 90
+					add_trait = barren
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = resilient } }
+				random = {
+					chance = 90
+					add_trait = resilient
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = feeble2 } }
+				random = {
+					chance = 90
+					add_trait = feeble2
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = psychopath } }
+				random = {
+					chance = 90
+					add_trait = psychopath
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = frugal } }
+				random = {
+					chance = 90
+					add_trait = frugal
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = creative } }
+				random = {
+					chance = 90
+					add_trait = creative
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = independent } }
+				random = {
+					chance = 90
+					add_trait = independent
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = obedient } }
+				random = {
+					chance = 90
+					add_trait = obedient
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = family_oriented } }
+				random = {
+					chance = 90
+					add_trait = family_oriented
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = romantic } }
+				random = {
+					chance = 90
+					add_trait = romantic
+				}
+			}
 			# Send to parent's court
 			ROOT = { reverse_banish = ROOT }
 		}
@@ -815,6 +1055,132 @@ character_event = {
 				random = {
 					chance = 90
 					add_trait = inbred
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = homosexual } }
+				random = {
+					chance = 90
+					add_trait = homosexual
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = short } }
+				random = {
+					chance = 90
+					add_trait = short
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = melodious } }
+				random = {
+					chance = 90
+					add_trait = melodious
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fluent } }
+				random = {
+					chance = 90
+					add_trait = fluent
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = well_endowed } }
+				random = {
+					chance = 90
+					add_trait = well_endowed
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = meager } }
+				random = {
+					chance = 90
+					add_trait = meager
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = barren } }
+				random = {
+					chance = 90
+					add_trait = barren
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = resilient } }
+				random = {
+					chance = 90
+					add_trait = resilient
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = feeble2 } }
+				random = {
+					chance = 90
+					add_trait = feeble2
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = psychopath } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = frugal } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = creative } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = independent } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = obedient } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = family_oriented } }
+				random = {
+					chance = 90
+					add_trait = family_oriented
+				}
+			}
+			if = {
+				limit = { ROOT = { trait = romantic } }
+				random = {
+					chance = 90
+					add_trait = romantic
 				}
 			}
 			# Send to parent's court
