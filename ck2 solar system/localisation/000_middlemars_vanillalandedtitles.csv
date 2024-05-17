@@ -819,7 +819,7 @@ d_persian_caravan_guards;Wamal Caravan Guards;;;;;;;;;;;;;x
 d_silk_road_sentinels;Celestial Road Sentinels;;;;;;;;;;;;;x
 d_turkic_guard;Versian Guard;;;;;;;;;;;;;x
 #d_papal_guards;Holy Terra Guard;;;;;;;;;;;;;x
-#d_qarmatian;Ecalp;;;;;;;;;;;;;x
+d_qarmatian;Divinity;;;;;;;;;;;;;x
 #d_shiite;The Altered Caliphate;;;;;;;;;;;;;x
 #d_sunni;The Terraformed Caliphate;;;;;;;;;;;;;x
 e_bulgaria;Amuseph;;;;;;;;;;;;;x

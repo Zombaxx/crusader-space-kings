@@ -1015,7 +1015,8 @@
 	name="Yaldabaoth"
     dynasty=77781
 	culture=dark_elven
-    religion=elven_tribunal
+    religion=qarmatian
+    #secret_religion=qarmatian
 	real_father=777779
 	mother=777124
 	martial=50
@@ -1036,6 +1037,13 @@
 		effect = {
 			k_kingdom0622 = { add_claim = ROOT }
 			k_rome = { add_claim = ROOT }
+			e_united_states = { add_claim = ROOT }
+			e_european_union = { add_claim = ROOT }
+			e_empire0836 = { add_claim = ROOT }
+			e_empire0223 = { add_claim = ROOT }
+			k_kingdom0031 = { add_claim = ROOT }
+			k_mexico = { add_claim = ROOT }
+			e_empire0223 = { add_claim = ROOT }
 		}
 	}
 	1066.1.1 = {

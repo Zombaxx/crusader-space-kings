@@ -132,6 +132,114 @@ character_event = {
 				95 = { }
 				5 = { add_trait = cloning_defects }
 			}
+			if = {
+				limit = { ROOT = { any_spouse = { trait = cloning_defects } } }
+				random_list = {
+					10 = { }
+					5 = { add_trait = psychopath }
+					5 = { add_trait = creative }
+					5 = { add_trait = independent }
+					5 = { add_trait = obedient }
+					5 = { add_trait = lefthanded }
+					
+					2 = { add_trait = giant }
+					2 = { add_trait = short }
+					2 = { add_trait = meager }
+					2 = { add_trait = barren }
+					2 = { add_trait = tall }
+					2 = { add_trait = weak }
+					2 = { add_trait = feeble2 }
+					2 = { add_trait = homely }
+					2 = { add_trait = ugly }
+					2 = { add_trait = dwarf }
+					2 = { add_trait = slow }
+					2 = { add_trait = stutter }
+					2 = { add_trait = lisp }
+					2 = { add_trait = hunchback }
+					2 = { add_trait = harelip }
+					2 = { add_trait = clubfooted }
+					2 = { add_trait = imbecile }
+					2 = { add_trait = clumsy }
+					1 = { add_trait = beautiful }
+					1 = { add_trait = genius }
+					1 = { add_trait = quick }
+					1 = {add_trait = strong }
+					
+					1 = { add_trait = fair }
+					2 = { add_trait = shrewd }
+					2 = { add_trait = inbred }
+					2 = { add_trait = brawny }
+					1 = { add_trait = agile }
+					1 = { add_trait = melodious }
+					1 = { add_trait = resilient }
+					
+					1 = { add_trait = fluent }
+					1 = { add_trait = well_endowed }
+					2 = { add_trait = meager }
+					1 = { add_trait = fertile }
+					2 = { add_trait = incapable }
+					2 = { add_trait = infirm }
+					2 = { add_trait = maimed }
+					2 = { add_trait = lunatic }
+					2 = { add_trait = possessed }
+					2 = { add_trait = depressed }
+					
+				}
+			}
+			if = {
+				limit = { ROOT = { any_consort = { trait = cloning_defects } } }
+				random_list = {
+					10 = { }
+					5 = { add_trait = psychopath }
+					5 = { add_trait = creative }
+					5 = { add_trait = independent }
+					5 = { add_trait = obedient }
+					5 = { add_trait = lefthanded }
+					
+					2 = { add_trait = giant }
+					2 = { add_trait = short }
+					2 = { add_trait = meager }
+					2 = { add_trait = barren }
+					2 = { add_trait = tall }
+					2 = { add_trait = weak }
+					2 = { add_trait = feeble2 }
+					2 = { add_trait = homely }
+					2 = { add_trait = ugly }
+					2 = { add_trait = dwarf }
+					2 = { add_trait = slow }
+					2 = { add_trait = stutter }
+					2 = { add_trait = lisp }
+					2 = { add_trait = hunchback }
+					2 = { add_trait = harelip }
+					2 = { add_trait = clubfooted }
+					2 = { add_trait = imbecile }
+					2 = { add_trait = clumsy }
+					1 = { add_trait = beautiful }
+					1 = { add_trait = genius }
+					1 = { add_trait = quick }
+					1 = {add_trait = strong }
+					
+					1 = { add_trait = fair }
+					2 = { add_trait = shrewd }
+					2 = { add_trait = inbred }
+					2 = { add_trait = brawny }
+					1 = { add_trait = agile }
+					1 = { add_trait = melodious }
+					1 = { add_trait = resilient }
+					
+					1 = { add_trait = fluent }
+					1 = { add_trait = well_endowed }
+					2 = { add_trait = meager }
+					1 = { add_trait = fertile }
+					2 = { add_trait = incapable }
+					2 = { add_trait = infirm }
+					2 = { add_trait = maimed }
+					2 = { add_trait = lunatic }
+					2 = { add_trait = possessed }
+					2 = { add_trait = depressed }
+					
+				}
+			}
 			# Copy genetic traits
 			if = {
 				limit = { ROOT = { any_consort = { trait = genius } } }
@@ -1219,6 +1327,114 @@ character_event = {
 			random_list = {
 				95 = { }
 				5 = { add_trait = cloning_defects }
+			}
+if = {
+				limit = { ROOT = { any_spouse = { trait = cloning_defects } } }
+				random_list = {
+					10 = { }
+					5 = { add_trait = psychopath }
+					5 = { add_trait = creative }
+					5 = { add_trait = independent }
+					5 = { add_trait = obedient }
+					5 = { add_trait = lefthanded }
+					
+					2 = { add_trait = giant }
+					2 = { add_trait = short }
+					2 = { add_trait = meager }
+					2 = { add_trait = barren }
+					2 = { add_trait = tall }
+					2 = { add_trait = weak }
+					2 = { add_trait = feeble2 }
+					2 = { add_trait = homely }
+					2 = { add_trait = ugly }
+					2 = { add_trait = dwarf }
+					2 = { add_trait = slow }
+					2 = { add_trait = stutter }
+					2 = { add_trait = lisp }
+					2 = { add_trait = hunchback }
+					2 = { add_trait = harelip }
+					2 = { add_trait = clubfooted }
+					2 = { add_trait = imbecile }
+					2 = { add_trait = clumsy }
+					1 = { add_trait = beautiful }
+					1 = { add_trait = genius }
+					1 = { add_trait = quick }
+					1 = {add_trait = strong }
+					
+					1 = { add_trait = fair }
+					2 = { add_trait = shrewd }
+					2 = { add_trait = inbred }
+					2 = { add_trait = brawny }
+					1 = { add_trait = agile }
+					1 = { add_trait = melodious }
+					1 = { add_trait = resilient }
+					
+					1 = { add_trait = fluent }
+					1 = { add_trait = well_endowed }
+					2 = { add_trait = meager }
+					1 = { add_trait = fertile }
+					2 = { add_trait = incapable }
+					2 = { add_trait = infirm }
+					2 = { add_trait = maimed }
+					2 = { add_trait = lunatic }
+					2 = { add_trait = possessed }
+					2 = { add_trait = depressed }
+					
+				}
+			}
+			if = {
+				limit = { ROOT = { any_consort = { trait = cloning_defects } } }
+				random_list = {
+					10 = { }
+					5 = { add_trait = psychopath }
+					5 = { add_trait = creative }
+					5 = { add_trait = independent }
+					5 = { add_trait = obedient }
+					5 = { add_trait = lefthanded }
+					
+					2 = { add_trait = giant }
+					2 = { add_trait = short }
+					2 = { add_trait = meager }
+					2 = { add_trait = barren }
+					2 = { add_trait = tall }
+					2 = { add_trait = weak }
+					2 = { add_trait = feeble2 }
+					2 = { add_trait = homely }
+					2 = { add_trait = ugly }
+					2 = { add_trait = dwarf }
+					2 = { add_trait = slow }
+					2 = { add_trait = stutter }
+					2 = { add_trait = lisp }
+					2 = { add_trait = hunchback }
+					2 = { add_trait = harelip }
+					2 = { add_trait = clubfooted }
+					2 = { add_trait = imbecile }
+					2 = { add_trait = clumsy }
+					1 = { add_trait = beautiful }
+					1 = { add_trait = genius }
+					1 = { add_trait = quick }
+					1 = {add_trait = strong }
+					
+					1 = { add_trait = fair }
+					2 = { add_trait = shrewd }
+					2 = { add_trait = inbred }
+					2 = { add_trait = brawny }
+					1 = { add_trait = agile }
+					1 = { add_trait = melodious }
+					1 = { add_trait = resilient }
+					
+					1 = { add_trait = fluent }
+					1 = { add_trait = well_endowed }
+					2 = { add_trait = meager }
+					1 = { add_trait = fertile }
+					2 = { add_trait = incapable }
+					2 = { add_trait = infirm }
+					2 = { add_trait = maimed }
+					2 = { add_trait = lunatic }
+					2 = { add_trait = possessed }
+					2 = { add_trait = depressed }
+					
+				}
 			}
 			# Copy genetic traits
 			if = {

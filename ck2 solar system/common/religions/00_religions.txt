@@ -1123,12 +1123,15 @@ muslim = {
 		heresy_icon = 9
 
 		color = { 0.2 0.7 0.1 }
-		parent = shiite
+		#parent = shiite
 
-		crusade_name = JIHAD
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_EPISTLES_OF_WISDOM
+		priest_title = PRIEST
 
 		priests_can_marry = yes
 		psc_marriage = no
+		can_excommunicate = yes
 		can_call_crusade = yes
 		matrilineal_marriages = no
 		allow_looting = yes
@@ -1136,7 +1139,7 @@ muslim = {
 		landed_kin_prestige_bonus = no
 		attacking_same_religion_piety_loss = yes
 		
-		uses_jizya_tax = no
+		uses_jizya_tax = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
 

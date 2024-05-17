@@ -29,18 +29,8 @@ ERA_CHAR_INFO_121585;The great sultan of Jupiter's Zensunni has recaptured his a
 #ERA_CHAR_NAME_;Triton;;;;;;;;;;;;;x
 #ERA_CHAR_INFO_;Elohim of the Kingdom of Kobol;;;;;;;;;;;;;x
 
-#BM_EARTH;Mars;;;;;;;;;;;;;x
-#BM_WP_INFO;;;;;;;;;;;;;;x
 ERA_CHAR_NAME_112385;Olympians of Mars;;;;;;;;;;;;;x
 ERA_CHAR_INFO_112385;When the rovers first arrived to Mars they confirmed what the few spacefaring nations of Earth had already feared yet kept secret from the public, that like the Moon, other worlds beyond Earth were also already home to vast cultures of other exotic humans, separated from Earth during pre-history in an interplanetary civilization-ending calamity. After the Lunar Independence Rebellion succeeded in 1972  shortely before the loss of the Venusnam War, the United States remained unable to continue to fund new colonization efforts offworld, until the elite of the private sector funded the mission for their own benefit. In the wake of the Great Disaster, neo-feudalism crept in faster than expected, with the former corporation now run as a vast empire stretching from Mount Olympus to Valles Mareneris. The native Olympians begin to plot rebellion.;;;;;;;;;;;;;x
-
-#ERA_CHAR_NAME_113075;Valles Marineris of Mars;;;;;;;;;;;;;x
-#ERA_CHAR_INFO_113075;Although the Terraformed Caliphate had not survived in the long run after the conquest of Western Argyre and Valles Marineris over 400 years ago, their legacy remains as pockets of their people and independent Terraformed warlords continue their reign of the once Singularitan land, though with the Olympian Empire consolidating the lands to the west they will need to combine their forces or venture into the shattered Celestial lands on the polar land bridge to the south of the Argyre Sea to have any hope of keeping the importance of the Colonists Code at the forefront of minds.;;;;;;;;;;;;;x
-
-#ERA_CHAR_NAME_;Celestial Migrants;;;;;;;;;;;;;x
-#ERA_CHAR_INFO_;The ashes of the first Celestial migrant wave from the derelict spaceship to Mars from centuries ago begins to consolidate as the rest of the fractured generational spacefleet arrives centuries late and begins making contact with the planet, but still face decades of internal strife before hope of any real lasting alliance could be reached in the once beacon of the Celestial Empire on Mars.;;;;;;;;;;;;;x
-#ERA_CHAR_NAME_;Tharsis Mons;;;;;;;;;;;;;x
-#ERA_CHAR_INFO_;An unlikely ambitious tactician rises to the rank of strategist as the province of Pavonis containing the second linked Space Elevator falls back into Celestial control after winning the conquest against the Olympians in a multi century war to control the region.;;;;;;;;;;;;;x
 
 #BM_EARTH;Earth 2050;;;;;;;;;;;;;x
 #BM_WP_INFO;;;;;;;;;;;;;;x
@@ -64,7 +54,16 @@ ERA_CHAR_INFO_104265;Deep in the Upper Nile of Egypt lies a seemingly endless or
 #ERA_CHAR_INFO_101415;The endless quarterly profit goals of corporations largely drove the rise of the accelerated pre disaster development, but even with the total destruction of all advanced technology, the corporate elite were ready to weather the storm. Now that the storm has finally lifted, or at least reached the eye, with the United States and European Union miraculously intact, the Board begins to wonder if the common people would be better off under the total unregulated rule of corporate overlords rather than a failed federation, and more importantly what this could mean for their shareholders.;;;;;;;;;;;;;x
 
 #ERA_CHAR_NAME_;Dark Side of the Moon;;;;;;;;;;;;;x
-#ERA_CHAR_INFO_;Multiple generations of clones from a prominent father father who met a tragic fate, his son who met a similar demise, and his bastard with the legend herself that escaped to the moon to thrive and clone his fallen father and brother.;;;;;;;;;;;;;x
+#ERA_CHAR_INFO_;In the fractured political landscape of the inhabitable side of the moon, the Kennedy Clone Dynasty rules a small, volatile nation state decades after the infamous Lunar Rebellion that shattered the colonies. At its helm reigns the "chosen" cloneline of Jack, with clonelines of the original Jack's father JFK, and brother Junior overseeing key provinces. Their realm is plagued by instability due to the new clone heir not being a perfect copy due to cloning defects, threatening their claim to power. Adding to the tension, the elder Marilyn Monroe clone vanished years ago, and rumors suggest she now leads a nearby pagan Lunist tribe. This fragile state must navigate pagan savages, rival lunar colonies, a persistent United States outpost, and the ever-present threat of internal strife.;;;;;;;;;;;;;x
+
+#ERA_CHAR_NAME_;;;;;;;;;;;;;;x
+#ERA_CHAR_INFO_;;;;;;;;;;;;;;x
+
+#ERA_CHAR_NAME_;;;;;;;;;;;;;;x
+#ERA_CHAR_INFO_;;;;;;;;;;;;;;x
+
+#ERA_CHAR_NAME_;;;;;;;;;;;;;;x
+#ERA_CHAR_INFO_;;;;;;;;;;;;;;x
 
 #ERA_CHAR_NAME_;;;;;;;;;;;;;;x
 #ERA_CHAR_INFO_;;;;;;;;;;;;;;x

@@ -7,7 +7,7 @@ homely = {
 	opposites =  {
 		beautiful
 		fair
-		ugly
+		#ugly
 	}
 	
 	diplomacy = -1

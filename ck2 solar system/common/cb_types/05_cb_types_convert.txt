@@ -4,6 +4,7 @@ fuck_you_convert = {
 	sprite = 9
 	truce_days = 3650
 	is_permanent = yes
+	is_ai = no
 	can_ask_to_join_war = yes
 	can_call_allies = yes
 	can_call_vassals = yes
