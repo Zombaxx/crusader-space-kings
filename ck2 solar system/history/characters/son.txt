@@ -127,7 +127,7 @@
 }
 778104={
 	name="Chichi"
-	dynasty=77811
+	#dynasty=77811
 	culture=ninja_culture 
 	religion=shinto
 	female=yes
@@ -152,7 +152,7 @@
 	mother=778104
 	diplomacy=9
 	combat_rating=150
-	trait=heavy_worlde
+	trait=heavy_worlder
 	trait=strong
 	trait=genius
 	trait=agile
