@@ -1,24 +1,5 @@
 # Artifacts are a scope in and of themselves now.
 
-#####
-AGOT notes
-The following artifact flags have special effects in script:
-
-no_usurp_transfer		- prevents the artifact from being taken when the holder has their titles usurped. Also prevents sale of the artifact
-portrait_headgear		- enables use in dynamic portrait headgear system (layer 17 in portrait_properties.txt)
-valyrian_steel			- Denotes valyrian steel, cannot be usurped and has scripted inheritance
-canon_sword			- Denotes a weapon named in canon that cannot be renamed
-
-combat_tier_1/2/3	- determines artifact combat tier in the duel engine
-armour_tier_1/2/3		- determines artifact combat tier in the duel engine
-
-1 : combat_rating = 5
-2 : combat_rating = 10
-3 : combat_rating = 15
-4 : combat_rating = 20
-
-#####
-
 stacking = no							# can only have a single copy of this artifact in one's posession. Defaults to "yes"
 
 # effects
@@ -119,9 +100,3 @@ You can now use "extended" (bracket-based) localization in Artifact scopes:
 
 ### decisions
 destroy_artifact						# takes the current owner of the artifact as ROOT, and the ARTIFACT in FROM, destroys the artifact unless it's indestructible
-
-new_artifact = {
-				set_original_owner = event_target:rip_dead
-			}
-
-

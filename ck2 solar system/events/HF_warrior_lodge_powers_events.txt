@@ -8,19 +8,11 @@ character_event = {
     id = HF.25000
     desc = EVTDESCHFA25000
     picture = { 
-        trigger = { event_target:invited_lodge_soldier = { society_member_of = warrior_lodge_tengri } }
+        trigger = { event_target:invited_lodge_soldier = { society_member_of = warrior_lodge_khanist } }
         picture = GFX_evt_eagle_warriors
     }
     picture = { 
-        trigger = { 
-			event_target:invited_lodge_soldier = { 
-				OR = { 
-					society_member_of = warrior_lodge_zun 
-					society_member_of = warrior_lodge_west_african
-					society_member_of = warrior_lodge_ws_mazdan
-				}
-			} 
-		}
+        trigger = { event_target:invited_lodge_soldier = { OR = { society_member_of = warrior_lodge_zun society_member_of = warrior_lodge_west_african } } }
         picture = GFX_evt_sun_temple
     }
     picture = { 
@@ -28,39 +20,13 @@ character_event = {
         picture = GFX_evt_hellenic_temple
     }
     picture = { 
-        trigger = { event_target:invited_lodge_soldier = { society_member_of = warrior_lodge_cws_christian } }
-        picture = GFX_evt_knight_kneeling
-    }
-    picture = { 
-        trigger = { event_target:invited_lodge_soldier = { society_member_of = warrior_lodge_ws_eastern } }
-        picture = GFX_evt_hindu_temple_interior
-    }
-    picture = { 
-        trigger = { event_target:invited_lodge_soldier = { society_member_of = warrior_lodge_ws_aztec } }
-        picture = GFX_evt_death_sacrificed
-    }
-    picture = { 
-        trigger = { event_target:invited_lodge_soldier = { society_member_of = warrior_lodge_ws_muslim } }
-        picture = GFX_evt_melee_arabic
-    }
-    picture = { 
-        trigger = { event_target:invited_lodge_soldier = { society_member_of = warrior_lodge_ws_jewish } }
-        picture = GFX_evt_synagogue
-    }
-    picture = { 
         trigger = { 
             event_target:invited_lodge_soldier = { 
                 NOR = { 
                     society_member_of = warrior_lodge_zun 
                     society_member_of = warrior_lodge_west_african 
-                    society_member_of = warrior_lodge_tengri 
+                    society_member_of = warrior_lodge_khanist
                     society_member_of = warrior_lodge_hellenic 
-					society_member_of = warrior_lodge_cws_christian
-					society_member_of = warrior_lodge_ws_mazdan
-					society_member_of = warrior_lodge_ws_eastern
-					society_member_of = warrior_lodge_ws_aztec
-					society_member_of = warrior_lodge_ws_muslim
-					society_member_of = warrior_lodge_ws_jewish
                 } 
             } 
         }
@@ -90,8 +56,23 @@ character_event = {
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
+									NOR = {
+										religion = old_hindu
+										religion = parabrahmanist
+										religion = kalikula
+										religion = shaivasiddhanta
+										religion = jain
+										religion = maunaxite_reformed
+										religion = maunaxite
+										religion = yazidi
+										religion = yersenism
+										religion = mandaeanism
+										religion = ahlehaqq
+									}
+									OR = {
+										trait = kshatriya
+										trait = shaykh
+									}
 								}
 								is_adult = yes
 							}
@@ -227,8 +208,23 @@ character_event = {
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
+									NOR = {
+										religion = old_hindu
+										religion = parabrahmanist
+										religion = kalikula
+										religion = shaivasiddhanta
+										religion = jain
+										religion = maunaxite_reformed
+										religion = maunaxite
+										religion = yazidi
+										religion = yersenism
+										religion = mandaeanism
+										religion = ahlehaqq
+									}
+									OR = {
+										trait = kshatriya
+										trait = shaykh
+									}
 								}
 								is_adult = yes
 							}
@@ -600,18 +596,7 @@ character_event = {
 #Zun Battle trance.
 character_event = {
 	id = HF.25006
-	desc = {
-		trigger = {
-			society_member_of = warrior_lodge_zun
-		}
-		text = EVTDESCHF25006
-	}
-	desc = {
-		trigger = {
-			NOT = { society_member_of = warrior_lodge_zun }
-		}
-		text = EVTDESCHFWS25006
-	}
+	desc = EVTDESCHF25006
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_war
 	
@@ -1159,7 +1144,7 @@ character_event = {
 	}
 }
 
-#War Sacrifice power. #TODO?
+#War Sacrifice power.
 character_event = {
 	id = HF.25021
 	desc = {
@@ -1169,20 +1154,12 @@ character_event = {
 		text = EVTDESCAHF25021
 	}
 	desc = {
-		trigger = {
-			NOR = {
+		trigger = { 
+			NOT = {
 				religion_group = pagan_group
-				is_member_of_non_pagan_warrior_lodge_trigger = yes
 			}
 		}
 		text = EVTDESCBHF25021
-	}
-	desc = {
-		trigger = { 
-			NOT = { religion_group = pagan_group }
-			is_member_of_non_pagan_warrior_lodge_trigger = yes
-		}
-		text = EVTDESCAHFCWS25021
 	}
 	picture = GFX_evt_religious_exultation
 	border = GFX_event_normal_frame_religion
@@ -1214,7 +1191,7 @@ character_event = {
 				save_event_target_as = sacrificed_courtier
 			}
 			clr_character_flag = flag_painted_by_norse #Safety cleanup
-			clr_character_flag = flag_painted_by_tengri
+			clr_character_flag = flag_painted_by_khanist
 			clr_character_flag = flag_painted_by_baltic
 			clr_character_flag = flag_painted_by_finnish
 			clr_character_flag = flag_painted_by_slavic
@@ -1222,24 +1199,13 @@ character_event = {
 			clr_character_flag = flag_painted_by_zun
 			clr_character_flag = flag_painted_by_bon
 			clr_character_flag = flag_painted_by_hellenic
-			clr_character_flag = flag_painted_by_cws_christian
-			clr_character_flag = flag_painted_by_ws_mazdan
-			clr_character_flag = flag_painted_by_ws_eastern
-			clr_character_flag = flag_painted_by_ws_aztec
-			clr_character_flag = flag_painted_by_ws_muslim
-			clr_character_flag = flag_painted_by_ws_jewish
 			#Bon and Hellenics would not paint their faces. They only get the blood splatter effect when sacrificing. Flags only used for localization.
+
 			if = {
 				limit = { 
-					society_member_of = warrior_lodge_norse		#Tie to flag to avoid potential multiplayer delay issues.
+					society_member_of = warrior_lodge_khanist
 				}
-				set_character_flag = flag_painted_by_norse
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_tengri
-				}
-				set_character_flag = flag_painted_by_tengri
+				set_character_flag = flag_painted_by_khanist
 			}
 			if = {
 				limit = { 
@@ -1253,24 +1219,24 @@ character_event = {
 				}
 				set_character_flag = flag_painted_by_finnish
 			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_slavic
-				}
-				set_character_flag = flag_painted_by_slavic
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_west_african
-				}
-				set_character_flag = flag_painted_by_west_african
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_zun
-				}
-				set_character_flag = flag_painted_by_zun
-			}
+			# if = {
+				# limit = { 
+					# society_member_of = warrior_lodge_slavic
+				# }
+				# set_character_flag = flag_painted_by_slavic
+			# }
+			# if = {
+				# limit = { 
+					# society_member_of = warrior_lodge_west_african
+				# }
+				# set_character_flag = flag_painted_by_west_african
+			# }
+			# if = {
+				# limit = { 
+					# society_member_of = warrior_lodge_zun
+				# }
+				# set_character_flag = flag_painted_by_zun
+			# }
 			if = {
 				limit = { 
 					society_member_of = warrior_lodge_bon
@@ -1283,65 +1249,19 @@ character_event = {
 				}
 				set_character_flag = flag_painted_by_hellenic
 			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_cws_christian
-				}
-				set_character_flag = flag_painted_by_cws_christian
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_ws_mazdan
-				}
-				set_character_flag = flag_painted_by_ws_mazdan
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_ws_eastern
-				}
-				set_character_flag = flag_painted_by_ws_eastern
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_ws_aztec
-				}
-				set_character_flag = flag_painted_by_ws_aztec
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_ws_muslim
-				}
-				set_character_flag = flag_painted_by_ws_muslim
-			}
-			if = {
-				limit = { 
-					society_member_of = warrior_lodge_ws_jewish
-				}
-				set_character_flag = flag_painted_by_ws_jewish
-			}
 		}
 	}
 	option = { #Sacrifice family member
 		name = EVTOPTAHF25021
 		trigger = { 
 			event_target:scoped_war_sacrifice = { is_alive = yes } 
-			OR = { 
-				religion = norse_pagan 
-				religion = norse_pagan_reformed
-				religion = slavic_pagan
-				religion = slavic_pagan_reformed
+			OR = {
 				religion = baltic_pagan
 				religion = baltic_pagan_reformed
-				religion = tengri_pagan
+				religion = khanist
 				religion = tengri_pagan_reformed
 				religion = finnish_pagan
 				religion = finnish_pagan_reformed
-				religion = zun_pagan
-				religion = zun_pagan_reformed
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-				religion = aztec
-				religion = aztec_reformed
 				has_religion_feature = religion_ritual_sacrifice
 			} 
 		}
@@ -1406,22 +1326,12 @@ character_event = {
 				is_alive = yes 
 			} 
 			OR = { 
-				religion = norse_pagan 
-				religion = norse_pagan_reformed
-				religion = slavic_pagan
-				religion = slavic_pagan_reformed
 				religion = baltic_pagan
 				religion = baltic_pagan_reformed
-				religion = tengri_pagan
+				religion = khanist
 				religion = tengri_pagan_reformed
 				religion = finnish_pagan
 				religion = finnish_pagan_reformed
-				religion = zun_pagan
-				religion = zun_pagan_reformed
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-				religion = aztec
-				religion = aztec_reformed
 				has_religion_feature = religion_ritual_sacrifice
 			} 
 		}
@@ -1506,9 +1416,6 @@ character_event = {
 				is_nomadic = yes
 			}
 		}
-		trigger = {
-			is_member_of_non_pagan_warrior_lodge_trigger = no
-		}
 		add_character_modifier = { 
 			modifier = lodge_war_sacrifice_2
 			years = 5 
@@ -1527,33 +1434,6 @@ character_event = {
 		}
 		add_blood_splatter_effect = yes
 		hidden_tooltip = { character_event = { id = HF.25024 } } 
-		hidden_tooltip = {
-			clr_character_flag = flag_picking_war_sacrifice
-			add_character_modifier = { 
-				modifier = lodge_war_sacrifice_cooldown
-				years = 10
-				hidden = yes
-			}
-		}
-	}
-	option = { #Sacrifice/"Donate" wealth
-		name = EVTOPTDHFCWS25021
-		trigger = { 
-			is_member_of_non_pagan_warrior_lodge_trigger = yes
-		}
-		add_character_modifier = { 
-			modifier = lodge_war_sacrifice_2
-			years = 5 
-		}
-		if = { 
-			limit = { ai = no }
-			scaled_wealth = { value = -0.75 min = -50 max = -150 } 
-		}
-		if = { 
-			limit = { NOT = { religion_group = pagan_group } }
-			tiered_piety_reward_effect = yes 
-		}
-		hidden_tooltip = { character_event = { id = HF.25025 } } 
 		hidden_tooltip = {
 			clr_character_flag = flag_picking_war_sacrifice
 			add_character_modifier = { 
@@ -1599,7 +1479,10 @@ character_event = {
 	}
 	desc = {
 		trigger = {
-			has_character_flag = flag_painted_by_tengri
+			OR = {
+				has_character_flag = flag_painted_by_tengri
+				has_character_flag = flag_painted_by_khanist
+			}
 		}
 		text = EVTDESCBHF25022
 	}
@@ -1633,12 +1516,6 @@ character_event = {
 			OR = {
 				has_character_flag = flag_painted_by_bon
 				has_character_flag = flag_painted_by_hellenic
-				has_character_flag = flag_painted_by_cws_christian
-				has_character_flag = flag_painted_by_ws_mazdan
-				has_character_flag = flag_painted_by_ws_eastern
-				has_character_flag = flag_painted_by_ws_aztec
-				has_character_flag = flag_painted_by_ws_muslim
-				has_character_flag = flag_painted_by_ws_jewish
 			}
 		}
 		text = EVTDESCFHF25022
@@ -1766,7 +1643,7 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				has_character_flag = flag_painted_by_tengri
+				has_character_flag = flag_painted_by_khanist
 			}
 			remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
 			remove_character_modifier = tengri_warpaint_2
@@ -1856,7 +1733,7 @@ character_event = {
 	option = { 
 		name = EVTOPTAHF25022
 		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
+		clr_character_flag = flag_painted_by_khanist
 		clr_character_flag = flag_painted_by_baltic
 		clr_character_flag = flag_painted_by_finnish
 		clr_character_flag = flag_painted_by_slavic
@@ -1864,12 +1741,6 @@ character_event = {
 		clr_character_flag = flag_painted_by_zun
 		clr_character_flag = flag_painted_by_bon
 		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
 	}
 }
 
@@ -1885,7 +1756,7 @@ character_event = {
 	}
 	desc = {
 		trigger = {
-			has_character_flag = flag_painted_by_tengri
+			has_character_flag = flag_painted_by_khanist
 		}
 		text = EVTDESCBHF25023
 	}
@@ -1919,12 +1790,6 @@ character_event = {
 			OR = {
 				has_character_flag = flag_painted_by_bon
 				has_character_flag = flag_painted_by_hellenic
-				has_character_flag = flag_painted_by_cws_christian
-				has_character_flag = flag_painted_by_ws_mazdan
-				has_character_flag = flag_painted_by_ws_eastern
-				has_character_flag = flag_painted_by_ws_aztec
-				has_character_flag = flag_painted_by_ws_muslim
-				has_character_flag = flag_painted_by_ws_jewish
 			}
 		}
 		text = EVTDESCFHF25023
@@ -2052,7 +1917,7 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				has_character_flag = flag_painted_by_tengri
+				has_character_flag = flag_painted_by_khanist
 			}
 			remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
 			remove_character_modifier = tengri_warpaint_2
@@ -2142,7 +2007,7 @@ character_event = {
 	option = { 
 		name = EVTOPTAHF25023
 		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
+		clr_character_flag = flag_painted_by_khanist
 		clr_character_flag = flag_painted_by_baltic
 		clr_character_flag = flag_painted_by_finnish
 		clr_character_flag = flag_painted_by_slavic
@@ -2150,12 +2015,6 @@ character_event = {
 		clr_character_flag = flag_painted_by_zun
 		clr_character_flag = flag_painted_by_bon
 		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
 	}
 }
 
@@ -2187,265 +2046,6 @@ character_event = {
 			33 = { sound_effect = sacrifice_cattle_02 } 
 			33 = { sound_effect = sacrifice_cattle_03 } 
 		}
-		if = { 
-			limit = { 
-				has_character_flag = flag_painted_by_norse 
-				NOR = { 
-					trait = african_tattoo_1
-					trait = african_tattoo_2
-					trait = african_tattoo_3
-					trait = african_tattoo_4
-					trait = african_tattoo_5
-					trait = african_tattoo_6
-					trait = african_tattoo_7
-					trait = african_tattoo_8
-					trait = african_tattoo_9
-					trait = african_tattoo_10
-					trait = african_tattoo_11
-					trait = african_tattoo_12
-					trait = slavic_tattoo_1
-					trait = slavic_tattoo_2
-					trait = slavic_tattoo_3
-					trait = slavic_tattoo_4
-					trait = slavic_tattoo_5
-					trait = slavic_tattoo_6
-					trait = norse_tattoo_1
-					trait = norse_tattoo_2
-					trait = norse_tattoo_3
-					trait = norse_tattoo_4
-					trait = norse_tattoo_5
-					trait = norse_tattoo_6
-				}
-			}
-			random_list = { 
-				50 = { add_trait = norse_tattoo_1 }
-				50 = { add_trait = norse_tattoo_2 } 
-			}
-		}
-		if = { 
-			limit = { 
-				has_character_flag = flag_painted_by_west_african
-				NOR = { 
-					trait = african_tattoo_1
-					trait = african_tattoo_2
-					trait = african_tattoo_3
-					trait = african_tattoo_4
-					trait = african_tattoo_5
-					trait = african_tattoo_6
-					trait = african_tattoo_7
-					trait = african_tattoo_8
-					trait = african_tattoo_9
-					trait = african_tattoo_10
-					trait = african_tattoo_11
-					trait = african_tattoo_12
-					trait = slavic_tattoo_1
-					trait = slavic_tattoo_2
-					trait = slavic_tattoo_3
-					trait = slavic_tattoo_4
-					trait = slavic_tattoo_5
-					trait = slavic_tattoo_6
-					trait = norse_tattoo_1
-					trait = norse_tattoo_2
-					trait = norse_tattoo_3
-					trait = norse_tattoo_4
-					trait = norse_tattoo_5
-					trait = norse_tattoo_6
-				}
-			}
-			random_list = { 
-				50 = { add_trait = african_tattoo_1 }
-				50 = { add_trait = african_tattoo_2 }
-			}
-		}
-		if = { 
-			limit = { 
-				OR = { 
-					has_character_flag = flag_painted_by_slavic
-					has_character_flag = flag_painted_by_baltic
-				}
-				NOR = { 
-					trait = african_tattoo_1
-					trait = african_tattoo_2
-					trait = african_tattoo_3
-					trait = african_tattoo_4
-					trait = african_tattoo_5
-					trait = african_tattoo_6
-					trait = african_tattoo_7
-					trait = african_tattoo_8
-					trait = african_tattoo_9
-					trait = african_tattoo_10
-					trait = african_tattoo_11
-					trait = african_tattoo_12
-					trait = slavic_tattoo_1
-					trait = slavic_tattoo_2
-					trait = slavic_tattoo_3
-					trait = slavic_tattoo_4
-					trait = slavic_tattoo_5
-					trait = slavic_tattoo_6
-					trait = norse_tattoo_1
-					trait = norse_tattoo_2
-					trait = norse_tattoo_3
-					trait = norse_tattoo_4
-					trait = norse_tattoo_5
-					trait = norse_tattoo_6
-				}
-			}
-			random_list = { 
-				50 = { add_trait = slavic_tattoo_1 }
-				50 = { add_trait = slavic_tattoo_2 } 
-			}
-		}
-		if = { 
-			limit = { 
-				has_character_flag = flag_painted_by_tengri
-			}
-			remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
-			remove_character_modifier = tengri_warpaint_2
-			remove_character_modifier = aztec_warpaint_1
-			remove_character_modifier = aztec_warpaint_2
-			remove_character_modifier = finnish_warpaint_1
-			remove_character_modifier = finnish_warpaint_2
-			remove_character_modifier = zun_warpaint_1
-			remove_character_modifier = zun_warpaint_2
-			random_list = { 
-				50 = { 
-					add_character_modifier = { 
-						modifier = tengri_warpaint_1
-						years = 5 
-						hidden = yes
-					}
-				}
-				50 = { 
-					add_character_modifier = { 
-						modifier = tengri_warpaint_2
-						years = 5 
-						hidden = yes
-					}
-				}
-			}
-		}
-		if = { 
-			limit = { 
-				has_character_flag = flag_painted_by_finnish
-			}
-			remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
-			remove_character_modifier = tengri_warpaint_2
-			remove_character_modifier = aztec_warpaint_1
-			remove_character_modifier = aztec_warpaint_2
-			remove_character_modifier = finnish_warpaint_1
-			remove_character_modifier = finnish_warpaint_2
-			remove_character_modifier = zun_warpaint_1
-			remove_character_modifier = zun_warpaint_2
-			random_list = { 
-				50 = { 
-					add_character_modifier = { 
-						modifier = finnish_warpaint_1
-						years = 5 
-						hidden = yes
-					}
-				}
-				50 = { 
-					add_character_modifier = { 
-						modifier = finnish_warpaint_2
-						years = 5 
-						hidden = yes
-					}
-				}
-			}
-		}
-		if = { 
-			limit = { 
-				has_character_flag = flag_painted_by_zun
-			}
-			remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
-			remove_character_modifier = tengri_warpaint_2
-			remove_character_modifier = aztec_warpaint_1
-			remove_character_modifier = aztec_warpaint_2
-			remove_character_modifier = finnish_warpaint_1
-			remove_character_modifier = finnish_warpaint_2
-			remove_character_modifier = zun_warpaint_1
-			remove_character_modifier = zun_warpaint_2
-			random_list = { 
-				50 = { 
-					add_character_modifier = { 
-						modifier = aztec_warpaint_1
-						years = 5 
-						hidden = yes
-					}
-				}
-				50 = { 
-					add_character_modifier = { 
-						modifier = aztec_warpaint_2
-						years = 5 
-						hidden = yes
-					}
-				}
-			}
-		}
-	}
-
-	option = { 
-		name = EVTOPTAHF25024
-		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
-		clr_character_flag = flag_painted_by_baltic
-		clr_character_flag = flag_painted_by_finnish
-		clr_character_flag = flag_painted_by_slavic
-		clr_character_flag = flag_painted_by_west_african
-		clr_character_flag = flag_painted_by_zun
-		clr_character_flag = flag_painted_by_bon
-		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
-	}
-}
-
-#Sacrificed/Donated wealth
-character_event = {
-	id = HF.25025
-
-	desc = {
-		trigger = {
-			society_member_of = warrior_lodge_cws_christian
-		}
-		text = EVTDESCAHFCWS25025
-	}
-	desc = {
-		trigger = {
-			society_member_of = warrior_lodge_ws_mazdan
-		}
-		text = EVTDESCAHFWSMAZ25025
-	}
-	desc = {
-		trigger = {
-			society_member_of = warrior_lodge_ws_eastern
-		}
-		text = EVTDESCAHFWSEAS25025
-	}
-	desc = {
-		trigger = {
-			society_member_of = warrior_lodge_ws_muslim
-		}
-		text = EVTDESCAHFWSMUS25025
-	}
-	desc = {
-		trigger = {
-			society_member_of = warrior_lodge_ws_jewish
-		}
-		text = EVTDESCAHFWSJEW25025
-	}
-
-	hide_new = yes
-	picture = GFX_evt_religious_exultation
-	border = GFX_event_normal_frame_religion
-
-	is_triggered_only = yes
-
-	immediate = { #Tattoos/warpaint assignment is tiered, depending on the sacrifice performed. Tattoos can only be applied once.
 		if = { 
 			limit = { 
 				has_character_flag = flag_painted_by_norse 
@@ -2558,7 +2158,7 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				has_character_flag = flag_painted_by_tengri
+				has_character_flag = flag_painted_by_khanist
 			}
 			remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
 			remove_character_modifier = tengri_warpaint_2
@@ -2646,10 +2246,9 @@ character_event = {
 	}
 
 	option = { 
-		name = EVTOPTAHFCWS25025
-		trigger = { society_member_of = warrior_lodge_cws_christian }
+		name = EVTOPTAHF25024
 		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
+		clr_character_flag = flag_painted_by_khanist
 		clr_character_flag = flag_painted_by_baltic
 		clr_character_flag = flag_painted_by_finnish
 		clr_character_flag = flag_painted_by_slavic
@@ -2657,112 +2256,6 @@ character_event = {
 		clr_character_flag = flag_painted_by_zun
 		clr_character_flag = flag_painted_by_bon
 		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
-	}
-	
-	option = { 
-		name = EVTOPTAHFWSMAZ25025
-		trigger = { society_member_of = warrior_lodge_ws_mazdan }
-		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
-		clr_character_flag = flag_painted_by_baltic
-		clr_character_flag = flag_painted_by_finnish
-		clr_character_flag = flag_painted_by_slavic
-		clr_character_flag = flag_painted_by_west_african
-		clr_character_flag = flag_painted_by_zun
-		clr_character_flag = flag_painted_by_bon
-		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
-	}
-	
-	option = { 
-		name = EVTOPTAHFWSEAS25025
-		trigger = { society_member_of = warrior_lodge_ws_eastern }
-		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
-		clr_character_flag = flag_painted_by_baltic
-		clr_character_flag = flag_painted_by_finnish
-		clr_character_flag = flag_painted_by_slavic
-		clr_character_flag = flag_painted_by_west_african
-		clr_character_flag = flag_painted_by_zun
-		clr_character_flag = flag_painted_by_bon
-		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
-	}
-	
-	option = { 
-		name = EVTOPTAHFWSMUS25025
-		trigger = { society_member_of = warrior_lodge_ws_muslim }
-		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
-		clr_character_flag = flag_painted_by_baltic
-		clr_character_flag = flag_painted_by_finnish
-		clr_character_flag = flag_painted_by_slavic
-		clr_character_flag = flag_painted_by_west_african
-		clr_character_flag = flag_painted_by_zun
-		clr_character_flag = flag_painted_by_bon
-		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
-	}
-	
-	option = { 
-		name = EVTOPTAHFWSJEW25025
-		trigger = { society_member_of = warrior_lodge_ws_jewish }
-		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
-		clr_character_flag = flag_painted_by_baltic
-		clr_character_flag = flag_painted_by_finnish
-		clr_character_flag = flag_painted_by_slavic
-		clr_character_flag = flag_painted_by_west_african
-		clr_character_flag = flag_painted_by_zun
-		clr_character_flag = flag_painted_by_bon
-		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
-	}
-
-	option = {
-		name = EVTOPTAHFWS25025
-		trigger = { is_member_of_non_pagan_warrior_lodge_trigger = no }
-		clr_character_flag = flag_painted_by_norse # Flag cleanup
-		clr_character_flag = flag_painted_by_tengri
-		clr_character_flag = flag_painted_by_baltic
-		clr_character_flag = flag_painted_by_finnish
-		clr_character_flag = flag_painted_by_slavic
-		clr_character_flag = flag_painted_by_west_african
-		clr_character_flag = flag_painted_by_zun
-		clr_character_flag = flag_painted_by_bon
-		clr_character_flag = flag_painted_by_hellenic
-		clr_character_flag = flag_painted_by_cws_christian
-		clr_character_flag = flag_painted_by_ws_mazdan
-		clr_character_flag = flag_painted_by_ws_eastern
-		clr_character_flag = flag_painted_by_ws_aztec
-		clr_character_flag = flag_painted_by_ws_muslim
-		clr_character_flag = flag_painted_by_ws_jewish
 	}
 }
 
@@ -2836,7 +2329,7 @@ character_event = {
 #		}
 #		if = { 
 #			limit = { 
-#				has_character_flag = flag_painted_by_tengri
+#				has_character_flag = flag_painted_by_khanist
 #			}
 #			remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
 #			remove_character_modifier = tengri_warpaint_2
@@ -2926,7 +2419,7 @@ character_event = {
 #	option = { 
 #		name = EVTOPTAHF25025
 #		clr_character_flag = flag_painted_by_norse # Flag cleanup
-#		clr_character_flag = flag_painted_by_tengri
+#		clr_character_flag = flag_painted_by_khanist
 #		clr_character_flag = flag_painted_by_baltic
 #		clr_character_flag = flag_painted_by_finnish
 #		clr_character_flag = flag_painted_by_slavic
@@ -3170,13 +2663,6 @@ character_event = {
 			#Zunist Lodge: pikemen + archers 							150 + 100
 			#Bon Lodge: light_infantry + light_cavalry + archers 		100 + 50 + 100
 			#Hellenic Lodge: pikemen + heavy infantry 					200 + 50
-			#Christian Lodge: v1 pikemen + heavy infantry 			    200 + 50
-			#				  v2 knights + light cavalry/horse archers  150 + 100
-			#Mazdan Lodge: light_cavalry + horse_archers 				120 + 130
-			#Eastern Lodge: archers + war_elephants 					200 + 20
-			#Aztec Lodge: light_infantry + heavy_infantry				375 + 125
-			#Muslim Lodge: camel_cavalry								250
-			#Jewish Lodge: heavy_infantry								200
 
 			#Numbers balanced based on realm size (30 or less, between 30 and 70, more than 70)
             if = { #Low spawn
@@ -3221,7 +2707,7 @@ character_event = {
 	            }
             }
             if = {
-            	limit = { society_member_of = warrior_lodge_tengri NOT = { realm_size = 30 } }
+            	limit = { society_member_of = warrior_lodge_khanist NOT = { realm_size = 30 } }
 	            location = {
 	                show_scope_change = no
 	                ROOT = {
@@ -3512,11 +2998,7 @@ character_event = {
 	            }
             }
             if = {
-            	limit = { 
-					society_member_of = warrior_lodge_hellenic 
-					NOT = { realm_size = 30 }
-					NOT = { culture_group = byzantine }
-				}
+            	limit = { society_member_of = warrior_lodge_hellenic NOT = { realm_size = 30 } }
 	            location = {
 	                show_scope_change = no
 	                ROOT = {
@@ -3544,396 +3026,6 @@ character_event = {
 			                        troops = { 
 			                    		pikemen = { 75 75 }
 			                    		heavy_infantry = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_hellenic 
-					NOT = { realm_size = 30 }
-					culture_group = byzantine
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 50 50 }
-			                    		horse_archers = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 60 60 }
-			                    		horse_archers = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-            if = {
-            	limit = {
-					society_member_of = warrior_lodge_cws_christian 
-					NOT = { realm_size = 30 }
-					OR = {
-						culture = roman
-						culture = italian
-						culture = scottish
-					}
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		pikemen = { 50 50 }
-			                    		heavy_infantry = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		pikemen = { 75 75 }
-			                    		heavy_infantry = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					NOT = { realm_size = 30 }
-					culture_group = byzantine
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 50 50 }
-			                    		horse_archers = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 60 60 }
-			                    		horse_archers = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					NOT = { realm_size = 30 }
-					NOR = {
-						culture = roman
-						culture = italian
-						culture = scottish
-						culture_group = byzantine
-					}
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 50 50 }
-			                    		light_cavalry = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 60 60 }
-			                    		light_cavalry = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_mazdan NOT = { realm_size = 30 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_cavalry = { 40 40 }
-			                    		horse_archers = { 20 20 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_cavalry = { 50 50 }
-			                    		horse_archers = { 35 35 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_eastern NOT = { realm_size = 30 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		archers = { 50 50 }
-			                    		war_elephants = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		archers = { 60 60 }
-			                    		war_elephants = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_aztec NOT = { realm_size = 30 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_infantry = { 50 50 }
-			                    		heavy_infantry = { 10 10 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_infantry = { 50 50 }
-			                    		heavy_infantry = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_muslim NOT = { realm_size = 30 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-			                    		camel_cavalry = { 60 60 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-			                    		camel_cavalry = { 85 85 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_jewish NOT = { realm_size = 30 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-			                    		heavy_infantry = { 60 60 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-			                    		heavy_infantry = { 85 85 }
 			                        }
 			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
 			                        attrition = 0
@@ -3988,7 +3080,7 @@ character_event = {
 	            }
             }
             if = {
-            	limit = { society_member_of = warrior_lodge_tengri realm_size = 30 NOT = { realm_size = 70 } }
+            	limit = { society_member_of = warrior_lodge_khanist realm_size = 30 NOT = { realm_size = 70 } }
 	            location = {
 	                show_scope_change = no
 	                ROOT = {
@@ -4279,12 +3371,7 @@ character_event = {
 	            }
             }
             if = {
-            	limit = { 
-					society_member_of = warrior_lodge_hellenic 
-					realm_size = 30 
-					NOT = { realm_size = 70 }
-					NOT = { culture_group = byzantine }
-				}
+            	limit = { society_member_of = warrior_lodge_hellenic realm_size = 30 NOT = { realm_size = 70 } }
 	            location = {
 	                show_scope_change = no
 	                ROOT = {
@@ -4312,400 +3399,6 @@ character_event = {
 			                        troops = { 
 			                    		pikemen = { 150 150 }
 			                    		heavy_infantry = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_hellenic 
-					realm_size = 30 
-					NOT = { realm_size = 70 }
-					culture_group = byzantine
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 100 100 }
-			                    		horse_archers = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 125 125 }
-			                    		horse_archers = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-            if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					realm_size = 30 
-					NOT = { realm_size = 70 }
-					OR = {
-						culture = roman
-						culture = italian
-						culture = scottish
-					}
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		pikemen = { 100 100 }
-			                    		heavy_infantry = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		pikemen = { 150 150 }
-			                    		heavy_infantry = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					realm_size = 30 
-					NOT = { realm_size = 70 }
-					culture_group = byzantine
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 100 100 }
-			                    		horse_archers = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 125 125 }
-			                    		horse_archers = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					realm_size = 30 
-					NOT = { realm_size = 70 }
-					NOR = {
-						culture = roman
-						culture = italian
-						culture = scottish
-						culture_group = byzantine
-					}
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 100 100 }
-			                    		light_cavalry = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 125 125 }
-			                    		light_cavalry = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_mazdan realm_size = 30 NOT = { realm_size = 70 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_cavalry = { 75 75 }
-			                    		horse_archers = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_cavalry = { 100 100 }
-			                    		horse_archers = { 75 75 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_eastern realm_size = 30 NOT = { realm_size = 70 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-			                    		archers = { 75 75 }
-										war_elephants = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-										archers = { 100 100 }
-										war_elephants = { 75 75 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_aztec realm_size = 30 NOT = { realm_size = 70 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_infantry = { 100 100 }
-			                    		heavy_infantry = { 25 25 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_infantry = { 100 100 }
-			                    		heavy_infantry = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_muslim realm_size = 30 NOT = { realm_size = 70 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-										camel_cavalry = { 125 125 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-										camel_cavalry = { 175 175 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_jewish realm_size = 30 NOT = { realm_size = 70 } }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-										heavy_infantry = { 125 125 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-										heavy_infantry = { 175 175 }
 			                        }
 			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
 			                        attrition = 0
@@ -4760,7 +3453,7 @@ character_event = {
 	            }
             }
             if = {
-            	limit = { society_member_of = warrior_lodge_tengri realm_size = 70 }
+            	limit = { society_member_of = warrior_lodge_khanist realm_size = 70 }
 	            location = {
 	                show_scope_change = no
 	                ROOT = {
@@ -5051,11 +3744,7 @@ character_event = {
 	            }
             }
             if = {
-            	limit = { 
-					society_member_of = warrior_lodge_hellenic 
-					realm_size = 70 
-					NOT = { culture_group = byzantine }
-				}
+            	limit = { society_member_of = warrior_lodge_hellenic realm_size = 70 }
 	            location = {
 	                show_scope_change = no
 	                ROOT = {
@@ -5083,396 +3772,6 @@ character_event = {
 			                        troops = { 
 			                    		pikemen = { 300 300 }
 			                    		heavy_infantry = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_hellenic 
-					realm_size = 70
-					culture_group = byzantine
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 200 200 }
-			                    		horse_archers = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 250 250 }
-			                    		horse_archers = { 100 100 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-            if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					realm_size = 70
-					OR = {
-						culture = roman
-						culture = italian
-						culture = scottish
-					}
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		pikemen = { 200 200 }
-			                    		heavy_infantry = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		pikemen = { 300 300 }
-			                    		heavy_infantry = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					realm_size = 70
-					culture_group = byzantine
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 200 200 }
-			                    		horse_archers = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 250 250 }
-			                    		horse_archers = { 100 100 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { 
-					society_member_of = warrior_lodge_cws_christian 
-					realm_size = 70
-					NOR = {
-						culture = roman
-						culture = italian
-						culture = scottish
-						culture_group = byzantine
-					}
-				}
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 200 200 }
-			                    		light_cavalry = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		knights = { 250 250 }
-			                    		light_cavalry = { 100 100 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_mazdan realm_size = 70 }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_cavalry = { 150 150 }
-			                    		horse_archers = { 100 100 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_cavalry = { 200 200 }
-			                    		horse_archers = { 150 150 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_eastern realm_size = 70 }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-			                    		archers = { 175 175 }
-			                    		war_elephants = { 75 75 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = {
-										archers = { 225 225 }
-			                    		war_elephants = { 125 125 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_aztec realm_size = 70 }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_infantry = { 150 150 }
-			                    		heavy_infantry = { 50 50 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		light_infantry = { 200 200 }
-			                    		heavy_infantry = { 100 100 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_muslim realm_size = 70 }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		camel_cavalry = { 200 200 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		camel_cavalry = { 300 300 }
-			                        }
-			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-	                  	}
-	                }
-	            }
-            }
-			if = {
-            	limit = { society_member_of = warrior_lodge_ws_jewish realm_size = 70 }
-	            location = {
-	                show_scope_change = no
-	                ROOT = {
-		                show_scope_change = no
-	                    random_list = {  
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		heavy_infantry = { 200 200 }
-			                        }
-			                        earmark = call_to_glory_disciplined
-			                        attrition = 0
-			                        merge = yes
-			                        maintenance_multiplier = 0
-				                    disband_on_peace = yes
-			                  	}
-		                  	}
-		                    50 = { 
-			                    spawn_unit = { 
-			                        province = PREV
-			                        owner = ROOT
-			                        troops = { 
-			                    		heavy_infantry = { 300 300 }
 			                        }
 			                        earmark = call_to_glory_rowdy #Might leave early on occasion.
 			                        attrition = 0
@@ -6455,7 +4754,6 @@ character_event = {
 
 	trigger = { 
 		is_save_game = no
-		society_member_of = warrior_lodge_west_african
 		society_rank = 4
 		OR = { 
 			religion = west_african_pagan 
@@ -6632,10 +4930,7 @@ character_event = {
 		ai = yes
 		is_ruler = no
 		OR = { 
-			society_member_of = warrior_lodge_norse
 			society_member_of = warrior_lodge_baltic
-			society_member_of = warrior_lodge_slavic
-			society_member_of = warrior_lodge_west_african
 		}
 		NOR = { 
 			trait = african_tattoo_1

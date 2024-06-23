@@ -29,6 +29,8 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = byzantine
+			culture_group = armenian_group
+			culture_group = caucasian
 			capital_scope = {
 				OR = {
 					region = world_europe_south_east
@@ -183,148 +185,6 @@ character_event = {
 }
 
 
-# Forks are terrible!
-character_event = {
-	id = VIETnam.192
-	desc = "EVTDESC1000109365"
-	picture = GFX_evt_VIET_food
-	
-	is_triggered_only = yes
-	
-	min_age = 16
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
-	war = no
-	
-	trigger = {
-		in_command = no
-		OR = {
-			culture_group = west_germanic
-			culture_group = south_slavic
-			culture_group = central_germanic
-			culture_group = north_germanic
-			culture_group = celtic
-			culture_group = iberian
-			culture_group = latin
-			culture_group = west_slavic
-			culture_group = east_slavic
-		}
-		capital_scope = {
-			OR = {
-				region = world_europe_north			
-				region = world_europe_west		
-			}
-		}
-		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 1.2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.8
-			trait = shy
-		}
-		modifier = {
-			factor = 1.2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 0.8
-			trait = content
-		}
-		modifier = {
-			factor = 1.2
-			trait = gluttonous
-		}
-		modifier = {
-			factor = 0.8
-			trait = temperate
-		}
-		modifier = {
-			factor = 1.2
-			is_patrician = yes
-		}
-		modifier = {
-			factor = 0.8
-			trait = humble
-		}
-	}
-	
-	option = { #Mark of pride
-		name = "EVTOPTA1000109365"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				trait = proud
-			}
-			modifier = {
-				factor = 0.8
-				trait = trusting
-			}
-			modifier = {
-				factor = 1.2
-				trait = humble
-			}
-			modifier = {
-				factor = 0.8
-				trait = shy
-			}
-		}
-		piety = 5
-		if = {
-			limit = {
-				NOT = { trait = humble }
-			}
-			random_list = {
-				80 = { }
-				20 = { add_trait = humble }
-			}
-		}
-		if = {
-			limit = {
-				trait = content
-			}
-			random_list = {
-				80 = { }
-				20 = { remove_trait = content }
-			}
-		}
-	}
-	
-	option = { #Respect customs
-		name = "EVTOPTB1000109365"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				trait = patient
-			}
-			modifier = {
-				factor = 0.8
-				trait = humble
-			}
-			modifier = {
-				factor = 1.2
-				trait = scholar
-			}
-			modifier = {
-				factor = 0.8
-				trait = proud
-			}
-		}
-		prestige = 5
-	}
-}
-
-
 # Sour kefir
 character_event = {
 	id = VIETnam.193
@@ -344,8 +204,19 @@ character_event = {
 		OR = {
 			culture_group = east_slavic
 			culture_group = byzantine
-			culture = azeri
+			culture_group = armenian_group
+			culture_group = caucasian
+			culture_group = transnistrian
+			culture_group = albanian
+			culture = turkish
+			culture = rumeli
+			culture = elbistanli
+			culture = egeli
+			culture = kapadokyali
+			culture = karadenizci
+			culture = azerbaijani
 			culture = kurdish
+			culture = zaza
 			capital_scope = {
 				region = world_asia_minor
 			}
@@ -372,16 +243,6 @@ character_event = {
 		modifier = {
 			factor = 0.8
 			trait = shy
-		}
-		modifier = {
-			factor = 0.3
-			NOR = {
-				culture = armenian
-				culture = georgian
-				culture = azeri
-				culture = circassian
-				culture = alan
-			}
 		}
 		modifier = {
 			factor = 0.3
@@ -484,21 +345,17 @@ character_event = {
 	trigger = {
 		in_command = no
 		OR = {
-			culture_group = north_african
-			culture_group = kemetic_group
-			culture = maghreb_arabic
-			culture = andalusian_arabic
-			culture = egyptian_arabic
+			culture_group = berber
+			culture_group = egyptian
+			culture_group = maghreb_arabic
 		}
 		any_vassal = {
 			is_adult = yes
 			NOT = { trait = incapable }
 			OR = {
-				culture_group = north_african
-				culture_group = kemetic_group
-				culture = maghreb_arabic
-				culture = andalusian_arabic
-				culture = egyptian_arabic
+				culture_group = berber
+				culture_group = egyptian
+				culture_group = maghreb_arabic
 			}
 		}
 		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -550,11 +407,9 @@ character_event = {
 				is_adult = yes
 				NOT = { trait = incapable }
 				OR = {
-					culture_group = north_african
-					culture_group = kemetic_group
-					culture = maghreb_arabic
-					culture = andalusian_arabic
-					culture = egyptian_arabic
+					culture_group = berber
+					culture_group = egyptian
+					culture_group = maghreb_arabic
 				}
 			}
 			opinion = {
@@ -579,7 +434,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	war = no
-	culture_group = altaic
+	culture_group = mongolic
 	
 	trigger = {
 		in_command = no
@@ -590,10 +445,6 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		
-		#modifier = {
-		#	factor = 3
-		#	culture = xiongnu
-		#}
 		modifier = {
 			factor = 1.2
 			trait = diligent

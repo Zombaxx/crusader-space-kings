@@ -6,7 +6,7 @@ namespace = HF
 #############################################ù
 
 ## Alone ##
-#Dice throwing (christians, hellenics, and bon)
+#Dice throwing (hellenics and bon)
 
 ## 1v1 ## 
 #Armwrestling
@@ -2232,7 +2232,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 		wealth = 75
 	}
@@ -2315,7 +2314,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -2331,12 +2329,6 @@ character_event = {
 			text = EVTOPTDHF25228_HELLENIC #Dionysus
 			trigger = {
 				society_member_of = warrior_lodge_hellenic
-			}
-		}
-		name = {
-			text = EVTOPTDHF25228_CHRISTIAN #Michael
-			trigger = {
-				society_member_of = warrior_lodge_cws_christian
 			}
 		}
 		trigger = {  
@@ -2384,12 +2376,6 @@ character_event = {
 				society_member_of = warrior_lodge_hellenic
 			}
 		}
-		name = {
-			text = EVTOPTCHF25228_CHRISTIAN #Gabriel
-			trigger = {
-				society_member_of = warrior_lodge_cws_christian
-			}
-		}
 		trigger = {  
 			OR = {  
 				wealth = 250
@@ -2433,12 +2419,6 @@ character_event = {
 			text = EVTOPTBHF25228_HELLENIC #Athena
 			trigger = {
 				society_member_of = warrior_lodge_hellenic
-			}
-		}
-		name = {
-			text = EVTOPTBHF25228_CHRISTIAN #Raphael
-			trigger = {
-				society_member_of = warrior_lodge_cws_christian
 			}
 		}
 		trigger = {  
@@ -2486,12 +2466,6 @@ character_event = {
 				society_member_of = warrior_lodge_hellenic
 			}
 		}
-		name = {
-			text = EVTOPTAHF25228_CHRISTIAN #Uriel
-			trigger = {
-				society_member_of = warrior_lodge_cws_christian
-			}
-		}
 		custom_tooltip = { text = tooltip_betting_easiest_side }
 		if = {  
 			limit = {  
@@ -2532,7 +2506,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -2668,7 +2641,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -2878,7 +2850,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -2964,7 +2935,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -3185,7 +3155,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -3329,7 +3298,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -3444,7 +3412,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -3855,7 +3822,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -4103,7 +4069,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -4126,7 +4091,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -4150,7 +4114,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -4173,7 +4136,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -4195,7 +4157,6 @@ character_event = {
 		OR = { 
 			society_member_of = warrior_lodge_bon
 			society_member_of = warrior_lodge_hellenic
-			society_member_of = warrior_lodge_cws_christian
 		}
 	}
 	is_triggered_only = yes
@@ -4231,10 +4192,9 @@ character_event = {
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { has_character_modifier = flyting_challenge_cooldown }
 		OR = { #Only for northeners
-			society_member_of = warrior_lodge_norse
-			society_member_of = warrior_lodge_slavic
 			society_member_of = warrior_lodge_baltic
 			society_member_of = warrior_lodge_finnish
+			society_member_of = warrior_lodge_starist
 		}
 		any_society_member = { #Make sure there are enough contenders to pick.
 			same_society_as = ROOT
@@ -7281,10 +7241,6 @@ character_event = {
 							trigger = { is_female = yes }
 							give_nickname = nick_the_vixen 
 						} 
-						25 = { 
-							trigger = { society_member_of = warrior_lodge_west_african }
-							give_nickname = nick_the_hyena 
-						} 
 						15 = {}
 					} 
 				}
@@ -7405,10 +7361,6 @@ character_event = {
 						25 = { 
 							trigger = { is_female = yes }
 							give_nickname = nick_the_vixen 
-						} 
-						25 = { 
-							trigger = { society_member_of = warrior_lodge_west_african }
-							give_nickname = nick_the_hyena 
 						} 
 						15 = {}
 					} 

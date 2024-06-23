@@ -2346,7 +2346,11 @@ character_event = {
 					modifier = { 
 						factor = 1.75
 						is_ill = yes
-					}
+					} 
+					modifier = { 
+						factor = 1.75
+						is_ill = yes
+					} 
 					troubled_pregnancy_chance_low_effect = yes  #Critical Failure: chance of Troubled Pregnancy.
 				}
 			}  
@@ -3993,8 +3997,6 @@ character_event = {
 								religion_group = muslim
 								religion = tengri_pagan
 								religion = tengri_pagan_reformed
-								religion = norse_pagan
-								religion = norse_pagan_reformed
 							} 
 						} 
 						set_dynasty_flag = flag_vision_baby		#Positive
@@ -4008,8 +4010,6 @@ character_event = {
 								religion_group = muslim
 								religion = tengri_pagan
 								religion = tengri_pagan_reformed
-								religion = norse_pagan
-								religion = norse_pagan_reformed
 							} 
 						}
 						set_dynasty_flag = flag_vision_baby 	#Negative
@@ -4198,7 +4198,10 @@ character_event = {
 		custom_tooltip = { text = EVTOOLTIPCHFP20501 }
 		hidden_tooltip = { FROM = { character_event = { id = HFP.20509 days = 1 } } } #Notify woman
 		trigger = { 
-			is_organized_religion_trigger = yes
+			OR = { 
+				is_reformed_religion = yes 
+				NOT = { religion_group = pagan_group }
+			}
 			NOT = { FROM = { has_character_flag = pregnancy_priest_comfort } }
 			NOT = { FROM = { has_character_flag = pregnancy_shaman_comfort } }
 		}
@@ -4218,7 +4221,8 @@ character_event = {
 		custom_tooltip = { text = EVTOOLTIPDHFP20501 }
 		hidden_tooltip = { FROM = { character_event = { id = HFP.20510 } } } #Notify woman
 		trigger = { 
-			is_organized_religion_trigger = no 
+			is_reformed_religion = no 
+			religion_group = pagan_group
 			NOT = { FROM = { has_character_flag = pregnancy_shaman_comfort } }
 			NOT = { FROM = { has_character_flag = pregnancy_priest_comfort } }
 		}
@@ -4628,16 +4632,6 @@ character_event = {
 		}
 	}
 	desc = {
-		text = EVTDESCHFPB20503
-		picture = GFX_evt_comet
-		trigger = {
-			OR = { 
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			} 
-		}
-	}
-	desc = {
 		text = EVTDESCHFPC20503
 		picture = GFX_evt_wolf
 		trigger = {
@@ -4662,16 +4656,6 @@ character_event = {
 			} 
 		}
 		set_character_flag = gabriel_baby
-	}
-	option = { 
-		name = EVTOPTBHFP20503
-		trigger = { 
-			OR = { 
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			} 
-		}
-		set_character_flag = thor_baby
 	}
 	option = { 
 		name = EVTOPTCHFP20503
@@ -4703,16 +4687,6 @@ character_event = {
 		}
 	}
 	desc = {
-		text = EVTDESCHFPC20504
-		picture = GFX_evt_torture
-		trigger = {
-			OR = { 
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			} 
-		}
-	}
-	desc = {
 		text = EVTDESCHFPD20504
 		picture = GFX_evt_illness
 		trigger = {
@@ -4741,16 +4715,6 @@ character_event = {
 			religion_group = muslim
 		}
 		set_character_flag = iblis_baby
-	}
-	option = { 
-		name = EVTOPTCHFP20504
-		trigger = { 
-			OR = { 
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			} 
-		}
-		set_character_flag = loki_baby
 	}
 	option = { 
 		name = EVTOPTDHFP20504
@@ -5303,7 +5267,10 @@ character_event = {
 			NOT = { has_character_flag = pregnancy_priest_comfort } #Already taken from the spouse/regent
 			NOT = { has_character_flag = pregnancy_shaman_comfort }
 			is_ruler = yes
-			is_organized_religion_trigger = yes
+			OR = { 
+				is_reformed_religion = yes 
+				NOT = { religion_group = pagan_group }
+			}
 		}
 		set_character_flag = pregnancy_priest_comfort
 		piety = 100
@@ -5321,7 +5288,8 @@ character_event = {
 		#custom_tooltip = { text = EVTOOLTIPDHFP20520 }
 		trigger = { 
 			is_ruler = yes
-			is_organized_religion_trigger = no 
+			is_reformed_religion = no 
+			religion_group = pagan_group
 			NOT = { has_character_flag = pregnancy_shaman_comfort } #Already taken from the spouse/regent
 			NOT = { has_character_flag = pregnancy_priest_comfort }
 		}
@@ -8017,8 +7985,6 @@ character_event = {
 					} 
 					spouse = { 
 						OR = { 
-							religion = norse_pagan
-							religion = norse_pagan_reformed
 							religion = baltic_pagan
 							religion = baltic_pagan_reformed
 							religion = finnish_pagan
@@ -8031,8 +7997,6 @@ character_event = {
 						}
 					}
 					OR = { 
-						religion = norse_pagan
-						religion = norse_pagan_reformed
 						religion = baltic_pagan
 						religion = baltic_pagan_reformed
 						religion = finnish_pagan
@@ -8111,8 +8075,6 @@ character_event = {
 					} 
 					spouse = { 
 						OR = { 
-							religion = norse_pagan
-							religion = norse_pagan_reformed
 							religion = baltic_pagan
 							religion = baltic_pagan_reformed
 							religion = finnish_pagan
@@ -8125,8 +8087,6 @@ character_event = {
 						}
 					}
 					OR = { 
-						religion = norse_pagan
-						religion = norse_pagan_reformed
 						religion = baltic_pagan
 						religion = baltic_pagan_reformed
 						religion = finnish_pagan
@@ -8960,8 +8920,6 @@ character_event = {
 								religion_group = muslim
 								religion = tengri_pagan
 								religion = tengri_pagan_reformed
-								religion = norse_pagan
-								religion = norse_pagan_reformed
 							} 
 						} 
 						set_dynasty_flag = flag_vision_baby		#Positive
@@ -8990,8 +8948,6 @@ character_event = {
 								religion_group = muslim
 								religion = tengri_pagan
 								religion = tengri_pagan_reformed
-								religion = norse_pagan
-								religion = norse_pagan_reformed
 							} 
 						} 
 						set_dynasty_flag = flag_vision_baby		#Positive
@@ -9065,8 +9021,6 @@ character_event = {
 								religion_group = muslim
 								religion = tengri_pagan
 								religion = tengri_pagan_reformed
-								religion = norse_pagan
-								religion = norse_pagan_reformed
 							} 
 						}
 						set_dynasty_flag = flag_vision_baby 	#Negative
@@ -9113,8 +9067,6 @@ character_event = {
 								religion_group = muslim
 								religion = tengri_pagan
 								religion = tengri_pagan_reformed
-								religion = norse_pagan
-								religion = norse_pagan_reformed
 							} 
 						}
 						set_dynasty_flag = flag_vision_baby 	#Negative
@@ -12661,6 +12613,10 @@ character_event = {
 				is_rival = FROMFROMFROM
 			}
 			modifier = { 
+				factor = 0.1 
+				is_rival = FROMFROMFROM
+			}
+			modifier = { 
 				factor = 1.5 
 				trait = kind
 			}
@@ -14853,14 +14809,13 @@ character_event = {
 			OR = { #Can be of different but similar religion.
 				religion = baltic_pagan
 				religion = baltic_pagan_reformed
-				religion = norse_pagan
-				religion = norse_pagan_reformed
 				religion = finnish_pagan
 				religion = finnish_pagan_reformed
 			}
 			NOR = {
 				trait = incapable
 				has_character_modifier = out_traveling
+				trait = travelling
 				trait = troubled_pregnancy
 				has_character_modifier = mother_fertility_festival_1
 				has_character_modifier = mother_fertility_festival_2
@@ -14874,8 +14829,6 @@ character_event = {
 		OR = {
 			religion = baltic_pagan
 			religion = baltic_pagan_reformed
-			religion = norse_pagan
-			religion = norse_pagan_reformed
 			religion = finnish_pagan
 			religion = finnish_pagan_reformed
 		}
@@ -15831,6 +15784,7 @@ character_event = {
 				has_character_flag = flag_loved_dead_mother
 			}
 		}
+		ai_chance = { factor = 50 }
 	}
 	option = { 
 		name = EVTOPTBHFP20056

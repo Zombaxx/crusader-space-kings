@@ -93,8 +93,9 @@ character_event = {
                         trigger = {
 							job_chancellor = {
 								OR = {
-									culture_group = chinese_group
-									culture_group = altaic
+									culture_group = niger_congolese
+									culture_group = chadic
+									culture_group = afroatlantic
 								}
                                 NOT = { character = ROOT }
 							}
@@ -111,8 +112,9 @@ character_event = {
                         trigger = {
 							job_marshal = {
 								OR = {
-									culture_group = chinese_group
-									culture_group = altaic
+									culture_group = niger_congolese
+									culture_group = chadic
+									culture_group = afroatlantic
 								}
                                 NOT = { character = ROOT }
 							} 
@@ -137,8 +139,9 @@ character_event = {
                         trigger = {
 							job_treasurer = {
 								OR = {
-									culture_group = chinese_group
-									culture_group = altaic
+									culture_group = niger_congolese
+									culture_group = chadic
+									culture_group = afroatlantic
 								}
                                 NOT = { character = ROOT }
 							}
@@ -163,8 +166,9 @@ character_event = {
                         trigger = {
 							job_spiritual = {
 								OR = {
-									culture_group = chinese_group
-									culture_group = altaic
+									culture_group = niger_congolese
+									culture_group = chadic
+									culture_group = afroatlantic
 								}
                                 NOT = { character = ROOT }
 							}
@@ -227,7 +231,7 @@ character_event = { #Fired from on_death to the character receiving the chinese 
 character_event = { # Fallback (in case the visitor died/imprisoned)
     id = JD.10023
     has_dlc = "Jade Dragon"
-    picture = GFX_evt_chinese_bureaucrat
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_diplomacy
     is_triggered_only = yes
 
@@ -430,7 +434,7 @@ character_event = {
     id = JD.20004
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_20004
-    picture = GFX_evt_china_diplomatic_success
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_diplomacy
 
     is_triggered_only = yes
@@ -618,7 +622,7 @@ character_event = {
     id = JD.20007
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_20007
-    picture = GFX_evt_chinese_bureaucrat
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_religion
 
     is_triggered_only = yes
@@ -717,7 +721,7 @@ character_event = {
     id = JD.20009
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_20009
-    picture = GFX_evt_chinese_bureaucrat
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_religion
 
     is_triggered_only = yes
@@ -757,7 +761,7 @@ character_event = {
     id = JD.20010
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_20010
-    picture = GFX_evt_china_diplomatic_incident
+    picture = GFX_evt_nigeria_unrest
     border = GFX_event_normal_frame_religion
 
     is_triggered_only = yes
@@ -789,7 +793,7 @@ character_event = {
     id = JD.20011
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_20011
-    picture = GFX_evt_china_diplomatic_incident
+    picture = GFX_evt_nigeria_unrest
     border = GFX_event_normal_frame_diplomacy
 
     is_triggered_only = yes
@@ -1031,7 +1035,7 @@ character_event = {
     id = JD.10011
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_10011
-    picture = GFX_evt_china_open
+    picture = GFX_evt_nigeria_open
     border = GFX_event_normal_frame_diplomacy
     is_triggered_only = yes
 
@@ -1940,7 +1944,6 @@ character_event = {
             }
         }
         new_character = {
-			add_trait = spacer_physiology
             save_event_target_as = new_found_lover
             add_lover = ROOT
         }
@@ -2208,7 +2211,7 @@ character_event = { # Hidden event
         china_diplo_interaction_trigger = yes
         any_demesne_province = {
             has_trade_post = yes
-            trade_route = silk_road
+            trade_route = leopard_trade
         }
 		any_vassal = {
 			any_realm_province = {
@@ -2727,7 +2730,7 @@ character_event = {
 	has_dlc = "Jade Dragon"
 	
 	desc = EVTDESC_JD_30011
-	picture = GFX_evt_chinese_bureaucrat
+	picture = GFX_evt_nigerian_bureaucrat
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -2761,7 +2764,7 @@ character_event = {
 	has_dlc = "Jade Dragon"
 	
 	desc = EVTDESC_JD_30012
-	picture = GFX_evt_china_diplomatic_incident
+	picture = GFX_evt_nigeria_unrest
 	border = GFX_event_normal_frame_diplomacy
 	
 	is_triggered_only = yes
@@ -2863,7 +2866,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = BARON
 								NOR = { 
@@ -2880,7 +2883,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = BARON
 								NOR = { 
@@ -2898,7 +2901,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = BARON
 								NOR = { 
@@ -2916,7 +2919,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = BARON
 								NOR = { 
@@ -2934,7 +2937,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = BARON
 								NOR = { 
@@ -2963,7 +2966,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = COUNT
 								NOR = { 
@@ -2980,7 +2983,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = COUNT
 								NOR = { 
@@ -2998,7 +3001,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = COUNT
 								NOR = { 
@@ -3016,7 +3019,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = COUNT
 								NOR = { 
@@ -3034,7 +3037,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = COUNT
 								NOR = { 
@@ -3063,7 +3066,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = DUKE
 								NOR = { 
@@ -3080,7 +3083,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = DUKE
 								NOR = { 
@@ -3098,7 +3101,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = DUKE
 								NOR = { 
@@ -3116,7 +3119,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = DUKE
 								NOR = { 
@@ -3134,7 +3137,7 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = DUKE
 								NOR = { 
@@ -3172,12 +3175,12 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = KING
 								NOR = {
 									is_nomadic = yes
-									is_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
+									is_real_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
 									has_character_modifier = china_raid_active
 									has_character_modifier = china_raid_grace_cd
 								}
@@ -3189,12 +3192,12 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = KING
 								NOR = {
 									is_nomadic = yes
-									is_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
+									is_real_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
 									has_character_modifier = china_raid_active
 									has_character_modifier = china_raid_grace_cd
 								}
@@ -3207,12 +3210,12 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = KING
 								NOR = {
 									is_nomadic = yes
-									is_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
+									is_real_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
 									has_character_modifier = china_raid_active
 									has_character_modifier = china_raid_grace_cd
 								}
@@ -3225,12 +3228,12 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = KING
 								NOR = {
 									is_nomadic = yes
-									is_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
+									is_real_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
 									has_character_modifier = china_raid_active
 									has_character_modifier = china_raid_grace_cd
 								}
@@ -3243,12 +3246,12 @@ character_event = {
 							limit = {
 								china_diplo_interaction_trigger = yes
 								any_demesne_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 								}
 								higher_tier_than = KING
 								NOR = {
 									is_nomadic = yes
-									is_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
+									is_real_offmap_governor = yes #makes sure it doesn't fire for the governor themselves
 									has_character_modifier = china_raid_active
 									has_character_modifier = china_raid_grace_cd
 								}
@@ -3265,7 +3268,7 @@ character_event = {
 							factor = 0
 							NOT = {
 								any_trade_route_province = {
-									trade_route = silk_road
+									trade_route = leopard_trade
 									has_empty_holding = yes
 								}
 							}
@@ -3815,7 +3818,7 @@ character_event = {
         text = EVTDESC_JD_40009_B # not ahead
         trigger = { NOT = { has_character_flag = trade_competition_halftime_winner } }
     }
-    picture = GFX_evt_china_stable
+    picture = GFX_evt_nigeria_stable
     border = GFX_event_normal_frame_diplomacy
     
     is_triggered_only = yes
@@ -4377,73 +4380,13 @@ character_event = {
 	
 		create_character = {
 			random_traits = yes
-			trait = full_cybernetic_conversion
-			age = 1342
 			dynasty = actually_culture
-			religion = ROOT
-			secret_religion = khurmazta
-			culture = tau_cetinese
+			religion = islamity
+			culture = nigerian
             historical = yes
-			attributes = {
-				diplomacy = 5
-				learning = 5
-				stewardship = 5
-				intrigue = 5
-				martial = 5
-			}
 		}
 	
 		new_character = {
-					random_list = {
-						95 = { }
-						5 = { add_trait = hiver_implant }
-					}
-					random_list = {
-						75 = { }
-						25 = { add_trait = lunatic }
-					}
-					random_list = {
-						64 = { }
-						33 = { add_trait = heavy_worlder }
-					}
-					random_list = {
-						25 = { }
-						75 = { add_trait = damaged_cybernetics }
-					}
-					random_list = {
-						25 = { }
-						20 = { add_trait = clone }
-						15 = { add_trait = vat_born }
-						20 = { add_trait = gmo }
-						20 = { 
-							add_trait = clone 
-							add_trait = cloning_defects
-						}
-					}
-					random_list = {
-						20 = { }
-						15 = { add_trait = odin_mk_i }
-						20 = { add_trait = pluto_mk_i }
-						10 = { add_trait = thoth_mk_i }
-						20 = { add_trait = iaei_mk_i }
-						15 = { add_trait = pci_mk_i }
-					}
-					random_list = {
-						40 = { }
-						15 = { add_trait = odin_mk_ii }
-						15 = { add_trait = pluto_mk_ii }
-						15 = { add_trait = thoth_mk_ii }
-						15 = { add_trait = iaei_mk_ii }
-						15 = { add_trait = pci_mk_ii }
-					}
-					random_list = {
-						80 = { }
-						4 = { add_trait = odin_mk_iii }
-						4 = { add_trait = pluto_mk_iii }
-						4 = { add_trait = thoth_mk_iii }
-						4 = { add_trait = iaei_mk_iii }
-						4 = { add_trait = pci_mk_iii }
-					}
 			set_character_flag = originated_from_chinese_court
             set_character_flag = no_court_invites
 			set_character_flag = ignore_refund
@@ -4471,7 +4414,7 @@ character_event = {		#Escaped Chinese Noble appears
 	id = JD.70002
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70002
-    picture = GFX_evt_chinese_bureaucrat
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_diplomacy
 
 	is_triggered_only = yes
@@ -4602,7 +4545,7 @@ character_event = {			#China does not find out
 	id = JD.70004
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70004
-    picture = GFX_evt_chinese_bureaucrat
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_diplomacy
 	
 	hide_from = yes
@@ -4664,7 +4607,7 @@ character_event = {			#You let China know
 	id = JD.70005
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70005
-    picture = GFX_evt_china_diplomatic_success
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_diplomacy
 
 	is_triggered_only = yes
@@ -4841,7 +4784,7 @@ character_event = {
 
         modifier = {       
             any_demesne_province = {
-                trade_route = silk_road
+                trade_route = leopard_trade
             }
             factor = 1.5
         }
@@ -4893,8 +4836,8 @@ character_event = {
                         }
                         create_character = {
                             age = 30
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = islamity
+                            culture = nigerian
                             dynasty = actually_culture
                             female = yes
                             health = 6
@@ -4911,8 +4854,8 @@ character_event = {
                     50 = { #Male
                         create_character = {
                             age = 30
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = highchurch
+                            culture = igbo
                             dynasty = actually_culture
                             female = no
                             health = 6
@@ -4928,7 +4871,6 @@ character_event = {
                     }
                 }
                 new_character = {
-			add_trait = spacer_physiology
                     #Education & other basic stuff
                     save_event_target_as = chinese_administrator
                     save_event_target_as = chinese_refugee
@@ -4974,7 +4916,14 @@ character_event = {
                     }
                     random = {
                         chance = 10
-                        add_trait = homosexual
+						random_list = {
+							50 = { 
+								add_trait = homosexual
+							}
+							50 = { 
+								add_trait = bisexual
+							}
+						}
                     }
                     opinion = {
                         who = PREV
@@ -5123,8 +5072,8 @@ character_event = {
                         }
                         create_character = {
                             age = 30
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = islamity
+                            culture = nigerian
                             dynasty = actually_culture
                             female = yes
                             health = 6
@@ -5141,8 +5090,8 @@ character_event = {
                     50 = { #Male
                         create_character = {
                             age = 30
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = islamity
+                            culture = nigerian
                             dynasty = actually_culture
                             female = no
                             health = 6
@@ -5158,7 +5107,6 @@ character_event = {
                     }
                 }
                 new_character = {
-			add_trait = spacer_physiology
                     #Education & other basic stuff
                     save_event_target_as = chinese_master_engineer
                     save_event_target_as = chinese_refugee
@@ -5210,7 +5158,14 @@ character_event = {
                     }
                     random = {
                         chance = 10
-                        add_trait = homosexual
+						random_list = {
+							50 = { 
+								add_trait = homosexual
+							}
+							50 = { 
+								add_trait = bisexual
+							}
+						}
                     }
                     opinion = {
                         who = PREV
@@ -5351,8 +5306,8 @@ character_event = {
                         
                         create_character = {
                             age = 30
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = islamity
+                            culture = nigerian
                             dynasty = actually_culture
                             female = yes
                             health = 7
@@ -5369,8 +5324,8 @@ character_event = {
                     50 = { #Male
                         create_character = {
                             age = 30
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = islamity
+                            culture = nigerian
                             dynasty = actually_culture
                             female = no
                             health = 7
@@ -5386,7 +5341,6 @@ character_event = {
                     }
                 }
                 new_character = {
-			add_trait = spacer_physiology
                     #Education & other basic stuff
                     save_event_target_as = chinese_strategist
                     save_event_target_as = chinese_refugee
@@ -5427,7 +5381,14 @@ character_event = {
                     }
                     random = {
                         chance = 10
-                        add_trait = homosexual
+						random_list = {
+							50 = { 
+								add_trait = homosexual
+							}
+							50 = { 
+								add_trait = bisexual
+							}
+						}
                     }
                     opinion = {
                         who = PREV
@@ -5635,8 +5596,8 @@ character_event = {
                         create_character = {
                             age = 35
                             dynasty = actually_culture
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = islamity
+                            culture = nigerian
                             female = yes
                             health = 6
                             random_traits = no
@@ -5653,8 +5614,8 @@ character_event = {
                         create_character = {
                             age = 35
                             dynasty = actually_culture
-                            religion = elven_tribunal_heresy
-                            culture = dark_elven_nomad
+                            religion = islamity
+                            culture = nigerian
                             female = no
                             health = 6
                             random_traits = no
@@ -5669,7 +5630,6 @@ character_event = {
                     }
                 }
                 new_character = {
-			add_trait = spacer_physiology
                     #Education & other basic stuff
                     save_event_target_as = chinese_doctor
                     save_event_target_as = chinese_refugee
@@ -5709,7 +5669,14 @@ character_event = {
                     }
                     random = {
                         chance = 10
-                        add_trait = homosexual
+						random_list = {
+							50 = { 
+								add_trait = homosexual
+							}
+							50 = { 
+								add_trait = bisexual
+							}
+						}
                     }
                     opinion = {
                         who = PREV
@@ -5927,7 +5894,7 @@ character_event = {
 character_event = {
     id = JD.10032
 	has_dlc = "Jade Dragon"
-    picture = GFX_evt_chinese_bureaucrat
+    picture = GFX_evt_nigerian_bureaucrat
     border = GFX_event_normal_frame_diplomacy
     is_triggered_only = yes
     
@@ -6185,7 +6152,7 @@ character_event = {
 character_event = { # Traveling Teacher
 	id = JD.7000
 	desc = EVTDESC_JD_7000
-    picture = GFX_evt_china_stable
+    picture = GFX_evt_nigeria_stable
 	
 	only_playable = yes
 	only_capable = yes
@@ -6198,7 +6165,7 @@ character_event = { # Traveling Teacher
 	
 	trigger = {
 		any_realm_province = {
-			trade_route = silk_road
+			trade_route = leopard_trade
 		}
 		NOR = {
 			has_character_flag = traveling_teacher_visit
@@ -6232,8 +6199,8 @@ character_event = { # Traveling Teacher
 			dynasty = actually_culture
 			female = no
 			age = 42
-			culture = dark_elven_nomad
-			religion = elven_tribunal_heresy
+			culture = nigerian
+			religion = islamity
 			attributes = {
 				diplomacy = 2
 				learning = 14
@@ -6243,7 +6210,6 @@ character_event = { # Traveling Teacher
 			}
 		}
 		new_character = {
-			add_trait = spacer_physiology
 			remove_trait = slow
 			remove_trait = imbecile
 			remove_trait = dull
@@ -6275,7 +6241,7 @@ character_event = { # Traveling Teacher
 		}
 		random_realm_province = {
 			limit = {
-				trade_route = silk_road
+				trade_route = leopard_trade
 			}
 			save_event_target_as = tavern_location
 		}
@@ -6417,7 +6383,7 @@ character_event = { # Accept Teacher into Court
 	}
 
 	option = {
-		name = EVTOPTB_JD_7001 # Read Confucian and elven_tribunal_heresy Classics to the child
+		name = EVTOPTB_JD_7001 # Read Confucian and Taoist Classics to the child
 		trigger = {
 			event_target:child_to_be_taught = {
 				NOT = {
@@ -6437,12 +6403,12 @@ character_event = { # Accept Teacher into Court
 				if = {
 					limit = {
 						NOT = {
-							religion = elven_tribunal_heresy
+							religion = islamity
 						}
 					}
 					random = {
 						chance = 2
-						set_secret_religion = elven_tribunal_heresy
+						set_secret_religion = islamity
 					}
 				}
 			}
@@ -6557,7 +6523,7 @@ character_event = { # Radhanite Merchant
 			}
 		}
 		any_realm_province = {
-			trade_route = silk_road
+			trade_route = leopard_trade
 			NOR = {
 				has_province_modifier = radhanite_favor
 				has_province_modifier = radhanite_favor_big
@@ -6588,8 +6554,8 @@ character_event = { # Radhanite Merchant
 				dynasty = actually_culture
 				female = no
 				age = 33
-				culture = ashkenazi
-				religion = jewish
+				culture = beta_israeli
+				religion = haymanot
 				flag = ai_flag_refuse_conversion
 				attributes = {
 					diplomacy = 2
@@ -6600,7 +6566,6 @@ character_event = { # Radhanite Merchant
 				}
 			}
 			new_character = {
-			add_trait = spacer_physiology
 				remove_trait = slow
 				remove_trait = imbecile
 				remove_trait = dull
@@ -6613,7 +6578,7 @@ character_event = { # Radhanite Merchant
 			}
 			random_realm_province = {
 				limit = {
-					trade_route = silk_road
+					trade_route = leopard_trade
 					NOR = {
 						has_province_modifier = radhanite_favor
 						has_province_modifier = radhanite_favor_big

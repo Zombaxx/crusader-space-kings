@@ -13,15 +13,19 @@ de_jure_laws = {
 	out_of_realm_inheritance_law_0 = {
 		group = out_of_realm_inheritance_law
 		default = yes
-		
+		vassal_opinion = 5
 		potential = {
 			has_dlc = "Zeus"
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				is_republic = no
-				NOT = {
+				NOR = {
 					government = order_government
+					AND = {
+						government = confederation_government
+						primary_title = { title = PREVPREV }
+					}
 				}
 			}
 		}
@@ -52,15 +56,19 @@ de_jure_laws = {
 	out_of_realm_inheritance_law_1 = {
 		group = out_of_realm_inheritance_law
 		default = yes
-		
+		vassal_opinion = -5
 		potential = {
 			has_dlc = "Zeus"
 			holder_scope = {
 				is_tribal = no
 				is_nomadic = no
 				is_republic = no
-				NOT = {
+				NOR = {
 					government = order_government
+					AND = {
+						government = confederation_government
+						primary_title = { title = PREVPREV }
+					}
 				}
 			}
 		}
@@ -97,7 +105,9 @@ de_jure_laws = {
 	vassal_wars_law_0 = {
 		group = vassal_wars_law
 		default = yes
-		
+		temple_vassal_tax_modifier = 0.05
+		castle_vassal_tax_modifier = 0.05
+		city_vassal_tax_modifier = 0.05
 		potential = {
 			has_dlc = "Zeus"
 			holder_scope = {
@@ -105,8 +115,12 @@ de_jure_laws = {
 				is_nomadic = no
 				is_republic = no
 				is_theocracy = no
-				NOT = {
+				NOR = {
 					government = order_government
+					AND = {
+						government = confederation_government
+						primary_title = { title = PREVPREV }
+					}
 				}
 			}
 		}
@@ -153,8 +167,12 @@ de_jure_laws = {
 				is_nomadic = no
 				is_republic = no
 				is_theocracy = no
-				NOT = {
+				NOR = {
 					government = order_government
+					AND = {
+						government = confederation_government
+						primary_title = { title = PREVPREV }
+					}
 				}
 			}
 		}
@@ -195,11 +213,13 @@ de_jure_laws = {
 			set_the_kings_peace = yes
 			set_the_kings_full_peace = no
 		}
-		feudal_opinion = -5
+		vassal_opinion = -5
 	}
 	vassal_wars_law_2 = {
 		group = vassal_wars_law
-		
+		temple_vassal_tax_modifier = -0.05
+		castle_vassal_tax_modifier = -0.05
+		city_vassal_tax_modifier = -0.05
 		potential = {
 			has_dlc = "Zeus"
 			holder_scope = {
@@ -207,8 +227,12 @@ de_jure_laws = {
 				is_nomadic = no
 				is_republic = no
 				is_theocracy = no
-				NOT = {
+				NOR = {
 					government = order_government
+					AND = {
+						government = confederation_government
+						primary_title = { title = PREVPREV }
+					}
 				}
 			}
 		}
@@ -246,6 +270,6 @@ de_jure_laws = {
 			set_the_kings_peace = yes
 			set_the_kings_full_peace = yes
 		}
-		feudal_opinion = -10
+		vassal_opinion = -10
 	}
 }

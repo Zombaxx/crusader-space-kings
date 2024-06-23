@@ -110,7 +110,7 @@ narrative_event = {
 	title = EVTTITLE20003
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion_group = christian }
+			event_target:sponsoring_king = { OR = { religion_group = christian religion = jugoslavist } }
 		}
 		text = EVTDESCHFA20003
 	}
@@ -122,13 +122,13 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion = norse_pagan_reformed }
+			event_target:sponsoring_king = { religion = celtic_pagan_reformed }
 		}
 		text = EVTDESCHFC20003
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion = tengri_pagan_reformed }
+			event_target:sponsoring_king = { religion = khanist }
 		}
 		text = EVTDESCHFD20003
 	}
@@ -146,19 +146,19 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion = slavic_pagan_reformed }
+			event_target:sponsoring_king = { religion = folklorist_reformed }
 		}
 		text = EVTDESCHFG20003
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion = aztec_reformed }
+			event_target:sponsoring_king = { religion = jacobinist }
 		}
 		text = EVTDESCHFH20003
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion = west_african_pagan_reformed }
+			event_target:sponsoring_king = { OR = { religion = islamity religion = bushism religion = voodun } }
 		}
 		text = EVTDESCHFI20003
 	}
@@ -176,7 +176,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion_group = zoroastrian_group }
+			event_target:sponsoring_king = { OR = { religion_group = zoroastrian_group religion_group = esoteric } }
 		}
 		text = EVTDESCHFN20003
 	}
@@ -188,18 +188,17 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { OR = { religion_group = indian_group religion = bon_reformed } }
+			event_target:sponsoring_king = { OR = { religion_group = indian_group religion = bon_reformed religion_group = buddhist_group } }
 		}
 		text = EVTDESCHFP20003
 	}
-
 
 	picture = GFX_evt_mass_baptism
 	border = GFX_event_narrative_frame_religion
 	sound = mass_conversion_baptism
 	show_from_from = yes
 
-	trigger = { 
+	trigger = {
 		event_target:sponsoring_king = { #FROMFROM
 			#is_alive = yes
 			has_character_flag = flag_sponsoring_baptism 
@@ -244,9 +243,8 @@ narrative_event = {
 			limit = { 
 				NOT = { has_nickname = yes }
 				higher_real_tier_than = DUKE
-				event_target:sponsoring_king = { 
+				event_target:sponsoring_king = {
 					religion_group = indian_group 
-					NOT = { religion = buddhist }
 				}
 			}
 			ROOT = { give_nickname = nick_the_purified }
@@ -255,7 +253,7 @@ narrative_event = {
 			limit = { 
 				NOT = { has_nickname = yes }
 				higher_real_tier_than = DUKE
-				event_target:sponsoring_king = { OR = { religion = buddhist religion = bon_reformed } }
+				event_target:sponsoring_king = { OR = { religion_group = buddhist_group religion = bon_reformed } }
 			}
 			ROOT = { give_nickname = nick_the_illuminated }
 		}
@@ -263,22 +261,18 @@ narrative_event = {
 			limit = { 
 				NOT = { has_nickname = yes }
 				higher_real_tier_than = DUKE
-				event_target:sponsoring_king = { 
-					religion_group = pagan_group 
-					NOT = { religion = west_african_pagan_reformed }
-					NOT = { religion = tengri_pagan_reformed }
-					NOT = { religion = zun_pagan_reformed }
-					NOT = { religion = aztec_reformed }
+				event_target:sponsoring_king = {
+					religion_group = pagan_group
 					NOT = { religion = hellenic_pagan_reformed }
 				}
 			}
 			ROOT = { give_nickname = nick_the_exalted }
 		}
-		if = { 
-			limit = { 
+		if = {
+			limit = {
 				NOT = { has_nickname = yes }
 				higher_real_tier_than = DUKE
-				event_target:sponsoring_king = { religion = west_african_pagan_reformed }
+				event_target:sponsoring_king = { OR = { religion = islamity religion = bushism religion = voodun } }
 			}
 			ROOT = { give_nickname = nick_the_awoken }
 		}
@@ -286,7 +280,7 @@ narrative_event = {
 			limit = { 
 				NOT = { has_nickname = yes }
 				higher_real_tier_than = DUKE
-				event_target:sponsoring_king = { religion = aztec_reformed }
+				event_target:sponsoring_king = { religion = jacobinist }
 			}
 			ROOT = { give_nickname = nick_the_bleeding_eyes }
 		}
@@ -294,7 +288,7 @@ narrative_event = {
 			limit = { 
 				NOT = { has_nickname = yes }
 				higher_real_tier_than = DUKE
-				event_target:sponsoring_king = { religion = tengri_pagan_reformed }
+				event_target:sponsoring_king = { religion = khanist }
 			}
 			ROOT = { give_nickname = nick_the_sky_rider }
 		}
@@ -323,7 +317,7 @@ narrative_event = {
 						opinion_effect = no
 					}
 				}
-			} 
+			}
 		}
 		if = { #Increase tribal organization.
 			limit = { 
@@ -398,9 +392,9 @@ narrative_event = {
 							religion_group =  event_target:sponsoring_king
 							religion_group =  event_target:converting_king
 						}
-					 }
+					}
 					narrative_event = { id = HF.20090 } #Notify all other rulers if Converter is King or above
-				} 
+				}
 			}
 		}
 		hidden_tooltip = { 
@@ -531,13 +525,7 @@ narrative_event = {
 						liege = { character = event_target:sponsoring_king }
 						religion = event_target:sponsoring_king
 						NOT = { block_general_event_trigger = yes }
-						OR = { 
-							higher_tier_than = BARON  
-							has_minor_title = title_cardinal
-							has_minor_title = title_fraticelli_cardinal
-							any_claim = { title = k_papal_state } #Antipope
-							any_claim = { title = k_orthodox } #Antipope
-						}
+						powerful_bishop_trigger = yes
 					}
 				}
 			}
@@ -549,13 +537,7 @@ narrative_event = {
 							is_theocracy = yes
 							religion = event_target:sponsoring_king
 							NOT = { block_general_event_trigger = yes }
-							OR = { 
-								higher_tier_than = BARON  
-								has_minor_title = title_cardinal
-								has_minor_title = title_fraticelli_cardinal
-								any_claim = { title = k_papal_state } #Antipope
-								any_claim = { title = k_orthodox } #Antipope
-							}
+							powerful_bishop_trigger = yes
 						}
 						save_event_target_as = scoped_baptizer
 					}
@@ -568,10 +550,7 @@ narrative_event = {
 				limit = {
 					ROOT = { higher_real_tier_than = DUKE }
 					event_target:sponsoring_king = {
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
+						has_coronation_trigger = yes
 					}
 				}
 				hidden_tooltip = { save_persistent_event_target = { name = coronation_priest_per scope = event_target:scoped_baptizer } }
@@ -583,15 +562,15 @@ narrative_event = {
 		set_character_flag = flag_converted_baptism
 		hidden_tooltip = { # Notify Sponsor of the event
 			event_target:sponsoring_king = {
-				narrative_event = { id = HF.20004 }  
+				narrative_event = { id = HF.20004 }
 			}
 			any_realm_character = { limit = { NOT = { character = ROOT } }
 				narrative_event = { id = HF.20008 }  #Convert vassals and their courtiers
 			}
-		character_event = { id = HF.20036 days = 3 random = 3 } #A new priest arrives. (also starts the post-ceremony events) 
+		character_event = { id = HF.20036 days = 3 random = 3 } #A new priest arrives. (also starts the post-ceremony events)
 		}
 		hidden_tooltip = { #Chance of true_religion vassals revolting.
-			if = { 
+			if = {
 				limit = { 
 					event_target:converting_king = { 
 						OR = {
@@ -600,7 +579,7 @@ narrative_event = {
 								higher_real_tier_than = BARON
 								count = 4
 							}
-							any_vassal = { 
+							any_vassal = {
 								has_character_flag = ai_flag_refuse_conversion
 								higher_real_tier_than = COUNT
 								count = 2
@@ -670,7 +649,7 @@ narrative_event = {
 	title = EVTTITLE20004
 	desc = {
 		trigger = {
-			religion_group = christian
+			OR = { religion_group = christian religion = jugoslavist }
 		}
 		text = EVTDESCHFA20004
 	}
@@ -682,13 +661,13 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			religion = norse_pagan_reformed
+			religion = celtic_pagan_reformed
 		}
 		text = EVTDESCHFC20004
 	}
 	desc = {
 		trigger = {
-			religion = tengri_pagan_reformed
+			religion = khanist
 		}
 		text = EVTDESCHFD20004
 	}
@@ -706,19 +685,19 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			religion = slavic_pagan_reformed
+			religion = folklorist_reformed
 		}
 		text = EVTDESCHFG20004
 	}
 	desc = {
 		trigger = {
-			religion = aztec_reformed
+			religion = jacobinist
 		}
 		text = EVTDESCHFH20004
 	}
 	desc = {
 		trigger = {
-			religion = west_african_pagan_reformed
+			OR = { religion = islamity religion = bushism religion = voodun }
 		}
 		text = EVTDESCHFI20004
 	}
@@ -736,7 +715,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			religion_group = zoroastrian_group
+			OR = { religion_group = zoroastrian_group religion_group = esoteric }
 		}
 		text = EVTDESCHFN20004
 	}
@@ -748,7 +727,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			OR = { religion_group = indian_group religion = bon_reformed }
+			OR = { religion_group = indian_group religion = bon_reformed religion_group = buddhist_group }
 		}
 		text = EVTDESCHFP20004
 	}
@@ -789,7 +768,10 @@ narrative_event = {
 		if = { 
 			limit = { 
 				NOT = { has_nickname = yes }
-				religion_group = christian
+				OR = {
+				    religion_group = christian
+					religion = jugoslavist
+				}	
 			}
 			ROOT = { give_nickname = nick_the_missionary }
 		}
@@ -814,7 +796,10 @@ narrative_event = {
 		if = { 
 			limit = { 
 				NOT = { has_nickname = yes }
+				OR = {
 				religion_group = indian_group
+				religion_group = buddhist_group
+				}
 			}
 			ROOT = { give_nickname = nick_the_enlightened }
 		}
@@ -822,10 +807,6 @@ narrative_event = {
 			limit = { 
 				NOT = { has_nickname = yes }
 				religion_group = pagan_group
-				NOT = { religion = west_african_pagan_reformed }
-				NOT = { religion = tengri_pagan_reformed }
-				NOT = { religion = zun_pagan_reformed }
-				NOT = { religion = aztec_reformed }
 				NOT = { religion = hellenic_pagan_reformed }
 			}
 			ROOT = { give_nickname = nick_the_legendary }
@@ -833,21 +814,21 @@ narrative_event = {
 		if = { 
 			limit = { 
 				NOT = { has_nickname = yes }
-				religion = west_african_pagan_reformed
+				OR = { religion = islamity religion = bushism religion = voodun }
 			}
 			ROOT = { give_nickname = nick_the_waking_teacher }
 		}
 		if = { 
 			limit = { 
 				NOT = { has_nickname = yes }
-				religion = aztec_reformed
+				religion = jacobinist
 			}
 			ROOT = { give_nickname = nick_the_whirling_spell }
 		}
 		if = { 
 			limit = { 
 				NOT = { has_nickname = yes }
-				religion = tengri_pagan_reformed
+				religion = khanist
 			}
 			ROOT = { give_nickname = nick_the_horse_shepherd }
 		}
@@ -866,8 +847,8 @@ narrative_event = {
 		}
 		if = { 
 			limit = { 
-				event_target:converting_king = { 
-					OR = { 
+				event_target:converting_king = {
+					OR = {
 						tier = COUNT
 						tier = DUKE 
 					}
@@ -899,7 +880,6 @@ narrative_event = {
 				years = 20
 			}
 		}
-
 	}
 }
 #Pope notified of your actions.
@@ -1231,7 +1211,7 @@ letter_event = {
 			modifier = {
 				factor = 1.5
 				NOT =  { religion = event_target:sponsoring_king }
-				is_organized_religion_trigger = yes
+				is_reformed_religion = yes
 			}
 			modifier = {
 				factor = 1.5
@@ -1357,6 +1337,14 @@ letter_event = {
 			}
 			modifier = {
 				factor = 0.75
+				event_target:sponsoring_king  = { religion = sevillian }
+			}
+			modifier = {
+				factor = 0.75
+				event_target:sponsoring_king  = { religion = cadaverist }
+			}
+			modifier = {
+				factor = 0.75
 				event_target:sponsoring_king  = { religion = sunni }
 			}
 			modifier = {
@@ -1364,14 +1352,21 @@ letter_event = {
 				event_target:sponsoring_king  = { religion = shiite }
 			}
 			modifier = {
+				factor = 0.75
+				event_target:sponsoring_king  = { religion = jugoslavist }
+			}
+			modifier = {
 				factor = 1.15
 				NOT  = { religion = FROM }
-				is_organized_religion_trigger = no
+				NOT  = { is_reformed_religion = yes }
 			}
 			modifier = {
 				factor = 1.35
 				NOT  = { religion = FROM }
-				is_organized_religion_trigger = yes
+				OR  = { 
+					is_reformed_religion = yes
+					NOT = { religion_group = pagan_group }
+				}
 			}
 			modifier = {
 				factor = 0.5
@@ -1426,7 +1421,7 @@ letter_event = {
 					OR = { 
 						religion_group = christian
 						religion_group = muslim
-						religion = buddhist
+						religion_group = buddhist_group
 						religion = jain
 					}
 				}
@@ -1453,6 +1448,10 @@ letter_event = {
 						event_target:sponsoring_king = { religion_group = muslim }
 					}
 					AND = {
+						trait = sympathy_mormon
+						event_target:sponsoring_king = { religion_group = mormonic }
+					}
+					AND = {
 						trait = sympathy_pagans
 						event_target:sponsoring_king = { religion_group = pagan_group }
 					}
@@ -1467,6 +1466,26 @@ letter_event = {
 					AND = {
 						trait = sympathy_indian
 						event_target:sponsoring_king = { religion_group = indian_group }
+					}
+					AND = {
+						trait = sympathy_buddhism
+						event_target:sponsoring_king = { religion_group = buddhist_group }
+					}
+					AND = {
+						trait = sympathy_old_world_cultist
+						event_target:sponsoring_king = { religion_group = old_world_cultist_group }
+					}
+					AND = {
+						trait = sympathy_esoteric
+						event_target:sponsoring_king = { religion_group = esoteric }
+					}
+					AND = {
+						trait = sympathy_syncratic
+						event_target:sponsoring_king = { religion_group = syncratic_group }
+					}
+					AND = {
+						trait = sympathy_oceanic
+						event_target:sponsoring_king = { religion_group = oceanic }
 					}
 				}
 			}
@@ -1527,7 +1546,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion_group = christian }
+			event_target:sponsoring_king = { OR = { religion_group = christian religion = jugoslavist } }
 		}
 		text = EVTDESCHFA20008
 	}
@@ -1541,14 +1560,14 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion = norse_pagan_reformed }
+			event_target:sponsoring_king = { religion = celtic_pagan_reformed }
 		}
 		text = EVTDESCHFC20008
 	}
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion = tengri_pagan_reformed }
+			event_target:sponsoring_king = { religion = khanist }
 		}
 		text = EVTDESCHFD20008
 	}
@@ -1569,21 +1588,21 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion = slavic_pagan_reformed }
+			event_target:sponsoring_king = { religion = folklorist_reformed }
 		}
 		text = EVTDESCHFG20008
 	}
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion = aztec_reformed }
+			event_target:sponsoring_king = { religion = jacobinist }
 		}
 		text = EVTDESCHFH20008
 	}
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion = west_african_pagan_reformed }
+			event_target:sponsoring_king = { OR = { religion = islamity religion = bushism religion = voodun } }
 		}
 		text = EVTDESCHFI20008
 	}
@@ -1604,7 +1623,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion_group = zoroastrian_group }
+			event_target:sponsoring_king = { OR = { religion_group = zoroastrian_group religion_group = esoteric } }
 		}
 		text = EVTDESCHFN20008
 	}
@@ -1618,14 +1637,14 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { OR = { religion_group = indian_group religion = bon_reformed } }
+			event_target:sponsoring_king = { OR = { religion_group = indian_group religion = bon_reformed  religion_group = buddhist_group} }
 		}
 		text = EVTDESCHFP20008
 	}
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion_group = christian }
+			event_target:sponsoring_king = { OR = { religion_group = christian religion = jugoslavist } }
 		}
 		text = EVTDESCHFQ20008
 	}
@@ -1639,14 +1658,14 @@ narrative_event = {
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion = norse_pagan_reformed }
+			event_target:sponsoring_king = { religion = celtic_pagan_reformed }
 		}
 		text = EVTDESCHFR20008
 	}
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion = tengri_pagan_reformed }
+			event_target:sponsoring_king = { religion = khanist }
 		}
 		text = EVTDESCHFRR20008
 	}
@@ -1667,21 +1686,21 @@ narrative_event = {
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion = slavic_pagan_reformed }
+			event_target:sponsoring_king = { religion = folklorist_reformed }
 		}
 		text = EVTDESCHFT20008
 	}
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion = aztec_reformed }
+			event_target:sponsoring_king = { religion = jacobinist }
 		}
 		text = EVTDESCHFTT20008
 	}
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion = west_african_pagan_reformed }
+			event_target:sponsoring_king = { OR = { religion = islamity religion = bushism religion = voodun } }
 		}
 		text = EVTDESCHFU20008
 	}
@@ -1702,7 +1721,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion_group = zoroastrian_group }
+			event_target:sponsoring_king = { OR = { religion_group = zoroastrian_group religion_group = esoteric } }
 		}
 		text = EVTDESCHFVV20008
 	}
@@ -1716,7 +1735,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { OR = { religion_group = indian_group religion = bon_reformed } }
+			event_target:sponsoring_king = { OR = { religion_group = indian_group religion = bon_reformed religion_group = buddhist_group } }
 		}
 		text = EVTDESCHFWW20008
 	}
@@ -1842,6 +1861,17 @@ narrative_event = {
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
+				religion_group = mormonic
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_mormon
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
 				religion_group = pagan_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -1884,6 +1914,39 @@ narrative_event = {
 		}
 		if = { 
 			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = buddhist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_buddhism
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = old_world_cultist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_old_world_cultist
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = syncratic_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_syncratic
+			}
+		}
+		if = { 
+			limit = { 
 				trait = zealous
 				religion_group = christian
 				NOT = { religion_group = event_target:sponsoring_king }
@@ -1903,6 +1966,17 @@ narrative_event = {
 			hidden_tooltip = { character_event = { id = 38310 } } #Notification
 			piety = -20
 			add_trait = sympathy_islam
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = mormonic
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_mormon
 		}
 		if = { 
 			limit = { 
@@ -1947,6 +2021,61 @@ narrative_event = {
 			hidden_tooltip = { character_event = { id = 38310 } } #Notification
 			piety = -20
 			add_trait = sympathy_indian
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = buddhist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_buddhism
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = old_world_cultist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_old_world_cultist
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = esoteric
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_esoteric
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = syncratic_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_syncratic
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = oceanic
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_oceanic
 		}
 		if = { 
 			limit = { 
@@ -2185,6 +2314,17 @@ narrative_event = {
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
+				religion_group = mormonic
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_mormon
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
 				religion_group = pagan_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -2227,6 +2367,61 @@ narrative_event = {
 		}
 		if = { 
 			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = buddhist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_buddhism
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = old_world_cultist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_old_world_cultist
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = esoteric
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_esoteric
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = syncratic_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_syncratic
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = oceanic
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_oceanic
+			}
+		}
+		if = { 
+			limit = { 
 				trait = zealous
 				religion_group = christian
 				NOT = { religion_group = event_target:sponsoring_king }
@@ -2246,6 +2441,17 @@ narrative_event = {
 			hidden_tooltip = { character_event = { id = 38310 } } #Notification
 			piety = -20
 			add_trait = sympathy_islam
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = mormonic
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_mormon
 		}
 		if = { 
 			limit = { 
@@ -2294,6 +2500,61 @@ narrative_event = {
 		if = { 
 			limit = { 
 				trait = zealous
+				religion_group = buddhist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_buddhism
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = old_world_cultist_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_old_world_cultist
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = esoteric
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_esoteric
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = syncratic_group
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_syncratic
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = oceanic
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_oceanic
+		}
+		if = { 
+			limit = { 
+				trait = zealous
 				religion_group = event_target:sponsoring_king
 				NOT = { religion = event_target:sponsoring_king }
 				NOT = { has_character_flag = flag_deceitful_baptism }
@@ -2318,13 +2579,7 @@ narrative_event = {
 						liege = { character = event_target:sponsoring_king }
 						religion = event_target:sponsoring_king
 						NOT = { block_general_event_trigger = yes }
-						OR = { 
-							higher_tier_than = BARON  
-							has_minor_title = title_cardinal
-							has_minor_title = title_fraticelli_cardinal
-							any_claim = { title = k_papal_state } #Antipope
-							any_claim = { title = k_orthodox } #Antipope
-						}
+						powerful_bishop_trigger = yes
 					}
 				}
 			}
@@ -2340,8 +2595,19 @@ narrative_event = {
 								higher_tier_than = BARON  
 								has_minor_title = title_cardinal
 								has_minor_title = title_fraticelli_cardinal
-								any_claim = { title = k_papal_state } #Antipope
+								has_minor_title = title_sevillian_cardinal
+								has_minor_title = title_jugoslavist_cardinal
+								has_minor_title = title_armenianapostolic_cardinal
+								any_claim = { title = k_papacy } #Antipope
 								any_claim = { title = k_orthodox } #Antipope
+								any_claim = { title = k_sevillian_pope } #Antipope
+								any_claim = { title = k_serbia_triumvirate } #Antipope
+								any_claim = { title = k_koptic } #Antipope
+								any_claim = { title = d_armenianapostolic } #Antipope
+								any_claim = { title = d_oldbeliever }
+								any_claim = { title = e_marblists }
+								any_claim = { title = e_neodonatists }
+								any_claim = { title = k_ecclesiarchy }
 							}
 						}
 						save_event_target_as = scoped_baptizer
@@ -3060,26 +3326,26 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				secret_religion = tengri_pagan 
+				secret_religion = starist_pagan 
 				higher_real_tier_than = BARON
 			}
 			any_demesne_province = {
 				random = {
 					chance = 80
 					add_province_modifier = { 
-						name = secret_tengri_pagan_community
+						name = secret_starist_pagan_community
 						duration = -1
 					} 
 				}
 			}
 		}
 		if = { 
-			limit = { secret_religion = norse_pagan }
+			limit = { secret_religion = celtic_pagan }
 			any_demesne_province = {
 				random = {
 					chance = 80
 					add_province_modifier = { 
-						name = secret_norse_pagan_community
+						name = secret_celtic_pagan_community
 						duration = -1
 					} 
 				}
@@ -3110,12 +3376,12 @@ character_event = {
 			}
 		}
 		if = { 
-			limit = { secret_religion = slavic_pagan }
+			limit = { secret_religion = folklorist }
 			any_demesne_province = {
 				random = {
 					chance = 80
 					add_province_modifier = { 
-						name = secret_slavic_pagan_community
+						name = secret_folklorist_community
 						duration = -1
 					} 
 				}
@@ -3134,12 +3400,12 @@ character_event = {
 			}
 		}
 		if = { 
-			limit = { secret_religion = zun_pagan }
+			limit = { secret_religion = novelist }
 			any_demesne_province = {
 				random = {
 					chance = 80
 					add_province_modifier = { 
-						name = secret_zun_pagan_community
+						name = secret_novelist_community
 						duration = -1
 					} 
 				}
@@ -3548,6 +3814,10 @@ character_event = {
 				 	factor = 1.5
 				 	event_target:converting_king = { religion_group = indian_group }
 				}
+				 modifier = { 
+				 	factor = 1.5
+				 	event_target:converting_king = { religion_group = buddhist_group }
+				}
 				event_target:converting_king = { set_character_flag = flag_converter_kind }
 				event_target:converting_king = { character_event = { id = HF.20041 days = 450 random = 190 } } } 
 			11 = { #Humble
@@ -3566,6 +3836,10 @@ character_event = {
 				 modifier = { 
 				 	factor = 1.25
 				 	event_target:converting_king = { religion_group = indian_group }
+				}
+				 modifier = { 
+				 	factor = 1.25
+				 	event_target:converting_king = { religion_group = buddhist_group }
 				}
 				 modifier = { 
 				 	factor = 1.25
@@ -3589,6 +3863,10 @@ character_event = {
 				 modifier = { 
 				 	factor = 0.5
 				 	event_target:converting_king = { religion_group = indian_group }
+				}
+				 modifier = { 
+				 	factor = 0.5
+				 	event_target:converting_king = { religion_group = buddhist_group }
 				}
 				 modifier = { 
 				 	factor = 0.5
@@ -3631,6 +3909,10 @@ character_event = {
 				 modifier = { 
 				 	factor = 1.25
 				 	event_target:converting_king = { religion_group = indian_group }
+				}
+				 modifier = { 
+				 	factor = 1.25
+				 	event_target:converting_king = { religion_group = buddhist_group }
 				}
 				 modifier = { 
 				 	factor = 1.25
@@ -3767,6 +4049,10 @@ character_event = {
 		 	modifier = { 
 		 		factor = 1.25
 		 		religion_group = indian_group
+			}
+			modifier = { 
+		 		factor = 1.25
+		 		religion_group = buddhist_group
 			}
 		}
 	}
@@ -4061,6 +4347,10 @@ character_event = {
 		 		factor = 1.25
 		 		religion_group = indian_group
 			}
+			modifier = { 
+		 		factor = 1.25
+		 		religion_group = buddhist_group
+			}
 
 		}
 	}
@@ -4348,7 +4638,8 @@ character_event = {
 			event_target:converting_king = { 
 				any_realm_province = { 
 					NOT = { religion = ROOT } 
-					is_organized_religion_trigger = no
+					religion_group = pagan_group
+					is_reformed_religion = no
 				}
 			} 
 		}
@@ -4403,7 +4694,8 @@ character_event = {
 					event_target:converting_king = { 
 						any_realm_province = { 
 							NOT = { religion = ROOT } 
-							is_organized_religion_trigger = no
+							religion_group = pagan_group
+							is_reformed_religion = no
 						}	
 					} 
 				} 
@@ -4664,7 +4956,8 @@ letter_event = {
 		trigger = { 
 			any_realm_province = { 
 				NOT = { religion = FROM } 
-				is_organized_religion_trigger = no
+				religion_group = pagan_group
+				is_reformed_religion = no
 			} 
 
 		}
@@ -4677,7 +4970,8 @@ letter_event = {
 			random_realm_province = {
 				limit = { 
 					NOT = { religion = FROM }
-					is_organized_religion_trigger = no
+					religion_group = pagan_group
+					is_reformed_religion = no
 				}
 				random_list = { 
 					60 = { 
@@ -6731,7 +7025,10 @@ character_event = {
 		name = EVTOPTAHF20079
 		if = { 
 			limit = { 
-				NOT = { trait = homosexual }
+				NOR = { 
+					trait = homosexual 
+					trait = bisexual 
+				}
 				OR = { 
 					AND = { 
 						is_female = yes 
@@ -6743,7 +7040,14 @@ character_event = {
 					} 
 				} 
 			}
-			add_trait = homosexual 
+			random_list = {
+				50 = { 
+					add_trait = bisexual 
+				}
+				50 = { 
+					add_trait = homosexual 
+				}
+			}
 		}
 		add_lover = FROM
 		hidden_tooltip = { FROM = { character_event = { id = HF.20084 } } }
@@ -6765,6 +7069,12 @@ character_event = {
 				FROM = { is_female = yes }
 				is_female = yes
 				NOT = { trait = homosexual }
+			}
+		 	modifier = { 
+		 		factor = 1.2
+				FROM = { is_female = yes }
+				is_female = yes
+				trait = bisexual
 			}
 		 	modifier = { 
 		 		factor = 0
@@ -7485,7 +7795,10 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
+		OR = {
 		religion_group = christian
+		religion = jugoslavist
+		}
 		higher_tier_than = DUKE
 		NOT = { trait = incapable }
 		OR = { #Must qualify for at least one of the special options.
@@ -7500,8 +7813,17 @@ character_event = {
 					is_alive = yes 
 					NOT = { block_general_event_trigger = yes }
 					OR = { 
-						has_landed_title = k_papal_state
-						has_landed_title = k_orthodox 
+						has_landed_title = k_papacy
+						has_landed_title = k_orthodox
+						has_landed_title = k_sevillian_pope
+						has_landed_title = k_serbia_triumvirate
+						has_landed_title = k_koptic
+						has_landed_title = d_oldbeliever
+						has_landed_title = e_marblists
+						has_landed_title = e_neodonatists
+						has_landed_title = k_ecclesiarchy
+						has_landed_title = d_nasrini
+						has_landed_title = d_armenianapostolic
 					}
 				}
 			}
@@ -7517,11 +7839,30 @@ character_event = {
 						higher_tier_than = BARON  
 						has_minor_title = title_cardinal
 						has_minor_title = title_fraticelli_cardinal
-						any_claim = { title = k_papal_state } #Antipope
+						has_minor_title = title_sevillian_cardinal
+						has_minor_title = title_jugoslavist_cardinal
+						has_minor_title = title_armenianapostolic_cardinal
+						any_claim = { title = k_papacy } #Antipope
 						any_claim = { title = k_orthodox } #Antipope
+						any_claim = { title = k_sevillian_pope } #Antipope
+						any_claim = { title = k_serbia_triumvirate } #Antipope
+						any_claim = { title = k_koptic } #Antipope
+						any_claim = { title = d_armenianapostolic } #Antipope
+						any_claim = { title = d_oldbeliever }
+						any_claim = { title = e_marblists }
+						any_claim = { title = e_neodonatists }
+						any_claim = { title = k_ecclesiarchy }
 					}
-					NOT = { has_landed_title = k_papal_state }
+					NOT = { has_landed_title = k_papacy }
 					NOT = { has_landed_title = k_orthodox }
+					NOT = { has_landed_title = k_sevillian_pope }
+					NOT = { has_landed_title = k_serbia_triumvirate }
+					NOT = { has_landed_title = k_koptic }
+					NOT = { has_landed_title = d_armenianapostolic }
+					NOT = { has_landed_title = d_oldbeliever }
+					NOT = { has_landed_title = e_marblists }
+					NOT = { has_landed_title = e_neodonatists }
+					NOT = { has_landed_title = k_ecclesiarchy }
 				}
 			}
 		}
@@ -7546,13 +7887,31 @@ character_event = {
 			if = { 
 				limit = { 
 					OR = { 
-						religion = catholic 
+						religion = catholic
 						religion = orthodox
+						religion = sevillian
+						religion = jugoslavist
+						religion = koptic
+						religion = oldbeliever
+						religion = marblists
+						religion = neodonatists
+						religion = cadaverist
+						religion = nasrini
+						religion = armenianapostolic
 					}
 					rightful_religious_head_scope = { 
 						OR = { 
-							has_landed_title = k_papal_state 
+							has_landed_title = k_papacy
 							has_landed_title = k_orthodox
+							has_landed_title = k_sevillian_pope
+							has_landed_title = k_serbia_triumvirate
+							has_landed_title = k_koptic
+							has_landed_title = d_oldbeliever
+							has_landed_title = e_marblists
+							has_landed_title = e_neodonatists
+							has_landed_title = k_ecclesiarchy
+							has_landed_title = d_nasrini
+							has_landed_title = d_armenianapostolic
 						} 
 					}
 				} 
@@ -7584,11 +7943,30 @@ character_event = {
 							higher_tier_than = BARON  
 							has_minor_title = title_cardinal
 							has_minor_title = title_fraticelli_cardinal
-							any_claim = { title = k_papal_state } #Antipope
+							has_minor_title = title_sevillian_cardinal
+							has_minor_title = title_jugoslavist_cardinal
+							has_minor_title = title_armenianapostolic_cardinal
+							any_claim = { title = k_papacy } #Antipope
 							any_claim = { title = k_orthodox } #Antipope
+							any_claim = { title = k_sevillian_pope } #Antipope
+							any_claim = { title = k_serbia_triumvirate } #Antipope
+							any_claim = { title = k_koptic } #Antipope
+							any_claim = { title = d_armenianapostolic } #Antipope
+							any_claim = { title = d_oldbeliever }
+							any_claim = { title = e_marblists }
+							any_claim = { title = e_neodonatists }
+							any_claim = { title = k_ecclesiarchy }
 						}
-						NOT = { has_landed_title = k_papal_state }
+						NOT = { has_landed_title = k_papacy }
 						NOT = { has_landed_title = k_orthodox }
+						NOT = { has_landed_title = k_sevillian_pope }
+						NOT = { has_landed_title = k_serbia_triumvirate }
+						NOT = { has_landed_title = k_koptic }
+						NOT = { has_landed_title = d_armenianapostolic }
+						NOT = { has_landed_title = d_oldbeliever }
+						NOT = { has_landed_title = e_marblists }
+						NOT = { has_landed_title = e_neodonatists }
+						NOT = { has_landed_title = k_ecclesiarchy }
 					}
 				} 
 				random_realm_character = { 
@@ -7601,11 +7979,30 @@ character_event = {
 							higher_tier_than = BARON  
 							has_minor_title = title_cardinal
 							has_minor_title = title_fraticelli_cardinal
-							any_claim = { title = k_papal_state } #Antipope
+							has_minor_title = title_sevillian_cardinal
+							has_minor_title = title_jugoslavist_cardinal
+							has_minor_title = title_armenianapostolic_cardinal
+							any_claim = { title = k_papacy } #Antipope
 							any_claim = { title = k_orthodox } #Antipope
+							any_claim = { title = k_sevillian_pope } #Antipope
+							any_claim = { title = k_serbia_triumvirate } #Antipope
+							any_claim = { title = k_koptic } #Antipope
+							any_claim = { title = d_armenianapostolic } #Antipope
+							any_claim = { title = d_oldbeliever }
+							any_claim = { title = e_marblists }
+							any_claim = { title = e_neodonatists }
+							any_claim = { title = k_ecclesiarchy }
 						}
-						NOT = { has_landed_title = k_papal_state }
+						NOT = { has_landed_title = k_papacy }
 						NOT = { has_landed_title = k_orthodox }
+						NOT = { has_landed_title = k_sevillian_pope }
+						NOT = { has_landed_title = k_serbia_triumvirate }
+						NOT = { has_landed_title = k_koptic }
+						NOT = { has_landed_title = d_armenianapostolic }
+						NOT = { has_landed_title = d_oldbeliever }
+						NOT = { has_landed_title = e_marblists }
+						NOT = { has_landed_title = e_neodonatists }
+						NOT = { has_landed_title = k_ecclesiarchy }
 					}
 					save_event_target_as = scoped_bishop
 				}
@@ -7673,13 +8070,67 @@ character_event = {
 		name = {
 			text = EVTOPTAHF20100_A 
 			trigger = { 
-				rightful_religious_head_scope = { has_landed_title = k_papal_state }
+				rightful_religious_head_scope = { has_landed_title = k_papacy }
 			}
 		}
 		name = {
 			text = EVTOPTAHF20100_B 
 			trigger = { 
 				rightful_religious_head_scope = { has_landed_title = k_orthodox }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_sevillian_pope }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_serbia_triumvirate }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_koptic }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = d_armenianapostolic }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = d_oldbeliever }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = e_marblists }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = e_neodonatists }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_ecclesiarchy }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = d_nasrini }
 			}
 		}
 		custom_tooltip = { text = tooltip_HF20100_A }
@@ -7690,8 +8141,17 @@ character_event = {
 				is_alive = yes 
 				NOT = { block_general_event_trigger = yes }
 				OR = { 
-					has_landed_title = k_papal_state
+					has_landed_title = k_papacy
 					has_landed_title = k_orthodox 
+					has_landed_title = k_sevillian_pope 
+					has_landed_title = k_serbia_triumvirate
+					has_landed_title = k_koptic
+					has_landed_title = d_oldbeliever
+					has_landed_title = e_marblists
+					has_landed_title = e_neodonatists
+					has_landed_title = k_ecclesiarchy
+					has_landed_title = d_nasrini
+					has_landed_title = d_armenianapostolic
 				}
 			}
 		}
@@ -7775,11 +8235,30 @@ character_event = {
 					higher_tier_than = BARON  
 					has_minor_title = title_cardinal
 					has_minor_title = title_fraticelli_cardinal
-					any_claim = { title = k_papal_state } #Antipope
+					has_minor_title = title_sevillian_cardinal
+					has_minor_title = title_jugoslavist_cardinal
+					has_minor_title = title_armenianapostolic_cardinal
+					any_claim = { title = k_papacy } #Antipope
 					any_claim = { title = k_orthodox } #Antipope
+					any_claim = { title = k_sevillian_pope } #Antipope
+					any_claim = { title = k_serbia_triumvirate } #Antipope
+					any_claim = { title = k_koptic } #Antipope
+					any_claim = { title = d_armenianapostolic } #Antipope
+					any_claim = { title = d_oldbeliever }
+					any_claim = { title = e_marblists }
+					any_claim = { title = e_neodonatists }
+					any_claim = { title = k_ecclesiarchy }
 				}
-				NOT = { has_landed_title = k_papal_state }
+				NOT = { has_landed_title = k_papacy }
 				NOT = { has_landed_title = k_orthodox }
+				NOT = { has_landed_title = k_sevillian_pope }
+				NOT = { has_landed_title = k_serbia_triumvirate }
+				NOT = { has_landed_title = k_koptic }
+				NOT = { has_landed_title = d_armenianapostolic }
+				NOT = { has_landed_title = d_oldbeliever }
+				NOT = { has_landed_title = e_marblists }
+				NOT = { has_landed_title = e_neodonatists }
+				NOT = { has_landed_title = k_ecclesiarchy }
 			}
 		}
 		scaled_wealth = { value = -0.75 min = -50 max = -150 }
@@ -8678,8 +9157,38 @@ character_event = {
 		picture = GFX_evt_sacrifice
 	}
 	desc = {
+		text = EVTDESCBHF20103_ORTODOX
+		trigger = {
+			rightful_religious_head_scope = { 
+				OR = {
+					has_landed_title = k_orthodox 
+					has_landed_title = d_armenianapostolic
+					has_landed_title = d_apostolic
+					has_landed_title = d_nasrini
+				}
+			}
+			event_target:baptizing_child = { 
+				has_character_flag = flag_baptized_by_pope 
+				NOR = {
+					has_character_flag = demon_child_non_pagan
+					has_character_flag = demon_child
+				}
+			}
+		}
+		picture = GFX_evt_pope
+	}
+	desc = {
 		text = EVTDESCBHF20103
 		trigger = {
+			NOT = { 
+				rightful_religious_head_scope = { 
+					OR = { 
+						has_landed_title = k_orthodox
+						has_landed_title = d_armenianapostolic
+						has_landed_title = d_apostolic
+					} 
+				} 
+			}
 			event_target:baptizing_child = { 
 				has_character_flag = flag_baptized_by_pope 
 				NOR = {
@@ -8764,7 +9273,13 @@ character_event = {
 			if = { 
 				limit = { 
 					has_character_flag = flag_baptized_by_pope 
-					religion = catholic
+					OR = {
+						religion = catholic
+						religion = sevillian
+						religion = koptic
+						religion = jugoslavist
+						religion = cadaverist
+					}
 				}
 				save_persistent_event_target = { name = baptizing_pope_per scope = event_target:scoped_baptizer }
 				custom_tooltip = { text = tooltip_gain_baptized_by_pope }
@@ -8782,10 +9297,15 @@ character_event = {
 			if = { 
 				limit = { 
 					has_character_flag = flag_baptized_by_pope 
-					religion = orthodox
+					OR = {
+						religion = orthodox
+						religion = armenianapostolic
+						religion = apostolic
+						religion = nasrini
+					}
 				}
 				save_persistent_event_target = { name = baptizing_pope_per scope = event_target:scoped_baptizer }
-				custom_tooltip = { text = tooltip_gain_baptized_by_pope }
+				custom_tooltip = { text = tooltip_gain_baptized_by_patriach }
 				hidden_tooltip = { add_trait = baptized_by_patriarch }
 				clr_character_flag = flag_baptized_by_pope
 				event_target:scoped_pope = {
@@ -9022,11 +9542,29 @@ character_event = {
 					OR = { 
 						religion = catholic 
 						religion = orthodox
+						religion = sevillian
+						religion = jugoslavist
+						religion = koptic
+						religion = oldbeliever
+						religion = marblists
+						religion = neodonatists
+						religion = cadaverist
+						religion = nasrini
+						religion = armenianapostolic
 					}
 					rightful_religious_head_scope = { 
 						OR = { 
-							has_landed_title = k_papal_state 
+							has_landed_title = k_papacy 
 							has_landed_title = k_orthodox
+							has_landed_title = k_sevillian_pope
+							has_landed_title = k_serbia_triumvirate
+							has_landed_title = k_koptic
+							has_landed_title = d_oldbeliever
+							has_landed_title = e_marblists
+							has_landed_title = e_neodonatists
+							has_landed_title = k_ecclesiarchy
+							has_landed_title = d_nasrini
+							has_landed_title = d_armenianapostolic
 						} 
 					}
 				} 
@@ -9058,11 +9596,30 @@ character_event = {
 							higher_tier_than = BARON  
 							has_minor_title = title_cardinal
 							has_minor_title = title_fraticelli_cardinal
-							any_claim = { title = k_papal_state } #Antipope
+							has_minor_title = title_sevillian_cardinal
+							has_minor_title = title_jugoslavist_cardinal
+							has_minor_title = title_armenianapostolic_cardinal
+							any_claim = { title = k_papacy } #Antipope
 							any_claim = { title = k_orthodox } #Antipope
+							any_claim = { title = k_sevillian_pope } #Antipope
+							any_claim = { title = k_serbia_triumvirate } #Antipope
+							any_claim = { title = k_koptic } #Antipope
+							any_claim = { title = d_armenianapostolic } #Antipope
+							any_claim = { title = d_oldbeliever }
+							any_claim = { title = e_marblists }
+							any_claim = { title = e_neodonatists }
+							any_claim = { title = k_ecclesiarchy }
 						}
-						NOT = { has_landed_title = k_papal_state }
+						NOT = { has_landed_title = k_papacy }
 						NOT = { has_landed_title = k_orthodox }
+						NOT = { has_landed_title = k_sevillian_pope }
+						NOT = { has_landed_title = k_serbia_triumvirate }
+						NOT = { has_landed_title = k_koptic }
+						NOT = { has_landed_title = d_armenianapostolic }
+						NOT = { has_landed_title = d_oldbeliever }
+						NOT = { has_landed_title = e_marblists }
+						NOT = { has_landed_title = e_neodonatists }
+						NOT = { has_landed_title = k_ecclesiarchy }
 					}
 				} 
 				random_realm_character = { 
@@ -9075,11 +9632,30 @@ character_event = {
 							higher_tier_than = BARON  
 							has_minor_title = title_cardinal
 							has_minor_title = title_fraticelli_cardinal
-							any_claim = { title = k_papal_state } #Antipope
+							has_minor_title = title_sevillian_cardinal
+							has_minor_title = title_jugoslavist_cardinal
+							has_minor_title = title_armenianapostolic_cardinal
+							any_claim = { title = k_papacy } #Antipope
 							any_claim = { title = k_orthodox } #Antipope
+							any_claim = { title = k_sevillian_pope } #Antipope
+							any_claim = { title = k_serbia_triumvirate } #Antipope
+							any_claim = { title = k_koptic } #Antipope
+							any_claim = { title = d_armenianapostolic } #Antipope
+							any_claim = { title = d_oldbeliever }
+							any_claim = { title = e_marblists }
+							any_claim = { title = e_neodonatists }
+							any_claim = { title = k_ecclesiarchy }
 						}
-						NOT = { has_landed_title = k_papal_state }
+						NOT = { has_landed_title = k_papacy }
 						NOT = { has_landed_title = k_orthodox }
+						NOT = { has_landed_title = k_sevillian_pope }
+						NOT = { has_landed_title = k_serbia_triumvirate }
+						NOT = { has_landed_title = k_koptic }
+						NOT = { has_landed_title = d_armenianapostolic }
+						NOT = { has_landed_title = d_oldbeliever }
+						NOT = { has_landed_title = e_marblists }
+						NOT = { has_landed_title = e_neodonatists }
+						NOT = { has_landed_title = k_ecclesiarchy }
 					}
 					save_event_target_as = scoped_bishop
 				}
@@ -9147,7 +9723,7 @@ character_event = {
 		name = {
 			text = EVTOPTAHF20100_A 
 			trigger = { 
-				rightful_religious_head_scope = { has_landed_title = k_papal_state }
+				rightful_religious_head_scope = { has_landed_title = k_papacy }
 			}
 		}
 		name = {
@@ -9156,16 +9732,79 @@ character_event = {
 				rightful_religious_head_scope = { has_landed_title = k_orthodox }
 			}
 		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_sevillian_pope }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_serbia_triumvirate }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_koptic }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = d_armenianapostolic }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = e_marblists }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = e_neodonatists }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = d_oldbeliever }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_A 
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = k_ecclesiarchy }
+			}
+		}
+		name = {
+			text = EVTOPTAHF20100_B
+			trigger = { 
+				rightful_religious_head_scope = { has_landed_title = d_nasrini }
+			}
+		}
 		custom_tooltip = { text = tooltip_HF20100_A }
+		trigger = { event_target:scoped_pope = { is_alive = yes } }
 		show_portrait = scoped_pope
 		trigger = { 
-			event_target:scoped_pope = { is_alive = yes }
 			religion_head = { 
 				is_alive = yes 
 				NOT = { block_general_event_trigger = yes }
 				OR = { 
-					has_landed_title = k_papal_state
+					has_landed_title = k_papacy
 					has_landed_title = k_orthodox 
+					has_landed_title = k_sevillian_pope
+					has_landed_title = k_serbia_triumvirate
+					has_landed_title = k_koptic
+					has_landed_title = e_marblists
+					has_landed_title = e_neodonatists
+					has_landed_title = d_oldbeliever
+					has_landed_title = k_ecclesiarchy
+					has_landed_title = d_nasrini
+					has_landed_title = d_armenianapostolic
 				}
 			}
 		}
@@ -9237,9 +9876,9 @@ character_event = {
 	option = { #Prince-bishop Baptism
 		name = EVTOPTBHF20100
 		custom_tooltip = { text = tooltip_HF20100_B }
+		trigger = { event_target:scoped_bishop = { is_alive = yes } }
 		show_portrait = scoped_bishop
 		trigger = { 
-			event_target:scoped_bishop = { is_alive = yes }
 			any_realm_character = { 
 				is_theocracy = yes 
 				top_liege = { character = ROOT }
@@ -9249,11 +9888,30 @@ character_event = {
 					higher_tier_than = BARON  
 					has_minor_title = title_cardinal
 					has_minor_title = title_fraticelli_cardinal
-					any_claim = { title = k_papal_state } #Antipope
+					has_minor_title = title_sevillian_cardinal
+					has_minor_title = title_jugoslavist_cardinal
+					has_minor_title = title_armenianapostolic_cardinal
+					any_claim = { title = k_papacy } #Antipope
 					any_claim = { title = k_orthodox } #Antipope
+					any_claim = { title = k_sevillian_pope } #Antipope
+					any_claim = { title = k_serbia_triumvirate } #Antipope
+					any_claim = { title = k_koptic } #Antipope
+					any_claim = { title = d_oldbeliever }
+					any_claim = { title = e_marblists }
+					any_claim = { title = e_neodonatists }
+					any_claim = { title = k_ecclesiarchy }
+					any_claim = { title = d_armenianapostolic }
 				}
-				NOT = { has_landed_title = k_papal_state }
+				NOT = { has_landed_title = k_papacy }
 				NOT = { has_landed_title = k_orthodox }
+				NOT = { has_landed_title = k_sevillian_pope }
+				NOT = { has_landed_title = k_serbia_triumvirate }
+				NOT = { has_landed_title = k_koptic }
+				NOT = { has_landed_title = d_oldbeliever }
+				NOT = { has_landed_title = e_marblists }
+				NOT = { has_landed_title = e_neodonatists }
+				NOT = { has_landed_title = k_ecclesiarchy }
+				NOT = { has_landed_title = d_armenianapostolic }
 			}
 		}
 		scaled_wealth = { value = -1.5 min = -150 max = -350 }
@@ -9502,7 +10160,7 @@ character_event = {
 			show_scope_change = no 
 			add_province_modifier = { 
 				modifier = mass_baptism_capital_traders
-				duration = 1825
+				years = 5
 			}
 		}
 		hidden_tooltip = { 
@@ -9522,7 +10180,7 @@ character_event = {
 			show_scope_change = no 
 			add_province_modifier = { 
 				modifier = mass_baptism_capital_missionaries
-				duration = 1825
+				years = 5
 			}
 		}
 		hidden_tooltip = { 
@@ -9542,7 +10200,7 @@ character_event = {
 			show_scope_change = no 
 			add_province_modifier = { 
 				modifier = mass_baptism_capital_builders
-				duration = 1825
+				years = 5
 			}
 		}
 		hidden_tooltip = { 

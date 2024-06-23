@@ -1,0 +1,1083 @@
+nord = {
+	graphical_cultures = { westerngfx }
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+
+	skanian = { #thanks Ximican for the namelist
+		graphical_cultures = { norsegfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.25 0.5 0.75 }
+		
+		male_names = { 
+			Abdi Åke_Aki Anders_Andrew Axel_Axel
+			Björn_Bjorn
+			Charlie_Charles
+			Daniel_Daniel Danne_Daniel David_David
+			Edvard_Edward Edvin_Edwin Elias_Elijah Erik_Erik
+			Frans_Francis Fritjof_Fritjof
+			Gabriel_Gabriel Gunnar_Günther Gustav_Gustav
+			Hampus_John Hans_John Harry_Harold Hugo_Hugh
+			Ingvar_Ingvar Isak_Isaac Ivar_Ivar
+			Jens_John Johan_John Jonathan_Jonathan Jörgen_George
+			Kalle_Charles Karl_Charles Kevin_Kevin
+			Lars_Lawrence Lennart_Leonard Linus_Linus Loke_Loki Lukas_Luke Lutter_Luther
+			Mads_Matthew Mans_Magnus Mattias_Matthew Mikael_Michael Musti
+			Olle_Oliver Olof_Olaf Oskar_Oscar Östen_Eysteinn Otto_Otto
+			Pär_Peter Paul_Paul Peder_Peter Per-Olof
+			Roger_Roger 
+			Samuel_Samuel Simon_Simon Stefan_Stephen Sten_Sten Sven_Sven 
+			Tage Tor_Thor Torbjörn_Torben
+			Valter_Walter Villiam_William Vilmer_Wilmer
+		}
+		
+		female_names = {
+			Agna_Agnes Agnes_Agnes Alma Alva Anne-Li Asta_Astrid
+			Bodil
+			Dagny
+			Edit_Edith Elin_Helen Elsa_Elizabeth Emma_Emma Erika_Erika Erin
+			Freja
+			Gitta_Bridget Greta_Margaret Gördis_Hjordis Gudrun Gunnel_Gunhild
+			Hanna_Hannah Hedvig_Hedwig Helene_Helen
+			Inga-Britt Inger_Ingrid
+			Karin_Catherine Kristin_Christina
+			Line_Caroline Lisa_Elizabeth Lisbet_Elizabeth
+			Madelene_Madeline Maj-Britt Marie_Mary
+			Rut_Ruth Ragnhild
+			Saga Sara_Sarah Signe Siv
+			Tilda_Matilda Tova_Tove 
+			Ulla Ulrika_Ulrike 
+			Vendela Viktoria_Victoria
+			Ylva
+		}		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "af "
+		feminist = yes
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	swedefinn = { #Finns in Sweden
+		graphical_cultures = { ugricgfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.5 0.65 0.75 }
+		
+		male_names = {
+			Abraham_Abraham Adam_Adam Adrian_Adrian Ahmad_Ahmad Albert_Albert Alexander_Alexander Alfred_Alfred Anders_Andrew Anton_Anthony Arne_Arne Arthur_Arthur Asbjörn_Asbjörn Axel_Axel 
+			Balder_Balder Bengt_Benedict Benjamin_Benjamin Bertil_Berthold Björn_Bjorn Bofors Boris_Boris 
+			Carl_Charles Carl-Philip_Charles-Phillip Christian_Christian Christoffer_Christopher Christer_Krister
+			Dag Dan_Daniel David_David Dimitri_Demetrius
+			Edvard_Edward Einar_Einar Elias_Elijah Emanuel_Emmanuel Emil_Emil Erik_Erik Erland Esbjörn_Asbjörn
+			Felix_Felix Filip_Phillip Folke_Folke Frans_Francis Fredrik_Frederick 
+			Gabriel_Gabriel Georg_George Gottfrid_Godfrey Göran_George Grim_Grim Gunnar_Günther Gustav_Gustav 
+			Håkan_Hakon Hans_Hannes Harald_Harold Helge_Helge Henrik_Henry Herman_Herman Hugo_Hugh
+			Ingvar_Ingvar Isak_Isaac Ivar_Ivar
+			Jacob_Jacob Jan_John Joakim_Joachim Joel_Joel Johan_John Jonas_Jonah Jonathan_Jonathan Jörgen_George Josef_Joseph Jocke_Jocke
+			Karl_Charles Kenneth_Kenneth Kevin_Kevin Knut_Knut Konrad_Konrad Krister_Christer
+			Lars_Lawrence Lennart_Leonard Leo_Leo Linnaeus Lukas_Luke Ludvig_Louis
+			Magnus_Magnus Markus_Mark Martin_Martin Mattias_Matthew Max_Maximus Mikael_Michael  
+			Niklas_Nicholas Nils_Nicholas 
+			Oliver_Oliver Olof_Olaf Oscar_Oscar Östen_Eysteinn Osvald_Oswald Otto_Otto
+			Patrik_Patrick Paul_Paul Pehr_Peter Peter_Peter Pontus_Pontius Philip_Phillip
+			Ragnar_Rainer Ragnvald_Reynold Rasmus_Erasmus Richard_Richard Robert_Robert Roland_Roland Rolf_Rudolf Ruben_Reuben 
+			Saab Samuel_Samuel Sebastian_Sebastian Sergio_Sergius Sigismund_Sigmund Sigurd_Sigurd Simon_Simon Stefan_Stephen Sten_Sten Sven_Sven 
+			Theodor_Theodore Thomas_Thomas Tim_Timothy Tobias_Tobias Torsten_Torsten 
+			Ulf_Wolf Ulrik_Ulrich 
+			Valentin_Valentine Viktor_Victor Vilhelm_William Vincent_Vincent Vladimir_Vladimir Volvo
+			Walter_Walter
+			Zacharias_Zachary Zlatan_Zlatan	
+			Aatos Aimo Armas Arvo Asikko Aatso_Adam Ahvo Aarto_Artur Asko Aapeli_Abel Aabraham_Abraham Aaro_Aaron Aleksander_Alexander Altti_Albert Anttoni_Anthony Anders_Andrew Axel 
+			Bengt_Benedict
+			Ensio Erkki_Erik Edvin_Edwin Edvard_Edward Emil_Emil Elias_Elijah
+			Fredrik_Frederick Filip_Phillip Frans_Francis
+			George_George Gabriel_Gabriel Gustaf_Gustav
+			Hannu_John Harry_Harold Henri_Henry Hugo_Hugh 
+			Ihanti Into Ismo_Ishmael 
+			Jalo Julius_Julius Johannes_John Jaako_Jacob Jasper_Caspar Josef_Joseph Joakim_Joachim 
+			Kaleva_Kaleva Kolli Kaarle_Charles Kauro_Gabriel Kuuti_Knut Karl_Charles Klaus_Nicholas Kustaa_Gustav Kevin 
+			Lalli Lauri_Lawrence Lemetti Lars_Lawrence Linus_Linus Leo_Leo
+			Mauri_Maurice Mikko_Michael Matti_Matthew Marco_Mark Markku_Mark Magnus_Magnus Michael_Michael Max_Maximus Martin_Martin 
+			Oiva Onni Otso_Ursus Olavi_Olaf Otto_Otto 
+			Pyry Päiviö Pentti_Benedict Petri_Peter Paavo_Paul Pekko Pehr_Peter 
+			Reko_Gregory Risto_Christopher Riku_Richard Rieti_Frederick Rudolf_Rudolf
+			Sampo Satajalka Satatieto Seppo_Sebastian Soini_Sven Stefan_Stephen Sauli_Saul 
+			Tapani_Stephen Terho Toivo Taisto Tuokko_David Taneli_Daniel Turo Tommo_Thomas Thomas_Thomas 
+			Ukko_Ukko Uoti_Olaf Urho 
+			Väinö Valta Valto Veli Vesa Voitto Valteri_Walter Valdemar_Vladimir Vertti_Ferdinand 
+			Yrjö_George
+			Zacharias_Zachary		 
+		}
+		female_names = {
+			Agneta_Agnes Alexandra_Alexandra Amina_Aminah Angela_Angela Anna_Anna Anna-Karin_Anna-Catherine Asta_Asta Astrid_Astrid 
+			Beatrice_Beatrix Bianca_Blanche Birgitta_Bridget 
+			Caroline_Caroline Cecilia_Cecilia Christina_Christina Clara_Clara 
+			Danielle_Daniela Diana_Diana
+			Eleanor_Eleanor Elin_Helen Elisabet_Elizabeth Emma_Emma Erika_Erika Eva_Eve Estelle
+			Fatima_Fatima Freja_Freja 
+			Gabriela_Gabriela Gertrud_Gertrude
+			Hanna_Hannah Hedvig_Hedwig Helena_Helen 
+			Inga_Inge Ingrid_Ingrid Irene_Irene Isabella_Elizabeth 
+			Jeanette_Jane Jennifer_Jennifer Jessica_Jessica Judit_Judith Julie_Julia
+			Karin_Catherine Katarina_Catherine Kerstin_Christina Kristina_Christina 
+			Laura_Laura Leah_Leah Lisbeth_Elizabeth 
+			Magdalena_Madeline Malmfrid_Malmfrid Margareta_Margaret Marie_Mary Marina_Marina Märta_Martha Monica_Monica 
+			Rachel_Rachel Rosa_Rosa 
+			Sara_Sarah Sigrid_Sigrid Sofia_Sophia Stephanie_Stephanie Susanna_Susan Silvia_Silvia
+			Teresa_Theresa Tora_Thordis 
+			Ulrika_Ulrike Ulla
+			Vanessa_Vanessa Verica_Vera Veronica_Veronica Victoria_Victoria
+			Zoe_Zoe			
+			Aamu Aino Auni_Agnes Anna_Anna Ansa Alma
+			Elisabet_Elizabeth Elina_Helen Eve_Eve
+			Hellä Helmi_Wilhelmina Hertta Henriette_Henriette
+			Ilta Inkeri_Ingrid Ilmatar Irene_Irene Ilona_Helen
+			Janina_Jane Jenny_Jennifer
+			Kaarina_Catherine Käpy Kielo Kukka Kristiina_Christina Kivutar Kristin_Christina 
+			Lauha Lempi Loviisa_Louise Liekko_Helen Lemmikki Lyylikki_Lydia Linda_Linda 
+			Mahla Maija_Mary Marja_Mary Mesi Metta Mielikki Marta_Martha Margareta_Margaret
+			Päivä Päivi Pihla Pilvi 
+			Rauha 
+			Sisko Suoma Sohvi_Sophia Salme Sanna_Susan
+			Taimi Terhi Titti_Christina Tuija Tuovi Tuuli Tuulikki Tuuri Tyyne Talvikki Tuulitar 
+			Vanamo Venla
+		}		
+			
+		from_dynasty_prefix = "af "
+		from_dynasty_prefix = "luota "
+		male_patronym = "npoika"
+		female_patronym = "ntytär"
+		prefix = no
+		feminist = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	swedish = {
+		#Actually Stockholmer
+		graphical_cultures = { norsegfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.5 0.5 0.75 }
+		
+		male_names = {
+			Abraham_Abraham Adam_Adam Adrian_Adrian Ahmad_Ahmad Albert_Albert Alexander_Alexander Alfred_Alfred Anders_Andrew Anton_Anthony Arne_Arne Arthur_Arthur Asbjörn_Asbjörn Axel_Axel 
+			Balder_Balder Bengt_Benedict Benjamin_Benjamin Bertil_Berthold Björn_Bjorn Bofors Boris_Boris 
+			Carl_Charles Carl-Philip_Charles-Phillip Christian_Christian Christoffer_Christopher Christer_Krister
+			Dag Dan_Daniel David_David Dimitri_Demetrius
+			Edvard_Edward Einar_Einar Elias_Elijah Emanuel_Emmanuel Emil_Emil Erik_Erik Erland Esbjörn_Asbjörn
+			Felix_Felix Filip_Phillip Folke_Folke Frans_Francis Fredrik_Frederick 
+			Gabriel_Gabriel Georg_George Gottfrid_Godfrey Göran_George Grim_Grim Gunnar_Günther Gustav_Gustav 
+			Håkan_Hakon Hans_Hannes Harald_Harold Helge_Helge Henrik_Henry Herman_Herman Hugo_Hugh
+			Ingvar_Ingvar Isak_Isaac Ivar_Ivar
+			Jacob_Jacob Jan_John Joakim_Joachim Joel_Joel Johan_John Jonas_Jonah Jonathan_Jonathan Jörgen_George Josef_Joseph Jocke_Jocke
+			Karl_Charles Kenneth_Kenneth Kevin_Kevin Knut_Knut Konrad_Konrad Krister_Christer
+			Lars_Lawrence Lennart_Leonard Leo_Leo Linnaeus Lukas_Luke Ludvig_Louis
+			Magnus_Magnus Markus_Mark Martin_Martin Mattias_Matthew Max_Maximus Mikael_Michael  
+			Niklas_Nicholas Nils_Nicholas 
+			Oliver_Oliver Olof_Olaf Oscar_Oscar Östen_Eysteinn Osvald_Oswald Otto_Otto
+			Patrik_Patrick Paul_Paul Pehr_Peter Peter_Peter Pontus_Pontius Philip_Phillip
+			Ragnar_Rainer Ragnvald_Reynold Rasmus_Erasmus Richard_Richard Robert_Robert Roland_Roland Rolf_Rudolf Ruben_Reuben 
+			Saab Samuel_Samuel Sebastian_Sebastian Sergio_Sergius Sigismund_Sigmund Sigurd_Sigurd Simon_Simon Stefan_Stephen Sten_Sten Sven_Sven 
+			Theodor_Theodore Thomas_Thomas Tim_Timothy Tobias_Tobias Torsten_Torsten 
+			Ulf_Wolf Ulrik_Ulrich 
+			Valentin_Valentine Viktor_Victor Vilhelm_William Vincent_Vincent Vladimir_Vladimir Volvo
+			Walter_Walter
+			Zacharias_Zachary Zlatan_Zlatan			 
+		}
+		female_names = {
+			Agneta_Agnes Alexandra_Alexandra Amina_Aminah Angela_Angela Anna_Anna Anna-Karin_Anna-Catherine Asta_Asta Astrid_Astrid 
+			Beatrice_Beatrix Bianca_Blanche Birgitta_Bridget 
+			Caroline_Caroline Cecilia_Cecilia Christina_Christina Clara_Clara 
+			Danielle_Daniela Diana_Diana
+			Eleanor_Eleanor Elin_Helen Elisabet_Elizabeth Emma_Emma Erika_Erika Eva_Eve Estelle
+			Fatima_Fatima Freja_Freja 
+			Gabriela_Gabriela Gertrud_Gertrude
+			Hanna_Hannah Hedvig_Hedwig Helena_Helen 
+			Inga_Inge Ingrid_Ingrid Irene_Irene Isabella_Elizabeth 
+			Jeanette_Jane Jennifer_Jennifer Jessica_Jessica Judit_Judith Julie_Julia
+			Karin_Catherine Katarina_Catherine Kerstin_Christina Kristina_Christina 
+			Laura_Laura Leah_Leah Lisbeth_Elizabeth 
+			Magdalena_Madeline Malmfrid_Malmfrid Margareta_Margaret Marie_Mary Marina_Marina Märta_Martha Monica_Monica 
+			Rachel_Rachel Rosa_Rosa 
+			Sara_Sarah Sigrid_Sigrid Sofia_Sophia Stephanie_Stephanie Susanna_Susan Silvia_Silvia
+			Teresa_Theresa Tora_Thordis 
+			Ulrika_Ulrike Ulla
+			Vanessa_Vanessa Verica_Vera Veronica_Veronica Victoria_Victoria
+			Zoe_Zoe			
+		}		
+			
+		from_dynasty_prefix = "af "
+		feminist = yes
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	finnswede = { #Swedes in Finland
+		graphical_cultures = { norsegfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.8 0.5 0.9 }
+		
+		male_names = {
+			Aapeli_Abel Aatami_Adam Abraham_Abraham Aaro_Aaron Adrian_Adrian Akseli_Axel Albert_Albert Alexander_Alexander Alfred_Alfred Anders_Andrew Antti_Andrew Anton_Anthony Arne_Arne Arto_Artur Arvid 
+			Balder_Balder Bengt_Benedict Benjamin_Benjamin Bertil_Berthold Björn_Bjorn 
+			Christian_Christian
+			Daniel_Daniel David_David
+			Edvard_Edward Eero_Erik Einar_Einar Elias_Elijah Emanuel_Emmanuel Emil_Emil Eric_Erik Erland Esbjörn_Asbjörn
+			Felix_Felix Filip_Phillip Folke_Folke Frans_Francis Fredrik_Frederick 
+			Gabriel_Gabriel Georg_George Gottfrid_Godfrey Göran_George Grim_Grim Gunnar_Günther Gustaf_Gustav
+			Håkan_Hakon Hans_Hannes Harry_Harold Henrik_Henry Herman_Herman Hjalmar Hugo_Hugh
+			Ingvar_Ingvar Isak_Isaac Ismo_Ishmael Ivar_Ivar
+			Jaako_Jacob Jan_John Jasper_Caspar Joakim_Joachim Joel_Joel Johan_John Jonas_Jonah Jonathan_Jonathan Jörn_George Josef_Joseph Jocke_Jocke
+			Kaarlo_Charles Kaj_Gaius Kenneth_Kenneth Kevin_Kevin Knut_Knut Konrad_Konrad Krister_Christer
+			Lars_Lawrence Lennart_Leonard Leo_Leo Linus_Linus Lukas_Luke Ludvig_Louis
+			Magnus_Magnus Marcus_Mark Martin_Martin Mathias_Matthew Max_Maximus Mikael_Michael  
+			Niklas_Nicholas Nils_Nicholas 
+			Olavi_Olaf Oliver_Oliver Oscar_Oscar Östen_Eysteinn Osvald_Oswald Otto_Otto
+			Paavo_Paul Patrik_Patrick Pehr_Peter Pontus_Pontius Philip_Phillip
+			Ragnar_Rainer Ragnvald_Reynold Rasmus_Erasmus Reko_Gregory Riku_Richard Risto_Christopher Robert_Robert Roland_Roland Rolf_Rudolf Ruben_Reuben 
+			Samuel_Samuel Sauli_Saul Sebastian_Sebastian Sigismund_Sigmund Sigurd_Sigurd Simon_Simon Stefan_Stephen Sten_Sten Sven_Sven 
+			Theodor_Theodore Thomas_Thomas Tim_Timothy Tobias_Tobias Torsten_Torsten 
+			Ulf_Wolf Ulrik_Ulrich 
+			Valdemar_Vladimir Valentin_Valentine Valteri_Walter Vertti_Ferdinand Viktor_Victor Vilhelm_William Vincent_Vincent
+			Zacharias_Zachary			
+		}
+		female_names = {
+			Agneta_Agnes Alexandra_Alexandra Amina_Aminah Angela_Angela Anna_Anna Anna-Karin_Anna-Catherine Asta_Asta Astrid_Astrid 
+			Beatrice_Beatrix Bianca_Blanche Birgitta_Bridget 
+			Caroline_Caroline Cecilia_Cecilia Christina_Christina Clara_Clara 
+			Danielle_Daniela Diana_Diana
+			Edith_Edith Eleanor_Eleanor Elin_Helen Elisabet_Elizabeth Emma_Emma Erika_Erika Eva_Eve Estelle
+			Freja_Freja 
+			Gabriela_Gabriela Gertrud_Gertrude
+			Hanna_Hannah Hedvig_Hedwig Helena_Helen 
+			Inga_Inge Ingrid_Ingrid Irene_Irene Isabella_Elizabeth 
+			Jeanette_Jane Jennifer_Jennifer Jessica_Jessica Judit_Judith Julie_Julia
+			Karin_Catherine Katarina_Catherine Kerstin_Christina Kristina_Christina 
+			Laura_Laura Leah_Leah Linda_Linda Lisbeth_Elizabeth 
+			Magdalena_Madeline Malmfrid_Malmfrid Margareta_Margaret Marie_Mary Marina_Marina Märta_Martha Monica_Monica 
+			Pernilla
+			Rachel_Rachel Rosa_Rosa 
+			Sara_Sarah Sigrid_Sigrid Sofia_Sophia Stephanie_Stephanie Susanna_Susan Silvia_Silvia
+			Teresa_Theresa Tora_Thordis Tove 
+			Ulrika_Ulrike Ulla
+			Vanessa_Vanessa Verica_Vera Veronica_Veronica Victoria_Victoria
+			Zoe_Zoe			
+		}		
+		parent = finnish
+		from_dynasty_prefix = "af "
+		feminist = yes
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	jamtlandish = {
+		#Northern Swedish
+		graphical_cultures = { norsegfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.7 0.5 0.6 }
+		
+		male_names = {
+			Adam_Adam Adrian_Adrian Aksel_Axel Albert_Albert Alexander_Alexander Alfred_Alfred Anders_Andrew Anton_Anthony Arne_Arne Arthur_Arthur Asbjörn_Asbjörn 
+			Balder_Balder Bengt_Benedict Benjamin_Benjamin Bertil_Berthold Björn_Bjorn Bofors 
+			Carl_Charles Christian_Christian Christoffer_Christopher
+			Dan_Daniel David_David Dimitri_Demetrius
+			Edvard_Edward Elias_Elijah Emanuel_Emmanuel Emil_Emil Erik_Erik
+			Felix_Felix Filip_Phillip Folke_Folke Frans_Francis Fredrik_Frederick Frej_Frej 
+			Gabriel_Gabriel Georg_George Grim_Grim Gunnar_Günther Gustav_Gustav 
+			Håkan_Hakon Hans_John Harald_Harold Helgi_Helge Henrik_Henry Herman_Herman Hugo_Hugh
+			Ingvar_Ingvar Isak_Isaac 
+			Jacob_Jacob Joakim_Joachim Joel_Joel Johan_John Jonas_Jonah Jonathan_Jonathan Jörgen_George Joseph_Joseph Jan-Erik_John-Erik
+			Karl_Charles Kenneth_Kenneth Kevin_Kevin Klas_Nicholas Knut_Knut Konrad_Konrad 
+			Lars_Lawrence Lars-Erik_Lawrence-Erik Leo_Leo Linnaeus Louis_Louis Lukas_Luke 
+			Magnus_Magnus Markus_Mark Martin_Martin Mattias_Matthew Max_Maximus Mikael_Michael 
+			Niklas_Nicholas Nils_Nicholas
+			Olaf_Olaf Oliver_Oliver Oscar_Oscar Östen_Eysteinn 
+			Patrick_Patrick Paul_Paul Peter_Peter Pontus_Pontius
+			Ragnar_Rainer Ragnvald_Reynold Rasmus_Erasmus Richard_Richard Robert_Robert Roland_Roland Rolf_Rudolf Ruben_Reuben 
+			Saab Samuel_Samuel Sebastian_Sebastian Sigurd_Sigurd Simon_Simon Stefan_Stephen Sten_Sten Sven_Sven 
+			Theodor_Theodore Thomas_Thomas Tim_Timothy Tobias_Tobias 
+			Ulrik_Ulrich 
+			Valdemar_Vladimir Valentin_Valentine Viktor_Victor Vilhelm_William Vincent_Vincent Volvo
+			Walter_Walter
+			Zacharias_Zachary			 
+		}
+		female_names = {
+			Agneta_Agnes Alexandra_Alexandra Angela_Angela Anna_Anna Ann-Kristin_Anna-Christina Anna-Karin_Anna-Catherine Asta_Asta Astrid_Astrid 
+			Beatrice_Beatrix Bianca_Blanche Birgitta_Bridget 
+			Caroline_Caroline Cecilia_Cecilia Christina_Christina Clara_Clara 
+			Danielle_Daniela Diana_Diana
+			Elin_Helen Elisabet_Elizabeth Emma_Emma Erika_Erika Eva_Eve Eva-Lena
+			Freja_Freja 
+			Gabriela_Gabriela Gertrud_Gertrude
+			Hanna_Hannah Hedvig_Hedwig Helena_Helen 
+			Inga_Inge Ingrid_Ingrid Irene_Irene Isabella_Elizabeth 
+			Jeanette_Jane Jennifer_Jennifer Jessica_Jessica Judit_Judith Julie_Julia
+			Karin_Catherine Katarina_Catherine Kerstin_Christina Kristina_Christina 
+			Laura_Laura Leah_Leah Lisbeth_Elizabeth 
+			Magdalena_Madeline Malmfrid_Malmfrid Margareta_Margaret Marie_Mary Marina_Marina Märta_Martha Monica_Monica 
+			Rachel_Rachel Rosa_Rosa 
+			Sara_Sarah Sigrid_Sigrid Sofia_Sophia Stephanie_Stephanie Susanna_Susan
+			Teresa_Theresa Tora_Thordis 
+			Ulrika_Ulrike Ulla
+			Vanessa_Vanessa Verica_Vera Veronica_Veronica Victoria_Victoria
+			Zoe_Zoe				
+		}		
+			
+		from_dynasty_prefix = "af "
+		feminist = yes
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	norwegian = {
+		graphical_cultures = { norsegfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = { 
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.2 0.45 0.65 }
+		
+		male_names = {
+			Abraham_Abraham Adam_Adam Adrian_Adrian Alan_Alan Albert_Albert Alexander_Alexander Alv_Alf Amund Andreas_Andrew Anton_Anthony Arne_Arne Audun Axel_Axel 
+			Balder_Balder Bård Benjamin_Benjamin Bernt_Bernard Bjørn_Bjorn
+			Carl_Charles Carsten_Christian Caspar_Caspar Christian_Christian Christopher_Christopher Colin_Colin Conrad_Konrad
+			Daniel_Daniel David_David
+			Eigil_Egil Einar_Einar Eirik_Erik Elias_Elijah Emanuel_Emmanuel Emil_Emil Erik_Erik Erlend Eystein_Eysteinn 
+			Filip_Phillip Fredrik_Frederick Frej_Frej
+			Gabriel_Gabriel Georg_George Gerhard_Gerard Grim_Grim Gudmund_Gudmund Gudrød_Gudröd Gunnar_Gunnar Gustav_Gustav Guttorm_Gorm 
+			Haakon_Hakon Håkon_Hakon Harald_Harold Helge_Helge Henrik_Henry Herman_Herman Hugo_Hugh
+			Inge_Ingolf Isak_Isaac Ivan_John Ivar_Ivar 
+			Jakob_Jacob Jon_John Jonas_Jonah Jonathan_Jonathan Joachim_Joachim Jørgen_George Josef_Joseph Julius_Julius 
+			Karl_Charles Kennet_Kenneth Kevin_Kevin 
+			Lars_Lawrence Lodin Ludvig_Louis Lukas_Luke
+			Magnus_Magnus Marcus_Mark Marius_Marius Mathias_Matthew Max_Maximus Morten_Martin 
+			Nils_Nicholas Noah_Noah
+			Olav_Olaf Ølver_Oliver Oskar_Oscar Osvald_Oswald Otto_Otto Øystein_Eysteinn
+			Pål_Paul Patrick_Patrick Paul_Paul Peter_Peter 
+			Ragnar_Rainer Ragnvald_Reynold Robert_Robert Rolf_Rudolf Roy_Roy
+			Samuel_Samuel Sämund_Sämund Sigurd_Sigurd Skule_Skule Sondre Sophus Svein_Sven  
+			Theodor_Theodore Tobias_Tobias Tom_Thomas Torbjørn_Torben Tord_Tord Torbrand_Torbrand Torfinn_Torfinn Torgeir_Torgeir Torgil_Torkel Torolf_Thorolf Torstein_Torsten 
+			Ulv_Ulf 
+			Viktor_Victor Vilhelm_William			
+		}
+		female_names = {
+			Adela_Adela Alexandra_Alexandra Anna_Anna Annette_Anna Antonia_Antonia Astrid_Astrid 
+			Beatrix_Beatrix Belle_Elizabeth Brigida_Bridget
+			Caroline_Caroline Cecilia_Cecilia Clara_Clara 
+			Eleanor_Eleanor Emma_Emma Esther_Esther Eva_Eve 
+			Freja_Freja 
+			Gabriela_Gabriela Gjertrud_Gertrude Gloria_Gloria Gunnhild_Gunhild Gyda_Gytha 
+			Haldora Helena_Helen 
+			Ingebjørg_Ingeborg Ingjerd_Ingegerd Ingrid_Ingrid 
+			Jasmin_Jasmine Jennifer_Jennifer Jessica_Jessica Johanna_Jane Julie_Julia
+			Karin_Catherine Kristina_Christina
+			Leah_Leah Louise_Louise
+			Margrete_Margaret Maria_Mary Marianne_Mary Martha_Martha Mona_Monica 
+			Nicole_Nicole
+			Rachel_Rachel Regina_Regina Rosa_Rosa 
+			Sarah_Sarah Sigrid_Sigrid Snøfrid Svanhild_Svanhild Susanne_Susan 
+			Theresa_Theresa Thora_Thora Thordis_Thordis
+			Veronica_Veronica
+			Yvonne_Yvonne
+			Zoe_Zoe
+		}
+				
+		from_dynasty_prefix = "av "
+		feminist = yes
+		
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+	vestsk = {
+		graphical_cultures = { norsegfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = { 
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.2 0.55 0.85 }
+		
+		male_names = {
+			Abraham_Abraham Adam_Adam Adrian_Adrian Alan_Alan Albert_Albert Alexander_Alexander Alv_Alf Amund Andreas_Andrew Anton_Anthony Arne_Arne Audun Axel_Axel 
+			Balder_Balder Bård Benjamin_Benjamin Bernt_Bernard Bjørn_Bjorn
+			Carl_Charles Carsten_Christian Caspar_Caspar Christian_Christian Christopher_Christopher Colin_Colin Conrad_Konrad
+			Daniel_Daniel David_David
+			Eigil_Egil Einar_Einar Eirik_Erik Elias_Elijah Emanuel_Emmanuel Emil_Emil Erik_Erik Erlend Eystein_Eysteinn 
+			Filip_Phillip Fredrik_Frederick Frej_Frej
+			Gabriel_Gabriel Georg_George Gerhard_Gerard Grim_Grim Gudmund_Gudmund Gudrød_Gudröd Gunnar_Gunnar Gustav_Gustav Guttorm_Gorm 
+			Haakon_Hakon Håkon_Hakon Harald_Harold Helge_Helge Henrik_Henry Herman_Herman Hugo_Hugh
+			Inge_Ingolf Isak_Isaac Ivan_John Ivar_Ivar 
+			Jakob_Jacob Jon_John Jonas_Jonah Jonathan_Jonathan Joachim_Joachim Jørgen_George Josef_Joseph Julius_Julius 
+			Karl_Charles Kennet_Kenneth Kevin_Kevin 
+			Lars_Lawrence Lodin Ludvig_Louis Lukas_Luke
+			Magnus_Magnus Marcus_Mark Marius_Marius Mathias_Matthew Max_Maximus Morten_Martin 
+			Nils_Nicholas Noah_Noah
+			Olav_Olaf Ølver_Oliver Oskar_Oscar Osvald_Oswald Otto_Otto Øystein_Eysteinn
+			Pål_Paul Patrick_Patrick Paul_Paul Peter_Peter 
+			Ragnar_Rainer Ragnvald_Reynold Robert_Robert Rolf_Rudolf Roy_Roy
+			Samuel_Samuel Sämund_Sämund Sigurd_Sigurd Skule_Skule Sondre Sophus Svein_Sven  
+			Theodor_Theodore Tobias_Tobias Tom_Thomas Torbjørn_Torben Tord_Tord Torbrand_Torbrand Torfinn_Torfinn Torgeir_Torgeir Torgil_Torkel Torolf_Thorolf Torstein_Torsten 
+			Ulv_Ulf 
+			Viktor_Victor Vilhelm_William			
+		}
+		female_names = {
+			Adela_Adela Alexandra_Alexandra Anna_Anna Annette_Anna Antonia_Antonia Astrid_Astrid 
+			Beatrix_Beatrix Belle_Elizabeth Brigida_Bridget
+			Caroline_Caroline Cecilia_Cecilia Clara_Clara 
+			Eleanor_Eleanor Emma_Emma Esther_Esther Eva_Eve 
+			Freja_Freja 
+			Gabriela_Gabriela Gjertrud_Gertrude Gloria_Gloria Gunnhild_Gunhild Gyda_Gytha 
+			Haldora Helena_Helen 
+			Ingebjørg_Ingeborg Ingjerd_Ingegerd Ingrid_Ingrid 
+			Jasmin_Jasmine Jennifer_Jennifer Jessica_Jessica Johanna_Jane Julie_Julia
+			Karin_Catherine Kristina_Christina
+			Leah_Leah Louise_Louise
+			Margrete_Margaret Maria_Mary Marianne_Mary Martha_Martha Mona_Monica 
+			Nicole_Nicole
+			Rachel_Rachel Regina_Regina Rosa_Rosa 
+			Sarah_Sarah Sigrid_Sigrid Snøfrid Svanhild_Svanhild Susanne_Susan 
+			Theresa_Theresa Thora_Thora Thordis_Thordis
+			Veronica_Veronica
+			Yvonne_Yvonne
+			Zoe_Zoe
+		}
+				
+		from_dynasty_prefix = "av "
+		feminist = yes
+		
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+	gothic = { #basically south Swedish
+		graphical_cultures = { norsegfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = {
+			OR = {
+				year < 1000 
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.5 0.5 0.85 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Adolphus_Adolf Alarik_Alaric Albrikt_Albert Alexander_Alexander Alfred_Alfred Anders_Andrew Anton_Anthony Arne_Arne Artur_Arthur August_Augustus Axel_Axel 
+			Balder_Balder Bengt_Benedict Bertil_Berthold Björn_Bjorn 
+			Carl_Charles Christian_Christian Christoph_Christopher Clemens_Clement
+			Daniel_Daniel David_David Douglas_Douglas 
+			Edvard_Edward Einar_Einar Elias_Elijah Emil_Emil Erik_Erik Eskild_Eskild 
+			Felix_Felix Filip_Phillip Folke_Folke Fredrik_Frederick Frej_Frej 
+			Gaius_Gaius Georg_George Glenn Göran_George Gottfrid_Godfrey Gunnar_Günther Gustavus_Gustav
+			Håkan_Hakon Hans_John Harald_Harold Helgi_Helge Henrik_Henry Hubertus_Hubert
+			Inge_Ingolf Ingvar_Ingvar 
+			Jakob_Jacob Joachim_Joachim Joel_Joel Johannes_John Jonas_Jonah Julius_Julius 
+			Karl_Charles Kenneth_Kenneth Kevin_Kevin Klas_Nicholas Knut_Knut 
+			Lars_Lawrence Liam_William Linus_Linus Lucas_Luke Ludvig_Louis  
+			Magnus_Magnus Markus_Mark Mårten_Martin Matteus_Matthew Mikael_Michael 
+			Niklas_Nicholas 
+			Odovakar_Odoacer Oliver_Oliver Olof_Olaf Oskar_Oscar Östen_Eysteinn 
+			Patrik_Patrick Paul_Paul Pehr_Peter 
+			Ragnar_Rainer Robert_Robert Roland_Roland Rolf_Rudolf 
+			Samuel_Samuel Sigismund_Sigmund Sigurd_Sigurd Simon_Simon Sören_Severinus Starkad_Starkad Stefan_Stephen Sten_Sten Sven_Sven 
+			Teodor_Theodore Theoderik_Theodoric Thomas_Thomas 
+			Ulf_Wolf Ulrik_Ulrich 
+			Valdemar_Vladimir Victor_Victor 
+			Walter_Walter			 
+			}
+		female_names = {
+			Aleta Alfhild Alfridh_Alfridh Agneta_Agnes Amanda_Amanda Anna_Anna Asta_Asta Astrid_Astrid 
+			Beata Birgitta_Bridget Bothild_Bothild 
+			Camilla_Camilla Carolina_Caroline Catarina_Catherine Cecilia_Cecilia Charlotte_Charlotte 
+			Edla Eleanora_Eleanor Elin_Helen Elisabet_Elizabeth Elsa_Elizabeth Emma_Emma 
+			Freja_Freja 
+			Grace_Grace Gunhild_Gunhild Gytha_Gytha 
+			Hedvig_Hedwig Helena_Helen Holmfrid 
+			Iliana Inga_Inge Ingrid_Ingrid Irene_Irene Isabella_Elizabeth
+			Jennifer_Jennifer Johanna_Jane
+			Karin_Catherine Katarina_Catherine Kristina_Christina 
+			Laura_Laura Lea_Leah Louise_Louise 
+			Madeleine_Madeline Maer Malmfrid_Malmfrid Margareta_Margaret Marie_Mary Marina_Marina Märta_Martha 
+			Rachel_Rachel Rebecca_Rebecca 
+			Sandra_Alexandra Sara_Sarah Sigrid_Sigrid Sofia_Sophia Susanna_Susan Svanhild_Svanhild 
+			Tamara_Tamar Thordis_Thordis 
+			Ulrika_Ulrike
+			Victoria_Victoria
+			Zoe_Zoe
+		}
+			
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		feminist = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	gutnish = { #gotland
+		graphical_cultures = { norsegfx }
+		alternate_start = {
+			OR = {
+				year < 1000 
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.35 0.75 0.85 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Adolphus_Adolf Alarik_Alaric Albrikt_Albert Alexander_Alexander Alfred_Alfred Anders_Andrew Anton_Anthony Arne_Arne Artur_Arthur August_Augustus Axel_Axel 
+			Balder_Balder Bengt_Benedict Bertil_Berthold Björn_Bjorn Brynjolf 
+			Carl_Charles Christian_Christian Christoph_Christopher Clemens_Clement
+			Daniel_Daniel David_David Douglas_Douglas 
+			Edvard_Edward Einar_Einar Elias_Elijah Emil_Emil Erik_Erik Eskild_Eskild 
+			Felix_Felix Filip_Phillip Folke_Folke Fredrik_Frederick Frej_Frej 
+			Gaius_Gaius Georg_George Göran_George Gottfrid_Godfrey Gunnar_Günther Gustavus_Gustav 
+			Håkan_Hakon Hans_John Harald_Harold Helgi_Helge Henrik_Henry Hubertus_Hubert
+			Inge_Ingolf Ingvar_Ingvar 
+			Jakob_Jacob Joachim_Joachim Joel_Joel Johannes_John Jonas_Jonah Julius_Julius 
+			Karl_Charles Kenneth_Kenneth Kevin_Kevin Klas_Nicholas Knut_Knut 
+			Lars_Lawrence Liam_William Linus_Linus Lucas_Luke Ludvig_Louis  
+			Magnus_Magnus Markus_Mark Mårten_Martin Matteus_Matthew Mikael_Michael 
+			Niklas_Nicholas 
+			Oliver_Oliver Olof_Olaf Oskar_Oscar Östen_Eysteinn 
+			Patrik_Patrick Paul_Paul Pehr_Peter 
+			Ragnar_Rainer Robert_Robert Roland_Roland Rolf_Rudolf 
+			Samuel_Samuel Sigismund_Sigmund Sigurd_Sigurd Simon_Simon Sören_Severinus Starkad_Starkad Stefan_Stephen Sten_Sten Sven_Sven 
+			Teodor_Theodore Thomas_Thomas 
+			Ulf_Wolf Ulrik_Ulrich 
+			Valdemar_Vladimir Victor_Victor 
+			Walter_Walter			 
+			}
+		female_names = {
+			Aleta Alfhild Alfridh_Alfridh Agneta_Agnes Amanda_Amanda Anna_Anna Asta_Asta Astrid_Astrid 
+			Babben_Barbara Barbro_Barbara Beata Birgitta_Bridget Bothild_Bothild
+			Camilla_Camilla Carolina_Caroline Catarina_Catherine Cecilia_Cecilia Charlotte_Charlotte 
+			Edla Elin_Helen Elisabet_Elizabeth Elsa_Elizabeth Emma_Emma 
+			Freja_Freja 
+			Grace_Grace Gunhild_Gunhild Gytha_Gytha 
+			Hafrid Helena_Helen Holmfrid 
+			Iliana Inga_Inge Ingfrid Ingrid_Ingrid Irene_Irene
+			Johanna_Jane
+			Karin_Catherine Katarina_Catherine Kristina_Christina 
+			Laura_Laura Louise_Louise 
+			Madeleine_Madeline Maer Malmfrid_Malmfrid Margareta_Margaret Marie_Mary Marina_Marina Märta_Martha 
+			Rachel_Rachel Rebecca_Rebecca 
+			Saga Sandra_Alexandra Sara_Sarah Sigrid_Sigrid Sofia_Sophia Susanna_Susan 
+			Tamara_Tamar Thordis_Thordis 
+			Ulrika_Ulrike
+			Victoria_Victoria
+			Zoe_Zoe
+		}
+			
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		feminist = yes
+		allow_looting = yes
+		seafarer = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	gottonsk = { #Gothic and Crimean melting pot
+		graphical_cultures = { romaniangfx serbsouthslavicgfx easternslavicgfx }
+		unit_graphical_cultures = { germangfx }
+		
+		color = { 0.55 0.55 0.9 }
+		
+		male_names = {
+			Akon_Hakon Arny_Arne 
+			Baldur_Balder Benegyt_Benedict Bertyll_Berthold Bïörn_Beorn
+			Danylo_Daniel Devid_David Duglas_Douglas 
+			Eïryk_Erik Elya_Elijah Emil_Emil Engólfyr_Ingolf Eskïld_Eskild 
+			Felyx_Felix Feodyr_Theodore Folkhiy_Folke Fomas_Thomas Fylyp_Philip Fredyryk_Frederick Frey_Frej 
+			Gharald_Harold Ghreghyr_Gregory Ghutfryt_Godfrey Ghunar_Gunnar Ghustav_Gustav
+			Hröryk_Rurik 
+			Ïakym_Joachim Ïakov_Jacob Ïeduard_Edward Ïoel_Joel Ïona_Jonah Ïovan_John Ïuliy_Julius
+			Kaïy_Gaius Karl_Charles Kennet_Kenneth Ketlemyr Kevyn_Kevin Knut_Knut Konstantyn_Constantine 
+			Luka_Luke Lyam_William Lyudviy_Louis
+			Maghen_Magnus Markh_Mark Marten_Martin Matviy_Matthew Mykhola_Nicholas 
+			Nills_Nicholas 
+			Odolf_Adolf Olafyr_Olaf Olaryk_Alaric Olbrekht_Albert Olegh_Helge Olexandr_Alexander Olfred_Alfred Olyver_Oliver Ondreys_Andrew Onlaufyïr Onton_Anthony Onundyïr_Anund Orimyr_Orm Ornbïörn Ornfastyi Osbïörn_Asbjörn Ottaryr_Ottar Oynar_Einar 
+			Robert_Robert Rogynar_Rainer Roland_Roland Rudolf_Rudolf 
+			Samuïl_Samuel Semyon_Simon Severin_Severinus Starkathyr_Starkad Steïn_Sten Stepan_Stephen Styrkar Sveïn_Sven Sygurthyr_Sigurd 
+			Uladymyr_Vladimir Ulfyr_Ulf Uolter_Walter 
+			Viktor_Victor
+			Yngvar_Ingvar Yvar_Ivar
+			Zhalimyr_Hjalmar Zygmund_Sigmund Zhorzh_George			
+		}
+		female_names = {
+			Aleta Alfyslava_Alfhild Alfrisa_Alfridh Alvöra Anna_Anna Asa_Åsa Asla Asta_Asta Astrida_Astrid 
+			Beata Birghitta_Brigid Bïörgha Bodila Bothyslava_Bothild 
+			Cecilia_Cecilia Edla Elina Elisabeta_Elizabeth 
+			Freyja_Freja 
+			Ghertyra Ghlota Ghrima Ghunnyslava_Gunhild Ghurla Ghutruna_Gudrun Gyla Gyrita Gyta_Gytha 
+			Hafymyra Halla Helena_Helen Holmimyra
+			Iliana Ingha_Inge Inghymyra Ingibïörga_Ingeborg Ingïrtyra_Ingegerd Ingryda_Ingrid 
+			Karyna_Catherine Krystyna_Christina 
+			Linda 
+			Maera Malmymyra_Malmfrid Margareta_Margaret Marya_Mary 
+			Rikyssa Rögnymyra_Ragnfrid Rögnyslava_Ragnhild 
+			Sara_Sarah Sigrida_Sigrid Skuld Sofia_Sophia Svanyslava_Svanhild 
+			Ulfyslava_Ulvhilde 
+			Vigdisa 
+			Ylva_Ylva Yrsa_Ursula 
+			Tora_Thora Tordis_Thordis Tyra_Thyra
+		}
+		
+		dukes_called_kings = yes
+				
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "ssyn"
+		female_patronym = "sdonka"
+		prefix = no # The patronym is added as a suffix
+		feminist = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	faroyingar = {
+		graphical_cultures = { norsegfx }
+		alternate_start = { 
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.25 0.50 0.70 }
+		
+		male_names = {
+			Abel_Abel Adam_Adam Anund_Anund Alv_Alf Arne_Arne Anton_Anthony
+			Balder_Balder Benjamin_Benjamin Bent_Benedict Bjarni_Beorn Brian_Brian 
+			Carl_Charles Christopher_Christopher
+			Damian_Damian Dánjal_Daniel David_David
+			Eigil_Egil Elias_Elijah Erik_Erik Eystein_Eysteinn 
+			Frederik_Frederick Frej_Frej
+			Georg_George Greger_Gregory Grim_Grim Gudmund_Gudmund Gudrød_Gudröd Gunnar_Gunnar 
+			Håkon_Hakon Harald_Harold Helge_Helge Hugo_Hugh 
+			Inge_Ingolf Ivar_Ivar 
+			Jákup_Jacob Jóannes_John Jógvan_John John_John Jón_John Jónas_Jonah Jósef_Joseph 
+			Kevin_Kevin 
+			Lars_Lawrence Louis_Louis Lucas_Luke
+			Magnus_Magnus Mark_Mark Martin_Martin Mikkjal_Michael Mogens_Magnus 
+			Ólavur_Olaf Oscar_Oscar Otto_Otto 
+			Páll_Paul Peter_Peter 
+			Raynold_Reynold Robert_Robert Roland_Roland Rolf_Rolf 
+			Samuel_Samuel Sigurd_Sigurd Skule_Skule Søren_Severinus Svein_Sven 
+			Thomas_Thomas Torbjørn_Torbjörn Tord_Tord Torbrand_Torbrand Torfinn_Torfinn Torgeir_Torgeir Torgil_Torkel Tormod Torolf_Thorolf Torstein_Torsten 
+			Ulv_Ulf 
+			Victor_Victor
+			Walter_Walter William_William			 
+		}
+		female_names = {
+			Alexandra_Alexandra Anna_Anna Astrid_Astrid 
+			Beatrix_Beatrix Brigida_Bridget 
+			Caroline_Caroline Cecilia_Cecilia 
+			Esther_Esther Elizabeth_Elizabeth 
+			Frances_Frances Freja_Freja 
+			Gjertrud_Gertrude Gloria_Gloria Grace_Grace Gunnhild_Gunhild 
+			Hannah_Hannah Haley_Haley 
+			Ingjerd_Ingegerd Ingrid_Ingrid Irene_Irene 
+			Jane_Jane Julia_Julia
+			Karin_Catherine Kristina_Christina 
+			Margrete_Margaret Maria_Mary Martha_Martha Monica_Monica
+			Ragnfrid_Ragnfrid Ragnhild_Ragnhild Regina_Regina 
+			Sara_Sarah Sigrid_Sigrid Snøfrid Svanhild_Svanhild 
+			Tamara_Tamar Thora_Thora Thordis_Thordis 		
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "av "
+		
+		male_patronym = "sson"
+		female_patronym = "sdatter"
+		prefix = no
+		feminist = yes
+
+		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+	danish = {
+		graphical_cultures = { norsegfx }
+		unit_graphical_cultures = { germangfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.15 0.4 0.55 }
+		
+		male_names = {
+			Abel_Abel Adam_Adam Albert_Albert Alexander_Alexander Allan_Alan Amblett Anders_Andrew Andreas_Andrew Anton_Anthony Anund_Anund Axel_Axel 
+			Balder_Balder Bent_Benedict Bernhard_Bernard Bjørn_Bjorn Bo 
+			Carl_Charles Christian_Christian Christoffer_Christopher Clemens_Clement 
+			Daniel_Daniel David_David
+			Edvard_Edward Einar_Einar Elias_Elijah Emil_Emil Erik_Erik Esben_Asbjörn 
+			Felix_Felix Filip_Phillip Frans_Francis Frederik_Frederick Frej_Frej Frode_Frode 
+			Gabriel_Gabriel Gerhard_Gerard Gotfred_Godfrey Gregers_Gregory Grim_Grim Gunnar_Günther Gustav_Gustav
+			Hans_John Harald_Harold Helge_Helge Hemming Henrik_Henry Herman_Herman Hjalmar Holger Hugo_Hugh 
+			Ingvar_Ingvar Isak_Isaac 
+			Jakob_Jacob Jens_John Joakim_Joachim Johan_John Jonas_Jonah Jonathan_Jonathan Jørgen_George Josef_Joseph Julius_Julius 
+			Kai_Gaius Karl_Charles Kasper_Caspar Kennet_Kenneth Kevin_Kevin Knud_Knut Konrad_Konrad 
+			Lars_Lawrence Lennart_Leonard Leo_Leo Lucas_Luke Ludvig_Louis 
+			Mads_Matthew Magnus_Magnus Marcus_Mark Marius_Marius Martin_Martin Mathias_Matthew Max_Maximus Mikkel_Michael Mogens_Magnus 
+			Nikolai_Nicholas 
+			Olaf_Olaf Oliver_Oliver Oscar_Oscar 
+			Paul_Paul Peter_Peter 
+			Ragnar_Rainer Ragnvald_Reynold Rasmus_Erasmus Robert_Robert Rolf_Rudolf 
+			Samuel_Samuel Sebastian_Sebastian Sigurd_Sigurd Simon_Simon Søren_Severinus Stefan_Stephen Svend_Sven 
+			Theodor_Theodore Thorolf_Thorolf Thomas_Thomas Tobias_Tobias
+			Ulrik_Ulrich 
+			Valdemar_Vladimir Valentin_Valentine Viktor_Victor Vilhelm_William			
+		}
+		female_names = {
+			Agnethe_Agatha Alexandra_Alexandra Alice_Alice Amanda_Amanda Anna_Anna Antonia_Antonia Asta_Asta 
+			Benedikte_Benedicta Betty_Elizabeth Birgitta_Bridget 
+			Caroline_Caroline Cecilie_Cecilia Charlotte_Charlotte Christina_Christina Clara_Clara 
+			Danni_Daniela Dorothea_Dorothy 
+			Edith_Edith Elisabeth_Elizabeth Ellinor_Eleanor Emilie_Emily Emma_Emma Erika_Erika Ester_Esther Eva_Eve 
+			Frederikke_Frederique
+			Grethe_Margaret Gudrun_Gudrun Gunhild_Gunhild Gyda_Gytha 
+			Hanna_Hannah Hedvig_Hedwig Helena_Helen 
+			Ida_Ida Ingrid_Ingrid Isabella_Elizabeth
+			Johanne_Jane Judit_Judith Josefine_Josephine Julia_Julia 
+			Karin_Catherine Katarina_Catherine Katrine_Catherine Kirsten_Christina 
+			Laura_Laura Lea_Leah Lise_Elizabeth Louise_Louise
+			Magdalena_Madeline Margrethe_Margaret Maria_Mary Martha_Martha Mikkeline_Michelle Monica_Monica
+			Natalie_Natalie
+			Olivia_Olivia
+			Paula_Paula
+			Rakel_Rachel Rosa_Rosa 
+			Sanne_Susan Sara_Sarah Sigrid_Sigrid Sofie_Sophia Stefanie_Stephanie Svanhild_Svanhild 
+			Tatiana_Tatiana Teresa_Theresa Thyra_Thyra Tora_Thora
+			Zoe_Zoe
+		}
+			
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no
+		feminist = yes
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+	}
+	
+	icelander = {
+		graphical_cultures = { norsegfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.15 0.4 0.55 }
+		
+		male_names = {
+			Abel_Abel Alexander_Alexander Andrés_Andrew Anton_Anthony Anund_Anund Ármann_Herman Árni_Arne Aron_Aaron Arthur_Arthur 
+			Balder_Balder Benedikt_Benedict Benjamín_Benjamin Bjørn_Bjorn Bragi 
+			Christian_Christian Christoffer_Christopher 
+			Daniel_Daniel David_David
+			Edvard_Edward Einar_Einar Eiríkur_Erik Elías_Elijah Ernst_Ernest 
+			Fridrik_Frederick Frej_Frej Frode_Frode 
+			Georg_George Gnupa_Gnupa Gorm_Gorm Gotfred_Godfrey Gregers_Gregory Grim_Grim Gunnar_Günther
+			Hákon_Hakon Halfdan Halvor Hans_John Haraldur_Harold Helgi_Helge Henrik_Henry 
+			Ingvar_Ingvar Ísak_Isaac 
+			Jakob_Jacob Jens_John Joakim_Joachim Jóhann_John Jónas_Jonah Jónatan_Jonathan Jósef_Joseph 
+			Karl_Charles Kevin_Kevin Knud_Knut Kristján_Christian Kristófer_Christopher 
+			Lárus_Lawrence Leif Lennart_Leonard Ludvik_Louis 
+			Magnús_Magnus Matthías_Matthew Mikael_Michael 
+			Njáll_Neil 
+			Odd_Odd Ólafur_Olaf Óskar_Oscar Otto_Otto 
+			Páll_Paul Pétur_Peter 
+			Ragnar_Rainer Ragnvald_Reynold Róbert_Robert Rolf_Rudolf 
+			Severin_Severinus Sigurd_Sigurd Sivard Stefán_Stephen Svend_Sven Sämund_Sämund 
+			Thorolf_Thorolf Thorvald Tómas_Thomas Torbjørn_Torben Tord_Tord Torfinn_Torfinn Torgils_Torkel 
+			Úlfur_Ulf 
+			Valdemar_Vladimir Viktor_Victor Vilfred_Wilfred Vilhjálmur_William 
+			Yngvar_Ingvar
+		}
+		female_names = {
+			Agnethe_Agatha Anna_Anna Asta_Asta 
+			Benedikte_Benedicta Birgitta_Bridget Bodil 
+			Cecilie_Cecilia Christina_Christina 
+			Dagmar Dorothea_Dorothy 
+			Elisabeth_Elizabeth Ellinor_Eleanor Emilie_Emily Erika_Erika Ester_Esther Estrid_Astrid 
+			Frederikke_Frederique Freja_Freja
+			Grethe_Margaret Gudrun_Gudrun Gunhild_Gunhild Gyda_Gytha 
+			Helena_Helen 
+			Ida_Ida Ingeborg_Ingeborg Ingegerd_Ingegerd Ingrid_Ingrid 
+			Johanne_Jane Jutta_Judith 
+			Karin_Catherine Karoline_Caroline Katarina_Catherine Katrine_Catherine Kirsten_Christina Klara_Clara 
+			Lise_Elizabeth Luitgard Lykke
+			Magdalene_Madeline Maren_Mary Margrethe_Margaret Maria_Mary Martha_Martha 
+			Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rikissa Runa 
+			Sanna_Susan Signe Sigrid_Sigrid Silje_Cecilia Sofie_Sophia Svanhild_Svanhild 
+			Thyra_Thyra Tora_Thora Thordis_Thordis 
+			Åse_Åsa
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no
+		feminist = yes
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+	
+	doggerlander = {
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.15 0.5 0.5 }
+		
+		male_names = {
+			Aaron_Aaron Abel_Abel Adam_Adam Adrian_Adrian Alexander_Alexander Anders_Andrew Anund_Anund 
+			Balder_Balder Baldwin_Baldwin Benedikt_Benedict Bernard_Bernard Bjørn_Bjorn Brandon_Brandon Brian_Brian 
+			Caleb_Caleb Carl_Charles Cedric_Cedric Chad_Chad Christian_Christian Christoffer_Christopher Colin_Colin 
+			Daniel_Daniel David_David Dolf_Adolf Douglas_Douglas
+			Edward_Edward Einar_Einar Ellis_Elijah Erik_Erik Ernest_Ernest 
+			Fabian_Fabian Francis_Francis Fredrik_Frederick Frej_Frej 
+			Gabriel_Gabriel Gavin_Gavin Gerard_Gerard Gordon_Gordon Gotfred_Godfrey Gregers_Gregory Gunnar_Günther
+			Halfdan Hans_John Harold_Harold Harry_Henry Hector_Hector Hemming Henrik_Henry Herbert_Herbert Hiram_Hiram Holger 
+			Ian_John Isaac_Isaac
+			Jacob_Jacob James_James Joakim_Joachim Johann_John Jørgen_George Joseph_Joseph Justin_Justin 
+			Keith_Keith Kenneth_Kenneth Kevin_Kevin Knud_Knut 
+			Lars_Lawrence Leonard_Leonard Ludvig_Louis Lucas_Luke 
+			Mads_Matthew Malcolm_Malcolm Martin_Martin Mikkel_Michael Morgan 
+			Niels_Nicholas Nigel_Nigel Norman_Norman 
+			Olaf_Olaf Oliver_Oliver Oscar_Oscar 
+			Paul_Paul Peter_Peter Philip_Phillip 
+			Ragnar_Rainer Ragnvald_Reynold Richard_Richard Robert_Robert Roger_Roger Roland_Roland Rolf_Rudolf Ryan 
+			Samuel_Samuel Scott_Scott Severin_Severinus Sigurd_Sigurd Simon_Simon Steven_Stephen Sven_Sven 
+			Thomas_Thomas Torbjørn_Torben Torgils_Torkel Tristan_Tristan Tyler_Tyler 
+			Ulf_Wolf 
+			Valentin_Valentine Vincent_Vincent Vilfred_Wilfred 
+			Walter_Walter William_William Winston_Winston
+			Zachary_Zachary
+		}
+		female_names = {
+			Agnes_Agnes Alexandra_Alexandra Alice_Alice Angela_Angela Anna_Anna Audrey 
+			Beatrix_Beatrix Benedikte_Benedicta Bethany_Bethany Birgitta_Bridget 
+			Caitlin_Caitlin Caroline_Caroline Catherine_Catherine Cecilia_Cecilia Charlotte_Charlotte Chloe_Chloe Christina_Christina 
+			Danielle_Daniela Diana_Diana Dorothea_Dorothy 
+			Elisabeth_Elizabeth Ellinor_Eleanor Emilie_Emily Erika_Erika Ester_Esther Estrid_Astrid Eve_Eve 
+			Frances_Frances Frederikke_Frederique Freja_Freja
+			Georgia_Georgia Grace_Grace Gudrun_Gudrun Gunhild_Gunhild Gyda_Gytha 
+			Haley_Haley Hannah_Hannah Helena_Helen 
+			Ida_Ida Ingrid_Ingrid Irene_Irene
+			Jane_Jane Jennifer_Jennifer Johanne_Jane Julia_Julia Jutta_Judith 
+			Karin_Catherine Katrine_Catherine Kirsten_Christina Klara_Clara 
+			Laura_Laura Lisa_Elizabeth
+			Magdalene_Madeline Margaret_Margaret Marie_Mary Martha_Martha 
+			Rachel_Rachel Rebecca_Rebecca 
+			Sanna_Susan Sara_Sarah Sigrid_Sigrid Silje_Cecilia Sofie_Sophia Svanhild_Svanhild 
+			Theresa_Theresa 
+			Victoria_Victoria
+		}
+		parent= danish
+		parent= eastlander
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "ef "
+		
+		male_patronym = "ssen"
+		female_patronym = "sdottir"
+		prefix = no
+		feminist = yes
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+}

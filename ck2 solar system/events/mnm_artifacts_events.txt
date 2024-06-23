@@ -49,12 +49,6 @@ character_event = {
 			has_character_modifier = relic_rumor_medium
 			has_character_modifier = relic_rumor_minor
 		}
-		NOR = {
-			religion = zun_pagan
-			religion = zun_pagan_reformed
-			religion = pagan
-			religion = hellenic_pagan
-		}
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
@@ -86,384 +80,12 @@ character_event = {
 					factor = 0.7
 					ai = yes
 				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = christian
-						has_artifact = bones_of_st_peter
-						has_artifact = staff_of_moses
-						has_artifact = davids_harp
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = jewish_group
-						has_artifact = staff_of_moses
-						has_artifact = davids_harp
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = muslim
-						has_artifact = staff_of_moses
-						has_artifact = davids_harp
-						has_artifact = seal_of_mohammad
-						has_artifact = holy_banner_of_mohammad
-						has_artifact = blessed_mantle
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = zoroastrian_group
-						has_artifact = cup_of_jamshid
-						has_artifact = babr_e_bayan
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = indian_group
-						has_artifact = buddhas_tooth
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
-						}
-						has_artifact = mjolnir
-						has_artifact = andvaranaut
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = west_african_pagan
-							religion = west_african_pagan_reformed
-						}
-						has_artifact = fetish_of_souls
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = finnish_pagan
-							religion = finnish_pagan_reformed
-						}
-						has_artifact = sampo
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = slavic_pagan
-							religion = slavic_pagan_reformed
-						}
-						has_artifact = axe_of_perun
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = baltic_pagan
-							religion = baltic_pagan_reformed
-						}
-						has_artifact = axe_of_perkunas
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = tengri_pagan
-							religion = tengri_pagan_reformed
-						}
-						has_artifact = yada_tashy
-					}
-				}
-                modifier = {
-                    factor = 0
-                    AND = {
-                        religion_openly_hellenic_or_reformed_trigger = yes
-                        has_artifact = nimean_lion_skin
-                        has_artifact = kronium
-                        has_artifact = caesars_robe
-                        has_artifact = aethons_feather
-                    }
-                }
-                modifier = {
-                    factor = 0
-                    AND = {
-                        religion_openly_celtic_or_reformed_trigger = yes
-                        has_artifact = silver_hand_of_nuada
-                        has_artifact = skull_of_brigid
-                    }
-                }
-                modifier = {
-                    factor = 0
-                    AND = {
-                        religion = britannic_pagan
-                        has_artifact = trident_of_britannia
-                        has_artifact = helm_of_britannia
-                        has_artifact = shield_of_britannia
-                    }
-                }
-				modifier = {
-					factor = 0
-					religion_openly_in_egyptian_subgroup_trigger = yes
-				}
-				event_target:rumor_councillor = { character_event = { id = MNM.9001 } }
+				event_target:rumor_councillor = { character_event = { id = MNM.9001 } } 
 			}
 			30 = { #Good rumor
-				modifier = { 
-					factor = 0 
-					OR = {
-						religion = finnish_pagan
-						religion = finnish_pagan_reformed
-						religion = slavic_pagan
-						religion = slavic_pagan_reformed
-						religion = baltic_pagan
-						religion = baltic_pagan_reformed
-						religion = tengri_pagan
-						religion = tengri_pagan_reformed
-					} 
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = christian
-						has_artifact = crown_of_thorns
-						has_artifact = seamless_robe_of_jesus
-						has_artifact = fragment_of_true_cross
-						has_artifact = holy_foreskin
-						has_artifact = seal_of_solomon
-						has_artifact = image_of_edessa
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = jewish_group
-						has_artifact = seal_of_solomon
-						has_artifact = tabernacle
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = muslim
-						has_artifact = seal_of_solomon
-						has_artifact = sword_of_mohammad
-						has_artifact = letter_of_mohammad
-						has_artifact = blessed_sandals
-						has_artifact = cloak_of_mohammad
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = zoroastrian_group
-						has_artifact = derafsh_kaviani
-						has_artifact = cyrus_cylinder
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = indian_group
-						has_artifact = mountain_of_light_diamond
-						has_artifact = elaborate_danda
-						has_artifact = sarira
-						has_artifact = sariraka_actual_body_part
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						OR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
-						}
-						has_artifact = gjallarhorn
-					}
-				}
-                modifier = {
-                    factor = 0
-                    AND = {
-                        religion_openly_in_hellenic_subgroup_trigger = yes
-                        has_artifact = skull_of_alexander
-                        has_artifact = alexanders_armor
-                        has_artifact = sphinx_claw
-                        has_artifact = golden_apple
-                        has_artifact = hectors_armor
-                        has_artifact = odysseus_bow
-                        has_artifact = mask_of_agamemnon
-                        has_artifact = crown_of_theseus
-                    }
-                }
-                modifier = {
-                    factor = 0
-                    AND = {
-                        religion_openly_celtic_or_reformed_trigger = yes
-                        has_artifact = tusk_of_torc_triath
-                        has_artifact = horn_of_bran_galed
-                    }
-                }
-				modifier = {
-					factor = 0
-					AND = {
-						religion = britannic_pagan
-						has_artifact = skull_of_brigid
-						has_artifact = tusk_of_torc_triath
-                        has_artifact = horn_of_bran_galed
-					}
-				}
-				modifier = {
-					factor = 0
-					religion_openly_in_egyptian_subgroup_trigger = yes
-				}
 				event_target:rumor_councillor = { character_event = { id = MNM.9002 } }
 			} 
 			60 = { #Weak rumor
-				modifier = { 
-					factor = 0 
-					AND = {
-						religion_group = pagan_group
-						religion_openly_in_celtic_subgroup_trigger = no
-						religion_openly_in_hellenic_subgroup_trigger = no
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = christian
-						has_artifact = fingerbone_of_saint
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-						has_artifact = chains_of_st_peter
-						has_artifact = right_hand_st_demetrius
-						has_artifact = veil_of_veronica
-						has_artifact = remains_of_st_cessianus
-						has_artifact = weeping_statue
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = jewish_group
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-						has_artifact = davids_sling
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = muslim
-						has_artifact = mohammads_beard
-						OR = {
-							has_artifact = blessed_mantle #safeguard so you don't end up with two waters
-							has_artifact = water_of_blessed_mantle
-						}
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-						has_artifact = mohammads_bowl
-						has_artifact = tooth_of_mohammad
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = zoroastrian_group
-						has_artifact = haoma_sapling
-						has_artifact = keshmar_cypress_branch
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-					}
-				}
-				modifier = {
-					factor = 0
-					AND = {
-						religion_group = indian_group
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-					}
-				}
-                modifier = {
-                    factor = 0
-                    AND = {
-                        religion_openly_in_hellenic_subgroup_trigger = yes
-                        has_artifact = achilles_shield_piece
-                        has_artifact = corinthian_helm
-                        has_artifact = tongue_of_oracle
-                        has_artifact = silver_amphora
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-                    }
-                }
-                modifier = {
-                    factor = 0
-                    AND = {
-                        religion_openly_in_celtic_subgroup_trigger = yes
-                        has_artifact = torque_of_boudicca
-                        has_artifact = old_carnyx
-                        has_artifact = horned_helm
-                        has_artifact = battersea_shield
-						has_artifact = famous_head
-						has_artifact = famous_tongue
-						has_artifact = infamous_tongue
-						has_artifact = famous_hand
-						has_artifact = famous_arm
-						has_artifact = famous_foot
-						has_artifact = famous_ancient_weapon
-                    }
-                }
 				event_target:rumor_councillor = { character_event = { id = MNM.9003 } }
 			} 
 			9000 = { #AI is less likely to find artifacts
@@ -1066,16 +688,7 @@ character_event = {
 
 				#Christian artifacts
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = skull_of_brigid
-					}
-					narrative_event = { id = celtic.2000 } #receive "Skull of Brigid" event (christian)
-				}
-				10 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
+					modifier = { factor = 0 can_use_christian_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1094,7 +707,7 @@ character_event = {
 					character_event = { id = MNM.9805 } #receive "Seamless Robe of Jesus" event
 				}
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
+					modifier = { factor = 0 can_use_christian_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
@@ -1104,7 +717,7 @@ character_event = {
 					character_event = { id = MNM.9806 } #Crown of Thorns
 				}
 				20 = {
-					modifier = { factor = 0 NOT = { religion_group = christian } }
+					modifier = { factor = 0 can_use_christian_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
@@ -1143,9 +756,7 @@ character_event = {
 				10 = {
 					modifier = { 
 						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
+						can_use_christian_stuff_trigger = no
 					}
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
@@ -1159,9 +770,7 @@ character_event = {
 				10 = {
 					modifier = { 
 						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
+						can_use_christian_stuff_trigger = no
 					}
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
@@ -1175,9 +784,7 @@ character_event = {
 				10 = {
 					modifier = { 
 						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
+						can_use_christian_stuff_trigger = no
 					}
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
@@ -1191,9 +798,7 @@ character_event = {
 				10 = {
 					modifier = { 
 						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
+						can_use_christian_stuff_trigger = no
 					}
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
@@ -1207,9 +812,7 @@ character_event = {
 				10 = {
 					modifier = { 
 						factor = 0 
-						NOT = { 
-							religion_group = christian
-						} 
+						can_use_christian_stuff_trigger = no
 					}
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
@@ -1235,11 +838,7 @@ character_event = {
 				10 = {
 					modifier = {
 						factor = 0 
-						NOR = { 
-							religion_group = jewish_group
-							religion_group = christian
-							religion_group = muslim
-						}
+						abrahamic_religion_trigger = no
 					}
 					modifier = { factor = 0.5 NOT = { religion_group = jewish_group } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
@@ -1253,11 +852,7 @@ character_event = {
 				10 = {
 					modifier = {
 						factor = 0 
-						NOR = { 
-							religion_group = jewish_group
-							religion_group = christian
-							religion_group = muslim
-						}
+						abrahamic_religion_trigger = no
 					}
 					modifier = { factor = 0.5 NOT = { religion_group = jewish_group } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
@@ -1271,11 +866,7 @@ character_event = {
 				10 = {
 					modifier = {
 						factor = 0 
-						NOR = { 
-							religion_group = jewish_group
-							religion_group = christian
-							religion_group = muslim
-						}
+						abrahamic_religion_trigger = no
 					}
 					modifier = { factor = 0.5 NOT = { religion_group = jewish_group } }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
@@ -1326,7 +917,7 @@ character_event = {
 
 				#Muslim artifacts
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1336,7 +927,7 @@ character_event = {
 					narrative_event = { id = MNM.9820 } #Seal of Mohammad
 				}
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1346,7 +937,7 @@ character_event = {
 					narrative_event = { id = MNM.9821 } #Holy Banner of Mohammad
 				}
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
@@ -1367,7 +958,7 @@ character_event = {
 					character_event = { id = MNM.9823 } #Sword of Mohammad
 				}
 				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
@@ -1388,7 +979,7 @@ character_event = {
 					character_event = { id = MNM.9825 } #Mohammad's Beard
 				}
 				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
 						factor = 0
@@ -1399,7 +990,7 @@ character_event = {
 				}
 
 				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
@@ -1410,7 +1001,7 @@ character_event = {
 				}
 
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
 						factor = 0
@@ -1421,7 +1012,7 @@ character_event = {
 				}
 
 				10 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
 						factor = 0
@@ -1432,7 +1023,7 @@ character_event = {
 				}
 
 				20 = {
-					modifier = { factor = 0 NOT = { religion_group = muslim } }
+					modifier = { factor = 0 can_use_muslim_stuff_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
@@ -1532,7 +1123,7 @@ character_event = {
 					modifier = { 
 						factor = 0 
 						NOT = {
-							religion_group = indian_group
+							religion_group = buddhist_group
 						}
 					}
 					modifier = {
@@ -1549,8 +1140,9 @@ character_event = {
 				20 = {
 					modifier = { 
 						factor = 0 
-						NOT = {
+						NOR = {
 							religion_group = indian_group
+							religion_group = buddhist_group
 						}
 					}
 					modifier = {
@@ -1566,7 +1158,10 @@ character_event = {
 				}
 				10 = {
 					trigger = {
-						religion_group = indian_group
+						OR = {
+							religion_group = indian_group
+							religion_group = buddhist_group
+						}
 						has_character_modifier = relic_rumor_major	
 						NOT = { has_artifact = mountain_of_light_diamond }
 					}
@@ -1574,15 +1169,9 @@ character_event = {
 				}
 				10 = {
 					modifier = { 
-						factor = 0 
+						factor = 0
 						NOT = {
-							religion_group = indian_group
-						}
-					}
-					modifier = { 
-						factor = 0.5
-						NOT = {
-							religion = buddhist
+							religion_group = buddhist_group
 						}
 					}
 					modifier = {
@@ -1598,15 +1187,9 @@ character_event = {
 				}
 				20 = {
 					modifier = { 
-						factor = 0 
+						factor = 0
 						NOT = {
-							religion_group = indian_group
-						}
-					}
-					modifier = { 
-						factor = 0.5
-						NOT = {
-							religion = buddhist
+							religion_group = buddhist_group
 						}
 					}
 					modifier = {
@@ -1620,77 +1203,116 @@ character_event = {
 					#Insert artifact event here
 					character_event = { id = MNM.9204 } #Looking for a Body part of Buddha
 				}
+				10 = {
+					modifier = { 
+						factor = 0
+						NOT = {
+							religion_group = indian_group
+						}
+					}
+					modifier = {
+						factor = 0
+						NOT = { has_character_modifier = relic_rumor_minor }
+					}
+					modifier = {
+						factor = 0
+						has_artifact = rajasaurus_skull
+					}
+					#Insert artifact event here
+					character_event = { id = ART.1011 } #Looking for a Sarira
+				}
+				15 = {
+					modifier = { 
+						factor = 0
+						NOR = {
+							religion = budaism
+							culture = hungarian
+						}
+					}
+					modifier = {
+						factor = 0
+						NOT = { has_character_modifier = relic_rumor_major }
+					}
+					modifier = {
+						factor = 0
+						has_artifact = sword_of_attila
+					}
+					#Insert artifact event here
+					character_event = { id = ART.1018 } #Looking for a Sarira
+				}
 				
-
-				##Pagan artifacts##
-				#Germanic artifacts
-				20 = {
+				# neovedantic
+				15 = {
 					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
+						factor = 0
+						NOT = {
+							religion = neovedantic
 						}
 					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
-						has_artifact = gjallarhorn
+						NOT = { has_character_modifier = relic_rumor_medium }
+					}
+					modifier = {
+						factor = 0
+						has_artifact = axe_of_devendra
 					}
 					#Insert artifact event here
-					character_event = { id = MNM.9600 } #Gjallarhorn
+					character_event = { id = ART.1012 } #Looking for a Sarira
 				}
-
 				10 = {
 					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
+						factor = 0
+						NOT = {
+							religion = neovedantic
 						}
 					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
-						has_artifact = andvaranaut
+						NOT = { has_character_modifier = relic_rumor_major }
+					}
+					modifier = {
+						factor = 0
+						has_artifact = varunastra
 					}
 					#Insert artifact event here
-					narrative_event = { id = MNM.9601 } #Andvaranaut/Andvari's Gift
+					character_event = { id = ART.1014 } #Looking for a Sarira
 				}
-
 				10 = {
 					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = norse_pagan
-							religion = norse_pagan_reformed
+						factor = 0
+						NOT = {
+							religion = neovedantic
 						}
 					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
-						has_artifact = mjolnir
+						NOT = { has_character_modifier = relic_rumor_major }
+					}
+					modifier = {
+						factor = 0
+						has_artifact = agneyastra
 					}
 					#Insert artifact event here
-					narrative_event = { id = MNM.9602 } #Mjolnir
+					character_event = { id = ART.1015 } #Looking for a Sarira
 				}
-
-				#West African artifacts
 				10 = {
 					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = west_african_pagan
-							religion = west_african_pagan_reformed
+						factor = 0
+						NOT = {
+							religion = neovedantic
 						}
 					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
-						has_artifact = fetish_of_souls
+						NOT = { has_character_modifier = relic_rumor_major }
+					}
+					modifier = {
+						factor = 0
+						has_artifact = suryastra
 					}
 					#Insert artifact event here
-					narrative_event = { id = MNM.9603 } #Fetish of Souls
+					character_event = { id = ART.1016 } #Looking for a Sarira
 				}
 
 				#Finnish artifacts
@@ -1711,24 +1333,6 @@ character_event = {
 					narrative_event = { id = MNM.9604 } #Sampo/Mill of Fortune
 				}
 
-				#Slavic artifacts
-				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = {
-							religion = slavic_pagan
-							religion = slavic_pagan_reformed
-						}
-					}
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = axe_of_perun
-					}
-					#Insert artifact event here
-					narrative_event = { id = MNM.9605 } #Axe of Perun
-				}
-
 				#Romuvan artifacts
 				10 = {
 					modifier = { 
@@ -1746,6 +1350,53 @@ character_event = {
 					#Insert artifact event here
 					narrative_event = { id = MNM.9606 } #Axe of Perkunas
 				}
+				
+				#Ironist artifacts
+				10 = {
+					modifier = { factor = 0 NOT = { religion= ironist } }
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
+					modifier = {
+						factor = 0
+						has_artifact = chariot_ferrari
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1008 } #Ferrari
+				}
+				10 = {
+					modifier = { factor = 0 NOT = { religion= ironist } }
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
+					modifier = {
+						factor = 0
+						has_artifact = chariot_tachanka
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1009 } #Tachanka
+				}
+				
+				#Commie artifacts
+				15 = {
+					modifier = { factor = 0 NOT = { religion= stalinist } }
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
+					modifier = {
+						factor = 0
+						has_artifact = sword_of_stalingrad
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1010 } #Sword of Stalingrad
+				}
+				
+				#Jacobinist artifacts
+				15 = {
+					modifier = { factor = 0 NOT = { religion= jacobinist } }
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
+					modifier = {
+						factor = 0
+						has_artifact = heart_of_bathman
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1793 } #Hear of Marat
+				}
+
 
 				#Tengri artifacts
 				10 = {
@@ -1764,280 +1415,126 @@ character_event = {
 					#Insert artifact event here
 					narrative_event = { id = MNM.9607 } #Yada Tashy/Rain Stone
 				}
-
-                # Celtic Artifacts
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
+				
+				# Relics of the Old World
+				
+				5 = {
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
-						factor = 0
-						has_artifact = silver_hand_of_nuada
+						factor = 0.02
+							has_artifact = ate_firearm
 					}
-					narrative_event = { id = celtic.2002 } #receive "Silver Hand of Nuada" event
+					#Insert artifact event here
+					narrative_event = { id = ART.1000 }
 				}
-				10 = {
-					modifier = { factor = 0 NOT = { religion = britannic_pagan } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = trident_of_britannia
-					}
-					narrative_event = { id = celtic.2003 } #receive "Britannia's Trident" event
-				}
-				10 = {
-					modifier = { factor = 0 NOT = { religion = britannic_pagan } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = helm_of_britannia
-					}
-					narrative_event = { id = celtic.2004 } #receive "Britannia's Helmet" event
-				}
-				10 = {
-					modifier = { factor = 0 NOT = { religion = britannic_pagan } }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = shield_of_britannia
-					}
-					narrative_event = { id = celtic.2005 } #receive "Britannia's Shield" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = skull_of_brigid
-					}
-					narrative_event = { id = celtic.2000 } #receive "Skull of Brigid" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = horn_of_bran_galed
-					}
-					narrative_event = { id = celtic.2006 } #receive "Horn of Bran Galed" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
+				5 = {
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
-						has_artifact = tusk_of_torc_triath
+						has_artifact = ate_calculator
 					}
-					narrative_event = { id = celtic.2007 } #receive "Tusk of Torc Triath" event
+					#Insert artifact event here
+					narrative_event = { id = ART.1001 }
 				}
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
+				5 = {
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
-						has_artifact = torque_of_boudicca
+						has_artifact = ate_watch
 					}
-					narrative_event = { id = celtic.2008 } #receive "Boudicca's Torque" event
+					#Insert artifact event here
+					narrative_event = { id = ART.1002 }
 				}
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
+				5 = {
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
-						has_artifact = old_carnyx
+						has_artifact = ate_typewriter
 					}
-					narrative_event = { id = celtic.2009 } #receive "Old Carnyx" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = horned_helm
-					}
-					narrative_event = { id = celtic.2010 } #receive "Horned Helm" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_celtic_or_reformed_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = battersea_shield
-					}
-					narrative_event = { id = celtic.2011 } #receive "Battersea Shield" event
-				}
-
-                # Hellenic Artifacts
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = nimean_lion_skin
-					}
-					narrative_event = { id = hellenic.1000 } #receive "Nimean Lion Skin" event
-				}
-				10 = {
-					modifier = {
-                        factor = 0
-                        religion_openly_hellenic_or_reformed_trigger = no
-                        NOT = { religion = titan_pagan }
-                    }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = kronium
-					}
-					narrative_event = { id = hellenic.1001 } #receive "Kronium" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = caesars_robe
-					}
-					narrative_event = { id = hellenic.1002 } #receive "Bloody Robe of Caesar" event
-				}
-				10 = {
-					modifier = {
-                        factor = 0
+					modifier = { 
+						factor = 3
 						OR = {
-	                        religion = promethean_pagan # prometheans don't like aethon
-							NOR = {
-								religion_openly_hellenic_or_reformed_trigger = yes
-								religion = titan_pagan
+							religion = novelist
+							religion = novelist_reformed
+						}
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1003 }
+				}
+				5 = {
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
+					modifier = {
+						factor = 0
+						has_artifact = ate_telescope
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1004 }
+				}
+				5 = {
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
+					modifier = {
+						factor = 0
+						has_artifact = ate_textbooks
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1005 }
+				}
+				5 = {
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
+					modifier = {
+						factor = 0
+						has_artifact = ate_compass
+					}
+					#Insert artifact event here
+					narrative_event = { id = ART.1006 }
+				}
+				20 = {
+					modifier = {
+						factor = 0
+						NOT = {
+							capital_scope = {
+								region = world_europe
 							}
 						}
-                    }
+					}
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
+					character_event = { id = ART.1007 }
+				}
+				5 = {
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
-						has_artifact = aethons_feather
+						has_artifact = gold_bar
 					}
-					narrative_event = { id = hellenic.1003 } #receive "aethon's Feather" event
+					#Insert artifact event here
+					narrative_event = { id = ART.1800 }
 				}
-				10 = {
-					modifier = { factor = 0 religion_openly_hellenic_or_reformed_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
+				30 = {
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
 					modifier = {
 						factor = 0
-						has_artifact = hectors_armor
+						has_artifact = pottery
 					}
-					narrative_event = { id = hellenic.1005 } #receive "Hector's Armor" event
+					#Insert artifact event here
+					narrative_event = { id = ART.1801 }
 				}
 				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = odysseus_bow
-					}
-					narrative_event = { id = hellenic.1006 } #receive "Odysseus' Bow" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = mask_of_agamemnon
-					}
-					narrative_event = { id = hellenic.1007 } #receive "Mask of Agamemnon" event
-				}
-				10 = {
-					modifier = { 
-                        factor = 0
-                        NOR = {
-                            religion = promethean_pagan
-                            religion_openly_hellenic_or_reformed_trigger = yes
-                        }
-                    }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = crown_of_theseus
-					}
-					narrative_event = { id = hellenic.1008 } #receive "Crown of Theseus" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = skull_of_alexander
-					}
-					narrative_event = { id = hellenic.1009 } #receive "Alexander's Skull" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
-					modifier = {
-						factor = 0
-						has_artifact = alexanders_armor
-					}
-					narrative_event = { id = hellenic.1010 } #receive "Alexander's Armor" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
-						has_artifact = gold_amphora
+						has_artifact = record_1
 					}
-					narrative_event = { id = hellenic.1011 } #receive "Golden Amphora" event
+					#Insert artifact event here
+					narrative_event = { id = ART.1802 }
 				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
+				7 = {
+					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_major } }
 					modifier = {
 						factor = 0
-						has_artifact = sphinx_claw
+						has_artifact = silver_bar
 					}
-					narrative_event = { id = hellenic.1012 } #receive "Sphinx Claw" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
-					modifier = {
-						factor = 0
-						has_artifact = golden_apple
-					}
-					narrative_event = { id = hellenic.1013 } #receive "Golden Apple" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = achilles_shield_piece
-					}
-					narrative_event = { id = hellenic.1004 } #receive "Fragment of Achilles' Shield" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = corinthian_helm
-					}
-					narrative_event = { id = hellenic.1014 } #receive "Corinthian Helm" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = tongue_of_oracle
-					}
-					narrative_event = { id = hellenic.1015 } #receive "Petrified Tongue of an Oracle" event
-				}
-				10 = {
-					modifier = { factor = 0 religion_openly_in_hellenic_subgroup_trigger = no }
-					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_minor } }
-					modifier = {
-						factor = 0
-						has_artifact = silver_amphora
-					}
-					narrative_event = { id = hellenic.1016 } #receive "Silver Amphora" event
+					#Insert artifact event here
+					narrative_event = { id = ART.1803 }
 				}
 			}
 		}
@@ -7255,405 +6752,203 @@ character_event = {
 #Germanic#
 
 #Gjallarhorn
-character_event = {
-    id = MNM.9600
-    desc = EVTDESC_MNM_9600
-    picture = GFX_evt_pagan_artifacts
-    border = GFX_event_normal_frame_religion
+# character_event = {
+    # id = MNM.9600
+    # desc = EVTDESC_MNM_9600
+    # picture = GFX_evt_pagan_artifacts
+    # border = GFX_event_normal_frame_religion
 
-    is_triggered_only = yes
+    # is_triggered_only = yes
 
-    has_dlc = "Mystics"
+    # has_dlc = "Mystics"
 
-    option = { #it's their duty
-        name = EVTOPT_MEDIUM_ARTIFACT_DUTY
-        prestige = 10
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_very_disappointed
-			years = 15
-		}
-        add_artifact = gjallarhorn
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
+    # option = { #it's their duty
+        # name = EVTOPT_MEDIUM_ARTIFACT_DUTY
+        # prestige = 10
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_very_disappointed
+			# years = 15
+		# }
+        # add_artifact = gjallarhorn
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
 
-    option = { #monetary reward
-        name = EVTOPT_MEDIUM_ARTIFACT_MONEY
+    # option = { #monetary reward
+        # name = EVTOPT_MEDIUM_ARTIFACT_MONEY
 
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 10
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_medium_artifact
-			years = 15
-		}
-		transfer_scaled_wealth = {
-			to = FROM
-			value = 0.5
-			min = 35
-		}
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_was_rewarded
+			# years = 10
+		# }
+		# opinion = {
+			# who = FROM
+			# modifier = opinion_found_medium_artifact
+			# years = 15
+		# }
+		# transfer_scaled_wealth = {
+			# to = FROM
+			# value = 0.5
+			# min = 35
+		# }
 
-        add_artifact = gjallarhorn
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
+        # add_artifact = gjallarhorn
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
     
-    option = { #reward them with a favor
-        name = EVTOPT_MEDIUM_ARTIFACT_FAVOR
+    # option = { #reward them with a favor
+        # name = EVTOPT_MEDIUM_ARTIFACT_FAVOR
 
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 10
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_medium_artifact
-			years = 15
-		}
-        reverse_add_favor = FROM
-        add_artifact = gjallarhorn
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_was_rewarded
+			# years = 10
+		# }
+		# opinion = {
+			# who = FROM
+			# modifier = opinion_found_medium_artifact
+			# years = 15
+		# }
+        # reverse_add_favor = FROM
+        # add_artifact = gjallarhorn
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
 
-    option = { #praise them (prestige reward)
-    	trigger = {
-			diplomacy = 15
-		}
-        name = EVTOPT_MEDIUM_ARTIFACT_PRESTIGE
+    # option = { #praise them (prestige reward)
+    	# trigger = {
+			# diplomacy = 15
+		# }
+        # name = EVTOPT_MEDIUM_ARTIFACT_PRESTIGE
 
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_praised
-			years = 10
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_medium_artifact
-			years = 5
-		}
-		FROM = { prestige = 50 }
-		random = {
-			chance = 20
-			add_friend = FROM
-		}
-        add_artifact = gjallarhorn
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    after = { clr_artifact_flagsmodifiers_effect = yes }
-}
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_was_praised
+			# years = 10
+		# }
+		# opinion = {
+			# who = FROM
+			# modifier = opinion_found_medium_artifact
+			# years = 5
+		# }
+		# FROM = { prestige = 50 }
+		# random = {
+			# chance = 20
+			# add_friend = FROM
+		# }
+        # add_artifact = gjallarhorn
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
+    # after = { clr_artifact_flagsmodifiers_effect = yes }
+# }
 
 #Andvaranaut/Andvari's Gift
-narrative_event = {
-    id = MNM.9601
-    title = EVTNAME_MNM_9601
-    desc = EVTDESC_MNM_9601
-    picture = GFX_evt_pagan_artifacts
-    border = GFX_event_narrative_frame_religion
+# narrative_event = {
+    # id = MNM.9601
+    # title = EVTNAME_MNM_9601
+    # desc = EVTDESC_MNM_9601
+    # picture = GFX_evt_pagan_artifacts
+    # border = GFX_event_narrative_frame_religion
 
-    is_triggered_only = yes
+    # is_triggered_only = yes
 
-    has_dlc = "Mystics"
+    # has_dlc = "Mystics"
 
-    option = { #it's their duty
-        name = EVTOPT_MAJOR_ARTIFACT_DUTY
-        prestige = 10
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_extremely_disappointed
-			years = 20
-		}
-        add_artifact = andvaranaut
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
+    # option = { #it's their duty
+        # name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        # prestige = 10
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_extremely_disappointed
+			# years = 20
+		# }
+        # add_artifact = andvaranaut
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
 
-    option = { #monetary reward
-        name = EVTOPT_MAJOR_ARTIFACT_MONEY
+    # option = { #monetary reward
+        # name = EVTOPT_MAJOR_ARTIFACT_MONEY
 
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-		transfer_scaled_wealth = {
-			to = FROM
-			value = 1
-			min = 50
-		}
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_was_rewarded
+			# years = 15
+		# }
+		# opinion = {
+			# who = FROM
+			# modifier = opinion_found_major_artifact
+			# years = 15
+		# }
+		# transfer_scaled_wealth = {
+			# to = FROM
+			# value = 1
+			# min = 50
+		# }
 
-        add_artifact = andvaranaut
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
+        # add_artifact = andvaranaut
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
     
-    option = { #reward them with a favor
-        name = EVTOPT_MAJOR_ARTIFACT_FAVOR
+    # option = { #reward them with a favor
+        # name = EVTOPT_MAJOR_ARTIFACT_FAVOR
 
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-        reverse_add_favor = FROM
-        add_artifact = andvaranaut
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_was_rewarded
+			# years = 15
+		# }
+		# opinion = {
+			# who = FROM
+			# modifier = opinion_found_major_artifact
+			# years = 15
+		# }
+        # reverse_add_favor = FROM
+        # add_artifact = andvaranaut
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
 
-    option = { #praise them (prestige reward)
-    	trigger = {
-			diplomacy = 15
-		}
-        name = EVTOPT_MAJOR_ARTIFACT_PRESTIGE
+    # option = { #praise them (prestige reward)
+    	# trigger = {
+			# diplomacy = 15
+		# }
+        # name = EVTOPT_MAJOR_ARTIFACT_PRESTIGE
 
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_praised
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 5
-		}
-		FROM = { prestige = 100 }
-		random = {
-			chance = 20
-			add_friend = FROM
-		}
-        add_artifact = andvaranaut
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    after = { clr_artifact_flagsmodifiers_effect = yes }
-}
-
-#Mjolnir
-narrative_event = {
-    id = MNM.9602
-    title = EVTNAME_MNM_9602
-    desc = EVTDESC_MNM_9602
-    picture = GFX_evt_pagan_artifacts
-    border = GFX_event_narrative_frame_religion
-
-    is_triggered_only = yes
-
-    has_dlc = "Mystics"
-
-    option = { #it's their duty
-        name = EVTOPT_MAJOR_ARTIFACT_DUTY
-        prestige = 10
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_extremely_disappointed
-			years = 20
-		}
-        add_artifact = mjolnir
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-
-    option = { #monetary reward
-        name = EVTOPT_MAJOR_ARTIFACT_MONEY
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-		transfer_scaled_wealth = {
-			to = FROM
-			value = 1
-			min = 50
-		}
-
-        add_artifact = mjolnir
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    
-    option = { #reward them with a favor
-        name = EVTOPT_MAJOR_ARTIFACT_FAVOR
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-        reverse_add_favor = FROM
-        add_artifact = mjolnir
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-
-    option = { #praise them (prestige reward)
-    	trigger = {
-			diplomacy = 15
-		}
-        name = EVTOPT_MAJOR_ARTIFACT_PRESTIGE
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_praised
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 5
-		}
-		FROM = { prestige = 100 }
-		random = {
-			chance = 20
-			add_friend = FROM
-		}
-        add_artifact = mjolnir
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    after = { clr_artifact_flagsmodifiers_effect = yes }
-}
-
-#West African#
-
-#Fetish of Souls
-narrative_event = {
-    id = MNM.9603
-    title = EVTNAME_MNM_9603
-    desc = EVTDESC_MNM_9603
-    picture = GFX_evt_pagan_artifacts
-    border = GFX_event_narrative_frame_religion
-
-    is_triggered_only = yes
-
-    has_dlc = "Mystics"
-
-    option = { #it's their duty
-        name = EVTOPT_MAJOR_ARTIFACT_DUTY
-        prestige = 10
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_extremely_disappointed
-			years = 20
-		}
-        add_artifact = fetish_of_souls
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-
-    option = { #monetary reward
-        name = EVTOPT_MAJOR_ARTIFACT_MONEY
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-		transfer_scaled_wealth = {
-			to = FROM
-			value = 1
-			min = 50
-		}
-
-        add_artifact = fetish_of_souls
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    
-    option = { #reward them with a favor
-        name = EVTOPT_MAJOR_ARTIFACT_FAVOR
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-        reverse_add_favor = FROM
-        add_artifact = fetish_of_souls
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-
-    option = { #praise them (prestige reward)
-    	trigger = {
-			diplomacy = 15
-		}
-        name = EVTOPT_MAJOR_ARTIFACT_PRESTIGE
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_praised
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 5
-		}
-		FROM = { prestige = 100 }
-		random = {
-			chance = 20
-			add_friend = FROM
-		}
-        add_artifact = fetish_of_souls
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    after = { clr_artifact_flagsmodifiers_effect = yes }
-}
+        # reverse_opinion = {
+			# who = FROM
+			# modifier = opinion_was_praised
+			# years = 15
+		# }
+		# opinion = {
+			# who = FROM
+			# modifier = opinion_found_major_artifact
+			# years = 5
+		# }
+		# FROM = { prestige = 100 }
+		# random = {
+			# chance = 20
+			# add_friend = FROM
+		# }
+        # add_artifact = andvaranaut
+        # new_artifact = {
+			# set_creation_date = 1.1.1
+		# }
+    # }
+    # after = { clr_artifact_flagsmodifiers_effect = yes }
+# }
 
 #Finnish#
 
@@ -7750,108 +7045,6 @@ narrative_event = {
 			add_friend = FROM
 		}
         add_artifact = sampo
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    after = { clr_artifact_flagsmodifiers_effect = yes }
-}
-
-#Slavic#
-
-#Axe of Perun
-narrative_event = {
-    id = MNM.9605
-    title = EVTNAME_MNM_9605
-    desc = EVTDESC_MNM_9605
-    picture = GFX_evt_pagan_artifacts
-    border = GFX_event_narrative_frame_religion
-
-    is_triggered_only = yes
-
-    has_dlc = "Mystics"
-
-    option = { #it's their duty
-        name = EVTOPT_MAJOR_ARTIFACT_DUTY
-        prestige = 10
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_extremely_disappointed
-			years = 20
-		}
-        add_artifact = axe_of_perun
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-
-    option = { #monetary reward
-        name = EVTOPT_MAJOR_ARTIFACT_MONEY
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-		transfer_scaled_wealth = {
-			to = FROM
-			value = 1
-			min = 50
-		}
-
-        add_artifact = axe_of_perun
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-    
-    option = { #reward them with a favor
-        name = EVTOPT_MAJOR_ARTIFACT_FAVOR
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_rewarded
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 15
-		}
-        reverse_add_favor = FROM
-        add_artifact = axe_of_perun
-        new_artifact = {
-			set_creation_date = 1.1.1
-		}
-    }
-
-    option = { #praise them (prestige reward)
-    	trigger = {
-			diplomacy = 15
-		}
-        name = EVTOPT_MAJOR_ARTIFACT_PRESTIGE
-
-        reverse_opinion = {
-			who = FROM
-			modifier = opinion_was_praised
-			years = 15
-		}
-		opinion = {
-			who = FROM
-			modifier = opinion_found_major_artifact
-			years = 5
-		}
-		FROM = { prestige = 100 }
-		random = {
-			chance = 20
-			add_friend = FROM
-		}
-        add_artifact = axe_of_perun
         new_artifact = {
 			set_creation_date = 1.1.1
 		}
@@ -8618,7 +7811,7 @@ character_event = {
 	        give_goldsmith_artifacts_flag_amazing_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
 
@@ -8664,7 +7857,7 @@ character_event = {
 	        give_goldsmith_artifacts_flag_expensive_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
 
@@ -8712,7 +7905,7 @@ character_event = {
 	        give_goldsmith_artifacts_flag_good_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 1.8 min = 100 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 1.8 min = 100 max = 500 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
         
@@ -8768,7 +7961,7 @@ character_event = {
 	        give_goldsmith_artifacts_flag_okay_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 0.8 min = 40 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 0.8 min = 40 max = 100 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
         
@@ -9131,7 +8324,10 @@ character_event = {
     	#If the player has an armory
     	random_realm_wonder_upgrade = {
 			limit = {
-				has_wonder_upgrade = upgrade_armory
+				OR = {
+					has_wonder_upgrade = upgrade_armory
+					has_wonder_upgrade = upgrade_cow_armory
+				}
 				is_active = yes
 			}
 			save_event_target_as = the_armory
@@ -9432,8 +8628,6 @@ character_event = {
         hidden_tooltip = { FROM = { set_character_flag = weapon_mace } }
         ai_chance = { 
         	factor = 1
-        	modifier = { religion = norse_pagan factor = 5 }
-        	modifier = { religion = norse_pagan_reformed factor = 5 }
         }
     }
 
@@ -10076,7 +9270,7 @@ character_event = {
 	        give_smith_artifacts_flag_amazing_optionA_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
     }
@@ -10115,7 +9309,7 @@ character_event = {
 	        give_smith_artifacts_flag_amazing_optionB_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }       
     }
@@ -10155,7 +9349,7 @@ character_event = {
 	        give_smith_artifacts_flag_amazing_optionC_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }  
     }
@@ -10230,7 +9424,7 @@ character_event = {
 	        give_smith_artifacts_flag_expensive_optionA_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
     }
@@ -10270,7 +9464,7 @@ character_event = {
 	        give_smith_artifacts_flag_expensive_optionB_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
     }
@@ -10310,7 +9504,7 @@ character_event = {
 	        give_smith_artifacts_flag_expensive_optionC_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 3.5 min = 230 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 3.5 min = 230 max = 2000 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
     }
@@ -10348,7 +9542,7 @@ character_event = {
 	        give_smith_artifacts_flag_good_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 1.8 min = 100 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 1.8 min = 100 max = 500 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
     }
@@ -10412,86 +9606,9 @@ character_event = {
 	        give_smith_artifacts_flag_okay_effect = yes
 	    }
 	    else = {
-	    	scaled_wealth = { value = 0.8 min = 40 } # Get some money back if duplicate
+	    	scaled_wealth = { value = 0.8 min = 40 max = 100 } # Get some money back if duplicate
 	    	custom_tooltip = { text = EVTTT_MNM_9105_NO_DUPLICATES }
 	    }
-
-        if = {
-            limit = { FROM = { has_character_flag = weapon_sword } }
-            hidden_tooltip = {
-            	add_artifact = sword_tier_1_new
-            }
-            set_character_flag = sword_tier_1
-            new_artifact = {
-            	set_name = artifact_name
-            	set_description = artifact_description_smith_tier_1
-            }
-            custom_tooltip = { text = MNM_9124_TT_SWORD_T1 }
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_scimitar } }
-            hidden_tooltip = {
-            	add_artifact = scimitar_tier_1_new
-            }
-            set_character_flag = scimitar_tier_1
-            new_artifact = {
-            	set_name = artifact_name
-            	set_description = artifact_description_smith_tier_1
-            }
-            custom_tooltip = { text = MNM_9124_TT_SCIMITAR_T1 }
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_lance } }
-            hidden_tooltip = {
-            	add_artifact = lance_tier_1_new
-            }
-            set_character_flag = lance_tier_1
-            new_artifact = {
-            	set_name = artifact_name
-            	set_description = artifact_description_smith_tier_1
-            }
-            custom_tooltip = { text = MNM_9124_TT_LANCE_T1 }
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_axe } }
-            hidden_tooltip = {
-            	add_artifact = axe_tier_1_new
-            }
-            set_character_flag = axe_tier_1
-            new_artifact = {
-            	set_name = artifact_name
-            	set_description = artifact_description_smith_tier_1
-            }
-            custom_tooltip = { text = MNM_9124_TT_AXE_T1 }
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_mace } }
-            hidden_tooltip = {
-            	add_artifact = mace_tier_1_new
-            }
-            set_character_flag = mace_tier_1
-            new_artifact = {
-            	set_name = artifact_name
-            	set_description = artifact_description_smith_tier_1
-            }
-            custom_tooltip = { text = MNM_9124_TT_MACE_T1 }
-        }
-        if = {
-            limit = { FROM = { has_character_flag = weapon_bow } }
-            hidden_tooltip = {
-            	add_artifact = bow_tier_1_new
-            }
-            set_character_flag = bow_tier_1
-            new_artifact = {
-            	set_name = artifact_name
-            	set_description = artifact_description_smith_tier_1
-            }
-            custom_tooltip = { text = MNM_9124_TT_BOW_T1 }
-        }
-        if = {
-            limit = { FROM = { has_character_flag = armor_set } }
-            add_artifact = armor_tier_1
-        }
     }
     after = {
     	hidden_effect = { FROM = { character_event = { id = MNM.9127 days = 5 } } }
@@ -10859,11 +9976,7 @@ character_event = {
 		        else_if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = muslim 
-			        			religion = west_african_pagan
-			        			religion = west_african_pagan_reformed
-			        		}
+			        		religion_group = muslim 
 			        	}
 		        	}
 		        	add_artifact = dagger_of_glory
@@ -10878,6 +9991,7 @@ character_event = {
 			        			religion_group = indian_group
 			        			religion = bon
         						religion = bon_reformed
+								religion_group = buddhist_group
 			        		}
 			        	}
 		        	}
@@ -10889,11 +10003,7 @@ character_event = {
 		        else_if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = zoroastrian_group
-			        			religion = zun_pagan
-			        			religion = zun_pagan_reformed
-							}
+			        		religion_group = zoroastrian_group
 						}
 					}
 		        	add_artifact = circlet_of_the_heavens
@@ -10901,30 +10011,6 @@ character_event = {
 		        	add_artifact = staff_of_majesty
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
-		        else_if = {
-		        	limit = {
-		        		FROM = {
-			        		OR = {
-			        			religion = norse_pagan
-			        			religion = norse_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = crown_of_crows
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = sword_of_heroes
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        } else_if = {
-					limit = {
-						FROM = {
-							religion_openly_in_celtic_subgroup_trigger = yes
-						}
-					}
-					add_artifact = jeweled_torque
-					new_artifact = { set_artifact_flag = stolen_by_smith }
-					add_artifact = sword_of_heroes
-					new_artifact = { set_artifact_flag = stolen_by_smith }
-				}
 		        else = {
 		        	add_artifact = heros_crown
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
@@ -10971,6 +10057,7 @@ character_event = {
 			        			religion_group = indian_group
 			        			religion = bon
         						religion = bon_reformed
+								religion_group = buddhist_group
 			        		}
 			        	}
 		        	}
@@ -10982,11 +10069,7 @@ character_event = {
 		        else_if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = zoroastrian_group
-			        			religion = zun_pagan
-			        			religion = zun_pagan_reformed
-							}
+			        		religion_group = zoroastrian_group
 						}
 					}
 		        	add_artifact = circlet_of_the_heavens
@@ -10994,31 +10077,6 @@ character_event = {
 		        	add_artifact = golden_staff
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
-		        else_if = {
-		        	limit = { 
-		        		FROM = {
-			        		OR = {
-			        			religion = norse_pagan
-			        			religion = norse_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = crown_of_the_sea
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = golden_sword
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-				else_if = {
-					limit = {
-						FROM = {
-							religion_openly_in_celtic_subgroup_trigger = yes
-						}
-					}
-					add_artifact = golden_torque
-					new_artifact = { set_artifact_flag = stolen_by_smith }
-					add_artifact = golden_sword
-					new_artifact = { set_artifact_flag = stolen_by_smith }
-				}
 		        else = {
 		        	add_artifact = amber_crown
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
@@ -11046,11 +10104,7 @@ character_event = {
 		        else_if = {
 		        	limit = {
 		        		FROM = {
-			        		OR = {
 			        			religion_group = muslim 
-			        			religion = west_african_pagan
-			        			religion = west_african_pagan_reformed
-			        		}
 			        	}
 		        	}
 		        	add_artifact = engraved_dagger
@@ -11065,6 +10119,7 @@ character_event = {
 			        			religion_group = indian_group
 			        			religion = bon
         						religion = bon_reformed
+								religion_group = buddhist_group
 			        		}
 			        	}
 		        	}
@@ -11076,11 +10131,7 @@ character_event = {
 		        else_if = {
 		        	limit = { 
 		        		FROM = {
-			        		OR = {
-			        			religion_group = zoroastrian_group
-			        			religion = zun_pagan
-			        			religion = zun_pagan_reformed
-							}
+			        		religion_group = zoroastrian_group
 						}
 					}
 		        	add_artifact = circlet_of_twilight
@@ -11088,31 +10139,6 @@ character_event = {
 		        	add_artifact = silver_staff
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }
 		        }
-		        else_if = {
-		        	limit = {
-		        		FROM = {
-			        		OR = {
-			        			religion = norse_pagan
-			        			religion = norse_pagan_reformed
-			        		}
-			        	}
-		        	}
-		        	add_artifact = iron_crown
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        	add_artifact = engraved_sword
-		        	new_artifact = { set_artifact_flag = stolen_by_smith }
-		        }
-				else_if = {
-					limit = {
-						FROM = {
-							religion_openly_in_celtic_subgroup_trigger = yes
-						}
-					}
-					add_artifact = silver_torque
-					new_artifact = { set_artifact_flag = stolen_by_smith }
-					add_artifact = engraved_sword
-					new_artifact = { set_artifact_flag = stolen_by_smith }
-				}
 		        else = {
 		        	add_artifact = engraved_crown
 		        	new_artifact = { set_artifact_flag = stolen_by_smith }

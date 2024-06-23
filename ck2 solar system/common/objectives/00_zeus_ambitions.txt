@@ -259,8 +259,6 @@ obj_land_for_daughter = {
 		OR = { 
 			has_religion_feature = religion_matriarchal
 			has_religion_feature = religion_equal
-            has_religion_feature = religion_feature_celtic
-            has_religion_feature = religion_feature_egyptian
 			has_religion_feature = religion_feature_bon
 		}
 		liege = {
@@ -268,8 +266,6 @@ obj_land_for_daughter = {
 			OR = { 
 				has_religion_feature = religion_matriarchal
 				has_religion_feature = religion_equal
-                has_religion_feature = religion_feature_celtic
-                has_religion_feature = religion_feature_egyptian
 				has_religion_feature = religion_feature_bon
 			}
 		}

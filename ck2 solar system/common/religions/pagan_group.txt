@@ -1,0 +1,1633 @@
+pagan_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+	
+	# Names given only to Pagan characters (base names)
+	male_names = {
+		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
+		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
+		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
+	}
+	female_names = {
+		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+
+	pagan = { # Use for misc other pagans
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+
+		icon = 5
+		
+		color = { 0.6 0.0 0.0 }
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
+		
+		dislike_tribal_organization = yes
+		
+		dynamic_cult = no
+		secret_religion = no
+	}
+	bon_reformed = {
+		graphical_culture = bongfx
+		secondary_event_pictures = tengri_pagan
+		interface_skin = { bon_interface taoist_interface indian_interface muslim_interface }
+
+		icon = 55
+		heresy_icon = 56
+		
+		color = { 8 150 131 }
+		alternate_start = { always = no }
+		
+		scripture_name = MDODUS
+		priest_title = LAMA
+		piety_name = KARMA
+		crusade_name = GREAT_HOLY_WAR
+		
+		high_god_name = GOD_SANGPO_BUMTRI
+		
+		god_names = {
+			GOD_SHENLA_OKAR GOD_YESHE_WALMO GOD_ZHANG_ZHUNG_MERI GOD_DRALHA_YESI GOD_SHINJE GOD_AMNYE_MACHEN GOD_ADI GOD_SHERAB_CHAMMA
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL_ONES
+		}
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		#unit_modifier = {
+		#	garrison_size = 0.4
+		#	
+		#	key = "DEF_RELIGION"
+		#}
+		#unit_home_modifier = {
+		#	land_morale = 0.8
+		#	light_infantry_defensive = 0.8
+		#	heavy_infantry_defensive = 0.8
+		#	pikemen_defensive = 0.8
+		#	light_cavalry_defensive = 0.8
+		#	knights_defensive = 0.8
+		#	archers_defensive = 0.8
+		#	horse_archers_defensive = 0.8
+		#	camel_cavalry_defensive = 0.8
+		#	war_elephants_defensive = 0.8
+		#	
+		#	garrison_size = 0.4
+		#	
+		#	key = "DEF_RELIGION_HOME_TERRITORY"
+		#}
+
+		#has_heir_designation = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		#feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		allow_looting = yes
+
+		hard_to_convert = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = buddhist_group
+		intermarry = nasrini
+		#intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		
+		dislike_tribal_organization = yes
+		allow_in_ruler_designer = no
+	}
+
+	bon = {
+		graphical_culture = bongfx
+		secondary_event_pictures = tengri_pagan
+		interface_skin = { bon_interface taoist_interface indian_interface muslim_interface }
+
+		icon = 55
+		heresy_icon = 56
+		
+		color = { 8 140 131 }
+		
+		scripture_name = MDODUS
+		priest_title = LAMA
+		piety_name = KARMA
+		
+		high_god_name = GOD_SANGPO_BUMTRI
+		
+		god_names = {
+			GOD_SHENLA_OKAR GOD_YESHE_WALMO GOD_ZHANG_ZHUNG_MERI GOD_DRALHA_YESI GOD_SHINJE GOD_AMNYE_MACHEN GOD_ADI GOD_SHERAB_CHAMMA
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL_ONES
+		}
+		
+		unit_modifier = {
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+
+		#has_heir_designation = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		#feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		allow_looting = yes
+
+		hard_to_convert = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = buddhist_group
+		intermarry = nasrini
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		#intermarry = bon
+
+		reformed = bon_reformed
+		
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+	}
+	sarna_pagan_reformed = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+
+		icon = 173
+		heresy_icon = 174
+		
+		color = { 194 235 30 }
+		alternate_start = { always = no }
+		
+		scripture_name = THE_LEGENDS
+		priest_title = PAHAN
+		crusade_name = GROVE_DEFENSE
+		
+		high_god_name = GOD_DHARMES
+		
+		god_names = {
+			GOD_DHARMES GOD_SING_BONGA GOD_BIRI_BELAS GOD_CHALA_PACHCHHO GOD_PACHBALAR
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL_ONES ADHARMA
+		}
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		#unit_modifier = {
+		#	garrison_size = 0.4
+		#	
+		#	key = "DEF_RELIGION"
+		#}
+		#unit_home_modifier = {
+		#	land_morale = 0.8
+		#	light_infantry_defensive = 0.8
+		#	heavy_infantry_defensive = 0.8
+		#	pikemen_defensive = 0.8
+		#	light_cavalry_defensive = 0.8
+		#	knights_defensive = 0.8
+		#	archers_defensive = 0.8
+		#	horse_archers_defensive = 0.8
+		#	camel_cavalry_defensive = 0.8
+		#	war_elephants_defensive = 0.8
+		#	
+		#	garrison_size = 0.4
+		#	
+		#	key = "DEF_RELIGION_HOME_TERRITORY"
+		#}
+
+		#has_heir_designation = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		allow_looting = yes
+
+		hard_to_convert = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = buddhist_group
+		intermarry = nasrini
+		intermarry = bon_reformed
+		intermarry = koyapunem
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		
+		dislike_tribal_organization = yes
+		allow_in_ruler_designer = no
+	}
+
+	sarna_pagan = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+		interface_skin = { buddhist_interface indian_interface muslim_interface }
+
+		icon = 173
+		heresy_icon = 174
+		
+		color = { 185 230 5 }
+		
+		scripture_name = THE_LEGENDS
+		priest_title = PAHAN
+		crusade_name = GROVE_DEFENSE
+		
+		high_god_name = GOD_DHARMES
+		
+		god_names = {
+			GOD_DHARMES GOD_SING_BONGA GOD_BIRI_BELAS GOD_CHALA_PACHCHHO GOD_PACHBALAR
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL_ONES ADHARMA
+		}
+		
+		unit_modifier = {
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+
+		#has_heir_designation = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		allow_looting = yes
+
+		hard_to_convert = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = buddhist_group
+		intermarry = nasrini
+		intermarry = bon_reformed
+		intermarry = koyapunem
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+
+		reformed = sarna_pagan_reformed
+		
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+	}
+	sanamahist = {
+		graphical_culture = hindugfx
+		has_coa_on_barony_only = yes
+		secondary_event_pictures = sunni
+		interface_skin = { indian_interface muslim_interface }
+
+		icon = 161
+		heresy_icon = 161
+		
+		color = { 156 20 214 }
+		
+		ai_convert_same_group = 2
+		ai_convert_other_group = 2
+		scripture_name = PUYA
+		priest_title = AMAIBA
+		piety_name = KARMA
+		crusade_name = GREAT_HOLY_WAR
+		
+		high_god_name = GOD_SANAMAHI_LAINING
+		
+		god_names = {
+			GOD_SANAMAHI_LAINING GOD_YAIBREL_SIDABA GOD_LEIMAREL_SIDABI GOD_ASHEEBA GOD_ATINGAA_KOILOU_SITAPA GOD_APANBA GOD_APOKPA
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL_ONES ADHARMA
+		}
+		
+		unit_modifier = {
+			light_infantry_offensive = 0.1
+			light_cavalry_offensive = 0.1 
+			pikemen_offensive = 0.1 
+			archers_offensive = 0.1
+		}
+		
+		aggression = 1.5
+		can_demand_religious_conversion = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		defensive_attrition = yes
+		feminist = no # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		can_retire_to_monastery = yes
+		matrilineal_marriages = no
+		men_can_take_consorts = no
+		women_can_take_consorts = no
+		psc_marriage = no
+		allow_looting = yes
+		peace_piety_gain = 0
+		uses_jizya_tax = yes
+		allow_rivermovement = yes
+		raised_vassal_opinion_loss = no
+		attacking_same_religion_piety_loss = yes
+		peace_prestige_loss = yes
+		ignores_defensive_attrition = yes
+		autocephaly = yes
+		can_grant_divorce = yes
+		can_excommunicate = yes
+
+		hard_to_convert = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = buddhist_group
+		intermarry = kalikula
+		intermarry = nasrini
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		#intermarry = kiratist
+		intermarry = bon
+		
+		dislike_tribal_organization = yes
+	}
+	kiratist = {
+		graphical_culture = bongfx
+		secondary_event_pictures = tengri_pagan
+		interface_skin = { bon_interface taoist_interface indian_interface muslim_interface }
+
+		icon = 169
+		heresy_icon = 169
+		
+		color = { 166 191 226 }
+		
+		scripture_name = MUNDUM
+		priest_title = NAKCHONG
+		piety_name = KARMA
+		crusade_name = GREAT_HOLY_WAR
+		
+		high_god_name = GOD_TAGERA_NINGWAPHUMA
+		
+		god_names = {
+			GOD_TAGERA_NINGWAPHUMA GOD_YUMA_SAMMANG GOD_THEBA_SAMMANG GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL_ONES ADHARMA
+		}
+		
+		character_modifier = {
+			land_organisation = 0.1
+			vassal_opinion = 5
+			global_tax_modifier = -0.05
+			levy_size = 0.05
+		}
+		unit_modifier = {
+			land_morale = 0.05
+		}
+
+		aggression = 0.75
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		defensive_attrition = yes
+		feminist = no # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = no
+		can_retire_to_monastery = yes
+		matrilineal_marriages = no
+		psc_marriage = no
+		short_reign_opinion_year_mult = 3
+		max_consorts = 3
+		women_can_take_consorts = no
+		allow_looting = yes
+		allow_rivermovement = yes
+		raised_vassal_opinion_loss = no
+		peace_piety_gain = 1.0
+		autocephaly = yes
+		can_grant_divorce = yes
+		can_excommunicate = yes
+
+		hard_to_convert = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = buddhist_group
+		intermarry = kalikula
+		intermarry = nasrini
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		#intermarry = kiratist
+		intermarry = bon
+		
+		dislike_tribal_organization = yes
+	}
+	donyipolo = {
+		graphical_culture = bongfx
+		secondary_event_pictures = tengri_pagan
+		interface_skin = { bon_interface taoist_interface indian_interface muslim_interface }
+
+		icon = 175
+		heresy_icon = 175
+		
+		color = { 204 20 51 }
+		
+		scripture_name = LYAMBOPE
+		priest_title = NYIBU
+		piety_name = KARMA
+		crusade_name = GREAT_HOLY_WAR
+		
+		high_god_name = GOD_SEDI
+		
+		god_names = {
+			GOD_SEDI GOD_DONYI GOD_POLO GOD_MELO GOD_SIDI GOD_KEYUM GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL_ONES ADHARMA
+		}
+		
+		character_modifier = {
+			attrition = -0.1
+			days_of_supply = 15
+			land_organisation = 0.1
+			build_cost_modifier = 0.15
+		}
+		unit_modifier = {
+			land_morale = 0.05
+		}
+		
+		aggression = 1.2
+		has_heir_designation = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		defensive_attrition = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		can_retire_to_monastery = yes
+		psc_marriage = no
+		short_reign_opinion_year_mult = 3
+		max_consorts = 3
+		women_can_take_consorts = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		raised_vassal_opinion_loss = no
+		autocephaly = yes
+		can_grant_divorce = yes
+		can_excommunicate = yes
+
+		hard_to_convert = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = buddhist_group
+		intermarry = kalikula
+		intermarry = nasrini
+		intermarry = bon_reformed
+		#intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+		
+		dislike_tribal_organization = yes
+	}
+	baltic_pagan_reformed = {
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+		
+		secondary_event_pictures = baltic_pagan
+
+		icon = 31
+		heresy_icon = 32
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 216 122 0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_DAINOS
+		priest_title = VOLHV
+		
+		high_god_name = GOD_DIEVAS
+		
+		god_names = {
+			GOD_DIEVAS GOD_PERKUNAS GOD_ZEMYNA GOD_SAULE GOD_VYDUNAS GOD_GABIJA GOD_LAIMA GOD_THE_ASVIENIAI GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			VELNIAS THE_DEVIL THE_POPE THE_DARK_SPIRITS
+		}
+		
+		#unit_modifier = {		 		#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
+			#garrison_size = 0.2
+			#levy_size = 0.2
+			
+			#key = "DEF_RELIGION"
+		#}
+		#unit_home_modifier = {
+			#land_morale = 0.8
+			#light_infantry_defensive = 0.8
+			#heavy_infantry_defensive = 0.8
+			#pikemen_defensive = 0.8
+			#light_cavalry_defensive = 0.8
+			#knights_defensive = 0.8
+			#archers_defensive = 0.8
+			#horse_archers_defensive = 0.8
+			#camel_cavalry_defensive = 0.8
+			#war_elephants_defensive = 0.8
+			
+			#garrison_size = 0.4
+			
+			#key = "DEF_RELIGION_HOME_TERRITORY"
+		#}
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		allow_looting = yes
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 1.5
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 6
+		
+		allow_in_ruler_designer = no
+
+		intermarry = baltic_pagan
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+	}		
+	
+	baltic_pagan = {
+		graphical_culture = pagangfx
+
+		icon = 31
+		heresy_icon = 32
+		
+		color = { 175 99 0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_DAINOS
+		priest_title = VOLHV
+		
+		high_god_name = GOD_DIEVAS
+		
+		god_names = {
+			GOD_DIEVAS GOD_PERKUNAS GOD_ZEMYNA GOD_SAULE GOD_VYDUNAS GOD_GABIJA GOD_LAIMA GOD_THE_ASVIENIAI GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			VELNIAS THE_DEVIL THE_POPE THE_DARK_SPIRITS
+		}
+		
+		unit_modifier = {		
+			garrison_size = 0.3
+			levy_size = 0.1
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		aggression = 1.3
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = baltic_pagan_reformed
+		
+		short_reign_opinion_year_mult = 2
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 6
+		
+		hard_to_convert = yes
+		
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+		intermarry = baltic_pagan_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+
+	}	
+	
+	celtic_pagan_reformed = {
+		graphical_culture = reformednorsegfx
+		alternate_start = { always = no }
+
+		icon = 19
+		heresy_icon = 20
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+
+		color = { 0.2 0.6 0.03 }
+		
+		interface_skin = { pagan_interface }
+		
+		high_god_name = GOD_LIR
+		
+		god_names = {
+			GOD_THE_DAGDA GOD_WATER_FAE GOD_THE_4_SWANS GOD_EARTH_FAE
+			GOD_MANANNAN_MAC_LIR GOD_LUGH GOD_EPONA GOD_FAE
+		}
+		evil_god_names = {
+			GOD_CAILLEACH THE_FOMORIANS GOD_SAINT_PATRICK GOD_UNSEELIE
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_FAE_LORE
+		priest_title = DRUID
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		feminist = yes
+		seafarer = yes
+		allow_in_ruler_designer = no
+		hard_to_convert = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = catholic
+		intermarry = novelist
+		intermarry = novelist_reformed
+		intermarry = celtic_pagan
+		intermarry = inuit_pagan
+		intermarry = inuit_pagan_reformed
+		intermarry = summer_queen
+		intermarry = lakefolk_pagan
+		intermarry = lakefolk_pagan_reformed
+	}
+
+	celtic_pagan = {
+		graphical_culture = norsegfx
+
+		icon = 19
+		heresy_icon = 20
+		
+		color = { 0.14 0.36 0.16 }
+		
+		interface_skin = { pagan_interface }
+		
+		high_god_name = GOD_LIR
+		
+		god_names = {
+			GOD_THE_DAGDA GOD_WATER_FAE GOD_THE_4_SWANS GOD_EARTH_FAE
+			GOD_MANANNAN_MAC_LIR GOD_LUGH GOD_EPONA GOD_FAE GOD_KELPIE
+		}
+		evil_god_names = {
+			GOD_CAILLEACH THE_FOMORIANS GOD_SAINT_PATRICK GOD_UNSEELIE
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_FAE_LORE
+		priest_title = DRUID
+		
+		aggression = 1.2
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		feminist = yes
+		seafarer = yes
+		raised_vassal_opinion_loss = no
+		allow_in_ruler_designer = yes
+		max_consorts = 3
+		reformed = celtic_pagan_reformed
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		can_demand_religious_conversion = no
+		hard_to_convert = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = catholic
+		intermarry = novelist
+		intermarry = novelist_reformed
+		intermarry = celtic_pagan_reformed
+		intermarry = inuit_pagan
+		intermarry = inuit_pagan_reformed
+		intermarry = summer_queen
+		intermarry = lakefolk_pagan
+		intermarry = lakefolk_pagan_reformed
+	}
+	inuit_pagan_reformed = {
+		graphical_culture = reformednorsegfx
+		alternate_start = { always = no }
+
+		icon = 149
+		heresy_icon = 150
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+
+		color = { 156 238 255 }
+		
+		interface_skin = { pagan_interface }
+		
+		high_god_name = GOD_ARNAKUAGSAK
+		
+		god_names = {
+			GOD_SASSUMA_ARNAA GOD_NERRIVIK GOD_NANOOK GOD_TORNGARSK
+			GOD_RODE_SOMAND GOD_MARTIN_JAEGEREN GOD_THE_SPIRITS  GOD_QOOQA GOD_TEKKEITSERTOK
+		}
+		evil_god_names = {
+			GOD_THE_LAST_ADLET THE_AMAROK GOD_TUPILAQ
+		}
+		
+		unit_modifier = {
+			land_morale = 0.4
+			light_infantry_offensive = 0.6
+			light_infantry_defensive = 0.6
+			
+			key = "OFF_RELIGION"
+		}
+
+		crusade_name = SEA_WAR
+		scripture_name = THE_STORIES
+		priest_title = DEAN
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		seafarer = yes
+		raised_vassal_opinion_loss = no
+		landed_kin_prestige_bonus = yes
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+		allow_in_ruler_designer = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = celtic_pagan
+		intermarry = celtic_pagan_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = vagarna
+		intermarry = inuit_pagan
+		intermarry = lakefolk_pagan
+		intermarry = lakefolk_pagan_reformed
+		intermarry = novelist
+		intermarry = novelist_reformed
+	}
+
+	inuit_pagan = {
+		graphical_culture = norsegfx
+
+		icon = 149
+		heresy_icon = 150
+		
+		color = { 107 230 255 }
+		
+		interface_skin = { pagan_interface }
+		
+		high_god_name = GOD_ARNAKUAGSAK
+		
+		god_names = {
+			GOD_SASSUMA_ARNAA GOD_NERRIVIK GOD_NANOOK GOD_TORNGARSK
+			GOD_RODE_SOMAND GOD_MARTIN_JAEGEREN GOD_THE_SPIRITS  GOD_QOOQA GOD_TEKKEITSERTOK
+		}
+		evil_god_names = {
+			GOD_THE_LAST_ADLET THE_AMAROK GOD_TUPILAQ
+		}
+		
+		unit_modifier = {
+			land_morale = 0.4
+			light_infantry_offensive = 0.6
+			light_infantry_defensive = 0.6
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = SEA_WAR
+		scripture_name = THE_STORIES
+		priest_title = DEAN
+		
+		aggression = 1.2
+		can_call_crusade = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		seafarer = yes
+		raised_vassal_opinion_loss = no
+		landed_kin_prestige_bonus = yes
+		allow_in_ruler_designer = yes
+		reformed = inuit_pagan_reformed
+		dislike_tribal_organization = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = celtic_pagan
+		intermarry = celtic_pagan_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = vagarna
+		intermarry = inuit_pagan_reformed
+		intermarry = lakefolk_pagan
+		intermarry = lakefolk_pagan_reformed
+		intermarry = novelist
+		intermarry = novelist_reformed
+	}
+	lakefolk_pagan_reformed = {
+		graphical_culture = reformednorsegfx
+		alternate_start = { always = no }
+
+		icon = 15
+		heresy_icon = 16
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+
+		color = { 180 20 20 }
+		
+		interface_skin = { pagan_interface }
+		
+		high_god_name = THE_GREAT_BIRD
+		
+		god_names = {
+			THE_NORTHERN_BIRD THE_WESTERN_BIRD THE_EASTERN_BIRD THE_SOUTHERN_BIRD THE_CHILD FATHER_CHRISTMAS MINNE
+			PAUL_BUNYAN JACK_O_LANTERN VULCANUS_REX LADY_MINNE_SERVANTS
+		}
+		evil_god_names = {
+			JACK_O_LANTERN KING_BOREAS
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.5
+		}
+
+		crusade_name = CYCLE_CALLING
+		scripture_name = THE_STORIES
+		priest_title = ELDER
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		seafarer = yes
+		max_consorts = 3
+		raised_vassal_opinion_loss = no
+		landed_kin_prestige_bonus = yes
+		allow_in_ruler_designer = no
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = celtic_pagan
+		intermarry = celtic_pagan_reformed
+		intermarry = inuit_pagan
+		intermarry = inuit_pagan_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = vagarna
+		intermarry = lakefolk_pagan
+	}
+
+	lakefolk_pagan = {
+		graphical_culture = norsegfx
+
+		icon = 15
+		heresy_icon = 16
+		
+		color = { 144 20 20 }
+		
+		interface_skin = { pagan_interface }
+		
+		high_god_name = THE_GREAT_BIRD
+		
+		god_names = {
+			THE_NORTHERN_BIRD THE_WESTERN_BIRD THE_EASTERN_BIRD THE_SOUTHERN_BIRD THE_CHILD FATHER_CHRISTMAS MINNE
+			PAUL_BUNYAN JACK_O_LANTERN VULCANUS_REX LADY_MINNE_SERVANTS
+		}
+		evil_god_names = {
+			JACK_O_LANTERN KING_BOREAS
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = CYCLE_CALLING
+		scripture_name = THE_STORIES
+		priest_title = ELDER
+		
+		can_call_crusade = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		allow_viking_invasion = yes
+		seafarer = yes
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = lakefolk_pagan_reformed
+		
+		aggression = 2.0 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 2.5
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = celtic_pagan
+		intermarry = celtic_pagan_reformed
+		intermarry = inuit_pagan
+		intermarry = inuit_pagan_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = vagarna
+		intermarry = lakefolk_pagan_reformed
+	}
+	novelist_reformed = { # Like books
+		graphical_culture = nobeliangfx
+		secondary_event_pictures = novelist
+		icon = 28
+		heresy_icon = 29
+		alternate_start = { always = no }
+		
+		color = { 229 176 78 }
+		
+		interface_skin = { novelist_interface pagan_interface }
+
+		high_god_name = GOD_ERU_LAUTEUR
+
+		god_names = {
+			GOD_ERU_LAUTEUR GOD_ARSLAN GOD_THE_VALAR GOD_QUASIMODO GOD_DARTAGNAN GOD_VALJEAN GOD_THE_STAR_PRINCE GOD_NEMO GOD_CHARLEMAGNE GOD_ARTHUR GOD_ROLAND GOD_SUN_KING GOD_NAPOLEON
+		}
+		evil_god_names = {
+			GOD_SAURON GOD_DRACULA GOD_FRANKENSTEIN GOD_JADIS_THE_WHITE_WITCH GOD_FROLLO GOD_RICHELIEU GOD_JAVERT GOD_PHANTOM_OF_OPERA
+		}
+		character_modifier = {
+			girondist_opinion = 5
+		}
+		crusade_name = CHANSON_DE_GESTE
+		scripture_name = THE_GREAT_NOVEL
+		priest_title = LIBRARIAN
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		#allow_viking_invasion = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		women_can_take_consorts = yes
+		max_consorts = 3
+		allow_in_ruler_designer = no
+		
+		#aggression = 2.5 # AI aggression factor
+		
+		intermarry = concordianist
+		intermarry = novelist
+		intermarry = hellenic_pagan
+		intermarry = hellenic_pagan_reformed
+		intermarry = celtic_pagan
+		intermarry = celtic_pagan_reformed
+		intermarry = inuit_pagan
+		intermarry = girondist
+		intermarry = raelian
+		intermarry = orleanist
+		intermarry = inuit_pagan_reformed
+	}
+
+	novelist = { # Like books
+		graphical_culture = nobeliangfx
+
+		icon = 28
+		heresy_icon = 29
+		
+		color = { 175 135 59 }
+		
+		interface_skin = { novelist_interface pagan_interface }
+
+		high_god_name = GOD_ERU_LAUTEUR
+
+		god_names = {
+			GOD_ERU_LAUTEUR GOD_ARSLAN GOD_THE_VALAR GOD_QUASIMODO GOD_DARTAGNAN GOD_VALJEAN GOD_THE_STAR_PRINCE GOD_NEMO GOD_CHARLEMAGNE GOD_ARTHUR GOD_ROLAND GOD_SUN_KING GOD_NAPOLEON
+		}
+		evil_god_names = {
+			GOD_SAURON GOD_DRACULA GOD_FRANKENSTEIN GOD_JADIS_THE_WHITE_WITCH GOD_FROLLO GOD_RICHELIEU GOD_JAVERT GOD_PHANTOM_OF_OPERA
+		}
+		character_modifier = {
+			girondist_opinion = 5
+		}
+		crusade_name = CHANSON_DE_GESTE
+		scripture_name = THE_NOVEL
+		priest_title = LIBRARIAN
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		defensive_attrition = yes
+		female_temple_holders = yes
+		women_can_take_consorts = yes
+		max_consorts = 3
+		reformed = novelist_reformed
+		
+		aggression = 1.5 # AI aggression factor
+		
+		can_demand_religious_conversion = no
+		hard_to_convert = yes
+		
+		intermarry = concordianist
+		intermarry = novelist_reformed
+		intermarry = hellenic_pagan
+		intermarry = raelian
+		intermarry = girondist
+		intermarry = orleanist
+		intermarry = hellenic_pagan_reformed
+		intermarry = celtic_pagan
+		intermarry = celtic_pagan_reformed
+		intermarry = inuit_pagan
+		intermarry = inuit_pagan_reformed
+	}
+
+	
+	
+	folklorist_reformed = { # Russian occultists
+		graphical_culture = reformedpagangfx
+		alternate_start = { always = no }
+
+		icon = 70
+		heresy_icon = 71
+		
+		color = { 0.3 0.5 0.7 }
+		
+		interface_skin = { pagan_interface }
+
+		high_god_name = GOD_MOTHER_RUSSIA
+
+		god_names = {
+			GOD_MOTHER_RUSSIA GOD_ROD GOD_SVAROG GOD_KUDEYAR GOD_RUS GOD_LESHY GOD_BLACK_BARON GOD_LETOV GOD_KOLCHAK GOD_BELOBOG
+		}
+		evil_god_names = {
+			GOD_WILD_HUNT GOD_BABA_YAGA GOD_VIY GOD_UNCLE_SAM GOD_CHERNOBOG 
+		}
+		crusade_name = THE_POKHOD
+		scripture_name = THE_SVOD
+		priest_title = WITCHER
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		#allow_viking_invasion = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		allow_in_ruler_designer = no
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		
+		#aggression = 2.5 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = folklorist
+		intermarry = starist_pagan
+		intermarry = starist_pagan_reformed
+		intermarry = nousthreskeia
+		intermarry = nousthreskeia_reformed
+		intermarry = brethren
+		intermarry = poseidonian
+	}
+
+	folklorist = { # Russian occultists
+		graphical_culture = pagangfx
+
+		icon = 70
+		heresy_icon = 71
+		
+		color = { 0.2 0.4 0.6 }
+		
+		interface_skin = { pagan_interface }
+
+		high_god_name = GOD_TRIGOLOV
+
+		god_names = {
+			GOD_TRIGOLOV GOD_RODINA GOD_DAZHBOG GOD_VELES GOD_MARENA GOD_KUDEYAR GOD_VEDMAK_KOROL GOD_KNYAZ_IGOR GOD_ALYOSHA GOD_DOBRYNYA GOD_MUROMETS GOD_LESHY GOD_EGORIY_HRABRIY GOD_VISOTSKY GOD_THE_BOGATYRS
+		}
+		evil_god_names = {
+			GOD_DYAVOL GOD_BABA_YAGA GOD_VIY GOD_TUGARIN GOD_SOLOVEY  
+		}
+		crusade_name = THE_POKHOD
+		scripture_name = THE_BYLINY
+		priest_title = WITCHER
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = folklorist_reformed
+		
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		aggression = 1.5 # AI aggression factor
+		
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 4
+		religious_clothing_priest = 4
+		intermarry = folklorist_reformed
+		intermarry = starist_pagan
+		intermarry = starist_pagan_reformed
+		intermarry = nousthreskeia
+		intermarry = nousthreskeia_reformed
+		intermarry = brethren
+		intermarry = poseidonian
+	}	
+
+	finnish_pagan_reformed = {
+		graphical_culture = reformedpagangfx
+		alternate_start = { always = no }
+		
+		secondary_event_pictures = finnish_pagan
+
+		icon = 25
+		heresy_icon = 26
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 0.65 0.65 0.1 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_KALEVALA
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_UKKO
+		
+		god_names = {
+			GOD_UKKO GOD_ILMATAR GOD_ILMARINEN GOD_JUMI GOD_LEMMINKAINEN GOD_MASTOR_AVA GOD_OMOL GOD_KOSSU GOD_PERKELE GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_VAINAMOINEN 
+		}
+		evil_god_names = {
+			LOUHI TUONI TUONETAR BOBRIKOV
+		}
+		
+		#unit_modifier = {		 		#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
+			#garrison_size = 0.3
+			#levy_size = 0.1
+			
+			#key = "DEF_RELIGION"
+		#}
+		#unit_home_modifier = {
+			#land_morale = 0.8
+			#light_infantry_defensive = 0.8
+			#heavy_infantry_defensive = 0.8
+			#pikemen_defensive = 0.8
+			#light_cavalry_defensive = 0.8
+			#knights_defensive = 0.8
+			#archers_defensive = 0.8
+			#horse_archers_defensive = 0.8
+			#camel_cavalry_defensive = 0.8
+			#war_elephants_defensive = 0.8
+			
+			#garrison_size = 0.4
+			
+			#key = "DEF_RELIGION_HOME_TERRITORY"
+		#}
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		allow_looting = yes
+		max_consorts = 3
+		short_reign_opinion_year_mult = 1.5
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		
+		aggression = 0.5 # AI aggression factor
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+		
+		intermarry = baltic_pagan
+		intermarry = baltic_pagan_reformed
+		intermarry = nobelian
+		intermarry = inuit_pagan
+		intermarry = inuit_pagan_reformed
+		intermarry = starist_pagan_reformed
+		intermarry = starist_pagan
+		intermarry = sisukkuus
+		intermarry = lakefolk_pagan
+		intermarry = lakefolk_pagan_reformed
+		allow_in_ruler_designer = no
+	}	
+	
+	finnish_pagan = {
+		graphical_culture = pagangfx
+
+		icon = 25
+		heresy_icon = 26
+		
+		color = { 0.5 0.5 0.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_KALEVALA
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_UKKO
+		
+		god_names = {
+			GOD_UKKO GOD_ILMATAR GOD_PERKELE GOD_JUMI GOD_MASTOR_AVA GOD_OMOL GOD_KOSSU GOD_THE_GREAT_BEAR GOD_KUU GOD_TAPIO GOD_TAARA GOD_VAINAMOINEN 
+		}
+		evil_god_names = {
+			LOUHI TUONI TUONETAR BOBRIKOV
+		}
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		allow_looting = yes
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = finnish_pagan_reformed
+		
+		short_reign_opinion_year_mult = 2
+		
+		aggression = 0.2 # AI aggression factor
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+		
+		intermarry = baltic_pagan
+		intermarry = baltic_pagan_reformed
+		intermarry = nobelian
+		intermarry = inuit_pagan
+		intermarry = inuit_pagan_reformed
+		intermarry = starist_pagan_reformed
+		intermarry = starist_pagan
+		intermarry = sisukkuus
+		intermarry = lakefolk_pagan
+		intermarry = lakefolk_pagan_reformed
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+	}
+
+	hellenic_pagan_reformed = {
+		graphical_culture = reformedhellenicgfx
+		alternate_start = { always = no }
+		secondary_event_pictures = hellenic_pagan
+		interface_skin = { hellenic_interface }
+
+		icon = 37
+		heresy_icon = 59
+		
+		color = { 0.4 0.2 0.6 }
+		
+		high_god_name = GOD_ANAXORGI
+		
+		god_names = {
+			GOD_ARES GOD_TRITON GOD_HADES GOD_ATHENA GOD_PHILOMELUS GOD_PERSEPHONE GOD_HEPHAESTUS GOD_APHRODITE GOD_URANIA GOD_APOLLO GOD_ARTEMIS GOD_HESTIA GOD_DIONYSUS 
+		}
+		evil_god_names = {
+			GOD_ZEUS GOD_POSEIDON GOD_DIONYSUS GOD_HERMES GOD_ANGELOS GOD_TYPHON  
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_THEOMACHY
+		priest_title = AUGUR
+		
+		allow_rivermovement = yes
+		priests_can_marry = no
+		priests_can_inherit = no
+		female_temple_holders = yes
+		allow_looting = yes
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+		
+		intermarry = hellenic_pagan
+		intermarry = druze
+		intermarry = brethren
+		intermarry = alawite
+		intermarry = poseidonian
+		intermarry = novelist
+		intermarry = novelist_reformed
+		
+		allow_in_ruler_designer = no
+	}
+	hellenic_pagan = {
+		graphical_culture = hellenicgfx
+		interface_skin = { hellenic_interface }
+		
+		#pre_reformed = yes
+		reformed = hellenic_pagan_reformed
+
+		icon = 37
+		heresy_icon = 59
+		
+		color = { 0 42 127 }
+		
+		high_god_name = GOD_ANAXORGI
+		
+		god_names = {
+			GOD_ARES GOD_TRITON GOD_HADES GOD_ATHENA GOD_PHILOMELUS GOD_PERSEPHONE GOD_HEPHAESTUS GOD_APHRODITE GOD_URANIA GOD_APOLLO GOD_ARTEMIS GOD_HESTIA GOD_DIONYSUS 
+		}
+		evil_god_names = {
+			GOD_ZEUS GOD_POSEIDON GOD_DIONYSUS GOD_HERMES GOD_ANGELOS GOD_TYPHON
+		}
+		
+		allow_rivermovement = yes
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_THEOMACHY
+		priest_title = AUGUR
+		aggression = 2.0
+		priests_can_marry = no
+		priests_can_inherit = no
+		female_temple_holders = yes
+		allow_looting = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+		
+		intermarry = hellenic_pagan_reformed
+		intermarry = druze
+		intermarry = brethren
+		intermarry = alawite
+		intermarry = poseidonian
+		intermarry = novelist
+		intermarry = novelist_reformed
+		
+		can_demand_religious_conversion = no
+	}
+
+	
+	starist_pagan_reformed = {
+		graphical_culture = reformedpagangfx
+		alternate_start = { always = no }
+		secondary_event_pictures = finnish_pagan
+		interface_skin = { pagan_interface }
+
+		icon = 162
+		heresy_icon = 163
+		
+		color = { 96 96 116 }
+		
+		high_god_name = GOD_ZVEZD
+		
+		god_names = {	
+			GOD_NORTH_STAR GOD_EVENING_STAR GOD_AURORA_BOREALIS GOD_ANDROMEDA GOD_SOLNTSE GOD_LUNA
+		}
+		evil_god_names = {
+			GOD_RADIATSIYA GOD_SHROUD GOD_BLACK_HOLE
+		}
+
+		crusade_name = GREAT_MOONFALL
+		scripture_name = THE_ASTRONOMICAN
+		priest_title = COSMONAUT
+		
+		allow_rivermovement = yes
+		priests_can_marry = no
+		priests_can_inherit = no
+		female_temple_holders = yes
+		allow_looting = yes
+		max_consorts = 3
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+		
+		intermarry = starist_pagan
+		intermarry = folklorist
+		intermarry = folklorist_reformed
+		intermarry = nousthreskeia
+		intermarry = nousthreskeia_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = sisukkuus
+		intermarry = brethren
+		intermarry = poseidonian
+		
+		allow_in_ruler_designer = no
+	}
+	starist_pagan = {
+		graphical_culture = reformedpagangfx
+		interface_skin = { pagan_interface }
+		
+		#pre_reformed = yes
+		reformed = starist_pagan_reformed
+
+		icon = 162
+		heresy_icon = 163
+		
+		color = { 86 86 86 }
+		
+		high_god_name = GOD_ZVEZD
+		
+		god_names = {
+			GOD_NORTH_STAR GOD_EVENING_STAR GOD_AURORA_BOREALIS GOD_ANDROMEDA GOD_SOLNTSE GOD_LUNA
+		}
+		evil_god_names = {
+			GOD_RADIATSIYA GOD_SHROUD GOD_BLACK_HOLE
+		}
+		
+		allow_rivermovement = yes
+		crusade_name = GREAT_MOONFALL
+		scripture_name = THE_ASTRONOMICAN
+		priest_title = COSMONAUT
+		
+		aggression = 1.0
+		priests_can_marry = yes
+		priests_can_inherit = no
+		female_temple_holders = yes
+		allow_looting = yes
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+		
+		intermarry = starist_pagan_reformed
+		intermarry = folklorist
+		intermarry = folklorist_reformed
+		intermarry = nousthreskeia
+		intermarry = nousthreskeia_reformed
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = sisukkuus
+		intermarry = brethren
+		intermarry = poseidonian
+		
+		can_demand_religious_conversion = no
+	}
+}

@@ -49,7 +49,7 @@ settlement_decisions = {
 				trigger = {
 					FROM = {
 						NOT = {
-							has_landed_title = e_russian_empire }
+							has_landed_title = e_russia }
 						}
 				}
 				has_building = tb_hillfort_4
@@ -57,11 +57,11 @@ settlement_decisions = {
 			conditional_tooltip = {
 				trigger = {
 					FROM = {
-						has_landed_title = e_russian_empire
+						has_landed_title = e_russia
 					}
 				}
 				FROM = {
-					has_landed_title = e_russian_empire
+					has_landed_title = e_russia
 				}
 				has_building = tb_hillfort_1
 			}
@@ -438,6 +438,282 @@ settlement_decisions = {
 		}
 	}
 
+	pillage_settlement_2 = {
+		only_independent = yes
+		filter = owned
+		ai_target_filter = owned
+		is_high_prio = yes
+		ai_check_interval = 3
+		
+		from_potential = {
+			is_playable = yes
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				religion = stalinist
+				religion = jacobinist
+				religion = trotskyite
+				religion = titoist
+				trait = cruel
+				trait = impaler
+				trait = aggressive_leader
+				trait = viking
+				trait = pirate
+				trait = ravager
+				trait = seaking
+				trait = sea_queen
+				trait = deceitful
+				trait = arbitrary
+				trait = greedy
+				trait = berserker
+				trait = wroth
+			}
+			NOR = {
+				trait = kind
+				trait = charitable
+				trait = just
+			}
+			has_dlc = "Horse Lords"
+		}
+		
+		potential = {
+			NOT = { holding_type = nomad }
+			OR = {
+				FROM = { is_nomadic = yes }
+				location = {
+					num_of_settlements = 2
+				}
+			}
+			OR = {
+				owner = { NOT = { character = FROM } }
+				AND = {
+					FROM = { is_nomadic = yes }
+					location = { NOT = { religion_group = FROM } }
+				}
+			}
+			has_siege = no
+			controller = { character = FROM }
+		}
+		
+		allow = {
+			NOT = { has_holding_modifier = recently_burnt_the_land }
+			controller = { independent = yes }
+			has_siege = no
+			custom_tooltip = {
+				text = stop_pillaging_custom_tooltip
+				hidden_tooltip = {
+					NOT = { has_holding_modifier = stop_burning_land }
+				}
+			}
+		}
+		
+		effect = {
+			
+			hidden_tooltip = {
+				location = { save_event_target_as = nickname_target }
+				FROM = { save_event_target_as = nickname_receiver }
+				if = {
+					limit = {
+						controller = { 
+							has_nickname = no
+							is_adult = yes
+							NOT = { trait = incapable }
+						}
+					}
+					random_list = {
+						5 = {
+							controller = { give_nickname = nick_the_destroyer }
+						}
+						5 = {
+							controller = { give_nickname = nick_the_scourge_of_god }
+							modifier = {
+								factor = 0
+								event_target:nickname_target = { religion = FROM }
+							}
+						}
+						5 = {
+							controller = { give_nickname = nick_the_slayer_of_culture }
+							modifier = {
+								factor = 0
+								event_target:nickname_target = { culture = FROM }
+							}
+						}
+						5 = {
+							controller = { give_nickname = nick_the_terror_of_provincename }
+						}
+						5 = {
+							controller = { give_nickname = nick_the_culture_marauder }
+							modifier = {
+								factor = 0
+								event_target:nickname_target = { culture = FROM }
+							}
+						}
+						75 = {}
+					}
+				}
+			}
+			
+			if = {
+				limit = { NOT = { holding_type = tribal } }
+				FROM = {
+					wealth = 100
+				}
+				custom_tooltip = {
+					text = gain_tech_custom_tooltip
+					hidden_tooltip = {
+						FROM = {
+							random_list = {
+								10 = { military_techpoints = 7 }
+								10 = { economy_techpoints = 7 }
+								10 = { culture_techpoints = 7 }
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = { holding_type = tribal }
+				FROM = { 
+					wealth = 50 
+					population = 150 
+				}
+			}
+			custom_tooltip = {
+				text = "PILLAGE_DESTROY_BUILDINGS"
+				hidden_tooltip = {
+					destroy_random_building = THIS
+					destroy_random_building = THIS
+					destroy_random_building = THIS
+					add_holding_modifier = {
+						modifier = recently_burnt_the_land
+						months = 7
+					}
+				}
+			}
+			
+			location = {
+				random = {
+					chance = 5
+					increase_depopulation_effect = yes
+				}
+			}
+			hidden_tooltip = {
+			
+				location = {
+					add_province_modifier = {
+						modifier = rampaging_nomads
+						years = 10
+					}
+				}
+
+				location = {
+					add_province_modifier = {
+						modifier = burnt_the_land
+						years = 10
+					}
+				}
+			
+				if = {
+					limit = {
+						OR = {
+							FROM = { 
+								NOT = { has_character_modifier = pillage_cooldown } 
+							}
+							FROM = {
+								NOT = {
+									any_realm_province = {
+										any_province_holding = {
+											owner = { character = FROM }
+											has_holding_modifier = recently_burnt_the_land
+											NOT = { has_holding_modifier = stop_burning_land }
+										}
+									}
+								}
+							}
+						}
+					}
+					FROM = { character_event = { id = HL.4800 days = 180 } }
+					FROM = {
+						add_character_modifier = {
+							modifier = pillage_cooldown
+							hidden = yes
+							months = 5
+						}
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						NOT = { has_any_building = yes }
+						owner = {
+							character = FROM
+						}
+						NOT = {
+							is_capital = yes
+						}
+					}
+				}
+				hidden_tooltip = {
+					location = {
+						province_event = { id = HL.4810 days = 1 }
+						province_event = { id = HL.4814 days = 2 random = 2 }
+					}
+				}
+				ROOT = {
+					destroy_settlement = THIS
+				}
+			}
+			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 0.5
+			}
+			modifier = { 
+				factor = 0.1
+				trait = kind
+			}
+			modifier = { 
+				factor = 0.1
+				trait = humble
+			}
+			modifier = { 
+				factor = 0.1
+				trait = just
+			}
+			modifier = { 
+				factor = 1.5
+				trait = arbitrary
+			}
+			modifier = { 
+				factor = 1.5
+				trait = greedy
+			}
+			modifier = { 
+				factor = 1.5
+				location = {
+					NOT = {
+						religion_group = FROM
+					}
+				}
+				trait = zealous
+			}
+			modifier = { 
+				factor = 0.25
+				location = {
+					religion_group = FROM
+				}
+				trait = zealous
+			}
+		}
+	}
+	
 	pillage_settlement = {
 		only_independent = yes
 		filter = owned
@@ -565,6 +841,12 @@ settlement_decisions = {
 				}
 			}
 			
+			location = {
+				random = {
+					chance = 5
+					increase_depopulation_effect = yes
+				}
+			}
 			hidden_tooltip = {
 			
 				location = {
@@ -640,7 +922,6 @@ settlement_decisions = {
 			}
 		}
 	}
-	
 	stop_pillage_settlement = {
 		only_playable = yes
 		filter = owned
@@ -651,6 +932,13 @@ settlement_decisions = {
 			OR = {
 				is_nomadic = yes
 				is_tribal = yes
+				religion = stalinist
+				religion = jacobinist
+				religion = trotskyite
+				religion = titoist
+				trait = cruel
+				trait = impaler
+				trait = wroth
 			}
 			has_dlc = "Horse Lords"
 		}
@@ -659,10 +947,6 @@ settlement_decisions = {
 			has_holding_modifier = recently_burnt_the_land
 			NOT = { has_holding_modifier = stop_burning_land }
 			NOT = { holding_type = nomad }
-			OR = {
-				NOT = { holding_type = tribal }
-				FROM = { is_tribal = no }
-			}
 			owner = { character = FROM }
 		}
 		
@@ -696,54 +980,18 @@ settlement_decisions = {
 		only_independent = yes
 		filter = sub_realm_owned
 		ai_target_filter = sub_realm_owned
-		is_high_prio = no
+		is_high_prio = yes
 		ai_check_interval = 6
 		
 		from_potential = {
 			is_playable = yes
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
-			is_landed = ye
-			OR = {
-				ai = no
-				AND = {
-					NOT = { religion = taoist }
-					NOT = {religion = hindu }
-					NOT = { religion = tengri_pagan }
-					NOT = { religion = tengri_pagan_reformed }
-					NOT = { culture = khitan }
-					NOT = { culture = panjabi }
-					NOT = { culture = frisian }
-					NOT = { culture = persian }
-				}
-			}
+			is_landed = yes
+			
 			OR = {
 				ai = yes
-				AND = {
-					OR = {
-						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
-					}
-					OR = {
-						has_dlc = "The Old Gods"
-						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
-						}
-					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { has_dharmic_religion_trigger = yes }
-					}
-					OR = {
-						has_dlc = "Jade Dragon"
-						NOT = { religion = taoist }
-					}
-				}
+				dlc_religion_check_trigger_without_nomad_check = yes
 			}
 		}
 		potential = {
@@ -1160,32 +1408,7 @@ settlement_decisions = {
 				}
 			}
 			
-			hidden_effect = {
-				# Change name of Avaria to Hungary if relevant.
-				if = {
-					limit = {
-						FROM = {
-							culture = hungarian
-						}
-						location = {
-							kingdom = { title = k_hungary }
-						}
-						k_hungary = {
-							OR = {
-								has_holder = no
-								holder = FROM
-							}
-						}
-					}
-					set_global_flag = avar_khaganate_renamed
-					k_hungary = {
-						reset_coa = THIS
-						set_name=""
-						adjective=""
-						grant_title = FROM
-					}
-				}
-			}
+			soitoskan_settlement_effect = yes
 			
 			if = {
 				limit = { NOT = { holder = FROM } }
@@ -1244,27 +1467,6 @@ settlement_decisions = {
 			
 				set_government_type = tribal_government
 				
-				if = {
-					limit = {
-						NOR = {
-							tier = KING
-							tier = EMPEROR
-						}
-					}
-					save_event_target_as = title_name_target
-					create_title = {
-						tier = KING
-						landless = no
-						temporary = no
-						custom_created = yes
-						culture = ROOT_FROM
-						holder = ROOT_FROM
-						name = "TRIBAL_CUSTOM"
-						base_title = event_target:primary_title
-						copy_title_laws = yes
-					}
-				}
-			
 				if = {
 					limit = {
 						higher_tier_than = count
@@ -1350,6 +1552,7 @@ settlement_decisions = {
 						trait = content
 						culture = hungarian
 						culture = alan
+						culture = scythian
 						NOT = {
 							religion_group = pagan_group
 						}
@@ -1383,47 +1586,10 @@ settlement_decisions = {
 			is_playable = yes
 			is_nomadic = yes
 			has_dlc = "Horse Lords"
-			OR = {
-				ai = no
-				AND = {
-					NOT = { religion = taoist }
-					NOT = {religion = hindu }
-					NOT = { religion = tengri_pagan }
-					NOT = { religion = tengri_pagan_reformed }
-					NOT = { culture = khitan }
-					NOT = { culture = panjabi }
-					NOT = { culture = frisian }
-					NOT = { culture = persian }
-				}
-			}
 			
 			OR = {
 				ai = yes
-				AND = {
-					OR = {
-						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
-					}
-					OR = {
-						has_dlc = "The Old Gods"
-						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
-						}
-					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { has_dharmic_religion_trigger = yes }
-					}
-					OR = {
-						has_dlc = "Jade Dragon"
-						NOT = { religion = taoist }
-					}
-				}
+				dlc_religion_check_trigger_without_nomad_check = yes
 			}
 		}
 		potential = {
@@ -1824,60 +1990,8 @@ settlement_decisions = {
 					}
 				}
 			}
-			hidden_effect = {
-				# Change name of Avaria to Hungary if relevant.
-				if = {
-					limit = {
-						FROM = {
-							culture = hungarian
-						}
-						location = {
-							kingdom = { title = k_hungary }
-						}
-						k_hungary = {
-							OR = {
-								has_holder = no
-								holder = FROM
-							}
-						}
-					}
-					set_global_flag = avar_khaganate_renamed
-					k_hungary = {
-						reset_coa = THIS
-						set_name=""
-						adjective=""
-						grant_title = FROM
-					}
-				}
-			}
 			
-			if = {
-				limit = {
-					FROM = {
-						dynasty = 708 #Árpád
-						has_landed_title = k_hungary
-					}
-				}
-				hidden_tooltip = {
-					FROM = {
-						any_realm_province = {
-							limit = {
-								culture = avar
-							}
-							culture = PREV
-							religion = PREV
-						}
-						k_hungary = {
-							any_direct_de_jure_vassal_title = {
-								limit = {
-									tier = DUKE
-								}
-								add_claim = PREVPREV
-							}
-						}
-					}
-				}
-			}
+			soitoskan_settlement_effect = yes
 			
 			# Spawn event troops based on amount of empty holdings abandoned.
 			custom_tooltip = {
@@ -1941,71 +2055,7 @@ settlement_decisions = {
 					}
 				}
 			
-				if = {
-					limit = {
-						NOT = { religion_group = muslim }
-						NAND = {
-							culture_group = tibetan_group
-							OR = {
-								religion = bon
-								religion = bon_reformed
-								religion = buddhist
-							}
-							higher_tier_than = BARON
-						}
-					}
-					
-					if = {
-						limit = {
-							ai = no
-						}
-						chronicle = {
-							entry = CHRONICLE_NOMAD_ADOPTED_FEUDALISM
-							picture = GFX_evt_castle_construction
-						}
-					}
-					set_government_type = feudal_government
-				}
-				
-				if = {
-					limit = {
-						religion_group = muslim
-					}
-					
-					if = {
-						limit = {
-							ai = no
-						}
-						chronicle = {
-							entry = CHRONICLE_NOMAD_ADOPTED_IQTA
-							picture = GFX_evt_castle_construction
-						}
-					}
-					set_government_type = muslim_government
-				}
-			
-				if = {
-					limit = {
-						culture_group = tibetan_group
-						OR = {
-							religion = bon
-							religion = bon_reformed
-							religion = buddhist
-						}
-						higher_tier_than = BARON
-					}
-					
-					if = {
-						limit = {
-							ai = no
-						}
-						chronicle = {
-							entry = CHRONICLE_ADOPTED_FEUDALISM
-							picture = GFX_evt_castle_construction
-						}
-					}
-					set_government_type = theocratic_feudal_government
-				}
+				set_feudal_government_effect = yes
 				
 				hidden_tooltip = {
 					if = {
@@ -2046,7 +2096,7 @@ settlement_decisions = {
 			modifier = {
 				factor = 100
 				FROM = {
-					dynasty = 708 # Árpád
+					has_dynasty_flag = soitoskan_migration_dynasty # Árpád
 				}
 			}
 			
@@ -2055,7 +2105,7 @@ settlement_decisions = {
 				FROM = {
 					NOT = { num_of_subrealm_castles = 20 }
 					population_and_manpower = 5000
-					NOT = { dynasty = 708 } # Árpád
+					NOT = { has_dynasty_flag = soitoskan_migration_dynasty } # Árpád
 				}
 			}
 			
@@ -2063,7 +2113,7 @@ settlement_decisions = {
 				factor = 0
 				FROM = {
 					NOT = { num_of_subrealm_castles = 10 }
-					NOT = { dynasty = 708 } # Árpád
+					NOT = { has_dynasty_flag = soitoskan_migration_dynasty } # Árpád
 				}
 			}
 			
@@ -2075,7 +2125,7 @@ settlement_decisions = {
 						trait = stubborn
 						trait = proud
 					}
-					NOT = { dynasty = 708 } # Árpád
+					NOT = { has_dynasty_flag = soitoskan_migration_dynasty } # Árpád
 				}
 			}
 			
@@ -2090,7 +2140,7 @@ settlement_decisions = {
 							value = 1.5
 						}
 					}
-					NOT = { dynasty = 708 } # Árpád
+					NOT = { has_dynasty_flag = soitoskan_migration_dynasty } # Árpád
 				}
 			}
 			
@@ -2121,19 +2171,6 @@ settlement_decisions = {
 			is_nomadic = yes
 			is_female = no
 			OR = {
-				ai = no
-				AND = {
-					NOT = { religion = taoist }
-					NOT = {religion = hindu }
-					NOT = { religion = tengri_pagan }
-					NOT = { religion = tengri_pagan_reformed }
-					NOT = { culture = khitan }
-					NOT = { culture = panjabi }
-					NOT = { culture = frisian }
-					NOT = { culture = persian }
-				}
-			}
-			OR = {
 				ai = yes
 				has_dlc = "The Republic"
 			}
@@ -2141,31 +2178,7 @@ settlement_decisions = {
 			
 			OR = {
 				ai = yes
-				AND = {
-					OR = {
-						has_dlc = "The Sword of Islam"
-						NOT = { religion_group = muslim }
-					}
-					OR = {
-						has_dlc = "The Old Gods"
-						NOR = {
-							religion_group = pagan_group
-							religion_group = zoroastrian_group
-						}
-					}
-					OR = {
-						has_dlc = "Sons of Abraham"
-						NOT = { religion_group = jewish_group }
-					}
-					OR = {
-						has_dlc = "Rajas of India"
-						NOT = { has_dharmic_religion_trigger = yes }
-					}
-					OR = {
-						has_dlc = "Jade Dragon"
-						NOT = { religion = taoist }
-					}
-				}
+				dlc_religion_check_trigger_without_nomad_check = yes
 			}
 		}
 		
@@ -2536,31 +2549,8 @@ settlement_decisions = {
 				}
 			}
 			
-			# Change name of Avaria to Hungary if relevant.
-			if = {
-				limit = {
-					FROM = {
-						culture = hungarian
-					}
-					location = {
-						kingdom = { title = k_hungary }
-					}
-					k_hungary = {
-						OR = {
-							has_holder = no
-							holder = FROM
-						}
-					}
-				}
-				set_global_flag = avar_khaganate_renamed
-				k_hungary = {
-					reset_coa = THIS
-					set_name=""
-					adjective=""
-					grant_title = FROM
-				}
-			}
-		
+			soitoskan_settlement_effect = yes
+			
 			# Spawn event troops based on amount of empty holdings abandoned.
 			custom_tooltip = {
 				text = NOMAD_CONVERSION_TROOP_SPAWN
@@ -2931,63 +2921,61 @@ settlement_decisions = {
 		}
 	}
 	
-	settle_iceland_manually = {
-		only_playable = yes
-		filter = sub_realm_owned
-		ai_target_filter = sub_realm_owned
-		is_high_prio = yes
-		ai_check_interval = 60
-		
-		from_potential = {
-			is_alternate_start = no
-			is_playable = yes
-			higher_tier_than = BARON
-		}
-		
+	destroy_local_wonder = {
+		ai_check_interval = 120
+		filter = realm_owned
+
 		potential = {
-			location = {
-				has_province_modifier = incredibly_poor
-			}
-		}
-		
-		allow = {
-			FROM = {
-				prestige = 200
-				wealth = 25
-			}
-		}
-		
-		effect = {
-			location = {
-				religion = FROM
-				culture = FROM
-				capital_holding = {
-					if = {
-						limit = {
-							holding_type = temple
-						}
-						convert_to = tribal
-						refill_holding_levy = yes
-					}
-					holder_scope = {
-						if = {
-							limit = {
-								controls_religion = no
-								holy_order = no
-								government = theocracy_government
-							}
-							set_government_type = tribal_government
-						}
+			ROOT = {
+				is_capital = yes
+				location = {
+					has_wonder = yes
+					NOR = {
+						wonder = wonder_city_of_wonders
+						wonder = wonder_city_of_wonders_rep
 					}
 				}
-				remove_province_modifier = incredibly_poor
 			}
 		}
-		revoke_allowed = {
-			always = no
+
+		allow = {
+			always = yes
+			FROM = { wealth = 250 }
 		}
+
+		effect = {
+			ROOT = {
+				location = {
+					destroy_wonder = yes
+				} 
+			}
+			FROM = { wealth = -250 }
+		}
+
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					holder_scope = {
+						OR = {
+							religion_group = christian
+							religion_group = muslim
+							religion_group = buddhist_group
+						}
+					}
+					location = {
+						OR = {
+							has_wonder = wonder_synagogue_third_temple
+							has_wonder = wonder_aztec_pyramid
+							has_wonder = wonder_pyramid
+							has_wonder = wonder_temple_pagan
+							has_wonder = wonder_temple_hindu
+							has_wonder = wonder_synagogue
+						}
+					} 
+				}
+			}
 		}
 	}
 }

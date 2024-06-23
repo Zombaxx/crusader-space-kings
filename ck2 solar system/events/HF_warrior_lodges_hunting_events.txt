@@ -9,20 +9,15 @@
 #Norse: Hunting Great Wolf (male).
 #Baltic: Hunting She-wolf (Medeina).
 #Hellenics: Hunting Werewolf.
-#Christians: Hunting Werewolf.
-#Jewish: Hunting Werewolf.
 
 #Slavic: Hunting Eagle (Perun).
 #Tengri: Hunting Eagle.
 #Bon: Hunting Eagle.
-#Aztec: Hunting Eagle.
 
 #Finnish: Hunting Bear (Otso)
 
 #WAfrican: Hunting Lion (River Warriors)
 #Zunists: Hunting Lion (Fire Warriors)
-#Mazdan: Hunting Lion
-#Eastern: Hunting Lion
 
 #############################################
 
@@ -56,12 +51,6 @@ character_event = {
 	title = EVTTITLEHF25600
 	desc = {
 		trigger = {
-			has_character_flag = flag_hunting_wolf_norse
-		}
-		text = EVTDESCAHF25600
-	}
-	desc = {
-		trigger = {
 			has_character_flag = flag_hunting_wolf_baltic
 		}
 		text = EVTDESCBHF25600
@@ -69,44 +58,8 @@ character_event = {
 	desc = {
 		trigger = {
 			has_character_flag = flag_hunting_wolf_hellenic
-			NOR = { 
-				society_member_of = warrior_lodge_cws_christian
-				society_member_of = warrior_lodge_ws_muslim
-				society_member_of = warrior_lodge_ws_jewish
-			}
 		}
 		text = EVTDESCCHF25600
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_hunting_wolf_hellenic
-			OR = { 
-				society_member_of = warrior_lodge_cws_christian
-				society_member_of = warrior_lodge_ws_muslim
-				society_member_of = warrior_lodge_ws_jewish
-			}
-		}
-		text = EVTDESCCHFCWS25600
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_hunting_eagle_slavic
-		}
-		text = EVTDESCDHF25600 
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_hunting_eagle_tengri
-			NOT = { society_member_of = warrior_lodge_ws_aztec }
-		}
-		text = EVTDESCEHF25600
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_hunting_eagle_tengri
-			society_member_of = warrior_lodge_ws_aztec
-		}
-		text = EVTDESCWSAZTEC25600 
 	}
 	desc = {
 		trigger = {
@@ -120,48 +73,9 @@ character_event = {
 		}
 		text = EVTDESCGHF25600
 	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_hunting_lion_west_african
-		}
-		text = EVTDESCHHF25600
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_hunting_lion_zun
-			NOR = { 
-				society_member_of = warrior_lodge_ws_mazdan
-				society_member_of = warrior_lodge_ws_eastern
-			}
-		}
-		text = EVTDESCIHF25600
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_hunting_lion_zun
-			OR = {
-				society_member_of = warrior_lodge_ws_mazdan
-				society_member_of = warrior_lodge_ws_eastern
-			}
-		}
-		text = EVTDESCWSEAST25600
-	}
-    desc = {
-        trigger = {
-            has_character_flag = flag_hunting_wolf_celtic
-        }
-        text = hf.25600.desc.celtic
-    }
-    desc = {
-        trigger = {
-            has_character_flag = flag_hunting_lion_egyptian
-        }
-        text = hf.25600.desc.egyptian
-    }
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -170,11 +84,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -183,15 +93,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	hide_new = yes
@@ -233,44 +134,19 @@ character_event = {
 			set_character_flag = flag_WL_had_ritual_hunt_event #Fires once per character.
 			WL_ritual_hunt_cleanup_effect = yes #Safety cleanup.
 			if = { 
-				limit = { society_member_of = warrior_lodge_norse } 
-				set_character_flag = flag_hunting_wolf_norse
-			}
-			if = { 
 				limit = { society_member_of = warrior_lodge_baltic } 
 				set_character_flag = flag_hunting_wolf_baltic
 			}
 			if = { 
-				limit = {
-                   OR = {
-                        society_member_of = warrior_lodge_hellenic
-                        society_member_of = warrior_lodge_titan
-                    }
-				}
+				limit = { society_member_of = warrior_lodge_hellenic } 
 				set_character_flag = flag_hunting_wolf_hellenic
 			}
 			if = { 
-				limit = { society_member_of = warrior_lodge_cws_christian } 
-				set_character_flag = flag_hunting_wolf_hellenic
-			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_ws_muslim } 
-				set_character_flag = flag_hunting_wolf_hellenic
-			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_ws_jewish } 
-				set_character_flag = flag_hunting_wolf_hellenic
-			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_slavic } 
+				limit = { society_member_of = warrior_lodge_folklorist } 
 				set_character_flag = flag_hunting_eagle_slavic
 			}
 			if = { 
-				limit = { society_member_of = warrior_lodge_tengri } 
-				set_character_flag = flag_hunting_eagle_tengri
-			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_ws_aztec } 
+				limit = { society_member_of = warrior_lodge_khanist } 
 				set_character_flag = flag_hunting_eagle_tengri
 			}
 			if = { 
@@ -281,36 +157,6 @@ character_event = {
 				limit = { society_member_of = warrior_lodge_finnish } 
 				set_character_flag = flag_hunting_bear_finnish
 			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_west_african } 
-				set_character_flag = flag_hunting_lion_west_african
-			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_zun } 
-				set_character_flag = flag_hunting_lion_zun
-			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_ws_mazdan } 
-				set_character_flag = flag_hunting_lion_zun
-			}
-			if = { 
-				limit = { society_member_of = warrior_lodge_ws_eastern } 
-				set_character_flag = flag_hunting_lion_zun
-			}
-           if = {
-                limit = {
-                    OR = {
-                        society_member_of = warrior_lodge_celtic
-                        society_member_of = warrior_lodge_britannic
-                    }
-                }
-                set_character_flag = flag_hunting_wolf_celtic
-            }
-            if = {
-                limit = { society_member_of = warrior_lodge_egyptian }
-                set_character_flag = flag_hunting_lion_egyptian
-            }
-			
 
 			random_list = { 
 				33 = { sound_effect = pagan_cheering_01 } 
@@ -698,84 +544,8 @@ character_event = {
 			add_blood_splatter_effect = yes
 			if = { 
 				limit = { 
-                    OR = {
-    					society_member_of = warrior_lodge_norse
-                        society_member_of = warrior_lodge_celtic
-                        society_member_of = warrior_lodge_titan
-                    }
-					NOR = { 
-						trait = african_tattoo_1
-						trait = african_tattoo_2
-						trait = african_tattoo_3
-						trait = african_tattoo_4
-						trait = african_tattoo_5
-						trait = african_tattoo_6
-						trait = african_tattoo_7
-						trait = african_tattoo_8
-						trait = slavic_tattoo_1
-						trait = slavic_tattoo_2
-						trait = slavic_tattoo_3
-						trait = slavic_tattoo_4
-						trait = slavic_tattoo_5
-						trait = slavic_tattoo_6
-						trait = norse_tattoo_1
-						trait = norse_tattoo_2
-						trait = norse_tattoo_3
-						trait = norse_tattoo_4
-						trait = norse_tattoo_5
-						trait = norse_tattoo_6
-					}
-				}
-				random_list = { 
-					40 = { add_trait = norse_tattoo_1 }
-					40 = { add_trait = norse_tattoo_2 } 
-					20 = { add_trait = norse_tattoo_3 } 
-					20 = { add_trait = norse_tattoo_4 } 
-					10 = { add_trait = norse_tattoo_5 } 
-					10 = { add_trait = norse_tattoo_6 } 
-				}
-			}
-			if = { 
-				limit = { 
-					society_member_of = warrior_lodge_west_african
-					NOR = { 
-						trait = african_tattoo_1
-						trait = african_tattoo_2
-						trait = african_tattoo_3
-						trait = african_tattoo_4
-						trait = african_tattoo_5
-						trait = african_tattoo_6
-						trait = african_tattoo_7
-						trait = african_tattoo_8
-						trait = slavic_tattoo_1
-						trait = slavic_tattoo_2
-						trait = slavic_tattoo_3
-						trait = slavic_tattoo_4
-						trait = slavic_tattoo_5
-						trait = slavic_tattoo_6
-						trait = norse_tattoo_1
-						trait = norse_tattoo_2
-						trait = norse_tattoo_3
-						trait = norse_tattoo_4
-						trait = norse_tattoo_5
-						trait = norse_tattoo_6
-					}
-				}
-				random_list = { 
-					50 = { add_trait = african_tattoo_1 }
-					50 = { add_trait = african_tattoo_2 }
-					40 = { add_trait = african_tattoo_3 }
-					40 = { add_trait = african_tattoo_4 }
-					30 = { add_trait = african_tattoo_5 }
-					30 = { add_trait = african_tattoo_6 }
-					20 = { add_trait = african_tattoo_7 }
-					20 = { add_trait = african_tattoo_8 } 
-				}
-			}
-			if = { 
-				limit = { 
 					OR = { 
-						society_member_of = warrior_lodge_slavic
+						society_member_of = warrior_lodge_folklorist
 						society_member_of = warrior_lodge_baltic
 					}
 					NOR = { 
@@ -812,7 +582,7 @@ character_event = {
 			}
 			if = { 
 				limit = { 
-					society_member_of = warrior_lodge_tengri
+					society_member_of = warrior_lodge_khanist
 				}
 				remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
 				remove_character_modifier = tengri_warpaint_2
@@ -868,115 +638,14 @@ character_event = {
 					}
 				}
 			}
-			if = { 
-				limit = { 
-					society_member_of = warrior_lodge_zun
-				}
-				remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
-				remove_character_modifier = tengri_warpaint_2
-				remove_character_modifier = aztec_warpaint_1
-				remove_character_modifier = aztec_warpaint_2
-				remove_character_modifier = finnish_warpaint_1
-				remove_character_modifier = finnish_warpaint_2
-				remove_character_modifier = zun_warpaint_1
-				remove_character_modifier = zun_warpaint_2
-				random_list = { 
-					50 = { 
-						add_character_modifier = { 
-							modifier = zun_warpaint_1
-							years = 5 
-							hidden = yes
-						}
-					}
-					50 = { 
-						add_character_modifier = { 
-							modifier = zun_warpaint_2
-							years = 5 
-							hidden = yes
-						}
-					}
-				}
-			}
 			#Tattoos and Warpaint. - For partner.
 
 			event_target:scoped_WL_co_hunter = { 
 				add_blood_splatter_effect = yes
 				if = { 
 					limit = { 
-						society_member_of = warrior_lodge_norse
-						NOR = { 
-							trait = african_tattoo_1
-							trait = african_tattoo_2
-							trait = african_tattoo_3
-							trait = african_tattoo_4
-							trait = african_tattoo_5
-							trait = african_tattoo_6
-							trait = african_tattoo_7
-							trait = african_tattoo_8
-							trait = slavic_tattoo_1
-							trait = slavic_tattoo_2
-							trait = slavic_tattoo_3
-							trait = slavic_tattoo_4
-							trait = slavic_tattoo_5
-							trait = slavic_tattoo_6
-							trait = norse_tattoo_1
-							trait = norse_tattoo_2
-							trait = norse_tattoo_3
-							trait = norse_tattoo_4
-							trait = norse_tattoo_5
-							trait = norse_tattoo_6
-						}
-					}
-					random_list = { 
-						40 = { add_trait = norse_tattoo_1 }
-						40 = { add_trait = norse_tattoo_2 } 
-						20 = { add_trait = norse_tattoo_3 } 
-						20 = { add_trait = norse_tattoo_4 } 
-						10 = { add_trait = norse_tattoo_5 } 
-						10 = { add_trait = norse_tattoo_6 } 
-					}
-				}
-				if = { 
-					limit = { 
-						society_member_of = warrior_lodge_west_african
-						NOR = { 
-							trait = african_tattoo_1
-							trait = african_tattoo_2
-							trait = african_tattoo_3
-							trait = african_tattoo_4
-							trait = african_tattoo_5
-							trait = african_tattoo_6
-							trait = african_tattoo_7
-							trait = african_tattoo_8
-							trait = slavic_tattoo_1
-							trait = slavic_tattoo_2
-							trait = slavic_tattoo_3
-							trait = slavic_tattoo_4
-							trait = slavic_tattoo_5
-							trait = slavic_tattoo_6
-							trait = norse_tattoo_1
-							trait = norse_tattoo_2
-							trait = norse_tattoo_3
-							trait = norse_tattoo_4
-							trait = norse_tattoo_5
-							trait = norse_tattoo_6
-						}
-					}
-					random_list = { 
-						50 = { add_trait = african_tattoo_1 }
-						50 = { add_trait = african_tattoo_2 }
-						40 = { add_trait = african_tattoo_3 }
-						40 = { add_trait = african_tattoo_4 }
-						30 = { add_trait = african_tattoo_5 }
-						30 = { add_trait = african_tattoo_6 }
-						20 = { add_trait = african_tattoo_7 }
-						20 = { add_trait = african_tattoo_8 } 
-					}
-				}
-				if = { 
-					limit = { 
 						OR = { 
-							society_member_of = warrior_lodge_slavic
+							society_member_of = warrior_lodge_folklorist
 							society_member_of = warrior_lodge_baltic
 						}
 						NOR = { 
@@ -1013,7 +682,7 @@ character_event = {
 				}
 				if = { 
 					limit = { 
-						society_member_of = warrior_lodge_tengri
+						society_member_of = warrior_lodge_khanist
 					}
 					remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
 					remove_character_modifier = tengri_warpaint_2
@@ -1063,35 +732,6 @@ character_event = {
 						50 = { 
 							add_character_modifier = { 
 								modifier = finnish_warpaint_2
-								years = 5 
-								hidden = yes
-							}
-						}
-					}
-				}
-				if = { 
-					limit = { 
-						society_member_of = warrior_lodge_zun
-					}
-					remove_character_modifier = tengri_warpaint_1 #Remove all previous paint that might still be lingering, for whatever reason.
-					remove_character_modifier = tengri_warpaint_2
-					remove_character_modifier = aztec_warpaint_1
-					remove_character_modifier = aztec_warpaint_2
-					remove_character_modifier = finnish_warpaint_1
-					remove_character_modifier = finnish_warpaint_2
-					remove_character_modifier = zun_warpaint_1
-					remove_character_modifier = zun_warpaint_2
-					random_list = { 
-						50 = { 
-							add_character_modifier = { 
-								modifier = zun_warpaint_1
-								years = 5 
-								hidden = yes
-							}
-						}
-						50 = { 
-							add_character_modifier = { 
-								modifier = zun_warpaint_2
 								years = 5 
 								hidden = yes
 							}
@@ -1162,21 +802,15 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
-				has_character_modifier = flag_hunting_wolf_celtic
 			} 
 		} 
 		picture = GFX_evt_mysterious_forest
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -1185,16 +819,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-				has_character_flag = flag_hunting_lion_egyptian
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -1227,7 +851,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -1236,11 +859,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -1249,15 +868,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -1431,7 +1041,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -1440,11 +1049,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -1453,15 +1058,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -1574,7 +1170,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -1584,8 +1179,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
 			} 
 		} 
@@ -1596,15 +1189,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -1692,7 +1276,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -1701,11 +1284,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
-				has_character_flag = flag_hunting_eagle_bon
-			} 
+			has_character_flag = flag_hunting_eagle_bon
 		} 
 		picture = GFX_evt_desert
 	}
@@ -1714,15 +1293,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -1847,7 +1417,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -1856,11 +1425,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -1869,15 +1434,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -1980,7 +1536,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -1989,11 +1544,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -2002,15 +1553,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -2040,7 +1582,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2049,11 +1590,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25608
 	}
@@ -2063,20 +1600,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25608
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25608
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2085,11 +1612,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
-				has_character_flag = flag_hunting_eagle_bon
-			} 
+			has_character_flag = flag_hunting_eagle_bon
 		} 
 		picture = GFX_evt_desert
 	}
@@ -2098,15 +1621,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -2300,7 +1814,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2309,11 +1822,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25609
 	}
@@ -2323,20 +1832,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25609
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25609
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2345,11 +1844,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
-				has_character_flag = flag_hunting_eagle_bon
-			} 
+			has_character_flag = flag_hunting_eagle_bon
 		} 
 		picture = GFX_evt_desert
 	}
@@ -2358,15 +1853,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -2540,7 +2026,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2549,11 +2034,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25610
 	}
@@ -2563,20 +2044,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25610
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25610
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2585,11 +2056,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -2598,15 +2065,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -2797,7 +2255,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2820,20 +2277,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25611
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25611
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -2842,11 +2289,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -2855,15 +2298,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -3039,7 +2473,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3048,11 +2481,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25612
 	}
@@ -3062,20 +2491,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25612
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25612
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3084,11 +2503,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -3097,15 +2512,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -3296,7 +2702,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3305,11 +2710,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25613
 	}
@@ -3319,20 +2720,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25613
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25613
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3341,11 +2732,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -3354,15 +2741,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -3536,7 +2914,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3545,11 +2922,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25614
 	}
@@ -3559,20 +2932,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25614
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25614
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3581,11 +2944,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -3594,15 +2953,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -3659,7 +3009,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3668,11 +3017,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -3681,15 +3026,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -3960,7 +3296,6 @@ character_event = {
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -3969,11 +3304,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -3982,15 +3313,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -4020,7 +3342,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -4029,11 +3350,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25618
 	}
@@ -4043,20 +3360,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25618
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25618
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -4065,11 +3372,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -4078,15 +3381,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -4711,7 +4005,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -4720,11 +4013,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25619
 	}
@@ -4734,20 +4023,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25619
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25619
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -4756,11 +4035,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -4769,15 +4044,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -5072,7 +4338,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5081,11 +4346,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25620
 	}
@@ -5095,20 +4356,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25620
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25620
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5117,11 +4368,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -5130,15 +4377,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -5163,7 +4401,6 @@ character_event = {
 		if = { 
 			limit = { 
 				OR = { 
-					has_character_flag = flag_hunting_wolf_norse
 					has_character_flag = flag_hunting_wolf_baltic
 					has_character_flag = flag_hunting_wolf_hellenic
 				} 
@@ -5175,11 +4412,7 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				OR = { 
-					has_character_flag = flag_hunting_eagle_slavic
-					has_character_flag = flag_hunting_eagle_tengri
 					has_character_flag = flag_hunting_eagle_bon
-				} 
 			} 
 			add_character_modifier = { 
 				name = ritual_hunt_trophy_eagle
@@ -5192,18 +4425,6 @@ character_event = {
 			} 
 			add_character_modifier = { 
 				name = ritual_hunt_trophy_bear
-				duration = 36500
-			}
-		}
-		if = { 
-			limit = { 
-				OR = { 
-					has_character_flag = flag_hunting_lion_west_african
-					has_character_flag = flag_hunting_lion_zun
-				} 
-			} 
-			add_character_modifier = { 
-				name = ritual_hunt_trophy_lion
 				duration = 36500
 			}
 		}
@@ -5288,7 +4509,7 @@ character_event = {
 	}
 	option = { #Tengri finds eagle.
 		name = EVTOPTDHF25620
-		trigger = { has_character_flag = flag_hunting_eagle_tengri OR = { religion = tengri_pagan religion = tengri_pagan_reformed } }
+		trigger = { has_character_flag = flag_hunting_eagle_tengri OR = { religion = khanist religion = tengri_pagan_reformed } }
 		custom_tooltip = { text = TT_EVTOPTDHF252620 }
 		hidden_tooltip = { character_event = { id = HF.25629 } } #Fluff.
 		ai_chance = { factor = 50 }
@@ -5315,7 +4536,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5324,11 +4544,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25621
 	}
@@ -5338,20 +4554,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25621
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25621
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5360,11 +4566,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -5373,15 +4575,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -5406,7 +4599,6 @@ character_event = {
 		if = { 
 			limit = { 
 				OR = { 
-					has_character_flag = flag_hunting_wolf_norse
 					has_character_flag = flag_hunting_wolf_baltic
 					has_character_flag = flag_hunting_wolf_hellenic
 				} 
@@ -5418,11 +4610,7 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				OR = { 
-					has_character_flag = flag_hunting_eagle_slavic
-					has_character_flag = flag_hunting_eagle_tengri
 					has_character_flag = flag_hunting_eagle_bon
-				} 
 			} 
 			add_character_modifier = { 
 				name = ritual_hunt_trophy_eagle
@@ -5435,18 +4623,6 @@ character_event = {
 			} 
 			add_character_modifier = { 
 				name = ritual_hunt_trophy_bear
-				duration = 36500
-			}
-		}
-		if = { 
-			limit = { 
-				OR = { 
-					has_character_flag = flag_hunting_lion_west_african
-					has_character_flag = flag_hunting_lion_zun
-				} 
-			} 
-			add_character_modifier = { 
-				name = ritual_hunt_trophy_lion
 				duration = 36500
 			}
 		}
@@ -5592,7 +4768,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5601,11 +4776,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25622
 	}
@@ -5615,20 +4786,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25622
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25622
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5637,11 +4798,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -5650,15 +4807,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -5730,7 +4878,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5739,11 +4886,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25623
 	}
@@ -5753,20 +4896,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25623
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25623
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5775,11 +4908,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -5788,15 +4917,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -5830,7 +4950,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5839,11 +4958,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25624
 	}
@@ -5853,20 +4968,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25624
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25624
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5875,11 +4980,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -5888,15 +4989,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter
@@ -5957,7 +5049,6 @@ character_event = {
 	desc = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -5966,11 +5057,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		text = EVTDESCBHF25624
 	}
@@ -5980,20 +5067,10 @@ character_event = {
 		} 
 		text = EVTDESCCHF25624
 	}
-	desc = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		} 
-		text = EVTDESCDHF25624
-	}
 
 	picture = { 
 		trigger = { 
 			OR = { 
-				has_character_flag = flag_hunting_wolf_norse
 				has_character_flag = flag_hunting_wolf_baltic
 				has_character_flag = flag_hunting_wolf_hellenic
 			} 
@@ -6002,11 +5079,7 @@ character_event = {
 	}
 	picture = { 
 		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_eagle_slavic
-				has_character_flag = flag_hunting_eagle_tengri
 				has_character_flag = flag_hunting_eagle_bon
-			} 
 		} 
 		picture = GFX_evt_desert
 	}
@@ -6015,15 +5088,6 @@ character_event = {
 			has_character_flag = flag_hunting_bear_finnish 
 		} 
 		picture = GFX_evt_midwinter_blot_oldgods
-	}
-	picture = { 
-		trigger = { 
-			OR = { 
-				has_character_flag = flag_hunting_lion_west_african
-				has_character_flag = flag_hunting_lion_zun
-			} 
-		}
-		picture = GFX_evt_bandits
 	}
 	border = GFX_event_normal_frame_war
 	portrait = event_target:scoped_WL_co_hunter

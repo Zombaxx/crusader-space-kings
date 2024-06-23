@@ -17,18 +17,27 @@ TRIBAL_PIETY_RET_1 = {
 	second_amount = 50
 	
 	potential = {
-		is_tribal = yes
+		higher_tier_than = BARON
+		government = tribal_government
 		OR = {
 			religion = baltic_pagan_reformed
 			religion = baltic_pagan
 			religion = finnish_pagan_reformed
 			religion = finnish_pagan
-			religion = slavic_pagan_reformed
-			religion = slavic_pagan
-			religion = west_african_pagan_reformed
-			religion = west_african_pagan
-			religion = bon
+			religion = celtic_pagan_reformed
+			religion = celtic_pagan
+			religion = inuit_pagan_reformed
+			religion = inuit_pagan
+			religion = lakefolk_pagan_reformed
+			religion = lakefolk_pagan
+			religion = folklorist_reformed
+			religion = folklorist
+			religion = maunaxite_reformed
+			religion = maunaxite
 			religion = bon_reformed
+			religion = bon
+			religion = sarna_pagan_reformed
+			religion = sarna_pagan
 		}
 	}
 	
@@ -52,18 +61,27 @@ TRIBAL_PIETY_RET_2 = {
 	second_amount = 75
 	
 	potential = {
-		is_tribal = yes
+		higher_tier_than = BARON
+		government = tribal_government
 		OR = {
 			religion = baltic_pagan_reformed
 			religion = baltic_pagan
 			religion = finnish_pagan_reformed
 			religion = finnish_pagan
-			religion = slavic_pagan_reformed
-			religion = slavic_pagan
-			religion = west_african_pagan_reformed
-			religion = west_african_pagan
-			religion = bon
+			religion = celtic_pagan_reformed
+			religion = celtic_pagan
+			religion = inuit_pagan_reformed
+			religion = inuit_pagan
+			religion = lakefolk_pagan_reformed
+			religion = lakefolk_pagan
+			religion = folklorist_reformed
+			religion = folklorist
+			religion = maunaxite_reformed
+			religion = maunaxite
 			religion = bon_reformed
+			religion = bon
+			religion = sarna_pagan_reformed
+			religion = sarna_pagan
 		}
 	}
 	
@@ -78,12 +96,38 @@ TRIBAL_PIETY_RET_2 = {
 	}
 }
 
+FEUDAL_PIETY_RET_1 = {
+	first_type = 5
+	first_amount = 50
+	
+	second_type = 2
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		trait = zealous
+	}
+	costs_piety = yes
+	
+	modifier = {
+		archers_offensive = -0.15
+		archers_defensive = -0.15
+		archers_morale = 0.8
+		pikemen_defensive = -0.15
+		pikemen_offensive = -0.15
+		pikemen_morale = 0.8
+	}
+}
+
 TRIBAL_RET_1 = {
 	first_type = 0
 	first_amount = 150
 	
 	potential = {
-		is_tribal = yes
+		higher_tier_than = BARON
+		government = tribal_government
 	}
 	
 	hire_cost = 25
@@ -106,7 +150,8 @@ TRIBAL_RET_2 = {
 	second_amount = 50
 	
 	potential = {
-		is_tribal = yes
+		higher_tier_than = BARON
+		government = tribal_government
 	}
 	
 	hire_cost = 50
@@ -131,7 +176,8 @@ TRIBAL_RET_3 = {
 	second_amount = 50
 	
 	potential = {
-		is_tribal = yes
+		higher_tier_than = BARON
+		government = tribal_government
 	}
 	
 	hire_cost = 75
@@ -156,7 +202,8 @@ TRIBAL_RET_4 = {
 	second_amount = 50
 	
 	potential = {
-		is_tribal = yes
+		higher_tier_than = BARON
+		government = tribal_government
 	}
 	
 	hire_cost = 75
@@ -183,14 +230,13 @@ TRIBAL_RET_5 = {
 	special_troops = horse_archers
 	
 	potential = {
-		is_tribal = yes
+		higher_tier_than = BARON
+		government = tribal_government
 		OR = {
-			culture_group = altaic
-			culture = alan
-			culture = hungarian
-		}
-		NOT = {
-			culture = jurchen
+			culture_group = kipchak
+			culture_group = karluk
+			culture_group = arghu
+			culture_group = mongolic
 		}
 	}
 	
@@ -214,7 +260,10 @@ RETTYPE_INF1 =
 	second_amount = 50
 	
 	potential = {
-		is_nomadic = no is_tribal = no
+		is_nomadic = no 
+		is_tribal = no
+		ai = yes
+		higher_tier_than = BARON
 	}
 	
 	modifier = {
@@ -232,7 +281,10 @@ RETTYPE_INF2 =
 	second_amount = 50
 	
 	potential = {
-		is_nomadic = no is_tribal = no
+		is_nomadic = no 
+		is_tribal = no
+		ai = yes
+		higher_tier_than = BARON
 	}
 	
 	modifier = {
@@ -250,7 +302,10 @@ RETTYPE_CAV1 =
 	second_amount = 200
 	
 	potential = {
-		is_nomadic = no is_tribal = no
+		is_nomadic = no 
+		is_tribal = no
+		ai = yes
+		higher_tier_than = BARON
 	}
 	
 	modifier = {
@@ -267,7 +322,10 @@ RETTYPE_SKIR1 =
 	second_amount = 50
 	
 	potential = {
-		is_nomadic = no is_tribal = no
+		is_nomadic = no 
+		is_tribal = no
+		ai = yes
+		higher_tier_than = BARON
 	}
 	
 	modifier = {
@@ -285,7 +343,10 @@ RETTYPE_SKIR2 =
 	second_amount = 400
 	
 	potential = {
-		is_nomadic = no is_tribal = no
+		is_nomadic = no 
+		is_tribal = no
+		ai = yes
+		higher_tier_than = BARON
 	}
 	
 	modifier = {
@@ -295,6 +356,1788 @@ RETTYPE_SKIR2 =
 		light_infantry_morale = 0.2
 	}
 }
+# Normal
+
+RETTYPE_HEV_INF1 =
+{
+	first_type = 1
+	first_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_offensive = 0.1
+	}
+}
+RETTYPE_HEV_INF2 =
+{
+	first_type = 1
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_offensive = 0.1
+	}
+}
+RETTYPE_HEV_INF3 =
+{
+	first_type = 1
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_offensive = 0.1
+	}
+}
+
+RETTYPE_SPR_INF1 =
+{
+	first_type = 2
+	first_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.4
+		pikemen_offensive = 0.2
+	}
+}
+RETTYPE_SPR_INF2 =
+{
+	first_type = 2
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.4
+		pikemen_offensive = 0.2
+	}
+}
+RETTYPE_SPR_INF3 =
+{
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.4
+		pikemen_offensive = 0.2
+	}
+}
+
+RETTYPE_LIGHT_CAV1 =
+{
+	first_type = 3
+	first_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+RETTYPE_LIGHT_CAV2 =
+{
+	first_type = 3
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+RETTYPE_LIGHT_CAV3 =
+{
+	first_type = 3
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+RETTYPE_HEAVY_CAV1 =
+{
+	first_type = 4
+	first_amount = 50
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+	}
+}
+RETTYPE_HEAVY_CAV2 =
+{
+	first_type = 4
+	first_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+	}
+}
+RETTYPE_HEAVY_CAV3 =
+{
+	first_type = 4
+	first_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+	}
+}
+
+RETTYPE_ARCH1 = 
+{
+	first_type = 5
+	first_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.1
+	}
+}
+
+RETTYPE_ARCH2 = 
+{
+	first_type = 5
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.1
+	}
+}
+
+RETTYPE_ARCH3 = 
+{
+	first_type = 5
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.1
+	}
+}
+
+RETTYPE_SKIRMISH1 = 
+{
+	first_type = 0
+	first_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.2
+	}
+}
+RETTYPE_SKIRMISH2 = 
+{
+	first_type = 0
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.2
+	}
+}
+RETTYPE_SKIRMISH3 = 
+{
+	first_type = 0
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no 
+		is_tribal = no
+		ai = no
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.2
+	}
+}
+RETTYPE_MARTINI_HENRY_GUNMEN = 
+{
+	
+	first_type = 6
+	first_amount = 50
+
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_tribal = no
+		is_nomadic = no
+		has_character_flag = can_make_martinihenrys
+	}
+	maintenance_multiplier = 3
+	hire_cost = 4000
+	
+	modifier = {
+		gunmen_offensive = 4
+		gunmen_defensive = 4
+		gunmen_morale = 0.2
+	}
+}
+RETTYPE_GENERIC_GUNMEN_EARLY = 
+{
+	
+	first_type = 6
+	first_amount = 50
+
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_tribal = no
+		is_nomadic = no
+		TECH_INFANTRY = 6
+		NOR = { 
+			TECH_INFANTRY = 7
+			TECH_INFANTRY = 8 
+		}
+		NOR = {
+			society_member_of = hermetics
+			AND = {
+				OR = {
+					culture = wallachian
+					culture = transylvanian
+					culture = moldavian
+				}
+				has_global_flag = guns_in_transnistria
+			}
+			culture = afghan
+			culture = kannada
+			culture = bhutanese
+			culture = low_bhutanese
+			culture = british
+			culture = kamatic
+			culture = southener
+			culture = scouse
+			culture = eastlander
+			culture = northlander
+			culture = old_norman
+			culture = new_english
+			culture = brytwysher
+			culture = ashkenazi
+		}
+	}
+	
+	modifier = {
+		gunmen_offensive = 0.05
+		gunmen_morale = 0.05
+	}
+}
+RETTYPE_GENERIC_GUNMEN = 
+{
+	first_type = 2
+	first_amount = 200
+	
+	second_type = 6
+	second_amount = 50
+
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_tribal = no
+		is_nomadic = no
+		TECH_INFANTRY = 7
+		NOT = { TECH_INFANTRY = 8 }
+		NOR = {
+			society_member_of = hermetics
+			AND = {
+				OR = {
+					culture = wallachian
+					culture = transylvanian
+					culture = moldavian
+				}
+				has_global_flag = guns_in_transnistria
+			}
+			culture = afghan
+			culture = kannada
+			culture = bhutanese
+			culture = low_bhutanese
+			culture = british
+			culture = kamatic
+			culture = southener
+			culture = scouse
+			culture = eastlander
+			culture = northlander
+			culture = old_norman
+			culture = new_english
+			culture = brytwysher
+			culture = ashkenazi
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.15
+		gunmen_offensive = 0.05
+		gunmen_morale = 0.05
+	}
+}
+RETTYPE_GENERIC_GUNMEN_LATE = 
+{
+	first_type = 2
+	first_amount = 200
+	
+	second_type = 6
+	second_amount = 100
+
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_tribal = no
+		is_nomadic = no
+		TECH_INFANTRY = 8
+		NOR = {
+			society_member_of = hermetics
+			AND = {
+				OR = {
+					culture = wallachian
+					culture = transylvanian
+					culture = moldavian
+				}
+				has_global_flag = guns_in_transnistria
+			}
+			culture = afghan
+			culture = kannada
+			culture = bhutanese
+			culture = low_bhutanese
+			culture = british
+			culture = kamatic
+			culture = southener
+			culture = scouse
+			culture = eastlander
+			culture = northlander
+			culture = old_norman
+			culture = new_english
+			culture = brytwysher
+			culture = ashkenazi
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.15
+		gunmen_offensive = 0.1
+		gunmen_morale = 0.1
+	}
+}
+
+RETTYPE_ADVANCED_GUNMEN = 
+{
+	first_type = 2
+	first_amount = 250
+	
+	second_type = 6
+	second_amount = 250
+
+	special_troops = gunmen
+	maintenance_multiplier = 5
+	
+	potential = {
+		higher_tier_than = BARON
+		is_tribal = no
+		is_nomadic = no
+		OR = {
+			TECH_INFANTRY = 7
+			TECH_INFANTRY = 8
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.15
+		gunmen_offensive = 0.33
+		gunmen_morale = 0.33
+	}
+}
+# Cultural Retinues
+RETTYPE_CUL_EAST_TURKIC = 
+{
+	first_type = 3
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = kipchak
+			culture_group = karluk
+			culture_group = arghu
+			any_realm_province = {
+				OR = {
+			culture_group = kipchak
+			culture_group = karluk
+			culture_group = arghu
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_defensive = 0.3
+		light_cavalry_morale = 0.3
+	}
+}
+
+RETTYPE_CUL_ALBANIAN = 
+{
+	first_type = 3
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture_group = albanian
+			any_realm_province = {
+				OR = {
+		culture_group = albanian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_morale = 0.3
+	}
+}
+RETTYPE_CUL_ALAN = 
+{
+	first_type = 0
+	first_amount = 200
+	
+	second_type = 6
+	second_amount = 100
+	
+	special_troops = horse_archers
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = alan
+			culture = scythian
+			any_realm_province = {
+				OR = {
+			culture = alan
+			culture = scythian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.5
+		light_infantry_morale = 0.1
+		horse_archers_offensive = 0.2
+		horse_archers_morale = 0.1
+	}
+}
+RETTYPE_CUL_IRAN = 
+{
+	first_type = 3
+	first_amount = 125
+	
+	second_type = 4
+	second_amount = 125
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = iranian
+			culture = qashqai
+			culture = moghol
+			culture = brahui
+			any_realm_province = {
+				OR = {
+			culture_group = iranian
+			culture = qashqai
+			culture = moghol
+			culture = brahui
+				}
+			}
+		}
+		NOR = {
+			culture = kurdish
+			culture = ezidi
+			culture = sorani
+			culture = xwarin
+			culture = tajik
+			culture = afghan
+			culture = alan
+			culture = scythian
+		}
+	}
+	
+	modifier = {
+		light_cavalry_morale = 0.2
+		knights_morale = 0.2
+		light_cavalry_offensive = 0.2
+		knights_defensive = 0.2
+	}
+}
+RETTYPE_CUL_SIAM = 
+{
+	first_type = 6
+	first_amount = 100
+
+	special_troops = war_elephants
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = siamese
+			any_realm_province = {
+				OR = {
+		culture = siamese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		war_elephants_morale = 0.1
+		war_elephants_offensive = 0.15
+	}
+}
+RETTYPE_CUL_MYANMAR = 
+{
+	first_type = 2
+	first_amount = 200
+	
+	second_type = 6
+	second_amount = 20
+
+	special_troops = war_elephants
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = myanmarese
+			any_realm_province = {
+				OR = {
+		culture = myanmarese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.15
+		war_elephants_defensive = 0.15
+	}
+}
+RETTYPE_CUL_YANKEE = 
+{
+	first_type = 1
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = maritimer
+			culture = newfie
+			any_realm_province = {
+				OR = {
+			culture = maritimer
+			culture = newfie
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.4
+		heavy_infantry_morale = 0.2
+	}
+}
+RETTYPE_CUL_SOUTHERN = 
+{
+	first_type = 4
+	first_amount = 150
+	
+	second_type = 3
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = dixie
+			culture = southron
+			any_realm_province = {
+				OR = {
+			culture = dixie
+			culture = southron
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
+	}
+}
+RETTYPE_CUL_APPALACHIAN = 
+{
+	first_type = 2
+	first_amount = 400
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = appalachian
+			any_realm_province = {
+				OR = {
+		culture = appalachian
+				}
+			}
+		}
+	}	
+	
+	modifier = {
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.4
+	}
+}
+
+
+RETTYPE_CUL_CANADIAN = 
+{
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = quebecois
+			culture = acadien
+			any_realm_province = {
+				OR = {
+			culture = quebecois
+			culture = acadien
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.2
+	}
+}
+RETTYPE_CUL_SIPAHI = 
+{
+	first_type = 4
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 100
+	
+	special_troops = horse_archers
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = bosnian
+			any_realm_province = {
+				OR = {
+		culture = bosnian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		knights_morale = 0.15
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.2
+	}
+}
+RETTYPE_CUL_JANISS = 
+{
+	first_type = 1
+	first_amount = 100
+	
+	second_type = 5
+	second_amount = 100
+
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = oghuz
+			culture = rumca
+			any_realm_province = {
+				OR = {
+			culture_group = oghuz
+			culture = rumca
+				}
+			}
+		}
+		NOR = {
+			culture = turkmen
+			culture = azerbaijani
+			culture = qashqai
+		}
+	}
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.2
+		archers_offensive = 0.2
+		archers_morale = 0.25
+	}
+}
+RETTYPE_TECTONIC = 
+{
+	first_type = 4
+	first_amount = 200
+	
+	second_type = 6
+	second_amount = 50
+
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		society_member_of = hermetics
+	}
+	maintenance_multiplier = 1.5
+	
+	modifier = {
+		knights_offensive = 0.2
+		knights_morale = 0.2
+		gunmen_offensive = 0.2
+		gunmen_morale = 0.25
+	}
+}
+RETTYPE_DEBTCOLLECTORS = 
+{
+	first_type = 1
+	first_amount = 200
+	
+	second_type = 5
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		society_member_of = banking_society
+	}
+	maintenance_multiplier = 1.75
+	
+	modifier = {
+		heavy_infantry_defensive = 0.35
+		heavy_infantry_offensive = 0.25
+		archers_offensive = 0.25
+	}
+}
+RETTYPE_KGB_AGENTS = 
+{
+	first_type = 0
+	first_amount = 250
+	
+	second_type = 5
+	second_amount = 100
+
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		society_member_of = the_assassins
+	}
+	maintenance_multiplier = 1.75
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		light_infantry_morale = 0.35
+		archers_offensive = 0.25
+	}
+}
+RETTYPE_CUL_ROMANIAN = 
+{
+	first_type = 1
+	first_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = wallachian
+			culture = transylvanian
+			culture = moldavian
+			any_realm_province = {
+				OR = {
+			culture = wallachian
+			culture = transylvanian
+			culture = moldavian
+				}
+			}
+		}
+		NOT = { has_global_flag = guns_in_transnistria }
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.2
+	}
+}
+RETTYPE_CUL_GUN_ROMANIAN = 
+{
+	first_type = 1
+	first_amount = 50
+	
+	second_type = 6
+	second_amount = 50
+	
+	special_troops = gunmen
+	maintenance_multiplier = 1.5
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = wallachian
+			culture = transylvanian
+			culture = moldavian
+			any_realm_province = {
+				OR = {
+			culture = wallachian
+			culture = transylvanian
+			culture = moldavian
+				}
+			}
+		}
+		has_global_flag = guns_in_transnistria
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.2
+	}
+}
+RETTYPE_CUL_ROMANI = 
+{
+	first_type = 5
+	first_amount = 100
+	
+	second_type = 2
+	second_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+			culture = domari
+			culture = romani
+			culture = domba
+			any_realm_province = {
+				OR = {
+			culture = domari
+			culture = romani
+			culture = domba
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.2
+		archers_offensive = 0.2
+		archers_morale = 0.2
+	}
+}
+RETTYPE_CUL_KOREA1 = 
+{
+	first_type = 2
+	first_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = koryo_saram
+			any_realm_province = {
+				OR = {
+		culture = koryo_saram
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.4
+	}
+}
+RETTYPE_CUL_KOREA2 = 
+{
+	first_type = 3
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 100
+	
+	special_troops = horse_archers
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = koryo_saram
+			any_realm_province = {
+				OR = {
+		culture = koryo_saram
+				}
+			}
+		}
+		is_female = no
+	}
+	
+	modifier = {
+		light_cavalry_morale = 0.33
+		horse_archers_morale = 0.33
+	}
+}
+RETTYPE_CUL_KOREA3 = 
+{
+	first_type = 3
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 100
+	
+	special_troops = horse_archers
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = koryo_saram
+			any_realm_province = {
+				OR = {
+		culture = koryo_saram
+				}
+			}
+		}
+		is_female = yes
+	}
+	
+	modifier = {
+		light_cavalry_morale = 0.33
+		horse_archers_morale = 0.33
+	}
+}
+RETTYPE_CUL_ARM = 
+{
+	first_type = 6
+	first_amount = 50
+	special_troops = flamethrowers
+	maintenance_multiplier = 1.5
+	
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = armenian_group
+			any_realm_province = {
+				OR = {
+			culture_group = armenian_group
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		flamethrowers_defensive = 0.25
+		flamethrowers_morale = 0.25
+	}
+}
+RETTYPE_CUL_CHECHEN = 
+{
+	first_type = 0
+	first_amount = 150
+	
+	second_type = 2
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = caucasian
+			culture_group = armenian_group
+			any_realm_province = {
+				OR = {
+			culture_group = caucasian
+			culture_group = armenian_group
+				}
+			}
+		}
+		NOT = {culture = avar}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.25
+		light_infantry_morale = 0.25
+		pikemen_defensive = 0.25
+		pikemen_morale = 0.25
+	}
+}
+RETTYPE_CUL_ATLANT = 
+{
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = atlantian
+			any_realm_province = {
+				OR = {
+			culture = atlantian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.25
+		pikemen_defensive = 0.25
+		pikemen_morale = 0.25
+	}
+}
+RETTYPE_CUL_BABYLON = 
+{
+	first_type = 1
+	first_amount = 150
+	second_type = 6
+	second_amount = 200
+
+	special_troops = chariots
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = babylonian
+			any_realm_province = {
+				OR = {
+		culture = babylonian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.3
+		chariots_morale = 0.3
+		chariots_offensive = 0.3
+	}
+}
+RETTYPE_CUL_CONGO1 = 
+{
+	first_type = 0
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_tribal = yes
+		OR = {
+		culture_group = niger_congolese
+		culture_group = chadic
+			any_realm_province = {
+				OR = {
+		culture_group = niger_congolese
+		culture_group = chadic
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		light_infantry_morale = 0.3
+		light_infantry_defensive = 0.3
+	}
+}
+RETTYPE_CUL_CONGO2 = 
+{
+	first_type = 2
+	first_amount = 250
+	
+	potential = {
+		higher_tier_than = BARON
+		is_tribal = no
+		is_nomadic = no
+		OR = {
+		culture_group = niger_congolese
+		culture_group = chadic
+			any_realm_province = {
+				OR = {
+		culture_group = niger_congolese
+		culture_group = chadic
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.25
+		pikemen_defensive = 0.25
+		pikemen_morale = 0.5
+	}
+}
+RETTYPE_CUL_HUNGARY = 
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 2
+	second_amount = 80
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no	
+		OR = {
+			culture = hungarian
+			culture = tot
+			culture = ruten
+			culture = csangok
+			culture = szekely
+			any_realm_province = {
+				OR = {
+			culture = hungarian
+			culture = tot
+			culture = ruten
+			culture = csangok
+			culture = szekely
+				}
+			}
+		}
+	}
+	
+	modifier = {
+# Are using every weapon in existence in Europe, thus have tiny buffs to everything to be non-specializing, but good
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
+		pikemen_offensive = 0.1
+		pikemen_defensive = 0.1
+		pikemen_morale = 0.1
+	}
+}
+RETTYPE_CUL_TURKMEN =
+{
+	first_type = 6
+	first_amount = 200
+
+	special_troops = horse_archers
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+		culture = turkmen
+			any_realm_province = {
+				OR = {
+		culture = turkmen
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		horse_archers_offensive = 0.25
+		horse_archers_defensive = 0.25
+	}
+}
+RETTYPE_CUL_AVAR =
+{
+	first_type = 0
+	first_amount = 200
+
+	hire_cost = 25
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+		culture = avar
+			any_realm_province = {
+				OR = {
+		culture = avar
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.25
+		light_infantry_morale = 0.25
+	}
+}
+RETTYPE_CUL_AZER =
+{
+	first_type = 0
+	first_amount = 200
+	
+	hire_cost = 25
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+			culture = azerbaijani
+			culture = ezidi
+			culture = sorani
+			culture = xwarin
+			culture = tajik
+			any_realm_province = {
+				OR = {
+			culture = azerbaijani
+			culture = ezidi
+			culture = sorani
+			culture = xwarin
+			culture = tajik
+				}
+			}
+		}
+	}
+	modifier = {
+		light_infantry_offensive = 0.25
+		light_infantry_morale = 0.25
+	}
+	#https://en.wikipedia.org/wiki/Qizilbash
+}
+RETTYPE_CUL_COSSACK = 
+{
+	first_type = 3
+	first_amount = 400
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+			culture = cossack
+			culture = sazzac
+			culture = rus_cossack
+			any_realm_province = {
+				OR = {
+			culture = cossack
+			culture = sazzac
+			culture = rus_cossack
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.4
+		light_cavalry_morale = 0.4
+	}
+}
+RETTYPE_CUL_KONJ = 
+{
+	first_type = 0
+	first_amount = 400
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = konjara
+			any_realm_province = {
+				OR = {
+		culture = konjara
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.5
+		light_infantry_defensive = 0.3
+	}
+}
+RETTYPE_CUL_CZECH = 
+{
+	first_type = 2
+	first_amount = 100
+	second_type = 5
+	second_amount = 150
+	
+	hire_cost = 102
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			religion = hussite
+			culture = czech
+			culture = moravian
+			any_realm_province = {
+				OR = {
+			religion = hussite
+			culture = czech
+			culture = moravian
+				}
+			}
+		}
+	}
+#Supposed to be using wagenburg, thus have HUGE defence bonuses but penalized offence (it's hard to run to the knight and stab him if you are sitting in a wagon)
+	modifier = {
+		archers_defensive = 0.5
+		pikemen_defensive = 0.5
+		archers_offensive = -0.1
+		pikemen_offensive = -0.3
+	}
+}
+RETTYPE_CUL_ENYSEY = 
+{
+	first_type = 2
+	first_amount = 100
+	second_type = 5
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+			culture = ket
+			culture = khanty
+			culture = mansi
+			culture_group = samoyedic
+			any_realm_province = {
+				OR = {
+			culture = ket
+			culture = khanty
+			culture = mansi
+			culture_group = samoyedic
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		archers_morale = 0.1
+		pikemen_morale = 0.1
+		archers_defensive = 0.15
+		pikemen_defensive = 0.15
+	}
+}
+RETTYPE_CUL_MONGOL = 
+{
+	first_type = 4
+	first_amount = 100
+	second_type = 6
+	second_amount = 100
+	
+	special_troops = horse_archers
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+			culture_group = karluk
+			culture_group = mongolic
+			any_realm_province = {
+				OR = {
+			culture_group = karluk
+			culture_group = mongolic
+				}
+			}
+		}
+		NOT = {culture = moghol}
+	}
+	
+	modifier = {
+		knights_defensive = 0.3
+		knights_morale = 0.3
+		horse_archers_defensive = 0.3
+		horse_archers_morale = 0.3
+	}
+}
+RETTYPE_CUL_AMR = 
+{
+	first_type = 4
+	first_amount = 100
+	second_type = 6
+	second_amount = 50
+	
+	special_troops = flamethrowers
+	maintenance_multiplier = 1.5
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = amriqi
+			any_realm_province = {
+				OR = {
+		culture = amriqi
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		knights_morale = 0.1
+		flamethrowers_offensive = 0.125
+		flamethrowers_defensive = 0.25
+		flamethrowers_morale = 0.1
+	}
+}
+RETTYPE_CUL_KHAL = 
+{
+	first_type = 6
+	first_amount = 50
+	
+	special_troops = flamethrowers
+	maintenance_multiplier = 1.5
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = khaliji
+			any_realm_province = {
+				OR = {
+		culture = khaliji
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		flamethrowers_offensive = 0.125
+		flamethrowers_defensive = 0.25
+		flamethrowers_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_DEUTSCH = 
+{
+	first_type = 1
+	first_amount = 125
+	second_type = 2
+	second_amount = 125
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = west_german
+			culture_group = germanic
+			any_realm_province = {
+				OR = {
+			culture_group = west_german
+			culture_group = germanic
+				}
+			}
+		}
+		NOT = {
+			OR = {
+				culture = austrian
+				culture = schleswigvolk
+				culture = lietuvininkai
+				culture = anglish
+			}	
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_defensive = 0.15
+		heavy_infantry_morale = 0.05
+		pikemen_offensive = 0.15
+		pikemen_defensive = 0.1
+		pikemen_morale = 0.05
+	}
+}
+
+RETTYPE_CUL_HISP = 
+{
+	first_type = 2
+	first_amount = 125
+	second_type = 5
+	second_amount = 125
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = hispanophone
+			culture_group = occitanophone
+			culture = llanito
+			culture = galician
+			culture = portuguese
+			any_realm_province = {
+				OR = {
+			culture_group = hispanophone
+			culture_group = occitanophone
+			culture = llanito
+			culture = galician
+			culture = portuguese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		pikemen_offensive = 0.2
+		archers_defensive = 0.35
+		pikemen_defensive = 0.35
+	}
+}
+
+RETTYPE_CUL_AUS = 
+{
+	first_type = 2
+	first_amount = 100
+	second_type = 5
+	second_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = austrian
+			any_realm_province = {
+				OR = {
+		culture = austrian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		archers_morale = 0.1
+		pikemen_morale = 0.1
+		archers_defensive = 0.2
+		pikemen_defensive = 0.2
+	}
+}
+
+RETTYPE_CUL_GREN = 
+{
+	first_type = 2
+	first_amount = 100
+	second_type = 5
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+		culture = greenlander
+			any_realm_province = {
+				OR = {
+		culture = greenlander
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_morale = 0.1
+		archers_morale = 0.1
+		pikemen_morale = 0.1
+		light_infantry_defensive = 0.15
+		archers_defensive = 0.15
+		pikemen_defensive = 0.15
+	}
+}
+
+RETTYPE_CUL_AFGHAN = 
+{
+	first_type = 6
+	first_amount = 10
+	second_type = 0
+	second_amount = 240
+	
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = afghan
+			any_realm_province = {
+				OR = {
+		culture = afghan
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_morale = 0.5
+		gunmen_offensive = 0.2
+		gunmen_morale = 0.25
+	}
+}
+RETTYPE_CUL_KODAVA = 
+{
+	first_type = 6
+	first_amount = 10
+	second_type = 0
+	second_amount = 240
+	
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = kannada
+			any_realm_province = {
+				OR = {
+		culture = kannada
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_morale = 0.5
+		gunmen_offensive = 0.2
+		gunmen_morale = 0.25
+	}
+}
 
 RETTYPE_CUL_ENG = 
 {
@@ -302,10 +2145,17 @@ RETTYPE_CUL_ENG =
 	first_amount = 250
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			culture = english
-			culture = welsh
+			culture = westlander
+			culture = cornish
+			any_realm_province = {
+				OR = {
+			culture = westlander
+			culture = cornish
+				}
+			}
 		}
 	}
 	
@@ -321,8 +2171,16 @@ RETTYPE_CUL_SCOT =
 	first_amount = 400
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
+		OR = {
 		culture = scottish
+			any_realm_province = {
+				OR = {
+		culture = scottish
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -338,11 +2196,21 @@ RETTYPE_CUL_BALT =
 	first_amount = 300
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
 			culture_group = baltic
 			culture_group = finno_ugric
+			culture_group = esperantic
+			any_realm_province = {
+				OR = {
+			culture_group = baltic
+			culture_group = finno_ugric
+			culture_group = esperantic
+				}
+			}
 		}
+		NOT = {culture = komi}
 	}
 	
 	modifier = {
@@ -351,7 +2219,7 @@ RETTYPE_CUL_BALT =
 	}
 }
 
-RETTYPE_CUL_ALTAIC = 
+RETTYPE_CUL_KAZAKH = 
 {
 	first_type = 6
 	first_amount = 130
@@ -359,22 +2227,27 @@ RETTYPE_CUL_ALTAIC =
 	second_type = 3
 	second_amount = 120
 
-	special_troops = horse_archers
+	special_troops = chariots
 	
 	potential = {
-		is_nomadic = no
+		higher_tier_than = BARON
 		OR = {
-			culture_group = altaic
-			culture_group = iranian
-		}
-		NOT = {
-			culture = jurchen
+			culture = kazakh
+			culture = alagol
+			religion = ironist
+			any_realm_province = {
+				OR = {
+			culture = kazakh
+			culture = alagol
+			religion = ironist
+				}
+			}
 		}
 	}
 	
 	modifier = {
-		horse_archers_offensive = 0.2
-		horse_archers_morale = 0.12
+		chariots_offensive = 0.2
+		chariots_morale = 0.12
 	}
 }
 
@@ -387,13 +2260,21 @@ RETTYPE_CUL_FRANK_NOR_GER =
 	second_amount = 100
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			culture = frankish
-			culture = occitan
-			culture = norman
-			culture = german
 			culture = breton
+			culture = breizhiz
+			culture = luxembourgish
+			culture = belgian
+			any_realm_province = {
+				OR = {
+			culture = breton
+			culture = breizhiz
+			culture = luxembourgish
+			culture = belgian
+				}
+			}
 		}
 	}
 	
@@ -410,8 +2291,18 @@ RETTYPE_CUL_IBER =
 	first_amount = 400
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture_group = iberian
+		OR = {
+			culture_group = hispanophone
+			culture_group = lusophone
+			any_realm_province = {
+				OR = {
+			culture_group = hispanophone
+			culture_group = lusophone
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -426,10 +2317,20 @@ RETTYPE_CUL_ITA =
 	first_amount = 400
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			culture = italian
-			culture = dalmatian
+			culture_group = apeninian
+			culture = furlan
+			any_realm_province = {
+				OR = {
+			culture_group = apeninian
+			culture = furlan
+				}
+			}
+		}
+		NOT = {
+			culture = maltese
 		}
 	}
 	
@@ -448,8 +2349,18 @@ RETTYPE_CUL_ROMAN =
 	second_amount = 150
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = roman
+		OR = {
+			culture = lazian
+			culture = roman
+			any_realm_province = {
+				OR = {
+			culture = lazian
+			culture = roman
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -468,8 +2379,34 @@ RETTYPE_CUL_RUS =
 	first_amount = 250
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture_group = east_slavic
+		OR = {
+			culture_group = central_slavic
+			culture_group = east_slavic
+			culture = adessite
+			culture = tatarian
+			culture = crimean_tatar
+			culture = bashkir
+			culture = lytsvin
+			culture = gottonsk
+			any_realm_province = {
+				OR = {
+			culture_group = central_slavic
+			culture_group = east_slavic
+			culture = adessite
+			culture = tatarian
+			culture = crimean_tatar
+			culture = bashkir
+			culture = lytsvin
+			culture = gottonsk
+				}
+			}
+		}
+		NOR = {
+			culture = cossack
+			culture = rus_cossack
+		}
 	}
 	
 	modifier = {
@@ -485,12 +2422,19 @@ RETTYPE_CUL_NORTHGER =
 	first_amount = 200
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			culture_group = north_germanic
-			culture = saxon
-			culture = old_saxon
-			culture = frisian
+			culture = faroyingar
+			culture = icelander
+			culture = doggerlander
+			any_realm_province = {
+				OR = {
+			culture = faroyingar
+			culture = icelander
+			culture = doggerlander
+				}
+			}
 		}
 	}
 	
@@ -500,16 +2444,41 @@ RETTYPE_CUL_NORTHGER =
 	}
 }
 
-RETTYPE_CUL_HUNG = 
+RETTYPE_CUL_POL = 
 {
 	first_type = 3
 	first_amount = 300
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			culture = hungarian
-			culture_group = west_slavic
+			culture = polish
+			culture = mazovian
+			culture = greater_polish
+			culture = gorale
+			culture = lithuanian
+			culture = lativian
+			culture = latigalian
+			culture = samogitian
+			culture = wendish
+			culture = silesian
+			culture = kashubian
+			any_realm_province = {
+				OR = {
+			culture = polish
+			culture = mazovian
+			culture = greater_polish
+			culture = gorale
+			culture = lithuanian
+			culture = lativian
+			culture = latigalian
+			culture = samogitian
+			culture = wendish
+			culture = silesian
+			culture = kashubian
+				}
+			}
 		}
 	}
 	
@@ -527,10 +2496,33 @@ RETTYPE_CUL_ARAB =
 	special_troops = camel_cavalry
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture_group = arabic
-		NOT = { culture = andalusian_arabic }
-		NOT = { culture = maghreb_arabic }
+		OR = {
+			culture_group = arabic
+			culture_group = maghreb_arabic
+			culture_group = dhofaric
+			culture_group = berber
+			culture_group = eastern_sudanic
+			culture_group = abbala_arabic
+			culture_group = saharan
+			culture = bole
+			culture = kotoko
+			any_realm_province = {
+				OR = {
+			culture_group = arabic
+			culture_group = maghreb_arabic
+			culture_group = dhofaric
+			culture_group = berber
+			culture_group = eastern_sudanic
+			culture_group = abbala_arabic
+			culture_group = saharan
+			culture = bole
+			culture = kotoko
+				}
+			}
+		}
+		NOT = {culture = amriqi}
 	}
 	
 	modifier = {
@@ -540,64 +2532,105 @@ RETTYPE_CUL_ARAB =
 	}
 }
 
-RETTYPE_CUL_ANDALUSIAN = 
-{
-	first_type = 3
-	first_amount = 400
-
-	potential = {
-		is_nomadic = no
-		culture = andalusian_arabic
-	}
-
-	modifier = {
-		light_cavalry_defensive = 0.4
-		light_cavalry_offensive = 0.2
-		light_cavalry_morale = 0.2
-	}
-}
-
-RETTYPE_CUL_BERBER = 
-{
-	first_type = 3
-	first_amount = 400
-
-	potential = {
-		is_nomadic = no
-		culture = maghreb_arabic
-	}
-
-	modifier = {
-		light_cavalry_offensive = 0.5
-		light_cavalry_morale = 0.3
-	}
-}
-
-RETTYPE_CUL_BYZ = 
+RETTYPE_CUL_BYZ1 = 
 {
 	first_type = 4
-	first_amount = 200
+	first_amount = 150
 	
 	second_type = 6
-	second_amount = 50
+	second_amount = 100
 
 	special_troops = horse_archers
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture_group = byzantine
-		NOT = { culture = coptic }
-		NOT = { culture = alan }
-		NOT = { culture = assyrian }
-		NOT = { culture = arberian }
+		OR = {
+			culture = pontian
+			culture = griko
+			culture = cypriote
+			any_realm_province = {
+				OR = {
+			culture = pontian
+			culture = griko
+			culture = cypriote
+				}
+			}
+		}
 	}
 	
 	modifier = {
-		knights_offensive = 0.15
-		knights_defensive = 0.15
+		knights_offensive = 0.1
+		knights_defensive = 0.1
 		knights_morale = 0.2
-		horse_archers_offensive = 0.15
-		horse_archers_defensive = 0.3
+	}
+}
+
+RETTYPE_CUL_BYZ2 = 
+{
+	first_type = 1
+	first_amount = 100
+	
+	second_type = 2
+	second_amount = 300
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture_group = byzantine
+		culture = aromanian
+			any_realm_province = {
+				OR = {
+		culture_group = byzantine
+		culture = aromanian
+				}
+			}
+		}
+		NOR = { 
+			culture = pontian
+			culture = griko 
+			culture = cypriote
+			culture = macedonian 
+			culture = atlantian 
+			culture = rumca
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.1
+		pikemen_morale = 0.2
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_BYZ3 = 
+{
+	first_type = 1
+	first_amount = 75
+	
+	second_type = 2
+	second_amount = 325
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = macedonian 
+			any_realm_province = {
+				OR = {
+		culture = macedonian 
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.2
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_morale = 0.2
 	}
 }
 
@@ -607,8 +2640,28 @@ RETTYPE_CUL_IRISH =
 	first_amount = 200
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = irish
+		OR = {
+			culture = irish
+			culture = high_irish
+			culture = munsterian
+			culture = ulsterian
+			culture = yola
+			culture = ulsterite
+			culture = aeslabh
+			any_realm_province = {
+				OR = {
+			culture = irish
+			culture = high_irish
+			culture = munsterian
+			culture = ulsterian
+			culture = yola
+			culture = ulsterite
+			culture = aeslabh
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -623,8 +2676,20 @@ RETTYPE_CUL_ETHIO =
 	first_amount = 400
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = ethiopian
+		OR = {
+			culture_group = east_african
+			culture = beta_israeli
+			culture_group = nilotic
+			any_realm_province = {
+				OR = {
+			culture_group = east_african
+			culture = beta_israeli
+			culture_group = nilotic
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -639,8 +2704,16 @@ RETTYPE_CUL_SOMALI =
 	first_amount = 400
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = somali
+		OR = {
+		culture_group = cushitic
+			any_realm_province = {
+				OR = {
+		culture_group = cushitic
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -658,11 +2731,24 @@ RETTYPE_CUL_W_AFR =
 	second_amount = 100
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			culture_group = west_african
-			culture_group = central_african
-			culture = daju
+			culture_group = mande
+			culture_group = senegambian
+			culture_group = niger_congolese
+			any_realm_province = {
+				OR = {
+			culture_group = mande
+			culture_group = senegambian
+			culture_group = niger_congolese
+				}
+			}
+		}
+		NOR = {
+			culture = igbo
+			culture = yoruba
+			culture = nigerian
 		}
 	}
 	
@@ -670,6 +2756,142 @@ RETTYPE_CUL_W_AFR =
 		light_infantry_offensive = 0.6
 		light_infantry_defensive = 0.1
 		light_infantry_morale = 0.1
+	}
+}
+RETTYPE_CUL_ORIGINAIRES = {
+	first_type = 5
+	first_amount = 250
+	
+	second_type = 6
+	second_amount = 50
+	
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = francacfrique
+			any_realm_province = {
+				OR = {
+			culture_group = francacfrique
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		archers_offensive = 0.3
+		archers_defensive = 0.3
+		gunmen_offensive = 0.3
+		gunmen_defensive = 0.3
+	}
+}
+RETTYPE_CUL_BEUR = {
+	first_type = 0
+	first_amount = 300
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = marocain
+			any_realm_province = {
+				OR = {
+			culture = marocain
+				}
+			}
+		}
+	}
+	modifier = {
+		light_infantry_offensive = 0.45
+		light_infantry_morale = 0.35
+	}
+}
+RETTYPE_CUL_IGBO = {
+	first_type = 0
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 50
+	
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = igbo
+			any_realm_province = {
+				OR = {
+			culture = igbo
+				}
+			}
+		}
+	}
+	modifier = {
+		light_infantry_defensive = 0.25
+		light_infantry_offensive = 0.25
+		gunmen_defensive = 0.2
+		gunmen_offensive = 0.2
+	}
+}
+RETTYPE_CUL_NIGERIAN = {
+	first_type = 4
+	first_amount = 200
+	
+	second_type = 6 
+	second_amount = 50
+	
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = nigerian
+			culture = yoruba
+			any_realm_province = {
+				OR = {
+			culture = nigerian
+			culture = yoruba
+				}
+			}
+		}
+	}
+	modifier = {
+		knights_defensive = 0.25
+		knights_offensive = 0.25
+		gunmen_defensive = 0.2
+		gunmen_offensive = 0.2
+	}
+}
+RETTYPE_CUL_HAUSA = {
+	first_type = 3
+	first_amount = 250
+	
+	second_type = 6
+	second_amount = 50
+	
+	special_troops = gunmen
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = hausa	
+			any_realm_province = {
+				OR = {
+			culture = hausa
+				}
+			}
+		}
+	}
+	modifier = {
+		light_cavalry_defensive = 0.25
+		light_cavalry_offensive = 0.25
+		gunmen_defensive = 0.2
+		gunmen_offensive = 0.2
 	}
 }
 
@@ -682,8 +2904,16 @@ RETTYPE_CUL_SOUTH_SLA =
 	second_amount = 150
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture_group = south_slavic
+		OR = {
+			culture_group = south_slavic	
+			any_realm_province = {
+				OR = {
+			culture_group = south_slavic	
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -694,62 +2924,128 @@ RETTYPE_CUL_SOUTH_SLA =
 	}
 }
 
-RETTYPE_CUL_DUTCH = 
+RETTYPE_CUL_DANISH = 
 {
-	first_type = 0
+	first_type = 6
 	first_amount = 300
 	
 	second_type = 2
 	second_amount = 100
 	
+	special_troops = bike_cavalry
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = dutch
+		OR = {
+			culture = danish
+			any_realm_province = {
+				OR = {
+			culture = danish
+				}
+			}
+		}
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.2
-		light_infantry_defensive = 0.2
-		light_infantry_morale = 0.1
+		bike_cavalry_offensive = 0.2
+		bike_cavalry_defensive = 0.2
+		bike_cavalry_morale = 0.1
+		pikemen_offensive = 0.3
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.1
+	}
+}
+RETTYPE_CUL_DUTCH = 
+{
+	first_type = 6
+	first_amount = 300
+	
+	second_type = 2
+	second_amount = 100
+	
+	special_troops = bike_cavalry
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = dutch
+			culture = frisian
+			any_realm_province = {
+				OR = {
+			culture = dutch
+			culture = frisian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		bike_cavalry_offensive = 0.2
+		bike_cavalry_defensive = 0.2
+		bike_cavalry_morale = 0.1
 		pikemen_offensive = 0.3
 		pikemen_defensive = 0.2
 		pikemen_morale = 0.1
 	}
 }
 
-RETTYPE_CUL_NAHUA = 
+RETTYPE_CUL_SWISS = 
 {
 	first_type = 0
 	first_amount = 375
-	second_type = 1
+	second_type = 2
 	second_amount = 125
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = nahuatl
+		OR = {
+			culture = swiss
+			culture = patoues
+			culture = lichtensteiner
+			culture = romansch
+			culture = ladin
+			any_realm_province = {
+				OR = {
+			culture = swiss
+			culture = patoues
+			culture = lichtensteiner
+			culture = romansch
+			culture = ladin
+				}
+			}
+		}
 	}
 	
 	modifier = {
 		light_infantry_offensive = 0.4
-		light_infantry_morale = 0.2
-		heavy_infantry_offensive = 0.2
-		heavy_infantry_morale = 0.1
+		light_infantry_morale = 0.1
+		pikemen_defensive = 0.1
+		pikemen_morale = 0.4
 	}
 }
 
 RETTYPE_CUL_JEWISH = 
 {
-	first_type = 1
+	first_type = 0
 	first_amount = 200
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture_group = israelite
+		OR = {
+		culture = israeli
+			any_realm_province = {
+				OR = {
+		culture = israeli
+				}
+			}
+		}
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.2
-		heavy_infantry_morale = 0.1
+		light_infantry_defensive = 0.25
+		light_infantry_morale = 0.25
 	}
 }
 
@@ -763,11 +3059,47 @@ RETTYPE_CUL_INDIAN =
 	special_troops = war_elephants
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			culture_group = indo_aryan_group
-			culture_group = dravidian_group
+			culture_group = west_indo_aryan_group
+			culture_group = southern_indo_aryan_group
+			culture_group = north_west_indo_aryan_group
+			culture_group = eastern_indo_aryan_group
+			culture_group = salic
+			culture_group = tanic
+			culture_group = digaric
+			culture_group = manipuric
+			culture_group = central_indo_aryan_group
+			culture_group = northern_dravidian_group
+			culture_group = eastern_dravidian_group
+			culture_group = southern_dravidian_group
+			culture_group = east_asian_group
+			culture = bhutanese
+			culture = low_bhutanese
+			culture = angrezi
+			any_realm_province = {
+				OR = {
+			culture_group = west_indo_aryan_group
+			culture_group = southern_indo_aryan_group
+			culture_group = north_west_indo_aryan_group
+			culture_group = eastern_indo_aryan_group
+			culture_group = salic
+			culture_group = tanic
+			culture_group = digaric
+			culture_group = manipuric
+			culture_group = central_indo_aryan_group
+			culture_group = northern_dravidian_group
+			culture_group = eastern_dravidian_group
+			culture_group = southern_dravidian_group
+			culture_group = east_asian_group
+			culture = bhutanese
+			culture = low_bhutanese
+			culture = angrezi
+				}
+			}
 		}
+		NOT = {culture = brahui}
 	}
 	
 	modifier = {
@@ -776,14 +3108,22 @@ RETTYPE_CUL_INDIAN =
 	}
 }
 
-RETTYPE_CUL_NUBIAN = 
+RETTYPE_CUL_LIBERIAN = 
 {
 	first_type = 5
 	first_amount = 300
 
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = nubian
+		OR = {
+		culture = liberian
+			any_realm_province = {
+				OR = {
+		culture = liberian
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -796,57 +3136,173 @@ RETTYPE_CUL_FRA =
 {
 	first_type = 1
 	first_amount = 200
+
+	second_type = 4
+	second_amount = 100
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = old_frankish
+		OR = {
+			culture = french
+			culture = occitan
+			culture = gascon
+			culture = picard
+			culture = gallo
+			culture = norman
+			culture = old_norman
+			culture = burgundian
+			culture = lorraine
+			culture = poitevin
+			culture = frencig
+			culture = provencal	
+			culture = marocain
+			culture_group = hispanophone
+			culture_group = lusophone
+			culture_group = occitanophone
+			any_realm_province = {
+				OR = {
+			culture = french
+			culture = occitan
+			culture = gascon
+			culture = picard
+			culture = gallo
+			culture = norman
+			culture = old_norman
+			culture = burgundian
+			culture = lorraine
+			culture = poitevin
+			culture = frencig
+			culture = provencal	
+			culture = marocain
+			culture_group = hispanophone
+			culture_group = lusophone
+			culture_group = occitanophone
+				}
+			}
+		}
 	}
 	
 	modifier = {
-		heavy_infantry_offensive = 0.2
+		knights_offensive = 0.2
 		heavy_infantry_defensive = 0.1
 		heavy_infantry_morale = 0.1
+		knights_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_SWE = 
+{
+	first_type = 1
+	first_amount = 200
+
+	second_type = 4
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = swedish
+			culture = swedefinn
+			culture = finnswede
+			culture = skanian
+			culture = norwegian
+			culture = vestsk
+			culture = gothic
+			culture = jamtlandish
+			culture = gutnish
+			culture = schleswigvolk
+			any_realm_province = {
+				OR = {
+			culture = swedish
+			culture = swedefinn
+			culture = finnswede
+			culture = skanian
+			culture = norwegian
+			culture = vestsk
+			culture = gothic
+			culture = jamtlandish
+			culture = gutnish
+			culture = schleswigvolk
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.25
+		heavy_infantry_defensive = 0.15
+		heavy_infantry_morale = 0.05
+		knights_morale = 0.05
 	}
 }
 
 RETTYPE_CUL_LOM = 
 {
-	first_type = 1
-	first_amount = 300
-	
-	potential = {
-		is_nomadic = no
-		culture = lombard
-	}
-	
-	modifier = {
-		heavy_infantry_offensive = 0.1
-		heavy_infantry_morale = 0.1
-	}
-}
-
-RETTYPE_CUL_SUEBI = 
-{
 	first_type = 0
-	first_amount = 200
-	
-	second_type = 2
+	first_amount = 250
+
+	second_type = 4
 	second_amount = 150
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = suebi
+		OR = {
+		culture = lombard
+			any_realm_province = {
+				OR = {
+		culture = lombard
+				}
+			}
+		}
 	}
 	
 	modifier = {
-		light_infantry_defensive = 0.3
-		light_infantry_morale = 0.2
-		pikemen_defensive = 0.3
-		pikemen_morale = 0.2
+		knights_offensive = 0.1
+		knights_morale = 0.1
+		light_infantry_morale = 0.1
 	}
 }
 
-RETTYPE_CUL_PICTISH = 
+RETTYPE_CUL_PRUSS = 
+{
+	first_type = 4
+	first_amount = 200
+	
+	second_type = 5
+	second_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = 
+		{
+			culture = prussian
+			culture = lietuvininkai
+			culture = schleswigvolk
+			culture = brandenburger
+			any_realm_province = {
+				OR = {
+			culture = prussian
+			culture = lietuvininkai
+			culture = schleswigvolk
+			culture = brandenburger
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.25
+		archers_defensive = 0.15
+		archers_morale = 0.05
+		knights_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_OLDWELSH = 
 {
 	first_type = 0
 	first_amount = 375
@@ -854,8 +3310,20 @@ RETTYPE_CUL_PICTISH =
 	second_amount = 125
 	
 	potential = {
+		higher_tier_than = BARON
 		is_nomadic = no
-		culture = pictish
+		OR = {
+			culture = old_welsh
+			culture = manx
+			culture = cornish
+			any_realm_province = {
+				OR = {
+			culture = old_welsh
+			culture = manx
+			culture = cornish
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -867,6 +3335,921 @@ RETTYPE_CUL_PICTISH =
 	}
 }
 
+RETTYPE_CUL_CHINA =
+{
+	first_type = 5
+	first_amount = 250
+	second_type = 2
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture_group = chinese_group
+			any_realm_province = {
+				OR = {
+		culture_group = chinese_group
+				}
+			}
+		}
+		NOT = { culture = hongkonger }
+	}
+	
+	modifier = {
+		archers_offensive = 0.3
+		archers_defensive = 0.1
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.3
+		pikemen_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_TIBET = 
+{
+	first_type = 0
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = tibetan_group
+			culture_group = tanic
+			culture_group = digaric
+			culture = sinoshan		
+			culture_group = northern_indo_aryan_group	
+			culture_group = dardic	
+			any_realm_province = {
+				OR = {
+			culture_group = tibetan_group
+			culture_group = tanic
+			culture_group = digaric
+			culture = sinoshan		
+			culture_group = northern_indo_aryan_group	
+			culture_group = dardic	
+				}
+			}
+		}		
+		NOT = {
+			culture = bhutanese
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.5
+		light_infantry_defensive = 0.3
+		light_infantry_morale = 0.1
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+		light_cavalry_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_TATAR =
+{
+	first_type = 4
+	first_amount = 75
+	second_type = 3
+	second_amount = 175
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = tatarian
+			any_realm_province = {
+		culture = tatarian
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.15
+		light_cavalry_morale = 0.1
+		knights_offensive = 0.1
+		knights_defensive = 0.15
+	}
+}
+
+RETTYPE_CUL_ASSYRIAN = 
+{
+	first_type = 1
+	first_amount = 150
+	second_type = 6
+	second_amount = 200
+
+	special_troops = chariots
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = assyrian
+			culture = aramaic
+			culture = mandaeans
+			culture = siryon
+			any_realm_province = {
+				OR = {
+			culture = assyrian
+			culture = aramaic
+			culture = mandaeans
+			culture = siryon
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.1
+		chariots_morale = 0.3
+		chariots_offensive = 0.3
+	}
+}
+
+RETTYPE_CUL_COPTIC = 
+{
+	first_type = 2
+	first_amount = 200
+	second_type = 5
+	second_amount = 100
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = egyptian
+			any_realm_province = {
+			culture_group = egyptian
+			}
+		}
+	}
+	
+	modifier = {
+		archers_defensive = 0.3
+		pikemen_defensive = 0.2
+	}
+}
+
+RETTYPE_CUL_BHUTANESE = 
+{
+	first_type = 2
+	first_amount = 200
+	second_type = 6
+	second_amount = 100
+	
+	special_troops = gunmen
+	maintenance_multiplier = 1.5
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = bhutanese
+			culture = low_bhutanese
+			any_realm_province = {
+				OR = {
+			culture = bhutanese
+			culture = low_bhutanese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.25
+		gunmen_defensive = 0.25
+	}
+}
+RETTYPE_CUL_BRITISH = 
+{
+	first_type = 6
+	first_amount = 100
+	second_type = 5
+	second_amount = 50
+	
+	special_troops = gunmen
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = 
+		{		
+			culture = british
+			culture = kamatic
+			culture = southener
+			culture = scouse
+			culture = eastlander
+			culture = northlander
+			culture = old_norman
+			culture = new_english
+			culture = brytwysher
+			culture = ashkenazi
+			any_realm_province = {
+				OR = {
+			culture = british
+			culture = kamatic
+			culture = southener
+			culture = scouse
+			culture = eastlander
+			culture = northlander
+			culture = old_norman
+			culture = new_english
+			culture = brytwysher
+			culture = ashkenazi
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		gunmen_offensive = 0.2
+		gunmen_defensive = 0.2
+	}
+}
+RETTYPE_CUL_NORF = 
+{
+	first_type = 0
+	first_amount = 200
+	
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = northlander
+			any_realm_province = {
+			culture = northlander
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = -0.85
+		light_infantry_defensive = -0.85
+		light_infantry_morale = 5
+	}
+}
+RETTYPE_CUL_IRISH2 = 
+{
+	first_type = 0
+	first_amount = 300
+	
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = irish
+			culture = high_irish
+			culture = munsterian
+			culture = ulsterian
+			culture = aeslabh
+			any_realm_province = {
+				OR = {
+			culture = irish
+			culture = high_irish
+			culture = munsterian
+			culture = ulsterian
+			culture = aeslabh
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.25
+		light_infantry_morale = 0.25
+	}
+}
+RETTYPE_CUL_SCOTTISH = 
+{
+	first_type = 1
+	first_amount = 150
+	second_type = 2
+	second_amount = 100 
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = scottish
+			culture = oglallan
+			culture = scots
+			culture = prinsesser
+			any_realm_province = {
+				OR = {
+					culture = scottish
+					culture = oglallan
+					culture = scots
+					culture = prinsesser
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_morale = 0.15
+		heavy_infantry_defensive = 0.2
+		pikemen_morale = 0.15
+		pikemen_defensive = 0.2
+	}
+}
+RETTYPE_CUL_OLDANGLO = 
+{
+	first_type = 4
+	first_amount = 200
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = westlander
+			culture = northlander
+			culture = eastlander
+			any_realm_province = {
+				OR = {
+					culture = westlander
+					culture = northlander
+					culture = eastlander
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_defensive = 0.15
+		knights_offensive = 0.15
+	}
+}
+RETTYPE_CUL_BRETON = 
+{
+	first_type = 0
+	first_amount = 100
+	second_type = 5
+	second_amount = 100
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = breton
+			culture = breizhiz
+			any_realm_province = {
+				OR = {
+			culture = breton
+			culture = breizhiz
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.15
+		pikemen_morale = 0.15
+	}
+}
+
+RETTYPE_CUL_PIEMONT = 
+{
+	first_type = 2
+	first_amount = 150
+	second_type = 5
+	second_amount = 120
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = piemontese
+			any_realm_province = {
+				OR = {
+		culture = piemontese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.15
+		pikemen_morale = 0.15
+	}
+}
+
+RETTYPE_CUL_CORSU = 
+{
+	first_type = 0
+	first_amount = 200
+	second_type = 1
+	second_amount = 150
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = corsu
+			any_realm_province = {
+				OR = {
+		culture = corsu
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.15
+		heavy_infantry_morale = 0.15
+		light_infantry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_TUSCANIAN = 
+{
+	first_type = 5
+	first_amount = 300
+	second_type = 6
+	second_amount = 50
+
+	special_troops = camel_cavalry
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = tuscanian
+			any_realm_province = {
+				OR = {
+		culture = tuscanian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		camel_cavalry_defensive = 0.2
+		camel_cavalry_morale = 0.15
+		archers_defensive = 0.2
+		archers_offensive = 0.2
+	}
+}
+
+RETTYPE_CUL_EMILIAN = 
+{
+	first_type = 6
+	first_amount = 150
+	second_type = 1
+	second_amount = 150
+	special_troops = bike_cavalry
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = emilian
+			any_realm_province = {
+				OR = {
+		culture = emilian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		bike_cavalry_offensive = 0.15
+		heavy_infantry_morale = 0.15
+	}
+}
+
+RETTYPE_CUL_VENETIAN = 
+{
+	first_type = 3
+	first_amount = 120
+	second_type = 2
+	second_amount = 150
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = venetian
+			any_realm_province = {
+				OR = {
+		culture = venetian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.3
+		pikemen_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_SANMARIN = 
+{
+	first_type = 2
+	first_amount = 140
+	second_type = 5
+	second_amount = 160
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = sanmarinese
+			any_realm_province = {
+				OR = {
+		culture = sanmarinese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.3
+		archers_defensive = 0.3
+		archers_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_SARD = 
+{
+	first_type = 0
+	first_amount = 200
+	second_type = 3
+	second_amount = 150
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = sard
+			any_realm_province = {
+				OR = {
+		culture = sard
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.3
+		light_infantry_offensive = 0.1
+		light_cavalry_morale = 0.2
+		light_infantry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_SICILIAN = 
+{
+	first_type = 0
+	first_amount = 200
+	second_type = 5
+	second_amount = 250
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = sicilian
+			any_realm_province = {
+				OR = {
+		culture = sicilian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.1
+		light_infantry_offensive = 0.2
+		archers_morale = 0.2
+		archers_offensive = 0.3
+	}
+}
+
+RETTYPE_CUL_NEAPOLITAN = 
+{
+	first_type = 2
+	first_amount = 250
+	second_type = 3
+	second_amount = 90
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = neapolitan
+			any_realm_province = {
+				OR = {
+		culture = neapolitan
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.1
+		pikemen_morale = 0.2
+		light_cavalry_offensive = 0.1
+		light_cavalry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_PUGLIESE = 
+{
+	first_type = 3
+	first_amount = 250
+	second_type = 4
+	second_amount = 100
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = pugliese
+			any_realm_province = {
+				OR = {
+		culture = pugliese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		light_cavalry_defensive = 0.3
+		knights_morale = 0.1
+		light_cavalry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_MALTESE = 
+{
+	first_type = 4
+	first_amount = 200
+	second_type = 1
+	second_amount = 150
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = maltese
+			any_realm_province = {
+				OR = {
+		culture = maltese
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.2
+		knights_defensive = 0.2
+		knights_morale = 0.2
+		heavy_infantry_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_BASQUE = 
+{
+	first_type = 5
+	first_amount = 250
+	second_type = 0
+	second_amount = 210
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture_group = basque_group
+			any_realm_province = {
+				OR = {
+		culture_group = basque_group
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		light_infantry_defensive = 0.1
+		archers_defensive = 0.1
+		archers_offensive = 0.2
+		archers_morale = 0.1
+		light_infantry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_TURK =
+{
+	first_type = 1
+	first_amount = 200
+	
+	second_type = 6
+	second_amount = 75
+	special_troops = gunmen
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+			any_owned_bloodline = { has_bloodline_flag = osman_bloodline }
+			e_ottoman = { holder = ROOT }
+		}
+	}	
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		gunmen_offensive = 0.25
+		gunmen_morale = 0.25
+	}
+}
+
+RETTYPE_CUL_BRAZILIAN = 
+{
+	first_type = 4
+	first_amount = 250
+	second_type = 1
+	second_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = brazilian
+			any_realm_province = {
+				OR = {
+		culture = brazilian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		knights_morale = 0.2
+		heavy_infantry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_BAIANO = 
+{
+	first_type = 0
+	first_amount = 300
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = baiano
+			any_realm_province = {
+				OR = {
+		culture = baiano
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.5
+		light_cavalry_offensive = 0.5
+	}
+}
+RETTYPE_CUL_ASIAN =
+{
+	first_type = 5
+	first_amount = 250
+	second_type = 2
+	second_amount = 100
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = hongkonger
+			any_realm_province = {
+				OR = {
+		culture = hongkonger
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		archers_offensive = 0.3 #adjusted to Han cultural retinue stats
+		archers_defensive = 0.1
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.3
+		pikemen_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_KUHJUNGS =
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 6
+	second_amount = 50
+
+	special_troops = carbineers
+	
+	potential = {
+		higher_tier_than = BARON
+		OR = {
+		culture = kuhjungs
+			any_realm_province = {
+				OR = {
+		culture = kuhjungs
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_defensive = 0.2
+		light_cavalry_offensive = -0.3
+		carbineers_offensive = 0.25
+		carbineers_defensive = 0.2
+	}
+}
+RETTYPE_CUL_WEEB = 
+{
+	first_type = 0
+	first_amount = 150
+	second_type = 1
+	second_amount = 200
+
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = weeb
+			any_realm_province = {
+				OR = {
+		culture = weeb
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.15
+		light_infantry_morale = 0.15
+	}
+}
+
+RETTYPE_CUL_SIBERIAN = 
+{
+	first_type = 5
+	first_amount = 200
+	second_type = 1
+	second_amount = 50
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture_group = far_east_slavic
+			culture = samoyed
+			culture = nganasan
+			culture = selkup
+			culture_group = arghu
+			culture = khanty
+			culture = mansi
+			culture_group = yenisean
+			culture = komi
+			any_realm_province = {
+				OR = {
+			culture_group = far_east_slavic
+			culture = samoyed
+			culture = nganasan
+			culture = selkup
+			culture_group = arghu
+			culture = khanty
+			culture = mansi
+			culture_group = yenisean
+			culture = komi
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		archers_offensive = 0.3
+		archers_defensive = 0.15
+		heavy_infantry_defensive = 0.15
+	}
+}
+
+
+# Horde
+
 HORDE_RETTYPE_CAV1 = 
 {
 	first_type = 3
@@ -875,10 +4258,14 @@ HORDE_RETTYPE_CAV1 =
 	hire_cost = 25
 	costs_prestige = yes
 	
-	maintenance_multiplier = 0.50
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 	}
 	
 	modifier = {
@@ -899,10 +4286,14 @@ HORDE_RETTYPE_CAV2 =
 	hire_cost = 50
 	costs_prestige = yes
 	
-	maintenance_multiplier = 0.50
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 	}
 	
 	modifier = {
@@ -925,10 +4316,14 @@ HORDE_RETTYPE_CAV3 =
 	hire_cost = 75
 	costs_prestige = yes
 	
-	maintenance_multiplier = 0.5
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 	}
 	
 	modifier = {
@@ -950,10 +4345,14 @@ HORDE_RETTYPE_CAV4 =
 	
 	hire_cost = 50
 	
-	maintenance_multiplier = 0.3
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 	}
 	
 	modifier = {
@@ -972,10 +4371,14 @@ HORDE_RETTYPE_CAV5 =
 	
 	hire_cost = 100
 	
-	maintenance_multiplier = 0.3
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		NOT = { has_character_modifier = invading_population_halt } # This stops the Mongol Empire from spending all their money on super-expensive retinues
 	}
 	
@@ -995,10 +4398,14 @@ HORDE_RETTYPE_CAV6 =
 	
 	hire_cost = 150
 	
-	maintenance_multiplier = 0.3
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		NOT = { has_character_modifier = invading_population_halt } # This stops the Mongol Empire from spending all their money on super-expensive retinues
 	}
 	modifier = {
@@ -1017,10 +4424,14 @@ HORDE_RETTYPE_CAV7 =
 	
 	hire_cost = 150
 	
-	maintenance_multiplier = 0.3
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		NOT = { has_character_modifier = invading_population_halt } # This stops the Mongol Empire from spending all their money on super-expensive retinues
 	}
 	
@@ -1042,10 +4453,14 @@ HORDE_RETTYPE_PAGAN =
 	hire_cost = 50
 	costs_piety = yes
 	
-	maintenance_multiplier = 0.25
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		religion_group = pagan_group
 	}
 	modifier = {
@@ -1059,26 +4474,30 @@ HORDE_RETTYPE_PAGAN =
 HORDE_RETTYPE_MUSLIM =
 {
 	first_type = 6
-	first_amount = 125
+	first_amount = 75
 	second_type = 5
-	second_amount = 125
+	second_amount = 75
 	
-	special_troops = horse_archers
+	special_troops = camel_cavalry
 	
-	hire_cost = 50
+	hire_cost = 125
 	costs_piety = yes
 	
-	maintenance_multiplier = 0.25
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		religion_group = muslim
 	}
 	modifier = {
 		archers_offensive = 0.25
 		archers_defensive = 0.5
-		horse_archers_offensive = 0.25
-		horse_archers_defensive = 0.5
+		camel_cavalry_offensive = 0.25
+		camel_cavalry_defensive = 0.5
 	}
 }
 
@@ -1086,18 +4505,20 @@ HORDE_RETTYPE_CHRISTIAN =
 {
 	first_type = 2
 	first_amount = 125
-	second_type = 6
+	second_type = 4
 	second_amount = 125
-	
-	special_troops = horse_archers
 	
 	hire_cost = 75
 	costs_piety = yes
 	
-	maintenance_multiplier = 0.25
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		religion_group = christian
 	}
 	modifier = {
@@ -1119,10 +4540,14 @@ HORDE_RETTYPE_ZOROASTRIAN =
 	hire_cost = 75
 	costs_piety = yes
 	
-	maintenance_multiplier = 0.25
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		religion_group = zoroastrian_group
 	}
 	modifier = {
@@ -1144,10 +4569,14 @@ HORDE_RETTYPE_JEWISH =
 	hire_cost = 50
 	costs_piety = yes
 	
-	maintenance_multiplier = 0.25
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		religion_group = jewish_group
 	}
 	modifier = {
@@ -1168,11 +4597,18 @@ HORDE_RETTYPE_EASTERN =
 	hire_cost = 50
 	costs_piety = yes
 	
-	maintenance_multiplier = 0.25
+	maintenance_multiplier = 0.75
 	
 	potential = {
-		is_nomadic = yes
-		religion_group = indian_group
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
+		OR = {
+			religion_group = indian_group
+			religion_group = buddhist_group
+		}
 	}
 	modifier = {
 		light_infantry_offensive = 0.25
@@ -1194,7 +4630,11 @@ HORDE_RETTYPE_INDIAN =
 	hire_cost = 250
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		capital_scope = {
 			region = world_india
 		}
@@ -1219,7 +4659,11 @@ HORDE_RETTYPE_DESERT = {
 	hire_cost = 250
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		capital_scope = {
 			terrain = desert
 		}
@@ -1241,7 +4685,11 @@ HORDE_RETTYPE_EUROPE = {
 	hire_cost = 250
 	
 	potential = {
-		is_nomadic = yes
+		higher_tier_than = BARON
+		OR = {
+			is_nomadic = yes
+			government = nomadtribal_government
+		}
 		capital_scope = {
 			OR = {
 				region = world_europe_west
@@ -1254,294 +4702,5 @@ HORDE_RETTYPE_EUROPE = {
 	modifier = {
 		knights_offensive = 0.25
 		knights_defensive = -0.25
-	}
-}
-
-RETTYPE_CUL_HAN =
-{
-	first_type = 5
-	first_amount = 125
-	second_type = 2
-	second_amount = 250
-	
-	potential = {
-		is_nomadic = no
-		culture = han
-	}
-	
-	modifier = {
-		archers_offensive = 0.9
-		archers_defensive = 0.45
-		pikemen_offensive = 0.3
-		pikemen_defensive = 0.3
-		pikemen_morale = 0.1
-	}
-}
-
-RETTYPE_CUL_TIBET = 
-{
-	first_type = 0
-	first_amount = 300
-	
-	second_type = 3
-	second_amount = 100
-	
-	potential = {
-		is_nomadic = no
-		culture_group = tibetan_group
-	}
-	
-	modifier = {
-		light_infantry_offensive = 0.5
-		light_infantry_defensive = 0.3
-		light_infantry_morale = 0.1
-		light_cavalry_offensive = 0.2
-		light_cavalry_defensive = 0.2
-		light_cavalry_morale = 0.1
-	}
-}
-
-RETTYPE_CUL_JURCHEN =
-{
-	first_type = 4
-	first_amount = 75
-	second_type = 3
-	second_amount = 175
-
-	potential = {
-		is_nomadic = no
-		culture = jurchen
-	}
-	
-	modifier = {
-		light_cavalry_offensive = 0.1
-		light_cavalry_morale = 0.1
-		knights_offensive = 0.1
-		knights_defensive = 0.1
-	}
-}
-
-RETTYPE_CUL_ASSYRIAN = 
-{
-	first_type = 1
-	first_amount = 200
-	
-	potential = {
-		is_nomadic = no
-		culture = assyrian
-	}
-	
-	modifier = {
-		heavy_infantry_defensive = 0.2
-		heavy_infantry_morale = 0.1
-	}
-}
-
-RETTYPE_CUL_COPTIC = 
-{
-	first_type = 2
-	first_amount = 200
-	second_type = 5
-	second_amount = 100
-
-	potential = {
-		is_nomadic = no
-		culture = coptic
-	}
-	
-	modifier = {
-		archers_defensive = 0.3
-		pikemen_defensive = 0.2
-	}
-}
-
-RETTYPE_CUL_HORSE = 
-{
-	first_type = 3
-	first_amount = 300
-	
-	potential = {
-		is_nomadic = no
-		culture_group = horse_group
-	}
-	
-	modifier = {
-		light_cavalry_defensive = 0.75
-		light_cavalry_morale = 0.75
-	}
-}
-
-RETTYPE_CUL_CAT = 
-{
-	first_type = 0
-	first_amount = 300
-	
-	potential = {
-		is_nomadic = no
-		culture_group = cat_group
-	}
-	
-	modifier = {
-		light_infantry_morale = 0.25
-		light_infantry_offensive = 2
-	}
-}
-
-RETTYPE_CUL_BEAR = 
-{
-	first_type = 1
-	first_amount = 300
-	
-	potential = {
-		is_nomadic = no
-		culture_group = bear_group
-	}
-	
-	modifier = {
-		heavy_infantry_morale = 0.25
-		heavy_infantry_offensive = 1
-	}
-}
-
-RETTYPE_CUL_HEDGEHOG = 
-{
-	first_type = 2
-	first_amount = 300
-	
-	potential = {
-		is_nomadic = no
-		culture_group = hedgehog_group
-	}
-	
-	modifier = {
-		pikemen_morale = 0.25
-		pikemen_defensive = 1
-	}
-}
-
-RETTYPE_CUL_DUCK = 
-{
-	first_type = 1
-	first_amount = 300
-	
-	potential = {
-		is_nomadic = no
-		culture_group = duck_group
-	}
-	
-	modifier = {
-		heavy_infantry_morale = 0.5
-		heavy_infantry_defensive = 0.5
-		heavy_infantry_offensive = 0.5
-	}
-}
-
-RETTYPE_CUL_DOG = 
-{
-	first_type = 4
-	first_amount = 150
-	
-	potential = {
-		is_nomadic = no
-		culture_group = dog_group
-	}
-	
-	modifier = {
-		knights_morale = 1
-		knights_defensive = 0.75
-	}
-}
-
-RETTYPE_CUL_ELEPHANT = 
-{
-	first_type = 6
-	first_amount = 100
-	
-	special_troops = war_elephants
-	
-	potential = {
-		is_nomadic = no
-		culture_group = elephant_group
-	}
-	
-	modifier = {
-		war_elephants_offensive = 0.5
-		war_elephants_defensive = 0.25
-	}
-}
-
-RETTYPE_CUL_DRAGON = 
-{
-	first_type = 4
-	first_amount = 150
-	
-	potential = {
-		is_nomadic = no
-		culture_group = dragon_group
-	}
-	
-	modifier = {
-		knights_morale = 1
-		knights_offensive = 0.75
-	}
-}
-
-RETTYPE_CUL_OUTREMER = 
-{
-	first_type = 4
-	first_amount = 100
-	
-	second_type = 6
-	second_amount = 150
-	
-	special_troops = camel_cavalry
-	
-	potential = {
-		is_nomadic = no
-		culture = outremer
-	}
-	
-	modifier = {
-		camel_cavalry_offensive = 0.2
-		camel_cavalry_morale = 0.1
-		knights_offensive = 0.1
-		knights_morale = 0.1
-	}
-}
-
-RETTYPE_CUL_ARBERIAN = 
-{
-	first_type = 3
-	first_amount = 200
-
-	potential = {
-		is_nomadic = no
-		culture = arberian
-	}
-	
-	modifier = {
-		light_cavalry_defensive = 0.2
-		light_cavalry_offensive = 0.2
-		light_cavalry_morale = 0.4
-	}
-}
-
-RETTYPE_CUL_SAR = 
-{
-	first_type = 2
-	first_amount = 200
-	second_type = 5
-	second_amount = 200
-	
-	potential = {
-		is_nomadic = no
-		culture = sardinian
-	}
-	
-	modifier = {
-		archers_defensive = 0.2
-		pikemen_defensive = 0.2
-		pikemen_offensive = 0.2
-		pikemen_morale = 0.4
 	}
 }

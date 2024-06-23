@@ -17,6 +17,7 @@ character_event = { # Great warrior character chance
 	trigger = {
 		any_owned_bloodline = {
 			has_bloodline_flag = bloodline_heroes
+			bloodline_is_active_for = PREV
 			founder = {
 				NOT = {
 					character = ROOT
@@ -226,8 +227,23 @@ character_event = { # Great warrior character arrives
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
+									NOR = {
+										religion = old_hindu
+										religion = parabrahmanist
+										religion = kalikula
+										religion = shaivasiddhanta
+										religion = jain
+										religion = maunaxite_reformed
+										religion = maunaxite
+										religion = yazidi
+										religion = yersenism
+										religion = mandaeanism
+										religion = ahlehaqq
+									}
+									OR = {
+										trait = kshatriya
+										trait = shaykh
+									}
 								}
 								is_adult = yes
 							}
@@ -371,6 +387,7 @@ character_event = { # Sympathy for founder group
 			has_character_flag = no_sympathy_bloodline
 		}
 		any_owned_bloodline = {
+			bloodline_is_active_for = PREV
 			founder = {
 				NOT = {
 					character = ROOT
@@ -405,6 +422,15 @@ character_event = { # Sympathy for founder group
 						}
 					}
 					AND = {
+						religion_group = mormonic
+						ROOT = {
+							NOR = {
+								religion_group = mormonic
+								trait = sympathy_mormon
+							}
+						}
+					}
+					AND = {
 						religion_group = zoroastrian_group
 						ROOT = {
 							NOR = {
@@ -428,6 +454,69 @@ character_event = { # Sympathy for founder group
 							NOR = {
 								religion_group = indian_group
 								trait = sympathy_indian
+							}
+						}
+					}
+					AND = {
+						religion_group = buddhist_group
+						ROOT = {
+							NOR = {
+								religion_group = buddhist_group
+								trait = sympathy_buddhism
+							}
+						}
+					}
+					AND = {
+						religion_group = old_world_cultist_group
+						ROOT = {
+							NOR = {
+								religion_group = old_world_cultist_group
+								trait = sympathy_old_world_cultist
+							}
+						}
+					}
+					AND = {
+						religion_group = esoteric
+						ROOT = {
+							NOR = {
+								religion_group = esoteric
+								trait = sympathy_esoteric
+							}
+						}
+					}
+					AND = {
+						religion_group = syncratic_group
+						ROOT = {
+							NOR = {
+								religion_group = syncratic_group
+								trait = sympathy_syncratic
+							}
+						}
+					}
+					AND = {
+						religion_group = oceanic
+						ROOT = {
+							NOR = {
+								religion_group = oceanic
+								trait = sympathy_oceanic
+							}
+						}
+					}
+					AND = {
+						religion_group = alien_group
+						ROOT = {
+							NOR = {
+								religion_group = alien_group
+								trait = sympathy_alien
+							}
+						}
+					}
+					AND = {
+						religion_group = synth_group
+						ROOT = {
+							NOR = {
+								religion_group = synth_group
+								trait = sympathy_synth
 							}
 						}
 					}
@@ -473,6 +562,15 @@ character_event = { # Sympathy for founder group
 							}
 						}
 						AND = {
+							religion_group = mormonic
+							ROOT = {
+								NOR = {
+									religion_group = mormonic
+									trait = sympathy_mormon
+								}
+							}
+						}
+						AND = {
 							religion_group = zoroastrian_group
 							ROOT = {
 								NOR = {
@@ -497,6 +595,69 @@ character_event = { # Sympathy for founder group
 									religion_group = indian_group
 									trait = sympathy_indian
 								}
+							}
+						}
+						AND = {
+						    religion_group = buddhist_group
+							ROOT = {
+							    NOR = {
+								    religion_group = buddhist_group
+								    trait = sympathy_buddhism
+							    }
+						    }
+					    }
+						AND = {
+						    religion_group = old_world_cultist_group
+							ROOT = {
+							    NOR = {
+								    religion_group = old_world_cultist_group
+									trait = sympathy_old_world_cultist
+							    }
+							}
+						}
+						AND = {
+						    religion_group = esoteric
+							ROOT = {
+							     NOR = {
+								     religion_group = esoteric
+									 trait = sympathy_esoteric
+								}
+							}
+						}
+						AND = {
+						    religion_group = syncratic_group
+						    ROOT = {
+							     NOR = {
+								     religion_group = syncratic_group
+								     trait = sympathy_syncratic
+								}
+							}
+						}
+						AND = {
+						    religion_group = oceanic
+						    ROOT = {
+							     NOR = {
+								     religion_group = oceanic
+									 trait = sympathy_oceanic
+							    }
+							}
+						}
+						AND = {
+						    religion_group = alien_group
+						    ROOT = {
+							     NOR = {
+								     religion_group = alien_group
+									 trait = sympathy_alien
+							    }
+							}
+						}
+						AND = {
+						    religion_group = synth_group
+						    ROOT = {
+							     NOR = {
+								     religion_group = synth_group
+									 trait = sympathy_synth
+							    }
 							}
 						}
 					}
@@ -564,6 +725,14 @@ character_event = { # Sympathy for founder group
 		else_if = {
 			limit = {
 				event_target:target_bloodline_founder = {
+					religion_group = mormonic
+				}
+			}
+			add_trait = sympathy_mormon
+		}
+		else_if = {
+			limit = {
+				event_target:target_bloodline_founder = {
 					religion_group = jewish_group
 				}
 			}
@@ -584,6 +753,46 @@ character_event = { # Sympathy for founder group
 				}
 			}
 			add_trait = sympathy_indian
+		}
+		else_if = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = buddhist_group
+				}
+			}
+			add_trait = sympathy_buddhism
+		}
+		else_if = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = old_world_cultist_group
+				}
+			}
+			add_trait = sympathy_old_world_cultist
+		}
+		else_if = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = esoteric
+				}
+			}
+			add_trait = sympathy_esoteric
+		}
+		else_if = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = syncratic_group
+				}
+			}
+			add_trait = sympathy_syncratic
+		}
+		else = {
+			limit = {
+				event_target:target_bloodline_founder = {
+					religion_group = oceanic
+				}
+			}
+			add_trait = sympathy_oceanic
 		}
 		
 		ai_chance = {
@@ -620,12 +829,16 @@ character_event = { # Chance of gaining a personality trait of Founder
 			has_character_flag = had_bloodline_personality_event
 		}
 		any_owned_bloodline = {
+			bloodline_is_active_for = PREV
 			OR = {
 				NOT = {
 					has_bloodline_flag = saintly_bloodline
 				}
 				ROOT = {
+				OR = {
 					religion_group = christian
+					religion = jugoslavist
+					}
 				}
 			}
 			founder = {
@@ -649,7 +862,10 @@ character_event = { # Chance of gaining a personality trait of Founder
 						has_bloodline_flag = saintly_bloodline
 					}
 					ROOT = {
-						religion_group = christian
+						OR = {
+					religion_group = christian
+					religion = jugoslavist
+					}
 					}
 				}
 				founder = {
@@ -725,49 +941,50 @@ narrative_event = {
 	
 	is_triggered_only = yes
 
-	trigger = { 
-		has_dlc = "Holy Fury" 
+	trigger = {
+		has_dlc = "Holy Fury"
 		NOT = { has_global_flag = flag_phalaris_bloodline }
 		NOT = { has_dynasty_flag = flag_phalaris_event }
 		is_female = no
 	}
 
-	immediate = { 
+	immediate = {
 		set_dynasty_flag = flag_phalaris_event
 	} #If Character says no first time, event never fires again for his dynasty.
 	
 	option = { #Gain Phalaris bloodline.
 		name = EVTOPTAHF24000
 		custom_tooltip = { text = tooltip_restore_brazen_bull }
-		if = { 
+		if = {
 			limit = { has_nickname = no }
 			give_nickname = nick_the_tyrant
 		}
-		if = { 
+		if = {
 			limit = { is_female = no }
 			create_bloodline = {
 				type = phalaris_male
 			}
 			new_bloodline = {
 				set_description = "bloodline_desc_phalaris"
-			}		
+			}
 		}
-	#	if = { 
+	#	if = {
 	#		limit = { is_female = yes }
 	#		create_bloodline = {
-	#			type = phalaris_female
+	#			type = phalaris_male
+	#			inheritance = matrilineal
 	#		}
 	#		new_bloodline = {
 	#			set_description = "bloodline_desc_phalaris"
 	#		}
 	#	} 
-		hidden_tooltip = { 
-			if = { 
+		hidden_tooltip = {
+			if = {
 				limit = { has_character_modifier = brazen_bull }
 				remove_character_modifier = brazen_bull #Negative opinion is now part of the bloodline itself.		
 			}
-			any_player = { 
-				limit = { 
+			any_player = {
+				limit = {
 					is_within_diplo_range = ROOT 
 					NOT = { character = ROOT }
 				}	
@@ -775,9 +992,9 @@ narrative_event = {
 			}
 		}
 		set_global_flag = flag_phalaris_bloodline
-		ai_chance = { 
+		ai_chance = {
 			factor = 90
-			modifier = { 
+			modifier = {
 				factor = 1.5
 				trait = lunatic
 			}
@@ -786,11 +1003,11 @@ narrative_event = {
 	option = { #Nothing.
 		name = EVTOPTBHF24000
 		tiered_prestige_negative_effect = yes
-		if = { 
+		if = {
 			limit = { has_character_modifier = brazen_bull }
 			remove_character_modifier = brazen_bull
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 10
 			modifier = { 
 				factor = 1.5
@@ -942,7 +1159,10 @@ character_event = {
 					is_alternate_start = no 
 					independent = yes
 					lower_tier_than = EMPEROR
+					OR = {
 					religion_group = pagan_group
+					religion_group = oceanic
+					}
 					NOT = { realm_size = 120 }
 					NOR = { 
 						religion = hellenic_pagan
@@ -964,6 +1184,7 @@ character_event = {
 					OR = { 
 						has_landed_title = e_byzantium
 						has_landed_title = e_roman_empire
+						has_landed_title = e_roman_republic
 					}
 				}
 			}
@@ -973,7 +1194,10 @@ character_event = {
 					is_alternate_start = no 
 					independent = yes
 					lower_tier_than = EMPEROR
+					OR = {
 					religion_group = pagan_group
+					religion_group = oceanic
+					}
 					NOT = { realm_size = 120 }
 					NOR = { 
 						religion = hellenic_pagan
@@ -995,6 +1219,7 @@ character_event = {
 					OR = { 
 						has_landed_title = e_byzantium
 						has_landed_title = e_roman_empire
+						has_landed_title = e_roman_republic
 					}
 				}
 			}
@@ -1010,7 +1235,10 @@ character_event = {
 					is_alternate_start = no 
 					independent = yes
 					lower_tier_than = EMPEROR
+					OR = {
 					religion_group = pagan_group
+					religion_group = oceanic
+					}
 					NOT = { realm_size = 120 }
 					NOR = { 
 						religion = hellenic_pagan
@@ -1045,7 +1273,10 @@ character_event = {
 					is_alternate_start = no 
 					independent = yes
 					lower_tier_than = EMPEROR
+					OR = {
 					religion_group = pagan_group
+					religion_group = oceanic
+					}
 					NOT = { realm_size = 120 }
 					NOR = { 
 						religion = hellenic_pagan
@@ -1149,6 +1380,7 @@ narrative_event = {
 			OR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
+				has_landed_title = e_roman_republic
 			}
 		}
 		text = EVTDESCAHF24012
@@ -1158,6 +1390,7 @@ narrative_event = {
 			NOR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
+				has_landed_title = e_roman_republic
 			}
 		}
 		text = EVTDESCBHF24012
@@ -1178,6 +1411,7 @@ narrative_event = {
 			OR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
+				has_landed_title = e_roman_republic
 			}
 		}
 		ai_chance = { 
@@ -1190,6 +1424,7 @@ narrative_event = {
 			NOR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
+				has_landed_title = e_roman_republic
 			}
 			OR = {
 				culture_group = byzantine
@@ -1208,6 +1443,7 @@ narrative_event = {
 			NOR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
+				has_landed_title = e_roman_republic
 				culture_group = byzantine
 				culture = roman
 				religion = hellenic_pagan
@@ -1236,6 +1472,7 @@ character_event = {
 				age = 16
 				NOT = { trait = incapable }
 				any_owned_bloodline = {
+					bloodline_is_active_for = PREV
 					has_bloodline_flag = bloodline_spawned_ships 
 				}
 				any_realm_province = {
@@ -1246,6 +1483,7 @@ character_event = {
 				age = 16
 				NOT = { trait = incapable }
 				any_owned_bloodline = {
+					bloodline_is_active_for = PREV
 					has_bloodline_flag = bloodline_spawned_ships 
 				}
 				any_realm_province = {
@@ -1262,6 +1500,7 @@ character_event = {
 					age = 16
 					NOT = { trait = incapable }
 					any_owned_bloodline = {
+						bloodline_is_active_for = PREV
 						has_bloodline_flag = bloodline_spawned_ships 
 					}
 					any_realm_province = {
@@ -1342,6 +1581,7 @@ character_event = {
 					NOT = { trait = incapable }
 					any_owned_bloodline = {
 						has_bloodline_flag = bloodline_spawned_ships 
+						bloodline_is_active_for = PREV
 					}
 					any_realm_province = {
 						port = yes 
@@ -1445,7 +1685,10 @@ character_event = {
 	
 	immediate = {
 			any_owned_bloodline = {
-				limit = { has_bloodline_flag = bloodline_spawned_ships }
+				limit = { 
+					has_bloodline_flag = bloodline_spawned_ships 
+					bloodline_is_active_for = PREV
+				}
 				founder = { 
 					save_event_target_as = pirate_bloodline_target	#Localization use only.
 				}
@@ -1492,7 +1735,10 @@ character_event = {
 	
 	immediate = {
 			any_owned_bloodline = {
-				limit = { has_bloodline_flag = bloodline_spawned_ships }
+				limit = { 
+					has_bloodline_flag = bloodline_spawned_ships 
+					bloodline_is_active_for = PREV
+				}
 				founder = { 
 					save_event_target_as = pirate_bloodline_target	#Localization use only.
 				}
@@ -1539,7 +1785,10 @@ character_event = {
 	
 	immediate = {
 			any_owned_bloodline = {
-				limit = { has_bloodline_flag = bloodline_spawned_ships }
+				limit = { 
+					has_bloodline_flag = bloodline_spawned_ships 
+					bloodline_is_active_for = PREV
+				}
 				founder = { 
 					save_event_target_as = pirate_bloodline_target	#Localization use only.
 				}
@@ -1561,48 +1810,55 @@ character_event = {
 
 ##################################################################
 ##################################################################
-# Forge Bloodline Ambition events
+### Forge Bloodline Ambition events
 
-#Hidden checks and counters first:
+## Hidden checks and counters first:
 
-#On_death: check for murders.
+# on_death: Check for murders
 character_event = {
 	id = HF.24017
+
+	is_triggered_only = yes
 	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		OR = { 
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		OR = {
 			death_murder_unknown_trigger = yes
 			death_murder_known_trigger = yes
 			death_execution_trigger = yes
 		}
-		killer = { #Not necessary to have the ambition to stack up the variable, but necessary to unlock the bloodline.
+
+		# Not necessary to have the ambition to stack up the variable, but necessary to unlock the bloodline.
+		killer = {
 			is_playable = yes
 			is_landed = yes
-			NOT = { trait = incapable }
-			NOT = { 
-				has_character_flag = flag_about_to_murder_bloodline
-			}
+			is_incapable = no
+			NOT = { has_character_flag = flag_about_to_murder_bloodline }
 		}
 	}
-	
-	is_triggered_only = yes
 
-	immediate = { 
-		killer = { 
+	immediate = {
+		killer = {
 			murder_bloodline_check_effect = yes
 		}
 	}
 }
 
-#on_war_ended_victory: check for war variable.
-# From = Attacker, Root = Defender
+# on_war_ended_victory: check for war variable
+# FROM is attacker
+# ROOT is defender
 character_event = {
 	id = HF.24018
+
+	is_triggered_only = yes
 	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		FROM = { 
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		FROM = {
 			NOR = {
 				trait = heresiarch
 				trait = peasant_leader
@@ -1610,7 +1866,8 @@ character_event = {
 				has_character_flag = flag_about_to_war_bloodline
 			}
 		}
-		ROOT = { 
+
+		ROOT = {
 			NOR = {
 				trait = heresiarch
 				trait = peasant_leader
@@ -1618,367 +1875,514 @@ character_event = {
 			}
 		}
 	}
-	
-	is_triggered_only = yes
 
-	immediate = { 
-		FROM = { 
-			hidden_tooltip = { change_variable = { which = bloodline_won_wars value = 1 } }
-			if = { #Pure War Bloodline.
-				limit = { 
-					check_variable = { which = bloodline_won_wars value = 15 } 
-					has_ambition = obj_forge_bloodline
+
+	immediate = {
+		FROM = {
+			change_variable = {
+				which = bloodline_won_wars
+				value = 1
+			}
+
+			if = { # Pure War Bloodline
+				limit = { has_ambition = obj_forge_bloodline }
+
+				if = {
+					limit = {
+						check_variable = {
+							which = bloodline_won_wars
+							value >= 15
+						}
+					}
+
+					set_character_flag = flag_about_to_war_bloodline
+
+					character_event = {
+						id = HF.24031
+						days = 25
+						random = 25
+					}
 				}
-				set_character_flag = flag_about_to_war_bloodline
-				character_event = { id = HF.24031 days = 25 random = 25 }
-			}
-			else_if = { # Murder War Hybrid.
-				limit = { 
-					check_variable = { which = bloodline_murdered_people value = 20 } 
-					check_variable = { which = bloodline_won_wars value = 10 }
-					has_ambition = obj_forge_bloodline
-				}
-				set_character_flag = flag_about_to_war_bloodline
-				narrative_event = { id = HF.24045 days = 25 random = 25 }
-			}
-		}
-	}
-}
+				else_if = { # Murder War Hybrid
+					limit = {
+						check_variable = { which = bloodline_murdered_people value >= 20 }
+						check_variable = { which = bloodline_won_wars value >= 10 }
+					}
 
-#on_war_ended_defeat: check for war variable.
-# From = Attacker, Root = Defender
-character_event = {
-	id = HF.24019
-	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		FROM = { 
-			NOR = {
-				trait = heresiarch
-				trait = peasant_leader
-				trait = adventurer
-			}
-		}
-		ROOT = { 
-			NOR = {
-				trait = heresiarch
-				trait = peasant_leader
-				trait = adventurer
-				has_character_flag = flag_about_to_war_bloodline
-			}
-		}
-	}
-	
-	is_triggered_only = yes
+					set_character_flag = flag_about_to_war_bloodline
 
-	immediate = { 
-		ROOT = { 
-			hidden_tooltip = { change_variable = { which = bloodline_won_wars value = 1 } }
-			if = { #Pure War Bloodline.
-				limit = { 
-					check_variable = { which = bloodline_won_wars value = 15 } 
-					has_ambition = obj_forge_bloodline
-				}
-				set_character_flag = flag_about_to_war_bloodline
-				character_event = { id = HF.24031 days = 25 random = 25 }
-			}
-			else_if = { # Murder War Hybrid.
-				limit = { 
-					check_variable = { which = bloodline_murdered_people value = 20 } 
-					check_variable = { which = bloodline_won_wars value = 10 }
-					has_ambition = obj_forge_bloodline
-				}
-				set_character_flag = flag_about_to_war_bloodline
-				narrative_event = { id = HF.24045 days = 25 random = 25 }
-			}
-		}
-	}
-}
-
-#Fired from ambition: check years at peace.
-character_event = {
-	id = HF.24020
-	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		has_ambition = obj_forge_bloodline
-		NOT = { check_variable = { which = bloodline_peaceful_years value = 30 } }
-	}
-	
-	is_triggered_only = yes
-
-	immediate = { 
-		hidden_tooltip = { change_variable = { which = bloodline_peaceful_years value = 1 } }
-		if = { #Pure Peace Bloodline.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 30 } 
-				has_ambition = obj_forge_bloodline
-			}
-			character_event = { id = HF.24037 days = 25 random = 25 }
-		}
-		else_if = { #Murder Peace Hybrid.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 15 } 
-				check_variable = { which = bloodline_murdered_people value = 20 } 
-				has_ambition = obj_forge_bloodline
-			}
-			narrative_event = { id = HF.24046 days = 25 random = 25 }
-		}
-		else_if = { #Peace Architect Hybrid.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 15 } 
-				check_variable = { which = bloodline_built_cities value = 5 } 
-				has_ambition = obj_forge_bloodline
-			}
-			narrative_event = { id = HF.24049 days = 25 random = 25 }
-		}
-		else_if = { #Peace Castellan Hybrid.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 15 } 
-				check_variable = { which = bloodline_built_castles value = 5 } 
-				has_ambition = obj_forge_bloodline
-			}
-			narrative_event = { id = HF.24050 days = 25 random = 25 }
-		}
-		else_if = { #Peace Monumental Hybrid.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 15 } 
-				check_variable = { which = bloodline_built_temples value = 5 } 
-				has_ambition = obj_forge_bloodline
-			}
-			narrative_event = { id = HF.24051 days = 25 random = 25 }
-		}
-		else = { # Fire again, with yearly delay.
-			character_event = { id = HF.24020 days = 365 }
-		}
-	}
-}
-
-#on_war_started: reset peaceful_years variable.
-character_event = {
-	id = HF.24021
-	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		has_ambition = obj_forge_bloodline
-	}
-	
-	is_triggered_only = yes
-
-	immediate = { 
-		if = { 
-			limit = { 
-				ROOT = { check_variable = { which = bloodline_peaceful_years value = 1 } } 	
-			}
-			ROOT = { set_variable = { which = bloodline_peaceful_years value = 0 } }
-		}
-		if = { 
-			limit = { 
-				FROM = { check_variable = { which = bloodline_peaceful_years value = 1 } } 	
-			}
-			FROM = { set_variable = { which = bloodline_peaceful_years value = 0 } }
-		}
-	}
-}
-
-#on_settlement_construction_completed: check the Architect Bloodline.
-character_event = {
-	id = HF.24022
-	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		FROM = { holding_type = CITY }
-		NOT = {
-			has_character_flag = flag_about_to_builder_bloodline
-		}
-	}
-	
-	is_triggered_only = yes
-
-	immediate = { 
-		change_variable = { which = bloodline_built_cities value = 1 }
-		change_variable = { which = bloodline_built_holdings value = 1 }
-		if = { #First check for pure Architect Bloodline.
-			limit = {
-				check_variable = { which = bloodline_built_cities value = 10 }
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24042 days = 25 random = 25 } 
-		}
-		else_if = { # Then check for Builder Hybrid.
-			limit = {
-				check_variable = { which = bloodline_built_holdings value = 24 }
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24047 days = 25 random = 25 } 
-		}
-		else_if = { #Then check for Murder Builder Hybrid.
-			limit = {
-				killer = { 
-					check_variable = { which = bloodline_murdered_people value = 20 } 
-					check_variable = { which = bloodline_built_holdings value = 15 } 
-					has_ambition = obj_forge_bloodline
-				}
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24048 days = 25 random = 25 }
-		}
-		else_if = { #Peace Architect Hybrid.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 15 } 
-				check_variable = { which = bloodline_built_cities value = 5 } 
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24049 days = 25 random = 25 }
-		}
-	}
-}
-
-#on_settlement_construction_completed: check the Castellan Bloodline.
-character_event = {
-	id = HF.24023
-	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		FROM = { holding_type = CASTLE }
-		NOT = {
-			has_character_flag = flag_about_to_builder_bloodline
-		}
-	}
-	
-	is_triggered_only = yes
-
-	immediate = { 
-		change_variable = { which = bloodline_built_castles value = 1 }
-		change_variable = { which = bloodline_built_holdings value = 1 }
-		if = { #First check for pure Castellan Bloodline.
-			limit = {
-				check_variable = { which = bloodline_built_castles value = 10 }
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24043 days = 25 random = 25 } 
-		}
-		else_if = { # Then check for Builder Hybrid.
-			limit = {
-				check_variable = { which = bloodline_built_holdings value = 24 }
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24047 days = 25 random = 25 } 
-		}
-		else_if = { #Then check for Murder Builder Hybrid.
-			limit = {
-				killer = { 
-					check_variable = { which = bloodline_murdered_people value = 20 } 
-					check_variable = { which = bloodline_built_holdings value = 15 } 
-					has_ambition = obj_forge_bloodline
-				}
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24048 days = 25 random = 25 }
-		}
-		else_if = { #Peace Castellan Hybrid.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 15 } 
-				check_variable = { which = bloodline_built_castles value = 5 } 
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24050 days = 25 random = 25 }
-		}
-	}
-}
-
-#on_settlement_construction_completed: check the Monumental Bloodline.
-character_event = {
-	id = HF.24024
-	hide_window = yes
-	trigger = { 
-		has_dlc = "Holy Fury"
-		FROM = { holding_type = TEMPLE }
-		NOT = {
-			has_character_flag = flag_about_to_builder_bloodline
-		}
-	}
-	
-	is_triggered_only = yes
-
-	immediate = { 
-		change_variable = { which = bloodline_built_temples value = 1 }
-		change_variable = { which = bloodline_built_holdings value = 1 }
-		if = { #First check for pure Monumental Bloodline.
-			limit = {
-				check_variable = { which = bloodline_built_temples value = 10 }
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24044 days = 25 random = 25 } 
-		}
-		else_if = { # Then check for Builder Hybrid.
-			limit = {
-				check_variable = { which = bloodline_built_holdings value = 24 }
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24047 days = 25 random = 25 } 
-		}
-		else_if = { #Then check for Murder Builder Hybrid.
-			limit = {
-				killer = { 
-					check_variable = { which = bloodline_murdered_people value = 20 } 
-					check_variable = { which = bloodline_built_holdings value = 15 } 
-					has_ambition = obj_forge_bloodline
-				}
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24048 days = 25 random = 25 }
-		}
-		else_if = { #Peace Monumental Hybrid.
-			limit = { 
-				check_variable = { which = bloodline_peaceful_years value = 15 } 
-				check_variable = { which = bloodline_built_temples value = 5 } 
-				has_ambition = obj_forge_bloodline
-			}
-			set_character_flag = flag_about_to_builder_bloodline
-			narrative_event = { id = HF.24051 days = 25 random = 25 }
-		}
-	}
-}
-
-#Bloodline notification events for chosen path:
-
-#Pure Murder Bloodline crossroad.
-character_event = {
-	id = HF.24025
-	hide_window = yes
-
-	trigger = { 
-		has_dlc = "Holy Fury"
-
-		has_ambition = obj_forge_bloodline
-	}
-	
-	is_triggered_only = yes
-
-	immediate = { 
-		if = { #First check if qualifies for Death little helper flavor.
-			limit = { 
-				OR = { 
-					NOT = { age = 16 }
-					AND = { 
-						has_character_flag = flag_forge_bloodline_was_child 
-						NOT = { age = 35 } #Should still be somewhat young.
+					narrative_event = {
+						id = HF.24045
+						days = 25
+						random = 25
 					}
 				}
 			}
-			narrative_event = { id = HF.24026 }
 		}
-		else = { 
-			character_event = { id = HF.24027 } #Otherwise let player decide the flavor.
+	}
+}
+
+# on_war_ended_defeat: check for war variable.
+# From = Attacker, Root = Defender
+character_event = {
+	id = HF.24019
+
+	hide_window = yes
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		FROM = {
+			NOR = {
+				trait = heresiarch
+				trait = peasant_leader
+				trait = adventurer
+			}
+		}
+
+		ROOT = {
+			NOR = {
+				trait = heresiarch
+				trait = peasant_leader
+				trait = adventurer
+				has_character_flag = flag_about_to_war_bloodline
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		ROOT = {
+			change_variable = {
+				which = bloodline_won_wars
+				value = 1
+			}
+
+			if = { # Pure War Bloodline
+				limit = { has_ambition = obj_forge_bloodline }
+
+				if = {
+					limit = {
+						check_variable = {
+							which = bloodline_won_wars
+							value >= 15
+						}
+					}
+
+					set_character_flag = flag_about_to_war_bloodline
+
+					character_event = {
+						id = HF.24031
+						days = 25
+						random = 25
+					}
+				}
+				else_if = { # Murder War Hybrid
+					limit = {
+						check_variable = { which = bloodline_murdered_people value >= 20 }
+						check_variable = { which = bloodline_won_wars value >= 10 }
+					}
+
+					set_character_flag = flag_about_to_war_bloodline
+
+					narrative_event = {
+						id = HF.24045
+						days = 25
+						random = 25
+					}
+				}
+			}
+		}
+	}
+}
+
+# Fired from ambition: Check years at peace
+character_event = {
+	id = HF.24020
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		has_ambition = obj_forge_bloodline
+
+		check_variable = {
+			which = bloodline_peaceful_years
+			value < 30
+		}
+	}
+
+
+	immediate = {
+		change_variable = {
+			which = bloodline_peaceful_years
+			value = 1
+		}
+
+		if = {
+			limit = {
+				check_variable = {
+					which = bloodline_peaceful_years
+					value >= 30
+				}
+			}
+
+			character_event = {
+				id = HF.24037 # Pure Peace Bloodline
+				days = 25
+				random = 25
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = bloodline_peaceful_years
+					value >= 15
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						which = bloodline_murdered_people
+						value >= 20
+					}
+				}
+
+				narrative_event = {
+					id = HF.24046 # Murder Peace Hybrid
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_cities
+						value >= 5
+					}
+				}
+
+				narrative_event = {
+					id = HF.24049 # Peace Architect Hybrid
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_castles
+						value >= 5
+					}
+				}
+
+				narrative_event = {
+					id = HF.24050 # Peace Castellan Hybrid
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_temples
+						value >= 5
+					}
+				}
+
+				narrative_event = {
+					id = HF.24051 # Peace Monumental Hybrid
+					days = 25
+					random = 25
+				}
+			}
+		}
+
+		# Fire again, with yearly delay
+		repeat_event = {
+			id = HF.24020
+			years = 1
+		}
+	}
+}
+
+# on_war_started: Reset peaceful_years variable.
+character_event = {
+	id = HF.24021
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		OR = {
+			has_ambition = obj_forge_bloodline
+			FROM = { has_ambition = obj_forge_bloodline }
+		}
+	}
+
+	immediate = {
+		set_variable = { which = bloodline_peaceful_years value = 0 }
+		FROM = { set_variable = { which = bloodline_peaceful_years value = 0 } }
+	}
+}
+
+# on_settlement_construction_completed: check the Architect Bloodline.
+character_event = {
+	id = HF.24022
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		FROM = { holding_type = city }
+		NOT = { has_character_flag = flag_about_to_builder_bloodline }
+	}
+
+	immediate = {
+		change_variable = { which = bloodline_built_cities value = 1 }
+		change_variable = { which = bloodline_built_holdings value = 1 }
+
+		if = {
+			limit = { has_ambition = obj_forge_bloodline }
+
+			if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_cities
+						value >= 10
+					}
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24042 # Pure Architect bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_holdings
+						value >= 24
+					}
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24047 # Builder Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = bloodline_murdered_people value >= 20 }
+					check_variable = { which = bloodline_built_holdings value >= 15 }
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24048 # Murder Builder Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = bloodline_peaceful_years value >= 15 }
+					check_variable = { which = bloodline_built_cities value >= 5 }
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24049 # Peace Architect Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+		}
+	}
+}
+
+# on_settlement_construction_completed: check the Castellan Bloodline.
+character_event = {
+	id = HF.24023
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		FROM = { holding_type = castle }
+		NOT = { has_character_flag = flag_about_to_builder_bloodline }
+	}
+
+	immediate = {
+		change_variable = { which = bloodline_built_castles value = 1 }
+		change_variable = { which = bloodline_built_holdings value = 1 }
+
+		if = {
+			limit = { has_ambition = obj_forge_bloodline }
+
+			if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_castles
+						value >= 10
+					}
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24043 # Pure Castellan Bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_holdings
+						value >= 24
+					}
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24047 # Builder Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = bloodline_murdered_people value >= 20 }
+					check_variable = { which = bloodline_built_holdings value >= 15 }
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24048 # Murder Builder Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = bloodline_peaceful_years value >= 15 }
+					check_variable = { which = bloodline_built_castles value >= 5 }
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24050 # Peace Castellan Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+		}
+	}
+}
+
+# on_settlement_construction_completed: check the Monumental Bloodline.
+character_event = {
+	id = HF.24024
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	has_dlc = "Holy Fury"
+
+	trigger = {
+		FROM = { holding_type = temple }
+		NOT = { has_character_flag = flag_about_to_builder_bloodline }
+	}
+
+	immediate = {
+		change_variable = { which = bloodline_built_temples value = 1 }
+		change_variable = { which = bloodline_built_holdings value = 1 }
+
+		if = {
+			limit = { has_ambition = obj_forge_bloodline }
+
+			if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_temples
+						value >= 10
+					}
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24044 # Pure Monumental Bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = bloodline_built_holdings
+						value >= 24
+					}
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24047 # Builder Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = bloodline_murdered_people value >= 20 }
+					check_variable = { which = bloodline_built_holdings value >= 15 }
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24048 # Murder Builder Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = bloodline_peaceful_years value >= 15 }
+					check_variable = { which = bloodline_built_temples value >= 5 }
+				}
+
+				set_character_flag = flag_about_to_builder_bloodline
+
+				narrative_event = {
+					id = HF.24051 # Peace Monumental Hybrid bloodline
+					days = 25
+					random = 25
+				}
+			}
 		}
 	}
 }
@@ -2009,7 +2413,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2069,7 +2477,11 @@ character_event = {
 	
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -2136,14 +2548,14 @@ character_event = {
 		if = { 
 			limit = { 
 				this_has_super_cool_nickname_trigger = no 
-				culture_group = latin
+				culture_group = apeninian
 			}
 			ROOT = { give_nickname = nick_the_ferrante }
 		}
 		if = { 
 			limit = { 
 				this_has_super_cool_nickname_trigger = no 
-				NOT = { culture_group = latin }
+				NOT = { culture_group = apeninian }
 			}
 			ROOT = { give_nickname = nick_the_iron_heart }
 		}
@@ -2243,7 +2655,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2282,7 +2698,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2322,7 +2742,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2377,7 +2801,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2409,7 +2837,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2460,7 +2892,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2517,7 +2953,11 @@ character_event = {
 	
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -2530,12 +2970,17 @@ character_event = {
 	option = {
 		name = EVTOPTAHF24033
 		trigger = { 
-			religion_group = christian 
+			can_use_christian_stuff_trigger = yes
 			is_evil_trigger = no 
-			OR = {
-				is_female = no
-				has_religion_feature = religion_matriarchal 	#AltStart
-				has_religion_feature = religion_equal
+			trigger_if = {
+				limit = { is_female = no }
+				OR = {
+					is_feminist_religion = no
+					is_equalist_religion = yes
+				}
+			}
+			trigger_else = {
+				is_feminist_religion = yes
 			}
 		}
 		custom_tooltip = { text = TT_EVTOPTAHF24033 }
@@ -2643,7 +3088,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2690,7 +3139,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2741,7 +3194,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2773,7 +3230,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2786,7 +3247,7 @@ character_event = {
 					NOT = { age = 16 }
 					AND = { 
 						has_character_flag = flag_forge_bloodline_was_child 
-						NOT = { age = 35 } #Should still be somewhat young.
+						NOT = { age = 45 } #Should still be somewhat young.
 					}
 				}
 			}
@@ -2811,7 +3272,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2874,7 +3339,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2940,7 +3409,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -2978,7 +3451,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3016,7 +3493,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3060,7 +3541,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3104,7 +3589,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3156,7 +3645,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3200,7 +3693,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3244,7 +3741,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3288,7 +3789,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3332,7 +3837,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3376,7 +3885,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3420,7 +3933,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3484,7 +4001,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3559,7 +4080,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3617,7 +4142,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3674,7 +4203,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -3739,7 +4272,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -3883,7 +4420,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -4022,7 +4563,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -4078,7 +4623,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -4220,7 +4769,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -4238,7 +4791,7 @@ character_event = {
 		tooltip_info = diplomacy
 		custom_tooltip = { text = TT_EVTOPTAHF24056 }
 		if = { 
-			limit = { trait = kind }
+			limit = { NOT = { trait = kind } }
 			add_trait = kind
 		}
 		add_character_modifier = {
@@ -4256,7 +4809,7 @@ character_event = {
 		name = EVTOPTBHF24060
 		custom_tooltip = { text = TT_EVTOPTBHF24056 }
 		if = { 
-			limit = { trait = kind }
+			limit = { NOT = { trait = kind } }
 			add_trait = kind
 		}
 		if = { 
@@ -4282,7 +4835,7 @@ character_event = {
 		name = EVTOPTCHF24060
 		custom_tooltip = { text = TT_EVTOPTCHF24056 }
 		if = { 
-			limit = { trait = kind }
+			limit = { NOT = { trait = kind } }
 			add_trait = kind
 		}
 		if = { 
@@ -4375,7 +4928,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -4429,7 +4986,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -4530,7 +5091,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -4639,7 +5204,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -4701,22 +5270,6 @@ narrative_event = {
 			}
 		}
 		else_if = { 
-			limit = { religion_group = pagan_group }
-			if = { 
-				limit = { is_female = no }
-				create_bloodline = {
-					type = event_religion_peaceful_bloodline_04
-				}		
-			}
-			if = { 
-				limit = { is_female = yes }
-				create_bloodline = {
-					type = event_religion_peaceful_bloodline_04
-					inheritance = matrilineal
-				}		
-			}
-		}
-		else_if = { 
 			limit = { religion_group = zoroastrian_group }
 			if = { 
 				limit = { is_female = no }
@@ -4732,7 +5285,7 @@ narrative_event = {
 				}		
 			}
 		}
-		else_if = { 
+		else_if = {
 			limit = { religion_group = indian_group }
 			if = { 
 				limit = { is_female = no }
@@ -4744,6 +5297,37 @@ narrative_event = {
 				limit = { is_female = yes }
 				create_bloodline = {
 					type = event_religion_peaceful_bloodline_06
+					inheritance = matrilineal
+				}		
+			}
+		}
+		else_if = { 
+			limit = { religion_group = buddhist_group }
+			if = { 
+				limit = { is_female = no }
+				create_bloodline = {
+					type = event_religion_peaceful_bloodline_07
+				}		
+			}
+			if = { 
+				limit = { is_female = yes }
+				create_bloodline = {
+					type = event_religion_peaceful_bloodline_07
+					inheritance = matrilineal
+				}		
+			}
+		}
+		else = { 
+			if = { 
+				limit = { is_female = no }
+				create_bloodline = {
+					type = event_religion_peaceful_bloodline_04
+				}		
+			}
+			if = { 
+				limit = { is_female = yes }
+				create_bloodline = {
+					type = event_religion_peaceful_bloodline_04
 					inheritance = matrilineal
 				}		
 			}
@@ -4768,7 +5352,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -4881,7 +5469,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -4989,7 +5581,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -5035,7 +5631,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -5144,7 +5744,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -5274,7 +5878,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -5336,22 +5944,6 @@ narrative_event = {
 			}
 		}
 		else_if = { 
-			limit = { religion_group = pagan_group }
-			if = { 
-				limit = { is_female = no }
-				create_bloodline = {
-					type = event_religion_aggressive_bloodline_04
-				}		
-			}
-			if = { 
-				limit = { is_female = yes }
-				create_bloodline = {
-					type = event_religion_aggressive_bloodline_04
-					inheritance = matrilineal
-				}		
-			}
-		}
-		else_if = { 
 			limit = { religion_group = zoroastrian_group }
 			if = { 
 				limit = { is_female = no }
@@ -5379,6 +5971,37 @@ narrative_event = {
 				limit = { is_female = yes }
 				create_bloodline = {
 					type = event_religion_aggressive_bloodline_06
+					inheritance = matrilineal
+				}		
+			}
+		}
+		else_if = { 
+			limit = { religion_group = buddhist_group }
+			if = { 
+				limit = { is_female = no }
+				create_bloodline = {
+					type = event_religion_aggressive_bloodline_07
+				}		
+			}
+			if = { 
+				limit = { is_female = yes }
+				create_bloodline = {
+					type = event_religion_aggressive_bloodline_07
+					inheritance = matrilineal
+				}		
+			}
+		}
+		else = { 
+			if = { 
+				limit = { is_female = no }
+				create_bloodline = {
+					type = event_religion_aggressive_bloodline_04
+				}		
+			}
+			if = { 
+				limit = { is_female = yes }
+				create_bloodline = {
+					type = event_religion_aggressive_bloodline_04
 					inheritance = matrilineal
 				}		
 			}
@@ -5423,7 +6046,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -5566,7 +6193,11 @@ character_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 
@@ -5709,7 +6340,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 		has_ambition = obj_forge_bloodline
 	}
 	
@@ -5763,6 +6398,7 @@ character_event = {
 	trigger = { 
 		any_owned_bloodline = {
 			has_bloodline_flag = bloodline_murder_child
+			bloodline_is_active_for = PREV
 		}
 		intrigue = 3
 		NOR = { 
@@ -6366,6 +7002,7 @@ character_event = {
 	trigger = {
 		any_owned_bloodline = {
 			has_bloodline_flag = bloodline_murder_stalk 
+			bloodline_is_active_for = PREV
 		}
 		OR = {
 			has_plot = plot_kill_character
@@ -7052,11 +7689,17 @@ character_event = {
 		piety = 50
 		any_owned_bloodline = {
 			has_bloodline_flag = bloodline_knights
+			bloodline_is_active_for = PREV
 			founder = {
 				NOT = {
 					character = ROOT
 				}
+				OR = {
 				religion_group = christian
+				religion = jugoslavist
+				religion = novelist
+				religion = novelist_reformed
+				}
 			}
 		}
 	}
@@ -7157,8 +7800,23 @@ character_event = { # Knight character arrives
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
+									NOR = {
+										religion = old_hindu
+										religion = parabrahmanist
+										religion = kalikula
+										religion = shaivasiddhanta
+										religion = jain
+										religion = maunaxite_reformed
+										religion = maunaxite
+										religion = yazidi
+										religion = yersenism
+										religion = mandaeanism
+										religion = ahlehaqq
+									}
+									OR = {
+										trait = kshatriya
+										trait = shaykh
+									}
 								}
 								is_adult = yes
 							}
@@ -7295,8 +7953,23 @@ character_event = { # Knight character arrives
 									female_can_hold_minor_commander_title_trigger = yes
 								}
 								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
+									NOR = {
+										religion = old_hindu
+										religion = parabrahmanist
+										religion = kalikula
+										religion = shaivasiddhanta
+										religion = jain
+										religion = maunaxite_reformed
+										religion = maunaxite
+										religion = yazidi
+										religion = yersenism
+										religion = mandaeanism
+										religion = ahlehaqq
+									}
+									OR = {
+										trait = kshatriya
+										trait = shaykh
+									}
 								}
 								is_adult = yes
 							}
@@ -7482,7 +8155,12 @@ character_event = {
 		is_ruler = no
 		is_female = yes
 		NOT = { has_religion_feature = religion_matriarchal }
-		religion_group = christian
+		OR = {
+				religion_group = christian
+				religion = jugoslavist
+				religion = novelist
+				religion = novelist_reformed
+				}
 		is_married = no
 		NOT = { num_of_children = 1 }
 		NOT = { num_of_lovers = 1 }
@@ -7504,6 +8182,7 @@ character_event = {
 				NOT = { trait = incapable }
 				any_owned_bloodline = { 
 					has_bloodline_flag = bloodline_knights
+					bloodline_is_active_for = PREV
 				}
 				religion = ROOT
 			}
@@ -7518,6 +8197,7 @@ character_event = {
 				limit = {  
 					any_owned_bloodline = { 
 						has_bloodline_flag = bloodline_knights
+						bloodline_is_active_for = PREV
 					}
 					religion = ROOT
 				}
@@ -9055,6 +9735,7 @@ character_event = {
 					}
 					any_owned_bloodline = { #Target does not share the culture of the founder, while still being within the same culture group.
 						has_bloodline_flag = bloodline_dynastic_meddling
+						bloodline_is_active_for = PREV
 						founder = {
 							NOT = { culture = event_target:meddling_target }
 							culture_group = event_target:meddling_target
@@ -9156,7 +9837,10 @@ character_event = {
 	immediate = { 
 		#Select founder for scoping purposes.
 		any_owned_bloodline = { #Target does not share the culture of the founder, while still being within the same culture group.
-			limit = { has_bloodline_flag = bloodline_dynastic_meddling }
+			limit = { 
+				has_bloodline_flag = bloodline_dynastic_meddling 
+				bloodline_is_active_for = PREV
+			}
 			founder = {
 				save_event_target_as = scoped_founder
 			}
@@ -11205,7 +11889,7 @@ narrative_event = {
 		modifier = {
 			factor = 0.35
 			NOR = { 
-				culture_group = latin
+				culture_group = apeninian
 				culture_group = byzantine
 				culture_group = arabic
 			}
@@ -11237,11 +11921,11 @@ narrative_event = {
 		}
 		modifier = {
 			factor = 3
-			culture = greek
+			culture_group = byzantine
 		}
 		modifier = {
 			factor = 1.5
-			culture_group = latin
+			culture_group = apeninian
 		}
 		modifier = {
 			factor = 0.5
@@ -11834,7 +12518,7 @@ narrative_event = {
 					}
 					modifier = {
 						factor = 1.5
-						culture = greek
+						culture_group = byzantine
 					}
 					narrative_event = { id = HF.24206 days = 150 random = 250 }
 				}
@@ -12650,7 +13334,7 @@ narrative_event = {
 		}
 		modifier = {
 			factor = 3
-			religion = buddhist
+			religion_group = buddhist_group
 		}
 		modifier = {
 			factor = 0.5
@@ -12751,17 +13435,17 @@ narrative_event = {
 		modifier = {
 			factor = 1.5
 			piety = 1000
-			religion = buddhist
+			religion_group = buddhist_group
 		}
 		modifier = {
 			factor = 1.5
 			piety = 1500
-			religion = buddhist
+			religion_group = buddhist_group
 		}
 		modifier = {
 			factor = 1.75
 			piety = 2000
-			religion = buddhist
+			religion_group = buddhist_group
 		}
 		modifier = {
 			factor = 1.75
@@ -14407,6 +15091,7 @@ character_event = {
 		piety = 0
 		any_owned_bloodline = {
 			has_bloodline_flag = bloodline_wandering_artists
+			bloodline_is_active_for = PREV
 		}
 	}
 	
@@ -14601,6 +15286,7 @@ character_event = { # Mystic character arrives
 						OR = {
 							religion_group = christian
 							religion_group = muslim
+							religion_group = syncratic_group
 						}
 					}
 				}
@@ -14610,13 +15296,13 @@ character_event = { # Mystic character arrives
 			else = {
 				random_list = {
 					25 = {
-						religion = zun_pagan
+						religion = thelemic
 					}
 					25 = {
 						religion = baltic_pagan
 					}
 					25 = {
-						religion = slavic_pagan
+						religion = folklorist
 					}
 					25 = {
 					}
@@ -14662,7 +15348,11 @@ narrative_event = {
 
 	trigger = { 
 		has_dlc = "Holy Fury"
-
+		NOT = {
+			any_owned_bloodline = { 
+				has_bloodline_flag = created_bloodline
+			}
+		}
 	}
 	
 	option = { #Gain Chinese Imperialism bloodline
@@ -14682,198 +15372,6 @@ narrative_event = {
 		}
 		ai_chance = { 
 			factor = 100
-		}
-	}
-}
-
-#Matilde's (or similar) bloodline. Fired on_war_ended_victory of an Antipapal/Excommunication war against the HREmperor.
-# From = Attacker, Root = Defender
-character_event = {
-	id = HF.24250
-	hide_window = yes
-	
-	is_triggered_only = yes
-
-	trigger = { 
-		has_dlc = "Holy Fury" 
-		NOT = { has_global_flag = flag_matilde_bloodline } #Just once.
-		FROM = {  #Must be attacker.
-			is_feudal = yes
-			is_adult = yes
-			is_alternate_start = no
-			lower_tier_than = EMPEROR
-			religion = catholic
-			is_heretic = no
-			piety = 500
-			NOT = { realm_size = 120 } 
-			religion_head = { 
-				has_landed_title = k_papal_state #Under the real Pope, no imitations.
-				NOT = { is_rival = PREV }
-				opinion = { who = PREV value = 25 } #At the very least in somewhat good terms...
-			} 
-
-			NOR = { #No glaring spots on reputation
-				trait = incapable
-				trait = excommunicated
-				trait = lustful
-				trait = gluttonous
-				trait = greedy
-				trait = proud
-				trait = slothful
-				trait = envious
-				trait = wroth
-				trait = heresiarch
-				trait = crowned_by_myself
-				has_character_modifier = adulteress
-				has_character_modifier = incestuous_adulteress
-				has_character_modifier = modifier_witch
-				has_character_modifier = consorts_with_infidels
-				has_character_modifier = consorts_with_mystics
-				any_child = { trait = bastard }
-				any_child = { trait = legit_bastard }
-			}
-			calc_true_if = { #And at least a couple of virtues
-				amount = 2 
-				trait = zealous
-				trait = chaste
-				trait = diligent
-				trait = humble
-				trait = charitable
-				trait = temperate
-				trait = kind
-				trait = patient
-				trait = celibate
-				trait = theologian
-				trait = nun
-				piety = 1000
-			}
-			OR = {
-				is_married = yes
-				NOT = { num_of_children = 1 }
-			}
-			OR = { #Either below King-tier, or must be either a Crowned Queen or a Vicereine.
-				lower_tier_than = KING
-				is_vice_royalty = yes
-				trait = crowned_by_priest
-				trait = crowned_by_bishop
-				trait = crowned_by_pope
-				has_character_flag = flag_excommunicated_for_coronation
-			}
-		}
-		ROOT = { 
-			has_landed_title = e_hre
-			any_war = { 
-				OR = { 
-					using_cb = excommunicated_ruler 
-					using_cb = depose_antipope
-				}
-				any_attacker = { character = FROM }
-			}
-		}
-	}
-	immediate = { 
-		set_global_flag = flag_matilde_bloodline
-		ROOT = {
-			save_event_target_as = defeated_emperor
-		}	
-		FROM = {
-			religion_head = {
-				save_event_target_as = scoped_pope
-			}
-			narrative_event = { id = HF.24251 days = 20 }
-		}
-	}
-}
-
-narrative_event = {
-	id = HF.24251
-	title = EVTTITLEHF24251
-	desc = {
-		trigger = {
-			character = 7757 #Special loc for Matilde.
-		}
-		text = EVTDESCAHF24251
-	}
-	desc = {
-		trigger = {
-			NOT = { character = 7757 } #Generic if just similar ruler.
-		}
-		text = EVTDESCBHF24251
-	}
-	picture = GFX_evt_virgin_mary_icon
-	border = GFX_event_narrative_frame_war
-	sound = bloodline_added
-	
-	is_triggered_only = yes
-
-	trigger = { 
-		has_dlc = "Holy Fury" 
-	}
-	
-	option = {
-		name = EVTOPTAHF24251
-		catholic = {
-			show_scope_change = no
-			religion_authority = {
-				modifier = restored_primacy
-				years = 50
-			}
-		}
-		if = { 
-			limit = { 
-				this_has_cool_nickname_trigger = no 
-				this_has_super_cool_nickname_trigger = no 
-			}
-			give_nickname = nick_the_sword_of_god
-		}
-		if = { 
-			limit = { character = 7757 }
-			create_bloodline = {
-				type = true_matilde_bloodline
-			}	
-		}
-		else_if = {
-			limit = { is_female = yes } 
-			create_bloodline = {
-				type = matilde_bloodline
-			}	
-		}
-		else_if = {
-			limit = { is_female = no } 
-			create_bloodline = {
-				type = matilde_male_bloodline
-			}	
-		}
-		hidden_tooltip = { 
-			any_player = { 
-				limit = { 
-					is_within_diplo_range = ROOT 
-					NOT = { character = event_target:defeated_emperor }
-					NOT = { character = ROOT }
-					religion = ROOT
-				}	
-				narrative_event = { id = HF.24252 days = 1 }	
-			}
-			event_target:defeated_emperor = { 
-				narrative_event = { id = HF.24253 days = 1 }	
-			}
-		}
-		ai_chance = { 
-			factor = 100
-		}
-	}
-	option = {
-		name = EVTOPTBHF24251
-		tiered_piety_reward_effect = yes
-		catholic = {
-			show_scope_change = no
-			religion_authority = {
-				modifier = restored_primacy
-				years = 50
-			}
-		}
-		ai_chance = { 
-			factor = 0
 		}
 	}
 }
@@ -14959,7 +15457,7 @@ narrative_event = {
 					any_vassal = { 
 						limit = {
 							lower_real_tier_than = KING
-							culture = italian
+							culture_group = apeninian
 							is_landed = yes
 							capital_scope = {
 								region = world_europe_south_italy

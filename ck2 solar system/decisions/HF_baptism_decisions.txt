@@ -4,14 +4,13 @@ targetted_decisions = {
 	request_sponsored_baptism = {
 		ai_target_filter = court
 		ai = no
-		
+	    diplomacy_icon = GFX_baptism_icon
 		from_potential = {
 			has_dlc = "Holy Fury"
-			is_tribal = yes
 			religion_group = pagan_group
 			#higher_real_tier_than = count 		#condition only for ai to avoid single counts spamming Kings
 			NOT = { trait = incapable }
-			NOT = { is_organized_religion_trigger = yes }
+			NOT = { is_reformed_religion = yes }
 			#NOT = { has_character_modifier = baptism_request_cooldown }
 			NOT = { has_character_flag = flag_converting_baptism }
 			independent = yes
@@ -21,7 +20,6 @@ targetted_decisions = {
 			independent = yes
 			is_tribal = no
 			is_nomadic = no
-			is_theocracy = no
 			higher_real_tier_than = DUKE
 			NOT = { trait = incapable }
 			has_regent = no
@@ -30,7 +28,7 @@ targetted_decisions = {
 			NOT = { has_character_flag = flag_sponsoring_baptism }
 			OR = {
 				NOT = { religion_group = pagan_group }
-				is_organized_religion_trigger = yes
+				is_reformed_religion = yes
 			}
 		}
 		allow = {
@@ -88,6 +86,9 @@ targetted_decisions = {
 				}
 			}
 			letter_event = { id = HF.20000 tooltip = EVTTOOLTIPHF20000 }
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 0
@@ -152,10 +153,10 @@ targetted_decisions = {
 			additive_modifier = {
 				value = 10
 				localisation_key = baptism_sponsor_proselytizer
-				NOT = { religion = yazidi }
 				OR = {
 					religion_group = christian
 					religion_group = muslim
+					religion_group = zoroastrian_group
 				}
 			}
 			additive_modifier = {
@@ -391,9 +392,11 @@ targetted_decisions = {
 		}
 	}
 	give_child_special_baptism = {
+		filter = court				
 		ai_target_filter = court
 		ai_check_interval = 12 #check only every 12 months.
 		is_high_prio = yes
+	    diplomacy_icon = GFX_baptism_icon
 		from_potential = {
 			has_dlc = "Holy Fury"
 			OR = { 
@@ -439,8 +442,14 @@ targetted_decisions = {
 									is_alive = yes 
 									NOT = { block_general_event_trigger = yes }
 									OR = { 
-										has_landed_title = k_papal_state
+										has_landed_title = k_papacy
 										has_landed_title = k_orthodox 
+										has_landed_title = k_koptic
+										has_landed_title = d_armenianapostolic
+										has_landed_title = k_serbia_triumvirate
+										has_landed_title = k_sevillian_pope
+										has_landed_title = k_ecclesiarchy
+										has_landed_title = d_apostolic
 									}
 								}
 							}
@@ -456,11 +465,26 @@ targetted_decisions = {
 										higher_tier_than = BARON  
 										has_minor_title = title_cardinal
 										has_minor_title = title_fraticelli_cardinal
-										any_claim = { title = k_papal_state } #Antipope
+										has_minor_title = title_sevillian_cardinal
+										has_minor_title = title_armenianapostolic_cardinal
+										has_minor_title = title_jugoslavist_cardinal
+										any_claim = { title = k_papacy } #Antipope
 										any_claim = { title = k_orthodox } #Antipope
+										any_claim = { title = k_koptic } #Antipope
+										any_claim = { title = d_armenianapostolic } #Antipope
+										any_claim = { title = k_serbia_triumvirate } #Antipope
+										any_claim = { title = k_sevillian_pope } #Antipope
+										any_claim = { title = k_ecclesiarchy } #Antipope
+										any_claim = { title = d_apostolic } #Antipope
 									}
-									NOT = { has_landed_title = k_papal_state }
+									NOT = { has_landed_title = k_papacy }
 									NOT = { has_landed_title = k_orthodox }
+									NOT = { has_landed_title = k_koptic }
+									NOT = { has_landed_title = d_armenianapostolic }
+									NOT = { has_landed_title = k_serbia_triumvirate }
+									NOT = { has_landed_title = k_sevillian_pope }
+									NOT = { has_landed_title = k_ecclesiarchy }
+									NOT = { has_landed_title = d_apostolic }
 								}
 							}
 						}
@@ -475,6 +499,9 @@ targetted_decisions = {
 					character_event = { id = HF.20108 }
 				}
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 1
@@ -504,11 +531,11 @@ decisions = {
 			has_dlc = "Holy Fury"
 			prisoner = no
 			has_regent = no
-			is_tribal = yes
 			higher_real_tier_than = COUNT
+			holy_order = no
 			NOT = { trait = incapable }
 			religion_group = pagan_group
-			NOT = { is_organized_religion_trigger = yes }
+			NOT = { is_reformed_religion = yes }
 			#NOT = { religion = bon }
 			NOT = { has_character_modifier = baptism_request_cooldown }
 			NOT = { has_character_flag = flag_converting_baptism }
@@ -528,13 +555,12 @@ decisions = {
 				has_regent = no
 				is_tribal = no
 				is_nomadic = no
-				is_theocracy = no
 				higher_real_tier_than = DUKE
 				is_within_diplo_range = ROOT
 				NOT = { is_rival = ROOT }
 				OR = {
 					NOT = { religion_group = pagan_group }
-					is_organized_religion_trigger = yes
+					is_reformed_religion = yes
 				}
 				wealth = 0 
 				relative_power = { who = ROOT power = 1 }
@@ -545,16 +571,19 @@ decisions = {
 				text = TT_UNREFORMED_PAGAN
 				hidden_tooltip = {
 					religion_group = pagan_group
-					NOT = { is_organized_religion_trigger = yes }
+					NOT = { is_reformed_religion = yes }
 					#NOT = { religion = bon }
 				}
 			}
-			primary_title = {
-				OR = { 
-					has_law = tribal_organization_2 
-					has_law = tribal_organization_3 
-					has_law = tribal_organization_4 
-				}  
+			OR = {
+				primary_title = {
+					OR = { 
+						has_law = tribal_organization_2 
+						has_law = tribal_organization_3 
+						has_law = tribal_organization_4 
+					}  
+				}
+				is_feudal = yes
 			}
 		}
 		effect = {
@@ -574,7 +603,6 @@ decisions = {
 							NOT = { pays_tribute_to = ROOT }
 							is_tribal = no
 							is_nomadic = no
-							is_theocracy = no
 							NOT = { has_character_flag = flag_sponsoring_baptism }
 							NOT = { trait = incapable }
 							has_regent = no
@@ -584,7 +612,7 @@ decisions = {
 							is_within_diplo_range = ROOT
 							OR = {
 								NOT = { religion_group = pagan_group }
-								is_organized_religion_trigger = yes
+								is_reformed_religion = yes
 							}
 							wealth = 0 
 							relative_power = { who = ROOT power = 1 }
@@ -605,7 +633,6 @@ decisions = {
 								NOT = { pays_tribute_to = ROOT }
 								is_tribal = no
 								is_nomadic = no
-								is_theocracy = no
 								NOT = { has_character_flag = flag_sponsoring_baptism }
 								NOT = { trait = incapable }
 								has_regent = no
@@ -615,7 +642,7 @@ decisions = {
 								is_within_diplo_range = ROOT
 								OR = {
 									NOT = { religion_group = pagan_group }
-									is_organized_religion_trigger = yes
+									is_reformed_religion = yes
 								}
 								wealth = 0 
 								relative_power = { who = ROOT power = 1 }
@@ -658,7 +685,6 @@ decisions = {
 							NOT = { pays_tribute_to = ROOT }
 							is_tribal = no
 							is_nomadic = no
-							is_theocracy = no
 							NOT = { has_character_flag = flag_sponsoring_baptism }
 							NOT = { trait = incapable }
 							has_regent = no
@@ -667,7 +693,7 @@ decisions = {
 							is_within_diplo_range = ROOT
 							OR = {
 								NOT = { religion_group = pagan_group }
-								is_organized_religion_trigger = yes
+								is_reformed_religion = yes
 							}
 							wealth = 0 
 							relative_power = { who = ROOT power = 1 }
@@ -682,7 +708,6 @@ decisions = {
 							NOT = { pays_tribute_to = ROOT }
 							is_tribal = no
 							is_nomadic = no
-							is_theocracy = no
 							NOT = { has_character_flag = flag_sponsoring_baptism }
 							NOT = { trait = incapable }
 							has_regent = no
@@ -691,7 +716,7 @@ decisions = {
 							is_within_diplo_range = ROOT
 							OR = {
 								NOT = { religion_group = pagan_group }
-								is_organized_religion_trigger = yes
+								is_reformed_religion = yes
 							}
 							wealth = 0 
 							relative_power = { who = ROOT power = 1 }
@@ -733,7 +758,6 @@ decisions = {
 							NOT = { pays_tribute_to = ROOT }
 							is_tribal = no
 							is_nomadic = no
-							is_theocracy = no
 							NOT = { has_character_flag = flag_sponsoring_baptism }
 							NOT = { trait = incapable }
 							has_regent = no
@@ -743,7 +767,7 @@ decisions = {
 							is_within_diplo_range = ROOT
 							OR = {
 								NOT = { religion_group = pagan_group }
-								is_organized_religion_trigger = yes
+								is_reformed_religion = yes
 							}
 							wealth = 0 
 							relative_power = { who = ROOT power = 1 }
@@ -764,7 +788,6 @@ decisions = {
 								NOT = { pays_tribute_to = ROOT }
 								is_tribal = no
 								is_nomadic = no
-								is_theocracy = no
 								NOT = { has_character_flag = flag_sponsoring_baptism }
 								NOT = { trait = incapable }
 								has_regent = no
@@ -774,7 +797,7 @@ decisions = {
 								is_within_diplo_range = ROOT
 								OR = {
 									NOT = { religion_group = pagan_group }
-									is_organized_religion_trigger = yes
+									is_reformed_religion = yes
 								}
 								wealth = 0 
 								relative_power = { who = ROOT power = 1 }
@@ -817,7 +840,6 @@ decisions = {
 					NOT = { pays_tribute_to = ROOT }
 					is_tribal = no
 					is_nomadic = no
-					is_theocracy = no
 					NOT = { has_character_flag = flag_sponsoring_baptism }
 					NOT = { trait = incapable }
 					has_regent = no
@@ -826,7 +848,7 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					wealth = 0 
 					relative_power = { who = ROOT power = 1 }
@@ -862,18 +884,6 @@ decisions = {
 			factor = 1
 			modifier = {
 				factor = 1.15
-				capital_holding = {
-					OR = {
-						AND = {
-							holding_type = tribal
-							has_building = tb_hillfort_4
-						}
-						holding_type = castle
-					}
-				}
-			}
-			modifier = {
-				factor = 1.15
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
 					war = no
@@ -883,7 +893,7 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					NOT = { lower_tier_than = ROOT } 
 					relative_power = { who = ROOT power = 1.5 }
@@ -900,7 +910,7 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					NOT = { lower_tier_than = ROOT } 
 					relative_power = { who = ROOT power = 2 }
@@ -917,7 +927,7 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					NOT = { lower_tier_than = ROOT } 
 					relative_power = { who = ROOT power = 3 }
@@ -934,7 +944,7 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					NOT = { lower_tier_than = ROOT } 
 					relative_power = { who = ROOT power = 4 }
@@ -951,7 +961,7 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					NOT = { lower_tier_than = ROOT } 
 					relative_power = { who = ROOT power = 5 }
@@ -968,7 +978,7 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					NOT = { lower_tier_than = ROOT } 
 					relative_power = { who = ROOT power = 10 }
@@ -985,14 +995,14 @@ decisions = {
 					is_within_diplo_range = ROOT
 					OR = {
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					NOT = { lower_tier_than = ROOT } 
 					relative_power = { who = ROOT power = 20 }
 				}
 			}
 			modifier = {
-				factor = 9
+				factor = 1.7
 				trait = sympathy_christendom
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
@@ -1002,6 +1012,20 @@ decisions = {
 					higher_real_tier_than = DUKE
 					is_within_diplo_range = ROOT
 					religion_group = christian
+					NOT = { lower_tier_than = ROOT } 
+				}
+			}
+			modifier = {
+				factor = 1.7
+				trait = sympathy_mormon
+				any_neighbor_independent_ruler = {
+					NOT = { religion = ROOT }
+					war = no
+					is_tribal = no
+					is_nomadic = no
+					higher_real_tier_than = DUKE
+					is_within_diplo_range = ROOT
+					religion_group = mormonic
 					NOT = { lower_tier_than = ROOT } 
 				}
 			}
@@ -1029,7 +1053,7 @@ decisions = {
 					higher_real_tier_than = DUKE
 					is_within_diplo_range = ROOT
 					religion_group = pagan_group
-					is_organized_religion_trigger = yes
+					is_reformed_religion = yes
 					has_religion_feature = religion_proselytizing
 					NOT = { lower_tier_than = ROOT } 
 				}
@@ -1049,7 +1073,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 7
+				factor = 1.5
 				trait = sympathy_judaism
 				any_neighbor_independent_ruler = {
 					NOT = { religion = ROOT }
@@ -1059,7 +1083,7 @@ decisions = {
 					higher_real_tier_than = DUKE
 					is_within_diplo_range = ROOT
 					religion_group = jewish_group
-					is_organized_religion_trigger = yes
+					is_reformed_religion = yes
 					NOT = { lower_tier_than = ROOT } 
 				}
 			}
@@ -1078,51 +1102,11 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.001
-				NOT = { year = 800 }
+				NOT = { year = 2750 }
 			}
 			modifier = {
 				factor = 0.05
 				is_hard_to_convert = yes
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_hard_to_convert = yes }
-				year = 900
-			}
-			modifier = {
-				factor = 2
-				NOT = { is_hard_to_convert = yes }
-				year = 1000
-			}
-			modifier = {
-				factor = 3
-				NOT = { is_hard_to_convert = yes }
-				year = 1200
-			}
-			modifier = {
-				factor = 1.75
-				NOT = { religion_authority = 0.1 }
-			}
-			modifier = {
-				factor = 1.75
-				NOT = { religion_authority = 0.2 }
-			}
-			modifier = {
-				factor = 1.75
-				NOT = { religion_authority = 0.3 }
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { religion_authority = 0.4 }
-			}
-			modifier = {
-				factor = 1.25
-				NOT = { religion_authority = 0.5 }
-			}
-			modifier = {
-				factor = 1.5
-				year = 850
-				culture_group = east_slavic
 			}
 			modifier = {
 				factor = 0.95
@@ -1179,6 +1163,14 @@ decisions = {
 				religion_authority = 0.6
 			}
 			modifier = {
+				factor = 1.25
+				religion_authority = 0.15
+			}
+			modifier = {
+				factor = 1.25
+				religion_authority = 0.20
+			}
+			modifier = {
 				factor = 0.1
 				religion_authority = 1.0
 			}
@@ -1194,9 +1186,9 @@ decisions = {
 				factor = 1.25
 				NOT = { wealth = 0 }
 			}
-			modifier = { #Tiny duchies converting are a bit underwhelming.
+			modifier = {
 				factor = 0.5
-				NOT = { realm_size = 50 }
+				piety = 1000 
 			}
 			modifier = {
 				factor = 1.25
@@ -1217,17 +1209,17 @@ decisions = {
 					any_neighbor_independent_ruler = { 
 						OR = { 
 							NOT = { religion_group = pagan_group }
-							is_organized_religion_trigger = yes
+							is_reformed_religion = yes
 						}
 					}
 				}
 			}
 			modifier = {
-				factor = 0.5 #Strength in numbers make tribes less likely to convert.
+				factor = 0.33 #Strength in numbers make tribes less likely to convert.
 				lower_tier_than = KING
 				any_neighbor_independent_ruler = { 
 					religion_group = pagan_group
-					is_organized_religion_trigger = no
+					is_reformed_religion = no
 					count = 4
 				}
 			}
@@ -1238,7 +1230,7 @@ decisions = {
 					higher_real_tier_than = COUNT
 					OR = { 
 						NOT = { religion_group = pagan_group }
-						is_organized_religion_trigger = yes
+						is_reformed_religion = yes
 					}
 					count = 4
 				}
@@ -1270,7 +1262,7 @@ decisions = {
 							religion_authority = 0.45
 							OR = {
 								NOT = { religion_group = pagan_group }
-								is_organized_religion_trigger = yes
+								is_reformed_religion = yes
 							}
 						}
 						OR = {
@@ -1301,7 +1293,7 @@ decisions = {
 						religion_authority = 0.45
 						OR = {
 							NOT = { religion_group = pagan_group }
-							is_organized_religion_trigger = yes
+							is_reformed_religion = yes
 						}
 					}
 					OR = {

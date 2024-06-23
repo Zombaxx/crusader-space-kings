@@ -18,6 +18,7 @@ targetted_decisions = {
 		filter = self
 		ai_target_filter = self
 		ai = no
+	    diplomacy_icon = GFX_castrate_icon
 
 		potential = {
 			is_adult = yes
@@ -88,24 +89,264 @@ targetted_decisions = {
 				death = { death_reason = death_suicide }
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
+	improve_education_trait_child = {
+		only_playable = yes
+		filter = close_relatives
+		ai_target_filter = close_relatives
+		ai_check_interval = 30
+	    diplomacy_icon = GFX_scroll_icon
+	
+		from_potential = {
+			ai = no
+			is_playable = yes
+			has_children = yes
+			war = no
+			in_command = no
+			prisoner = no
+			is_incapable = no
+			OR = {
+				any_demesne_province = {
+					OR = {
+						hospital_has_building = ct_university_0
+						has_wonder = wonder_university
+						has_wonder = wonder_library
+					}
+				}
+				any_realm_wonder_upgrade = {
+					is_active = yes
+					has_wonder_upgrade_flag = inspires_learning
+				}
+			}
+		}
+		
+		potential = {
+			OR = {
+				trait = naive_appeaser
+				trait = misguided_warrior
+				trait = indulgent_wastrel
+				trait = amateurish_plotter
+				trait = detached_priest
+				trait = underhanded_rogue
+				trait = tough_soldier
+				trait = thrifty_clerk
+				trait = flamboyant_schemer
+				trait = martial_cleric
+				trait = charismatic_negotiator
+				trait = skilled_tactician
+				trait = fortune_builder
+				trait = intricate_webweaver
+				trait = scholarly_theologian
+			}
+			NOR = {
+				trait = grey_eminence
+				trait = brilliant_strategist
+				trait = midas_touched
+				trait = elusive_shadow
+				trait = mastermind_theologian
+			}
+			OR = {
+				trait = quick
+				trait = genius
+				trait = shrewd
+				trait = scholar
+				trait = diligent
+				trait = envious
+				trait = proud
+				trait = erudite
+				trait = stubborn
+				trait = ambitious
+			}
+			war = no
+			in_command = no
+			prisoner = no
+			is_incapable = no
+			age = 18
+			is_child_of = FROM
+			is_liege_or_above = FROM
+		}
+		allow = {
+			ROOT = {
+				prestige = 250
+				NOR = {
+					trait = content
+					trait = slothful
+				}
+				OR = {
+					trait = naive_appeaser
+					trait = misguided_warrior
+					trait = indulgent_wastrel
+					trait = amateurish_plotter
+					trait = detached_priest
+					trait = underhanded_rogue
+					trait = tough_soldier
+					trait = thrifty_clerk
+					trait = flamboyant_schemer
+					trait = martial_cleric
+					trait = charismatic_negotiator
+					trait = skilled_tactician
+					trait = fortune_builder
+					trait = intricate_webweaver
+					trait = scholarly_theologian
+				}
+				NOR = {
+					trait = grey_eminence
+					trait = brilliant_strategist
+					trait = midas_touched
+					trait = elusive_shadow
+					trait = mastermind_theologian
+				}
+				OR = {
+					trait = quick
+					trait = genius
+					trait = shrewd
+					trait = scholar
+					trait = diligent
+					trait = envious
+					trait = proud
+					trait = erudite
+					trait = stubborn
+					trait = ambitious
+				}
+			}
+			FROM = {
+				wealth = 500
+				OR = {
+					any_demesne_province = {
+						OR = {
+							hospital_has_building = ct_university_0
+							has_wonder = wonder_university
+							has_wonder = wonder_library
+						}
+					}
+					any_realm_wonder_upgrade = {
+						is_active = yes
+						has_wonder_upgrade_flag = inspires_learning
+					}
+				}
+			}
+		}
+		effect = {
+			ROOT = {
+				add_trait = travelling
+			}
+			FROM = {
+				wealth = -500
+				hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 120 hidden = yes} }
+			}
+			ROOT = {
+				random_list = {
+					50 = {
+						mult_modifier = {
+							factor = 1.25
+							OR = {
+								trait = genius
+								trait = quick
+								trait = shrewd
+							}
+						}
+						mult_modifier = {
+							factor = 1.25
+							OR = {
+								trait = misguided_warrior
+								trait = tough_soldier
+								trait = skilled_tactician
+							}
+							OR = {
+								trait = duelist
+								trait = hunter
+								trait = strategist
+							}
+						}
+						mult_modifier = {
+							factor = 1.25
+							OR = {
+								trait = detached_priest
+								trait = martial_cleric
+								trait = scholarly_theologian
+							}
+							OR = {
+								trait = mystic
+								trait = scholar
+								trait = theologian	
+							}
+						}
+						mult_modifier = {
+							factor = 1.25
+							OR = {
+								trait = indulgent_wastrel
+								trait = thrifty_clerk
+								trait = fortune_builder
+							}
+							OR = {
+								trait = administrator
+								trait = architect
+								trait = gardener
+							}
+						}
+						mult_modifier = {
+							factor = 1.25
+							OR = {
+								trait = naive_appeaser
+								trait = underhanded_rogue
+								trait = charismatic_negotiator
+							}
+							OR = {
+								trait = gamer	
+								trait = socializer
+								trait = hedonist
+								trait = poet
+								trait = bard_sibir
+								trait = baul
+							}
+						}
+						mult_modifier = {
+							factor = 1.25
+							OR = {
+								trait = amateurish_plotter
+								trait = flamboyant_schemer
+								trait = intricate_webweaver
+							}
+							OR = {
+								trait = impaler
+								trait = schemer
+								trait = seducer
+								trait = seductress
+							}
+						}
+						long_character_event = { id = WFT.11 days = 270 random = 90 }
+					}
+					50 = {
+						long_character_event = { id = WFT.22 days = 270 random = 90 }
+					}
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	legitimize_bastard = {
 		only_playable = yes
 		filter = close_relatives
 		ai_target_filter = close_relatives
 		ai_check_interval = 30
+	    diplomacy_icon = GFX_legit_bastard_icon
 	
 		from_potential = {
-			#ai = no
-			OR = {
-				trait = dryad
-				trait = bad_dryad
-				is_playable = yes
-			}
+			ai = no
+			is_playable = yes
 			has_children = yes
 			has_polygamy = no
 		}
@@ -132,31 +373,21 @@ targetted_decisions = {
 		effect = {
 			dynasty = FROM
 			remove_trait = bastard
-			if = {
-				limit = { 
-					FROM = {
-						NAND = {
-							religion = britannic_pagan
-							is_celtic_clergy_trigger = yes
-						}
-					}
-				}
-				add_trait = legit_bastard
-			}
+			add_trait = legit_bastard
 			recalc_succession = yes
 			FROM = { 
 				show_scope_change = no
 				if = {
 					limit = {
-						NOR = {
-							trait = dryad
-							trait = bad_dryad
+						NOT = {
 							any_owned_bloodline = {
 								has_bloodline_flag = bloodline_legitimize
 							}
 						}
 					}
-					piety = -20
+					FROM = {
+						piety = -20
+					}
 				}
 			}
 			if = {
@@ -225,15 +456,11 @@ targetted_decisions = {
 			}
 		}
 		
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0 # only dryads should be doing this
-				NOR = {
-					religion = britannic_pagan
-					is_celtic_clergy_trigger = yes
-				}
-			}
+			factor = 0
 		}
 	}
 	
@@ -248,7 +475,20 @@ targetted_decisions = {
 		
 		from_potential = {
 			is_playable = yes
-			uses_decadence = yes
+			OR = {
+				religion_group = muslim
+				religion = calvinist
+				religion = penitente
+				religion = girondist
+				religion = concordianist
+				religion = genevist
+				religion = neohuguenot
+				religion = islamity
+				religion = muwahidunna
+				religion = ahlehaqq
+				religion = jugoslavist
+				religion = voodun
+			}
 			father_even_if_dead = {
 				OR = {
 					is_alive = no
@@ -285,6 +525,9 @@ targetted_decisions = {
 			FROM = { piety = -100 }
 		}
 		
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -317,23 +560,24 @@ targetted_decisions = {
 					is_alternate_start = no
 				}
 				AND = { 
-					religion = hindu
+					religion_group = muslim
 					is_alternate_start = no
 				}
 				AND = { 
-					religion = buddhist
+					religion_group = syncratic_group
+					is_alternate_start = no
+				}
+				AND = {
+					religion_group = indian_group
 					is_alternate_start = no
 				}
 				AND = { 
-					religion = jain
-					is_alternate_start = no
-				}
-				AND = { 
-					religion = manichean
+					religion_group = buddhist_group
 					is_alternate_start = no
 				}
 				has_religion_feature = religion_monastic
-				has_religion_feature = religion_feature_west_african
+				has_religion_feature = religion_feature_novelist
+				has_religion_feature = religion_feature_starist
 			}
 		}
 		
@@ -344,6 +588,7 @@ targetted_decisions = {
 			NOR = { 
 				trait = incapable 
 				trait = monk
+				trait = dervish
 				trait = nun
 				trait = muni
 				trait = aryika
@@ -401,8 +646,16 @@ targetted_decisions = {
 				limit = { 
 					NOR = { 
 						religion_group = christian 
-						religion = hindu
-						religion = buddhist
+						religion = old_hindu 
+						religion = sikh 
+						religion = maunaxite_reformed 
+						religion = koyapunem
+						religion = maunaxite 
+						religion = parabrahmanist 
+						religion = kalikula
+						religion = shaivasiddhanta
+						religion = neovedantic 
+						religion_group = buddhist_group
 						religion = jain
 					} 
 					is_female = no
@@ -413,8 +666,16 @@ targetted_decisions = {
 				limit = { 
 					NOR = { 
 						religion_group = christian 
-						religion = hindu
-						religion = buddhist
+						religion = old_hindu
+						religion = sikh 
+						religion = maunaxite_reformed 
+						religion = koyapunem
+						religion = maunaxite 
+						religion = parabrahmanist 
+						religion = kalikula
+						religion = shaivasiddhanta
+						religion = neovedantic 
+						religion_group = buddhist_group
 						religion = jain
 					} 
 					is_female = yes
@@ -439,9 +700,8 @@ targetted_decisions = {
 							is_heretic = no
 							OR = {
 								religion = fraticelli
-								religion = waldensian
-								religion = lollard
-								religion = cathar
+								religion = cadaverist
+								religion = hussite
 							}
 						}
 					} 
@@ -457,21 +717,24 @@ targetted_decisions = {
 					}
 				}
 			}
+			if = { #Make them actually become monks/nuns if you have Societies.
+				limit = { 
+					has_dlc = "Mystics"	
+					is_in_society = no		
+					religion = sevillian
+				}
+				custom_tooltip = { text = tooltip_vows_monk_joins_society }
+				hidden_tooltip = { 
+					join_society = monastic_order_ignatius 
+				}
+			}
 			if = {
 				limit = { 
 					has_dlc = "Mystics" 
 					is_in_society = no
 					OR = {
 						religion = orthodox
-						AND = {
-							is_heretic = no
-							OR = {
-								religion = bogomilist
-								religion = monothelite
-								religion = iconoclast
-								religion = paulician
-							}
-						}
+						religion = oldbeliever
 					}
 				}
 				custom_tooltip = { text = tooltip_vows_monk_joins_society }
@@ -482,13 +745,10 @@ targetted_decisions = {
 			if = {
 				limit = { 
 					has_dlc = "Mystics" 
-					is_in_society = no
+					is_in_society = no		
 					OR = {
-						religion = nestorian
-						AND = {
-							is_heretic = no
-							religion = messalian
-						}
+						religion = nasrini
+						religion = chaldean
 					}
 				}
 				custom_tooltip = { text = tooltip_vows_monk_joins_society }
@@ -499,13 +759,25 @@ targetted_decisions = {
 			if = {
 				limit = { 
 					has_dlc = "Mystics" 
+					is_in_society = no		
+					OR = {
+						religion = koranist
+						religion = alevi
+					}
+				}
+				custom_tooltip = { text = tooltip_vows_monk_joins_society }
+				hidden_tooltip = { 
+					join_society = monastic_order_qurani
+				}
+			}
+			if = {
+				limit = { 
+					has_dlc = "Mystics" 
 					is_in_society = no
 					OR = {
-						religion = miaphysite
-						AND = {
-							is_heretic = no
-							religion = monophysite
-						}
+						religion = koptic
+						religion = mattaism
+						religion = armenianapostolic
 					}
 				}
 				custom_tooltip = { text = tooltip_vows_monk_joins_society }
@@ -517,7 +789,18 @@ targetted_decisions = {
 				limit = { 
 					has_dlc = "Mystics" 
 					is_in_society = no
-					religion = hindu 
+					OR = {
+						religion = old_hindu
+						religion = sikh 
+						religion = maunaxite_reformed 
+						religion = koyapunem
+						religion = maunaxite 
+						religion = sarvodaya
+						religion = parabrahmanist 
+						religion = kalikula
+						religion = shaivasiddhanta
+						religion = neovedantic 
+					} 
 				}
 				custom_tooltip = { text = tooltip_vows_monk_joins_society }
 				hidden_tooltip = { 
@@ -528,7 +811,7 @@ targetted_decisions = {
 				limit = { 
 					has_dlc = "Mystics" 
 					is_in_society = no
-					religion = buddhist 
+					religion_group = buddhist_group
 				}
 				custom_tooltip = { text = tooltip_vows_monk_joins_society }
 				hidden_tooltip = { 
@@ -590,6 +873,9 @@ targetted_decisions = {
 			
 		}
 		
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1
 			modifier = { #Hate you too much to just send you off.
@@ -860,6 +1146,9 @@ targetted_decisions = {
 			}
 		}
 		
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -976,6 +1265,9 @@ targetted_decisions = {
 			}
 		}
 		
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1093,6 +1385,9 @@ targetted_decisions = {
 				}
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1 
 			
@@ -1189,6 +1484,9 @@ targetted_decisions = {
 					character_event = { id = CM.6001 }
 				}
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 1
@@ -1331,6 +1629,9 @@ targetted_decisions = {
 				}
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1 
 			
@@ -1447,6 +1748,9 @@ targetted_decisions = {
 					}
 				}
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 1

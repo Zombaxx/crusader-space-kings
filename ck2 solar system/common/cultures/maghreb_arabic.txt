@@ -1,0 +1,400 @@
+maghreb_arabic = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { muslimgfx }
+		
+	moroccan = { 
+		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		unit_graphical_cultures = { egyptiangfx levantinegfx arabicgfx muslimgfx }
+		
+		color = { 0.35 0.9 0.25 }
+
+		male_names = {
+			Abakada Abbas_Abbas Abdel_Abdul Abdelazim_Abdulazim Abdelhalim_Abdulhalim Abdelkarim_Abdalkarim Abderrahmane_Abdalrahman Abdellah_Abdullah Abidin Adal Adam_Adam Aderbal Adil_Adil Afalawas Afer Aghali
+			Aheyyad Ahmed_Ahmad Ajdir Ajeddig Akaday Akateiaji Aksel_Caecilius Aksil_Caecilius Akzer Alaeddin_Alaeddin Ali_Ali Amdegh Amennay Amine_Amin Amir_Amir Anouar_Anwar Asad_Asad Azim_Azim Azrur 
+			Badis Barakat_Barak Berkan Billal_Bilal Boughèra
+			Chafik_Shafiq Chakir_Shakir
+			Daoud_David Driss_Idris 
+			Fahd_Fahd Farid_Farid Fath_Fath 
+			Galussa Gauda Ghanim Ghaysan Ghumer Gildun 
+			Hacène_Hasan Haidar_Haidar Hakim_Hakim Hamad_Hamad Hassan_Hasan Hicham_Hisham Hussamaddin 
+			Ibiza Ibrahim_Abraham Ilyas_Elijah Immeghar Irgen Ismail_Ishmael Isalcas Ishaq_Isaac Islam_Islam Issam_Isam Itber 
+			Djaffar_Jafar Djamal_Jamal Jaouad_Jawad 
+			Kacem_Qasim Kamal_Kamal Karim_Karim Kenan Khalid_Khalid Khidr_Khidr 
+			Latif_Latif Luki_Lucius 
+			Mahdi_Mahdi Mahmoud_Mahmud Mahtar Malik_Malik Marouane_Marwan Matiya_Matthew Medjan Mellal Mennad Menzu Mezwar Mohammed_Muhammad Mukhtar Mourad_Murad Mousa_Moses Mustapha_Mustafa
+			Nasser_Nasir Nouredine_Nuraddin
+			Oumar_Umar Othman_Uthman Ouahab_Wahab Ouahid_Wahid Oualid_Walid
+			Rachid_Rashid Ramdane_Ramadan
+			Said_Said Salah_Salah Salaheddine Salim_Salim Sifal Sinbad Suleiman_Solomon Sultan_Sultan
+			Tacfin Tahir_Tahir Tanan Tariq_Tariq Tifan_Theophanus Tiljad 
+			Yacoub_Jacob Yahya_John Yiliyen_Julian Younès_Jonah Youcef_Joseph 
+			Zafir_Zafar Zain_Zain Zidane_Zaydan
+		}
+		female_names = {
+			Adila Aïcha_Aisha Amina_Amina Amna Arwa Aziza_Aziza
+			Bahija Basira_Basira Basma Batul Bouchra_Bushra
+			Dalal Daniyah
+			Fadila_Fadila Faiza_Faiza Farida_Farida Farah_Farah Fatima_Fatima 
+			Ghada Ghaliya
+			Habiba_Habiba Hadiyya Hafsa Halima_Halima Hanifa_Hanifa Hawa_Eve Huda Husna
+			Ibtisam Isra
+			Jalila_Jalila Jamila_Jamila Janan
+			Karima_Karima Khadija
+			Layla_Laila 
+			Maha Malika_Malika Maryam_Mary Midha Munya
+			Nafisa Njla Nawra 
+			Rafiqa Ramlah Rana Rasa Rashida_Rashida Ridwana_Ridwana
+			Sadaf Safiyyah_Safiyyah Sahar_Sahar Saida_Saida Salha_Salha Samira_Samira Sara_Sarah Sawsan_Susan Shakira_Shakira
+			Tahira_Tahira Taliba_Taliba Tasnim Thana
+			Uzma
+			Wahida_Wahida
+			Yasmin_Jasmine Yusra
+			Zaynab_Zaynab
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+				
+		allow_looting = yes
+		seafarer = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+	hassaniya = { 
+		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		
+		color = { 0.2 0.75 0.2 }
+
+		male_names = {
+			Abass_Abbas Abdelilah_Abdullah Abdo_Abdul Abou_Abu Abdou_Abdul Aboubakry_Abubakr Abdoulahi_Abdullah Abdoulaye_Abdullah Abdelaziz_Abdulaziz Adam_Adam Adellatif_Abdullatif Alboury Aliou_Ali Ahmed_Ahmad Amdy Anthiou Ayad Azddine_Izzaldin Aziz_Aziz
+			Bachir_Bashir Bassirou Bayoulaye Bilal_Bilal Boubacar_Abubakr Brahim_Abraham
+			Chakir_Shakir Cheikh_Sheikh Chérif_Sharif 
+			Daoud_David Dieng Dieye 
+			El-Hadji_Hajj El-Hattab
+			Fallou Fatah 
+			Gallass 
+			Hafid_Hafiz Hamdane_Hamdan Hassan_Hasan Hatim_Hatim Hicham_Hisham Houssine_Hussayn
+			Ilyess_Elijah Ismail_Ishmael
+			Jacques_James Jawad_Jawad 
+			Kallamou Kasem_Qasim Khadim Kosso
+			Lahcen_Hasan Lamine_Amin Libasse Lmodan 
+			Mehdi_Mahdi Mohamed_Muhammad Modou_Muhammad Mostefa_Mustafa Moulay Mourad_Murad Moussa_Moses
+			Ndama Ndiaye Nouh_Noah 
+			Omar_Umar Ouahid_Wahid Oualid_Walid Ousmane_Uthman
+			Rachide_Rashid Ramadane_Ramadan Rhone 
+			Said_Said Saliou_Salih Samir_Samir Serigne Sofiane_Sufyan Soulaymane_Solomon
+			Tahar_Tahir Thierno Tidiane 
+			Yassine_Yasin Youssef_Joseph Youness_Jonah
+			Zakariya_Zachary Zeine_Zain
+		}
+		female_names = {
+			Aicha_Aisha Aiye Alice_Alice Aminata Amy Angele_Angela Aziza 
+			Bijou
+			Codou 
+			Diaba Diane_Diana Dieumb 
+			Eazizat 
+			Fatima_Fatima Fatma_Fatima Fatou 
+			Kadia Khady Kya 
+			Maman Mame Mareme_Mary Marim_Mary Maty Mbayang Mbirika Mboup
+			Nawal Ndeye Noura 
+			Oulimata Oum
+			Ramatoulaye Rima
+			Sandrine_Alexandra Sara_Sarah Seydou Sira Sonya_Sophia
+			Véronique_Veronica
+		}
+		from_dynasty_prefix = "mn "
+		dynasty_title_names = yes
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}	
+	andalusian_arabic = {
+		graphical_cultures = { andalusiangfx southerngfx berbergfx arabicgfx muslimgfx  } #westerngfx
+		unit_graphical_cultures = { egyptiangfx levantinegfx arabicgfx muslimgfx }
+		
+		color = { 0.4 0.7 0.25 }
+
+		male_names = { # Broken Spanish mixed with Arabic
+			Abbas_Abbas Abdalla_Abdullah Abdalaziz_Abdulaziz Abdalhakam_Abdulhakam Abdalhazm_Abdulhazm Abdalrahman_Abdalrahman Abdelrazzaq_Abdulrazzaq Abdal_Abdul Abu Adfuns_Alphonse Ahmed_Ahmad Alfaru_Alvar Ali_Ali Andirs_Andrew Antuniu_Anthony Ayyub_Job 
+			Barmudu_Vermudo Barnardu_Bernard Bilal_Bilal Bilayu_Pelagius Bulu_Paul 
+			Danyal_Daniel Dawud_David Diaku_Diaco
+			Fadel_Fadl Fadrik_Frederick Filibi_Phillip Firnandu_Ferdinand Fransisku_Francis Fruayla_Froila
+			Garsiya_Garcia
+			Hafiir_Xavier Hakam_Hakam Hughu_Hugh
+			Ibrahim_Abraham Ilyas_Elijah Imiliu_Emil Inriki_Henry Isa_Jesus Ismail_Ismail Istiban_Stephen
+			Jawaakin_Joachim Jawmiz_Gomez Jil_Egidius Jiln_William Junzalu_Gonzalo Justafu_Gustav Jutiir_Walter
+			Karlus_Charles Kristubal_Christopher Kuru_Francis 
+			Leun_Leo Lubb_Lupo Luis_Louis 
+			Manryk_Amalric Manuil_Emmanuel Markus_Mark Martyn_Martin Mathiu_Matthew Mighil_Michael Muhammed_Muhammad Muisa_Moses
+			Nikulas_Nicholas Nynu_Nuno
+			Ordunu_Ordono
+			Pedru_Peter
+			Rafayiyl_Raphael Ramiru_Ramiro Ramun_Raymond Rashid_Rashid Rudrighu_Roderick Rumiu_Romeo 
+			Said_Said Sanyo_Sancho Siddray Salomón_Solomon 
+			Tarik_Tariq
+			Umar_Umar Utman_Uthman 
+			Wannaqu_Inigo 
+			Yahya_John Yakub_Jacob Yusuf_Joseph	
+		}
+		female_names = {
+			Abijíl_Abigail Abril_April Adila Aghnis_Agnes Aïcha_Aisha Ajathan_Agatha Alksandara_Alexandra Aldonza_Aldonza Alfira_Elvira Alisia_Alice Amina_Amina Amna Ana_Anna Ánjila_Angela Antunya_Antonia Arwa Ayrin_Irene Aziza_Aziza
+			Bahija Basira_Basira Basma Batul Biatris_Beatrix Biringhila_Berengaria Blanka_Blanche Boushra_Bushra Brídjita_Bridget Bulyna_Paula
+			Dalal Danyilaa_Daniela Daniyah Durutia_Dorothy
+			Fadila_Fadila Faiza_Faiza Farida_Farida Farah_Farah Fátima_Fatima Firunika_Veronica Frunilda_Fronilde
+			Ghada Ghaliya Ghlurya_Gloria
+			Habiba_Habiba Hadiyya Hafsa Halima_Halima Hanifa_Hanifa Hawa_Eve Huda Husna
+			Ibtisam Ilyanur_Eleanor Isra Iyzabil_Elizabeth
+			Jalila_Jalila Jamila_Jamila Janan Jawana_Jane Jinifir_Jennifer Jisika_Jessica Julia_Julia Juntruda_Gotruda
+			Karima_Karima Khadija Khaymina_Ximena Klara_Clara Klawy_Chloe Kunistansa_Constance
+			Lawla_Dolores Layla_Laila Lura_Laura Lusy_Lucia Luyz_Louise 
+			Mafalda_Matilda Maha Malika_Malika Maríam_Mary Marina_Marina Marsidis_Mercedes Martina_Martina Mayur_Mayor Midha Milya_Emily Minsía_Mencia Munya
+			Nafisa Natali_Natalie Njla Nawra 
+			Uwlifia_Olivia
+			Rafiqa Rakil_Rachel Ramlah Rana Rasa Rashida_Rashida Reyna_Regina Ridwana_Ridwana Rosa_Rosa
+			Sadaf Safiyyah_Safiyyah Sahar_Sahar Saida_Saida Salha_Salha Samira_Samira Sansha_Sancha Sara_Sarah Shakira_Shakira Stifanía_Stephanie Sufya_Sophia Suzan_Susan
+			Tahira_Tahira Taliba_Taliba Tamara_Tamar Tasnim Thana Tiriza_Theresa
+			Urraka_Urraca Uzma
+			Wahida_Wahida
+			Yasmin_Jasmine Yujinia_Eugenia Yusra
+			Zaynab_Zaynab			
+		}
+		from_dynasty_prefix = "del "
+		
+		male_patronym = "ibn "
+		female_patronym = "ibn "
+		prefix = yes
+		
+		allow_looting = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 45
+		
+		modifier = default_culture_modifier
+	}
+	libyan = { 
+		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		unit_graphical_cultures = { egyptiangfx levantinegfx arabicgfx muslimgfx }
+		
+		color = { 0.2 0.9 0.4 }
+
+		male_names = {
+			Abbas_Abbas Abdel_Abdul Abdelazim_Abdulazim Abdelhalim_Abdulhalim Abdelkarim_Abdalkarim Abderahman_Abdalrahman Abdellah_Abdullah Abidin Adam_Adam Adil_Adil Ahmed_Ahmad Aladin_Alaeddin Ali_Ali Amawal Amin_Amin Anwar_Anwar Arafa Asad_Asad Ashraf_Ashraf Ayman_Ayman Ayyub_Job Azim_Azim Azrur 
+			Bashir_Bashir Barak_Barak Berkan Bilal_Bilal 
+			Danyal_Daniel Dawud_David 
+			Fahd_Fahd Fareed_Farid Fath_Fath Fayez_Fayiz Fouad_Fuad 
+			Ghanim Ghumer Gildun 
+			Habib_Habib Hafiz_Hafiz Haidar_Haidar Hakim_Hakim Hamad_Hamad Harun_Aaron Hashim_Hashim Hassan_Hasan Hussein_Hussayn 
+			Ibrahim_Abraham Ilyas_Elijah Imbarek Ismail_Ishmael Ishaq_Isaac Islam_Islam Iskander_Alexander Issam_Isam Idris_Idris
+			Jaffar_Jafar Jalil_Jalil Jamal_Jamal Jawad_Jawad Jibril_Gabriel 
+			Kamal_Kamal Kasim_Qasim Khalid_Khalid Khidr_Khidr 
+			Mahmud_Mahmud Malik_Malik Mansur_Mansur Marwan_Marwan Matiya_Matthew Mohamed_Muhammad Muhammad_Muhammad Mukhtar Murad_Murad Musa_Moses Mustafa_Mustafa 
+			Nader_Nadir Najib_Najib Nasir_Nasir Nuh_Noah 
+			Omar_Umar Osman_Uthman
+			Ramadan_Ramadan Rashid_Rashid Rauf_Rauf 
+			Sadiq_Sadiq Said_Said Salah_Salah Salim_Salim Salman_Solomon Samir_Samir Sharif_Sharif Sulayman_Solomon Sultan_Sultan 
+			Tahir_Tahir Talib_Talib Tariq_Tariq Tifan_Theophanus Tiljad 
+			Umar_Umar
+			Wahab_Wahab Wahid_Wahid Walid_Walid
+			Yahya_John Yaqub_Jacob Yiliyen_Julian Younes_Jonah Yusuf_Joseph 
+			Zafir_Zafar Zayn_Zain Zubeyr
+		}
+		female_names = {
+			Adila Aisha_Aisha Amina_Amina Amna Arwa Aziza_Aziza
+			Bahija Basira_Basira Basma Batul Bouchra_Bushra
+			Dalal Daniyah
+			Fadila_Fadila Faiza_Faiza Farida_Farida Farah_Farah Fatima_Fatima 
+			Ghada Ghaliya
+			Habiba_Habiba Hadiyya Hafsa Halima_Halima Hanifa_Hanifa Hawa_Eve Huda Husna
+			Ibtisam Isra
+			Jalila_Jalila Jamila_Jamila Janan
+			Karima_Karima Khadija
+			Layla_Laila 
+			Maha Malika_Malika Maryam_Mary Midha Munya
+			Nafisa Njla Nawra 
+			Rafiqa Ramlah Rana Rasa Rashida_Rashida Ridwana_Ridwana
+			Sadaf Safiyyah_Safiyyah Sahar_Sahar Saida_Saida Salha_Salha Samira_Samira Sara_Sarah Sawsan_Susan Shakira_Shakira
+			Tahira_Tahira Taliba_Taliba Tasnim Thana
+			Uzma
+			Wahida_Wahida
+			Yasmin_Jasmine Yusra
+			Zaynab_Zaynab
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		
+		allow_looting = yes
+		seafarer = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+	algerian = { #Modern Algerian names with a few others added in for lore
+		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		unit_graphical_cultures = { egyptiangfx levantinegfx arabicgfx muslimgfx }
+		
+		color = { 0.4 0.9 0.2 }
+
+		male_names = {
+			Abbas_Abbas Abdel_Abdul Abdelazim_Abdulazim Abdelbaki_Abdulbaqi Abdelhalim_Abdulhalim Abdelkrim_Abdalkarim Abderrahmane_Abdalrahman Abdellah_Abdullah Abdelmoumene_Abdalmumin Adnane_Adnan Ahmed_Ahmad Alaeddin_Alaeddin Ali_Ali Amine_Amin Amor_Umar Anouar_Anwar
+			Barakat_Barak Béchir_Bashir Billel_Bilal Boualem Brahim_Abraham 
+			Chafik_Shafiq Cheikh_Sheikh Chérif_Sharif Choukri_Shukri
+			Djafar_Jafar Djalil_Jalil Djamel_Jamal Driss_Idris
+			El-Arabi_Arab Elyès_Elijah Essaïd_Said
+			Farès_Faris Fayçal_Faysal
+			Hacène_Hasan Hadj_Hajj Hafid_Hafiz Haidar_Haidar Hamad_Hamad Hassane_Hasan Hichem_Hisham Hocine_Hussayn Houari_Hawari 
+			Ilies_Elijah Islem_Islam Ismaïl_Ishmael
+			Kaddour Kheireddine_Khairaddin 
+			Lahcène_Hasan Lyes_Elijah
+			Madani Madjid_Majid Mahieddine Malik_Malik Marouane_Marwan Mehdi_Mahdi Mohammed_Muhammad Mokhtar_Mukhtar Mourad_Murad Mousa_Moses Moustafa_Mustafa 
+			Nacer_Nasir Nadjib_Najib Nouh_Noah 
+			Omar_Umar Ostoher_Ostoher Ouahid_Wahid Oualid_Walid Oussama_Usama
+			Rachide_Rashid Rafik_Rafiq Ramdane_Ramadan Rédouane_Ridwan
+			Saddek_Sadiq Salah_Salah Seghir_Saghir Smaïn_Ishmael Sofyane_Sufyan Souleymane_Solomon 
+			Tahar_Tahir Taïeb_Tayyib Tariq_Tariq
+			Yahya_John Yasine_Yasin Youness_Jonah Youcef_Joseph 
+			Zafir_Zafar Zakarya_Zachary Zeine_Zain Zinédine_Zaynaddin			
+		}
+		female_names = {
+			Adila Aïcha_Aisha Amina_Amina Amna Arwa Aziza_Aziza
+			Bahija Basira_Basira Basma Batul Bouchra_Bushra
+			Dalal Daniyah
+			Fadila_Fadila Faiza_Faiza Falbala_Falbala Farida_Farida Farah_Farah Fatima_Fatima 
+			Ghada Ghaliya
+			Habiba_Habiba Hadiyya Hafsa Halima_Halima Hanifa_Hanifa Hawa_Eve Huda Husna
+			Ibtisam Isra
+			Jalila_Jalila Jamila_Jamila Janan
+			Karima_Karima Khadija
+			Layla_Laila 
+			Maha Malika_Malika Maryam_Mary Midha Munya
+			Nafisa Njla Nawra 
+			Rafiqa Ramlah Rana Rasa Rashida_Rashida Rían_Rian Ridwana_Ridwana
+			Sadaf Safiyyah_Safiyyah Sahar_Sahar Saida_Saida Salha_Salha Samira_Samira Sara_Sarah Sawsan_Susan Shakira_Shakira
+			Tahira_Tahira Taliba_Taliba Tasnim Thana
+			Uzma
+			Wahida_Wahida
+			Yasmin_Jasmine Yusra
+			Zaynab_Zaynab			
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+				
+		allow_looting = yes
+		seafarer = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+	tunisian = { 
+		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		unit_graphical_cultures = { egyptiangfx levantinegfx arabicgfx muslimgfx }
+		
+		color = { 0.2 0.9 0.2 }
+
+		male_names = {
+			Abbas_Abbas Abdel_Abdul Abdelazim_Abdulazim Abdelhalim_Abdulhalim Abdelkarim_Abdalkarim Abderrahmane_Abdalrahman Abdellah_Abdullah Achref_Ashraf Adam_Adam Ahmed_Ahmad Alaeddin_Alaeddin Ali_Ali Amine_Amin Amor_Umar Anouer_Anwar Asad_Asad Azim_Azim Azrur 
+			Barakat_Barak Bechir_Bashir Bilel_Bilal Brahim_Abraham 
+			Chaker_Shakir Chamseddine Chérif_Sharif
+			Djalil_Jalil Driss_Idris
+			Elyas_Elijah
+			Fahd_Fahd Fethi_Fath Foued_Fuad
+			Hacène_Hasan Hafid_Hafiz Haidar_Haidar Hamad_Hamad Hassen_Hasan Hichem_Hisham Hocine_Hussayn 
+			Islem_Islam Ismail_Ishmael Issam_Isam
+			Jaffar_Jafar Jamal_Jamal Jaouad_Jawad 
+			Kamel_Kamal Khalid_Khalid Khidr_Khidr 
+			Malik_Malik Marouene_Marwan Matiya_Matthew Mehdi_Mahdi Mohammed_Muhammad Mokhtar_Mukhtar Mourad_Murad Mousa_Moses Moustafa_Mustafa 
+			Nasir_Nasir Néjib_Najib 
+			Omar_Umar Oualid_Walid Oussema_Usama
+			Rached_Rashid Radhouane_Ridwan
+			Said_Said Salah_Salah Slim_Salim Sofiene_Sufyan Souleymane_Solomon 
+			Tahir_Tahir Tariq_Tariq Tifan_Theophanus 
+			Yahya_John Yiliyen_Julian Younes_Jonah Youcef_Joseph 
+			Zafir_Zafar Zakarya_Zachary Zayar Zeine_Zain Zinédine_Zaynaddin
+		}
+		female_names = {
+			Adila Aïcha_Aisha Amina_Amina Amna Arwa Aziza_Aziza
+			Bahija Basira_Basira Basma Batul Bouchra_Bushra
+			Dalal Daniyah
+			Fadila_Fadila Faiza_Faiza Farida_Farida Farah_Farah Fatima_Fatima 
+			Ghada Ghaliya
+			Habiba_Habiba Hadiyya Hafsa Halima_Halima Hanifa_Hanifa Hawa_Eve Huda Husna
+			Ibtisam Isra
+			Jalila_Jalila Jamila_Jamila Janan
+			Karima_Karima Khadija
+			Layla_Laila 
+			Maha Malika_Malika Maryam_Mary Midha Munya
+			Nafisa Njla Nawra 
+			Rafiqa Ramlah Rana Rasa Rashida_Rashida Ridwana_Ridwana
+			Sadaf Safiyyah_Safiyyah Sahar_Sahar Saida_Saida Salha_Salha Samira_Samira Sara_Sarah Sawsan_Susan Shakira_Shakira
+			Tahira_Tahira Taliba_Taliba Tasnim Thana
+			Uzma
+			Wahida_Wahida
+			Yasmin_Jasmine Yusra
+			Zaynab_Zaynab
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+						
+		allow_looting = yes
+		seafarer = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+}

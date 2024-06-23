@@ -1,0 +1,557 @@
+transnistrian = {
+    alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures =  { easterngfx }	
+	
+	aromanian = {
+		graphical_cultures = { byzantinegfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+
+		color = { 60 40 130 }
+
+		male_names = {
+            Achilléas_Achilles Achim_Joachim Adam_Adam Adamántios Adi_Adrian Adrastos_Adrastus Adrianós_Adrian Agamémnon Agesílaos Agínor Aiacos Aias Aineías Aisymnos Akis Aktoros Akákios_Acacius Albert_Albert Alcibiades Alexis_Alexander Alexandru_Alexander Alexei Alin Alkaios_Alcaeus Aléxandros_Alexander Aléxios_Alexis Amphiaraos_Amphiaraus Amphínomos_Amphinomus Anastasie_Anastasius Anastásios_Anastasius Anatólios_Anatolius Andrei_Andrew Andréas_Andrew Andrónikos_Andronicus Anghel_Angel Antenor Anthimos_Anthimus Anthémios_Anthemius Antilochos_Antilochus Antinoos_Antinous Antiochos_Antiochus Anton_Anthony Antónios_Anthony Apollónios_Apollonius Apóstolos Archimídis Argyris Aristarchos Aristeidis_Aristides Aristophánis Aristotélis_Aristotle Aron_Aaron Arsénios_Arsenius Artémios_Artemius Asklipiós Askánios_Ascanius Atanase_Athanasius Atanasie_Athanasius Athanásios_Athanasius Atréas_Atreus Augustin_Augustine Augustinos_August Aurel_Aurelius Aurica_Aurelius Autolykos_Autolycus Avram_Abraham			
+			Bajan Barbat_Barbat Barbu Basarab_Basarab Beniamin_Benjamin Bogdanos_Bogdan 
+			Calais Calinic_Callinicus Carolos_Charles Catalin Cezar_Caesar Charilaos Christóphoros_Christopher Chrysanthos_Chrysanthus Chrysippos_Chrysippus Chrysógonos_Chrysogonus Chrysóstomos Ciprian_Cyprianus Ciubar Claudios_Claudius Codrin Codrut Constantin_Constantine Cornel_Cornelius Corneliu_Cornelius Cosmin Costache_Constantine Costel_Constantine Costica_Costantine Costin_Constantine Christos_Christian Cristianos_Christian Cálchas			
+			Dacian Damianós_Damian Dan_Daniel Daniel_Daniel Danut_Daniel Darios_Darius David_David Decebal Demetrios_Demetrius Demosthenes Denis_Dionysus Dinu_Constantine Diogénes_Diogenes Diomedes_Diomedes Dionisie_Dionysus Dionysios_Dionysus Dorin_Dorian Dorinel_Dorian Dorotheos_Dorotheus Doru Dragomiros Dragos Dumitru_Demetrius
+			Ector_Hector Eduard_Edward Eirenaios_Irenaeus Elefthérios Emanoil_Emmanuel Emanuel_Emmanuel Emeric_Aymeric Emerikos Emil_Emil Emilian Epameinondas Epíkouros Eremias_Jeremiah Eudóxios_Eudoxius Eugen_Eugene Evgénios_Eugene Euklídis_Euclides Eumaios Euphemios_Euphemius Euryalos_Euryalus Eurymachos_Eurymachus Eusebiu_Eusebius Eustrátios_Eustratius Efstáthios_Eustace Eusébios_Eusebius Evripídis Evángelos_Evangelus			
+			Fane_Stephen Felix_Felix Filip_Phillip Flaviu_Flavius Florentin_Florentinus Florin_Florinus Fragískos_Francis Francisc_Francis                                           
+			Gabi_Gabriel Gavril_Gabriel Gelu Ghenadie_Gennadius Gheorghe_George Grigore_Gregory Gabriel_Gabriel Gennádios_Gennadius Geórgios_George Gerásimos_Gerasimus Germanós_German Glafcos_Glaucus Gregórios_Gregory 
+			Haralambos Hektórios_Hector Helías_Elijah Heraklís_Hercules Heródotos_Herodotus Hierotheos_Hierotheus Himerios_Himerius Hippocrátes Hippolytos_Hippolytus Horatios_Horace Horea_Horea Horia_Horea Hypatios_Hypatius Háris_Harry
+			Iacob_Jacob Iancu_John Iason_Jason Idas Idmon Idomeneus Ieremías_Jeremiah Ignat_Ignatius Ignatios_Ignatius Ilie_Elijah Ilías_Elijah Innokéntios_Innocent Ioan_John Ioannikios_Ioannicius Ion_John Ionel_John Ionut_John Iordánes_Jordan Iorgu_George Ioseph_Joseph Iosif_Joseph Ioulianos_Julian Ioustinianós_Justinian Ioustínos_Justin Ioánnes_John Isaakios_Isaac Isac_Isaac Isaias_Isaiah Isocrátes Isídoros_Isidore Iulian_Julian Iuliu_Julius Ivan_John Iákobos_Jacob
+			Jorgos_George
+			Kadmos_Cadmus Kaisários_Caesar Kallinikos_Callinicus Kapaneus Kastor_Castor Kleoménis Kléarchos Komitas Konda Konstantínos_Constantine Konstántios_Constantius Kopreus Kosmás_Cosmas Kreon Kyrillos_Cyril Kyriákos_Cyriacus Kyros_Cyrus Kállistos_Callistus Kítsos Kóstas_Constans			
+			Ladislau_Vladislav Laertes Laios Lascar Lasthenes Latcu Laurentiu_Lawrence Lauréntios_Lawrence Leon_Leon Leonídas_Leonidas Leóntios_Leontius Litovoi Liviu_Livius Loukás_Luke Luca_Luke Lucian_Lucian Lycaon Lygeas Lámbros Lázaros_Lazarus			
+			Makários_Macarius Manuel_Emmanuel Manólis_Emmanuel Marcel_Marcellus Marian_Marianus Marin_Marinus Marius_Marius Martin_Martin Matei_Matthew Matthaios_Matthew Maurikios_Maurice Maximos_Maximus Megareos Melánippos Meléagros Melétis Memnon Menélaos_Menelaus Methódios_Methodius Mihális_Michael Mihai_Michael Mihaita_Matthew Milos_Milosz Milton Minoas_Minos Mircea Miron Mitre Mitica_Demetrius Moise_Moses Mugur Mákis Márkos_Mark Mégistos_Magnus Mídas Mítsos
+			Nae Narsís_Narses Neculai_Nicholas Nelu_John Nektarios Neoptólemos_Neoptolemus Neóphytos_Neophytus Nicolae_Nicholas Nicu_Nicholas Nicusor_Nicholas Nikephóros_Nicephorus Nikodemos_Nicodemus Nikítas_Niketas Nikólaos_Nicholas Niphon_Niphon Nistor_Nestorius Néstor 
+			Octav_Octavian Octavian_Octavian Odysséas_Odysseus Oidípous_Oedipus Oileus Oineus Oinomaos Omiros_Homer Orestes Orphéas_Orpheus Ovidiu_Ovid
+			Pamphilios_Pamphilus Panagiótis Pankrátios_Pancratius Pantelís Pantoléon Paraschiv Parthenopéos Paschális_Pascal Paul_Paul Pausanías Pavel_Paul Peistarchos Peleus Pelopas Pelágios_Pelagius Periandros Periklymenos Periklís_Pericles Perséas Petre_Peter Petrica_Peter Petru_Peter Petrut_Peter Philotheos_Philotheus Philáretos_Philaretus Phinéas_Phineas Phoinix Photios_Photius Phílippos_Phillip Phókas_Phocas Pirvu Plisthenes Ploutarchos_Plutarch Plátonas_Plato Poeas Poludámas Polydeukes Polykarpos_Polycarp Polyneices Polyphemos_Polyphemus Polyphontes Polyvios_Polybius Pompiliu_Pompey Porphyrios_Porphyrius Prokópios_Procopius Príamos Pyrros_Pyrrhus Pythagóras Pándaros_Pandarus Pános Páris Pátroklos_Patroclus Pávlos_Paul Pétros_Peter 
+			Radamanthes Radu_Radovan Raphail_Raphael Rares Raul Razvan Remus_Remus Rhesus Rigas Robert_Robert Roman_Roman Romanos_Roman Romulus_Romulus 
+			Sabas_Sabas Samuel_Samuel Sandu_Alexander Sarpedon Sas Sebastian_Sebastian Sebastianos_Sebastian Seneslav Serafim_Seraphinus Serapion_Serapion Serban Serghei_Sergius Sergios_Sergius  Silviu_Silvius Simon_Simon Sokrátis_Socrates Sophoklís_Sophocles Sorin Sotíris Spyrídon Stan_Stanislav Staurákios_Stauracius Stefan_Stephen Stelian Strátos Stylianós Stávros Stélios Stéphanos_Stephen Symeon_Simon Symmachos_Symmachus Sákis Sólonas 
+			Tanase_Athanasius Telamon Telémakhos_Telemachus Teodor_Theodore Teucros Thanos_Athanasius Theano Themistoklís_Themistocles Theocháristos_Theocharis Theodosios_Theodosius Theophylaktos_Theophylact Theophánes Theséas Theódoros_Theodore Theódotos_Theodat Theódoulos_Theodulus Theókritos_Theocritus Theóktistos_Theoctistus Theóphilos_Theophilus Thomás_Thomas Thucydídes Thyestes Tiberiu_Tiberius Tibor_Tiburtius Tibérios_Tiberius Tihomir Timotei_Timothy Timotheos_Timothy Tiphys Toma_Thomas Traian_Trajan Traianós_Trajan Trifon_Tryphon Trifu_Tryphon Tryphonas_Tryphon Tudor_Theodore Tydeus Tákis Tásos
+			Valentinos_Valentine Valerian_Valerian Valeriu_Valerius Vali_Valerius Valérios_Valerius Vardas_Bardas Vartholomaios_Bartolomeus Vasile_Basil Vasíleios_Basil Veaceslav_Vaclav Velisários_Belisarius Vellerophon_Bellerophontes Vellerophontes_Bellerophontes Venizélos Victor_Victor Vintila Viorel Virgiliu_Virgil Vlad_Vladimir Vladimir_Vladimir Vospórios_Bosporius Voíthios_Boethius Vrasídas
+            Xenophón_Xenophon
+			Yanaki Yiannis_John Ylas Yperbios
+			Zacharías_Zachary Zenóbios_Zenobius Zenon_Zenon Zetes
+		}
+		female_names = {
+			Adela_Adela Adelina_Adeline Adina_Adelina Adriana_Adriana Adriane_Adriana Aethra Afina Agne_Agnes Agápi Agáthe_Agatha Aigidia Aikateríne_Catherine Aithra Alexandra_Alexandra Alexeia_Alexia Alexia_Alexia Alexándra_Alexandra Alina_Adelina Alíki_Alice Amalia_Amalia Ana_Anna Anamaria Anastasie_Anastasia Anastasía_Anastasia Anca_Anna Ancuta_Anna Andra_Andrea Andrada_Andrea Andreea_Andrea Andromakhe Andromeda Angela_Angela Angelica_Angelica Ani_Anna Anisoara_Anna Anna_Anna Anthe Anthousa Antigóni Antipatra Antonia_Antonia Apollonia Aretí Atalanta Athanasía Aurelia_Aurelia Aurica_Aurelia Aurora_Aurora 
+			Bianca_Blanche Bogdana Brandusa
+			Camelia Carmen_Carmen Cassándra Catalina_Catherine Catina_Catherine Cecilia_Cecilia Cezara Christina_Christina Chryseis Chrysogone Clara_Clara Claudia_Claudia Cleopátra_Cleopatra Clio Clymene Constanta_Constance Corina Cornelia_Cornelia Cosmina Crina
+			Daciana Damiane_Damiane Dana Daniela_Daniela Daria_Daria Delia Demetra Demetra_Demetria Denisa_Denise Diana_Diana Diomede Dionysia Doina Dorina Dorothea_Dorothy Dumitra_Demetria Déspoina 
+			Ecaterina_Catherine Eirini_Irene Elaiodora Elefthería Elena_Helen Elisabeta_Elizabeth Elpída Eléctra Emanuela_Emanuela Emilia_Emily Epiphania Erato Eudokía_Eudocia Eudoxia_Eudocia Eugenia_Eugenia Eulalia Eunike Euphemia_Euphemia Euphrasia Euphrosyne_Euphrosyne Eupraxia Eurykleia Eusebia Eustathia Euterpe Evanthia 
+			Felicia_Felicia Flavia_Flavia Floarea_Flora Florina
+			Gabi_Gabriela Gabriela_Gabriela Gabriélia_Gabriela Garyphallia_Garyphallia Georgeta_Georgia Georgiana_Georgia Georgía_Georgia Gorgo Gregoria
+			Hará Hecamede Helene_Helen Hippodamia Hypatia Hortensia_Hortense
+			Ileana_Helen Ilinca_Helen Ioana_Jane Iolanda_Yolanda Ionela_Jane Ioulia_Julia Iouliana_Juliana Ioustína_Justina Ioánna_Jane Iphigeneia Iphis Irina_Irene Isabela_Elizabeth Isabella_Elizabeth Ismene Iulia_Julia Iuliana_Juliana			
+			Kale Kalliópi Konstantia_Constantia Konstantína_Constantina Kyra_Kyra Kyriake_Kyriake			
+			Laodamia Laodice Larisa Laura_Laura Lavinia Lenuta_Helen Leontía_Leontia Liana_Juliana Lidia_Lydia Liliana_Elizabeth Livia Loredana Lorena_Lorraine Lucia_Lucia Lucretia_Lucretia Luiza_Louise Luminita
+			Madalina_Madeline Magdalena_Madeline Manuela_Emanuela Marcela_Marcella Margareta_Margaret Margaríta_Margaret Maria_Mary Mariana Maricica Marilena Marina_Marina Markia_Marcia Marta_Martha María_Mary Marína Medeia Melantho Melpomene Mihaela_Michelle Minodora Mirela Miruna Monica_Monica Máchi Mártha_Martha Mélissa_Melissa
+			Narcisa Natalia_Natalie Nicoleta_Nicole Nikarete Nikolétta_Nicole Nonna Néki
+			Oana_Jane Olga_Helga Olimpia Otilia_Odilia Ozana
+			Paraschiva Parthéna Paula_Paula Pavlína_Paulina Pelagia_Pelagia Penelope Penthesilea Petra_Petra Petronela Petronia_Petronia Philippa_Philippa Photiní Phyllis_Phyllis Polyhymnia Pulcheria_Pulcheria
+			Raluca Ramona_Ramona Rhodanthe Rodica Romane Romylia Roxana Rozalia_Rosa Ruxandra
+			Sabrina Sanda_Alexandra Sandra_Alexandra Sapfo Sergia_Sergia Sibylla_Sibyl Silvia_Silvia Simona_Simone Simonis Smaranda Sofia_Sophia Sonia_Sophia Sophía_Sophia Sorina Stana_Stanislava Stefana_Stephanie Stefania_Stephanie Stela Stephania_Stephanie Stélla
+			Tamara_Tamar Tatiana_Tatiana Teodora_Theodora Teodosia_Theodosia Tereza_Theresa Terpsihóri Thalia Theano Theocháriste Theodosía_Theodosia Theodóra_Theodora Theognosia Theoktiste Theophano Thomais Thékla
+            Urania
+			Valentina_Valentina Valeria_Valeria Varvara_Barbara Vasilica_Basilica Vasillikí_Basilia Vera_Vera Veronica_Veronica Victoria_Victoria Violeta_Violet Viorica Virginia_Virginia Viviana_Vivian Voica Vriseis Várbara_Barbara
+			Xene_Xenia 
+			Zenobia Zoe_Zoe
+		}
+		parent = greek
+		
+		from_dynasty_prefix = "de "		
+		modifier = default_culture_modifier
+	}
+	
+    wallachian = { #Regular Romanian
+		graphical_cultures = { romaniangfx serbsouthslavicgfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+
+		color = { 70 5 120 }
+
+		male_names = {
+			Achim_Joachim Adam_Adam Adi_Adrian Adrian_Adrian Albert_Albert Alexandru_Alexander Alexie_Alexis Alin Ambroziu_Ambrose Anastasie_Anastasius Andrei_Andrew Anghel_Angel Antim_Anthimus Anton_Anthony Aron_Aaron Arsenie_Aresnius Atanase_Athanasius Atanasie_Athanasius Augustin_Augustine Aurel_Aurelius Avraam_Abraham 
+			Barbat_Barbat Barbu Basarab_Basarab Beniamin_Benjamin Bogdan_Bogdan 
+			Calinic_Callinicus Carol_Charles Catalin Cazimir_Casimir Cezar_Caesar Ciprian_Cyprianus Ciubar Claudiu_Claudius Codrin Codrut Constantin_Constantine Cornel_Cornelius Corneliu_Cornelius Cosmin_Cosmas Costel_Constantine Costin_Constantine Cristian_Christian Cristofor_Christopher
+			Dacian Damian_Damian Daniel_Daniel Darius_Darius David_David Decebal Denis_Dionysus Dionisie_Dionysus Dorin_Dorian Dorinel_Dorian Doru Dragomir_Drago Dragos_Drago Dumitru_Demetrius 
+			Eduard_Edward Emanuel_Emmanuel Emeric_Aymeric Emil_Emil Eremia_Jeremiah Eugen_Eugene Eusebiu_Eusebius
+			Fabian_Fabian Felix_Felix Ferdinand_Ferdinand Filip_Phillip Fineas_Phineas Flaviu_Flavius Florentin_Florentinus Florin_Florinus Francisc_Francis 
+			Gavril_Gabriel Gelu Ghenadie_Gennadius Gheorghe_George Grigore_Gregory 
+			Horatiu_Horace Horea_Horea
+			Iacob_Jacob Ieremia_Jeremiah Ignat_Ignatius Igor_Ingvar Ilie_Elijah Imrahil_Imrahil Ioan_John Ion_John Iosif_Joseph Ireneu_Irenaeus Isac_Isaac Isildur_Isildur Iulian_Julian Iuliu_Julius Ivan_John  
+			Ladislau_Vladislav Lazar_Lazarus Latcu Laurentiu_Lawrence Leonard_Leonard Litovoi Liviu_Livius Luca_Luke Lucian_Lucian 
+			Manuel_Emmanuel Marcel_Marcellus Marian_Marianus Marin_Marinus Marius_Marius Martin_Martin Matei_Matthew Metodiu_Methodius Mihai_Michael Mircea Miron Moise_Moses
+			Narcis_Narses Nicodim_Nicodemus Nicolae_Nicholas Nistor_Nestorius
+			Octavian_Octavian Ovidiu_Ovid
+			Patriciu_Patrick Paul_Paul Petre_Peter Petru_Peter Pompiliu_Pompey Ptolemeu_Ptolemy 
+			Radu_Radovan Raul_Ralph Remus_Remus Robert_Robert Roman_Roman Romulus_Romulus 
+			Sebastian_Sebastian Seneslav Serafim_Seraphinus Sergiu_Sergius Silviu_Silvius Simion_Simon Sorin Stan_Stanislav Stefan_Stephen Stelian 
+			Teodor_Theodore Teodosie_Theodosius Tiberiu_Tiberius Tibor_Tiburtius Timotei_Timothy Toma_Thomas Traian_Trajan Trifon_Tryphon 
+			Valentin_Valentine Valerian_Valerian Valeriu_Valerius Vasile_Basil Veaceslav_Vaclav Victor_Victor Vintila Viorel Virgiliu_Virgil Vlad_Vladimir
+		}
+		female_names = {
+			Adela_Adela Adelina_Adeline Adina_Adelina Adriana_Adriana Afina Alexandra_Alexandra Alexia_Alexia Alina_Adelina Amalia_Amalia Ana_Anna Anamaria Anastasie_Anastasia Anca_Anna Ancuta_Anna Andra_Andrea Andreea_Andrea Angela_Angela Angelica_Angelica Ani_Anna Anisoara_Anna Antonia_Antonia Aurelia_Aurelia Aurica_Aurelia Aurora_Aurora 
+			Bianca_Blanche Bogdana Brandusa
+			Camelia Carmen_Carmen Catalina_Catherine Catina_Catherine Cecilia_Cecilia Cezara Christina_Christina Clara_Clara Claudia_CLaudia Constanta_Constance Corina Cornelia_Cornelia Cosmina Crina
+			Daciana Dana Daniela_Daniela Daria_Daria Delia Demetra_Demetria Denisa_Denise Diana_Diana Doina Dorina Dumitra_Demetria
+			Ecaterina_Catherine Elena_Helen Elisabeta_Elizabeth Emanuela_Emanuela Emilia_Emily Eugenia_Eugenia
+			Felicia_Felicia Flavia_Flavia Floarea_Flora Florina
+			Gabi_Gabriela Gabriela_Gabriela Georgeta_Georgia Georgiana_Georgia
+			Hortensia_Hortense
+			Ileana_Helen Ilinca_Helen Ioana_Jane Iolanda_Yolanda Ionela_Jane Irina_Irene Isabela_Elizabeth Isabella_Elizabeth Iulia_Julia Iuliana_Juliana
+			Larisa Laura_Laura Lavinia Lenuta_Helen Liana_Juliana Lidia_Lydia Liliana_Elizabeth Livia Loredana Lorena_Lorraine Lucia_Lucia Lucretia_Lucretia Luiza_Louise Luminita
+			Madalina_Madeline Magda_Madeline Magdalena_Madeline Manuela_Emanuela Marcela_Marcella Margareta_Margaret Maria_Mary Mariana Maricica Marilena Marina_Marina Marta_Martha Mihaela_Michelle Minodora Mirela Miruna Monica_Monica
+			Narcisa Natalia_Natalie Nicoleta_Nicole
+			Oana_Jane Olga_Helga Olimpia Otilia_Odilia Ozana
+			Paula_Paula Paraschiva Petra_Petra Petronela 
+			Raluca Ramona_Ramona Rodica Roxana Rozalia_Rosa Ruxandra 
+			Sabrina Sanda_Alexandra Sandra_Alexandra Silvia_Silvia Simona_Simone Smaranda Sofia_Sophia Sonia_Sophia Sorina Stana_Stanislava Stefana_Stephanie Stefania_Stephanie Stela
+			Tamara Tatiana_Tatiana Teodora_Theodora Teodosia_Theodosia Tereza_Theresa 
+			Valentina_Valentina Valeria_Valeria Varvara_Barbara Vasilica_Basilica Vera_Vera Veronica_Veronica Victoria_Victoria Violeta_Violet Viorica Virginia_Virginia Voica 
+			Zoe_Zoe
+		}
+		
+		from_dynasty_prefix = "de "
+		feminist = yes
+		
+		male_patronym = "escu"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	istromanian = { #Istria Romanian
+		graphical_cultures = { croatsouthslavicgfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+
+		color = { 80 5 140 }
+
+		male_names = {
+			Achim_Joachim Adam_Adam Adi_Adrian Adrian_Adrian Albert_Albert Alexandru_Alexander Alexie_Alexis Alin Ambroziu_Ambrose Anastasie_Anastasius Andrei_Andrew Anghel_Angel Antim_Anthimus Anton_Anthony Aron_Aaron Arsenie_Aresnius Atanase_Athanasius Atanasie_Athanasius Augustin_Augustine Aurel_Aurelius Avraam_Abraham 
+			Barbat_Barbat Barbu Basarab_Basarab Beniamin_Benjamin Bogdan_Bogdan 
+			Calinic_Callinicus Carol_Charles Catalin Cazimir_Casimir Cezar_Caesar Ciprian_Cyprianus Ciubar Claudiu_Claudius Codrin Codrut Constantin_Constantine Cornel_Cornelius Corneliu_Cornelius Cosmin_Cosmas Costel_Constantine Costin_Constantine Cristian_Christian Cristofor_Christopher
+			Dacian Damian_Damian Daniel_Daniel Darius_Darius David_David Decebal Denis_Dionysus Dionisie_Dionysus Dorin_Dorian Dorinel_Dorian Doru Dragomir_Drago Dragos_Drago Dumitru_Demetrius 
+			Eduard_Edward Emanuel_Emmanuel Emeric_Aymeric Emil_Emil Eremia_Jeremiah Eugen_Eugene Eusebiu_Eusebius
+			Fabian_Fabian Felix_Felix Ferdinand_Ferdinand Filip_Phillip Fineas_Phineas Flaviu_Flavius Florentin_Florentinus Florin_Florinus Francisc_Francis 
+			Gavril_Gabriel Gelu Ghenadie_Gennadius Gheorghe_George Grigore_Gregory 
+			Horatiu_Horace Horea_Horea
+			Iacob_Jacob Ieremia_Jeremiah Ignat_Ignatius Igor_Ingvar Ilie_Elijah Imrahil_Imrahil Ioan_John Ion_John Iosif_Joseph Ireneu_Irenaeus Isac_Isaac Isildur_Isildur Iulian_Julian Iuliu_Julius Ivan_John  
+			Ladislau_Vladislav Lazar_Lazarus Latcu Laurentiu_Lawrence Leonard_Leonard Litovoi Liviu_Livius Luca_Luke Lucian_Lucian 
+			Manuel_Emmanuel Marcel_Marcellus Marian_Marianus Marin_Marinus Marius_Marius Martin_Martin Matei_Matthew Metodiu_Methodius Mihai_Michael Mircea Miron Moise_Moses
+			Narcis_Narses Nicodim_Nicodemus Nicolae_Nicholas Nistor_Nestorius
+			Octavian_Octavian Ovidiu_Ovid
+			Patriciu_Patrick Paul_Paul Petre_Peter Petru_Peter Pompiliu_Pompey Ptolemeu_Ptolemy 
+			Radu_Radovan Raul_Ralph Remus_Remus Robert_Robert Roman_Roman Romulus_Romulus 
+			Sebastian_Sebastian Seneslav Serafim_Seraphinus Sergiu_Sergius Silviu_Silvius Simion_Simon Sorin Stan_Stanislav Stefan_Stephen Stelian 
+			Teodor_Theodore Teodosie_Theodosius Tiberiu_Tiberius Tibor_Tiburtius Timotei_Timothy Toma_Thomas Traian_Trajan Trifon_Tryphon 
+			Valentin_Valentine Valerian_Valerian Valeriu_Valerius Vasile_Basil Veaceslav_Vaclav Victor_Victor Vintila Viorel Virgiliu_Virgil Vlad_Vladimir
+		}
+		female_names = {
+			Adela_Adela Adelina_Adeline Adina_Adelina Adriana_Adriana Afina Alexandra_Alexandra Alexia_Alexia Alina_Adelina Amalia_Amalia Ana_Anna Anamaria Anastasie_Anastasia Anca_Anna Ancuta_Anna Andra_Andrea Andreea_Andrea Angela_Angela Angelica_Angelica Ani_Anna Anisoara_Anna Antonia_Antonia Aurelia_Aurelia Aurica_Aurelia Aurora_Aurora 
+			Bianca_Blanche Bogdana Brandusa
+			Camelia Carmen_Carmen Catalina_Catherine Catina_Catherine Cecilia_Cecilia Cezara Christina_Christina Clara_Clara Claudia_CLaudia Constanta_Constance Corina Cornelia_Cornelia Cosmina Crina
+			Daciana Dana Daniela_Daniela Daria_Daria Delia Demetra_Demetria Denisa_Denise Diana_Diana Doina Dorina Dumitra_Demetria
+			Ecaterina_Catherine Elena_Helen Elisabeta_Elizabeth Emanuela_Emanuela Emilia_Emily Eugenia_Eugenia
+			Felicia_Felicia Flavia_Flavia Floarea_Flora Florina
+			Gabi_Gabriela Gabriela_Gabriela Georgeta_Georgia Georgiana_Georgia
+			Hortensia_Hortense
+			Ileana_Helen Ilinca_Helen Ioana_Jane Iolanda_Yolanda Ionela_Jane Irina_Irene Isabela_Elizabeth Isabella_Elizabeth Iulia_Julia Iuliana_Juliana
+			Larisa Laura_Laura Lavinia Lenuta_Helen Liana_Juliana Lidia_Lydia Liliana_Elizabeth Livia Loredana Lorena_Lorraine Lucia_Lucia Lucretia_Lucretia Luiza_Louise Luminita
+			Madalina_Madeline Magda_Madeline Magdalena_Madeline Manuela_Emanuela Marcela_Marcella Margareta_Margaret Maria_Mary Mariana Maricica Marilena Marina_Marina Marta_Martha Mihaela_Michelle Minodora Mirela Miruna Monica_Monica
+			Narcisa Natalia_Natalie Nicoleta_Nicole
+			Oana_Jane Olga_Helga Olimpia Otilia_Odilia Ozana
+			Paula_Paula Paraschiva Petra_Petra Petronela 
+			Raluca Ramona_Ramona Rodica Roxana Rozalia_Rosa Ruxandra 
+			Sabrina Sanda_Alexandra Sandra_Alexandra Silvia_Silvia Simona_Simone Smaranda Sofia_Sophia Sonia_Sophia Sorina Stana_Stanislava Stefana_Stephanie Stefania_Stephanie Stela
+			Tamara Tatiana_Tatiana Teodora_Theodora Teodosia_Theodosia Tereza_Theresa 
+			Valentina_Valentina Valeria_Valeria Varvara_Barbara Vasilica_Basilica Vera_Vera Veronica_Veronica Victoria_Victoria Violeta_Violet Viorica Virginia_Virginia Voica 
+			Zoe_Zoe
+		}
+		parent = venetian
+		from_dynasty_prefix = "de "
+		feminist = yes
+
+		male_patronym = "ic"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
+	transylvanian = { #Transylvanian Romanian
+		graphical_cultures = { romaniangfx serbsouthslavicgfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+
+		color = { 50 15 145 }
+
+		male_names = {
+			Achim_Joachim Adam_Adam Adrian_Adrian Albert_Albert Alexandru_Alexander Alexei_Alexis Anastasie_Anastasius Andrei_Andrew Anghel_Angel Anton_Anthony Aron_Aaron Atanase_Athanasius Atanasie_Athanasius Augustin_Augustine Aurel_Aurelius Avram_Abraham 
+			Barbat_Barbat Basarab_Basarab Beniamin_Benjamin Bogdan_Bogdan Bram_Abraham 
+			Calinic_Callinicus Carol_Charles Cezar_Caesar Ciprian_Cyprianus Claudiu_Claudius Codrin Constantin_Constantine Cornel_Cornelius Corneliu_Cornelius Cosmin_Cosmas Costache_Constantine Costel_Constantine Costica_Costantine Costin_Constantine Cristian_Christian
+			Dacian Damian_Damian Daniel_Daniel Darius_Darius David_David Decebal Denis_Dionysus Dezideriu_Desiderius Dionisie_Dionysus Dorin_Dorian Dorinel_Dorian Doru Dragomir_Dragomir Dumitru_Demetrius 
+			Eduard_Edward Emanuel_Emmanuel Emeric_Aymeric Emil_Emil Eremia_Jeremiah Eugen_Eugene Eusebiu_Eusebius
+			Felix_Felix Ferdinand_Ferdinand Filip_Phillip Flaviu_Flavius Florentin_Florentinus Florin_Florinus Francisc_Francis 
+			Gavril_Gabriel Gelu Gerontiu_Gerontius Ghenadie_Gennadius Gheorghe_George Grigore_Gregory 
+			Haralambie Horatiu_Horace Horea_Horea
+			Iacob_Jacob Iancu_John Ieremia_Jeremiah Ignat_Ignatius Ilie_Elijah Ioan_John Ion_John Ionut_John Iorgu_George Iosif_Joseph Isac_Isaac Iulian_Julian Iuliu_Julius Ivan_John  
+			Ladislau_Vladislav Lazar_Lazarus Laurentiu_Lawrence Leon_Leon Liviu_Livius Luca_Luke Lucian_Lucian 
+			Manuel_Emmanuel Marcel_Marcellus Marian_Marianus Marin_Marinus Marius_Marius Martin_Martin Matei_Matthew Mihai_Michael Milos_Milosz Mircea Moise_Moses
+			Nelu_John Nicolae_Nicholas Nicusor_Nicholas
+			Octavian_Octavian Ovidiu_Ovid
+			Patriciu_Patrick Paul_Paul Petre_Peter Petru_Peter Pompiliu_Pompey 
+			Radu_Radovan Raul_Ralph Remus_Remus Robert_Robert Roman_Roman Romulus_Romulus 
+			Sandu_Alexander Sebastian_Sebastian Seneslav Serafim_Seraphinus Sergiu_Sergius Silviu_Silvius Simion_Simon Sorin Stan_Stanislav Stefan_Stephen Stelian 
+			Tanase_Athanasius Teodor_Theodore Tiberiu_Tiberius Tibor_Tiburtius Tihomir Timotei_Timothy Toma_Thomas Traian_Trajan Trifon_Tryphon Tudor_Theodore 
+			Valentin_Valentine Valerian_Valerian Valeriu_Valerius Vasile_Basil Veaceslav_Vaclav Victor_Victor Viorel Virgiliu_Virgil Vlad_Vladimir
+		}
+		female_names = {
+			Adela_Adela Adelina_Adeline Adriana_Adriana Aerin_Aerin Alex_Alexandra Alexandra_Alexandra Alexia_Alexia Alina_Adelina Amalia_Amalia Ana_Anna Anamaria Anastasie_Anastasia Anca_Anna Ancuta_Anna Andra_Andrea Andrada_Andrea Andreea_Andrea Angela_Angela Angelica_Angelica Ani_Anna Anisoara_Anna Antonia_Antonia Aurelia_Aurelia Aurica_Aurelia Aurora_Aurora 
+			Bianca_Blanche Bogdana Brandusa
+			Camelia Carmen_Carmen Catalina_Catherine Catina_Catherine Cecilia_Cecilia Christina_Christina Clara_Clara Claudia_Claudia Constanta_Constance Corina Cornelia_Cornelia Cosmina Crina
+			Daciana Daniela_Daniela Daria_Daria Delfina_Delphine Demetra_Demetria Denisa_Denise Diana_Diana Doina Dorina Dumitra_Demetria
+			Ecaterina_Catherine Elena_Helen Elisabeta_Elizabeth Elwing_Elwing Emanuela_Emanuela Emilia_Emily Erendis Eugenia_Eugenia
+			Felicia_Felicia Flavia_Flavia Floarea_Flora
+			Gabi_Gabriela Gabriela_Gabriela Georgeta_Georgia Georgiana_Georgia
+			Hortensia_Hortense
+			Ileana_Helen Ilinca_Helen Ioana_Jane Iolanda_Yolanda Ionela_Jane Irina_Irene Isabela_Elizabeth Isabella_Elizabeth Iulia_Julia Iuliana_Juliana
+			Larisa Laura_Laura Lavinia Lenuta_Helen Liana_Juliana Lidia_Lydia Lilliandil_Lilliandil Loredana Lorena_Lorraine Lucia_Lucia Lucretia_Lucretia Luiza_Louise Luminita
+			Madalina_Madeline Magda_Madeline Magdalena_Madeline Manuela_Emanuela Marcela_Marcella Margareta_Margaret Maria_Mary Mariana Maricica Marilena Marina_Marina Marta_Martha Mihaela_Michelle Minodora Mirela Miruna Monica_Monica
+			Natalia_Natalie Nicoleta_Nicole
+			Oana_Jane Olga_Helga Olimpia Otilia_Odilia Ozana
+			Paula_Paula Paraschiva Petra_Petra Petronela 
+			Raluca Ramona_Ramona Rodica Roxana Rozalia_Rosa Ruxandra 
+			Sabrina Sanda_Alexandra Sandra_Alexandra Silvia_Silvia Simona_Simone Smaranda Sofia_Sophia Sonia_Sophia Sorina Stana_Stanislava Stefana_Stephanie Stefania_Stephanie Stela
+			Tamara_Tamar Tatiana_Tatiana Teodora_Theodora Teodosia_Theodosia Tereza_Theresa 
+			Valentina_Valentina Valeria_Valeria Varvara_Barbara Vasilica_Basilica Vera_Vera Veronica_Veronica Victoria_Victoria Violeta_Violet Viorica Virginia_Virginia Voica 
+			Zoe_Zoe
+		}
+		
+		from_dynasty_prefix = "de "
+		feminist = yes
+		
+		male_patronym = "escu"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	panonica = {
+		graphical_cultures = { magyargfx ugricgfx easterngfx romaniangfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+
+		color = { 110 60 90 }
+
+		male_names = { 
+			Abel_Abel Abraham_Abraham Adam_Adam Adorian_Adrian Agoston_Augustine Akos Alayos_Louis Albirt Alix Alixandir_Alexander Alfrid_Alfred Almos Amade_Amadeus Ambrus_Ambrosius Anastaz_Anastasius Andor_Andronicus Andras_Andrew Andris_Andrew Antal_Antonius Aristid Armin_Armin Aron_Aaron Arpad Artur_Arthur Attila_Attila Aurel_Aurel
+			Balaj_Blaise Balint_Valentin Barna_Barnabas Barnabas_Barnabas Barta_Bartholomew Birtalan_Bartholomew Bartos_Bartholomew Bela_Albert Bintin_Vincent Bindiguz Binidik_Benedict Binitt_Benedict Bignamin_Benjamin Birnat_Bernard Birtalan_Bartolomeus Boldijar_Baltasar Bonifat_Boniface Boris_Boris Botond
+			Caba Cak Canad Congor 
+			Daniil_Daniel David_David Dimitir_Demetrius Denis_Denis Dijo_Desiderius Dominik_Dominic Deumeuteur_Demetrius Donat_Donatus 
+			Eudeun_Edmund
+			Fabian_Fabian Farkas Firdinand_Ferdinand Firint_Francis Frigyis_Frederick Füleup_Philip
+			Gabor_Gabriel Gabriil_Gabriel Gal_Gallus Gaspar_Caspar Gillert_Gerard Girgiy_Gregory Geza Gustav_Gustav Gyeurgy_George Gyula_Julius
+			Harc Hinrik_Henry Hunor
+			Ignat_Ignatius Illes_Elijah Imre_Amalrich Istvan_Stephen Ivan_John Ijak_Isaac Iduard_Edward Ilik_Alexis Ilimer Imanuil_Emmanuel Imil_Emil Indre_Andrew Irik_Erik Irno_Ernest Irvin_Erwin
+			Yakab_Jacob Yakob_Jacob Yanos_John Yino_Eugene Yonas_Jonah Yojif_Joseph Yojua_Joshua
+			Kayitan_Gaetano Kalman Karoy_Charles Kazmer_Casimir Kilimin_Clement Kindi Kivi Konrad_Konrad Konstantin_Constantine Koppagn Kornel_Cornelius Kristof_Christopher Kristian_Christian Kristofir_Christopher
+			Layos_Louis Lampirt_Lambert Laslo_Vladislav Lazar_Lazarus Lihil Lenard_Leonard Livinti Lorant_Roland Lorinc_Laurence Lukacs_Luke
+			Martill_Marcellus Mark_Mark Marton_Martin Mate_Matthew Matyas_Matthew Mihay_Michael Miklos_Nicholas Miksa_Maximilian Milan_Milan Mor_Maurice Moric_Maurice Mozis_Moses 
+			Nandor_Ferdinand Nikolas_Nicholas Nimrod_Nimrod Norbert_Norbert
+			Oliver Orban_Urban Oskar_Oscar Otto_Otto
+			Pal_Paul Patrik_Patrick Petir_Peter Pista_Stephen
+			Rafail_Raphael Raymund_Raymond Richard_Richard Robirt_Robert Roland_Roland Roman_Roman Rudolf_Rudolf
+			Salamon_Solomon Samuil_Samuel Sandor_Alexander Saul_Saul Sibistyen_Sebastian Simon_Simon Soma Sabolc Sibastian_Sebastian Silard_Constantine Silvistir_Silvester 
+			Taksogn Tamas_Thomas Tibor_Tiburtius Tivadar_Theodore Todor_Theodore
+			Vazul_Basil Vintil_Vaclav Vid_Vitus Viktor_Victor Vilmos_William Vinti_Vincent
+			Zalan Zinti_Zente Zetegn_Zente Zoltan_Sultan Jigmond_Sigmund Jolt_Sultan Jombor 
+		}
+		female_names = {
+			Abigel_Abigail Adel_Adela Adilaida_Adelaide Adriinn_Adriana Agnis_Agnes Agota_Agatha Alixandra_Alexandra Alida_Adelaide Aliz_Alice Amalia_Amelia Anastasia_Anastasia Andria_Andrea Anitt_Anna Angela_Angela Angyalka_Angela Aniko_Anna Anna_Anna Antonia_Antonia Aranka_Aurelia Aurelia_Aurelia
+			Barbara_Barbara Biatrix_Beatrix Birta_Bertha Bianka_Blanche Biborka Blanka_Blanche Boglarka Borbala_Barbara Brigitta_Bridget
+			Cingi Cilla_Csilla 
+			Dalma Daniilla_Daniela Delia_Delia Diana_Diana Dominika_Dominique Dorottya_Dorothy Djinnifir_Jennifer Djisika_Jessica
+			Idina Idit_Edith Ilionora_Eleanor Ilizabet_Elizabeth Imisi Imili_Emily Imma_Emma Irika_Erika Irjebet_Elizabeth Ister_Esther Itelka Eva_Eva
+			Filitia_Felicia Flora_Flora Frantiska_Frances Frujina_Euphrosyne 
+			Gabriilla_Gabriela Giorgina_Georgia Girtrud_Gertrude Gizilla_Gisela Gloria_Gloria Gyeungyi Gyeungyver Gyeurgyi_Georgia
+			Hayna Haynal Haynalka Hanga Hanna_Hannah Hidvig_Hedwig Hilena_Helen Hilga_Helga Hinrietta_Henriette
+			Iboya_Yolanda Ildiko_Hildegard Ilona_Helen Iren_Irene Izabilla_Elizabeth 
+			Kamilla_Camilla Karolina_Caroline Katalin_Catherine Kinga_Kunigunde Kira_Cyra Klara_Clara Klaudia_Claudia Kornelia_Cornelia Konstantia_Constance Kristina_Christina
+			Laura_Laura Lia_Leah Lititia_Letitia Lidia_Lydia Liliana_Lilian Linda Livia_Livia Lutia_Lucia Luyza_Louise
+			Magdalena_Madeline Magdolna_Madeline Margareta_Margaret Margit_Margaret Maria_Mary Marta_Martha Matild_Matilda Milinda Milissa_Melissa Mirtedisz_Mercedes Milena_Milena Monika_Monica
+			Natalia_Natalie Nikolitt_Nicole Noemi_Naomi
+			Olga_Helga Olimpia_Olympia Olivia_Olivia Orsoya_Ursula Oxana_Xenia
+			Panka_Anna Panna_Anna Patritia_Patricia Paula_Paula Pitra_Petra Piroska_Priscilla 
+			Rahil_Rachel Ramona_Ramona Ribika_Rebecca Rigina_Regina Rinata_Renata Romana_Romana Roja_Rosa
+			Sara_Sarah Sarolt Stifania_Stephanie Sabina_Sabina Sandra_Alexandra Silvia_Silvia Sofia_Sophia
+			Tamara_Tamar Tiodora_Theodora Tirezia_Teresa Timia Tündi Tünder Titilia_Cecilia Tintia_Cynthia
+			Valeria_Valeria Vanda_Wanda Vanissa_Vanessa Vira_Vera Vironika_Veronica Viktoria_Victoria Vilma_Wilhelmina Viola_Violet Violitta_Violet Virag Vivien_Vivian
+			Yanka_Jane Yazmin_Jasmine Yohanna_Jane Yolanka Yozifa_Josephine Yudit_Judith Yulia_Julia Yulianna_Juliana Yustina_Justina
+			Zoe_Zoe Janitt_Jane Jofia_Sophia Joka_Elizabeth Jujanna_Susan	 
+		}
+		dynasty_name_first = yes
+		parent= hungarian
+		parent= moldavian
+		parent= wallachian
+		parent= transylvanian
+		from_dynasty_suffix = "i"
+		male_patronym = "escu"
+		feminist = yes
+		
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	adessite = {
+		graphical_cultures = { romaniangfx serbsouthslavicgfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+
+		color = { 120 40 80 }
+
+		male_names = { #Moldovanized Ukranians, Jews, and Tartars
+		    Abasiu_Abbas Abel_Abel Adam_Adam Andrian_Adrian Achmedu_Ahmad Albertu_Albert Alexandru_Alexander Ambrozie_Ambrose Anastasie_Anastasius Andrei_Andrew Anghel_Angel Anric_Henry Antoniu_Anthony Aron_Aaron Atanasie_Athanasius Augustin_Augustine Aureliu_Aurelius Avraam_Abraham 
+			Badru_Badr Bahaduru_Bahadur Barbatu_Barbat Bogdanu_Bogdan Boris_Boris
+			Carol_Charles Casimu_Qasim Cezar_Caesar Ciprian_Cyprian Ciril_Cyril Claudiu_Claudius Climentu_Clement Constantin_Constantine Corneliu_Cornelius Cosmin_Cosmas Cristian_Christian
+			Dacian Damjanu_Damian Danut_Daniel Darie_Darius David_David Dionisie_Dionysus Dmitru_Demetrius Dorin_Dorian Dragomiru_Dragomir 
+			Eduardu_Edward Efraim_Ephraim Egor_Ingvar Emanuel_Emmanuel Emericu_Aymeric Emil_Emil Esebiu_Eusebius Evhenu_Eugene
+			Felix_Felix Filip_Phillip Flaviu_Flavius Florentiniu_Florentinus Florin_Florinus Francisc_Francis 
+			Gurgenu_Lupo
+			Hasanaeu_Hasan Havrilu_Gabriel Hennadie_Gennadius Heorheu_George
+			Iacob_Jacob Ievhen_Eugene Ioan_John Iosip_Joseph Isac_Isaac Iuliu_Julius Iurie_George Izidor_Isidore Ismael_Ishmael 
+			Lazar_Lazarus Leonidu_Leonias Levanu_Leo Levi_Levi Luca_Luke 
+			Maximu_Maximus Marcian_Marcian Marcu_Mark Martin_Martin Michailu_Michael Mohamedu_Muhammad Mordecae_Mordecai Moise_Moses Mustafie_Mustafa Micolae_Nicholas Miroslau_Miroslav
+			Nazarie_Nazarius Nechita_Niketas Neemia_Nehemiah 
+			Olegu_Helge Olexeu_Alexis Ostapu_Eustace
+			Pavelu_Paul Petru_Peter 
+			Roman_Roman Ruslanu_Ruslan 
+			Serhie_Sergius Simon_Simon Spartacu_Spartacus Stanislau_Stanislav Stepanu_Stephen Sviatoslau_Sviatoslav
+			Taricu_Tariq Timuru_Timur
+			Umaru_Umar
+			Vadimu_Vadim Valentinu_Valentine Valerian_Valerian Valeriu_Valerius Vasiliu_Basil Veniamin_Benjamin Victor_Victor Vitalie_Vitale Vladislau_Vladislav Vlaicu_Vladimir						
+		}
+		female_names = {
+			Adela_Adela Adelina_Adeline Adina_Adelina Adriana_Adriana Afina Alexa_Alexandra Alexandra_Alexandra Alexia_Alexia Alina_Adelina Amalia_Amalia Ana_Anna Anamaria Anastasie_Anastasia Anca_Anna Ancuta_Anna Andra_Andrea Andrada_Andrea Andreea_Andrea Angela_Angela Angelica_Angelica Ani_Anna Anisoara_Anna Antonia_Antonia Arina_Irene Aurelia_Aurelia Aurica_Aurelia Aurora_Aurora 
+			Barbare_Barbara Beila_Elizabeth Bianca_Blanche Bogdana Brandusa
+			Camelia Carmen_Carmen Catalina_Catherine Catina_Catherine Cecilia_Cecilia Cezara Christina_Christina Clara_Clara Claudia_Claudia Constanta_Constance Corina Cornelia_Cornelia Cosmina Crina
+			Daciana Dana Daniela_Daniela Daria_Daria Delia
+			Ecaterine_Catherine Elena_Helen Ester_Esther Eva_Eve
+			Fatima_Fatima
+			Gulisa_Gulisa
+			Ia_Violet Iehudis_Judith Irina_Irene Irma_Emma
+			Larisa_Larisa Leila_Layla Lera_Valeria Lesia_Alexandra Lia_Leah Lilia_Lily Liubov_Lyubov Liudmila_Ludmila Liuba_Lyubov Liudmila_Ludmila
+			Maia_Maya Marharita_Margaret Maria_Mary Marina_Marina Marta_Martha Mila Micaila_Michelle Miroslava_Miroslava
+			Nadia_Nadezhda Natalia_Natalie Natela_Natela Nia_Antonia 
+			Odarca_Daria Oxana_Xenia Olexandra_Alexandra Olena_Helen Olesia_Alexnadra Olga_Helga
+			Polina_Paula 
+			Raisa Ruslana 
+			Saris_Sarah Sofia_Sophia Stefania_Stephanie Svitlana_Svetlana 
+			Taisia_Thais Tamara_Tamar Tetiana_Tatiana 
+			Uliana_Juliana
+			Valentina_Valentina Valeria_Valeria Vasilina_Basilica Veronica_Veronica Victoria_Victoria Vira_Vera Vitalia Vladislava
+			Iaroslava Ielisaveta_Elizabeth Ievhenia_Eugenia Iulia_Julia 
+			Zanna_Jane		 
+		}
+		parent= ukrainer
+		parent= moldavian
+		parent= wallachian
+		parent= transylvanian
+		male_patronym = "escu"
+		feminist = yes
+		
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
+	moldavian = { #Romanian but slightly more Romanized and mixed with some Romanized Slavic
+		graphical_cultures = { romaniangfx serbsouthslavicgfx }
+		unit_graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+
+		color = { 0.3 0.1 0.8 }
+
+		male_names = {	
+			Alexandru_Alexander Alexeu_Alexis Anastasiu_Anastasius Anatolie_Anatolius Andrian_Adrian Anghel_Angel Antoniu_Anthony Aron_Aaron Arsenie_Aresnius Aureliu_Aurelius
+			Barbatu_Barbat Basarabu_Basarab Bogdanu_Bogdan Boris_Boris 
+			Carol_Charles Cazimir_Casimir Cezar_Caesar Ciprian_Cyprianus Ciril_Cyril Ciubar Claudiu_Claudius Constantin_Constantine Corneliu_Cornelius Cristian_Christian Cristofor_Christopher
+			Damian_Damian Danut_Daniel Dimitriu_Demetrius Dorin_Dorian Dragosoru_Drago Dzianisiu_Dionysus
+			Efemiu_Euphemius Egidiu_Egidius Egoru_Ingvar Emericu_Aymeric Evgheniu_Eugene
+			Fedoseiu_Theodosius Florin_Florinus Franciscu_Francis 
+			Gavrilu_Gabriel Georgu_George Ghedeon_Gideon Ghenadie_Gennadius Gheorghiu_George Grigore_Gregory
+			Iacob_Jacob Iancu_John Iaroslau_Jaroslav Ieremia_Jeremiah Iliu_Elijah Ioan_John Iorghu_George Iosif_Joseph Iurie_George Iustinian_Justinian
+			Janos_John 
+			Ladislau_Vladislav Latcu Laurentiu_Lawrence Liviu_Livius Lucian_Lucian
+			Marcel_Marcellus Marin_Marinus Maximu_Maximus Metodiu_Methodius Mihail_Michael Mirceau Moise_Moses 
+			Naum_Nahum Nicolae_Nicholas Nicodim_Nicodemus
+			Octavian_Octavian Olegu_Helge
+			Pantelimon_Panteleimon Pavlu_Paul Petricu_Peter 
+			Radoslau_Radoslav Radovanu_Radovan Rodislau_Rodislav Rogvolodu_Rogvolod Roman_Roman Rostislau_Rostislav Ruricu_Rurik Ruslanu_Ruslan
+			Seneslau_Seneslav Serghei_Sergius Simon_Simon Stanislau_Stanislav Stelian_Stylianos Stepanu_Stephen
+			Teodosie_Theodosius Tiboru_Tiburtius Tihomiru_Tihomir Timofie_Timothy Tudoru_Theodore 
+			Ursu_Ursus
+			Vadimu_Vadim Valentinu_Valentine Valeriu_Valerius Vasilu_Basil Veaceslau_Vaclav Victor_Victor Vilhelmu_William Visarion_Bessarion Vitalie_Vitale Vladislau_Vladislav Vlaicu_Vladimir
+			Zenovie_Zenobius
+		}
+		female_names = {
+			Adelina_Adelina Adriana_Adriana Alexandra_Alexandra Alexea_Alexia Anna_Anna Anastasia_Anastasia Anghela_Angela Antonia_Antonia Aurora_Aurora 
+			Caterina_Catherine Clara_Clara Cornelia_Cornelia Cristina_Christina
+			Daria_Daria Diana_Diana Dimitra_Demetria Domnica_Dominique
+			Ecatarina_Catherine Edviga_Hedwig Efimia_Euphemia Efrosinia_Euphrosyne Elena_Helen Elisabeta_Elizabeth Emilia_Emily Eva_Eve Evdochia_Eudocia
+			Fedosia_Theodosia Felicia_Felicia Flavia_Flavia Florina_Flora 
+			Gavrila_Gabriela Georgeta_Georgia
+			Iacoba_Jacoba Ioana_Jane Ionela_Jane Iosefina_Josephine Irina_Irene Iulia_Julia Iuliana_Juliana 
+			Katea_Catherine
+			Lidia_Lydia Lilia_Lily Liuba_Lyubov Lorena_Lorraine Ludmila_Ludmila
+			Madalena_Madeline Maria_Mary Marina_Marina Marta_Martha Mihaila_Michelle Monica_Monica
+			Nadea_Nadezhda Natalia_Natalie Nicoleta_Nicole
+			Olesea_Alexandra Olena_Helen Olga_Helga Olimpia_Olympia Oxana_Xenia
+			Pavela_Paulina Petra_Petra 
+			Rahela_Rachel Rebeca_Rebecca Rodica Ruxandra_Roxana 
+			Sara_Sarah Sofia_Sophia Sorina Stana_Stanislava Stefania_Stephanie Svetlana_Svetlana 
+			Tatiana_Tatiana Teodora_Theodora Tereza_Theresa 
+			Valentina_Valentina Vasilica_Basilica Vera_Vera Veronica_Veronica Victoria_Victoria Violeta_Violet 
+			Zenovia_Zenobia Zoia_Zoe
+		}
+		
+		from_dynasty_prefix = "de "
+		feminist = yes
+		
+		male_patronym = "escu"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 20
+		father_name_chance = 15
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	sazzac = { #Moldovanized Cossacks
+		graphical_cultures = { romaniangfx westernslavicgfx }
+		secondary_event_pictures = cossack
+		unit_graphical_cultures = { cossackgfx romangfx southerngfx trueoccitangfx occitangfx }
+		color = { 0.7 0.25 0.3 }
+
+		male_names = {
+			Adam_Adam Anatolie_Anatolius Andrei_Andrew Antoniu_Anthony Artemie_Artemius Artur_Arthur Avgustu_Augustus
+			Bohdanu_Bogdan Bohuslau_Boguslav Boris_Boris Borislau_Borislav
+			Ciril_Cyril Climu_Clement Costiantin_Constantine
+			Demianu_Damian Denisie_Dionysus Dmitru_Demetrius 
+			Ehoru_Ingvar
+			Feodoru_Theodore Filip_Phillip 
+			Ghleb
+			Havrilu_Gabriel Heorhie_George Hrihorie_Gregory 
+			Iacob_Jacob Iaroslau_Jaroslav Ievhen_Eugene Ilie_Elijah Ioan_John Iosip_Joseph Iulie_Julius Iurie_George 
+			Leonidu_Leonidas Liviu_Livius 
+			Marcu_Mark Martin_Martin Maximu_Maximus Mechita_Niketas Michailu_Michael Micolae_Nicholas Miroslau_Miroslav
+			Nazarie_Nazarius
+			Olehu_Helge Olexandru_Alexander Olexeu_Alexis Ostatiu_Eustace Oreste_Orestes
+			Pavlu_Paul Petru_Peter 
+			Roman_Roman Ruslanu_Ruslan 
+			Sandu_Alexander Semion_Simon Serhie_Sergius Simon_Simon Spartacu_Spartacus Stanislau_Stanislav Stepanu_Stephen Sviatoslau_Sviatoslav
+			Taras_Taras Timofie_Timothy
+			Valentinu_Valentine Valeriu_Valerius Vasile_Basil Victor_Victor Vitalie_Vitale Vladislau_Vladislav Vlaicu_Vladimir Viacheslau_Vaclav			
+		}
+		female_names = {
+			Agafia_Agatha Agrafena_Agrippina Anastasia_Anastasia Anna_Anna
+			Balichca_Bailichka Boleslaua_Boleslava Bilina_Bylina
+			Caterina_Catherine Chernaua_Chernava Cirilla_Cyrilla
+			Daria_Daria Darionca_Daria Dobraua_Dobrava Dobroslaua_Dobroslava Dunia
+			Efimia_Euphemia
+			Feodora_Theodora Feodosia_Theodosia Fevronia 
+			Gorislaua_Goryslava Gradislaua_Gradyslava  
+			Iaroslaua_Yaroslava Ievdocia_Eudocia Irina_Irene Ioana_Jane
+			Calina_Kalina
+			Liza_Elizabeth Liubaua_Lyubov Liudmila_Liudmila 
+			Magdalena_Madeline Marina_Marina Maria_Mary 
+			Natalia_Natalie
+			Olena_Helen Olga_Helga Olexandra_Alexandra
+			Praxida 
+			Rogneda Rostislaua_Rostislava
+			Sara_Sarah Sofia_Sophia Sviatoslaua_Sviatoslava 
+			Tatiana_Tatiana
+			Ulita_Julia Uliana_Juliana 
+			Varvara_Barbara Vasilisa_Basilia 
+			Xenia_Xenia			 
+			Zabava
+		}
+		parent= cossack
+		parent= moldavian
+		parent= wallachian
+		parent= transylvanian
+		from_dynasty_prefix = "ze "
+		
+		male_patronym = "ouics"
+		female_patronym = "ouna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 35
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 35
+		mother_name_chance = 3
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+}

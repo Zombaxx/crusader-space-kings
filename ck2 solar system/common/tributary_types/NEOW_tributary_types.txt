@@ -1,0 +1,154 @@
+corsair = {
+	tributary_name = TRIBUTARY_CORSAIR_NAME
+	tributary_plural = TRIBUTARY_CORSAIR_PLURAL
+	suzerain_name = SUZERAIN_CORSAIR_NAME
+	tribute_name = TRIBUTARY_CORSAIR_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = yes
+	suzerain_can_join_infighting = no
+	tributary_can_be_summoned = no
+	tributary_must_defend = no
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 13
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.10
+	}
+	reinforce_tribute_percentage = {
+		value = 0.10
+	}
+	prestige_to_suzerain = {
+		value = 0
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = -0.05
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+dragon_tributary = {
+	tributary_name = TRIBUTARY_DRAGON_NAME
+	tributary_plural = TRIBUTARY_DRAGON_PLURAL
+	suzerain_name = SUZERAIN_DRAGON_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = yes
+	suzerain_can_join_infighting = no
+	tributary_can_be_summoned = no
+	tributary_must_defend = no
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 16
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.20
+	}
+	reinforce_tribute_percentage = {
+		value = 0.15
+	}
+	prestige_to_suzerain = {
+		value = 0.15
+	}
+	prestige_to_tributary = {
+		value = 0.05
+	}
+	piety_to_suzerain = {
+		value = 0.1
+	}
+	piety_to_tributary = {
+		value = 0.05
+	}
+	modifier = {						# what modifiers to apply to the tributary. Will use tributary_name as its name
+		tech_growth_modifier = 0.1
+	}
+}
+trade_protectorate = {
+	tributary_name = TRIBUTARY_TRADE_PROTECTORATE_NAME
+	tributary_plural = TRIBUTARY_TRADE_PROTECTORATE_PLURAL
+	suzerain_name = SUZERAIN_TRADE_PROTECTORATE_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = no
+	tributaries_can_infight = yes
+	suzerain_can_join_infighting = no
+	tributary_can_be_summoned = no
+	tributary_must_defend = no
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 17
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.4
+	}
+	reinforce_tribute_percentage = {
+		value = 0.05
+	}
+	prestige_to_suzerain = {
+		value = 0.15
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+	modifier = {						# what modifiers to apply to the tributary. Will use tributary_name as its name
+		tradevalue = 15
+	}
+}
+
+
+march = {
+	tributary_name = TRIBUTARY_MARCH_NAME
+	tributary_plural = TRIBUTARY_MARCH_PLURAL
+	suzerain_name = SUZERAIN_MARCH_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = yes
+	suzerain_can_join_infighting = no
+	tributary_can_be_summoned = yes
+	tributaries_can_infight = no
+	tributary_must_defend = yes
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 12
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0
+	}
+	reinforce_tribute_percentage = {
+		value = 0.15
+	}
+	prestige_to_suzerain = {
+		value = 0.2
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+	modifier = {						# what modifiers to apply to the tributary. Will use tributary_name as its name
+		global_levy_size = 0.05
+		global_garrison_size = 0.1
+	}
+}

@@ -270,6 +270,11 @@ society_decisions = { # Society decisions are only evaluated by members of socie
 				}
 			}
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 1
 
@@ -316,6 +321,9 @@ society_decisions = {
 			custom_tooltip = { text = start_constructing_laboratory_tooltip }
 			hidden_tooltip = { character_event = { id = MNM.1100 } }
 		}
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -340,7 +348,11 @@ society_decisions = {
 		ai_check_interval = 24
 		potential = {
 			has_dlc = "Mystics"
-			is_christian_monastic_member_trigger = yes
+			OR = {
+				is_christian_monastic_member_trigger = yes
+				society_member_of = monastic_order_jugoslavist
+				society_member_of = monastic_order_qurani
+			}
 			has_quest = quest_monastic_order_penance
 			NOT = { has_character_modifier = doing_penance }
 		}
@@ -363,6 +375,11 @@ society_decisions = {
 			}
 			hidden_effect = { character_event = { id = MNM.4403 } }
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 1
 
@@ -389,7 +406,8 @@ society_decisions = {
 		potential = {
 			has_dlc = "Mystics"
 			OR = {
-				is_hellenic_monastic_order_member_trigger = yes
+				society_member_of = monastic_order_stoics 
+				society_member_of = monastic_order_jewish
 				is_dharmic_monastic_member_trigger = yes
 			}
 			has_quest = quest_monastic_order_meditation
@@ -421,6 +439,11 @@ society_decisions = {
 			}
 			hidden_effect = { character_event = { id = MNM.4403 } }
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 1
 
@@ -472,6 +495,9 @@ society_decisions = {
 			}
 			piety = -100
 		}
+
+		revoke_allowed = { always = no }
+
 		ai_will_do = {
 			factor = 0
 		}
@@ -530,6 +556,11 @@ society_decisions = {
 				}
 			}
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 1
 
@@ -586,6 +617,11 @@ society_decisions = {
 			pay_back_assassins_effect = yes
 			remove_assassins_debt_effect = yes
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 1
 
@@ -658,8 +694,8 @@ society_decisions = {
 		}
 
 		effect = {
+			wealth = -200
 			tooltip = {
-				wealth = -200
 				add_society_currency_minor_effect = yes
 			}
 			hidden_effect = {
@@ -674,6 +710,11 @@ society_decisions = {
 				}
 			}
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 1
 
@@ -755,6 +796,11 @@ society_decisions = {
 			detract_society_currency_major_effect = yes
 			sound_effect = generic_click_01
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 0 # decisions with the "is_mercenary" will not be calculated from the script
 		}
@@ -795,6 +841,11 @@ society_decisions = {
 			detract_society_currency_medium_effect = yes
 			sound_effect = generic_click_01
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 0
 		}
@@ -830,6 +881,74 @@ society_decisions = {
 
 targeted_decisions = {
 
+	assassins_foment_unrest = {
+		
+		ai_check_interval = 56
+		filter = independent_rulers
+		ai_target_filter = independent_rulers
+		capable_only = yes
+	    diplomacy_icon = GFX_scroll_icon
+		
+		from_potential = { 
+			has_dlc = "Mystics"
+			society_rank = {
+				society = the_assassins
+				rank == 4
+			}
+			NOT = {
+				has_character_modifier = recently_fomented_unrest
+			}
+			prisoner = no
+			is_incapable = no
+		}
+		potential = {
+			ROOT = {
+				NOT = {
+					has_character_modifier = unrest_fomented_in_realm
+				}
+				NOT = {
+					religion = FROM
+				}
+				NOR = {
+					is_close_relative = FROM
+					is_consort = FROM
+					is_main_spouse = FROM
+					is_friend = FROM
+					is_lover = FROM
+				}
+			}
+		}
+
+		allow = {
+			FROM = {
+				has_society_currency_major_trigger = yes
+				wealth = 250
+			}
+		}
+		effect = {
+			FROM = {
+				has_society_currency_major_trigger = yes
+				wealth = -250
+				add_character_modifier = { 
+					modifier = recently_fomented_unrest 
+					months = 48 
+					hidden = yes
+				}
+			}
+			ROOT = {
+				add_character_modifier = { modifier = unrest_fomented_in_realm months = 24 }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.75
+			}
+		}
+	}
 	#Action: recruit assassins
 	assassins_recruit = {
 		ai_target_filter = realm
@@ -947,6 +1066,9 @@ targeted_decisions = {
 				}
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1060,6 +1182,11 @@ targeted_decisions = {
 			}
 			
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1092,7 +1219,6 @@ targeted_decisions = {
 		only_playable = yes
 		
 		ai_target_filter = realm
-		ai_target_filter = rivals
 		ai_check_interval = 24
 
 		from_potential = {
@@ -1124,7 +1250,6 @@ targeted_decisions = {
 				any_lover = { any_lover = { character = FROM } } #Lover of lover
 				ROOT = { any_claim = { any_claimant = { character = FROM } } } #Somneone sharing claims
 				AND = {
-					true_religion_shiite_trigger = no
 					is_ruler = yes
 					OR = {
 						trait = zealous
@@ -1156,6 +1281,11 @@ targeted_decisions = {
 			}
 			FROM = { detract_society_currency_medium_effect = yes }
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1221,6 +1351,11 @@ targeted_decisions = {
 				FROM = { clr_character_flag = assassins_marked_someone_for_death }
 			}
 		}
+
+		revoke_allowed = {
+			always = no
+		}
+
 		ai_will_do = { 
 			factor = 0
 		}
@@ -1292,6 +1427,10 @@ targeted_decisions = {
 	    		character_event = { id = MNM.6250 }
 	    	}
 	    }
+	    
+	    revoke_allowed = {
+	        always = no
+	    }
 	    ai_will_do = {
 	        factor = 1
 	        modifier = {
@@ -1322,7 +1461,8 @@ society_decisions = {
 			OR = {
 				is_dharmic_monastic_member_trigger = yes
 				is_christian_monastic_member_trigger = yes
-				is_hellenic_monastic_order_member_trigger = yes
+				society_member_of = monastic_order_jugoslavist
+				society_member_of = monastic_order_stoics
 			}
 			society_rank >= 2
 			NOT = { has_character_modifier = promise_of_celibacy }
@@ -1358,8 +1498,9 @@ society_decisions = {
 		potential = {
 			OR = {
 				is_christian_monastic_member_trigger = yes
+				society_member_of = monastic_order_jugoslavist
 				is_dharmic_monastic_member_trigger = yes
-				is_hellenic_monastic_order_member_trigger = yes
+				society_member_of = monastic_order_stoics
 			}
 			society_rank >= 2
 			trait = celibate
@@ -1392,7 +1533,7 @@ society_decisions = {
 		
 		potential = {
 			is_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = no
+			NOT = { society_member_of = monastic_order_stoics }
 			OR = {
 				has_quest = quest_monastic_order_donate_to_charity
 				NOT = { has_character_modifier = recently_donated_to_charity}
@@ -1511,6 +1652,8 @@ society_decisions = {
 			}
 		}
 	}
+
+
 }
 
 targeted_decisions = {
@@ -1676,7 +1819,7 @@ targeted_decisions = {
 	}
 
 	#Action: satanist recruit
-	satanists_recruit = {
+	devil_workshippers_recruit = {
 		is_in_society = yes
 		
 		filter = all
@@ -1688,17 +1831,11 @@ targeted_decisions = {
 			prisoner = no
 			NOT = { trait = incapable }
 			NOT = { has_character_modifier = recruitment_timer }
-			society_member_of = the_satanists
+			is_devil_worshiper_trigger = yes
 			OR = {
 				ai = no
-				society_rank = {
-					society = the_satanists
-					rank == 2
-				}
-				society_rank = {
-					society = the_satanists
-					rank == 3
-				}
+				society_rank == 2
+				society_rank == 3
 			}
 		}
 		potential = {
@@ -1720,7 +1857,14 @@ targeted_decisions = {
 			NAND = {
 				ai = yes
 				FROM = { ai = yes }
-				NOT = { can_join_society = the_satanists }
+				FROM = {
+					society = {
+						is_society_rank_full = { 
+							society = THIS
+							rank = 1
+						}
+					}
+				}
 			}
 
 			#Blocks so AI recruits sensible people (who might say no)
@@ -1734,20 +1878,21 @@ targeted_decisions = {
 				trait = drunkard
 				trait = possessed
 				trait = lunatic
-				interested_in_society = the_satanists
+				interested_in_society_of_character = FROM
 			}
 		}
 		allow = {
 			is_inaccessible_trigger = no
 			custom_tooltip = {
-				text = satanists_recruit_block_tooltip
+				text = devil_workshippers_recruit_block_tooltip
 				OR = {
 					NOT = { has_character_flag = satanists_attempted_recruitment }
-					interested_in_society = the_satanists
+					interested_in_society_of_character = FROM
 				}
 				NOT = { has_character_flag = being_recruited_by_the_satanists }
 			}
-			has_satanists_prerequisites = yes
+			has_common_devilworship_prerequisites = yes
+			same_satanist_society_potential = yes
 			FROM = {
 				is_inaccessible_trigger = no
 				custom_tooltip = {
@@ -1761,6 +1906,9 @@ targeted_decisions = {
 			set_character_flag = being_recruited_by_the_satanists
 			FROM = {
 				save_event_target_as = satanists_recruiter
+				society = {
+					save_event_target_as = satanist_society_to_join
+				}
 			}
 			hidden_effect = {
 				character_event = { id = MNM.7001 days = 3 } # recruitment chain
@@ -1782,139 +1930,8 @@ targeted_decisions = {
 				}
 			}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.2 # slow down
-				FROM = { 
-					society = { num_of_society_members > 20 } 
-				}
-			}
-			modifier = {
-				factor = 10 # recruit interested parties
-				interested_in_society = the_satanists
-			}
-			modifier = {
-				factor = 0 # don't recruit characters interested in something else
-				NOT = { interested_in_society = the_satanists }
-				is_interested_in_any_society = yes
-			}
-		}
-	}
-
-	#Action: trollcrafters recruit
-	trollcrafters_recruit = {
-		is_in_society = yes
-
-		ai_target_filter = realm
-		ai_check_interval = 24
-
-		from_potential = {
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			NOT = { has_character_modifier = recruitment_timer }
-			society_member_of = the_trollcrafters
-			OR = {
-				ai = no
-				society_rank = {
-					society = the_trollcrafters
-					rank == 2
-				}
-				society_rank = {
-					society = the_trollcrafters
-					rank == 3
-				}
-			}
-		}
-		potential = {
-			OR = {
-				FROM = { ai = no }
-				ai = no
-			}
-			OR = {
-				FROM = { ai = yes } # Only checks realm, so by definition in range
-				is_within_diplo_range = FROM
-			}
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			is_in_society = no
-
-			#AI cannot invite other AIs when society is full
-			NAND = {
-				ai = yes
-				FROM = { ai = yes }
-				NOT = { can_join_society = the_trollcrafters }
-			}
-
-			#Blocks so AI recruits sensible people (who might say no)
-			OR = {
-				FROM = { ai = no }
-				is_friend = FROM
-				is_lover = FROM
-				is_close_relative = FROM
-				trait = trusting
-				has_impious_trait_trigger = yes
-				trait = drunkard
-				trait = possessed
-				trait = lunatic
-				interested_in_society = the_trollcrafters
-			}
-
-			NAND = {
-				FROM = { ai = yes }
-				trait = zealous
-			}
-		}
-		allow = {
-			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			}
-			is_inaccessible_trigger = no
-			custom_tooltip = {
-				text = trollcrafters_recruit_block_tooltip
-				OR = {
-					NOT = { has_character_flag = trollcrafters_attempted_recruitment }
-					interested_in_society = the_trollcrafters
-				}
-				NOT = { has_character_flag = being_recruited_by_the_trollcrafters }
-			}
-			has_trollcrafters_prerequisites = yes
-			FROM = {
-				is_inaccessible_trigger = no
-				custom_tooltip = {
-					text = recruit_delay_timer_tooltip
-					NOT = { has_character_modifier = recruitment_delay_timer }
-				}
-			}
-		}
-		effect = {
-			set_character_flag = trollcrafters_attempted_recruitment
-			set_character_flag = being_recruited_by_the_trollcrafters
-			FROM = {
-				save_event_target_as = satanists_recruiter
-			}
-			hidden_effect = { 
-				character_event = { id = MNM.7001 days = 3 } # recruitment chain
-				character_event = { id = MNM.7030 days = 365 } # sends delayed back up, in case recruitment fails somehow
-				FROM = {
-					if = {
-						limit = { ai = yes }
-						add_character_modifier = {
-							name = recruitment_timer
-							days = 730
-							hidden = yes
-						}
-					}
-					add_character_modifier = {
-						name = recruitment_delay_timer
-						days = 90
-						hidden = yes
-					}
-				}
-			}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 1
@@ -1926,676 +1943,11 @@ targeted_decisions = {
 			}
 			modifier = {
 				factor = 10 # recruit interested parties
-				interested_in_society = the_trollcrafters
+				interested_in_society_of_character = FROM
 			}
 			modifier = {
 				factor = 0 # don't recruit characters interested in something else
-				NOT = { interested_in_society = the_trollcrafters }
-				is_interested_in_any_society = yes
-			}
-		}
-	}
-
-	#Action: cult of kali recruit
-	cult_of_kali_recruit = {
-		is_in_society = yes
-
-		ai_target_filter = realm
-		ai_check_interval = 24
-
-		from_potential = {
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			NOT = { has_character_modifier = recruitment_timer }
-			society_member_of = the_cult_of_kali
-			OR = {
-				ai = no
-				society_rank = {
-					society = the_cult_of_kali
-					rank == 2
-				}
-				society_rank = {
-					society = the_cult_of_kali
-					rank == 3
-				}
-			}
-		}
-		potential = {
-			OR = {
-				FROM = { ai = no }
-				ai = no
-			}
-			OR = {
-				FROM = { ai = yes } # Only checks realm, so by definition in range
-				is_within_diplo_range = FROM
-			}
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			is_in_society = no
-
-			#AI cannot invite other AIs when society is full
-			NAND = {
-				ai = yes
-				FROM = { ai = yes }
-				NOT = { can_join_society = the_trollcrafters }
-			}
-
-			#Blocks so AI recruits sensible people (who might say no)
-			OR = {
-				FROM = { ai = no }
-				is_friend = FROM
-				is_lover = FROM
-				is_close_relative = FROM
-				trait = trusting
-				has_impious_trait_trigger = yes
-				trait = drunkard
-				trait = possessed
-				trait = lunatic
-				interested_in_society = the_cult_of_kali
-			}
-
-			NAND = {
-				FROM = { ai = yes }
-				trait = zealous
-			}
-		}
-		allow = {
-			religion = hindu
-			is_inaccessible_trigger = no
-			custom_tooltip = {
-				text = cult_of_kali_recruit_block_tooltip
-				OR = {
-					NOT = { has_character_flag = cult_of_kali_attempted_recruitment }
-					interested_in_society = the_cult_of_kali
-				}
-				NOT = { has_character_flag = being_recruited_by_the_cult_of_kali }
-			}
-			has_cult_of_kali_prerequisites = yes
-			FROM = {
-				is_inaccessible_trigger = no
-				custom_tooltip = {
-					text = recruit_delay_timer_tooltip
-					NOT = { has_character_modifier = recruitment_delay_timer }
-				}
-			}
-		}
-		effect = {
-			set_character_flag = cult_of_kali_attempted_recruitment
-			set_character_flag = being_recruited_by_the_cult_of_kali
-			FROM = {
-				save_event_target_as = satanists_recruiter
-			}
-			hidden_effect = { 
-				character_event = { id = MNM.7001 days = 3 } # recruitment chain
-				character_event = { id = MNM.7030 days = 365 } # sends delayed back up, in case recruitment fails somehow
-				FROM = {
-					if = {
-						limit = { ai = yes }
-						add_character_modifier = {
-							name = recruitment_timer
-							days = 730
-							hidden = yes
-						}
-					}
-					add_character_modifier = {
-						name = recruitment_delay_timer
-						days = 90
-						hidden = yes
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.2 # slow down
-				FROM = { 
-					society = { num_of_society_members > 20 } 
-				}
-			}
-			modifier = {
-				factor = 10 # recruit interested parties
-				interested_in_society = the_cult_of_kali
-			}
-			modifier = {
-				factor = 0 # don't recruit characters interested in something else
-				NOT = { interested_in_society = the_cult_of_kali }
-				is_interested_in_any_society = yes
-			}
-		}
-	}
-
-	#Action: cold ones recruit
-	cold_ones_recruit = {
-		is_in_society = yes
-
-		ai_target_filter = realm
-		ai_check_interval = 24
-
-		from_potential = {
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			NOT = { has_character_modifier = recruitment_timer }
-			society_member_of = the_cold_ones
-			OR = {
-				ai = no
-				society_rank = {
-					society = the_cold_ones
-					rank == 2
-				}
-				society_rank = {
-					society = the_cold_ones
-					rank == 3
-				}
-			}
-		}
-		potential = {
-			OR = {
-				FROM = { ai = no }
-				ai = no
-			}
-			OR = {
-				FROM = { ai = yes } # Only checks realm, so by definition in range
-				is_within_diplo_range = FROM
-			}
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			is_in_society = no
-
-			#AI cannot invite other AIs when society is full
-			NAND = {
-				ai = yes
-				FROM = { ai = yes }
-				NOT = { can_join_society = the_cold_ones }
-			}
-
-			#Blocks so AI recruits sensible people (who might say no)
-			OR = {
-				FROM = { ai = no }
-				is_friend = FROM
-				is_lover = FROM
-				is_close_relative = FROM
-				trait = trusting
-				has_impious_trait_trigger = yes
-				trait = drunkard
-				trait = possessed
-				trait = lunatic
-				interested_in_society = the_cold_ones
-			}
-
-			NAND = {
-				FROM = { ai = yes }
-				trait = zealous
-			}
-		}
-		allow = {
-			OR = {
-				religion = baltic_pagan
-				religion = baltic_pagan_reformed
-				religion = slavic_pagan
-				religion = slavic_pagan_reformed
-				religion = finnish_pagan
-				religion = finnish_pagan_reformed
-			}
-			is_inaccessible_trigger = no
-			custom_tooltip = {
-				text = cold_ones_recruit_block_tooltip
-				OR = {
-					NOT = { has_character_flag = cold_ones_attempted_recruitment }
-					interested_in_society = the_cold_ones
-				}
-				NOT = { has_character_flag = being_recruited_by_the_cold_ones }
-			}
-			has_cold_ones_prerequisites = yes
-			FROM = {
-				is_inaccessible_trigger = no
-				custom_tooltip = {
-					text = recruit_delay_timer_tooltip
-					NOT = { has_character_modifier = recruitment_delay_timer }
-				}
-			}
-		}
-		effect = {
-			set_character_flag = cold_ones_attempted_recruitment
-			set_character_flag = being_recruited_by_the_cold_ones
-			FROM = {
-				save_event_target_as = satanists_recruiter
-			}
-			hidden_effect = { 
-				character_event = { id = MNM.7001 days = 3 } # recruitment chain
-				character_event = { id = MNM.7030 days = 365 } # sends delayed back up, in case recruitment fails somehow
-				FROM = {
-					if = {
-						limit = { ai = yes }
-						add_character_modifier = {
-							name = recruitment_timer
-							days = 730
-							hidden = yes
-						}
-					}
-					add_character_modifier = {
-						name = recruitment_delay_timer
-						days = 90
-						hidden = yes
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.2 # slow down
-				FROM = { 
-					society = { num_of_society_members > 20 } 
-				}
-			}
-			modifier = {
-				factor = 10 # recruit interested parties
-				interested_in_society = the_cold_ones
-			}
-			modifier = {
-				factor = 0 # don't recruit characters interested in something else
-				NOT = { interested_in_society = the_cold_ones }
-				is_interested_in_any_society = yes
-			}
-		}
-	}
-
-	#Action: plaguebringers_recruit
-	plaguebringers_recruit = {
-		is_in_society = yes
-
-		ai_target_filter = realm
-		ai_check_interval = 24
-
-		from_potential = {
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			NOT = { has_character_modifier = recruitment_timer }
-			society_member_of = the_plaguebringers
-			OR = {
-				ai = no
-				society_rank = {
-					society = the_plaguebringers
-					rank == 2
-				}
-				society_rank = {
-					society = the_plaguebringers
-					rank == 3
-				}
-			}
-		}
-		potential = {
-			OR = {
-				FROM = { ai = no }
-				ai = no
-			}
-			OR = {
-				FROM = { ai = yes } # Only checks realm, so by definition in range
-				is_within_diplo_range = FROM
-			}
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			is_in_society = no
-
-			#AI cannot invite other AIs when society is full
-			NAND = {
-				ai = yes
-				FROM = { ai = yes }
-				NOT = { can_join_society = the_plaguebringers }
-			}
-
-			#Blocks so AI recruits sensible people (who might say no)
-			OR = {
-				FROM = { ai = no }
-				is_friend = FROM
-				is_lover = FROM
-				is_close_relative = FROM
-				trait = trusting
-				has_impious_trait_trigger = yes
-				trait = drunkard
-				trait = possessed
-				trait = lunatic
-				interested_in_society = the_plaguebringers
-			}
-
-			NAND = {
-				FROM = { ai = yes }
-				trait = zealous
-			}
-		}
-		allow = {
-			OR = {
-				religion = tengri_pagan
-				religion = tengri_pagan_reformed
-			}
-			is_inaccessible_trigger = no
-			custom_tooltip = {
-				text = plaguebringers_recruit_block_tooltip
-				OR = {
-					NOT = { has_character_flag = plaguebringers_attempted_recruitment }
-					interested_in_society = the_plaguebringers
-				}
-				NOT = { has_character_flag = being_recruited_by_the_plaguebringers }
-			}
-			has_plaguebringers_prerequisites = yes
-			FROM = {
-				is_inaccessible_trigger = no
-				custom_tooltip = {
-					text = recruit_delay_timer_tooltip
-					NOT = { has_character_modifier = recruitment_delay_timer }
-				}
-			}
-		}
-		effect = {
-			set_character_flag = plaguebringers_attempted_recruitment
-			set_character_flag = being_recruited_by_the_plaguebringers
-			FROM = {
-				save_event_target_as = satanists_recruiter
-			}
-			hidden_effect = { 
-				character_event = { id = MNM.7001 days = 3 } # recruitment chain
-				character_event = { id = MNM.7030 days = 365 } # sends delayed back up, in case recruitment fails somehow
-				FROM = {
-					if = {
-						limit = { ai = yes }
-						add_character_modifier = {
-							name = recruitment_timer
-							days = 730
-							hidden = yes
-						}
-					}
-					add_character_modifier = {
-						name = recruitment_delay_timer
-						days = 90
-						hidden = yes
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.2 # slow down
-				FROM = { 
-					society = { num_of_society_members > 20 } 
-				}
-			}
-			modifier = {
-				factor = 10 # recruit interested parties
-				interested_in_society = the_plaguebringers
-			}
-			modifier = {
-				factor = 0 # don't recruit characters interested in something else
-				NOT = { interested_in_society = the_plaguebringers }
-				is_interested_in_any_society = yes
-			}
-		}
-	}
-	#Action: vodouns recruit
-	vodouns_recruit = {
-		is_in_society = yes
-
-		ai_target_filter = realm
-		ai_check_interval = 24
-
-		from_potential = {
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			NOT = { has_character_modifier = recruitment_timer }
-			society_member_of = the_vodouns
-			OR = {
-				ai = no
-				society_rank = {
-					society = the_vodouns
-					rank == 2
-				}
-				society_rank = {
-					society = the_vodouns
-					rank == 3
-				}
-			}
-		}
-		potential = {
-			OR = {
-				FROM = { ai = no }
-				ai = no
-			}
-			OR = {
-				FROM = { ai = yes } # Only checks realm, so by definition in range
-				is_within_diplo_range = FROM
-			}
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			is_in_society = no
-
-			#AI cannot invite other AIs when society is full
-			NAND = {
-				ai = yes
-				FROM = { ai = yes }
-				NOT = { can_join_society = the_vodouns }
-			}
-
-			#Blocks so AI recruits sensible people (who might say no)
-			OR = {
-				FROM = { ai = no }
-				is_friend = FROM
-				is_lover = FROM
-				is_close_relative = FROM
-				trait = trusting
-				has_impious_trait_trigger = yes
-				trait = drunkard
-				trait = possessed
-				trait = lunatic
-				interested_in_society = the_vodouns
-			}
-
-			NAND = {
-				FROM = { ai = yes }
-				trait = zealous
-			}
-		}
-		allow = {
-			OR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-			}
-			is_inaccessible_trigger = no
-			custom_tooltip = {
-				text = vodouns_recruit_block_tooltip
-				OR = {
-					NOT = { has_character_flag = vodouns_attempted_recruitment }
-					interested_in_society = the_vodouns
-				}
-				NOT = { has_character_flag = being_recruited_by_the_vodouns }
-			}
-			has_vodouns_prerequisites = yes
-			FROM = {
-				is_inaccessible_trigger = no
-				custom_tooltip = {
-					text = recruit_delay_timer_tooltip
-					NOT = { has_character_modifier = recruitment_delay_timer }
-				}
-			}
-		}
-		effect = {
-			set_character_flag = vodouns_attempted_recruitment
-			set_character_flag = being_recruited_by_the_vodouns
-			FROM = {
-				save_event_target_as = satanists_recruiter
-			}
-			hidden_effect = { 
-				character_event = { id = MNM.7001 days = 3 } # recruitment chain
-				character_event = { id = MNM.7030 days = 365 } # sends delayed back up, in case recruitment fails somehow
-				FROM = {
-					if = {
-						limit = { ai = yes }
-						add_character_modifier = {
-							name = recruitment_timer
-							days = 730
-							hidden = yes
-						}
-					}
-					add_character_modifier = {
-						name = recruitment_delay_timer
-						days = 90
-						hidden = yes
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.2 # slow down
-				FROM = { 
-					society = { num_of_society_members > 20 } 
-				}
-			}
-			modifier = {
-				factor = 10 # recruit interested parties
-				interested_in_society = the_vodouns
-			}
-			modifier = {
-				factor = 0 # don't recruit characters interested in something else
-				NOT = { interested_in_society = the_vodouns }
-				is_interested_in_any_society = yes
-			}
-		}
-	}
-	#Action: Bacchants_recruit
-	bacchants_recruit = {
-		is_in_society = yes
-
-		ai_target_filter = realm
-		ai_check_interval = 24
-
-		from_potential = {
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			NOT = { has_character_modifier = recruitment_timer }
-			society_member_of = the_bacchants
-			OR = {
-				ai = no
-				society_rank = {
-					society = the_bacchants
-					rank == 2
-				}
-				society_rank = {
-					society = the_bacchants
-					rank == 3
-				}
-			}
-		}
-		potential = {
-			OR = {
-				FROM = { ai = no }
-				ai = no
-			}
-			OR = {
-				FROM = { ai = yes } # Only checks realm, so by definition in range
-				is_within_diplo_range = FROM
-			}
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			is_in_society = no
-
-			#AI cannot invite other AIs when society is full
-			NAND = {
-				ai = yes
-				FROM = { ai = yes }
-				NOT = { can_join_society = the_bacchants }
-			}
-
-			#Blocks so AI recruits sensible people (who might say no)
-			OR = {
-				FROM = { ai = no }
-				is_friend = FROM
-				is_lover = FROM
-				is_close_relative = FROM
-				trait = trusting
-				has_impious_trait_trigger = yes
-				trait = drunkard
-				trait = possessed
-				trait = lunatic
-				interested_in_society = the_bacchants
-			}
-
-			NAND = {
-				FROM = { ai = yes }
-				trait = zealous
-			}
-		}
-		allow = {
-			is_inaccessible_trigger = no
-			custom_tooltip = {
-				text = bacchants_recruit_block_tooltip
-				OR = {
-					NOT = { has_character_flag = bacchants_attempted_recruitment }
-					interested_in_society = the_bacchants
-				}
-				NOT = { has_character_flag = being_recruited_by_the_bacchants }
-			}
-			has_bacchants_prerequisites = yes
-			FROM = {
-				is_inaccessible_trigger = no
-				custom_tooltip = {
-					text = recruit_delay_timer_tooltip
-					NOT = { has_character_modifier = recruitment_delay_timer }
-				}
-			}
-		}
-		effect = {
-			set_character_flag = bacchants_attempted_recruitment
-			set_character_flag = being_recruited_by_the_bacchants
-			FROM = {
-				save_event_target_as = satanists_recruiter
-			}
-			hidden_effect = { 
-				character_event = { id = MNM.7001 days = 3 } # recruitment chain
-				character_event = { id = MNM.7030 days = 365 } # sends delayed back up, in case recruitment fails somehow
-				FROM = {
-					if = {
-						limit = { ai = yes }
-						add_character_modifier = {
-							name = recruitment_timer
-							days = 730
-							hidden = yes
-						}
-					}
-					add_character_modifier = {
-						name = recruitment_delay_timer
-						days = 90
-						hidden = yes
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.2 # slow down
-				FROM = { 
-					society = { num_of_society_members > 20 } 
-				}
-			}
-			modifier = {
-				factor = 10 # recruit interested parties
-				interested_in_society = the_bacchants
-			}
-			modifier = {
-				factor = 0 # don't recruit characters interested in something else
-				NOT = { interested_in_society = the_bacchants }
+				NOT = { interested_in_society_of_character = FROM }
 				is_interested_in_any_society = yes
 			}
 		}
@@ -3344,7 +2696,7 @@ targeted_decisions = {
 					OR = {
 						AND = {
 							is_landed = yes
-							capital_holding = { holding_type = temple }
+							capital_holding = { holding_type = TEMPLE }
 						}
 					    AND = {
 					        tier = baron
@@ -3352,7 +2704,7 @@ targeted_decisions = {
 					            any_demesne_province = {
 					                any_province_holding = {
 					                    owner = { character = ROOT }
-					                    holding_type = temple
+					                    holding_type = TEMPLE
 					                }
 					            }
 					        }
@@ -3517,55 +2869,10 @@ targeted_decisions = {
 			}
 			OR = {
 				ai = no
-				NOR = {
-					AND = {
-						society_member_of = the_satanists
-						is_society_rank_full = {
-							society = the_satanists
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_cold_ones
-						is_society_rank_full = {
-							society = the_cold_ones
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_plaguebringers
-						is_society_rank_full = {
-							society = the_plaguebringers
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_cult_of_kali
-						is_society_rank_full = {
-							society = the_cult_of_kali
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_trollcrafters
-						is_society_rank_full = {
-							society = the_trollcrafters
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_vodouns
-						is_society_rank_full = {
-							society = the_vodouns
-							rank = 1
-						}
-					}
-					AND = {
-						society_member_of = the_bacchants
-						is_society_rank_full = {
-							society = the_bacchants
-							rank = 1
-						}
+				society = {
+					is_society_rank_full = { 
+						society = THIS
+						rank = 1
 					}
 				}
 			}
@@ -3577,93 +2884,6 @@ targeted_decisions = {
 			NOT = {
 				trait = incapable
 			}
-			OR = {
-				AND = {
-					FROM = {
-						society_member_of = the_satanists
-					}
-					OR = {
-						religion_group = christian
-						religion_group = muslim
-						religion_group = zoroastrian_group
-						religion_group = jewish_group
-						religion = zun_pagan
-						religion = zun_pagan_reformed
-					}
-				}
-				AND = {
-					FROM = {
-						society_member_of = the_cold_ones
-					}
-					OR = {
-						religion = baltic_pagan
-						religion = baltic_pagan_reformed
-						secret_religion = baltic_pagan
-						secret_religion = baltic_pagan_reformed
-						religion = slavic_pagan
-						religion = slavic_pagan_reformed
-						secret_religion = slavic_pagan
-						secret_religion = slavic_pagan_reformed
-						religion = finnish_pagan
-						religion = finnish_pagan_reformed
-						secret_religion = finnish_pagan
-						secret_religion = finnish_pagan_reformed			
-					}
-				}
-				AND = {
-					FROM = {
-						society_member_of = the_plaguebringers
-					}
-					OR = {
-						religion = tengri_pagan
-						religion = tengri_pagan_reformed
-						secret_religion = tengri_pagan
-						secret_religion = tengri_pagan_reformed
-					}
-				}
-				AND = {
-					FROM = {
-						society_member_of = the_cult_of_kali
-					}
-					OR = {
-						religion = hindu
-						secret_religion = hindu
-					}
-				}
-				AND = {
-					FROM = {
-						society_member_of = the_trollcrafters
-					}
-					OR = {
-						religion = norse_pagan
-						religion = norse_pagan_reformed
-						secret_religion = norse_pagan
-						secret_religion = norse_pagan_reformed
-					}
-				}
-				AND = {
-					FROM = {
-						society_member_of = the_vodouns
-					}
-					OR = {
-						religion = west_african_pagan
-						religion = west_african_pagan_reformed
-						secret_religion = west_african_pagan
-						secret_religion = west_african_pagan_reformed
-					}
-				}
-				AND = {
-					FROM = {
-						society_member_of = the_bacchants
-					}
-					OR = {
-						religion = hellenic_pagan
-						religion = hellenic_pagan_reformed
-						secret_religion = hellenic_pagan
-						secret_religion = hellenic_pagan_reformed
-					}
-				}
-			}
 		}
 
 		allow = {
@@ -3672,6 +2892,7 @@ targeted_decisions = {
 			NOT = { same_society_as = FROM }
 			NOT = { trait = zealous }
 			NOT = { has_character_modifier = recent_induction_attempt }
+			same_satanist_society_potential = yes
 		}
 		effect = {
 			FROM = {
@@ -3768,6 +2989,9 @@ targeted_decisions = {
 				text = outcome_will_depend_on_roots_skill_tt
 			}
 		}
+
+		revoke_allowed = { always = no }
+
 		ai_will_do = {
 			factor = 0.01
 			modifier = {
@@ -3848,6 +3072,9 @@ targeted_decisions = {
 				}
 			}
 		}
+
+		revoke_allowed = { always = no }
+
 		ai_will_do = {
 			factor = 0.3
 			modifier = {
@@ -4002,6 +3229,10 @@ targeted_decisions = {
 				}
 			}
 		}
+		
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 0 		# 1 = 100% chance every month (for each allowed target!)
 		}
@@ -4034,6 +3265,11 @@ targeted_decisions = {
 				ROOT = { character_event = { id = MNM.20100 tooltip = stop_abduct_decision_tt } }
 			}
 		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 0
 		}
@@ -4067,6 +3303,11 @@ targeted_decisions = {
 				FROM = { character_event = { id = MNM.20100 } }
 			}
 		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
 		ai_will_do = {
 			factor = 0
 		}
@@ -4137,6 +3378,9 @@ decisions = {
 					}
 				}
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 1

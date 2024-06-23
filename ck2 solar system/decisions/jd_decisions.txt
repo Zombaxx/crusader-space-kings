@@ -13,14 +13,19 @@ decisions = {
 		ai_check_interval = 60
 		potential = {
 			OR = {
-				culture_group = chinese_group
-				culture = khitan
-				culture = tangut
-				culture = jurchen
+				culture_group = niger_congolese
+				culture_group = chadic
+				culture_group = senegambian
+				culture_group = mande
+				culture_group = francacfrique
+				culture_group = afroatlantic
 			}
 			is_nomadic = no
 			is_feudal = yes
-			NOT = { government = chinese_imperial_government }
+			NOR = { 
+				government = chinese_imperial_government 
+				government = confucian_bureaucracy 
+			}
 			has_dlc = "Jade Dragon"
 			holy_order = no
 			OR = {
@@ -45,12 +50,12 @@ decisions = {
 			tier = EMPEROR
 			realm_size = 200
 			conditional_tooltip = {
-				trigger = { religion = elven_tribunal_heresy }
+				trigger = { religion = islamity }
 				prestige = 8000
 				wealth = 500
 			}
 			conditional_tooltip = {
-				trigger = { NOT = { religion = elven_tribunal_heresy } }
+				trigger = { NOT = { religion = islamity } }
 				prestige = 16000
 				wealth = 1000
 			}
@@ -62,7 +67,7 @@ decisions = {
 		}
 		effect = {
 			if = {
-			    limit = { religion = elven_tribunal_heresy }
+			    limit = { religion = islamity }
 			    wealth = -500
 			}
 			else = {
@@ -81,180 +86,24 @@ decisions = {
 			}
 			custom_tooltip = {
 				text = adopt_chinese_imperialism_tt
-				hidden_effect = {
-					create_title = {
+				any_title = {
+					limit = {
 						tier = EMPEROR
-						landless = no
-						temporary = no
-						custom_created = yes
-						culture = ROOT
-						holder = ROOT
-						base_title = THIS
-						short_name = yes
-						copy_title_laws = yes
 					}
-					new_title = {
-						set_title_flag = uses_temple_names_by_script #Titles with this flag give their heirs a temple name via on_death event
-						set_title_flag = pretender_chinese_empire #Blocks all grace interactions
-						adjective = e_china_west_governor_adj #Use WP adj as it is "Chinese" but also gives the right one in different languages
-						random_list = { #Random Empire name that China doesn't have
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = tang_china } } }
-								set_name = "Mothership"
-								set_title_flag = china_name_Tang
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = jin_china } } }
-								set_name = "Freedom Bringer"
-								set_title_flag = china_name_Jin
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = wei_china } } }
-								set_name = "Celestial Overlords"
-								set_title_flag = china_name_Wei
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = qi_china } } }
-								set_name = "True Alliance of Tau Ceti"
-								set_title_flag = china_name_Qi
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = zhou_china } } }
-								set_name = "Fallen Empire"
-								set_title_flag = china_name_Zhou
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = han_china } } }
-								set_name = "Tau Ceti "
-								set_title_flag = china_name_Han
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = qin_china } } }
-								set_name = "TCSC Peacekeeper"
-								set_title_flag = china_name_Qin
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = yan_china } } }
-								set_name = "Imperium of New Terra"
-								set_title_flag = china_name_Yan
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = zhao_china } } }
-								set_name = "Alliance of Man"
-								set_title_flag = china_name_Zhao
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = liao_china } } }
-								set_name = "Aurora"
-								set_title_flag = china_name_Liao
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = yuan_china } } }
-								set_name = "TCSC Behemoth"
-								set_title_flag = china_name_Yuan
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = xia_china } } }
-								set_name = "Canterbury"
-								set_title_flag = china_name_Xia
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = qing_china } } }
-								set_name = "High Solar"
-								set_title_flag = china_name_Qing
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = dai_china } } }
-								set_name = "Pure Celestial Plane"
-								set_title_flag = china_name_Dai
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = cheng_china } } }
-								set_name = "TCSS Nauvoo"
-								set_title_flag = china_name_Cheng
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = liang_china } } }
-								set_name = "New Terra"
-								set_title_flag = china_name_Liang
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = song_china } } }
-								set_name = "Tau Ceti Defectors"
-								set_title_flag = china_name_Song
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = ming_china } } }
-								set_name = "United Planets of Tau Ceti"
-								set_title_flag = china_name_Ming
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = shu_china } } }
-								set_name = "Tau Ceti Humanitarian Expedition"
-								set_title_flag = china_name_Shu
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = wu_china } } }
-								set_name = "TCSC Spacer's Choice"
-								set_title_flag = china_name_Wu
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = chu_china } } }
-								set_name = "TCSC Infinity"
-								set_title_flag = china_name_Chu
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = yue_china } } }
-								set_name = "Starship Galactica"
-								set_title_flag = china_name_Yue
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = yin_china } } }
-								set_name = "TCSC Serenity"
-								set_title_flag = china_name_Yin
-							}
-							1 = { 
-								trigger = { NOT = { offmap_china = { has_offmap_name = shun_china } } }
-								set_name = "TCSC Spaceball"
-								set_title_flag = china_name_Shun
-							}
-						}
-						add_law = {
-							law = succ_primogeniture
-							cooldown = no
-							opinion_effect = no
-						}
+					set_title_flag = pretender_chinese_empire 
+					adjective = e_china_west_governor_adj #Use WP adj as it is "Chinese" but also gives the right one in different languages
+					add_law = {
+						law = succ_primogeniture
+						cooldown = no
+						opinion_effect = no
 					}
 				}
-			}
-			any_demesne_title = {
-				limit = { 
-					tier = EMPEROR
-					NOT = { has_title_flag = pretender_chinese_empire }
-				}
-				destroy_landed_title = THIS
 			}
 			set_government_type = chinese_imperial_government
 			custom_tooltip = { text = adopt_chinese_imperialism_gov_tt }
-			custom_tooltip = {
-				text = adopt_chinese_imperialism_temple_name_tt
-				hidden_effect = {
-					random_list = { #Give a temple name
-						1 = { set_name = Gaozu }
-						1 = { set_name = Taizu }
-						1 = { set_name = Shizu }
-						1 = { set_name = Zhaozu }
-						1 = { set_name = Jingzu }
-						1 = { set_name = Xianzu }
-						1 = { set_name = Liezu }
-						1 = { set_name = Chengzu }
-					}
-					set_character_flag = given_temple_name_by_script
-				}
-			}
 		}
 	}
-
+	
 	raise_chinese_honor_guard = {
 		only_playable = yes
 		is_high_prio = yes
@@ -630,6 +479,12 @@ decisions = {
 				is_tributary = {
 					type = nomadic
 				}
+				is_tributary = {
+					type = corsair
+				}
+				is_tributary = {
+					type = march
+				}
 			}
 		}
 		allow = {
@@ -642,6 +497,33 @@ decisions = {
 				}
 				suzerain = {
 					independent = no
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					is_tributary = {
+						type = march
+					}
+				}
+				suzerain = {
+					independent = no
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					is_tributary = {
+						type = corsair
+					}
+				}
+				suzerain = {
+					OR = {
+						relative_realm_size = {
+							who = ROOT 
+							size < 1
+						}
+						independent = no
+						ROOT = { NOT = { religion_group = oceanic } }
+					}
 				}
 			}
 			conditional_tooltip = {
@@ -985,17 +867,17 @@ decisions = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							NOT = { region = world_india }
+							NOT = { region = world_africa_central }
 						}
 					}
 				}
-				1513 = { # Jiuquan
+				1746 = { # Kadana
 					save_event_target_as = spawn_province
 				}
 			}
 			else = {
 				offmap_china = { set_offmap_flag = troop_spawn_india_temp }
-				1318 = { # Samatata
+				2329 = { # Conakry
 					save_event_target_as = spawn_province
 				}
 				set_variable = {
@@ -1018,7 +900,7 @@ decisions = {
 						value = -1
 					}
 					spawn_fleet = {
-						province = 1411 # ganges delta
+						province = 2301 # Guinea coast
 						owner = ROOT
 						disband_on_peace = yes
 						troops =
@@ -1062,9 +944,9 @@ decisions = {
 		allow = {
 			learning = 8
 			scaled_wealth = {
-			    value = 1
-			    min = 50
-			    max = 1002
+			    value = 0.5
+			    min = 25
+			    max = 250
 			}
 			custom_tooltip = {
 				text = not_currently_working_on_a_book_tt
@@ -1122,9 +1004,9 @@ decisions = {
 				text = choose_a_topic_tt
 			}
 			scaled_wealth = {
-			    value = -1
-			    min = -50
-			    max = -1002
+			    value = -0.5
+			    min = -25
+			    max = -250
 			}
 
 			set_character_flag = currently_working_on_a_book
@@ -1180,49 +1062,6 @@ decisions = {
 		}
 	}
 	
-	bon_tolerate_indians = {
-		only_playable = yes
-		ai_check_interval = 36
-
-		potential = {
-			religion = bon # Only unreformed. Reformers can pick the Syncretism Doctrine to sympathize with everyone they wish.
-			NOT = {
-				trait = sympathy_indian
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-		allow = {
-			NOT = {
-				trait = zealous
-			}
-			custom_tooltip = {
-				text = bon_sympathy_eastern
-				hidden_tooltip = {
-					OR = {
-						any_vassal = {
-							religion_group = indian_group
-						}
-						any_liege = {
-							religion_group = indian_group
-						}
-						any_realm_province = {
-							religion_group = indian_group
-						}
-					}
-				}
-			}
-			piety = 50
-		}
-		effect = {
-			add_trait = sympathy_indian
-			piety = -50
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 }
 
 targeted_decisions = {

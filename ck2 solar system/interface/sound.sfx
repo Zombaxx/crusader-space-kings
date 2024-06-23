@@ -1827,16 +1827,7 @@ quest_success =
 {
 	file = "money_in.wav"
 	volume = 65
-}
-
-### ACR ###
-death_lost_desert = {
-	file = "death_lost_desert.wav"
-	on_demand = yes
-	volume = 75
-}
-
-
+}	
 ################ SOCIETIES ################
 
 society_rank_up =
@@ -2758,5 +2749,39 @@ wonder_complete_second_tier = {
 wonder_complete_third_tier = {
 	file = "sfx_wonder_tier_complete_03.wav"
 	volume = 70
+	on_demand = yes
+}
+electric_shock_sound_effect =
+{
+	file = "electric_shock_sound_effect.wav"
+	on_demand = yes
+	volume = 85
+}
+
+
+
+siberan_ballad_red = {
+	file = "siberan_ballad_red.wav"
+	volume = 85
+	on_demand = yes
+}
+siberan_ballad_city = {
+	file = "siberan_ballad_city.wav"
+	volume = 85
+	on_demand = yes
+}
+siberan_ballad_strife = {
+	file = "siberan_ballad_fight.wav"
+	volume = 100
+	on_demand = yes
+}
+siberan_ballad_deer = {
+	file = "siberan_ballad_deer.wav"
+	volume = 85
+	on_demand = yes
+}
+siberan_ballad_time = {
+	file = "siberan_ballad_time.wav"
+	volume = 85
 	on_demand = yes
 }

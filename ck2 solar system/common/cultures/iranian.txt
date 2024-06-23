@@ -1,0 +1,1145 @@
+iranian = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { muslimgfx }
+
+	persian = {
+		graphical_cultures = { persiangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.8 0.4 }
+
+		male_names = {
+			Abbas_Abbas Abolhassan_Hasan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Ali_Ali Allahyar Amin_Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Assad_Asad Aurang Ayeshah 
+			Babak_Babak Bahman Bahram_Bahram Bakhtiar_Bakhtiar Behrad Behrouz Bozorg 
+			Danush_Danush Darab Dariush_Darius Davud_David Djamasp 
+			Ebrahim_Abraham Ehsan_Ihsan Esfandiar_Esfandiar Eskander_Alexander Esma'il_Ishmael
+			Faramarz_Faramarz Faraz_Faraz Fareed_Farid Farhad_Farhad Fariborz_Fariborz Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fath Ferdows_Firdaus Fereedun_Feridun 
+			Ghobad Gholam_Ghulam Godarz Goshtasb_Goshtasb 
+			Hafez_Hafiz Hassan_Hasan Hazarasp_Hazarasp Hedayat Hooshyar_Hooshyar Hormazd_Hormazd Hormoz Hossein_Hossein Humayun
+			Jahandar_Jahandar Jahangir_Jahangir Jahanshah_Jahanshah Jamshid_Jamshid Javeed_Javeed 
+			Kambiz Kamran_Kamran Kavoos_Kavoos Keyghobad Keykhosrau_Keykhosrau Kharmandar_Kharmandar Khashayar_Khashayar Kavadh Khodadad_Khodadad Khosrau_Khosrau Khudayar_Khudayar Khurshid_Khurshid Kurush_Cyrus 
+			Mahmud_Mahmud Manuchihr_Manuchihr Manushihr_Manushihr Marzuban_Marzuban Mashad_Mashad Maziar Mehrab Mehrzad Mohammed_Muhammad Morad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Nasr_Nasir Naveed Nawid Nezam 
+			Parviz_Parviz Pashang_Pashang Peroz_Peroz Pujman 
+			Reza Rostam_Rostam Ruhollah 
+			Sadri Salman_Solomon Shahab_Shahab Shahbaz_Shahbaz Shahin_Shahin Shahram_Shahram Shahrokh_Sharokh Shahruz_Shahruz Shahryar_Shahryar Shapur_Shapur Shayan_Shayan Sina 
+			Tahmasb_Tahmasb 
+			Vahhab_Vahhab Vahid_Wahid Vali_Wali Vandad Varshasb_Varshasb Vishtasb_Vishtasb 
+			Yazdegerd Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zartosht_Zartosht Zia
+		}
+		female_names = {
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh 
+			Bahar Banafsheh Behnaz Burandokht_Pourandokht 
+			Darya Delaram Delbar Dinah Donya 
+			Elham Elnaz 
+			Farah Fareedeh Farnaz Farrin Farva Furuzan 
+			Ghamze Ghazal Ghoncheh_Ghoncheh Golbahar_Golbahar Golnaz_Golnaz Golpari Golshan 
+			Hamdam Hurmat 
+			Irandokht 
+			Jamileh Javaneh 
+			Leila 
+			Mahdokht Mahtab Mariam_Maria
+			Navvaba Nazgol_Nazgol Nazilla Noor 
+			Parvaneh_Parvaneh Parvin Pertevniyal Pourandokht_Pourandokht 
+			Roshanora Roxana 
+			Salomeh Shahrzad Shahzadeh Shirin Soraya 
+			Touran Tourandokht 
+			Yasaman_Jasmine Yekta 
+			Zarrindokht Zeynab Zohreh
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "zade"
+		female_patronym = "dokht"
+		prefix = no
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}
+	parsi = {
+		graphical_cultures = { persiangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.5 0.3 0.3 }
+	
+		male_names = {
+		    Faroukh Farukh
+			Mantra
+			Nickdale
+			Phiroz Phiroze
+			Wehzaan
+			Zubin
+		    #gujarati names
+			Laskandar_Alexander Abhayapala Acharya Ahila Ajairaja_Jayaraja Ajayapala Ajay-Singh Alhana Allat Amarangeya Ambra-Prasad Amritapala Anahilla 
+			Ari-Singh Arjunavarman Arnoraja Asaraja Asvapala Balaprasada Baliraja Bhatarka Bhert-Patt Bhima_Bhima Bhimadeva_Bhima 
+			Bhim-Singh Bhuvan-Singh Bhoja Bhoo-Chand Chachiga Chamundaraja Chandanaraja Chandraraja Chaud-Singh Dadda Dambarisimha 
+			Deopali-Deo Devapala Dharapatta Dharasena Dharmapala Dhruvasena Dinakarn Dronasinha Dungar-Singh Durlabharaja Gajasimha 
+			Gopala Gopendraka_Gopendraraja Gopendraraja_Gopendraraja Govinda_Govindaraja Govindapala_Govindaraja Govindaraja_Govindaraja 
+			Guhasena Guvaka_Govindaraja Hammira Hammir-Singh Hanspal Hariraja Harischandra Hemachandra Jagadeva Jaitrasimha_Jaitrasimha 
+			Jaitra-Singh_Jaitrasimha Jaitugideva Jasapala Jaskarn Jayapala Jayaraja_Jayaraja Jayasimha_Jayasimha Jay-Singh_Jayasimha 
+			Jay-Singh-Deo Jayat-Singh_Jayasimha Jayavarman Jayshikari Jendraraja Jojalla Kalbhoj Kanhadadeva Karandeva_Karnadeva Karan-Singh 
+			Karnadeva_Karnadeva Katudeva Katukaraja Keerti-Verma_Kirtivarman Kelhana Kharagraha Khuman Kirtipala Kirtivarman_Kirtivarman 
+			Kumarapala Kshemraja_Xemraja Kshem-Singh Kshetra-Singh Kumar-Singh Lakhanapala Lakhshaman-Singh Lakshmana_Lakshmanadeva 
+			Lakshmanadeva_Lakshmanadeva Lakshmivarman Lavanyakarna Lunavarman Luntiga Madanapala Mahap Mahayak Mahendra_Mahendrapala 
+			Mahendrapala_Mahendra Mahipala Mahlakadeva Maladeva Manavasimha Mathan-Singh Mattat Mihira Mulraja Nagabhata Nagarjuna Nagraja 
+			Naradeva Narapati Naravarman_Naravarman Naravarmandeva_Naravarman Narayanapala Nar-Verma_Naravarman Narwahan Nayapala Padam-Singh 
+			Prahladana Pratapa Prithvipal_Prithviraja Prithivipala_Prithviraja Prithviraja_Prithviraja Purnpala Rahap Rajapala Rajyapala 
+			Ramabhadra Ramapala Ratan-Singh Ratnapala Rayapala Rudrapala Sahajapala Sahanapala Samanta_Samanta Samant-Singh_Samanta 
+			Samantasimha_Samanta Samarasimha_Samarasimha Samar-Singh_Samarasimha Shakti-Kumar Shaliwahan Shuchi-Verma Shurapala Siladitya 
+			Sindhuraja Singhraja Sinha Sinhad-Deo Siyaka Sohiya Someshwara Subhatavarman Suratrana Tejasimha_Tejasimha Tej-Singh_Tejasimha 
+			Trailokyavarman Tribhuvanapala Trilochanpala Udayaditya Udayasimha Udayavarman Upendra Vagbhata Vahadiasimha Vairisimha_Vairisimha 
+			Vairsingh_Vairisimha Vajradeva Vakapati_Vakpati Vakpati_Vakpati Vakpatiraja_Vakpati Valhana_Valhanadeva Valhanadeva_Valhanadeva 
+			Vallabharaja Vanraja Vapyata Vasudeva Vatsaraja Vigrahapala Vigraharaja_Vigraharaja Vigrharaja_Vigraharaja Vijada-Dasasyandana 
+			Vijai-Singh Vikramaditya Vinaykpala Vindhyavarman Virama Viradeva Viranarayana Virsinh-Deo Viryarama Xemraja_Xemraja Yasovarman 
+			Yograj
+		}
+		female_names = {
+		    Aahlada
+			Hufriya
+			Mahpari Mahzarin Mantra
+			Nazneen
+			Shazneen Shirinbanu Sudabeh
+			Zarin
+		    #gujarati names
+			Annaladevi Bauladevi Bhuyikadevi Candrabhattarikadevi Chachinidevi Dehanagadevi Delhanadevi Desaladevi Hariyadevi Laxmidevi 
+			Madhavi Mahalakshmi Mahidevi Manaladevi Mayanalladevi Namalladevi Padmaladevi Padmini Prasadhanadevi Pratha Rasaladevi 
+			Rudaladevi Rudrani Rupadevi Samyukta Sidhawa Somalladevi Suhava Sundaridevi Tihunaka Udayamati
+		}
+		from_dynasty_prefix = "az "
+		
+		parent = persian
+		parent = assamese
+		parent = hindustani
+		parent = gujurati
+		parent = panjabi
+		parent = rajput
+		parent = sindhi
+		parent = marathi
+		parent = konkani
+		castes = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		modifier = default_culture_modifier
+	}
+	kurdish = {
+		graphical_cultures = { persiangfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.3 0.35 0.1 }
+
+		male_names = {
+			Abbas_Abbas Abdullah_Abdullah Abolhassan_Hasan Abu-Bakr_Abu-Bakr Ahmad_Ahmad Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad 
+			Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg 
+			Cehandar_Jahandar Cehangir_Jahangir Cehanšah_Jahanshah Cemšîd_Jamshid Cevid_Javeed 
+			Danûš_Danush Darab Daryûš_Darius Davud_David 
+			Ebrahim_Abraham Efrasiyab_Afrasiyab Efšer_Afshar Ehmed_Ahmad Ehsan Ekber_Akbar Elî_Ali Enûširwan_Anushirvan Erdehan_Ardahan Erdewan_Ardavan Erdešîr_Ardeshir Esfendiyar_Esfandiar Eskander_Alexander Ešot_Ashot Eyyub_Job 
+			Feramez_Faramarz Feraz_Faraz Fath Ferhad_Farhad Ferhan_Farhan Ferheng_Farhang Feriburz_Fariborz Ferîd_Farid Ferîdun_Feridun Ferux_Farroukh Feruxzad_Farrukhzad Ferzad_Farzad Fezl_Fadl Fezlun_Fadlun Firdews_Firdaus
+			Ghobad Gholam_Ghulam Godarz Goštasp_Goshtasb 
+			Hezarhesp_Hazarasp Hafez_Hafiz Hedayat Hesen_Hasan Hisên_Hussayn Hormoz Hosen_Hossayn Humayun Hurmiz_Hormazd 
+			Îsmaîl_Ishmael 
+			Kambiz Kamran_Kamran Keyghobad Keyxusrew_Keykhosrau Khalil_Khalil Kâvus_Kavoos Kûrušê_Cyrus 
+			Mamlan_Muhammad Mashad Mehmûd_Mahmud Mehrab Mehrzad Mensûr_Mansur Menûçihr_Manuchihr Menûšihr_Manushihr Merwan_Marwan Merzuban_Marzuban Mesûd_Masud Mihemed_Muhammad Mîrza_Mirza Mistefa_Mustafa Murad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Naveed Nawid Nesir_Nasir Nesr_Nasir Nezam Nošîrwan_Nawshirwan Nêçîrvan_Nechirwan 
+			Parviz Pujman Pêšeng_Pashang Pîroz_Peroz 
+			Revend_Rawwad Reza Ruhollah Rustam_Rostam
+			Sadri Salih_Salih Salman_Solomon Sayyid_Sayyid Sina Surxap_Surkhab 
+			Tahmasp_Tahmasb
+			Uthman_Uthman 
+			Vahhab Vahid_Wahid Vahusdan_Wahustan Vali_Wali Varšasp_Varshasb Vîštap_Vishtasb 
+			Xarmandar_Kharmandar Xašayar_Khashayar Xuršîd_Khurshid Xusrew_Khosrau Xušyar_Hooshyar Xwedadad_Khodadad Xwedayar_Khudayar 
+			Yezîd_Yazid Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zerdešt_Zartosht Zia
+			Šadî_Shadhi Šahab_Shahab Šahbaz_Shahbaz Šahenšah_Shahanshah Šahin_Shahin Šahram_Shahram Šahryar_Shahryar Šahrux_Shahrokh Šahruz_Shahruz Šapur_Shapur Šarvin_Sharwin Šawur_Shavur Šayan_Shayan Šîrkûh_Shirkuh
+		}
+
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan Burandoxt_Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan 
+			Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan 
+			Felek Fener Ferašîn Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar_Golbahar Gulšen Gulnar Gulnaz_Golnaz Gêlas 
+			Helez Heliz Helvîn Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer 
+			Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza 
+			Maša Mebest Mehrîban Mehrîcan Mehrîvan Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem_Maria Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya Mîran 
+			Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul_Nazgol Nazik Naznaz Nazê Nermê Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman 
+			Perjîn Pervîn Perwane_Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken Rûzerîn 
+			Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran 
+			Xatûn Xêlîcan Xonçe_Ghoncheh 
+			Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî Šîwen
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "kurê "
+		female_patronym = "kiçê "
+		prefix = yes
+		castes = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	sorani = {
+		graphical_cultures = { persiangfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 90 125 30 }
+
+		male_names = {
+			Abbas_Abbas Abdullah_Abdullah Abolhassan_Hasan Abu-Bakr_Abu-Bakr Ahmad_Ahmad Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad 
+			Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg 
+			Cehandar_Jahandar Cehangir_Jahangir Cehanšah_Jahanshah Cemšîd_Jamshid Cevid_Javeed 
+			Danûš_Danush Darab Daryûš_Darius Davud_David 
+			Ebrahim_Abraham Efrasiyab_Afrasiyab Efšer_Afshar Ehmed_Ahmad Ehsan Ekber_Akbar Elî_Ali Enûširwan_Anushirvan Erdehan_Ardahan Erdewan_Ardavan Erdešîr_Ardeshir Esfendiyar_Esfandiar Eskander_Alexander Ešot_Ashot Eyyub_Job 
+			Feramez_Faramarz Feraz_Faraz Fath Ferhad_Farhad Ferhan_Farhan Ferheng_Farhang Feriburz_Fariborz Ferîd_Farid Ferîdun_Feridun Ferux_Farroukh Feruxzad_Farrukhzad Ferzad_Farzad Fezl_Fadl Fezlun_Fadlun Firdews_Firdaus
+			Ghobad Gholam_Ghulam Godarz Goštasp_Goshtasb 
+			Hezarhesp_Hazarasp Hafez_Hafiz Hedayat Hesen_Hasan Hisên_Hussayn Hormoz Hosen_Hossayn Humayun Hurmiz_Hormazd 
+			Îsmaîl_Ishmael 
+			Kambiz Kamran_Kamran Keyghobad Keyxusrew_Keykhosrau Khalil_Khalil Kâvus_Kavoos Kûrušê_Cyrus 
+			Mamlan_Muhammad Mashad Mehmûd_Mahmud Mehrab Mehrzad Mensûr_Mansur Menûçihr_Manuchihr Menûšihr_Manushihr Merwan_Marwan Merzuban_Marzuban Mesûd_Masud Mihemed_Muhammad Mîrza_Mirza Mistefa_Mustafa Murad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Naveed Nawid Nesir_Nasir Nesr_Nasir Nezam Nošîrwan_Nawshirwan Nêçîrvan_Nechirwan 
+			Parviz Pujman Pêšeng_Pashang Pîroz_Peroz 
+			Revend_Rawwad Reza Ruhollah Rustam_Rostam
+			Sadri Salih_Salih Salman_Solomon Sayyid_Sayyid Sina Surxap_Surkhab 
+			Tahmasp_Tahmasb
+			Uthman_Uthman 
+			Vahhab Vahid_Wahid Vahusdan_Wahustan Vali_Wali Varšasp_Varshasb Vîštap_Vishtasb 
+			Xarmandar_Kharmandar Xašayar_Khashayar Xuršîd_Khurshid Xusrew_Khosrau Xušyar_Hooshyar Xwedadad_Khodadad Xwedayar_Khudayar 
+			Yezîd_Yazid Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zerdešt_Zartosht Zia
+			Šadî_Shadhi Šahab_Shahab Šahbaz_Shahbaz Šahenšah_Shahanshah Šahin_Shahin Šahram_Shahram Šahryar_Shahryar Šahrux_Shahrokh Šahruz_Shahruz Šapur_Shapur Šarvin_Sharwin Šawur_Shavur Šayan_Shayan Šîrkûh_Shirkuh
+		}
+
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan Burandoxt_Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan 
+			Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan 
+			Felek Fener Ferašîn Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar_Golbahar Gulšen Gulnar Gulnaz_Golnaz Gêlas 
+			Helez Heliz Helvîn Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer 
+			Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza 
+			Maša Mebest Mehrîban Mehrîcan Mehrîvan Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem_Maria Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya Mîran 
+			Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul_Nazgol Nazik Naznaz Nazê Nermê Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman 
+			Perjîn Pervîn Perwane_Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken Rûzerîn 
+			Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran 
+			Xatûn Xêlîcan Xonçe_Ghoncheh 
+			Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî Šîwen
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "kurê "
+		female_patronym = "kiçê "
+		prefix = yes
+		castes = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	xwarin = {
+		graphical_cultures = { persiangfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 110 89 28 }
+
+		male_names = {
+			Abbas_Abbas Abdullah_Abdullah Abolhassan_Hasan Abu-Bakr_Abu-Bakr Ahmad_Ahmad Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad 
+			Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg 
+			Cehandar_Jahandar Cehangir_Jahangir Cehanšah_Jahanshah Cemšîd_Jamshid Cevid_Javeed 
+			Danûš_Danush Darab Daryûš_Darius Davud_David 
+			Ebrahim_Abraham Efrasiyab_Afrasiyab Efšer_Afshar Ehmed_Ahmad Ehsan Ekber_Akbar Elî_Ali Enûširwan_Anushirvan Erdehan_Ardahan Erdewan_Ardavan Erdešîr_Ardeshir Esfendiyar_Esfandiar Eskander_Alexander Ešot_Ashot Eyyub_Job 
+			Feramez_Faramarz Feraz_Faraz Fath Ferhad_Farhad Ferhan_Farhan Ferheng_Farhang Feriburz_Fariborz Ferîd_Farid Ferîdun_Feridun Ferux_Farroukh Feruxzad_Farrukhzad Ferzad_Farzad Fezl_Fadl Fezlun_Fadlun Firdews_Firdaus
+			Ghobad Gholam_Ghulam Godarz Goštasp_Goshtasb 
+			Hezarhesp_Hazarasp Hafez_Hafiz Hedayat Hesen_Hasan Hisên_Hussayn Hormoz Hosen_Hossayn Humayun Hurmiz_Hormazd 
+			Îsmaîl_Ishmael 
+			Kambiz Kamran_Kamran Keyghobad Keyxusrew_Keykhosrau Khalil_Khalil Kâvus_Kavoos Kûrušê_Cyrus 
+			Mamlan_Muhammad Mashad Mehmûd_Mahmud Mehrab Mehrzad Mensûr_Mansur Menûçihr_Manuchihr Menûšihr_Manushihr Merwan_Marwan Merzuban_Marzuban Mesûd_Masud Mihemed_Muhammad Mîrza_Mirza Mistefa_Mustafa Murad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Naveed Nawid Nesir_Nasir Nesr_Nasir Nezam Nošîrwan_Nawshirwan Nêçîrvan_Nechirwan 
+			Parviz Pujman Pêšeng_Pashang Pîroz_Peroz 
+			Revend_Rawwad Reza Ruhollah Rustam_Rostam
+			Sadri Salih_Salih Salman_Solomon Sayyid_Sayyid Sina Surxap_Surkhab 
+			Tahmasp_Tahmasb
+			Uthman_Uthman 
+			Vahhab Vahid_Wahid Vahusdan_Wahustan Vali_Wali Varšasp_Varshasb Vîštap_Vishtasb 
+			Xarmandar_Kharmandar Xašayar_Khashayar Xuršîd_Khurshid Xusrew_Khosrau Xušyar_Hooshyar Xwedadad_Khodadad Xwedayar_Khudayar 
+			Yezîd_Yazid Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zerdešt_Zartosht Zia
+			Šadî_Shadhi Šahab_Shahab Šahbaz_Shahbaz Šahenšah_Shahanshah Šahin_Shahin Šahram_Shahram Šahryar_Shahryar Šahrux_Shahrokh Šahruz_Shahruz Šapur_Shapur Šarvin_Sharwin Šawur_Shavur Šayan_Shayan Šîrkûh_Shirkuh
+		}
+
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan Burandoxt_Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan 
+			Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan 
+			Felek Fener Ferašîn Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar_Golbahar Gulšen Gulnar Gulnaz_Golnaz Gêlas 
+			Helez Heliz Helvîn Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer 
+			Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza 
+			Maša Mebest Mehrîban Mehrîcan Mehrîvan Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem_Maria Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya Mîran 
+			Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul_Nazgol Nazik Naznaz Nazê Nermê Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman 
+			Perjîn Pervîn Perwane_Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken Rûzerîn 
+			Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran 
+			Xatûn Xêlîcan Xonçe_Ghoncheh 
+			Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî Šîwen
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "kurê "
+		female_patronym = "kiçê "
+		prefix = yes
+		castes = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	ezidi = {
+		graphical_cultures = { persiangfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 55 100 60 }
+
+		male_names = {
+			Abbas_Abbas Abdullah_Abdullah Abolhassan_Hasan Abu-Bakr_Abu-Bakr Ahmad_Ahmad Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad 
+			Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg 
+			Cehandar_Jahandar Cehangir_Jahangir Cehanšah_Jahanshah Cemšîd_Jamshid Cevid_Javeed 
+			Danûš_Danush Darab Daryûš_Darius Davud_David 
+			Ebrahim_Abraham Efrasiyab_Afrasiyab Efšer_Afshar Ehmed_Ahmad Ehsan Ekber_Akbar Elî_Ali Enûširwan_Anushirvan Erdehan_Ardahan Erdewan_Ardavan Erdešîr_Ardeshir Esfendiyar_Esfandiar Eskander_Alexander Ešot_Ashot Eyyub_Job 
+			Feramez_Faramarz Feraz_Faraz Fath Ferhad_Farhad Ferhan_Farhan Ferheng_Farhang Feriburz_Fariborz Ferîd_Farid Ferîdun_Feridun Ferux_Farroukh Feruxzad_Farrukhzad Ferzad_Farzad Fezl_Fadl Fezlun_Fadlun Firdews_Firdaus
+			Ghobad Gholam_Ghulam Godarz Goštasp_Goshtasb 
+			Hezarhesp_Hazarasp Hafez_Hafiz Hedayat Hesen_Hasan Hisên_Hussayn Hormoz Hosen_Hossayn Humayun Hurmiz_Hormazd 
+			Îsmaîl_Ishmael 
+			Kambiz Kamran_Kamran Keyghobad Keyxusrew_Keykhosrau Khalil_Khalil Kâvus_Kavoos Kûrušê_Cyrus 
+			Mamlan_Muhammad Mashad Mehmûd_Mahmud Mehrab Mehrzad Mensûr_Mansur Menûçihr_Manuchihr Menûšihr_Manushihr Merwan_Marwan Merzuban_Marzuban Mesûd_Masud Mihemed_Muhammad Mîrza_Mirza Mistefa_Mustafa Murad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Naveed Nawid Nesir_Nasir Nesr_Nasir Nezam Nošîrwan_Nawshirwan Nêçîrvan_Nechirwan 
+			Parviz Pujman Pêšeng_Pashang Pîroz_Peroz 
+			Revend_Rawwad Reza Ruhollah Rustam_Rostam
+			Sadri Salih_Salih Salman_Solomon Sayyid_Sayyid Sina Surxap_Surkhab 
+			Tahmasp_Tahmasb
+			Uthman_Uthman 
+			Vahhab Vahid_Wahid Vahusdan_Wahustan Vali_Wali Varšasp_Varshasb Vîštap_Vishtasb 
+			Xarmandar_Kharmandar Xašayar_Khashayar Xuršîd_Khurshid Xusrew_Khosrau Xušyar_Hooshyar Xwedadad_Khodadad Xwedayar_Khudayar 
+			Yezîd_Yazid Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zerdešt_Zartosht Zia
+			Šadî_Shadhi Šahab_Shahab Šahbaz_Shahbaz Šahenšah_Shahanshah Šahin_Shahin Šahram_Shahram Šahryar_Shahryar Šahrux_Shahrokh Šahruz_Shahruz Šapur_Shapur Šarvin_Sharwin Šawur_Shavur Šayan_Shayan Šîrkûh_Shirkuh
+		}
+
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan Burandoxt_Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan 
+			Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan 
+			Felek Fener Ferašîn Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar_Golbahar Gulšen Gulnar Gulnaz_Golnaz Gêlas 
+			Helez Heliz Helvîn Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer 
+			Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza 
+			Maša Mebest Mehrîban Mehrîcan Mehrîvan Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem_Maria Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya Mîran 
+			Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul_Nazgol Nazik Naznaz Nazê Nermê Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman 
+			Perjîn Pervîn Perwane_Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken Rûzerîn 
+			Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran 
+			Xatûn Xêlîcan Xonçe_Ghoncheh 
+			Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî Šîwen
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "kurê "
+		female_patronym = "kiçê "
+		prefix = yes
+		castes = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	zaza = {
+		graphical_cultures = { persiangfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.2 0.4 0.5 }
+
+		male_names = {
+			Abbas_Abbas Abdullah_Abdullah Abolhassan_Hasan Abu-Bakr_Abu-Bakr Ahmad_Ahmad Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad 
+			Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg 
+			Cehandar_Jahandar Cehangir_Jahangir Cehanšah_Jahanshah Cemšîd_Jamshid Cevid_Javeed 
+			Danûš_Danush Darab Daryûš_Darius Davud_David 
+			Ebrahim_Abraham Efrasiyab_Afrasiyab Efšer_Afshar Ehmed_Ahmad Ehsan Ekber_Akbar Elî_Ali Enûširwan_Anushirvan Erdehan_Ardahan Erdewan_Ardavan Erdešîr_Ardeshir Esfendiyar_Esfandiar Eskander_Alexander Ešot_Ashot Eyyub_Job 
+			Feramez_Faramarz Feraz_Faraz Fath Ferhad_Farhad Ferhan_Farhan Ferheng_Farhang Feriburz_Fariborz Ferîd_Farid Ferîdun_Feridun Ferux_Farroukh Feruxzad_Farrukhzad Ferzad_Farzad Fezl_Fadl Fezlun_Fadlun Firdews_Firdaus
+			Ghobad Gholam_Ghulam Godarz Goštasp_Goshtasb 
+			Hezarhesp_Hazarasp Hafez_Hafiz Hedayat Hesen_Hasan Hisên_Hussayn Hormoz Hosen_Hossayn Humayun Hurmiz_Hormazd 
+			Îsmaîl_Ishmael 
+			Kambiz Kamran_Kamran Keyghobad Keyxusrew_Keykhosrau Khalil_Khalil Kâvus_Kavoos Kûrušê_Cyrus 
+			Mamlan_Muhammad Mashad Mehmûd_Mahmud Mehrab Mehrzad Mensûr_Mansur Menûçihr_Manuchihr Menûšihr_Manushihr Merwan_Marwan Merzuban_Marzuban Mesûd_Masud Mihemed_Muhammad Mîrza_Mirza Mistefa_Mustafa Murad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Naveed Nawid Nesir_Nasir Nesr_Nasir Nezam Nošîrwan_Nawshirwan Nêçîrvan_Nechirwan 
+			Parviz Pujman Pêšeng_Pashang Pîroz_Peroz 
+			Revend_Rawwad Reza Ruhollah Rustam_Rostam
+			Sadri Salih_Salih Salman_Solomon Sayyid_Sayyid Sina Surxap_Surkhab 
+			Tahmasp_Tahmasb
+			Uthman_Uthman 
+			Vahhab Vahid_Wahid Vahusdan_Wahustan Vali_Wali Varšasp_Varshasb Vîštap_Vishtasb 
+			Xarmandar_Kharmandar Xašayar_Khashayar Xuršîd_Khurshid Xusrew_Khosrau Xušyar_Hooshyar Xwedadad_Khodadad Xwedayar_Khudayar 
+			Yezîd_Yazid Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zerdešt_Zartosht Zia
+			Šadî_Shadhi Šahab_Shahab Šahbaz_Shahbaz Šahenšah_Shahanshah Šahin_Shahin Šahram_Shahram Šahryar_Shahryar Šahrux_Shahrokh Šahruz_Shahruz Šapur_Shapur Šarvin_Sharwin Šawur_Shavur Šayan_Shayan Šîrkûh_Shirkuh
+		}
+
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan Burandoxt_Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan 
+			Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan 
+			Felek Fener Ferašîn Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar_Golbahar Gulšen Gulnar Gulnaz_Golnaz Gêlas 
+			Helez Heliz Helvîn Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer 
+			Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza 
+			Maša Mebest Mehrîban Mehrîcan Mehrîvan Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem_Maria Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya Mîran 
+			Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul_Nazgol Nazik Naznaz Nazê Nermê Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman 
+			Perjîn Pervîn Perwane_Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken Rûzerîn 
+			Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran 
+			Xatûn Xêlîcan Xonçe_Ghoncheh 
+			Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî Šîwen
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "kurê "
+		female_patronym = "kiçê "
+		prefix = yes
+		castes = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	lurish = {
+		graphical_cultures = { persiangfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.5 0.5 0.4 }
+
+		male_names = {
+			Abbas_Abbas Abdullah_Abdullah Ahmed_Ahmad Alah-Verdi Allahyar Amin_Amin Aram Assad Aurang Ayeshah Azad 
+			Babek_Babak Bahman Behrad Behram_Bahram Behrouz Bextîyar_Bakhtiar Bozorg 
+			Cehandar_Jahandar Cehangir_Jahangir Cehanšah_Jahanshah Cemšîd_Jamshid Cevid_Javeed 
+			Danus_Danush Darab Daryus_Darius Davud_David 
+			Ebrahim_Abraham Efrasiyab_Afrasiyab Efšer_Afshar Ehmed_Ahmad Ehsan Ekber_Akbar Elî_Ali Enûširwan_Anushirvan Erdehan_Ardahan Erdewan_Ardavan Erdešîr_Ardeshir Esfendiyar_Esfandiar Eskander_Alexander Ešot_Ashot Eyyub_Job 
+			Feramez_Faramarz Feraz_Faraz Fath_Fath Ferhad_Farhad Ferhan_Farhan Ferheng_Farhang Feriburz_Fariborz Ferîd_Farid Ferîdun_Feridun Ferux_Farroukh Feruxzad_Farrukhzad Ferzad_Farzad Fezl_Fadl Fezlun_Fadlun Firdews_Firdaus
+			Ghobad Gholam_Ghulam Godarz Gostasp_Goshtasb 
+			Hezarhesp_Hazarasp Hafez_Hafiz Hedayat Hesen_Hasan Hisên_Hussayn Hormoz Hosen_Hossayn Humayun Hurmiz_Hormazd 
+			Ismail_Ishmael 
+			Kambiz Kamran_Kamran Keyghobad Keyxusrew_Keykhosrau Khalil_Khalil Kavus_Kavoos Kûrušê_Cyrus 
+			Mashad Mehmûd_Mahmud Mehrab Mehrzad Mensur_Mansur Menûçihr_Manuchihr Menûšihr_Manushihr Merwan_Marwan Merzuban_Marzuban Mesûd_Masud Mohamed_Muhammad Mirza_Mirza Mistefa_Mustafa Murad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Naveed Nawid Nesir_Nasir Nesr_Nasir Nezam Nošîrwan_Nawshirwan Nêçîrvan_Nechirwan 
+			Parviz Pujman Pêšeng_Pashang Pîroz_Peroz 
+			Revend_Rawwad Reza Ruhollah Rustam_Rostam
+			Sadri Said_Said Salih_Salih Salman_Solomon Sina Surxap_Surkhab 
+			Tahmasp_Tahmasb
+			Uthman_Uthman 
+			Vahhab Vahid_Wahid Vahusdan_Wahustan Vali_Wali Varšasp_Varshasb Vîštap_Vishtasb 
+			Xarmandar_Kharmandar Xašayar_Khashayar Xuršîd_Khurshid Xusrew_Khosrau Xušyar_Hooshyar Xwedadad_Khodadad Xwedayar_Khudayar 
+			Yezid_Yazid Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zerdešt_Zartosht Zia
+			Šadî_Shadhi Šahab_Shahab Šahbaz_Shahbaz Šahenšah_Shahanshah Šahin_Shahin Šahram_Shahram Šahryar_Shahryar Šahrux_Shahrokh Šahruz_Shahruz Šapur_Shapur Šarvin_Sharwin Šawur_Shavur Šayan_Shayan Šîrkûh_Shirkuh
+		}
+
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan Burandoxt_Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan 
+			Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan 
+			Felek Fener Ferašîn Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar_Golbahar Gulšen Gulnar Gulnaz_Golnaz Gêlas 
+			Helez Heliz Helvîn Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer 
+			Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza 
+			Maša Mebest Mehrîban Mehrîcan Mehrîvan Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem_Maria Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya Mîran 
+			Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul_Nazgol Nazik Naznaz Nazê Nermê Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman 
+			Perjîn Pervîn Perwane_Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken Rûzerîn 
+			Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran 
+			Xatûn Xêlîcan Xonçe_Ghoncheh 
+			Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî Šîwen
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "zade"
+		female_patronym = "dokht"
+		prefix = no
+		castes = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	mazanish = {
+		graphical_cultures = { persiangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.9 0.7 0.6 }
+
+		male_names = {
+			Abbas_Abbas Abolhassan_Hasan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Ali_Ali Allahyar Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Assad_Asad Aurang Ayeshah 
+			Babak_Babak Bahman Bahram_Bahram Bakhtiar_Bakhtiar Behrad Behrouz Bozorg 
+			Danush_Danush Darab Dariush_Darius Davud_David Djamasp 
+			Ebrahim_Abraham Ehsan_Ihsan Esfandiar_Esfandiar Eskander_Alexander Esma'il_Ishmael
+			Faramarz_Faramarz Faraz_Faraz Fareed_Farid Farhad_Farhad Fariborz_Fariborz Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fath Ferdows_Firdaus Fereedun_Feridun 
+			Ghobad Gholam_Ghulam Godarz Goshtasb_Goshtasb 
+			Hafez_Hafiz Hassan_Hasan Hazarasp_Hazarasp Hedayat Hooshyar_Hooshyar Hormazd_Hormazd Hormoz Hossein_Hossein Humayun
+			Jahandar_Jahandar Jahangir_Jahangir Jahanshah_Jahanshah Jamshid_Jamshid Javeed_Javeed 
+			Kambiz Kamran_Kamran Kavoos_Kavoos Keyghobad Keykhosrau_Keykhosrau Kharmandar_Kharmandar Khashayar_Khashayar Kavadh Khodadad_Khodadad Khosrau_Khosrau Khudayar_Khudayar Khurshid_Khurshid Kurush_Cyrus 
+			Mahmud_Mahmud Manuchihr_Manuchihr Manushihr_Manushihr Marzuban_Marzuban Mashad_Mashad Maziar Mehrab Mehrzad Mohammed_Muhammad Morad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Nasr_Nasir Naveed Nawid Nezam 
+			Parviz_Parviz Pashang_Pashang Peroz_Peroz Pujman 
+			Reza Rostam_Rostam Ruhollah 
+			Sadri Salman_Solomon Shahab_Shahab Shahbaz_Shahbaz Shahin_Shahin Shahram_Shahram Shahrokh_Sharokh Shahruz_Shahruz Shahryar_Shahryar Shapur_Shapur Shayan_Shayan Sina 
+			Tahmasb_Tahmasb 
+			Vahhab_Vahhab Vahid_Wahid Vali_Wali Vandad Varshasb_Varshasb Vishtasb_Vishtasb 
+			Yazdegerd Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zartosht_Zartosht Zia
+		}
+		female_names = {
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh 
+			Bahar Banafsheh Behnaz Burandokht_Pourandokht 
+			Darya Delaram Delbar Dinah Donya 
+			Elham Elnaz 
+			Farah Fareedeh Farnaz Farrin Farva Furuzan 
+			Ghamze Ghazal Ghoncheh_Ghoncheh Golbahar_Golbahar Golnaz_Golnaz Golpari Golshan 
+			Hamdam Hurmat 
+			Irandokht 
+			Jamileh Javaneh 
+			Leila 
+			Mahdokht Mahtab Mariam_Maria
+			Navvaba Nazgol_Nazgol Nazilla Noor 
+			Parvaneh_Parvaneh Parvin Pertevniyal Pourandokht_Pourandokht 
+			Roshanora Roxana 
+			Salomeh Shahrzad Shahzadeh Shirin Soraya 
+			Touran Tourandokht 
+			Yasaman_Jasmine Yekta 
+			Zarrindokht Zeynab Zohreh
+		}
+		from_dynasty_prefix = "az "
+		
+		male_patronym = "zade"
+		female_patronym = "dokht"
+		prefix = no
+		castes = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+    hazar = {
+        graphical_cultures = { persiangfx } #arabicgfx
+        secondary_event_pictures = bedouin_arabic
+
+        color = { 0.6 0.6 0.35 }
+
+       male_names = {
+            Abbas_Abbas Abolhassan_Hasan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Ali_Ali Allahyar Amin Anushirvan_Anushirvan Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir Assad_Asad Aurang Ayeshah 
+			Babak_Babak Bahman Bahram_Bahram Bakhtiar_Bakhtiar Behrad Behrouz Bozorg 
+			Danush_Danush Darab Dariush_Darius Davud_David Djamasp 
+			Ebrahim_Abraham Ehsan_Ihsan Esfandiar_Esfandiar Eskander_Alexander Esma'il_Ishmael
+			Faramarz_Faramarz Faraz_Faraz Fareed_Farid Farhad_Farhad Fariborz_Fariborz Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fath Ferdows_Firdaus Fereedun_Feridun 
+			Ghobad Gholam_Ghulam Godarz Goshtasb_Goshtasb 
+			Hafez_Hafiz Hassan_Hasan Hazarasp_Hazarasp Hedayat Hooshyar_Hooshyar Hormazd_Hormazd Hormoz Hossein_Hossein Humayun
+			Jahandar_Jahandar Jahangir_Jahangir Jahanshah_Jahanshah Jamshid_Jamshid Javeed_Javeed 
+			Kambiz Kamran_Kamran Kavoos_Kavoos Keyghobad Keykhosrau_Keykhosrau Kharmandar_Kharmandar Khashayar_Khashayar Kavadh Khodadad_Khodadad Khosrau_Khosrau Khudayar_Khudayar Khurshid_Khurshid Kurush_Cyrus 
+			Mahmud_Mahmud Manuchihr_Manuchihr Manushihr_Manushihr Marzuban_Marzuban Mashad_Mashad Maziar Mehrab Mehrzad Mohammed_Muhammad Morad_Murad Morteza Mozaffar_Muzzafar 
+			Nard Nasr_Nasir Naveed Nawid Nezam 
+			Parviz_Parviz Pashang_Pashang Peroz_Peroz Pujman 
+			Reza Rostam_Rostam Ruhollah 
+			Sadri Salman_Solomon Shahab_Shahab Shahbaz_Shahbaz Shahin_Shahin Shahram_Shahram Shahrokh_Sharokh Shahruz_Shahruz Shahryar_Shahryar Shapur_Shapur Shayan_Shayan Sina 
+			Tahmasb_Tahmasb 
+			Vahhab_Vahhab Vahid_Wahid Vali_Wali Vandad Varshasb_Varshasb Vishtasb_Vishtasb 
+			Yazdegerd Yousef_Joseph 
+			Zahak Zakaria_Zachary Zand Zartosht_Zartosht Zia
+		}
+		female_names = {
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh 
+			Bahar Banafsheh Behnaz Burandokht_Pourandokht 
+			Darya Delaram Delbar Dinah Donya 
+			Elham Elnaz 
+			Farah Fareedeh Farnaz Farrin Farva Furuzan 
+			Ghamze Ghazal Ghoncheh_Ghoncheh Golbahar_Golbahar Golnaz_Golnaz Golpari Golshan 
+			Hamdam Hurmat 
+			Irandokht 
+			Jamileh Javaneh 
+			Leila 
+			Mahdokht Mahtab Mariam_Maria
+			Navvaba Nazgol_Nazgol Nazilla Noor 
+			Parvaneh_Parvaneh Parvin Pertevniyal Pourandokht_Pourandokht 
+			Roshanora Roxana 
+			Salomeh Shahrzad Shahzadeh Shirin Soraya 
+			Touran Tourandokht 
+			Yasaman_Jasmine Yekta 
+			Zarrindokht Zeynab Zohreh
+		}
+		from_dynasty_prefix = "d "
+		
+        allow_looting = yes
+
+        male_patronym = "pur"
+        female_patronym = "dokht"
+        prefix = no
+		castes = yes
+
+        modifier = default_culture_modifier
+    }
+
+ 	tajik = {
+        graphical_cultures = { persiangfx } #Tajik
+        secondary_event_pictures = bedouin_arabic
+
+        color = { 200 160 10 }
+
+       male_names = {
+            Amir_Amir Aqel_Aqil Arif_Arif Azar_Azar Abas_Abbas Abdul_Abdul Abdullo_Abdullah Abdullohi_Abdullah Abdurahmon_Abdalrahman Abdurashid_Abdalrashid Abusaid Afzal_Afzal Adel_Adil Afsar_Afshar Ahmad_Ahmad Akbar_Akbar Alaudin_Alaeddin Alim_Alim Alisher Amonullo_Amanullah Anvar_Anwar Asad_Asad Asadullo_Asadullah Aslon_Aslan Azim_Azim Aziz_Aziz Azzat_Azad
+            Bahodur_Bahadur Bakhriddin Bakhtiyor_Bakhtiar Bahrom_Bahram Bilol_Bilal Boris_Boris
+			Chinor
+            Daler Davud_David Dmitri_Demetrius Daryo Davlat Dilshod Doston_Dastan
+            Farhod_Farhad Farrukh Farzaad_Farzad Firdavs_Firdaus
+            Gholib_Ghalib Ghulom_Ghulam Grigory_Gregory
+			Hokim_Hakim Hoshim_Hashim Husayn_Hussayn
+			Ibrohim_Abraham Igor_Ingvar Ilhom_Ilham Ilyas_Elijah Imron_Imran Ismoil_Ishmael			
+            Jabbor_Jabbar Jahongir_Jahangir Jalol_Jalil Jamol_Jamal Jamshed_Jamshid Jobir_Jabir
+            Kamol_Kamal Kamron_Kamran Karim_Karim 
+            Mansur_Mansur Mehrang Mirwais Moinkhan Muhammad_Muhammad Mursalin Mirzo_Mirza Mirzotemur Mirojiddin Mullo Mumin_Mumin Muboraksho Mustafo_Mustafa
+            Nasrullo_Nasrullah Nosir_Nasir Nuriddin_Nuruddin Nuh_Noah Nikolai_Nicholas 
+            Oleg_Helge
+			Parwaiz_Parviz Pavel_Paul Pazir Pulod 
+            Qosim_Qasim Qozidavlat
+            Ramazon_Ramadan Rustam_Rostam Rahmon_Rahman
+            Soleh_Salih Salman_Solomon Shahmeer Shahou Shahpur_Shapur Suren Said_Said Saidcafar Shirinsho Sulton_Sultan 
+            Taimur_Timur Tajj Talibek Tohir_Tahir
+			Usmon_Uthman
+			Vladimir_Vladimir			
+            Yahya_John Yoqub_Jacob Yesal Yuriy_George 
+            Zadfar Zakariya_Zachary Zarak Zartash_Zartosht
+        }
+
+        female_names = {
+            Agnessa_Agnes Aleksandra_Alexandra Alisa_Alice Anastasia_Anastasia Anna_Anna Anora_Anara Armaghan Aydigul Azima 
+            Benesh Berezira  
+            Damsa Darya_Daria Didora_Didara Dilarom_Dilaram Dilnoz_Dilnaz Dinora_Dinara Dunyo_Dunya 
+            Elena_Helen Eva_Eve Evgenia_Eugeniya 
+            Farahnoush Farkhondeh Farzaneh Ferhana Firuza Flura Forozan
+            Ghamzeh_Ghamze Gulbahor_Golbahar Gulchekhra Gulnoor Gulpari Gulrang Gulya
+            Hajira Hamdiya Hesther Hooriyah Hunoon 
+            Illiyeen Imama
+            Javaneh Julia_Julia
+			Katya_Catherine Khandan Khojasta Komila_Kamila Kotiba 
+            Larmina
+            Malika Maria_Mary Mavsuna Mohigul_Mahigul Munisa 
+            Nargis Nahal Natalia_Natalie Nazy Neelab Nozanin 
+            Olga_Helga
+			Parand
+            Rudoba_Rudabeh Rushora
+            Sabina Sahba Sara_Sarah Shahlo Shahodat Shararah Shohida_Shahidah Sofya_Sophia Sohibjamol Svetlana_Svetlana
+            Tatyana_Tatiana Tojigul Tomiris
+            Vera Yuliana_Juliana 
+            Yosa_Jasmine 
+            Zamira Zhanna_Jane Zulfiya 
+        }
+		from_dynasty_prefix = "az "
+        
+        male_patronym = "ovich"
+        female_patronym = "ovna"
+        prefix = no
+		castes = yes
+
+        modifier = default_culture_modifier
+    }
+	yaghnobit = {
+        graphical_cultures = { persiangfx } 
+        secondary_event_pictures = bedouin_arabic
+
+        color = { 170 160 0 }
+
+       male_names = {
+            Amir_Amir Aqel_Aqil Arif_Arif Azar_Azar Abas_Abbas Abdul_Abdul Abdullo_Abdullah Abdullohi_Abdullah Abdurahmon_Abdalrahman Abdurashid_Abdalrashid Abusaid Afzal_Afzal Adel_Adil Afsar_Afshar Ahmad_Ahmad Akbar_Akbar Alaudin_Alaeddin Alim_Alim Alisher Amonullo_Amanullah Anvar_Anwar Asad_Asad Asadullo_Asadullah Aslon_Aslan Azim_Azim Aziz_Aziz Azzat_Azad
+            Bahodur_Bahadur Bakhriddin Bakhtiyor_Bakhtiar Bahrom_Bahram Bilol_Bilal Boris_Boris
+			Chinor
+            Daler Davud_David Dmitri_Demetrius Daryo Davlat Dilshod Doston_Dastan
+            Farhod_Farhad Farrukh Farzaad_Farzad Firdavs_Firdaus
+            Gholib_Ghalib Ghulom_Ghulam Grigory_Gregory
+			Hokim_Hakim Hoshim_Hashim Husayn_Hussayn
+			Ibrohim_Abraham Igor_Ingvar Ilhom_Ilham Ilyas_Elijah Imron_Imran Ismoil_Ishmael			
+            Jabbor_Jabbar Jahongir_Jahangir Jalol_Jalil Jamol_Jamal Jamshed_Jamshid Jobir_Jabir
+            Kamol_Kamal Kamron_Kamran Karim_Karim 
+            Mansur_Mansur Mehrang Mirwais Moinkhan Muhammad_Muhammad Mursalin Mirzo_Mirza Mirzotemur Mirojiddin Mullo Mumin_Mumin Muboraksho Mustafo_Mustafa
+            Nasrullo_Nasrullah Nosir_Nasir Nuriddin_Nuruddin Nuh_Noah Nikolai_Nicholas 
+            Oleg_Helge
+			Parwaiz_Parviz Pavel_Paul Pazir Pulod 
+            Qosim_Qasim Qozidavlat
+            Ramazon_Ramadan Rustam_Rostam Rahmon_Rahman
+            Soleh_Salih Salman_Solomon Shahmeer Shahou Shahpur_Shapur Suren Said_Said Saidcafar Shirinsho Sulton_Sultan 
+            Taimur_Timur Tajj Talibek Tohir_Tahir
+			Usmon_Uthman
+			Vladimir_Vladimir			
+            Yahya_John Yoqub_Jacob Yesal Yuriy_George 
+            Zadfar Zakariya_Zachary Zarak Zartash_Zartosht
+        }
+
+        female_names = {
+            Agnessa_Agnes Aleksandra_Alexandra Alisa_Alice Anastasia_Anastasia Anna_Anna Anora_Anara Armaghan Aydigul Azima 
+            Benesh Berezira  
+            Damsa Darya_Daria Didora_Didara Dilarom_Dilaram Dilnoz_Dilnaz Dinora_Dinara Dunyo_Dunya 
+            Elena_Helen Eva_Eve Evgenia_Eugeniya 
+            Farahnoush Farkhondeh Farzaneh Ferhana Firuza Flura Forozan
+            Ghamzeh_Ghamze Gulbahor_Golbahar Gulchekhra Gulnoor Gulpari Gulrang Gulya
+            Hajira Hamdiya Hesther Hooriyah Hunoon 
+            Illiyeen Imama
+            Javaneh Julia_Julia
+			Katya_Catherine Khandan Khojasta Komila_Kamila Kotiba 
+            Larmina
+            Malika Maria_Mary Mavsuna Mohigul_Mahigul Munisa 
+            Nargis Nahal Natalia_Natalie Nazy Neelab Nozanin 
+            Olga_Helga
+			Parand
+            Rudoba_Rudabeh Rushora
+            Sabina Sahba Sara_Sarah Shahlo Shahodat Shararah Shohida_Shahidah Sofya_Sophia Sohibjamol Svetlana_Svetlana
+            Tatyana_Tatiana Tojigul Tomiris
+            Vera Yuliana_Juliana 
+            Yosa_Jasmine 
+            Zamira Zhanna_Jane Zulfiya 
+        }
+		from_dynasty_prefix = "az "        
+        male_patronym = "ovich"
+        female_patronym = "ovna"
+        prefix = no
+		castes = yes
+
+        modifier = default_culture_modifier
+    }
+	sarikoli = { #Iranian group in Xinjiang
+        graphical_cultures = { persiangfx } #Chinese Pamirs
+        secondary_event_pictures = bedouin_arabic
+
+        color = { 225 150 10 }
+
+       male_names = {
+            Amir_Amir Aqel_Aqil Arif_Arif Azar_Azar Abas_Abbas Abdul_Abdul Abdullo_Abdullah Abdullohi_Abdullah Abdurahmon_Abdalrahman Abdurashid_Abdalrashid Abusaid Afzal_Afzal Adel_Adil Afsar_Afshar Ahmad_Ahmad Akbar_Akbar Alaudin_Alaeddin Alim_Alim Alisher Amonullo_Amanullah Anvar_Anwar Asad_Asad Asadullo_Asadullah Aslon_Aslan Azim_Azim Aziz_Aziz Azzat_Azad
+            Bahodur_Bahadur Bakhriddin Bakhtiyor_Bakhtiar Bahrom_Bahram Bilol_Bilal
+			Chinor
+            Daler Davud_David Daryo Davlat Dilshod Doston_Dastan
+            Farhod_Farhad Farrukh Farzaad_Farzad Firdavs_Firdaus
+            Gholib_Ghalib Ghulom_Ghulam
+			Hokim_Hakim Hoshim_Hashim Husayn_Hussayn
+			Ibrohim_Abraham Ilhom_Ilham Ilyas_Elijah Imron_Imran Ismoil_Ishmael			
+            Jabbor_Jabbar Jahongir_Jahangir Jalol_Jalil Jamol_Jamal Jamshed_Jamshid Jobir_Jabir
+            Kamol_Kamal Kamron_Kamran Karim_Karim 
+            Mansur_Mansur Mehrang Mirwais Moinkhan Muhammad_Muhammad Mursalin Mirzo_Mirza Mirzotemur Mirojiddin Mullo Mumin_Mumin Muboraksho Mustafo_Mustafa
+            Nasrullo_Nasrullah Nosir_Nasir Nuriddin_Nuruddin Nuh_Noah 
+            Parwaiz_Parviz Pazir Pulod 
+            Qosim_Qasim Qozidavlat
+            Ramazon_Ramadan Rustam_Rostam Rahmon_Rahman
+            Soleh_Salih Salman_Solomon Shahmeer Shahou Shahpur_Shapur Suren Said_Said Saidcafar Shirinsho Sulton_Sultan 
+            Taimur_Timur Tajj Talibek Tohir_Tahir
+			Usmon_Uthman
+			Yahya_John Yoqub_Jacob Yesal 
+            Zadfar Zakariya_Zachary Zarak Zartash_Zartosht
+        }
+
+        female_names = {
+			Anora_Anara Armaghan Aydigul Azima 
+            Benesh Berezira  
+            Damsa Didora_Didara Dilarom_Dilaram Dilnoz_Dilnaz Dinora_Dinara Dunyo_Dunya 
+            Farahnoush Farkhondeh Farzaneh Ferhana Firuza Flura Forozan
+            Ghamzeh_Ghamze Gulbahor_Golbahar Gulchekhra Gulnoor Gulpari Gulrang Gulya
+            Hajira Hamdiya Hooriyah Hunoon 
+            Illiyeen Imama
+            Javaneh
+			Khandan Khojasta Komila_Kamila Kotiba 
+            Larmina
+            Malika Mavsuna Mohigul_Mahigul Munisa 
+            Nargis Nahal Nazy Neelab Nozanin 
+            Parand
+            Rudoba_Rudabeh Rushora
+            Sabina Sahba Sara_Sarah Shahlo Shahodat Shararah Shohida_Shahidah Sohibjamol
+            Tojigul Tomiris
+            Vera 
+            Yosa_Jasmine 
+            Zamira Zulfiya 
+        }       
+		from_dynasty_prefix = "az "
+		castes = yes
+
+        modifier = default_culture_modifier
+    }
+	pamiri = { #Iranian group in Pamiri mountains
+        graphical_cultures = { persiangfx } #Chinese Pamirs
+        secondary_event_pictures = bedouin_arabic
+
+        color = { 245 193 80 }
+
+       male_names = {
+            Amir_Amir Aqel_Aqil Arif_Arif Azar_Azar Abas_Abbas Abdul_Abdul Abdullo_Abdullah Abdullohi_Abdullah Abdurahmon_Abdalrahman Abdurashid_Abdalrashid Abusaid Afzal_Afzal Adel_Adil Afsar_Afshar Ahmad_Ahmad Akbar_Akbar Alaudin_Alaeddin Alim_Alim Alisher Amonullo_Amanullah Anvar_Anwar Asad_Asad Asadullo_Asadullah Aslon_Aslan Azim_Azim Aziz_Aziz Azzat_Azad
+            Bahodur_Bahadur Bakhriddin Bakhtiyor_Bakhtiar Bahrom_Bahram Bilol_Bilal
+			Chinor
+            Daler Davud_David Daryo Davlat Dilshod Doston_Dastan
+            Farhod_Farhad Farrukh Farzaad_Farzad Firdavs_Firdaus
+            Gholib_Ghalib Ghulom_Ghulam
+			Hokim_Hakim Hoshim_Hashim Husayn_Hussayn
+			Ibrohim_Abraham Ilhom_Ilham Ilyas_Elijah Imron_Imran Ismoil_Ishmael			
+            Jabbor_Jabbar Jahongir_Jahangir Jalol_Jalil Jamol_Jamal Jamshed_Jamshid Jobir_Jabir
+            Kamol_Kamal Kamron_Kamran Karim_Karim 
+            Mansur_Mansur Mehrang Mirwais Moinkhan Muhammad_Muhammad Mursalin Mirzo_Mirza Mirzotemur Mirojiddin Mullo Mumin_Mumin Muboraksho Mustafo_Mustafa
+            Nasrullo_Nasrullah Nosir_Nasir Nuriddin_Nuruddin Nuh_Noah 
+            Parwaiz_Parviz Pazir Pulod 
+            Qosim_Qasim Qozidavlat
+            Ramazon_Ramadan Rustam_Rostam Rahmon_Rahman
+            Soleh_Salih Salman_Solomon Shahmeer Shahou Shahpur_Shapur Suren Said_Said Saidcafar Shirinsho Sulton_Sultan 
+            Taimur_Timur Tajj Talibek Tohir_Tahir
+			Usmon_Uthman
+			Yahya_John Yoqub_Jacob Yesal 
+            Zadfar Zakariya_Zachary Zarak Zartash_Zartosht
+        }
+
+        female_names = {
+			Anora_Anara Armaghan Aydigul Azima 
+            Benesh Berezira  
+            Damsa Didora_Didara Dilarom_Dilaram Dilnoz_Dilnaz Dinora_Dinara Dunyo_Dunya 
+            Farahnoush Farkhondeh Farzaneh Ferhana Firuza Flura Forozan
+            Ghamzeh_Ghamze Gulbahor_Golbahar Gulchekhra Gulnoor Gulpari Gulrang Gulya
+            Hajira Hamdiya Hooriyah Hunoon 
+            Illiyeen Imama
+            Javaneh
+			Khandan Khojasta Komila_Kamila Kotiba 
+            Larmina
+            Malika Mavsuna Mohigul_Mahigul Munisa 
+            Nargis Nahal Nazy Neelab Nozanin 
+            Parand
+            Rudoba_Rudabeh Rushora
+            Sabina Sahba Sara_Sarah Shahlo Shahodat Shararah Shohida_Shahidah Sohibjamol
+            Tojigul Tomiris
+            Vera 
+            Yosa_Jasmine 
+            Zamira Zulfiya 
+        }       
+		from_dynasty_prefix = "az "
+		castes = yes
+
+        modifier = default_culture_modifier
+    }
+	afghan = { # a.k.a. Pashtun
+        graphical_cultures = { persiangfx } #arabicgfx
+        secondary_event_pictures = bedouin_arabic
+
+        color = { 0.6 0.6 0.1 }
+
+       male_names = {
+            Abbas_Abbas Abdul_Abdul Abdullah_Abdullah Abdalaziz_Abdulaziz Abdurrahman_Abdalrahman Alim_Alim Amir_Amir Aqel_Aqil Arash_Arash Arif_Arif Afzal_Afzal Adel_Adil Afsar_Afshar Ahmad_Ahmad Ahmad-Shah Ajmal_Jamil Akbar_Akbar Akram_Karim Alaudin_Alaeddin Ali_Ali Ali-Mohammed Akbarkhan Amanullah Anoushiravan_Anushirvan Anwar_Anwar Armeen_Armaan Asadullah Atal Ayub_Job Azzat_Azad
+            Baddar Bahiri_Bahir Bahlul Bahramand Baryal 
+			Daud_David 
+			Farid_Farid Farzaad_Farzad 
+			Ghulam_Ghulam 
+			Habibullah_Habibullah Hafiz_Hafiz Haibat Hakim_Hakim Hamid_Hamid Haris_Harith Hashim_Hashim Hussain_Hussayn 
+			Ibrahim_Abraham Imran_Imran Inayatullah Isa_Jesus Isfandiyar_Esfandiar Ishaq_Isaac 
+			Jahangir_Jahangir Jamal_Jamal Javed_Javeed 
+			Khan Khawas Khushal 
+			Lodhi 
+			Mahmud_Mahmud Malik_Malik Mateen Mirwais Mirza_Mirza Mohammed_Muhammad Moinkhan Mukhtar_Mukhtar Musa_Moses Muzaffar_Muzzafar 
+			Nadir_Nadir Najib_Najib Naseer_Nasir Nawaskhan 
+			Omar_Umar
+			Parwaiz_Parviz 
+			Rahimuddin Rashid_Rashid 
+			Said_Said Saleh_Salih Salim_Salim Salman_Solomon Sardar Shahpur_Shapur Sher_Leo Sikandar_Alexander Sultan_Sultan 
+			Tahir_Tahir Timur_Timur Tajj 
+			Usman_Uthman
+			Wamiq 
+			Yaqub_Jacob Younis_Jonah Yousuf_Joseph 
+			Zadfar Zahir_Zahir Zain_Zain Zakariya_Zachary Zaman Zartash_Zartosht
+        }
+
+        female_names = {
+            Abrisham Afhak Afri Afshaneh Afsoon Asal Asmaan Azyan 
+            Benesh Berezira 
+            Chaghama 
+            Damsa Darsameen 
+            Esin 
+            Farahnoush Farkhondeh Farzaneh Ferhana Fatima_Fatima Firouzeh 
+            Ghamzeh_Ghamze Gul Gulnoor Gulpari Gulrang 
+            Hajira Hamdiya Hesther Hooriyah Hunoon 
+            Illiyeen Imama 
+            Kaameh Kaamisha Kaamnoosh Kinaaz Kushaaneh 
+            Larmina
+            Mahvash Malalai Mehrbano Mehrvash Mojdeh Morsal Moska 
+            Nageenah Naghma Nahal Nazy 
+            Paksima Parigul Pariwish Permaz Perveen_Parvin
+            Ramineh 
+            Samaneh Sara_Sarah Shabahang Shadleen Shagufta Shahernaz Shaherzad Shahzadi Shandana Shararah Shokouh Sumbul 
+            Taara Tabaan Tasneem 
+            Veeda 
+            Yalqoot Yashfa Yasmoon_Jasmine 
+            Zaafirah Zahab Zamaair Zarafshan Zargul Zarmisha Zarnish Zartasha Zeeana Zuha 
+        }
+    	from_dynasty_prefix = "d "
+		allow_looting = yes
+		castes = yes
+		        
+        male_patronym = "zadah"
+        female_patronym = "lur"
+        prefix = no
+
+        modifier = default_culture_modifier
+    }
+ 
+    baloch = {
+        graphical_cultures = { persiangfx } #arabicgfx
+        secondary_event_pictures = bedouin_arabic
+
+        color = { 0.4 0.4 0.05 }
+
+       male_names = {
+            Abbas_Abbas Abdul_Abdul Abdullah_Abdullah Abdulqadir_Abdulqadir Adel_Adil Aftab Ahmad_Ahmad Akbar_Akbar Ajmal_Jamil Alauddin_Alaeddin Ali_Ali Amanullah Amir_Amir Asif_Asif Aurangzeb Aziz_Aziz
+			Babak_Babak Babur_Babur Bahram_Bahram Bilal_Bilal Brahem_Abraham
+			Danyal_Daniel Didag Dilmurad 
+			Fareed_Farid Farooq_Faruq
+			Gaazi_Ghazi Ghulam_Ghulam Goštasp_Goshtasb Gul-Mohammad
+			Hasan_Hasan Hashim_Hashim Hossein_Hossein Humayun
+			Ilyas_Elijah Imran_Imran
+			Jafar_Jafar Jalal_Jalal Jalaladdin Jamal_Jamal Jamshid_Jamshid Javed_Javeed Jehangir_Jahangir 
+			Kamal_Kamal Kambar Kamran_Kamran Kasim_Qasim Kefayatullah Khair Khan Khuda 
+			Latif_Latif Liwar
+			Mahmud_Mahmud Malik_Malik Mayar Mazar Mohammed_Muhammad Murad_Murad Musa_Moses Muzaffar_Muzzafar 
+			Nadir_Nadir Nasir_Nasir Nur 
+			Omar_Umar 
+			Rahimuddin Riaz_Riad 
+			Saleh_Salih Salman_Solomon Sanaullah Sardar Sarfraz Sayed_Sayyid Sekandar_Alexander Sharif_Sharif Sherbaz Shoaib_Shuaib Siraj Sulayman_Solomon Sumael_Ishmael
+			Tahlag Tariq_Tariq
+			Yahya_John Yaqoob_Jacob Yousuf_Joseph 
+			Zafarullah Zain_Zain Zulfikar
+        }
+
+        female_names = {
+            Aisha_Aisha Aiza Azra
+			Bhagi Begum Bushra
+			Dahar
+			Fariha Farzana Fatima_Fatima
+			Gulbahar Gulnaz
+			Hamida Hira Humaira
+			Inaya Iqra
+			Jannat
+			Laila
+			Maryam_Mary Mumtaz
+			Rizwana
+			Sabeen Saeeda Saima Sara_Sarah Shabnam Shazia Sitara Syeda
+			Tahira
+			Yasmin_Jasmine
+			Zahida Zainab_Zaynab Zubaida
+        }
+		from_dynasty_prefix = "of "
+		
+        dynasty_title_names = no
+		allow_looting = yes
+		
+        male_patronym = "ani"
+        female_patronym = "lur"
+        prefix = no
+		castes = yes
+
+        modifier = default_culture_modifier
+    }
+	
+	khorasani = {
+        graphical_cultures = { turkishgfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+		
+        color = { 0.8 0.6 0.4  }
+        
+        male_names = {
+            Abbas_Abbas Ali_Ali Abdollah_Abdullah Adel_Adil Ahmad_Ahmad Akbar_Akbar Amir_Amir Alireza Ardavan_Ardavan Asghar Asadollah_Asadullah Avaz Azari_Azar 
+            Bahadur_Bahadur Bahram_Bahram
+			Danyal_Daniel Dariush_Darius Davud_David 
+            Ebrahim_Abraham Ehsan_Ihsan Elyas_Elijah Eskander_Alexander 
+            Farid_Farid
+			Gholam_Ghulam Gholamhossein Gholamreza Ghorban 
+            Habib_Habib Hajj_Hajj Hamid_Hamid Hasan_Hasan Hossein_Hussein 
+            Islam_Islam Ismail_Ishmael 
+            Jafar_Jafar Jahangir_Jahangir Javed_Javeed
+			Kazem_Kazim Kamyabi Karbalaii Khosroo_Khosrau Kuran 
+            Mehdi_Mahdi Milad_Milad Mirza_Mirza Mahmud_Mahmud Mohammad_Muhammad Mostafa_Mustafa Mohsen_Muhsin Musa_Moses 
+            Nader_Nadir Nima 
+            Rajabali Rashid_Rashid Reza Rostam_Rostam 
+            Salman_Solomon Seyyed_Sayyid Shahid_Shahid Shohreh 
+            Vahid_Wahid Vodad 
+            Yahya_John Yarmohammad Yousef_Joseph 
+            Zahir_Zahir Zain_Zain
+        }
+        female_names = {
+            Abda A'diah Ahu Aiza Alavi Aliyah Azam 
+            Butayna 
+            Daniyah Dima 
+            Elaha 
+            Fahra Fahriya Fatima_Fatima 
+            Gamila Ghada 
+            Habiba Haniyya Huda
+            Ibtisam Isra 
+            Karima Kera Khadija 
+			Layla 
+			Maha Majdas Malika Mariam_Mary Maria_Mary Munya Munia Munira
+			Nadia Naila Nur 
+			Rafiqa Rahat Raisa Randa 
+            Safiya Salma Shakira Sima Suraya 
+            Tahira Tarifa Thashim 
+            Wahida 
+            Yasmin_Jasmine 
+            Zahida Zahra 
+        }
+		from_dynasty_prefix = "az "
+		male_patronym = "zade"
+        female_patronym = "dokht"
+        prefix = no
+		castes = yes
+		
+		allow_looting = yes
+				
+		modifier = default_culture_modifier
+    }
+	alan = {
+		graphical_cultures = { caucasiangfx persiangfx }
+		
+		color = { 0.9 0.7 0.5}
+
+		male_names = {
+			Aghsartan Akhsar Alatey Aleksandr_Alexander Anatoly_Anatolius Anbal Anbazuk Aravat Arsen Askhkadar Ashot_Ashot Aslan Aspar Athom 
+			Balambar Balsag Barlah Basil_Basil Bazuk Beler Ber Boris_Boris Boz-Uruz Buürgur Buriberdi Burikhan 
+			Candak Chelakhsartag 
+			Davit_David Djadaron Dmitry_Demetrius Durgulel 
+			Eduard_Edward Erik_Erik
+			Feliks_Felix
+			Gennady_Gennadius Georgy_George Grasim_Gerasimus Girgon Gokhar Gubaz Guram_Guaram 
+			Hasqar Huddan 
+			Igor_Ingvar Istor Itaz Iveri 
+			Kandak Kandz Kavtia Kaur Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk 
+			Lak Leonid_Leonidas Levan_Leo Lyudvig_Louis 
+			Nikolay_Nicholas
+			Oleg_Helge
+			Pulad 
+			Respendial Rosmag Ruslan_Ruslan 
+			Safrak Sakhir Sangipan Saros Sathis Savkudz Sergei_Sergius Shota Soslan Suarn Syrdon 
+			Tamerlan Taymuraz_Teimuraz Taus Totraz 
+			Urdure Uruzma Uturku 
+			Vadim Valery_Valerius Vladimir_Vladimir Vladislav_Vladislav Vyacheslav_Vaclav
+			Yasynya Yury_George
+			Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana_Anna Atsyrukhs 
+			Baia Bedisa Borena Btsenon Burudukan 
+			Duda 
+			Elene_Helen Eliso 
+			Gergana Gulchara Guranduht_Gorandukht 
+			Kera Keratsa Ketevan_Catherine Koser
+			Lamara Lashin Lela 
+			Mariami_Mary Natia 
+			Nino 
+			Rusudan 
+			Sanatha Satinik_Satinik Shatana Shorena Shukhia Tamari_Tamar Tinatini Tsiala 
+			Vardo 
+			Vedokha 
+			Yeran
+		}	
+		from_dynasty_prefix = "ve "
+
+		allow_looting = yes		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+		castes = yes
+		
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+	}
+	scythian = {
+		graphical_cultures = { caucasiangfx persiangfx }
+		
+		color = { 0.85 0.7 0.65 }
+
+		male_names = {
+			Aghsartan Akhsar Alatey Aleksandr_Alexander Anatoly_Anatolius Anbal Anbazuk Aravat Arsen Askhkadar Ashot_Ashot Aslan Aspar Athom 
+			Balambar Balsag Barlah Basil_Basil Bazuk Beler Ber Boris_Boris Boz-Uruz Buürgur Buriberdi Burikhan 
+			Candak Chelakhsartag 
+			Davit_David Djadaron Dmitry_Demetrius Durgulel 
+			Eduard_Edward Erik_Erik
+			Feliks_Felix
+			Gennady_Gennadius Georgy_George Grasim_Gerasimus Girgon Gokhar Gubaz Guram_Guaram 
+			Hasqar Huddan 
+			Igor_Ingvar Istor Itaz Iveri 
+			Kandak Kandz Kavtia Kaur Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk 
+			Lak Leonid_Leonidas Levan_Leo Lyudvig_Louis 
+			Nikolay_Nicholas
+			Oleg_Helge
+			Pulad 
+			Respendial Rosmag Ruslan_Ruslan 
+			Safrak Sakhir Sangipan Saros Sathis Savkudz Sergei_Sergius Shota Soslan Suarn Syrdon 
+			Tamerlan Taymuraz_Teimuraz Taus Totraz 
+			Urdure Uruzma Uturku 
+			Vadim Valery_Valerius Vladimir_Vladimir Vladislav_Vladislav Vyacheslav_Vaclav
+			Yasynya Yury_George
+			Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana_Anna Atsyrukhs 
+			Baia Bedisa Borena Btsenon Burudukan 
+			Duda 
+			Elene_Helen Eliso 
+			Gergana Gulchara Guranduht_Gorandukht 
+			Kera Keratsa Ketevan_Catherine Koser
+			Lamara Lashin Lela 
+			Mariami_Mary Natia 
+			Nino 
+			Rusudan 
+			Sanatha Satinik_Satinik Shatana Shorena Shukhia Tamari_Tamar Tinatini Tsiala 
+			Vardo 
+			Vedokha 
+			Yeran
+		}	
+		from_dynasty_prefix = "ve "
+
+		allow_looting = yes		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+		castes = yes
+		
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+	}
+}

@@ -92,6 +92,26 @@ glory_hound_pattern_for = {
 	vassal_wars_law_0 = { always = yes }
 	vassal_wars_law_1 = { always = no }
 	vassal_wars_law_2 = { always = no }
+	parliament_laws_brit_2 = { always = yes }
+	parliament_laws_brit_3 = { always = yes }
+	parliament_laws_german_2 = { always = yes }
+	parliament_laws_german_3 = { always = yes }
+	parliament_laws_russian_2 = { always = yes }
+	parliament_laws_russian_3 = { always = yes }
+	parliament_laws_israel_2 = { always = yes }
+	parliament_laws_israel_3 = { always = yes }
+	parliament_laws_bhutan_2 = { always = yes }
+	parliament_laws_bhutan_3 = { always = yes }
+	parliament_laws_roman_2 = { always = yes }
+	parliament_laws_roman_3 = { always = yes }
+	parliament_laws_generic_2 = { always = yes }
+	parliament_laws_generic_3 = { always = yes }
+	currency_laws_0 = { always = no }
+	currency_laws_1 = { always = yes }
+	currency_laws_2 = { always = yes }
+	currency_laws_3 = { always = yes }
+	parliament_laws_EU_2 = { always = yes }
+	parliament_laws_EU_3 = { always = yes }
 	
 	centralization_0 = {
 		always = yes
@@ -133,6 +153,288 @@ glory_hound_pattern_for = {
 				who = liege
 				value = 20
 			}
+		}
+	}
+	common_land_laws_0 = {
+		OR = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			trait = amateurish_plotter
+			trait = flamboyant_schemer
+			trait = intricate_webweaver
+			trait = elusive_shadow
+			diplomacy = 15
+			intrigue = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
+	}
+	common_land_laws_1 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			stewardship = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
+	}
+	common_land_laws_2 = {
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			martial = 15
+			opinion = {
+				who = liege 
+				value = 15
+			}
+		}
+	}
+	common_land_laws_3 = {
+		OR = {
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			learning = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+	}
+	
+	forestry_laws_0 = {
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = amateurish_plotter
+			trait = flamboyant_schemer
+			trait = intricate_webweaver
+			trait = elusive_shadow
+			martial = 15
+			intrigue = 15
+			opinion = {
+				who = liege 
+				value = 15
+			}
+		}
+		NOR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
+	}
+	forestry_laws_1 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			stewardship = 15
+			opinion = {
+				who = liege 
+				value = 15
+			}
+		}
+	}
+	forestry_laws_2 = {
+		OR = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			diplomacy = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
+	}
+	forestry_laws_3 = {
+		OR = {
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			learning = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+		}
+	}
+	judiciary_laws_0 = {
+		OR = {
+			trait = amateurish_plotter
+			trait = flamboyant_schemer
+			trait = intricate_webweaver
+			trait = elusive_shadow
+			intrigue = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+		}
+	}
+	judiciary_laws_1 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			stewardship = 15
+			diplomacy = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+	}
+	judiciary_laws_2 = {
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			martial = 15
+			opinion = {
+				who = liege 
+				value = 15
+			}
+		}
+	}
+	judiciary_laws_3 = {
+		OR = {
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			learning = 15
+			opinion = {
+				who = liege 
+				value = 35
+			}
+		}
+		NOR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
 		}
 	}
 	centralization_4 = {
@@ -316,7 +618,10 @@ glory_hound_pattern_for = {
 	
 	tribal_organization_0 = {
 		OR = {
-			is_organized_religion_trigger = no
+			AND = {
+				religion_group = pagan_group
+				is_reformed_religion = no
+			}
 			is_tribal = yes
 		}
 	}
@@ -326,7 +631,10 @@ glory_hound_pattern_for = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -338,7 +646,10 @@ glory_hound_pattern_for = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -350,7 +661,10 @@ glory_hound_pattern_for = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -361,7 +675,10 @@ glory_hound_pattern_for = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -387,6 +704,15 @@ glory_hound_pattern_for = {
 	status_of_women_4 = { 
 		is_female = yes
 	}
+	mil_train_0 = { 
+		always = no
+	}
+	mil_train_1 = {
+		NOT = { has_law = mil_train_2 }
+	}
+	mil_train_2 = { 
+		always = yes
+	}
 }
 
 glory_hound_pattern_against = {
@@ -411,6 +737,10 @@ glory_hound_pattern_against = {
 		}
 	}
 	
+	currency_laws_0 = { always = yes }
+	currency_laws_1 = { always = no }
+	currency_laws_2 = { always = no }
+	currency_laws_3 = { always = no }
 	law_voting_power_0 = { always = yes }
 	law_voting_power_1 = { always = no }
 	banish_voting_power_0 = { always = yes }
@@ -430,12 +760,237 @@ glory_hound_pattern_against = {
 	vassal_wars_law_0 = { always = no }
 	vassal_wars_law_1 = { always = yes }
 	vassal_wars_law_2 = { always = yes }
+	parliament_laws_brit_0 = { always = no }
+	parliament_laws_brit_1 = { always = no }
+	parliament_laws_german_0 = { always = no }
+	parliament_laws_german_1 = { always = no }
+	parliament_laws_russian_0 = { always = no }
+	parliament_laws_russian_1 = { always = no }
+	parliament_laws_israel_0 = { always = no }
+	parliament_laws_israel_1 = { always = no }
+	parliament_laws_bhutan_0 = { always = no }
+	parliament_laws_bhutan_1 = { always = no }
+	parliament_laws_roman_0 = { always = no }
+	parliament_laws_roman_1 = { always = no }
+	parliament_laws_generic_0 = { always = no }
+	parliament_laws_generic_1 = { always = no }
+	parliament_laws_EU_0 = { always = no }
+	parliament_laws_EU_1 = { always = no }
 	
 	centralization_0 = { always = no }
 	centralization_1 = { always = no }
 	centralization_2 = { always = no }
 	centralization_3 = { always = no }
 	centralization_4 = { always = no }
+	common_land_laws_0 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	common_land_laws_1 = {
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	common_land_laws_2 = {
+		OR = {
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	common_land_laws_3 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	
+	forestry_laws_0 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	forestry_laws_1 = {
+		OR = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	forestry_laws_2 = {
+		OR = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	forestry_laws_3 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	judiciary_laws_0 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	judiciary_laws_1 = {
+		OR = {
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	judiciary_laws_2 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
+	judiciary_laws_3 = {
+		OR = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+			opinion = {
+				who = liege 
+				value = -20
+			}
+		}
+	}
 	vice_royalty_0 = { always = no }
 	vice_royalty_1 = {
 		is_feudal = yes
@@ -608,7 +1163,10 @@ glory_hound_pattern_against = {
 	
 	tribal_organization_0 = {
 		NOR = {
-			is_organized_religion_trigger = no
+			AND = {
+				religion_group = pagan_group
+				is_reformed_religion = no
+			}
 			is_tribal = yes
 		}
 	}
@@ -618,7 +1176,10 @@ glory_hound_pattern_against = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -630,7 +1191,10 @@ glory_hound_pattern_against = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -642,7 +1206,10 @@ glory_hound_pattern_against = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -653,7 +1220,10 @@ glory_hound_pattern_against = {
 			custom_tooltip = {
 				text = TT_NOT_UNREFORMED_PAGAN
 				hidden_tooltip = {
-					is_organized_religion_trigger = yes
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
 				}
 			}
 			is_tribal = no
@@ -909,5 +1479,14 @@ glory_hound_pattern_against = {
 				}
 			}
 		}
+	}
+	mil_train_0 = { 
+		always = yes
+	}
+	mil_train_1 = {
+		has_law = mil_train_2
+	}
+	mil_train_2 = { 
+		always = no
 	}
 }

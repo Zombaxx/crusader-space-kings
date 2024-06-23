@@ -104,7 +104,7 @@ character_event = {
 			}
 			10 = { 
 				modifier = { factor = 0 is_playable = no }
-				modifier = { factor = 0 is_hellenic_monastic_order_member_trigger = yes }
+				modifier = { factor = 0 society_member_of = monastic_order_stoics }
 				set_character_flag = monastic_orders_mission_charity
 			}
 			10 = {
@@ -168,7 +168,7 @@ character_event = {
 				}
 				modifier = {
 					factor = 0 
-					is_hellenic_monastic_order_member_trigger = yes
+					society_member_of = monastic_order_stoics
 				}
 				modifier = {
 					factor = 0 is_tribal = yes
@@ -258,7 +258,7 @@ society_quest_event = {
 	border = GFX_event_letter_frame_religion
 
 	desc = {
-		trigger = { is_christian_monastic_member_trigger = yes }
+		trigger = { OR = { is_christian_monastic_member_trigger = yes society_member_of = monastic_order_jugoslavist } }
 		text = EVTDESC_4402_PENANCE
 	}
 	desc = {
@@ -266,7 +266,7 @@ society_quest_event = {
 		text = EVTDESC_4402_MEDITATION
 	}
 	desc = {
-		trigger = { is_hellenic_monastic_order_member_trigger = yes }
+		trigger = { society_member_of = monastic_order_stoics }
 		text = EVTDESC_4402_DIALOGUE
 	}
 
@@ -276,13 +276,15 @@ society_quest_event = {
 		name = ACCEPT
 
 		if = {
-			limit = { is_christian_monastic_member_trigger = yes }
+			limit = { OR = { is_christian_monastic_member_trigger = yes society_member_of = monastic_order_jugoslavist society_member_of = monastic_order_qurani} }
 			set_quest = quest_monastic_order_penance
 		}
 		if = {
 			limit = { 
 				OR = { 
-					is_hellenic_monastic_order_member_trigger = yes
+					society_member_of = monastic_order_stoics
+					society_member_of = monastic_order_jewish
+					society_member_of = monastic_order_zhao
 					is_dharmic_monastic_member_trigger = yes 
 				} 
 			}
@@ -319,7 +321,9 @@ character_event = {
 				OR = {
 					is_christian_monastic_member_trigger = yes
 					society_member_of = monastic_order_hindu
-					society_member_of = monastic_order_isis
+					society_member_of = monastic_order_qurani
+					society_member_of = monastic_order_jugoslavist
+					society_member_of = monastic_order_jewish
 				}
 			}
 			text = EVTOPTA_MNM_4403_GOD
@@ -329,7 +333,8 @@ character_event = {
 				OR = {
 					society_member_of = monastic_order_buddhist
 					society_member_of = monastic_order_jain
-					is_hellenic_monastic_order_member_trigger = yes
+					society_member_of = monastic_order_stoics
+					society_member_of = monastic_order_zhao
 				}
 			}
 			text = EVTOPTA_MNM_4403_NOGOD
@@ -355,8 +360,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -583,8 +591,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -896,8 +907,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1012,8 +1026,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1085,8 +1102,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1255,8 +1275,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1357,7 +1380,7 @@ character_event = {
 		}
 
 		if = {
-			limit = { is_christian_monastic_member_trigger = yes }
+			limit = { OR = { is_christian_monastic_member_trigger = yes society_member_of = monastic_order_jugoslavist } }
 			add_character_modifier = {
 				name = rampant_sinner_christian
 				years = 3
@@ -1366,7 +1389,7 @@ character_event = {
 		if = {
 			limit = { 
 				OR = {
-					is_hellenic_monastic_order_member_trigger = yes 
+					society_member_of = monastic_order_stoics
 					is_dharmic_monastic_member_trigger = yes 
 				}
 			}
@@ -1398,8 +1421,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1494,8 +1520,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
-			society_member_of = monastic_order_isis
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1528,7 +1557,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1562,7 +1595,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1606,7 +1643,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1691,7 +1732,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1701,11 +1746,11 @@ character_event = {
 
 	option = {
 		name = {
-			trigger = { NOR = { religion = buddhist religion = jain } }
+			trigger = { NOR = { religion_group = buddhist_group religion = jain } }
 			text = EVTOPTA_MNM_4415_A
 		}
 		name = {
-			trigger = { OR = { religion = buddhist religion = jain } }
+			trigger = { OR = { religion_group = buddhist_group religion = jain } }
 			text = EVTOPTA_MNM_4415_B
 		}
 		custom_tooltip = { text = EVTOPTA_MNM_4414_TOOLTIP_SUCCESS }
@@ -1735,7 +1780,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1745,11 +1794,11 @@ character_event = {
 
 	option = {
 		name = {
-			trigger = { NOR = { religion = buddhist religion = jain } }
+			trigger = { NOR = { religion_group = buddhist_group religion = jain } }
 			text = EVTOPTA_MNM_4416_A
 		}
 		name = {
-			trigger = { OR = { religion = buddhist religion = jain } }
+			trigger = { OR = { religion_group = buddhist_group religion = jain } }
 			text = EVTOPTA_MNM_4416_B
 		}
 		custom_tooltip = { text = EVTOPTA_MNM_4414_TOOLTIP_FAILURE }
@@ -1769,7 +1818,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1779,11 +1832,11 @@ character_event = {
 
 	option = {
 		name = {
-			trigger = { NOR = { religion = buddhist religion = jain } }
+			trigger = { NOR = { religion_group = buddhist_group religion = jain } }
 			text = EVTOPTA_MNM_4415_A
 		}
 		name = {
-			trigger = { OR = { religion = buddhist religion = jain } }
+			trigger = { OR = { religion_group = buddhist_group religion = jain } }
 			text = EVTOPTA_MNM_4415_B
 		}
 		custom_tooltip = { text = EVTOPTB_MNM_4414_TOOLTIP_SUCCESS }
@@ -1804,7 +1857,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -1856,7 +1913,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2003,7 +2064,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2073,7 +2138,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2111,7 +2180,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2138,7 +2211,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2204,7 +2281,11 @@ character_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2255,6 +2336,9 @@ character_event = {
 				NOR = {
 					society_member_of = monastic_order_buddhist
 					society_member_of = monastic_order_jain
+					society_member_of = monastic_order_jewish
+					society_member_of = monastic_order_zhao
+					society_member_of = monastic_order_qurani
 				}
 			}
 			text = EVTOPTA_MNM_4426_GOD
@@ -2264,7 +2348,7 @@ character_event = {
 				OR = {
 					society_member_of = monastic_order_buddhist
 					society_member_of = monastic_order_jain
-					is_hellenic_monastic_order_member_trigger = yes
+					society_member_of = monastic_order_stoics
 				}
 			}
 			text = EVTOPTA_MNM_4426_NOGOD
@@ -2310,7 +2394,11 @@ letter_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2369,7 +2457,11 @@ letter_event = {
 		OR = {
 			is_christian_monastic_member_trigger = yes
 			is_dharmic_monastic_member_trigger = yes
-			is_hellenic_monastic_order_member_trigger = yes
+			society_member_of = monastic_order_stoics
+			society_member_of = monastic_order_jugoslavist
+			society_member_of = monastic_order_jewish
+			society_member_of = monastic_order_zhao
+			society_member_of = monastic_order_qurani
 		}
 		OR = {
 			has_quest = quest_monastic_order_penance
@@ -2899,9 +2991,11 @@ character_event = {
 		FROM = {
 			holding_type = temple
 		}
+		NOT = { has_character_flag = monastic_orders_temple_construction_ongoing } #flag to avoid doubling of letter events when finishing two buildings at the same time
 	}
 	
 	immediate = {
+		set_character_flag = monastic_orders_temple_construction_ongoing
 		random_society_member = {
 			limit = {
 				same_society_as = ROOT
@@ -2953,6 +3047,9 @@ letter_event = {
 		else = {
 			add_society_currency_major_effect = yes		
 		}
+	}
+	after = {
+		clr_character_flag = monastic_orders_temple_construction_ongoing
 	}
 }
 
@@ -3273,6 +3370,10 @@ character_event = {
 			random = {
 				chance = 15
 				add_trait = homosexual
+			}
+			random = {
+				chance = 15
+				add_trait = bisexual
 			}
 			if = {
 				limit = { has_dlc = "Reapers" }
@@ -4472,7 +4573,10 @@ character_event = {
 
 	trigger = {
 		NOT = { is_inaccessible_trigger = yes }
-		NOT = { trait = homosexual }
+		NOR = {
+			trait = homosexual 
+			trait = bisexual 
+		}
 		any_society_member = {
 			same_society_as = ROOT
 			NOT = { character = ROOT }
@@ -4508,14 +4612,9 @@ character_event = {
 			}
 		}
 		OR = {
-			society_member_of = monastic_order_benedictine
-			society_member_of = monastic_order_dominican
-			society_member_of = monastic_order_orthodox
-			society_member_of = monastic_order_nestorian
-			society_member_of = monastic_order_monophysite
-			society_member_of = monastic_order_jain
-			society_member_of = monastic_order_hindu
-			society_member_of = monastic_order_buddhist
+			is_dharmic_monastic_member_trigger = yes
+			is_christian_monastic_member_trigger = yes
+			society_member_of = monastic_order_jugoslavist
 		}
 	}
 
@@ -5021,9 +5120,23 @@ character_event = {
 
 	option = { #Do it
 		name = EVTOPTB_MNM_4441
-		add_trait = homosexual
+		random_list = {
+				50 = { 
+					add_trait = homosexual
+				}
+				50 = { 
+					add_trait = bisexual
+				}
+		}
 		event_target:monastic_friend = {
-			add_trait = homosexual
+			random_list = {
+				50 = { 
+					add_trait = homosexual
+				}
+				50 = { 
+					add_trait = bisexual
+				}
+			}
 			set_character_flag = monastic_friend_lover_@ROOT
 		}
 		add_lover = FROM
@@ -5104,14 +5217,9 @@ character_event = {
 		NOT = { has_character_modifier = caught_stealing_artifact_penance }
 		NOT = {	has_character_flag = monastic_stole_artifact }
 		OR = {
-			society_member_of = monastic_order_benedictine
-			society_member_of = monastic_order_dominican
-			society_member_of = monastic_order_orthodox
-			society_member_of = monastic_order_nestorian
-			society_member_of = monastic_order_monophysite
-			society_member_of = monastic_order_jain
-			society_member_of = monastic_order_hindu
-			society_member_of = monastic_order_buddhist
+			is_dharmic_monastic_member_trigger = yes
+			is_christian_monastic_member_trigger = yes
+			society_member_of = monastic_order_jugoslavist
 		}
 	}
 
@@ -5162,8 +5270,9 @@ character_event = {
 			20 = {
 				modifier = { 
 					factor = 0 
-					NOT = {
+					NOR = {
 						religion_group = indian_group
+						religion_group = buddhist_group
 					}
 				}
 				modifier = {
@@ -5175,8 +5284,9 @@ character_event = {
 			20 = {
 				modifier = { 
 					factor = 0 
-					NOT = {
+					NOR = {
 						religion_group = indian_group
+						religion_group = buddhist_group
 					}
 				}
 				modifier = {
@@ -5188,8 +5298,9 @@ character_event = {
 			1 = {
 				modifier = { 
 					factor = 0 
-					NOT = {
+					NOR = {
 						religion_group = indian_group
+						religion_group = buddhist_group
 					}
 				}
 				modifier = {
@@ -5631,6 +5742,33 @@ character_event = {
 		}
 		if = {
 			limit = {
+				society_member_of = monastic_order_lutheran
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_lutheran
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_methodist
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_methodist
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_novelist
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_novelist
+			}
+		}		
+		if = {
+			limit = {
 				society_member_of = monastic_order_monophysite
 			}
 			leave_society = yes
@@ -5676,20 +5814,47 @@ character_event = {
 		}
 		if = {
 			limit = {
-				 society_member_of = monastic_order_skeptics
+				society_member_of = monastic_order_osvicenism
 			}
 			leave_society = yes
 			hidden_effect = {
-				set_character_flag = betrayed_monastic_order_skeptics
+				set_character_flag = betrayed_monastic_order_osvicenism
 			}
 		}
 		if = {
 			limit = {
-				 society_member_of = monastic_order_epicureans
+				society_member_of = monastic_order_zhao
 			}
 			leave_society = yes
 			hidden_effect = {
-				set_character_flag = betrayed_monastic_order_epicureans
+				set_character_flag = betrayed_monastic_order_zhao
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_jugoslavist
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_jugoslavist
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_jewish
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_jewish
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_qurani
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_qurani
 			}
 		}
 		character_event = { id = MNM.4615 days = 10 random = 10 }
@@ -6849,6 +7014,33 @@ letter_event = {
 		}
 		if = {
 			limit = {
+				society_member_of = monastic_order_lutheran
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_lutheran
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_methodist
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_methodist
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_novelist
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_novelist
+			}
+		}		
+		if = {
+			limit = {
 				society_member_of = monastic_order_monophysite
 			}
 			leave_society = yes
@@ -6894,20 +7086,47 @@ letter_event = {
 		}
 		if = {
 			limit = {
-				 society_member_of = monastic_order_skeptics
+				society_member_of = monastic_order_osvicenism
 			}
 			leave_society = yes
 			hidden_effect = {
-				set_character_flag = betrayed_monastic_order_skeptics
+				set_character_flag = betrayed_monastic_order_osvicenism
 			}
 		}
 		if = {
 			limit = {
-				 society_member_of = monastic_order_epicureans
+				society_member_of = monastic_order_zhao
 			}
 			leave_society = yes
 			hidden_effect = {
-				set_character_flag = betrayed_monastic_order_epicureans
+				set_character_flag = betrayed_monastic_order_zhao
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_jugoslavist
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_jugoslavist
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_jewish
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_jewish
+			}
+		}
+		if = {
+			limit = {
+				society_member_of = monastic_order_qurani
+			}
+			leave_society = yes
+			hidden_effect = {
+				set_character_flag = betrayed_monastic_order_qurani
 			}
 		}
     }
@@ -7531,7 +7750,7 @@ character_event = {
     option = { #Go to the monastery/ashram
         name = {
         	text = EVTOPTA_MNM_4202_CHRISTIAN
-        	trigger = { is_christian_monastic_member_trigger = yes }
+        	trigger = { OR = { is_christian_monastic_member_trigger = yes society_member_of = monastic_order_jugoslavist } }
         }
         name = {
         	text = EVTOPTA_MNM_4202_DHARMIC
@@ -7615,7 +7834,7 @@ character_event = {
         	add_trait = gardener
         }
         trigger = {
-        	NOT = { lifestyle_traits = 1 }
+        	NOT = { lifestyle_traits = 2 }
         	NOT = { trait = gardener }
         	has_character_modifier = green_fingers
 		}

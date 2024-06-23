@@ -1,0 +1,2332 @@
+d_egyptian_brotherhood = {
+	color = { 0 255 0 }
+	color2 = { 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 796 # Cairo
+	
+	title = "SHEIKH"
+	foa = "SHEIKH_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = bektashi_composition
+	
+	short_name = yes
+	
+	culture = misri
+	
+	# Parent Religion 
+	religion = sunni
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)	
+}
+
+d_dralhas_children = {
+	color={ 205 100 0 }
+	color2={ 255 255 255 }
+	
+	capital = 1482 # Bumthang
+	
+	short_name = yes
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = bhutanese
+	
+	# Parent Religion 
+	religion = bon
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+	
+	mercenary_type = dralhas_children_composition
+}
+
+d_jadid = {
+	color = { 77 151 97 }
+	color2 = { 255 255 255 }
+	
+	capital = 903 # Samarkand
+	
+	title = "CAPTAIN"
+    foa = "CAPTAIN_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = bektashi_composition
+		
+	culture = uzbek
+	
+	# Parent Religion 
+	religion = jadidist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)	
+}
+
+d_nousthreskeia_order = {
+    color={ 40 82 57 }
+    color2={ 255 255 255 }
+    
+    graphical_culture = holygfx
+    
+    capital = 1873 # Novosib
+    
+    title = "CAPTAIN"
+    foa = "CAPTAIN_FOA"
+
+    # Always exists
+    landless = yes
+    
+    holy_order = yes
+    mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+    
+    short_name = yes
+    
+    culture = east_sibiran
+    
+    # Parent Religion 
+    religion = nousthreskeia
+
+    
+    # Cannot be held as a secondary title
+    primary = yes
+    
+    # Extra income due to banking, etc
+    monthly_income = 5 # (Must be an integer between 1 and 512)
+
+}
+
+d_hussite_order = {
+    color={ 40 82 57 }
+    color2={ 255 255 255 }
+    
+    graphical_culture = holygfx
+    
+    capital = 437 # Praha
+    
+    title = "CAPTAIN"
+    foa = "CAPTAIN_FOA"
+
+    # Always exists
+    landless = yes
+    
+    holy_order = yes
+    mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+    
+    short_name = yes
+    
+    culture = czech
+    
+    # Parent Religion 
+    religion = hussite
+
+    
+    # Cannot be held as a secondary title
+    primary = yes
+    
+    # Extra income due to banking, etc
+    monthly_income = 5 # (Must be an integer between 1 and 512)
+
+}
+
+d_liberian_order = {
+    color={ 53 136 191 }
+    color2={ 255 255 255 }
+    
+    graphical_culture = holygfx
+    
+    capital = 1 # Conakry
+    
+    title = "CAPTAIN"
+    foa = "CAPTAIN_FOA"
+
+    # Always exists
+    landless = yes
+    
+    holy_order = yes
+    mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+    
+    short_name = yes
+    
+    culture = liberian
+    
+    # Parent Religion 
+    religion = bushism
+
+    
+    # Cannot be held as a secondary title
+    primary = yes
+    
+    # Extra income due to banking, etc
+    monthly_income = 5 # (Must be an integer between 1 and 512)
+
+}
+d_army_salvation = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 32 # London
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = eastlander
+	
+	# Parent Religion 
+	religion = anglican
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+}
+
+d_orleanist_order = {
+	color={ 1 71 130 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 138 # Orleans
+	
+	title = "GRANDMASTER"
+	title_female = "GRANDMISTRESS"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = french
+	
+	# Parent Religion 
+	religion = orleanist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+}
+
+d_mormon_order = {
+	color={ 255 210 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 574 # Rostov
+	
+	title = "GRANDMASTER"
+	title_female = "GRANDMISTRESS"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = muscovite
+	
+	# Parent Religion 
+	religion = mormon
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+}
+
+d_raelian_order = {
+	color={ 211 134 217 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 112 # Ile de France
+	
+	title = "GRANDMASTER"
+	title_female = "GRANDMISTRESS"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = french
+	
+	# Parent Religion 
+	religion = raelian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+}
+d_lawrence_order = {
+	color={ 151 182 235 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = igbo
+	
+	# Parent Religion 
+	religion = highchurch
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+}
+
+d_purifiers = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 372 #Memel
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = teutonic_order_composition #for now
+	
+	short_name = yes
+	
+	culture = lithuanian
+	
+	# Parent Religion 
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
+d_huguenots = {
+	color={ 125 35 150 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 239 #Geneva, HQ of the revived Huguenots Order
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = teutonic_order_composition #for now
+	
+	short_name = yes
+	
+	culture = poitevin
+	
+	# Parent Religion 
+	religion = calvinist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+d_ikhwan = {
+	color={ 15 255 10 }
+	color2={ 255 255 255 }
+	
+	capital = 2157 #Riyadh
+	graphical_culture = bektashigfx
+	title = "SHEIKH"
+	foa = "SHEIKH_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = ikhwan_composition #for now
+	
+	short_name = yes
+	
+	culture = bedouin_arabic
+	
+	de_jure_liege = k_arabia
+	
+	# Parent Religion 
+	religion = wahhabi
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+}
+d_white_army = {
+	color={ 255 255 255 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 575 #Moscow
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = bektashi_composition #for now
+	
+	short_name = yes
+	
+	culture = muscovite
+	
+	# Parent Religion 
+	religion = zarist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+d_blue_stripes = {
+	color={ 35 45 255 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 395 #North Dvina/Archangelsk
+	
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = bektashi_composition #for now
+	
+	short_name = yes
+	
+	culture = pomoran
+	
+	# Parent Religion 
+	religion = folklorist_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
+d_strugglers = {
+	color={ 255 33 54 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1252 #Barasuru
+	
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = bektashi_composition #for now
+	
+	short_name = yes
+	
+	culture = oriya
+	
+	# Parent Religion 
+	religion = maunaxite_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
+d_khalsa_army = {
+	color={ 236 134 55 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1362 #Lahore
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = bektashi_composition #for now
+	
+	short_name = yes
+	
+	culture = panjabi
+	
+	# Parent Religion 
+	religion = sikh
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
+d_legion_of_mary = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 11 #Dublin
+	
+	title = "CONCILIUM_PRESIDENT"
+	foa = "CONCILIUM_PRESIDENT_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = irish
+	
+	# Parent Religion 
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+d_jugo_order = {
+	color={ 110 230 155 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 505 #Belgrade
+	
+	title = "GRANDHEADMASTER"
+	foa = "GRANDHEADMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = serbian
+	
+	# Parent Religion 
+	religion = jugoslavist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+d_sans_culottes = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 112 #Paris
+	
+	title = "CITIZEN_COMMANDER"
+	foa = "CITIZEN_COMMANDER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = sans_culottes_composition
+	
+	short_name = yes
+	
+	culture = french
+	
+	# Parent Religion 
+	religion = jacobinist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+}
+
+d_girondist_order = {
+	color={ 0 68 170 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 149 #Bordeaux
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = sans_culottes_composition
+	
+	short_name = yes
+	
+	culture = gascon
+	
+	# Parent Religion 
+	religion = girondist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+}
+
+d_knights_templar = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 112 #Paris
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = french
+	
+	# Parent Religion 
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+d_knights_of_saint_charbel = {
+	color={ 231 204 84 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = byzantinegfx
+	
+	capital = 770 #Dwin
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = maronite
+	
+	# Parent Religion 
+	religion = chaldean
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+d_puolustusvoimat = {
+	color={ 207 20 43 }
+	color2={ 255 255 255 }
+	
+	
+	capital = 1606 #Dwin
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = finnish
+	
+	# Parent Religion 
+	religion = sisukkuus
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+d_nekrasovtsy = {
+
+	color={ 157 71 255 }
+	color2={ 255 255 20 }
+		
+	capital = 886 # Peresechen
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = oldbeliever
+	
+	culture = pomoran
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = royal_madrid_merc_composition
+}
+d_stargazers = {
+
+	color={ 41 1 51 }
+	color2={ 255 255 20 }
+		
+	capital = 2041 # Peresechen
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = starist_pagan_reformed
+	
+	culture = samoyed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = royal_madrid_merc_composition
+}
+
+d_knights_of_thaddeus = {
+	color={ 0 51 160 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = byzantinegfx
+	
+	capital = 672 #Dwin
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	short_name = yes
+	
+	culture = armenian
+	
+	# Parent Religion 
+	religion = armenianapostolic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+
+d_musketeers = {
+
+	color={ 20 100 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 112
+
+	title = "CAPTAIN-LIEUTENANT"
+	foa = "CAPTAIN-LIEUTENANT_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = novelist
+	
+	culture = french
+
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = musketeers_composition
+}
+
+d_columbus_knights = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 202 # Zaragoza
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = columbus_knights_composition
+	
+	short_name = yes
+	
+	culture = castilian
+	
+	# Parent Religion 
+	religion = sevillian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+
+d_carmelites = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 182 # Sevilla
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = carmelites_composition
+	
+	short_name = yes
+	
+	culture = andalusian
+	
+	# Parent Religion 
+	religion = sevillian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+
+d_montesa = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 171 # Valencia
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+	
+	short_name = yes
+	
+	culture = valencian
+	
+	# Parent Religion 
+	religion = sevillian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+
+d_red_turbans = {
+	color={ 150 10 0 }
+	color2= { 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1498 # Lhasa
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+	
+	short_name = yes
+	
+	culture = hongkonger
+	
+	# Parent Religion 
+	religion = xinjiao
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+d_ignatius_knights = {
+	color = { 48 56 133 }
+	color2={ 255 255 255 }
+	capital = 1
+	mercenary_type = columbus_knights_composition
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	culture = brazilian
+	
+	# Parent Religion 
+	religion = apostolic
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+d_frontier = {
+	color={ 8 119 114 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1513 # Jiuquan
+
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+	
+	short_name = yes
+	
+	culture = han
+	
+	# Parent Religion 
+	religion = maoist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+d_mss = {
+	color={ 8 119 114 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+
+	capital = 1513 # Jiuquan
+
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = hashshashin_composition
+	
+	short_name = yes
+	
+	culture = han
+	
+	# Parent Religion 
+	religion = maoist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+
+d_baptist_order = {
+	color={ 15 140 50 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1321 # Kamarupanagara
+	
+	title = "NEW_PRESIDENT"
+	foa = "NEW_PRESIDENT_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+	
+	short_name = yes
+	
+	culture = assamese
+	
+	# Parent Religion 
+	religion = baptist
+
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+
+}
+
+d_redcoats = {
+	
+	color={ 150 50 50 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 32 # London
+
+	title = "LIEUTENANT-COLONEL"
+	foa = "LIEUTENANT-COLONEL_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = redcoats_composition
+	
+	short_name = yes
+	
+	# Parent Religion 
+	religion = thelemic_reformed
+	
+	culture = british
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 12 # (Must be an integer between 1 and 512)
+}
+
+d_excalibur = {
+	
+	color={ 150 40 15 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 31 # Cornwall
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = redcoats_composition
+	
+	short_name = yes
+	
+	# Parent Religion 
+	religion = summer_queen
+	
+	culture = westlander
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 12 # (Must be an integer between 1 and 512)
+}
+
+d_knights_lazarus = {
+
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 333
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = scottish
+	
+	# Parent Religion 
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = knights_hospitaler_composition
+}
+k_lazarean_state = {
+	color={ 180 220 180 }
+	color2={ 255 255 255 }
+
+	graphical_culture = holygfx
+	
+	capital = 333 # Malta
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	holy_order = yes
+	mercenary_type = knights_hospitaler_composition
+
+	short_name = yes
+
+	assimilate = no
+	
+	landless = yes
+
+	# Parent Religion
+	religion = catholic
+
+	culture = scottish
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to donations, etc
+	monthly_income = 12 # (Must be an integer between 1 and 512)	
+}
+
+d_knights_hospitaler = {
+
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 812 # Malta
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	de_jure_liege = k_hospitaller_state
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	culture = sicilian
+	
+	# Parent Religion 
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = knights_hospitaler_composition
+}
+d_knights_hospitaler_1 = {
+
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1940 # Lindisfarne
+
+	title = "GRANDPRIOR"
+	foa = "GRANDPRIOR_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	culture = northlander
+	
+	# Parent Religion 
+	religion = anglican
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = knights_hospitaler_composition
+}
+d_knights_hospitaler_2 = {
+
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 239 # Geneve
+
+	title = "GRANDHEADMASTER"
+	foa = "GRANDHEADMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	culture = swiss
+	
+	# Parent Religion 
+	religion = calvinist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = knights_hospitaler_composition
+}
+d_knights_hospitaler_3 = {
+
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 365 # Brandenburg
+
+	title = "GRANDHEADMASTER"
+	foa = "GRANDHEADMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	culture = brandenburger
+	
+	# Parent Religion 
+	religion = lutheran
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = knights_hospitaler_composition
+}
+
+k_hospitaller_state = {
+	color={ 220 180 180 }
+	color2={ 255 255 255 }
+
+	graphical_culture = holygfx
+	
+	capital = 812 # Malta
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	holy_order = yes
+	mercenary_type = knights_hospitaler_composition
+
+	short_name = yes
+
+	assimilate = no
+	
+	landless = yes
+
+	# Parent Religion
+	religion = catholic
+
+	culture = maltese
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to donations, etc
+	monthly_income = 12 # (Must be an integer between 1 and 512)	
+}
+
+d_adeptus_custodes = {
+
+	color={ 50 50 50 }
+	color2={ 255 255 255 }
+
+	graphical_culture = holygfx
+
+	capital = 365 # Berlin
+
+	title = "PRIMARCH"
+	foa = "PRIMARCH_FOA"
+
+	# Always exists
+	landless = yes
+
+	holy_order = yes
+	mercenary_type = unforgiven_composition
+	
+	short_name = yes
+
+	# Parent Religion 
+	religion = cadaverist
+
+	culture = prussian
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to donations, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+}
+
+d_hashshashin = {
+
+	color={ 100 100 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = hashshashingfx
+	
+	capital = 1666 # Karachev
+	
+	title = "GENERAL_COMISSAR"
+	foa = "GENERAL_COMISSAR_FOA"
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	culture = muscovite
+	
+	# Parent Religion 
+	religion = stalinist
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = hashshashin_composition
+}
+
+k_KGB_state = {
+	color={ 100 100 0 }
+	color2={ 255 255 255 }
+
+	graphical_culture = hashshashingfx
+	
+	capital = 1666 # Karachev
+
+	title = "GENERAL_COMISSAR"
+	foa = "GENERAL_COMISSAR_FOA"
+
+	holy_order = yes
+	mercenary_type = hashshashin_composition
+
+	short_name = yes
+
+	assimilate = no
+	
+	landless = yes
+
+	# Parent Religion
+	religion = stalinist
+
+	culture = muscovite
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to donations, etc
+	monthly_income = 12 # (Must be an integer between 1 and 512)	
+}
+
+d_bektashi = {
+
+	color={ 90 150 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 753 # Ancyra/Ankara
+	
+	title = "DEDEBABA"
+	foa = "GRANDHEADMASTER_FOA"
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	culture = turkish #They are in Ankara now, so Turkish makes more sense
+	
+	# Parent Religion 
+	religion = sunni
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bektashi_composition
+}
+
+d_ahmadi_order = {
+
+	color={ 0 0 120 }
+	color2={ 180 130 41 }
+	
+	capital = 1193 # Trigarta
+	
+	title = "MUFTI_SILSILA"
+	foa = "MUFTI_SILSILA_FOA"
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	culture = panjabi
+	
+	# Parent Religion 
+	religion = ahmadiyya
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bektashi_composition
+}
+
+d_tijani_order = {
+
+	color={ 150 200 80 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 1738 # Air
+	
+	title = "MURSHID"
+	foa = "GRANDHEADMASTER_FOA"
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	culture = tashadian
+	
+	# Parent Religion 
+	religion = sufi
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bektashi_composition
+}
+
+d_naqshbandi = {
+
+	color={ 150 200 80 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 693 # Baghdad
+	
+	title = "GRANDHEADMASTER"
+	foa = "GRANDHEADMASTER_FOA"
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	culture = iraqi
+	
+	# Parent Religion 
+	religion = mesopotamian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bektashi_composition
+}
+
+d_haruriyyah = {
+
+	color={ 150 200 80 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 868 # Suhar
+	
+	title = "DEDEBABA"
+	foa = "GRANDHEADMASTER_FOA"
+	
+	holy_order = yes
+
+	short_name = yes
+
+	# Always exists
+	landless = yes
+	
+	culture = omani
+	
+	# Parent Religion 
+	religion = ibadi
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bektashi_composition
+}
+
+d_immortals = {
+
+	color={ 180 205 20 }
+	
+	graphical_culture = immortalsgfx
+	
+	capital = 637
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+		
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = zoroastrian
+	
+	culture = persian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = immortals_composition
+}
+
+d_seekers = {
+	color={ 180 205 20 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 688 #Kermanshah
+	
+	title = "MASTER_SEEKER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = immortals_composition
+	
+	culture = kurdish
+	
+	# Parent Religion 
+	religion = yersenism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+}
+
+d_zealots = {
+
+	color={ 20 100 255 }
+	
+	graphical_culture = jewishholygfx
+	
+	capital = 774
+
+	title = "ALUF"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = jewish
+	
+	de_jure_liege = k_israel
+	culture = israeli
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = zealots_composition
+}
+
+d_shomrim = {
+
+	color={ 239 232 51 }
+	
+	graphical_culture = jewishholygfx
+	
+	capital = 32
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = congregationist
+	
+	culture = ashkenazi
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = shomrim_composition
+}
+
+d_holy_sepulchre = {
+
+	color={ 120 0 145 }
+		
+	capital = 1890
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	de_jure_liege = k_sepulchre_state
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = griko
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = holy_sepulchre_composition
+}
+
+d_saint_basil = {
+
+	color={ 172 76 139 }
+	color2={ 255 255 20 }
+		
+	capital = 541 # Peresechen
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = rumca
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = holy_sepulchre_composition
+}
+
+k_sepulchre_state = {
+	color={ 120 0 145 }
+	color2={ 255 255 255 }
+
+	capital = 1890
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	holy_order = yes
+	mercenary_type = holy_sepulchre_composition
+
+	short_name = yes
+
+	assimilate = no
+	
+	landless = yes
+
+	# Parent Religion
+	religion = orthodox
+
+	culture = griko
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to donations, etc
+	monthly_income = 12 # (Must be an integer between 1 and 512)	
+}
+
+d_saint_anthony = {
+
+	color={ 180 165 70 }
+	
+	graphical_culture = holygfx
+	
+	capital = 875
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = koptic
+	
+	culture = tigray
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = holy_sepulchre_composition
+}
+
+#d_saint_addai = {
+#
+#	color={ 180 80 140 }
+#	
+#	graphical_culture = holygfx
+#	
+#	capital = 693 # Baghdad
+#
+#	title = "GRANDMASTER"
+#	foa = "GRANDMASTER_FOA"
+#	
+#	# Always exists
+#	landless = yes
+#	
+#	holy_order = yes
+#	
+#	# Parent Religion 
+#	religion = nestorian
+#	
+#	culture = assyrian
+#	
+#	# Cannot be held as a secondary title
+#	primary = yes
+#	
+#	# Extra income due to donations, etc
+#	monthly_income = 2 # (Must be an integer between 1 and 512)
+#
+#	mercenary_type = saint_addai_composition
+#}
+
+d_sky_lords = {
+
+	color={ 220 200 140 }
+	
+	capital = 1457 #Karakhorum
+
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = khanist
+	
+	culture = mongol
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = sky_lords_composition
+}
+
+d_chosen_perkunas = {
+
+	color={ 200 45 45 }
+	
+	graphical_culture = balticholygfx
+	
+	capital = 374
+
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = baltic_pagan_reformed
+	
+	culture = lithuanian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = chosen_perkunas_composition
+}
+
+d_sons_kaleva = {
+
+	color={ 140 130 105 }
+	
+	graphical_culture = finnishholygfx
+	
+	capital = 392
+
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = finnish_pagan_reformed
+	
+	culture = finnish
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = sons_kaleva_composition
+}
+
+d_ashokas_chosen = {
+	color={ 205 100 0 }
+	color2={ 255 255 255 }
+	
+	capital = 1215 # Colombo, Sri Lanka
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	culture = sinhala
+	
+	# Parent Religion 
+	religion = theravada
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+	
+	mercenary_type = ashokas_chosen_composition
+}
+
+d_bulls_rishabha = {
+	color={ 255 100 0 }
+	color2={ 255 255 255 }
+	
+	capital = 1355 # Delhi
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	short_name = yes
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = kannada
+	
+	# Parent Religion 
+	religion = jain
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+	
+	mercenary_type = bulls_rishabha_composition
+}
+
+d_myrmidons = {
+
+	color = { 224 125 8 }
+	
+	capital = 482 # Atheniai
+
+	title = "MEGASTRATEGOS"
+	title_female = "MEGASTRATEGISSA"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = greek
+	
+	# Parent Religion 
+	religion = hellenic_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = myrmidons_composition
+}
+d_warriors_al_atrash = {
+
+	color = { 14 34 161 }
+	color2={ 255 255 255 }
+	
+	capital = 713 # Druz
+
+	title = "SULTAN"
+	title_female = "SULTANA"
+	foa = "SULTAN_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = durzi
+	
+	# Parent Religion
+	religion = druze
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = congolese_mid_composition
+}
+d_ovlatii_order = {
+	
+	color={ 157 201 100 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 903 # Samarkand
+
+	title = "LIEUTENANT-COLONEL"
+	foa = "LIEUTENANT-COLONEL_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = bektashi_composition
+	
+	short_name = yes
+	
+	# Parent Religion 
+	religion = ovlatii
+	
+	culture = uzbek
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 12 # (Must be an integer between 1 and 512)
+}
+d_shahrbani = {
+
+	color={ 184 225 112 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 663 #	Rayy AKA Tehran
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	culture = persian
+	
+	# Parent Religion 
+	religion = shiite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bektashi_composition
+}
+d_kadena = {
+
+	color={ 167 30 48 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 2159 #Sandwip
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	holy_order = yes
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	culture = weeb
+	
+	# Parent Religion 
+	religion = charismatic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = carmelites_composition #This will be changed later to something unique I assume
+}
+
+d_fianna = {
+	
+	color={ 75 75 75 }
+	color2={ 255 255 255 }
+	
+	capital = 15 #Ormond
+
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = celtic_pagan
+	
+	monthly_income = 1
+	
+	culture = irish
+	
+	# Cannot be held as a secondary title
+	primary = yes
+
+	strength_growth_per_century = 0.1
+
+	mercenary_type = fianna_composition
+
+	dynasty_title_names = no
+}

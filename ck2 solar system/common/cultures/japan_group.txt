@@ -1,0 +1,84 @@
+japan_group = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+	
+	weeb = {
+		graphical_cultures = { weebgfx chinesegfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 150 20 25 }
+
+		male_names = {
+			Adamu_Adam Aizakku_Isaac Akagi Akinobu Andoryuu_Andrew Anko Ansonii_Anthony Aran_Alan Aron_Aaron Arekusandaa_Alexander Arufureddo_Alfred Aizea_Isaiah
+			Batora Buraian_Brian Buraisu_Brice Burandon_Brandon
+			Chaaruzu_Charles Chado_Chad Chojun Choki
+			Danieru_Daniel Darasu_Dallas Daruton_Dalton Dabiddo_David Dagurasu_Douglas Deidara Diran_Dylan Doreiku_Drake
+			Eban_John Eisho Erikku_Erik
+			Firippu_Phillip Fukumoto Furanku_Francis Furederikku_Frederick
+			Gaburieru_Gabriel Gai_Guy Gichin Goku
+			Habieru_Xavier Halca Hantaa_Hunter Hideki Higashionna Hideyoshi Hiroki Hitoshi
+			Iha Iisan_Ethan Iraija_Elijah
+			Jakku_John Jamaru_Jamal Jasutin_Justin Jeekobu_Jacob Jeemuzu_James Jeeson_Jason Jo_Joe Joji_George Jon_John Jonasan_Jonathan Joodan_Jordan Joshu_Joshua Josuke Jotaro Jozefu_Joseph Juriasu_Julius
+			Kaiji Kairu_Kyle Kanbun Karurosu_Charles Katsuo Kazuhito Kazuki Kazuto Kebin_Kevin Keirebu_Caleb Kenshiro Kentsu Kenwa Kinzo Kisu_Keith Kiyosaku Konaa_Connor Kurausu_Krauss Kurisuchan_Christian Kurisutofaa_Christopher Kurosawa Kyameron_Cameron
+			Maikeru_Michael Masaru Mashu_Matthew Matsumura 
+			Naruto Neesan_Nathan Nikorasu_Nicholas Noa_Noah Nobunaga
+			Oosutin_Augustine Oribee_Oliver Ota
+			Poru_Paul Puresuton_Preston
+			Raian_Ryan Rekkusu_Rex Reo_Leo Richado_Richard Robaato_Robert Roogan_Reagan Rudorufu_Rudolf Ruisu_Louis Ryo
+			Sai Sairasu_Cyrus Samyueru_Samuel Satoshi Subaru Suzuki
+			Tairaa_Tyler Takashi Tatsuhiro Tatsuo Tekira_Tequila Tei Timu_Timothy Toomasu_Thomas Toyota
+			Uein_Wayne
+			Wiriamu_William
+			Yamato Yoh Yoko Yukiya Yuusuke
+			Zakarii_Zachary
+			} 
+		female_names = {
+			Abigeeru_Abigail Ai Aimi_Amy Airin_Irene Aoi Aki Amanda_Amanda Anbaa Andoria_Andrea Anjera_Angela Anna_Anna Arekusandora_Alexandra Arekushisu_Alexia Arison_Alice Arissa Ashurii_Ashley Asumu
+			Beatoriche_Beatrice Beronika_Veronica Bikutoria_Victoria Buriana_Briana Burijitto_Bridget Burukku
+			Chie Chitose
+			Daniera_Daniela Desutinii_Destiny
+			Eba_Eva Ema_Emma Emirii_Emily Enje_Ange Erika_Erika Erizabesu_Elizabeth
+			Gaburieru_Gabriela Gakuto Gureesu_Grace Guroria_Gloria
+			Hanna_Hannah Heerii_Haley Heza_Heather Hiroko Hitoe
+			Izabera_Elizabeth
+			Jannu_Jeanne Jazumin_Jasmine Jenifaa_Jennifer Jeshika_Jessica Joodan_Jordana Juri_Julie Juria_Julia
+			Keera Keitorin_Caitlin Kirie Kuroe_Chloe Kurodia_Claudia Kyarorain_Caroline Kyasarin_Catherine
+			Maderin_Madeline Makkenjii Makii Makishi Maria_Maria Mearii_Mary Megu_Margaret Mei Meriru_Meryl Migan_Margaret Misheru_Michelle Monika_Monica Moogan_Morgana
+			Natarii_Natalie Nanako Natsuhi Nikooru_Nicole Nina Nohana
+			Oribia_Olivia
+			Patorishia_Patricia
+			Rebekka_Rebecca Reecheru_Rachel Reina_Regina Rika_Frederica Risa_Elizabeth Ritsuko Rooren_Lauren Roza_Rosa Rozu_Rose
+			Sabanna_Savannah Sakura Samansa_Samantha Sayo Seera_Sarah Sharotto_Charlotte Shidonii_Sydney Shiera_Sierra Shiho Sofia_Sophia Sutefanii_Stephanie Sutera_Stella Suzan_Susan
+			Takako 
+			Warugiria_Virgilia
+			Yui	Yuria
+			}		
+		
+		male_patronym = "Ko"
+		female_patronym = "Me"
+		prefix = no
+		from_dynasty_prefix = "Fara "
+		
+		modifier = default_culture_modifier
+		
+		dukes_called_kings = yes
+		allow_looting = yes
+		seafarer = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+}

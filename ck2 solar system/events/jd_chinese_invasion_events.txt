@@ -8,20 +8,20 @@
 
 namespace = JD
 
-#Written by: 
+#Written by:
 #Milla Isaksson
 
 ####China launches an invasion... [Hidden, picks an invasion type - Tributary OR Major OR nothing happens]
 character_event = {
-    id = JD.10100
-    has_dlc = "Jade Dragon"
-    is_triggered_only = yes
+	id = JD.10100
+	has_dlc = "Jade Dragon"
+	is_triggered_only = yes
 
-    hide_window = yes
-    
-    trigger = {
+	hide_window = yes
+
+	trigger = {
 		FROM = { is_offmap_tag = offmap_china }
-    	war = no
+		war = no
 		NOT = { has_offmap_tmp_flag = launching_invasion_of_the_west }
 		china_is_fine_trigger = yes
 		NOR = {
@@ -34,14 +34,14 @@ character_event = {
 				value = adventurers_only
 			}
 		}
-    }
+	}
 
-    immediate = {
+	immediate = {
 		set_offmap_tmp_flag = launching_invasion_of_the_west
-		
+
 		save_event_target_as = the_protector_general
-	
-    	if = { #If the WP currently holds land on map
+
+		if = { #If the WP currently holds land on map
 			limit = { event_target:the_protector_general = { is_landed = yes } }
 			set_offmap_tmp_flag = WP_is_on_map
 		}
@@ -70,7 +70,7 @@ character_event = {
 
 				modifier = {
 					factor = 2
-					has_offmap_tmp_flag = WP_is_on_map 
+					has_offmap_tmp_flag = WP_is_on_map
 				}
 				modifier = {
 					factor = 1.5
@@ -85,35 +85,6 @@ character_event = {
 					casus_belli = dismantle_pretender_china_cb
 					target = event_target:chinese_invasion_target
 				}
-				if = { 
-					limit = { has_offmap_tmp_flag = WP_is_on_map }
-					random_realm_province = {
-						limit = { is_capital = yes }
-						save_event_target_as = chinese_invasion_spawn_point_province
-					}
-				}
-				if = {
-					random_list = {
-						10 = { #Anxi
-							1408 = { save_event_target_as = chinese_invasion_spawn_point_province }
-						}
-						10 = { #Dunhuang
-							1448 = { save_event_target_as = chinese_invasion_spawn_point_province }
-						}
-						10 = { #Jiuquan
-							1513 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-						}
-						10 = { #Yizhou
-							1450 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-						}
-						10 = { #Gaochang
-							1446 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-						}
-						10 = { #Luntai
-							1449 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-						}
-					}
-				}
 				
 				### Logging
 				log = "-------------------------------------"
@@ -126,563 +97,121 @@ character_event = {
 				clr_offmap_tmp_flag = pretender_chinese_empire_exists
 				clr_offmap_tmp_flag = pretender_chinese_empire_war_cooldown
 
-		    	#Send news of invasion to interested player parties...
-		    	any_player = {
+				#Send news of invasion to interested player parties...
+				any_player = {
 					limit = {
 						has_offmap_news_enabled = offmap_china
 						is_within_diplo_range = ROOT
 					}
-		    		narrative_event = { id = JD.60208 days = 1 } #News: "China has launched a major attack on <target>"
+					narrative_event = { id = JD.60208 days = 1 } #News: "China has launched a major attack on <target>"
 				}
 			}
 			100 = { #Tributary Invasion [Medium]...
-    			trigger = {
-    				NOT = { has_offmap_tmp_flag = pretender_chinese_empire_exists }
-    				NOT = { has_offmap_tmp_flag = tributary_invasion_fired }
-    				OR = {
-    					AND = {
-	    					NOT = { has_policy = china_expansionist }
-		    				any_independent_ruler = {
-		    					valid_offmap_china_target_location = yes
-								valid_offmap_china_target = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-				    		}
-    					}
-    					AND = {
-    						has_policy = china_expansionist
-    						any_independent_ruler = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-				    		}
-    					}
-    				}
-    			}   			
-    			modifier = {
-    				factor = 1.5
-    				has_offmap_tmp_flag = WP_is_not_on_map
-    			}
-    			modifier = {
-    				factor = 1.5
-    				OR = {
-	    				china_is_stable_expansionist_trigger = yes
-    					china_is_golden_age_open_trigger = yes
-    				}
-    			}
-    			modifier = {
-    				factor = 10 #strongly encouraged if China does not have some tributaries already (and not expansionist - if so, they'll opt for taking land instead)
-    				OR = {
-    					AND = {
-    						china_is_stable_open_trigger = yes
-		    				NOT = {
-		    					any_playable_ruler = {
-		    						count = 4
+				trigger = {
+					NOT = { has_offmap_tmp_flag = pretender_chinese_empire_exists }
+					NOT = { has_offmap_tmp_flag = tributary_invasion_fired }
+					any_independent_ruler = {
+						valid_offmap_china_target = yes
+						valid_offmap_china_target_location = yes
+						num_of_count_titles_in_realm > 0
+						OR = {
+							NOR = { # Small and China is not expansionist
+								ROOT = { has_policy = china_expansionist }
+								num_of_count_titles_in_realm = 20
+							}
+							AND = { # Large and China is expansionist
+								ROOT = { has_policy = china_expansionist }
+								num_of_count_titles_in_realm = 15
+							}
+						}
+					}
+				}
+				modifier = {
+					factor = 1.5
+					has_offmap_tmp_flag = WP_is_not_on_map
+				}
+				modifier = {
+					factor = 1.5
+					OR = {
+						china_is_stable_expansionist_trigger = yes
+						china_is_golden_age_open_trigger = yes
+					}
+				}
+				modifier = {
+					factor = 10 #strongly encouraged if China does not have some tributaries already (and not expansionist - if so, they'll opt for taking land instead)
+					OR = {
+						AND = {
+							china_is_stable_open_trigger = yes
+							NOT = {
+								any_playable_ruler = {
+									count = 4
 									is_tributary = {
 										suzerain = ROOT
-									}
-		    					}
-		    				}
-    					}
-    					AND = {
-    						china_is_golden_age_open_trigger = yes
-		    				NOT = {
-		    					any_playable_ruler = {
-		    						count = 9
-									is_tributary = {
-										suzerain = ROOT
-									}
-		    					}
-		    				}
-    					}
-    				}
-    			}
-    			modifier = {
-    				factor = 2
-    				has_status = china_golden_age
-    			}
-
-    			random_list = { # Selects big or small target...
-
-    				10 = { #Going after small tributary...!
-    					trigger = {
-							OR = {
-								NOT = { has_policy = china_expansionist }
-								AND = {
-									has_policy = china_expansionist
-									NOT = {
-										any_independent_ruler = {
-											valid_offmap_china_target_location = yes
-											num_of_count_titles_in_realm = 15
-											valid_offmap_china_target = yes
-										}
 									}
 								}
 							}
-		    			}
-						
-						#1. Selects an appropriate target... (worst case), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location = yes
-								valid_offmap_china_target = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-
-    					#2. Selects an appropriate target... (worst case)
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location = yes
-								valid_offmap_china_target = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#3. Selects an appropriate target... (worst case), pick someone who raids china if possible
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location = yes
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#4. Finds someone within the appropriate geographical sphere... (better), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-				    		}
-				    		save_event_target_as = chinese_invasion_target
 						}
-
-		    			#5. Finds someone within the appropriate geographical sphere... (better)
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#6. Finds someone within the appropriate geographical sphere... (better), pick someone who raids china if possible
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#7. Finds someone liked by the emperor... (best), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								liked_by_offmap = { type = offmap_china }
-								NOT = { disliked_by_offmap = { type = offmap_china } }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-
-						#8. Finds someone liked by the emperor... (best)
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								liked_by_offmap = { type = offmap_china }
-								NOT = { disliked_by_offmap = { type = offmap_china } }
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#9. Finds someone liked by the emperor... (best), pick someone who raids china if possible
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								liked_by_offmap = { type = offmap_china }
-								NOT = { disliked_by_offmap = { type = offmap_china } }
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#10. Selects an appropriate target... (worst case for border gore), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-								valid_offmap_china_target = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#11. Selects an appropriate target... (worst case for border gore)
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-								valid_offmap_china_target = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#12. Selects an appropriate target... (worst case for border gore), pick someone who raids china if possible
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#13. Finds someone within the appropriate geographical sphere... (better, also good for border gore), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location_tributary_chain = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-
-		    			#14. Finds someone within the appropriate geographical sphere... (better, also good for border gore)
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location_tributary_chain = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#15. Finds someone within the appropriate geographical sphere... (better, also good for border gore), pick someone who raids china if possible
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location_tributary_chain = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#16. Finds someone liked by the emperor... (best, also good for border gore), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location_tributary_chain = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								liked_by_offmap = { type = offmap_china }
-								NOT = { disliked_by_offmap = { type = offmap_china } }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-
-						#17. Finds someone liked by the emperor... (best, also good for border gore)
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location_tributary_chain = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								liked_by_offmap = { type = offmap_china }
-								NOT = { disliked_by_offmap = { type = offmap_china } }
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#18. Finds someone liked by the emperor... (best, also good for border gore), pick someone who raids china if possible
-		    			random_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target = yes
-								valid_offmap_china_target_location_tributary_chain = yes
-								NOT = { num_of_count_titles_in_realm = 20 }
-								num_of_count_titles_in_realm > 0
-								liked_by_offmap = { type = offmap_china }
-								NOT = { disliked_by_offmap = { type = offmap_china } }
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-    				}
-
-    				10 = {  # Going after bigger tributary...! (only if expansionist)
-    					trigger = {
-				    		has_policy = china_expansionist
-				    		any_independent_ruler = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-				    		}
-		    			}
-		    			modifier = {
-		    				factor = 10
-		    				china_is_golden_age_expansionist_trigger = yes
-		    			}
-						
-						#1. Finds an appropriate target... (worst case), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-    					#2. Finds an appropriate target... (worst case)
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#3. Finds an appropriate target... (worst case), pick someone who raids china if possible
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#4. Finds someone with more counties... (better), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-				    		limit = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 20
-								valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-
-		    			#5. Finds someone with more counties... (better)
-		    			random_independent_ruler = {
-				    		limit = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 20
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#6. Finds someone with more counties... (better), pick someone who raids china if possible
-		    			random_independent_ruler = {
-				    		limit = {
-								valid_offmap_china_target_location = yes
-				    			num_of_count_titles_in_realm = 20
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						
-						#7. Finds someone who is liked by the Emperor (best), prefer not attacking someone who supplies horses
-						if = { limit = { has_policy = china_expansionist }
-			    			random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target = yes
-									valid_offmap_china_target_location = yes
-									num_of_count_titles_in_realm = 20
-									liked_by_offmap = { type = offmap_china }
-									NOT = { disliked_by_offmap = { type = offmap_china } }
-					    		}
-					    		save_event_target_as = chinese_invasion_target
+						AND = {
+							china_is_golden_age_open_trigger = yes
+							NOT = {
+								any_playable_ruler = {
+									count = 9
+									is_tributary = {
+										suzerain = ROOT
+									}
+								}
 							}
 						}
-						
-						#8. Finds someone who is liked by the Emperor (best)
-						if = { limit = { has_policy = china_expansionist }
-			    			random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target = yes
-									valid_offmap_china_target_location = yes
-									num_of_count_titles_in_realm = 20
-									liked_by_offmap = { type = offmap_china }
-									NOT = { disliked_by_offmap = { type = offmap_china } }
-									NOT = { has_character_modifier = china_supply_horses }
-					    		}
-					    		save_event_target_as = chinese_invasion_target
+					}
+				}
+				modifier = {
+					factor = 2
+					has_status = china_golden_age
+				}
+				# Selects an appropriate target...
+				any_independent_ruler = {
+					limit = {
+						valid_offmap_china_target = yes
+						valid_offmap_china_target_location = yes
+						num_of_count_titles_in_realm > 0
+						OR = {
+							NOR = { # Small and China is not expansionist
+								ROOT = { has_policy = china_expansionist }
+								num_of_count_titles_in_realm = 20
+							}
+							AND = { # Large and China is expansionist
+								ROOT = { has_policy = china_expansionist }
+								num_of_count_titles_in_realm = 15
 							}
 						}
-						
-						#9. Finds someone who is liked by the Emperor (best), pick someone who raids china if possible
-						if = { limit = { has_policy = china_expansionist }
-			    			random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target = yes
-									valid_offmap_china_target_location = yes
-									num_of_count_titles_in_realm = 20
-									liked_by_offmap = { type = offmap_china }
-									NOT = { disliked_by_offmap = { type = offmap_china } }
-									NOT = { has_character_modifier = china_supply_horses }
-									has_character_modifier = china_raid_active
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
+					}
+					score_value = {
+						value = 10
+						additive_modifier = { # Prefer someone who will not cause bordergore
+							value = 16
+							valid_offmap_china_target_location_tributary_chain = yes
 						}
-						
-						#10. Finds an appropriate target neighboring them... (worst case for border gore), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#11. Finds an appropriate target neighboring them... (worst case for border gore)
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#12. Finds an appropriate target neighboring them... (worst case for border gore), pick someone who raids china if possible
-		    			random_independent_ruler = {
-		    				limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-				    			num_of_count_titles_in_realm = 15
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-		    			}
-						
-						#13. Finds someone with more counties that also neighbours them... (better, also good for border gore), prefer not attacking someone who supplies horses
-		    			random_independent_ruler = {
-				    		limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-				    			num_of_count_titles_in_realm = 20
-								valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
+						additive_modifier = { # Prefer larger targets if expansionist
+							value = 8
+							ROOT = { has_policy = china_expansionist }
+							num_of_count_titles_in_realm = 20
 						}
-						
-						#14. Finds someone with more counties that also neighbours them... (better, also good for border gore)
-		    			random_independent_ruler = {
-				    		limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-				    			num_of_count_titles_in_realm = 20
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-				    		}
-				    		save_event_target_as = chinese_invasion_target
+						additive_modifier = { # Prefer someone who is liked by the emperor
+							value = 4
+							liked_by_offmap = { type = offmap_china }
+							NOT = { disliked_by_offmap = { type = offmap_china } }
 						}
-						
-						#15. Finds someone with more counties that also neighbours them... (better, also good for border gore), pick someone who raids china if possible
-		    			random_independent_ruler = {
-				    		limit = {
-								valid_offmap_china_target_location_tributary_chain = yes
-				    			num_of_count_titles_in_realm = 20
-								valid_offmap_china_target = yes
-								NOT = { has_character_modifier = china_supply_horses }
-								has_character_modifier = china_raid_active
-				    		}
-				    		save_event_target_as = chinese_invasion_target
+						additive_modifier = { # Prefer someone who does not suply horses
+							value = 2
+							NOT = { has_character_modifier = china_supply_horses }
 						}
-						
-						#16. Finds someone who is liked by the Emperor that also neighbours them (best, also good for border gore), prefer not attacking someone who supplies horses
-						if = { limit = { has_policy = china_expansionist }
-			    			random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target = yes
-									valid_offmap_china_target_location_tributary_chain = yes
-									num_of_count_titles_in_realm = 20
-									liked_by_offmap = { type = offmap_china }
-									NOT = { disliked_by_offmap = { type = offmap_china } }
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
+						additive_modifier = { # Prefer someone who rides China
+							value = 1
+							has_character_modifier = china_raid_active
 						}
-						
-						#17. Finds someone who is liked by the Emperor that also neighbours them (best, also good for border gore)
-						if = { limit = { has_policy = china_expansionist }
-			    			random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target = yes
-									valid_offmap_china_target_location_tributary_chain = yes
-									num_of_count_titles_in_realm = 20
-									liked_by_offmap = { type = offmap_china }
-									NOT = { disliked_by_offmap = { type = offmap_china } }
-									NOT = { has_character_modifier = china_supply_horses }
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
-						}
-						
-						#18. Finds someone who is liked by the Emperor that also neighbours them (best, also good for border gore), pick someone who raids china if possible
-						if = { limit = { has_policy = china_expansionist }
-			    			random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target = yes
-									valid_offmap_china_target_location_tributary_chain = yes
-									num_of_count_titles_in_realm = 20
-									liked_by_offmap = { type = offmap_china }
-									NOT = { disliked_by_offmap = { type = offmap_china } }
-									NOT = { has_character_modifier = china_supply_horses }
-									has_character_modifier = china_raid_active
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
-						}
-    				}
-    			}
+					}
+					save_event_target_as = chinese_invasion_target
+				}
 
 				event_target:chinese_invasion_target = { character_event = { id = JD.10130 } } #Send a demand - "Become tributary or prepare to be defeated"...
 				#change_variable = { which = global_tributary_invasions_launched value = 1 } #for logging purposes
@@ -690,96 +219,65 @@ character_event = {
 
 			100 = { # Major Invasion [Major (or Medium, OR small, as it turns out)]...
 				trigger = {
-    				NOT = { has_offmap_tmp_flag = pretender_chinese_empire_exists }
-    				NOT = { has_offmap_tmp_flag = major_invasion_fired }
-    				NOT = { has_offmap_tmp_flag = attacked_small_neighbor }
-					
+					NOT = { has_offmap_tmp_flag = pretender_chinese_empire_exists }
+					NOT = { has_offmap_tmp_flag = major_invasion_fired }
+					NOT = { has_offmap_tmp_flag = attacked_small_neighbor }
+
 					NOT = {
 						has_game_rule = {
 							name = chinese_invasions
 							value = no_major_invasions
 						}
 					}
-    				
-    				OR = {
-    					#Can grab Jiuquan (dunuhang, etc)
-    					AND = {
-	    					NOT = { completely_controls = d_jiuquan }
-	    					d_jiuquan = {
-	    						any_direct_de_jure_vassal_title = {
-		    						holder_scope = {
+
+					OR = {
+						#Can grab Jiuquan (dunuhang, etc)
+						AND = {
+							NOT = { completely_controls = d_zaria }
+							d_zaria = {
+								any_direct_de_jure_vassal_title = {
+									holder_scope = {
 										top_liege = {
 											valid_offmap_china_target = yes
 										}
 									}
-	    						}
-	    					}
-    					}
-    					
-    					#Can do a MEDIUM land grab
-    					AND = {
-    						has_policy = china_expansionist
-							OR = {
-								AND = { # must either be an eligble realm around within the target area...
-									has_offmap_tmp_flag = WP_is_on_map
-				    				any_independent_ruler = {
-										valid_offmap_china_target_location = yes
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 15
-										NOT = { num_of_count_titles_in_realm = 30 }
-						    			valid_offmap_china_target = yes
-									}	
-								}
-								AND = { # or, if WP is unlanded, an eligble realm by the eastern border of the map...
-									has_offmap_tmp_flag = WP_is_not_on_map
-				    				any_independent_ruler = {
-										capital_scope = { region = custom_eastern_edge_of_map }
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 10
-										NOT = { num_of_count_titles_in_realm = 40 }
-						    			valid_offmap_china_target = yes
-									}	
 								}
 							}
-    					}
+						}
 
-    					#Can do a BIG land grab
-    					AND = {
-    						has_policy = china_expansionist
-							OR = {
-								AND = { # must either be an eligble realm around within the target area...
-									has_offmap_tmp_flag = WP_is_on_map
-			    					any_independent_ruler = {
-				    					valid_offmap_china_target_location = yes #within the right area...
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 20
-						    			valid_offmap_china_target = yes
+						#Can do a MEDIUM or BIG land grab
+						AND = {
+							has_policy = china_expansionist
+							any_independent_ruler = {
+								OR = {
+									valid_offmap_china_target_location = yes
+									is_nomadic = no # Don't subjugate nomads
+									AND = { # IF WP is landed then go for someone within the target area
+										ROOT = { has_offmap_tmp_flag = WP_is_on_map }
+										valid_offmap_china_target_location = yes
+										num_of_count_titles_in_realm = 15
+									}
+									AND = { # If WP is unlanded then go Eastern Edge of map
+										ROOT = { has_offmap_tmp_flag = WP_is_not_on_map }
+										capital_scope = { region = custom_eastern_edge_of_map }
+										num_of_count_titles_in_realm = 10
 									}
 								}
-								AND = { # or, if WP is unlanded, an eligble realm by the eastern border of the map...
-									has_offmap_tmp_flag = WP_is_not_on_map
-				    				any_independent_ruler = {
-										capital_scope = { region = custom_eastern_edge_of_map }
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 20
-						    			valid_offmap_china_target = yes
-									}	
-								}
 							}
-    					}
+						}
 
-    					#Can trigger the failsafe (potentially SMALL land grab)
-    					AND = {
-    						has_offmap_tmp_flag = WP_is_on_map
-		    				any_neighbor_independent_ruler = {
+						#Can trigger the failsafe (potentially SMALL land grab)
+						AND = {
+							has_offmap_tmp_flag = WP_is_on_map
+							any_neighbor_independent_ruler = {
 								valid_offmap_china_target_location = yes
-				    			valid_offmap_china_target = yes
+								valid_offmap_china_target = yes
 								higher_real_tier_than = BARON
 								is_nomadic = no # Don't subjugate nomads
 							}
-    					}
-    				}
-    			}
+						}
+					}
+				}
 
 				modifier = {
 					factor = 1.5
@@ -795,7 +293,7 @@ character_event = {
 				}
 				modifier = {
 					factor = 2 #More likely to happen if China is NOT on the map ... (they want land!)
-					has_offmap_tmp_flag = WP_is_not_on_map 
+					has_offmap_tmp_flag = WP_is_not_on_map
 					OR = {
 						has_status = china_golden_age
 						has_policy = china_expansionist
@@ -803,23 +301,23 @@ character_event = {
 				}
 
 				random_list = {
-					100 = { # Go for Jiuquan (Grab Dunhuang, Anxi, etc - regardless of expansionist or not, on map or not) 
+					100 = { # Go for Jiuquan (Grab Dunhuang, Anxi, etc - regardless of expansionist or not, on map or not)
 						trigger = {
-							NOT = { completely_controls = d_jiuquan }
-	    					d_jiuquan = {
-	    						any_direct_de_jure_vassal_title = {
-		    						holder_scope = {
+							NOT = { completely_controls = d_zaria }
+							d_zaria = {
+								any_direct_de_jure_vassal_title = {
+									holder_scope = {
 										top_liege = {
 											valid_offmap_china_target = yes
 										}
 									}
-	    						}
-	    					}
+								}
+							}
 						}
 
 						#The WP will try to grab whatever they can within Jiuquan...
-						d_jiuquan = {
-							#add_claim = ROOT #No claim on the duchy title, as then they can grab more land than intended - they can usurp it afterwards instead					
+						d_zaria = {
+							#add_claim = ROOT #No claim on the duchy title, as then they can grab more land than intended - they can usurp it afterwards instead
 							any_direct_de_jure_vassal_title = {
 								add_claim = ROOT
 							}
@@ -837,7 +335,7 @@ character_event = {
 									}
 								}
 							}
-						}	    				
+						}
 						set_offmap_tmp_flag = should_claim_all_titles_war # Makes sure they will go after Jiuquan counties...
 						#change_variable = { which = global_major_invasions_launched value = 1 } # For logging purposes
 					}
@@ -845,70 +343,58 @@ character_event = {
 					50 = { # Go for something medium sized (MEDIUM land grab - if expansionist)
 						trigger = {
 							has_policy = china_expansionist
-							OR = {
+							any_independent_ruler = {
+								valid_offmap_china_target = yes
+								is_nomadic = no # Don't subjugate nomads
 								AND = { # must either be an eligble realm around within the target area...
-									has_offmap_tmp_flag = WP_is_on_map
-				    				any_independent_ruler = {
-										valid_offmap_china_target_location = yes
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 15
-										NOT = { num_of_count_titles_in_realm = 30 }
-						    			valid_offmap_china_target = yes
-									}	
+									ROOT = { has_offmap_tmp_flag = WP_is_on_map }
+									valid_offmap_china_target_location = yes
+									num_of_count_titles_in_realm = 15
+									num_of_count_titles_in_realm < 30
 								}
 								AND = { # or, if WP is unlanded, an eligble realm by the eastern border of the map...
-									has_offmap_tmp_flag = WP_is_not_on_map
-				    				any_independent_ruler = {
-										capital_scope = { region = custom_eastern_edge_of_map }
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 10
-										NOT = { num_of_count_titles_in_realm = 40 }
-						    			valid_offmap_china_target = yes
-									}	
+									ROOT = { has_offmap_tmp_flag = WP_is_not_on_map }
+									capital_scope = { region = custom_eastern_edge_of_map }
+									num_of_count_titles_in_realm = 10
+									num_of_count_titles_in_realm < 40
 								}
 							}
 						}
-
-						# If WP is landed
-						if = { limit = { has_offmap_tmp_flag = WP_is_on_map }
-							random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target_location = yes #within the right area...
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 15
-									NOT = { num_of_count_titles_in_realm = 30 }
-					    			valid_offmap_china_target = yes
-					    		}
-					    		save_event_target_as = chinese_invasion_target
+						any_independent_ruler = {
+							limit = {
+								is_nomadic = no # Don't subjugate nomads
+								valid_offmap_china_target = yes
+								OR = {
+									AND = { # IF WP is landed then go for someone within the target area
+										ROOT = { has_offmap_tmp_flag = WP_is_on_map }
+										valid_offmap_china_target_location = yes
+										num_of_count_titles_in_realm = 15
+										num_of_count_titles_in_realm < 30
+									}
+									AND = { # If WP is unlanded then go Eastern Edge of map
+										ROOT = { has_offmap_tmp_flag = WP_is_not_on_map }
+										capital_scope = { region = custom_eastern_edge_of_map }
+										num_of_count_titles_in_realm = 10
+										num_of_count_titles_in_realm < 40
+									}
+								}
 							}
-						}
-
-						#However, if someone nearby also fits the bill, go for that instead (overwrites saved target)
-						if = { limit = { has_offmap_tmp_flag = WP_is_on_map } 
-							random_neighbor_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target_location = yes #within the right area...
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 15
-									NOT = { num_of_count_titles_in_realm = 30 }
-					    			valid_offmap_china_target = yes
-					    		}
-					    		save_event_target_as = chinese_invasion_target
+							score_value = {
+								value = 10
+								additive_modifier = { # Prefers neighboring ruler
+									value = 2
+									has_offmap_tmp_flag = WP_is_on_map
+									any_neighbor_independent_ruler = {
+										character = ROOT
+									}
+								}
+								additive_modifier = { # Prefers someone disliked by the emperor
+									value = 1
+									disliked_by_offmap = { type = offmap_china }
+									NOT = { liked_by_offmap = { type = offmap_china } }
+								}
 							}
-						}
-
-						#Exception: if WP is unlanded (then go Eastern Edge of map)
-						if = { limit = { has_offmap_tmp_flag = WP_is_not_on_map }
-							random_independent_ruler = {
-					    		limit = {
-					    			capital_scope = { region = custom_eastern_edge_of_map }
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 10
-									NOT = { num_of_count_titles_in_realm = 40 }
-					    			valid_offmap_china_target = yes
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
+							save_event_target_as = chinese_invasion_target
 						}
 						set_offmap_tmp_flag = start_submission_war
 						#change_variable = { which = global_major_invasions_launched value = 1 } # For logging purposes
@@ -916,98 +402,59 @@ character_event = {
 
 					10 = { # Go for something big (BIG land grab - if expansionist)
 						trigger = {
-	    					has_policy = china_expansionist
-							OR = {
-								AND = { # must either be an eligble realm around within the target area...
-									has_offmap_tmp_flag = WP_is_on_map
-			    					any_independent_ruler = {
-				    					valid_offmap_china_target_location = yes #within the right area...
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 20
-						    			valid_offmap_china_target = yes
+							has_policy = china_expansionist
+							any_independent_ruler = {
+								is_nomadic = no # Don't subjugate nomads
+								num_of_count_titles_in_realm = 20
+								valid_offmap_china_target = yes
+								OR = {
+									AND = { # must either be an eligble realm around within the target area...
+										ROOT = { has_offmap_tmp_flag = WP_is_on_map }
+										valid_offmap_china_target_location = yes
+									}
+									AND = { # or, if WP is unlanded, an eligble realm by the eastern border of the map...
+										ROOT = { has_offmap_tmp_flag = WP_is_not_on_map }
+										capital_scope = { region = custom_eastern_edge_of_map }
 									}
 								}
-								AND = { # or, if WP is unlanded, an eligble realm by the eastern border of the map...
-									has_offmap_tmp_flag = WP_is_not_on_map
-				    				any_independent_ruler = {
-										capital_scope = { region = custom_eastern_edge_of_map }
-										is_nomadic = no # Don't subjugate nomads
-										num_of_count_titles_in_realm = 20
-						    			valid_offmap_china_target = yes
-									}	
-								}
 							}
-		    			}
-		    			modifier = {
+						}
+						modifier = {
 							factor = 2
 							has_status = china_golden_age
 						}
-
-						# If WP is landed, find target (good)
-						if = { limit = { has_offmap_tmp_flag = WP_is_on_map }
-							random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target_location = yes #within the right area...
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 20
-					    			valid_offmap_china_target = yes
-					    		}
-					    		save_event_target_as = chinese_invasion_target
+						any_independent_ruler = {
+							limit = {
+								is_nomadic = no # Don't subjugate nomads
+								num_of_count_titles_in_realm = 20
+								valid_offmap_china_target = yes
+								OR = {
+									AND = { # IF WP is landed then go for someone within the target area
+										ROOT = { has_offmap_tmp_flag = WP_is_on_map }
+										valid_offmap_china_target_location = yes
+									}
+									AND = { # If WP is unlanded then go Eastern Edge of map
+										ROOT = { has_offmap_tmp_flag = WP_is_not_on_map }
+										capital_scope = { region = custom_eastern_edge_of_map }
+									}
+								}
 							}
-						}
-
-						# Although, if someone is available that the Emperor also DISLIKES... (better)
-						if = { limit = { has_offmap_tmp_flag = WP_is_on_map }
-							random_independent_ruler = {
-					    		limit = {
-					    			valid_offmap_china_target_location = yes #within the right area...
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 20
-					    			valid_offmap_china_target = yes
-					    			disliked_by_offmap = { type = offmap_china }
-									NOT = { liked_by_offmap = { type = offmap_china } }
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
-						}
-
-						#However, if someone nearby also fits the bill, go for that instead... (even better)
-						if = { limit = { has_offmap_tmp_flag = WP_is_on_map } 
-							random_neighbor_independent_ruler = {
-					    		limit = {
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 20
-					    			valid_offmap_china_target = yes
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
-						}
-
-						#However, if someone nearby fits, and the Emperor also DISLIKES them, jackpot... (best)
-						if = { limit = { has_offmap_tmp_flag = WP_is_on_map } 
-							random_neighbor_independent_ruler = {
-					    		limit = {
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 20
-					    			valid_offmap_china_target = yes
+							score_value = {
+								value = 10
+								additive_modifier = { # Prefers neighboring ruler
+									value = 2
+									has_offmap_tmp_flag = WP_is_on_map
+									any_neighbor_independent_ruler = {
+										character = ROOT
+									}
+								}
+								additive_modifier = { # Prefers someone disliked by the emperor
+									value = 1
 									disliked_by_offmap = { type = offmap_china }
 									NOT = { liked_by_offmap = { type = offmap_china } }
-					    		}
-					    		save_event_target_as = chinese_invasion_target
+								}
 							}
-						}
-
-						#Exception: if WP is unlanded (then go Eastern Edge of map)
-						if = { limit = { has_offmap_tmp_flag = WP_is_not_on_map }
-							random_independent_ruler = {
-					    		limit = {
-					    			capital_scope = { region = custom_eastern_edge_of_map }
-									is_nomadic = no # Don't subjugate nomads
-									num_of_count_titles_in_realm = 20
-					    			valid_offmap_china_target = yes
-					    		}
-					    		save_event_target_as = chinese_invasion_target
-							}
+							save_event_target_as = chinese_invasion_target
 						}
 						set_offmap_tmp_flag = start_submission_war
 						#change_variable = { which = global_major_invasions_launched value = 1 } # For logging purposes
@@ -1017,60 +464,40 @@ character_event = {
 						trigger = {
 							# there must be an eligble neighbor realm around, within the target area...
 							has_offmap_tmp_flag = WP_is_on_map
-		    				any_neighbor_independent_ruler = {
+							any_neighbor_independent_ruler = {
 								valid_offmap_china_target_location = yes
-				    			valid_offmap_china_target = yes
+								valid_offmap_china_target = yes
 								is_nomadic = no # Don't subjugate nomads
 							}
 						}
 
 						#Picks any random neighboring ruler...
 						random_neighbor_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target_location = yes #within the right area...
+							limit = {
+								valid_offmap_china_target_location = yes #within the right area...
 								is_nomadic = no # Don't subjugate nomads
-				    			valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						# Try to find a small target
-						random_neighbor_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target_location = yes #within the right area...
-								NOT = { num_of_count_titles_in_realm = 20 }
-								is_nomadic = no # Don't subjugate nomads
-				    			valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						# Try to find a smaller target
-						random_neighbor_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target_location = yes #within the right area...
-								NOT = { num_of_count_titles_in_realm = 10 }
-								is_nomadic = no # Don't subjugate nomads
-				    			valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
-						}
-						# Best case - Try to find an even smaller target
-						random_neighbor_independent_ruler = {
-				    		limit = {
-				    			valid_offmap_china_target_location = yes #within the right area...
-								NOT = { num_of_count_titles_in_realm = 5 }
-								is_nomadic = no # Don't subjugate nomads
-				    			valid_offmap_china_target = yes
-				    		}
-				    		save_event_target_as = chinese_invasion_target
+								valid_offmap_china_target = yes
+							}
+							preferred_limit = { # Try to find a small target
+								num_of_count_titles_in_realm < 5
+							}
+							preferred_limit = {
+								num_of_count_titles_in_realm < 10
+							}
+							preferred_limit = {
+								num_of_count_titles_in_realm < 20
+							}
+							
+							save_event_target_as = chinese_invasion_target
 						}
 
 						set_offmap_tmp_flag = start_submission_war
 
-						if = { 
-							limit = { 
-								event_target:chinese_invasion_target = { 
-									NOT = { num_of_count_titles_in_realm = 20 }
-								} 
+						if = {
+							limit = {
+								event_target:chinese_invasion_target = {
+									num_of_count_titles_in_realm < 20
+								}
 							} #tracks whether this should actually count as a "major" invasion or not
 							set_offmap_tmp_flag = attacked_small_neighbor
 						}
@@ -1079,7 +506,7 @@ character_event = {
 								NOT = { has_policy = china_expansionist }
 							}
 							#Target to big for non-expansionist China, Abort!
-							
+
 							### Logging
 							log = "-------------------------------------"
 							log = "China Logging:"
@@ -1131,41 +558,41 @@ character_event = {
 					clr_offmap_tmp_flag = launching_invasion_of_the_west
 					clr_offmap_tmp_flag = tributary_invasion_fired
 					clr_offmap_tmp_flag = major_invasion_fired
-		    		clr_offmap_tmp_flag = sent_major_invasion_cleanup
-		    		clr_offmap_tmp_flag = pretender_chinese_empire_exists
-		    	}
+					clr_offmap_tmp_flag = sent_major_invasion_cleanup
+					clr_offmap_tmp_flag = pretender_chinese_empire_exists
+				}
 			}
 		}
-    }
+	}
 }
 
 ##Visible event for player: "Become tributary of China, or prepare to be conquered"
 character_event = {
-    id = JD.10130
-    is_triggered_only = yes
-    picture = GFX_evt_china_invades
-    desc = EVTDESC_JD_10130_A
-    has_dlc = "Jade Dragon"
+	id = JD.10130
+	is_triggered_only = yes
+	picture = GFX_evt_nigerian_invasion
+	desc = EVTDESC_JD_10130_A
+	has_dlc = "Jade Dragon"
 
-    immediate = {
-    	set_character_flag = asked_to_become_tributary
-    }
+	immediate = {
+		set_character_flag = asked_to_become_tributary
+	}
 
-    option = {	
+	option = {
 		name = {
-        	text = EVTOPTA_JD_10130 #We would be humbled to serve the Emperor...
-        	trigger = {
+			text = EVTOPTA_JD_10130 #We would be humbled to serve the Emperor...
+			trigger = {
 				NOT = { has_character_modifier = china_raid_active }
-        	}
-        }
-		
+			}
+		}
+
 		name = {
-        	text = EVTOPTA_JD_10130_B # We raid China
-        	trigger = {
+			text = EVTOPTA_JD_10130_B # We raid China
+			trigger = {
 				has_character_modifier = china_raid_active
-        	}
-        }
-    	
+			}
+		}
+
 		prestige = -100
 		add_grace_minor_effect = yes
 
@@ -1209,7 +636,7 @@ character_event = {
 				is_within_diplo_range = ROOT
 				NOT = { character = ROOT }
 			}
-    		narrative_event = { id = JD.10105 } #News: "China has gained <target> as their tributary"
+			narrative_event = { id = JD.10105 } #News: "China has gained <target> as their tributary"
 		}
 
 		clr_character_flag = asked_to_become_tributary
@@ -1227,20 +654,20 @@ character_event = {
 				}
 			}
 		}
-    }
-    option = {
-    	name = EVTOPTB_JD_10130 #Never!
-    	detract_grace_super_huge_effect = yes
-    	custom_tooltip = {
-    		text = EVTOPTB_JD_10130_TT
-    	}
-    	FROM = {
-    		character_event = { id = JD.10101 } #WP declares tributary war on you...
-    	}
+	}
+	option = {
+		name = EVTOPTB_JD_10130 #Never!
+		detract_grace_super_huge_effect = yes
+		custom_tooltip = {
+			text = EVTOPTB_JD_10130_TT
+		}
+		FROM = {
+			character_event = { id = JD.10101 } #WP declares tributary war on you...
+		}
 
-    	clr_character_flag = asked_to_become_tributary
+		clr_character_flag = asked_to_become_tributary
 
-    	ai_chance = {
+		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 1.1
@@ -1267,53 +694,30 @@ character_event = {
 				num_of_count_titles_in_realm = 20
 			}
 		}
-    }
+	}
 }
 
 ##### Tributary Invasion [where the CB is set and troops are spawned] #####
 character_event = {
-    id = JD.10101
-    desc = EVTDESC_JD_10101
+	id = JD.10101
+#	desc = EVTDESC_JD_10101
 
-    has_dlc = "Jade Dragon"
+	has_dlc = "Jade Dragon"
 
-    picture = GFX_evt_china_invades
-    border = GFX_event_normal_frame_war
-    is_triggered_only = yes
+#	picture = GFX_evt_nigerian_invasion
+#	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
 
 	hide_window = yes
-    
-    immediate = {
-    	set_offmap_tmp_flag = tributary_invasion_fired
 
-    	### Depending on type of invasion, where the troops spawn will be different... Example below:
-    	if = { #If the WP currently holds land on map, spawn Chinese Troops from their capital
-			limit = { has_offmap_tmp_flag = WP_is_on_map }
-			
-			random_realm_province = {
-				limit = { is_capital = yes }
-				save_event_target_as = chinese_invasion_spawn_point_province
-			}
-
-		}
-		if = { #If NOT on map, find random good place to spawn the Chinese Troops (in this example, Anxi or Dunhuang)
-			limit = { has_offmap_tmp_flag = WP_is_not_on_map }
-
-			random_list = {
-				10 = { #Anxi
-					1408 = { save_event_target_as = chinese_invasion_spawn_point_province }
-				}
-				10 = { #Dunhuang
-					1448 = { save_event_target_as = chinese_invasion_spawn_point_province }
-				}
-			}
-		}
-
+	immediate = {
+		set_offmap_tmp_flag = tributary_invasion_fired
+		
 		war = {
 			casus_belli = tributary_offmap_cb
 			target = event_target:chinese_invasion_target
 		}
-		
+
 		### Logging....
 		if = {
 			limit = {
@@ -1355,30 +759,30 @@ character_event = {
 		#			value = 1
 		#		}
 		#	}
-		#}
+		# }
 		###
 
-    	#Send news of invasion to interested player parties...
+		#Send news of invasion to interested player parties...
 		any_player = {
 			limit = {
 				has_offmap_news_enabled = offmap_china
 				is_within_diplo_range = ROOT
 			}
-    		narrative_event = { id = JD.10102 } #News: "China has launched an attack on <target> to make them their tributary"
+			narrative_event = { id = JD.10102 } #News: "China has launched an attack on <target> to make them their tributary"
 		}
-    }
+	}
 }
 
-narrative_event = { #NEWS: visible event for player (someone PEACEFULLY became a tributary to China, from accepting the demand) 
-    id = JD.10105
+narrative_event = { #NEWS: visible event for player (someone PEACEFULLY became a tributary to China, from accepting the demand)
+	id = JD.10105
 	has_dlc = "Jade Dragon"
-    title = NEWS_FROM_CHINA
-	picture = GFX_evt_china_invades
+	title = NEWS_FROM_CHINA
+	picture = GFX_evt_nigerian_invasion
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
-    is_triggered_only = yes
-    
+	is_triggered_only = yes
+
 	desc = {
 		text = EVTDESC_JD_10105_A
 		trigger = {
@@ -1396,19 +800,19 @@ narrative_event = { #NEWS: visible event for player (someone PEACEFULLY became a
 		}
 	}
 
-    
-    option = {      
-        name = EVTOPTA_JD_10105
-        show_portrait = event_target:chinese_invasion_target
-        custom_tooltip = { text = EVTOPTA_JD_10105_TT }
-    }
+
+	option = {
+		name = EVTOPTA_JD_10105
+		show_portrait = event_target:chinese_invasion_target
+		custom_tooltip = { text = EVTOPTA_JD_10105_TT }
+	}
 }
 
 narrative_event = { # NEWS: visible event for player (tributary invasion)
-    id = JD.10102
+	id = JD.10102
 	has_dlc = "Jade Dragon"
-    title = NEWS_FROM_CHINA
-	picture = GFX_evt_china_invades
+	title = NEWS_FROM_CHINA
+	picture = GFX_evt_nigerian_invasion
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -1426,107 +830,72 @@ narrative_event = { # NEWS: visible event for player (tributary invasion)
 		}
 	}
 
-	has_dlc = "Jade Dragon"
+	is_triggered_only = yes
 
-    is_triggered_only = yes
-
-    option = {
-        name = {
-        	text = EVTOPTA_JD_10102_A_brave
-        	trigger = {
+	option = {
+		name = {
+			text = EVTOPTA_JD_10102_A_brave
+			trigger = {
 				trait = brave
-        	}
-        }
-        name = {
-        	text = EVTOPTA_JD_10102_A_craven
-        	trigger = {
+			}
+		}
+		name = {
+			text = EVTOPTA_JD_10102_A_craven
+			trigger = {
 				trait = craven
-        	}
-        }
-        name = {
-        	text = EVTOPTA_JD_10102_A_pious
-        	trigger = {
+			}
+		}
+		name = {
+			text = EVTOPTA_JD_10102_A_pious
+			trigger = {
 				is_pious_trigger = yes
-        	}
-        }
-        name = {
-        	text = EVTOPTA_JD_10102_A_neutral
-        	trigger = {
+			}
+		}
+		name = {
+			text = EVTOPTA_JD_10102_A_neutral
+			trigger = {
 				NOT = { trait = craven }
 				NOT = { trait = brave }
 				NOT = { is_pious_trigger = yes }
-        	}
-        }
-        trigger = {
-         	event_target:chinese_invasion_target = { character = ROOT }
-        }
-    }
+			}
+		}
+		trigger = {
+		 	event_target:chinese_invasion_target = { character = ROOT }
+		}
+	}
 
-    option = {
-        name = {
-        	text = EVTOPTA_JD_10102_B_same_religion #May [HighGod] protect them
-        	trigger = {	event_target:chinese_invasion_target = { religion_group = ROOT } }
-        }
-        name = {
-        	text = EVTOPTA_JD_10102_B_other_religion #May their gods protect them
-        	trigger = {	NOT = { event_target:chinese_invasion_target = { religion_group = ROOT } } }
-        }
+	option = {
+		name = {
+			text = EVTOPTA_JD_10102_B_same_religion #May [HighGod] protect them
+			trigger = {	event_target:chinese_invasion_target = { religion_group = ROOT } }
+		}
+		name = {
+			text = EVTOPTA_JD_10102_B_other_religion #May their gods protect them
+			trigger = {	NOT = { event_target:chinese_invasion_target = { religion_group = ROOT } } }
+		}
 
-        event_target:chinese_invasion_target = { show_portrait = yes }
-        
-        trigger = {
-         	NOT = { event_target:chinese_invasion_target = { character = ROOT } }
-        }
-    }
+		event_target:chinese_invasion_target = { show_portrait = yes }
+
+		trigger = {
+		 	NOT = { event_target:chinese_invasion_target = { character = ROOT } }
+		}
+	}
 }
 
 
 ##### Major Invasion [where the CB is set and troops are spawned] ##### WIP
 character_event = {
-    id = JD.10103
+	id = JD.10103
 
-    has_dlc = "Jade Dragon"
+	has_dlc = "Jade Dragon"
 
-    is_triggered_only = yes
+	is_triggered_only = yes
 
 	hide_window = yes
-    
-    immediate = {
-    	if = { limit = { NOT = { has_offmap_tmp_flag = attacked_small_neighbor } } #only mark as "major" if it was actually that
-    		set_offmap_tmp_flag = major_invasion_fired #used for cooldown (cleared from other yearly pulse clean-up events)
-    	}
 
-    	if = { #If the WP currently holds land on map, spawn Chinese Troops from their capital
-			limit = { has_offmap_tmp_flag = WP_is_on_map }
-			
-			random_realm_province = {
-				limit = { is_capital = yes }
-				save_event_target_as = chinese_invasion_spawn_point_province
-			}
-		}
-		if = { #If NOT on map, find random good place to spawn the Chinese Troops
-			limit = { has_offmap_tmp_flag = WP_is_not_on_map }
-
-			random_list = {
-				10 = { #Anxi
-					1408 = { save_event_target_as = chinese_invasion_spawn_point_province }
-				}
-				10 = { #Dunhuang
-					1448 = { save_event_target_as = chinese_invasion_spawn_point_province }
-				}
-				10 = { #Jiuquan
-					1513 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-				}
-				10 = { #Yizhou
-					1450 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-				}
-				10 = { #Gaochang
-					1446 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-				}
-				10 = { #Luntai
-					1449 = { save_event_target_as = chinese_invasion_spawn_point_province } 
-				}
-			}
+	immediate = {
+		if = { limit = { NOT = { has_offmap_tmp_flag = attacked_small_neighbor } } #only mark as "major" if it was actually that
+			set_offmap_tmp_flag = major_invasion_fired #used for cooldown (cleared from other yearly pulse clean-up events)
 		}
 
 		#Declare war on target...
@@ -1562,7 +931,7 @@ character_event = {
 							casus_belli = claim
 							target = event_target:chinese_invasion_target
 							thirdparty_title = PREV
-						}						
+						}
 					}
 				}
 			}
@@ -1574,7 +943,7 @@ character_event = {
 				target = event_target:chinese_invasion_target
 			}
 		}
-		
+
 		### Logging
 		log = "-------------------------------------"
 		log = "China Logging:"
@@ -1648,27 +1017,27 @@ character_event = {
 		#			value = 1
 		#		}
 		#	}
-		#}
-		
+		# }
+
 		###
 		clr_offmap_tmp_flag = start_submission_war
 		clr_offmap_tmp_flag = should_claim_all_titles_war
 
-    	#Send news of invasion to interested player parties...
-    	any_player = {
+		#Send news of invasion to interested player parties...
+		any_player = {
 			limit = {
 				has_offmap_news_enabled = offmap_china
 				is_within_diplo_range = ROOT
 			}
-    		narrative_event = { id = JD.10104 days = 1 } #News: "China has launched a major attack on <target>"
+			narrative_event = { id = JD.10104 days = 1 } #News: "China has launched a major attack on <target>"
 		}
-    }
+	}
 }
 
 narrative_event = { # NEWS: Major invasion declared on <target>! (Visible event for players + player target, fired from JD.10103)
     id = JD.10104
     title = NEWS_FROM_CHINA
-	picture = GFX_evt_china_invades
+	picture = GFX_evt_nigerian_invasion
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -1851,7 +1220,6 @@ character_event = {
     			has_offmap_tmp_flag = major_invasion_fired
 				has_offmap_tmp_flag = launching_invasion_of_the_west
 				has_offmap_tmp_flag = tributary_invasion_fired
-				has_offmap_tmp_flag = major_invasion_fired
 				has_offmap_tmp_flag = attacked_small_neighbor
     		}
     	}
@@ -1923,7 +1291,7 @@ narrative_event = {
     id = JD.10108
 	has_dlc = "Jade Dragon"
     title = NEWS_FROM_CHINA
-	picture = GFX_evt_china_rebel_general
+	picture = GFX_evt_nigerian_rebel_general
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -1947,8 +1315,6 @@ narrative_event = {
 			event_target:the_chinese_invader = { has_character_flag = is_rebel_general }
     	}
     }
-
-    has_dlc = "Jade Dragon"
 
     trigger = {
     	event_target:the_chinese_invader = { is_alive = yes }
@@ -1985,8 +1351,9 @@ character_event = {
 		random_list = {
 			50 = {
 				create_character = {
-					religion = elven_tribunal_heresy
-					culture = jurchen
+					random_traits = yes
+					religion = bushism
+					culture = liberian
 					dynasty = actually_culture
 					female = no
 					age = 30
@@ -1995,58 +1362,6 @@ character_event = {
 				}
 				new_character = {
 					add_trait = ambitious
-					random_list = {
-						75 = { }
-						25 = { add_trait = heavy_worlder }
-					}
-					random_list = {
-						75 = { }
-						25 = { add_trait = spacer_physiology }
-					}
-					random_list = {
-						90 = { }
-						10 = { add_trait = cybernetic_leg }
-					}
-					random_list = {
-						85 = { }
-						15 = { add_trait = cybernetic_limb }
-					}
-					random_list = {
-						95 = { }
-						5 = { add_trait = cybernetic_skeleton }
-					}
-					random_list = {
-						99 = { }
-						1 = { add_trait = full_cybernetic_conversion }
-					}
-					random_list = {
-						95 = { }
-						5 = { add_trait = hiver_implant }
-					}
-					random_list = {
-						20 = { }
-						15 = { add_trait = odin_mk_i }
-						20 = { add_trait = pluto_mk_i }
-						10 = { add_trait = thoth_mk_i }
-						20 = { add_trait = iaei_mk_i }
-						15 = { add_trait = pci_mk_i }
-					}
-					random_list = {
-						40 = { }
-						15 = { add_trait = odin_mk_ii }
-						15 = { add_trait = pluto_mk_ii }
-						15 = { add_trait = thoth_mk_ii }
-						15 = { add_trait = iaei_mk_ii }
-						15 = { add_trait = pci_mk_ii }
-					}
-					random_list = {
-						80 = { }
-						4 = { add_trait = odin_mk_iii }
-						4 = { add_trait = pluto_mk_iii }
-						4 = { add_trait = thoth_mk_iii }
-						4 = { add_trait = iaei_mk_iii }
-						4 = { add_trait = pci_mk_iii }
-					}
 					remove_trait = content
 					remove_trait = craven
 					set_character_flag = is_jurchen_invader
@@ -2059,8 +1374,9 @@ character_event = {
 			}
 			50 = {
 				create_character = {
-					religion = elven_tribunal_heresy
-					culture = khitan
+					random_traits = yes
+					religion = catholic
+					culture = congolese
 					dynasty = actually_culture
 					female = no
 					age = 30
@@ -2069,58 +1385,6 @@ character_event = {
 				}
 				new_character = {
 					add_trait = ambitious
-					random_list = {
-						75 = { }
-						25 = { add_trait = heavy_worlder }
-					}
-					random_list = {
-						75 = { }
-						25 = { add_trait = spacer_physiology }
-					}
-					random_list = {
-						90 = { }
-						10 = { add_trait = cybernetic_leg }
-					}
-					random_list = {
-						85 = { }
-						15 = { add_trait = cybernetic_limb }
-					}
-					random_list = {
-						95 = { }
-						5 = { add_trait = cybernetic_skeleton }
-					}
-					random_list = {
-						99 = { }
-						1 = { add_trait = full_cybernetic_conversion }
-					}
-					random_list = {
-						95 = { }
-						5 = { add_trait = hiver_implant }
-					}
-					random_list = {
-						20 = { }
-						15 = { add_trait = odin_mk_i }
-						20 = { add_trait = pluto_mk_i }
-						10 = { add_trait = thoth_mk_i }
-						20 = { add_trait = iaei_mk_i }
-						15 = { add_trait = pci_mk_i }
-					}
-					random_list = {
-						40 = { }
-						15 = { add_trait = odin_mk_ii }
-						15 = { add_trait = pluto_mk_ii }
-						15 = { add_trait = thoth_mk_ii }
-						15 = { add_trait = iaei_mk_ii }
-						15 = { add_trait = pci_mk_ii }
-					}
-					random_list = {
-						80 = { }
-						4 = { add_trait = odin_mk_iii }
-						4 = { add_trait = pluto_mk_iii }
-						4 = { add_trait = thoth_mk_iii }
-						4 = { add_trait = iaei_mk_iii }
-						4 = { add_trait = pci_mk_iii }
-					}
 					remove_trait = content
 					remove_trait = craven
 					set_character_flag = is_jurchen_invader
@@ -2173,7 +1437,7 @@ character_event = {
 
     	create_character = {
 			random_traits = yes
-			religion = elven_tribunal_heresy
+			religion = event_target:previousEmperor
 			culture = event_target:previousEmperor 
 			dynasty = event_target:previousEmperor
 			female = no
@@ -2348,14 +1612,14 @@ character_event = {
 
 		if = {
 			limit = { has_character_flag = is_jurchen_invader }
-			1457 = { #Karabalgasun
+			925 = { #Mali
 				save_event_target_as = target_province
 			}
 		}
 
 		if = {
 			limit = { has_character_flag = is_displaced_prince }
-			1513 = { #Jiuquan
+			925 = { #Mali again
 				save_event_target_as = target_province
 			}
 		}
@@ -2875,9 +2139,10 @@ character_event = {
     		1 = {
 		    	create_character = {
 					age = 27
+					random_traits = yes
 					female = no
-					religion = elven_tribunal_heresy
-					culture = dark_elven_nomad
+					religion = islamity
+					culture = nigerian
 					dynasty = actually_culture
 					trait = brilliant_strategist
 					martial = 8
@@ -2888,9 +2153,10 @@ character_event = {
 			2 = {
 		    	create_character = {
 					age = 36
+					random_traits = yes
 					female = no
-					religion = elven_tribunal_heresy
-					culture = dark_elven_nomad
+					religion = islamity
+					culture = nigerian
 					dynasty = actually_culture
 					trait = brilliant_strategist
 					martial = 10
@@ -2901,9 +2167,10 @@ character_event = {
 			1 = {
 		    	create_character = {
 					age = 52
+					random_traits = yes
 					female = no
-					religion = elven_tribunal_heresy
-					culture = dark_elven_nomad
+					religion = islamity
+					culture = nigerian
 					dynasty = actually_culture
 					trait = brilliant_strategist
 					martial = 12
@@ -2916,58 +2183,6 @@ character_event = {
 			change_martial = 7
 			add_trait = ambitious
 			add_trait = brave
-				random_list = {
-						75 = { }
-						25 = { add_trait = heavy_worlder }
-					}
-					random_list = {
-						75 = { }
-						25 = { add_trait = spacer_physiology }
-					}
-					random_list = {
-						90 = { }
-						10 = { add_trait = cybernetic_leg }
-					}
-					random_list = {
-						85 = { }
-						15 = { add_trait = cybernetic_limb }
-					}
-					random_list = {
-						95 = { }
-						5 = { add_trait = cybernetic_skeleton }
-					}
-					random_list = {
-						99 = { }
-						1 = { add_trait = full_cybernetic_conversion }
-					}
-					random_list = {
-						95 = { }
-						5 = { add_trait = hiver_implant }
-					}
-					random_list = {
-						20 = { }
-						15 = { add_trait = odin_mk_i }
-						20 = { add_trait = pluto_mk_i }
-						10 = { add_trait = thoth_mk_i }
-						20 = { add_trait = iaei_mk_i }
-						15 = { add_trait = pci_mk_i }
-					}
-					random_list = {
-						40 = { }
-						15 = { add_trait = odin_mk_ii }
-						15 = { add_trait = pluto_mk_ii }
-						15 = { add_trait = thoth_mk_ii }
-						15 = { add_trait = iaei_mk_ii }
-						15 = { add_trait = pci_mk_ii }
-					}
-					random_list = {
-						80 = { }
-						4 = { add_trait = odin_mk_iii }
-						4 = { add_trait = pluto_mk_iii }
-						4 = { add_trait = thoth_mk_iii }
-						4 = { add_trait = iaei_mk_iii }
-						4 = { add_trait = pci_mk_iii }
-					}
 			random_list = {
 				30 = {
 					trigger = {
@@ -3145,18 +2360,20 @@ character_event = {
 			young_general = {
 				create_character = {
 					age = 24
+					random_traits = yes
 					female = yes
-					religion = elven_tribunal_heresy
-					culture = dark_elven_nomad
+					religion = islamity
+					culture = nigerian
 					historical = yes
 				}
 				new_character = {
 					add_spouse = ROOT
 					create_character = {
 						age = 6
+						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3170,8 +2387,8 @@ character_event = {
 						age = 6
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3188,8 +2405,8 @@ character_event = {
 					age = 32
 					random_traits = yes
 					female = yes
-					religion = elven_tribunal_heresy
-					culture = dark_elven_nomad
+					religion = islamity
+					culture = nigerian
 					historical = yes
 				}
 				new_character = {
@@ -3198,8 +2415,8 @@ character_event = {
 						age = 7
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3213,8 +2430,8 @@ character_event = {
 						age = 10
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3228,8 +2445,8 @@ character_event = {
 						age = 13
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3246,8 +2463,8 @@ character_event = {
 					age = 48
 					random_traits = yes
 					female = yes
-					religion = elven_tribunal_heresy
-					culture = dark_elven_nomad
+					religion = islamity
+					culture = nigerian
 					historical = yes
 				}
 				new_character = {
@@ -3256,8 +2473,8 @@ character_event = {
 						age = 4
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3271,8 +2488,8 @@ character_event = {
 						age = 9
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3286,8 +2503,8 @@ character_event = {
 						age = 14
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3301,8 +2518,8 @@ character_event = {
 						age = 18
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3316,8 +2533,8 @@ character_event = {
 						age = 21
 						random_traits = yes
 						female = 50
-						religion = elven_tribunal_heresy
-						culture = dark_elven_nomad
+						religion = islamity
+						culture = nigerian
 						genetic_father = ROOT
 						genetic_mother = PREV
 						historical = yes
@@ -3343,7 +2560,7 @@ character_event = {
 character_event = {
 	id = JD.60202
 	desc = EVT_DESC_JD_60202
-	picture = GFX_evt_china_rebel_general
+	picture = GFX_evt_nigerian_rebel_general
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
@@ -3452,7 +2669,7 @@ character_event = {
 				china_spawn_commander_effect = yes
 			}
 			
-			1448 = { # Dunhuang
+			1746 = { # Kano
 				save_event_target_as = spawn_province
 			}
 			
@@ -3504,125 +2721,125 @@ character_event = {
 			event_target:temple_name_title = { #Random Empire name that China doesn't have
 				clear_flags_with_prefix = temple_name_
 				clear_flags_with_prefix = china_name_
-				random_list = { #Random Empire name that China doesn't have
+				random_list = {
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = tang_china } } }
-						set_name = "Mothership"
+						set_name = "Tang Empire"
 						set_title_flag = china_name_Tang
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = jin_china } } }
-						set_name = "Freedom Bringer"
+						set_name = "Jin Empire"
 						set_title_flag = china_name_Jin
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = wei_china } } }
-						set_name = "Celestial Overlords"
+						set_name = "Wei Empire"
 						set_title_flag = china_name_Wei
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = qi_china } } }
-						set_name = "True Alliance of Tau Ceti"
+						set_name = "Qi Empire"
 						set_title_flag = china_name_Qi
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = zhou_china } } }
-						set_name = "Fallen Empire"
+						set_name = "Zhou Empire"
 						set_title_flag = china_name_Zhou
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = han_china } } }
-						set_name = "Tau Ceti "
+						set_name = "Han Empire"
 						set_title_flag = china_name_Han
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = qin_china } } }
-						set_name = "TCSC Peacekeeper"
+						set_name = "Qin Empire"
 						set_title_flag = china_name_Qin
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = yan_china } } }
-						set_name = "Imperium of New Terra"
+						set_name = "Yan Empire"
 						set_title_flag = china_name_Yan
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = zhao_china } } }
-						set_name = "Alliance of Man"
+						set_name = "Zhao Empire"
 						set_title_flag = china_name_Zhao
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = liao_china } } }
-						set_name = "Aurora"
+						set_name = "Liao Empire"
 						set_title_flag = china_name_Liao
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = yuan_china } } }
-						set_name = "TCSC Behemoth"
+						set_name = "Yuan Empire"
 						set_title_flag = china_name_Yuan
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = xia_china } } }
-						set_name = "Canterbury"
+						set_name = "Xia Empire"
 						set_title_flag = china_name_Xia
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = qing_china } } }
-						set_name = "High Solar"
+						set_name = "Qing Empire"
 						set_title_flag = china_name_Qing
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = dai_china } } }
-						set_name = "Pure Celestial Plane"
+						set_name = "Dai Empire"
 						set_title_flag = china_name_Dai
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = cheng_china } } }
-						set_name = "TCSS Nauvoo"
+						set_name = "Cheng Empire"
 						set_title_flag = china_name_Cheng
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = liang_china } } }
-						set_name = "New Terra"
+						set_name = "Liang Empire"
 						set_title_flag = china_name_Liang
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = song_china } } }
-						set_name = "Tau Ceti Defectors"
+						set_name = "Song Empire"
 						set_title_flag = china_name_Song
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = ming_china } } }
-						set_name = "United Planets of Tau Ceti"
+						set_name = "Ming Empire"
 						set_title_flag = china_name_Ming
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = shu_china } } }
-						set_name = "Tau Ceti Humanitarian Expedition"
+						set_name = "Shu Empire"
 						set_title_flag = china_name_Shu
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = wu_china } } }
-						set_name = "TCSC Spacer's Choice"
+						set_name = "Wu Empire"
 						set_title_flag = china_name_Wu
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = chu_china } } }
-						set_name = "TCSC Infinity"
+						set_name = "Chu Empire"
 						set_title_flag = china_name_Chu
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = yue_china } } }
-						set_name = "Starship Galactica"
+						set_name = "Yue Empire"
 						set_title_flag = china_name_Yue
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = yin_china } } }
-						set_name = "TCSC Serenity"
+						set_name = "Yin Empire"
 						set_title_flag = china_name_Yin
 					}
 					1 = { 
 						trigger = { NOT = { offmap_china = { has_offmap_name = shun_china } } }
-						set_name = "TCSC Spaceball"
+						set_name = "Shun Empire"
 						set_title_flag = china_name_Shun
 					}
 				}
@@ -4186,30 +3403,30 @@ character_event = {
 			primary_title = {
 				trigger_switch = {
 					on_trigger = has_title_flag
-					china_name_Tang = { set_name = "Mothership" }
-					china_name_Jin = { set_name = "Freedom Bringer" }
-					china_name_Wei = { set_name = "Celestial Overlords" }
-					china_name_Qi = { set_name = "True Alliance of Tau Ceti" }
-					china_name_Zhou = { set_name = " Fallen Empire" }
-					china_name_Han = { set_name = "Tau Ceti " }
-					china_name_Qin = { set_name = "TCSC Peacekeeper" }
-					china_name_Yan = { set_name = "Imperium of New Terra" }
-					china_name_Zhao = { set_name = "Alliance of Man" }
-					china_name_Liao = { set_name = "Aurora" }
-					china_name_Yuan = { set_name = "TCSC Behemoth" }
-					china_name_Xia = { set_name = "Canterbury" }
-					china_name_Qing = { set_name = "TCSC High Solar" }
-					china_name_Dai = { set_name = "TCSC Pure Celestial Plane" }
-					china_name_Cheng = { set_name = "TCS Nauvoo" }
-					china_name_Liang = { set_name = "New Terra" }
-					china_name_Song = { set_name = "Tau Ceti Defectors" }
-					china_name_Ming = { set_name = " United Planets of Tau Ceti" }
-					china_name_Shu = { set_name = " Tau Ceti Humanitarian Expedition" }
-					china_name_Wu = { set_name = " TCSC Spacer's Choice" }
-					china_name_Chu = { set_name = " TCSC Infinity" }
-					china_name_Yue = { set_name = "Starship Galactica" }
-					china_name_Yin = { set_name = " TCSC Serenity" }
-					china_name_Shun = { set_name = " TCSC Spaceball" }
+					china_name_Tang = { set_name = "Tang Empire" }
+					china_name_Jin = { set_name = "Jin Empire" }
+					china_name_Wei = { set_name = "Wei Empire" }
+					china_name_Qi = { set_name = "Qi Empire" }
+					china_name_Zhou = { set_name = "Zhou Empire" }
+					china_name_Han = { set_name = "Han Empire" }
+					china_name_Qin = { set_name = "Qin Empire" }
+					china_name_Yan = { set_name = "Yan Empire" }
+					china_name_Zhao = { set_name = "Zhao Empire" }
+					china_name_Liao = { set_name = "Liao Empire" }
+					china_name_Yuan = { set_name = "Yuan Empire" }
+					china_name_Xia = { set_name = "Xia Empire" }
+					china_name_Qing = { set_name = "Qing Empire" }
+					china_name_Dai = { set_name = "Dai Empire" }
+					china_name_Cheng = { set_name = "Cheng Empire" }
+					china_name_Liang = { set_name = "Liang Empire" }
+					china_name_Song = { set_name = "Song Empire" }
+					china_name_Ming = { set_name = "Ming Empire" }
+					china_name_Shu = { set_name = "Shu Empire" }
+					china_name_Wu = { set_name = "Wu Empire" }
+					china_name_Chu = { set_name = "Chu Empire" }
+					china_name_Yue = { set_name = "Yue Empire" }
+					china_name_Yin = { set_name = "Yin Empire" }
+					china_name_Shun = { set_name = "Shun Empire" }
 				}
 				trigger_switch = {
 					on_trigger = has_title_flag
@@ -4300,7 +3517,7 @@ character_event = {
 character_event = {
 	id = JD.60207
 	desc = EVT_DESC_JD_60207
-	picture = GFX_evt_china_rebel_general
+	picture = GFX_evt_nigerian_rebel_general
 	border = GFX_event_normal_frame_war
 
 	is_triggered_only = yes
@@ -4326,7 +3543,7 @@ character_event = {
 narrative_event = {
 	id = JD.60208
     title = NEWS_FROM_CHINA
-	picture = GFX_evt_china_rebel_general
+	picture = GFX_evt_nigerian_rebel_general
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -4394,7 +3611,7 @@ narrative_event = {
 narrative_event = {
 	id = JD.60209
     title = NEWS_FROM_CHINA
-	picture = GFX_evt_china_rebel_general
+	picture = GFX_evt_nigerian_rebel_general
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -4432,10 +3649,12 @@ character_event = {
 		government = chinese_imperial_government
 		current_heir = { 
 			NOR = {
-				culture_group = chinese_group
-				culture = khitan
-				culture = tangut
-				culture = jurchen
+				culture_group = niger_congolese
+				culture_group = chadic
+				culture_group = senegambian
+				culture_group = mande
+				culture_group = francacfrique
+				culture_group = afroatlantic
 			}
 		}
 	}
@@ -4522,7 +3741,7 @@ narrative_event = {
 	id = JD.60211
     title = NEWS_FROM_CHINA
     desc = EVTDESC_JD_60211
-	picture = GFX_evt_china_rebel_general
+	picture = GFX_evt_nigerian_rebel_general
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -4549,20 +3768,20 @@ narrative_event = {
 character_event = {
 	id = JD.60212
 	desc = EVT_DESC_JD_60212
-	picture = GFX_evt_china_rebel_general
+	picture = GFX_evt_nigerian_rebel_general
 
 	is_triggered_only = yes
 	has_dlc = "Jade Dragon"
 
-	option = { #Convert culture
-		name = EVT_OPTA_JD_60212
-		culture = FROMFROM
-		clr_character_flag = chinese_imperial_government_preserve
-		repeat_event = { id = JD.60204 }
-	}
+	#option = { #Convert culture
+	#	name = EVT_OPTA_JD_60212
+	#	culture = FROMFROM
+	#	clr_character_flag = chinese_imperial_government_preserve
+	#	repeat_event = { id = JD.60204 }
+	#}
 	option = { #Do not, let the Empire die
 		name = EVT_OPTB_JD_60212
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 		primary_title = {
 			clr_title_flag = pretender_chinese_empire
 			clr_title_flag = uses_temple_names_by_script
@@ -4576,13 +3795,26 @@ character_event = {
 			}
 			set_government_type = muslim_government
 		}
+		if = {
+			limit = {
+				OR = {
+					religion = calvinist
+					religion = neohuguenot
+				}
+			}
+			set_government_type = calvinist_government
+		}
 		else_if = {
 			limit = {
-				culture_group = tibetan_group
+				OR = {
+					culture_group = tibetan_group
+					culture_group = tanic
+					culture_group = digaric
+				}
 				OR = {
 					religion = bon
 					religion = bon_reformed
-					religion = buddhist
+					religion_group = buddhist_group
 				}
 				higher_tier_than = BARON
 			}
@@ -4604,7 +3836,7 @@ character_event = {
 narrative_event = {
 	id = JD.60400
 	title = NEWS_FROM_CHINA
-	picture = GFX_evt_china_civil_war
+	picture = GFX_evt_nigeria_unrest
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -4638,7 +3870,7 @@ narrative_event = {
 	id = JD.60401
 	title = NEWS_FROM_CHINA
 	desc = EVTDESC_JD_60401
-	picture = GFX_evt_china_civil_war
+	picture = GFX_evt_nigeria_unrest
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -4667,7 +3899,7 @@ narrative_event = {
 	id = JD.60402
     title = NEWS_FROM_CHINA
 	desc = EVTDESC_JD_60402
-	picture = GFX_evt_china_civil_war
+	picture = GFX_evt_nigeria_unrest
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china
@@ -4685,7 +3917,7 @@ narrative_event = {
 	id = JD.60403
     title = NEWS_FROM_CHINA
     desc = EVTDESC_JD_60403
-	picture = GFX_evt_china_civil_war
+	picture = GFX_evt_nigeria_unrest
 	portrait = offmap_china
 	window = EventWindowOffmap
 	background = GFX_event_window_news_from_china

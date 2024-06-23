@@ -1,0 +1,497 @@
+tibetan_group = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+	
+	bodpa = { # Tibetan
+		graphical_cultures = { tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { tibetanunitgfx tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 1.0 0.2 0.0 }
+
+		dynasty_name_first = yes
+		
+		male_names = {
+			Aglen 
+			Balpo 
+			Chakna Changchub Chatri Chokey Chögyal Chukpo 
+			Daktri Dawa Degyal Denöl Desho Detrin Detsen Detrul Deu Dharmapala Dickey Dingtri Dompu Dondup Donyö Dorje Drag Dragpa Dranga Drigum Drogön Drongnyen Dusong Dzamling 
+			Esho 
+			Gampo Gangkarwa Gesar_Caesar Getong Gön Gongpa Gongru Gunggyal Gungsong Gungtsen Gyagar Gyal Gyalpo Gyaltore Gyaltsen Gyatso Gyeltsen 
+			Isho 
+			Jamyang Jekundag Jetsun 
+			Könchok Kyidé Kunga Kunzang
+			Langdarma Lek Lekpa Lha Lhanang Lingpa Lodrö Longtsen Löntsen Lotsen Lukhong 
+			Mangban Mangnyen Mangpoje Mangsham Mangsong Mangtsen Mertri Muné_Muné Mutik Mutri Muzu 
+			Nam Namdé Namkha Namri Namzhungtsen Ngawang Norbu Nyantsen Nyasig Nyigön Nyima Nyingpo Nytari 
+			Omade Öpoche Orgyen Ösung 
+			Pal Palden Palchen Pälkhortsän Palkye Passang Phagpa Phuntsok Po Podé Pude Pungse Pungtsen 
+			Raksita Ramsha Ralpacan Rapsel Rinchen 
+			Sachen Sadnalegs Sambhota Selbar Senöl Shakya Shang Shanglon Shangnang Siptri Sönam Songtsen Sotri Sumnang Sutse 
+			Tagbu Takdra Taknang Taknye Taktsab Tashi Tawen Tenzin Thönmi Thothori Thrikhyiding Tshering Tingngezin Tisho Tongtsen Tori Trashi Tridé Tridra Tridu Trimang Trinring Trinyen Trisong Trisu Trisumje Tritog Tritsen Tritsuk Tromo Trongzhi Tsangma Tsemo Tsen Tsendro Tsenpo Tsensong Tsentsän Tsenye Tsugru Tsuktsen 
+			Udumtsen 
+			Wangchuk Wangdu 
+			Yongten Yontan Yülsung Yumtän 
+			Zanam Zangtsa Zhangtsun Zhonnu Zimun Zindé Zungtsen
+		}
+		
+		female_names = {
+			Amala 
+			Bumphulwa Bum 
+			Cham Chimey Choden Chödron Chökyi Chöying Cogrobza 
+			Dagmo Dechen Devitara Dolma Dongkar_Dongkar Dringma Driza Dro Drönma Dronmalön Dunkyi Dzeden 
+			Gémaspranglod Gémathar Gyalyum Gyimsheng 
+			Hariti 
+			Jashi Jetsunma Jomo 
+			Kelzang Khadrobum Khribang Khrimalod Khritsun Koboza Konchog Kunzang Kyeden Kyi 
+			Lasya Lhakee Lhamgonza Lhamo Lhathrimo 
+			Machig Magyal_Magya Mangalal Mangmo Mangmoje Mungchang 
+			Nagzib Nanamsa Ngawang Nyendrak Nyitri 
+			Pelgyimo Pelmo Pema Phoyongsa Phurbulcam Pogong Pongza 
+			Sal Sadmarkar_Sadmarkar Sengemo Shonnu Sonam 
+			Taramo Thridang Thrimalö Thrisong Togo Tökarma Toktokteng Torma Tricham Trikar Trimonyen Trinle Tse Tsenma Tshistöng Tsomo Tsogyal Tsunmotog Tubten 
+			Wangmo
+			Yeshe Yon Yondagmo 
+			Zangmo Zigsa
+		}
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+
+	kham = { # Tibetan
+		graphical_cultures = { tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { tibetanunitgfx tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 252 133 63 }
+
+		dynasty_name_first = yes
+		
+		male_names = {
+			Aglen 
+			Balpo 
+			Chakna Changchub Chatri Chokey Chögyal Chukpo 
+			Daktri Dawa Degyal Denöl Desho Detrin Detsen Detrul Deu Dharmapala Dickey Dingtri Dompu Dondup Donyö Dorje Drag Dragpa Dranga Drigum Drogön Drongnyen Dusong Dzamling 
+			Esho 
+			Gampo Gangkarwa Gesar_Caesar Getong Gön Gongpa Gongru Gunggyal Gungsong Gungtsen Gyagar Gyal Gyalpo Gyaltore Gyaltsen Gyatso Gyeltsen 
+			Isho 
+			Jamyang Jekundag Jetsun 
+			Könchok Kyidé Kunga Kunzang
+			Langdarma Lek Lekpa Lha Lhanang Lingpa Lodrö Longtsen Löntsen Lotsen Lukhong 
+			Mangban Mangnyen Mangpoje Mangsham Mangsong Mangtsen Mertri Muné_Muné Mutik Mutri Muzu 
+			Nam Namdé Namkha Namri Namzhungtsen Ngawang Norbu Nyantsen Nyasig Nyigön Nyima Nyingpo Nytari 
+			Omade Öpoche Orgyen Ösung 
+			Pal Palden Palchen Pälkhortsän Palkye Passang Phagpa Phuntsok Po Podé Pude Pungse Pungtsen 
+			Raksita Ramsha Ralpacan Rapsel Rinchen 
+			Sachen Sadnalegs Sambhota Selbar Senöl Shakya Shang Shanglon Shangnang Siptri Sönam Songtsen Sotri Sumnang Sutse 
+			Tagbu Takdra Taknang Taknye Taktsab Tashi Tawen Tenzin Thönmi Thothori Thrikhyiding Tshering Tingngezin Tisho Tongtsen Tori Trashi Tridé Tridra Tridu Trimang Trinring Trinyen Trisong Trisu Trisumje Tritog Tritsen Tritsuk Tromo Trongzhi Tsangma Tsemo Tsen Tsendro Tsenpo Tsensong Tsentsän Tsenye Tsugru Tsuktsen 
+			Udumtsen 
+			Wangchuk Wangdu 
+			Yongten Yontan Yülsung Yumtän 
+			Zanam Zangtsa Zhangtsun Zhonnu Zimun Zindé Zungtsen
+		}
+		
+		female_names = {
+			Amala 
+			Bumphulwa Bum 
+			Cham Chimey Choden Chödron Chökyi Chöying Cogrobza 
+			Dagmo Dechen Devitara Dolma Dongkar_Dongkar Dringma Driza Dro Drönma Dronmalön Dunkyi Dzeden 
+			Gémaspranglod Gémathar Gyalyum Gyimsheng 
+			Hariti 
+			Jashi Jetsunma Jomo 
+			Kelzang Khadrobum Khribang Khrimalod Khritsun Koboza Konchog Kunzang Kyeden Kyi 
+			Lasya Lhakee Lhamgonza Lhamo Lhathrimo 
+			Machig Magyal_Magya Mangalal Mangmo Mangmoje Mungchang 
+			Nagzib Nanamsa Ngawang Nyendrak Nyitri 
+			Pelgyimo Pelmo Pema Phoyongsa Phurbulcam Pogong Pongza 
+			Sal Sadmarkar_Sadmarkar Sengemo Shonnu Sonam 
+			Taramo Thridang Thrimalö Thrisong Togo Tökarma Toktokteng Torma Tricham Trikar Trimonyen Trinle Tse Tsenma Tshistöng Tsomo Tsogyal Tsunmotog Tubten 
+			Wangmo
+			Yeshe Yon Yondagmo 
+			Zangmo Zigsa
+		}
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+
+	amdo = { # Tibetan
+		graphical_cultures = { tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { tibetanunitgfx tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 237 87 50 }
+
+		dynasty_name_first = yes
+		
+		male_names = {
+			Aglen 
+			Balpo 
+			Chakna Changchub Chatri Chokey Chögyal Chukpo 
+			Daktri Dawa Degyal Denöl Desho Detrin Detsen Detrul Deu Dharmapala Dickey Dingtri Dompu Dondup Donyö Dorje Drag Dragpa Dranga Drigum Drogön Drongnyen Dusong Dzamling 
+			Esho 
+			Gampo Gangkarwa Gesar_Caesar Getong Gön Gongpa Gongru Gunggyal Gungsong Gungtsen Gyagar Gyal Gyalpo Gyaltore Gyaltsen Gyatso Gyeltsen 
+			Isho 
+			Jamyang Jekundag Jetsun 
+			Könchok Kyidé Kunga Kunzang
+			Langdarma Lek Lekpa Lha Lhanang Lingpa Lodrö Longtsen Löntsen Lotsen Lukhong 
+			Mangban Mangnyen Mangpoje Mangsham Mangsong Mangtsen Mertri Muné_Muné Mutik Mutri Muzu 
+			Nam Namdé Namkha Namri Namzhungtsen Ngawang Norbu Nyantsen Nyasig Nyigön Nyima Nyingpo Nytari 
+			Omade Öpoche Orgyen Ösung 
+			Pal Palden Palchen Pälkhortsän Palkye Passang Phagpa Phuntsok Po Podé Pude Pungse Pungtsen 
+			Raksita Ramsha Ralpacan Rapsel Rinchen 
+			Sachen Sadnalegs Sambhota Selbar Senöl Shakya Shang Shanglon Shangnang Siptri Sönam Songtsen Sotri Sumnang Sutse 
+			Tagbu Takdra Taknang Taknye Taktsab Tashi Tawen Tenzin Thönmi Thothori Thrikhyiding Tshering Tingngezin Tisho Tongtsen Tori Trashi Tridé Tridra Tridu Trimang Trinring Trinyen Trisong Trisu Trisumje Tritog Tritsen Tritsuk Tromo Trongzhi Tsangma Tsemo Tsen Tsendro Tsenpo Tsensong Tsentsän Tsenye Tsugru Tsuktsen 
+			Udumtsen 
+			Wangchuk Wangdu 
+			Yongten Yontan Yülsung Yumtän 
+			Zanam Zangtsa Zhangtsun Zhonnu Zimun Zindé Zungtsen
+		}
+		
+		female_names = {
+			Amala 
+			Bumphulwa Bum 
+			Cham Chimey Choden Chödron Chökyi Chöying Cogrobza 
+			Dagmo Dechen Devitara Dolma Dongkar_Dongkar Dringma Driza Dro Drönma Dronmalön Dunkyi Dzeden 
+			Gémaspranglod Gémathar Gyalyum Gyimsheng 
+			Hariti 
+			Jashi Jetsunma Jomo 
+			Kelzang Khadrobum Khribang Khrimalod Khritsun Koboza Konchog Kunzang Kyeden Kyi 
+			Lasya Lhakee Lhamgonza Lhamo Lhathrimo 
+			Machig Magyal_Magya Mangalal Mangmo Mangmoje Mungchang 
+			Nagzib Nanamsa Ngawang Nyendrak Nyitri 
+			Pelgyimo Pelmo Pema Phoyongsa Phurbulcam Pogong Pongza 
+			Sal Sadmarkar_Sadmarkar Sengemo Shonnu Sonam 
+			Taramo Thridang Thrimalö Thrisong Togo Tökarma Toktokteng Torma Tricham Trikar Trimonyen Trinle Tse Tsenma Tshistöng Tsomo Tsogyal Tsunmotog Tubten 
+			Wangmo
+			Yeshe Yon Yondagmo 
+			Zangmo Zigsa
+		}
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+
+	u_tsang = { # Tibetan
+		graphical_cultures = { tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { tibetanunitgfx tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 158 67 5 }
+
+		dynasty_name_first = yes
+		
+		male_names = {
+			Aglen 
+			Balpo 
+			Chakna Changchub Chatri Chokey Chögyal Chukpo 
+			Daktri Dawa Degyal Denöl Desho Detrin Detsen Detrul Deu Dharmapala Dickey Dingtri Dompu Dondup Donyö Dorje Drag Dragpa Dranga Drigum Drogön Drongnyen Dusong Dzamling 
+			Esho 
+			Gampo Gangkarwa Gesar_Caesar Getong Gön Gongpa Gongru Gunggyal Gungsong Gungtsen Gyagar Gyal Gyalpo Gyaltore Gyaltsen Gyatso Gyeltsen 
+			Isho 
+			Jamyang Jekundag Jetsun 
+			Könchok Kyidé Kunga Kunzang
+			Langdarma Lek Lekpa Lha Lhanang Lingpa Lodrö Longtsen Löntsen Lotsen Lukhong 
+			Mangban Mangnyen Mangpoje Mangsham Mangsong Mangtsen Mertri Muné_Muné Mutik Mutri Muzu 
+			Nam Namdé Namkha Namri Namzhungtsen Ngawang Norbu Nyantsen Nyasig Nyigön Nyima Nyingpo Nytari 
+			Omade Öpoche Orgyen Ösung 
+			Pal Palden Palchen Pälkhortsän Palkye Passang Phagpa Phuntsok Po Podé Pude Pungse Pungtsen 
+			Raksita Ramsha Ralpacan Rapsel Rinchen 
+			Sachen Sadnalegs Sambhota Selbar Senöl Shakya Shang Shanglon Shangnang Siptri Sönam Songtsen Sotri Sumnang Sutse 
+			Tagbu Takdra Taknang Taknye Taktsab Tashi Tawen Tenzin Thönmi Thothori Thrikhyiding Tshering Tingngezin Tisho Tongtsen Tori Trashi Tridé Tridra Tridu Trimang Trinring Trinyen Trisong Trisu Trisumje Tritog Tritsen Tritsuk Tromo Trongzhi Tsangma Tsemo Tsen Tsendro Tsenpo Tsensong Tsentsän Tsenye Tsugru Tsuktsen 
+			Udumtsen 
+			Wangchuk Wangdu 
+			Yongten Yontan Yülsung Yumtän 
+			Zanam Zangtsa Zhangtsun Zhonnu Zimun Zindé Zungtsen
+		}
+		
+		female_names = {
+			Amala 
+			Bumphulwa Bum 
+			Cham Chimey Choden Chödron Chökyi Chöying Cogrobza 
+			Dagmo Dechen Devitara Dolma Dongkar_Dongkar Dringma Driza Dro Drönma Dronmalön Dunkyi Dzeden 
+			Gémaspranglod Gémathar Gyalyum Gyimsheng 
+			Hariti 
+			Jashi Jetsunma Jomo 
+			Kelzang Khadrobum Khribang Khrimalod Khritsun Koboza Konchog Kunzang Kyeden Kyi 
+			Lasya Lhakee Lhamgonza Lhamo Lhathrimo 
+			Machig Magyal_Magya Mangalal Mangmo Mangmoje Mungchang 
+			Nagzib Nanamsa Ngawang Nyendrak Nyitri 
+			Pelgyimo Pelmo Pema Phoyongsa Phurbulcam Pogong Pongza 
+			Sal Sadmarkar_Sadmarkar Sengemo Shonnu Sonam 
+			Taramo Thridang Thrimalö Thrisong Togo Tökarma Toktokteng Torma Tricham Trikar Trimonyen Trinle Tse Tsenma Tshistöng Tsomo Tsogyal Tsunmotog Tubten 
+			Wangmo
+			Yeshe Yon Yondagmo 
+			Zangmo Zigsa
+		}
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	kirati = { # Real culture, not just from Far Cry 4
+		graphical_cultures = { tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { tibetanunitgfx tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 158 103 5 }
+		
+		dynasty_name_first = yes
+		
+		male_names = {
+			Aglen Angsu-Barmma 
+			Balpo 
+			Chakna Chamba Changchub Changming Chatri Chokey Chögyal Chukpo 
+			Daasti Daktri Dawa Degyal Denöl Desho Detrin Detsen Detrul Deu Dhakang Dharmapala Dickey Dingtri Dompu Dondup Donyö Dorje Drag Dragpa Dranga Drigum Drogön Drongnyen Dusong Dzamling 
+			Esho 
+			Gampo Gangkarwa Gesar_Caesar Getong Girijung Goongoong Gön Gongpa Gongru Gunggyal Gunjong Gungsong Gungtsen Gyagar Gyal Gyalpo Gyaltore Gyaltsen Gyatso Gyeltsen 
+			Isho 
+			Hoorma
+			Jamyang Jekundag Jetsun Jite-Dasti Joolam 
+			Khigu Khimbung Khurangja Könchok Kyidé Kunga Kunzang
+			Langdarma Lek Lekpa Lha Lhanang Lingpa Lodrö Longtsen Löntsen Lotsen Lukan Lukhong 
+			Mangban Mangnyen Mangpoje Mangsham Mangsong Mangtsen Melam Mertri Moogmam Muné_Muné Mutik Mutri Muzu 
+			Nam Namdé Namkha Namri Namzhungtsen Ngawang Norbu Nyantsen Nyasig Nyigön Nyima Nyingpo Nytari 
+			Omade Öpoche Orgyen Ösung 
+			Pagan Pal Palamba Palden Palchen Pälkhortsän Palkye Passang Pawa Phagpa Phukong Phuntsok Po Podé Prasaphung Pude Pungse Pungtsen Pushka 
+			Raksita Ramsha Ralpacan Rapsel Rinchen 
+			Sachen Sadnalegs Sambhota Selbar Senöl Shasaru Shakya Shang Shanglon Shangnang Singhu Siptri Sönam Songtsen Sotri Stungko Sumnang Sutse Swananda
+			Tagbu Takdra Taknang Taknye Taktsab Tashi Tawen Tenzin Thönmi Thoram Thothori Thrikhyiding Thuko Tshering Tingngezin Tisho Tongtsen Tooske Tori Trashi Tridé Tridra Tridu Trimang Trinring Trinyen Trisong Trisu Trisumje Tritog Tritsen Tritsuk Tromo Trongzhi Tsangma Tsemo Tsen Tsendro Tsenpo Tsensong Tsentsän Tsenye Tsugru Tsuktsen Tyapamee 
+			Udumtsen 
+			Walangcha Wangchuk Wangdu 
+			Yalambar Yongten Yontan Yülsung Yumtän 
+			Zanam Zangtsa Zhangtsun Zhonnu Zimun Zindé Zungtsen
+		}
+		
+		female_names = {
+			Amala 
+			Bumphulwa Bum 
+			Cham Chimey Choden Chödron Chökyi Chöying Cogrobza 
+			Dagmo Dechen Devitara Dolma Dongkar_Dongkar Dringma Driza Dro Drönma Dronmalön Dunkyi Dzeden 
+			Gémaspranglod Gémathar Gyalyum Gyimsheng 
+			Hariti 
+			Jashi Jetsunma Jomo 
+			Kelzang Khadrobum Khribang Khrimalod Khritsun Koboza Konchog Kunzang Kyeden Kyi 
+			Lasya Lhakee Lhamgonza Lhamo Lhathrimo 
+			Machig Magyal_Magya Mangalal Mangmo Mangmoje Mungchang 
+			Nagzib Nanamsa Ngawang Nyendrak Nyitri 
+			Pelgyimo Pelmo Pema Phoyongsa Phurbulcam Pogong Pongza 
+			Sal Sadmarkar_Sadmarkar Sengemo Shonnu Sonam 
+			Taramo Thridang Thrimalö Thrisong Togo Tökarma Toktokteng Torma Tricham Trikar Trimonyen Trinle Tse Tsenma Tshistöng Tsomo Tsogyal Tsunmotog Tubten 
+			Wangmo
+			Yeshe Yon Yondagmo 
+			Zangmo Zigsa
+		}
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+
+	bhutanese = { # Bhutanese
+		graphical_cultures = { bhutanesegfx bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { tibetanunitgfx tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 235 171 21  }
+		
+		male_names = {
+			Biren 
+			Chencho Chenresig Chewang Chime Chokey Chokyang Chophel 
+			Dawa Dendup Dhan Dhendup Diwash Dorjee Dukpa 
+			Garab Gurung Gyaltshen 
+			Hemlal 
+			Jampa Jamphel Jamyang Jigme Jigyel 
+			Karun Kezang Khamsum Khandu Khesar Kinley Kinzang Kunzang 
+			Leki Lhakpa Lhendup Lotay Lungtok
+			Mon Milarepa
+			Namgyal Nawang Ngawang Nidup Norbu 
+			Opagme
+			Palden Passang Phuntso Phurba Puspalal 
+			Rewath Rigzin Rinchen 
+			Sakyamuni Samten Sangay Shedrup Sherab Singhye Singye Subba 
+			Tandin Tashi Tenpa Tenzin Thinlay Tobgay Tobgye Tshering Tshultrim 
+			Ugyen 
+			Wangay Wangchuk Wangdi Wangpo 
+			Yangki Yeshey Yonten Yoser
+		}
+		
+		female_names = {
+			Chimi Choden Chuki 
+			Dechen Deki Demayuden Dolma Dondhen Dorji Drolma
+			Euphelma 
+			Jetsun Jyotis 
+			Karma Karzi Kesang Kiba
+			Lhaden Lham Lhamo 
+			Maytho Mendharawa
+			Nawang
+			Pem Phuntsho 
+			Richen 
+			Semyang Serchen Selden Sonam 
+			Wangmo
+			Yangchen Yangdon Yangzom Yeatso 
+		}
+		from_dynasty_prefix = "of "
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 15
+		father_name_chance = 35
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 10
+		
+		
+		allow_looting = yes
+		baron_titles_hidden = yes
+		feminist = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	low_bhutanese = { # Represents Bhutanese who migrated out of the homeland. Mixture of Bhutanese, Bengali, and other Indian names
+		graphical_cultures = { bhutanesegfx bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { tibetanunitgfx tibetangfx bodpagfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 252 212 111 }
+		
+		male_names = {
+			Abdullah_Abdullah Ahmed_Ahmad Akbar_Akbar Ali_Ali Amritnarayan
+			Bahadur_Bahadur Bilal_Bilal Biren 
+			Chandrasen Chencho Chenresig Chewang Chilarai Chime Chokey Chokyang Chophel 
+			Dawa Dendup Devapala Dhan Dharmapala Dhendup Dhirsingha Diwash Dorjee Dukpa 
+			Emran_Imran
+			Farid_Farid
+			Garab Ghulam_Ghulam Gopala Gurung Gyaltshen 
+			Hasan_Hasan Hemlal 
+			Ilyas_Elijah
+			Jadu Jampa Jamphel Jamyang Jigme Jigyel 
+			Karun Keshabsen Kezang Khamsum Khandu Khesar Kinley Kinzang Kumarapala Kunzang 
+			Lakshmansen Leki Lhakpa Lhendup Lomapada Lotay Lungtok
+			Mon Milarepa Muzaffar_Muzaffar
+			Namgyal Narasingha Nawang Ngawang Nidup Norbu 
+			Opagme
+			Palden Passang Phuntso Phurba Prannath Puspalal 
+			Raghudev Raja Ramnath Rasheed_Rashid Rewath Rigzin Rinchen 
+			Sakyamuni Salih_Salih Samten Samudrasen Sangay Shedrup Sherab Sikandar_Alexander Singhye Singye Subba 
+			Tandin Tariq_Tariq Tashi Tejpal_Tejpal Tenpa Tenzin Thinlay Tobgay Tobgye Tshering Tshultrim 
+			Ugyen Usman_Uthman 
+			Wangay Wangchuk Wangdi Wangpo 
+			Yangki Yeshey Yonten Yoser
+			Zakir_Zakir			
+		}
+		
+		female_names = {
+			Adila Amrapali Amritakala Asima Anwara Ayesha_Aisha
+			Bhavashankari Bhogavati
+			Chimi Choden Chuki 
+			Dattadevi Devavati Dechen Deki Demayuden Dolma Dondhen Dorji Drolma
+			Euphelma 
+			Fatima_Fatima
+			Gandharavati Gayatri
+			Hira
+			Jetsun Jyotis 
+			Kamala Karma Karzi Kesang Kiba
+			Lhaden Lham Lhamo 
+			Maheera Malavyadevi Maliha Maytho Mendharawa
+			Nahida Nawang Nayanadevi
+			Pem Phuntsho 
+			Rani Ratnadevi Richen 
+			Sara_Sarah Semyang Serchen Selden Shamsia Sonam 
+			Taliba
+			Vijnayavati Vina
+			Wangmo
+			Yajnavati Yangchen Yangdon Yangzom Yeatso			
+			Zainab
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		parent= bhutanese
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 15
+		father_name_chance = 35
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 10
+		
+		
+		allow_looting = yes
+		baron_titles_hidden = yes
+		feminist = yes
+		
+		modifier = default_culture_modifier
+	}
+}

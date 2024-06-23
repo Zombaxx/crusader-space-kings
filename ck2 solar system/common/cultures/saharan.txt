@@ -1,0 +1,166 @@
+saharan = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { muslimgfx }
+	
+	toubu = {
+		graphical_cultures = { centralafricangfx westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.6 0.35 0.85 }
+		
+		male_names = {
+			Abakar Abbas_Abbas Abdul_Abdul Abdulraham Adam_Adam Ahmed_Ahmad Ali_Ali At-Tayeb 
+			Brahim_Abraham 
+			Daoud_David Deli Dolo 
+			Gilding Goukouni 
+			Hamid_Hamid Hissen_Hussayn Hissène_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ilyas_Elijah Ingir Issa_Jesus 
+			Kasu Khalil_Khalil Ku Kuti 
+			Mahamat_Muhammad Mahmoud_Mahmud Malam Mamane Minni Mohammed_Mohammed Musa_Moses 
+			Oki Okiramaj Omer_Umar Osman_Uthman 
+			Shartay Siddick Sora Suleyman_Solomon 
+			Tijani Timan Toholjo Tor Torfu Tugule 
+			Udure 
+			Yahya_John Yaqub_Jacob Yusuf_Joseph
+		}
+		female_names = {
+			Aisha Aliyah 
+			Bado Bakhita Bi 
+			Eya 
+			Fatima_Fatima			
+			Gir 
+			Hadurah Halima Hinda 
+			Ija
+			Kadiga Khalila 
+			Layla 
+			Makka Malika Mariam_Mary Mounah 
+			Ning 
+			Ogai 
+			Rashida 
+			Shadia Shakira Sumah Sumiah 
+			Tele Ter 
+			Wahida 
+			Yasmin_Jasmine
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		allow_looting = yes
+		modifier = default_culture_modifier
+	}
+	tedaga  = {
+		graphical_cultures = { centralafricangfx westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.290 0.494 0.639 }
+		
+		male_names = {
+			Abbas_Abbas Abubakr_Abubakr Abdul_Abdul Abdulraham Adam_Adam Ahmad_Ahmad Ali_Ali At-Tayeb 
+			Bashar_Bashar Brahim_Abraham 
+			Daoud_David Deli Dolo 
+			Farid_Farid
+			Gilding Goukouni 
+			Hajj_Hajj Hamid_Hamid Hasan_Hasan Hissène_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ilyas_Elijah Ingir Issa_Jesus 
+			Kasim_Qasim Khalil_Khalil Ku Kuti 
+			Mahamat_Muhammad Mahmoud_Mahmud Malam Mamane Minni Mohammed_Mohammed Musa_Moses 
+			Okiramaj Omer_Umar Osman_Uthman 
+			Shartay Siddick Sora Suleyman_Solomon 
+			Tariq_Tariq Toholjo Tor Torfu Tugule 
+			Udure Umar_Umar 
+			Wahid_Wahid
+			Yahya_John Yaqub_Jacob Yusuf_Joseph
+		}
+		female_names = {
+			Aisha Aliyah 
+			Bado Bakhita Bi 
+			Eya 
+			Fatima_Fatima			
+			Gir 
+			Hadurah Halima Hinda 
+			Ija
+			Kadiga Khalila 
+			Layla 
+			Makka Malika Mariam_Mary Mounah 
+			Ning 
+			Ogai 
+			Rashida 
+			Shadia Shakira Sumah Sumiah 
+			Tele Ter 
+			Wahida 
+			Yasmin_Jasmine
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		allow_looting = yes
+		modifier = default_culture_modifier
+	}
+	zaghawa  = {
+		graphical_cultures = { centralafricangfx westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.290 0.494 0.639 }
+		
+		male_names = {
+			Abbas_Abbas Abdul_Abdul Abdullah_Abdullah Abdurahman_Abdalrahman Abu Adam_Adam Ahmed_Ahmad Al-Hasan_Hasan Ali_Ali Amir_Amir At-Tayeb Aziz_Aziz 
+			Bashar_Bashar Brahim_Abraham 
+			Danyal_Daniel Daoud_David Dolo 
+			Fadl_Fadl Farid_Farid Faruq_Faruq
+			Gilding Goukouni 
+			Hafiz_Hafiz Hakim_Hakim Hamid_Hamid Harun_Aaron Hissène_Hussayn 
+			Ibrahim_Abraham Idris_Idris Ilyas_Elijah Ismail_Ishmael Issa_Jesus 
+			Jafar_Jafar Jamal_Jamal
+			Karim_Karim Khalil_Khalil 
+			Mahamat_Muhammad Mahmoud_Mahmud Malam Malik_Malik Mamane Mirza_Mirza Mohammed_Mohammed Musa_Moses Mustafa_Mustafa
+			Nasir_Nasir
+			Omer_Umar Osman_Uthman 
+			Rashid_Rashid
+			Said_Said Saleh_Salih Suleyman_Solomon 
+			Tahir_Tahir Tijani Toholjo Torfu Tugule 
+			Udure Uways_Uways 
+			Yahya_John Yaqub_Jacob Yusuf_Joseph
+			Zayn_Zain
+		}
+		female_names = {
+			Aisha_Aisha Aliyah 
+			Bado Bakhita Bashira Bi 
+			Eya 
+			Farida Fatima_Fatima			
+			Ghada Gir 
+			Hadurah Halima Hinda 
+			Ija
+			Kadiga Khalila 
+			Layla 
+			Makka Malika Mariam_Mary Mounah 
+			Ning 
+			Ogai 
+			Rashida 
+			Sara_Sarah Shadia Shakira Sumiah 
+			Tele Ter 
+			Wahida 
+			Yasmin_Jasmine
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		allow_looting = yes
+		modifier = default_culture_modifier
+	}
+}	
+

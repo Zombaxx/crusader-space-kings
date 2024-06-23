@@ -317,7 +317,6 @@ character_event = {
 					}
     				mercenary = no
     				is_landed = no
-    				mercenary = no
 					OR = {
 						age = 16
 						AND = {
@@ -1224,6 +1223,14 @@ character_event = {
 	        			}
 	        			AND = {
 	        				event_target:current_location = {
+	        					religion_group = mormonic
+	        				}
+	        				NOT = {
+	        					trait = sympathy_mormon
+	        				}
+	        			}
+	        			AND = {
+	        				event_target:current_location = {
 	        					religion_group = zoroastrian_group
 	        				}
 	        				NOT = {
@@ -1307,6 +1314,14 @@ character_event = {
 		        			}
 		        			AND = {
 		        				event_target:current_location = {
+		        					religion_group = mormonic
+		        				}
+		        				NOT = {
+		        					trait = sympathy_mormon
+		        				}
+		        			}
+		        			AND = {
+		        				event_target:current_location = {
 		        					religion_group = zoroastrian_group
 		        				}
 		        				NOT = {
@@ -1350,6 +1365,17 @@ character_event = {
         				}
         			}
         			add_trait = sympathy_islam
+        		}
+        		if = {
+        			limit = {
+        				event_target:current_location = {
+        					religion_group = mormonic
+        				}
+        				NOT = {
+        					trait = sympathy_mormon
+        				}
+        			}
+        			add_trait = sympathy_mormon
         		}
         		if = {
         			limit = {
@@ -1622,11 +1648,7 @@ character_event = {
     	if = {
     		limit = {
     			event_target:current_location = {
-    				OR = {
-    					religion_group = muslim
-    					religion = west_african_pagan
-    					religion = west_african_pagan_reformed
-    				}
+    				religion_group = muslim
     			}
     		}
     		random_list = {
@@ -1688,11 +1710,7 @@ character_event = {
     	if = {
     		limit = {
     			event_target:current_location = {
-    				OR = {
-    					religion_group = zoroastrian_group
-    					religion = zun_pagan
-    					religion = zun_pagan_reformed
-    				}
+    				religion_group = zoroastrian_group
     			}
     		}
     		random_list = {
@@ -1726,54 +1744,12 @@ character_event = {
     			}
     		}
     	}
-    	# Germanics
-    	if = {
-    		limit = {
-    			event_target:current_location = {
-    				OR = {
-    					religion = norse_pagan
-    					religion = norse_pagan_reformed
-    				}
-    			}
-    		}
-    		random_list = {
-    			1 = {
-    				set_character_flag = crown_of_crows
-    			}
-    			1 = {
-    				set_character_flag = sword_of_heroes
-    			}
-    			1 = {
-    				set_character_flag = crown_of_the_sea
-    			}
-    			1 = {
-    				set_character_flag = golden_sword
-    			}
-    			1 = {
-    				trigger = { 
-    					NOT = {
-    						higher_tier_than = DUKE
-    					}
-    				}
-    				set_character_flag = iron_crown
-    			}
-    			1 = {
-    				trigger = { 
-    					NOT = {
-    						higher_tier_than = DUKE
-    					}
-    				}
-    				set_character_flag = engraved_sword
-    			}
-    		}
-    	}
+    	
     	# Slavic, Romuva, Suomenski or Tengri
     	if = {
     		limit = {
     			event_target:current_location = {
     				OR = {
-    					religion = slavic_pagan
-    					religion = slavic_pagan_reformed
     					religion = baltic_pagan
     					religion = baltic_pagan_reformed
     					religion = finnish_pagan
@@ -2304,6 +2280,17 @@ character_event = {
     		if = {
     			limit = {
     				event_target:current_location = {
+    					religion_group = mormonic
+    				}
+    				NOT = {
+    					trait = sympathy_mormon
+    				}
+    			}
+    			add_trait = sympathy_mormon
+    		}
+    		if = {
+    			limit = {
+    				event_target:current_location = {
     					religion_group = zoroastrian_group
     				}
     				NOT = {
@@ -2390,10 +2377,8 @@ character_event = {
     			event_target:current_location = {
     				OR = {
     					region = world_steppe
-    					region = world_india
     					region = world_persia
     					region = world_middle_east
-    					region = world_himalayas
     				}
     			}
     		}
@@ -2412,7 +2397,7 @@ character_event = {
         			has_character_flag = miaphysite_group
         			NOT = {
         				event_target:current_location = {
-        					religion = miaphysite
+        					religion = koptic
         				}
         			}
         		}
@@ -2420,7 +2405,7 @@ character_event = {
         			has_character_flag = nestorian_group
         			NOT = {
         				event_target:current_location = {
-        					religion = nestorian
+        					religion = chaldean
         				}
         			}
         		}
@@ -2452,8 +2437,8 @@ character_event = {
         }
         trigger_switch = {
         	on_trigger = has_character_flag
-        	miaphysite_group = { event_target:current_location = { show_scope_change = no religion = miaphysite } }
-        	nestorian_group = { event_target:current_location = { show_scope_change = no religion = nestorian } }
+        	miaphysite_group = { event_target:current_location = { show_scope_change = no religion = koptic } }
+        	nestorian_group = { event_target:current_location = { show_scope_change = no religion = chaldean } }
         	root_group = { event_target:current_location = { show_scope_change = no religion = ROOT } }
         }
     }
@@ -2466,7 +2451,7 @@ character_event = {
         	create_character = {
         		random_traits = yes
         		dynasty = random
-        		religion = miaphysite
+        		religion = koptic
         		culture = event_target:current_location
         	}
         }
@@ -2477,7 +2462,7 @@ character_event = {
         	create_character = {
         		random_traits = yes
         		dynasty = random
-        		religion = nestorian
+        		religion = chaldean
         		culture = event_target:current_location
         	}
         }
@@ -2911,61 +2896,31 @@ character_event = {
 	    				}
 	    			}
 	    		}
-	    		10 = {
-	    			trigger = {
-	    				is_title_active = d_knights_calatrava
-	    			}
-	    			d_knights_calatrava = {
-	    				owner = {
-	    					save_event_target_as = decided_holy_order
-	    				}
-	    			}
-	    		}
-	    		10 = {
-	    			trigger = {
-	    				is_title_active = d_knights_santiago
-	    			}
-	    			d_knights_santiago = {
-	    				owner = {
-	    					save_event_target_as = decided_holy_order
-	    				}
-	    			}
-	    		}
+	    		# 10 = {
+	    			# trigger = {
+	    				# is_title_active = d_knights_calatrava
+	    			# }
+	    			# d_knights_calatrava = {
+	    				# owner = {
+	    					# save_event_target_as = decided_holy_order
+	    				# }
+	    			# }
+	    		# }
+	    		# 10 = {
+	    			# trigger = {
+	    				# is_title_active = d_knights_santiago
+	    			# }
+	    			# d_knights_santiago = {
+	    				# owner = {
+	    					# save_event_target_as = decided_holy_order
+	    				# }
+	    			# }
+	    		# }
 	    		10 = {
 	    			trigger = {
 	    				is_title_active = d_knights_hospitaler
 	    			}
 	    			d_knights_hospitaler = {
-	    				owner = {
-	    					save_event_target_as = decided_holy_order
-	    				}
-	    			}
-	    		}
-	    		10 = {
-	    			trigger = {
-	    				is_title_active = d_teutonic_order
-	    			}
-	    			d_teutonic_order = {
-	    				owner = {
-	    					save_event_target_as = decided_holy_order
-	    				}
-	    			}
-	    		}
-	    		10 = {
-	    			trigger = {
-	    				is_title_active = k_teutonic_state
-	    			}
-	    			k_teutonic_state = {
-	    				owner = {
-	    					save_event_target_as = decided_holy_order
-	    				}
-	    			}
-	    		}
-	    		10 = {
-	    			trigger = {
-	    				is_title_active = d_livonian_order
-	    			}
-	    			d_livonian_order = {
 	    				owner = {
 	    					save_event_target_as = decided_holy_order
 	    				}
@@ -3028,22 +2983,6 @@ character_event = {
     		piety = 500
     		OR = {
 				AND = {
-					is_title_active = d_teutonic_order
-					d_teutonic_order = {
-						owner = {
-							religion = ROOT
-						}
-					}
-				}
-				AND = {
-					is_title_active = k_teutonic_state
-					k_teutonic_state = {
-						owner = {
-							religion = ROOT
-						}
-					}
-				}
-				AND = {
 					is_title_active = d_knights_templar
 					d_knights_templar = {
 						owner = {
@@ -3051,14 +2990,14 @@ character_event = {
 						}
 					}
 				}
-				AND = {
-					is_title_active = d_livonian_order
-					d_livonian_order = {
-						owner = {
-							religion = ROOT
-						}
-					}
-				}
+				# AND = {
+					# is_title_active = d_livonian_order
+					# d_livonian_order = {
+						# owner = {
+							# religion = ROOT
+						# }
+					# }
+				# }
 				AND = {
 					is_title_active = d_knights_hospitaler
 					d_knights_hospitaler = {
@@ -3572,7 +3511,7 @@ province_event = {
 			limit = {
 				has_global_flag = catholic_shepherds_crusade
 			}
-			k_papal_state = {
+			k_papacy = {
 				owner = {
 					character_event = { id = HFP.42303 }
 				}
@@ -3688,7 +3627,7 @@ province_event = {
 					title = e_spain
 				}
 				kingdom = {
-					title = k_jerusalem
+					title = k_france
 				}
 			}
 			owner = {
@@ -3716,6 +3655,7 @@ province_event = {
 				}
 				new_character = {
 					save_event_target_as = shepherds_leader
+					save_global_event_target_as = invasion_leader
 					create_title = {
 						tier = DUKE
 						landless = yes
@@ -3728,6 +3668,7 @@ province_event = {
 					add_trait = holy_warrior
 					add_trait = zealous
 					set_focus = focus_war
+					add_trait = peasant_noble
 					add_ambition = obj_become_exalted
 					set_character_flag = shepherds_leader
 					spawn_unit = {
@@ -3748,7 +3689,7 @@ province_event = {
 									title = e_spain
 								}
 								kingdom = {
-									title = k_jerusalem
+									title = k_france
 								}
 							}
 							owner = {

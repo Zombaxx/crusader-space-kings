@@ -22,6 +22,8 @@ amateurish_plotter = {
 	
 	intrigue = 1
 	stewardship = -1
+	ai_ambition = -5
+	ai_honor = -10
 	combat_rating = 4 #new value!
 	
 	male_insult_adj = INSULT_SCHEMING
@@ -34,6 +36,8 @@ flamboyant_schemer = {
 	
 	intrigue = 3
 	stewardship = -1
+	ai_ambition = -10
+	ai_honor = -15
 	combat_rating = 8 #new value!
 	
 	male_insult_adj = INSULT_SCHEMING
@@ -48,6 +52,8 @@ intricate_webweaver = {
 	martial = 1
 	diplomacy = 1
 	stewardship = -1
+	ai_ambition = -15
+	ai_honor = -20
 	combat_rating = 12 #new value!
 	
 	male_compliment_adj = COMPL_CLEVER
@@ -64,6 +70,8 @@ elusive_shadow = {
 	martial = 2
 	diplomacy = 2
 	stewardship = -1
+	ai_ambition = -20
+	ai_honor = -25
 	combat_rating = 16 #new value!
 	
 	male_compliment_adj = COMPL_CLEVER
@@ -80,6 +88,8 @@ naive_appeaser = {
 	
 	diplomacy = 1
 	martial = -1
+	ai_ambition = -5
+	ai_rationality = 10
 
 	male_insult_adj = INSULT_TWOFACED
 	female_insult_adj = INSULT_TWOFACED
@@ -92,6 +102,8 @@ underhanded_rogue = {
 	diplomacy = 3
 	martial = -1
 	fertility = 0.05
+	ai_ambition = -10
+	ai_rationality = 15
 
 	male_insult_adj = INSULT_TWOFACED
 	female_insult_adj = INSULT_TWOFACED
@@ -106,6 +118,8 @@ charismatic_negotiator = {
 	learning = 1
 	martial = -1
 	fertility = 0.05
+	ai_ambition = -15
+	ai_rationality = 20
 	
 
 	male_compliment_adj = COMPL_ELOQUENT
@@ -124,6 +138,8 @@ grey_eminence = {
 	learning = 2
 	martial = -1
 	fertility = 0.1
+	ai_ambition = -20
+	ai_rationality = 25
 
 	male_compliment_adj = COMPL_ELOQUENT
 	female_compliment_adj = COMPL_ELOQUENT
@@ -140,6 +156,8 @@ indulgent_wastrel = {
 	
 	stewardship = 1
 	diplomacy = -1
+	ai_ambition = -5
+	ai_greed = 10
 
 	male_insult_adj = INSULT_MISERLY
 	female_insult_adj = INSULT_MISERLY
@@ -152,6 +170,8 @@ thrifty_clerk = {
 	stewardship = 3
 	diplomacy = -1
 	fertility = 0.05
+	ai_ambition = -10
+	ai_greed = 15
 
 	male_insult_adj = INSULT_MISERLY
 	female_insult_adj = INSULT_MISERLY
@@ -166,6 +186,8 @@ fortune_builder = {
 	learning = 1
 	diplomacy = -1
 	fertility = 0.1
+	ai_ambition = -15
+	ai_greed = 20
 
 	male_compliment_adj = COMPL_THRIFTY
 	female_compliment_adj = COMPL_THRIFTY
@@ -183,6 +205,8 @@ midas_touched = {
 	learning = 2
 	diplomacy = -1
 	fertility = 0.15
+	ai_ambition = -20
+	ai_greed = 25
 
 	male_compliment_adj = COMPL_THRIFTY
 	female_compliment_adj = COMPL_THRIFTY
@@ -201,6 +225,8 @@ misguided_warrior = {
 	learning = -1
 	
 	combat_rating = 5 #old value: 1
+	ai_ambition = 5
+	ai_rationality = 10
 	
 	health = 0.5
 }
@@ -212,8 +238,10 @@ tough_soldier = {
 	learning = -1
 	
 	combat_rating = 10 #old value: 1
+	ai_ambition = 10
+	ai_rationality = 15
 	
-	health = 0.5
+	health = 1
 }
 skilled_tactician = {
 	attribute = martial
@@ -225,8 +253,10 @@ skilled_tactician = {
 	learning = -1
 	
 	combat_rating = 15 #old value: 1
+	ai_ambition = 15
+	ai_rationality = 20
 	
-	health = 0.5
+	health = 1.5
 }
 brilliant_strategist = {
 	attribute = martial
@@ -238,8 +268,10 @@ brilliant_strategist = {
 	learning = -1
 	
 	combat_rating = 20 #old value: 1
+	ai_ambition = 20
+	ai_rationality = 25
 	
-	health = 0.5
+	health = 2
 
 	leadership_traits = 1
 }
@@ -251,6 +283,7 @@ detached_priest = {
 	
 	learning = 1
 	intrigue = -1
+	ai_zeal = 5
 
 	male_insult_adj = INSULT_DRIVELING
 	female_insult_adj = INSULT_DRIVELING
@@ -409,7 +442,7 @@ pneumonic = {
 syphilitic = {
 	is_health = yes
 	is_illness = yes
-	inherit_chance = 10
+	inherit_chance = 15
 	
 	sex_appeal_opinion = -10
 	general_opinion = -5
@@ -472,6 +505,7 @@ maimed = {
 	
 	sex_appeal_opinion = -15
 	same_opinion = 5
+	blinding = yes
 	
 	martial = -2
 	health = -2
@@ -677,37 +711,6 @@ has_small_pox = {
 # HARD STATUS - DO NOT REMOVE!
 ############################
 
-crusader = {
-	opposites = {
-		crusader_king
-		crusader_queen
-		mujahid
-		valhalla_bound
-		eagle_warrior
-		sun_warrior
-		ukkos_shield
-		nyames_shield
-		peruns_chosen
-		romuvas_own
-		ares_own
-		tengri_warrior
-		shaddai
-		gondi_shahansha
-		kailash_guardian
-	}
-	
-	martial = 2
-	combat_rating = 10 #old value: 1
-	
-	church_opinion = 15
-	same_opinion_if_same_religion = 15
-	
-	ai_zeal = 10
-	
-	male_compliment = COMPL_CRUSADER
-	female_compliment = COMPL_CRUSADER
-}
-
 bastard = {
 	diplomacy = -1
 	same_opinion = 5
@@ -715,7 +718,7 @@ bastard = {
 	opposites =  {
 		legit_bastard
 	}
-	
+	cannot_inherit = yes
 	customizer = no
 	
 	male_insult = INSULT_BASTARD
@@ -723,6 +726,9 @@ bastard = {
 }
 twin = {
 	twin_opinion = 15
+	maoist_opinion = -15
+	maunaxite_opinion = -15
+	maunaxite_reformed_opinion = -15
 	
 	customizer = no
 }
@@ -786,11 +792,58 @@ kinslayer = {
 homosexual = {
 	sex_appeal_opinion = 30 # Only to those of the same sex
 	vassal_opinion = -5
-	
 	fertility = -0.15
 	
 	ruler_designer_cost = 0
 	
+	male_insult = INSULT_SODOMITE
+	male_insult_adj = INSULT_EFFEMINATE
+	female_insult = INSULT_LESBIAN
+	female_insult_adj = INSULT_SAPPHIC
+	child_insult = INSULT_PEABRAIN
+	child_insult_adj = INSULT_CRAZY
+}
+bisexual = {
+	male_opinion = 5 
+	female_opinion = 5
+	same_opinion = 5
+	thelemic_reformed_opinion = 5
+	summer_queen_opinion = 5
+	thelemic_opinion = 5
+	orange_king_opinion = 5
+	opposites = {
+		homosexual
+	}	
+	ruler_designer_cost = 0
+	
+	male_insult = INSULT_SODOMITE
+	male_insult_adj = INSULT_EFFEMINATE
+	female_insult = INSULT_LESBIAN
+	female_insult_adj = INSULT_SAPPHIC
+	child_insult = INSULT_PEABRAIN
+	child_insult_adj = INSULT_CRAZY
+}
+androgynous = {
+	birth = 800
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 50
+	male_opinion = 5 
+	female_opinion = 5
+	hellenic_pagan_opinion = 5
+	hellenic_pagan_reformed_opinion = 5
+	thelemic_reformed_opinion = 5
+	thelemic_opinion = 5
+	summer_queen_opinion = 5
+	orange_king_opinion = 5
+	theosophy_opinion = 5
+	
+	ruler_designer_cost = 0
+	
+	female_compliment = COMPL_BEAUTY
+	female_compliment_adj = COMPL_FAIR
+	male_compliment = COMPL_CHARMER
+	male_compliment_adj = COMPL_HANDSOME
+	child_compliment_adj = COMPL_PRETTY
 	male_insult = INSULT_SODOMITE
 	male_insult_adj = INSULT_EFFEMINATE
 	female_insult = INSULT_LESBIAN
@@ -804,10 +857,9 @@ homosexual = {
 #####################
 
 clubfooted = {
-	birth = 50
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 20
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	combat_rating = -5 #old value: -1
 	
 	sex_appeal_opinion = -10
@@ -821,10 +873,9 @@ clubfooted = {
 	female_insult_adj = INSULT_LIMPING
 }
 harelip = {
-	birth = 50
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 10
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	sex_appeal_opinion = -10
 	same_opinion = 5
 	
@@ -837,15 +888,17 @@ harelip = {
 }
 hunchback = {
 	birth = 50
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	sex_appeal_opinion = -30
 	same_opinion = 5
+	novelist_opinion = 5
+	novelist_reformed_opinion = 5
 	
 	vassal_opinion = -5
 	
 	martial = -1
+	diplomacy = -1
 	
 	male_insult = INSULT_HUNCHBACK
 	female_insult = INSULT_HUNCHBACK
@@ -853,11 +906,11 @@ hunchback = {
 	female_insult_adj = INSULT_CROOKED
 }
 lisp = {
-	birth = 50
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 1500
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	same_opinion = 5
+	sex_appeal_opinion = -5
 	
 	diplomacy = -1
 	
@@ -868,10 +921,9 @@ lisp = {
 	child_insult_adj = INSULT_STUPID
 }
 stutter = {
-	birth = 50
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 500
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	same_opinion = 5
 	
 	diplomacy = -1
@@ -883,10 +935,9 @@ stutter = {
 	child_insult_adj = INSULT_STUPID
 }
 fair = {
-	birth = 100
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 1000
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	sex_appeal_opinion = 30
 	
 	opposites =  {
@@ -902,9 +953,9 @@ fair = {
 	child_compliment_adj = COMPL_PRETTY
 }
 ugly = {
-	birth = 100
-	inherit_chance = 10
-	
+	birth = 1000
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	sex_appeal_opinion = -20
 	
 	opposites =  {
@@ -915,18 +966,21 @@ ugly = {
 	
 	male_insult = INSULT_GROTESQUE
 	female_insult = INSULT_GORGON
-	female_insult = INSULT_TROLL
 	male_insult_adj = INSULT_HIDEOUS
 	female_insult_adj = INSULT_HIDEOUS
 	child_insult_adj = INSULT_UGLY
 }
 dwarf = {
-	birth = 25
-	inherit_chance = 25
-	both_parent_has_trait_inherit_chance = 50
+	birth = 5
+	inherit_chance = 30
+	both_parent_has_trait_inherit_chance = 60
 
 	sex_appeal_opinion = -30
+	tribal_opinion = -5
+	vassal_opinion = -5
 	same_opinion = 5
+	novelist_opinion = 5
+	novelist_reformed_opinion = 5
 	
 	opposites =  {
 		giant
@@ -944,9 +998,8 @@ dwarf = {
 }
 genius = {
 	birth = 50
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	opposites =  {
 		imbecile
 		slow
@@ -974,10 +1027,9 @@ genius = {
 }
 
 quick = {
-	birth = 100
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 200
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	opposites =  {
 		imbecile
 		slow
@@ -993,11 +1045,53 @@ quick = {
 	
 	ai_rationality = 15
 }
-slow = {
-	birth = 100
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
+eccentric = {
+	birth = 200
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
+
+	diplomacy = -2
+	intrigue = -1
+	stewardship = 1
+	martial = 1
+	learning = 1
+	tech_growth_modifier = 0.1
 	
+	ai_rationality = 25
+	ai_honor = 40
+	ai_ambition = -10
+	ai_greed = -10
+}
+fecund = {
+	birth = 900
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
+	opposites =  {
+		barren
+	}
+	fertility = 0.4
+}
+barren = {
+	birth = 900
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
+	opposites =  {
+		fecund
+	}
+	fertility = -0.4
+}
+haemophiliac = {
+	birth = 100
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
+	health = -1.5
+	combat_rating = -10
+	vassal_opinion = -10
+}
+slow = {
+	birth = 200
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	opposites =  {
 		imbecile
 		quick
@@ -1012,6 +1106,7 @@ slow = {
 	learning = -3
 	
 	ai_rationality = -15
+	ai_honor = 15
 	
 	male_insult = INSULT_DULLARD
 	female_insult = INSULT_NITWIT
@@ -1021,9 +1116,8 @@ slow = {
 }
 imbecile = {
 	birth = 50
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	sex_appeal_opinion = -30
 	
 	opposites =  {
@@ -1041,6 +1135,7 @@ imbecile = {
 	combat_rating = -30 #old value: -3
 	
 	ai_rationality = -30
+	ai_honor = 30
 	
 	vassal_opinion = -10
 	
@@ -1079,10 +1174,9 @@ inbred = {
 	child_insult_adj = INSULT_UGLY
 }
 strong = {
-	birth = 100
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 800
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	opposites =  {
 		weak
 	}
@@ -1090,7 +1184,7 @@ strong = {
 	diplomacy = 1
 	martial = 2
 	
-	health = 1
+	health = 1.5
 	fertility = 0.1
 	
 	combat_rating = 10 #old value: 1
@@ -1102,10 +1196,9 @@ strong = {
 	male_compliment_adj = COMPL_STRONG
 }
 weak = {
-	birth = 100
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 50
-	
+	birth = 800
+	inherit_chance = 15
+	both_parent_has_trait_inherit_chance = 40
 	opposites =  {
 		strong
 	}
@@ -1171,7 +1264,8 @@ hedonist = {
 	christian_church_opinion = -5
 	
 	ai_zeal = -30
-	ruler_designer_cost = 10
+	ai_greed = 10
+	ruler_designer_cost = 0
 	
 	male_insult = INSULT_DEBAUCHER
 	female_insult = INSULT_DEBAUCHER
@@ -1191,10 +1285,11 @@ scholar = {
 	}
 	
 	learning = 3
-	
+	tech_growth_modifier = 0.1
+	ai_rationality = 15
 	same_opinion = 10
 	
-	ruler_designer_cost = 10
+	ruler_designer_cost = 0
 	
 	male_compliment = COMPL_SCHOLAR
 	female_compliment = COMPL_SCHOLAR
@@ -1213,10 +1308,11 @@ gardener = {
 	
 	stewardship = 2
 	learning = 1
+	ai_rationality = 5
 	
 	same_opinion = 10
 	
-	ruler_designer_cost = 10
+	ruler_designer_cost = 0
 	
 	male_insult = INSULT_TREEHUGGER
 	female_insult = INSULT_TREEHUGGER
@@ -1228,11 +1324,17 @@ mystic = {
 	stewardship = 1
 	
 	same_opinion = 10
+	thelemic_reformed_opinion = 5
+	summer_queen_opinion = 5
+	thelemic_opinion = 10
+	orange_king_opinion = 5
+	ai_rationality = -10
+	ai_zeal = 10
 	
 	male_compliment = COMPL_MYSTIC
 	female_compliment = COMPL_MYSTIC
 	
-	ruler_designer_cost = 10
+	ruler_designer_cost = 0
 	
 	child_compliment = COMPL_SMARTY
 	male_compliment_adj = COMPL_LEARNED
@@ -1271,18 +1373,18 @@ impaler = {
 	female_insult_adj = INSULT_EVIL
 	child_insult_adj = INSULT_WICKED
 	
-	ruler_designer_cost = 10
+	ruler_designer_cost = 0
 }
 duelist = {
 	lifestyle = yes
 	
-	martial = 3
-	combat_rating = 30 #old value: 5
+	martial = 2
+	combat_rating = 40 #old value: 5
 	
 	same_opinion = 10
 	
-	ruler_designer_cost = 10
-	
+	ruler_designer_cost = 0
+	health = 2
 	male_compliment = COMPL_BLADEMASTER
 	female_compliment = COMPL_CHAMPION
 }
@@ -1303,22 +1405,43 @@ hunter = {
 	}
 	
 	same_opinion = 10
-	
-	ruler_designer_cost = 10
+	health = 2
+	ruler_designer_cost = 0
 	
 	male_compliment = COMPL_HUNTMASTER
 }
 
+vegetarian = {
+	lifestyle = yes
+
+	stewardship = 1
+	monthly_character_piety = 0.75
+	defensive_plot_power_modifier = 0.15
+	same_opinion = 10
+	temperate_opinion = 5
+	kind_opinion = 5
+	church_opinion = 5
+	health = -0.33
+	ruler_designer_cost = 0
+	
+}
 # Way of Life DLC: No longer a lifestyle trait
 poet = {
 	diplomacy = 1
+	opposites = {
+	    bard_sibir
+		baul
+	}
 	
 	same_opinion = 10
+	opposite_opinion = 5
+	sex_appeal_opinion = 5
+	monthly_character_prestige = 0.5
 	
 	male_compliment = COMPL_POET
 	female_compliment = COMPL_POET
 	
-	ruler_designer_cost = 4
+	ruler_designer_cost = 0
 }
 
 # Way of Life DLC: No longer a lifestyle trait
@@ -1326,12 +1449,15 @@ falconer = {
 	potential = {
 		NOT = { religion = jain }
 	}
+	command_modifier = {
+		speed = 0.05
+	}
 
 	diplomacy = 1
-	
+	health = 1
 	same_opinion = 10
 	
-	ruler_designer_cost = 4
+	ruler_designer_cost = 0
 }
 
 #################################################################
@@ -1354,9 +1480,13 @@ lustful = {
 	christian_church_opinion = -5
 	
 	monthly_character_piety = -0.25
-	
+	thelemic_reformed_opinion = 5
+	summer_queen_opinion = 5
+	thelemic_opinion = 10
+	orange_king_opinion = 5
 	ai_greed = 20
 	ai_zeal = -10
+	ai_honor = -5
 	
 	male_insult = INSULT_LECHER
 	male_insult_adj = INSULT_LECHEROUS
@@ -1366,7 +1496,6 @@ lustful = {
 	female_insult_adj = INSULT_WANTON
 	male_compliment_adj = COMPL_VIVACIOUS
 	female_compliment_adj = COMPL_VIVACIOUS
-	female_compliment_adj = COMPL_NICE
 }
 chaste = {
 	personality = yes
@@ -1391,6 +1520,7 @@ chaste = {
 	monthly_character_piety = 0.5
 	
 	ai_zeal = 10
+	ai_honor = 10
 	
 	male_compliment_adj = COMPL_CHASTE
 	female_compliment_adj = COMPL_CHASTE
@@ -1412,6 +1542,10 @@ gluttonous = {
 	sex_appeal_opinion = -15
 	church_opinion = -5
 	same_opinion = 5
+	thelemic_reformed_opinion = 5
+	summer_queen_opinion = 5
+	thelemic_opinion = 10
+	orange_king_opinion = 5
 	
 	stewardship = -2
 	
@@ -1458,6 +1592,7 @@ greedy = {
 	
 	global_tax_modifier = 0.1
 	diplomacy = -1
+	fraticelli_opinion = -10
 	
 	ai_honor = -10
 	ai_ambition = 15
@@ -1481,6 +1616,7 @@ charitable = {
 	opposite_opinion = -5
 	same_opinion = 5
 	combat_rating = -3 #new value!
+	fraticelli_opinion = 10
 	
 	ai_honor = 10
 	ai_ambition = -15
@@ -1558,6 +1694,7 @@ envious = {
 	liege_opinion = -15
 	
 	ai_honor = -10
+	ai_ambition = 15
 	
 	male_insult_adj = INSULT_ENVIOUS
 	female_insult_adj = INSULT_ENVIOUS
@@ -1580,6 +1717,7 @@ kind = {
 	same_opinion = 5
 	
 	ai_honor = 10
+	ai_ambition = -15
 	
 	male_insult_adj = INSULT_SOFT
 	male_compliment_adj = COMPL_KINDLY
@@ -1597,9 +1735,14 @@ wroth = {
 	intrigue = -1
 	martial = 3
 	combat_rating = 3 #new value!
+	thelemic_reformed_opinion = 5
+	summer_queen_opinion = 5
+	thelemic_opinion = 10
+	orange_king_opinion = 5
 	
 	ai_rationality = -10
 	ai_honor = -5
+	ai_ambition = 10
 	
 	male_insult_adj = INSULT_RAGING
 	female_insult = INSULT_HARRIDAN
@@ -1640,8 +1783,12 @@ proud = {
 	vice = yes
 	
 	monthly_character_prestige = 0.5
+	thelemic_reformed_opinion = 5
+	summer_queen_opinion = 5
+	thelemic_opinion = 10
+	orange_king_opinion = 5
 	
-	ai_ambition = 10
+	ai_ambition = 15
 	
 	male_compliment_adj = COMPL_PROUD
 	female_compliment_adj = COMPL_PROUD
@@ -1658,7 +1805,7 @@ humble = {
 	opposite_opinion = -5
 	same_opinion = 5
 	
-	ai_ambition = -10
+	ai_ambition = -15
 	
 	male_compliment_adj = COMPL_HUMBLE
 	female_compliment_adj = COMPL_HUMBLE
@@ -1678,6 +1825,10 @@ deceitful = {
 	intrigue = 3
 	diplomacy = -2
 	combat_rating = 3 #new value!
+	thelemic_reformed_opinion = 5
+	summer_queen_opinion = 5
+	thelemic_opinion = 10
+	orange_king_opinion = 5
 	
 	opposite_opinion = -5
 	
@@ -1713,6 +1864,7 @@ craven = {
 	}
 	
 	vassal_opinion = -5
+	ai_ambition = -10
 	
 	martial = -2
 	combat_rating = -10 #old value: -1
@@ -1738,7 +1890,8 @@ brave = {
 	
 	martial = 2
 	combat_rating = 10 #old value: 1
-	
+	ai_zeal = 5
+	ai_ambition = 5
 	command_modifier = {
 		morale_defence = 0.1
 	}
@@ -1754,6 +1907,10 @@ shy = {
 	
 	diplomacy = -2
 	combat_rating = -2 #new value!
+	
+	ai_ambition = -10
+	ai_greed = -5
+	ai_zeal = -10
 	
 	male_insult_adj = INSULT_TIMID
 	female_insult_adj = INSULT_COY
@@ -1778,13 +1935,14 @@ gregarious = {
 	male_compliment_adj = COMPL_AFFABLE
 	female_compliment = COMPL_WIT
 	female_compliment_adj = COMPL_FETCHING
-	child_compliment_adj = COMPL_NICE
+	child_compliment = COMPL_NICE
 	child_compliment_adj = COMPL_HERO
 }
 ambitious = {
 	personality = yes
 	opposites =  {
 		content
+		communed_with_shadow
 	}
 	
 	intrigue = 2
@@ -1808,6 +1966,7 @@ content = {
 	personality = yes
 	opposites =  {
 		ambitious
+		communed_with_shadow
 	}
 	
 	intrigue = -1
@@ -1840,7 +1999,7 @@ arbitrary = {
 	
 	male_insult = INSULT_SCATTERBRAIN
 	female_insult = INSULT_SCATTERBRAIN
-	child_insult_adj = INSULT_IDIOT
+	child_insult = INSULT_IDIOT
 	male_insult_adj = INSULT_ERRATIC
 	female_insult_adj = INSULT_ERRATIC
 	child_insult_adj = INSULT_WICKED
@@ -1886,7 +2045,7 @@ cynical = {
 	
 	monthly_character_piety = -0.2
 	
-	ai_rationality = 10
+	ai_rationality = 15
 	ai_zeal = -100
 	
 	male_compliment_adj = COMPL_WRY
@@ -1906,6 +2065,14 @@ zealous = {
 		sympathy_zoroastrianism
 		sympathy_judaism
 		sympathy_indian
+		sympathy_old_world_cultist
+		sympathy_buddhism
+		sympathy_esoteric
+		sympathy_oceanic
+		sympathy_alien
+		sympathy_synth
+		sympathy_chinese
+		sympathy_shinto
 	}
 	
 	martial = 2
@@ -1940,6 +2107,7 @@ paranoid = {
 	diplomacy = -1
 	
 	ai_honor = -10
+	ai_rationality = 10
 	
 	male_insult_adj = INSULT_PARANOID
 	female_insult_adj = INSULT_PARANOID
@@ -1956,6 +2124,7 @@ trusting = {
 	combat_rating = -2 #new value!
 	
 	ai_honor = 10
+	ai_rationality = 10
 	
 	male_insult = INSULT_FOOL
 	female_insult = INSULT_FOOL
@@ -1976,6 +2145,7 @@ cruel = {
 	vassal_opinion = -5
 	ai_honor = -5
 	ai_greed = 5
+	ai_ambition = 10
 	
 	command_modifier = {
 		morale_offence = 0.1
@@ -1990,27 +2160,38 @@ cruel = {
 }
 
 #Leadership traits
-light_foot_leader = {
+light_foot_leader = {#skirmishers
 	leader = yes
 	
 	command_modifier = {
 		light_infantry = 0.2
+		archers = 0.05
+		gunmen = 0.05
+		bike_cavalry = 0.05
 	}
 }
 
-heavy_infantry_leader = {
+heavy_infantry_leader = {#proper infantry
 	leader = yes
 	
 	command_modifier = {
 		heavy_infantry = 0.2
+		pikemen = 0.05
+		flamethrowers = 0.05
 	}
 }
 
-cavalry_leader = {
+cavalry_leader = {#cavalry
 	leader = yes
 	
 	command_modifier = {
-		cavalry = 0.2
+		war_elephants = 0.2
+		chariots = 0.05
+		camel_cavalry = 0.2
+		horse_archers = 0.05
+		light_cavalry = 0.2
+		knights = 0.2
+		carbineers = 0.05
 	}
 }
 
@@ -2033,7 +2214,7 @@ trickster = {
 
 organizer = {
 	leader = yes
-	
+	global_levy_size = 0.05
 	command_modifier = {
 		speed = 0.2
 		retreat = 0.1

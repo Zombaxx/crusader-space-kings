@@ -7,8 +7,8 @@ targeted_decisions = {
 	    is_high_prio = yes
 	    diplomacy_icon = GFX_duel_decision
 	    
-	    #ai_target_filter = rivals
-		ai_check_interval = 10
+	    ai_target_filter = rivals
+		ai_check_interval = 24
 	    
 	    from_potential = {
 	        is_playable = yes
@@ -29,6 +29,7 @@ targeted_decisions = {
 						has_bloodline_flag = duelist_bloodline
 					}
 	        	}
+				trait = emul_gilgamesh
 	        }
 	        has_regent = no
 	        is_inaccessible_trigger = no
@@ -44,8 +45,7 @@ targeted_decisions = {
 	                    trait = brave
 	                    religion_group = pagan_group
 	                    is_nomadic = yes
-	                    religion = buddhist
-	                    religion = bogomilist
+	                    religion_group = buddhist_group
 	                    gender_equality_trigger = yes
 	                }
 	            }
@@ -170,16 +170,16 @@ targeted_decisions = {
 #	                                    gender_equality_trigger = yes
 #	                                    religion_group = pagan_group
 #	                                    is_nomadic = yes
-#	                                    religion = buddhist
-#	                                    religion = bogomilist
+#	                                    religion_group = buddhist_group
+#	                                    religion = thelemic
 #	                                }
 #	                                FROM = {
 #	                                    OR = {
 #	                                        gender_equality_trigger = yes
 #	                                        religion_group = pagan_group
 #	                                        is_nomadic = yes
-#	                                        religion = buddhist
-#	                                        religion = bogomilist
+#	                                        religion_group = buddhist_group
+#	                                        religion = thelemic
 #	                                    }
 #	                                }
 #	                            }
@@ -343,8 +343,8 @@ targeted_decisions = {
 	                    trait = brave
 	                    religion_group = pagan_group
 	                    is_nomadic = yes
-	                    religion = buddhist
-	                    religion = bogomilist
+	                    religion_group = buddhist_group
+	                    religion = thelemic
 	                    gender_equality_trigger = yes
 	                }
 	            }
@@ -433,16 +433,16 @@ targeted_decisions = {
 #                                gender_equality_trigger = yes
 #                                religion_group = pagan_group
 #                                is_nomadic = yes
-#                                religion = buddhist
-#                                religion = bogomilist
+#                                religion_group = buddhist_group
+#                                religion = thelemic
 #                            }
 #                            FROM = {
 #                                OR = {
 #                                    gender_equality_trigger = yes
 #                                    religion_group = pagan_group
 #                                    is_nomadic = yes
-#                                    religion = buddhist
-#                                    religion = bogomilist
+#                                    religion_group = buddhist_group
+#                                    religion = thelemic
 #                                }
 #                            }
 #                        }
@@ -746,8 +746,6 @@ targeted_decisions = {
 	        	limit = { is_landed = yes }
 	        	OR = {
         			has_tribal_or_nomadic_government_trigger = yes
-					is_feudal = yes
-					government = merchant_republic_government
 	        		custom_tooltip = {
         				text = has_mission_to_recruit_tt
 		        		FROM = {
@@ -768,8 +766,6 @@ targeted_decisions = {
 	        				quest_target = { character = ROOT }
 						}
         			}
-					FROM = { is_feudal = yes }
-					FROM = { government = merchant_republic_government }
 	        	}
 	        }
 	    }
@@ -882,7 +878,7 @@ targeted_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				lifestyle_traits = 1
+				lifestyle_traits = 2
 			}
 		}
 	}
@@ -905,6 +901,9 @@ targeted_decisions = {
 			society_rank >= 2
 			NOT = { has_character_flag = choosing_warrior_training } #to stop you spamming the button
 			has_current_warrior_lodge_leader_trait_trigger = no #to keep it hidden once you're done
+			NOT = {
+				trait = iranian_leader
+			}
 		}
 		
 		allow = {
@@ -927,10 +926,6 @@ targeted_decisions = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				lifestyle_traits = 1
-			}
 			modifier = {
 				factor = 0.1
 				has_religion_matching_joined_warrior_lodge_trigger = no
@@ -995,8 +990,7 @@ targeted_decisions = {
 		}
 	}
 
-	#Power, rank 1 (Norse only): Go Berserk
-	warrior_lodge_norse_go_berserk = {
+	warrior_lodge_sikh_drugs = {#Take cannabis to become closer to God
 		is_in_society = yes
 		
 		filter = self
@@ -1008,71 +1002,22 @@ targeted_decisions = {
 			has_dlc = "Holy Fury"
 			is_playable = yes
 			is_adult = yes
-			OR = {
-                society_member_of = warrior_lodge_norse
-                society_member_of = warrior_lodge_titan
-            }			
+			society_member_of = warrior_lodge_sikh
 			society_rank = 1
-			NOT = { has_character_flag = going_berserk } #to stop you spamming the button
+			NOT = { has_character_flag = using_cannabis } #to stop you spamming the button
 		}
 		
 		allow = {
 			has_society_currency_minor_trigger = yes
-			has_religion_matching_joined_warrior_lodge_trigger = yes
 			custom_tooltip = {
-				text = not_already_going_berserk_tt
-				NOT = { has_character_flag = going_berserk }
-			}
-			OR = {
-				NOT = { trait = berserker }
-				prisoner = yes
+				text = not_already_using_weed_tt
+				NOT = { has_character_flag = using_cannabis }
 			}
 		}
 		
 		effect = {
-			if = {
-				limit = { NOT = { trait = berserker } }
-				custom_tooltip = {
-					text = gain_berserker_tt #Specifies what the trait gives: must be updated if trait is
-					#tooltip = { add_trait = berserker } #no longer needed
-				}
-			}
-			set_character_flag = special_berserker # Will last for at least 10 years
-			hidden_effect = {
-	    		if = {
-	    			limit = {
-	    				NOT = { trait = wroth }
-	    				NOT = { trait = patient }
-	    			}
-    				add_trait = wroth
-	    		}
-				if = {
-					limit = { trait = patient }
-					remove_trait = patient
-				}
-				if = {
-					limit = { trait = defensive_leader }
-					remove_trait = defensive_leader
-				}
-				if = {
-					limit = {
-						NOT = { leader_traits = 1 }
-						NOT = { trait = aggressive_leader }
-					}
-					add_trait = aggressive_leader
-				}
-			}
-			hidden_effect = {
-				if = {
-					limit = { prisoner = no }
-					character_event = { id = HF.10056 } #Fires event to handle outcome...
-				}
-				else = { #Might break you out of prison or have something bonkers happen...
-					character_event = { id = HF.10070 } #Fires event to handle outcome...
-				}
-			}
-			set_character_flag = going_berserk
-			detract_society_currency_minor_effect = yes
+			set_character_flag = using_cannabis
+			character_event = { id = sikh.4 }
 		}
 		
 		revoke_allowed = { always = no }
@@ -1081,7 +1026,7 @@ targeted_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0.1
-				trait = shy
+				trait = temperate
 			}
 			modifier = {
 				factor = 0.1
@@ -1091,12 +1036,8 @@ targeted_decisions = {
 				factor = 0.1
 				trait = patient
 			}
-			modifier = {
-				factor = 0.1
-				trait = defensive_leader
-			}
 		}
-	}
+	}	
 
 	#Power, rank 4: Call to Glory
 	warrior_lodge_call_to_glory = {
@@ -1176,10 +1117,19 @@ society_decisions = {
 			OR = {
 				society_has_active_progress = no
 				society = {
-					had_flag = {
-		                flag = used_legendary_gathering
-		                years = 100
-		            }
+					OR = {
+						had_flag = {
+							flag = used_legendary_gathering
+							years = 100
+						}
+						AND = {
+							had_flag = {
+								flag = used_legendary_gathering
+								years = 50
+							}
+							ROOT = { trait = emul_gilgamesh }
+						}
+					}
 	            }
 			}
 
@@ -1196,6 +1146,13 @@ society_decisions = {
 		                    flag = used_legendary_gathering
 		                    years = 100
 		                }
+						AND = {
+							had_flag = {
+								flag = used_legendary_gathering
+								years = 50
+							}
+							ROOT = { trait = emul_gilgamesh }
+						}
 					}
 				}
 			}
@@ -1381,6 +1338,7 @@ society_decisions = {
 			}
 			}
 			new_character = {
+				religion = ROOT
 				remove_trait = weak
 				remove_trait = slow
 				remove_trait = imbecile
@@ -1458,11 +1416,7 @@ society_decisions = {
 				}
 				join_prev_warrior_lodge_society_effect = yes
 				hidden_tooltip = {
-					random = { 
-						chance = 50  #Chance of the commander being spawned from another religion.
-						give_this_warrior_lodge_religion_effect = yes 
-						set_character_flag = ai_flag_refuse_conversion	#In which case don't allow liege to immediately demand conversion.
-					}
+					set_character_flag = ai_flag_refuse_conversion	#In which case don't allow liege to immediately demand conversion.
 					add_warrior_lodge_leader_trait_effect = yes
 					if = {
 						limit = {
@@ -1474,9 +1428,33 @@ society_decisions = {
 					if = {
 						limit = {
 							OR = {
+								religion = yazidi
+								religion = yersenism
+								religion = mandaeanism
+								religion = ahlehaqq
+							}
+						}
+						add_trait = shaykh
+					}
+					if = {
+						limit = {
+							OR = {
 								religion = hellenic_pagan
 								religion = hellenic_pagan_reformed
 								has_religion_feature = religion_astrology
+								religion = arcane
+								religion = raelian
+								religion = thelemic_reformed
+								religion = summer_queen
+								religion = thelemic
+								religion = orange_king
+								religion = nousthreskeia_reformed
+								religion = nousthreskeia
+								religion = druze
+								religion = alawite
+								religion = starist_pagan
+								religion = starist_pagan_reformed
+								has_religion_feature = religion_feature_folklorist_2
 							}
 						}
 						hidden_tooltip = { add_western_zodiac_trait_effect = yes }
@@ -1501,36 +1479,6 @@ society_decisions = {
 							}
 						}
 					}
-				}
-				if = {
-					limit = {
-						religion_openly_celtic_or_reformed_trigger = yes
-					}
-					add_trait = celtic_leader
-				}
-				if = {
-					limit = {
-						religion = britannic_pagan
-					}
-					add_trait = britannic_leader
-				}
-				if = {
-					limit = {
-						religion = titan_pagan
-					}
-					add_trait = titan_leader
-				}
-				if = {
-					limit = {
-						religion_openly_in_egyptian_subgroup_trigger = yes
-					}
-					add_trait = egyptian_leader
-				}
-				if = {
-					limit = {
-						religion = taoist
-					}
-					add_trait = taoist_leader
 				}
 				set_character_flag = invited_lodge_soldier
 				set_character_flag = lodge_warrior_original_court_@ROOT
@@ -1629,11 +1577,12 @@ society_decisions = {
 			has_dlc = "Holy Fury"
 			is_playable = yes
 			is_adult = yes
-			society_member_of = warrior_lodge_finnish
+			has_religion_matching_joined_warrior_lodge_trigger = yes
 			society_rank = 3
 			OR = { 
-				religion = finnish_pagan 
-				religion = finnish_pagan_reformed
+				religion_openly_maunaxite_or_reformed_trigger = yes
+				religion_openly_finnish_or_reformed_trigger = yes
+				is_zarist_religion_trigger = yes
 			}
 			OR = {
 				ai = no
@@ -1688,11 +1637,15 @@ society_decisions = {
 			has_dlc = "Holy Fury"
 			is_playable = yes
 			is_adult = yes
-			society_member_of = warrior_lodge_slavic
+			has_religion_matching_joined_warrior_lodge_trigger = yes
 			society_rank = 2
 			OR = { 
-				religion = slavic_pagan 
-				religion = slavic_pagan_reformed
+				religion_openly_celtic_pagan_or_reformed_trigger = yes
+				religion_openly_inuit_pagan_or_reformed_trigger = yes
+				religion_openly_folklorist_or_reformed_trigger = yes
+				religion_openly_novelist_or_reformed_trigger = yes
+				religion_openly_nousthreskeia_or_reformed_trigger = yes
+				religion_openly_starist_pagan_or_reformed_trigger = yes
 			}
 			OR = {
 				ai = no
@@ -1765,11 +1718,13 @@ society_decisions = {
 			has_dlc = "Holy Fury"
 			is_playable = yes
 			is_adult = yes
-			society_member_of = warrior_lodge_tengri
+			has_religion_matching_joined_warrior_lodge_trigger = yes
 			society_rank = 2
-			OR = { 
-				religion = tengri_pagan 
-				religion = tengri_pagan_reformed
+			OR = {
+				is_khanist_religion_trigger = yes
+				religion = akjang
+				is_ironist_religion_trigger = yes
+				is_muwahidunna_religion_trigger = yes
 			}
 		}
 		allow = {
@@ -1816,22 +1771,38 @@ society_decisions = {
 				any_war = {
 					defender = { character = ROOT }
 					attacker = {
-						war_score = -50
+						war_score = 50
 					}
 				}
 			}
-			modifier = { #I am winning the war, no need!
-				factor = 0
+			modifier = { #I am losing the war, help!
+				factor = 2
 				any_war = {
-					defender = { character = ROOT }
+					defender = { war_score = 50 }
 					attacker = {
-						war_score = 50
+						character = ROOT
 					}
 				}
 			}
 			modifier = {
 				factor = 4
 				war = yes
+				any_war = { #has a not wining deffensive war
+					defender = { character = ROOT }
+					attacker = {
+						war_score = -50
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				war = yes
+				any_war = { #has a not wining offensive war
+					defender = { war_score = -50 }
+					attacker = {
+						character = ROOT
+					}
+				}
 			}
 			modifier = {
 				factor = 0 #No need for levy reinforcement for non-nomads when at peace.
@@ -1957,7 +1928,12 @@ society_decisions = {
 				factor = 3
 				OR = {
 					has_religion_feature = religion_haruspicy
-					has_religion_feature = religion_feature_celtic
+					religion = raelian
+					religion = sanamahist
+					religion = kalikula
+					religion = koyapunem
+					has_religion_feature = religion_feature_folklorist_2
+					has_religion_feature = religion_feature_celtic_2
 				}
 			}
 			modifier = {
@@ -1974,16 +1950,16 @@ society_decisions = {
 			is_playable = yes
 			is_adult = yes
 			OR = {
-				society_member_of = warrior_lodge_zun
-				society_member_of = warrior_lodge_ws_mazdan
-				society_member_of = warrior_lodge_ws_eastern
+				society_member_of = warrior_lodge_esoteric
+				society_member_of = warrior_lodge_iranian
 			}
 			society_rank >= 2
 			OR = { 
-				religion = zun_pagan 
-				religion = zun_pagan_reformed
-				religion_group = zoroastrian_group
-				religion_group = indian_group
+				religion_group = zoroastrian_group 
+				religion = thelemic_reformed
+				religion = summer_queen
+				religion = thelemic
+				religion = orange_king
 			}
 		}
 		allow = {
@@ -2059,268 +2035,6 @@ society_decisions = {
 			}
 		}
 	}
-	warrior_lodge_west_african_create_fetish = {
-		is_in_society = yes
-		is_high_prio = yes
-		ai_check_interval = 150 #check only once every 150 months.
-		potential = {
-			has_dlc = "Holy Fury"
-			is_adult = yes
-			society_member_of = warrior_lodge_west_african
-			society_rank = 4
-			OR = { 
-				religion = west_african_pagan 
-				religion = west_african_pagan_reformed
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					is_landed = yes
-				}
-				AND = {
-					ai = yes
-					is_landed = no
-					NOT = {
-   						any_artifact = {
-   							has_artifact_flag = mask 
-   						}
-   					}
-				}
-			}
-		}
-		allow = {
-			trigger_if = {
-				limit = {
-					ai = no
-				}
-				has_society_currency_major_trigger = yes
-			}
-			is_inaccessible_trigger = no
-			NOT = { trait = incapable }
-			custom_tooltip = { 
-				text = tooltip_west_african_create_fetish_cooldown
-				hidden_tooltip = { 
-					NOT = { 
-						has_character_flag = flag_ordered_fetish_creation #Removed upon ending of event chain.
-					} 
-				} 
-			}
-			custom_tooltip = {
-				text = tooltip_has_african_mask_duplicate
-   				OR = {
-   					NOT = {
-   						any_artifact = {
-   							has_artifact_flag = mask 
-   						}
-   					}
-   					NOT = {
-   						any_artifact = {
-   							has_artifact_flag = totem 
-   						}
-   					}
-   				}
-   			}
-		}
-		effect = {
-			if = {
-				limit = {
-					ai = no
-				}
-				detract_society_currency_major_effect = yes
-			}
-			custom_tooltip = { text = tooltip_west_african_create_fetish }
-			if = {
-				limit = {
-					ai = yes
-					is_landed = no
-					NOT = {
-   						any_artifact = {
-   							has_artifact_flag = mask 
-   						}
-   					}
-				}
-				generate_mask_effect = yes
-			}
-			else = {
-				set_character_flag = flag_ordered_fetish_creation
-				hidden_tooltip = {
-					character_event = { id = HF.25040 }
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-				trait = stubborn
-			}
-			modifier = {
-				factor = 5
-				trait = ambitious
-			}
-			modifier = {
-				factor = 5
-				trait = zealous
-			}
-			modifier = {
-				factor = 2
-				war = yes
-			}
-		}
-	}
-	warrior_lodge_britannic_call_hedge_knights = {
-		only_playable = yes
-		is_mercenary = yes
-		ai_check_interval = 20 #check only once every 20 months.
-		is_high_prio = yes
-		potential = {
-			has_dlc = "Holy Fury"
-			is_playable = yes
-			is_adult = yes
-			society_member_of = warrior_lodge_britannic
-			society_rank = 3
-			OR = {
-				ai = no
-				any_war = {
-					OR = {
-						any_defender = {
-							character = ROOT
-							is_primary_war_defender = yes
-						}
-						any_attacker = {
-							character = ROOT
-							is_primary_war_attacker = yes
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			war = yes
-			has_society_currency_medium_trigger = yes
-			is_inaccessible_trigger = no
-			custom_tooltip = { 
-				text = tooltip_has_not_already_called_hedge_knights
-				hidden_tooltip = { NOT = { has_character_modifier = lodge_summon_warriors_cooldown } } 
-			}
-		}
-		effect = {
-			detract_society_currency_medium_effect = yes
-			character_event = { id = britannic.351 }
-			custom_tooltip = { text = tooltip_call_hedge_knights }
-			hidden_tooltip = { 
-				add_character_modifier = { 
-					modifier = lodge_summon_warriors_cooldown 
-					duration = -1 #Removed on_action when player is back at peace.
-					hidden = yes
-				} 
-			}
-		}
-		ai_will_do = {
-			factor = 0 # decisions with the "is_mercenary" will not be calculated from the script
-		}
-	}
-}
-decisions = {
-	# Create Hellenic Warrior Lodge - Dead at start.
-	create_warrior_lodge_hellenic = {
-		only_playable = yes
-		is_high_prio = yes
-		ai_check_interval = 120 #check only once every 120 months.
-		
-		potential = {
-			NOT = {
-				has_global_flag = flag_restored_warrior_lodge_hellenic
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-			has_dlc = "Holy Fury"
-			age = 16
-			NOT = { has_religion_feature = religion_peaceful }
-			OR = { 
-				religion = hellenic_pagan 
-				religion = hellenic_pagan_reformed
-			}
-			NOT = { 
-				warrior_lodge_hellenic = {
-					society_has_members = yes								
-				}
-			}
-		}
-		
-		allow = {
-			is_in_society = no
-			NOT = { trait = incapable }
-			has_education_martial_trigger = yes
-			higher_tier_than = DUKE
-			martial = 15
-			is_inaccessible_trigger = no
-			scaled_wealth = 0.75
-			prestige = 1500
-		}
-		
-		effect = {
-			scaled_wealth = -0.75
-			prestige = -1500
-			custom_tooltip = { text = create_warrior_lodge_hellenic_tooltip }
-			hidden_tooltip = {
-				set_global_flag = flag_restored_warrior_lodge_hellenic 
-				join_society = warrior_lodge_hellenic
-				set_society_grandmaster = yes # Set character as Grand Master
-				add_society_currency_massive_effect = yes
-					spawn_good_commander_effect = yes
-					new_character = { join_society = warrior_lodge_hellenic }
-					spawn_good_commander_effect = yes
-					new_character = { join_society = warrior_lodge_hellenic }
-					spawn_good_commander_effect = yes
-					new_character = { join_society = warrior_lodge_hellenic }
-					spawn_good_commander_effect = yes
-					new_character = { join_society = warrior_lodge_hellenic }
-					spawn_good_commander_effect = yes
-					new_character = { join_society = warrior_lodge_hellenic }
-					spawn_good_commander_effect = yes
-					new_character = { join_society = warrior_lodge_hellenic }
-				any_vassal = {
-					limit = {
-						ai = yes
-						can_join_society = warrior_lodge_hellenic
-					}
-					random = { chance = 75 join_society = warrior_lodge_hellenic }
-				}
-				any_neighbor_independent_ruler = {
-					limit = {
-						ai = yes
-						can_join_society = warrior_lodge_hellenic
-					}
-					random = { chance = 35 join_society = warrior_lodge_hellenic }
-				}
-				any_player = {
-					limit = {
-						OR = {
-							religion = hellenic_pagan_reformed
-							religion = hellenic_pagan
-							culture = roman
-							is_within_diplo_range = ROOT
-						}
-					}
-					narrative_event = { id = HF.25026 }
-				}
-			}
-		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 }
 
 settlement_decisions = {
@@ -2368,21 +2082,41 @@ settlement_decisions = {
 		
 		ai_will_do = {
 			factor = 1
-	        modifier = { #I am losing the war, help!
-				factor = 1.5
+			modifier = { #I am losing the war, help!
+				factor = 10
 				any_war = {
-					defender = { character = FROM }
+					defender = { character = ROOT }
+					attacker = {
+						war_score = 50
+					}
+				}
+			}
+			modifier = { #I am losing the war, help!
+				factor = 2
+				any_war = {
+					defender = { war_score = 50 }
+					attacker = {
+						character = ROOT
+					}
+				}
+			}
+			modifier = {
+				factor = 4
+				war = yes
+				any_war = { #has a not wining deffensive war
+					defender = { character = ROOT }
 					attacker = {
 						war_score = -50
 					}
 				}
 			}
-			modifier = { #I am winning the war, no need!
-				factor = 0
-				any_war = {
-					defender = { character = FROM }
+			modifier = {
+				factor = 2
+				war = yes
+				any_war = { #has a not wining offensive war
+					defender = { war_score = -50 }
 					attacker = {
-						war_score = 50
+						character = ROOT
 					}
 				}
 			}
@@ -2406,7 +2140,7 @@ settlement_decisions = {
 			is_adult = yes
 			higher_tier_than = BARON
 			has_dlc = "Holy Fury"
-			society_member_of = warrior_lodge_baltic
+			has_religion_matching_joined_warrior_lodge_trigger = yes
 			society_rank >= 3
 			OR = { 
 				religion = baltic_pagan 

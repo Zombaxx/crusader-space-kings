@@ -45,6 +45,55 @@ spriteTypes = {
 	}
 	
 	maskedShieldType = {
+		name = "GFX_shield_big_chinese"
+		textureFile1 = "gfx\\interface\\shield_big_overlay_chinese.tga"
+		textureFile2 = "gfx\\interface\\shield_big_mask_chinese.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		clicksound = generic_click_04
+	}
+	maskedShieldType = {
+		name = "GFX_shield_medium_chinese"
+		textureFile1 = "gfx\\interface\\shield_medium_overlay_chinese.tga"
+		textureFile2 = "gfx\\interface\\shield_medium_mask_chinese.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		clicksound = generic_click_04
+	}
+	maskedShieldType = {
+		name = "GFX_shield_medium2_chinese"
+		textureFile1 = "gfx\\interface\\shield_medium2_overlay_chinese.tga"
+		textureFile2 = "gfx\\interface\\shield_medium2_mask_chinese.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		clicksound = generic_click_04
+	}
+	maskedShieldType = {
+		name = "GFX_shield_medium3_chinese"
+		textureFile1 = "gfx\\interface\\shield_medium3_overlay_chinese.tga"
+		textureFile2 = "gfx\\interface\\shield_medium2_mask_chinese.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		clicksound = generic_click_04
+	}
+	maskedShieldType = {
+		name = "GFX_shield_small_chinese"
+		textureFile1 = "gfx\\interface\\shield_small_overlay_chinese.tga"
+		textureFile2 = "gfx\\interface\\shield_small_mask_chinese.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		clicksound = generic_click_04
+	}
+	maskedShieldType = {
+		name = "GFX_shield_unitbanner_chinese"
+		textureFile1 = "gfx\\interface\\shield_unitbanner_overlay_chinese.tga"
+		textureFile2 = "gfx\\interface\\shield_unitbanner_mask_chinese.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		clicksound = generic_click_04
+	}
+	maskedShieldType = {
+		name = "GFX_shield_unitbannersmall_chinese"
+		textureFile1 = "gfx\\interface\\shield_unitbannersmall_overlay_chinese.tga"
+		textureFile2 = "gfx\\interface\\shield_unitbannersmall_mask_chinese.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		clicksound = generic_click_04
+	}
+	maskedShieldType = {
 		name = "GFX_shield_medium"
 		textureFile1 = "gfx\\interface\\shield_medium_overlay.tga"
 		textureFile2 = "gfx\\interface\\shield_medium_mask.tga"
@@ -588,6 +637,177 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	
+	####
+	spriteType = {
+		name = "GFX_charframe_150_makhzen"
+		texturefile = "gfx\\interface\\charframe_150_makhzen.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_makhzen"
+		texturefile = "gfx\\interface\\charframe_100_makhzen.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_makhzen"
+		texturefile = "gfx\\interface\\charframe_75_makhzen.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_makhzen"
+		texturefile = "gfx\\interface\\charframe_50_makhzen.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_makhzen"
+		texturefile = "gfx\\interface\\charframe_34_makhzen.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_icon_makhzen_government"
+		texturefile = "gfx\\interface\\government_icon_makhzen.dds"
+	}
+	### Phonocracy
+	spriteType = {
+		name = "GFX_icon_phonocratic_government"
+		texturefile = "gfx\\interface\\government_icon_phonocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_phonocracy"
+		texturefile = "gfx\\interface\\charframe_150_phonocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_phonocracy"
+		texturefile = "gfx\\interface\\charframe_100_phonocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_phonocracy"
+		texturefile = "gfx\\interface\\charframe_75_phonocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_phonocracy"
+		texturefile = "gfx\\interface\\charframe_50_phonocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_phonocracy"
+		texturefile = "gfx\\interface\\charframe_34_phonocracy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	####
+	spriteType = {
+		name = "GFX_charframe_150_neoziamet"
+		texturefile = "gfx\\interface\\charframe_150_neoziamet.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_neoziamet"
+		texturefile = "gfx\\interface\\charframe_100_neoziamet.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_neoziamet"
+		texturefile = "gfx\\interface\\charframe_75_neoziamet.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_neoziamet"
+		texturefile = "gfx\\interface\\charframe_50_neoziamet.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_neoziamet"
+		texturefile = "gfx\\interface\\charframe_34_neoziamet.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_icon_neoziamet_government"
+		texturefile = "gfx\\interface\\government_icon_neoziamet.dds"
+	}
+	####
+	spriteType = {
+		name = "GFX_charframe_150_ghazwa"
+		texturefile = "gfx\\interface\\charframe_150_ghazwa.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_ghazwa"
+		texturefile = "gfx\\interface\\charframe_100_ghazwa.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_ghazwa"
+		texturefile = "gfx\\interface\\charframe_75_ghazwa.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_ghazwa"
+		texturefile = "gfx\\interface\\charframe_50_ghazwa.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_ghazwa"
+		texturefile = "gfx\\interface\\charframe_34_ghazwa.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_icon_ghazwa_government"
+		texturefile = "gfx\\interface\\government_icon_ghazwa_government.dds"
+	}
+	####
+	spriteType = {
+		name = "GFX_charframe_150_agrarianfeudal"
+		texturefile = "gfx\\interface\\charframe_150_agrarianfeudal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_agrarianfeudal"
+		texturefile = "gfx\\interface\\charframe_100_agrarianfeudal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_agrarianfeudal"
+		texturefile = "gfx\\interface\\charframe_75_agrarianfeudal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_agrarianfeudal"
+		texturefile = "gfx\\interface\\charframe_50_agrarianfeudal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_agrarianfeudal"
+		texturefile = "gfx\\interface\\charframe_34_agrarianfeudal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
 	# FEUDAL THEOCRACY
 	spriteType = {
 		name = "GFX_charframe_150_theocraticfeudal"
@@ -616,6 +836,263 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_charframe_34_theocraticfeudal"
 		texturefile = "gfx\\interface\\charframe_34_theocraticfeudal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	# Calvinist Govt
+	spriteType = {
+		name = "GFX_charframe_150_calvinist"
+		texturefile = "gfx\\interface\\charframe_150_calvinist.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_calvinist"
+		texturefile = "gfx\\interface\\charframe_100_calvinist.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_calvinist"
+		texturefile = "gfx\\interface\\charframe_75_calvinist.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_calvinist"
+		texturefile = "gfx\\interface\\charframe_50_calvinist.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_calvinist"
+		texturefile = "gfx\\interface\\charframe_34_calvinist.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	### government icon
+	spriteType = {
+		name = "GFX_icon_agrarian_feudal_government"
+		texturefile = "gfx\\interface\\government_icon_agrarianfeudal.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_calvinist_government"
+		texturefile = "gfx\\interface\\government_icon_calvinist_theocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_eastern_feudal"
+		texturefile = "gfx\\interface\\government_icon_eastern_feudal.dds"
+	}	
+	### Confederacy
+	spriteType = {
+		name = "GFX_icon_confederation_government"
+		texturefile = "gfx\\interface\\government_icon_confederate.dds"
+	}		
+	spriteType = {
+		name = "GFX_charframe_150_confederacy"
+		texturefile = "gfx\\interface\\charframe_150_confederacy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_confederacy"
+		texturefile = "gfx\\interface\\charframe_100_confederacy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_confederacy"
+		texturefile = "gfx\\interface\\charframe_75_confederacy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_confederacy"
+		texturefile = "gfx\\interface\\charframe_50_confederacy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_confederacy"
+		texturefile = "gfx\\interface\\charframe_34_confederacy.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	### communal
+	spriteType = {
+		name = "GFX_icon_communal_government"
+		texturefile = "gfx\\interface\\government_icon_communal.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_communal"
+		texturefile = "gfx\\interface\\charframe_150_communal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_communal"
+		texturefile = "gfx\\interface\\charframe_100_communal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_communal"
+		texturefile = "gfx\\interface\\charframe_75_communal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_communal"
+		texturefile = "gfx\\interface\\charframe_50_communal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_communal"
+		texturefile = "gfx\\interface\\charframe_34_communal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	### Indian Feudal
+	spriteType = {
+		name = "GFX_icon_indian_feudal"
+		texturefile = "gfx\\interface\\government_icon_indianfeudal.dds"
+	}		
+	spriteType = {
+		name = "GFX_charframe_150_indianfeudal"
+		texturefile = "gfx\\interface\\charframe_150_indianfeudal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_indianfeudal"
+		texturefile = "gfx\\interface\\charframe_100_indianfeudal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_indianfeudal"
+		texturefile = "gfx\\interface\\charframe_75_indianfeudal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_indianfeudal"
+		texturefile = "gfx\\interface\\charframe_50_indianfeudal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_indianfeudal"
+		texturefile = "gfx\\interface\\charframe_34_indianfeudal.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	### Military
+	spriteType = {
+		name = "GFX_icon_military_government"
+		texturefile = "gfx\\interface\\government_icon_military_government.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_military"
+		texturefile = "gfx\\interface\\charframe_150_iqta.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_military"
+		texturefile = "gfx\\interface\\charframe_100_iqta.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_military"
+		texturefile = "gfx\\interface\\charframe_75_iqta.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_military"
+		texturefile = "gfx\\interface\\charframe_50_iqta.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_military"
+		texturefile = "gfx\\interface\\charframe_34_iqta.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	### Hellenic
+	spriteType = {
+		name = "GFX_icon_hellenic_government"
+		texturefile = "gfx\\interface\\government_icon_hellenic_government.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_hellenic"
+		texturefile = "gfx\\interface\\charframe_150_hellenic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_hellenic"
+		texturefile = "gfx\\interface\\charframe_100_hellenic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_hellenic"
+		texturefile = "gfx\\interface\\charframe_75_hellenic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_hellenic"
+		texturefile = "gfx\\interface\\charframe_50_hellenic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_hellenic"
+		texturefile = "gfx\\interface\\charframe_34_hellenic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	### Jacobin
+	spriteType = {
+		name = "GFX_icon_jacobin_republic"
+		texturefile = "gfx\\interface\\government_icon_jacobin_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_jacobin"
+		texturefile = "gfx\\interface\\charframe_150_jacobin.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_jacobin"
+		texturefile = "gfx\\interface\\charframe_100_jacobin.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_jacobin"
+		texturefile = "gfx\\interface\\charframe_75_jacobin.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_jacobin"
+		texturefile = "gfx\\interface\\charframe_50_jacobin.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_jacobin"
+		texturefile = "gfx\\interface\\charframe_34_jacobin.tga"
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
@@ -1005,6 +1482,14 @@ spriteTypes = {
 		name = "GFX_button_goto_diplo"
 		texturefile = "gfx\\interface\\button_goto_diplo.tga"
 	}
+	spriteType = {
+		name = "GFX_begin_baltic_resurgence"
+		texturefile = "gfx\\interface\\decision_icon_pagan_branch.dds"
+	}	
+	spriteType = {
+		name = "GFX_secret_romuva_decision"
+		texturefile = "gfx\\interface\\decision_icon_pagan_branch.dds"
+	}	
 	
 	### icons
 	spriteType = {
@@ -1014,17 +1499,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_religion_icon_strip"
 		texturefile = "gfx\\interface\\religion_icon_strip.tga"
-		noOfFrames = 79
+		noOfFrames = 194
 	}
 	spriteType = {
 		name = "GFX_religion_icon_strip_small"
 		texturefile = "gfx\\interface\\religion_icon_strip_small.tga"
-		noOfFrames = 79
+		noOfFrames = 194
 	}
 	spriteType = {
 		name = "GFX_religion_icon_strip_big"
 		texturefile = "gfx\\interface\\religion_icon_strip_big.tga"
-		noOfFrames = 79
+		noOfFrames = 194
 	}
 	spriteType = {
 		name = "GFX_secret_religion_icon_bg"
@@ -1186,6 +1671,40 @@ spriteTypes = {
 	
 	### government icons
 	spriteType = {
+		name = "GFX_icon_nomadtribal_government"
+		texturefile = "gfx\\interface\\government_icon_nomadictribal.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_nomadictribal"
+		texturefile = "gfx\\interface\\charframe_150_nomadictribal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_nomadictribal"
+		texturefile = "gfx\\interface\\charframe_100_nomadictribal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_nomadictribal"
+		texturefile = "gfx\\interface\\charframe_75_nomadictribal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_nomadictribal"
+		texturefile = "gfx\\interface\\charframe_50_nomadictribal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_nomadictribal"
+		texturefile = "gfx\\interface\\charframe_34_nomadictribal.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_icon_feudal_government"
 		texturefile = "gfx\\interface\\government_icon_feudal.dds"
 	}
@@ -1238,6 +1757,41 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\checkmark.dds"
 	}
 
+	# Viceroy Imperial Government
+	spriteType = {
+		name = "GFX_icon_viceroyal_government"
+		texturefile = "gfx\\interface\\government_icon_viceroy.dds"
+	}
+  	spriteType = {
+		name = "GFX_charframe_34_viceroyalty"
+		texturefile = "gfx\\interface\\charframe_34_viceroyalty.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_viceroyalty"
+		texturefile = "gfx\\interface\\charframe_50_viceroyalty.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_viceroyalty"
+		texturefile = "gfx\\interface\\charframe_75_viceroyalty.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_viceroyalty"
+		texturefile = "gfx\\interface\\charframe_100_viceroyalty.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_150_viceroyalty"
+		texturefile = "gfx\\interface\\charframe_150_viceroyalty.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
 	# Roman Imperial Government
 	spriteType = {
 		name = "GFX_icon_roman_imperial_government"
@@ -1278,5 +1832,83 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\charframe_34_romanimperial.dds"
 		noOfFrames = 6
 		allwaystransparent = yes
+	}
+	#Bhutanese Governments
+	spriteType = {
+		name = "GFX_charframe_150_bhutan"
+		texturefile = "gfx\\interface\\charframe_150_bhutan.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_bhutan"
+		texturefile = "gfx\\interface\\charframe_100_bhutan.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_bhutan"
+		texturefile = "gfx\\interface\\charframe_75_bhutan.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_bhutan"
+		texturefile = "gfx\\interface\\charframe_50_bhutan.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_bhutan"
+		texturefile = "gfx\\interface\\charframe_34_bhutan.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	#Colony Governments
+	spriteType = {
+		name = "GFX_charframe_150_colony"
+		texturefile = "gfx\\interface\\charframe_150_colony.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_colony"
+		texturefile = "gfx\\interface\\charframe_100_colony.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_colony"
+		texturefile = "gfx\\interface\\charframe_75_colony.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_colony"
+		texturefile = "gfx\\interface\\charframe_50_colony.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_colony"
+		texturefile = "gfx\\interface\\charframe_34_colony.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_icon_colonial_government"
+		texturefile = "gfx\\interface\\government_icon_colonial.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_bhutanese_restored_government"
+		texturefile = "gfx\\interface\\government_icon_bhutanese_restored_government.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_bhutanese_decayed_government"
+		texturefile = "gfx\\interface\\government_icon_bhutanese_decayed_government.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_oligarchic_republic"
+		texturefile = "gfx\\interface\\government_icon_oligarchic_republic.dds"
 	}
 }

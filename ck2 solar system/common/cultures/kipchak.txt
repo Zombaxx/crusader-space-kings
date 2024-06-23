@@ -1,0 +1,563 @@
+kipchak = { # Aral Turkic
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
+
+	kazakh = { # West Kazakhstan
+		graphical_cultures = { cumangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.75 0.79 0.25 }
+
+
+		male_names = {
+			Abai_Abay Abilkhan Abzal_Afzal Aday Adil_Adil Adilbek Aibek_Aibek Aleksandr_Alexander Ali_Ali Alikhan Alisher Almaz Amangeldy Amirjan Anuar_Anwar Arman_Arman Askar Aslan_Aslan Asset Assylbek Azat_Azad Ahmat_Ahmad Abulhair Abilghazi Abilmambet
+			Bakhtiyar Bakhyt Baluan Barlykzhan Baurzhan Beibut Bekbol Bekzat Berik Bulat_Bolat Barak_Barak 
+			Danabek Daniyar Dimash Dmitriy_Demetrius Draktsubkye Davud_David
+			Esim
+			Fuat_Fuad
+			Galib_Galib Gani Gennady_Gennadius
+			Igor_Ingvar Islam_Islam
+			Jambyl Jumeken Janibek_Janibek
+			Kairat Kanat Kanysh Kayrat Ken Kimal_Kamal Krymbek Kuanyshbek Kurmangazy Kasym_Qasim  
+			Marat_Murad Merey Mikhail_Michael Mirat_Murad Mirzhan Mukhtar Mukhtarkhan Musabek Mustafa_Mustafa Mirza_Mirza Mukhammed_Muhammad
+			Nadir_Nadir Nikolai_Nicholas Nurzhan
+			Olzhas Ondasyn Oralbeg Orazak Osman_Uthman
+			Quddus_Quddus
+			Rashid_Rashid Rauan Rinat_Renatus Ruslan_Ruslan Ramazan_Ramadan 
+			Sarsen Serik Shafik Shamshi
+			Talgat Torokul Turar Tauke Tahir_Tahir Timur_Timur
+			Umut_Umit
+			Valery_Valerius Vladimir_Vladimir Viktor_Victor
+			Yerdos Yerik Yerkebulan Yerkesh Yermakhan Yevgeny_Eugene
+			Zhanat Zhanibek Zhomart
+		}
+		female_names = {
+			Aiza_Aiza Anastassiya_Anastasia Anna_Anna Arailym Ariadna_Ariadne Aruzhan Ayse_Aisha Aisha_Aisha
+			Dana Daneliya_Danielle Darya_Daria Dinara Dunya
+			Elena Elizabet Elvira
+			Gaziza Gulshara
+			Hayfa_Hayfa
+			Irina_Irene
+			Kadisha Kristina_Christina Kseniya_Xenia
+			Ludmila_Ludmila Luiza_Louise
+			Maira Makpal Manshuk Marina
+			Nadezhda Nataliya_Natalie 
+			Oksana_Xenia Olga_Helga Oxana_Xenia 
+			Snezhana Svetlana
+			Tatyana_Tatiana
+			Veronika_Veronica Viktoriya_Victoria
+			Xeniya_Xenia
+			Yana_Jane Yekaterina_Catherine Yelena_Helen Yelshat Yevgeniya_Eugenia Yuliya_Julia
+			Zhanar Zhannat Zinaida_Zenaida Zuhra
+		}
+		
+		male_patronym = "yev"
+		female_patronym = "yeva"		
+		prefix = no
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	kumyk = {
+		graphical_cultures = { caucasiangfx turkishgfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+		horde = yes
+		unit_graphical_cultures = { cossackgfx turkishgfx easterngfx }
+
+		color = { 0.5 0.6 0.4  }
+		male_names = {
+			Abbas_Abbas Abdula_Abdullah Abdulkhakim_Abdulhakim Abdulkhamid_Abdulhamid Abdulatip_Abdullatif Ahmed_Ahmad Ali_Ali Alibek Alimsultan Anvar_Anwar Arsen_Arsenius Arslanbek Aziz_Aziz 
+			Bakhtiyar_Bakhtiar Bozigit 
+			Djalaleddin Dzhamal_Jamal 
+			Edigu 
+			Fazil_Fadl
+			Gadzhi_Hajj 
+			Haidar_Haidar Hasan_Hasan
+			Ilyas_Elijah Isaak_Isaac Islamnur Ismail_Ishmael Ivan_John
+			Kasim_Qasim
+			Magomed_Muhammad Magomedgasan Magomedshapi Mahammat_Muhammad Mahmud_Mahmud Mansur_Mansur Marat_Murad Marid Medzhid_Majid Musa_Moses Muslim_Muslim
+			Nariman Nasreddin
+			Rashid_Rashid Rustam_Rostam
+			Saypulla Shamil_Shamil
+			Taymaskhan Tymur_Timur Tymerlan_Tamerlane
+			Umar_Umar 
+			Yusup_Joseph
+			Zaur_Zawar
+		}
+		female_names = {
+			Abidat_Abida Adilah_Adila Aleksandra_Alexandra Alia_Aaliyah Aminat_Aminah Anastasia_Anastasia Anna_Anna Anzhela_Angela Asanet_Asenath Aysha_Aisha
+			Darya_Daria
+			Irina_Irene 
+			Halima_Halima
+			Jalila_Jalila Janan 
+			Kseniya_Xenia
+			Layla 
+			Maryam_Mary Muminat_Mumina
+			Natalya_Natalie
+			Patimat_Fatima
+			Roza_Rosa
+			Sakinat_Sakina Sara_Sarah Sharifa_Sharifah Sofya_Sophia Svetlana
+			Tatyana_Tatiana
+			Valeriya_Valeria
+			Yana_Jane Yekaterina_Catherine Yelena_Helen Yevgeniya_Eugenia Yuliya_Julia
+			Zoya_Zoe
+		}
+
+		from_dynasty_prefix = "iz "
+				
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	balkar = {
+		graphical_cultures = { caucasiangfx turkishgfx } #arabicgfx
+		secondary_event_pictures = bedouin_arabic
+		horde = yes
+		unit_graphical_cultures = { cossackgfx turkishgfx easterngfx  }
+
+		color = { 0.5 0.65 0.55  }
+		male_names = {
+			Akhmat_Ahmad Alibek Aliy_Ali Aniuar_Anwar
+			Beslan Bibert_Albert
+			Canibek Casaw Casçiq Çaukas Ceraslan Çermen Cetul Çikku Cohar Colan Çomart Cönger Çotai Cugutur
+			Daut_David 
+			Ebekku Elcaruqa 
+			Hacibiy Hacimuhammat Haciqasim Halin_Halim Hasanbiy Hirha Hiylar Horlam_Victor
+			Kerim_Karim Kertibiy Khadzhimurat Khazhbi Khuseyn_Hussayn Khyzyr_Khidr Kiçibatir Kökköz Küçük
+			Leuan_Leo
+			Magaruf_Maruf Mahsüt_Maqsud Mahti_Mahdi Mamuçar Mamuray Marauçu Mashut_Masud
+			Naniq Noriy_Nur Nürahmat Nürali
+			Ogurbiy Ogurcan Oliy_Wali Oqub_Jacob Orman
+			Qadir_Qadir Qantemir Qarabas Qazaq Qiliç
+			Sabatuq Safarbiy Sagit_Said Sahburan Sahlan Seypul_Saifullah Silpagar_Zulfiqar Soltanmurat Sülemen_Solomon
+			Taubek Taulan Temir_Timur Temirqan Tulpar
+			Ünüs_Jonah
+			Zabit Zakkiy_Zaki 
+		}
+		female_names = {
+			Abiy_Abida Alaköz Alçiu Alimat_Alima Altinay Altinçaç Altinqiz Aminat_Aminah Anayköz Anisat_Anisa Aqbiyçe Aqqiz Ayqiz Aysat_Aisha
+			Balhaniy Baliy Balqiz Baqiyat
+			Canay Cangosa Cansüer Cezsan Cibek Culduz
+			Elsüer Esli
+			Fatimat_Fatima Fazilyat_Fadila
+			Genca Gosa Gülqiz
+			Habiy_Habiba Hafisat_Hafisa Hayirqiz Hura
+			Janay Jandet
+			Kerimat_Karima Kertiqiz Kögala Kögürçün Közbau Külsün
+			Lyalliu
+			Marcan Mariyat_Mary
+			Nafisat_Nafisa Nalmaz Nürlü
+			Qaraqiz Qirgiy
+			Ragiybat
+			Sahidat Sama Samsiyat Serifat_Sharifah Sirma Siyliqiz
+			Tañqiz Tatli Tüyme
+			Uslu Usta
+			Zakhira_Zahira Zumurat
+		}
+
+		from_dynasty_prefix = "iz "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	alagol = { # East Kazakhstan
+		graphical_cultures = { cumangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.89 0.89 0.33 }
+
+		male_names = {
+			Abai_Abay Ablaikhan Abzal_Afzal Aday Adil_Adil Adilbek Aibek_Aibek Aleksandr_Alexander Ali_Ali Alikhan Alisher Almas Amirjan_Amir A'Mo Amozil Am'Ur Anuar_Anwar Arman_Arman Asset Askar Aslan_Aslan Assylbek Avotor Avtokam Avtokuban Avtov'Az Avtozaz Azat_Azad Az'Lk
+			Bakhtiyar Bakhyt Baluan Baurzhan Barlykzhan B'Az Beibut Bekbol Bektas Bel'Az Berik Bulat_Bolat 
+			Danabek Daniyar Dimash Draktsubkye Dud Dzhambulat
+			Er'Az
+			Fuat_Fuad
+			Galib Gani G'Az Gol'Az
+			Igor_Ingvar Ivan_John Izhavto
+			Jambyl Jumeken
+			K'Ag Kairat Kamaz Kamshybek Kanat Kanysh K'Avz Kayrat K'Az Khamadeb Khetz Kimal_Kamal Kraz Kurmangazy
+			L'Az Li'Az Lu'Az
+			Marat_Murad M'Az M'Az'Kt Memz Merey Mikhail_Michael Minavtoprom Mirat_Murad Mirzhan Mo'Az Moskvitch Mukhtar Musabek
+			Nadir_Nadir Nati Nef'Az Neman Nurzhan Nygmet_Nimat
+			O'ao Olzhas Oralbeg Orazak
+			P'Az
+			Quddus_Quddus
+			R'Af Rashid_Rashid Rauan Rinat_Renatus Ruslan_Ruslan Russobalt
+			Sarsen Serik Shafik Shamshi
+			Talgat Torokul Turar
+			U'Az Umut_Umit Uralaz
+			Valery_Valerius Vassiliy_Basil Viktor_Victor Volat
+			Yerdos Yerik Yerkebulan Yerkesh Yermakhan Yevgeny_Eugene
+			Zhanat Zhanibek Zhomart Zil Zis Z'Ma
+		}
+		female_names = {
+			Aiza_Aiza Anastassiya_Anastasia Antonida_Antonia Apel'sin Arailym Ariadna_Ariadne Aruzhan Astrologa Ayse_Aisha
+			Bukhanka
+			Dakara Dana Daneliya_Danielle Darya_Daria Debyut Dilnaz Dunya
+			Elena_Helen Elizaveta_Elizabeth Elvira Emka
+			Faetona
+			Gaziza Golovstika Gulzira
+			Il'Ya Irina_Irene
+			Kadisha Kentavr Kristina_Christina Kseniya_Xenia Kubana
+			Latvija Luiza_Louise Lyubov
+			Maira Makpal Manshuk Marina
+			Nadezhda Nataliya_Natalie Niva
+			Oka Oksana_Xenia Olga_Helga Osa Oxana_Xenia
+			Parma
+			Riva_Rebecca
+			Sadko Samara Shishiga Sikorskiya Snezhana Sobol Svetlana
+			Tabletka Tatyana_Tatiana Tayfun
+			Umka Urgana
+			Veronika_Veronica Viktoriya_Victoria Vityaza
+			Xeniya_Xenia
+			Yana_Jane Yelena_Helen Yuliya_Julia
+			Zhanar Zinaida 
+		}
+		
+		
+		male_patronym = "yev"
+		female_patronym = "yeva"		
+		prefix = no
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	kirghiz = { # Kirghiz
+		graphical_cultures = { cumangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 190 160 80 }
+
+		male_names = {
+			Abdylas Aday Adigh Adigh Aghuliq Agut Ahmet_Ahmad Aka Alas Alcibay Ali_Ali Alip Alipshalçi Alipshul Almanbet Amangeldy Amas Anar Andrey_Andrew Anis Apas Apit Aqunçi Arslan_Aslan Aruk Aruq Askar Astaançi Astam Asuq Aya Ayaltin Ayan Ayas Aydaq Aydas Ayçur Azat_Azad 
+            Bagha Baghir Barsbeg Barçuq Barisbek Bayça Bayirqu Bilge Bilgä Boris_Boris Boyla Bughra Bumin Bumin Buqa Buqaçuq Buquq Buyruq Bögü Bökiye Böri Börtil Bülin Bülün Büri 
+            Chingiz
+            Ebiztir Elig Eltugun Elçi Eneligçur Enoz Erdem Eregje Erin Erkin Esdem Eshime Eshinke Etmish Eçshün 
+            Felix_Felix
+			Hozan 
+            Igor_Ingvar Iletmish Ilterish Iltughun Ilçur Inançu Inek Isbar Ismail_Ishmael Istämi 
+            Jaglaqar Jegen Jegin Jelme Jükün Jüküntirig Jumabek Jürküñ Jürüküm Jüz Jüzyapiq Jüçi Jämi 
+            Kasym_Qasim Kubanychbek Kurmanbek Kurmanjan
+            Kanza Kara Karol Ketim Keçig Kokan Kokotoy Kökmish Köpek Körtile Kügir Kül Kültegin Kültudun Külçur Külüg Küni Kürebir Kürtel Küske Küçlüg Küçuri 
+            Maksim_Maximus Manas Maqaraç Marat_Murad Mukan Mukka Mustakkay Mäñlik Muhammet_Muhammad
+            Nasirdin Nikolai_Nicholas 
+            Oghlan Oghul Oghulbaris Ontutuq Orzubek Oudun Ozmush Oçan 
+            Parush Pülüñ 
+            Qapaghan Qarabaris Qazghaq Qumash Quni Qutlugh 
+            Rashid_Rashid Rostam_Rostam
+			Saghunaq Saghçiq Sanaan Sappash Seitek Semetei Señram Shadrash Shalçi Shapkay Sheltrek Shughur Shöñüz Shümül Sodan Sopubek Süçüg 
+            Tadqish Tadqishçor Talay Tamghan Tamghançur Tapa Tardu Tardush Tarqan Tatpar Tegin Tekesh Tersin Teñirikän Timofey_Timothy Tinsi Tirig Toghan Toghril Togluq Tojgan Tolday Torday Tottolush Toñra Toñrategin Toñuz Tugan Tugun Tunyuquq Tursunbek Tutuq Töles Tömür_Timur Tülgü Tüzmish 
+            Udun Udur Ulan Ulug Ulugbash Umaç Uqugh Uruñ 
+            Yaghizçor Yaghiçi Yamtar Yapiq Yaraq Yaruq Yaruqtegin Yarish Yigençur Yola Yollughtegin Yolluq Yorçin Yilqi 
+            Çabas Çalbah Çama Çarkop Çayah Çaça Çañ Çeküñ Çeçem Çigshi Çigsü Çiis Çola Çolbanah Çor Çortah Çudan Çuhul Çuçi Çuçibüri Çinma
+            Öge Ögüne Örge Özmish Öztoghdi Özyegen Özüge Özünçü Öçen 
+            Üge Ülüg Üçsi
+		}
+		female_names = {
+			Aida Aigul Ancak Artuç Asylgul Atlas Aynuru Azgan 
+			Baken Begayim Begimay Bermet Beslik Bübüsara Bulit Burtam 
+			Cholpon
+			Dinara
+			Elbeslik Elnura Erkingul Ershen 
+			Fatima_Fatima
+			Gulbara
+			Ilbeslik Ilbilgä Izigas Izirga Izirgacah
+			Jibek Jyldyz
+			Kadiñ Kalima Karligash Katun Kuluypa Kurmanjan
+			Manu Mayram_Mary
+			Natalya_Natalie
+			Otqan 
+			Pekash 
+			Qaraqaz 
+			Raisa Roza_Rosa
+			Sabira Salamat Samara Sarigha 
+			Tattybübü Teken Terek Teçush Teñriken Tograk Tolekan Toktayum Toktayym
+			Umay 
+			Yiltis Yigash Yilgun Yilqi 
+			Zamira Zere Zhibek Zuurakan
+			Çeçek Çibäk Çoonhis Çüstük Çabalka Çacah Çahayah Çohiray 
+			Örüñ Ötüken Ükükün
+		}
+		
+		from_dynasty_prefix = "iz "
+				
+		male_patronym = "oviç"
+		female_patronym = "ovna"
+		prefix = no # The patronym is added as a suffix
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	altai = { # Kirghiz
+		graphical_cultures = { cumangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 195 180 80 }
+
+		male_names = {
+			Abdylas Aday Adigh Adigh Aghuliq Agut Ahmet_Ahmad Aka Alas Alcibay Ali_Ali Alip Alipshalçi Alipshul Almanbet Amangeldy Amas Anar Andrey_Andrew Anis Apas Apit Aqunçi Arslan_Aslan Aruk Aruq Askar Astaançi Astam Asuq Aya Ayaltin Ayan Ayas Aydaq Aydas Ayçur Azat_Azad 
+            Bagha Baghir Barsbeg Barçuq Barisbek Bayça Bayirqu Bilge Bilgä Boris_Boris Boyla Bughra Bumin Bumin Buqa Buqaçuq Buquq Buyruq Bögü Bökiye Böri Börtil Bülin Bülün Büri 
+            Chingiz
+            Ebiztir Elig Eltugun Elçi Eneligçur Enoz Erdem Eregje Erin Erkin Esdem Eshime Eshinke Etmish Eçshün 
+            Felix_Felix
+			Hozan 
+            Igor_Ingvar Iletmish Ilterish Iltughun Ilçur Inançu Inek Isbar Ismail_Ishmael Istämi 
+            Jaglaqar Jegen Jegin Jelme Jükün Jüküntirig Jumabek Jürküñ Jürüküm Jüz Jüzyapiq Jüçi Jämi 
+            Kasym_Qasim Kubanychbek Kurmanbek Kurmanjan
+            Kanza Kara Karol Ketim Keçig Kokan Kokotoy Kökmish Köpek Körtile Kügir Kül Kültegin Kültudun Külçur Külüg Küni Kürebir Kürtel Küske Küçlüg Küçuri 
+            Maksim_Maximus Manas Maqaraç Marat_Murad Mukan Mukka Mustakkay Mäñlik Muhammet_Muhammad
+            Nasirdin Nikolai_Nicholas 
+            Oghlan Oghul Oghulbaris Ontutuq Orzubek Oudun Ozmush Oçan 
+            Parush Pülüñ 
+            Qapaghan Qarabaris Qazghaq Qumash Quni Qutlugh 
+            Rashid_Rashid Rostam_Rostam
+			Saghunaq Saghçiq Sanaan Sappash Seitek Semetei Señram Shadrash Shalçi Shapkay Sheltrek Shughur Shöñüz Shümül Sodan Sopubek Süçüg 
+            Tadqish Tadqishçor Talay Tamghan Tamghançur Tapa Tardu Tardush Tarqan Tatpar Tegin Tekesh Tersin Teñirikän Timofey_Timothy Tinsi Tirig Toghan Toghril Togluq Tojgan Tolday Torday Tottolush Toñra Toñrategin Toñuz Tugan Tugun Tunyuquq Tursunbek Tutuq Töles Tömür_Timur Tülgü Tüzmish 
+            Udun Udur Ulan Ulug Ulugbash Umaç Uqugh Uruñ 
+            Yaghizçor Yaghiçi Yamtar Yapiq Yaraq Yaruq Yaruqtegin Yarish Yigençur Yola Yollughtegin Yolluq Yorçin Yilqi 
+            Çabas Çalbah Çama Çarkop Çayah Çaça Çañ Çeküñ Çeçem Çigshi Çigsü Çiis Çola Çolbanah Çor Çortah Çudan Çuhul Çuçi Çuçibüri Çinma
+            Öge Ögüne Örge Özmish Öztoghdi Özyegen Özüge Özünçü Öçen 
+            Üge Ülüg Üçsi
+		}
+		female_names = {
+			Aida Aigul Ancak Artuç Asylgul Atlas Aynuru Azgan 
+			Baken Begayim Begimay Bermet Beslik Bübüsara Bulit Burtam 
+			Cholpon
+			Dinara
+			Elbeslik Elnura Erkingul Ershen 
+			Fatima_Fatima
+			Gulbara
+			Ilbeslik Ilbilgä Izigas Izirga Izirgacah
+			Jibek Jyldyz
+			Kadiñ Kalima Karligash Katun Kuluypa Kurmanjan
+			Manu Mayram_Mary
+			Natalya_Natalie
+			Otqan 
+			Pekash 
+			Qaraqaz 
+			Raisa Roza_Rosa
+			Sabira Salamat Samara Sarigha 
+			Tattybübü Teken Terek Teçush Teñriken Tograk Tolekan Toktayum Toktayym
+			Umay 
+			Yiltis Yigash Yilgun Yilqi 
+			Zamira Zere Zhibek Zuurakan
+			Çeçek Çibäk Çoonhis Çüstük Çabalka Çacah Çahayah Çohiray 
+			Örüñ Ötüken Ükükün
+		}
+		
+		from_dynasty_prefix = "iz "
+				
+		male_patronym = "oviç"
+		female_patronym = "ovna"
+		prefix = no # The patronym is added as a suffix
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	tatarian = { # Tatars
+		graphical_cultures = { caucasiangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { cossackgfx caucasiangfx turkishgfx easterngfx }
+		
+		color = { 0.72 0.6 0.10 }
+
+		male_names = {
+		    Abuzar Akhmet_Ahmad Aleksandr_Alexander Amazat Amerhan Amir_Amir Amirkhan Anvar_Anwar Aydar Ayrat Azat_Azad 
+			Bashar_Bashar Baytimer 
+			Damir Diyar
+			Emil_Emil
+			Farhad_Farhad Farid_Farid Fayzulla_Faizullah Firdaves_Firdaus
+			Gabdulla_Abdullah Gadel_Adil Gali_Ali Galim_Alim Gaziz_Aziz Gilmetdin
+			Hazim_Hazim Hubaydulla_Ubaydullah Husam_Husam
+			Ibrahim_Abraham Ildar_Eldar Ildus Ilfar Ilgam_Ilham Ilgiz Ilnur Ilsat Irek Iskandar_Alexander Iskhak_Isaac Islametdin 
+			Kamil_Kamil Karim_Karim Khabibulla_Habibullah Khamza_Hamza Khasan_Hasan Khaydar_Haidar
+			Latif
+			Maksim_Maximus Malik_Malik Marat_Murad Marsel_Marcellus Mazhit_Majid Midhat Mikhail_Michael Mirzaj_Mirza Mokhammad_Muhammad Moxammat_Muhammad Mukhtar_Mukhtar Murat_Murad Muslim_Muslim
+			Nacip_Najib Nadir_Nadir Nail Narat Nariman Nazar_Nazarius Nikolay_Nicholas 
+			Radik Rafaal_Raphael Ramazan_Ramadan Rasim_Rasim Rashid_Rashid Ramil Ravil Rinat_Renatus Rostam_Rostam Rudolf_Rudolf Ruslan_Ruslan
+			Sabir Sagit_Said Salikh_Salih Sayet_Sayyid Sergey_Sergius Shamil_Shamil Solayman_Solomon 
+			Tagir_Tahir Timur_Timur Toktamish 
+			Uzbek
+			Vadim_Vadim Vakhit_Wahid Vasily_Basil Vladimir_Vladimir
+			Zahit_Zahid	Zakir_Zakir		
+		}
+		female_names = {
+			Aiza_Aiza Albina_Albina Aleksandra_Alexandra Alfia Amina_Amina Anastasiya_Anastasia Anna_Anna Antonida_Antonia Ariadna_Ariadne Aysylu
+			Baghazat Bagida
+			Chachak Chayana Chulpan
+			Damira Darya_Daria Dilbar
+			Elizaveta_Elizabeth Elmira Ence
+			Firaya Flyura_Flora
+			Galiya_Aliyah Gawhar Golnara Golzada Guzal
+			Ildusa Ilsia Ilsura Irina_Irene
+			Kailya Khadicha_Khadija Kristina_Christina Kseniya_Xenia
+			Landysh Laysan Luiza_Louise
+			Madina_Medina Malika_Malika Marina_Marina Maryam_Mary Milausha
+			Naciba_Najiba Nataliya_Natalie Nurdzhamal
+			Oksana_Xenia Olga_Helga
+			Ramziya Rezeda
+			Salavat Saniya Sayfiya Sibay Sobol Susana_Susan Svetlana_Svetlana
+			Taliga Talkha Tansilu Tansylu Tanzila Tatyana_Tatiana
+			Urazbike
+			Veronika_Veronica Viktoriya_Victoria
+			Yana_Jane Yansylu Yuldus Yelena_Helen Yulia_Julia
+			Zakhira Zemfira Zifa Zohra  			
+		}
+		from_dynasty_prefix = "iz "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"	
+		prefix = no
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = no
+	}
+	crimean_tatar = { # Tatars
+		graphical_cultures = { caucasiangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		unit_graphical_cultures = { cossackgfx caucasiangfx turkishgfx easterngfx }
+		
+		color = { 0.75 0.62 0.05 }
+
+		male_names = {
+		    Abuzar Akhmet_Ahmad Aleksandr_Alexander Amazat Amerhan Amir_Amir Amirkhan Anvar_Anwar Aydar Ayrat Azat_Azad 
+			Bashar_Bashar Baytimer 
+			Damir Diyar
+			Emil_Emil
+			Farhad_Farhad Farid_Farid Fayzulla_Faizullah Firdaves_Firdaus
+			Gabdulla_Abdullah Gadel_Adil Gali_Ali Galim_Alim Gaziz_Aziz Gilmetdin
+			Hazim_Hazim Hubaydulla_Ubaydullah Husam_Husam
+			Ibrahim_Abraham Ildar_Eldar Ildus Ilfar Ilgam_Ilham Ilgiz Ilnur Ilsat Irek Iskandar_Alexander Iskhak_Isaac Islametdin 
+			Kamil_Kamil Karim_Karim Khabibulla_Habibullah Khamza_Hamza Khasan_Hasan Khaydar_Haidar
+			Latif
+			Maksim_Maximus Malik_Malik Marat_Murad Marsel_Marcellus Mazhit_Majid Midhat Mikhail_Michael Mirzaj_Mirza Mokhammad_Muhammad Moxammat_Muhammad Mukhtar_Mukhtar Murat_Murad Muslim_Muslim
+			Nacip_Najib Nadir_Nadir Nail Narat Nariman Nazar_Nazarius Nikolay_Nicholas 
+			Radik Rafaal_Raphael Ramazan_Ramadan Rasim_Rasim Rashid_Rashid Ramil Ravil Rinat_Renatus Rostam_Rostam Rudolf_Rudolf Ruslan_Ruslan
+			Sabir Sagit_Said Salikh_Salih Sayet_Sayyid Sergey_Sergius Shamil_Shamil Solayman_Solomon 
+			Tagir_Tahir Timur_Timur Toktamish 
+			Uzbek
+			Vadim_Vadim Vakhit_Wahid Vasily_Basil Vladimir_Vladimir
+			Zahit_Zahid	Zakir_Zakir		
+		}
+		female_names = {
+			Aiza_Aiza Albina_Albina Aleksandra_Alexandra Alfia Amina_Amina Anastasiya_Anastasia Anna_Anna Antonida_Antonia Ariadna_Ariadne Aysylu
+			Baghazat Bagida
+			Chachak Chayana Chulpan
+			Damira Darya_Daria Dilbar
+			Elizaveta_Elizabeth Elmira Ence
+			Firaya Flyura_Flora
+			Galiya_Aliyah Gawhar Golnara Golzada Guzal
+			Ildusa Ilsia Ilsura Irina_Irene
+			Kailya Khadicha_Khadija Kristina_Christina Kseniya_Xenia
+			Landysh Laysan Luiza_Louise
+			Madina_Medina Malika_Malika Marina_Marina Maryam_Mary Milausha
+			Naciba_Najiba Nataliya_Natalie Nurdzhamal
+			Oksana_Xenia Olga_Helga
+			Ramziya Rezeda
+			Salavat Saniya Sayfiya Sibay Sobol Susana_Susan Svetlana_Svetlana
+			Taliga Talkha Tansilu Tansylu Tanzila Tatyana_Tatiana
+			Urazbike
+			Veronika_Veronica Viktoriya_Victoria
+			Yana_Jane Yansylu Yuldus Yelena_Helen Yulia_Julia
+			Zakhira Zemfira Zifa Zohra  			
+		}
+		from_dynasty_prefix = "iz "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"	
+		prefix = no
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = no
+	}
+	bashkir = { # baskirtostani
+		graphical_cultures = { caucasiangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.79 0.96 0.16 }
+
+		male_names = {
+		    Afzaletdin Akhat Akhmat_Ahmad Amir_Amir Amirkhan Anwar_Anwar Aryslan_Aslan Ashraf_Ashraf Axkam Aybulat Aydar Aygiz Ayrat 
+			Bariy Bayras Bikbulat Borxan
+			Dayan Dinislam
+			Fannur Farit_Farid Fayzulla_Faizullah
+			Gabdulla_Abdullah Gali_Ali Galim_Alim Gaziz_Aziz Gilmetdin Gotbetdin Gumar_Umar
+			Haziy_Hadi
+			Ibrahim_Abraham Ildar_Eldar Ildus Ilfat Ilgiz Ilnur Ilyas_Elijah Irandek Irek Iskandar_Alexander Islametdin Islamgali Izel
+			Kamaletdin Khabibulla_Habibullah Khakim_Hakim Khamza_Hamza Khaydar_Haidar Khosayen_Hussayn
+			Makhmut_Mahmud Maksim_Maximus Malik_Malik Marvan_Marwan Mazhit_Majid Minhazetdin Mirgayaz Mikhail_Michael Mirzaj_Mirza Moxammat_Muhammad Mullayan Musarif
+			Nagim Nazhip_Najib Nigmatulla Nikolay_Nicholas Nil Nogos 
+			Radik Ramadhan_Ramadan Ramil Rasul_Rasul Rawef_Rauf Rif_Arif Rinat_Renatus Rishat_Rashad Rustem_Rostam Ruslan_Ruslan
+			Sabir Sagit_Said Sahit_Shahid Salikh_Salih Salim_Salim Samat_Samad Sarif_Sharif Sayet_Sayyid Sergey_Sergius Shaikhzada Solayman_Solomon 
+			Tagir_Tahir Tayfur Timer_Timur Timerkhan 
+			Uyildan Ural
+			Vadim_Vadim Vakhit_Wahid Vladimir_Vladimir
+			Xozaybirgan
+			Yakhya_John Yamil_Jamil Yaqup_Jacob Yawdat_Jawdat Yomabay Yulay
+			Zakir_Zakir Zaynulla Zofar_Zafar		
+		}
+		female_names = {
+			Abyzbika Adila_Adila Agziba Albina_Albina Aleksandra_Alexandra Alfia Almabika Almaseya Amina_Amina Anastasiya_Anastasia Anna_Anna Antonida_Antonia Aqbika Aqsarlaq Aynaza Aysa_Aisha Aysulpan
+			Bakira Balqiya Banat Baniw Barsin Bayangol Bayrambika Balaknur
+			Daulatbika
+			Ebak Emes Eyanbika
+			Farixa_Fariha Fariza_Farida Fauzia_Fawziyya Flyura_Flora
+			Galsar Gawhar Golsibar Golsira Guzal
+			Haua_Eve
+			Ilfiza Ilgol Ilguzal Iluza Inyigol Irka
+			Karima_Karima Kinyabaniw Komos
+			Laysan Luzia_Lucia
+			Madina_Medina Mahibanat Mahigol Mahikamal Mahiya Maryam_Mary Milausha_Violet Minnur
+			Nadira_Nadira Nafisa_Nafisa Nahar Nasima Nurbulak Nuriya
+			Olga_Helga
+			Qolbanat
+			Ramila Rasida_Rashida Rezeda
+			Saliba Safanur Sakina_Sakina Salima Samsia Saska_Flora Sawra Sibar Sulpan_Venus
+			Tanbika Tanzifa Timerbika
+			Uralia Urazgol
+			Xabiba_Habiba
+			Yana_Jane Yalanbika Yamila_Jamila
+			Zaytuna Zilya Zohra Zolkhiza		
+		}
+		from_dynasty_prefix = "iz "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"		
+		prefix = no
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+}

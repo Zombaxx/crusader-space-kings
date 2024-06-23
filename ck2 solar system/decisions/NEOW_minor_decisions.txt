@@ -1,0 +1,2770 @@
+decisions = {
+	take_bhutanese_exam = {
+		ai_check_interval = 6
+		potential = {
+			top_liege = {
+				primary_title = { 
+					title = e_bhutan
+				}
+			}
+			NOR = {
+				trait = bhutanese_beuracrat
+				trait = drukian
+			}
+			NOT = {
+				primary_title = { 
+					title = e_bhutan
+				}
+			}
+		}
+		
+		allow = {
+			is_inaccessible_trigger = no
+			wealth = 25
+			OR = {
+				learning = 11
+				stewardship = 11
+				intrigue = 11
+			}
+		}
+		
+		effect = {
+			add_trait = bhutanese_beuracrat
+			wealth = -25
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	adopt_mountain_terrain_leader = {
+		ai_check_interval = 36
+		potential = {
+			OR = {
+				trait = misguided_warrior
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+			NOT = {
+				trait = mountain_terrain_leader
+			}
+			OR = {
+				culture_group = tibetan_group
+				culture_group = tanic
+				culture_group = digaric
+				culture_group = armenian_group
+				culture_group = caucasian
+				culture_group = iranian
+				culture_group = alpinian
+				culture = austrian
+				culture_group = dardic
+				culture = nepali
+				culture = sinoshan
+				culture = andorran
+				culture_group = east_african
+			}
+			can_have_more_leadership_traits = yes
+			age = 25
+			war = no
+			in_command = no
+			prisoner = no
+			is_incapable = no
+		}
+		
+		allow = {
+			is_inaccessible_trigger = no
+			wealth = 25
+			prestige = 500
+			martial = 13
+			NOR = {
+				trait = desert_terrain_leader
+				trait = flat_terrain_leader
+				trait = jungle_terrain_leader
+				trait = mountain_terrain_leader
+				trait = rough_terrain_leader
+			}
+			OR = {
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+		}
+		
+		effect = {
+			add_trait = mountain_terrain_leader
+			wealth = -25
+			prestige = -500
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	adopt_desert_terrain_leader = {
+		ai_check_interval = 36
+		potential = {
+			OR = {
+				trait = misguided_warrior
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+			NOT = {
+				trait = desert_terrain_leader
+			}
+			OR = {
+				culture_group = arabic
+				culture_group = dhofaric
+				culture_group = cushitic
+				culture_group = saharan
+				culture_group = egyptian
+				culture_group = maghreb_arabic
+				culture_group = berber
+				culture_group = near_eastern
+				culture_group = hebrewic
+				culture = uyghur
+				culture = turkmen
+				culture = uzbek
+				culture = karakalpak
+			}
+			can_have_more_leadership_traits = yes
+			age = 25
+			war = no
+			in_command = no
+			prisoner = no
+			is_incapable = no
+		}
+		
+		allow = {
+			is_inaccessible_trigger = no
+			wealth = 25
+			prestige = 500
+			martial = 13
+			NOR = {
+				trait = desert_terrain_leader
+				trait = flat_terrain_leader
+				trait = jungle_terrain_leader
+				trait = mountain_terrain_leader
+				trait = rough_terrain_leader
+			}
+			OR = {
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+		}
+		
+		effect = {
+			add_trait = desert_terrain_leader
+			wealth = -25
+			prestige = -500
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	adopt_jungle_terrain_leader = {
+		ai_check_interval = 36
+		potential = {
+			OR = {
+				trait = misguided_warrior
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+			NOT = {
+				trait = jungle_terrain_leader
+			}
+			OR = {
+				culture_group = northern_dravidian_group
+				culture_group = eastern_dravidian_group
+				culture_group = eastern_indo_aryan_group
+				culture_group = manipuric
+				culture_group = east_asian_group
+			}
+			can_have_more_leadership_traits = yes
+			age = 25
+			war = no
+			in_command = no
+			prisoner = no
+			is_incapable = no
+		}
+		
+		allow = {
+			is_inaccessible_trigger = no
+			wealth = 25
+			prestige = 500
+			martial = 13
+			NOR = {
+				trait = desert_terrain_leader
+				trait = flat_terrain_leader
+				trait = jungle_terrain_leader
+				trait = mountain_terrain_leader
+				trait = rough_terrain_leader
+			}
+			OR = {
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+		}
+		
+		effect = {
+			add_trait = jungle_terrain_leader
+			wealth = -25
+			prestige = -500
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	claim_dragon_throne = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 3
+		potential = {
+			any_owned_bloodline = {
+				OR = {
+					has_bloodline_flag = wangchuck_scion
+					has_bloodline_flag = wangchuk_true
+				}
+			}
+			NOT = {
+				primary_title = { 
+					title = e_bhutan
+				}
+			}
+		}
+		
+		allow = {
+			tier = KING
+			trait = ambitious
+			is_inaccessible_trigger = no
+			prestige = 1500
+			wealth = 50
+		}
+		
+		effect = {
+			add_claim = e_bhutan
+			wealth = -50
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	claim_israeli_throne = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 3
+		potential = {
+			OR = {
+				trait = israeli_messiah
+				trait = mikraist_messiah
+			}
+			NOT = { 
+				has_character_flag = claimed_israel
+			}
+			NOR = {
+				has_landed_title = k_israel
+				any_liege = {
+					has_landed_title = k_israel
+				}
+			}
+		}
+		
+		allow = {
+			OR = {
+				tier = DUKE
+				tier = KING
+				tier = EMPEROR
+			}
+			trait = ambitious
+			is_inaccessible_trigger = no
+			prestige = 3000
+			wealth = 50
+		}
+		
+		effect = {
+			set_character_flag = claimed_israel
+			add_claim = k_israel
+			wealth = -50
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	perform_penitence = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 24
+		potential = {
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no
+			age = 22
+			NOT = {
+				piety = 1500
+			}
+			OR = {
+				religion = penitente
+				religion = apostolic
+			}
+			NOR = {
+				trait = infection
+				trait = scarred_high
+			}
+			NOT = {
+				has_character_modifier = ai_objective_timer
+			}
+		}
+		allow = {
+			wealth = 50
+			NOR = {
+				AND = {
+					trait = humble
+					trait = patient
+				}
+				AND = {
+					trait = humble
+					trait = kind
+				}
+				AND = {
+					trait = humble
+					trait = diligent
+				}
+				AND = {
+					trait = humble
+					trait = charitable
+				}
+				AND = {
+					trait = humble
+					trait = temperate
+				}
+				AND = {
+					trait = humble
+					trait = chaste
+				}
+				AND = {
+					trait = kind
+					trait = diligent
+				}
+				AND = {
+					trait = kind
+					trait = patient
+				}
+				AND = {
+					trait = kind
+					trait = charitable
+				}
+				AND = {
+					trait = kind
+					trait = temperate
+				}
+				AND = {
+					trait = kind
+					trait = chaste
+				}
+				AND = {
+					trait = charitable
+					trait = temperate
+				}
+				AND = {
+					trait = charitable
+					trait = chaste
+				}
+				AND = {
+					trait = charitable
+					trait = patient
+				}
+				AND = {
+					trait = charitable
+					trait = diligent
+				}
+				AND = {
+					trait = chaste
+					trait = diligent
+				}
+				AND = {
+					trait = chaste
+					trait = patient
+				}
+				AND = {
+					trait = chaste
+					trait = temperate
+				}
+				AND = {
+					trait = diligent
+					trait = patient
+				}
+				AND = {
+					trait = diligent
+					trait = temperate
+				}
+			}
+		}
+		effect = {
+			character_event = { id = IE.2 }
+			wealth = -50
+			add_character_modifier = { 
+				modifier = ai_objective_timer 
+				months = 24 
+				hidden = yes
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.9
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = cynical
+			}
+		}
+	}
+	
+	claim_polish_throne = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 3
+		potential = {
+			any_owned_bloodline = {
+				has_bloodline_flag = claim_to_poland_bloodline
+			}
+			NOT = {
+				has_landed_title = k_poland 
+			}
+		}
+		
+		allow = {
+			tier = DUKE
+			trait = ambitious
+			is_inaccessible_trigger = no
+			prestige = 1000
+			wealth = 50
+		}
+		
+		effect = {
+			add_claim = k_poland
+			wealth = -50
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	catholic_requests_defender = {
+        is_high_prio = yes
+		ai_check_interval = 12
+        potential = {
+            is_alternate_start = no #immersion-breaking
+            religion = catholic
+			NOT = { trait = defender_faith }
+			defender_faith = {
+				limit = {
+					is_alive = yes
+				}
+				count = 1
+			}
+        }
+        allow = {
+            is_primary_war_defender = yes
+            piety = 350
+			prestige = -200
+            NOT = { has_character_modifier = requested_military_aid }
+        }
+        effect = {
+            piety = -350
+			prestige = -200
+            add_character_modifier = { name = requested_military_aid duration = 365 }
+            any_independent_ruler = {
+                limit = {
+                    trait = defender_faith
+                }
+                letter_event = { id = ATV.60 days = 5 random = 5 }
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	borrow_money_jews_america = {
+		only_playable = yes
+		ai_check_interval = 30
+		potential = {
+			is_playable = yes
+			is_nomadic = no
+			has_dlc = "Sons of Abraham"
+			capital_scope = {
+				region = custom_arhavi_region
+			}
+			NOT = {	religion_group = jewish_group }
+			NOR = {
+				secret_religion = jewish
+				secret_religion = mikraist
+				secret_religion = maaravi
+				secret_religion = hasidic
+				secret_religion = haymanot
+				secret_religion = congregationist
+				secret_religion = federationist
+			}
+			NOT = { government = order_government }
+		}
+		
+		allow = {
+			prisoner = no
+			NOT = {
+				has_character_modifier = borrowed_from_jews_america
+				has_character_modifier = expelled_jewish
+			}
+			top_liege = { NOT = { has_character_modifier = expelled_jewish } }
+		}
+		
+		effect = {
+			add_character_modifier = {
+				name = borrowed_from_jews_america
+				duration = -1
+				inherit = yes
+			}
+			wealth = 300
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				wealth = 0
+				war = no
+			}
+			modifier = {
+				factor = 0
+				wealth = 200
+				war = yes
+			}			
+			modifier = {
+				factor = 0.1 # Slow it down
+			}
+		}
+	}
+	repay_money_jews_america = {
+		only_playable = yes
+		ai_check_interval = 6
+		potential = {
+			is_playable = yes
+			NOT = { 
+				has_character_modifier = expelled_jewish
+			}
+			has_character_modifier = borrowed_from_jews_america
+			has_dlc = "Sons of Abraham"
+		}
+		
+		allow = {
+			conditional_tooltip = {
+				trigger = {
+		    		any_owned_bloodline = {
+	    				has_bloodline_flag = jewish_saintly_bloodline
+	    			}
+	    		}
+    			wealth = 300
+			}
+			conditional_tooltip = {
+				trigger = {
+					NOT = {
+			    		any_owned_bloodline = {
+		    				has_bloodline_flag = jewish_saintly_bloodline
+		    			}
+					}
+				}
+				wealth = 350
+			}
+		}
+		
+		effect = {
+			remove_character_modifier = borrowed_from_jews_america
+			if = {
+				limit = {
+		    		any_owned_bloodline = {
+	    				has_bloodline_flag = jewish_saintly_bloodline
+	    			}
+	    		}
+	    		wealth = -300
+			}
+			else = {
+				wealth = -350
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { wealth = 450 }
+			}
+			modifier = {
+				factor = 0.5 # Slow it down
+			}
+		}
+	}
+	employ_a_bhutan_gunsmith = {
+		only_playable = yes
+		ai_check_interval = 36
+		potential = {
+			NOT = { government = order_government }
+			age = 16
+    		is_incapable = no
+			OR = {
+				ai = no
+				higher_tier_than = BARON
+			}
+			is_landed = yes
+			OR = {
+				culture = bhutanese
+				culture = low_bhutanese
+				capital_scope = {
+					region = custom_bhutan_region
+				}
+				any_realm_province = {
+					OR = {
+						culture = bhutanese
+						culture = low_bhutanese
+					}
+				}
+			}
+			is_lowborn = no
+			NOT = { any_artifact = { has_artifact_flag = gun } }
+		}
+		allow = {
+			wealth = 600
+			is_inaccessible_trigger = no
+		}
+		effect = {
+			wealth = -600
+			add_artifact = firearm_bhutan
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOR = {
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+			modifier = {
+				factor = 0.5
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = drukian
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+			modifier = {
+				factor = 0
+				any_artifact = { has_artifact_flag = gun }
+			}
+		}
+	}
+	employ_a_kybur_gunsmith = {
+		only_playable = yes
+		ai_check_interval = 36
+		potential = {
+			NOT = { government = order_government }
+			age = 16
+    		is_incapable = no
+			OR = {
+				ai = no
+				higher_tier_than = BARON
+			}
+			is_landed = yes
+			OR = {
+				culture = afghan
+				culture = baloch
+				culture = hazar
+				capital_scope = {
+					region = custom_afghan_region
+				}
+				any_realm_province = {
+					OR = {
+						culture = afghan
+						culture = baloch
+						culture = hazar
+					}
+				}
+			}
+			is_lowborn = no
+			NOT = { any_artifact = { has_artifact_flag = gun } }
+		}
+		allow = {
+			wealth = 600
+			is_inaccessible_trigger = no
+		}
+		effect = {
+			wealth = -400
+			add_artifact = firearm_jazalier
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOR = {
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+			modifier = {
+				factor = 0.5
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = drukian
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+			modifier = {
+				factor = 0
+				any_artifact = { has_artifact_flag = gun }
+			}
+		}
+	}
+	employ_a_european_gunsmith = {
+		only_playable = yes
+		ai_check_interval = 36
+		potential = {
+			NOT = { government = order_government }
+			age = 16
+    		is_incapable = no
+			OR = {
+				ai = no
+				higher_tier_than = BARON
+			}
+			is_landed = yes
+			OR = {
+				culture = prussian
+				culture = danzigian
+				culture = southener
+				culture = kannada
+				culture = eastlander
+				culture = new_english
+				culture_group = francacfrique
+				culture = igbo
+				culture = nigerian
+				culture = yoruba
+				culture = hausa	
+				culture = westlander
+				culture = kuhjung
+				culture = scouse
+				culture = northlander
+				culture = british
+				culture = scots
+				culture = old_norman
+				culture = brytwysher
+				culture = ashkenazi
+				capital_scope = {
+					region = custom_euro_gun_region
+				}
+				any_realm_province = {
+					OR = {
+					culture = prussian
+					culture = danzigian
+					culture = southener
+					culture = kannada
+					culture = eastlander
+					culture = new_english
+					culture_group = francacfrique
+					culture = igbo
+					culture = nigerian
+					culture = yoruba
+					culture = hausa	
+					culture = westlander
+					culture = kuhjung
+					culture = scouse
+					culture = northlander
+					culture = british
+					culture = scots
+					culture = old_norman
+					culture = brytwysher
+					culture = ashkenazi
+					}
+				}
+				capital_scope = {
+					OR = {
+						TECH_INFANTRY = 6
+						TECH_INFANTRY = 7
+						TECH_INFANTRY = 8 
+					}
+				}
+			}
+			NOR = {
+				culture = afghan
+				culture = baloch
+				culture = hazar
+				capital_scope = {
+					region = custom_afghan_region
+				}
+				culture = bhutanese
+				culture = low_bhutanese
+				capital_scope = {
+					region = custom_bhutan_region
+				}
+			}
+			is_lowborn = no
+			NOT = { any_artifact = { has_artifact_flag = gun } }
+		}
+		allow = {
+			wealth = 600
+			is_inaccessible_trigger = no
+		}
+		effect = {
+			wealth = -400
+			add_artifact = firearm_european
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOR = {
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+			modifier = {
+				factor = 0.5
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = drukian
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+			modifier = {
+				factor = 0
+				any_artifact = { has_artifact_flag = gun }
+			}
+		}
+	}
+	become_a_gentleman_thief = {
+		ai_check_interval = 36
+		potential = {
+			age = 12
+    		is_inaccessible_or_incapable_trigger = no
+			OR = {
+				religion = novelist
+				religion = novelist_reformed
+				secret_religion = novelist
+				secret_religion = novelist_reformed
+			}
+			NOT = {
+				trait = gentleman_thief
+			}
+			intrigue = 8
+		}
+		allow = {
+			age = 16
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no
+			war = no
+			trait = just
+			OR = {
+				trait = ambitious
+				trait = brave
+				trait = gregarious
+				trait = greedy
+			}
+			OR = {
+				trait = amateurish_plotter
+				trait = flamboyant_schemer
+				trait = intricate_webweaver
+				trait = elusive_shadow
+				trait = schemer
+			}
+			intrigue = 15
+		}
+		effect = {
+			add_trait = gentleman_thief
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	hold_tiger_hunt_europe = {
+		only_playable = yes
+		ai_check_interval = 7
+
+		potential = {
+			is_playable = yes
+			age = 16
+			prisoner = no
+			num_of_vassals = 1
+			capital_scope = {
+				OR = {
+				region = world_europe_west
+				region = world_europe_south
+				region = world_europe_east
+				}
+			}
+		}
+		allow = {
+			war = no
+			custom_tooltip = {
+				text = UNOCCUPIED_DEMESNE_TITLE
+				hidden_tooltip = {
+					any_demesne_title = {
+						NOT = { higher_tier_than = count }
+						is_occupied = no
+					}
+				}
+			}
+			NOT = { month = 10 }
+			wealth = 25
+			NOT = {	trait = incapable }
+			NOT = { is_inaccessible_trigger = yes }
+			prisoner = no
+			NOT = { religion = jain }
+			custom_tooltip = {
+				text = is_not_busy_trigger_tooltip
+				hidden_tooltip = { 
+					NOT = { has_character_flag = do_not_disturb } 
+					NOT = { has_character_flag = holding_tiger_hunt }
+					NOT = { has_character_modifier = hunt_timer }
+				}
+			}
+		}
+		effect = {
+			wealth = -25
+			set_character_flag = holding_tiger_hunt
+			set_character_flag = recent_minor_decision
+			set_character_flag = do_not_disturb
+			hidden_tooltip = { 
+				character_event = { id = ETH.2000 }
+			}
+			if = {
+				limit = {
+					has_dlc = "Reapers"
+				}
+				custom_tooltip = {
+					text = capital_prospers_custom_tooltip
+					hidden_tooltip = {
+						capital_scope = {
+							change_variable = { which = prosperity_value value = 8 }
+						}
+					}
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = { wealth = 50 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { wealth = 200 }
+				NOT = { has_focus = focus_hunting }
+			}
+			modifier = {
+				factor = 0
+				NOT = { martial = 10 }
+				NOT = { has_focus = focus_hunting }
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 730
+					}
+				}
+			}				
+		}
+	}
+	produce_penicillin = {
+		
+		only_playable = yes
+		ai_check_interval = 12
+
+		potential = { 
+			society_member_of = hermetics
+			society_rank = 3
+			NOT = {
+				has_character_modifier = hidden_timer_modif
+			}
+		}
+		allow = {
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no
+			OR = {
+				learning = 20
+				AND = {
+					trait = scholar
+					learning = 15
+				}
+			} 
+			wealth = 250
+		}
+		effect = {
+			wealth = -250
+			add_artifact = penicillin
+			hidden_tooltip = { 
+				add_character_modifier = { name = hidden_timer_modif duration = 60 hidden = yes} 
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 2
+				trait = patient
+			}
+			modifier = {
+				factor = 1.5
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+			modifier = {
+				factor = 0.05
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	restore_ecumenical_patriarchate_transnistria = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 36
+		
+		potential = {
+			is_playable = yes
+			religion = orthodox
+			independent = yes
+			NOT = { has_global_flag = patriarch_istanbul }
+			k_orthodox = {
+				NOT = {
+					holder_scope = {
+						has_landed_title = b_plopi
+						has_landed_title = b_slobozia
+						has_landed_title = b_capriana
+						has_landed_title = b_butuceni
+					}
+				}
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			piety = 1000
+			OR = {
+				owns = 2150 
+				any_realm_lord = {
+					owns = 2150
+				}
+			}
+			OR = {
+				owns = 2149 
+				any_realm_lord = {
+					owns = 2149
+				}
+			}
+			OR = {
+				owns = 541 
+				any_realm_lord = {
+					owns = 541
+				}
+			}
+			OR = {
+				owns = 512 
+				any_realm_lord = {
+					owns = 512
+				}
+			}
+		}
+		effect = {
+			piety = 1000
+			prestige = 500
+			hidden_tooltip = {
+				if = {
+					limit = {
+						NOT = { is_title_active = k_orthodox }
+					}
+					activate_title = { title = k_orthodox status = yes }
+				}
+				create_random_priest = {
+					random_traits = yes
+					religion = ROOT
+					female = no
+					dynasty = none
+				}
+				new_character = {
+					k_orthodox = {
+						grant_title = PREV
+					}
+					b_plopi = {
+						grant_title = PREV
+					}
+					b_slobozia = {
+						grant_title = PREV
+					}
+					b_capriana = {
+						grant_title = PREV
+					}
+					b_butuceni = {
+						grant_title = PREV
+					}
+					wealth = 500
+				}
+				
+				if = {
+					limit = {
+						NOT = { is_title_active = k_orthodox }
+					}
+					activate_title = { title = k_orthodox status = yes }
+					create_random_priest = {
+						random_traits = yes
+						religion = ROOT
+						female = no
+						dynasty = none
+					}
+					new_character = {
+						k_orthodox = {
+							grant_title = PREV
+						}
+						b_plopi = {
+							grant_title = PREV
+						}
+						b_slobozia = {
+							grant_title = PREV
+						}
+						b_capriana = {
+							grant_title = PREV
+						}
+						b_butuceni = {
+							grant_title = PREV
+						}
+						wealth = 500
+					}
+				}
+				else = {
+					k_orthodox ={
+						holder_scope = { 
+							grant_title_no_opinion = k_orthodox
+							grant_title_no_opinion = b_plopi
+							grant_title_no_opinion = b_slobozia
+							grant_title_no_opinion = b_capriana
+							grant_title_no_opinion = b_butuceni
+							wealth = 500
+						}
+						set_preferred_capital = c_byzantion
+					}
+				}
+			}
+		}
+	}
+	restore_coptic_papacy = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 36
+		
+		potential = {
+			is_playable = yes
+			religion = koptic
+			independent = yes
+			k_koptic = {
+				NOT = {
+					holder_scope = {
+						has_landed_title = c_alexandria
+					}
+				}
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			piety = 1000
+			has_landed_title = e_egypt
+			OR = {
+				owns = 802 # alexandria
+				any_realm_lord = {
+					owns = 802
+				}
+			}
+		}
+		effect = {
+			piety = 1000
+			prestige = 500
+			hidden_tooltip = {
+				if = {
+					limit = {
+						NOT = { is_title_active = k_koptic }
+					}
+					activate_title = { title = k_koptic status = yes }
+				}
+				k_koptic = {
+					holder_scope = {
+						grant_title = c_alexandria
+						wealth = 500
+					}
+					set_preferred_capital = c_alexandria
+					set_defacto_liege = e_egypt
+				}
+			}
+		}
+	}
+	# Create Poseidonian Warrior Lodge - Dead at start.
+	create_warrior_lodge_poseidonian = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 120 #check only once every 120 months.
+		
+		potential = {
+			NOT = {
+				has_global_flag = flag_restored_warrior_lodge_poseidonian
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			has_dlc = "Holy Fury"
+			age = 16
+			religion = poseidonian
+			NOT = { 
+				warrior_lodge_poseidonian = {
+					society_has_members = yes								
+				}
+			}
+		}
+		
+		allow = {
+			is_in_society = no
+			NOT = { trait = incapable }
+			has_education_martial_trigger = yes
+			higher_tier_than = DUKE
+			martial = 15
+			is_inaccessible_trigger = no
+			scaled_wealth = 0.75
+			prestige = 1500
+		}
+		
+		effect = {
+			scaled_wealth = -0.75
+			prestige = -1500
+			custom_tooltip = { text = create_warrior_lodge_poseidonian_tooltip }
+			hidden_tooltip = {
+				set_global_flag = flag_restored_warrior_lodge_poseidonian 
+				join_society = warrior_lodge_poseidonian
+				set_society_grandmaster = yes # Set character as Grand Master
+				add_society_currency_massive_effect = yes
+					spawn_good_commander_effect = yes
+					new_character = { join_society = warrior_lodge_poseidonian }
+					spawn_good_commander_effect = yes
+					new_character = { join_society = warrior_lodge_poseidonian }
+					spawn_good_commander_effect = yes
+					new_character = { join_society = warrior_lodge_poseidonian }
+					spawn_good_commander_effect = yes
+					new_character = { join_society = warrior_lodge_poseidonian }
+					spawn_good_commander_effect = yes
+					new_character = { join_society = warrior_lodge_poseidonian }
+					spawn_good_commander_effect = yes
+					new_character = { join_society = warrior_lodge_poseidonian }
+				any_vassal = {
+					limit = {
+						ai = yes
+						can_join_society = warrior_lodge_poseidonian
+					}
+					random = { chance = 75 join_society = warrior_lodge_poseidonian }
+				}
+				any_neighbor_independent_ruler = {
+					limit = {
+						ai = yes
+						can_join_society = warrior_lodge_poseidonian
+					}
+					random = { chance = 35 join_society = warrior_lodge_poseidonian }
+				}
+				any_player = {
+					limit = {
+						religion = poseidonian
+					}
+					narrative_event = { id = ATV.69 }
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	comission_prosthetic_hand_gold = {
+		only_playable = yes
+		ai_check_interval = 30
+		potential = {
+			trait = one_handed
+			is_playable = yes
+			prisoner = no
+			war = no
+			age = 16
+			NOT = { is_inaccessible_trigger = yes }
+			in_command = no
+			NOR = {
+				has_artifact = prosthetic_hand_gold
+				has_artifact = prosthetic_hand_metal
+				has_artifact = prosthetic_hand_gun
+				has_artifact = prosthetic_hand_blade
+			}
+		}
+		allow = {
+			wealth = 200
+		}
+		effect = {
+			wealth = -200
+			add_artifact = prosthetic_hand_gold
+			hidden_tooltip = {
+				random = {
+					chance = 50
+					give_nickname = nick_gold_hand
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5            
+			}
+			modifier = {
+				factor = 0
+				NOT = { wealth = 250 }
+			}			
+		}
+	}
+	
+	comission_prosthetic_hand_gun = {
+		only_playable = yes
+		ai_check_interval = 30
+		potential = {
+			trait = one_handed
+			is_playable = yes
+			prisoner = no
+			war = no
+			age = 16
+			NOT = { is_inaccessible_trigger = yes }
+			in_command = no
+			NOR = {
+				has_artifact = prosthetic_hand_gold
+				has_artifact = prosthetic_hand_metal
+				has_artifact = prosthetic_hand_gun
+				has_artifact = prosthetic_hand_blade
+			}
+			OR = {
+				TECH_INFANTRY = 6
+				TECH_INFANTRY = 7
+				TECH_INFANTRY = 8 
+				society_member_of = hermetics
+				AND = {
+					OR = {
+						culture = wallachian
+						culture = transylvanian
+						culture = moldavian
+					}
+					has_global_flag = guns_in_transnistria
+				}
+				culture = afghan
+				culture = kannada
+				culture = bhutanese
+				culture = low_bhutanese
+				culture = british
+				culture = southener
+				culture = scouse
+				culture = eastlander
+				culture = northlander
+				culture = old_norman
+				culture = new_english
+				culture = brytwysher
+				culture = ashkenazi
+				any_owned_bloodline = {
+	    			has_bloodline_flag = guts_bloodline
+	    		}
+			}
+		}
+		allow = {
+			wealth = 300
+		}
+		effect = {
+			wealth = -300
+			add_artifact = prosthetic_hand_gun
+			hidden_tooltip = {
+				random = {
+					chance = 50
+					give_nickname = nick_thunder_hand
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5            
+			}
+			modifier = {
+				factor = 0
+				NOT = { wealth = 325 }
+			}			
+		}
+	}
+	comission_prosthetic_hand_metal = {
+		only_playable = yes
+		ai_check_interval = 30
+		potential = {
+			trait = one_handed
+			is_playable = yes
+			prisoner = no
+			war = no
+			age = 16
+			NOT = { is_inaccessible_trigger = yes }
+			in_command = no
+			NOR = {
+				has_artifact = prosthetic_hand_gold
+				has_artifact = prosthetic_hand_metal
+				has_artifact = prosthetic_hand_gun
+				has_artifact = prosthetic_hand_blade
+			}
+		}
+		allow = {
+			wealth = 100
+		}
+		effect = {
+			wealth = -100
+			add_artifact = prosthetic_hand_metal
+			hidden_tooltip = {
+				random = {
+					chance = 50
+					give_nickname = nick_iron_hand
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5            
+			}
+			modifier = {
+				factor = 0
+				NOT = { wealth = 150 }
+			}			
+		}
+	}
+	comission_prosthetic_leg_artifact = {
+		only_playable = yes
+		ai_check_interval = 30
+		potential = {
+			trait = one_legged
+			is_playable = yes
+			prisoner = no
+			war = no
+			age = 16
+			NOT = { is_inaccessible_trigger = yes }
+			in_command = no
+			NOT = {
+				has_artifact = prosthetic_leg_artifact
+			}
+		}
+		allow = {
+			wealth = 75
+		}
+		effect = {
+			wealth = -75
+			add_artifact = prosthetic_leg_artifact
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5            
+			}
+			modifier = {
+				factor = 0
+				NOT = { wealth = 100 }
+			}			
+		}
+	}
+}
+targeted_decisions = {
+	claim_control_over_realm = {
+		ai_check_interval = 24
+		filter = realm
+		ai_target_filter = realm
+		
+		from_potential = { 
+			prestige = 500
+			is_incapable = no
+			is_adult = yes
+			prisoner = no
+			war = no
+			OR = {
+				trait = amateurish_plotter
+				trait = flamboyant_schemer
+				trait = intricate_webweaver
+				trait = elusive_shadow
+				trait = charismatic_negotiator
+				trait = grey_eminence
+				trait = schemer
+				trait = deceitful
+				trait = proud
+				trait = ambitious
+			}
+			NOR = {
+				is_father = ROOT
+				is_father_real_father = ROOT
+				is_mother = ROOT
+				is_grandparent_of = ROOT
+				is_friend = ROOT
+			}
+		}
+		potential = {
+			OR = {
+				trait = incapable
+				trait = possessed
+				trait = infirm
+				trait = lunatic
+				trait = imbecile
+				trait = slow
+				trait = dwarf
+				trait = inbred
+				trait = decadent
+				trait = familial_kinslayer
+				trait = dynastic_kinslayer
+				trait = kinslayer
+				trait = tribal_kinslayer
+				is_adult = no
+			}
+			de_facto_liege = FROM
+			has_regent = yes
+			higher_real_tier_than = COUNT
+		}
+		allow = {
+			has_regent = yes
+			FROM = {
+				prestige = 1000
+				is_adult = yes
+				prisoner = no
+				war = no
+				is_incapable = no
+				OR = {
+					trait = amateurish_plotter
+					trait = flamboyant_schemer
+					trait = intricate_webweaver
+					trait = elusive_shadow
+					trait = grey_eminence
+					trait = schemer
+					trait = deceitful
+				}
+				OR = {
+					trait = proud
+					trait = ambitious
+				}
+				NOR = {
+					trait = content
+					trait = humble
+					trait = imbecile
+				}
+			}
+		}
+		effect = {
+			ROOT = {
+				primary_title = {
+					add_claim = FROM
+				}
+			}
+			FROM = {
+				prestige = -1000
+			}
+		}
+	}
+	sell_gold = {
+		
+		ai_check_interval = 12
+		filter = self
+		ai_target_filter = self
+	    diplomacy_icon = GFX_sell_gold
+
+		potential = { 
+			has_artifact = gold_bar
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no 
+			}
+		effect = {
+			wealth = 500
+			destroy_artifact = gold_bar
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+			}
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.5
+				trait = patient
+			}
+			modifier = {
+				factor = 1.5
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 0.25
+				trait = proud
+			}
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0
+				wealth = 100
+				war = no
+			}
+			modifier = {
+				factor = 0
+				wealth = 200
+				war = yes
+			}	
+			modifier = {
+				factor = 2
+				wealth = -25
+				war = no
+			}
+			modifier = {
+				factor = 4
+				wealth = -25
+				war = yes
+			}	
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	sell_silver = {
+		
+		ai_check_interval = 12
+		filter = self
+		ai_target_filter = self
+	    diplomacy_icon = GFX_sell_silver
+
+		potential = { 
+			has_artifact = silver_bar
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no 
+		}
+		allow = {
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no
+		}
+		effect = {
+			wealth = 350
+			destroy_artifact = silver_bar
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+			}
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.5
+				trait = patient
+			}
+			modifier = {
+				factor = 1.5
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 0.25
+				trait = proud
+			}
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0
+				wealth = 100
+				war = no
+			}
+			modifier = {
+				factor = 0
+				wealth = 200
+				war = yes
+			}	
+			modifier = {
+				factor = 2
+				wealth = -25
+				war = no
+			}
+			modifier = {
+				factor = 4
+				wealth = -25
+				war = yes
+			}	
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	reforge_durandal = {
+		
+		ai_check_interval = 12
+		filter = self
+		ai_target_filter = self
+	    diplomacy_icon = GFX_reforge_durandal
+
+		potential = { 
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no
+			has_artifact = durandal_sheath 
+			has_artifact = durandal_pommel 
+			has_artifact = durandal_hilt 
+			has_artifact = durandal_blade
+		}
+		effect = {
+			set_global_flag = durandal_reforged
+			add_artifact = sword_durandal
+			destroy_artifact = durandal_sheath
+			destroy_artifact = durandal_pommel
+			destroy_artifact = durandal_hilt
+			destroy_artifact = durandal_blade
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.5
+				trait = patient
+			}
+			modifier = {
+				factor = 1.5
+				trait = brave
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}	
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	immolate_self = {
+		ai_check_interval = 12
+		filter = self
+		ai_target_filter = self
+
+		potential = {
+			is_inaccessible_or_incapable_trigger = no
+			has_regent = no
+			age = 16
+			piety = 150
+			OR = {
+				religion = bezpopotvsy
+				religion = prussianist
+				has_religion_feature = religion_self_immolate
+			}
+			
+		}
+		allow = {
+			OR = {
+				trait = slothful
+				trait = proud
+				trait = lustful
+				trait = gluttonous
+				trait = greedy
+				trait = envious
+				trait = wroth
+			}
+			NOR = {
+				AND = {
+					trait = humble
+					trait = patient
+				}
+				AND = {
+					trait = humble
+					trait = kind
+				}
+				AND = {
+					trait = humble
+					trait = diligent
+				}
+				AND = {
+					trait = humble
+					trait = charitable
+				}
+				AND = {
+					trait = humble
+					trait = temperate
+				}
+				AND = {
+					trait = humble
+					trait = chaste
+				}
+				AND = {
+					trait = kind
+					trait = diligent
+				}
+				AND = {
+					trait = kind
+					trait = patient
+				}
+				AND = {
+					trait = kind
+					trait = charitable
+				}
+				AND = {
+					trait = kind
+					trait = temperate
+				}
+				AND = {
+					trait = kind
+					trait = chaste
+				}
+				AND = {
+					trait = charitable
+					trait = temperate
+				}
+				AND = {
+					trait = charitable
+					trait = chaste
+				}
+				AND = {
+					trait = charitable
+					trait = patient
+				}
+				AND = {
+					trait = charitable
+					trait = diligent
+				}
+				AND = {
+					trait = chaste
+					trait = diligent
+				}
+				AND = {
+					trait = chaste
+					trait = patient
+				}
+				AND = {
+					trait = chaste
+					trait = temperate
+				}
+				AND = {
+					trait = diligent
+					trait = patient
+				}
+				AND = {
+					trait = diligent
+					trait = temperate
+				}
+			}
+		}
+		effect = {
+			piety = -200
+			character_event = { id = IE.1 }
+			if = {
+				limit = {
+					trait = excommunicated
+				}
+				remove_trait = excommunicated
+				piety = -100
+			}
+			else_if = {
+				limit = {
+					trait = dynastic_kinslayer
+				}
+				remove_trait = dynastic_kinslayer
+				piety = -100
+			}
+			else_if = {
+				limit = {
+					trait = familial_kinslayer
+				}
+				remove_trait = familial_kinslayer
+				piety = -200
+			}
+			else_if = {
+				limit = {
+					trait = kinslayer
+				}
+				remove_trait = kinslayer
+				piety = -300
+			}
+			else = {
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.85
+			}
+		}
+	}
+	send_imperial_support = {
+		
+		ai_check_interval = 18
+		filter = independent_rulers
+		ai_target_filter = independent_rulers
+		capable_only = yes
+	    diplomacy_icon = GFX_bhutan_icon
+		
+		from_potential = { 
+			primary_title = { 
+				title = e_bhutan
+			}
+			is_within_diplo_range = ROOT
+			NOT = {
+				trait = bhutan_isolationist
+			}
+		}
+		potential = {
+			is_within_diplo_range = FROM
+		}
+
+		allow = {
+			FROM = {
+				opinion = { 
+					who = ROOT
+					value = 5
+				}
+				is_adult = yes
+				is_inaccessible_or_incapable_trigger = no
+				has_regent = no
+				war = no
+				wealth = 400
+			}
+			ROOT = {
+				in_seclusion = no
+				OR = {
+					is_landed = yes
+					mercenary = yes
+					holy_order = yes
+					controls_religion = yes
+				} 
+				opinion = { 
+					who = FROM
+					value = 20
+				}
+			}
+		}
+		effect = {
+			ROOT = { 
+				wealth = 200
+			}
+			FROM = {
+				wealth = -200
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 2
+				has_non_aggression_pact_with = ROOT
+			}
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0
+				trait = bhutan_isolationist
+			}
+			modifier = {
+				factor = 2
+				trait = bhutan_expansionist
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+			modifier = {
+				factor = 0.2
+				trait = greedy
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	
+	send_imperial_troops = {
+		
+		ai_check_interval = 18
+		filter = independent_rulers
+		ai_target_filter = independent_rulers
+		capable_only = yes
+	    diplomacy_icon = GFX_bhutan_icon
+		
+		from_potential = { 
+			primary_title = { 
+				title = e_bhutan
+			}
+			is_within_diplo_range = ROOT
+			NOT = {
+				trait = bhutan_isolationist
+			}
+		}
+		potential = { 
+			war = yes
+			is_within_diplo_range = FROM
+		}
+
+		allow = {
+			FROM = {
+				is_inaccessible_or_incapable_trigger = no
+				has_regent = no
+				war = no
+				wealth = 200
+				is_adult = yes
+				opinion = { 
+					who = ROOT
+					value = 5
+				}
+			}
+			ROOT = {
+				in_seclusion = no
+				OR = {
+					is_landed = yes
+					mercenary = yes
+					holy_order = yes
+					controls_religion = yes
+				}
+				opinion = { 
+					who = FROM
+					value = 20
+				}
+			}
+		}
+		effect = {
+            ROOT = { 
+                capital_scope = {
+                    ROOT = {
+                        spawn_unit = {
+                            owner = ROOT
+                            province = PREV
+                            home = PREV
+                            troops = {
+                                light_cavalry = { 200 200 }
+                                pikemen = { 500 500 }
+                                gunmen = { 500 500 }
+                            }
+                            attrition = 0.5
+                            maintenance = no
+                            reinforces = yes
+                            cannot_inherit = yes
+                            disband_on_peace = yes
+                        }
+                    }
+                }
+            }
+            FROM = {
+                wealth = -200
+            }
+        }
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 2
+				has_non_aggression_pact_with = ROOT
+			}
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0
+				trait = bhutan_isolationist
+			}
+			modifier = {
+				factor = 2
+				trait = bhutan_expansionist
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+			modifier = {
+				factor = 0.2
+				trait = greedy
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	#####
+	request_imperial_support = {
+		
+		ai_check_interval = 18
+		filter = independent_rulers
+		ai_target_filter = independent_rulers
+		capable_only = yes
+	    diplomacy_icon = GFX_bhutan_icon
+		
+		from_potential = { 
+			is_within_diplo_range = ROOT
+		}
+		potential = { 
+			primary_title = { 
+				title = e_bhutan
+			}
+			is_within_diplo_range = FROM
+			NOT = {
+				trait = bhutan_isolationist
+			}
+		}
+
+		allow = {
+			ROOT = {
+				is_inaccessible_or_incapable_trigger = no
+				has_regent = no
+				war = no
+				wealth = 1000
+				is_adult = yes
+				opinion = { 
+					who = FROM
+					value = 20
+				}
+			}
+			FROM = {
+				in_seclusion = no
+				opinion = { 
+					who = ROOT
+					value = 5
+				}
+				OR = {
+					is_landed = yes
+					mercenary = yes
+					holy_order = yes
+					controls_religion = yes
+				}
+			}
+		}
+		effect = {
+			FROM = { 
+				wealth = 200
+			}
+			ROOT = {
+				wealth = -200
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 2
+				has_non_aggression_pact_with = ROOT
+			}
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0
+				ROOT = {
+					trait = bhutan_isolationist
+				}
+			}
+			modifier = {
+				factor = 2
+				ROOT = {
+					trait = bhutan_expansionist
+				}
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+			modifier = {
+				factor = 0.2
+				trait = greedy
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	
+	request_imperial_troops = {
+		
+		ai_check_interval = 18
+		filter = independent_rulers
+		ai_target_filter = independent_rulers
+		capable_only = yes
+	    diplomacy_icon = GFX_bhutan_icon
+		
+		from_potential = { 
+			war = yes
+			is_within_diplo_range = ROOT
+		}
+		potential = { 
+			primary_title = { 
+				title = e_bhutan
+			}
+			NOT = {
+				trait = bhutan_isolationist
+			}
+			is_within_diplo_range = FROM
+		}
+
+		allow = {
+			FROM = {
+				opinion = { 
+					who = ROOT
+					value = 20
+				}
+				in_seclusion = no
+				OR = {
+					is_landed = yes
+					mercenary = yes
+					holy_order = yes
+					controls_religion = yes
+				}
+				wealth = 200
+				is_adult = yes
+			}
+			ROOT = {
+				opinion = { 
+					who = FROM
+					value = 5
+				}
+				is_inaccessible_or_incapable_trigger = no
+				has_regent = no
+				war = no
+			}
+		}
+		effect = {
+            FROM = { 
+                capital_scope = {
+                    FROM = {
+                        spawn_unit = {
+                            owner = FROM
+                            province = PREV
+                            home = PREV
+                            troops = {
+                                light_cavalry = { 200 200 }
+                                pikemen = { 500 500 }
+                                gunmen = { 500 500 }
+                            }
+                            attrition = 0.5
+                            maintenance = no
+                            reinforces = yes
+                            cannot_inherit = yes
+                            disband_on_peace = yes
+                        }
+                    }
+                }
+				wealth = -200
+            }
+        }
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 2
+				has_non_aggression_pact_with = ROOT
+			}
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0
+				ROOT = {
+					trait = bhutan_isolationist
+				}
+			}
+			modifier = {
+				factor = 2
+				ROOT = {
+					trait = bhutan_expansionist
+				}
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+			modifier = {
+				factor = 0.2
+				trait = greedy
+			}
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+		}
+	}
+	release_vassal_as_march = {
+		only_playable = yes
+		filter = vassals
+		ai_target_filter = vassals
+		ai_check_interval = 36
+	    diplomacy_icon = GFX_march_icon
+
+		from_potential = {
+			is_playable = yes
+			independent = yes
+		}
+	
+		potential = {
+			NOT = { character = FROM }
+			liege = { character = FROM }
+			higher_tier_than = baron
+		}
+		allow = {
+			FROM = {
+				OR = {
+					AND = {
+						ai = no
+						TECH_MAJESTY = 3
+						TECH_RECRUITMENT = 3
+						prestige = 750
+						PREV = {
+							OR = {
+								trait = misguided_warrior
+								trait = tough_soldier
+								trait = skilled_tactician
+								trait = brilliant_strategist
+								martial = 10
+							}
+						}
+					}
+					AND = {
+						ai = yes
+						ROOT = {
+							NOR ={
+								de_jure_vassal_or_below = FROM
+								culture = FROM
+							}
+						}
+						ROOT = {
+							NOT = { culture_group = FROM }
+						}
+						PREV = {
+							OR = {
+								trait = misguided_warrior
+								trait = tough_soldier
+								trait = skilled_tactician
+								trait = brilliant_strategist
+								martial = 10
+							}
+						}
+						TECH_MAJESTY = 4
+						TECH_RECRUITMENT = 4
+						prestige = 750
+						NOT = { government = confederation_government }
+					}
+				}
+			}
+		}
+		effect = {
+			hidden_tooltip = { set_defacto_liege = THIS }
+			FROM = {
+				make_tributary = { 
+					who = PREV
+					tributary_type = march
+				}
+				prestige = -750
+			}
+			opinion = { modifier = opinion_released_tributary who = FROM }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = { 
+				factor = 0.1
+			}
+			modifier = {
+				factor = 0.25
+				FROM = {
+					NOR = {
+						trait = kind
+						trait = charitable
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				de_jure_liege_or_above = FROM
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					trait = greedy
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 1.25
+				FROM = {
+					trait = slothful
+				}
+			}
+			modifier = {
+				factor = 1.25
+				FROM = {
+					trait = humble
+				}
+			}
+		}
+	}
+	release_vassal_as_tributary = {
+		only_playable = yes
+		filter = vassals
+		ai_target_filter = vassals
+		ai_check_interval = 36
+	    diplomacy_icon = GFX_tributary_icon
+
+		from_potential = {
+			is_playable = yes
+			independent = yes
+		}
+	
+		potential = {
+			NOT = { character = FROM }
+			liege = { character = FROM }
+			higher_tier_than = baron
+		}
+		allow = {
+			FROM = {
+				OR = {
+					AND = {
+						ai = no
+						TECH_MAJESTY = 3
+						prestige = 1000
+					}
+					AND = {
+						ai = yes
+						NOR ={
+							de_jure_vassal_or_below = PREV
+							religion = PREV
+							culture_group = PREV
+						}
+						TECH_MAJESTY = 4
+						prestige = 1000
+						NOT = { government = confederation_government }
+					}
+				}
+			}
+		}
+		effect = {
+			hidden_tooltip = { set_defacto_liege = THIS }
+			FROM = {
+				make_tributary = { 
+					who = PREV
+					tributary_type = permanent
+				}
+				prestige = -1000
+			}
+			opinion = { modifier = opinion_released_tributary who = FROM }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = { 
+				factor = 0.01
+			}
+			modifier = {
+				factor = 0.25
+				FROM = {
+					NOR = {
+						trait = kind
+						trait = charitable
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				de_jure_liege_or_above = FROM
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					trait = greedy
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 1.25
+				FROM = {
+					trait = slothful
+				}
+			}
+			modifier = {
+				factor = 1.25
+				FROM = {
+					trait = humble
+				}
+			}
+		}
+	}
+}

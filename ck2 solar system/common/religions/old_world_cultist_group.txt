@@ -1,0 +1,987 @@
+old_world_cultist_group = {
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1
+	
+	color = { 0.3 0.3 1.0 }
+
+	ironist = {
+		graphical_culture = mongolgfx
+
+		icon = 82
+		
+		color = { 0.8 0.8 0.8 }
+
+		scripture_name = THE_WAY_OF_STEEL
+		
+		high_god_name = GOD_STEEL_ALLAH
+		
+		priest_title = SMITH
+		
+		interface_skin = { ironist_interface OWC_interface pagan_interface }
+		
+		god_names = {
+			GOD_STEEL_ALLAH GODDES_ARAL GOD_ASENA GOD_OGUZ_KAGAN GOD_GVOZDIKA GOD_KATYUSHA GOD_KALASHNIKOV GOD_ZIMIRAN GODDES_TSELINA
+		}
+		
+		evil_god_names = {
+			GOD_ERLIK GOD_IBILIS GOD_DIKE_KOKARAL GOD_KUKURUZNIK GOD_ALBASTY
+		}
+		
+		aggression = 1.1
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		allow_looting = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		priests_can_inherit = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		
+		intermarry = jadidist
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = yersenism
+		intermarry = maoist
+		intermarry = stalinist
+		intermarry = leninist
+		intermarry = trotskyite
+		intermarry = titoist
+	}
+	sisukkuus = {
+		graphical_culture = nobeliangfx
+
+		icon = 40
+		heresy_icon = 41
+		
+		color = { 183 195 214 }
+
+		scripture_name = PYHAT_KIRJOITUKSET
+		
+		high_god_name = GOD_GOD
+		
+		priest_title = ELDER
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_UKKO GOD_THE_SAINTS GOD_LUTHER GOD_MANNERHEIM GOD_KEKKONEN
+		}
+		
+		evil_god_names = {
+			GOD_LION_MIDNIGHT LUCIFER GOD_STALIN GOD_PAHOLAINEN GOD_THE_PUNISHED GOD_ROMANOV GOD_VEDMAK_KOROL
+		}
+		piety_name = SISU
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		allow_looting = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes		
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		hard_to_convert = yes
+		landed_kin_prestige_bonus = yes
+		peace_piety_gain = 1.0 # Gains 1 piety each month while at peace
+		pacifist = yes
+		attacking_same_religion_piety_loss = yes
+		character_modifier = {
+			martial = 1
+			lutheran_opinion = 5
+			vagarna_opinion = 5
+			folklorist_opinion = -10
+			stalinist_opinion = -10
+			zarist_opinion = -10 
+			katerinist_opinion = -10
+			petrist_opinion = -10
+		}
+		unit_modifier = {
+			archers_offensive = 0.25
+			archers_defensive = 0.25
+		}
+		
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = vagarna
+		intermarry = nobelian
+		intermarry = lutheran
+		intermarry = laestadian
+		intermarry = finnish_pagan
+		intermarry = finnish_pagan_reformed
+		intermarry = starist_pagan_reformed
+		intermarry = starist_pagan
+	}
+	
+	concordianist = {
+		graphical_culture = nobeliangfx
+
+		icon = 125
+		heresy_icon = 125
+		
+		color = { 0 70 175 }
+
+		scripture_name = THE_EUROPEAN_IDEA
+		
+		high_god_name = GOD_PROVIDENTIA
+		
+		priest_title = FATHER
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		god_names = {
+			GOD_PROVIDENTIA GOD_EUROPA_REGINA GOD_CHARLEMAGNE_EU GOD_CONCORDIA GOD_THE_SAINTS GOD_THE_FATHERS_OF_EUROPE
+		}
+		
+		evil_god_names = {
+			GOD_THE_COLLAPSE GOD_THE_DARK_AGES GOD_DISUNITY GOD_THE_WELTSCHMERZ
+		}
+		piety_name = PIETY
+		
+		aggression = 0.8
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes		
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		hard_to_convert = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		character_modifier = {
+			diplomacy = 1
+			girondist_opinion = 10
+			tech_growth_modifier = 0.1
+		}
+		
+		intermarry = constitutional
+		intermarry = fraticelli
+		intermarry = catholic
+		intermarry = cadaverist
+		intermarry = raelian
+		intermarry = novelist
+		intermarry = novelist_reformed
+		intermarry = neohuguenot
+		intermarry = jacobinist
+		intermarry = girondist
+	}
+	
+	sarvodaya = {
+		ai_convert_same_group = 1 # try to convert if ai_zeal is high
+		ai_convert_other_group = 2	# always convert
+
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 90
+        heresy_icon = 90
+
+		color = { 135 206 235 }
+		
+		interface_skin = { indian_interface muslim_interface }
+		
+		high_god_name = GOD_PARABRAHMAN
+		
+		god_names = {
+			GOD_PARABRAHMAN GOD_BHAGAVAN MAHATMA GOD_VINOBA_BHAVE GOD_NEHRU
+		}
+		
+		evil_god_names = {
+			GOD_ASURAS ADHARMA
+		}
+		character_modifier = {
+			jain_opinion = 10
+			learning = 1#for tech boost
+			tech_growth_modifier = 0.15
+		}
+		
+		crusade_name = DHARMAYUDDHA
+		use_new_crusade = no
+		crusade_cb = crusade
+		
+		aggression = 0.75
+		allow_rivermovement = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_looting = no
+		peace_piety_gain = 1.0 # Gains 1 piety each month while at peace
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions
+		attacking_same_religion_piety_loss = yes
+		defensive_attrition = yes
+		has_heir_designation = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = BHAGAVAD_GITA
+		priest_title = PUJARI
+		piety_name = KARMA
+
+		intermarry = sikh
+		intermarry = jain
+		intermarry = buddhist_group
+		intermarry = maunaxite
+		intermarry = neovedantic
+		intermarry = kalikula
+		intermarry = shaivasiddhanta
+		intermarry = maunaxite_reformed
+		intermarry = dahatatta
+		intermarry = koyapunem
+		intermarry = old_hindu
+		#intermarry = sarvodaya
+		intermarry = bon_reformed
+		intermarry = donyipolo
+		intermarry = kiratist
+		intermarry = bon
+	}
+	
+	zarist = {
+		graphical_culture = orthodoxholygfx
+
+		icon = 68
+		heresy_icon = 69
+		
+		color = { 1 0.9 0.3 }
+		
+		scripture_name = THE_CHRONICLE_OF_DAYS_PAST
+		
+		priest_title = POP
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		high_god_name = GOD_HOLY_SPIRIT
+		
+		god_names = {
+			GOD_HOLY_SPIRIT GOD_THE_LORD GOD_THE_TZAR GOD_IVAN GOD_NICHOLAS GOD_PETER GOD_KATERIN GOD_THE_SAINTS GOD_MOTHER_RUSSIA
+		}
+		
+		evil_god_names = {
+			GOD_DYAVOL GOD_BEZBOZHNIK GOD_RASPUTIN GOD_STALIN_BAD
+		}
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		aggression = 0.9
+		crusade_name = GREAT_HOLY_WAR
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		priests_can_inherit = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		character_modifier = {
+			vassal_opinion = 5
+		}
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = katerinist
+		intermarry = petrist
+		intermarry = stalinist
+		intermarry = yersenism
+		intermarry = orthodox
+		intermarry = marblists
+		intermarry = leninist
+	}
+	katerinist = {
+		graphical_culture = orthodoxholygfx
+
+		icon = 68
+		heresy_icon = 69
+		
+		parent = zarist
+
+		color = { 1 0.8 0.6 }
+		
+		scripture_name = THE_CHRONICLE_OF_DAYS_PAST
+		
+		high_god_name = GOD_MOTHER_RUSSIA
+		
+		priest_title = POPADYA
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		god_names = {
+			GOD_MOTHER_RUSSIA GOD_HOLY_SPIRIT GOD_KATERIN GOD_OLGA GOD_THE_TZAR GOD_THE_SAINTS GOD_BOGORODITSA
+		}
+		
+		evil_god_names = {
+			GOD_DYAVOL GOD_BEZBOZHNIK GOD_RASPUTIN GOD_STALIN_BAD
+		}
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		aggression = 0.9
+		crusade_name = GREAT_HOLY_WAR
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		feminist = yes
+		female_temple_holders = yes
+		male_temple_holders = no
+		women_can_take_consorts = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		max_consorts = 3
+		priests_can_inherit = yes
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = zarist
+		intermarry = petrist
+		intermarry = stalinist
+		intermarry = yersenism
+		intermarry = orthodox
+		intermarry = marblists
+		intermarry = leninist
+	}	
+	petrist = {
+		graphical_culture = orthodoxholygfx
+
+		icon = 68
+		heresy_icon = 69		
+		
+		parent = zarist
+
+		color = { 0.9 0.8 0.6 }
+		
+		scripture_name = THE_CHRONICLE_OF_DAYS_PAST
+		
+		high_god_name = GOD_HOLY_SPIRIT
+		
+		god_names = {
+			GOD_HOLY_SPIRIT GOD_PETER GOD_THE_TZAR GOD_THE_SAINTS
+		}
+		
+		evil_god_names = {
+			GOD_DYAVOL GOD_BEZBOZHNIK GOD_RASPUTIN GOD_NICHOLAS_BAD GOD_STALIN_BAD
+		}
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		priest_title = POP
+		
+		interface_skin = { OWC_interface pagan_interface }
+		aggression = 0.9
+		allow_rivermovement = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_retire_to_monastery = yes
+		rel_head_defense = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		character_modifier = {
+			martial = 1
+			learning = 1
+		}
+		priests_can_inherit = no
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = katerinist
+		intermarry = zarist
+		intermarry = stalinist
+		intermarry = yersenism
+		intermarry = orthodox
+		intermarry = marblists
+		intermarry = leninist
+	}			
+	stalinist = {
+		graphical_culture = orthodoxholygfx
+
+		icon = 73
+		heresy_icon = 74
+		
+		color = { 1 0.2 0.1 }
+
+		crusade_name = GREAT_PATRIOTIC_WAR
+		
+		scripture_name = THE_CHRONICLE_OF_DAYS_PAST
+		
+		high_god_name = GOD_STALIN
+		
+		piety_name = LOYALTY
+		
+		
+		priest_title = POP
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		god_names = {
+			GOD_STALIN GOD_LENIN GOD_APOTHEOSIS GOD_SACRIFICE GOD_DIVINE_BLOOD GOD_MOTHER_RUSSIA
+		}
+		
+		evil_god_names = {
+		 GOD_WRECKERS GOD_REVISIONISM GOD_ROMANOV GOD_THE_TRAITOR GOD_HOLY_SPIRIT GOD_RURIKOVICH GOD_THE_SAINTS
+		}
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		aggression = 1
+		can_call_crusade = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		max_consorts = 3
+		priests_can_inherit = yes
+		
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = katerinist
+		intermarry = zarist
+		intermarry = petrist
+		intermarry = yersenism
+		intermarry = ironist
+		intermarry = trotskyite
+		intermarry = titoist
+		intermarry = leninist
+		character_modifier = {
+			zarist_opinion = -15 #Stalin ate Tzar Nicholas' heart
+			katerinist_opinion = -10 #Care less about Nicholas
+			petrist_opinion = -10 #Care less about Nicholas
+			leninist_opinion = -5
+		}
+	}	
+	leninist = {
+		graphical_culture = orthodoxholygfx
+		secondary_event_pictures = stalinist
+
+		icon = 187
+		heresy_icon = 188
+		
+		color = { 1 0.35 0.15 }
+		parent = stalinist
+
+		crusade_name = GREAT_PATRIOTIC_WAR
+		
+		scripture_name = THE_CHRONICLE_OF_DAYS_PAST
+		
+		high_god_name = GOD_LENIN
+		
+		piety_name = LOYALTY
+		
+		priest_title = POP
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		god_names = {
+		 GOD_LENIN GOD_APOTHEOSIS GOD_SACRIFICE GOD_DIVINE_BLOOD GOD_MOTHER_RUSSIA GOD_THE_SAINTS GOD_HOLY_SPIRIT
+		}
+		
+		evil_god_names = {
+		 GOD_WRECKERS GOD_REVISIONISM GOD_ROMANOV GOD_THE_TRAITOR GOD_RURIKOVICH 
+		}
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		aggression = 1
+		can_call_crusade = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		max_consorts = 3
+		priests_can_inherit = yes
+		
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = katerinist
+		intermarry = zarist
+		intermarry = petrist
+		intermarry = yersenism
+		intermarry = ironist
+		intermarry = trotskyite
+		intermarry = titoist
+		intermarry = stalinist
+		character_modifier = {
+			zarist_opinion = -5 #only killed nicholas
+			katerinist_opinion = -5 #Care less about Nicholas
+			petrist_opinion = -5 #Care less about Nicholas
+			stalinist_opinion = -5
+		}
+	}	
+	trotskyite = {
+		graphical_culture = orthodoxholygfx
+		secondary_event_pictures = stalinist
+		icon = 189
+		heresy_icon = 190
+		
+		color = { 1 0 0 }
+		parent = stalinist
+		
+		scripture_name = THE_CHRONICLE_OF_DAYS_PAST
+		
+		crusade_name = GREAT_PATRIOTIC_WAR
+		high_god_name = GOD_TROTSKY
+		
+		piety_name = LOYALTY
+		
+		priest_title = POP
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		god_names = {
+			GOD_LENIN GOD_TROTSKY GOD_MOTHER_RUSSIA GOD_APOTHEOSIS GOD_SACRIFICE GOD_DIVINE_BLOOD
+		}
+		
+		evil_god_names = {
+			GOD_STALIN GOD_THE_TZAR GOD_ROMANOV GOD_HOLY_SPIRIT GOD_RURIKOVICH GOD_THE_SAINTS
+		}
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		aggression = 1.5
+		peace_prestige_loss = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		raised_vassal_opinion_loss = no
+		can_grant_claim = yes
+		priests_can_marry = yes
+		can_call_crusade = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		max_consorts = 3
+		priests_can_inherit = yes
+		
+		features = {
+            religion_ritual_sacrifice
+        }
+		
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = katerinist
+		intermarry = zarist
+		intermarry = petrist
+		intermarry = yersenism
+		intermarry = ironist
+		intermarry = stalinist
+		intermarry = titoist
+		intermarry = leninist
+		character_modifier = {
+			zarist_opinion = -10 #Trotsky wanted to eat Nicholas' heart
+			katerinist_opinion = -5 #Care less about Nicholas
+			petrist_opinion = -5 #Care less about Nicholas
+			stalinist_opinion = -10
+		}
+		
+	}
+	titoist = {
+		graphical_culture = orthodoxholygfx
+		secondary_event_pictures = stalinist
+		icon = 191
+		heresy_icon = 192
+		
+		color = { 0.9 0.2 0.3 }
+		parent = stalinist
+		
+		scripture_name = THE_CHRONICLE_OF_DAYS_PAST
+		
+		high_god_name = GOD_TITO
+		
+		piety_name = LOYALTY
+		
+		priest_title = POP
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		crusade_name = GREAT_PATRIOTIC_WAR
+		god_names = {
+			GOD_TITO GOD_FATHER_YUGOSLAVIA GOD_APOTHEOSIS GOD_SACRIFICE GOD_DIVINE_BLOOD
+		}
+		
+		evil_god_names = {
+			 GOD_ROMANOV GOD_HOLY_SPIRIT GOD_RURIKOVICH GOD_STALIN GOD_THE_SAINTS GOD_CAR
+		}
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		aggression = 1.2
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		allow_looting = yes
+		can_call_crusade = yes
+		defensive_attrition = yes
+		ignores_defensive_attrition = yes
+		max_consorts = 3
+		priests_can_inherit = yes
+		
+		features = {
+            religion_ritual_sacrifice
+        }
+		
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = katerinist
+		intermarry = zarist
+		intermarry = petrist
+		intermarry = yersenism
+		intermarry = ironist
+		intermarry = trotskyite
+		intermarry = stalinist
+		intermarry = leninist
+	}		
+
+	girondist = {
+		graphical_culture = muslimgfx
+
+		icon = 60
+		heresy_icon = 62
+		
+		color = { 0 63 255 }
+
+		interface_skin = { jacobinist_interface OWC_interface pagan_interface }		
+		
+		crusade_name = THE_REVOLUTION
+		scripture_name = THE_DECLARATION
+		priest_title = PROCLAMATOR
+		piety_name = FREEDOM
+		
+		high_god_name = GOD_THE_ARCHITECT_OF_CREATION
+		god_names = {
+			GOD_THE_ARCHITECT_OF_CREATION GOD_THE_CREATOR GOD_REPUBLIC GOD_DEMOCRACY GOD_LIBERTY GOD_EQUALITY GOD_FRATERNITY GOD_VOLTAIRE GOD_GUILLOTINE GOD_HIGHER_BEING GOD_ERU_LAUTEUR GOD_CHARLEMAGNE GOD_NAPOLEON 
+		}
+		
+		evil_god_names = {
+			GOD_ANCIEN_REGIME GOD_ABSOLUTISM GOD_SAINT_JUST GOD_SUN_KING GOD_SAURON GOD_RICHELIEU
+		}
+		character_modifier = {
+			novelist_opinion = 5
+			novelist_reformed_opinion = 5
+			tech_growth_modifier = 0.15
+		}
+		aggression = 1.0 # AI aggression factor
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		peace_piety_gain = 1.0
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		max_consorts = 3
+		matrilineal_marriages = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		hard_to_convert = yes
+		ignores_defensive_attrition = yes
+		female_temple_holders = yes
+		feminist = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		
+		religious_clothing_head = 20
+		religious_clothing_priest = 20
+		
+		intermarry = concordianist
+		intermarry = constitutional
+		intermarry = fraticelli
+		intermarry = catholic
+		intermarry = cadaverist
+		intermarry = raelian
+		intermarry = novelist
+		intermarry = novelist_reformed
+		intermarry = neohuguenot
+		intermarry = jacobinist
+	}
+	communard = {
+		graphical_culture = muslimgfx
+
+		icon = 60
+		heresy_icon = 62
+		parent = girondist
+		
+		color = { 50 84 255 }
+
+		interface_skin = { jacobinist_interface OWC_interface pagan_interface }		
+		
+		crusade_name = THE_REVOLUTION
+		scripture_name = THE_DECLARATION
+		priest_title = PROCLAMATOR
+		piety_name = FREEDOM
+		
+		high_god_name = GOD_THE_ARCHITECT_OF_CREATION
+		god_names = {
+			GOD_THE_ARCHITECT_OF_CREATION GOD_REPUBLIC GOD_THE_CREATOR GOD_DEMOCRACY GOD_LIBERTY GOD_EQUALITY GOD_FRATERNITY GOD_VOLTAIRE GOD_GUILLOTINE GOD_HIGHER_BEING GOD_THE_SANS_CULOTTES
+		}
+		
+		evil_god_names = {
+			GOD_ANCIEN_REGIME GOD_ABSOLUTISM GOD_SAINT_JUST GOD_SUN_KING GOD_THE_CHURCH GOD_SAURON GOD_RICHELIEU
+		}
+		character_modifier = {
+		}
+		aggression = 1.0 # AI aggression factor
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		peace_piety_gain = 1.0
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		max_consorts = 3
+		matrilineal_marriages = yes
+		priests_can_inherit = no
+		defensive_attrition = yes
+		hard_to_convert = yes
+		ignores_defensive_attrition = yes
+		female_temple_holders = yes
+		feminist = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		
+		religious_clothing_head = 20
+		religious_clothing_priest = 20
+		
+		intermarry = concordianist
+		intermarry = constitutional
+		intermarry = fraticelli
+		intermarry = catholic
+		intermarry = cadaverist
+		intermarry = raelian
+		intermarry = novelist
+		intermarry = novelist_reformed
+		intermarry = neohuguenot
+		intermarry = jacobinist
+	}
+	jacobinist = {
+		graphical_culture = muslimgfx
+		parent = girondist
+		icon = 60
+		heresy_icon = 62
+		
+		color = { 0.25 0.5 1 }
+
+		interface_skin = { jacobinist_interface OWC_interface pagan_interface }		
+		
+		crusade_name = THE_REVOLUTION
+		scripture_name = THE_DECLARATION
+		priest_title = PROCLAMATOR
+		piety_name = FREEDOM
+		
+		high_god_name = GOD_GUILLOTINE
+		
+		god_names = {
+			GOD_GUILLOTINE GOD_REPUBLIC GOD_DEMOCRACY GOD_ROBESPIERRE GOD_SAINT_JUST GOD_MARAT GOD_VOLTAIRE
+		}
+		
+		evil_god_names = {
+			GOD_ANCIEN_REGIME GOD_ABSOLUTISM GOD_SUN_KING
+		}
+		aggression = 2.0 # AI aggression factor
+		allow_rivermovement = yes
+		allow_looting = yes
+		can_excommunicate = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		priests_can_inherit = no
+		ignores_defensive_attrition = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		religious_clothing_head = 20
+		religious_clothing_priest = 20
+		
+		intermarry = concordianist
+		intermarry = constitutional
+		intermarry = neohuguenot
+		intermarry = girondist
+	}
+	khanist = { # Idolatry of Genghis Khan/Mongolian Nationalism
+	
+		graphical_culture = mongolgfx
+
+		icon = 98
+		heresy_icon = 100
+		
+		color = { 0.4 0.5 0.8 }
+		
+		high_god_name = GOD_GENGHIS
+		
+		interface_skin = { OWC_interface pagan_interface }
+		
+		god_names = {
+			GOD_TENGRI GOD_ERLIK_KHAN 
+		}
+		evil_god_names = {
+			ERLIK THE_HAN RED_MENACE
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			light_cavalry_offensive = 0.5
+			light_cavalry_defensive = 0.5
+			horse_archer_offensive = 0.5
+			horse_archer_defensive = 0.5
+			
+			key = "tengri_pagan"
+		}
+	
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		allow_viking_invasion = yes
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		ignores_defensive_attrition = yes
+		
+		short_reign_opinion_year_mult = 1.5
+		
+		aggression = 1.5 # AI aggression factor
+		
+		religious_clothing_head = 13
+		religious_clothing_priest = 4
+		can_call_crusade = yes
+		#can_excommunicate = yes
+		#can_grant_claim = yes
+		
+		dislike_tribal_organization = yes
+		
+		intermarry = buddhist_group
+		intermarry = zoroastrian_group
+		can_demand_religious_conversion = no
+	}
+	maoist = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+		has_coa_on_barony_only = yes
+		#alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 101
+		heresy_icon = 54
+		
+		color = { 155 17 30 }
+		
+		interface_skin = { buddhist_interface taoist_interface indian_interface muslim_interface }
+		
+		crusade_name = PEOPLE_LIBERATION_WAR
+		high_god_name = GOD_JADE_CHAIRMAN
+		
+		god_names = {
+			GOD_JADE_CHAIRMAN GOD_THE_PRINCIPLES GOD_HARMONY
+		}
+		
+		evil_god_names = {
+			GOD_GROUP_OF_FOUR GOD_EIGHT_ARMIES GOD_THE_GREAT_SPARROW GOD_JADE_EMPEROR_BAD GOD_SAPPHIRE_DIDACT_BAD
+		}
+		
+		piety_name = PROGRESS
+
+		character_modifier = {
+			martial = 1
+		}
+		
+		aggression = 1.1
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		priests_can_inherit = no
+		can_call_crusade = yes
+		max_consorts = 5
+		allow_looting = yes
+		
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		#religious_clothing_head = 10
+		#religious_clothing_priest = 10
+
+		scripture_name = LITTLE_RED_BOOK
+		priest_title = PROCURATOR
+		
+		intermarry = xinjiao
+		intermarry = buddhist_group
+		intermarry = nasrini
+		intermarry = yersenism
+		intermarry = ironist
+		intermarry = khanist
+	}
+	constitutional = {
+		graphical_culture = westerngfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+		interface_skin = { OWC_interface }
+		icon = 142
+		heresy_icon = 143
+		
+		color = { 60 59 110 }
+		
+		scripture_name = COMMON_SENSE_GOD
+		priest_title = JUDGE
+		piety_name = PATRIOTISM
+		
+		high_god_name = COMMON_SENSE_GOD
+		
+		god_names = {
+			PRAGMATISM_GOD JINGOISM_GOD FOUNDATIONALISM_GOD TRANSCENDANTALISM_GOD RIGHTS_OF_MAN_GOD FREDERICK_DOUGLAS_GOD JOHN_HANCOCK_GOD THOMAS_JEFFERSON_GOD THOMAS_PAINE_GOD
+		}
+		
+		evil_god_names = {
+			ANARCHY_GOD TYRANNY_GOD SUPERSTITION_GOD
+		}	
+		
+		character_modifier={
+			religion_flex = -0.9
+		}
+		aggression = 1.0
+		allow_rivermovement = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_retire_to_monastery = yes
+		has_heir_designation = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		rel_head_defense = yes
+		female_temple_holders = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 20
+
+		intermarry = orthodox
+		intermarry = sevillian
+		intermarry = lutheran
+		intermarry = laestadian
+		intermarry = calvinist
+		intermarry = cadaverist
+		intermarry = prussianist
+		intermarry = transatlantic
+		intermarry = baptist
+		intermarry = jugoslavist
+		intermarry = islamity
+		intermarry = nasrini
+		intermarry = koptic
+		intermarry = mattaism
+		intermarry = xinjiao
+		intermarry = easternprotestant
+		intermarry = evangelical
+		intermarry = concordianist
+		
+		intermarry = highchurch
+		intermarry = muwahidunna
+		intermarry = fraticelli
+		intermarry = hussite
+		intermarry = anglican
+		intermarry = brethren
+		intermarry = poseidonian
+		intermarry = chaldean
+		intermarry = yersenism
+		intermarry = apostolic
+		intermarry = charismatic
+		intermarry = marblists
+		intermarry = armenianapostolic
+		intermarry = jacobinist
+	}	
+}

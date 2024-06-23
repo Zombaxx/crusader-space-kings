@@ -2137,6 +2137,7 @@ character_event = {
     	is_member_of_any_warrior_lodge_trigger = yes
     	NOT = { has_character_flag = do_not_disturb }
 	    war = no
+	    is_adult = yes
 
 	    NOT = { has_character_modifier = teaching_moment_cooldown }
 
@@ -2890,10 +2891,7 @@ character_event = {
         	event_target:teacher = {
 				NOT = { is_lover = ROOT }
 				OR = {
-					ROOT = { has_religion_feature = religion_holy_family }
-                    ROOT = { religion_openly_in_egyptian_subgroup_trigger = yes }
-					ROOT = { religion = messalian }
-					ROOT = { religion = zoroastrian }
+					ROOT = { has_incestious_religion_trigger = yes }
 					NOT = { is_close_relative = ROOT }
 				}
 				root_attraction_trigger = yes
@@ -3588,32 +3586,36 @@ character_event = {
     portrait = event_target:weapon_forger
 
     immediate = {
-		FROM = {
-			any_close_relative = {
-				limit = {
-					is_alive = yes
-				}
-				save_event_target_as = potential_sacrifice
-			}
-		}
+    	if = {
+    		FROM = {
+    			any_close_relative = {
+    				limit = {
+    					is_alive = yes
+    				}
+    				save_event_target_as = potential_sacrifice
+    			}
+    		}
+    	}
 
-		any_courtier = {
-			limit = {
-				OR = {
-					is_learned_trigger = yes
-					has_character_flag = is_court_physician
-					has_minor_title = title_court_physician
-					has_minor_title = title_teacher
-					has_minor_title = title_volva
-					has_minor_title = title_lawspeaker
-					has_minor_title = title_court_skald
-					has_minor_title = title_venerable_elder
-					has_minor_title = title_lawspeaker
-					learning = 18
-				}
-			}
-			save_event_target_as = weapon_forger
-		}
+    	if = {
+    		any_courtier = {
+    			limit = {
+    				OR = {
+    					is_learned_trigger = yes
+    					has_character_flag = is_court_physician
+    					has_minor_title = title_court_physician
+    					has_minor_title = title_teacher
+    					has_minor_title = title_volva
+    					has_minor_title = title_lawspeaker
+    					has_minor_title = title_court_skald
+    					has_minor_title = title_venerable_elder
+    					has_minor_title = title_lawspeaker
+    					learning = 18
+    				}
+    			}
+    			save_event_target_as = weapon_forger
+    		}
+    	}
     }
 
     option = # Forgive me, my friend, but I require your strength.  
@@ -3824,20 +3826,24 @@ character_event = {
     }
 
     immediate = {
-   		any_courtier = {
-   			limit = {
-   				block_general_event_trigger = no
-   			}
-   			save_event_target_as = witness1
-   		}
+    	if = {
+    		any_courtier = {
+    			limit = {
+    				block_general_event_trigger = no
+    			}
+    			save_event_target_as = witness1
+    		}
+    	}
 
-		any_courtier = {
-			limit = {
-				block_general_event_trigger = no
-				NOT= { character = event_target:witness1} 
-			}
-			save_event_target_as = witness2
-		}
+    	if = {
+    		any_courtier = {
+    			limit = {
+    				block_general_event_trigger = no
+    				NOT= { character = event_target:witness1} 
+    			}
+    			save_event_target_as = witness2
+    		}
+    	}
     }
 
     option = # No! It's not what you think!

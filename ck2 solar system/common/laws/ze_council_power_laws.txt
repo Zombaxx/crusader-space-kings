@@ -54,6 +54,73 @@ laws = {
 			has_law = execution_voting_power_0
 			has_law = war_voting_power_0
 			OR = {
+				NOR = {
+					has_landed_title = e_hre
+					has_landed_title = e_german_confederation
+					has_landed_title = e_britannia
+					has_landed_title = e_bhutan
+					has_landed_title = k_israel
+					has_landed_title = e_zion
+					has_landed_title = e_russian_republic
+					has_landed_title = e_european_union
+					AND = {
+						religion = constitutional
+						OR = {
+							real_tier = KING
+							real_tier = EMPEROR
+						}
+						OR = {
+							is_feudal = yes
+							is_republic = yes
+						}
+					}
+					AND = {
+						religion = sarvodaya
+						OR = {
+							real_tier = KING
+							real_tier = EMPEROR
+						}
+						OR = {
+							is_feudal = yes
+							is_republic = yes
+						}
+					}
+					AND = {
+						religion = concordianist
+						OR = {
+							real_tier = KING
+							real_tier = EMPEROR
+						}
+						OR = {
+							is_feudal = yes
+							is_republic = yes
+						}
+					}
+					AND = {
+						religion = girondist
+						OR = {
+							real_tier = KING
+							real_tier = EMPEROR
+						}
+						OR = {
+							is_feudal = yes
+							is_republic = yes
+						}
+					}
+				} 
+				NOT = {
+					holder_scope = { government = communal_government }
+				}
+				has_law = parliament_laws_generic_0
+				has_law = parliament_laws_brit_0
+				has_law = parliament_laws_german_0
+				has_law = parliament_laws_russian_0
+				has_law = parliament_laws_israel_0
+				has_law = parliament_laws_bhutan_0
+				has_law = parliament_laws_roman_0
+				has_law = parliament_laws_EU_0
+			}
+			OR = {
 				NOT = { holder_scope = { is_tribal = yes } }
 				has_law = tribal_organization_4
 			}
@@ -138,20 +205,23 @@ laws = {
 			factor = 0
 			
 			additive_modifier = { 
-				value = 10			
-				year = 850
+				value = 10
 				holder_scope = { 
-					religion = catholic
+					religion_group = christian
 					is_feudal = yes
 				}	
 			}
 			additive_modifier = { 
 				value = 10			
-				title = e_hre	
+				holder_scope = { government = confederation_government }	
 			}
 			additive_modifier = { 
 				value = 10			
-				title = e_byzantium	
+				holder_scope = { government = communal_government }	
+			}
+			additive_modifier = { 
+				value = 10			
+				title = e_britannia	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -160,6 +230,7 @@ laws = {
 						is_nomadic = yes	
 						is_tribal = yes	
 						is_republic = yes
+						government = oligarchic_republic
 					}
 				}
 			}
@@ -331,16 +402,15 @@ laws = {
 			factor = 0
 			
 			additive_modifier = { 
-				value = 10			
-				year = 900
+				value = 10
 				holder_scope = { 
-					religion = catholic
+					religion_group = christian
 					is_feudal = yes
 				}	
 			}
 			additive_modifier = { 
 				value = 10			
-				title = e_hre	
+				holder_scope = { government = confederation_government }	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -506,15 +576,7 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				year = 1100
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
+				holder_scope = { government = confederation_government }	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -676,15 +738,7 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				year = 1000
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
+				holder_scope = { government = confederation_government }	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -845,15 +899,7 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				year = 1200
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
+				holder_scope = { government = confederation_government }	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -1015,15 +1061,7 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				year = 1300
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
+				holder_scope = { government = confederation_government }	
 			}
 			additive_modifier = { 
 				value = 10			
@@ -1184,15 +1222,7 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				year = 1200
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
+				holder_scope = { government = confederation_government }	
 			}
 			additive_modifier = { 
 				value = 10			

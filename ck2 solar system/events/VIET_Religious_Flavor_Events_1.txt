@@ -395,7 +395,7 @@ character_event = {
 						random_traits = yes
 						dynasty = culture
 						religion = sunni
-						culture = andalusian_arabic
+						culture = moroccan
 						female = no
 					}
 					new_character = {				
@@ -426,8 +426,8 @@ character_event = {
 					create_random_soldier = {
 						random_traits = yes
 						dynasty = culture
-						religion = sunni
-						culture = cuman
+						religion = ovlatii
+						culture = uzbek
 						female = no
 					}
 					new_character = {				
@@ -587,7 +587,7 @@ character_event = {
 						random_traits = yes
 						dynasty = culture
 						religion = shiite
-						culture = cuman
+						culture = uzbek
 						female = no
 					}
 					new_character = {				
@@ -651,7 +651,7 @@ character_event = {
 						random_traits = yes
 						dynasty = culture
 						religion = shiite
-						culture = andalusian_arabic
+						culture = moroccan
 						female = no
 					}
 					new_character = {				
@@ -817,7 +817,7 @@ character_event = {
 					create_random_soldier = {
 						random_traits = yes
 						dynasty = culture
-						religion = miaphysite
+						religion = armenianapostolic
 						culture = armenian
 						female = no
 					}
@@ -850,7 +850,7 @@ character_event = {
 						random_traits = yes
 						dynasty = culture
 						religion = catholic
-						culture = frankish
+						culture = french
 						female = no
 					}
 					new_character = {				
@@ -946,7 +946,7 @@ character_event = {
 						random_traits = yes
 						dynasty = culture
 						religion = catholic
-						culture = german
+						culture = bavarian
 						female = no
 					}
 					new_character = {				
@@ -978,7 +978,7 @@ character_event = {
 						random_traits = yes
 						dynasty = culture
 						religion = catholic
-						culture = italian
+						culture = venetian
 						female = no
 					}
 					new_character = {				
@@ -3161,7 +3161,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	religion = buddhist
+	religion_group = buddhist_group
 	only_rulers = yes
 	min_age = 16
 	capable_only = yes
@@ -3301,7 +3301,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_rulers = yes
-	religion = buddhist
+	religion_group = buddhist_group
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -3436,7 +3436,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_rulers = yes
-	religion = buddhist
+	religion_group = buddhist_group
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -3518,7 +3518,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_rulers = yes
-	religion = buddhist
+	religion_group = buddhist_group
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -3633,7 +3633,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_rulers = yes
-	religion = buddhist
+	religion_group = buddhist_group
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -3738,7 +3738,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_rulers = yes
-	religion = buddhist
+	religion_group = buddhist_group
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -3829,7 +3829,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	only_rulers = yes
-	religion = buddhist
+	religion_group = buddhist_group
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -4015,7 +4015,7 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	religion = buddhist
+	religion_group = buddhist_group
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -4029,7 +4029,7 @@ character_event = {
 		in_command = no
 		prisoner = no
 		spouse = {
-			religion = buddhist
+			religion_group = buddhist_group
 			prisoner = no
 			is_alive = yes
 			OR = {
