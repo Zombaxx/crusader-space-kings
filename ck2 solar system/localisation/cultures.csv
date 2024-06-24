@@ -2,6 +2,7 @@ garde#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 k_title;Title;Title;Title;;Title;;;;;;;;;x
 k_title_adj;Title;Title;Title;;Title;;;;;;;;;x
 british;Pryton;;;;;;;;;x
+kamatic;Kamatic;;;;;;;;;x
 wallachian;Muntean;;;;;;;;;;;;;x
 arvanitika;Arvanitika;;;;;;;;;;;;;x
 transylvanian;Ardelean;;;;;;;;;;;;;x
@@ -12,6 +13,7 @@ romanian;Romana;Romanian;Romanian;;Romanian;;;;;;;;;x
 lichtensteiner;Liechtensteiner;Liechtensteiner;Liechtensteiner;;Liechtensteiner;;;;;;;;;x
 sevillian;Sevillian;;;;;;;;;x
 romani;Roma;;;;;;;;;x
+lutheran;Liturgical;Liturgical;Liturgical;;Liturgical;;;;;;;;;x
 brittannic;Brittannic;Brittannic;Brittannic;;Brittannic;;;;;;;;;x
 austrian;Osterreichisch;Austrian;Austrian;;Austrian;;;;;;;;;x
 armenian_group;Armenianophone;;;;;;;;;x
@@ -21,6 +23,80 @@ hadramauti;Hadhrami;x
 malay_group;Malayic;x
 iban_dayakic;Iban-Dayakic;x
 aslian;Aslian;x
+savu;Savu;x
+timoric;Timoric;x
+papuan;Papuan;x
+west_papuan;West Papuan;x
+abun_mpuric;Abun-Mpuric;x
+kawaimina;Kawaimina;x
+mambai;Mambai;x
+tetum;Tetum;x
+atoni;Atoni;x
+abui;Abui;;;;;;;;;x
+tutunohan;Tutunohan;;;;;;;;;x
+fataluku;Fataluku;x
+sikka;Sikka;x
+alor;Alor;;;;;;;;;x
+lamma;Lamma;;;;;;;;;x
+kamang;Kamang;;;;;;;;;x
+klon;Klon;;;;;;;;;x
+lamaholot;Lamaholot;;;;;;;;;x
+ende;Ende;x
+lio;Lio;x
+nage;Nage;x
+ngadha;Ngadha;x
+kepo;Kepo;x
+worrorro;Worrorro;x
+wunambal;Wunambal;x
+miriwung;Miriwung;x
+kitia;Kitia;x
+ngarinman;Ngarinman;x
+tiwi;Tiwi;x
+kunwinjku;Kuwinjku;x
+ndjebbana;Ndjebbana;x
+yolngu;Yolngu;x 
+warnumamalya;Warnumamalya;x 
+nunggubuyu;Nunggubuyu;x 
+yanyuwa;Yanyuwa;x
+ngalakgan;Ngalakgan;x
+oz_kriol;Kriol;x
+wagaman;Wagaman;x
+wardaman;Wardaman;x
+abun;Abun;;;;;;;;x
+mpur;Mpur;;;;;;;;x
+tok_pisin;Tok Pisin;;;;;;;;x
+unserdeustch;Unserdeustch;;;;;;;;x
+arandai;Arandai;;;;;;;;x
+kokoda;Kokoda;;;;;;;;x
+wamesa;Wamesa;;;;;;;;x
+kalamang;Kalamang;;;;;;;;x
+maybrat;Maybrat;;;;;;;;x
+tehit;Tehit;;;;;;;;x
+seget_moi;Seget-Moi;;;;;;;;x
+biak;Biak;;;;;;;;x
+matbat;Matbat;;;;;;;;x
+alune;Alune;;;;;;;;x
+north_wemale;North Wemale;;;;;;;;x
+south_wemale;South Wemale;;;;;;;;x
+teluti;Teluti;;;;;;;;x
+masiwang;Masiwang;;;;;;;;x
+geser_gorom;Geser-Gorom;;;;;;;;x
+kei;Kei;;;;;;;;x
+luang;Luang;;;;;;;;x
+babar;Babar;;;;;;;;x
+yamdena;Yamdena;;;;;;;;x
+selaru;Selaru;;;;;;;;x
+fordata;Fordata;;;;;;;;x
+tsimshian;Ts'msyan;;;;;;;;x
+tsimshian_group;Tsimshianic;;;;;;;;x
+daxunhyuu;DAXunhyuu;;;;;;;;x
+daxunhyuu_group;Eyak;;;;;;;;x
+haida;Xaayda;;;;;;;;x
+haida_group;Haida;;;;;;;;x
+aboriginal;Aboriginal;x
+palue;Palu'e;x
+manggarai;Manggarai;x
+makasae;Makasae;x
 borneonic;Borneonic;x
 bali_sumbawa;Bali-Sumbawa;x
 bandanic;Bandanic;x
@@ -30,13 +106,25 @@ samawa;Samawa;x
 sumatric;Sumatric;x
 segai;Segai;x
 singapura;Singapura;x
-malay;Malay;x
+malay;Melayu;x
 cina;Cina;x
 nias;Nias;x
 simoloe;Simoloe;x
 mantawai;Mantawai;x
 semelai;Semelai;x
 temiar;Temiar;x
+pelau;Pelau;x
+waab;Wa'ab;x
+chomorro;Chomorro;;;;;;;;x
+polynesian;Polynesian;;;;;;;;x
+ambon;Ambon;;;;;;;;x
+togutile;Togutile;;;;;;;;x
+tidore;Tidore;;;;;;;;x
+ternate;Ternate;;;;;;;;x
+galela;Galela;;;;;;;;x
+tobelo;Tobelo;;;;;;;;x
+australian;Australian;;;;;;;;x
+darwinian;Topender;;;;;;;;x
 xinan;Xinan;;;;;;;;;;;;x
 qiangic;Qiangic;;;;;;;;;;;;x
 rrmea;Rrmea;;;;;;;;;;;;x
@@ -52,25 +140,38 @@ jin;Jin;;;;;;;;;;;;x
 manchurian;Manzhou;;;;;;;;;;;;x
 keninjal;Keninjal;x
 seberuang;Seberuang;x
-kutainese;Kutainese;x
+kutainese;Kutai;x
 lawangan;Lawangan;x
 goidelic;Goidelic;;;;;;;;;;x
 brythonic;Brythonic;;;;;;;;;;x
-aceh;Aceh;x
+aceh;Acèh;x
 batak;Batak;x
 minangkabau;Minangkabau;x
-duano;Duano;x
-jambi_malay;Jambi Malay;x
+duano;Duano';x
+borneo_malay;Borneo-Kalimantan;x
+kelantan_patani;Klatè-Taning;x
+reman_malay;Reman;x
+kedah_malay;Utagha;x
+pahang_malay;Paha;x
+terengganu_malay;Tranung;x
+melaka_malay;Melaka;x
+johor_riau;Johor-Riau;x
+riau_sumatra;Riau Daratan;x
+jambi_malay;Melayu Jambi;x
+cocos_malay;Melayu Kokos;x
+langkapuri;Langkapuri;x
 musi;Musi;x
 bangka;Bangka;x
-java;Java;x
+java;Jawa;x
+sunda;Sunda;x
 bali;Bali;x
+high_bali;Bali Singgih;x
 madura;Madura;x
 kadazan;Kadazan;x
 brunei;Brunei;x
 iban;Iban;x
 punan;Punan;x
-kendayan;Kendayan;x
+kendayan;Kanayatn;x
 hokkien;Hokkien;x
 dayak;Dayak;x
 banjar;Banjar;x
@@ -79,10 +180,15 @@ ngaju;Ngaju;x
 kenyah;Kenyah;x
 penan;Penan;x
 murut;Murut;x
+indonesian;Indonesia;;;;;;;;;x
 morisco;Morisco;;;;;;;;;x
 gallo;Galo;;;;;;;;;x
 senufo;Senufo;;;;;;;;;x
 arbereshe;Arbëreshë;;;;;;;;;x
+esperantic;Esperantic;;;;;;;;;x
+jamaican;Jamiekan;;;;;;;;;;;;x;
+anglo_caribbean;Anglo-Caribbean;;;;;;;;;;;;x;
+esperanti;Esperanti;;;;;;;;;x
 altaic_hellene;Altaic Hellene;;;;;;;;;x
 grekter;Grekter;;;;;;;;;x
 dagur;Dagur;;;;;;;;;x
@@ -160,6 +266,7 @@ cushitic;Cushitic;;;;;;;;;x;;;;
 afari;Afari;;;;;;;;;x
 oromos;Oromos;;;;;;;;;x
 tigray;Tigray;;;;;;;;;x
+mansi;Mansi;;;;;;;;;x
 eastern_sudanic;Eastern Sudanic;;;;;;;;;x
 abbala_arabic;Abbala Arabic;;;;;;;;;x
 senegambian;Senegambian;;;;;;;;;x
@@ -174,6 +281,8 @@ kosak;Kosak;;;;;;;;;x
 pietrovan;Piterskiy;;;;;;;;;x
 swiss;Swisch;;;;;;;;;x
 socotri;Soqotri;;;;;;;;;x
+mehri;Mehri;;;;;;;;;x
+jibbali;Jibbali;;;;;;;;;x
 picard;Picard;;;;;;;;;x
 afghan;Pashtun;;;;;;;;;x
 traveller;Lucht Siúil;;;;;;;;;x
@@ -204,6 +313,7 @@ altaic_germanic;Altaic Germanic;;;;;;;;;x
 far_east_slavic;Far East Slavic;;;;;;;;;x
 bavarian;Bayerisch;Bavarian;Bavarian;;Bavarian;;;;;;;;;x
 rheinlander;Rheinisch;;;;;;;;;x
+turkisch;Türkisch;;;;;;;;;x
 brandenburger;Brandenburgisch;;;;;;;;;;x
 swabian;Schwabisch;Swabian;Swabian;;Swabian;;;;;;;;;x
 prussian;Pommersch;;;;;;;;;x
@@ -214,8 +324,6 @@ schleswigvolk;Schleswigvolk;Schleswigvolk;Schleswigvolk;;Schleswigvolk;;;;;;;;;x
 germanic;Central Germanic;;;;;;;;;x
 germanic_opinion;Central Germanic Opinion;;;;;;;;;x
 hessian_opinion;[hessian.GetName] Opinion;;;;;;;;;x
-solar_opinion;[solar.GetName] Opinion;;;;;;;;;x
-kemetic_opinion;[kemetic.GetName] Opinion;;;;;;;;;x
 farlander;Farlander;Farlander;Farlander;;Farlander;;;;;;;;;x
 french;Métropolitain;;;;;;;;;;;;;x
 occitan;Asciton;;;;;;;;;;;;;x
@@ -225,8 +333,8 @@ jugoslavi;Jugoslavenski;;;;;;;;;x
 corsu;Corsu;Corsu;Corsu;;Corsu;;;;;;;;;x
 francophone;Francophone;;;;;;;;;;x
 apeninian;Italophone;;;;;;;;;x
-sard;Sard;Sard;Sard;;Sard;;;;;;;;;x
-sicilian;Sicilano;Sicilian;Sicilian;;Sicilian;;;;;;;;;x
+sard;Sardu;Sardu;Sardu;;Sardu;;;;;;;;;x
+sicilian;Sicilanu;Sicilianu;Sicilianu;;Sicilianu;;;;;;;;;x
 low_german;Plattdüütsch;;;;;;;;;x
 saxon;Sassisch;;;;;;;;;;;;;x
 castilian;Castellano;Castilian;Castilian;;Castilian;;;;;;;;;x
@@ -246,7 +354,7 @@ moravian;Moravsky;;;;;;;;;x
 ukrainer;Ukraïnskiy;;;;;;;;;x
 cossack;Kozak;;;;;;;;;x
 aragonese;Aragones;Aragonese;Aragonese;;Aragonese;;;;;;;;;x
-sanmarinese;San Marinese;San Marinese;San Marinese;;San Marinese;;;;;;;;;x
+sanmarinese;Rumagnôl;Rumagnôl;Rumagnôl;;Rumagnôl;;;;;;;;;x
 israeli;Ivri;Ivri;Ivri;;Ivri;;;;;;;;;x
 yemeni;Yamani;;;;;;;;;x
 omani;'Umani;;;;;;;;;x
@@ -274,7 +382,7 @@ kumyk;Qumuq;;;;;;;;;x
 balkar;Malqar;;;;;;;;;x
 caucasian;Caucasian;;;;;;;;;x
 icelander;Islendingur;;;;;;;;;x
-greenlander;Greenlander;;;;;;;;;x
+greenlander;Grønlænder;;;;;;;;;x
 saran;Kanuri;;;;;;;;;x
 moldavian;Moldoveneasca;;;;;;;;;x
 nigeren;Ayneha;;;;;;;;;x
@@ -324,17 +432,17 @@ toubu;Dazaga;;;;;;;;;x
 doggerlander;Doggersker;;;;;;;;;x
 barbariyya;Tanfusit;;;;;;;;;x
 ulsterite;Norner;;;;;;;;;x
-piemontese;Piemontese;;;;;;;;;x
+piemontese;Piemontèis;;;;;;;;;x
 munda;Munda;;;;;;;;;x
 khasic;Khasi;;;;;;;;;x
 brahui;Brahui;;;;;;;;;x
 qashqai;Qashqui;;;;;;;;;x
 tuscanian;Tuscano;;;;;;;;;x
-emilian;Emiliano;;;;;;;;;x
-lombard;Lombardo;;;;;;;;;x
-venetian;Veneziano;;;;;;;;;x
+emilian;Emigliân;;;;;;;;;x
+lombard;Lumbard;;;;;;;;;x
+venetian;Vèneto;;;;;;;;;x
 lazian;Laziale;;;;;;;;;x
-neapolitan;Napoletano;;;;;;;;;x
+neapolitan;Napulitano;;;;;;;;;x
 pugliese;Pugliese;;;;;;;;;x
 thai;Southern Tai;;;;;;;;;x
 viet;Vietic;;;;;;;;;x
@@ -391,7 +499,9 @@ u_tsang;Ü-Tsang;;;;;;;;;x
 bhutanese;Drukpa;;;;;;;;;x
 griko;Griko;;;;;;;;;x
 north_atlantic;North Atlantic;;;;;;;;;x
-near_eastern;Near Eastern;;;;;;;;;x
+near_eastern;Aramaic;;;;;;;;;x
+hebrewic;Hebraic;;;;;;;;;x
+dhofaric;Dhofaric;;;;;;;;;x
 niger_congolese;Niger-Congolese;;;;;;;;;x
 chadic;Chadic;;;;;;;;;x
 bole;Bole;;;;;;;;;x
@@ -428,6 +538,8 @@ buryat;Buryaad;;;;;;;;;x
 manx;Manninee;;;;;;;;;x
 evenk;Evenki;;;;;;;;;x
 novorusskiy;Nowii Russkii;;;;;;;;;x
+kitaiskiy;Kitaiskiy;;;;;;;;;x
+chosonskii;Chosonskii;;;;;;;;;x
 montenegrin;Crnogorski;;;;;;;;;x
 faroyingar;Faroyingar;;;;;;;;;x
 low_bhutanese;Low Drukpa;;;;;;;;;x
@@ -459,6 +571,7 @@ kyolish;Kjolsk;;;;;;;;;;x
 klynian;Klynska;;;;;;;;;;;;;x
 frencig;Ffrencyg;;;;;;;;;;;;;x
 bengali;Bangla;;;;;;;;;;;;;x
+chittagoni;Chottogromi;;;;;;;;;;;;;x
 assamese;Asamiya;;;;;;;;;;;;;x
 panjabi;Panjabi;;;;;;;;;;;;;x
 assyrian;Suraya;;;;;;;;;;;;;x
@@ -486,6 +599,7 @@ bulgarian;Bulgarski;;;;;;;;;;;x
 hungarian;Magyar;;;;;;;;;;;;x
 tot;Tót;;;;;;;;;;;;x
 ruten;Rutén;;;;;;;;;;;;x
+hajdu;Hajdú;;;;;;;;;;;;x
 lithuanian;Lietuvis;;;;;;;;;;x
 ethiopian;Amharas;;;;;;;;;;;;x
 bedouin_arabic;Badawi;;;;;;;;;;;;x
@@ -508,7 +622,6 @@ chuvash;Cavašla;;;;;;;;;x;;;;
 mari;Mariy;;;;;;;;;x;;;;
 georgian;Kartuli;;;;;;;;;;x
 irish;Éireannach Bhocht;;;;;;;;;;x
-brebharnach;Brébharnach;;;;;;;;;;x
 high_irish;Chonnachtannach;;;;;;;;;;x
 munsterian;Mumhannach;;;;;;;;;;x
 ulsterian;Úlaidhannach;;;;;;;;;;x
@@ -551,8 +664,11 @@ khaliji;Khaleeji;;;;;;;;x
 portuguese;Portugues;;;;;;;;;;x
 armenian;Hay;;;;;;;;;;x
 dutch;Nederlander;;;;;;;;;;x
-swedish;Svealanning;;;;;;;;;;x
-norwegian;Norsk;;;;;;;;;;x
+swedish;Svealandsk;;;;;;;;;;x
+finnswede;Finlandssvensk;;;;;;;;;;x
+swedefinn;Sverigefinnsk;;;;;;;;;;x
+norwegian;Ostsk;;;;;;;;;;x
+vestsk;Vestsk;;;;;;;;;;x
 danish;Dansk;;;;;;;;;;x
 german;Deutsche;;;;;;;;;;x
 turkish;Trakyali;;;;;;;;;;x
@@ -564,19 +680,82 @@ asian_anglophone;Asian-Anglophone;;;;;;;;;;x
 taglish;Taglish;;;;;;;;;;x
 tagalog;Tagalog;;;;;;;;;;x
 amerikano;Balikatenyo;;;;;;;;;;x
-austronesian;Philippinic;;;;;;;;;;x
+austronesian;Central Philippinic;;;;;;;;;;x
+north_philippinic;North Philippinic;;;;;;;;;;x
+south_philippinic;South Philippinic;;;;;;;;;;x
 batangenyo;Batangenyo;;;;;;;;;;x
 ilocano;Ilocano;;;;;;;;;;x
 kapampangan;Kapampangan;;;;;;;;;;x
 hiligaynon;Hiligaynon;;;;;;;;;;x
 cebuano;Cebuano;;;;;;;;;;x
+waray;Waray;;;;;;;;;;x
+dabaw;Dabawenyo;;;;;;;;;;x
+kamayo;Kamayo;;;;;;;;;;x
+tandaganon;Tandaganon;;;;;;;;;;x
+butuan;Butuanon;;;;;;;;;;x
+kalagan;Kalagan;;;;;;;;;;x
+manobo;Manobo;;;;;;;;;;x
+subanon;Subanon;;;;;;;;;;x
 yakan;Yakan;;;;;;;;;;x
 bicol;Bicol;;;;;;;;;;x
 cuyanyo;Cuyanyo;;;;;;;;;;x
+talaud;Talaud;;;;;;;;;;x
+minhasa;Minhasa;;;;;;;;;;x
+mongondow;Mongondow;;;;;;;;;;x
+hulontalo;Hulontalo;;;;;;;;;;x
+bunda;Bunda;;;;;;;;;;x
+bintauna;Bintauna;;;;;;;;;;x
+vuolo;Vuolo;;;;;;;;;;x
+sulawesic;Sulawesic;;;;;;;;;;x
+celebic;Celebic;;;;;;;;;;x
+lauje;Lauje;;;;;;;;;;x
+tialo;Tialo;;;;;;;;;;x
+totoli;Totoli;;;;;;;;;;x
+pendau;Pendau;;;;;;;;;;x
+kaili;Kaili;;;;;;;;;;x
+tukang_besi;Tukang Besi;;;;;;;;;;x
+bonerate;Bonerate;;;;;;;;;;x
+mamuju;Mamuju;;;;;;;;;;x
+ugi;Ugi;;;;;;;;;;x
+mangkasara;Mangkasara;;;;;;;;;;x
+pannei;Pannei;;;;;;;;;;x
+seko;Seko;;;;;;;;;;x
+mandar;Mandar;;;;;;;;;;x
+sadan;Sa'dan;;;;;;;;;;x
+pamona;Pamona;;;;;;;;;;x
+mori_bawah;Mori Bawah;;;;;;;;;;x
+taloki;Taloki;;;;;;;;;;x
+saluan;Saluan;;;;;;;;;;x
+balantak;Balantak;;;;;;;;;;x
+moronene;Moronene;;;;;;;;;;x
+taliabo;Taliabo;;;;;;;;;;x
+muna;Muna;;;;;;;;;;x
+kulisusu;Kalisusu;;;;;;;;;;x
+buton;Buton;;;;;;;;;;x
+bungku;Bungku;;;;;;;;;;x
+banggai;Banggai;;;;;;;;;;x
+wowoni;Wowoni;;;;;;;;;;x
+malukic;Malukic;;;;;;;;;;x
+lisela;Lisela;;;;;;;;;;x
+sula;Sula;;;;;;;;;;x
+buru;Buru;;;;;;;;;;x
+ambelau;Ambelau;;;;;;;;;;x
+mangole;Mangole;;;;;;;;;;x
+manipa;Manipa;;;;;;;;;;x
+boano;Boano;;;;;;;;;;x
+gane;Gane;;;;;;;;;;x
+weda;Weda;;;;;;;;;;x
+patani;Patani;;;;;;;;;;x
+gebe;Gebe;;;;;;;;;;x
+selayar;Selayar;;;;;;;;;;x
+modo;Modo;;;;;;;;;;x
 tausug;Tausug;;;;;;;;;;x
+maranao;Maranao;;;;;;;;;;x
+maguindanao;Maguindanao;;;;;;;;;;x
 aeta_group;Aeta;;;;;;;;;;x
 luzontribals;Ivatan;;;;;;;;;;x
 ifugao;Ifugao;;;;;;;;;;x
+tboli;T'boli;;;;;;;;;;x
 hispano_austronesian;Hispano-Philippinic;;;;;;;;;;x
 chavacano;Chavacano;;;;;;;;;;x
 ;;;;;;;;;;;;;;;;;
@@ -712,7 +891,9 @@ oglallan;Clydbraek;;;;;;;;;;x
 romansch;Romansch;;;;;;;;;;x
 ladin;Ladin;;;;;;;;;;x
 furlan;Furlan;;;;;;;;;;x
-alpinian;Miscellophone;;;;;;;;;;x
+alpinian;Rhaetophone;;;;;;;;;;x
+aleman;Aleman;;;;;;;;;;x
+rottisch;Rottisch;;;;;;;;;;x
 burgundian;Bourguignons;;;;;;;;;;x
 poitevin;Poitvannais;;;;;;;;;;x
 norman;Normaund;;;;;;;;;;x
@@ -762,7 +943,6 @@ crimean;Krimskiy;;;;;;;;;;;;;x
 hessian;Hessisch;;;;;;;;;;;;;x
 kashubian;Kaszëbsczi;;;;;;;;;;;;x;
 high_american;High American;;;;;;;;;;;;x;
-american;American;;;;;;;;;;;;x;
 federalist;Federalist;;;;;;;;;;;;x;
 laurentian;Laurentian;;;;;;;;;;;;x;
 lakelanders;Lakelander;;;;;;;;;;;;x;
@@ -869,6 +1049,9 @@ kingdom_of_argento;Sheinó dí;;;;;;;;;x
 emperor_argento;Kaudishó;;;;;;;;;x
 emperor_female_argento;Kaudishá;;;;;;;;;x
 empire_of_argento;Lijá dí;;;;;;;;;x
+duke_kamatic;Dduky;Dduky;Dduky;;Dduky;;;;;;;;;x
+duke_female_kamatic;Dduchyss;Dduchyss;Dduchyss;;Dduchyss;;;;;;;;;x
+duchy_of_kamatic;Dduchy wff;Dduchy wff;Dduchy wff;;Dduchy wff;;;;;;;;;x
 duke_british;Dduky;Dduky;Dduky;;Dduky;;;;;;;;;x
 duke_female_british;Dduchyss;Dduchyss;Dduchyss;;Dduchyss;;;;;;;;;x
 duchy_of_british;Dduchy wff;Dduchy wff;Dduchy wff;;Dduchy wff;;;;;;;;;x
@@ -917,6 +1100,9 @@ duchy_of_ulsterite;Duchy of;Duchy of;Duchy of;;Duchy of;;;;;;;;;x
 count_british;Yarhl;Yarhl;Yarhl;;Yarhl;;;;;;;;;x
 count_female_british;Cwuntyss;Cwuntyss;Cwuntyss;;Cwuntyss;;;;;;;;;x
 count_of_british;Yarhlddwm wff;Yarhlddwm wff;Yarhlddwm wff;;Yarhlddwm wff;;;;;;;;;
+count_kamatic;Yarhl;Yarhl;Yarhl;;Yarhl;;;;;;;;;x
+count_female_kamatic;Cwuntyss;Cwuntyss;Cwuntyss;;Cwuntyss;;;;;;;;;x
+count_of_kamatic;Yarhlddwm wff;Yarhlddwm wff;Yarhlddwm wff;;Yarhlddwm wff;;;;;;;;;
 count_southener;Yarl;Yarl;Yarl;;Yarl;;;;;;;;;x
 count_female_southener;Kwuntyss;Kwuntyss;Kwuntyss;;Kwuntyss;;;;;;;;;x
 county_of_southener;Yarlddwm wff;Yarlddwm wff;Yarlddwm wff;;Yarlddwm wff;;;;;;;;;
@@ -938,9 +1124,15 @@ county_of_ulsterite;Earldom of;Earldom of;Earldom of;;Earldom of;;;;;;;;;
 king_british;Gwwyyrhnwr;Gwwyyrhnwr;Gwwyyrhnwr;;Gwwyyrhnwr;;;;;;;;;x
 king_female_british;Gwwyyrhnyss;Gwwyyrhnyss;Gwwyyrhnyss;;Gwwyyrhnyss;;;;;;;;;x
 kingdom_of_british;Gwwyyrhnwraty wff;Gwwyyrhnwraty wff;Gwwyyrhnwraty wff;;Gwwyyrhnwraty wff;;;;;;;;;x
+king_kamatic;Gwwyyrhnwr;Gwwyyrhnwr;Gwwyyrhnwr;;Gwwyyrhnwr;;;;;;;;;x
+king_female_kamatic;Gwwyyrhnyss;Gwwyyrhnyss;Gwwyyrhnyss;;Gwwyyrhnyss;;;;;;;;;x
+kingdom_of_kamatic;Gwwyyrhnwraty wff;Gwwyyrhnwraty wff;Gwwyyrhnwraty wff;;Gwwyyrhnwraty wff;;;;;;;;;x
 emperor_british;Ympyrhwr;Ympyrhwr;Ympyrhwr;;Ympyrhwr;;;;;;;;;x
 emperor_female_british;Ymprhyss;Ymprhyss;Ymprhyss;;Ymprhyss;;;;;;;;;x
 empire_of_british;Ympyrhy wff;Ympyrhy wff;Ympyrhy wff;;Ympyrhy wff;;;;;;;;;x
+emperor_kamatic;Ympyrhwr;Ympyrhwr;Ympyrhwr;;Ympyrhwr;;;;;;;;;x
+emperor_female_kamatic;Ymprhyss;Ymprhyss;Ymprhyss;;Ymprhyss;;;;;;;;;x
+empire_of_kamatic;Ympyrhy wff;Ympyrhy wff;Ympyrhy wff;;Ympyrhy wff;;;;;;;;;x
 king_southener;Gwwyyrnwr;Gwwyyrnwr;Gwwyyrnwr;;Gwwyyrnwr;;;;;;;;;x
 king_female_southener;Gwwyyrnyss;Gwwyyrnyss;Gwwyyrnyss;;Gwwyyrnyss;;;;;;;;;x
 kingdom_of_southener;Gwwyyrnwraty wff;Gwwyyrnwraty wff;Gwwyyrnwraty wff;;Gwwyyrnwraty wff;;;;;;;;;x
@@ -1202,9 +1394,11 @@ empire_of_zarist;Grand Principality of;;;;;;;;;;;;;x
 emperor_prussian;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_ostprussian;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_brandenburger;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
+emperor_turkisch;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_schleswigvolk;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_low_german;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_swabian;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
+emperor_rottisch;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_bavarian;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_rheinlander;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
 emperor_austrian;Kaiser;Kaiser;Kaiser;;Kaiser;;;;;;;;;x
@@ -1214,8 +1408,10 @@ emperor_female_prussian;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_ostprussian;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_schleswigvolk;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_brandenburger;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
+emperor_female_turkisch;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_low_german;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_swabian;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
+emperor_female_rottisch;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_bavarian;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_rheinlander;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
 emperor_female_austrian;Kasierina;Kasierina;Kasierina;;Kasierina;;;;;;;;;x
@@ -1267,6 +1463,16 @@ county_of_schleswigvolk;Grafschaft of;;;;;;;;;;x
 duchy_of_schleswigvolk;Herzogtum of;;;;;;;;;;x
 kingdom_of_schleswigvolk;Königreich of;;;;;;;;;;x
 empire_of_schleswigvolk;Reich of;;;;;;;;;;x
+count_turkisch;Graf;Graf;Graf;;Graf;;;;;;;;;x
+count_female_turkisch;Gräfin;Gräfin;Gräfin;;Gräfin;;;;;;;;;x
+duke_turkisch;Herzog;Herzog;Herzog;;Herzog;;;;;;;;;x
+duke_female_turkisch;Herzogin;Herzogin;Herzogin;;Herzogin;;;;;;;;;x
+king_turkisch;König;König;König;;König;;;;;;;;;x
+king_female_turkisch;Königin;Königin;Königin;;Königin;;;;;;;;;x
+county_of_turkisch;Grafschaft of;;;;;;;;;;x
+duchy_of_turkisch;Herzogtum of;;;;;;;;;;x
+kingdom_of_turkisch;Königreich of;;;;;;;;;;x
+empire_of_turkisch;Reich of;;;;;;;;;;x
 count_brandenburger;Graf;Graf;Graf;;Graf;;;;;;;;;x
 count_female_brandenburger;Gräfin;Gräfin;Gräfin;;Gräfin;;;;;;;;;x
 duke_brandenburger;Herzog;Herzog;Herzog;;Herzog;;;;;;;;;x
@@ -1297,6 +1503,16 @@ county_of_swabian;Grafschaft of;;;;;;;;;;x
 duchy_of_swabian;Herzogtum of;;;;;;;;;;x
 kingdom_of_swabian;Königreich of;;;;;;;;;;x
 empire_of_swabian;Reich of;;;;;;;;;;x
+count_rottisch;Graf;Graf;Graf;;Graf;;;;;;;;;x
+count_female_rottisch;Gräfin;Gräfin;Gräfin;;Gräfin;;;;;;;;;x
+duke_rottisch;Herzog;Herzog;Herzog;;Herzog;;;;;;;;;x
+duke_female_rottisch;Herzogin;Herzogin;Herzogin;;Herzogin;;;;;;;;;x
+king_rottisch;König;König;König;;König;;;;;;;;;x
+king_female_rottisch;Königin;Königin;Königin;;Königin;;;;;;;;;x
+county_of_rottisch;Grafschaft of;;;;;;;;;;x
+duchy_of_rottisch;Herzogtum of;;;;;;;;;;x
+kingdom_of_rottisch;Königreich of;;;;;;;;;;x
+empire_of_rottisch;Reich of;;;;;;;;;;x
 count_bavarian;Graf;Graf;Graf;;Graf;;;;;;;;;x
 count_female_bavarian;Gräfin;Gräfin;Gräfin;;Gräfin;;;;;;;;;x
 duke_bavarian;Herzog;Herzog;Herzog;;Herzog;;;;;;;;;x
@@ -1425,43 +1641,43 @@ empire_of_luxembourgish;Räich of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 count_armenian;Koms;Koms;Koms;;Koms;;;;;;;;;x
 count_female_armenian;Komsuhi;Komsuhi;Komsuhi;;Komsuhi;;;;;;;;;x
-duke_armenian;Duk’s;Duk’s;Duk’s;;Duk’s;;;;;;;;;x
-duke_female_armenian;Dk’suhi;Dk’suhi;Dk’suhi;;Dk’suhi;;;;;;;;;x
-king_armenian;T’agavor;T’agavor;T’agavor;;T’agavor;;;;;;;;;x
-king_female_armenian;T’aguhi;T’aguhi;T’aguhi;;T’aguhi;;;;;;;;;x
+duke_armenian;Duk's;Duk's;Duk's;;Duk's;;;;;;;;;x
+duke_female_armenian;Dk'suhi;Dk'suhi;Dk'suhi;;Dk'suhi;;;;;;;;;x
+king_armenian;T'agavor;T'agavor;T'agavor;;T'agavor;;;;;;;;;x
+king_female_armenian;T'aguhi;T'aguhi;T'aguhi;;T'aguhi;;;;;;;;;x
 emperor_armenian;Kaysr;Kaysr;Kaysr;;Kaysr;;;;;;;;;x
 emperor_female_armenian;Kaysruhi;Kaysruhi;Kaysruhi;;Kaysruhi;;;;;;;;;x
-county_of_armenian;Komsut’yun of;;;;;;;;;;x
-duchy_of_armenian;Dk’sut’yun of;;;;;;;;;;x
-kingdom_of_armenian;T’agavorut’yun of;;;;;;;;;;x
-empire_of_armenian;Kaysrut’yun of;;;;;;;;;;x
+county_of_armenian;Komsut'yun of;;;;;;;;;;x
+duchy_of_armenian;Dk'sut'yun of;;;;;;;;;;x
+kingdom_of_armenian;T'agavorut'yun of;;;;;;;;;;x
+empire_of_armenian;Kaysrut'yun of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 hemshin;Hamshentsiner;;;;;;;;;x
 count_hemshin;Koms;Koms;Koms;;Koms;;;;;;;;;x
 count_female_hemshin;Komsuhi;Komsuhi;Komsuhi;;Komsuhi;;;;;;;;;x
-duke_hemshin;Duk’s;Duk’s;Duk’s;;Duk’s;;;;;;;;;x
-duke_female_hemshin;Dk’suhi;Dk’suhi;Dk’suhi;;Dk’suhi;;;;;;;;;x
-king_hemshin;T’agavor;T’agavor;T’agavor;;T’agavor;;;;;;;;;x
-king_female_hemshin;T’aguhi;T’aguhi;T’aguhi;;T’aguhi;;;;;;;;;x
+duke_hemshin;Duk's;Duk's;Duk's;;Duk's;;;;;;;;;x
+duke_female_hemshin;Dk'suhi;Dk'suhi;Dk'suhi;;Dk'suhi;;;;;;;;;x
+king_hemshin;T'agavor;T'agavor;T'agavor;;T'agavor;;;;;;;;;x
+king_female_hemshin;T'aguhi;T'aguhi;T'aguhi;;T'aguhi;;;;;;;;;x
 emperor_hemshin;Kaysr;Kaysr;Kaysr;;Kaysr;;;;;;;;;x
 emperor_female_hemshin;Kaysruhi;Kaysruhi;Kaysruhi;;Kaysruhi;;;;;;;;;x
-county_of_hemshin;Komsut’yun of;;;;;;;;;;x
-duchy_of_hemshin;Dk’sut’yun of;;;;;;;;;;x
-kingdom_of_hemshin;T’agavorut’yun of;;;;;;;;;;x
-empire_of_hemshin;Kaysrut’yun of;;;;;;;;;;x
+county_of_hemshin;Komsut'yun of;;;;;;;;;;x
+duchy_of_hemshin;Dk'sut'yun of;;;;;;;;;;x
+kingdom_of_hemshin;T'agavorut'yun of;;;;;;;;;;x
+empire_of_hemshin;Kaysrut'yun of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 count_armyan;Koms;Koms;Koms;;Koms;;;;;;;;;x
 count_female_armyan;Komsuhi;Komsuhi;Komsuhi;;Komsuhi;;;;;;;;;x
-duke_armyan;Duk’s;Duk’s;Duk’s;;Duk’s;;;;;;;;;x
-duke_female_armyan;Dk’suhi;Dk’suhi;Dk’suhi;;Dk’suhi;;;;;;;;;x
-king_armyan;T’agavor;T’agavor;T’agavor;;T’agavor;;;;;;;;;x
-king_female_armyan;T’aguhi;T’aguhi;T’aguhi;;T’aguhi;;;;;;;;;x
+duke_armyan;Duk's;Duk's;Duk's;;Duk's;;;;;;;;;x
+duke_female_armyan;Dk'suhi;Dk'suhi;Dk'suhi;;Dk'suhi;;;;;;;;;x
+king_armyan;T'agavor;T'agavor;T'agavor;;T'agavor;;;;;;;;;x
+king_female_armyan;T'aguhi;T'aguhi;T'aguhi;;T'aguhi;;;;;;;;;x
 emperor_armyan;Kaysr;Kaysr;Kaysr;;Kaysr;;;;;;;;;x
 emperor_female_armyan;Kaysruhi;Kaysruhi;Kaysruhi;;Kaysruhi;;;;;;;;;x
-county_of_armyan;Komsut’yun of;;;;;;;;;;x
-duchy_of_armyan;Dk’sut’yun of;;;;;;;;;;x
-kingdom_of_armyan;T’agavorut’yun of;;;;;;;;;;x
-empire_of_armyan;Kaysrut’yun of;;;;;;;;;;x
+county_of_armyan;Komsut'yun of;;;;;;;;;;x
+duchy_of_armyan;Dk'sut'yun of;;;;;;;;;;x
+kingdom_of_armyan;T'agavorut'yun of;;;;;;;;;;x
+empire_of_armyan;Kaysrut'yun of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 count_azerbaijani;Bey;Bey;Bey;;Bey;;;;;;;;;x
 count_female_azerbaijani;Begum;Begum;Begum;;Begum;;;;;;;;;x
@@ -1483,11 +1699,11 @@ duke_female_georgian;Hertsoginia;Hertsoginia;Hertsoginia;;Hertsoginia;;;;;;;;;x
 king_georgian;Mepe;Mepe;Mepe;;Mepe;;;;;;;;;x
 king_female_georgian;Dedopali;Dedopali;Dedopali;;Dedopali;;;;;;;;;x
 emperor_georgian;Mepetmepe;Mepetmepe;Mepetmepe;;Mepetmepe;;;;;;;;;x
-emperor_female_georgian;Imp’erat’ritsa;Imp’erat’ritsa;Imp’erat’ritsa;;Imp’erat’ritsa;;;;;;;;;x
+emperor_female_georgian;Imp'erat'ritsa;Imp'erat'ritsa;Imp'erat'ritsa;;Imp'erat'ritsa;;;;;;;;;x
 county_of_georgian;Ubani of;;;;;;;;;;x
 duchy_of_georgian;Mkhare of;;;;;;;;;;x
 kingdom_of_georgian;Samepo of;;;;;;;;;;x
-empire_of_georgian;Imp’eria of;;;;;;;;;;x
+empire_of_georgian;Imp'eria of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 mingrelian;Margalefi;;;;;;;;;;x
 svan;Shvanar;;;;;;;;;;x
@@ -1499,11 +1715,11 @@ duke_female_mingrelian;Hertsoginia;Hertsoginia;Hertsoginia;;Hertsoginia;;;;;;;;;
 king_mingrelian;Mepe;Mepe;Mepe;;Mepe;;;;;;;;;x
 king_female_mingrelian;Dedopali;Dedopali;Dedopali;;Dedopali;;;;;;;;;x
 emperor_mingrelian;Mepetmepe;Mepetmepe;Mepetmepe;;Mepetmepe;;;;;;;;;x
-emperor_female_mingrelian;Imp’erat’ritsa;Imp’erat’ritsa;Imp’erat’ritsa;;Imp’erat’ritsa;;;;;;;;;x
+emperor_female_mingrelian;Imp'erat'ritsa;Imp'erat'ritsa;Imp'erat'ritsa;;Imp'erat'ritsa;;;;;;;;;x
 county_of_mingrelian;Ubani of;;;;;;;;;;x
 duchy_of_mingrelian;Mkhare of;;;;;;;;;;x
 kingdom_of_mingrelian;Samepo of;;;;;;;;;;x
-empire_of_mingrelian;Imp’eria of;;;;;;;;;;x
+empire_of_mingrelian;Imp'eria of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 count_svan;Grapi;Grapi;Grapi;;Grapi;;;;;;;;;x
 count_female_svan;Grapinia;Grapinia;Grapinia;;Grapinia;;;;;;;;;x
@@ -1512,11 +1728,11 @@ duke_female_svan;Hertsoginia;Hertsoginia;Hertsoginia;;Hertsoginia;;;;;;;;;x
 king_svan;Mepe;Mepe;Mepe;;Mepe;;;;;;;;;x
 king_female_svan;Dedopali;Dedopali;Dedopali;;Dedopali;;;;;;;;;x
 emperor_svan;Mepetmepe;Mepetmepe;Mepetmepe;;Mepetmepe;;;;;;;;;x
-emperor_female_svan;Imp’erat’ritsa;Imp’erat’ritsa;Imp’erat’ritsa;;Imp’erat’ritsa;;;;;;;;;x
+emperor_female_svan;Imp'erat'ritsa;Imp'erat'ritsa;Imp'erat'ritsa;;Imp'erat'ritsa;;;;;;;;;x
 county_of_svan;Ubani of;;;;;;;;;;x
 duchy_of_svan;Mkhare of;;;;;;;;;;x
 kingdom_of_svan;Samepo of;;;;;;;;;;x
-empire_of_svan;Imp’eria of;;;;;;;;;;x
+empire_of_svan;Imp'eria of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 count_abkhazian;Aznauri;Aznauri;Aznauri;;Aznauri;;;;;;;;;x
 count_female_abkhazian;Grapinia;Grapinia;Grapinia;;Grapinia;;;;;;;;;x
@@ -1525,11 +1741,11 @@ duke_female_abkhazian;Hertsoginia;Hertsoginia;Hertsoginia;;Hertsoginia;;;;;;;;;x
 king_abkhazian;Mtavari;Mtavari;Mtavari;;Mtavari;;;;;;;;;x
 king_female_abkhazian;Dedopali;Dedopali;Dedopali;;Dedopali;;;;;;;;;x
 emperor_abkhazian;Mepetmepe;Mepetmepe;Mepetmepe;;Mepetmepe;;;;;;;;;x
-emperor_female_abkhazian;Imp’erat’ritsa;Imp’erat’ritsa;Imp’erat’ritsa;;Imp’erat’ritsa;;;;;;;;;x
+emperor_female_abkhazian;Imp'erat'ritsa;Imp'erat'ritsa;Imp'erat'ritsa;;Imp'erat'ritsa;;;;;;;;;x
 county_of_abkhazian;Ubani of;;;;;;;;;;x
 duchy_of_abkhazian;Mkhare of;;;;;;;;;;x
 kingdom_of_abkhazian;Samepo of;;;;;;;;;;x
-empire_of_abkhazian;Imp’eria of;;;;;;;;;;x
+empire_of_abkhazian;Imp'eria of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 circassian;Adyghe;;;;;;;;;x
 count_circassian;Aznauri;Aznauri;Aznauri;;Aznauri;;;;;;;;;x
@@ -1539,11 +1755,11 @@ duke_female_circassian;Hertsoginia;Hertsoginia;Hertsoginia;;Hertsoginia;;;;;;;;;
 king_circassian;Mtavari;Mtavari;Mtavari;;Mtavari;;;;;;;;;x
 king_female_circassian;Dedopali;Dedopali;Dedopali;;Dedopali;;;;;;;;;x
 emperor_circassian;Mepetmepe;Mepetmepe;Mepetmepe;;Mepetmepe;;;;;;;;;x
-emperor_female_circassian;Imp’erat’ritsa;Imp’erat’ritsa;Imp’erat’ritsa;;Imp’erat’ritsa;;;;;;;;;x
+emperor_female_circassian;Imp'erat'ritsa;Imp'erat'ritsa;Imp'erat'ritsa;;Imp'erat'ritsa;;;;;;;;;x
 county_of_circassian;Ubani of;;;;;;;;;;x
 duchy_of_circassian;Mkhare of;;;;;;;;;;x
 kingdom_of_circassian;Samepo of;;;;;;;;;;x
-empire_of_circassian;Imp’eria of;;;;;;;;;;x
+empire_of_circassian;Imp'eria of;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 count_frisian;Greve;Greve;Greve;;Greve;;;;;;;;;x
 count_female_frisian;Grevinne;Grevinne;Grevinne;;Grevinne;;;;;;;;;x
@@ -1685,6 +1901,10 @@ county_of_dutch;Graafschap of;;;;;;;;;;x
 duchy_of_dutch;Hertogdom of;;;;;;;;;;x
 kingdom_of_dutch;Koninkrijk of;;;;;;;;;;x
 empire_of_dutch;Rijk of;;;;;;;;;;x
+job_chancellor_kamatic;Prime Minister;;;;;;;;;x
+job_marshal_kamatic;Chief of the General Staff;;;;;;;;;x
+job_treasurer_kamatic;Chief Treasurer;;;;;;;;;x
+job_spymaster_kamatic;Director General;;;;;;;;;x
 job_chancellor_british;Prime Minister;;;;;;;;;x
 job_marshal_british;Chief of the General Staff;;;;;;;;;x
 job_treasurer_british;Chief Treasurer;;;;;;;;;x
@@ -1809,6 +2029,7 @@ empire_of_trotskyite;Union of;Union of;Union of;;Union of;;;;;;;;;x
 phonocracy_empire_of_stalinist;Union of;Union of;Union of;;Union of;;;;;;;;;x
 phonocracy_empire_of_leninist;Union of;Union of;Union of;;Union of;;;;;;;;;x
 phonocracy_empire_of_trotskyite;Union of;Union of;Union of;;Union of;;;;;;;;;x
+title_queen_mother_kamatic;Governwess Mother;;;;;;;;;;;;;x
 title_queen_mother_british;Governwess Mother;;;;;;;;;;;;;x
 emperor_title_queen_mother_female_bunjevci;Carica Mother;;;;;;;;;;;;;x
 emperor_title_queen_mother_female_serbian;Carica Mother;;;;;;;;;;;;;x
@@ -2163,6 +2384,39 @@ emperor_female_doggerlander;Kejseronde;;;;;;;;;;;;;x
 empire_of_doggerlander;Empire of;;;;;;;;;;;;;x
 empire_doggerlander;Empire;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
+count_finnswede;Greve;;;;;;;;;;;;;x
+count_female_finnswede;Grevinna;;;;;;;;;;;;;x
+county_of_finnswede;Grevskap of;;;;;;;;;;;;;x
+county_finnswede;Grevskap;;;;;;;;;;;;;x
+duke_finnswede;Hertig;;;;;;;;;;;;;x
+duke_female_finnswede;Hertiginna;;;;;;;;;;;;;x
+duchy_of_finnswede;Hertigdom of;;;;;;;;;;;;;x
+duchy_finnswede;Hertigdom;;;;;;;;;;;;;x
+king_finnswede;Kung;;;;;;;;;;;;;x
+king_female_finnswede;Drottning;;;;;;;;;;;;;x
+kingdom_of_finnswede;Kungarike of;;;;;;;;;;;;;x
+kingdom_finnswede;Kungarike;;;;;;;;;;;;;x
+emperor_finnswede;Kejsare;;;;;;;;;;;;;x
+emperor_female_finnswede;Kejsarinna;;;;;;;;;;;;;x
+empire_of_finnswede;Rike of;;;;;;;;;;;;;x
+empire_finnswede;Rike;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+count_swedefinn;Greve;;;;;;;;;;;;;x
+count_female_swedefinn;Grevinna;;;;;;;;;;;;;x
+county_of_swedefinn;Grevskap of;;;;;;;;;;;;;x
+county_swedefinn;Grevskap;;;;;;;;;;;;;x
+duke_swedefinn;Hertig;;;;;;;;;;;;;x
+duke_female_swedefinn;Hertiginna;;;;;;;;;;;;;x
+duchy_of_swedefinn;Hertigdom of;;;;;;;;;;;;;x
+duchy_swedefinn;Hertigdom;;;;;;;;;;;;;x
+king_swedefinn;Kung;;;;;;;;;;;;;x
+king_female_swedefinn;Drottning;;;;;;;;;;;;;x
+kingdom_of_swedefinn;Kungarike of;;;;;;;;;;;;;x
+kingdom_swedefinn;Kungarike;;;;;;;;;;;;;x
+emperor_swedefinn;Kejsare;;;;;;;;;;;;;x
+emperor_female_swedefinn;Kejsarinna;;;;;;;;;;;;;x
+empire_of_swedefinn;Rike of;;;;;;;;;;;;;x
+empire_swedefinn;Rike;;;;;;;;;;;;;x
 count_swedish;Greve;;;;;;;;;;;;;x
 count_female_swedish;Grevinna;;;;;;;;;;;;;x
 county_of_swedish;Grevskap of;;;;;;;;;;;;;x
@@ -2227,6 +2481,22 @@ emperor_norwegian;Keiser;;;;;;;;;;;;;x
 emperor_female_norwegian;Keiserinne;;;;;;;;;;;;;x
 empire_of_norwegian;Rike of;;;;;;;;;;;;;x
 empire_norwegian;Rike;;;;;;;;;;;;;x
+count_vestsk;Grev;;;;;;;;;;;;;x
+count_female_vestsk;Grevinne;;;;;;;;;;;;;x
+county_of_vestsk;Fylke of;;;;;;;;;;;;;x
+county_vestsk;Fylke;;;;;;;;;;;;;x
+duke_vestsk;Hertug;;;;;;;;;;;;;x
+duke_female_vestsk;Hertuginne;;;;;;;;;;;;;x
+duchy_of_vestsk;Hertugdømme of;;;;;;;;;;;;;x
+duchy_vestsk;Hertugdømme;;;;;;;;;;;;;x
+king_vestsk;Konge;;;;;;;;;;;;;x
+king_female_vestsk;Dronning;;;;;;;;;;;;;x
+kingdom_of_vestsk;Kongedømme of;;;;;;;;;;;;;x
+kingdom_vestsk;Kongedømme;;;;;;;;;;;;;x
+emperor_vestsk;Keiser;;;;;;;;;;;;;x
+emperor_female_vestsk;Keiserinne;;;;;;;;;;;;;x
+empire_of_vestsk;Rike of;;;;;;;;;;;;;x
+empire_vestsk;Rike;;;;;;;;;;;;;x
 count_skanian;Greve;;;;;;;;;;;;;x
 count_female_skanian;Grevinna;;;;;;;;;;;;;x
 county_of_skanian;Grevskap of;;;;;;;;;;;;;x
@@ -2271,6 +2541,23 @@ county_of_basque;Konderria of;;;;;;;;;;x
 duchy_of_basque;Dukerria of;;;;;;;;;;x
 kingdom_of_basque;Erresuma of;;;;;;;;;;x
 empire_of_basque;Inperioa of;;;;;;;;;;x
+;;;;;;;;;;;;;;;;
+k_faroes;Faroes;;;;;;;;;;x
+k_faroes_adj;Feresian;;;;;;;;;;x
+baleazale;Baleazale;;;;;;;;;;x
+count_baleazale;Kondea;Kondea;Kondea;;Kondea;;;;;;;;;x
+count_female_baleazale;Kondesa;Kondesa;Kondesa;;Kondesa;;;;;;;;;x
+duke_baleazale;Dukea;Dukea;Dukea;;Dukea;;;;;;;;;x
+duke_female_baleazale;Dukesa;Dukesa;Dukesa;;Dukesa;;;;;;;;;x
+king_baleazale;Errege;Errege;Errege;;Errege;;;;;;;;;x
+king_female_baleazale;Erregina;Erregina;Erregina;;Erregina;;;;;;;;;x
+emperor_baleazale;Enperadorea;Enperadorea;Enperadorea;;Enperadorea;;;;;;;;;x
+emperor_female_baleazale;Enperatriz;Enperatriz;Enperatriz;;Enperatriz;;;;;;;;;x
+county_of_baleazale;Konderria of;;;;;;;;;;x
+duchy_of_baleazale;Dukerria of;;;;;;;;;;x
+kingdom_of_baleazale;Erresuma of;;;;;;;;;;x
+empire_of_baleazale;Inperioa of;;;;;;;;;;x
+;;;;;;;;;;;;;;;;
 count_irish;Cónt;;;;;;;;;;x
 count_female_irish;Cóntess;;;;;;;;;;x
 duke_irish;Dóke;;;;;;;;;x
@@ -2283,18 +2570,24 @@ county_of_irish;Contae of;;;;;;;;;;x
 duchy_of_irish;Province of;;;;;;;;;;x
 kingdom_of_irish;Ríocht of;;;;;;;;;;x
 empire_of_irish;Taoiseacht of;;;;;;;;;;x
-count_brebharnach;Cónt;;;;;;;;;;x
-count_female_brebharnach;Cóntess;;;;;;;;;;x
-duke_brebharnach;Dóke;;;;;;;;;x
-duke_female_brebharnach;Dókess;;;;;;;;;x
-king_brebharnach;Rí;;;;;;;;;;x
-king_female_brebharnach;Ríon;;;;;;;;;;x
-emperor_brebharnach;Taoiseach;;;;;;;;;;x
-emperor_female_brebharnach;Taoiseach;;;;;;;;;;x
-county_of_brebharnach;Contae of;;;;;;;;;;x
-duchy_of_brebharnach;Province of;;;;;;;;;;x
-kingdom_of_brebharnach;Ríocht of;;;;;;;;;;x
-empire_of_brebharnach;Taoiseacht of;;;;;;;;;;x
+################
+count_celtic_pagan_reformed;Draoi-Cónt;;;;;;;;;x
+duke_celtic_pagan_reformed;Draoi-Dóke;;;;;;;;;x
+king_celtic_pagan_reformed;Draoi-Rí;;;;;;;;;x
+emperor_celtic_pagan_reformed;Draoi-Taoiseach;;;;;;;;;x
+count_female_celtic_pagan_reformed;Draoi-Cóntess;;;;;;;;;x
+duke_female_celtic_pagan_reformed;Draoi-Dókess;;;;;;;;;x
+king_female_celtic_pagan_reformed;Draoi-Ríon;;;;;;;;;x
+emperor_female_celtic_pagan_reformed;Draoi-Taoiseach;;;;;;;;;x
+##############
+count_celtic_pagan;Draoi-Cónt;;;;;;;;;x
+duke_celtic_pagan;Draoi-Dóke;;;;;;;;;x
+king_celtic_pagan;Draoi-Rí;;;;;;;;;x
+emperor_celtic_pagan;Draoi-Taoiseach;;;;;;;;;x
+count_female_celtic_pagan;Draoi-Cóntess;;;;;;;;;x
+duke_female_celtic_pagan;Draoi-Dókess;;;;;;;;;x
+king_female_celtic_pagan;Draoi-Ríon;;;;;;;;;x
+emperor_female_celtic_pagan;Draoi-Taoiseach;;;;;;;;;x
 ##############
 #####;;;;;;;;;;;;;;
 breizhiz;Breizhiz;;;;;;;;;;x
@@ -3682,26 +3975,26 @@ city_king_female_constitutional;Senator;;;;;;;;;;;;;x
 city_emperor_constitutional;Senate President;;;;;;;;;;;;;x
 city_emperor_female_constitutional;Senate President;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;
-baron_constitutional;Commander;;;;;;;;;;;;;x
-baron_female_constitutional;Commander;;;;;;;;;;;;;x
-barony_of_constitutional;Fort of;;;;;;;;;;;;;x
-barony_constitutional;Fort;;;;;;;;;;;;;x
+baron_constitutional;Petty Officer;;;;;;;;;;;;;x
+baron_female_constitutional;Petty Officer;;;;;;;;;;;;;x
+barony_of_constitutional;Office of;;;;;;;;;;;;;x
+barony_constitutional;Office;;;;;;;;;;;;;x
 count_constitutional;Captain;;;;;;;;;;;;;x
 count_female_constitutional;Captain;;;;;;;;;;;;;x
 county_of_constitutional;Captaincy of;;;;;;;;;;;;;x
 county_constitutional;Captaincy;;;;;;;;;;;;;x
-duke_constitutional;General;;;;;;;;;;;;;x
-duke_female_constitutional;General;;;;;;;;;;;;;x
-duchy_of_constitutional;Generalty of;;;;;;;;;;;;;x
-duchy_constitutional;Generalty;;;;;;;;;;;;;x
-king_constitutional;Governor;;;;;;;;;;;;;x
-king_female_constitutional;Governor;;;;;;;;;;;;;x
-kingdom_of_constitutional;Governate of;;;;;;;;;;;;;x
-kingdom_constitutional;Governate;;;;;;;;;;;;;x
-emperor_constitutional;Lord President;;;;;;;;;;;;;x
-emperor_female_constitutional;Lord President;;;;;;;;;;;;;x
-empire_of_constitutional;Republican Empire of;;;;;;;;;;;;;x
-empire_constitutional;Republican Empire;;;;;;;;;;;;;x
+duke_constitutional;Commandant;;;;;;;;;;;;;x
+duke_female_constitutional;Commandant;;;;;;;;;;;;;x
+duchy_of_constitutional;Commissariat of;;;;;;;;;;;;;x
+duchy_constitutional;Commissariat;;;;;;;;;;;;;x
+king_constitutional;Admiral;;;;;;;;;;;;;x
+king_female_constitutional;Admiral;;;;;;;;;;;;;x
+kingdom_of_constitutional;Admiralty of;;;;;;;;;;;;;x
+kingdom_constitutional;Admiralty;;;;;;;;;;;;;x
+emperor_constitutional;Lord Admiral;;;;;;;;;;;;;x
+emperor_female_constitutional;Lord Admiral;;;;;;;;;;;;;x
+empire_of_constitutional;Grand Admiralty of;;;;;;;;;;;;;x
+empire_constitutional;Grand Admiralty;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 job_chancellor_constitutional_reformed;Secretary of State;;;;;;;;;;;;;x
 job_treasurer_constitutional_reformed;Secretary of the Treasury;;;;;;;;;;;;;x
@@ -4125,7 +4418,8 @@ title_court_physician_female_amriqi;Alhayya;;;;;;;;;x
 droid;Droid;;;;;;;;;x
 android;Android;;;;;;;;;x
 ;;;;;;;;;;;;;;
-d_defender_faith;Defender of the Faith;;;;;;;;;x
+defender_faith;Defender of the Faith;;;;;;;;;x
+defender_faith_desc;This character is the defender of the catholic faith;;;;;;;;;x
 d_defender_faith_adj;Faithful;;;;;;;;;x
 DEFENDER_FAITH;Defender of the Faith;;;;;;;;;x
 DEFENDER_FAITH_FOA;Your Highness;;;;;;;;;x
@@ -4162,6 +4456,10 @@ title_member_parliament_1;Member of Parliament;;;;;;;;;;;;;x
 title_member_parliament_1_desc;This title represents a member of the Rainbow dragon parliament.;;;;;;;;;x;;;;
 title_member_parliament_2;Member of Parliament;;;;;;;;;;;;;x
 title_member_parliament_2_desc;This title represents a member of the Rainbow dragon parliament.;;;;;;;;;x;;;;
+title_crown_prince;Crown Prince;;;;;;;;;x;;;;
+title_crown_prince_female;Crown Princess;;;;;;;;;x;;;;
+title_crown_prince_desc;This title represents the heir apparent and crown prince of the realm;;;;;;;;;x;;;;
+title_crown_prince_female_desc;This title represents the heir apparent and the crown princess of the realm;;;;;;;;;x;;;;
 title_chechnik;Chechnik;;;;;;;;;x;;;;
 title_chechnik_desc;This title represents a member of the Knesset.;;;;;;;;;x;;;;
 title_chechnik_1;Chechnik;;;;;;;;;x;;;;
@@ -4287,9 +4585,9 @@ parliament_laws_german_1_option;Small;;;;;;;;;;;;;x
 parliament_laws_german_2_option;Moderate;;;;;;;;;;;;;x
 parliament_laws_german_3_option;Large;;;;;;;;;;;;;x
 parliament_laws_german_0_desc;Destroy the Parliament;;;;;;;;;;;;;x
-parliament_laws_german_1_desc;A small Parliament(12 Parlamentsmitglieds);;;;;;;;;;;;;x
-parliament_laws_german_2_desc;A Moderate Parliament(24 Parlamentsmitglieds);;;;;;;;;;;;;x
-parliament_laws_german_3_desc;A Large Parliament(36 Parlamentsmitglieds);;;;;;;;;;;;;x
+parliament_laws_german_1_desc;A small Parliament(10 Parlamentsmitglieds);;;;;;;;;;;;;x
+parliament_laws_german_2_desc;A Moderate Parliament(20 Parlamentsmitglieds);;;;;;;;;;;;;x
+parliament_laws_german_3_desc;A Large Parliament(30 Parlamentsmitglieds);;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 parliament_laws_russian;Parliament Size;;;;;;;;;;;;;x
 parliament_laws_russian_desc;These laws decide the size of this nation's Parliament;;;;;;;;;;;;;x
@@ -4324,9 +4622,9 @@ parliament_laws_brit_1_option;Small;;;;;;;;;;;;;x
 parliament_laws_brit_2_option;Moderate;;;;;;;;;;;;;x
 parliament_laws_brit_3_option;Large;;;;;;;;;;;;;x
 parliament_laws_brit_0_desc;Destroy the Parliament;;;;;;;;;;;;;x
-parliament_laws_brit_1_desc;A small Parliament(10 Members of Parliament);;;;;;;;;;;;;x
-parliament_laws_brit_2_desc;A Moderate Parliament(20 Members of Parliament);;;;;;;;;;;;;x
-parliament_laws_brit_3_desc;A Large Parliament(30 Members of Parliament);;;;;;;;;;;;;x
+parliament_laws_brit_1_desc;A small Parliament(8 Members of Parliament);;;;;;;;;;;;;x
+parliament_laws_brit_2_desc;A Moderate Parliament(16 Members of Parliament);;;;;;;;;;;;;x
+parliament_laws_brit_3_desc;A Large Parliament(24 Members of Parliament);;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 parliament_laws_israel;Parliament Size;;;;;;;;;;;;;x
 parliament_laws_israel_desc;These laws decide the size of this nation's parliament;;;;;;;;;;;;;x
@@ -5462,6 +5760,17 @@ count_turkmen;Atabeg;;;;;;;;;;;;;
 baron_turkmen;Beg;;;;;;;;;;;;;
 baron_female_turkmen;Begum;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;
+emperor_qashqai;Hagan;;;;;;;;;;;;;x
+emperor_female_qashqai;Hatun;;;;;;;;;;;;;x
+king_qashqai;Han;;;;;;;;;;;;;x
+king_female_qashqai;Hatun;;;;;;;;;;;;;x
+duke_qashqai;Emir;;;;;;;;;;x
+duchy_of_qashqai;Emirate of;;;;;;;;;;x
+duke_female_qashqai;Emira;;;;;;;;;;;;;x
+count_qashqai;Atabeg;;;;;;;;;;;;;
+baron_qashqai;Beg;;;;;;;;;;;;;
+baron_female_qashqai;Begum;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
 emperor_uzbek;Xoqon;;;;;;;;;;;;;x
 emperor_female_uzbek;Xotin;;;;;;;;;;;;;x
 king_uzbek;Xon;;;;;;;;;;;;;x
@@ -5488,6 +5797,19 @@ empire_of_finnish;Keisarikunta of;;;;;;;;;;;;;
 tribal_duke_finnish;Päällikkö;;;;;;;;;;;;;x
 tribal_king_finnish;Suurpäällikkö;;;;;;;;;;;;;x
 tribal_emperor_finnish;Keisari;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+emperor_esperanti;Imperiestro;;;;;;;;;;;;;x
+emperor_female_esperanti;Imperiestrino;;;;;;;;;;;;;x
+king_esperanti;Rego;;;;;;;;;;;;;x
+king_female_esperanti;Regino;;;;;;;;;;;;;x
+duke_esperanti;Duko;;;;;;;;;;;;;
+duke_female_esperanti;Dukino;;;;;;;;;;;;;
+count_esperanti;Grafo;;;;;;;;;;;;;
+count_female_esperanti;Grafino;;;;;;;;;;;;;
+county_of_esperanti;Graflando de;;;;;;;;;;;;;
+duchy_of_esperanti;Duklando de;;;;;;;;;;;;;
+kingdom_of_esperanti;Regno de;;;;;;;;;;;;;
+empire_of_esperanti;Imperio de;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;
 count_karelian;Ispravnik;;;;;;;;;;;;;x
 count_female_karelian;Ispravnitza;;;;;;;;;;;;;x
@@ -5879,72 +6201,202 @@ tribal_duke_nganasan;Vozhd;;;;;;;;;;;;;x
 tribal_king_nganasan;Grand Vozhd;;;;;;;;;;;;;x
 tribal_emperor_nganasan;Tsar;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-baron_evenk;Derzhatel;;;;;;;;;;;;;x
-baron_female_evenk;Derzhatelnitza;;;;;;;;;;;;;x
-count_evenk;Ispravnik;;;;;;;;;;;;;x
-count_female_evenk;Ispravnitza;;;;;;;;;;;;;x
-duke_evenk;Kniaz;;;;;;;;;;;;;x
-duke_female_evenk;Kniaginia;;;;;;;;;;;;;x
-king_evenk;Korol;;;;;;;;;;;;;x
-king_female_evenk;Koroleva;;;;;;;;;;;;;x
-emperor_evenk;Tsar;;;;;;;;;;;;;x
-emperor_female_evenk;Tsaritza;;;;;;;;;;;;;x
-count_title_consort_evenk;Izpravniha;;;;;;;;;;;;;x
-count_title_consort_female_evenk;Ispravnitzyn;;;;;;;;;;;;;x
-duke_title_consort_evenk;Kniaginia;;;;;;;;;;;;;x
-duke_title_consort_female_evenk;Kniaginin;;;;;;;;;;;;;x
-king_title_consort_evenk;Karaleva;;;;;;;;;;;;;x
-king_title_consort_female_evenk;Karalevchin;;;;;;;;;;;;;x
-emperor_title_consort_evenk;Tsarina;;;;;;;;;;;;;x
-emperor_title_consort_female_evenk;Tsaritzyn;;;;;;;;;;;;;x
-count_title_prince_evenk;Naslednik;;;;;;;;;;;;;x
-count_title_prince_female_evenk;Naslednitza;;;;;;;;;;;;;x
-duke_title_prince_evenk;Kniazhych;;;;;;;;;;;;;x
-duke_title_prince_female_evenk;Kniazhna;;;;;;;;;;;;;x
-king_title_prince_evenk;Karalevich;;;;;;;;;;;;;x
-king_title_prince_female_evenk;Karalevna;;;;;;;;;;;;;x
-emperor_title_prince_evenk;Tsarevich;;;;;;;;;;;;;x
-emperor_title_prince_female_evenk;Tsarevna;;;;;;;;;;;;;x
-barony_of_evenk;Volost;;;;;;;;;;;;;x
-county_of_evenk;Uezd;;;;;;;;;;;;;x
-duchy_of_evenk;Kniazhestvo;;;;;;;;;;;;;x
-kingdom_of_evenk;Korolevstvo;;;;;;;;;;;;;x
-empire_of_evenk;Tsarstvo;;;;;;;;;;;;;x
-oligarchic_republic_baron_evenk;Mer;;;;;;;;;;;;;x
-oligarchic_republic_baron_female_evenk;Mer;;;;;;;;;;;;;x
-oligarchic_republic_count_evenk;Stavlennik;;;;;;;;;;;;;x
-oligarchic_republic_count_female_evenk;Stavlennitza;;;;;;;;;;;;;x
-oligarchic_republic_duke_evenk;Glava;;;;;;;;;;;;;x
-oligarchic_republic_duke_female_evenk;Glava;;;;;;;;;;;;;x
-oligarchic_republic_king_evenk;Predsidatel;;;;;;;;;;;;;x
-oligarchic_republic_king_female_evenk;Predidatelniyza;;;;;;;;;;;;;x
-oligarchic_republic_emperor_evenk;Prezident;;;;;;;;;;x
-oligarchic_republic_emperor_female_evenk;Prezidentsha;;;;;;;;;;x
-oligarchic_republic_barony_of_evenk;Gorod;;;;;;;;;;;;;x
-oligarchic_republic_county_of_evenk;Rayon;;;;;;;;;;;;;x
-oligarchic_republic_duchy_of_evenk;Oblast;;;;;;;;;;;;;x
-oligarchic_republic_kingdom_of_evenk;Kray;;;;;;;;;;;;;x
-oligarchic_republic_empire_of_evenk;Respublika;;;;;;;;;;;;;x
-city_baron_evenk;Mer;;;;;;;;;;;;;x
-city_baron_female_evenk;Mer;;;;;;;;;;;;;x
-city_count_evenk;Stavlennik;;;;;;;;;;;;;x
-city_count_female_evenk;Stavlennitza;;;;;;;;;;;;;x
-city_duke_evenk;Glava;;;;;;;;;;;;;x
-city_duke_female_evenk;Glova;;;;;;;;;;;;;x
-city_king_evenk;Predsidatel;;;;;;;;;;;;;x
-city_king_female_evenk;Predsidatelniyza;;;;;;;;;;;;;x
-city_emperor_evenk;Prezident;;;;;;;;;;x
-city_emperor_female_evenk;Prezidentsha;;;;;;;;;;x
-city_barony_of_evenk;Gorod;;;;;;;;;;;;;x
-city_county_of_evenk;Royon;;;;;;;;;;;;;x
-city_duchy_of_evenk;Oblast;;;;;;;;;;;;;x
-city_kingdom_of_evenk;Kray;;;;;;;;;;;;;x
-city_empire_of_evenk;Respublika;;;;;;;;;;;;;x
-tribal_baron_evenk;Smotriaschiy;;;;;;;;;;;;;x
-tribal_count_evenk;Ataman;;;;;;;;;;;;;x
-tribal_duke_evenk;Vozhd;;;;;;;;;;;;;x
-tribal_king_evenk;Grand Vozhd;;;;;;;;;;;;;x
-tribal_emperor_evenk;Tsar;;;;;;;;;;;;;x
+baron_evenk;Chieftain;;;;;;;;;;;;;x
+baron_female_evenk;Chieftess;;;;;;;;;;;;;x
+count_evenk;Lord;;;;;;;;;;;;;x
+count_female_evenk;Lady;;;;;;;;;;;;;x
+duke_evenk;Governor;;;;;;;;;;;;;x
+duke_female_evenk;Governor;;;;;;;;;;;;;x
+king_evenk;Khan;;;;;;;;;;;;;x
+king_female_evenk;Khanum;;;;;;;;;;;;;x
+emperor_evenk;Khagan;;;;;;;;;;;;;x
+emperor_female_evenk;Khatun;;;;;;;;;;;;;x
+barony_of_evenk;Chiefdom of;;;;;;;;;;;;;x
+county_of_evenk;County of;;;;;;;;;;;;;x
+duchy_of_evenk;Province of;;;;;;;;;;;;;x
+kingdom_of_evenk;Khanate of;;;;;;;;;;;;;x
+empire_of_evenk;Khaganate of;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+itelmen;Itelmen;;;;;;;;;;;;;x
+baron_itelmen;Derzhatel;;;;;;;;;;;;;x
+baron_female_itelmen;Derzhatelnitza;;;;;;;;;;;;;x
+count_itelmen;Ispravnik;;;;;;;;;;;;;x
+count_female_itelmen;Ispravnitza;;;;;;;;;;;;;x
+duke_itelmen;Kniaz;;;;;;;;;;;;;x
+duke_female_itelmen;Kniaginia;;;;;;;;;;;;;x
+king_itelmen;Korol;;;;;;;;;;;;;x
+king_female_itelmen;Koroleva;;;;;;;;;;;;;x
+emperor_itelmen;Tsar;;;;;;;;;;;;;x
+emperor_female_itelmen;Tsaritza;;;;;;;;;;;;;x
+count_title_consort_itelmen;Izpravniha;;;;;;;;;;;;;x
+count_title_consort_female_itelmen;Ispravnitzyn;;;;;;;;;;;;;x
+duke_title_consort_itelmen;Kniaginia;;;;;;;;;;;;;x
+duke_title_consort_female_itelmen;Kniaginin;;;;;;;;;;;;;x
+king_title_consort_itelmen;Karaleva;;;;;;;;;;;;;x
+king_title_consort_female_itelmen;Karalevchin;;;;;;;;;;;;;x
+emperor_title_consort_itelmen;Tsarina;;;;;;;;;;;;;x
+emperor_title_consort_female_itelmen;Tsaritzyn;;;;;;;;;;;;;x
+count_title_prince_itelmen;Naslednik;;;;;;;;;;;;;x
+count_title_prince_female_itelmen;Naslednitza;;;;;;;;;;;;;x
+duke_title_prince_itelmen;Kniazhych;;;;;;;;;;;;;x
+duke_title_prince_female_itelmen;Kniazhna;;;;;;;;;;;;;x
+king_title_prince_itelmen;Karalevich;;;;;;;;;;;;;x
+king_title_prince_female_itelmen;Karalevna;;;;;;;;;;;;;x
+emperor_title_prince_itelmen;Tsarevich;;;;;;;;;;;;;x
+emperor_title_prince_female_itelmen;Tsarevna;;;;;;;;;;;;;x
+barony_of_itelmen;Volost;;;;;;;;;;;;;x
+county_of_itelmen;Uezd;;;;;;;;;;;;;x
+duchy_of_itelmen;Kniazhestvo;;;;;;;;;;;;;x
+kingdom_of_itelmen;Korolevstvo;;;;;;;;;;;;;x
+empire_of_itelmen;Tsarstvo;;;;;;;;;;;;;x
+oligarchic_republic_baron_itelmen;Mer;;;;;;;;;;;;;x
+oligarchic_republic_baron_female_itelmen;Mer;;;;;;;;;;;;;x
+oligarchic_republic_count_itelmen;Stavlennik;;;;;;;;;;;;;x
+oligarchic_republic_count_female_itelmen;Stavlennitza;;;;;;;;;;;;;x
+oligarchic_republic_duke_itelmen;Glava;;;;;;;;;;;;;x
+oligarchic_republic_duke_female_itelmen;Glava;;;;;;;;;;;;;x
+oligarchic_republic_king_itelmen;Predsidatel;;;;;;;;;;;;;x
+oligarchic_republic_king_female_itelmen;Predidatelniyza;;;;;;;;;;;;;x
+oligarchic_republic_emperor_itelmen;Prezident;;;;;;;;;;x
+oligarchic_republic_emperor_female_itelmen;Prezidentsha;;;;;;;;;;x
+oligarchic_republic_barony_of_itelmen;Gorod;;;;;;;;;;;;;x
+oligarchic_republic_county_of_itelmen;Rayon;;;;;;;;;;;;;x
+oligarchic_republic_duchy_of_itelmen;Oblast;;;;;;;;;;;;;x
+oligarchic_republic_kingdom_of_itelmen;Kray;;;;;;;;;;;;;x
+oligarchic_republic_empire_of_itelmen;Respublika;;;;;;;;;;;;;x
+city_baron_itelmen;Mer;;;;;;;;;;;;;x
+city_baron_female_itelmen;Mer;;;;;;;;;;;;;x
+city_count_itelmen;Stavlennik;;;;;;;;;;;;;x
+city_count_female_itelmen;Stavlennitza;;;;;;;;;;;;;x
+city_duke_itelmen;Glava;;;;;;;;;;;;;x
+city_duke_female_itelmen;Glova;;;;;;;;;;;;;x
+city_king_itelmen;Predsidatel;;;;;;;;;;;;;x
+city_king_female_itelmen;Predsidatelniyza;;;;;;;;;;;;;x
+city_emperor_itelmen;Prezident;;;;;;;;;;x
+city_emperor_female_itelmen;Prezidentsha;;;;;;;;;;x
+city_barony_of_itelmen;Gorod;;;;;;;;;;;;;x
+city_county_of_itelmen;Royon;;;;;;;;;;;;;x
+city_duchy_of_itelmen;Oblast;;;;;;;;;;;;;x
+city_kingdom_of_itelmen;Kray;;;;;;;;;;;;;x
+city_empire_of_itelmen;Respublika;;;;;;;;;;;;;x
+tribal_baron_itelmen;Smotriaschiy;;;;;;;;;;;;;x
+tribal_count_itelmen;Ataman;;;;;;;;;;;;;x
+tribal_duke_itelmen;Vozhd;;;;;;;;;;;;;x
+tribal_king_itelmen;Grand Vozhd;;;;;;;;;;;;;x
+tribal_emperor_itelmen;Tsar;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+ainu_group;Ainuic;;;;;;;;;;;;;x
+nivkh;Nivkh;;;;;;;;;;;;;x
+baron_nivkh;Chieftain;;;;;;;;;;;;;x
+baron_female_nivkh;Chieftess;;;;;;;;;;;;;x
+count_nivkh;Lord;;;;;;;;;;;;;x
+count_female_nivkh;Lady;;;;;;;;;;;;;x
+duke_nivkh;Governor;;;;;;;;;;;;;x
+duke_female_nivkh;Governor;;;;;;;;;;;;;x
+king_nivkh;Khan;;;;;;;;;;;;;x
+king_female_nivkh;Khanum;;;;;;;;;;;;;x
+emperor_nivkh;Khagan;;;;;;;;;;;;;x
+emperor_female_nivkh;Khatun;;;;;;;;;;;;;x
+barony_of_nivkh;Chiefdom of;;;;;;;;;;;;;x
+county_of_nivkh;County of;;;;;;;;;;;;;x
+duchy_of_nivkh;Province of;;;;;;;;;;;;;x
+kingdom_of_nivkh;Khanate of;;;;;;;;;;;;;x
+empire_of_nivkh;Khaganate of;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+ulch;Ulch;;;;;;;;;;;;;x
+baron_ulch;Derzhatel;;;;;;;;;;;;;x
+baron_female_ulch;Derzhatelnitza;;;;;;;;;;;;;x
+count_ulch;Ispravnik;;;;;;;;;;;;;x
+count_female_ulch;Ispravnitza;;;;;;;;;;;;;x
+duke_ulch;Kniaz;;;;;;;;;;;;;x
+duke_female_ulch;Kniaginia;;;;;;;;;;;;;x
+king_ulch;Korol;;;;;;;;;;;;;x
+king_female_ulch;Koroleva;;;;;;;;;;;;;x
+emperor_ulch;Tsar;;;;;;;;;;;;;x
+emperor_female_ulch;Tsaritza;;;;;;;;;;;;;x
+count_title_consort_ulch;Izpravniha;;;;;;;;;;;;;x
+count_title_consort_female_ulch;Ispravnitzyn;;;;;;;;;;;;;x
+duke_title_consort_ulch;Kniaginia;;;;;;;;;;;;;x
+duke_title_consort_female_ulch;Kniaginin;;;;;;;;;;;;;x
+king_title_consort_ulch;Karaleva;;;;;;;;;;;;;x
+king_title_consort_female_ulch;Karalevchin;;;;;;;;;;;;;x
+emperor_title_consort_ulch;Tsarina;;;;;;;;;;;;;x
+emperor_title_consort_female_ulch;Tsaritzyn;;;;;;;;;;;;;x
+count_title_prince_ulch;Naslednik;;;;;;;;;;;;;x
+count_title_prince_female_ulch;Naslednitza;;;;;;;;;;;;;x
+duke_title_prince_ulch;Kniazhych;;;;;;;;;;;;;x
+duke_title_prince_female_ulch;Kniazhna;;;;;;;;;;;;;x
+king_title_prince_ulch;Karalevich;;;;;;;;;;;;;x
+king_title_prince_female_ulch;Karalevna;;;;;;;;;;;;;x
+emperor_title_prince_ulch;Tsarevich;;;;;;;;;;;;;x
+emperor_title_prince_female_ulch;Tsarevna;;;;;;;;;;;;;x
+barony_of_ulch;Volost;;;;;;;;;;;;;x
+county_of_ulch;Uezd;;;;;;;;;;;;;x
+duchy_of_ulch;Kniazhestvo;;;;;;;;;;;;;x
+kingdom_of_ulch;Korolevstvo;;;;;;;;;;;;;x
+empire_of_ulch;Tsarstvo;;;;;;;;;;;;;x
+oligarchic_republic_baron_ulch;Mer;;;;;;;;;;;;;x
+oligarchic_republic_baron_female_ulch;Mer;;;;;;;;;;;;;x
+oligarchic_republic_count_ulch;Stavlennik;;;;;;;;;;;;;x
+oligarchic_republic_count_female_ulch;Stavlennitza;;;;;;;;;;;;;x
+oligarchic_republic_duke_ulch;Glava;;;;;;;;;;;;;x
+oligarchic_republic_duke_female_ulch;Glava;;;;;;;;;;;;;x
+oligarchic_republic_king_ulch;Predsidatel;;;;;;;;;;;;;x
+oligarchic_republic_king_female_ulch;Predidatelniyza;;;;;;;;;;;;;x
+oligarchic_republic_emperor_ulch;Prezident;;;;;;;;;;x
+oligarchic_republic_emperor_female_ulch;Prezidentsha;;;;;;;;;;x
+oligarchic_republic_barony_of_ulch;Gorod;;;;;;;;;;;;;x
+oligarchic_republic_county_of_ulch;Rayon;;;;;;;;;;;;;x
+oligarchic_republic_duchy_of_ulch;Oblast;;;;;;;;;;;;;x
+oligarchic_republic_kingdom_of_ulch;Kray;;;;;;;;;;;;;x
+oligarchic_republic_empire_of_ulch;Respublika;;;;;;;;;;;;;x
+city_baron_ulch;Mer;;;;;;;;;;;;;x
+city_baron_female_ulch;Mer;;;;;;;;;;;;;x
+city_count_ulch;Stavlennik;;;;;;;;;;;;;x
+city_count_female_ulch;Stavlennitza;;;;;;;;;;;;;x
+city_duke_ulch;Glava;;;;;;;;;;;;;x
+city_duke_female_ulch;Glova;;;;;;;;;;;;;x
+city_king_ulch;Predsidatel;;;;;;;;;;;;;x
+city_king_female_ulch;Predsidatelniyza;;;;;;;;;;;;;x
+city_emperor_ulch;Prezident;;;;;;;;;;x
+city_emperor_female_ulch;Prezidentsha;;;;;;;;;;x
+city_barony_of_ulch;Gorod;;;;;;;;;;;;;x
+city_county_of_ulch;Royon;;;;;;;;;;;;;x
+city_duchy_of_ulch;Oblast;;;;;;;;;;;;;x
+city_kingdom_of_ulch;Kray;;;;;;;;;;;;;x
+city_empire_of_ulch;Respublika;;;;;;;;;;;;;x
+tribal_baron_ulch;Smotriaschiy;;;;;;;;;;;;;x
+tribal_count_ulch;Ataman;;;;;;;;;;;;;x
+tribal_duke_ulch;Vozhd;;;;;;;;;;;;;x
+tribal_king_ulch;Grand Vozhd;;;;;;;;;;;;;x
+tribal_emperor_ulch;Tsar;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+nanai;Nanai;;;;;;;;;;;;;x
+baron_nanai;Chieftain;;;;;;;;;;;;;x
+baron_female_nanai;Chieftess;;;;;;;;;;;;;x
+count_nanai;Lord;;;;;;;;;;;;;x
+count_female_nanai;Lady;;;;;;;;;;;;;x
+duke_nanai;Governor;;;;;;;;;;;;;x
+duke_female_nanai;Governor;;;;;;;;;;;;;x
+king_nanai;Khan;;;;;;;;;;;;;x
+king_female_nanai;Khanum;;;;;;;;;;;;;x
+emperor_nanai;Khagan;;;;;;;;;;;;;x
+emperor_female_nanai;Khatun;;;;;;;;;;;;;x
+barony_of_nanai;Chieftom of;;;;;;;;;;;;;x
+county_of_nanai;County of;;;;;;;;;;;;;x
+duchy_of_nanai;Province of;;;;;;;;;;;;;x
+kingdom_of_nanai;Khante of;;;;;;;;;;;;;x
+empire_of_nanai;Khaganate of;;;;;;;;;;;;;x
+
+tlingit_group;Tlingit;;;;;;;;;;;;;x
+tlingit;Lingít;;;;;;;;;;;;;x
+alutiiq;Sugpiat;;;;;;;;;;;;;x
+aleut;Unangan;;;;;;;;;;;;;x
+yupik;Yup'ik;;;;;;;;;;;;;x
+eskaleut;Eskaleut;;;;;;;;;;;;;x
+kamchatkan;Kamchatkan;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 baron_ket;Derzhatel;;;;;;;;;;;;;x
 baron_female_ket;Derzhatelnitza;;;;;;;;;;;;;x
@@ -6208,6 +6660,18 @@ tribal_duke_wolgadeutsche;Vozhd;;;;;;;;;;;;;x
 tribal_king_wolgadeutsche;Grand Vozhd;;;;;;;;;;;;;x
 tribal_emperor_wolgadeutsche;Kaiser;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
+temple_baron_female_arcane;Witch;Witch;Witch;;Witch;;;;;;;;;x
+temple_count_arcane;Archmage;Archmage;Archmage;;Archmage;;;;;;;;;x
+temple_count_female_arcane;Archwitch;Archwitch;Archwitch;;Archwitch;;;;;;;;;x
+temple_barony_of_arcane;Lodge of;Lodge of;Lodge of;;Lodge of;;;;;;;;;x
+temple_county_of_arcane;Great Lodge of;Great Lodge of;Great Lodge of;;Great Lodge of;;;;;;;;;x
+temple_duchy_of_arcane;Grand Lodge of;Grand Lodge of;Grand Lodge of;Grand Lodge of;;;;;;;;;x
+temple_kingdom_of_arcane;Conventicle of;Conventicle of;Conventicle of;Conventicle of;;;;;;;;;x
+temple_duke_arcane;Grand Mage;Grand Mage;Grand Mage;;Grand Mage;;;;;;;;;x
+temple_duke_female_arcane;Grand Witch;Grand Witch;Grand Witch;;Grand Witch;;;;;;;;;x
+temple_king_arcane;Mage King;Mage King;Mage King;;Mage King;;;;;;;;;x
+temple_king_female_arcane;Witch Queen;Witch Queen;Witch Queen;;Witch Queen;;;;;;;;;x
+;;;;;;;;;;;;;;
 temple_baron_female_thelemic_reformed;Witch;Witch;Witch;;Witch;;;;;;;;;x
 temple_count_thelemic_reformed;Archmage;Archmage;Archmage;;Archmage;;;;;;;;;x
 temple_count_female_thelemic_reformed;Archwitch;Archwitch;Archwitch;;Archwitch;;;;;;;;;x
@@ -6269,6 +6733,33 @@ count_female_romansch;Cunta;;;;;;;;;;;;;x
 duke_female_romansch;Prinzessa;;;;;;;;;x
 king_female_romansch;Rigegna;;;;;;;;;x
 emperor_female_romansch;Caisa-regna;;;;;;;;;x
+;;;;;;;;;;;;;;
+count_aleman;Cunt;;;;;;;;;;;;;x
+duke_aleman;Prinzi;;;;;;;;;x
+king_aleman;Retg;;;;;;;;;x
+emperor_aleman;Caiser;;;;;;;;;x
+count_female_aleman;Cunta;;;;;;;;;;;;;x
+duke_female_aleman;Prinzessa;;;;;;;;;x
+king_female_aleman;Rigegna;;;;;;;;;x
+emperor_female_aleman;Caisa-regna;;;;;;;;;x
+county_of_aleman;Cuntadi dal;;;;;;;;;;;;;x
+duchy_of_aleman;Principadi dal;;;;;;;;;;;;;x
+kingdom_of_aleman;Reginam dal;;;;;;;;;;;;;x
+empire_of_aleman;Caiserinam dal;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+sassun;Sassun;;;;;;;;;;;;;x
+count_sassun;Kunt;;;;;;;;;;;;;x
+duke_sassun;Prinzi;;;;;;;;;x
+king_sassun;Retg;;;;;;;;;x
+emperor_sassun;Kaiser;;;;;;;;;x
+count_female_sassun;Kunta;;;;;;;;;;;;;x
+duke_female_sassun;Prinzessa;;;;;;;;;x
+king_female_sassun;Rigegna;;;;;;;;;x
+emperor_female_sassun;Kaisa-regna;;;;;;;;;x
+county_of_sassun;Kuntadi dal;;;;;;;;;;;;;x
+duchy_of_sassun;Principadi dal;;;;;;;;;;;;;x
+kingdom_of_sassun;Reginam dal;;;;;;;;;;;;;x
+empire_of_sassun;Kaiserinam dal;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
 county_of_romansch;Cuntadi dal;;;;;;;;;;;;;x
 duchy_of_romansch;Principadi dal;;;;;;;;;;;;;x
@@ -6457,45 +6948,15 @@ temple_duke_ovlatii;Grand Imam;;;;;;;;;;;;;x
 temple_kingdom_of_ovlatii;Grand Emirate of;;;;;;;;;;;;;x
 temple_king_ovlatii;Grand Emir;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-emperor_salihi;Sultan;;;;;;;;;;;;;x
-emperor_female_salihi;Sultana;;;;;;;;;;;;;x
-empire_of_salihi;Sultanate of;;;;;;;;;;;;;x
-king_salihi;Malik;;;;;;;;;;;;;x
-king_female_salihi;Malika;;;;;;;;;;;;;x
-kingdom_of_salihi;Malikate of;;;;;;;;;;;;;x
-duke_salihi;Emir;;;;;;;;;;;;;x
-duke_female_salihi;Emira;;;;;;;;;;;;;x
-duchy_of_salihi;Emirate of;;;;;;;;;;;;;x
-count_salihi;Sheikh;;;;;;;;;;;;;x
-count_female_salihi;Sheikha;;;;;;;;;;;;;x
-county_of_salihi;Sheikhdom of;;;;;;;;;;;;;x
-baron_salihi;Wali;;;;;;;;;;;;;x
-baron_female_salihi;Waliya;;;;;;;;;;;;;x
-temple_barony_of_salihi;Mosque of;;;;;;;;;;;;;x
-temple_baron_salihi;Imam;;;;;;;;;;;;;x
-temple_county_of_salihi;Grand Mosque of;;;;;;;;;;;;;x
-temple_count_salihi;Mufti;;;;;;;;;;;;;x
-temple_duchy_of_salihi;Imamate of;;;;;;;;;;;;;x
-temple_duke_salihi;Grand Imam;;;;;;;;;;;;;x
-temple_kingdom_of_salihi;Muftiate of;;;;;;;;;;;;;x
-temple_king_salihi;Grand Mufti;;;;;;;;;;;;;x
+temple_barony_of_malikite;Mosque of;;;;;;;;;;;;;x
+temple_baron_malikite;Imam;;;;;;;;;;;;;x
+temple_county_of_malikite;Grand Mosque of;;;;;;;;;;;;;x
+temple_count_malikite;Mufti;;;;;;;;;;;;;x
+temple_duchy_of_malikite;Imamate of;;;;;;;;;;;;;x
+temple_duke_malikite;Grand Imam;;;;;;;;;;;;;x
+temple_kingdom_of_malikite;Malikite State of;;;;;;;;;;;;;x
+temple_king_malikite;Grand Mufti;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-emperor_sufi;Sultan;;;;;;;;;;;;;x
-emperor_female_sufi;Sultana;;;;;;;;;;;;;x
-empire_of_sufi;Sultanate of;;;;;;;;;;;;;x
-king_sufi;Malik;;;;;;;;;;;;;x
-king_female_sufi;Malika;;;;;;;;;;;;;x
-kingdom_of_sufi;Malikate of;;;;;;;;;;;;;x
-duke_sufi;Emir;;;;;;;;;;;;;x
-duke_female_sufi;Emira;;;;;;;;;;;;;x
-duchy_of_sufi;Emirate of;;;;;;;;;;;;;x
-count_sufi;Sheikh;;;;;;;;;;;;;x
-count_female_sufi;Sheikha;;;;;;;;;;;;;x
-county_of_sufi;Sheikhdom of;;;;;;;;;;;;;x
-baron_sufi;Wali;;;;;;;;;;;;;x
-baron_female_sufi;Waliya;;;;;;;;;;;;;x
 temple_barony_of_sufi;Mosque of;;;;;;;;;;;;;x
 temple_baron_sufi;Imam;;;;;;;;;;;;;x
 temple_county_of_sufi;Grand Mosque of;;;;;;;;;;;;;x
@@ -6505,502 +6966,37 @@ temple_duke_sufi;Grand Imam;;;;;;;;;;;;;x
 temple_kingdom_of_sufi;Muftiate of;;;;;;;;;;;;;x
 temple_king_sufi;Grand Mufti;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-temple_barony_of_juggalo;Temple of;;;;;;;;;;;;;x
-temple_baron_juggalo;Priest;;;;;;;;;;;;;x
-temple_baron_female_juggalo;Priestess;;;;;;;;;;;;;x
-temple_county_of_juggalo;Congregation of;;;;;;;;;;;;;x
-temple_count_juggalo;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_juggalo;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_juggalo;Carnival Princedom of;;;;;;;;;;;;;x
-temple_duke_juggalo;Princely Priest;;;;;;;;;;;;;x
-temple_duke_female_juggalo;Princely Priestess;;;;;;;;;;;;;x
-temple_kingdom_of_juggalo;Carnival Kingdom of;;;;;;;;;;;;;x
-temple_king_juggalo;King Priest;;;;;;;;;;;;;x
-temple_king_female_juggalo;Queen Priestess;;;;;;;;;;;;;x
+temple_barony_of_mormon;Branch of;;;;;;;;;;;;;x
+temple_baron_mormon;Elder;;;;;;;;;;;;;x
+temple_county_of_mormon;Ward of;;;;;;;;;;;;;x
+temple_count_mormon;Bishop;;;;;;;;;;;;;x
+temple_duchy_of_mormon;Stake of;;;;;;;;;;;;;x
+temple_duke_mormon;Stake President;;;;;;;;;;;;;x
+temple_kingdom_of_mormon;Area of;;;;;;;;;;;;;x
+temple_king_mormon;Seventy;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-temple_barony_of_gator_pagan;Temple of;;;;;;;;;;;;;x
-temple_baron_gator_pagan;Handler;;;;;;;;;;;;;x
-temple_baron_female_gator_pagan;Handler;;;;;;;;;;;;;x
-temple_county_of_gator_pagan;Grand Temple of;;;;;;;;;;;;;x
-temple_count_gator_pagan;Gator Priest;;;;;;;;;;;;;x
-temple_count_female_gator_pagan;Gator Priestess;;;;;;;;;;;;;x
-temple_duchy_of_gator_pagan;Garden State of;;;;;;;;;;;;;x
-temple_duke_gator_pagan;Master Priest;;;;;;;;;;;;;x
-temple_duke_female_gator_pagan;Master Priestess;;;;;;;;;;;;;x
-temple_kingdom_of_gator_pagan;Garden Kingdom of;;;;;;;;;;;;;x
-temple_king_gator_pagan;King Priest;;;;;;;;;;;;;x
-temple_king_female_gator_pagan;Queen Priestess;;;;;;;;;;;;;x
+temple_barony_of_caodai;Temple of;;;;;;;;;;;;;x
+temple_baron_caodai;Giáo-Huu;;;;;;;;;;;;;x
+temple_baron_female_caodai;Giáo-Huu;;;;;;;;;;;;;x
+temple_county_of_caodai;Grand Temple of;;;;;;;;;;;;;x
+temple_count_caodai;Giáo-Su;;;;;;;;;;;;;x
+temple_count_female_caodai;Giáo-Su;;;;;;;;;;;;;x
+temple_duchy_of_caodai;Administration of;;;;;;;;;;;;;x
+temple_duke_caodai;Phoi-Su;;;;;;;;;;;;;x
+temple_duke_female_caodai;Phoi-Su;;;;;;;;;;;;;x
+temple_kingdom_of_caodai;Holy Kingdom of;;;;;;;;;;;;;x
+temple_king_caodai;King Bishop;;;;;;;;;;;;;x
+temple_king_female_caodai;Queen Bishop;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-temple_barony_of_gator_pagan_reformed;Temple of;;;;;;;;;;;;;x
-temple_baron_gator_pagan_reformed;Handler;;;;;;;;;;;;;x
-temple_baron_female_gator_pagan_reformed;Handler;;;;;;;;;;;;;x
-temple_county_of_gator_pagan_reformed;Grand Temple of;;;;;;;;;;;;;x
-temple_count_gator_pagan_reformed;Gator Priest;;;;;;;;;;;;;x
-temple_count_female_gator_pagan_reformed;Gator Priestess;;;;;;;;;;;;;x
-temple_duchy_of_gator_pagan_reformed;Gator State of;;;;;;;;;;;;;x
-temple_duke_gator_pagan_reformed;Master Priest;;;;;;;;;;;;;x
-temple_duke_female_gator_pagan_reformed;Master Priestess;;;;;;;;;;;;;x
-temple_kingdom_of_gator_pagan_reformed;Gator Kingdom of;;;;;;;;;;;;;x
-temple_king_gator_pagan_reformed;King Priest;;;;;;;;;;;;;x
-temple_king_female_gator_pagan_reformed;Queen Priestess;;;;;;;;;;;;;x
+temple_barony_of_pancasila;Desa of;;;;;;;;;;;;;x
+temple_baron_pancasila;Kepala Desa;;;;;;;;;;;;;x
+temple_county_of_pancasila;District of;;;;;;;;;;;;;x
+temple_count_pancasila;Camat;;;;;;;;;;;;;x
+temple_duchy_of_pancasila;Regency of;;;;;;;;;;;;;x
+temple_duke_pancasila;Regent;;;;;;;;;;;;;x
+temple_kingdom_of_pancasila;Province of;;;;;;;;;;;;;x
+temple_king_pancasila;Governor;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-temple_barony_of_edenite;Garden Temple of;;;;;;;;;;;;;x
-temple_baron_edenite;Priest;;;;;;;;;;;;;x
-temple_baron_female_edenite;Priestess;;;;;;;;;;;;;x
-temple_county_of_edenite;Grand Temple of;;;;;;;;;;;;;x
-temple_count_edenite;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_edenite;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_edenite;Garden Princedom of;;;;;;;;;;;;;x
-temple_duke_edenite;Archbishop;;;;;;;;;;;;;x
-temple_duke_female_edenite;Archbishop;;;;;;;;;;;;;x
-temple_kingdom_of_edenite;Garden Kingdom of;;;;;;;;;;;;;x
-temple_king_edenite;King Bishop;;;;;;;;;;;;;x
-temple_king_female_edenite;Queen Bishop;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_triumphant;Temple of;;;;;;;;;;;;;x
-temple_baron_triumphant;Priest;;;;;;;;;;;;;x
-temple_baron_female_triumphant;Priestess;;;;;;;;;;;;;x
-temple_county_of_triumphant;Grand Temple of;;;;;;;;;;;;;x
-temple_count_triumphant;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_triumphant;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_triumphant;Triumphant Princedom of;;;;;;;;;;;;;x
-temple_duke_triumphant;Exalted Priest;;;;;;;;;;;;;x
-temple_duke_female_triumphant;Exalted Priestess;;;;;;;;;;;;;x
-temple_kingdom_of_triumphant;Triumphant Kingdom of;;;;;;;;;;;;;x
-temple_king_triumphant;Archpriest;;;;;;;;;;;;;x
-temple_king_female_triumphant;Archpriestess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_emmaean;Congregation of;;;;;;;;;;;;;x
-temple_baron_emmaean;Deacon;;;;;;;;;;;;;x
-temple_baron_female_emmaean;Deaconess;;;;;;;;;;;;;x
-temple_county_of_emmaean;Grand Congregation of;;;;;;;;;;;;;x
-temple_count_emmaean;Grand Deacon;;;;;;;;;;;;;x
-temple_count_female_emmaean;Grand Deaconess;;;;;;;;;;;;;x
-temple_duchy_of_emmaean;Holy Convention of;;;;;;;;;;;;;x
-temple_duke_emmaean;Holy Deacon;;;;;;;;;;;;;x
-temple_duke_female_emmaean;Holy Deaconess;;;;;;;;;;;;;x
-temple_kingdom_of_emmaean;Angelic Kingdom of;;;;;;;;;;;;;x
-temple_king_emmaean;Angelic Deacon;;;;;;;;;;;;;x
-temple_king_female_emmaean;Angelic Deaconess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_emmaean_reformed;Congregation of;;;;;;;;;;;;;x
-temple_baron_emmaean_reformed;Deacon;;;;;;;;;;;;;x
-temple_baron_female_emmaean_reformed;Deaconess;;;;;;;;;;;;;x
-temple_county_of_emmaean_reformed;Grand Congregation of;;;;;;;;;;;;;x
-temple_count_emmaean_reformed;Grand Deacon;;;;;;;;;;;;;x
-temple_count_female_emmaean_reformed;Grand Deaconess;;;;;;;;;;;;;x
-temple_duchy_of_emmaean_reformed;Holy Convention of;;;;;;;;;;;;;x
-temple_duke_emmaean_reformed;Holy Deacon;;;;;;;;;;;;;x
-temple_duke_female_emmaean_reformed;Holy Deaconess;;;;;;;;;;;;;x
-temple_kingdom_of_emmaean_reformed;Angelic Kingdom of;;;;;;;;;;;;;x
-temple_king_emmaean_reformed;Angelic Deacon;;;;;;;;;;;;;x
-temple_king_female_emmaean_reformed;Angelic Deaconess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_mormonic;Branch of;;;;;;;;;;;;;x
-temple_baron_mormonic;Elder;;;;;;;;;;;;;x
-temple_county_of_mormonic;Ward of;;;;;;;;;;;;;x
-temple_count_mormonic;Bishop;;;;;;;;;;;;;x
-temple_duchy_of_mormonic;Stake of;;;;;;;;;;;;;x
-temple_duke_mormonic;Stake President;;;;;;;;;;;;;x
-temple_kingdom_of_mormonic;Area of;;;;;;;;;;;;;x
-temple_king_mormonic;Seventy;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_peyotist;Temple of;;;;;;;;;;;;;x
-temple_baron_peyotist;Medicine Man;;;;;;;;;;;;;x
-temple_baron_female_peyotist;Medicine Woman;;;;;;;;;;;;;x
-temple_county_of_peyotist;Grand Temple of;;;;;;;;;;;;;x
-temple_count_peyotist;Minister;;;;;;;;;;;;;x
-temple_count_female_peyotist;Minister;;;;;;;;;;;;;x
-temple_duchy_of_peyotist;Enlightened State of;;;;;;;;;;;;;x
-temple_duke_peyotist;Enlightened Minister;;;;;;;;;;;;;x
-temple_duke_female_peyotist;Enlightened Minister;;;;;;;;;;;;;x
-temple_kingdom_of_peyotist;Exalted Kingdom of;;;;;;;;;;;;;x
-temple_king_peyotist;Exalted Minister;;;;;;;;;;;;;x
-temple_king_female_peyotist;Exalted Minister;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_macabrist;Temple of;;;;;;;;;;;;;x
-temple_baron_macabrist;Priest;;;;;;;;;;;;;x
-temple_baron_female_macabrist;Priestess;;;;;;;;;;;;;x
-temple_county_of_macabrist;Grand Temple of;;;;;;;;;;;;;x
-temple_count_macabrist;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_macabrist;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_macabrist;Macabrist State of;;;;;;;;;;;;;x
-temple_duke_macabrist;Archbishop;;;;;;;;;;;;;x
-temple_duke_female_macabrist;Archbishop;;;;;;;;;;;;;x
-temple_kingdom_of_macabrist;Macabrist Kingdom of;;;;;;;;;;;;;x
-temple_king_macabrist;King Archbishop;;;;;;;;;;;;;x
-temple_king_female_macabrist;Queen Archbishop;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_scholastic;Library of;;;;;;;;;;;;;x
-temple_baron_scholastic;Librarian;;;;;;;;;;;;;x
-temple_baron_female_scholastic;Librarian;;;;;;;;;;;;;x
-temple_county_of_scholastic;Grand Library of;;;;;;;;;;;;;x
-temple_count_scholastic;Head Librarian;;;;;;;;;;;;;x
-temple_count_female_scholastic;Head Librarian;;;;;;;;;;;;;x
-temple_duchy_of_scholastic;Scholastic Department of;;;;;;;;;;;;;x
-temple_duke_scholastic;Professor;;;;;;;;;;;;;x
-temple_duke_female_scholastic;Professor;;;;;;;;;;;;;x
-temple_kingdom_of_scholastic;Scholastic Kingdom of;;;;;;;;;;;;;x
-temple_king_scholastic;Dean;;;;;;;;;;;;;x
-temple_king_female_scholastic;Dean;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_highmount;Lodge of;;;;;;;;;;;;;x
-temple_baron_highmount;Officer;;;;;;;;;;;;;x
-temple_baron_female_highmount;Offier;;;;;;;;;;;;;x
-temple_county_of_highmount;Grand Lodge of;;;;;;;;;;;;;x
-temple_count_highmount;Mason;;;;;;;;;;;;;x
-temple_count_female_highmount;Mason;;;;;;;;;;;;;x
-temple_duchy_of_highmount;Provincial Grand Lodge of;;;;;;;;;;;;;x
-temple_duke_highmount;Master;;;;;;;;;;;;;x
-temple_duke_female_highmount;Master;;;;;;;;;;;;;x
-temple_kingdom_of_highmount;United Grand Lodge of;;;;;;;;;;;;;x
-temple_king_highmount;Grand Master;;;;;;;;;;;;;x
-temple_king_female_highmount;Grand Master;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_lakefolk_pagan;Temple of;;;;;;;;;;;;;x
-temple_baron_lakefolk_pagan;Priest;;;;;;;;;;;;;x
-temple_baron_female_lakefolk_pagan;Priestess;;;;;;;;;;;;;x
-temple_county_of_lakefolk_pagan;Grand Temple of;;;;;;;;;;;;;x
-temple_count_lakefolk_pagan;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_lakefolk_pagan;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_lakefolk_pagan;Cosmic Princedom of;;;;;;;;;;;;;x
-temple_duke_lakefolk_pagan;Guardian;;;;;;;;;;;;;x
-temple_duke_female_lakefolk_pagan;Guardian;;;;;;;;;;;;;x
-temple_kingdom_of_lakefolk_pagan;Cosmic Kingdom of;;;;;;;;;;;;;x
-temple_king_lakefolk_pagan;Holy Guardian;;;;;;;;;;;;;x
-temple_king_female_lakefolk_pagan;Holy Guardian;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_lakefolk_pagan_reformed;Temple of;;;;;;;;;;;;;x
-temple_baron_lakefolk_pagan_reformed;Priest;;;;;;;;;;;;;x
-temple_baron_female_lakefolk_pagan_reformed;Priestess;;;;;;;;;;;;;x
-temple_county_of_lakefolk_pagan_reformed;Grand Temple of;;;;;;;;;;;;;x
-temple_count_lakefolk_pagan_reformed;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_lakefolk_pagan_reformed;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_lakefolk_pagan_reformed;Cosmic Princedom of;;;;;;;;;;;;;x
-temple_duke_lakefolk_pagan_reformed;Guardian;;;;;;;;;;;;;x
-temple_duke_female_lakefolk_pagan_reformed;Guardian;;;;;;;;;;;;;x
-temple_kingdom_of_lakefolk_pagan_reformed;Cosmic Kingdom of;;;;;;;;;;;;;x
-temple_king_lakefolk_pagan_reformed;Holy Guardian;;;;;;;;;;;;;x
-temple_king_female_lakefolk_pagan_reformed;Holy Guardian;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_gaian;Temple of;;;;;;;;;;;;;x
-temple_baron_gaian;Priest;;;;;;;;;;;;;x
-temple_baron_female_gaian;Priestess;;;;;;;;;;;;;x
-temple_county_of_gaian;Grand Temple of;;;;;;;;;;;;;x
-temple_count_gaian;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_gaian;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_gaian;Forested Princedom of;;;;;;;;;;;;;x
-temple_duke_gaian;Forest Guardian;;;;;;;;;;;;;x
-temple_duke_female_gaian;Forest Guardian;;;;;;;;;;;;;x
-temple_kingdom_of_gaian;Forested Kingdom of;;;;;;;;;;;;;x
-temple_king_gaian;King Guardian;;;;;;;;;;;;;x
-temple_king_female_gaian;Queen Guardian;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_luddite;Temple of;;;;;;;;;;;;;x
-temple_baron_luddite;Priest;;;;;;;;;;;;;x
-temple_baron_female_luddite;Priestess;;;;;;;;;;;;;x
-temple_county_of_luddite;Grand Temple of;;;;;;;;;;;;;x
-temple_count_luddite;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_luddite;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_luddite;Forested Princedom of;;;;;;;;;;;;;x
-temple_duke_luddite;Forest Guardian;;;;;;;;;;;;;x
-temple_duke_female_luddite;Forest Guardian;;;;;;;;;;;;;x
-temple_kingdom_of_luddite;Forested Kingdom of;;;;;;;;;;;;;x
-temple_king_luddite;King Guardian;;;;;;;;;;;;;x
-temple_king_female_luddite;Queen Guardian;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_delver;Lodge of;;;;;;;;;;;;;x
-temple_baron_delver;Wizard;;;;;;;;;;;;;x
-temple_baron_female_delver;Witch;;;;;;;;;;;;;x
-temple_county_of_delver;Grand Lodge of;;;;;;;;;;;;;x
-temple_count_delver;Sorcerer;;;;;;;;;;;;;x
-temple_count_female_delver;Sorcereress;;;;;;;;;;;;;x
-temple_duchy_of_delver;Provincial Lodge of;;;;;;;;;;;;;x
-temple_duke_delver;Grand Sorcerer;;;;;;;;;;;;;x
-temple_duke_female_delver;Grand Sorcereress;;;;;;;;;;;;;x
-temple_kingdom_of_delver;Magick Kingdom of;;;;;;;;;;;;;x
-temple_king_delver;Exalted Sorcerer;;;;;;;;;;;;;x
-temple_king_female_delver;Exalted Sorcereress;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_delver_reformed;Lodge of;;;;;;;;;;;;;x
-temple_baron_delver_reformed;Wizard;;;;;;;;;;;;;x
-temple_baron_female_delver_reformed;Witch;;;;;;;;;;;;;x
-temple_county_of_delver_reformed;Grand Lodge of;;;;;;;;;;;;;x
-temple_count_delver_reformed;Sorcerer;;;;;;;;;;;;;x
-temple_count_female_delver_reformed;Sorcereress;;;;;;;;;;;;;x
-temple_duchy_of_delver_reformed;Provincial Lodge of;;;;;;;;;;;;;x
-temple_duke_delver_reformed;Grand Sorcerer;;;;;;;;;;;;;x
-temple_duke_female_delver_reformed;Grand Sorcereress;;;;;;;;;;;;;x
-temple_kingdom_of_delver_reformed;Magick Kingdom of;;;;;;;;;;;;;x
-temple_king_delver_reformed;Exalted Sorcerer;;;;;;;;;;;;;x
-temple_king_female_delver_reformed;Exalted Sorcereress;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_antiquarianist;Workshop of;;;;;;;;;;;;;x
-temple_baron_antiquarianist;Builder;;;;;;;;;;;;;x
-temple_baron_female_antiquarianist;Builder;;;;;;;;;;;;;x
-temple_county_of_antiquarianist;Factory of;;;;;;;;;;;;;x
-temple_count_antiquarianist;Assembler;;;;;;;;;;;;;x
-temple_count_female_antiquarianist;Assembler;;;;;;;;;;;;;x
-temple_duchy_of_antiquarianist;Regional Warehouse of;;;;;;;;;;;;;x
-temple_duke_antiquarianist;Collector;;;;;;;;;;;;;x
-temple_duke_female_antiquarianist;Collector;;;;;;;;;;;;;x
-temple_kingdom_of_antiquarianist;Factory Domain of;;;;;;;;;;;;;x
-temple_king_antiquarianist;Master Assembler;;;;;;;;;;;;;x
-temple_king_female_antiquarianist;Master Assembler;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_antiquarianist_reformed;Workshop of;;;;;;;;;;;;;x
-temple_baron_antiquarianist_reformed;Builder;;;;;;;;;;;;;x
-temple_baron_female_antiquarianist_reformed;Builder;;;;;;;;;;;;;x
-temple_county_of_antiquarianist_reformed;Factory of;;;;;;;;;;;;;x
-temple_count_antiquarianist_reformed;Assembler;;;;;;;;;;;;;x
-temple_count_female_antiquarianist_reformed;Assembler;;;;;;;;;;;;;x
-temple_duchy_of_antiquarianist_reformed;Regional Warehouse of;;;;;;;;;;;;;x
-temple_duke_antiquarianist_reformed;Collector;;;;;;;;;;;;;x
-temple_duke_female_antiquarianist_reformed;Collector;;;;;;;;;;;;;x
-temple_kingdom_of_antiquarianist_reformed;Factory Domain of;;;;;;;;;;;;;x
-temple_king_antiquarianist_reformed;Master Assembler;;;;;;;;;;;;;x
-temple_king_female_antiquarianist_reformed;Master Assembler;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_gibborim;Temple of;;;;;;;;;;;;;x
-temple_baron_gibborim;Priest;;;;;;;;;;;;;x
-temple_baron_female_gibborim;Priestess;;;;;;;;;;;;;x
-temple_county_of_gibborim;Grand Temple of;;;;;;;;;;;;;x
-temple_count_gibborim;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_gibborim;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_gibborim;Divine Princedom of;;;;;;;;;;;;;x
-temple_duke_gibborim;Harvester;;;;;;;;;;;;;x
-temple_duke_female_gibborim;Harvester;;;;;;;;;;;;;x
-temple_kingdom_of_gibborim;Divinely Harvested Kingdom of;;;;;;;;;;;;;x
-temple_king_gibborim;King of the Harvest;;;;;;;;;;;;;x
-temple_king_female_gibborim;Queen of the Harvest;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_marked;Temple of;;;;;;;;;;;;;x
-temple_baron_marked;Priest;;;;;;;;;;;;;x
-temple_baron_female_marked;Priestess;;;;;;;;;;;;;x
-temple_county_of_marked;Repentant Temple of;;;;;;;;;;;;;x
-temple_count_marked;Repentant Priest;;;;;;;;;;;;;x
-temple_count_female_marked;Repentant Priestess;;;;;;;;;;;;;x
-temple_duchy_of_marked;Repentant Princedom of;;;;;;;;;;;;;x
-temple_duke_marked;Repentant Archpriest;;;;;;;;;;;;;x
-temple_duke_female_marked;Repentant Archpriestess;;;;;;;;;;;;;x
-temple_kingdom_of_marked;Marked Kingdom of;;;;;;;;;;;;;x
-temple_king_marked;King Archpriest;;;;;;;;;;;;;x
-temple_king_female_marked;Queen Archpriest;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-baron_libertalian;Lieutenant;;;;;;;;;;;;;x
-baron_female_libertalian;Lieutenant;;;;;;;;;;;;;x
-barony_of_libertalian;Lieutenancy of;;;;;;;;;;;;;x
-temple_barony_of_libertalian;Cove of;;;;;;;;;;;;;x
-temple_baron_libertalian;Marauder;;;;;;;;;;;;;x
-temple_baron_female_libertalian;Marauder;;;;;;;;;;;;;x
-temple_count_libertalian;Privateer;;;;;;;;;;;;;x
-temple_count_female_libertalian;Privateer;;;;;;;;;;;;;x
-temple_county_of_libertalian;Great Cove of;;;;;;;;;;;;;x
-temple_duke_libertalian;Quartermaster;;;;;;;;;;;;;x
-temple_duke_female_libertalian;Quartermaster;;;;;;;;;;;;;x
-temple_duchy_of_libertalian;Grand Cove of;;;;;;;;;;;;;x
-
-temple_barony_of_haiti_voodoo;Congregation of;;;;;;;;;;;;;x
-temple_baron_haiti_voodoo;Elder;;;;;;;;;;;;;x
-temple_baron_female_haiti_voodoo;Elder;;;;;;;;;;;;;x
-temple_county_of_haiti_voodoo;Temple of;;;;;;;;;;;;;x
-temple_count_haiti_voodoo;High Elder;;;;;;;;;;;;;x
-temple_count_female_haiti_voodoo;High Elder;;;;;;;;;;;;;x
-temple_duchy_of_haiti_voodoo;Grand Temple of;;;;;;;;;;;;;x
-temple_duke_haiti_voodoo;Grand Elder;;;;;;;;;;;;;x
-temple_duke_female_haiti_voodoo;Grand Elder;;;;;;;;;;;;;x
-temple_kingdom_of_haiti_voodoo;Blessed Kingdom of;;;;;;;;;;;;;x
-temple_king_haiti_voodoo;King Elder;;;;;;;;;;;;;x
-temple_king_female_haiti_voodoo;Queen Elder;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_hoodoo;Congregation of;;;;;;;;;;;;;x
-temple_baron_hoodoo;Elder;;;;;;;;;;;;;x
-temple_baron_female_hoodoo;Elder;;;;;;;;;;;;;x
-temple_county_of_hoodoo;Temple of;;;;;;;;;;;;;x
-temple_count_hoodoo;High Elder;;;;;;;;;;;;;x
-temple_count_female_hoodoo;High Elder;;;;;;;;;;;;;x
-temple_duchy_of_hoodoo;Grand Temple of;;;;;;;;;;;;;x
-temple_duke_hoodoo;Grand Elder;;;;;;;;;;;;;x
-temple_duke_female_hoodoo;Grand Elder;;;;;;;;;;;;;x
-temple_kingdom_of_hoodoo;Blessed Kingdom of;;;;;;;;;;;;;x
-temple_king_hoodoo;King Elder;;;;;;;;;;;;;x
-temple_king_female_hoodoo;Queen Elder;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_baron_shangava;Pujari;;;;;;;;;x
-temple_barony_of_shangava;Temple of;;;;;;;;;;;;;x
-temple_county_of_shangava;Grand Temple of;;;;;;;;;;;;;x
-temple_count_shangava;Grand Pujari;;;;;;;;;;;;;x
-temple_duchy_of_shangava;Exalted Temple of;;;;;;;;;;;;;x
-temple_duke_shangava;Exalted Pujari;;;;;;;;;;;;;x
-temple_kingdom_of_shangava;Divine Princedom of;;;;;;;;;;;;;x
-temple_king_shangava;Pujari Prince;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_postdiluvian;Congregation of;;;;;;;;;;;;;x
-temple_baron_postdiluvian;Deacon;;;;;;;;;;;;;x
-temple_baron_female_postdiluvian;Deaconess;;;;;;;;;;;;;x
-temple_county_of_postdiluvian;Church of;;;;;;;;;;;;;x
-temple_count_postdiluvian;Pastor;;;;;;;;;;;;;x
-temple_count_female_postdiluvian;Pastor;;;;;;;;;;;;;x
-temple_duchy_of_postdiluvian;Enlightened State of;;;;;;;;;;;;;x
-temple_duke_postdiluvian;Reverend;;;;;;;;;;;;;x
-temple_duke_female_postdiluvian;Reverend;;;;;;;;;;;;;x
-temple_kingdom_of_postdiluvian;Enlightened Kingdom of;;;;;;;;;;;;;x
-temple_king_postdiluvian;Exalted Reverend;;;;;;;;;;;;;x
-temple_king_female_postdiluvian;Exalted Reverend;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_harmonic;Shrine of;;;;;;;;;;;;;x
-temple_baron_harmonic;Vocalist;;;;;;;;;;;;;x
-temple_baron_female_harmonic;Vocalist;;;;;;;;;;;;;x
-temple_county_of_harmonic;Temple of;;;;;;;;;;;;;x
-temple_count_harmonic;Troubadour;;;;;;;;;;;;;x
-temple_count_female_harmonic;Troubadour;;;;;;;;;;;;;x
-temple_duchy_of_harmonic;Harmonic State of;;;;;;;;;;;;;x
-temple_duke_harmonic;Songbird;;;;;;;;;;;;;x
-temple_duke_female_harmonic;Songbird;;;;;;;;;;;;;x
-temple_kingdom_of_harmonic;Harmonic Kingdom of;;;;;;;;;;;;;x
-temple_king_harmonic;Chanter;;;;;;;;;;;;;x
-temple_king_female_harmonic;Chanter;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_resurrectionist;Temple of;;;;;;;;;;;;;x
-temple_baron_resurrectionist;Priest;;;;;;;;;;;;;x
-temple_baron_female_resurrectionist;Priestess;;;;;;;;;;;;;x
-temple_county_of_resurrectionist;Grand Temple of;;;;;;;;;;;;;x
-temple_count_resurrectionist;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_resurrectionist;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_resurrectionist;Resurrected State of;;;;;;;;;;;;;x
-temple_duke_resurrectionist;Exalted Priest;;;;;;;;;;;;;x
-temple_duke_female_resurrectionist;Exalted Priestess;;;;;;;;;;;;;x
-temple_kingdom_of_resurrectionist;Divine Kingdom of;;;;;;;;;;;;;x
-temple_king_resurrectionist;Holy King Priest;;;;;;;;;;;;;x
-temple_king_female_resurrectionist;Holy Queen Priestess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_gridiron;Field of;;;;;;;;;;;;;x
-temple_baron_gridiron;Linebacker;;;;;;;;;;;;;x
-temple_baron_female_gridiron;Linebacker;;;;;;;;;;;;;x
-temple_county_of_gridiron;Great Field of;;;;;;;;;;;;;x
-temple_count_gridiron;Running Back;;;;;;;;;;;;;x
-temple_count_female_gridiron;Running Back;;;;;;;;;;;;;x
-temple_duchy_of_gridiron;Sporting State of;;;;;;;;;;;;;x
-temple_duke_gridiron;Wide Receiver;;;;;;;;;;;;;x
-temple_duke_female_gridiron;Wide Receiver;;;;;;;;;;;;;x
-temple_kingdom_of_gridiron;Stadium of;;;;;;;;;;;;;x
-temple_king_gridiron;Quarterback;;;;;;;;;;;;;x
-temple_king_female_gridiron;Quarterback;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_shriner;Temple of;;;;;;;;;;;;;x
-temple_baron_shriner;Initiate;;;;;;;;;;;;;x
-temple_baron_female_shriner;Initiate;;;;;;;;;;;;;x
-temple_county_of_shriner;Grand Temple of;;;;;;;;;;;;;x
-temple_count_shriner;High Priest;;;;;;;;;;;;;x
-temple_count_female_shriner;High Priestess;;;;;;;;;;;;;x
-temple_duchy_of_shriner;Emirate of;;;;;;;;;;;;;x
-temple_duke_shriner;Oriental Guide;;;;;;;;;;;;;x
-temple_duke_female_shriner;Oriental Guide;;;;;;;;;;;;;x
-temple_kingdom_of_shriner;Grand Emirate of;;;;;;;;;;;;;x
-temple_king_shriner;Chief Rabban;;;;;;;;;;;;;x
-temple_king_female_shriner;Chief Rabban;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_citrus_scientology;Temple of;;;;;;;;;;;;;x
-temple_baron_citrus_scientology;Priest;;;;;;;;;;;;;x
-temple_baron_female_citrus_scientology;Priestess;;;;;;;;;;;;;x
-temple_county_of_citrus_scientology;Grand Temple of;;;;;;;;;;;;;x
-temple_count_citrus_scientology;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_citrus_scientology;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_citrus_scientology;Holy Principality of;;;;;;;;;;;;;x
-temple_duke_citrus_scientology;Exalted Priest;;;;;;;;;;;;;x
-temple_duke_female_citrus_scientology;Exalted Priestess;;;;;;;;;;;;;x
-temple_kingdom_of_citrus_scientology;Rapture Kingdom of;;;;;;;;;;;;;x
-temple_king_citrus_scientology;Archpriest;;;;;;;;;;;;;x
-temple_king_female_citrus_scientology;Archpriestess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_madonnite;Temple of;;;;;;;;;;;;;x
-temple_baron_madonnite;Priest;;;;;;;;;;;;;x
-temple_baron_female_madonnite;Priestess;;;;;;;;;;;;;x
-temple_county_of_madonnite;Grand Temple of;;;;;;;;;;;;;x
-temple_count_madonnite;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_madonnite;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_madonnite;Holy Princedom of;;;;;;;;;;;;;x
-temple_duke_madonnite;Archpriest;;;;;;;;;;;;;x
-temple_duke_female_madonnite;Archpriestess;;;;;;;;;;;;;x
-temple_kingdom_of_madonnite;Madonnite Kingdom of;;;;;;;;;;;;;x
-temple_king_madonnite;King Archpriest;;;;;;;;;;;;;x
-temple_king_female_madonnite;Queen Archpriestess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_kemetic;Temple of;;;;;;;;;;;;;x
-temple_baron_kemetic;Priest;;;;;;;;;;;;;x
-temple_baron_female_kemetic;Priestess;;;;;;;;;;;;;x
-temple_county_of_kemetic;Grand Temple of;;;;;;;;;;;;;x
-temple_count_kemetic;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_kemetic;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_kemetic;Amun Princedom of;;;;;;;;;;;;;x
-temple_duke_kemetic;Archpriest;;;;;;;;;;;;;x
-temple_duke_female_kemetic;Archpriestess;;;;;;;;;;;;;x
-temple_kingdom_of_kemetic;Amun Kingdom of;;;;;;;;;;;;;x
-temple_king_kemetic;Grand Archpriest;;;;;;;;;;;;;x
-temple_king_female_kemetic;Grand Archpriestess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_amunite;Temple of;;;;;;;;;;;;;x
-temple_baron_amunite;Priest;;;;;;;;;;;;;x
-temple_baron_female_amunite;Priestess;;;;;;;;;;;;;x
-temple_county_of_amunite;Grand Temple of;;;;;;;;;;;;;x
-temple_count_amunite;Grand Priest;;;;;;;;;;;;;x
-temple_count_female_amunite;Grand Priestess;;;;;;;;;;;;;x
-temple_duchy_of_amunite;Azure Princedom of;;;;;;;;;;;;;x
-temple_duke_amunite;Azure Priest;;;;;;;;;;;;;x
-temple_duke_female_amunite;Azure Priestess;;;;;;;;;;;;;x
-temple_kingdom_of_amunite;Azure Kingdom of;;;;;;;;;;;;;x
-temple_king_amunite;Azure Archpriest;;;;;;;;;;;;;x
-temple_king_female_amunite;Azure Archpriestess;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-temple_barony_of_solar;Sun Shrine of;;;;;;;;;;;;;x
-temple_baron_solar;Sun Priest;;;;;;;;;;;;;x
-temple_baron_female_solar;Sun Priestess;;;;;;;;;;;;;x
-temple_county_of_solar;Sun Temple of;;;;;;;;;;;;;x
-temple_count_solar;Grand Sun Priest;;;;;;;;;;;;;x
-temple_count_female_solar;Grand Sun Priestess;;;;;;;;;;;;;x
-temple_duchy_of_solar;Solar Princedom of;;;;;;;;;;;;;x
-temple_duke_solar;Solar Attendant;;;;;;;;;;;;;x
-temple_duke_female_solar;Solar Attendant;;;;;;;;;;;;;x
-temple_kingdom_of_solar;Solar State of;;;;;;;;;;;;;x
-temple_king_solar;Exalted Solar Attendant;;;;;;;;;;;;;x
-temple_king_female_solar;Exalted Solar Attendant;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
 temple_barony_of_raelian;Temple of;;;;;;;;;;;;;x
 temple_baron_raelian;Priest;;;;;;;;;;;;;x
 temple_baron_female_raelian;Priestess;;;;;;;;;;;;;x
@@ -7014,60 +7010,19 @@ temple_kingdom_of_raelian;Enlightened Kingdom of;;;;;;;;;;;;;x
 temple_king_raelian;Greater Guide;;;;;;;;;;;;;x
 temple_king_female_raelian;Greater Guide;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-temple_barony_of_gaiwiio;Longhouse of;;;;;;;;;;;;;x
-temple_baron_gaiwiio;Preacher;;;;;;;;;;;;;x
-temple_baron_female_gaiwiio;Preacher;;;;;;;;;;;;;x
-temple_county_of_gaiwiio;Grand Longhouse of;;;;;;;;;;;;;x
-temple_count_gaiwiio;Messenger;;;;;;;;;;;;;x
-temple_count_female_gaiwiio;Messenger;;;;;;;;;;;;;x
-temple_duchy_of_gaiwiio;Longhouse State of;;;;;;;;;;;;;x
-temple_duke_gaiwiio;Great Messenger;;;;;;;;;;;;;x
-temple_duke_female_gaiwiio;Great Messenger;;;;;;;;;;;;;x
-temple_kingdom_of_gaiwiio;Longhouse Kingdom of;;;;;;;;;;;;;x
-temple_king_gaiwiio;King Preacher;;;;;;;;;;;;;x
-temple_king_female_gaiwiio;Queen Preacher;;;;;;;;;;;;;x
+temple_barony_of_qingzhen;Mosque of;;;;;;;;;;;;;x
+temple_baron_qingzhen;Imam;;;;;;;;;;;;;x
+temple_baron_female_qingzhen;Imam;;;;;;;;;;;;;x
+temple_county_of_qingzhen;Grand Mosque of;;;;;;;;;;;;;x
+temple_count_qingzhen;Mufti;;;;;;;;;;;;;x
+temple_count_female_qingzhen;Mufti;;;;;;;;;;;;;x
+temple_duchy_of_qingzhen;Imamate of;;;;;;;;;;;;;x
+temple_duke_qingzhen;Grand Imam;;;;;;;;;;;;;x
+temple_duke_female_qingzhen;Grand Imam;;;;;;;;;;;;;x
+temple_kingdom_of_qingzhen;Muftiate of;;;;;;;;;;;;;x
+temple_king_qingzhen;Grand Mufti;;;;;;;;;;;;;x
+temple_king_female_qingzhen;Grand Mufti;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
-#Loc for Neolatins
-emperor_canadensium;Imperator;;;;;;;;;;;;;x
-emperor_female_canadensium;Imperatrice;;;;;;;;;;;;;x
-empire_of_canadensium;Imperio de;;;;;;;;;;;;;x
-king_canadensium;Rege;;;;;;;;;;;;;x
-king_female_canadensium;Regina;;;;;;;;;;;;;x
-kingdom_of_canadensium;Regno de;;;;;;;;;;;;;x
-duke_canadensium;Duc;;;;;;;;;;;;;x
-duke_female_canadensium;Ducessa;;;;;;;;;;;;;x
-duchy_of_canadensium;Ducato de;;;;;;;;;;;;;x
-count_canadensium;Conte;;;;;;;;;;;;;x
-count_female_canadensium;Contessa;;;;;;;;;;;;;x
-county_of_canadensium;Contato de;;;;;;;;;;;;;x
-baron_canadensium;Patrono;;;;;;;;;;;;;x
-baron_female_canadensium;Patrona;;;;;;;;;;;;;x
-barony_of_canadensium;Castello de;;;;;;;;;;;;;x
-temple_barony_of_canadensium;Templo de;;;;;;;;;;;;;x
-city_barony_of_canadensium;Citate de;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
-emperor_montanum;Imperator;;;;;;;;;;;;;x
-emperor_female_montanum;Imperatrice;;;;;;;;;;;;;x
-empire_of_montanum;Imperio de;;;;;;;;;;;;;x
-king_montanum;Rege;;;;;;;;;;;;;x
-king_female_montanum;Regina;;;;;;;;;;;;;x
-kingdom_of_montanum;Regno de;;;;;;;;;;;;;x
-duke_montanum;Duc;;;;;;;;;;;;;x
-duke_female_montanum;Ducessa;;;;;;;;;;;;;x
-duchy_of_montanum;Ducato de;;;;;;;;;;;;;x
-count_montanum;Conte;;;;;;;;;;;;;x
-count_female_montanum;Contessa;;;;;;;;;;;;;x
-county_of_montanum;Contato de;;;;;;;;;;;;;x
-baron_montanum;Patrono;;;;;;;;;;;;;x
-baron_female_montanum;Patrona;;;;;;;;;;;;;x
-barony_of_montanum;Castello de;;;;;;;;;;;;;x
-temple_barony_of_montanum;Templo de;;;;;;;;;;;;;x
-city_barony_of_montanum;Citate de;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;
-
 #Shinto Loc
 temple_barony_of_shintoist_group;Shrine of;;;;;;;;;;;;;x
 temple_baron_shintoist_group;Priest;;;;;;;;;;;;;x
@@ -7463,6 +7418,16 @@ temple_kingdom_of_neovedantic;Blessed Kingdom of;;;;;;;;;;;;;x
 temple_duke_neovedantic;High Priest;;;;;;;;;;;;;x
 temple_king_neovedantic;King Priest;;;;;;;;;;;;;x
 
+#Old Hindu Temple Loc;;;;;;;;;;;;;;
+temple_baron_old_hindu;Pujari;;;;;;;;;;;;;x
+temple_count_old_hindu;Pandit;;;;;;;;;;;;;x
+temple_barony_of_old_hindu;Temple of;;;;;;;;;;;;;x
+temple_county_of_old_hindu;Grand Temple of;;;;;;;;;;;;;x
+temple_duchy_of_old_hindu;Exalted Temple of;;;;;;;;;;;;;x
+temple_kingdom_of_old_hindu;Blessed Kingdom of;;;;;;;;;;;;;x
+temple_duke_old_hindu;High Priest;;;;;;;;;;;;;x
+temple_king_old_hindu;King Priest;;;;;;;;;;;;;x
+
 #Frencig loc
 king_frencig;Cyngroy;;;;;;;;;;;;;x
 king_female_frencig;Cyngreyne;;;;;;;;;;;;;x
@@ -7490,7 +7455,7 @@ count_female_ethiopian;Imebeti;;;;;;;;;;;;;x
 county_of_ethiopian;Wereda of;;;;;;;;;;;;;x
 emperor_ethiopian;Negusa Nagast;;;;;;;;;;;;;x
 emperor_female_ethiopian;Negesta Nagastat;;;;;;;;;;;;;x
-empire_of_ethiopian;Talak’u Menigishiti of;;;;;;;;;;;;;x
+empire_of_ethiopian;Talak'u Menigishiti of;;;;;;;;;;;;;x
 
 king_oromos;Mootti;;;;;;;;;;;;;x
 king_female_oromos;Mootuu;;;;;;;;;;;;;x
@@ -7516,7 +7481,7 @@ count_female_tigray;Imebeti;;;;;;;;;;;;;x
 county_of_tigray;Wereda of;;;;;;;;;;;;;x
 emperor_tigray;Negusa Nagast;;;;;;;;;;;;;x
 emperor_female_tigray;Negesta Nagastat;;;;;;;;;;;;;x
-empire_of_tigray;Talak’u Menigishiti of;;;;;;;;;;;;;x
+empire_of_tigray;Talak'u Menigishiti of;;;;;;;;;;;;;x
 
 dahlaki;Dahlaki;;;;;;;;;;;;;x
 king_dahlaki;Nigusi;;;;;;;;;;;;;x
@@ -7530,7 +7495,7 @@ count_female_dahlaki;Imebeti;;;;;;;;;;;;;x
 county_of_dahlaki;Wereda of;;;;;;;;;;;;;x
 emperor_dahlaki;Negusa Nagast;;;;;;;;;;;;;x
 emperor_female_dahlaki;Negesta Nagastat;;;;;;;;;;;;;x
-empire_of_dahlaki;Talak’u Menigishiti of;;;;;;;;;;;;;x
+empire_of_dahlaki;Talak'u Menigishiti of;;;;;;;;;;;;;x
 
 king_somali;Boqor;;;;;;;;;;;;;x
 king_female_somali;Boqorad;;;;;;;;;;;;;x
@@ -7582,7 +7547,7 @@ count_female_beta_israeli;Imebeti;;;;;;;;;;;;;x
 county_of_beta_israeli;Wereda of;;;;;;;;;;;;;x
 emperor_beta_israeli;Negusa Nagast;;;;;;;;;;;;;x
 emperor_female_beta_israeli;Negesta Nagastat;;;;;;;;;;;;;x
-empire_of_beta_israeli;Talak’u Menigishiti of;;;;;;;;;;;;;x
+empire_of_beta_israeli;Talak'u Menigishiti of;;;;;;;;;;;;;x
 
 #Romance loc
 king_francophone;Roi;;;;;;;;;;;;;x
@@ -7684,6 +7649,20 @@ emperor_andorran;Emperador;;;;;;;;;;;;;x
 emperor_female_andorran;Emperadriu;;;;;;;;;;;;;x
 empire_of_andorran;Imperi de;;;;;;;;;;;;;x
 
+aquitano;Aquitano;;;;;;;;;;;;;x
+king_aquitano;Rua;;;;;;;;;;;;;x
+king_female_aquitano;Rein;;;;;;;;;;;;;x
+kingdom_of_aquitano;Ruayón de;;;;;;;;;;;;;x
+duke_aquitano;Diuc;;;;;;;;;;;;;x
+duke_female_aquitano;Diuches;;;;;;;;;;;;;x
+duchy_of_aquitano;Diuche de;;;;;;;;;;;;;x
+count_aquitano;Cont;;;;;;;;;;;;;x
+count_female_aquitano;Contes;;;;;;;;;;;;;x
+county_of_aquitano;Cote de;;;;;;;;;;;;;x
+emperor_aquitano;Emperador;;;;;;;;;;;;;x
+emperor_female_aquitano;Emperatriz;;;;;;;;;;;;;x
+empire_of_aquitano;Imperio de;;;;;;;;;;;;;x
+
 king_aragonese;Rey;;;;;;;;;;;;;x
 king_female_aragonese;Reina;;;;;;;;;;;;;x
 kingdom_of_aragonese;Reino de;;;;;;;;;;;;;x
@@ -7774,6 +7753,49 @@ county_of_lusophone;Condado de;;;;;;;;;;;;;x
 emperor_lusophone;Imperador;;;;;;;;;;;;;x
 emperor_female_lusophone;Imperatriz;;;;;;;;;;;;;x
 empire_of_lusophone;Império de;;;;;;;;;;;;;x
+baron_lusophone;Barão;;;;;;;;;;;;;x
+baron_female_lusophone;Baronesa;;;;;;;;;;;;;x
+barony_of_lusophone;Barônia de;;;;;;;;;;;;;x
+city_baron_lusophone;Prefeito;;;;;;;;;;;;;x
+city_baron_female_lusophone;Prefeita;;;;;;;;;;;;;x
+city_barony_of_lusophone;Cidade de;;;;;;;;;;;;;x
+
+serani;Kristang;;;;;;;;;;;;;x
+king_serani;Rei;;;;;;;;;;;;;x
+king_female_serani;Reinya;;;;;;;;;;;;;x
+kingdom_of_serani;Reinu di;;;;;;;;;;;;;x
+duke_serani;Duque;;;;;;;;;;;;;x
+duke_female_serani;Duquesa;;;;;;;;;;;;;x
+duchy_of_serani;Dukadu di;;;;;;;;;;;;;x
+count_serani;Kontah;;;;;;;;;;;;;x
+count_female_serani;Kontesa;;;;;;;;;;;;;x
+county_of_serani;Cang di;;;;;;;;;;;;;x
+emperor_serani;Imperiadu;;;;;;;;;;;;;x
+emperor_female_serani;Imperatri;;;;;;;;;;;;;x
+empire_of_serani;Imperyu di;;;;;;;;;;;;;x
+baron_serani;Fildago;;;;;;;;;;;;;x
+baron_female_serani;Fildaga;;;;;;;;;;;;;x
+barony_of_serani;Kastelu di;;;;;;;;;;;;;x
+city_baron_serani;Govenu;;;;;;;;;;;;;x
+city_baron_female_serani;Govenesa;;;;;;;;;;;;;x
+city_barony_of_serani;Sidadi di;;;;;;;;;;;;;x
+title_prince_serani;Prinsip;;;;;;;;;;;;;x
+title_prince_female_serani;Prinsesa;;;;;;;;;;;;;x
+title_crown_prince_serani;Korua Prinsip;;;;;;;;;;;;;x
+title_crown_prince_female_serani;Korua Prinsesa;;;;;;;;;;;;;x
+
+king_timoric;Rei;;;;;;;;;;;;;x
+king_female_timoric;Rainha;;;;;;;;;;;;;x
+kingdom_of_timoric;Reino de;;;;;;;;;;;;;x
+duke_timoric;Duque;;;;;;;;;;;;;x
+duke_female_timoric;Duquesa;;;;;;;;;;;;;x
+duchy_of_timoric;Ducado de;;;;;;;;;;;;;x
+count_timoric;Conde;;;;;;;;;;;;;x
+count_female_timoric;Condessa;;;;;;;;;;;;;x
+county_of_timoric;Condado de;;;;;;;;;;;;;x
+emperor_timoric;Imperador;;;;;;;;;;;;;x
+emperor_female_timoric;Imperatriz;;;;;;;;;;;;;x
+empire_of_timoric;Império de;;;;;;;;;;;;;x
 
 king_amero_lusophone;Rei;;;;;;;;;;;;;x
 king_female_amero_lusophone;Rainha;;;;;;;;;;;;;x
@@ -9182,6 +9204,9 @@ emperor_old_norman;Emperor;Emperor;Emperor;;Emperor;;;;;;;;;x
 emperor_female_old_norman;Empress;Empress;Empress;;Empress;;;;;;;;;x
 empire_of_old_norman;Empire of;Empire of;Empire of;;Empire of;;;;;;;;;x
 
+baron_kamatic;Syygnyurh;;;;;;;;;;;;;x
+baron_female_kamatic;Ddamy;;;;;;;;;;;;;x
+barony_of_kamatic;Syygnyurhshyp wff;;;;;;;;;;;;;x
 baron_british;Syygnyurh;;;;;;;;;;;;;x
 baron_female_british;Ddamy;;;;;;;;;;;;;x
 barony_of_british;Syygnyurhshyp wff;;;;;;;;;;;;;x
@@ -9285,6 +9310,41 @@ county_of_circassian;Chiefdom of;;;;;;;;;;;;;x
 duchy_of_circassian;Emirate of;;;;;;;;;;;;;x
 kingdom_of_circassian;Princedom of;;;;;;;;;;;;;x
 empire_of_circassian;Empire of;;;;;;;;;;;;;x
+
+maglish;Maglish;;;;;;;;;;;;;x
+baron_maglish;Datu;;;;;;;;;;;;;x
+baron_female_maglish;Datin;;;;;;;;;;;;;x
+baron_title_ruler_consort_maglish;Datu;;;;;;;;;;;;;x
+baron_title_ruler_consort_female_maglish;Datin;;;;;;;;;;;;;x
+count_maglish;Ton;;;;;;;;;;;;;x
+count_female_maglish;Ton Puan;;;;;;;;;;;;;x
+count_title_ruler_consort_maglish;Ton;;;;;;;;;;;;;x
+count_title_ruler_consort_female_maglish;Ton Puan;;;;;;;;;;;;;x
+duke_maglish;Residen;;;;;;;;;;;;;x
+duke_female_maglish;Residen;;;;;;;;;;;;;x
+duke_title_ruler_consort_maglish;Penolong Residen;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_maglish;Penolong Residen;;;;;;;;;;;;;x
+king_maglish;Rajah;;;;;;;;;;;;;x
+king_female_maglish;Ranee;;;;;;;;;;;;;x
+title_ruler_consort_maglish;Rajah;;;;;;;;;;;;;x
+title_ruler_consort_female_maglish;Ranee;;;;;;;;;;;;;x
+emperor_maglish;Grand Rajah;;;;;;;;;;;;;x
+emperor_female_maglish;Grand Ranee;;;;;;;;;;;;;x
+emperor_title_ruler_consort_maglish;Rajah;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_maglish;Ranee;;;;;;;;;;;;;x
+title_prince_maglish;Prinse;;;;;;;;;;;;;x
+title_prince_female_maglish;Prinses;;;;;;;;;;;;;x
+barony_maglish;Astana;;;;;;;;;;;;;x
+barony_of_maglish;Astana of;;;;;;;;;;;;;x
+county_maglish;District;;;;;;;;;;;;;x
+county_of_maglish;District of;;;;;;;;;;;;;x
+duchy_maglish;Residency;;;;;;;;;;;;;x
+duchy_of_maglish;Residency of;;;;;;;;;;;;;x
+kingdom_maglish;Raj;;;;;;;;;;;;;x
+kingdom_of_maglish;Raj of;;;;;;;;;;;;;x
+empire_maglish;Grand Raj;;;;;;;;;;;;;x
+empire_of_maglish;Grand Raj of;;;;;;;;;;;;;x
+city_baron_maglish;City Datu;;;;;;;;;;;;;x
 
 #Myanmarese loc
 baron_myanmarese;Chieftain;;;;;;;;;;;;;x
@@ -9920,21 +9980,69 @@ kingdom_of_viet;Kingdom of;;;;;;;;;;;;;x
 empire_of_viet;Empire of;;;;;;;;;;;;;x
 
 
-#tausug loc 
+#Tausug loc 
 count_tausug;Sheikh;;;;;;;;;;;;;x
 count_female_tausug;Sheikha;;;;;;;;;;;;;x
-duke_tausug;Emir;;;;;;;;;;;;;x
-duke_female_tausug;Emira;;;;;;;;;;;;;x
-king_tausug;Sultan;;;;;;;;;;;;;x
-king_female_tausug;Sultana;;;;;;;;;;;;;x
+duke_tausug;Datu;;;;;;;;;;;;;x
+king_tausug;Rajah;;;;;;;;;;;;;x
+emperor_tausug;Sultan;;;;;;;;;;;;;x
+county_of_tausug;Sheikhdom of;;;;;;;;;;;;;x
+duchy_of_tausug;Princedom of;;;;;;;;;;;;;x
+kingdom_of_tausug;Kingdom of;;;;;;;;;;;;;x
+empire_of_tausug;Sultanate of;;;;;;;;;;;;;x
 
+#Maranao loc 
+count_maranao;Sheikh;;;;;;;;;;;;;x
+count_female_maranao;Sheikha;;;;;;;;;;;;;x
+duke_maranao;Emir;;;;;;;;;;;;;x
+duke_female_maranao;Emira;;;;;;;;;;;;;x
+king_maranao;Rajah;;;;;;;;;;;;;x
+emperor_maranao;Sultan;;;;;;;;;;;;;x
+emperor_female_maranao;Sultanah;;;;;;;;;;;;;x
+county_of_maranao;Sheikhdom of;;;;;;;;;;;;;x
+duchy_of_maranao;Emirate of;;;;;;;;;;;;;x
+kingdom_of_maranao;Kingdom of;;;;;;;;;;;;;x
+empire_of_maranao;Sultanate of;;;;;;;;;;;;;x
+
+#Maguindanao loc 
+count_maguindanao;Sheikh;;;;;;;;;;;;;x
+count_female_maguindanao;Sheikha;;;;;;;;;;;;;x
+duke_maguindanao;Emir;;;;;;;;;;;;;x
+duke_female_maguindanao;Emira;;;;;;;;;;;;;x
+king_maguindanao;Rajah;;;;;;;;;;;;;x
+emperor_maguindanao;Sultan;;;;;;;;;;;;;x
+emperor_female_maguindanao;Sultanah;;;;;;;;;;;;;x
+county_of_maguindanao;Sheikhdom of;;;;;;;;;;;;;x
+duchy_of_maguindanao;Emirate of;;;;;;;;;;;;;x
+kingdom_of_maguindanao;Kingdom of;;;;;;;;;;;;;x
+empire_of_maguindanao;Sultanate of;;;;;;;;;;;;;x
+
+#Tagalog and Chavacano title names
+count_south_philippinic;Konde;;;;;;;;;;;;;x
+count_female_south_philippinic;Kondesa;;;;;;;;;;;x
+duke_south_philippinic;Duke;;;;;;;;;;;;;x #pronounced du-ke, derived from Spanish duque
+duke_female_south_philippinic;Duka;;;;;;;;;;;;;x
+king_south_philippinic;Hari;;;;;;;;;;;;;x #literally the only actual local name here lmao
+king_female_south_philippinic;Reyna;;;;;;;;;;;;;x #I'm serious about Hari being the only actual Tagalog word
+emperor_south_philippinic;Imperador;;;;;;;;;;;;;x
+emperor_south_philippinic_female;Imperadora;;;;;;;;;;;;;x
+
+#Tagalog and Chavacano title names
+count_north_philippinic;Konde;;;;;;;;;;;;;x
+count_female_north_philippinic;Kondesa;;;;;;;;;;;x
+duke_north_philippinic;Duke;;;;;;;;;;;;;x #pronounced du-ke, derived from Spanish duque
+duke_female_north_philippinic;Duka;;;;;;;;;;;;;x
+king_north_philippinic;Hari;;;;;;;;;;;;;x #literally the only actual local name here lmao
+king_female_north_philippinic;Reyna;;;;;;;;;;;;;x #I'm serious about Hari being the only actual Tagalog word
+emperor_north_philippinic;Imperador;;;;;;;;;;;;;x
+emperor_north_philippinic_female;Imperadora;;;;;;;;;;;;;x
 #Tagalog and Chavacano title names
 count_tagalog;Konde;;;;;;;;;;;;;x
 count_female_tagalog;Kondesa;;;;;;;;;;;x
 duke_tagalog;Duke;;;;;;;;;;;;;x #pronounced du-ke, derived from Spanish duque
 duke_female_tagalog;Duka;;;;;;;;;;;;;x
 king_tagalog;Hari;;;;;;;;;;;;;x #literally the only actual local name here lmao
-king_female_tagalog;Haria;;;;;;;;;;;;;x
+king_female_tagalog;Reyna;;;;;;;;;;;;;x #I'm serious about Hari being the only actual Tagalog word
 emperor_tagalog;Imperador;;;;;;;;;;;;;x
 emperor_tagalog_female;Imperadora;;;;;;;;;;;;;x
 count_chavacano;Conde;;;;;;;;;;;;;x 
@@ -9952,7 +10060,7 @@ count_female_karaya;Kondesa;;;;;;;;;;;x
 duke_karaya;Duke;;;;;;;;;;;;;x #pronounced du-ke, derived from Spanish duque
 duke_female_karaya;Duka;;;;;;;;;;;;;x
 king_karaya;Hari;;;;;;;;;;;;;x #literally the only actual local name here lmao
-king_female_karaya;Haria;;;;;;;;;;;;;x
+king_female_karaya;Reyna;;;;;;;;;;;;;x
 emperor_karaya;Imperador;;;;;;;;;;;;;x
 emperor_karaya_female;Imperadora;;;;;;;;;;;;;x
 
@@ -9962,7 +10070,7 @@ count_female_agta;Kondesa;;;;;;;;;;;x
 duke_agta;Duke;;;;;;;;;;;;;x #pronounced du-ke, derived from Spanish duque
 duke_female_agta;Duka;;;;;;;;;;;;;x
 king_agta;Hari;;;;;;;;;;;;;x #literally the only actual local name here lmao
-king_female_agta;Haria;;;;;;;;;;;;;x
+king_female_agta;Reyna;;;;;;;;;;;;;x
 emperor_agta;Imperador;;;;;;;;;;;;;x
 emperor_agta_female;Imperadora;;;;;;;;;;;;;x
 
@@ -9972,7 +10080,7 @@ count_female_palawano;Kondesa;;;;;;;;;;;x
 duke_palawano;Duke;;;;;;;;;;;;;x #pronounced du-ke, derived from Spanish duque
 duke_female_palawano;Duka;;;;;;;;;;;;;x
 king_palawano;Hari;;;;;;;;;;;;;x #literally the only actual local name here lmao
-king_female_palawano;Haria;;;;;;;;;;;;;x
+king_female_palawano;Reyna;;;;;;;;;;;;;x
 emperor_palawano;Imperador;;;;;;;;;;;;;x
 emperor_palawano_female;Imperadora;;;;;;;;;;;;;x
 agta;Agta;;;;;;;;;;;;;x
@@ -10395,6 +10503,22 @@ baron_dongbei;Councilor;;;;;;;;;;;;;x
 baron_female_dongbei;Councilor;;;;;;;;;;;;;x
 barony_of_dongbei;District of;;;;;;;;;;;;;x
 
+
+king_han;Wang;;;;;;;;;;;;;x
+king_female_han;Nuwang;;;;;;;;;;;;;x
+kingdom_of_han;Kingdom of;;;;;;;;;;;;;x
+duke_han;Gong;;;;;;;;;;;;;x
+duke_female_han;Duchess;;;;;;;;;;;;;x
+duchy_of_han;Province of;;;;;;;;;;;;;x
+count_han;Lord;;;;;;;;;;;;;x
+count_female_han;Lady;;;;;;;;;;;;;x
+county_of_han;Prefecture of;;;;;;;;;;;;;x
+emperor_han;Huangdi;;;;;;;;;;;;;x
+emperor_female_han;Huanghou;;;;;;;;;;;;;x
+empire_of_han;Empire of;;;;;;;;;;;;;x
+baron_han;Councilor;;;;;;;;;;;;;x
+baron_female_han;Councilor;;;;;;;;;;;;;x
+barony_of_han;District of;;;;;;;;;;;;;x
 #Lan Yin
 king_lan_yin;Wang;;;;;;;;;;;;;x
 king_female_lan_yin;Nuwang;;;;;;;;;;;;;x
@@ -10568,11 +10692,11 @@ barony_bali_sumbawa;Kota;;;;;;;;;;;;;x
 barony_of_bali_sumbawa;Kota;;;;;;;;;;;;;x
 county_bali_sumbawa;Daerah;;;;;;;;;;;;;x
 county_of_bali_sumbawa;Daerah;;;;;;;;;;;;;x
-duchy_bali;Rajyam;;;;;;;;;;;;;x
-kingdom_bali;Maharajyam;;;;;;;;;;;;;x
+duchy_bali_sumbawa;Rajyam;;;;;;;;;;;;;x
+kingdom_bali_sumbawa;Maharajyam;;;;;;;;;;;;;x
 kingdom_of_bali_sumbawa;Maharajyam;;;;;;;;;;;;;x
 empire_bali_sumbawa;Samrajyam;;;;;;;;;;;;;x
-empire_of_bali;Samrajyam;;;;;;;;;;;;;x
+empire_of_bali_sumbawa;Samrajyam;;;;;;;;;;;;;x
 city_baron_bali_sumbawa;Datuk;;;;;;;;;;;;;x
 city_barony_bali_sumbawa;Datuk;;;;;;;;;;;;;x
 city_barony_of_bali_sumbawa;Datuk;;;;;;;;;;;;;x
@@ -10613,10 +10737,10 @@ city_baron_bandanic;Datuk;;;;;;;;;;;;;x
 city_barony_bandanic;Datuk;;;;;;;;;;;;;x
 city_barony_of_bandanic;Datuk;;;;;;;;;;;;;x
 ##Pancasila
-job_chancellor_pancasila;Minister of Relations;;;;;;;;;;;;;x
-job_treasurer_pancasila;Finance Councilor;;;;;;;;;;;;;x
-job_marshal_pancasila;Defense Councilor;;;;;;;;;;;;;x
-job_spymaster_pancasila;Minister of Information;;;;;;;;;;;;;x
+job_chancellor_pancasila;Minister of Home and Foreign Affairs;;;;;;;;;;;;;x
+job_treasurer_pancasila;Minister of Finance;;;;;;;;;;;;;x
+job_marshal_pancasila;Minister of Defence;;;;;;;;;;;;;x
+job_spymaster_pancasila;Minister of Communication and Informatics;;;;;;;;;;;;;x
 job_spiritual_pancasila;Speaker;;;;;;;;;;;;;x
 
 baron_pancasila;Lurah;;;;;;;;;;;;;x
@@ -10627,10 +10751,103 @@ duke_pancasila;Bupati;;;;;;;;;;;;;x
 duke_female_pancasila;Bupati;;;;;;;;;;;;;x
 king_pancasila;Gubernur;;;;;;;;;;;;;x
 king_female_pancasila;Gubernur;;;;;;;;;;;;;x
-emperor_pancasila;Koordinator;;;;;;;;;;;;;x
-emperor_female_pancasila;Koordinator;;;;;;;;;;;;;x
+emperor_pancasila;Wakil Presiden;;;;;;;;;;;;;x
+emperor_female_pancasila;Wakil Presiden;;;;;;;;;;;;;x
+PRESIDEN;Presiden;;;;;;;;;;;;;x
+PRESIDEN_FOA;My Presiden;;;;;;;;;;;;;x
+SRIMAHARAJADIRAJA;Sri Maharajadiraja;;;;;;;;;;;;;x
+SRIMAHARAJADIRAJA_FOA;My Maharajadiraja;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
+baron_aceh;Wali;;;;;;;;;;;;;x
+baron_female_aceh;Wali Cut;;;;;;;;;;;;;x
+baron_title_ruler_consort_aceh;Wali;;;;;;;;;;;;;x
+baron_title_ruler_consort_female_aceh;Wali Cut;;;;;;;;;;;;;x
+count_aceh;Teuku;;;;;;;;;;;;;x
+count_female_aceh;Cut;;;;;;;;;;;;;x
+count_title_ruler_consort_aceh;Teuku;;;;;;;;;;;;;x
+count_title_ruler_consort_female_aceh;Cut;;;;;;;;;;;;;x
+duke_aceh;Meurah;;;;;;;;;;;;;x # 
+duke_female_aceh;Ratu;;;;;;;;;;;;;x
+duke_title_ruler_consort_aceh;Meurah;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_aceh;Ratu;;;;;;;;;;;;;x
+king_aceh;Sôleutan;;;;;;;;;;;;;x
+king_female_aceh;Sôleutana;;;;;;;;;;;;;x
+title_ruler_consort_aceh;Tuwanku;;;;;;;;;;;;;x
+title_ruler_consort_female_aceh;Teungku Putroe;;;;;;;;;;;;;x
+emperor_aceh;Sri Meukata Alam;;;;;;;;;;;;;x 
+emperor_female_aceh;Sri Meukata Alam;;;;;;;;;;;;;x 
+emperor_title_ruler_consort_aceh;Tuwanku;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_aceh;Teungku Putroe;;;;;;;;;;;;;x
+title_crown_prince_aceh;Teuku Meukata;;;;;;;;;;;;;x
+title_crown_prince_female_aceh;Teuku Meukata Putroe;;;;;;;;;;;;;x
+title_prince_aceh;Tuwanku;;;;;;;;;;;;;x
+title_prince_female_aceh;Teungku;;;;;;;;;;;;;x
+barony_aceh;Kuta;;;;;;;;;;;;;x
+barony_of_aceh;Kuta;;;;;;;;;;;;;x
+county_aceh;Mukim;;;;;;;;;;;;;x
+county_of_aceh;Mukim;;;;;;;;;;;;;x
+duchy_aceh;Keurajeuën;;;;;;;;;;;;;x
+duchy_of_aceh;Keurajeuën;;;;;;;;;;;;;x
+kingdom_aceh;Keusôleutanan;;;;;;;;;;;;;x
+kingdom_of_aceh;Keusôleutanan;;;;;;;;;;;;;x
+empire_aceh;Nanggroë;;;;;;;;;;;;;x
+empire_of_aceh;Nanggroë;;;;;;;;;;;;;x
+city_baron_aceh;Wali Banda;;;;;;;;;;;;;x
+city_barony_aceh;Kuta Banda;;;;;;;;;;;;;x
+city_barony_of_aceh;Kuta Banda;;;;;;;;;;;;;x
+#Indonesia
+baron_indonesian;Loerah;;;;;;;;;;;;;x
+baron_female_indonesian;Loerah;;;;;;;;;;;;;x
+baron_title_ruler_consort_indonesian;Loerah;;;;;;;;;;;;;x
+baron_title_ruler_consort_female_indonesian;Loerah;;;;;;;;;;;;;x
+count_indonesian;Tjamat;;;;;;;;;;;;;x
+count_female_indonesian;Tjamat;;;;;;;;;;;;;x
+count_title_ruler_consort_indonesian;Tjamat;;;;;;;;;;;;;x
+count_title_ruler_consort_female_indonesian;Tjamat;;;;;;;;;;;;;x
+duke_indonesian;Boepati;;;;;;;;;;;;;x
+duke_female_indonesian;Boepati;;;;;;;;;;;;;x
+duke_title_ruler_consort_indonesian;Boepati;;;;;;;;;;;;;x
+duke_title_ruler_consort_female_indonesian;Boepati;;;;;;;;;;;;;x
+king_indonesian;Goebenoer;;;;;;;;;;;;;x
+king_female_indonesian;Goebenoer;;;;;;;;;;;;;x
+title_ruler_consort_indonesian;Goebenoer;;;;;;;;;;;;;x
+title_ruler_consort_female_indonesian;Goebenoer;;;;;;;;;;;;;x
+emperor_indonesian;Kaisar;;;;;;;;;;;;;x
+emperor_female_indonesian;Kaisarin;;;;;;;;;;;;;x
+emperor_title_ruler_consort_indonesian;Koordinator;;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_indonesian;Koordinator;;;;;;;;;;;;;x
+title_crown_prince_indonesian;Pangeran Machota;;;;;;;;;;;;;x
+title_crown_prince_female_indonesian;Pangeran Machota;;;;;;;;;;;;;x
+title_prince_indonesian;Pangeran;;;;;;;;;;;;;x
+title_prince_female_indonesian;Pangeran;;;;;;;;;;;;;x
+barony_indonesian;Keloerahan;;;;;;;;;;;;;x
+barony_of_indonesian;Keloerahan;;;;;;;;;;;;;x
+county_indonesian;Ketjamatan;;;;;;;;;;;;;x
+county_of_indonesian;Ketjamatan;;;;;;;;;;;;;x
+duchy_indonesian;Kaboepaten;;;;;;;;;;;;;x
+duchy_of_indonesian;Kaboepaten;;;;;;;;;;;;;x
+kingdom_indonesian;Provinsi;;;;;;;;;;;;;x
+kingdom_of_indonesian;Provinsi;;;;;;;;;;;;;x
+empire_indonesian;Kekaisaran;;;;;;;;;;;;;x
+empire_of_indonesian;Kekaisaran;;;;;;;;;;;;;x
+city_baron_indonesian;Loerah Perkotaan;;;;;;;;;;;;;x
+city_barony_indonesian;Keloerahan Perkotaan;;;;;;;;;;;;;x
+city_barony_of_indonesian;Keloerahan Perkotaan;;;;;;;;;;;;;x
+oligarchic_republic_baron_indonesian;Loerah Perkotaan;;;;;;;;;;;;;x
+oligarchic_republic_barony_indonesian;Keloerahan Perkotaan;;;;;;;;;;;;;x
+oligarchic_republic_barony_of_indonesian;Keloerahan Perkotaan;;;;;;;;;;;;;x
+oligarchic_republic_count_indonesian;Ketoea Distrik;;;;;;;;;;;;;x
+oligarchic_republic_county_indonesian;Distrik;;;;;;;;;;;;;x
+oligarchic_republic_county_of_indonesian;Distrik;;;;;;;;;;;;;x
+oligarchic_republic_duke_indonesian;Wali Kota;;;;;;;;;;;;;x
+oligarchic_republic_duchy_indonesian;Kota;;;;;;;;;;;;;x
+oligarchic_republic_duchy_of_indonesian;Kota;;;;;;;;;;;;;x
+oligarchic_republic_king_indonesian;Goebenoer;;;;;;;;;;;;;x
+oligarchic_republic_kingdom_indonesian;Provinsi;;;;;;;;;;;;;x
+oligarchic_republic_kingdom_of_indonesian;Provinsi;;;;;;;;;;;;;x
+oligarchic_republic_emperor_indonesian;Perdana Menteri;;;;;;;;;;;;;x
+oligarchic_republic_empire_of_indonesian;Repoeblik;;;;;;;;;;;;;x
+oligarchic_republic_empire_indonesian;Repoeblik;;;;;;;;;;;;;x
 #Gyeonggi
 king_gyeonggi;Wang;;;;;;;;;;;;;x
 king_female_gyeonggi;Yeowang;;;;;;;;;;;;;x
@@ -10924,7 +11141,9 @@ temple_kingdom_of_wuist;Divine Kingdom of;;;;;;;;;;;;;x
 temple_king_wuist;Enlightened Diviner;;;;;;;;;;;;;x
 temple_king_female_wuist;Enlightened Diviner;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;
-
+world_pacific;Pacific Islands;;;;;;;;;;;;;x
+world_australia;Australia;;;;;;;;;;;;;x
+world_oceania;Oceania;;;;;;;;;;;;;x
 #Wuxia temple loc
 temple_barony_of_wuxia;Monastery of;;;;;;;;;;;;;x
 temple_baron_wuxia;Follower;;;;;;;;;;;;;x
@@ -11040,13 +11259,13 @@ temple_king_syafi;Grand Mufti;;;;;;;;;;;;;x
 
 #Ramadi temple loc
 temple_barony_of_ramadi;Temple of;;;;;;;;;;;;;x
-temple_baron_ramadi;Priest;;;;;;;;;;;;;x
+temple_baron_ramadi;Imam-Bhikkhu;;;;;;;;;;;;;x
 temple_county_of_ramadi;Grand Temple of;;;;;;;;;;;;;x
-temple_count_ramadi;Grand Priest;;;;;;;;;;;;;x
-temple_duchy_of_ramadi;Priestdom of;;;;;;;;;;;;;x
-temple_duke_ramadi;Head Priest;;;;;;;;;;;;;x
-temple_kingdom_of_ramadi;Grand Priestdom of;;;;;;;;;;;;;x
-temple_king_ramadi;Priest King;;;;;;;;;;;;;x
+temple_count_ramadi;Grand Mufti-Bhikkhu;;;;;;;;;;;;;x
+temple_duchy_of_ramadi;Rama-Imamate of;;;;;;;;;;;;;x
+temple_duke_ramadi;Grand Rama-Imam;;;;;;;;;;;;;x
+temple_kingdom_of_ramadi;Rama-Muftiate of;;;;;;;;;;;;;x
+temple_king_ramadi;Grand Rama-Mufti;;;;;;;;;;;;;x
 
 #Borneo cultures loc
 king_borneonic;Sultan;;;;;;;;;;;;;x
@@ -11064,6 +11283,127 @@ empire_of_borneonic;Empire of;;;;;;;;;;;;;x
 baron_borneonic;Dato';;;;;;;;;;;;;x
 baron_female_borneonic;Dato';;;;;;;;;;;;;x
 barony_of_borneonic;Barony of;;;;;;;;;;;;;x
+
+
+#Borneo cultures loc
+king_papuan;Sultan;;;;;;;;;;;;;x
+king_female_papuan;Sultanah;;;;;;;;;;;;;x
+kingdom_of_papuan;Kingdom of;;;;;;;;;;;;;x
+duke_papuan;Raja;;;;;;;;;;;;;x
+duke_female_papuan;Ratu;;;;;;;;;;;;;x
+duchy_of_papuan;Princedom of;;;;;;;;;;;;;x
+count_papuan;Tun;;;;;;;;;;;;;x
+count_female_papuan;Tun;;;;;;;;;;;;;x
+county_of_papuan;County of;;;;;;;;;;;;;x
+emperor_papuan;Maharaja;;;;;;;;;;;;;x
+emperor_female_papuan;Permaisuri;;;;;;;;;;;;;x
+empire_of_papuan;Empire of;;;;;;;;;;;;;x
+baron_papuan;Dato';;;;;;;;;;;;;x
+baron_female_papuan;Dato';;;;;;;;;;;;;x
+barony_of_papuan;Barony of;;;;;;;;;;;;;x
+
+#Borneo cultures loc
+king_west_papuan;Sultan;;;;;;;;;;;;;x
+king_female_west_papuan;Sultanah;;;;;;;;;;;;;x
+kingdom_of_west_papuan;Kingdom of;;;;;;;;;;;;;x
+duke_west_papuan;Raja;;;;;;;;;;;;;x
+duke_female_west_papuan;Ratu;;;;;;;;;;;;;x
+duchy_of_west_papuan;Princedom of;;;;;;;;;;;;;x
+count_west_papuan;Tun;;;;;;;;;;;;;x
+count_female_west_papuan;Tun;;;;;;;;;;;;;x
+county_of_west_papuan;County of;;;;;;;;;;;;;x
+emperor_west_papuan;Maharaja;;;;;;;;;;;;;x
+emperor_female_west_papuan;Permaisuri;;;;;;;;;;;;;x
+empire_of_west_papuan;Empire of;;;;;;;;;;;;;x
+baron_west_papuan;Dato';;;;;;;;;;;;;x
+baron_female_west_papuan;Dato';;;;;;;;;;;;;x
+barony_of_west_papuan;Barony of;;;;;;;;;;;;;x
+
+
+#Borneo cultures loc
+king_abun_mpuric;Sultan;;;;;;;;;;;;;x
+king_female_abun_mpuric;Sultanah;;;;;;;;;;;;;x
+kingdom_of_abun_mpuric;Kingdom of;;;;;;;;;;;;;x
+duke_abun_mpuric;Raja;;;;;;;;;;;;;x
+duke_female_abun_mpuric;Ratu;;;;;;;;;;;;;x
+duchy_of_abun_mpuric;Princedom of;;;;;;;;;;;;;x
+count_abun_mpuric;Tun;;;;;;;;;;;;;x
+count_female_abun_mpuric;Tun;;;;;;;;;;;;;x
+county_of_abun_mpuric;County of;;;;;;;;;;;;;x
+emperor_abun_mpuric;Maharaja;;;;;;;;;;;;;x
+emperor_female_abun_mpuric;Permaisuri;;;;;;;;;;;;;x
+empire_of_abun_mpuric;Empire of;;;;;;;;;;;;;x
+baron_abun_mpuric;Dato';;;;;;;;;;;;;x
+baron_female_abun_mpuric;Dato';;;;;;;;;;;;;x
+barony_of_abun_mpuric;Barony of;;;;;;;;;;;;;x
+
+#Borneo cultures loc
+king_bandanic;Sultan;;;;;;;;;;;;;x
+king_female_bandanic;Sultanah;;;;;;;;;;;;;x
+kingdom_of_bandanic;Kingdom of;;;;;;;;;;;;;x
+duke_bandanic;Raja;;;;;;;;;;;;;x
+duke_female_bandanic;Ratu;;;;;;;;;;;;;x
+duchy_of_bandanic;Princedom of;;;;;;;;;;;;;x
+count_bandanic;Tun;;;;;;;;;;;;;x
+count_female_bandanic;Tun;;;;;;;;;;;;;x
+county_of_bandanic;County of;;;;;;;;;;;;;x
+emperor_bandanic;Maharaja;;;;;;;;;;;;;x
+emperor_female_bandanic;Permaisuri;;;;;;;;;;;;;x
+empire_of_bandanic;Empire of;;;;;;;;;;;;;x
+baron_bandanic;Dato';;;;;;;;;;;;;x
+baron_female_bandanic;Dato';;;;;;;;;;;;;x
+barony_of_bandanic;Barony of;;;;;;;;;;;;;x
+
+#Borneo cultures loc
+king_celebic;Sultan;;;;;;;;;;;;;x
+king_female_celebic;Sultanah;;;;;;;;;;;;;x
+kingdom_of_celebic;Kingdom of;;;;;;;;;;;;;x
+duke_celebic;Raja;;;;;;;;;;;;;x
+duke_female_celebic;Ratu;;;;;;;;;;;;;x
+duchy_of_celebic;Princedom of;;;;;;;;;;;;;x
+count_celebic;Tun;;;;;;;;;;;;;x
+count_female_celebic;Tun;;;;;;;;;;;;;x
+county_of_celebic;County of;;;;;;;;;;;;;x
+emperor_celebic;Maharaja;;;;;;;;;;;;;x
+emperor_female_celebic;Permaisuri;;;;;;;;;;;;;x
+empire_of_celebic;Empire of;;;;;;;;;;;;;x
+baron_celebic;Dato';;;;;;;;;;;;;x
+baron_female_celebic;Dato';;;;;;;;;;;;;x
+barony_of_celebic;Barony of;;;;;;;;;;;;;x
+
+#Borneo cultures loc
+king_sulawesic;Sultan;;;;;;;;;;;;;x
+king_female_sulawesic;Sultanah;;;;;;;;;;;;;x
+kingdom_of_sulawesic;Kingdom of;;;;;;;;;;;;;x
+duke_sulawesic;Raja;;;;;;;;;;;;;x
+duke_female_sulawesic;Ratu;;;;;;;;;;;;;x
+duchy_of_sulawesic;Princedom of;;;;;;;;;;;;;x
+count_sulawesic;Tun;;;;;;;;;;;;;x
+count_female_sulawesic;Tun;;;;;;;;;;;;;x
+county_of_sulawesic;County of;;;;;;;;;;;;;x
+emperor_sulawesic;Maharaja;;;;;;;;;;;;;x
+emperor_female_sulawesic;Permaisuri;;;;;;;;;;;;;x
+empire_of_sulawesic;Empire of;;;;;;;;;;;;;x
+baron_sulawesic;Dato';;;;;;;;;;;;;x
+baron_female_sulawesic;Dato';;;;;;;;;;;;;x
+barony_of_sulawesic;Barony of;;;;;;;;;;;;;x
+
+#Borneo cultures loc
+king_malukic;Sultan;;;;;;;;;;;;;x
+king_female_malukic;Sultanah;;;;;;;;;;;;;x
+kingdom_of_malukic;Kingdom of;;;;;;;;;;;;;x
+duke_malukic;Raja;;;;;;;;;;;;;x
+duke_female_malukic;Ratu;;;;;;;;;;;;;x
+duchy_of_malukic;Princedom of;;;;;;;;;;;;;x
+count_malukic;Tun;;;;;;;;;;;;;x
+count_female_malukic;Tun;;;;;;;;;;;;;x
+county_of_malukic;County of;;;;;;;;;;;;;x
+emperor_malukic;Maharaja;;;;;;;;;;;;;x
+emperor_female_malukic;Permaisuri;;;;;;;;;;;;;x
+empire_of_malukic;Empire of;;;;;;;;;;;;;x
+baron_malukic;Dato';;;;;;;;;;;;;x
+baron_female_malukic;Dato';;;;;;;;;;;;;x
+barony_of_malukic;Barony of;;;;;;;;;;;;;x
 
 #Sumatran cultures loc
 king_sumatric;Sultan;;;;;;;;;;;;;x
@@ -11113,13 +11453,209 @@ baron_hmong_mien;Councilor;;;;;;;;;;;;;x
 baron_female_hmong_mienu;Councilor;;;;;;;;;;;;;x
 barony_of_hmong_mien;District of;;;;;;;;;;;;;x
 
+#Cina loc
+king_cina;Wang;;;;;;;;;;;;;x
+king_female_cina;Nuwang;;;;;;;;;;;;;x
+kingdom_of_cina;Kingdom of;;;;;;;;;;;;;x
+duke_cina;Governor;;;;;;;;;;;;;x
+duke_female_cina;Governor;;;;;;;;;;;;;x
+duchy_of_cina;Province of;;;;;;;;;;;;;x
+count_cina;Tun;;;;;;;;;;;;;x
+count_female_cina;Tun;;;;;;;;;;;;;x
+county_of_cina;County of;;;;;;;;;;;;;x
+emperor_cina;Huangdi;;;;;;;;;;;;;x
+emperor_female_cina;Huanghou;;;;;;;;;;;;;x
+empire_of_cina;Empire of;;;;;;;;;;;;;x
+baron_cina;Datuk;;;;;;;;;;;;;x
+baron_female_cina;Datuk;;;;;;;;;;;;;x
+barony_of_cina;District of;;;;;;;;;;;;;x
+city_baron_cina;Mayor;;;;;;;;;;;;;x
+city_barony_of_cina;City of;;;;;;;;;;;;;x
+
+#Singaporean loc
+king_singapura;King;;;;;;;;;;;;;x
+king_female_singapura;Queen;;;;;;;;;;;;;x
+kingdom_of_singapura;Kingdom of;;;;;;;;;;;;;x
+duke_singapura;Governor;;;;;;;;;;;;;x
+duke_female_singapura;Governor;;;;;;;;;;;;;x
+duchy_of_singapura;Province of;;;;;;;;;;;;;x
+count_singapura;Manager;;;;;;;;;;;;;x
+count_female_singapura;Manager;;;;;;;;;;;;;x
+county_of_singapura;District of;;;;;;;;;;;;;x
+emperor_singapura;Emperor;;;;;;;;;;;;;x
+emperor_female_singapura;Empress;;;;;;;;;;;;;x
+empire_of_singapura;Empire of;;;;;;;;;;;;;x
+baron_singapura;Councilor;;;;;;;;;;;;;x
+baron_female_singapura;Councilor;;;;;;;;;;;;;x
+barony_of_singapura;Council of;;;;;;;;;;;;;x
+city_baron_singapura;Mayor;;;;;;;;;;;;;x
+city_barony_of_singapura;City of;;;;;;;;;;;;;x
+
 #Agamatirta loc
 temple_baron_agamatirta;Pujari;;;;;;;;;x
-temple_barony_of_agamatirta;Temple of;;;;;;;;;;;;;x
-temple_county_of_agamatirta;Grand Temple of;;;;;;;;;;;;;x
+temple_barony_of_agamatirta;Pura of;;;;;;;;;;;;;x
+temple_county_of_agamatirta;Grand Pura of;;;;;;;;;;;;;x
 temple_count_agamatirta;Grand Pujari;;;;;;;;;;;;;x
-temple_duchy_of_agamatirta;Exalted Temple of;;;;;;;;;;;;;x
+temple_duchy_of_agamatirta;Exalted Pura of;;;;;;;;;;;;;x
 temple_duke_agamatirta;Exalted Pujari;;;;;;;;;;;;;x
 temple_kingdom_of_agamatirta;Divine Princedom of;;;;;;;;;;;;;x
 temple_king_agamatirta;Pujari Prince;;;;;;;;;;;;;x
+
+kuloglu;Kuloglu;;;;;;;;;;;;;x
+empire_of_kuloglu;Beylerbeylik;;;;;;;;;;;;;x
+emperor_kuloglu;Beylerbey;;;;;;;;;;;;;x
+emperor_female_kuloglu;Sultan;;;;;;;;;;;;;x
+kingdom_of_kuloglu;Dayilik;;;;;;;;;;;;;x
+king_kuloglu;Dayi;;;;;;;;;;;;;x
+king_female_kuloglu;Teyze;;;;;;;;;;;;;x
+duchy_of_kuloglu;Beylik;;;;;;;;;;;;;x
+duke_kuloglu;Bey;;;;;;;;;;;;;x
+duke_female_kuloglu;Hanim;;;;;;;;;;;;;x
+county_of_kuloglu;Watan;;;;;;;;;;;;;x
+count_kuloglu;Kagid;;;;;;;;;;;;;x
+count_female_kuloglu;Kagid;;;;;;;;;;;;;x
+baron_kuloglu;Sheyh;;;;;;;;;;;;;x
+baron_female_kuloglu;Sheyha;;;;;;;;;;;;;x
+tribal_empire_of_kuloglu;Raya;;;;;;;;;;;;;x
+tribal_emperor_kuloglu;Sheyh;;;;;;;;;;;;;x
+tribal_emperor_female_kuloglu;Sheyha;;;;;;;;;;;;;x
+tribal_kingdom_of_kuloglu;Magzen;;;;;;;;;;;;;x
+tribal_king_kuloglu;Sheyh;;;;;;;;;;;;;x
+tribal_king_female_kuloglu;Sheyha;;;;;;;;;;;;;x
+tribal_duchy_of_kuloglu;Magzen;;;;;;;;;;;;;x
+tribal_duke_kuloglu;Sheyh;;;;;;;;;;;;;x
+tribal_duke_female_kuloglu;Sheyha;;;;;;;;;;;;;x
+tribal_county_of_kuloglu;Magzen;;;;;;;;;;;;;x
+tribal_count_kuloglu;Sheyh;;;;;;;;;;;;;x
+tribal_count_female_kuloglu;Sheyha;;;;;;;;;;;;;x
+city_baron_kuloglu;Pasha;;;;;;;;;;;;;x
+city_baron_female_kuloglu;Pasha;;;;;;;;;;;;;x
+city_count_kuloglu;Pasha;;;;;;;;;;;;;x
+city_count_female_kuloglu;Pasha;;;;;;;;;;;;;x
+city_duke_kuloglu;Pasha;;;;;;;;;;;;;x
+city_duke_female_kuloglu;Pasha;;;;;;;;;;;;;x
+city_king_kuloglu;Pasha;;;;;;;;;;;;;x
+city_king_female_kuloglu;Pasha;;;;;;;;;;;;;x
+city_emperor_kuloglu;Pasha;;;;;;;;;;;;;x
+city_emperor_female_kuloglu;Pasha;;;;;;;;;;;;;x
+city_barony_of_kuloglu;Pashalik;;;;;;;;;;;;;x
+city_county_of_kuloglu;Pashalik;;;;;;;;;;;;;x
+city_duchy_of_kuloglu;Pashalik;;;;;;;;;;;;;x
+city_kingdom_of_kuloglu;Pashalik;;;;;;;;;;;;;x
+city_empire_of_kuloglu;Pashalik;;;;;;;;;;;;;x
+oligarchic_republic_baron_kuloglu;Dayi;;;;;;;;;;;;;x
+oligarchic_republic_baron_female_kuloglu;Teyze;;;;;;;;;;;;;x
+oligarchic_republic_count_kuloglu;Dayi;;;;;;;;;;;;;x
+oligarchic_republic_count_female_kuloglu;Teyze;;;;;;;;;;;;;x
+oligarchic_republic_duke_kuloglu;Dayi;;;;;;;;;;;;;x
+oligarchic_republic_duke_female_kuloglu;Teyze;;;;;;;;;;;;;x
+oligarchic_republic_king_kuloglu;Dayi;;;;;;;;;;;;;x
+oligarchic_republic_king_female_kuloglu;Teyze;;;;;;;;;;;;;x
+oligarchic_republic_emperor_kuloglu;Dayi;;;;;;;;;;;;;x
+oligarchic_republic_emperor_female_kuloglu;Teyze;;;;;;;;;;;;;x
+oligarchic_republic_barony_of_kuloglu;Divan;;;;;;;;;;;;;x
+oligarchic_republic_county_of_kuloglu;Divan;;;;;;;;;;;;;x
+oligarchic_republic_duchy_of_kuloglu;Divan;;;;;;;;;;;;;x
+oligarchic_republic_kingdom_of_kuloglu;Divan;;;;;;;;;;;;;x
+oligarchic_republic_empire_of_kuloglu;Divan;;;;;;;;;;;;;x
+
+neo_daggatun;Daggatun;;;;;;;;;;;;;x
+empire_of_neo_daggatun;Amengud;;;;;;;;;;;;;x
+emperor_neo_daggatun;Meleg Amegar;;;;;;;;;;;;;x
+emperor_female_neo_daggatun;Tin Hinan;;;;;;;;;;;;;x
+kingdom_of_neo_daggatun;Memleg;;;;;;;;;;;;;x
+king_neo_daggatun;Meleg;;;;;;;;;;;;;x
+king_female_neo_daggatun;Tamelegt;;;;;;;;;;;;;x
+duchy_of_neo_daggatun;Nshges;;;;;;;;;;;;;x
+duke_neo_daggatun;Naseg;;;;;;;;;;;;;x
+duke_female_neo_daggatun;Tasegenit;;;;;;;;;;;;;x
+county_of_neo_daggatun;Nafat;;;;;;;;;;;;;x
+count_neo_daggatun;Segen;;;;;;;;;;;;;x
+count_female_neo_daggatun;Tasegenit;;;;;;;;;;;;;x
+barony_of_neo_daggatun;Magoz;;;;;;;;;;;;;x
+baron_neo_daggatun;Mesh;;;;;;;;;;;;;x
+baron_female_neo_daggatun;Tamesht;;;;;;;;;;;;;x
+tribal_empire_of_neo_daggatun;Ettebel;;;;;;;;;;;;;x
+tribal_emperor_neo_daggatun;Amenogal;;;;;;;;;;;;;x
+tribal_emperor_female_neo_daggatun;Tamenogalt;;;;;;;;;;;;;x
+tribal_kingdom_of_neo_daggatun;Tagelda;;;;;;;;;;;;;x
+tribal_king_neo_daggatun;Amghar;;;;;;;;;;;;;x
+tribal_king_female_neo_daggatun;Tamghart;;;;;;;;;;;;;x
+tribal_duchy_of_neo_daggatun;Tagelda;;;;;;;;;;;;;x
+tribal_duke_neo_daggatun;Amghar;;;;;;;;;;;;;x
+tribal_duke_female_neo_daggatun;Tamghart;;;;;;;;;;;;;x
+tribal_county_of_neo_daggatun;Tagelda;;;;;;;;;;;;;x
+tribal_count_neo_daggatun;Amghar;;;;;;;;;;;;;x
+tribal_count_female_neo_daggatun;Tamghart;;;;;;;;;;;;;x
+city_baron_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_baron_female_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_count_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_count_female_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_duke_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_duke_female_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_king_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_king_female_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_emperor_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_emperor_female_neo_daggatun;Uleghan;;;;;;;;;;;;;x
+city_barony_of_neo_daggatun;Republheke;;;;;;;;;;;;;x
+city_county_of_neo_daggatun;Republheke;;;;;;;;;;;;;x
+city_duchy_of_neo_daggatun;Republheke;;;;;;;;;;;;;x
+city_kingdom_of_neo_daggatun;Republheke;;;;;;;;;;;;;x
+city_empire_of_neo_daggatun;Republheke;;;;;;;;;;;;;x
+
+atlassiano;Atlassiano;;;;;;;;;;;;;x
+empire_of_atlassiano;Imperiu Di;;;;;;;;;;;;;x
+emperor_atlassiano;Imperatur;;;;;;;;;;;;;x
+emperor_female_atlassiano;Imperatrice;;;;;;;;;;;;;x
+kingdom_of_atlassiano;Reñu Di;;;;;;;;;;;;;x
+king_atlassiano;Reri;;;;;;;;;;;;;x
+king_female_atlassiano;Rerina;;;;;;;;;;;;;x
+duchy_of_atlassiano;Ducatu;;;;;;;;;;;;;x
+duke_atlassiano;Duca;;;;;;;;;;;;;x
+duke_female_atlassiano;Duchessa;;;;;;;;;;;;;x
+county_of_atlassiano;Cuntea;;;;;;;;;;;;;x
+count_atlassiano;Cunti;;;;;;;;;;;;;x
+count_female_atlassiano;Cuntess;;;;;;;;;;;;;x
+tribal_empire_of_atlassiano;Sultanatu;;;;;;;;;;;;;x
+tribal_emperor_atlassiano;Sultanu;;;;;;;;;;;;;x
+tribal_emperor_female_atlassiano;Sultana;;;;;;;;;;;;;x
+tribal_kingdom_of_atlassiano;Mànnu Imara;;;;;;;;;;;;;x
+tribal_king_atlassiano;Mànnu Imaru;;;;;;;;;;;;;x
+tribal_king_female_atlassiano;Mànnu Imara;;;;;;;;;;;;;x
+tribal_duchy_of_atlassiano;Imara;;;;;;;;;;;;;x
+tribal_duke_atlassiano;Imaru;;;;;;;;;;;;;x
+tribal_duke_female_atlassiano;Imara;;;;;;;;;;;;;x
+tribal_county_of_atlassiano;Masciaca;;;;;;;;;;;;;x
+tribal_count_atlassiano;Sceiccu;;;;;;;;;;;;;x
+tribal_count_female_atlassiano;Scicca;;;;;;;;;;;;;x
+city_baron_atlassiano;Duge;;;;;;;;;;;;;x
+city_baron_female_atlassiano;Duge;;;;;;;;;;;;;x
+city_count_atlassiano;Duge;;;;;;;;;;;;;x
+city_count_female_atlassiano;Duge;;;;;;;;;;;;;x
+city_duke_atlassiano;Duge;;;;;;;;;;;;;x
+city_duke_female_atlassiano;Duge;;;;;;;;;;;;;x
+city_king_atlassiano;Duge;;;;;;;;;;;;;x
+city_king_female_atlassiano;Duge;;;;;;;;;;;;;x
+city_emperor_atlassiano;Duge;;;;;;;;;;;;;x
+city_emperor_female_atlassiano;Duge;;;;;;;;;;;;;x
+city_barony_of_atlassiano;Republica;;;;;;;;;;;;;x
+city_county_of_atlassiano;Republica;;;;;;;;;;;;;x
+city_duchy_of_atlassiano;Republica;;;;;;;;;;;;;x
+city_kingdom_of_atlassiano;Republica;;;;;;;;;;;;;x
+city_empire_of_atlassiano;Republica;;;;;;;;;;;;;x
+oligarchic_republic_baron_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_baron_female_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_count_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_count_female_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_duke_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_duke_female_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_king_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_king_female_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_emperor_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_emperor_female_atlassiano;Duge;;;;;;;;;;;;;x
+oligarchic_republic_barony_of_atlassiano;Republica;;;;;;;;;;;;;x
+oligarchic_republic_county_of_atlassiano;Republica;;;;;;;;;;;;;x
+oligarchic_republic_duchy_of_atlassiano;Republica;;;;;;;;;;;;;x
+oligarchic_republic_kingdom_of_atlassiano;Republica;;;;;;;;;;;;;x
+oligarchic_republic_empire_of_atlassiano;Republica;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;

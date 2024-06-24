@@ -675,7 +675,7 @@ RULE_WITHIN_RANGE_DESC;Only characters within Nigeria's Diplomatic Range can use
 RULE_OPTION_ANYONE;Anyone;;;;;;;;;;;;;x
 RULE_ANYONE_DESC;Any character in the world can use Grace Actions.;;;;;;;;;;;;;x
 LIBERATED_KINGDOM;[new_ruler.GetLastWordInDynastyName] [Prev.GetName];;;;;;;;;;;;;x
-gov_confucian;Nigerian Colony;;;;;;;;;;;;;x
+gov_confucian;Nigerian Governate;;;;;;;;;;;;;x
 RULE_UNJUSTIFIED_ON_DESC;Characters can, through spending Piety and Gold, start Border Dispute wars targeting single counties.;;;;;;;;;;;;;x
 RULE_UNJUSTIFIED_OFF_DESC;Characters cannot start Border Disputes.;;;;;;;;;;;;;x
 MDODUS;Mdo 'dus;;;;;;;;;;;;;x
@@ -971,6 +971,53 @@ tangut;Tangut;;;;;;;;;;;;;x
 bodpa;Bödpa;;;;;;;;;;;;;x
 nepali;Nepali;;;;;;;;;;;;;x
 tibetan_group;Tibetic;;;;;;;;;;;x
+PROV1351;Nagchu;Nagchu;Nagchu;;Nagchu;;;;;;;;;x
+PROV1464;Gilgit;Gilgit;Gilgit;;Gilgit;;;;;;;;;x
+PROV1465;Tashkurgan;Tashkurgan;Tashkurgan;;Tashkurgan;;;;;;;;;x
+PROV1466;Skardu;Skardu;Skardu;;Skardu;;;;;;;;;x
+PROV1467;Diskit;Diskit;Diskit;;Diskit;;;;;;;;;x
+PROV1468;Leh;Leh;Leh;;Leh;;;;;;;;;x
+PROV1469;Kangra;Kangra;Kangra;;Kangra;;;;;;;;;x
+PROV1470;Garhwal;Garhwal;Baroda;;Garhwal;;;;;;;;;x
+PROV1471;Kurmanchal;Kurmanchal;Kurmanchal;;Kurmanchal;;;;;;;;;x
+PROV1472;Jumla;Jumla;Jumla;;Jumla;;;;;;;;;x
+PROV1473;Doti;Doti;Doti;;Doti;;;;;;;;;x
+PROV1474;Lumbini;Lumbini;Lumbini;;Lumbini;;;;;;;;;x
+PROV1475;Pokhara;Pokhara;Pokhara;;Pokhara;;;;;;;;;x
+PROV1476;Mangyul;Mangyul;Mangyul;;Mangyul;;;;;;;;;x
+PROV1477;Janakpur;Janakpur;Janakpur;;Janakpur;;;;;;;;;x
+PROV1478;Kathmandu;Kathmandu;Kathmandu;;Katmandú;;;;;;;;;x
+PROV1479;Limbuwan;Limbuwan;Limbuwan;;Limbuwan;;;;;;;;;x
+PROV1480;Sikkim;Sikkim;Sikkim;;Sikkim;;;;;;;;;x
+PROV1481;Paro;Paro;Paro;;Paro;;;;;;;;;x
+PROV1482;Bumthang;Bumthang;Bumthang;;Bumthang;;;;;;;;;x
+PROV1483;Monyul;Monyul;Monyul;;Monyul;;;;;;;;;x
+PROV1484;Lhoyu;Lhoyu;Lhoyu;;Lhoyu;;;;;;;;;x
+PROV1485;Rutog;Rutog;Rutog;;Rutog;;;;;;;;;x
+PROV1486;Tsaparang;Tsaparang;Tsaparang;;Tsaparang;;;;;;;;;x
+PROV1487;Gar;Gar;Gar;;Gar;;;;;;;;;x
+PROV1488;Pangong;Pangong;Pangong;;Pangong;;;;;;;;;x
+PROV1489;Kunlun;Kunlun;Kunlun;;Kunlun;;;;;;;;;x
+PROV1490;Kyunglung;Kyunglung;Kyunglung;;Kyunglung;;;;;;;;;x
+PROV1491;Purang;Purang;Purang;;Purang;;;;;;;;;x
+PROV1492;Sakya;Sakya;Sakya;;Sakya;;;;;;;;;x
+PROV1493;Coqen;Coqen;Coqen;;Coqen;;;;;;;;;x
+PROV1494;Gerze;Gerze;Gerze;;Gerze;;;;;;;;;x
+PROV1495;Samtho;Samtho;Samtho;;Samtho;;;;;;;;;x
+PROV1496;Taktse;Taktse;Taktse;;Taktse;;;;;;;;;x
+PROV1497;Gyantse;Gyantse;Gyantse;;Gyantse;;;;;;;;;x
+PROV1498;Lhasa;Lhasa;Lhasa;;Lhasa;;;;;;;;;x
+PROV1499;Shigatse;Shigatse;Shigatse;;Shigatse;;;;;;;;;x
+PROV1500;Nyingchi;Nyingchi;Nyingchi;;Nyingchi;;;;;;;;;x
+PROV1501;Nagormo;Nagormo;Nagormo;;Nagormo;;;;;;;;;x
+PROV1502;Fuqi;Fuqi;Fuqi;;Fuqi;;;;;;;;;x
+PROV1503;Nangqen;Nangqen;Nangqen;;Nangqen;;;;;;;;;x
+PROV1504;Lingtsang;Lingtsang;Lingtsang;;Lingtsang;;;;;;;;;x
+PROV1505;Markam;Markam;Markam;;Markam;;;;;;;;;x
+PROV1506;Dege;Dege;Dege;;Dege;;;;;;;;;x
+PROV1507;Nyima;Nyima;Nyima;;Nyima;;;;;;;;;x
+PROV1508;Qamdo;Qamdo;Qamdo;;Qamdo;;;;;;;;;x
+PROV1511;Pamir;Pamir;Pamir;;Pamir;;;;;;;;;x
 d_trigarta;Trigarta;Trigarta;Trigarta;;Trigarta;;;;;;;;;x
 d_trigarta_adj;Trigartan;trigartan;Trigartisch;;trigartano;;;;;;;;;x
 b_daroot_korgon;Daroot-Korgon;Daroot-Korgon;Daroot-Korgon;;Daroot-Korgon;;;;;;;;;x
@@ -1673,12 +1720,14 @@ pagan_group_FEATURES;§Y*§! Women may hold Spymaster positions;§Y*§! Les femmes p
 pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 norse_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 tengri_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars\n§Y*§! Can Build Cairns in Temple Holdings;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
+raven_tales_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 baltic_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 finnish_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars\n§Y*§! Can Build Cairns in Temple Holdings;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 slavic_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 west_african_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
+wunggur_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars\n§Y*§! Gay marriage is permissible;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 zun_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
-hellenic_pagan_FEATURES;§Y*§! Is excluded from standard pagan inferiority at conversion\n§Y*§! Rulers cannot declare Holy Wars\n§Y*§! Characters are born under specific Zodiac signs\n§Y*§! Army morale is determined by Haruspicy;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
+hellenic_pagan_FEATURES;§Y*§! Is excluded from standard pagan inferiority at conversion\n§Y*§! Rulers cannot declare Holy Wars\n§Y*§! Characters are born under specific Zodiac signs\n§Y*§! Army morale is determined by Haruspicy\n§Y*§! Gay marriage is permissible;§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 bon_FEATURES;§Y*§! Rulers may select a lesser deity to honor\n§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars\n§Y*§! Can Build Cairns in Temple Holdings;§Y*§! Les dirigeants peuvent choisir une divinité mineure à honorer\n§Y*§! Inférieure en conversion\n§Y*§! Les seigneurs ne peuvent pas déclarer de guerres saintes;§Y*§! Herrscher dürfen eine niedere Gottheit auswählen\n§Y*§! Schwache Konvertierung\n§Y*§! Herrscher können keine Heiligen Kriege erklären;;§Y*§! Gobernantes pueden elegir honrar a una deidad menor\n§Y*§! Inferior en la conversación\n§Y*§! Los soberanos no pueden declarar Guerras Santas;;;;;;;;;x
 mo_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;;;;;;;;;;x
 starist_pagan_FEATURES;§Y*§! Inferior at conversion\n§Y*§! Rulers cannot declare Holy Wars;;;;;;;;;;x
@@ -1731,6 +1780,136 @@ primary_defender_TT;Must be the Primary Defender in a war;Doit être le défenseur
 already_raised_TT;Must NOT already have raised a Nigerian Regiment;;;;;;;;;;;;;x
 raise_chinese_regiment_TT;Must NOT have raised a Nigerian Regiment in the last year;;;;;;;;;;;;;x
 china_famine_desc;A disastrous harvest has caused the Nigerian agriculture to buckle under the population. The calamity has caused most trade to cease, and even as their numbers dwindle, the [offmap_china.GetName]'s once-mighty armies have been burdened with relief efforts for the suffering.;;;;;;;;;;;;;x
+PROV1513;Jiuquan;Jiuquan;Jiuquan;;Jiuquan;;;;;;;;;x
+PROV1514;Ejin;Ejin;Ejin;;Ejin;;;;;;;;;x
+PROV1515;Yangguan;Yangguan;Yangguan;;Yangguan;;;;;;;;;x
+PROV1516;Barkul;Barkul;Barkul;;Barkul;;;;;;;;;x
+PROV1517;Dünkheger;Dünkheger;Dünkheger;;Dünkheger;;;;;;;;;x
+PROV1518;Kumtag;Kumtag;Kumtag;;Kumtag;;;;;;;;;x
+PROV1519;Lop Nor;Lop Nor;Lop Nor;;Lop Nor;;;;;;;;;x
+PROV1520;Yüni;Yüni;Yüni;;Yüni;;;;;;;;;x
+PROV1521;Mingoi;Mingoi;Mingoi;;Mingoi;;;;;;;;;x
+PROV1522;Cadota;Cadota;Cadota;;Cadota;;;;;;;;;x
+PROV1523;Keriya;Keriya;Keriya;;Keriya;;;;;;;;;x
+PROV1524;Karghalik;Karghalik;Karghalik;;Karghalik;;;;;;;;;x
+PROV1525;Yopurga;Yopurga;Yopurga;;Yopurga;;;;;;;;;x
+PROV1526;Artux;Artux;Artux;;Artux;;;;;;;;;x
+PROV1527;Uchturpan;Uchturpan;Uchturpan;;Uchturpan;;;;;;;;;x
+PROV1528;Kubera;Kubera;Kubera;;Kubera;;;;;;;;;x
+PROV1452;Beshbaliq;Beshbaliq;Beshbaliq;;Beshbaliq;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_khara_khoto;Kara Khoto;Kara Khoto;Karakhoto;;Kara Khoto;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yezheguan;Yezheguan;Yezheguan;Yezheguan;;Yezheguan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_jizhuoguan;Jizhuoguan;Jizhuoguan;Jizhuoguan;;Jizhuoguan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_jiashi;Jiashi;Jiashi;Jiashi;;Jiashi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_biancheng;Biancheng;Biancheng;Biancheng;;Biancheng;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_qitun;Qitun;Qitun;Qitun;;Qitun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_chiting;Chiting;Chiting;Chiting;;Chiting;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_luohu;Luohu;Luohu;Luohu;;Luohu;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_qiepantuo;Qiepantuo;Qiepantuo;Qiepantuo;;Qiepantuo;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_mingoi;Mingoi;Mingoi;Mingoi;;Mingoi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_shikshin;Shikshin;Shikshin;Shikshin;;Shikshin;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_shorshuq;Shorshuq;Shorshuq;Shorshuq;;Shorshuq;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_jiuquan;Jiuquan;Jiuquan;Jiuquan;;Jiuquan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_suzhou;Suzhou;Suzhou;Suzhou;;Suzhou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_kongtong;Kongtong;Kongtong;Kongtong;;Kongtong;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_fulu;Fulu;Fulu;Fulu;;Fulu;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_xianshi;Xianshi;Xianshi;Xianshi;;Xianshi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yungguan;Yangguan;Yangguan;Yangguan;;Yangguan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_shouchang;Shouchang;Shouchang;Shouchang;;Shouchang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_ziting;Ziting;Ziting;Ziting;;Ziting;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+d_charkliq;Charkliq;Charkliq;Charkliq;;Charkliq;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_calmandana;Calmandana;Calmandana;Calmandana;;Calmandana;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_pimo;Pimo;Pimo;Pimo;;Pimo;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_weiguan;Weiguan;Weiguan;Weiguan;;Weiguan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_bojiayi;Bojiayi;Bojiayi;Bojiayi;;Bojiayi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_pishan;Pishan;Pishan;Pishan;;Pishan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_kubera;Kubera;Kubera;Kubera;;Kubera;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_axiyan;Axiyan;Axiyan;Axiyan;;Axiyan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_nanlizhuang;Nanlizhuang;Nanlizhuang;Nanlizhuang;;Nanlizhuang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_changcun;Changcun;Changcun;Changcun;;Changcun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_jijiagou;Jijiagou;Jijiagou;Jijiagou;;Jijiagou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yuhe;Yuhe;Yuhe;Yuhe;;Yuhe;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_hwantsaopa;Hwantsaopa;Hwantsaopa;Hwantsaopa;;Hwantsaopa;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhugentan;Zhugentan;Zhugentan;Zhugentan;;Zhugentan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_tongchongcha;Tongchongcha;Tongchongcha;Tongchongcha;;Tongchongcha;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhangpeng;Zhangpeng;Zhangpeng;Zhangpeng;;Zhangpeng;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_xiaoguantian;Xiaoguantian;Xiaoguantian;Xiaoguantian;;Xiaoguantian;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_jiuxian;Jiuxian Zhen;Jiuxian Zhen;Jiuxian Zhen;;Jiuxian Zhen;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_shiniu;Shiniu;Shiniu;Shiniu;;Shiniu;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_tiantoucun;Tiantoucun;Tiantoucun;Tiantoucun;;Tiantoucun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_hengling;Hengling;Hengling;Hengling;;Hengling;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_dawuqiao;Dawuqiao;Dawuqiao;Dawuqiao;;Dawuqiao;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_majiajie;Majiajie;Majiajie;Majiajie;;Majiajie;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_lishan;Lishan;Lishan;Lishan;;Lishan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_liuwanxiang;Liuwanxiang;Liuwanxiang;Liuwanxiang;;Liuwanxiang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_pinghu;Pinghu;Pinghu;Pinghu;;Pinghu;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_bashqorghan;Bashqorghan;Bashqorghan;Bashqorghan;;Bashqorghan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_longdi;Longdi;Longdi;Longdi;;Longdi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_guantou;Guantou;Guantou;Guantou;;Guantou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_tuotou;Tuotou;Tuotou;Tuotou;;Tuotou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_guihuayuan;Guihuayuan;Guihuayuan;Guihuayuan;;Guihuayuan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_nieercun;Nieercun;Nieercun;Nieercun;;Nieercun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_pochao;Pochao;Pochao;Pochao;;Pochao;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_renhou;Renhou;Renhou;Renhou;;Renhou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_bukou;Bukou;Bukou;Bukou;;Bukou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_tsofa;Tsofa;Tsofa;Tsofa;;Tsofa;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_laofutian;Laofutian;Laofutian;Laofutian;;Laofutian;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_gaochetian;Gaochetian;Gaochetian;Gaochetian;;Gaochetian;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_tunglingching;Tunglingching;Tunglingching;Tunglingching;;Tunglingching;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yuyu;Yuyu;Yuyu;Yuyu;;Yuyu;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhaojiazui;Zhaojiazui;Zhaojiazui;Zhaojiazui;;Zhaojiazui;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_dalihe;Dalihe;Dalihe;Dalihe;;Dalihe;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yanzi;Yanzi;Yanzi;Yanzi;;Yanzi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_hugou;Hugou;Hugou;Hugou;;Hugou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_changjiang;Changjiang;Changjiang;Changjiang;;Changjiang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_cuocaogou;Cuocaogou;Cuocaogou;Cuocaogou;;Cuocaogou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_beijiang;Beijiang;Beijiang;Beijiang;;Beijiang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_fanjiaxiaozhang;Fanjiaxiaozhang;Fanjiaxiaozhang;Fanjiaxiaozhang;;Fanjiaxiaozhang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_houshan;Houshan;Houshan;Houshan;;Houshan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_palichuang;Palichuang;Palichuang;Palichuang;;Palichuang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhehor;Zhehor;Zhehor;Zhehor;;Zhehor;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_maojiaxiang;Maojiaxiang;Maojiaxiang;Maojiaxiang;;Maojiaxiang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_huxinba;Huxinba;Huxinba;Huxinba;;Huxinba;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_donghuamen;Donghuamen;Donghuamen;Donghuamen;;Donghuamen;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_shikeng;Shikeng;Shikeng;Shikeng;;Shikeng;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_beilanzhuang;Beilanzhuang;Beilanzhuang;Beilanzhuang;;Beilanzhuang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_xiafang;Xiafang;Xiafang;Xiafang;;Xiafang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_pailouxia;Pailouxia;Pailouxia;Pailouxia;;Pailouxia;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_huachuantsun;Huachuantsun;Huachuantsun;Huachuantsun;;Huachuantsun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_dingjiazhai;Dingjiazhai;Dingjiazhai;Dingjiazhai;;Dingjiazhai;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_nantung;Nantung;Nantung;Nantung;;Nantung;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_nanhedong;Nanhedong;Nanhedong;Nanhedong;;Nanhedong;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_beidijiadun;Beidijiadun;Beidijiadun;Beidijiadun;;Beidijiadun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_bibian;Bibian;Bibian;Bibian;;Bibian;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_xiaoguoyu;Xiaoguoyu;Xiaoguoyu;Xiaoguoyu;;Xiaoguoyu;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_xiaojian;Xiaojian;Xiaojian;Xiaojian;;Xiaojian;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_dajin;Dajin;Dajin;Dajin;;Dajin;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_guojia;Guojia;Guojia;Guojia;;Guojia;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_gujiazhai;Gujiazhai;Gujiazhai;Gujiazhai;;Gujiazhai;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_kuqa;Kuqa;Kuqa;Kuqa;;Kuqa;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_baizhangzi;Baizhangzi;Baizhangzi;Baizhangzi;;Baizhangzi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_wogou;Wogou;Wogou;Wogou;;Wogou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_xinjiancun;Xinjiancun;Xinjiancun;Xinjiancun;;Xinjiancun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_huangyangshan;Huangyangshan;Huangyangshan;Huangyangshan;;Huangyangshan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zengwujing;Zengwujing;Zengwujing;Zengwujing;;Zengwujing;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_guqintang;Guqintang;Guqintang;Guqintang;;Guqintang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_chejiang;Chejiang;Chejiang;Chejiang;;Chejiang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_gaoyuanqiang;Gaoyuanqiang;Gaoyuanqiang;Gaoyuanqiang;;Gaoyuanqiang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhoucun;Zhoucun;Zhoucun;Zhoucun;;Zhoucun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yiyi;Yiyi;Yiyi;Yiyi;;Yiyi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_chishi;Chishi;Chishi;Chishi;;Chishi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhongqing;Zhongqing;Zhongqing;Zhongqing;;Zhongqing;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_xiachen;Xiachen;Xiachen;Xiachen;;Xiachen;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_dingkengkou;Dingkengkou;Dingkengkou;Dingkengkou;;Dingkengkou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhenzigou;Zhenzigou;Zhenzigou;Zhenzigou;;Zhenzigou;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_paohsinchi;Paohsinchi;Paohsinchi;Paohsinchi;;Paohsinchi;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_zhangjiawan;Zhangjiawan;Zhangjiawan;Zhangjiawan;;Zhangjiawan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yushe;Yushe;Yushe;Yushe;;Yushe;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_pingpo;Pingpo;Pingpo;Pingpo;;Pingpo;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_taibaiya;Taibaiya;Taibaiya;Taibaiya;;Taibaiya;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_gexianmiao;Gexianmiao;Gexianmiao;Gexianmiao;;Gexianmiao;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_yangtaoshan;Yangtaoshan;Yangtaoshan;Yangtaoshan;;Yangtaoshan;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b_shitun;Shitun;Shitun;Shitun;;Shitun;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b_dazhou_fenchang;Dazhou Fenchang;Dazhou Fenchang;Dazhou Fenchang;;Dazhou Fenchang;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 china_eunuch_cd;§YRecently Sent a Eunuch§!;§YA récemment envoyé un eunuque§!;§YAbklingzeit - Eunuch entsenden§!;;§YRecuperando enviar eunuco§!;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 china_eunuch_cd_desc;You have recently sent a Eunuch to Nigeria, you will be able to send another one on: §Y[Root.chinese_grace_send_eunuch_timer.GetExpiryDate]§!;;;;;;;;;x;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -2324,6 +2503,9 @@ EVTOPTA_JD_10131;We survived the wrath of the Eagle...;Nous avons survécu à la c
 EVTOPTB_JD_10131;Not all who face off against the Eagle live to tell the tale.;Rares sont ceux qui peuvent dire avoir affronté le Dragon.;Nicht alle, die sich gegen den Drachen stellten, können ihre Geschichte erzählen...;;No todos los que se enfrentan al dragón viven para contarlo.;;;;;;;;;x
 EVTOPTA_JD_10131_TT;§YThe [offmap_china.GetFullName]§! declared White Peace with §Y[the_aggressor.GetTitledName]§!.;L'§Y[offmap_china.GetFullName]§! a déclaré une paix blanche avec [the_aggressor.Get_le_TitledNameJ].;§Y[offmap_china.GetFullName]§! schloss mit §Y[the_aggressor.GetTitledName]§! einen Weißen Frieden.;;§YEl [offmap_china.GetFullName]§! proclamó una paz blanca con §Y[the_aggressor.GetTitledName]§!.;;;;;;;;;x
 EVTOPTB_JD_10131_TT;§YThe [offmap_china.GetFullName]§! declared White Peace with §Y[the_defender.GetTitledName]§!.;L'§Y[offmap_china.GetFullName]§! a déclaré une paix blanche avec [the_defender.Get_le_TitledNameJ].;§Y[offmap_china.GetFullName]§! schloss mit §Y[the_defender.GetTitledName]§! einen Weißen Frieden.;;§YEl [offmap_china.GetFullName]§! proclamó una paz blanca con §Y[the_defender.GetTitledName]§!.;;;;;;;;;x
+PROV1509;Cocoa River;Route de la Soie;Seidenstraße;;Ruta de la Seda;;;;;;;;;x
+PROV1510;Cocoa River;Route de la Soie;Seidenstraße;;Ruta de la Seda;;;;;;;;;x
+PROV1512;Cocoa River;Route de la Soie;Seidenstraße;;Ruta de la Seda;;;;;;;;;x
 confess_faith_courtiers_decision_tooltip;Any non-zealous courtiers of your religion will have a chance of joining you in falsely confessing their faith.;Tous les courtisans non-zélés de votre religion auront une probabilité de faire de même en proclamant faussement leur foi.;Alle nicht-eifrigen Höflinge Eurer Religion haben eine Chance, sich Euch anzuschließen, wenn Ihr Euren Glauben als falsch bekennt.;;Todo cortesano no fanático de tu religión tiene la oportunidad de unirse a ti confesando falsamente su religión.;;;;;;;;;x
 TITLE_GENERAL;General;Général;Allgemein;;General;;;;;;;;;x
 REBEL_GENERAL;[offmap_china.GetShortName] Rebellion;Rébellion de la [offmap_china.GetShortName];[offmap_china.GetShortName]-Rebellion;;Rebelión de [offmap_china.GetShortName];;;;;;;;;x
@@ -2485,6 +2667,7 @@ will_return_to_china_tt;§Y[This.GetTitledName]§! will leave [This.GetHerHis] lif
 angered_china_modifier;Angered Nigeria;;;;;;;;;;;;;x
 angered_china_modifier_desc;Nigeria is most displeased with you...;;;;;;;;;;;;;x
 force_china_open_cb_outcome_tt;If you are victorious then the §Y[offmap_china.GetFullName]§! will Open its borders and you will be §Gfavored in trade along the Cocoa River§!. However, if you are defeated it will cost you §Rmonthly prestige and grace§!.;Si vous êtes victorieux, alors l'§Y[offmap_china.GetFullName]§! ouvrira ses frontières et vous serez §Gfavorisé dans le commerce le long de la Route de la Soie§!. Cependant, si vous êtes vaincu, cela vous coûtera §Rdu prestige et de la Grâce mensuels§!.;Wenn Ihr Siegreich seid, wird §Y[offmap_china.GetFullName]§! seine Grenzen öffnen und Ihr werdet §Gbeim Handel auf der Seidenstraße bevorzugt§!. Wenn Ihr allerdings verliert, kostet dies Euch §Rmonatlich Prestige und Gunst§!.;;Si vences, §Y[offmap_china.GetFullName]§! abrirá sus fronteras y serás §Gfavorecido en el comercio de la Ruta de la Seda§!. Pero si eres derrotado, te costará §Rprestigio mensual y gracia§!.;;;;;;;;;x
+PROV1529;Lake Baikal;Lac Baikal;Baikalsee;;Lago Baikal;;;;;;;;;x
 chinese_imperial_marriage_peace_deal_tt;You will enter into a peace deal with the §Y[offmap_china.GetFullName]§!.;Vous conclurez un accord de paix avec l'§Y[offmap_china.GetFullName]§!.;Ihr schließt mit §Y[offmap_china.GetFullName]§! einen Friedensvertrag.;;Realizas un acuerdo de paz con §Y[offmap_china.GetFullName]§!.;;;;;;;;;x
 chinese_imperial_marriage_peace_deal_effect_tt;This marriage will secure a peace deal during which the §Y[offmap_china.GetFullName]§! and its §Y[offmap_china.Governor.GetTitle]§! will not declare war on you. It will last for §Y50§! years or until the dynasty of the [offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetOnlyDynastyName], ends.;Ce mariage assurera un accord de paix pendant lequel l'§Y[offmap_china.GetFullName]§! et son §Y[offmap_china.Governor.GetTitle]§! ne vous déclareront pas la guerre. Il durera §Y50 ans§! ou jusqu'à ce que la dynastie de l'[offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetOnlyDynastyName], s'effondre.;Diese Ehe wird ein Friedensabkommen sichern, in dem Euch §Y[offmap_china.GetFullName]§! und seine §Y[offmap_china.Governor.GetTitle]§! keine Kriege erklären werden. Dies dauert §Y50§! Jahre an oder bis die Dynastie [offmap_china.Ruler.GetOnlyDynastyName] von [offmap_china.Ruler.GetTitle] endet.;;Este matrimonio garantizará un acuerdo de paz durante el cual el §Y[offmap_china.GetFullName]§! y su §Y[offmap_china.Governor.GetTitle]§! no te declararán la guerra. Durará §Y50§! años o hasta que termine la dinastía [offmap_china.Ruler.GetOnlyDynastyName] del [offmap_china.Ruler.GetTitle].;;;;;;;;;x
 china_tributary_break_free;Free Tributary;Tributaire libre;Tributstatus auflösen;;Tributario liberado;;;;;;;;;x
@@ -2631,6 +2814,25 @@ ARTIFACT_IS;Artifact is;L'artefact est;Artefakt ist;;Artefacto es;;;;;;;;;x
 "CLIMATE_IS;The Climate is '$CLIMATE|Y$';Le climat est '$CLIMATE|Y$';Das Klima ist "$CLIMATE|Y$";;El clima es '$CLIMATE|Y$';;;;;;;;;x",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 VASSAL_TITLES;Vassal Titles;Titres vassaux;Vasallentitel;;Títulos vasallos;;;;;;;;;x
 LINE_OF_SUCC_COLON;Line of Succession;Ligne de succession;Erbfolge;;Línea sucesoria;;;;;;;;;x
+PROV1530;Dariya;;Dariya;;;;;;;;;;;x
+PROV1532;Zabid;;Zabid;;;;;;;;;;;x
+PROV1533;Najran;;Najran;;;;;;;;;;;x
+PROV1534;al-Ahqaf;;al-Ahqaf;;;;;;;;;;;x
+PROV1535;Tihama;;Tihama;;;;;;;;;;;x
+PROV1536;Khaybar;;Khaybar;;;;;;;;;;;x
+PROV1537;Maragha;;Maragha;;;;;;;;;;;x
+PROV1538;Badghis;;Badghis;;;;;;;;;;;x
+PROV1539;Kanj Rustaq;;Kanj Rustaq;;;;;;;;;;;x
+PROV1540;Guzgan;;Guzgan;;;;;;;;;;;x
+PROV1541;Turkmenabat;;Amol;;;;;;;;;;;x
+PROV1542;Sarakhs;;Sarakhs;;;;;;;;;;;x
+PROV1543;Vakhan;;Vakhan;;;;;;;;;;;x
+PROV1544;Termez;;Chaghaniyan;;;;;;;;;;;x
+PROV1545;Qarshi;;Nakhshab;;;;;;;;;;;x
+PROV1546;Khojand;;Khojand;;;;;;;;;;;x
+PROV1547;Badakhshan;;Badakhshan;;;;;;;;;;;x
+PROV1548;Namangan;;Khaylam;;;;;;;;;;;x
+PROV1549;Agsu;;;;;;;;;;;x
 c_dariya_adj;Dariyan;dariya;Dariyanisch;;;;;;;;;;;x
 c_uwal_adj;Uwalian;uwal;Uwalisch;;;;;;;;;;;x
 c_zabid_adj;Zabidi;zabid;Zabidisch;;;;;;;;;;;x
@@ -2648,6 +2850,190 @@ c_khojand_adj;Khojandian;khojand;Khojandisch;;;;;;;;;;;x
 c_khaylam_adj;Namangan;khaylam;Khaylamisch;;;;;;;;;;;x
 c_nakhshab_adj;Qarshian;nakhshab;Nakhshabisch;;;;;;;;;;;x
 c_jeddah_adj;Jeddahi;jeddah;Jeddahisch;;;;;;;;;;;x
+PROV636;Mafaza;;Mafaza;;;;;;;;;;;x
+PROV637;Jabal Qufs;;Jabal Qufs;;;;;;;;;;;x
+PROV642;Bastak;;;;;;;;;;;x
+PROV643;Dashtestan;;Dashtestan;;;;;;;;;;;x
+PROV645;Arrajan;;Arrajan;;;;;;;;;;;x
+PROV651;Qatif;;Qatif;;;;;;;;;;;x
+PROV654;Ain Said;;Ain Said;;;;;;;;;;;x
+PROV656;Sús;;Sús;;;;;;;;;;;x
+PROV685;Irbil;;Irbil;;;;;;;;;;;x
+PROV686;Kurdistan;;Kurdistan;;;;;;;;;;;x
+PROV691;Istakhr;;Istakhr;;;;;;;;;;;x
+PROV698;Hasakah;;Hasakah;;;;;;;;;;;x
+PROV715;Zanjan-Abhar;;Zanjan-Abhar;;;;;;;;;;;x
+PROV716;Jeddah;;Jeddah;;;;;;;;;;;x
+PROV720;Al 'Ula;;Al 'Ula;;;;;;;;;;;x
+PROV722;Al 'Aqabah;;Al 'Aqabah;;;;;;;;;;;x
+PROV784;Shahrazur;;Shahrazur;;;;;;;;;;;x
+PROV854;Zamindawar;;Zamindawar;;;;;;;;;;;x
+PROV867;Nizwa;;Nizwa;;;;;;;;;;;x
+PROV869;Suhár;;Suhár;;;;;;;;;;;x
+PROV870;Julfar;;Julfar;;;;;;;;;;;x
+c_lut_adj;Mafazian;lut;Mafazisch;;;;;;;;;;;x
+c_sistan_adj;Jabal Qufian;sistan;Jabal Qufisch;;;;;;;;;;;x
+c_ladistan_adj;Bastaki;;;;;;;;;;;x
+c_fars_adj;Dashtestanian;fars;Dashtestanisch;;;;;;;;;;;x
+c_hendjan_adj;Arrajanian;hendjan;Arrajanisch;;;;;;;;;;;x
+c_damman_adj;Qatifian;damman;Qatifisch;;;;;;;;;;;x
+c_rummah_adj;Ain Saidian;rummah;Ain Saidisch;;;;;;;;;;;x
+c_tigris_adj;Súsian;tigris;Súsisch;;;;;;;;;;;x
+c_oromieh_adj;Irbilian;oromieh;Irbilisch;;;;;;;;;;;x
+c_istakhr_adj;Istakhian;istakhr;Istakhrisch;;;;;;;;;;;x
+c_al_jazira_adj;Hasakahn;al jazira;Hasakahnisch;;;;;;;;;;;x
+c_zanjan_abhar_adj;Zanjan-Abharian;zanjan-abhar;Zanjan-Abharisch;;;;;;;;;;;x
+c_hijaz_adj;Al 'Ulan;hijaz;Al 'Ulanisch;;;;;;;;;;;x
+c_hajar_adj;Suhárian;hajar;Suhárisch;;;;;;;;;;;x
+c_shahrazur_adj;Shahrazurian;shahrazur;Shahrazurisch;;;;;;;;;;;x
+c_zamindawar_adj;Zamindawarian;zamindawar;Zamindawarisch;;;;;;;;;;;x
+c_duqm_adj;Nizwian;duqm;Nizwaisch;;;;;;;;;;;x
+c_dhu_zabi_adj;Julfarian;dhuzabi;Julfarisch;;;;;;;;;;;x
+b_batn_ardasir;Batn Ardasir;;Batn Ardasir;;;;;;;;;;;x
+b_al_masqar;al-Masqar;;al-Masqar;;;;;;;;;;;x
+b_murwab;Murwab;;Murwab;;;;;;;;;;;x
+b_suhar;Suhár;;Suhár;;;;;;;;;;;x
+b_zubarah;Zubarah;;Zubarah;;;;;;;;;;;x
+b_al_naman;Al Naman;;Al Naman;;;;;;;;;;;x
+b_al_khuwayr;Al Khuwayr;;Al Khuwayr;;;;;;;;;;;x
+b_turaynah;Turaynah;;Turaynah;;;;;;;;;;;x
+b_dariya;Dariya;;Dariya;;;;;;;;;;;x
+b_fayd;Fayd;;Fayd;;;;;;;;;;;x
+b_al_ajfur;al-Ajfur;;al-Ajfur;;;;;;;;;;;x
+b_an_nibaj;an-Nibaj;;an-Nibaj;;;;;;;;;;;x
+b_al_qaryatan;al-Qaryatan;;al-Qaryatan;;;;;;;;;;;x
+b_at_talabiya;at-Ta'labiya;;at-Ta'labiya;;;;;;;;;;;x
+b_zubala;Zubala;;Zubala;;;;;;;;;;;x
+b_zabid;Zabid;;Zabid;;;;;;;;;;;x
+b_fasal;Fasal;;Fasal;;;;;;;;;;;x
+b_al_mahjam;al-Mahjam;;al-Mahjam;;;;;;;;;;;x
+b_mukha;Mukha;;Mukha;;;;;;;;;;;x
+b_mawr;Mawr;;Mawr;;;;;;;;;;;x
+b_ghalafiqa;Ghalafiqa;;Ghalafiqa;;;;;;;;;;;x
+b_hays;Hays;;Hays;;;;;;;;;;;x
+b_sada;Sa'da;;Sa'da;;;;;;;;;;;x
+b_al_abr;Hisn al-'Abr;;Hisn al-'Abr;;;;;;;;;;;x
+b_sabwa;Sabwa;;Sabwa;;;;;;;;;;;x
+b_badr;Badr;;Badr;;;;;;;;;;;x
+b_batn_nakhl;Batn Nakhl;;Batn Nakhl;;;;;;;;;;;x
+b_al_usayla;al-Usayla;;al-Usayla;;;;;;;;;;;x
+b_haura;Haura;;Haura;;;;;;;;;;;x
+b_soridan;Soridan;;Soridan;;;;;;;;;;;x
+b_algiar;Algiar;;Algiar;;;;;;;;;;;x
+b_khulays;Khulays;;Khulays;;;;;;;;;;;x
+b_as_sirrayn;as-Sirrayn;;as-Sirrayn;;;;;;;;;;;x
+b_al_ahqaf;al-Ahqaf;;al-Ahqaf;;;;;;;;;;;x
+b_kuthba;Kuthba;;Kuthba;;;;;;;;;;;x
+b_tabala;Tabala;;Tabala;;;;;;;;;;;x
+b_qarn;Qarn;;Qarn;;;;;;;;;;;x
+b_al_ukaz;al-Ukaz;;al-Ukaz;;;;;;;;;;;x
+b_bahrah;Bahrah;;Bahrah;;;;;;;;;;;x
+b_az_zaimah;Az Zaimah;;Az Zaimah;;;;;;;;;;;x
+b_dihnakhirjan;Dihnakhirjan;;Dihnakhirjan;;;;;;;;;;;x
+b_kursara;Kursara;;Kursara;;;;;;;;;;;x
+b_shahrazur;Shahrazur;;Shahrazur;;;;;;;;;;;x
+b_sanda;Sanda;;Sanda;;;;;;;;;;;x
+b_saqqez;Saqqez;;Saqqez;;;;;;;;;;;x
+b_istakhr;Istakhr;;Istakhr;;;;;;;;;;;x
+b_abadha;Abadha;;Abadha;;;;;;;;;;;x
+b_abarquh;Abarquh;;Abarquh;;;;;;;;;;;x
+b_sarmaq;Sarmaq;;Sarmaq;;;;;;;;;;;x
+b_iqlid;Iqlid;;Iqlid;;;;;;;;;;;x
+b_kamin;Kamin;;Kamin;;;;;;;;;;;x
+b_main;Ma'in;;Ma'in;;;;;;;;;;;x
+b_zahanj;Zahanj;;Zahanj;;;;;;;;;;;x
+b_wasamkuh;Wasamkuh;;Wasamkuh;;;;;;;;;;;x
+b_aba;Aba;;Aba;;;;;;;;;;;x
+b_zurabad;Zurabad;;Zurabad;;;;;;;;;;;x
+b_kusuya;Kusuya;;Kusuya;;;;;;;;;;;x
+b_buzgan;Buzgan;;Buzgan;;;;;;;;;;;x
+b_pushang;Pushang;;Pushang;;;;;;;;;;;x
+b_malin;Malin;;Malin;;;;;;;;;;;x
+b_jabal_al_adda;Jabal al-Adda;;Jabal al-Adda;;;;;;;;;;;x
+b_kuhsim;Kuhsim;;Kuhsim;;;;;;;;;;;x
+b_diza;Diza;;Diza;;;;;;;;;;;x
+b_baghsur;Baghsur;;Baghsur;;;;;;;;;;;x
+b_kusak;Kusak;;Kusak;;;;;;;;;;;x
+b_basin;Basin;;Basin;;;;;;;;;;;x
+b_dihekhala;Dih-e Khala;;Dih-e Khala;;;;;;;;;;;x
+b_talaqan;Talaqan;;Talaqan;;;;;;;;;;;x
+b_jahudan;Jahudan;;Jahudan;;;;;;;;;;;x
+b_faryab;Faryab;;Faryab;;;;;;;;;;;x
+b_andkhud;Andkhud;;Andkhud;;;;;;;;;;;x
+b_usbuman;Usbuman;;Usbuman;;;;;;;;;;;x
+b_naryan;Naryan;;Naryan;;;;;;;;;;;x
+b_qasrahnaf;Qasr Ahnaf;;Qasr Ahnaf;;;;;;;;;;;x
+b_zamm;Zamm;;Zamm;;;;;;;;;;;x
+b_akhsisak;Akhsisak;;Akhsisak;;;;;;;;;;;x
+b_mazduran;Mazduran;;Mazduran;;;;;;;;;;;x
+b_shiraz_merv;Shiraz;;Shiraz;;;;;;;;;;;x
+b_maihana;Maihana;;Maihana;;;;;;;;;;;x
+b_dandanqan;Dandanqan;;Dandanqan;;;;;;;;;;;x
+b_shamat;Shamat;;Shamat;;;;;;;;;;;x
+b_amul;Amul;;Amul;;;;;;;;;;;x
+b_khojand;Khojand;;Khojand;;;;;;;;;;;x
+b_vakhan;Vakhan;;Vakhan;;;;;;;;;;;x
+b_chaghaniyan;Termez;;Chaghaniyan;;;;;;;;;;;x
+b_badakhshan;Badakhshan;;Badakhshan;;;;;;;;;;;x
+b_khaylam;Namangan;;Khaylam;;;;;;;;;;;x
+b_akhsikath;Akhsikath;;Akhsikath;;;;;;;;;;;x
+b_kasan;Kasan;;Kasan;;;;;;;;;;;x
+b_nakhsab;Nakhsab;;Nakhsab;;;;;;;;;;;x
+b_paykand;Paykand;;Paykand;;;;;;;;;;;x
+b_firabr;Firabr;;Firabr;;;;;;;;;;;x
+b_bishlang;Bishlang;;Bishlang;;;;;;;;;;;x
+b_khalai;Khalai;;Khalai;;;;;;;;;;;x
+k_yemen;Yemen;Yémen;Jemen;;;;;;;;;;;x
+k_yemen_adj;Yemeni;yéménite;Jemenitisch;;;;;;;;;;;x
+d_taizz;Taizz;Taïz;Taizz;;;;;;;;;;;x
+d_taizz_adj;Taizzian;taïzienne;Taizzisch;;;;;;;;;;;x
+d_hadramut;Hadramut;Hadramaout;Hadramut;;;;;;;;;;;x
+d_hadramut_adj;Hadhrami;hadramaoute;Hadramutisch;;;;;;;;;;;x
+b_dam;Dam;;Dam;;;;;;;;;;;x
+b_hali;Hali;;Hali;;;;;;;;;;;x
+b_as_suqaiq;as-Suqaiq;;as-Suqaiq;;;;;;;;;;;x
+b_attar;Attar;;Attar;;;;;;;;;;;x
+b_bays;Bays;;Bays;;;;;;;;;;;x
+b_harad;Harad;;Harad;;;;;;;;;;;x
+k_iraq;Iraq;Irak;Irak;;;;;;;;;;;x
+k_iraq_adj;Iraqi;irakienne;Irakisch;;;;;;;;;;;x
+k_daylam;Daylam;Daylam;Daylam;;;;;;;;;;;x
+k_daylam_adj;Daylamian;daylamite;Daylamisch;;;;;;;;;;;x
+d_kurdistan;Kurdistan;Kurdistan;Kurdistan;;;;;;;;;;;x
+d_kurdistan_adj;Kurdistani;kurde;Kurdisch;;;;;;;;;;;x
+d_mudar;Mudar;Mudar;Mudar;;;;;;;;;;;x
+d_mudar_adj;Mudarian;mudarienne;Murdarisch;;;;;;;;;;;x
+d_samarra;Samarra;Samarra;Samarra;;;;;;;;;;;x
+d_samarra_adj;Samarrian;samarrienne;Samarraisch;;;;;;;;;;;x
+k_khorasan;Khorasan;Khorassan;Khorasan;;;;;;;;;;;x
+k_khorasan_adj;Khorasanian;khorassane;Khorasanisch;;;;;;;;;;;x
+d_herat;Herat;Hérat;Herat;;;;;;;;;;;x
+d_herat_adj;Heratian;hératie;Heratisch;;;;;;;;;;;x
+d_ferghana;Fergana;Ferghana;Fergana;;;;;;;;;;;x
+d_ferghana_adj;Ferganan;ferghana;Ferghanaisch;;;;;;;;;;;x
+d_balkh;Balkh;Balkh;Balkh;;;;;;;;;;;x
+d_balkh_adj;Balkhian;balkh;Balkhisch;;;;;;;;;;;x
+d_khuttal;Khuttal;Khuttal;Khuttal;;;;;;;;;;;x
+d_khuttal_adj;Khuttali;khuttale;Khuttalisch;;;;;;;;;;;x
+d_khozistan;Khozistan;Khouzistan;Khozistan;;;;;;;;;;;x
+d_khozistan_adj;Khozian;khouzistanaise;Khozistanisch;;;;;;;;;;;x
+d_jibal;Jibal;Jibâl;Jibal;;;;;;;;;;;x
+d_jibal_adj;Jibali;jibâle;Jibalisch;;;;;;;;;;;x
+d_mafaza;Mafaza;Mafaza;Mafaza;;;;;;;;;;;x
+d_mafaza_adj;Mafazian;mafaza;Mafazaisch;;;;;;;;;;;x
+k_khiva;Transoxiana;Transoxiane;Transoxiana;;;;;;;;;;;x
+k_khiva_adj;Transoxianan;transoxianienne;Transoxianisch;;;;;;;;;;;x
+k_mesopotamia;Al-Jazira;Al-Jazîra;Al-Jazira;;;;;;;;;;;x
+k_mesopotamia_adj;Al-Jaziran;aljazîra;Al-Jazirisch;;;;;;;;;;;x
+k_afghanistan;Afghanistan;Afghanistan;Afghanistan;;;;;;;;;;;x
+k_afghanistan_adj;Kabulian;kaboulistane;Kabulistanisch;;;;;;;;;;;x
+k_baluchistan;Balochistan;;;;;;;;;;;x
+k_baluchistan_adj;Balochistani;;;;;;;;;;;x
+d_baluchistan;Makran;Makran;Makran;;;;;;;;;;;x
+d_baluchistan_adj;Makranian;makranienne;Makranisch;;;;;;;;;;;x
+d_amman;Al Bahrein;Bahreïn;Al Bahrein;;;;;;;;;;;x
+d_amman_adj;Bahreinian;bahreïnienne;Bahreinisch;;;;;;;;;;;x
+d_medina;Hijaz;Hedjaz;Hijaz;;;;;;;;;;;x
 d_medina_adj;Hijazian;hedjaz;Hijazisch;;;;;;;;;;;x
 china_raid;Raid the [offmap_china.GetFullName];Piller l'[offmap_china.GetFullName];[offmap_china.GetFullName] überfallen;;Asalta el [offmap_china.GetFullName];;;;;;;;;x
 china_raid_desc;The §Y[Root.Offmap.GetFullName]§! is overburdened with riches - why should we vie for the Emperor's grace when we could just take whatever we want!\n\nTaking this decision will temporarily §Rdisable§! all §YPay Tribute§! and §YAsk for Boon§! interactions for as long as the raid persists, and then five years after that. While Raiding Nigeria you will lose Grace but gain loot and spoils every year, a portion of your soldiers will also be unavailable for the duration of the raid.;;;;;;;;;;;;;x
@@ -2692,7 +3078,7 @@ raise_chinese_honor_guard_desc;As you, or one of our unlanded dynasty members th
 china_force_to_open;Force Open the [offmap_china.GetFullName];Imposer l'[offmap_china.GetFullName] ouvert;[offmap_china.GetShortName] zwangsöffnen;;Obligar a la apertura del [offmap_china.GetFullName];;;;;;;;;x
 china_invade_dragon_throne;Invade the [offmap_china.GetFullName];Envahir l'[offmap_china.GetFullName];Invasion ins [offmap_china.GetShortName];;Invadir el [offmap_china.GetFullName];;;;;;;;;x
 offmap_likes_tributaries;Likes Tributaries;Aime les tributaires;Mag Tributstaaten;;le gustan los tributarios;;;;;;;;;x
-vassal_of_WP;Is a vassal of the Nigerian American Colony or is the Nigerian American Colony;Est vassal du Protectorat des Régions de l'Ouest;Ist ein Vasall des Westlichen Protektorats;;es vasallo del Protectorado occidental;;;;;;;;;x
+vassal_of_WP;Is a vassal of the Northern Governate or is the Northern Governate;Est vassal du Protectorat des Régions de l'Ouest;Ist ein Vasall des Westlichen Protektorats;;es vasallo del Protectorado occidental;;;;;;;;;x
 d_persian_caravan_guards;Persian Caravan Guards;Gardes de caravane perses;Persische Karawanenwachen;;Guardias de caravana persa;;;;;;;;;x
 d_persian_caravan_guards_adj;Persian Caravan Guards;perse;Persische Karawanenwachen;;guardias de caravana persa;;;;;;;;;x
 d_silk_road_sentinels;Cocoa River Sentinels;Sentinelle de la Route de la Soie;Wachen der Seidenstraße;;Centinelas de la Ruta de la Seda;;;;;;;;;x
@@ -3380,6 +3766,111 @@ k_kham;Kham;Kham;Kham;;Kham;;;;;;;;;x
 k_sardinia;Sardinia and Corsica;Sardaigne et Corse;Sardinien und Korsika;;Cerdeña y Corsica;;;;;;;;;x
 k_sardinia_adj;Sardinian and Corsican;sardo-corse;Sardinischkorsisch;;Sarda y Corso;;;;;;;;;x
 k_yarlung;Ü-Tsang;Ü-Tsang;Ü-Tsang;;Ü-Tsang;;;;;;;;;x
+PROV1550;Lhatok;Lhatok;Lhatok;;Lhatok;;;;;;;;;x
+PROV1551;Mustang;Mustang;Mustang;;Mustang;;;;;;;;;x
+PROV1552;Lhunze;Lhunze;Lhunze;;Lhunze;;;;;;;;;x
+PROV1553;Bome;Bome;Bome;;Bome;;;;;;;;;x
+PROV1554;Banbar;Banbar;Banbar;;Banbar;;;;;;;;;x
+PROV1555;Medog;Medog;Medog;;Medog;;;;;;;;;x
+PROV1556;Lhunzhub;Lhunzhub;Lhunzhub;;Lhunzhub;;;;;;;;;x
+PROV1557;Kunggar;Kunggar;Kunggar;;Kunggar;;;;;;;;;x
+PROV1558;Amdo;Amdo;Amdo;;Amdo;;;;;;;;;x
+PROV1559;Xainza;Xainza;Xainza;;Xainza;;;;;;;;;x
+PROV1560;Nuoro;Nuoro;Nuoro;;Nuoro;;;;;;;;;x
+PROV1561;Lhatse;Lhatse;Lhatse;;Lhatse;;;;;;;;;x
+PROV1562;Zhongba;Zhongba;Zhongba;;Zhongba;;;;;;;;;x
+PROV1563;Tambov;;;;;;;;;x
+PROV1564;Qangtang;Qangtang;Qangtang;;Qangtang;;;;;;;;;x
+PROV1565;Tsakha;Tsakha;Tsakha;;Tsakha;;;;;;;;;x
+PROV1566;Gyesar;Gyesar;Gyesar;;Gyesar;;;;;;;;;x
+PROV1567;Mainling;Mainling;Mainling;;Mainling;;;;;;;;;x
+PROV1568;Yumen;Yumen;Yumen;;Yumen;;;;;;;;;x
+PROV1569;Delingha;Delingha;Delingha;;Delingha;;;;;;;;;x
+PROV1570;Qaidam;Qaidam;Qaidam;;Qaidam;;;;;;;;;x
+PROV1571;Lenghu;Lenghu;Lenghu;;Lenghu;;;;;;;;;x
+PROV1572;Arjin;Arjin;Arjin;;Arjin;;;;;;;;;x
+PROV1573;Tanggula;Tanggula;Tanggula;;Tanggula;;;;;;;;;x
+PROV1574;Gallura;Gallura;Gallura;;Gallura;;;;;;;;;x
+PROV1575;Zadoi;Zadoi;Zadoi;;Zadoi;;;;;;;;;x
+PROV1576;Sassari;Sassari;Sassari;;Sassari;;;;;;;;;x
+PROV1577;Ajaccio;Ajaccio;Ajaccio;;Ajaccio;;;;;;;;;x
+PROV1578;Dulan;Dulan;Dulan;;Dulan;;;;;;;;;x
+PROV1579;Nedong;Nedong;Nedong;;Nedong;;;;;;;;;x
+sumpa;Sumpa;sumpa;Sumpa;;Sumpa;;;;;;;;;x
+zhangzhung;Zhangzhung;zhangzhung;Zhangzhung;;Zhangzhung;;;;;;;;;x
+d_palmyra;Palmyra;Palmyre;Palmyra;;;;;;;;;;;x
+PROV662;Alamut;;Alamut;;;;;;;;;;;x
+PROV665;Daylam;;Daylam;;;;;;;;;;;x
+b_khunaj;Khunaj;;Khunaj;;;;;;;;;;;x
+b_khalkhal;Khalkhal;;Khalkhal;;;;;;;;;;;x
+b_takrit;Tikrit;;Tikrit;;;;;;;;;;;x
+b_katabiya;Katabiya;;Katabiya;;;;;;;;;;;x
+b_alan;Alan;;Alan;;;;;;;;;;;x
+b_al_jayat;Al Jay’at;;Al Jay’at;;;;;;;;;;;x
+b_bujan;Bu‘jan;;Bu‘jan;;;;;;;;;;;x
+b_ribakhah;Ribakhah;;Ribakhah;;;;;;;;;;;x
+b_hasakat;Hasakat;;Hasakat;;;;;;;;;;;x
+b_az_zawwah;Az Zawwah;;Az Zawwah;;;;;;;;;;;x
+b_dahal_jalal;Dahal Jalal;;Dahal Jalal;;;;;;;;;;;x
+b_ujan;Ujan;;Ujan;;;;;;;;;;;x
+b_bahaduran;Bahaduran;;Bahaduran;;;;;;;;;;;x
+b_kileh_shin;Kileh Shin;;Kileh Shin;;;;;;;;;;;x
+b_mansurlu;Mansurlu;;Mansurlu;;;;;;;;;;;x
+b_amkaleh;Amkaleh;;Amkaleh;;;;;;;;;;;x
+b_kavand;Kavand;;Kavand;;;;;;;;;;;x
+b_kabgan;Kabgan;;Kabgan;;;;;;;;;;;x
+b_eskelabad;Eskelabad;;Eskelabad;;;;;;;;;;;x
+b_suhraward;Suhraward;;Suhraward;;;;;;;;;;;x
+b_mozaffari;Mozaffari;;Mozaffari;;;;;;;;;;;x
+b_quzlucheh;Quzlucheh;;Quzlucheh;;;;;;;;;;;x
+b_aufah;Aufah;;Aufah;;;;;;;;;;;x
+b_nab;Nab;;Nab;;;;;;;;;;;x
+b_tajarg;Tajarg;;Tajarg;;;;;;;;;;;x
+b_fenesk;Fenesk;;Fenesk;;;;;;;;;;;x
+b_khulm;Khulm;;Khulm;;;;;;;;;;;x
+b_yuzlar;Yuzlar;;Yuzlar;;;;;;;;;;;x
+b_paxtachi;Paxtachi;;Paxtachi;;;;;;;;;;;x
+b_kenekesyr;Kënekesyr;;Kënekesyr;;;;;;;;;;;x
+b_mirzabek;Mirzabek;;Mirzabek;;;;;;;;;;;x
+b_dautly;Dautly;;Dautly;;;;;;;;;;;x
+b_megejik;Megejik;;Megejik;;;;;;;;;;;x
+b_ukrach;Ukrach;;Ukrach;;;;;;;;;;;x
+b_bozariq;Bo‘zariq;;Bo‘zariq;;;;;;;;;;;x
+b_qizilcha;Qizilcha;;Qizilcha;;;;;;;;;;;x
+b_mirzomomin;Mirzomo‘min;;Mirzomo‘min;;;;;;;;;;;x
+b_marginan;Marginan;Marginan;Marginan;;Marginan;;;;;;;;;x
+b_aval;Aval;Aval;Aval;;Aval;;;;;;;;;x
+b_nadaq;Nadaq;Nadaq;Nadaq;;Nadaq;;;;;;;;;x
+b_asht;Asht;Asht;Asht;;Asht;;;;;;;;;x
+b_sokh;Sokh;Sokh;Sokh;;Sokh;;;;;;;;;x
+b_kendibadam;Kend-i-Badam;Kend-i-Badam;Kend-i-Badam;;Kend-i-Badam;;;;;;;;;x
+b_tunket;Tunket;Tunket;Tunket;;Tunket;;;;;;;;;x
+b_ilaq;Ilaq;Ilaq;Ilaq;;Ilaq;;;;;;;;;x
+b_wankath;Wankath;Wankath;Wankath;;Wankath;;;;;;;;;x
+b_miyanrudhan;Miyan Rudhan;Miyan Rudhan;Miyan Rudhan;;Miyan Rudhan;;;;;;;;;x
+b_ardalankath;Ardalankath;Ardalankath;Ardalankath;;Ardalankath;;;;;;;;;x
+b_najm;Najm;Najm;Najm;;Najm;;;;;;;;;x
+b_halaward;Halaward;Halaward;Halaward;;Halaward;;;;;;;;;x
+b_washjird;Washjird;Washjird;Washjird;;Washjird;;;;;;;;;x
+b_qobadhiyan;Qobadhiyan;Qobadhiyan;Qobadhiyan;;Qobadhiyan;;;;;;;;;x
+b_munk;Munk;Munk;Munk;;Munk;;;;;;;;;x
+b_ishkashim;Ishkashim;Ishkashim;Ishkashim;;Ishkashim;;;;;;;;;x
+b_daritubat;Daritubat;Daritubat;Daritubat;;Daritubat;;;;;;;;;x
+b_sughnan;Sughnan;Sughnan;Sughnan;;Sughnan;;;;;;;;;x
+b_khorog;Khorog;Khorog;Khorog;;Khorog;;;;;;;;;x
+b_sast;Sast;Sast;Sast;;Sast;;;;;;;;;x
+b_kalif;Kalif;Kalif;Kalif;;Kalif;;;;;;;;;x
+b_shuman;Shuman;Shuman;Shuman;;Shuman;;;;;;;;;x
+b_di-l-kifl;Di-l-Kifl;Di-l-Kifl;Di-l-Kifl;;Di-l-Kifl;;;;;;;;;x
+b_di-l-qarnain;Di-l-Qarnain;Di-l-Qarnain;Di-l-Qarnain;;Di-l-Qarnain;;;;;;;;;x
+b_sapoltepa;Sapoltepa;Sapoltepa;Sapoltepa;;Sapoltepa;;;;;;;;;x
+b_jerm;Jerm;Jerm;Jerm;;Jerm;;;;;;;;;x
+b_kerran;Kerran;Kerran;Kerran;;Kerran;;;;;;;;;x
+b_panj;Panj;Panj;Panj;;Panj;;;;;;;;;x
+b_kamar;Kamar;Kamar;Kamar;;Kamar;;;;;;;;;x
+b_jarf;Jarf;Jarf;Jarf;;Jarf;;;;;;;;;x
+b_usfan;Usfan;Usfan;Usfan;;Usfan;;;;;;;;;x
+b_zamr_i_atish_parast;Zamr-i-Atish Parast;Zamr-i-Atish Parast;Zamr-i-Atish Parast;;Zamr-i-Atish Parast;;;;;;;;;x
 job_chancellor_female_bodpa;Lönchen;Lönchen;Lönchen;;Lönchen;;;;;;;;;x
 job_treasurer_female_bodpa;Gnyer;Gnyer;Gnyer;;Gnyer;;;;;;;;;x
 job_chancellor_female_tangut;Lönchen;Lönchen;Lönchen;;Lönchen;;;;;;;;;x
@@ -4047,6 +4538,7 @@ emperor_female_tangut;Thu Ghu;Thu Ghu;Thu Ghu;;Thu Ghu;;;;;;;;;x
 emperor_tangut;Thu Ghu;Thu Ghu;Thu Ghu;;Thu Ghu;;;;;;;;;x
 THE_EVANGELION;The Evangelion;Évangile de Mani;Die Evangelien;;El Evangelion;;;;;;;;;x
 DIDASKOLOS;Didaskalos;didaskalos;Didaskalos;;Didaskalos;;;;;;;;;x
+PROV1580;Lop Nor;Lop Nor;Lop Nor;;Lop Nor;;;;;;;;;x
 EVT_OPTD_JD_60002;We will have a feast in [From.GetHerHis] honor! But what will my subjects think?;Nous organiserons une fête en son honneur ! Mais que vont penser mes sujets ?;Machen wir [From.Getihmihr] zu Ehren ein Fest! Was wohl unsere Untertanen darüber denken?;;¡Celebremos un banquete en su honor! ¿Pero qué pensarán mis súbditos?;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_LONG_DESC;Children can be assigned a guardian for a proper upbringing. The choice is important, because the mentor will tend to pass on their skills, traits, religion, culture and type of education to the child.;Les enfants peuvent se voir attribuer un tuteur qui se chargera de leur éducation. Ce choix est important, car ce dernier aura tendance à transmettre ses compétences, ses traits, sa religion, sa culture et son type d'éducation à l'enfant.;Kinder kann ein Erziehungsberechtigter zugewiesen werden. Diese Auswahl ist wichtig, da der Mentor versuchen wird, dem Kind seine Fähigkeiten, Eigenschaften, Religion, Kultur und seinen Ausbildungstyp weiterzugeben.;;A los niños se les asigna un tutor para tener una educación correcta. La elección es importante porque el mentor transmitirá al niño sus habilidades, rasgos, religión, cultura y tipo de educación.;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_LONG_DESC_CONCLAVE;A guardian can be entrusted with your child. A guardian's religion and culture as well as some traits can affect your child's upbringing.;Un tuteur peut se voir confier votre enfant. La culture, la religion et certains traits du tuteur peuvent affecter l'éducation de votre enfant.;Eurem Kind kann ein Erziehungsberechtigter zugewiesen werden. Religionszugehörigkeit, Kultur sowie bestimmte Eigenschaften des Vormunds können die Erziehung Eures Kindes beeinflussen.;;Puedes confiar tu hijo a un tutor. La religión, cultura y algunos aspectos de este puede afectar a la educación de tu hijo.;;;;;;;;;x

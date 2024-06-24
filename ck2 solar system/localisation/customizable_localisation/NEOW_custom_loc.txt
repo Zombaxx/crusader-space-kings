@@ -402,48 +402,6 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetEmulatedRuler
-
-	use_first_valid = yes # (Defaults to no)
-
-	text = {
-		trigger = {
-			has_ambition = obj_loyalist_emulate_arthur
-		}
-		localisation_key = String_Arthur
-	}
-	text = {
-		trigger = {
-			has_ambition = obj_loyalist_emulate_queen
-		}
-		localisation_key = String_the_Queen
-	}
-	text = {
-		trigger = {
-			has_ambition = obj_loyalist_emulate_laurier
-		}
-		localisation_key = String_Passage_Laurier
-	}
-	text = {
-		trigger = {
-			has_ambition = obj_loyalist_emulate_macdonald
-		}
-		localisation_key = String_Passage_Macdonald
-	}
-	text = {
-		trigger = {
-			has_ambition = obj_loyalist_emulate_mackenzie
-		}
-		localisation_key = String_Passage_Mackenzie
-	}
-	text = {
-		trigger = {
-			has_ambition = obj_loyalist_emulate_trudeau
-		}
-		localisation_key = String_Passage_Trudeau
-	}
-}
-defined_text = {
 	name = GetEmulatedTzarOrPassage
 
 	use_first_valid = yes # (Defaults to no)
@@ -459,12 +417,6 @@ defined_text = {
 			has_lutheran_emulate_ambition = yes
 		}
 		localisation_key = String_GetEmulatedPassage
-	}
-	text = {
-		trigger = {
-			has_loyalist_emulate_ambition = yes
-		}
-		localisation_key = String_GetEmulatedRuler
 	}
 }
 
@@ -1318,37 +1270,25 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = amerohellene
-			}
+		culture_group = byzantine
 		}
 		localisation_key = random_mythological_creature_hydra
 	}
 	text = {
 		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = amerohellene
-			}
+		culture_group = byzantine
 		}
 		localisation_key = random_mythological_creature_gorgon
 	}
 	text = {
 		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = amerohellene
-			}
+		culture_group = byzantine
 		}
 		localisation_key = random_mythological_creature_harpy
 	}
 	text = {
 		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = amerohellene
-			}
+		culture_group = byzantine
 		}
 		localisation_key = random_mythological_creature_siren
 	}
@@ -1362,7 +1302,6 @@ defined_text = {
 		trigger = {
 			OR = {
 				culture_group = byzantine
-				culture_group = amerohellene
 				culture_group = brittannic
 				culture_group = anglo_frisian
 			}
@@ -1374,19 +1313,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = amerohellene
-			}
+			culture_group = byzantine
 		}
 		localisation_key = random_mythological_creature_manticore
 	}
 	text = {
 		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = amerohellene
-			}
+			culture_group = byzantine
 		}
 		localisation_key = random_mythological_creature_cyclops
 	}
@@ -1422,10 +1355,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = amerohellene
-			}
+			culture_group = byzantine
 		}
 		localisation_key = random_mythological_creature_chimera
 	}
@@ -1433,7 +1363,6 @@ defined_text = {
 		trigger = {
 			OR = {
 				culture_group = byzantine
-				culture_group = amerohellene
 				culture_group = brittannic
 				culture_group = goidelic
 				culture_group = brythonic
@@ -1459,6 +1388,8 @@ defined_text = {
 					religion = bon_reformed
 					religion = sarna_pagan
 					religion = sarna_pagan_reformed
+					religion = alukta_pagan
+					religion = alukta_pagan_reformed
 				}
 			}
 		}
@@ -1581,8 +1512,6 @@ defined_text = {
 					religion = folklorist_reformed
 					religion = celtic_pagan
 					religion = celtic_pagan_reformed
-					religion = gator_pagan
-					religion = gator_pagan_reformed
 				}
 			}
 		}
@@ -1726,7 +1655,6 @@ defined_text = {
 					culture_group = goidelic
 					culture_group = brythonic
 					culture_group = japan_group
-					culture_group = amero_japonic
 				}
 			}
 		}
@@ -1752,10 +1680,7 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:target_ruler = {
-				OR = {
-					culture_group = byzantine
-					culture_group = amerohellene
-				}
+				culture_group = byzantine
 			}
 		}
 		localisation_key = random_mythological_creature_hydra
@@ -1763,10 +1688,7 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:target_ruler = {
-				OR = {
-					culture_group = byzantine
-					culture_group = amerohellene
-				}
+				culture_group = byzantine
 			}
 		}
 		localisation_key = random_mythological_creature_gorgon
@@ -1774,10 +1696,7 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:target_ruler = {
-				OR = {
-					culture_group = byzantine
-					culture_group = amerohellene
-				}
+				culture_group = byzantine
 			}
 		}
 		localisation_key = random_mythological_creature_harpy
@@ -1785,10 +1704,7 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:target_ruler = {
-				OR = {
-					culture_group = byzantine
-					culture_group = amerohellene
-				}
+				culture_group = byzantine
 			}
 		}
 		localisation_key = random_mythological_creature_siren
@@ -1801,9 +1717,7 @@ defined_text = {
 					culture_group = brittannic
 					culture_group = anglo_frisian
 					culture_group = byzantine
-					culture_group = amerohellene
 					culture_group = armenian_group
-					culture_group = amero_armenian
 					culture_group = caucasian
 					culture_group = apeninian
 					culture_group = near_eastern
@@ -1829,7 +1743,6 @@ defined_text = {
 			event_target:target_ruler = {
 				OR = {
 					culture_group = byzantine
-					culture_group = amerohellene
 					culture_group = brittannic
 					culture_group = anglo_frisian
 				}
@@ -1842,7 +1755,6 @@ defined_text = {
 			event_target:target_ruler = {
 				OR = {
 					culture_group = byzantine
-					culture_group = amerohellene
 					culture_group = apeninian
 					culture_group = francophone
 					culture_group = hispanophone
@@ -1859,10 +1771,7 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:target_ruler = {
-				OR = {
-					culture_group = byzantine
-					culture_group = amerohellene
-				}
+				culture_group = byzantine
 			}
 		}
 		localisation_key = random_mythological_creature_manticore
@@ -1870,10 +1779,7 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:target_ruler = {
-				OR = {
-					culture_group = byzantine
-					culture_group = amerohellene
-				}
+				culture_group = byzantine
 			}
 		}
 		localisation_key = random_mythological_creature_cyclops
@@ -1921,10 +1827,7 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:target_ruler = {
-				OR = {
-					culture_group = byzantine
-					culture_group = amerohellene
-				}
+				culture_group = byzantine
 			}
 		}
 		localisation_key = random_mythological_creature_chimera
@@ -1934,10 +1837,8 @@ defined_text = {
 			event_target:target_ruler = {
 				OR = {
 					culture_group = byzantine
-					culture_group = amerohellene
 					culture_group = brittannic
 					culture_group = goidelic
-					culture_group = amero_goidelic
 					culture_group = brythonic
 				}
 			}

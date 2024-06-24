@@ -12,9 +12,12 @@ b_yakra2;Yakra;;;;;;;;;x
 b_chuktsang2;Chuktsang;;;;;;;;;x
 b_arkog2;Arkog;;;;;;;;;x
 b_kelle2;Kelle;;;;;;;;;x
+coastal_county_republic_desc;§Y$CLAIMANT$§! can declare war to seize control of §Y$TITLE$§! since it is coastal or on a trade route and the county is within range.;;;;;;;;;;x
 b_sekhadrig2;Sekhadrig;;;;;;;;;x
-k_norf_gov;Governate of The Norf;;;;;;;;;x
-k_norf_gov_adj;Norfer;;;;;;;;;x
+k_norf_gov;The Norf;;;;;;;;;x
+k_norf_gov_adj;Norfner;;;;;;;;;x
+d_muwahidunna;Muwahidunna Mahdiate;;;;;;;;;x
+d_muwahidunna_adj;Muwahidunna;;;;;;;;;x
 k_wales_gov;Governate of The Welsh;;;;;;;;;x
 k_wales_gov_adj;Welsh;;;;;;;;;x
 d_north_dogger_isles;Northern Dogger Island;;;;;;;;;x
@@ -219,7 +222,7 @@ k_africa;Tunisia;;;;;;;;;x
 k_africa_adj;Tunisian;;;;;;;;;x
 e_india;Bharata;;;;;;;;;x
 e_india_adj;Indian;;;;;;;;;x
-e_china_west_governor;Nigerian American Colony;;;;;;;;;x
+e_china_west_governor;Northern Governate;;;;;;;;;x
 e_china_west_governor_adj;Nigerian;;;;;;;;;x
 WESTERN_GOVERNOR_TITLE_FOA;Your presidency;;;;;;;;;x
 WESTERN_GOVERNOR_MALE;President-Commander;;;;;;;;;x
@@ -230,6 +233,22 @@ b_shankaracharya;Dharamsala;;;;;;;;;x
 b_gongon_lhakhang;Tashi Lunpo;;;;;;;;;x
 b_tribandapura;Amritsar;;;;;;;;;x
 b_jaintpuri;Amritsar;;;;;;;;;x
+PROV3;Donegal;;;;;;;;;;x
+PROV5;Antrim;;;;;;;;;x
+PROV7;Armagh;;;;;;;;;x
+PROV8;Sligo;;;;;;;;;x
+PROV9;Galway;;;;;;;;;x
+PROV12;Kilkenny;;;;;;;;;x
+PROV14;Cork;;;;;;;;;x
+PROV15;Waterford;;;;;;;;;x
+PROV16;Wexford;;;;;;;;;x
+PROV13;Limerick;;;;;;;;;x
+PROV1955;Roscommon;;;;;;;x
+PROV1954;Mayo;;;;;;;x
+PROV2495;Leitrim;;;;;;;x
+PROV2496;Derry;;;;;;;x
+PROV2497;Down;;;;;;;x
+PROV247;Vaduz;;;;;;;x
 c_leitrim_adj;Leitrimian;;;;;;;x
 c_derry_adj;Derryan;;;;;;;x
 c_down_adj;Downian;;;;;;;x

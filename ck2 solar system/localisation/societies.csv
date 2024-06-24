@@ -1,17 +1,17 @@
-d_hashshashin;Cult of Kryptos;Cult of Kryptos;Cult of Kryptos;;Cult of Kryptos;;;;;;;;;x
-d_hashshashin_adj;Cult of Kryptos;Cult of Kryptos;Cult of Kryptos;;Cult of Kryptos;;;;;;;;;x
-the_assassins;Cult of Kryptos;Cult of Kryptos;Cult of Kryptos;;Cult of Kryptos;;;;;;;;;x
-EVTNAME88000;Birth of the Cult of Kryptos;Naissance des Cult of Kryptos;Die Geburt der Cult of Kryptos;;El nacimiento de Cult of Kryptos;;;;;;;;;x
+d_hashshashin;KGB;KGB;KGB;;KGB;;;;;;;;;x
+d_hashshashin_adj;KGB;KGB;KGB;;KGB;;;;;;;;;x
+the_assassins;KGB;KGB;KGB;;KGB;;;;;;;;;x
+EVTNAME88000;Birth of the KGB;Naissance des KGB;Die Geburt der KGB;;El nacimiento de KGB;;;;;;;;;x
 EVTOPTA88000;These fools are harmless...;Les fumeurs de haschisch sont inoffensifs...;Diese Haschischraucher sind harmlos...;;Estos fumadores de hachís son inofensivos...;;;;;;;;;x
-EVTDESC88000;Word is spreading that a man named George Tenet has found an ancient tablet that he connects with his ridiculous philosophy, Constitutionalism. Through secret training, his men have become lethal killers and have managed to seize a castle in Columbia. Already many of his open opponents have died in mysterious circumstances, all tracing back to this new organization that calls itself the Cult of Kryptos.;;;;;;;;;;;;;x
-EVTNAME88001;The Kryptids Spread To The Mississippi;;;;;;;;;x
+EVTDESC88000;Word is spreading that a man named Vladimir Solin has found ancient lore that he connects with his ridiculous heresy, the Stalinist faith. Through secret training, his men have become lethal killers and have managed to seize a castle in western Russia. Already many of his open opponents have died in mysterious circumstances, all tracing back to this new organization that calls itself the KGB.;;;;;;;;;;;;;x
+EVTNAME88001;The KGB Spread To The Baltic;;;;;;;;;x
 EVTOPTA88001;These madmen may have more reach than we imagined...;;;;;;;;;x
-EVTDESC88001;Nobody seriously thought that the secretive society known as the Cult of Kryptos would last long, but they have proven far more resilient than anyone ever imagined. Now they have infiltrated a series of fortifications in the land of Kentucky, claiming that Louisville is a place claimed the Columbian Republican Empire. Regardless of the veracity of their claims, the fact remains that their power and influence has spread to the rivers of the Mississippi.;;;;;;;;;x
-EVTDESC88001_ASSASSIN;Nobody believed that us, the Cult of Kryptos would last long out in the open, but we have proven ourselves far more resilient than any infidel ever imagined. Now our faithful agents have infiltrated a series of fortifications in the land of Kentucky, the mighty fortress of Louisville being one of the many castles under the Columbian Republican Empire we, faithful to the Founding Fathers are in servitude of.;;;;;;;;;x
-EVTNAME88099;The Kryptids Spread To The South;;;;;;;;;x
+EVTDESC88001;Nobody seriously thought that the secretive society known as the KGB would last long, but they have proven far more resilient than anyone ever imagined. Now they have infiltrated a series of fortifications in the land of Lativia, claiming that Riga is a place claimed by the mythical organisation they take their name from. Regardless of the veracity of their claims, the fact remains that their power and influence has spread to the icy lands of the Baltic.;;;;;;;;;x
+EVTDESC88001_ASSASSIN;Nobody believed that us, the KGB would last long out in the open, but we have proven ourselves far more resilient than any infidel ever imagined. Now our faithful agents have infiltrated a series of fortifications in the land of Lativia, the mighty fortress of Riga being one of the many castles under the ancient organisation we, faithful to Lord Stalin are a continuation of.;;;;;;;;;x
+EVTNAME88099;The KGB Spread To Germany;;;;;;;;;x
 EVTOPTA88099;Again? Will they never stop?;;;;;;;;;x
-EVTDESC88099;The notorious Cult of Kryptos have expanded their influence yet again, seizing yet another castle, this time one in the South.;;;;;;;;;x
-EVTDESC880099_ASSASSIN;We, the ever-faithful Cult of Kryptos have expanded our influence yet again, seizing yet another castle, this time one in the South.;;;;;;;;;x
+EVTDESC88099;The notorious KGB have expanded their influence yet again, seizing yet another castle, this time one in Eastern Germany.;;;;;;;;;x
+EVTDESC880099_ASSASSIN;We, the ever-faithful KGB have expanded our influence yet again, seizing yet another castle, this time one in Eastern Germany.;;;;;;;;;x
 ###################################
 string_muwa_symbol;the Great Sea;;;;;;;;;;;;;x
 string_muwa_symbol_cap;the Great Sea;;;;;;;;;;;;;x
@@ -35,6 +35,28 @@ muwa_leader;Desert Ghost;;;;;;;;;;;;;;x
 muwa_leader_desc;This character is seen as one of the ghosts of the desert, riding forth from the dunes to ambush and then disappearing before help can arrive.;;;;;;;;;;;;;;x
 iranian_leader;Warrior of Light;;;;;;;;;;;;;;x
 iranian_leader_desc;This character is a beacon of light for all those around him within the ancient Iranian homelands.;;;;;;;;;;;;;;x
+########################
+secret_religious_society_raven_tales;[GetReligiousCommunityName_raven_tales];[GetReligiousCommunityName_raven_tales];[GetReligiousCommunityName_raven_tales];;[GetReligiousCommunityName_raven_tales];;;;;;;;;x
+secret_religious_society_REAL_raven_tales;Moon Thieves;;;;;;;;;;;;;x
+alt_start_community_name_raven_tales;The [peyotist.GetName] Faithful;;;;;;;;;;;;;x
+secret_religious_society_raven_tales_desc;[GetReligiousSocietyDesc_peyotist];[GetReligiousSocietyDesc_peyotist];[GetReligiousSocietyDesc_peyotist];;[GetReligiousSocietyDesc_peyotist];;;;;;;;;x
+secret_religious_society_raven_tales_desc_REAL;Before Raven stole the Moon and placed it in the heavens, the world was shrouded in total darkness every night. The followers of Raven who find themselves shrouded in spiritual darkness must therefore band together and endeavor to steal authority in order to allow Xhúuyee K'iigaang to once more have a place in the sky where all can see.;;;;;;;;x
+secretly_convert_to_raven_tales_holy_site;Secretly Convert to Xhúuyee K'iigaang;;;;;;;;;;;;;x
+secretly_convert_to_raven_tales_holy_site_desc;The §YXhúuyee K'iigaang§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_raven_tales_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
+secret_religious_society_raven_tales_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
+secret_religious_society_raven_tales_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
+secret_religious_society_raven_tales_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_raven_tales_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
+secret_religious_society_raven_tales_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
+secret_religious_society_raven_tales_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
+secret_religious_society_raven_tales_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
+secret_religious_society_raven_tales_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
+secret_religious_community_raven_tales;Secret Xhúuyee K'iigaang Community;;;;;;;;;;;;;x
+secret_raven_tales_community;Secret Xhúuyee K'iigaang Community;;;;;;;;;;;;;x
+secret_raven_tales_community_desc;In secret, Xhúuyee K'iigaang faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
+secret_religious_society_raven_tales_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
+
 ########################
 warrior_lodge_sikh;The Akali Nihang;;;;;;;;;x
 warrior_lodge_sikh_desc;Being established by the legendary Guru Hargobind, sixth Guru of the Sikhs,the Akali Nihang, or 'Egoless Immortals', devote themselves to the selfless defence of the Sikh faithful. They are famed for their victories even when heavily outnumbered. However, some of their practices, such as the consumption of 'Sukha Parshaad' are frowned upon by mainstream Sikhs.;;;;;;;;;x
@@ -127,6 +149,17 @@ monastic_order_qurani_rank_1_male;Murid;Murid;Murid;;Murid;;;;;;;;;x
 monastic_order_qurani_rank_2_male;Qari;Qari;Qari;;Qari;;;;;;;;;x
 monastic_order_qurani_rank_3_male;Murshid;Murshid;Murshid;;Murshid;;;;;;;;;x
 monastic_order_qurani_rank_4_male;Sheikh;Sheikh;Sheikh;;Sheikh;;;;;;;;;x
+monastic_order_pancasila;The Kemenkumham;;;;;;;;;x
+monastic_order_pancasila_desc;The Kemenkumham is a ministry turned order dedicated to studying and upholding the Five Principles and Thirty-Seven Commandments through careful interpretations of the Constitution and through emulations of the Proklamator.;;;;;;;;;x
+currency_name_monastic_order_pancasila;Knowledge;Dévotion;Hingabe;;Devoci?n;;;;;;;;;x
+monastic_order_pancasila_rank_1_female;Analyst;Analyst;Analyst;;Analyst;;;;;;;;;x
+monastic_order_pancasila_rank_2_female;Subcoordinator;Subcoordinator;Subcoordinator;;Subcoordinator;;;;;;;;;x
+monastic_order_pancasila_rank_3_female;Coordinator;Coordinator;Coordinator;;Coordinator;;;;;;;;;x
+monastic_order_pancasila_rank_4_female;Director-Minister;Director-Minister;Director-Minister;;Director-Minister;;;;;;;;;x
+monastic_order_pancasila_rank_1_male;Analyst;Analyst;Analyst;;Analyst;;;;;;;;;x
+monastic_order_pancasila_rank_2_male;Subcoordinator;Subcoordinator;Subcoordinator;;Subcoordinator;;;;;;;;;x
+monastic_order_pancasila_rank_3_male;Coordinator;Coordinator;Coordinator;;Coordinator;;;;;;;;;x
+monastic_order_pancasila_rank_4_male;Director-Minister;Director-Minister;Director-Minister;;Director-Minister;;;;;;;;;x
 monastic_order_osvicenism;The Community of Saint Ondra;;;;;;;;;x
 monastic_order_osvicenism_desc;The followers of Saint Ondra lead an ascetic life, finding purpose in prayer and meditation.;;;;;;;;;x
 monastic_order_osvicenism_rank_1_female;Sotapanna;Sotapanna;Sotapanna;;Sotapanna;;;;;;;;;x
@@ -434,8 +467,8 @@ warrior_lodge_khanist;The Wrath of the Khan;;;;;;;;;;;;;x
 warrior_lodge_khanist_desc;In ancient times, the Great Khan ruled the plains from China to far Rus, the hooves of his followers destroying any enemy on their path. After the Event, the Khanist greatest warriors swore to embody his fury, and formed the lodge of the Wrath of the Khan.;;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_khanist_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighbouring ruler§! who follows the §YKhanist§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yseigneur voisin§! qui suit la foi §Ykhanist§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §Ykhanist§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §Ykhanist§!\n;;;;;;;;;x
 warrior_lodge_ironist_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
-warrior_lodge_ironist;The Uni-Pacifi Riders;;;;;;;;;;;;;;x
-warrior_lodge_ironist_desc;The Uni-Pacifi Riders travel the world along the endless lines of steel, following their ancestors who did the same ages past, seeking glory and adventure in the Wild West.;;;;;;;;;;;;;x
+warrior_lodge_ironist;The Protectors of the Aral;;;;;;;;;;;;;;x
+warrior_lodge_ironist_desc;In the harsh plains of the Kazakh Plains, the water of the Aral Sea is a treasure. The Ironists believe it has to be protected at all costs from further damage, and the Protectors of the Aral are the greatest chariotiers that make a oath to defend it from any that might cause harm to it.;;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_ironist_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighbouring ruler§! who follows the §YIronist§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yseigneur voisin§! qui suit la foi §Yironist§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §Yironist§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §Yironist§!\n;;;;;;;;;x
 warrior_lodge_folklorist_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
 warrior_lodge_folklorist;School of The White Wolf;;;;;;;;;;;;;;x
@@ -460,8 +493,8 @@ warrior_lodge_nousthreskeia_desc;The Warriors of Chelovecheskiye Dukhi follow th
 nousthreskeia_leader;Warrior of Chelovecheskiye Dukhi;;;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_noushtreskeia_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighbouring ruler§! who follows the §nousthreskeia§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yseigneur voisin§! qui suit la foi §Ynousthreskeia§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §Ynousthreskeia§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §Ynousthreskeia§!\n;;;;;;;;;x
 warrior_lodge_celtic_pagan_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
-warrior_lodge_celtic_pagan;The Old Wardens;;;;;;;;;;;;;;x
-warrior_lodge_celtic_pagan_desc;The Old Wardens are descended from the forest keepers of ancient America, dedicated to preserving the old woods as well as honing their combat skills to preserve their faith.;;;;;;;;;;;;;x
+warrior_lodge_celtic_pagan;The Fianna;;;;;;;;;;;;;;x
+warrior_lodge_celtic_pagan_desc;The Fianna follow the steps of legendary Heroes such as Finn MacCumhaill and CuCulainn, forming warrior bands that fight for the glory of the Druidic gods.;;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_celtic_pagan_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighbouring ruler§! who follows the §Druidic§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yseigneur voisin§! qui suit la foi §Yceltic_pagan§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §Yceltic_pagan§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §Yceltic_pagan§!\n;;;;;;;;;x
 warrior_lodge_mesopotamian_leader_desc;[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];[GetSocietyLeaderDesc];;[GetSocietyLeaderDesc];;;;;;;;;x
 warrior_lodge_mesopotamian;The Brothers of Enkidu;;;;;;;;;;;;;;x
@@ -497,7 +530,7 @@ string_ironist_symbol;the eternal wheel;;;;;;;;;;;;;x
 string_ironist_symbol_cap;the eternal wheel;;;;;;;;;;;;;x
 string_ironist_symbol_short;wheel;;;;;;;;;;;;;x
 string_ironist_symbol_short_cap;Wheel;;;;;;;;;;;;;x
-string_battle_nick_ironist_symbol;Steel Mustang;;;;;;;;;;;;;x
+string_battle_nick_ironist_symbol;Breaking Wheel;;;;;;;;;;;;;x
 string_WL_ironist_religion;§Y[ironist.GetName]§! religion;la religion §Y[ironist.GetName]§!;§Y[ironist.GetName]en§! Religion;;Religión §Y[ironist.GetName]§!;;;;;;;;;x
 string_folklorist_symbol;the wolf;;;;;;;;;;;;;x
 string_folklorist_symbol_cap;the wolf;;;;;;;;;;;;;x
@@ -564,8 +597,8 @@ sikh_leader;Egoless Immortal;;;;;;;;;x
 sikh_leader_desc;This character is a tireless soldier of the Akali Nihang, well-versed in the traditional ways of warfare in the Punjab.;;;;;;;;;x
 novelist_leader;Panoramixian;;;;;;;;;;;;;x
 novelist_leader_desc;This character claims to bear the powers which only can only achieved by the blessing of Panoramix.;;;;;;;;;;;;;x
-celtic_pagan_leader;Forest Keeper;;;;;;;;;;;;;x
-celtic_pagan_leader_desc;This character has learned to move rapidly in deep forests and catch the enemy with ambushes.;;;;;;;;;;;;;x
+celtic_pagan_leader;Green Bandit;;;;;;;;;;;;;x
+celtic_pagan_leader_desc;This character learnt to move rapidly in difficult terrains and catch the enemy with ambushes.;;;;;;;;;;;;;x
 mesopotamian_leader;Rammer;;;;;;;;;;;;;x
 mesopotamian_leader_desc;This character follows an aggressive battle tactics and even personally charge the enemy.;;;;;;;;;;;;;x
 razumist_leader;Warrior of Chelovecheskiye Dukhi;;;;;;;;;;;;;;x
@@ -580,8 +613,8 @@ british_leader;Hexagramist;;;;;;;;;;;;;x
 british_leader_desc;This character regularly plays a sacred ancient strategy game that is played on hexagrams.;;;;;;;;;;;;;x
 jacobinist_leader;Guillotinist;;;;;;;;;;;;;x
 jacobinist_leader_desc;This character specializes in capturing people to sacrifice to Madame Guillotine.;;;;;;;;;;;;;x
-ironist_leader;Blue Shield;;;;;;;;;;;;;x
-ironist_leader_desc;This character earned the right to carry the sacred Blue Shield with white and red stripes, showcasing his prowess in battle and boosting his men's moral.;;;;;;;;;;;;;x
+ironist_leader;Gearboxer;;;;;;;;;;;;;x
+ironist_leader_desc;This character learnt to do breathtaking maneuvers with the rapid changes of speed and direction.;;;;;;;;;;;;;x
 starist_leader;Warrior of the Aurora;;;;;;;;;;;;;x
 starist_leader_desc;Those of the Starist faith that achieve great military success become known as Warriors of the Aurora. Protected by the light of the northern skies, those ingenious commanders are the true masters of combat in the lands of ice and snow.;;;;;;;;;;;;;x
 sea_creed_leader;Warrior of the Seas;;;;;;;;;;;;;x

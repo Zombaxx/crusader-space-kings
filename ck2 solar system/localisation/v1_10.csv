@@ -337,6 +337,7 @@ HAS_LOWER_DYN_REALM_POWER;Dynasty Realm Power less than §Y$VAL$%§!;Moins de §Y$V
 HAS_HIGHER_DYN_REALM_POWER;Dynasty Realm Power at least §Y$VAL$%§!;Au moins §Y$VAL$%§! de puissance de dynastie du pays;Macht des dynastischen Reiches mindestens §Y$VAL$%§!;;Poder de Dinastía Real al menos §Y$VAL$%§!;;;;;;;;;x
 slavic_pagan;Slavic;slave;Slawisch;;Eslavo;;;;;;;;;x
 slavic_pagan_reformed;Slavic;slave;Slawisch;;Eslavo;;;;;;;;;x
+tengri_pagan_reformed;Tengri;tengriste;Tengrisch;;Tengri;;;;;;;;;x
 baltic_pagan_reformed;Romuva;romuvienne;Romuvaisch;;Romuvano;;;;;;;;;x
 finnish_pagan_reformed;Suomenusko;suomenusko;Suomenuskowisch;;Suomenusco;;;;;;;;;x
 aztec_reformed;Aztec;aztèque;Aztekisch;;Azteca;;;;;;;;;x
@@ -429,6 +430,121 @@ barony_of_iranian;Arg of;Arg de;Arg von;;Arg de;;;;;;;;;x
 ZOROASTRIAN_CLOSE_KIN_UNION;Since §Y[ActorExtra.GetFirstName]§! is §Y[RecipientExtra.GetFirstName]'s§! $RELATION$, it would be a sacred §YXwedodah§! union, pleasing to vassal Zoroastrians.;Puisque §Y[ActorExtra.GetFirstName]§! a le statut de $RELATION$ de §Y[RecipientExtra.GetFirstName]§!, on désignera cette union comme §YXwedodah§!, au plaisir des vassaux zoroastriens.;Da §Y[ActorExtra.GetFirstName]§! §Y[RecipientExtra.GetFirstName]s§! $RELATION$ ist, wäre dies eine heilige §YXwedodah§!-Vereinigung, die zoroastrischen Vasallen gefällt.;;Ya que §Y[ActorExtra.GetFirstName]§! está §Y[RecipientExtra.GetFirstName]'s§! $RELATION$, debería haber una unión §YXwedodah§! sagrada, satisfactoria para los vasallos Zoroastrianos.;;;;;;;;;x
 opinion_religious_divine_blood_marriage;Divine Marriage;Mariage divin ;Göttliche Heirat;;Matrimonio Divino;;;;;;;;;x
 opinion_priest_religious_divine_blood_marriage;Divine Marriage;Mariage divin ;Göttliche Heirat;;Matrimonio Divino;;;;;;;;;x
+PROV930;Bar;Bar;Bar;;Bar;;;;;;;;;x
+PROV931;Möre;Möre;Möre;;Möre;;;;;;;;;x
+PROV932;Tjust;Tjust;Tjust;;Tjust;;;;;;;;;x
+PROV933;Roslavl;Roslavl;Roslavl;;Roslavl;;;;;;;;;x
+PROV934;Lukoml;Lukoml;Lukoml;;Lukoml;;;;;;;;;x
+PROV935;Sorrento;Sorrento;Sorrento;;Sorrento;;;;;;;;;x
+PROV1039;Loire;Loire;Loire;;Loira;;;;;;;;;x
+PROV1040;Loire;Loire;Loire;;Loira;;;;;;;;;x
+PROV1041;Seine;Seine;Seine;;Sena;;;;;;;;;x
+PROV1042;Seine;Seine;Seine;;Sena;;;;;;;;;x
+PROV1043;Rhine;Rhin;Rhein;;Rin;;;;;;;;;x
+PROV1044;Rhine;Rhin;Rhein;;Rin;;;;;;;;;x
+PROV1045;Rhine;Rhin;Rhein;;Rin;;;;;;;;;x
+PROV1046;Elbe;Elbe;Elbe;;Elba;;;;;;;;;x
+PROV1047;Elbe;Elbe;Elbe;;Elba;;;;;;;;;x
+PROV1048;Elbe;Elbe;Elbe;;Elba;;;;;;;;;x
+PROV1049;Elbe;Elbe;Elbe;;Elba;;;;;;;;;x
+PROV1050;Elbe;Elbe;Elbe;;Elba;;;;;;;;;x
+PROV1051;Vistula;Vistule;Weichsel;;Vístula;;;;;;;;;x
+PROV1052;Vistula;Vistule;Weichsel;;Vístula;;;;;;;;;x
+PROV1053;Vistula;Vistule;Weichsel;;Vístula;;;;;;;;;x
+PROV1054;Vistula;Vistule;Weichsel;;Vístula;;;;;;;;;x
+PROV1055;Vistula;Vistule;Weichsel;;Vístula;;;;;;;;;x
+PROV1056;Dniester;Dniester;Dnister;;Dniéster;;;;;;;;;x
+PROV1057;Dniester;Dniester;Dnister;;Dniéster;;;;;;;;;x
+PROV1058;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1059;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1060;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1061;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1063;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1065;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1066;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1067;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1068;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1069;Danube;Danube;Donau;;Danubio;;;;;;;;;x
+PROV1070;Dnieper;Dniepr;Dnepr;;Dniéper;;;;;;;;;x
+PROV1071;Dnieper;Dniepr;Dnepr;;Dniéper;;;;;;;;;x
+PROV1072;Dnieper;Dniepr;Dnepr;;Dniéper;;;;;;;;;x
+PROV2097;Kyivske;Kyivske;Kyivske;;Kyivske;;;;;;;;;x
+PROV2098;Kremenchutske;Kremenchutske;Kremenchutske;;Kremenchutske;;;;;;;;;x
+PROV2099;Kahovske;Kahovske;Kahovske;;Kahovske;;;;;;;;;x
+PROV1073;Desna;Desna;Desna;;Desná;;;;;;;;;x
+PROV1074;Desna;Desna;Desna;;Desná;;;;;;;;;x
+PROV1075;Desna;Desna;Desna;;Desná;;;;;;;;;x
+PROV1076;Dnieper;Dniepr;Dnepr;;Dniéper;;;;;;;;;x
+PROV1077;Dnieper;Dniepr;Dnepr;;Dniéper;;;;;;;;;x
+PROV1078;Dnieper;Dniepr;Dnepr;;Dniéper;;;;;;;;;x
+PROV1079;Pripyat;Pripyat;Pripyat;;Prípiat;;;;;;;;;x
+PROV1080;Daugava;Daugava;Düna;;Daugava;;;;;;;;;x
+PROV1081;Daugava;Daugava;Düna;;Daugava;;;;;;;;;x
+PROV1082;Dwina;Dwina;Dwina;;Dwina;;;;;;;;;x
+PROV1083;Neva;Neva;Newa;;Nevá;;;;;;;;;x
+PROV1084;Svir;Svir;Swir;;Svir;;;;;;;;;x
+PROV1085;Volkhov;Volkhov;Wolchow;;Volkhov;;;;;;;;;x
+PROV1086;Ilmen;Ilmen;Ilmen;;Ilmen;;;;;;;;;x
+PROV1087;Lovat;Lovat;Lowat;;Lovat;;;;;;;;;x
+PROV1088;Don;Don;Don;;Don;;;;;;;;;x
+PROV1089;Don;Don;Don;;Don;;;;;;;;;x
+PROV1090;Don;Don;Don;;Don;;;;;;;;;x
+PROV1091;Don;Don;Don;;Don;;;;;;;;;x
+PROV1092;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1093;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1094;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1095;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1096;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1097;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1098;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1099;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1100;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1101;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1102;Oka;Oka;Oka;;Oká;;;;;;;;;x
+PROV1103;Volga;Volga;Wolga;;Volga;;;;;;;;;x
+PROV1104;Oka;Oka;Oka;;Oká;;;;;;;;;x
+PROV1107;Garonne;Garonne;Garonne;;Garona;;;;;;;;;x
+PROV1108;Garonne;Garonne;Garonne;;Garona;;;;;;;;;x
+c_bar_adj;Barrois;barroise;Barisch;;Barrois;;;;;;;;;x
+c_more_adj;Mörian;mörienne;Mörisch;;Mörian;;;;;;;;;x
+c_tjust_adj;Tjustian;tjustienne;Tjustisch;;Tjustian;;;;;;;;;x
+c_roslavl_adj;Roslavlian;roslavlienne;Roslawisch;;Roslavlian;;;;;;;;;x
+c_lepiel_adj;Lukomlian;lukomlienne;Lukomlisch;;Lukomlian;;;;;;;;;x
+c_yaroslavl_adj_finno_ugric;Meryan;meryenne;Meryaisch;;Meryan;;;;;;;;;x
+b_commercy;Commercy;Commercy;Commarchen;;Commercy;;;;;;;;;x
+b_saintdizier;Saint-Dizier;Saint-Dizier;Saint-Dizier;;Saint-Dizier;;;;;;;;;x
+b_stenay;Stenay;Stenay;Stenay;;Stenay;;;;;;;;;x
+b_etain;Étain;Étain;Étain;;Étain;;;;;;;;;x
+b_alvesta;Alvesta;Alvesta;Alvesta;;Alvesta;;;;;;;;;x
+b_torsas;Torsås;Torsås;Torsås;;Torsås;;;;;;;;;x
+b_soderakra;Söderåkra;Söderåkra;Söderåkra;;Söderåkra;;;;;;;;;x
+b_kopingsvik;Köpingsvik;Köpingsvik;Köpingsvik;;Köpingsvik;;;;;;;;;x
+b_monsteras;Mönsterås;Mönsterås;Mönsterås;;Mönsterås;;;;;;;;;x
+b_madesjo;Madesjö;Madesjö;Madesjö;;Madesjö;;;;;;;;;x
+b_alem;Ålem;Ålem;Ålem;;Ålem;;;;;;;;;x
+b_doderhult;Döderhult;Döderhult;Döderhult;;Döderhult;;;;;;;;;x
+b_hulingsryd;Hulingsryd;Hulingsryd;Hulingsryd;;Hulingsryd;;;;;;;;;x
+b_tornsfall;Törnsfall;Törnsfall;Törnsfall;;Törnsfall;;;;;;;;;x
+b_kisa;Kisa;Kisa;Kisa;;Kisa;;;;;;;;;x
+b_jangolsrum;Jangolsrum;Jangolsrum;Jangolsrum;;Jangolsrum;;;;;;;;;x
+b_furuby;Furuby;Furuby;Furuby;;Furuby;;;;;;;;;x
+b_markaryd;Markaryd;Markaryd;Markaryd;;Markaryd;;;;;;;;;x
+b_kalmar_hus;Kalmarhus;Kalmarhus;Kalmarhus;;Kalmarhus;;;;;;;;;x
+b_pochinok;Pochinok;Pochinok;Pochinok;;Pochinok;;;;;;;;;x
+b_chocimsk;Chocimsk;Chocimsk;Chocimsk;;Chocimska;;;;;;;;;x
+b_chashniki;Chashniki;Chashniki;Chashniki;;Chashniki;;;;;;;;;x
+b_novolukoml;Novolukoml;Novolukoml;Novolukoml;;Novolukoml;;;;;;;;;x
+d_amalfi;Sorrento;Sorrento;Sorrento;;Sorrento;;;;;;;;;x
+c_amalfi_adj;Sorrentin;sorrentin;Sorrentin;;Sorrentin;;;;;;;;;x
+d_amalfi_adj;Sorrentin;sorrentin;Sorrentin;;Sorrentin;;;;;;;;;x
+b_ravello;Ravello;Ravello;Ravello;;Ravello;;;;;;;;;x
+b_tramonti;Tramonti;Tramonti;Tramonti;;Tramonti;;;;;;;;;x
+b_positano;Positano;Positano;Positano;;Positano;;;;;;;;;x
+b_portici;Portici;Portici;Portici;;Portici;;;;;;;;;x
+b_afragola;Afragola;Afragola;Afragola;;Afragola;;;;;;;;;x
+b_minori;Minori;Minori;Minori;;Minori;;;;;;;;;x
+b_turris_octava;Turris Octava;Turris Octava;Turris Octava;;Turris Octava;;;;;;;;;x
+b_eboli;Eboli;Eboli;Eboli;;Éboli;;;;;;;;;x
 REFILL_HOLDING_LEVY;Restore the Levy in §Y$HOLDING$§!.\n;Rétablir l'armée en §Y$HOLDING$§!.\n;Erneuert die Aufgebote in §Y$HOLDING$§!.\n;;Restaurar el Reclutamiento en §Y$HOLDING$§!.\n;;;;;;;;;x
 CAPTURED_CLOSE_RELATIVE;$PERC$: Holds §Y$CHAR$§! prisoner;$PERC$ : Garde §Y$CHAR$§! en prison;$PERC$: Hält §Y$CHAR$§! gefangen;;$PERC$: Tiene §Y$CHAR$§! prisionero;;;;;;;;;x
 AIREASON_PREPARING_INVASION;Preparing to invade §Y[GetTitledName]§!;Se prépare à envahir §Y[GetTitledName]§!;Invasionsvorbereitungen gegen §Y[GetTitledName]§!;;Preparando para invadir §Y[GetTitledName]§!;;;;;;;;;x
@@ -672,6 +788,7 @@ d_slesvig_adj_german;Slesvigian;slesvigienne;Schleswigsch;;Slesvigiano;;;;;;;;;x
 d_meath_adj_north_germanic;Dubliner;dublinoise;Dublinerisch;;Dublinés;;;;;;;;;x
 k_moravia;Great Moravia;Grande Moravie;Großmähren;;Gran Moravia;;;;;;;;;x
 k_moravia_adj;Moravian;morave;Mährisch;;Moraviano;;;;;;;;;x
+PROV629;Ashgabat;Konjikala;Aschgabat;;Konjikala;;;;;;;;;x
 commission_runestone;Commission a Runestone;Commander une pierre runique;Gebt einen Runenstein in Auftrag;;Encargar una Piedra Rúnica;;;;;;;;;x
 commission_runestone_desc;Commission a runestone to chronicle your exploits or the memory of a dead parent. This can be done only once in a lifetime, but others will look more favorably on you for a time.;Commander une pierre runique afin de relater vos exploits ou d'honorer la mémoire d'un parent défunt. Ceci ne peut être fait qu'une seule fois par un même seigneur, mais les autres vous seront davantage favorables pendant une certaine période.;Gebt einen Runenstein in Auftrag, um Eure Taten aufzuzeichnen oder ein verstorbenes Elternteil zu ehren. Dies kann nur einmal im Leben getan werden, aber andere werden Euch für eine Weile wohlwollend begegnen.;;Encargar una piedra rúnica para escribir una crónica de tus hazañas o la memoria de un padre muerto. Esto se puede hacer sólo una vez en la vida, pero los demás te mirarán más favorablemente por un tiempo.;;;;;;;;;x
 runestone_carved;The craftsmen start the process of carving and painting the runestone.;Les sculpteurs ont commencé à graver et à peindre la pierre runique.;Die Handwerker beginnen mit der Herstellung und Bemalung des Runensteins.;;Los artesanos comienzan el proceso de tallado y pintura de la piedra rúnica.;;;;;;;;;x
@@ -776,6 +893,7 @@ d_meshcheras;Meshcheras;Meshcheras;Meschtschora;;Meshchera;;;;;;;;;x
 d_meshcheras_adj;Meshcheran;meshcherane;Meschtschoraisch;;Meshcherano;;;;;;;;;x
 d_muromians;Muromians;Muromiens;Murom;;Muromianos;;;;;;;;;x
 d_muromians_adj;Muromian;muromienne;Muromisch;;Muromiano;;;;;;;;;x
+PROV588;Mari;Mari;Mari;;Mari;;;;;;;;;x
 d_maris;Mari;Mari;Mari;;Maris;;;;;;;;;x
 d_maris_adj;Mari;mari;Marisch;;Mari;;;;;;;;;x
 c_merya_adj;Mari;mari;Marisch;;Mari;;;;;;;;;x
@@ -1329,6 +1447,7 @@ waldensian_DESC;Originally a reform movement within the Catholic church, Waldens
 lollard_DESC;Lollard heretics are opposed to perceived corruption within the Catholic Church. Like many Catholic heresies, they loathe the wealth and ostentation of the clergy and advocate a return to a more original form of Christianity. This heresy has no formal head and no special game mechanics.;Les hérétiques lollards s'opposent à la corruption perçue au sein de l'Église catholique. Comme plusieurs autres hérésies catholiques, ils exècrent l'ostentation et les richesses du clergé et prônent un retour à une forme plus originelle du christianisme. \n\nDans le jeu, cette hérésie n'a ni chef officiel ni mécanique spécifique.;Lollardische Ketzer stehen der vermeintlichen Korruption der Katholischen Kirche gegenüber. Ähnlich anderer katholischer Ketzereien lehnen sie den Reichtum und die Pracht der Priester ab und befürworten eine Rückkehr zum ursprünglichen Christentum. Diese Ketzerei hat kein offizielles Oberhaupt und keine speziellen Spielmechaniken.;;Los herejes Lolardos se oponen a la corrupción que se percibe dentro de la Iglesia Católica. Al igual que muchas herejías Católicas, detestan la riqueza y la ostentación del clero y abogan por un retorno a una forma más primitiva del Cristianismo. Esta herejía no tiene jefe oficial ni mecánica especial de juego.;;;;;;;;;x
 orthodox_DESC;The Orthodox Church is the other main branch of Chalcedonian Christianity that up until 1054 was formally united with the Catholic Church, although the political division can be traced back to the crowning of Charlemagne as Roman Emperor by Pope Leo III in 800, which did not sit well with the Emperor in Constantinople. The nominal head of the Orthodox Church is the Ecumenical Patriarch of Constantinople, but he does not interfere in the affairs of other Patriarchs.;L'Église orthodoxe est une autre des principales branches du christianisme chalcédonien. Jusqu'en 1054, elle était officiellement unifiée à l'Église catholique malgré des divisions politiques dont les traces remontent au couronnement de Charlemagne comme empereur romain par le pape Léon III en 800, chose qui n'a point plu à l'empereur de Constantinople. Le chef officiel de l'Église orthodoxe est le patriarche oecuménique de Constantinople, mais il n'intervient pas vraiment dans les affaires des autres patriarches.;Die Orthodoxe Kirche ist ein weiterer Hauptzweig des Chalzedonischen Christentums und war bis 1054 formal mit der Katholischen Kirche vereint, obwohl die politische Abspaltung zurückverfolgt werden kann bis zur Krönung von Karl dem Großen zum Römischen Kaiser durch Papst Leo III. im Jahr 800, die dem Kaiser in Konstantinopel nicht allzu sehr zusagte. Das formelle Oberhaupt der Orthodoxen Kirche ist der Ökumenische Patriarch von Konstantinopel, aber er mischt sich nicht in die Angelegenheiten anderer Patriarchen ein.;;La Iglesia Ortodoxa es la otra rama principal del Cristianismo de Calcedonia, que hasta 1054 estaba unido formalmente a la Iglesia Católica, aunque la división política se remonta a la coronación de Carlomagno como Emperador Romano por el Papa León III en el año 800, que no se llevaba bien con el emperador de Constantinopla. El jefe oficial de la Iglesia Ortodoxa es el Patriarca Ecuménico de Constantinopla, pero no se inmiscuye en los asuntos de los demás Patriarcas.;;;;;;;;;x
 sunni_DESC;Sunni Islam is by far the most widespread form of the religion. It is the more orthodox of the two main branches of Islam but the origin of the Sunni-Shia schism was largely political in nature. The Sunnis accepted the first Caliph, Abu Bakr, whereas the Shiites rejected him in favor of Ali. Sunni Muslims hold strictly to the Sunnah - the sayings and actions of Muhammad - as collected in the Hadiths, which form the basis for Sunni jurisprudence. The formal head of Sunni Islam is the (Sunni) Caliph.;Le sunnisme est de loin la religion la plus répandue. C'est la plus orthodoxe des deux branches de l'islam bien que le schisme sunnisme-chiisme est d'abord d'origine politique. Les sunnites reconnaissent le premier calife, Abu Bakr, alors que les chiites le rejettent en faveur d'Ali. Les musulmans sunnites s'en tiennent strictement à la Sunna (les dires et les actes de Mahomet) qui est la base de la jurisprudence des sunnites. Le chef officiel de l'islam sunnite est le calife (sunnite).;Der Sunni-Islam ist bei weitem die verbreitetste Form der Religion. Es ist der orthodoxere der beiden Hauptzweige des Islam, aber der Ursprung des Sunni-Shia Schisma war größtenteils politischer Natur. Die Sunniten akzeptierten den ersten Kaliphen Abu Bakr, wohingegen die Shiiten Ali bevorzugen. Sunnitische Muslime halten sich strikt an die Sunnah - die Sprüche und Taten Mohammeds - wie sie in den Hadithen gesammelt wurden, die die Basis sunnitischer Rechtsprechung bilden. Das offizielle Oberhaupt ist der sunnitische Kaliph.;;El Islam Sunita es por mucho la forma más extendida de la religión. Es la más ortodoxa de las dos ramas principales del Islam, pero el origen del cisma entre Sunitas y Chiítas fue principalmente político. Los Sunitas aceptaron al primer Califa, Abu Bakr, mientras que los Chiítas lo rechazaron, favoreciendo a Alí. Los Musulmanes Sunitas se ciñen estrictamente a la Sunnah (los dichos y hechos de Mahoma) recogidos en los Hadices, que forman la base de la jurisprudencia Suní. El jefe formal del Islam Suní es el Califa (Suní).;;;;;;;;;x
+shiite_DESC;Shi'a is the short form of Shi'atul Ali, or the Party of Ali, which rejected the first Caliph Abu Bakr in favor of Ali. Shi'a Islam is the less orthodox of the two main branches of Islam and accepts the idea of intercession by dead Imams on behalf of the living. The formal head of Shi'a Islam is the (Shiite) Caliph.;L'origine du chiisme vient de Shi'atul Ali, les partisans d'Ali, ceux qui ont rejeté le premier calife Abu Bakr en faveur d'Ali. Le chiisme est la moins orthodoxe des deux branches islamiques, acceptant l'intercession des imams morts au nom des survivants. Le chef officiel de l'islam chiite est le calife (chiite).;Shi'a ist die Abkürzung von Shi'atul Ali oder die Partei von Ali, die den ersten Kaliph Abu Bakr abgelehnt und Ali bevorzugt hat. Der Shiitischer Islam ist der weniger orthodoxe Zweig der beiden Hauptströme des Islam und akzeptiert die Idee der Fürsprache toter Imame für die Lebenden. Das offizielle Oberhaupt des Shi'a Islam ist der schiitische Kaliph.;;Chií es la abreviación de Shi'atul Alí, o el Partido de Alí, que rechazó al primer califa Abu Bakr en favor de Alí. El Islam Chiíta es la menos ortodoxa de las dos ramas principales del Islam y acepta la idea de interceder por imanes muertos en nombre de los vivos. El jefe formal del Islam Chiíta es el Califa (Chiíta).;;;;;;;;;x
 title_cherbi;Cherbi;Cherbi;Cherbi;;Cherbi;;;;;;;;;x
 title_cherbi_desc;The Cherbi is the leader of the Kheshig, the imperial guard of the Mongol Empire. They are charged with the protection of the empire's most important nobility, and the position as their commander is a very prestigious one.;Le cherbi est le commandant des Kheshig, la garde impériale de l'empire mongol. Ils sont en charge de la protection de la plus haute noblesse de l'empire, et l'opportunité de diriger cette garde est l'un des plus hauts honneurs.;Der Cherbi ist der Anführer des Kheshig, der Garde des mongolischen Reiches. Die Garde beschützt die wichtigsten Adelsgeschlechter des Reiches und die Position ihres Kommandanten ist sehr prestigeträchtig.;;El Cherbi es el líder de la Kheshig, la guardia imperial del Imperio Mongol. Ellos se encargan de la protección de los nobles más importantes del imperio, y el puesto como su comandante es muy prestigioso.;;;;;;;;;x
 title_darkhan;Darkhan;Darkhan;Darkhan;;Darkhan;;;;;;;;;x
@@ -1350,9 +1469,9 @@ title_hirdman_desc;The Hirdmen are seen as the ruler's trusted companions in arm
 title_shahrwaraz;Shahrwarãz;Shahrwarãz;Shahrwarãz;;Shahrwarãz;;;;;;;;;x
 title_shahrwaraz_desc;The Shahrwarãz, the Boar of the Empire, is a prestigious honorary title dating back to the Sassanids. In Zoroastrianism, the boar is closely associated with the Izad Vahram, the epitome of victory. This honorific can only be bestowed upon those with exceptional martial ability.;Le shahrwarãz, le 'sanglier impérial', est un titre honorifique de prestige qui remonte à l'époque des Sassanides. Dans le zoroastrisme, le sanglier est étroitement associé à Izad Vahram, la quintessence de la victoire. Cet honneur ne peut être accordé qu'à ceux qui font preuve d'une maîtrise exceptionnelle des armes.;"Der Shahrwarãz,"" der """"Eber des Reiches"""""", ist ein prestigeträchtiger Ehrentitel, der auf die Sassaniden zurückgeht. Im Zoroastrianismus ist der Eber eng mit dem Izad Vahram, dem Inbegriff des Sieges, verbunden. Dieser Ehrentitel kann nur Charakteren mit außergewöhnlicher Kriegsführung zuteil werden.";;El Shahrwarãz, el Verraco del Imperio, es un prestigioso título honorífico que data de los Sasánidas. En el Zoroastrismo, el verraco está estrechamente relacionado con el Izad Vahram, el epítome de la victoria. Este título honorífico sólo puede ser otorgado a aquellos con una capacidad marcial excepcional.;;;;;;;;;x
 title_kardarigan;Kardarigan;Kardarigan;Kardarigan;;Kardarigan;;;;;;;;;x
-"title_kardarigan_desc;This honorific means black hawk and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.;Ce titre honorifique signifie 'buse noire' et a été décerné à plusieurs généraux sassanides très talentueux en reconnaissance de leurs exploits sur le champ de bataille. Cet honneur ne peut être accordé qu'à ceux qui font preuve d'une maîtrise exceptionnelle des armes.;Dieser Ehrentitel bedeutet ""Schwarzer Habicht"" und wurde mehreren begabten Sassaniden-Generälen als Belohnung für ihre Schlachterfolge vergeben. Er kann nur Charakteren mit außergewöhnlicher Kriegsführung zuteil werden.;;Este título honorífico significa halcón negro y fue concedido a varios generales Sasánidas por sus logros en el campo de batalla. Sólo puede ser otorgado a aquellos con una capacidad marcial excepcional.;;;;;;;;;x";;;;;;;;;;;;;;
+title_kardarigan_desc;This honorific means black hawk and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.;Ce titre honorifique signifie 'buse noire' et a été décerné à plusieurs généraux sassanides très talentueux en reconnaissance de leurs exploits sur le champ de bataille. Cet honneur ne peut être accordé qu'à ceux qui font preuve d'une maîtrise exceptionnelle des armes.;Dieser Ehrentitel bedeutet ""Schwarzer Habicht"" und wurde mehreren begabten Sassaniden-Generälen als Belohnung für ihre Schlachterfolge vergeben. Er kann nur Charakteren mit außergewöhnlicher Kriegsführung zuteil werden.;;Este título honorífico significa halcón negro y fue concedido a varios generales Sasánidas por sus logros en el campo de batalla. Sólo puede ser otorgado a aquellos con una capacidad marcial excepcional.;;;;;;;;;x";;;;;;;;;;;;;;
 title_shahin;Shahin;Shahin;Shahin;;Shahin;;;;;;;;;x
-"title_shahin_desc;This honorific means falcon and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.;Ce titre honorifique signifie 'faucon' et a été décerné à plusieurs généraux sassanides très talentueux en reconnaissance de leurs exploits sur le champ de bataille. Cet honneur ne peut être accordé qu'à ceux qui font preuve d'une maîtrise exceptionnelle des armes.;Dieser Ehrentitel bedeutet ""Falke"" und wurde mehreren begabten Sassaniden-Generälen als Belohnung für ihre Schlachterfolge vergeben. Er kann nur Charakteren mit außergewöhnlicher Kriegsführung zuteil werden.;;Este título honorífico significa halcón y fue concedido a varios generales Sasánidas por sus logros en el campo de batalla. Sólo puede ser otorgado a aquellos con una capacidad marcial excepcional.;;;;;;;;;x";;;;;;;;;;;;;;
+title_shahin_desc;This honorific means falcon and was granted to several gifted Sassanid generals for their achievements on the field of battle. It can only be bestowed upon those with exceptional martial ability.;Ce titre honorifique signifie 'faucon' et a été décerné à plusieurs généraux sassanides très talentueux en reconnaissance de leurs exploits sur le champ de bataille. Cet honneur ne peut être accordé qu'à ceux qui font preuve d'une maîtrise exceptionnelle des armes.;Dieser Ehrentitel bedeutet ""Falke"" und wurde mehreren begabten Sassaniden-Generälen als Belohnung für ihre Schlachterfolge vergeben. Er kann nur Charakteren mit außergewöhnlicher Kriegsführung zuteil werden.;;Este título honorífico significa halcón y fue concedido a varios generales Sasánidas por sus logros en el campo de batalla. Sólo puede ser otorgado a aquellos con una capacidad marcial excepcional.;;;;;;;;;x";;;;;;;;;;;;;;
 title_pushtigban_salar;Pushtigban-salar;Pushtigban-salar;Pushtigban-salar;;Pushtigban-salar;;;;;;;;;x
 title_pushtigban_salar_desc;The Pushtigban-salar is the appointed commander of the royal guard, and as such, commands a significant amount of respect.;Le Pushtigban-salar est le commandant attitré de la garde royale et ce titre lui confère une grande marque de respect.;Der Pushtigban-salar ist der ernannte Kommandant der königlichen Garde und birgt als solcher viel Respekt.;;El Pushtigban-salar es el comandante designado de la guardia real, y como tal, goza de un gran respeto.;;;;;;;;;x
 title_spahbod;Spahbod;Spahbod;Spahbod;;Spahbod;;;;;;;;;x

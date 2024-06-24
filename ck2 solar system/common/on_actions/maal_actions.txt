@@ -1,5 +1,0 @@
-on_yearly_pulse = {
-	events = {
-		carto.500 #Force Councillor
-	}
-}

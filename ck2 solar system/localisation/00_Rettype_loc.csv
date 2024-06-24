@@ -22,7 +22,7 @@ RETTYPE_ARCH2;Archers;;;;;;;;;x
 RETTYPE_ARCH3;Large Archers;;;;;;;;;x
 RETTYPE_SKIRMISH1;Small Skirmishers;;;;;;;;;x
 RETTYPE_SKIRMISH2;Skirmishers;;;;;;;;;x
-RETTYPE_KGB_AGENTS;Men in Black;;;;;;;;;x
+RETTYPE_KGB_AGENTS;KGB Agents;;;;;;;;;x
 c_karnoi;Karnoi;;;;;;;;;x
 c_karnoi_adj;Karnoian;;;;;;;;;x
 c_zalinje;Zalinje;;;;;;;;;x
@@ -81,11 +81,17 @@ RETTYPE_CUL_IBANDAYAK;Mandau Swordsman;;;;;;;;;x
 RETTYPE_CUL_ASLIAN;Blowpipe Archers;;;;;;;;;x
 RETTYPE_CUL_BORNEONIC;Parang Wielders;;;;;;;;;x
 RETTYPE_CUL_MALAY;Hulubalang;;;;;;;;;x
+RETTYPE_CUL_MALAY_ELEPHANT;Gajah Calvary;;;;;;;;;x
+RETTYPE_CUL_MALAY_GUN;Hulubalang;;;;;;;;;x
 RETTYPE_CUL_ACEH;Uleebalang;;;;;;;;;x
 RETTYPE_CUL_JAVA;Kris Swordsman;;;;;;;;;x
-RETTYPE_CUL_SILAT;Silat;;;;;;;;;x
+RETTYPE_CUL_SILAT;Silat Masters;;;;;;;;;x
+RETTYPE_CUL_BALI_SASAK;Trisula Regiment;;;;;;;;;x
+RETTYPE_CUL_HIGH_BALI;Trisula Regiment;;;;;;;;;x
+RETTYPE_CUL_INDONESIAN;Koopssus;;;;;;;;;x
 RETTYPE_CUL_BRUNEI;Gurkha;;;;;;;;;x
 RETTYPE_CUL_SINOMALAY;Sea-Dragon Regiment;;;;;;;;;x
+RETTYPE_CUL_SERANI;Kristang Kabaleirus;;;;;;;;;x
 RETTYPE_CUL_YANKEE;Overseas Gallowglass;;;;;;;;;x
 RETTYPE_CUL_UPSTATE;Hudsonian Dragoon;;;;;;;;;x
 RETTYPE_CUL_SOUTHERN;Southern Knights;;;;;;;;;x
@@ -115,7 +121,9 @@ RETTYPE_CUL_KONJ;Konjara Skirmishers;;;;;;;;;;;;;x
 RETTYPE_CUL_CZECH;Wagenburg;;;;;;;;;;;;;x
 RETTYPE_CUL_ENYSEY;Samoyedic Warriors;;;;;;;;;;;;;x
 RETTYPE_CUL_MONGOL;Kheshig;;;;;;;;;;;;;x
-RETTYPE_CUL_AMR;Al-Arambiz Riders;;;;;;;;;;;;;x
+RETTYPE_CUL_AMR;Al-Arambiz Shock Troops;;;;;;;;;;;;;x
+RETTYPE_CUL_KHAL;Khaliji Flamethrowers;;;;;;;;;;;;;x
+RETTYPE_CUL_DANISH;Danish Guard Patrols;;;;;;;;;;;;;x
 RETTYPE_CUL_DEUTSCH;Hellebardier;;;;;;;;;;;;;x
 RETTYPE_CUL_SIBERIAN;Frontiersmen;;;;;;;;;;;;;x
 RETTYPE_CUL_HISP;Tercio;;;;;;;;;;;;;x
@@ -198,13 +206,17 @@ RETTYPE_CUL_BERBER;Berber Cavalry;Cavalerie berbère;Berber-Kavallerie;;Caballerí
 RETTYPE_CUL_SWISS;Gebirgsjäger;;;;;;;;;;;;;x
 RETTYPE_CUL_OLDANGLO;Camelotian Knights;;;;;;;;;;;;;x
 RETTYPE_CUL_BRETON;Gauls' Resistence;;;;;;;;;;;;;x
+RETTYPE_CUL_KURD;Kurdish Firethrowers;;;;;;;;;;;;;x
+RETTYPE_CUL_SLOVAK;Slovak Flamespitters;;;;;;;;;;;;;x
+RETTYPE_CUL_UYGHUR;Uyghur Firespitters;;;;;;;;;;;;;x
+RETTYPE_TECTONIC_FIRE;Tectonic Flamethrowers;;;;;;;;;;;;;x
 RETTYPE_CUL_BRITISH;Royal Grenadiers;;;;;;;;;;;;;x
 RETTYPE_TECTONIC;Tectonic Knights;;;;;;;;;;;;x
 RETTYPE_CUL_WOODLANDS;Woodlands Warriors;;;;;;;;;;;;;x
 RETTYPE_CUL_PIEMONT;Savoiard Army;;;;;;;;;;;;;x
 RETTYPE_CUL_CORSU;Napoleonic Frontline;;;;;;;;;;;;;x
 RETTYPE_CUL_TUSCANIAN;Granduchy's Forces;;;;;;;;;;;;;x
-RETTYPE_CUL_EMILIAN;Emilian Paladins;;;;;;;;;;;;;x
+RETTYPE_CUL_EMILIAN;Emilian Riders;;;;;;;;;;;;;x
 RETTYPE_CUL_VENETIAN;Guards of the Serenissima;;;;;;;;;;;;;x
 RETTYPE_CUL_SANMARIN;Titan Watchers;;;;;;;;;;;;;x
 RETTYPE_CUL_SARD;Coast Guards;;;;;;;;;;;;;x
@@ -231,16 +243,15 @@ RETTYPE_CUL_TOHOKU;Matagi Rangers;;;;;;;;;x
 RETTYPE_CUL_HOKKAIDO;Wenkamui Hunters;;;;;;;;;x
 RETTYPE_CUL_RYUKYU;Coastal Patrols;;;;;;;;;x
 RETTYPE_CUL_ABORIGINAL;Aboriginal Hunters;;;;;;;;;x
-RETTYPE_DYN_VALYRIAN_DRAGONS;Valyrian Dragons;;;;;;;;;x
-RETTYPE_CUL_TEX_FIRE;Texan Firespitters;;;;;;;;;x
-RETTYPE_CUL_VAQUERO;Vaquero Riders;;;;;;;;;x
-RETTYPE_CUL_TEX_COWBOY;Cowboy Skirmishers;;;;;;;;;x
+RETTYPE_CUL_ITELMEN;Itelmen Harpooners;;;;;;;;;x
+RETTYPE_CUL_NIVKH;Nivkh Hunters;;;;;;;;;x
 
 RETTYPE_CUL_AUSTRONESIAN;Arnis Infantry;;;;;;;;;;;;;x
 RETTYPE_CUL_MUSLIMPH;Kris Swordsmen;;;;;;;;;;;;;x
-RETTYPE_CUL_AETA;Aeta Spearmen;;;;;;;;;;;;;x
+RETTYPE_CUL_CORDILLERA;Cordillera Spearmen;;;;;;;;;;;;;x
 RETTYPE_CUL_CHAVACANO;Eskrima Infantry;;;;;;;;;;;;;x
-RETTYPE_CUL_AMERIKANO;Glavemen;;;;;;;;;;;;;x
+RETTYPE_CUL_AMERIKANO;Balikatenyo Glavemen;;;;;;;;;;;;;x
+RETTYPE_CUL_TAGLISH;Taglish Knights;;;;;;;;;;;;;x
 RETTYPE_CUL_TIMOR;Cavalieros do Azul;;;;;;;;;;;;;x
 RETTYPE_CUL_PAPUA;Papuan Spearmen;;;;;;;;;;;;;x
 RETTYPE_CUL_MALUKU;Malukic Marines;;;;;;;;;;;;;x

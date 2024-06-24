@@ -1,8 +1,0 @@
-government_flavor = {
-	name = gov_dwemer
-	graphics = GFX_evt_emissary_arabic
-	priority = 2
-	trigger = {
-		government = dark_dwarven_tyranny_government
-	}
-}

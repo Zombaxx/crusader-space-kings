@@ -68,10 +68,10 @@ stele_defense_1;Stele of Preparation;;;x
 stele_defense_2;Great Stele of Preparation;;;x
 stele_description;This stele describes the life and acts of [Root.stele_target.GetBestName];;;x
 
-d_thelemic_reformed;Council of Wisdom;;;;;;;;;x
+d_thelemic_reformed;United Grand Lodge of Britannia;;;;;;;;;x
 d_thelemic_reformed_adj;Thelemic;;;;;;;;;x
-COUNCILOR;High Sorcerer;;;;;;;;;x
-COUNCILOR_FEMALE;High Sorceress;;;;;;;;;x
+COUNCILOR;Grand Master;;;;;;;;;x
+COUNCILOR_FEMALE;Grand Mistress;;;;;;;;;x
 STAT_PIETY_PASSION;Passion;;;;;;;;;x
 
 bad_priest_thelemic;Unworthy Mage;Godi abject;Der unwürdige Priester;;Sacerdote indigno;;;;;;;;;x
@@ -83,9 +83,6 @@ EVTOPTTHELEMA1037;The Gods will not be pleased.;Les dieux n'apprécieront pas.;Di
 thelema_magika_modifier_1;Drawing magick from 1 lover;;;x
 thelema_magika_modifier_2;Drawing magick from 2 lovers;;;x
 thelema_magika_modifier_3;Drawing magick from 3 lovers;;;x
-harmonic_piety_modifier_1;Piety from 1 lover;;;x
-harmonic_piety_modifier_2;Piety from 2 lovers;;;x
-harmonic_piety_modifier_3;Piety from 3 lovers;;;x
 raelian_piety_modifier_1;Piety from 1 lover;;;x
 raelian_piety_modifier_2;Piety from 2 lovers;;;x
 raelian_piety_modifier_3;Piety from 3 lovers;;;x

@@ -36,10 +36,6 @@ madame_wants_khanist;Madame Guillotine Desires The Khanists;;;;;;;x
 madame_wants_jacobinist;Madame Guillotine Desires The Jacobinists;;;;;;;x
 madame_wants_female;Madame Guillotine Desires The Women;;;;;;;x
 madame_wants_male;Madame Guillotine Desires The Men;;;;;;;x
-yin_china;Yin;;;;;;;;x
-yin_china_desc;This character aligns with the feminine passive principle in nature that in Chinese cosmology is exhibited in darkness, cold, or wetness and that combines with yang;;;;;;;;x
-yang_china;Yang;;;;;;;;x
-yang_china_desc;This character aligns with the masculine active principle in nature that in Chinese cosmology is exhibited in light, heat, or dryness and that combines with yin;;;;;;;;x
 madame_wants_strong_desc;;;;;;;;x
 madame_wants_weak_desc;;;;;;;;x
 madame_wants_smart_desc;;;;;;;;x
@@ -72,6 +68,12 @@ madame_wants_khanist_desc;;;;;;;;x
 madame_wants_jacobinist_desc;;;;;;;;x
 madame_wants_female_desc;;;;;;;;x
 madame_wants_male_desc;;;;;;;;x
+yin_china;Yin;;;;;;;;x
+yin_china_desc;This character aligns with the feminine passive principle in nature that in Chinese cosmology is exhibited in darkness, cold, or wetness and that combines with yang;;;;;;;;x
+yang_china;Yang;;;;;;;;x
+yang_china_desc;This character aligns with the masculine active principle in nature that in Chinese cosmology is exhibited in light, heat, or dryness and that combines with yin;;;;;;;;x
+legendary_duelist;Legendary Duelist;;;;;;;;x
+legendary_duelist_desc;This character is a world renowned duelist and terrifies all those they face in combat;;;;;;;;x
 guillotine_master_1_opinion;Montagnard Opinion;Opinion sur 'Aime le sang';Hämophile Meinung;;Opinión hemofílica;;;;;;;;x
 guillotine_master_1_opinion_EXPLANATION; (effect on Montagnard); (effet sur 'Aime le sang'); (Auswirkung auf Hämophile);; (efecto sobre hemofílico);;;;;;;;x
 guillotine_master_2_opinion;Robespierrist Opinion;Opinion sur 'Adore le sang';Hämophante Meinung;;Opinión hemofante;;;;;;;;x
@@ -83,11 +85,11 @@ austria_hungary_hungarian_bonus;Tolerance Toward Hungarians;;;;;;;;x
 austria_hungary_austrian_bonus;Tolerance Toward Austrians;;;;;;;;x
 jacobinist_revolution_leader;Leading Jacobinist Revolution;;;;;;;;x
 tijaniyyah_school;Tijaniyyah;;;;;;;;x
-tijaniyyah_school_desc;The Tijaniyyah Order is mainly focused on mysticism and repetitive chanting of sacred hymns and phrases, as they are an inward-focused order.;;;;;;;;x
+tijaniyyah_school_desc;The Tijaniyyah Order is easily the most popular Sufi school in Central Africa. Focusing on mysticism and repetitive chanting of sacred hymns and phrases, they are an inward-focused order.;;;;;;;;x
 sanusiyya_school;Sanusiyya;;;;;;;;x
-sanusiyya_school_desc;The Sanussiya Order is focused on the defense of Islam from external oppression and corruption.;;;;;;;;x
+sanusiyya_school_desc;The Sanussiya Order comes originally from North Africa, and is focused on the defense of Islam from external oppression and corruption.;;;;;;;;x
 qadiriyyah_school;Qadiriyyah;;;;;;;;x
-qadiriyyah_school_desc;The Qadiriyyah Order is a decentralised order whose practices focus on closer adherence to traditional Sunni beliefs while still retaining many typical Sufi practices.;;;;;;;;x
+qadiriyyah_school_desc;This school is a decentralised order whose practices focus on closer adherence to traditional Sunni beliefs while still retaining many typical Sufi practices.;;;;;;;;x
 wahhabi_opinion;Wahhabi Opinion;;;;;;;;x
 mesopotamian_opinion;Mesopotamian Opinion;;;;;;;;x
 jugoslavist_opinion;Yugoslavist Opinion;;;;;;;;x
@@ -104,11 +106,11 @@ orthodox_athos_desc;Mountain of Athos was one of the largest hubs of orthodox re
 orthodox_andrian;Saint Adriana;;;;;;;;x
 orthodox_andrian_desc;St. Adriana was the creator and first ruler of the Transnistrian Empire. She re-established the Ecumenical Patriarchate, bringing an end to the lack of central authority the Orthodox faithful had felt for centuries. As a result, she is regarded as a patron saint of feudal lords and authority figures overall.;;;;;;;;x
 orthodox_giorgi;Saint George;;;;;;;;x
-orthodox_giorgi_desc;St. George, or 'Georgios', as most faithful call him, is believed to be a Paladin and slayer of unholy beasts in times of ancient Byzantium. Though details of his life vary from telling to telling, his status as a patron for holy warriors prevails.;;;;;;;;x
-orthodox_nicholas;Saint Nicholas;;;;;;;;x
-orthodox_nicholas_desc;Nicholas the Wonderworker, or 'Agios Nikolaos', as he is referred to by most of his followers, was an orthodox bishop, presumed to have been living somewhere around Asia Minor in the ancient times of Rome. In his life he was known for charity, healing the poor, and most notably performing sea related miracles. That's why he's the patron saint of sailors.;;;;;;;;x
-orthodox_vasiliy;Basil the Great;;;;;;;;x
-orthodox_vasiliy_desc;Vasileios was a Greek noble, who gave away all of his wordly possessions to the poor and underprivileged and became a monk. He was an influential theologian, who opened up a workshop-monastery where he made gifts for children, and healed others. Every new year families eat a pie dedicated to him, the Vasilopita. In it they hide a coin, and whoever gets it is said to be lucky for the rest of the year.\n\nGain more §GDevotion§! in §GMonastic Societies§!;;;;;;;;x
+orthodox_giorgi_desc;St. George, or 'Giorgi', as most faithful call him, is believed to be a Paladin and slayer of unholy beasts in times of ancient Byzantium. Though details of his life vary from telling to telling, his status as a patron for holy warriors prevails.;;;;;;;;x
+orthodox_mykola;Saint Nicholas;;;;;;;;x
+orthodox_mykola_desc;Nicholas the Wonderworker, or 'Sviatyi Mykola', as he is referred to by most of his followers, was an orthodox bishop, presumed to have been living somewhere around Ukrainian Carpathian Mountains in ancient times of the Rus. In his workshop he made gifts for peasant children, and he prayed for the others, causing miraculous healings.;;;;;;;;x
+orthodox_vasiliy;Basil the Blessed;;;;;;;;x
+orthodox_vasiliy_desc;Vasiliy Blazhenny was a Russian peasant, who abandoned all of his wordly possessions and became a Holy Fool, wondering and pious ascetic, who deliberately acts insane to conceal perfection of their soul from the world, and thus avoid praise. It is not uncommon for his most devoted adherents to repeat his feat.;;;;;;;;x
 trained_imperial_law;Trained in Imperial Law;;;;;;;;x
 trained_imperial_law_desc;This character is trained in imperial chinese law.;;;;;;;;x
 trained_imperial_law_opinion;Imperial Law Opinion;;;;;;;;x

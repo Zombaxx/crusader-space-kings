@@ -87,6 +87,8 @@ character_event = {
 			religion = constitutional
 			religion = concordianist
 			religion = girondist
+			religion = ho_cult
+			religion = pancasila
 		}
 		OR = {
 			is_feudal = yes
@@ -107,6 +109,7 @@ character_event = {
 			has_landed_title = e_zion
 			has_landed_title = e_russian_republic
 			has_landed_title = e_european_union
+			has_landed_title = e_vladivostok 
 		}
 		NOR = {
 			trait = federalist_mp
@@ -187,6 +190,8 @@ character_event = {
 					religion = constitutional
 					religion = concordianist
 					religion = girondist
+					religion = ho_cult
+					religion = pancasila
 				}
 				OR = {
 					is_feudal = yes
@@ -207,6 +212,7 @@ character_event = {
 					has_landed_title = e_zion
 					has_landed_title = e_russian_republic
 					has_landed_title = e_european_union
+					has_landed_title = e_vladivostok 
 				}
 			}
 			has_minor_title = title_generic_member_parliament

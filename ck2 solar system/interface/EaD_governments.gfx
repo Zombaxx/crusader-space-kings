@@ -1,8 +1,0 @@
-spriteTypes = {
-
-	### government icons
-	spriteType = {
-		name = "GFX_icon_dark_dwarven_tyranny_government"
-		texturefile = "gfx\\interface\\government_icon_dwemer.dds"
-	}
-}

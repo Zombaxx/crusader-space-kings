@@ -77,6 +77,8 @@ excalibur;Excalibur;;;;;;;;;;;;;x
 excalibur_desc;This legendary sword was wielded by the great King Arthur himself during his campaigns in Britain and beyond. It was once thought lost to time, but it has once again found a worthy bearer.;;;;;;;;;;;;;x
 silver_key;Silver Key;;;;;;;;;;;;;x
 silver_key_desc;A simple silver key.\nIt MUST NEVER be used.;;;;;;;;;;;;;x
+purple_gold_ring;Purple Gold Ring;;;;;;;;;;;;x
+purple_gold_ring_desc;An Antediluvian ring of simple design yet made of the most mesmerising metal any in our world have laid eyes upon, the secrets of its manufacture utterly lost to time.;;;;;;;;;;;;x
 black_slab;The Black Slab;;;;;;;;;;;;x
 black_slab_desc;A black granite tablet engraved with a timeless warning:\n"Do not call up that which you cannot put down.";;;;;;;;;;;;x
 golden_menorah;Golden Menorah;;;;;;;;;;;;;x
@@ -166,6 +168,8 @@ durandal_hilt_desc;The Hilt of Durendal was hidden by Aragorn Napoleon's descend
 durandal_blade;Blade of Durandal;;;;;;;;;;;;;x
 durandal_blade_desc;The Blade of the Sword Durendal, the weapon forged for the Valar D'Artagnan by the titan Gargantua. Lost at the battle of Waterloo in the bowels of the Beast of Gevedaun, all Novelists pray to see it restored to its glory.;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;;
+claim_control_over_realm;Claim control over the Realm;;;;;;;;;;;;;x
+claim_control_over_realm_desc;As the regent of an incapable or underage ruler I can claim my rightful place as ruler of this realm;;;;;;;;;;;;;x
 sell_gold;Sell Antedeluvian Gold Bar;;;;;;;;;;;;;x
 sell_gold_desc;Sell an Antedeluvian Gold Bar to local merchants for it's gold value and collector value.;;;;;;;;;;;;;x
 sell_silver;Sell Antedeluvian Silver Bar;;;;;;;;;;;;;x
@@ -304,6 +308,10 @@ alice_in_wonderland;Alice in Wonderland;;;;;;;;;;;;;x
 alice_in_wonderland_desc;A tale of a girl named Alice who stumbles upon the mythical realm of the Wonderland.;;;;;;;;;;;;;x
 vietindec;Proclamation of Independence;;;;;;;;;;;;;x
 vietindec_desc;This handwritten scroll contain all the words uttered by Ho Chi Minh when he banished the invaders from Vietnam, it was copied onto parchment long before the Event occurred. They are highly sought after by Governor and Ruler alike.;;;;;;;;;;;;;x
+indoconstitution;Constitution of Indonesia;;;;;;;;;;;;;x
+indoconstitution_desc;This handwritten book contains all the laws and regulations of Indonesia when it declared independence, it was copied onto parchments long before the Event occurred. They are highly sought after by the Pancasila worshippers.;;;;;;;;;;;;;x
+ate_rupiah;Ancient Indonesian Paper Money;;;;;;;;;;;;;x
+ate_rupiah_desc;This ancient relic was used throughout antediluvian Indonesia to facilitate trade. It is strange that the ancients declared trade value based on pieces of paper instead of metal coins;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;;
 morin_andorra;Atanamir Morin's Artwork of an Andorran Monestary;;;;;;;;;;;;;x
 morin_andorra_desc;Created a few years into Atanamir Morin's artistic career, it is a sketch of one of the many Andorran Monestaries circa 2502.;;;;;;;;;;;;;x
@@ -378,3 +386,7 @@ o_wazamono;O Wazamono;;;;;;;;;;;;;x
 o_wazamono_desc;Before the Event, exceptional Japanese swords were ranked in a system of four categories. The second of those ranks was that of O Wazamono. Blades acknowledged as O Wazamono are considered inferior only to the famed Saijo O Wazamono in terms of quality.;;;;;;;;;;;;;x
 saijo_o_wazamono;Saijo O Wazamono;;;;;;;;;;;;;x
 saijo_o_wazamono_desc;Before the Event, exceptional Japanese swords were ranked in a system of four categories. The first of those ranks was that of Saijo O Wazamono. Blades acknowledged as Saijo O Wazamono are considered without peers in Japan, and owning one is a sign of immense prestige.;;;;;;;;;;;;;x
+sword_witcher_titanium;Steel Sword of the Witcher King;;;;;;;;;;;;;x
+sword_witcher_titanium_desc;The Sword of the Witcher King, who united Russia and spread the Mudretist faith wide. Forged from the debris of a fallen star brought to the king by the Wild Hunt, it has remained as sharp as the day it was forged.;;;;;;;;;;;;;x
+sword_witcher_silver;Silver Sword of the White Wolf;;;;;;;;;;;;;x
+sword_witcher_silver_desc;A sword made of pure silver, said to have been used by the White Wolf to eradicate every monster in Russia.;;;;;;;;;;;;;x
