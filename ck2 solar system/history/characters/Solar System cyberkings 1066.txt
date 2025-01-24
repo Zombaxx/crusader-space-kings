@@ -1,8 +1,8 @@
 666666 = {
-	name = "Elon"
+	name = "Leon"
 	dynasty = 666666
 	culture = "breton"
-	religion = "nestorian"
+	religion = "orc_religion_dark_lord"
 	trait = brilliant_strategist
 	martial = 10
 	trait = full_cybernetic_conversion
@@ -24,6 +24,7 @@
 			k_kingdom1412 = { add_claim = ROOT }
 			k_kingdom1460 = { add_claim = ROOT }
 			k_phobos = { add_claim = ROOT }
+			e_united_states = { add_claim = ROOT }
 		}
 	}
 }
@@ -74,11 +75,42 @@
 	1022.1.1={birth=yes}
 }
 6666671 = {
+	name = "X AE A-12"
+	dynasty = 666666
+	culture = "breton"
+	religion = "orc_religion_dark_lord"
+	father = 666666
+	trait = vat_born
+	trait = genius
+	1036.5.1={birth=yes}
+}
+6666674 = {
 	name = "Exa Dark Siderael"
 	dynasty = 666666
 	culture = "breton"
-	religion = "nestorian"
+	religion = "orc_religion_dark_lord"
 	female = yes
 	father = 666666
-	1036.5.1={birth=yes}
+	trait = vat_born
+	trait = genius
+	1037.12.1={birth=yes}
+}
+6666675 = {
+	name = "Strider"
+	dynasty = 666666
+	culture = "breton"
+	religion = "orc_religion_dark_lord"
+	father = 666666
+	trait = legit_bastard
+	1037.11.1={birth=yes}
+}
+6666676 = {
+	name = "Shivon"
+	dynasty = 666666
+	culture = "breton"
+	religion = "orc_religion_dark_lord"
+	female = yes
+	father = 666666
+	trait = legit_bastard
+	1037.11.1={birth=yes}
 }

@@ -1,5 +1,5 @@
 1062.1.1 = {
 	holding_dynasty = 101413 # de Silicon Valley - makes this a FAMILY_PALACE type Holding
-	liege="d_bay_area"
-	holder = 202830
+	liege="k_california"
+	holder = 7000107
 }

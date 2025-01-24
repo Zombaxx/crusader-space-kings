@@ -862,6 +862,8 @@ e_empire0046 = {
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
+				holy_site = trex_the_new_heresy
+				holy_site = trex_the_heretics				
 				holy_site = dwarven
 				holy_site = elven
 				holy_site = elven_heresy
@@ -3298,7 +3300,7 @@ e_united_states = {
 		
 		culture = irish
 		
-		sunni = 1000
+		sunni = 200
 		
 		d_bay_area = {
 			color={ 80 200 211 }
@@ -4080,6 +4082,8 @@ e_latin_america = {
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
+				holy_site = trex_the_new_heresy
+				holy_site = trex_the_heretics				
 				holy_site = dwarven
 				holy_site = lollard
 				
@@ -7579,6 +7583,8 @@ e_empire0454 = {
 			
 			capital = 424
 			
+			sunni = 1600
+			
 			c_province0409 = {
 				color={ 73 172 39 }
 				color2={ 255 255 255 }
@@ -9822,6 +9828,8 @@ e_european_union = {
 				holy_site = sunni
 				holy_site = elven_tribunal
 				holy_site = catholic
+				holy_site = trex_the_new_heresy
+				holy_site = trex_the_heretics				
 				holy_site = dwarven
 				holy_site = paulician
 				holy_site = bogomilist
@@ -10022,6 +10030,8 @@ e_european_union = {
 		capital = 506
 		
 		culture = greek
+		
+		sunni = 1250
 		
 		d_duchy0464 = {
 			color={ 170 117 180 }
@@ -10342,6 +10352,8 @@ e_european_union = {
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
+				holy_site = trex_the_new_heresy
+				holy_site = trex_the_heretics				
 				holy_site = dwarven
 				holy_site = paulician
 				holy_site = bogomilist
@@ -10809,6 +10821,8 @@ e_empire0604 = {
 		
 		culture = bedouin_arabic
 		
+		sunni = 1800
+		
 		d_duchy0526 = {
 			color={ 62 150 28 }
 			color2={ 255 255 255 }
@@ -11170,6 +11184,8 @@ e_empire0604 = {
 		
 		culture = levantine_arabic
 		
+		sunni = 2000
+		
 		d_duchy0956 = { #Levant
 			color={ 188 120 58 }
 			color2={ 255 255 255 }
@@ -11224,6 +11240,8 @@ e_empire0604 = {
 		capital = 622
 		
 		culture = bedouin_arabic
+		
+		sunni = 2000
 		
 		d_alexandria = {
 			color={ 65 197 67 }
@@ -11669,6 +11687,8 @@ e_empire0604 = {
 		
 		culture = kannada
 		
+		sunni = 2000
+		
 		d_mecca = {
 			color={ 27 204 59 }
 			color2={ 255 255 255 }
@@ -11866,6 +11886,8 @@ e_empire0604 = {
 		capital = 704
 		
 		culture = bedouin_arabic
+		
+		sunni = 800
 		
 		d_duchy0675 = {
 			color={ 78 164 42 }
@@ -12104,6 +12126,8 @@ e_empire0604 = {
 		
 		culture = bedouin_arabic
 		
+		sunni = 1600
+		
 		d_istanbul = {
 			color={ 26 161 36 }
 			color2={ 255 255 255 }
@@ -12119,6 +12143,8 @@ e_empire0604 = {
 				holy_site = dwarven_dwemer_heresy
 				holy_site = elven_tribunal
 				holy_site = catholic
+				holy_site = trex_the_new_heresy
+				holy_site = trex_the_heretics				
 				holy_site = dwarven
 
 				
@@ -20837,64 +20863,16 @@ e_empire1127 = { #unused
 		
 	}
 }
-e_empire1143 = {
-	color={ 141 1 60 }
-	color2={ 255 255 255 }
-	
-	purple_born_heirs = yes
-	capital = 1143
-	
-	culture = dragon_culture
-	
-	k_phobos = {
-		color={ 141 1 60 }
-		color2={ 255 255 255 }
-		
-		capital = 1143
-		
-		culture = dragon_culture
-		
-		d_phobos = {
-			color={ 141 1 60 }
-			color2={ 255 255 255 }
-			
-			capital = 1143
-			
-			c_province1139 = {
-				color={ 142 53 56 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony1139` = { }
-				b_barony1139a = { }
-				b_barony1139b = { }
-				b_barony1139c = { }
-				b_barony1139d = { }
-				b_barony1139e = { }
-				b_barony1139f = { }
-				b_barony1139g = { }
-			}
-			c_phobos = {
-				color={ 141 1 60 }
-				color2={ 255 255 255 }
-				
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed
-				
-				b_phobos = {
-				dynasty_title_names = no
-				}
-				b_barony1143a = { }
-				b_barony1143b = { }
-				b_barony1143c = { }
-				b_barony1143d = { }
-				b_barony1143e = { }
-				b_barony1143f = { }
-				b_barony1143g = { }
-			}
-		}
-	}
-}
+#e_empire1143 = { #unused
+#	color={ 141 1 60 }
+#	color2={ 255 255 255 }
+#	
+#	purple_born_heirs = yes
+#	capital = 1143
+#	
+#	culture = dragon_culture
+#	
+#}
 e_empire1145 = {
 	color={ 43 114 248 }
 	color2={ 255 255 255 }
@@ -23109,6 +23087,54 @@ e_empire1184 = {
 				b_barony1184e = { }
 				b_barony1184f = { }
 				b_barony1184g = { }
+			}
+		}
+	}
+	k_phobos = {
+		color={ 141 1 60 }
+		color2={ 255 255 255 }
+		
+		capital = 1143
+		
+		culture = dragon_culture
+		
+		d_phobos = {
+			color={ 141 1 60 }
+			color2={ 255 255 255 }
+			
+			capital = 1143
+			
+			c_province1139 = {
+				color={ 142 53 56 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony1139` = { }
+				b_barony1139a = { }
+				b_barony1139b = { }
+				b_barony1139c = { }
+				b_barony1139d = { }
+				b_barony1139e = { }
+				b_barony1139f = { }
+				b_barony1139g = { }
+			}
+			c_phobos = {
+				color={ 141 1 60 }
+				color2={ 255 255 255 }
+				
+				holy_site = norse_pagan
+				holy_site = norse_pagan_reformed
+				
+				b_phobos = {
+				dynasty_title_names = no
+				}
+				b_barony1143a = { }
+				b_barony1143b = { }
+				b_barony1143c = { }
+				b_barony1143d = { }
+				b_barony1143e = { }
+				b_barony1143f = { }
+				b_barony1143g = { }
 			}
 		}
 	}

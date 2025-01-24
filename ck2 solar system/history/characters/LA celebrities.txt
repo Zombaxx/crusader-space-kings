@@ -10,12 +10,15 @@
 7000101 = {
 	name="Kris"
 	female=yes
-	dynasty=7000031
+	dynasty=7000103
 
 	religion="Catholic"
 	culture="old_frankish"
 	971.1.1={birth=yes}
-	1007.1.1={add_spouse = 7000033}
+	994.1.1={add_spouse = 7000102}
+	1007.1.1={remove_spouse = 7000102}
+	1007.5.1={add_spouse = 7000103}
+	1031.1.1={remove_spouse = 7000103}
 }
 7000102 = {
 	name="Robert"
@@ -25,7 +28,7 @@
 	religion="Orthodox"
 	culture="persian"
 	960.1.1={birth=yes}
-	994.1.1={add_spouse = 7000031}
+	994.1.1={add_spouse = 7000101}
 	1019.1.1={death=yes}
 }
 7000103 = {
@@ -39,7 +42,8 @@
 	religion="Catholic"
 	culture="breton"
 	965.1.1={birth=yes}
-	1007.1.1={add_spouse = 7000031}
+	1007.5.1={add_spouse = 7000101}
+	1031.1.1={remove_spouse = 7000101}
 }
 7000104 = {
 	name="Kim"

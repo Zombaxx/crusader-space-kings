@@ -1,6 +1,6 @@
-namespace = EADESCOIA
-
-
+#namespace = EADESCOIA
+#
+#
 #Province with otherworlden population but human liege will get their scoia'taels
 #province_event = {
 #    id = EADESCOIA.1

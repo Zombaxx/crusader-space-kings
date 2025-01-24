@@ -1,0 +1,111 @@
+#CODE;ENGLISH;;;;;;;;;;;;;x
+### CUSTOM LOCALISATION ###
+TREX_UNREFORMED_HERESY_TITLE;New Reformed Church;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_TITLE;New Reformed Church;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_FOLLOWERS_TITLE;Church of [trex_target_reformer.GetDynName];;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_DYNASTY_TITLE;[trex_target_reformer.Culture.GetName] Church;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_ADJECTIVE_TITLE;[trex_target_reformer_adj.GetAdjective] Church;;;;;;;;;;;;;x
+TREX_UNREFORMED_HERESY;New Reformed;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY;New Reformed;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_FOLLOWERS;[trex_target_reformer.GetFirstName]ist;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_TEACHINGS;[trex_target_reformer.GetOnlyDynastyName]ist;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_DYNASTY;[trex_target_reformer.Culture.GetName] Christian;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_ADJECTIVE;[trex_target_reformer_adj.GetAdjective] Christian;;;;;;;;;;;;;x
+TREX_UNREFORMED_HERESY_PRIEST;High Priest;;;;;;;;;;;;;x
+TREX_UNREFORMED_HERESY_PRIESTESS;High Priestess;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_ARCHBISHOP;Archbishop;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_POPE;Pope;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_INQUISITOR;Grand Inquisitor;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_HOLY_KING;Holy King;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_HOLY_QUEEN;Holy Queen;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_LORD;Lord;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_LADY;Lady;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_FATHER;Father;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_MOTHER;Mother;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_BLESSED;Blessed;;;;;;;;;;;;;x
+TREX_REFORMED_HERESY_MASTER;Master;;;;;;;;;;;;;x
+TREX_COLLEGE_OF_CARDINALS;College of Cardinals;;;;;;;;;;;;;x
+TREX_POPE;Current Religious Head;;;;;;;;;;;;;x
+TREX_PREFERATI;Expected Religious Head;;;;;;;;;;;;;x
+### BASIC INFO ###
+trex_the_heretics;Non-Denominational;;;;;;;;;;;;;x
+trex_the_heretics_full;Non-Denominational Christians;;;;;;;;;;;;;x
+trex_the_heretics_DESC;Unorganized and decentralized, Non-Denominational Christians are marked by diverse practices, ranging from charismatic worship to minimalist gatherings, where believers emphasize scripture over dogma. However, its lack of cohesion has left it vulnerable to internal schisms and outside condemnation. Reforming the Non-Denominational Christian Heresy could bring unity to its scattered followers, potentially transforming it into a powerful spiritual force, guided by a codified theology that bridges its many disparate beliefs.;;;;;;;;;;;;;x
+trex_the_new_heresy;[TrexNewHeresy];;;;;;;;;;;;;x
+trex_the_new_heresy_full;[TrexNewHeresy];;;;;;;;;;;;;x
+trex_the_new_heresy_DESC;The [TrexNewHeresy] faith is a new branch of Christianity.;;;;;;;;;;;;;x
+TREX_H_P;[Heretic_Religious_Head];;;;;;;;;;;;;x
+TREX_H_P_F;[Heretic_Religious_HeadF];;;;;;;;;;;;;x
+d_trex_the_new_heresy;Church;;;;;;;;;;;;;x
+d_trex_the_new_heresy_adj;[TrexNewHeresy];;;;;;;;;;;;;x
+title_trex_heresy_cardinal;Cardinal;;;;;;;;;;;;;x
+### NICKNAMES ###
+nick_trex_reformer;the Reformer;;;;;;;;;;;;;x
+nick_trex_holy_book;the Holy Scribe;;;;;;;;;;;;;x
+### RELIGION FEATURES ###
+religion_trex_papal_head;College of Cardinals;;;;;;;;;;;;;x
+religion_trex_papal_head_desc;We should be careful about who becomes the leader of our faith.;;;;;;;;;;;;;x
+tooltip_trex_papal_head;�GYour religion will use Papal Succession with a Duke level Pope.�!;;;;;;;;;;;;;x
+### BLOODLINES ###
+trex_reformer_bloodline;Blood of [Root.GetFirstName] the Reformer;;;;;;;;;;;;;x
+trex_reformer_bloodline_desc;[Root.GetDynName] lead the disorganized heretics and created a new branch of Christianity.;;;;;;;;;;;;;x
+trex_writer_bloodline;Blood of [Root.GetFirstName] the Scholar;;;;;;;;;;;;;x
+trex_writer_bloodline_desc;[Root.GetDynName] was a great writer who wrote a holy book for the [TrexNewHeresy].;;;;;;;;;;;;;x
+### TRAITS ###
+trex_branch_1;Tolerant;;;;;;;;;;;;;x
+trex_branch_1_desc;This character strives to be tolerant of other religions.;;;;;;;;;;;;;x
+trex_branch_2;Pious;;;;;;;;;;;;;x
+trex_branch_2_desc;This character strives to be the holiest person in the world.;;;;;;;;;;;;;x
+trex_branch_3;Holy Warrior;;;;;;;;;;;;;x
+trex_branch_3_desc;This character believes that other people should be converted by force.;;;;;;;;;;;;;x
+trex_branch_4;Peaceful;;;;;;;;;;;;;x
+trex_branch_4_desc;This character thinks that violence should only be used when absolutely necessary.;;;;;;;;;;;;;x
+### DECISIONS ###
+trex_write_down_teachings;Write a Religious Book;;;;;;;;;;;;;x
+trex_write_down_teachings_desc;Write down the teachings of [trex_target_reformer.GetDynName]. It would make you one of the greatest supporters of the [TrexNewHeresy].;;;;;;;;;;;;;x
+trex_heretic_thoughts;Heretic Thoughts;;;;;;;;;;;;;x
+trex_heretic_thoughts_desc;I had enough of the church! I don't want to be a Catholic. I have a better idea...;;;;;;;;;;;;;x
+trex_declare_holy_site;Delare Holy Site;;;;;;;;;;;;;x
+trex_declare_holy_site_desc;[Root.Capital.GetName] has lots people who are helping us spread our faith. We should declare [Root.Capital.GetName] a holy site. This would surely make them more zealous.;;;;;;;;;;;;;x
+### EVENTS ###
+# Select Religion Name
+trexheresy.1.de;What will you call your new religion?;;;;;;;;;;;;;x
+trexheresy.1.a;[Root.GetFirstName]ist;;;;;;;;;;;;;x
+trexheresy.1.b;[Root.GetOnlyDynastyName]ist;;;;;;;;;;;;;x
+trexheresy.1.c;[Root.Culture.GetName] Christian;;;;;;;;;;;;;x
+trexheresy.1.d;[Root.PrimaryTitle.GetAdjective] Christian;;;;;;;;;;;;;x
+# Book Written
+trexheresy.2.t;The Holy Book of the [TrexNewHeresy];;;;;;;;;;;;;x
+trexheresy.2.d;The Bible was used as a holy book for the [TrexNewHeresy], but now [Root.GetTitledName] expanded the Bible to include the teachings of [trex_target_reformer.GetDynName]. The [TrexNewHeresyTitle] accepted the book and now it is considered the holy book.;;;;;;;;;;;;;x
+trexheresy.2.a;Amazing;;;;;;;;;;;;;x
+# Select Head Title
+trexheresy.3.tt;You will be able to choose the title of your religious head if you have one.;;;;;;;;;;;;;x
+trexheresy.3.de;What will you call your religious head?\n\n\nPage 1 of 3;;;;;;;;;;;;;x
+trexheresy.3.a;High Priest and High Priestess;;;;;;;;;;;;;x
+trexheresy.3.b;Archbishop;;;;;;;;;;;;;x
+trexheresy.3.c;Pope;;;;;;;;;;;;;x
+trexheresy.3.d;More...;;;;;;;;;;;;;x
+trexheresy.301.de;What will you call your religious head?\n\n\nPage 2 of 3;;;;;;;;;;;;;x
+trexheresy.301.a;Grand Inquisitor;;;;;;;;;;;;;x
+trexheresy.301.b;Holy King and Holy Queen;;;;;;;;;;;;;x
+trexheresy.301.c;Lord and Lady;;;;;;;;;;;;;x
+trexheresy.302.de;What will you call your religious head?\n\n\nPage 3 of 3;;;;;;;;;;;;;x
+trexheresy.302.a;Father and Mother;;;;;;;;;;;;;x
+trexheresy.302.b;Blessed;;;;;;;;;;;;;x
+trexheresy.302.c;Master;;;;;;;;;;;;;x
+# Replace Holy Site
+trexheresy.4.de;Our capital is considered holy by many of our followers! \nWhich holy site you want to replace with [Root.Capital.GetName]?;;;;;;;;;;;;;x
+trexheresy.4.a;Rome;;;;;;;;;;;;;x
+trexheresy.4.b;Santiago;;;;;;;;;;;;;x
+trexheresy.4.c;Köln;;;;;;;;;;;;;x
+trexheresy.4.d;Kent;;;;;;;;;;;;;x
+# Holy Site - News
+trexheresy.5.t;The Heretic Holy Site;;;;;;;;;;;;;x
+trexheresy.5.d;[Root.Capital.GetName] was declared a holy site by [Root.GetTitledName]. The Pope is furious. He says that this is a prime example of blasphemy and [Root.GetFirstNameWithNick] will suffer in hell for all the blasphemous things [Root.GetSheHe] did. \n\nThis blasphemous deed will surely hurt the whole religion...;;;;;;;;;;;;;x
+trexheresy.5.aa;Someone shall burn that damn heretic already!;;;;;;;;;;;;;x
+trexheresy.5.ab;It seems that the Pope is getting weaker...;;;;;;;;;;;;;x
+# Heretic Thoughts
+trexheresy.6.t;Heretic Thoughts;;;;;;;;;;;;;x
+trexheresy.6.de;I have decided that I want to help those heretics. Should I announce this? It could cause problems if I become a heretic publicly...;;;;;;;;;;;;;x
+trexheresy.6.a;Doesn't matter! I want everyone to know it!;;;;;;;;;;;;;x
+trexheresy.6.b;It would be a good idea to keep this a secret.;;;;;;;;;;;;;x

@@ -6332,8 +6332,8 @@ b_barony0392f;Acanena;Acanena;Acanena;;Acanena;;;;;;;;;x
 b_barony0392g;Erajena;Erajena;Erajena;;Erajena;;;;;;;;;x
 e_empire0393;Arctic;Arctic;Arctic;;Arctic;;;;;;;;;x
 e_empire0393_adj;Arctican;Arctican;Arctican;;Arctican;;;;;;;;;x
-k_kingdom0393;Greenice;Greenice;Greenice;;Greenice;;;;;;;;;x
-k_kingdom0393_adj;Greenicean;Greenicean;Greenicean;;Greenicean;;;;;;;;;x
+k_kingdom0393;Greenland;Greenland;Greenland;;Greenland;;;;;;;;;x
+k_kingdom0393_adj;Greenlander;Greenlander;Greenlander;;Greenlander;;;;;;;;;x
 d_duchy0393;Turho;Turho;Turho;;Turho;;;;;;;;;x
 d_duchy0393_adj;Durka;Durka;Durka;;Durka;;;;;;;;;x
 c_province0393_adj;Kalucha;Kalucha;Kalucha;;Kalucha;;;;;;;;;x
@@ -16293,10 +16293,10 @@ b_barony1387d;Ledr;Ledr;Ledr;;Ledr;;;;;;;;;x
 b_barony1387e;Elei;Elei;Elei;;Elei;;;;;;;;;x
 b_barony1387f;Saka;Saka;Saka;;Saka;;;;;;;;;x
 b_barony1387g;Iole;Iole;Iole;;Iole;;;;;;;;;x
-e_empire1388;SpaceX;Mars;Mars;;Mars;;;;;;;;;x
-e_empire1388_adj;X;Martian;Martian;;Martian;;;;;;;;;x
-k_kingdom1388;X;SpaceX;SpaceX;;SpaceX;;;;;;;;;x
-k_kingdom1388_adj;X;Martian;Martian;;Martian;;;;;;;;;x
+e_empire1388;X;X;X;;X;;;;;;;;;x
+e_empire1388_adj;X;X;X;;X;;;;;;;;;x
+k_kingdom1388;SpaceX;SpaceX;SpaceX;;SpaceX;;;;;;;;;x
+k_kingdom1388_adj;X;X;X;;X;;;;;;;;;x
 d_duchy1388;Oet;Oet;Oet;;Oet;;;;;;;;;x
 d_duchy1388_adj;Stah;Stah;Stah;;Stah;;;;;;;;;x
 c_province1388_adj;Conn;Conn;Conn;;Conn;;;;;;;;;x

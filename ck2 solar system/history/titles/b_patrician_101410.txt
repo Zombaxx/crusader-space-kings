@@ -1,6 +1,6 @@
 928.1.1 = {
 	holding_dynasty = 101410 # de Daly - makes this a FAMILY_PALACE type Holding
-	liege="d_bay_area"
+	liege="k_california"
 	holder = 101410
 }
 1006.1.1 = {
