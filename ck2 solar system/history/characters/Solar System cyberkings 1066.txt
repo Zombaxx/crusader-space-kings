@@ -6,6 +6,7 @@
 	trait = brilliant_strategist
 	martial = 10
 	trait = full_cybernetic_conversion
+	trait = ambitious
 	trait = hunter
 	trait = scarred
 	trait = brave
@@ -31,8 +32,8 @@
 6666672 = {
 	name = "Griffin"
 	dynasty = 666666
-	culture = "breton"
-	religion = "nestorian"
+	culture = "dutch"
+	religion = "cathar"
 	father = 666666
 	trait = twin
 	1020.1.1={birth=yes}
@@ -40,8 +41,8 @@
 6666673 = {
 	name = "Vivian"
 	dynasty = 666666
-	culture = "breton"
-	religion = "nestorian"
+	culture = "dutch"
+	religion = "cathar"
 	female = yes
 	father = 666666
 	trait = twin
@@ -77,7 +78,7 @@
 6666671 = {
 	name = "X AE A-12"
 	dynasty = 666666
-	culture = "breton"
+	culture = "alan"
 	religion = "orc_religion_dark_lord"
 	father = 666666
 	trait = vat_born
@@ -98,7 +99,7 @@
 6666675 = {
 	name = "Strider"
 	dynasty = 666666
-	culture = "breton"
+	culture = "canadian"
 	religion = "orc_religion_dark_lord"
 	father = 666666
 	trait = legit_bastard
@@ -107,7 +108,7 @@
 6666676 = {
 	name = "Shivon"
 	dynasty = 666666
-	culture = "breton"
+	culture = "canadian"
 	religion = "orc_religion_dark_lord"
 	female = yes
 	father = 666666

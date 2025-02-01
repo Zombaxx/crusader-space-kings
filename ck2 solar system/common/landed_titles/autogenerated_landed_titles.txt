@@ -599,6 +599,19 @@ e_empire0041 = {
 		
 		culture = elephant_culture
 		
+		catholic = 3000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
+		
 		d_duchy0052 = {
 			color={ 168 212 197 }
 			color2={ 255 255 255 }
@@ -740,6 +753,19 @@ e_empire0041 = {
 		capital = 41
 		
 		culture = elephant_culture
+		
+		catholic = 3000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
 		
 		d_duchy0033 = {
 			color={ 186 179 198 }
@@ -3301,6 +3327,15 @@ e_united_states = {
 		culture = irish
 		
 		sunni = 200
+		norse_pagan_reformed = 300
+		west_african_pagan_reformed = 300
+		aztec_reformed = 300
+		zun_pagan_reformed = 300
+		bon_reformed = 300
+		hellenic_pagan_reformed = 300
+		celtic_pagan_reformed = 300
+		egyptian_pagan_reformed = 300
+		elven_tribunal_heresy = 300
 		
 		d_bay_area = {
 			color={ 80 200 211 }
@@ -3849,6 +3884,15 @@ e_united_states = {
 		culture = old_frankish
 		
 		sunni = 1000
+		norse_pagan_reformed = 300
+		west_african_pagan_reformed = 300
+		aztec_reformed = 300
+		zun_pagan_reformed = 300
+		bon_reformed = 300
+		hellenic_pagan_reformed = 300
+		celtic_pagan_reformed = 300
+		egyptian_pagan_reformed = 300
+		elven_tribunal_heresy = 300
 		
 		d_chesapeake_bay = {
 			color={ 105 94 115 }
@@ -4664,6 +4708,19 @@ e_empire0305 = {
 		
 		culture = red_panda
 		
+		catholic = 3000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
+		
 		d_duchy0068 = {
 			color={ 15 96 31 }
 			color2={ 255 255 255 }
@@ -4770,6 +4827,19 @@ e_empire0305 = {
 		capital = 155
 		
 		culture = horse
+		
+		catholic = 3000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
 		
 		d_ryha = {
 			color={ 69 34 43 }
@@ -4997,6 +5067,22 @@ e_empire0305 = {
 		
 		culture = red_panda
 		
+		catholic = 3000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
+
+
+		
+		
 		d_duchy0142 = {
 			color={ 43 79 12 }
 			color2={ 255 255 255 }
@@ -5188,6 +5274,32 @@ e_empire0305 = {
 		
 		culture = horse
 		
+		catholic = 3000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
+		
+		catholic = 3000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
+		
 		d_duchy0248 = {
 			color={ 79 30 78 }
 			color2={ 255 255 255 }
@@ -5305,6 +5417,17 @@ e_empire0305 = {
 		catholic = 3000
 		kharijite = 1000
 		yazidi = 1000
+		orthodox = 2000
+		yazidi = 500
+		norse_pagan_reformed = 500
+		west_african_pagan_reformed = 500
+		aztec_reformed = 500
+		zun_pagan_reformed = 500
+		bon_reformed = 500
+		hellenic_pagan_reformed = 500
+		celtic_pagan_reformed = 500
+		egyptian_pagan_reformed = 500
+		elven_tribunal_heresy = 500
 		
 		d_duchy0279 = {
 			color={ 83 65 26 }
@@ -9629,6 +9752,16 @@ e_european_union = {
 		culture = greek
 		
 		sunni = 1000
+		orthodox = 1000
+		norse_pagan_reformed = 300
+		west_african_pagan_reformed = 300
+		aztec_reformed = 300
+		zun_pagan_reformed = 300
+		bon_reformed = 300
+		hellenic_pagan_reformed = 300
+		celtic_pagan_reformed = 300
+		egyptian_pagan_reformed = 300
+		elven_tribunal_heresy = 300
 		
 		d_duchy0548 = {
 			color={ 193 97 188 }
@@ -9854,6 +9987,15 @@ e_european_union = {
 		capital = 496
 		
 		culture = saxon
+		norse_pagan_reformed = 300
+		west_african_pagan_reformed = 300
+		aztec_reformed = 300
+		zun_pagan_reformed = 300
+		bon_reformed = 300
+		hellenic_pagan_reformed = 300
+		celtic_pagan_reformed = 300
+		egyptian_pagan_reformed = 300
+		elven_tribunal_heresy = 300
 		
 		d_duchy0456 = {
 			color={ 168 116 76 }
@@ -10310,6 +10452,16 @@ e_european_union = {
 		culture = saxon
 		
 		sunni = 1000
+		orthodox = 1000
+		norse_pagan_reformed = 300
+		west_african_pagan_reformed = 300
+		aztec_reformed = 300
+		zun_pagan_reformed = 300
+		bon_reformed = 300
+		hellenic_pagan_reformed = 300
+		celtic_pagan_reformed = 300
+		egyptian_pagan_reformed = 300
+		elven_tribunal_heresy = 300
 		
 		d_france = {
 			color={ 176 94 72 }
@@ -12311,6 +12463,8 @@ e_empire0717 = {
 		
 		culture = saxon
 		
+		orthodox = 1000
+		
 		d_duchy0534 = {
 			color={ 211 76 111 }
 			color2={ 255 255 255 }
@@ -13152,6 +13306,15 @@ e_empire0717 = {
 		capital = 797
 		
 		culture = zhangzhung
+		norse_pagan_reformed = 300
+		west_african_pagan_reformed = 300
+		aztec_reformed = 300
+		zun_pagan_reformed = 300
+		bon_reformed = 300
+		hellenic_pagan_reformed = 300
+		celtic_pagan_reformed = 300
+		egyptian_pagan_reformed = 300
+		elven_tribunal_heresy = 300
 		
 		d_duchy0772 = {
 			color={ 201 126 9 }
