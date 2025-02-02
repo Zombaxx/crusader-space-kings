@@ -4,10 +4,11 @@
 title = c_province0843
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_barony0843` = castle
 b_barony0843a = temple
 b_barony0843b = city
+b_barony0843c = castle
 
 # Misc
 culture = jurchen

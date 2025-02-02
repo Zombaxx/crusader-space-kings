@@ -3326,7 +3326,7 @@ e_united_states = {
 		
 		culture = irish
 		
-		sunni = 200
+		#sunni = 200
 		norse_pagan_reformed = 300
 		west_african_pagan_reformed = 300
 		aztec_reformed = 300
@@ -10325,7 +10325,7 @@ e_european_union = {
 		color={ 93 136 33 }
 		color2={ 255 255 255 }
 		
-		capital = 635
+		capital = 607
 		
 		culture = russian
 		
@@ -12654,7 +12654,7 @@ e_empire0717 = { #China
 			}
 		}
 	}
-	k_kingdom0621 = {
+	k_kingdom0621 = { #Russia
 		color={ 45 115 26 }
 		color2={ 255 255 255 }
 		
@@ -13050,7 +13050,7 @@ e_empire0717 = { #China
 			}
 		}
 	}
-	k_kingdom0715 = {
+	k_kingdom0715 = { #Siberia
 		color={ 42 116 45 }
 		color2={ 255 255 255 }
 		
@@ -19502,7 +19502,7 @@ e_empire1034 = { #Russia
 	color2={ 255 255 255 }
 	
 	purple_born_heirs = yes
-	capital = 1034
+	capital = 603
 	
 	culture = bear
 	
@@ -22577,6 +22577,8 @@ e_empire1184 = {
 		capital = 1172
 		
 		culture = dragon_culture
+		catholic = 2000
+		yazidi = 1500
 		
 		d_duchy1161 = {
 			color={ 121 31 48 }
@@ -22695,6 +22697,7 @@ e_empire1184 = {
 		
 		catholic = 3000
 		yazidi = 1000
+		hellenic_pagan_reformed = 3000
 		
 		d_duchy1167 = {
 			color={ 134 34 29 }
@@ -23267,6 +23270,10 @@ e_empire1184 = {
 		
 		culture = dragon_culture
 		
+		catholic = 500
+		yazidi = 250
+		hellenic_pagan_reformed = 1000
+		
 		d_phobos = {
 			color={ 141 1 60 }
 			color2={ 255 255 255 }
@@ -23742,6 +23749,10 @@ e_empire1322 = {
 		
 		culture = red_panda
 		
+		catholic = 3000
+		yazidi = 3000
+		hellenic_pagan_reformed = 1500
+		
 		d_duchy1212 = {
 			color={ 20 92 18 }
 			color2={ 255 255 255 }
@@ -23897,6 +23908,10 @@ e_empire1322 = {
 		capital = 1291
 		
 		culture = dragon_culture
+		
+		catholic = 3000
+		yazidi = 3000
+		hellenic_pagan_reformed = 1500
 		
 		d_duchy1257 = {
 			color={ 166 29 7 }
@@ -24146,6 +24161,10 @@ e_empire1322 = {
 		
 		culture = horse
 		
+		catholic = 3000
+		yazidi = 3000
+		hellenic_pagan_reformed = 1500
+		
 		d_duchy1307 = {
 			color={ 98 81 27 }
 			color2={ 255 255 255 }
@@ -24371,6 +24390,10 @@ e_empire1322 = {
 		capital = 1379
 		
 		culture = dog_culture
+		
+		catholic = 3000
+		yazidi = 3000
+		hellenic_pagan_reformed = 1500
 		
 		d_duchy1355 = {
 			color={ 103 88 19 }
@@ -24642,6 +24665,10 @@ e_empire1322 = {
 		capital = 1322
 		
 		culture = dog_culture
+		
+		catholic = 3000
+		yazidi = 3000
+		hellenic_pagan_reformed = 1500
 		
 		d_duchy1302 = {
 			color={ 124 97 15 }

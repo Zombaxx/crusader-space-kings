@@ -4782,6 +4782,7 @@ tibetan_group = {
 				has_alternate_start_parameter = { key = culture value = full_random }
 			}
 		}
+		horde = yes
 
 		dynasty_name_first = yes
 		

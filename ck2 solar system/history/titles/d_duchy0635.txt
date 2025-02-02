@@ -10,6 +10,12 @@
 1060.1.1 = {
 	holder = 106355
 }
-1066.1.1 = {
-	liege=e_european_union
+#1066.1.1 = {
+#	liege=e_european_union
+#}
+1066.1.2 = {
+	set_tribute_suzerain = {
+		who = e_european_union
+		type = permanent 
+	}
 }

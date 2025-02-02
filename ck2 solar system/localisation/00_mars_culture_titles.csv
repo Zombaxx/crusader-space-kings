@@ -64,13 +64,16 @@ city_king_latin;Serene Doge;Doge Sérénissime;Durchlauchter Doge;;Duque Sereno;
 city_king_byzantine;Serene Doge;Doge Sérénissime;Durchlauchter Doge;;Duque Sereno;;;;;;;;;x
 city_duke_latin;Doge;Doge;Doge;;Dux;;;;;;;;;x
 city_duke_byzantine;Doge;Doge;Doge;;Dux;;;;;;;;;x
-king_russian;Putin;;;x
-king_female_russian;Putina;;;x
-king_norse_pagan;Sea King;;;;;;;;;;;;;x
-king_female_norse_pagan;Sea Queen;;;x
-duke_norse_pagan;Lord Raider;;;x
-duke_female_norse_pagan;Lady Raider;;;x
-
+#king_russian;Putin;;;x
+#king_female_russian;Putina;;;x
+king_norse_pagan;Pirate King;;;;;;;;;;;;;x
+king_female_norse_pagan;Pirate Queen;;;;;;;;;x
+duke_norse_pagan;Pirate Duke;;;;;;;;;x
+duke_female_norse_pagan;Pirate Duchess;;;;;;;;;x
+count_norse_pagan;Space-Pirate;;;;;;;;;x
+count_female_norse_pagan;Space-Pirate;;;;;;;;;x
+baron_norse_pagan;Pirate;;;;;;;;;x
+baron_female_norse_pagan;Pirate;;;;;;;;;x
 
 #Arabic/Martian
 
@@ -508,12 +511,15 @@ city_king_alan_muslim;President;Wali Malik;Wali-Malik;;Wali-Malik;;;;;;;;;x
 city_duke_alan_muslim;President;Wali Émir;Wali-Emir;;Emir-Valí;;;;;;;;;x
 city_count_alan_muslim;Governor;Wali;Wali;;Valí;;;;;;;;;x
 
-emperor_russian;God Emperor;;;;;;;;;;;;;x
-emperor_title_ruler_consort_russian;God;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_russian;Goddess;;;;;;;;;;;;;x
-king_russian;Supreme Leader;;;;;;;;;;;;;x
-king_title_ruler_consort_russian;Supreme Leader;;;;;;;;;;;;x
-king_title_ruler_consort_female_russian;Mrs. Supreme Leader;;;;;;;;;;;;;x
+tribal_emperor_russian;President;;;;;;;;;;;;;x
+tribal_emperor_female_russian;President;;;;;;;;;;;;;x
+emperor_russian;President;;;;;;;;;;;;;x
+emperor_female_russian;President;;;;;;;;;;;;;x
+emperor_title_ruler_consort_russian;President's Husband;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_russian;President's wife;;;;;;;;;;;;;x
+king_russian;Leader;;;;;;;;;;;;;x
+king_title_ruler_consort_russian;Leader;;;;;;;;;;;;x
+king_title_ruler_consort_female_russian;Mrs. Leader;;;;;;;;;;;;;x
 title_prince_russian;Cadet;;;;;;;;;;;;;x
 title_prince_female_russian;Cadet;;;;;;;;;;;;;x
 duke_russian;Chairman;;;;;;;;;;;;;x
