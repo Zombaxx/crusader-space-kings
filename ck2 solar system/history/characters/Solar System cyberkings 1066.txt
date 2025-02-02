@@ -28,6 +28,15 @@
 			e_united_states = { add_claim = ROOT }
 		}
 	}
+spawn_fleet = {
+				province = closest # closest sea zone
+				owner = ROOT
+				cannot_inherit = yes # disbands on inheritance
+				troops =
+				{
+					galleys = { 50 50 }
+				}
+			}
 }
 6666672 = {
 	name = "Griffin"

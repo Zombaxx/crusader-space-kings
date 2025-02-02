@@ -4,9 +4,13 @@
 title = c_mumbai
 
 # Settlements
-max_settlements = 3
-b_mumbai = city
+max_settlements = 7
+b_mumbai = castle
 b_barony0834a = temple
+b_mumbaib = city
+b_mumbaic = castle
+b_barony0834d = temple
+b_mumbaie = city
 
 # Misc
 culture = hindustani

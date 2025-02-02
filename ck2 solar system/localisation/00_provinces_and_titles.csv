@@ -270,7 +270,7 @@ PROV268;Lajata;Lajata;Lajata;;Lajata;;;;;;;;;x
 PROV269;Talan;Talan;Talan;;Talan;;;;;;;;;x
 PROV270;Wimedek;Wimedek;Wimedek;;Wimedek;;;;;;;;;x
 PROV271;Delaware;Delmarva;Delmarva;;Delmarva;;;;;;;;;x
-PROV272;Virginias;Koloul;Koloul;;Koloul;;;;;;;;;x
+PROV272;Virginia;Virginia;Virginia;;Virginia;;;;;;;;;x
 PROV273;Kojara;Kojara;Kojara;;Kojara;;;;;;;;;x
 PROV274;Wisconsin;Amahegin;Amahegin;;Amahegin;;;;;;;;;x
 PROV275;Rolorri;Rolorri;Rolorri;;Rolorri;;;;;;;;;x
@@ -5089,8 +5089,8 @@ e_united_states;United States;United States;United States;;United States;;;;;;;;
 e_united_states_adj;United States;United States;United States;;United States;;;;;;;;;x
 k_kingdom0272;Sotogna;Sotogna;Sotogna;;Sotogna;;;;;;;;;x
 k_kingdom0272_adj;Ajohuju;Ajohuju;Ajohuju;;Ajohuju;;;;;;;;;x
-d_duchy0272;Tegair;Tegair;Tegair;;Tegair;;;;;;;;;x
-d_duchy0272_adj;Lutunai;Lutunai;Lutunai;;Lutunai;;;;;;;;;x
+d_duchy0272;Virginias;Virginias;Virginias;;Virginias;;;;;;;;;x
+d_duchy0272_adj;Virginian;Virginian;Virginian;;Virginian;;;;;;;;;x
 c_province0272_adj;Virginian;Kotaly;Kotaly;;Kotaly;;;;;;;;;x
 b_barony0272`;Virginia;Rubonne;Rubonne;;Rubonne;;;;;;;;;x
 b_barony0272a;Richmond;Salunpu;Salunpu;;Salunpu;;;;;;;;;x

@@ -539,6 +539,173 @@ nomadic_empire_of_russian;Horde of;Khaganat de;Großkhanat von;;Kaganato de;;;;;
 nomadic_kingdom_russian;Horde;Khanat;Khanat;;Kanato;;;;;;;;;x
 nomadic_kingdom_of;Horde of;Kanat de;Khanat von;;Kanato de;;;;;;;;;x
 
+emperor_breton;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_breton;Governor;;;;;;;;;x
+duke_breton;Senator;;;;;;;;;x
+count_breton;Representative;;;;;;;;;x
+#baron_breton;Mayor;;;;;;;;;x
+emperor_female_breton;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_female_breton;Governor;;;;;;;;;x
+duke_female_breton;Senator;;;;;;;;;x
+count_female_breton;Representative;;;;;;;;;x
+#baron_female_breton;Mayor;;;;;;;;;x
+emperor_foa_breton;female;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+emperor_title_ruler_consort_breton;First Man;Epoux;;;;;;;;;;;x
+emperor_title_ruler_consort_breton;female;First Lady;Première dame;;;;;;;;;;;;x
+empire_of_breton;Republic of;Federation of;Federation of;;Federation of;;;;;;;;;x
+empire_breton;Republic;Federation;Federation;;Federation;;;;;;;;;x
+empires_breton;Federations;Federations;Federations;;Federations;;;;;;;;;x
+king_foa_breton;Mister Governor;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+king_foa_female_breton;Governor's Spouse;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+king_title_ruler_consort_breton;First Man;Epoux;;;;;;;;;;;x
+king_title_ruler_consort_female_breton;Governor's Spouse;Première dame;;;;;;;;;;;;x
+kingdom_of_breton;State of;République de;Republik;;Republica de;;;;;;;;;x
+kingdom_breton;State;République;Republik;;República;;;;;;;;;x
+kingdoms_breton;States;Républiques;Republiken;;Repúblicas;;;;;;;;;x
+duke_breton;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_female_breton;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_foa_breton;Mister Senator;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+duke_foa_breton;female;Madam Senator;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+duke_title_ruler_consort_breton;Senator's Spouse;Epoux;;;;;;;;;;;x
+duke_title_ruler_consort_breton;female;Senator's Spouse;Dame;;;;;;;;;;;;x
+count_breton;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_female_breton;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_foa_breton;Mister Representative;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+count_foa_breton;female;Madam Representative;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+count_title_ruler_consort_breton;Representative's Spouse;Epoux;;;;;;;;;;;x
+count_title_ruler_consort_breton;female;Representative's Spouse;Dame;;;;;;;;;;;;x
+#baron_breton;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_female_breton;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_foa_breton;Mister Mayor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+#baron_foa_breton;female;Madam Mayor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+#baron_title_ruler_consort_breton;Mayor's Spouse;Epoux;;;;;;;;;;;x
+#baron_title_ruler_consort_breton;female;Mayor's Spouse;Dame;;;;;;;;;;;;x
+
+emperor_old_frankish;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_old_frankish;Governor;;;;;;;;;x
+duke_old_frankish;Senator;;;;;;;;;x
+count_old_frankish;Representative;;;;;;;;;x
+#baron_old_frankish;Mayor;;;;;;;;;x
+emperor_female_old_frankish;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_female_old_frankish;Governor;;;;;;;;;x
+duke_female_old_frankish;Senator;;;;;;;;;x
+count_female_old_frankish;Representative;;;;;;;;;x
+#baron_female_old_frankish;Mayor;;;;;;;;;x
+emperor_foa_old_frankish;female;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+emperor_title_ruler_consort_old_frankish;First Man;Epoux;;;;;;;;;;;x
+emperor_title_ruler_consort_old_frankish;female;First Lady;Première dame;;;;;;;;;;;;x
+empire_of_old_frankish;Republic of;Federation of;Federation of;;Federation of;;;;;;;;;x
+empire_old_frankish;Republic;Federation;Federation;;Federation;;;;;;;;;x
+empires_old_frankish;Federations;Federations;Federations;;Federations;;;;;;;;;x
+king_foa_old_frankish;Mister Governor;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+king_foa_female_old_frankish;Governor's Spouse;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+king_title_ruler_consort_old_frankish;First Man;Epoux;;;;;;;;;;;x
+king_title_ruler_consort_female_old_frankish;Governor's Spouse;Première dame;;;;;;;;;;;;x
+kingdom_of_old_frankish;State of;République de;Republik;;Republica de;;;;;;;;;x
+kingdom_old_frankish;State;République;Republik;;República;;;;;;;;;x
+kingdoms_old_frankish;States;Républiques;Republiken;;Repúblicas;;;;;;;;;x
+duke_old_frankish;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_female_old_frankish;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_foa_old_frankish;Mister Senator;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+duke_foa_old_frankish;female;Madam Senator;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+duke_title_ruler_consort_old_frankish;Senator's Spouse;Epoux;;;;;;;;;;;x
+duke_title_ruler_consort_old_frankish;female;Senator's Spouse;Dame;;;;;;;;;;;;x
+count_old_frankish;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_female_old_frankish;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_foa_old_frankish;Mister Representative;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+count_foa_old_frankish;female;Madam Representative;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+count_title_ruler_consort_old_frankish;Representative's Spouse;Epoux;;;;;;;;;;;x
+count_title_ruler_consort_old_frankish;female;Representative's Spouse;Dame;;;;;;;;;;;;x
+#baron_old_frankish;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_female_old_frankish;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_foa_old_frankish;Mister Mayor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+#baron_foa_old_frankish;female;Madam Mayor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+#baron_title_ruler_consort_old_frankish;Mayor's Spouse;Epoux;;;;;;;;;;;x
+#baron_title_ruler_consort_old_frankish;female;Mayor's Spouse;Dame;;;;;;;;;;;;x
+
+emperor_european_european;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_european_european;Governor;;;;;;;;;x
+duke_european_european;Senator;;;;;;;;;x
+count_european_european;Representative;;;;;;;;;x
+#baron_european_european;Mayor;;;;;;;;;x
+emperor_female_european_european;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_female_european_european;Governor;;;;;;;;;x
+duke_female_european_european;Senator;;;;;;;;;x
+count_female_european_european;Representative;;;;;;;;;x
+#baron_female_european_european;Mayor;;;;;;;;;x
+emperor_foa_european_european;female;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+emperor_title_ruler_consort_european_european;First Man;Epoux;;;;;;;;;;;x
+emperor_title_ruler_consort_european_european;female;First Lady;Première dame;;;;;;;;;;;;x
+empire_of_european_european;Republic of;Federation of;Federation of;;Federation of;;;;;;;;;x
+empire_european_european;Republic;Federation;Federation;;Federation;;;;;;;;;x
+empires_european_european;Federations;Federations;Federations;;Federations;;;;;;;;;x
+king_foa_european_european;Mister Governor;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+king_foa_female_european_european;Governor's Spouse;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+king_title_ruler_consort_european_european;First Man;Epoux;;;;;;;;;;;x
+king_title_ruler_consort_female_european_european;Governor's Spouse;Première dame;;;;;;;;;;;;x
+kingdom_of_european_european;State of;République de;Republik;;Republica de;;;;;;;;;x
+kingdom_european_european;State;République;Republik;;República;;;;;;;;;x
+kingdoms_european_european;States;Républiques;Republiken;;Repúblicas;;;;;;;;;x
+duke_european_european;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_female_european_european;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_foa_european_european;Mister Senator;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+duke_foa_european_european;female;Madam Senator;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+duke_title_ruler_consort_european_european;Senator's Spouse;Epoux;;;;;;;;;;;x
+duke_title_ruler_consort_european_european;female;Senator's Spouse;Dame;;;;;;;;;;;;x
+count_european_european;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_female_european_european;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_foa_european_european;Mister Representative;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+count_foa_european_european;female;Madam Representative;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+count_title_ruler_consort_european_european;Representative's Spouse;Epoux;;;;;;;;;;;x
+count_title_ruler_consort_european_european;female;Representative's Spouse;Dame;;;;;;;;;;;;x
+#baron_european_european;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_female_european_european;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_foa_european_european;Mister Mayor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+#baron_foa_european_european;female;Madam Mayor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+#baron_title_ruler_consort_european_european;Mayor's Spouse;Epoux;;;;;;;;;;;x
+#baron_title_ruler_consort_european_european;female;Mayor's Spouse;Dame;;;;;;;;;;;;x
+
+emperor_canadian;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_canadian;Governor;;;;;;;;;x
+duke_canadian;Senator;;;;;;;;;x
+count_canadian;Representative;;;;;;;;;x
+#baron_canadian;Mayor;;;;;;;;;x
+emperor_female_canadian;President;Grand Prince;Grand Prinz;;Gran Príncipe;;;;;;;;;x
+king_female_canadian;Governor;;;;;;;;;x
+duke_female_canadian;Senator;;;;;;;;;x
+count_female_canadian;Representative;;;;;;;;;x
+#baron_female_canadian;Mayor;;;;;;;;;x
+emperor_foa_canadian;female;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+emperor_title_ruler_consort_canadian;First Man;Epoux;;;;;;;;;;;x
+emperor_title_ruler_consort_canadian;female;First Lady;Première dame;;;;;;;;;;;;x
+empire_of_canadian;Republic of;Federation of;Federation of;;Federation of;;;;;;;;;x
+empire_canadian;Republic;Federation;Federation;;Federation;;;;;;;;;x
+empires_canadian;Federations;Federations;Federations;;Federations;;;;;;;;;x
+king_foa_canadian;Mister Governor;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+king_foa_female_canadian;Governor's Spouse;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+king_title_ruler_consort_canadian;First Man;Epoux;;;;;;;;;;;x
+king_title_ruler_consort_female_canadian;Governor's Spouse;Première dame;;;;;;;;;;;;x
+kingdom_of_canadian;State of;République de;Republik;;Republica de;;;;;;;;;x
+kingdom_canadian;State;République;Republik;;República;;;;;;;;;x
+kingdoms_canadian;States;Républiques;Republiken;;Repúblicas;;;;;;;;;x
+duke_canadian;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_female_canadian;Senator;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_foa_canadian;Mister Senator;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+duke_foa_canadian;female;Madam Senator;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+duke_title_ruler_consort_canadian;Senator's Spouse;Epoux;;;;;;;;;;;x
+duke_title_ruler_consort_canadian;female;Senator's Spouse;Dame;;;;;;;;;;;;x
+count_canadian;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_female_canadian;Representative;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+count_foa_canadian;Mister Representative;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+count_foa_canadian;female;Madam Representative;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+count_title_ruler_consort_canadian;Representative's Spouse;Epoux;;;;;;;;;;;x
+count_title_ruler_consort_canadian;female;Representative's Spouse;Dame;;;;;;;;;;;;x
+#baron_canadian;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_female_canadian;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+#baron_foa_canadian;Mister Mayor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+#baron_foa_canadian;female;Madam Mayor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+#baron_title_ruler_consort_canadian;Mayor's Spouse;Epoux;;;;;;;;;;;x
+#baron_title_ruler_consort_canadian;female;Mayor's Spouse;Dame;;;;;;;;;;;;x
 
 #emperor;Emperor;Empereur;Kaiser;;Emperador;;;;;;;;;x
 #king;King;Roi;König;;Rey;;;;;;;;;x

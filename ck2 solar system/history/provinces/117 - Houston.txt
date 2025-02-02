@@ -4,10 +4,13 @@
 title = c_houston
 
 # Settlements
-max_settlements = 4
-b_houston = city
+max_settlements = 7
+b_houston = castle
 b_barony0117a = temple
-b_barony0117b = castle
+b_barony0117b = city
+b_houstonc = castle
+b_barony0117d = temple
+b_barony0117e = city
 
 # Misc
 culture = breton

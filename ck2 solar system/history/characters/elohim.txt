@@ -200,6 +200,7 @@
 		effect = { 
 			prestige = 15000
 			piety = 30000
+			wealth = 7777
 			}
         effect={
             spawn_unit={
@@ -214,6 +215,7 @@
                 }
                 attrition=0.5
             }
+			galleys = { 200 200 }
 		}
 	}
 }
@@ -400,6 +402,7 @@
 		effect = { 
 			prestige = 5000
 			piety = 3000
+			wealth = 666
 			}
 	}
 	1065.1.1 = {
@@ -1388,6 +1391,7 @@
 		effect = { 
 			prestige = 10000
 			piety = 5000
+			wealth = 777
 			}
         effect={
             spawn_unit={
@@ -1402,6 +1406,15 @@
                 }
                 attrition=0.5
             }
+			spawn_fleet = {
+				province = closest # closest sea zone
+				owner = ROOT
+				cannot_inherit = yes # disbands on inheritance
+				troops =
+				{
+					galleys = { 185 185 }
+				}
+			}
 		}
 	}
 }
@@ -1524,6 +1537,7 @@
 		effect = { 
 			prestige = 5000
 			piety = 3000
+			wealth = 667
 			}
         #effect={
         #    spawn_unit={

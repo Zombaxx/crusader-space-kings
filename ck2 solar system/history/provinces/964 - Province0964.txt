@@ -4,11 +4,14 @@
 title = c_province0964
 
 # Settlements
-max_settlements = 5
+max_settlements = 7
 b_barony0964` = castle
 b_barony0964a = temple
 b_barony0964b = city
-b_barony0964c = castle
+b_barony0964c = city
+b_barony0964d = temple
+b_barony0964e = city
+b_barony0964f = castle
 
 # Misc
 culture = kannada

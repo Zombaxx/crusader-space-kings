@@ -1,13 +1,13 @@
-791.7.4={
-	law = succ_byzantine_elective
-	law = imperial_administration
-	law = true_cognatic_succession
-}
 977.1.1 = {
 	holder = 102010
 }
 1062.1.1 = {
 	holder = 778015
+}
+1065.1.1={
+	law = succ_byzantine_elective
+	law = imperial_administration
+	law = true_cognatic_succession
 }
 1066.1.1 = {
 	holder = 102725

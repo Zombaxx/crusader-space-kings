@@ -2956,7 +2956,7 @@ e_united_states = {
 	color2={ 255 255 255 }
 	
 	purple_born_heirs = yes
-	capital = 272
+	capital = 264
 	
 	culture = irish
 	
@@ -3832,20 +3832,6 @@ e_united_states = {
 				b_barony0258f = { }
 				b_barony0258g = { }
 			}
-			c_province0259 = {
-				color={ 87 197 194 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0259` = { }
-				b_barony0259a = { }
-				b_barony0259b = { }
-				b_barony0259c = { }
-				b_barony0259d = { }
-				b_barony0259e = { }
-				b_barony0259f = { }
-				b_barony0259g = { }
-			}
 			c_province0283 = {
 				color={ 99 212 199 }
 				color2={ 255 255 255 }
@@ -3991,15 +3977,6 @@ e_united_states = {
 				b_barony0288g = { }
 			}
 		}
-	}
-	k_kingdom0272 = {
-		color={ 153 163 142 }
-		color2={ 255 255 255 }
-		
-		capital = 272
-		
-		culture = nubian
-		
 		d_duchy0272 = {
 			color={ 153 163 142 }
 			color2={ 255 255 255 }
@@ -4020,7 +3997,30 @@ e_united_states = {
 				b_barony0272f = { }
 				b_barony0272g = { }
 			}
+			c_province0259 = {
+				color={ 87 197 194 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0259` = { }
+				b_barony0259a = { }
+				b_barony0259b = { }
+				b_barony0259c = { }
+				b_barony0259d = { }
+				b_barony0259e = { }
+				b_barony0259f = { }
+				b_barony0259g = { }
+			}
 		}
+	}
+	k_kingdom0272 = { #unused
+		color={ 153 163 142 }
+		color2={ 255 255 255 }
+		
+		capital = 272
+		
+		culture = nubian
+		
 	}
 }
 e_latin_america = {

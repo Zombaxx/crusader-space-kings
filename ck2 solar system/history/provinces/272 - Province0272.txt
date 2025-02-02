@@ -5,9 +5,9 @@ title = c_province0272
 
 # Settlements
 max_settlements = 4
-b_barony0272` = city
+b_barony0272` = castle
 b_barony0272a = temple
-b_barony0272b = castle
+b_barony0272b = city
 
 # Misc
 culture = nubian

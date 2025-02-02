@@ -4,9 +4,14 @@
 title = c_district_of_columbia
 
 # Settlements
-max_settlements = 3
-b_district_of_columbia = city
-b_washington_dc = temple
+max_settlements = 7
+b_district_of_columbia = castle
+b_washington_dc = city
+b_baltimore = city
+b_alexandria = city
+b_the_white_house = castle
+b_the_pentagon = temple
+b_the_capitol = temple
 
 # Misc
 culture = old_frankish

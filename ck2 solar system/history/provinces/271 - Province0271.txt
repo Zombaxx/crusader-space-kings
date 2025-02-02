@@ -4,8 +4,11 @@
 title = c_province0271
 
 # Settlements
-max_settlements = 2
+max_settlements = 6
 b_barony0271` = city
+b_barony0271a = city
+b_barony0271b = city
+b_barony0271c = city
 
 # Misc
 culture = old_frankish

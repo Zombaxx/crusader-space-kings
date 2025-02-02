@@ -4,11 +4,12 @@
 title = c_miami
 
 # Settlements
-max_settlements = 5
+max_settlements = 6
 b_miami = castle
 b_miami_beach = temple
 b_fort_lauderdale = city
 b_florida_keys = castle
+b_mar-a-lago = castle
 
 # Misc
 culture = castillan

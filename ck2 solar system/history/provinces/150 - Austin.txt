@@ -4,10 +4,12 @@
 title = c_austin
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_austin = city
 b_barony0150a = temple
 b_barony0150b = castle
+b_barony0150c = city
+b_barony0150d = temple
 
 # Misc
 culture = nubian

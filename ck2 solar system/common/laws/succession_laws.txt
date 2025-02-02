@@ -1154,6 +1154,8 @@ succession_laws = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
 					has_landed_title = e_european_union
+					has_landed_title = e_united_states
+					has_law = imperial_administration
 					religion = taoist
 				}
 				OR = {
