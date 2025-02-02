@@ -8,8 +8,8 @@
 	holder = 108442
 }
 1051.1.1 = {
-	holder = 108445
+	holder = 107175 #108445
 }
-1066.1.1 = {
-	liege=k_kingdom0797
-}
+#1066.1.1 = {
+#	liege=k_kingdom0797
+#}

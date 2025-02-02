@@ -11,8 +11,9 @@
 	holder = 112125
 }
 1066.1.1 = {
-	set_tribute_suzerain = {
-		who = e_empire1388
-		type = permanent 
-	}
+	liege = e_united_states
+	#set_tribute_suzerain = {
+	#	who = e_empire1388
+	#	type = permanent 
+	#}
 }

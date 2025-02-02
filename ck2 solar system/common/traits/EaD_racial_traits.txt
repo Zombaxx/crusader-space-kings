@@ -21,7 +21,7 @@ dark_elf = {
 	#martial = 1
 	#intrigue = 2
 	diplomacy = -2
-	health = 6
+	health = 18
 	fertility = -0.3
 	sex_appeal_opinion = 10
 

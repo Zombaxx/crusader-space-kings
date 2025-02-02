@@ -497,8 +497,8 @@ d_qarmatian = {
 	
 	dignity = 100 # Counted as having this many more counties than it does
 	
-	title = "CALIPH"
-	title_female = "CALIPHA"
+	title = "GOD-EMPEROR"
+	title_female = "GOD-EMPRESS"
 	foa = "CALIPH_FOA"
 	short_name = yes
 	

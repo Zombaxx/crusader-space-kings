@@ -3336,6 +3336,7 @@ e_united_states = {
 		celtic_pagan_reformed = 300
 		egyptian_pagan_reformed = 300
 		elven_tribunal_heresy = 300
+		elven_tribunal = 300
 		
 		d_bay_area = {
 			color={ 80 200 211 }
@@ -3893,6 +3894,7 @@ e_united_states = {
 		celtic_pagan_reformed = 300
 		egyptian_pagan_reformed = 300
 		elven_tribunal_heresy = 300
+		elven_tribunal = 300
 		
 		d_chesapeake_bay = {
 			color={ 105 94 115 }
@@ -9762,6 +9764,7 @@ e_european_union = {
 		celtic_pagan_reformed = 300
 		egyptian_pagan_reformed = 300
 		elven_tribunal_heresy = 300
+		elven_tribunal = 300
 		
 		d_duchy0548 = {
 			color={ 193 97 188 }
@@ -9996,6 +9999,7 @@ e_european_union = {
 		celtic_pagan_reformed = 300
 		egyptian_pagan_reformed = 300
 		elven_tribunal_heresy = 300
+		elven_tribunal = 300
 		
 		d_duchy0456 = {
 			color={ 168 116 76 }
@@ -10462,6 +10466,7 @@ e_european_union = {
 		celtic_pagan_reformed = 300
 		egyptian_pagan_reformed = 300
 		elven_tribunal_heresy = 300
+		elven_tribunal = 300
 		
 		d_france = {
 			color={ 176 94 72 }
@@ -12446,12 +12451,12 @@ e_empire0711 = { #Divinity
 		
 	}
 }
-e_empire0717 = {
+e_empire0717 = { #China
 	color={ 250 110 5 }
 	color2={ 255 255 255 }
 	
 	purple_born_heirs = yes
-	capital = 717
+	capital = 844 #Bejing
 	
 	culture = zhangzhung
 	
@@ -13303,7 +13308,7 @@ e_empire0717 = {
 		color={ 223 100 9 }
 		color2={ 255 255 255 }
 		
-		capital = 797
+		capital = 844
 		
 		culture = zhangzhung
 		norse_pagan_reformed = 300
@@ -13315,6 +13320,7 @@ e_empire0717 = {
 		celtic_pagan_reformed = 300
 		egyptian_pagan_reformed = 300
 		elven_tribunal_heresy = 300
+		elven_tribunal = 300
 		
 		d_duchy0772 = {
 			color={ 201 126 9 }
@@ -30367,6 +30373,8 @@ e_empire1702 = {
 		
 		culture = hedgehog_culture
 		
+		elven_tribunal_heresy = 2000
+		
 		d_duchy1651 = {
 			color={ 59 102 211 }
 			color2={ 255 255 255 }
@@ -30410,6 +30418,8 @@ e_empire1702 = {
 		capital = 1654
 		
 		culture = duck_culture
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1613 = {
 			color={ 210 239 215 }
@@ -30573,6 +30583,8 @@ e_empire1702 = {
 		capital = 1679
 		
 		culture = hedgehog_culture
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1620 = {
 			color={ 84 82 244 }
@@ -30891,6 +30903,8 @@ e_empire1702 = {
 		
 		culture = hedgehog_culture
 		
+		elven_tribunal_heresy = 2000
+		
 		d_duchy1685 = {
 			color={ 90 78 230 }
 			color2={ 255 255 255 }
@@ -31014,6 +31028,8 @@ e_empire1702 = {
 		capital = 1770
 		
 		culture = red_panda
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1741 = {
 			color={ 17 101 57 }
@@ -31142,6 +31158,8 @@ e_empire1702 = {
 		capital = 1702
 		
 		culture = cat
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1677 = {
 			color={ 48 77 49 }
@@ -32540,6 +32558,7 @@ e_empire1780 = {
 		catholic = 3000
 		kharijite = 1000
 		yazidi = 1000
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1731 = {
 			color={ 43 74 83 }
@@ -34404,6 +34423,8 @@ e_empire1994 = {
 		
 		culture = bear
 		
+		elven_tribunal_heresy = 2000
+		
 		d_duchy1733 = {
 			color={ 69 77 85 }
 			color2={ 255 255 255 }
@@ -34573,6 +34594,8 @@ e_empire1994 = {
 		capital = 1865
 		
 		culture = dog_culture
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1832 = {
 			color={ 142 81 35 }
@@ -34925,6 +34948,8 @@ e_empire1994 = {
 		capital = 1994
 		
 		culture = dog_culture
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1971 = {
 			color={ 131 95 8 }
@@ -37459,6 +37484,7 @@ e_empire2049 = {
 		capital = 1992
 		
 		culture = bear
+		elven_tribunal_heresy = 2000
 		
 		d_duchy1938 = {
 			color={ 28 55 77 }
@@ -37616,6 +37642,8 @@ e_empire2049 = {
 		
 		culture = dog_culture
 		
+		elven_tribunal_heresy = 2000
+		
 		d_duchy2074 = {
 			color={ 95 85 48 }
 			color2={ 255 255 255 }
@@ -37736,6 +37764,8 @@ e_empire2049 = {
 		capital = 2049
 		
 		culture = dog_culture
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy2049 = {
 			color={ 138 106 11 }
@@ -38834,6 +38864,8 @@ e_empire2158 = {
 		
 		capital = 1997
 		
+		elven_tribunal_heresy = 2000
+		
 		culture = bear
 		
 		d_duchy1990 = {
@@ -38956,6 +38988,8 @@ e_empire2158 = {
 		capital = 2066
 		
 		culture = bear
+		
+		elven_tribunal_heresy = 2000
 		
 		d_duchy2058 = {
 			color={ 70 78 103 }
@@ -39102,6 +39136,7 @@ e_empire2158 = {
 		catholic = 3000
 		kharijite = 1000
 		yazidi = 1000
+		elven_tribunal_heresy = 2000
 		
 		d_duchy2097 = {
 			color={ 43 114 73 }
@@ -39543,6 +39578,8 @@ e_empire2158 = {
 		
 		culture = dog_culture
 		
+		elven_tribunal_heresy = 2000
+		
 		d_duchy2125 = {
 			color={ 123 69 11 }
 			color2={ 255 255 255 }
@@ -39699,6 +39736,8 @@ e_empire2158 = {
 		
 		culture = dog_culture
 		
+		elven_tribunal_heresy = 2000
+		
 		d_duchy2175 = {
 			color={ 143 64 52 }
 			color2={ 255 255 255 }
@@ -39728,6 +39767,8 @@ e_empire2158 = {
 		capital = 2158
 		
 		culture = dog_culture
+		
+		elven_tribunal_heresy = 2000
 		
 		catholic = 3000
 		kharijite = 1000

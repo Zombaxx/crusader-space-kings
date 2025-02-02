@@ -134,3 +134,6 @@ HOLY_TERRA;Holy Terra;;;;;;;;;;;;;x
 
 form_the_hre;Form the Holy Terran Empire;Constituer le Saint-Empire romain;Errichtet das Heilige Römische Reich;;Del Sagrado Imperio Romano;;;;;;;;;x
 form_the_hre_desc;With the majority of Earth now firmly under my control, I could be recognized as the true Emperor of Mankind and, invoking Translatio Imperii, have [Root.RelHead.GetBestName] crown me Emperor of a new Terran Empire!;Si j'avais un royaume rivalisant avec celui de Charlemagne, on pourrait me reconnaître comme son véritable successeur. En invoquant le principe de Translatio Imperii (transfert de puissance), je pourrais même faire en sorte que [Root.RelHead.Get_only_le_Title][Root.RelHead.GetBestName] me couronne empereur d'un nouvel empire romain de l'Ouest !;Mit einem Reich, das dem von Karl dem Großen gleichkommt, könnte ich als sein wahrer Nachfolger gelten und mich durch die Anrufung der Translatio Imperii von [Root.RelHead.GetBestName] zum Kaiser des neuen Römischen Imperiums des Westens krönen lassen!;; Con un reino para rivalizar con el de Carlomagno, yo podría ser reconocido como su verdadero sucesor e, invocando a Translatio Imperii, que [Root.RelHead.GetBestName] me corone emperador de un Nuevo Imperio Romano en el oeste!;;;;;;;;;x
+
+GOD-EMPEROR;God-Emperor;;;;;;;;;;;;;x
+GOD-EMPRESS;God-Empress;;;;;;;;;;;;;x

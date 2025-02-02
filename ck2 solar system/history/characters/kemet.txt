@@ -40,6 +40,90 @@
 	trait=giant
 	1.1.3={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	#1.1.2={death=yes}
+	1064.1.1 = {
+		effect = {
+			e_empire0711 = { add_claim = ROOT }
+			e_ashlander_empire = { add_claim = ROOT }
+			e_empire0009 = { add_claim = ROOT }
+			e_empire0024 = { add_claim = ROOT }
+			e_empire0041 = { add_claim = ROOT }
+			e_empire0046 = { add_claim = ROOT }
+			e_empire0048 = { add_claim = ROOT }
+			e_empire0056 = { add_claim = ROOT }
+			e_empire0188 = { add_claim = ROOT }
+			e_empire0203 = { add_claim = ROOT }
+			e_empire0223 = { add_claim = ROOT }
+			e_united_states = { add_claim = ROOT }
+			e_latin_america = { add_claim = ROOT }
+			e_empire0302 = { add_claim = ROOT }
+			e_empire0305 = { add_claim = ROOT }
+			e_empire0350 = { add_claim = ROOT }
+			e_empire0351 = { add_claim = ROOT }
+			e_empire0372 = { add_claim = ROOT }
+			e_empire0383 = { add_claim = ROOT }
+			e_empire0393 = { add_claim = ROOT }
+			e_empire0454 = { add_claim = ROOT }
+			e_empire0504 = { add_claim = ROOT }
+			e_empire0513 = { add_claim = ROOT }
+			e_european_union = { add_claim = ROOT }
+			e_empire0531 = { add_claim = ROOT }
+			e_empire0560 = { add_claim = ROOT }
+			e_empire0604 = { add_claim = ROOT }
+			e_empire0711 = { add_claim = ROOT }
+			e_empire0717 = { add_claim = ROOT }
+			e_empire0750 = { add_claim = ROOT }
+			e_empire0786 = { add_claim = ROOT }
+			e_empire0836 = { add_claim = ROOT }
+			e_empire0897 = { add_claim = ROOT }
+			e_empire0953 = { add_claim = ROOT }
+			e_empire0970 = { add_claim = ROOT }
+			e_empire0976 = { add_claim = ROOT }
+			e_empire0982 = { add_claim = ROOT }
+			e_empire1005 = { add_claim = ROOT }
+			e_empire1034 = { add_claim = ROOT }
+			e_empire1073 = { add_claim = ROOT }
+			e_empire1097 = { add_claim = ROOT }
+			e_empire1102 = { add_claim = ROOT }
+			e_empire1145 = { add_claim = ROOT }
+			e_empire1175 = { add_claim = ROOT }
+			e_empire1184 = { add_claim = ROOT }
+			e_empire1243 = { add_claim = ROOT }
+			e_empire1252 = { add_claim = ROOT }
+			e_empire1322 = { add_claim = ROOT }
+			e_empire1378 = { add_claim = ROOT }
+			e_empire1388 = { add_claim = ROOT }
+			e_empire1401 = { add_claim = ROOT }
+			e_empire1405 = { add_claim = ROOT }
+			e_empire1460 = { add_claim = ROOT }
+			e_empire1508 = { add_claim = ROOT }
+			e_empire1513 = { add_claim = ROOT }
+			e_empire1522 = { add_claim = ROOT }
+			e_empire1530 = { add_claim = ROOT }
+			e_empire1539 = { add_claim = ROOT }
+			e_empire1548 = { add_claim = ROOT }
+			e_empire1596 = { add_claim = ROOT }
+			e_empire1682 = { add_claim = ROOT }
+			e_empire1702 = { add_claim = ROOT }
+			e_empire1705 = { add_claim = ROOT }
+			e_empire1719 = { add_claim = ROOT }
+			e_empire1771 = { add_claim = ROOT }
+			e_empire1780 = { add_claim = ROOT }
+			e_empire1858 = { add_claim = ROOT }
+			e_empire1925 = { add_claim = ROOT }
+			e_empire1994 = { add_claim = ROOT }
+			e_empire2009 = { add_claim = ROOT }
+			e_empire2014 = { add_claim = ROOT }
+			e_empire2021 = { add_claim = ROOT }
+			e_empire2038 = { add_claim = ROOT }
+			e_empire2049 = { add_claim = ROOT }
+			e_empire2059 = { add_claim = ROOT }
+			e_empire2155 = { add_claim = ROOT }
+			e_empire2158 = { add_claim = ROOT }
+			e_empire2174 = { add_claim = ROOT }
+			e_empire2176 = { add_claim = ROOT }
+
+		}
+	}
 	1065.1.1={
 		effect={
 			add_rival=776001
@@ -99,8 +183,97 @@
 	trait=brilliant_strategist
 	trait=full_cybernetic_conversion
 	trait=clone
+	trait=quick
+	trait=beautiful
+	trait=strong
+	trait=agile
+	trait=tall
 	immortal_age = 25
 	1.1.2={birth=yes}
+	1065.1.1 = {
+		effect = {
+			e_empire0711 = { add_claim = ROOT }
+			e_ashlander_empire = { add_claim = ROOT }
+			e_empire0009 = { add_claim = ROOT }
+			e_empire0024 = { add_claim = ROOT }
+			e_empire0041 = { add_claim = ROOT }
+			e_empire0046 = { add_claim = ROOT }
+			e_empire0048 = { add_claim = ROOT }
+			e_empire0056 = { add_claim = ROOT }
+			e_empire0188 = { add_claim = ROOT }
+			e_empire0203 = { add_claim = ROOT }
+			e_empire0223 = { add_claim = ROOT }
+			e_united_states = { add_claim = ROOT }
+			e_latin_america = { add_claim = ROOT }
+			e_empire0302 = { add_claim = ROOT }
+			e_empire0305 = { add_claim = ROOT }
+			e_empire0350 = { add_claim = ROOT }
+			e_empire0351 = { add_claim = ROOT }
+			e_empire0372 = { add_claim = ROOT }
+			e_empire0383 = { add_claim = ROOT }
+			e_empire0393 = { add_claim = ROOT }
+			e_empire0454 = { add_claim = ROOT }
+			e_empire0504 = { add_claim = ROOT }
+			e_empire0513 = { add_claim = ROOT }
+			e_european_union = { add_claim = ROOT }
+			e_empire0531 = { add_claim = ROOT }
+			e_empire0560 = { add_claim = ROOT }
+			e_empire0604 = { add_claim = ROOT }
+			e_empire0711 = { add_claim = ROOT }
+			e_empire0717 = { add_claim = ROOT }
+			e_empire0750 = { add_claim = ROOT }
+			e_empire0786 = { add_claim = ROOT }
+			e_empire0836 = { add_claim = ROOT }
+			e_empire0897 = { add_claim = ROOT }
+			e_empire0953 = { add_claim = ROOT }
+			e_empire0970 = { add_claim = ROOT }
+			e_empire0976 = { add_claim = ROOT }
+			e_empire0982 = { add_claim = ROOT }
+			e_empire1005 = { add_claim = ROOT }
+			e_empire1034 = { add_claim = ROOT }
+			e_empire1073 = { add_claim = ROOT }
+			e_empire1097 = { add_claim = ROOT }
+			e_empire1102 = { add_claim = ROOT }
+			e_empire1145 = { add_claim = ROOT }
+			e_empire1175 = { add_claim = ROOT }
+			e_empire1184 = { add_claim = ROOT }
+			e_empire1243 = { add_claim = ROOT }
+			e_empire1252 = { add_claim = ROOT }
+			e_empire1322 = { add_claim = ROOT }
+			e_empire1378 = { add_claim = ROOT }
+			e_empire1388 = { add_claim = ROOT }
+			e_empire1401 = { add_claim = ROOT }
+			e_empire1405 = { add_claim = ROOT }
+			e_empire1460 = { add_claim = ROOT }
+			e_empire1508 = { add_claim = ROOT }
+			e_empire1513 = { add_claim = ROOT }
+			e_empire1522 = { add_claim = ROOT }
+			e_empire1530 = { add_claim = ROOT }
+			e_empire1539 = { add_claim = ROOT }
+			e_empire1548 = { add_claim = ROOT }
+			e_empire1596 = { add_claim = ROOT }
+			e_empire1682 = { add_claim = ROOT }
+			e_empire1702 = { add_claim = ROOT }
+			e_empire1705 = { add_claim = ROOT }
+			e_empire1719 = { add_claim = ROOT }
+			e_empire1771 = { add_claim = ROOT }
+			e_empire1780 = { add_claim = ROOT }
+			e_empire1858 = { add_claim = ROOT }
+			e_empire1925 = { add_claim = ROOT }
+			e_empire1994 = { add_claim = ROOT }
+			e_empire2009 = { add_claim = ROOT }
+			e_empire2014 = { add_claim = ROOT }
+			e_empire2021 = { add_claim = ROOT }
+			e_empire2038 = { add_claim = ROOT }
+			e_empire2049 = { add_claim = ROOT }
+			e_empire2059 = { add_claim = ROOT }
+			e_empire2155 = { add_claim = ROOT }
+			e_empire2158 = { add_claim = ROOT }
+			e_empire2174 = { add_claim = ROOT }
+			e_empire2176 = { add_claim = ROOT }
+
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 10000
@@ -138,6 +311,11 @@
 	trait=wrath
 	trait=brilliant_strategist
 	trait=full_cybernetic_conversion
+	trait=genius
+	trait=attractive
+	trait=strong
+	trait=agile
+	trait=tall
 	trait=clone
 	immortal_age = 25
 	1.1.2={birth=yes}
@@ -147,6 +325,90 @@
 		}
 		effect={
 			add_rival=775999
+		}
+	}
+	1065.1.1 = {
+		effect = {
+			e_empire0711 = { add_claim = ROOT }
+			e_ashlander_empire = { add_claim = ROOT }
+			e_empire0009 = { add_claim = ROOT }
+			e_empire0024 = { add_claim = ROOT }
+			e_empire0041 = { add_claim = ROOT }
+			e_empire0046 = { add_claim = ROOT }
+			e_empire0048 = { add_claim = ROOT }
+			e_empire0056 = { add_claim = ROOT }
+			e_empire0188 = { add_claim = ROOT }
+			e_empire0203 = { add_claim = ROOT }
+			e_empire0223 = { add_claim = ROOT }
+			e_united_states = { add_claim = ROOT }
+			e_latin_america = { add_claim = ROOT }
+			e_empire0302 = { add_claim = ROOT }
+			e_empire0305 = { add_claim = ROOT }
+			e_empire0350 = { add_claim = ROOT }
+			e_empire0351 = { add_claim = ROOT }
+			e_empire0372 = { add_claim = ROOT }
+			e_empire0383 = { add_claim = ROOT }
+			e_empire0393 = { add_claim = ROOT }
+			e_empire0454 = { add_claim = ROOT }
+			e_empire0504 = { add_claim = ROOT }
+			e_empire0513 = { add_claim = ROOT }
+			e_european_union = { add_claim = ROOT }
+			e_empire0531 = { add_claim = ROOT }
+			e_empire0560 = { add_claim = ROOT }
+			e_empire0604 = { add_claim = ROOT }
+			e_empire0711 = { add_claim = ROOT }
+			e_empire0717 = { add_claim = ROOT }
+			e_empire0750 = { add_claim = ROOT }
+			e_empire0786 = { add_claim = ROOT }
+			e_empire0836 = { add_claim = ROOT }
+			e_empire0897 = { add_claim = ROOT }
+			e_empire0953 = { add_claim = ROOT }
+			e_empire0970 = { add_claim = ROOT }
+			e_empire0976 = { add_claim = ROOT }
+			e_empire0982 = { add_claim = ROOT }
+			e_empire1005 = { add_claim = ROOT }
+			e_empire1034 = { add_claim = ROOT }
+			e_empire1073 = { add_claim = ROOT }
+			e_empire1097 = { add_claim = ROOT }
+			e_empire1102 = { add_claim = ROOT }
+			e_empire1145 = { add_claim = ROOT }
+			e_empire1175 = { add_claim = ROOT }
+			e_empire1184 = { add_claim = ROOT }
+			e_empire1243 = { add_claim = ROOT }
+			e_empire1252 = { add_claim = ROOT }
+			e_empire1322 = { add_claim = ROOT }
+			e_empire1378 = { add_claim = ROOT }
+			e_empire1388 = { add_claim = ROOT }
+			e_empire1401 = { add_claim = ROOT }
+			e_empire1405 = { add_claim = ROOT }
+			e_empire1460 = { add_claim = ROOT }
+			e_empire1508 = { add_claim = ROOT }
+			e_empire1513 = { add_claim = ROOT }
+			e_empire1522 = { add_claim = ROOT }
+			e_empire1530 = { add_claim = ROOT }
+			e_empire1539 = { add_claim = ROOT }
+			e_empire1548 = { add_claim = ROOT }
+			e_empire1596 = { add_claim = ROOT }
+			e_empire1682 = { add_claim = ROOT }
+			e_empire1702 = { add_claim = ROOT }
+			e_empire1705 = { add_claim = ROOT }
+			e_empire1719 = { add_claim = ROOT }
+			e_empire1771 = { add_claim = ROOT }
+			e_empire1780 = { add_claim = ROOT }
+			e_empire1858 = { add_claim = ROOT }
+			e_empire1925 = { add_claim = ROOT }
+			e_empire1994 = { add_claim = ROOT }
+			e_empire2009 = { add_claim = ROOT }
+			e_empire2014 = { add_claim = ROOT }
+			e_empire2021 = { add_claim = ROOT }
+			e_empire2038 = { add_claim = ROOT }
+			e_empire2049 = { add_claim = ROOT }
+			e_empire2059 = { add_claim = ROOT }
+			e_empire2155 = { add_claim = ROOT }
+			e_empire2158 = { add_claim = ROOT }
+			e_empire2174 = { add_claim = ROOT }
+			e_empire2176 = { add_claim = ROOT }
+
 		}
 	}
 	1066.1.1 = {
@@ -271,6 +533,90 @@
 	67.1.1={
 		add_spouse = 776007
 	}
+	1065.1.1 = {
+		effect = {
+			e_empire0711 = { add_claim = ROOT }
+			e_ashlander_empire = { add_claim = ROOT }
+			e_empire0009 = { add_claim = ROOT }
+			e_empire0024 = { add_claim = ROOT }
+			e_empire0041 = { add_claim = ROOT }
+			e_empire0046 = { add_claim = ROOT }
+			e_empire0048 = { add_claim = ROOT }
+			e_empire0056 = { add_claim = ROOT }
+			e_empire0188 = { add_claim = ROOT }
+			e_empire0203 = { add_claim = ROOT }
+			e_empire0223 = { add_claim = ROOT }
+			e_united_states = { add_claim = ROOT }
+			e_latin_america = { add_claim = ROOT }
+			e_empire0302 = { add_claim = ROOT }
+			e_empire0305 = { add_claim = ROOT }
+			e_empire0350 = { add_claim = ROOT }
+			e_empire0351 = { add_claim = ROOT }
+			e_empire0372 = { add_claim = ROOT }
+			e_empire0383 = { add_claim = ROOT }
+			e_empire0393 = { add_claim = ROOT }
+			e_empire0454 = { add_claim = ROOT }
+			e_empire0504 = { add_claim = ROOT }
+			e_empire0513 = { add_claim = ROOT }
+			e_european_union = { add_claim = ROOT }
+			e_empire0531 = { add_claim = ROOT }
+			e_empire0560 = { add_claim = ROOT }
+			e_empire0604 = { add_claim = ROOT }
+			e_empire0711 = { add_claim = ROOT }
+			e_empire0717 = { add_claim = ROOT }
+			e_empire0750 = { add_claim = ROOT }
+			e_empire0786 = { add_claim = ROOT }
+			e_empire0836 = { add_claim = ROOT }
+			e_empire0897 = { add_claim = ROOT }
+			e_empire0953 = { add_claim = ROOT }
+			e_empire0970 = { add_claim = ROOT }
+			e_empire0976 = { add_claim = ROOT }
+			e_empire0982 = { add_claim = ROOT }
+			e_empire1005 = { add_claim = ROOT }
+			e_empire1034 = { add_claim = ROOT }
+			e_empire1073 = { add_claim = ROOT }
+			e_empire1097 = { add_claim = ROOT }
+			e_empire1102 = { add_claim = ROOT }
+			e_empire1145 = { add_claim = ROOT }
+			e_empire1175 = { add_claim = ROOT }
+			e_empire1184 = { add_claim = ROOT }
+			e_empire1243 = { add_claim = ROOT }
+			e_empire1252 = { add_claim = ROOT }
+			e_empire1322 = { add_claim = ROOT }
+			e_empire1378 = { add_claim = ROOT }
+			e_empire1388 = { add_claim = ROOT }
+			e_empire1401 = { add_claim = ROOT }
+			e_empire1405 = { add_claim = ROOT }
+			e_empire1460 = { add_claim = ROOT }
+			e_empire1508 = { add_claim = ROOT }
+			e_empire1513 = { add_claim = ROOT }
+			e_empire1522 = { add_claim = ROOT }
+			e_empire1530 = { add_claim = ROOT }
+			e_empire1539 = { add_claim = ROOT }
+			e_empire1548 = { add_claim = ROOT }
+			e_empire1596 = { add_claim = ROOT }
+			e_empire1682 = { add_claim = ROOT }
+			e_empire1702 = { add_claim = ROOT }
+			e_empire1705 = { add_claim = ROOT }
+			e_empire1719 = { add_claim = ROOT }
+			e_empire1771 = { add_claim = ROOT }
+			e_empire1780 = { add_claim = ROOT }
+			e_empire1858 = { add_claim = ROOT }
+			e_empire1925 = { add_claim = ROOT }
+			e_empire1994 = { add_claim = ROOT }
+			e_empire2009 = { add_claim = ROOT }
+			e_empire2014 = { add_claim = ROOT }
+			e_empire2021 = { add_claim = ROOT }
+			e_empire2038 = { add_claim = ROOT }
+			e_empire2049 = { add_claim = ROOT }
+			e_empire2059 = { add_claim = ROOT }
+			e_empire2155 = { add_claim = ROOT }
+			e_empire2158 = { add_claim = ROOT }
+			e_empire2174 = { add_claim = ROOT }
+			e_empire2176 = { add_claim = ROOT }
+
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 2500
@@ -360,12 +706,96 @@
 	combat_rating=100
 	stewardship=20
 	70.1.1={birth=yes}
-	#1065.1.1 = {
-	#	effect = {
-	#		e_empire1184 = { add_claim = ROOT }
-	#		k_kingdom1184 = {add_claim = ROOT }
-	#	}
-	#}
+	1065.1.1 = {
+		effect = {
+			e_empire1184 = { add_claim = ROOT }
+			k_kingdom1184 = {add_claim = ROOT }
+		}
+	}
+	1065.1.2 = {
+		effect = {
+			e_empire0711 = { add_claim = ROOT }
+			e_ashlander_empire = { add_claim = ROOT }
+			e_empire0009 = { add_claim = ROOT }
+			e_empire0024 = { add_claim = ROOT }
+			e_empire0041 = { add_claim = ROOT }
+			e_empire0046 = { add_claim = ROOT }
+			e_empire0048 = { add_claim = ROOT }
+			e_empire0056 = { add_claim = ROOT }
+			e_empire0188 = { add_claim = ROOT }
+			e_empire0203 = { add_claim = ROOT }
+			e_empire0223 = { add_claim = ROOT }
+			e_united_states = { add_claim = ROOT }
+			e_latin_america = { add_claim = ROOT }
+			e_empire0302 = { add_claim = ROOT }
+			e_empire0305 = { add_claim = ROOT }
+			e_empire0350 = { add_claim = ROOT }
+			e_empire0351 = { add_claim = ROOT }
+			e_empire0372 = { add_claim = ROOT }
+			e_empire0383 = { add_claim = ROOT }
+			e_empire0393 = { add_claim = ROOT }
+			e_empire0454 = { add_claim = ROOT }
+			e_empire0504 = { add_claim = ROOT }
+			e_empire0513 = { add_claim = ROOT }
+			e_european_union = { add_claim = ROOT }
+			e_empire0531 = { add_claim = ROOT }
+			e_empire0560 = { add_claim = ROOT }
+			e_empire0604 = { add_claim = ROOT }
+			e_empire0711 = { add_claim = ROOT }
+			e_empire0717 = { add_claim = ROOT }
+			e_empire0750 = { add_claim = ROOT }
+			e_empire0786 = { add_claim = ROOT }
+			e_empire0836 = { add_claim = ROOT }
+			e_empire0897 = { add_claim = ROOT }
+			e_empire0953 = { add_claim = ROOT }
+			e_empire0970 = { add_claim = ROOT }
+			e_empire0976 = { add_claim = ROOT }
+			e_empire0982 = { add_claim = ROOT }
+			e_empire1005 = { add_claim = ROOT }
+			e_empire1034 = { add_claim = ROOT }
+			e_empire1073 = { add_claim = ROOT }
+			e_empire1097 = { add_claim = ROOT }
+			e_empire1102 = { add_claim = ROOT }
+			e_empire1145 = { add_claim = ROOT }
+			e_empire1175 = { add_claim = ROOT }
+			#e_empire1184 = { add_claim = ROOT }
+			e_empire1243 = { add_claim = ROOT }
+			e_empire1252 = { add_claim = ROOT }
+			e_empire1322 = { add_claim = ROOT }
+			e_empire1378 = { add_claim = ROOT }
+			e_empire1388 = { add_claim = ROOT }
+			e_empire1401 = { add_claim = ROOT }
+			e_empire1405 = { add_claim = ROOT }
+			e_empire1460 = { add_claim = ROOT }
+			e_empire1508 = { add_claim = ROOT }
+			e_empire1513 = { add_claim = ROOT }
+			e_empire1522 = { add_claim = ROOT }
+			e_empire1530 = { add_claim = ROOT }
+			e_empire1539 = { add_claim = ROOT }
+			e_empire1548 = { add_claim = ROOT }
+			e_empire1596 = { add_claim = ROOT }
+			e_empire1682 = { add_claim = ROOT }
+			e_empire1702 = { add_claim = ROOT }
+			e_empire1705 = { add_claim = ROOT }
+			e_empire1719 = { add_claim = ROOT }
+			e_empire1771 = { add_claim = ROOT }
+			e_empire1780 = { add_claim = ROOT }
+			e_empire1858 = { add_claim = ROOT }
+			e_empire1925 = { add_claim = ROOT }
+			e_empire1994 = { add_claim = ROOT }
+			e_empire2009 = { add_claim = ROOT }
+			e_empire2014 = { add_claim = ROOT }
+			e_empire2021 = { add_claim = ROOT }
+			e_empire2038 = { add_claim = ROOT }
+			e_empire2049 = { add_claim = ROOT }
+			e_empire2059 = { add_claim = ROOT }
+			e_empire2155 = { add_claim = ROOT }
+			e_empire2158 = { add_claim = ROOT }
+			e_empire2174 = { add_claim = ROOT }
+			e_empire2176 = { add_claim = ROOT }
+
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 5000
@@ -403,7 +833,7 @@
 }
 776016={
 	name="Nefertem"
-	dynasty=77600
+	#dynasty=77600
 	culture=blood_elven 
 	religion=egyptian_pagan
 	father=776015
@@ -416,7 +846,7 @@
 }
 776017={
 	name="Imhotep"
-	dynasty=77600
+	#dynasty=77600
 	culture=blood_elven 
 	religion=egyptian_pagan
 	father=776015
