@@ -168,7 +168,7 @@ PROV166;Nareth;Nareth;Nareth;;Nareth;;;;;;;;;x
 PROV167;Eligugei;Eligugei;Eligugei;;Eligugei;;;;;;;;;x
 PROV168;Lahucha;Lahucha;Lahucha;;Lahucha;;;;;;;;;x
 PROV169;Etanila;Etanila;Etanila;;Etanila;;;;;;;;;x
-PROV170;Mojave;Mojave;Mojave;;Mojave;;;;;;;;;x
+PROV170;Nevada;Nevada;Nevada;;Nevada;;;;;;;;;x
 PROV171;Kicida;Kicida;Kicida;;Kicida;;;;;;;;;x
 PROV172;Talapo;Talapo;Talapo;;Talapo;;;;;;;;;x
 PROV173;Qilayya;Qilayya;Qilayya;;Qilayya;;;;;;;;;x
@@ -4055,8 +4055,8 @@ b_barony0169f;Nateike;Nateike;Nateike;;Nateike;;;;;;;;;x
 b_barony0169g;Wanall;Wanall;Wanall;;Wanall;;;;;;;;;x
 c_province0170_adj;Mojavian;Mojavian;Mojavian;;Mojavian;;;;;;;;;x
 b_barony0170`;Las Vegas;Las Vegas;Las Vegas;;Las Vegas;;;;;;;;;x
-b_barony0170a;Mojave;Mojave;Mojave;;Mojave;;;;;;;;;x
-b_barony0170b;Nareere;Nareere;Nareere;;Nareere;;;;;;;;;x
+b_barony0170a;Reno;Reno;Reno;;Reno;;;;;;;;;x
+b_barony0170b;Carson;Carson;Carson;;Carson;;;;;;;;;x
 b_barony0170c;Rieragh;Rieragh;Rieragh;;Rieragh;;;;;;;;;x
 b_barony0170d;Bidenna;Bidenna;Bidenna;;Bidenna;;;;;;;;;x
 b_barony0170e;Dosith;Dosith;Dosith;;Dosith;;;;;;;;;x

@@ -1,5 +1,5 @@
 1058.1.1 = {
-	holding_dynasty = 101412 # de San Jose - makes this a FAMILY_PALACE type Holding
+	holding_dynasty = 101810 # de San Jose - makes this a FAMILY_PALACE type Holding
 	liege="k_california"
-	holder = 202825
+	holder = 101815 #202825
 }

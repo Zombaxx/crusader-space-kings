@@ -1,0 +1,13 @@
+#character
+
+on_bi_yearly_pulse = {
+	events = {
+		SM.2 # Clear out horde flag
+	}
+}
+
+on_focus_pulse = {
+	random_events = {
+		60 = SM.20  # Random bandit troops
+	}
+}
