@@ -1,0 +1,73 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	option = {										# please note that the first option is always the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		achievements = no							# by default achievements = yes, allows or disallows achievements
+#	}
+# }
+
+sm_horde_size = {
+	name = "SM_HORDE_SIZE_RULE"
+	group = "SM_RANDOM_HORDES"
+	option = {
+		name = horde_default
+		text = SM_HORDE_SIZE_DEFAULT
+		desc = SM_HORDE_SIZE_DEFAULT_DESC
+	}
+	option = {
+		name = horde_scaled
+		text = SM_HORDE_SIZE_SCALED
+		desc = SM_HORDE_SIZE_SCALED_DESC
+	}
+}
+
+sm_horde_delay = {
+	name = "SM_HORDE_DELAY_RULE"
+	group = "SM_RANDOM_HORDES"
+	option = {
+		name = horde_delay
+		text = SM_HORDE_DELAY
+		desc = SM_HORDE_DELAY_DESC
+	}
+	option = {
+		name = horde_nodelay
+		text = SM_HORDE_NODELAY
+		desc = SM_HORDE_NODELAY_DESC
+	}
+}
+
+sm_horde_freq = {
+	name = "SM_HORDE_FREQ_RULE"
+	group = "SM_RANDOM_HORDES"
+	option = {
+		name = horde_default
+		text = SM_HORDE_FREQ_DEFAULT
+		desc = SM_HORDE_FREQ_DEFAULT_DESC
+	}
+	option = {
+		name = horde_slow
+		text = SM_HORDE_FREQ_SLOW
+		desc = SM_HORDE_FREQ_SLOW_DESC
+	}
+	option = {
+		name = horde_fast
+		text = SM_HORDE_FREQ_FAST
+		desc = SM_HORDE_FREQ_FAST_DESC
+	}
+	option = {
+		name = horde_insane
+		text = SM_HORDE_FREQ_INSANE
+		desc = SM_HORDE_FREQ_INSANE_DESC
+	}
+	option = {
+		name = horde_off
+		text = SM_HORDE_FREQ_OFF
+		desc = SM_HORDE_FREQ_OFF_DESC
+	}
+}

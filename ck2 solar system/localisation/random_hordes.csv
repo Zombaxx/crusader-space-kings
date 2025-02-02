@@ -1,0 +1,26 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+SM.1.desc.gen;My liege, there are rumours that [Root.GetTitledFirstName] has gathered together a massive army of soldiers, mercenaries and loyalists and is ready to stake [Root.GetHerHis] claim on the world;;;;;;;;;;;;;x
+SM.1.desc.gen2;My liege, reports are coming in fast from fleeing villagers that [Root.GetTitledFirstName] has united a massive army to prepare a grand campaign of conquest. ;;;;;;;;;;;;;x
+SM.1.desc.cath;My liege, a sect of priests have been spreading word that [Root.GetTitledFirstName] is the true emperor of the catholic faith and carries the true word of god. A massive army of people from neighbouring lands are converging to give [Root.GetTitledFirstName] their blessing and support;;;;;;;;;;;;;x
+SM.1.desc.nomad;My liege, what a site to behold, many great clans from the far east have made a blood pact with [Root.GetTitledFirstName]. This is a dangerous threat to the stability of our lands;;;;;;;;;;;;;x
+SM.1.desc.tribe;My liege, there is word that [Root.GetTitledFirstName] has united a number of major tribes and is planning to pillage, plunder and conquer all who would oppose there great rule ;;;;;;;;;;;;;x
+SM.1.desc.feudal;My liege, coin has been traded, women married and land promised, we have word that [Root.GetTitledFirstName] has gathered together an army of knights and ordinary folk. It seems he is not content to sit idle while there are lands that are ripe for the taking.;;;;;;;;;;;;;x
+SM.1.desc.heretic;My liege, the foul heresy surrounding [Root.GetTitledFirstName] has attracted a large number of like minded soldiers and loyalists. It could be the signs of a major religious expansion drive.;;;;;;;;;;;;;x
+SM.1.desc.republic;My leige, troubling news a great army of mercenaries have been brought by [Root.GetTitledFirstName] in the many thousands. It seems [Root.GetSheHe] wishes to expand the republic into a great new nation and show the world money really does buy everything.;;;;;;;;;;;;;x
+SM.1.desc.norse;My liege, the shamans of [Root.GetTitledFirstName] are preparing for war, claiming it is time to bring there ruler and people into a new age of prosperity. They could be of great deal of trouble in the future.;;;;;;;;;;;;;x
+SM.1.title;A new great power arises;;;;;;;;;;;;;x
+SM.1.option;All hail our glorious leader;;;;;;;;;;;;;x
+SM.1.option2;Troubling indeed...;;;;;;;;;;;;;x
+SM_HORDE_SUBJUGATION;Horde Subjugation;;;;;;;;;;;;;x
+WAR_NAME_HORDE_SUBJUGATION;Great Subjugation War;;;;;;;;;;;;;x
+horde_subjugation_desc;This CB allows you to wage a great expansionist war to subjugate a kingdom and the ruler to your growing empire. All titles of the target kingdom will be subjugated. An entire empire cannot be subjugated.;;;;;;;;;;;;;x
+SM_normal_spawn_hordes;Encourage Random Hordes;;;;;;;;;;;;;x
+SM_normal_spawn_hordes_desc;Random hordes will spawn at the default number of troops;;;;;;;;;;;;;x
+SM_low_spawn_hordes;Restrict Random Hordes;;;;;;;;;;;;;x
+SM_low_spawn_hordes_desc;Random hordes will now spawn with a smaller number of troops;;;;;;;;;;;;;x
+SM_low_spawn_action;Smaller number of troops spawned by random hordes;;;;;;;;;;;;;x
+SM_normal_spawn_action;Default number of troops spawned by random hordes;;;;;;;;;;;;;x
+SM.20.title;Merceneries for hire;;;;;;;;;;;;;x
+SM.20.desc;A small bandit mercenary company have heard of your deeds and desires and offer there services to you for a reduced price;;;;;;;;;;;;;x
+SM.20.option;Hire the mercenaries;;;;;;;;;;;;;x
+SM.20.option2;I have no need for bandits;;;;;;;;;;;;;x

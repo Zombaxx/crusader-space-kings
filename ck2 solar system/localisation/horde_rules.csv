@@ -1,0 +1,25 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+SM_HORDE_SIZE_RULE;Random Horde Size;;;;;;;;;;;;;x
+SM_HORDE_SIZE_DESC;Configure the number of troops raised during a random horde event;;;;;;;;;;;;;x
+SM_HORDE_SIZE_DEFAULT;Default;;;;;;;;;;;;;x
+SM_HORDE_SIZE_DEFAULT_DESC;Random hordes spawn with a noticeable number of troops that scale based on year;;;;;;;;;;;;;x
+SM_HORDE_SIZE_SCALED;Scaled;;;;;;;;;;;;;x
+SM_HORDE_SIZE_SCALED_DESC;Random hordes spawn troops that scale based on there current troop counts. This works better for shattered map mods;;;;;;;;;;;;;x
+SM_HORDE_FREQ_RULE;Random Horde Spawn Rate;;;;;;;;;;;;;x
+SM_HORDE_FREQ_DESC;How often random horde events occur;;;;;;;;;;;;;x
+SM_HORDE_FREQ_DEFAULT;Default;;;;;;;;;;;;;x
+SM_HORDE_FREQ_DEFAULT_DESC;Standard spawn rate of 3% every 15 years, and a minimum of 50 years between spawns;;;;;;;;;;;;;x
+SM_HORDE_FREQ_SLOW;Low;;;;;;;;;;;;;x
+SM_HORDE_FREQ_SLOW_DESC;Spawn rate of 1% every 25 years, and a minimum of 50 years between spawns;;;;;;;;;;;;;x
+SM_HORDE_FREQ_FAST;High;;;;;;;;;;;;;x
+SM_HORDE_FREQ_FAST_DESC;Spawn rate of 9% every 8 years, and a minimum of 50 years between spawns;;;;;;;;;;;;;x
+SM_HORDE_FREQ_INSANE;Insane;;;;;;;;;;;;;x
+SM_HORDE_FREQ_INSANE_DESC;Spawn rate of 15% every 5 years, and a minimum of 10 years between spawns;;;;;;;;;;;;;x
+SM_HORDE_FREQ_OFF;Off;;;;;;;;;;;;;x
+SM_HORDE_FREQ_OFF_DESC;Disables random horde spawning;;;;;;;;;;;;;x
+SM_HORDE_DELAY_RULE;Random Horde Start Delay;;;;;;;;;;;;;x
+SM_HORDE_DELAY;Delayed;;;;;;;;;;;;;x
+SM_HORDE_NODELAY;Immediate;;;;;;;;;;;;;x
+SM_HORDE_DELAY_DESC;Random hordes will not spawn until 10 years into the game;;;;;;;;;;;;;x
+SM_HORDE_NODELAY_DESC;Random hordes can spawn at game start;;;;;;;;;;;;;x
+SM_RANDOM_HORDES;Random Hordes;;;;;;;;;;;;;x
