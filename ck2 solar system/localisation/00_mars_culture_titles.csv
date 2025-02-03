@@ -66,14 +66,14 @@ city_duke_latin;Doge;Doge;Doge;;Dux;;;;;;;;;x
 city_duke_byzantine;Doge;Doge;Doge;;Dux;;;;;;;;;x
 #king_russian;Putin;;;x
 #king_female_russian;Putina;;;x
-king_norse_pagan;Pirate King;;;;;;;;;;;;;x
-king_female_norse_pagan;Pirate Queen;;;;;;;;;x
-duke_norse_pagan;Pirate Duke;;;;;;;;;x
-duke_female_norse_pagan;Pirate Duchess;;;;;;;;;x
+king_norse_pagan;Kingpin;;;;;;;;;;;;;x
+king_female_norse_pagan;Queenpin;;;;;;;;;x
+duke_norse_pagan;Boss;;;;;;;;;x
+duke_female_norse_pagan;Boss;;;;;;;;;x
 count_norse_pagan;Space-Pirate;;;;;;;;;x
 count_female_norse_pagan;Space-Pirate;;;;;;;;;x
-baron_norse_pagan;Pirate;;;;;;;;;x
-baron_female_norse_pagan;Pirate;;;;;;;;;x
+baron_norse_pagan;Gangster;;;;;;;;;x
+baron_female_norse_pagan;Gangster;;;;;;;;;x
 
 #Arabic/Martian
 

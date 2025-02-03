@@ -32,6 +32,30 @@ byzantine_elective = {
 			vassal_of = FROMFROM 
 			has_minor_title = title_commander
 		}
+		additive_modifier = { 
+			value = 10
+			FROMFROM = { #Either title is higher than Duke-tier, or must be primary.
+				OR = { 
+					higher_tier_than = DUKE
+					holder_scope = { primary_title = { title = PREVPREV } }
+				}
+			}
+			vassal_of = FROMFROM 
+			OR = { #Any vassals of one or two lower tiers than the main title are viable Electors.
+				AND = {
+					FROMFROM = { real_tier = DUKE }
+					is_ruler = yes
+				}
+				AND = {
+					FROMFROM = { real_tier = KING }
+					higher_real_tier_than = BARON
+				}
+				AND = {
+					FROMFROM = { real_tier = EMPEROR }
+					higher_real_tier_than = COUNT
+				}
+			}
+		}
 	}
 	elector_vote_strength = { 
 		days = 5 # 1 elector = 5 votes.
@@ -4733,6 +4757,7 @@ byzantine_elective = {
 	
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = { #Close relatives, claimants, marshals. No mutilations (if byzantine)
+		is_adult = yes
 		NOT = { character = FROM } #Not the current ruler.
 		FROM = { 
 			NOR = { 
@@ -4757,13 +4782,52 @@ byzantine_elective = {
 		OR = {
 			FROM = { any_claim = { title = ROOT_FROMFROM } }
 			ROOT = { is_close_relative = FROM }
-			FROM = { 
-				has_job_title = job_marshal
-				vassal_of = ROOT_FROMFROM 
-			}
+			#FROM = { 
+			#	has_job_title = job_marshal
+			#	vassal_of = ROOT_FROMFROM 
+			#}
 			FROM = { 
 				has_minor_title = title_commander
 				vassal_of = ROOT_FROMFROM 
+			}
+			AND = {
+				vassal_of = ROOT_FROMFROM 
+				OR = {
+					has_job_title = job_chancellor
+					has_job_title = job_marshal
+					has_job_title = job_treasurer
+					has_job_title = job_spymaster
+					has_job_title = job_spiritual
+					has_minor_title = title_councilmember_king #Generic advisors
+					has_minor_title = title_councilmember_emperor
+				}
+			}
+			AND = { 
+				OR = { 
+					FROM = { higher_real_tier_than = COUNT } #Or Duke-tier...
+					AND = { 
+						ROOT = { 
+							lower_real_tier_than = KING
+							higher_real_tier_than = COUNT
+						}
+						FROM = { higher_real_tier_than = BARON } #...Or Count-tier under a Duchy...
+					} 
+					AND = { 
+						ROOT = { 
+							lower_real_tier_than = DUKE
+						}
+						FROM = { is_landed = yes is_ruler = yes } #...Or Baron-tier under a County.
+					} 
+				}
+				FROM = { 
+					OR = { #Either defacto direct vassal, or independent ruler who is dejure vassal.
+						vassal_of = ROOT 
+						AND = { 
+						 	any_dejure_liege = { title = ROOT } 
+							independent = yes
+						}
+					}
+				} 
 			}
 		}
 		FROM = {
