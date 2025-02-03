@@ -26,9 +26,7 @@
 			k_kingdom1460 = { add_claim = ROOT }
 			k_phobos = { add_claim = ROOT }
 			e_united_states = { add_claim = ROOT }
-		}
-	}
-spawn_fleet = {
+			spawn_fleet = {
 				province = closest # closest sea zone
 				owner = ROOT
 				cannot_inherit = yes # disbands on inheritance
@@ -37,6 +35,8 @@ spawn_fleet = {
 					galleys = { 50 50 }
 				}
 			}
+		}
+	}
 }
 6666672 = {
 	name = "Griffin"

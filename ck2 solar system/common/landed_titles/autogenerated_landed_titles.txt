@@ -3870,7 +3870,7 @@ e_united_states = {
 		
 		culture = old_frankish
 		
-		sunni = 100
+		#sunni = 100
 		norse_pagan_reformed = 300
 		west_african_pagan_reformed = 300
 		aztec_reformed = 300
