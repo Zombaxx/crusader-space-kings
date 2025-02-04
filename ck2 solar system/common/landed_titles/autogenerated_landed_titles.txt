@@ -3365,6 +3365,8 @@ e_united_states = {
 				color2={ 255 255 255 }
 				
 				holy_site = lollard
+				holy_site = trex_the_new_heresy
+				holy_site = trex_the_heretics	
 				
 				b_san_francisco = {
 				dynasty_title_names = no
@@ -3922,6 +3924,8 @@ e_united_states = {
 				color={ 105 94 115 }
 				color2={ 255 255 255 }
 				
+				holy_site = trex_the_new_heresy
+				holy_site = trex_the_heretics
 				
 				b_district_of_columbia = {
 				dynasty_title_names = no
@@ -4127,9 +4131,7 @@ e_latin_america = {
 				color={ 238 192 76 }
 				color2={ 255 255 255 }
 				
-				holy_site = catholic
-				holy_site = trex_the_new_heresy
-				holy_site = trex_the_heretics				
+				holy_site = catholic				
 				holy_site = dwarven
 				holy_site = lollard
 				
@@ -10508,9 +10510,7 @@ e_european_union = {
 				color={ 155 116 74 }
 				color2={ 255 255 255 }
 				
-				holy_site = catholic
-				holy_site = trex_the_new_heresy
-				holy_site = trex_the_heretics				
+				holy_site = catholic			
 				holy_site = dwarven
 				holy_site = paulician
 				holy_site = bogomilist

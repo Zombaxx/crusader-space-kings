@@ -1,0 +1,19 @@
+name = "Russian Conquest"
+
+casus_belli = {
+	actor = 106215
+	recipient = 106355
+	casus_belli = invasion
+	landed_title=c_province0618
+	date=1066.1.1
+}
+
+#1066.1.2 = {
+#	add_attacker = 140
+#	add_defender = 122
+#}
+#
+#1066.1.2 = {
+#	rem_attacker = 140
+#	rem_defender = 122
+#}

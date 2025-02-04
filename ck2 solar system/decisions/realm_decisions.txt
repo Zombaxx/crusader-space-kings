@@ -1618,16 +1618,57 @@ decisions = {
 		potential = {
 			NOT = { has_global_flag = hre_removed }
 			is_playable = yes
-			has_global_flag = charlemagne_hre
+			#has_global_flag = charlemagne_hre
 			independent = yes
 			OR = {
 				religion = catholic
 				religion = fraticelli
+				religion = orthodox
+				religion = sunni
+				religion = shiite
+				religion = hindu
+				religion = buddhist
+				religion = jain
+				religion = hellenic_pagan_reformed
+				religion = Miaphysite
+				religion = Monophysite
+				religion = nestorian
+				religion = cathar
+				religion = tengri_pagan_reformed
+				religion = qarmatian
+				religion = trex_the_new_heresy
+
 			}
-			#OR = {
-			#	culture = german
-			#	culture = dutch
-			#}
+			OR = {
+				culture = bedouin_arabic
+				culture = greek
+				culture = hausa
+				culture = kanuri
+				culture = old_frankish
+				culture = kannada
+				culture = nubian
+				culture = russian
+				culture = castillan
+				culture = frankish
+				culture = nahuatl
+				culture = zhangzhung
+				culture = manden
+				culture = saxon
+				culture = norse
+				culture = karluk
+				culture = jurchen
+				culture = catalan
+				culture = hindustani
+				culture = pictish
+				culture = roman
+				culture = breton
+				culture = polish
+				culture = dutch
+				culture = songhay
+				culture = kirghiz
+				culture = uyghur
+
+			}
 			e_hre = {
 				has_holder = no
 			}
@@ -1644,18 +1685,19 @@ decisions = {
 				prestige = 1000
 				trait = heavy_worlder
 			}
-			realm_size = 180
-			OR = {
-				has_landed_title = k_south_alba
-				has_landed_title = k_acheron
-				has_landed_title = k_north_alba
-				has_landed_title = k_ceraunius_fossae
-				has_landed_title = k_ascuris
-				has_landed_title = k_uranius
-				has_landed_title = k_west_alba
-				has_landed_title = k_cyane_fossae
-				has_landed_title = k_olympica_fossae
-			}
+			realm_size = 300
+			AND = {			
+				OR = {
+					has_landed_title = e_united_states
+					has_landed_title = e_empire0717
+					has_landed_title = e_european_union
+					has_landed_title = e_empire0531
+					has_landed_title = e_empire0604
+					has_landed_title = e_empire0750
+					has_landed_title = e_empire0836
+					has_landed_title = e_empire0897
+					has_landed_title = e_empire0982
+				}
 			conditional_tooltip = {
 				trigger = {
 					ai = no

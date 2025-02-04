@@ -3901,15 +3901,15 @@ offmap_decisions = {
 						}
 						add_trait = dni
 					}
-					10 = {
-						trigger = {
-							NOT = {
-								trait = hiver_implant
-							}
-						}
-						add_trait = hiver_implant
-		
-					}
+					#10 = {
+					#	trigger = {
+					#		NOT = {
+					#			trait = hiver_implant
+					#		}
+					#	}
+					#	add_trait = hiver_implant
+					#
+					#}
 				}
 			}
 		}

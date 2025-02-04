@@ -407,6 +407,15 @@
 	}
 	1065.1.1 = {
 		effect = {
+			spawn_fleet = {
+				province = closest # closest sea zone
+				owner = ROOT
+				cannot_inherit = yes # disbands on inheritance
+				troops =
+				{
+					galleys = { 185 185 }
+				}
+			}
 			k_kingdom1412 = { add_claim = ROOT }
 			k_kingdom1460 = { add_claim = ROOT }
 			e_empire0711 = { add_claim = ROOT }
