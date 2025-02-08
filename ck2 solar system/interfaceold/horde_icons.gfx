@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SM_low_spawn_hordes"
+		texturefile = "gfx\\interface\\decision_icon_adopt_tribalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_normal_spawn_hordes"
+		texturefile = "gfx\\interface\\decision_icon_raise_tribal_army.dds"
+	}
+}
