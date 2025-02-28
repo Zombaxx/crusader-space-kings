@@ -7,13 +7,16 @@
 	intrigue=20
 	diplomacy=8
 	stewardship=15
+	father=778302
+	trait=clone
+	trait=gmo
 	trait=genius
 	trait=ambitious
 	trait=strong
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
-	1029.1.26={birth=yes}
+	1030.10.1={birth=yes}
 }
 778301={
 	name="Xiang"
@@ -23,6 +26,9 @@
 	intrigue=20
 	diplomacy=8
 	stewardship=15
+	father=778302
+	trait=clone
+	trait=cloning_defects
 	trait=genius
 	trait=ambitious
 	trait=strong
@@ -30,4 +36,428 @@
 	health=3
 	combat_rating=100
 	1029.1.26={birth=yes}
+}
+778302={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	father = 778303
+	1000.1.1={birth=yes}
+	1065.1.1={
+		death = {
+			death_reason = death_battle
+			killer = 107175 # Cywizard Illuminious
+		}
+	}
+	trait=clone
+	stewardship=15
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+}
+778303={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778304
+	950.1.1={birth=yes}
+	1018.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778304={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778305
+	900.1.1={birth=yes}
+	972.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778305={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778306
+	850.1.1={birth=yes}
+	931.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778306={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778307
+	800.1.1={birth=yes}
+	876.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778307={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778308
+	750.1.1={birth=yes}
+	814.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778308={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778309
+	700.1.1={birth=yes}
+	779.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778309={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778310
+	650.1.1={birth=yes}
+	722.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778310={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778311
+	600.1.1={birth=yes}
+	684.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778311={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778312
+	550.1.1={birth=yes}
+	647.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778312={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778313
+	500.1.1={birth=yes}
+	575.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778313={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778314
+	450.1.1={birth=yes}
+	533.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778314={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778315
+	400.1.1={birth=yes}
+	498.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778315={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778316
+	350.1.1={birth=yes}
+	440.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778316={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778317
+	300.1.1={birth=yes}
+	353.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778317={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778318
+	250.1.1={birth=yes}
+	357.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778318={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778319
+	200.1.1={birth=yes}
+	267.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778319={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778320
+	150.1.1={birth=yes}
+	244.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778320={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778321
+	100.1.1={birth=yes}
+	181.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778321={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778322
+	50.1.1={birth=yes}
+	138.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
+}
+778322={
+	name="Xiang"
+	culture=han 
+	religion=taoist
+	military=20
+	intrigue=20
+	diplomacy=8
+	stewardship=15
+	father = 778301
+	1.1.1={birth=yes}
+	100.1.1={death=yes}
+	trait=clone
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
+	
 }
