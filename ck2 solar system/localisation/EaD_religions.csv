@@ -34,8 +34,10 @@ GOD_PROPHET_NAVRUZ;Saint Naveruz;;;;;;;;;;;;;x
 GOD_SHURDUM;Shurdum;;;;;;;;;;;;;x
 GOD_MAD_GOD;The Mad God;;;;;;;;;;;;;x
 GOD_THE_TRAITOR;The Traitor;;;;;;;;;;;;;x
-elven_tribunal_heresy;The True Triarchy;;;;;;;;;;;;;x
-elven_tribunal_heresy_DESC;Followers of the True Triarchy claim that VERIAL are false gods, that replaced the True Triarchy of the ancient deities Alereth, Mali-Ra and Berat-Tashi. Moreover, they claim that it was VERIAL who killed Lord Naveruz, and not Shurdum, who fell into evil and madness because of the betrayal of the False Triarchy.";;;;;;;;;x
+elven_tribunal_heresy;Eternal Mechanism;;;;;;;;;;;;;x
+elven_tribunal_heresy_DESC;The Eternal Mechanism is the majority faith of the last surviving cyborgs of the Proto Civilization, who have largely remained isolated on Ganymede since their last fuel reserves ran out 1066 years ago. They see the universe as a vast, deterministic machine, believing humanity was once near Ascension before the First Great Disaster shattered interplanetary civilization many millennia ago. Their goal is to preserve knowledge, reclaim the many empires, and restore the lost Golden Age with the ancient secrets from the Proto-Civilizations. They meditate on ancient archives, awaiting the day they can reignite the Mechanism and reshape the Solar System in perfect order.;;;;;;;;;x
+#elven_tribunal_heresy;The True Triarchy;;;;;;;;;;;;;x
+#elven_tribunal_heresy_DESC;Followers of the True Triarchy claim that VERIAL are false gods, that replaced the True Triarchy of the ancient deities Alereth, Mali-Ra and Berat-Tashi. Moreover, they claim that it was VERIAL who killed Lord Naveruz, and not Shurdum, who fell into evil and madness because of the betrayal of the False Triarchy.";;;;;;;;;x
 BOOK_OF_TRUE;Book of True;;;;;;;;;;;;;x
 GOD_TRUE_TRIARCHY;The True Triarchy;;;;;;;;;;;;;x
 GOD_ALERET;Lady Alereth;;;;;;;;;;;;;x

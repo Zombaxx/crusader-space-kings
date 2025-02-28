@@ -113,9 +113,17 @@
 	trait=charismatic_negotiator
 	2.2.15={birth=yes}
 	1065.1.1 = {
+		create_bloodline = {
+			type = alexander_bloodline_01
+			has_dlc = "Holy Fury"
+		}
+	}
+	1065.1.1 = {
 		effect = {
 			e_empire0711 = { add_claim = ROOT }
 			e_ashlander_empire = { add_claim = ROOT }
+			k_kingdom1460 = { add_claim = ROOT }
+			
 			e_empire0009 = { add_claim = ROOT }
 			e_empire0024 = { add_claim = ROOT }
 			e_empire0041 = { add_claim = ROOT }
@@ -392,6 +400,11 @@
 	stewardship=20
 	trait=charismatic_negotiator
 	3.5.1={birth=yes}
+	100.1.1 = {
+		effect={
+			add_rival=777777
+		}
+	}
 	1065.1.1 = {
 		effect = {
 			e_empire1184 = { add_claim = ROOT }
@@ -1297,6 +1310,7 @@
 	28.1.1={
 		effect={
 			add_rival=777126
+			add_rival=777777
 		}
 	}
 	1065.1.1 = {
@@ -1563,4 +1577,536 @@
         #    }
 		#}
 	}
+}
+
+777127 = {
+	name = "Adam"
+	dynasty = 77781
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777125
+	#mother = 777126
+	trait=clone
+	trait=cloning_defects
+	trait=gmo
+	trait=organic_wifi
+	11.11.16={birth=yes}
+	29.11.17={
+		add_spouse = 777128
+	}
+	399.3.3={death=yes}
+}
+777128 = {
+	name = "Eve"
+	dynasty = 77781
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777127
+	#mother = 777125
+	female=yes
+	trait=clone
+	trait=cloning_defects
+	trait=gmo
+	trait=organic_wifi
+	11.11.17={birth=yes}
+	29.11.17={
+		add_spouse = 777127
+	}
+	400.3.3={death=yes}
+}
+777129 = {
+	name = "Cain"
+	dynasty = 77781
+	culture = "bedouin_arabic"
+	religion = "hellenic_pagan"
+	father = 777127
+	mother = 777128
+	34.1.1={birth=yes}
+	120.10.31={death=yes}
+}
+777130 = {
+	name = "Able"
+	dynasty = 77781
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777127
+	mother = 777128
+	trait=organic_wifi
+	trait=fair
+	40.1.1={birth=yes}
+	67.10.31={
+		death = {
+			death_reason = death_murder
+			killer = 777129
+		}
+	}
+}
+777131 = {
+	name = "Seth"
+	dynasty = 77781
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777127
+	mother = 777128
+	trait=gmo
+	trait=organic_wifi
+	141.1.1={birth=yes}
+	241.3.3={death=yes}
+}
+777132 = {
+	name = "Enosh"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777131
+	trait=organic_wifi
+	176.1.1={birth=yes}
+	276.3.3={death=yes}
+}
+777133 = {
+	name = "Kenan"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777132
+	trait=organic_wifi
+	211.1.1={birth=yes}
+	281.3.3={death=yes}
+}
+777134 = {
+	name = "Mahalalel"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777133
+	trait=organic_wifi
+	246.1.1={birth=yes}
+	316.3.3={death=yes}
+}
+777135 = {
+	name = "Jared"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777134
+	trait=organic_wifi
+	281.1.1={birth=yes}
+	351.3.3={death=yes}
+}
+777136 = {
+	name = "Enoch"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777135
+	trait=organic_wifi
+	316.1.1={birth=yes}
+	386.3.3={death=yes}
+}
+777137 = {
+	name = "Methuselah"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777136
+	trait=organic_wifi
+	351.1.1={birth=yes}
+	421.3.3={death=yes}
+}
+777138 = {
+	name = "Lamech"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777137
+	trait=organic_wifi
+	386.1.1={birth=yes}
+	456.3.3={death=yes}
+}
+777139 = {
+	name = "Noah"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777138
+	trait=organic_wifi
+	trait = strong
+	trait = genius
+	
+	421.1.1={birth=yes}
+	531.1.1={death=yes}
+}
+777140 = {
+	name = "Shem"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777139
+	trait=organic_wifi
+	
+	456.1.1={birth=yes}
+	526.1.1={death=yes}
+}
+777141 = {
+	name = "Arphaxad"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777140
+	trait=organic_wifi
+	
+	491.1.1={birth=yes}
+	561.1.1={death=yes}
+}
+777142 = {
+	name = "Shelah"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777141
+	trait=organic_wifi
+	
+	526.1.1={birth=yes}
+	596.1.1={death=yes}
+}
+777143 = {
+	name = "Eber"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777142
+	trait=organic_wifi
+	
+	561.1.1={birth=yes}
+	631.1.1={death=yes}
+}
+777144 = {
+	name = "Peleg"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777143
+	trait=organic_wifi
+	
+	596.1.1={birth=yes}
+	666.1.1={death=yes}
+}
+777145 = {
+	name = "Reu"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777144
+	trait=organic_wifi
+	
+	631.1.1={birth=yes}
+	701.1.1={death=yes}
+}
+777146 = {
+	name = "Serug"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777145
+	trait=organic_wifi
+	
+	666.1.1={birth=yes}
+	736.1.1={death=yes}
+}
+777147 = {
+	name = "Nahor"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777146
+	trait=organic_wifi
+	
+	701.1.1={birth=yes}
+	771.1.1={death=yes}
+}
+777148 = {
+	name = "Terah"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777147
+	trait=organic_wifi
+	
+	736.1.1={birth=yes}
+	806.1.1={death=yes}
+}
+777149 = {
+	name = "Abraham"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "jewish"
+	father = 777148
+	trait=organic_wifi
+	
+	777.7.7={birth=yes}
+	952.12.31={death=yes}
+}
+
+777150 = {
+	name = "Isaac"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "jewish"
+	father = 777149
+	trait=organic_wifi
+	
+	807.1.1={birth=yes}
+	877.1.1={death=yes}
+}
+777151 = {
+	name = "Jacob"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777150
+	trait=organic_wifi
+	
+	837.1.1={birth=yes}
+	907.1.1={death=yes}
+}
+777152 = {
+	name = "Judah"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777151
+	trait=organic_wifi
+	
+	867.1.1={birth=yes}
+	937.1.1={death=yes}
+}
+777153 = {
+	name = "Perez"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777152
+	trait=organic_wifi
+	
+	892.1.1={birth=yes}
+	962.1.1={death=yes}
+}
+777154 = {
+	name = "Hezron"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777153
+	trait=organic_wifi
+	
+	912.1.1={birth=yes}
+	982.1.1={death=yes}
+}
+777155 = {
+	name = "Aram"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777154
+	trait=organic_wifi
+	
+	932.1.1={birth=yes}
+	1002.1.1={death=yes}
+}
+777156 = {
+	name = "Amminadab"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777155
+	trait=organic_wifi
+	
+	947.1.1={birth=yes}
+	1017.1.1={death=yes}
+}
+777157 = {
+	name = "Nahson"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777156
+	trait=organic_wifi
+	
+	962.1.1={birth=yes}
+	1032.1.1={death=yes}
+}
+777158 = {
+	name = "Salmon"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777157
+	trait=organic_wifi
+	
+	972.1.1={birth=yes}
+	1042.1.1={death=yes}
+}
+777159 = {
+	name = "Boaz"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777158
+	trait=organic_wifi
+	
+	982.1.1={birth=yes}
+	1052.1.1={death=yes}
+}
+777160 = {
+	name = "Obed"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777159
+	trait=organic_wifi
+	
+	987.1.1={birth=yes}
+	1057.1.1={death=yes}
+}
+777161 = {
+	name = "Jesse"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777160
+	trait=organic_wifi
+	
+	992.1.1={birth=yes}
+	1062.1.1={death=yes}
+}
+777162 = {
+	name = "David"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777161
+	trait=organic_wifi
+	
+	1001.1.1={birth=yes}
+	1071.1.1={death=yes}
+}
+777163 = {
+	name = "Solomon"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777162
+	trait=organic_wifi
+	
+	1036.1.1={birth=yes}
+	1065.1.1 = {
+		create_bloodline = {
+			type = solomon
+			has_dlc = "Holy Fury"
+		}
+	}	
+	1106.1.1={death=yes}
+}
+777164 = {
+	name = "Ishmael"
+	dynasty = 106420
+	culture = "bedouin_arabic"
+	religion = "jewish"
+	father = 777149
+	trait=organic_wifi
+	
+	793.1.1={birth=yes}
+	863.1.1={death=yes}
+}
+777165 = {
+	name = "Kedar"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "jewish"
+	father = 777164
+	trait=organic_wifi
+	
+	828.1.1={birth=yes}
+	898.1.1={death=yes}
+}
+777166 = {
+	name = "Adnan"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal_heresy"
+	father = 777165
+	trait=organic_wifi
+	
+	863.1.1={birth=yes}
+	933.1.1={death=yes}
+}
+777167 = {
+	name = "Ma'add"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "elven_tribunal"
+	father = 777166
+	trait=organic_wifi
+	
+	898.1.1={birth=yes}
+	968.1.1={death=yes}
+}
+777168 = {
+	name = "Nizar"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	father = 777167
+	trait=organic_wifi
+	
+	933.1.1={birth=yes}
+	1003.1.1={death=yes}
+}
+777169 = {
+	name = "Mudar"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	father = 777168
+	trait=organic_wifi
+	
+	968.1.1={birth=yes}
+	1038.1.1={death=yes}
+}
+777170 = {
+	name = "Ilyas"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	father = 777169
+	trait=organic_wifi
+	trait=sayyid
+	health=5
+	
+	1003.1.1={birth=yes}
+	1073.1.1={death=yes}
+}
+777171 = {
+	name = "Mudrikah"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	father = 777170
+	trait=organic_wifi
+	trait=sayyid
+	
+	1038.1.1={birth=yes}
+	1108.1.1={death=yes}
+}
+777172 = {
+	name = "Khuzaimah"
+	dynasty = 106710
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	father = 777171
+	trait=organic_wifi
+	trait=sayyid
+	
+	1065.1.1={birth=yes}
+	1143.1.1={death=yes}
 }

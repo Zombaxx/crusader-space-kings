@@ -2195,7 +2195,7 @@ altaic = {
 		
 		from_dynasty_prefix = "ve "
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		allow_looting = yes
@@ -2406,7 +2406,7 @@ altaic = {
 		}
 		
 		from_dynasty_prefix = "of "
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		allow_looting = yes
@@ -2563,7 +2563,7 @@ altaic = {
 		}
 
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		
 		from_dynasty_prefix = ""
 		founder_named_dynasties = yes
@@ -2674,7 +2674,7 @@ arabic = {
 		from_dynasty_prefix = "of "
 		
 		baron_titles_hidden = yes
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
@@ -2709,7 +2709,7 @@ arabic = {
 		
 		baron_titles_hidden = yes
 		dukes_called_kings = yes
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		allow_looting = yes
@@ -2758,7 +2758,7 @@ arabic = {
 		from_dynasty_prefix = "of "
 		
 		baron_titles_hidden = yes
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
@@ -2796,7 +2796,7 @@ arabic = {
 		from_dynasty_prefix = "of "
 		
 		baron_titles_hidden = yes
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
@@ -2837,7 +2837,7 @@ arabic = {
 		
 		baron_titles_hidden = yes
 		dukes_called_kings = yes
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
@@ -3389,7 +3389,7 @@ iranian = {
 			Edras Pheana Idos Dena Innas Chera
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		modifier = default_culture_modifier
@@ -3489,7 +3489,7 @@ iranian = {
 			Edras Pheana Idos Dena Innas Chera
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 
 		modifier = default_culture_modifier
@@ -3518,7 +3518,7 @@ iranian = {
 		}
     
 	baron_titles_hidden = yes
-        dynasty_title_names = yes
+        #dynasty_title_names = yes
         founder_named_dynasties = yes
 
         male_patronym = "zai"
@@ -3551,7 +3551,7 @@ iranian = {
             Shali Sharhaatun Shemshok Shereen_Shirin Sheshalo Sugra Suha Suhenda Waahag Zaaferaan Zarhaatun Zaitun Zaytun Zinat Zomorred
         }
     
-        dynasty_title_names = yes
+        #dynasty_title_names = yes
         founder_named_dynasties = yes
 
         male_patronym = "ani"
@@ -4077,7 +4077,7 @@ indo_aryan_group = {
 			Syamadevi Vijnayavati Vina Yajnavati
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4115,7 +4115,7 @@ indo_aryan_group = {
 			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4142,7 +4142,7 @@ indo_aryan_group = {
 			Ratnavati Suvrata Syamadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4185,7 +4185,7 @@ indo_aryan_group = {
 			Prabhavati Prabhavatigupta Prasadhanadevi Puppadevi Rajamati Sanyukta Shrimitradevi 
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4237,7 +4237,7 @@ indo_aryan_group = {
 			Madhavi Mahalakshmi Mahidevi Manaladevi Mayanalladevi Namalladevi Padmaladevi Padmini Prasadhanadevi Pratha Rasaladevi 
 			Rudaladevi Rudrani Rupadevi Samyukta Sidhawa Somalladevi Suhava Sundaridevi Tihunaka Udayamati
 		}
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4273,7 +4273,7 @@ indo_aryan_group = {
 			Lachmi Nanaki Nihal Ramo Sabhirai Sahib Sulakhni Sundari Tripta 
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4335,7 +4335,7 @@ indo_aryan_group = {
 			Hariyadevi Laxmidevi Madhavi Mahalakshmi Manaladevi Mayanalladevi Namalladevi Padmaladevi Padmini
 			Pratha Rasaladevi Rudaladevi Rudrani Rupadevi Samyukta Sidhawa Somalladevi Suhava Sundaridevi Tihunaka Udayamati
 		}
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4372,7 +4372,7 @@ indo_aryan_group = {
 			Dahar Premala Suhanadi
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4409,7 +4409,7 @@ indo_aryan_group = {
 			Anjanibai Anuradha Durga Kamadevi Kamaladevi Kesarbai Kishori Kundaladevi Lasthiyavva 
 			Maya Mogubai Radhabai Radhika Shevanti Shudhamati Sovidevi Sudha Sumati Sunita 
 		}
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4452,7 +4452,7 @@ indo_aryan_group = {
 			Sujhata Sumanadevi Suri Suriguta Tisi Tissabuti Tissadata Tissadevi Tissamita Tissaraka Tissarakita Yahasaya Yahasini
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
 		castes = yes
@@ -4541,7 +4541,7 @@ dravidian_group = {
 			Tiruvênkatam Tunaiyiruntâlcâni Tânatonkiyâr Têcappukal Têmpâvai Têvânrâl Tûnkânai Umaiyâlvâr Utaiyaval Utaiyañceytâl Vaccavaiyâr 
 			Varakuni Vatavâyil Venankai Vennâval Vicciyakkan Viccâtiri Vikkiramâtitti Viraiyâccilai Vitari Vânavanmâtêvi
 		}
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 
 		founder_named_dynasties = yes
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -4576,7 +4576,7 @@ dravidian_group = {
 			Anitalli Chamekamba Chandena Chellava Gamakamba Hariharamba Nagipoti Pammava Rudramba Rudramadevi Srimahadevi Tundaka
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 
 		founder_named_dynasties = yes
 		
@@ -4620,7 +4620,7 @@ dravidian_group = {
 			Chinnambike Thirumalambike 
 		}
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 
 		founder_named_dynasties = yes
 		
