@@ -6,7 +6,7 @@
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father=778302
 	trait=clone
 	trait=gmo
@@ -20,12 +20,13 @@
 }
 778301={
 	name="Wei"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father=778302
 	trait=clone
 	trait=cloning_defects
@@ -40,12 +41,21 @@
 }
 778302={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
 	father = 778303
+	trait=clone
+	#stewardship=15
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
 	1000.1.1={birth=yes}
 	1065.1.1={
 		death = {
@@ -53,414 +63,432 @@
 			killer = 107175 # Cywizard Illuminious
 		}
 	}
-	trait=clone
-	stewardship=15
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
 }
 778303={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father = 778304
-	950.1.1={birth=yes}
-	1018.1.1={death=yes}
 	trait=clone
+	#stewardship=15
 	trait=genius
 	trait=ambitious
 	trait=strong
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
+	950.1.1={birth=yes}
+	1018.1.1={death=yes}
 	
 }
 778304={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father = 778305
-	900.1.1={birth=yes}
-	972.1.1={death=yes}
 	trait=clone
+	#stewardship=15
 	trait=genius
 	trait=ambitious
 	trait=strong
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
+	900.1.1={birth=yes}
+	972.1.1={death=yes}
 	
 }
 778305={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father = 778306
-	850.1.1={birth=yes}
-	931.1.1={death=yes}
 	trait=clone
+	#stewardship=15
 	trait=genius
 	trait=ambitious
 	trait=strong
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
+	850.1.1={birth=yes}
+	931.1.1={death=yes}
 	
 }
 778306={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father = 778307
-	800.1.1={birth=yes}
-	876.1.1={death=yes}
 	trait=clone
+	#stewardship=15
 	trait=genius
 	trait=ambitious
 	trait=strong
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
+	800.1.1={birth=yes}
+	876.1.1={death=yes}
 	
 }
 778307={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father = 778308
-	750.1.1={birth=yes}
-	814.1.1={death=yes}
 	trait=clone
+	#stewardship=15
 	trait=genius
 	trait=ambitious
 	trait=strong
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
+	750.1.1={birth=yes}
+	814.1.1={death=yes}
 	
 }
 778308={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father = 778309
-	700.1.1={birth=yes}
-	779.1.1={death=yes}
 	trait=clone
+	#stewardship=15
 	trait=genius
 	trait=ambitious
 	trait=strong
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
+	700.1.1={birth=yes}
+	779.1.1={death=yes}
 	
 }
 778309={
 	name="Xiang"
+	dynasty=7000043
 	culture=han 
 	religion=taoist
 	military=20
 	intrigue=20
 	diplomacy=8
-	stewardship=15
+	#stewardship=15
 	father = 778310
+	trait=clone
+	#stewardship=15
+	trait=genius
+	trait=ambitious
+	trait=strong
+	trait=brilliant_strategist
+	health=3
+	combat_rating=100
 	650.1.1={birth=yes}
 	722.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
 	
 }
-778310={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778311
-	600.1.1={birth=yes}
-	684.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778311={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778312
-	550.1.1={birth=yes}
-	647.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778312={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778313
-	500.1.1={birth=yes}
-	575.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778313={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778314
-	450.1.1={birth=yes}
-	533.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778314={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778315
-	400.1.1={birth=yes}
-	498.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778315={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778316
-	350.1.1={birth=yes}
-	440.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778316={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778317
-	300.1.1={birth=yes}
-	353.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778317={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778318
-	250.1.1={birth=yes}
-	357.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778318={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778319
-	200.1.1={birth=yes}
-	267.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778319={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778320
-	150.1.1={birth=yes}
-	244.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778320={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778321
-	100.1.1={birth=yes}
-	181.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778321={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	father = 778322
-	50.1.1={birth=yes}
-	138.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
-778322={
-	name="Xiang"
-	culture=han 
-	religion=taoist
-	father=107175
-	military=20
-	intrigue=20
-	diplomacy=8
-	stewardship=15
-	trait=clone
-	father = 778301
-	17.1.1={birth=yes}
-	100.1.1={death=yes}
-	trait=clone
-	trait=genius
-	trait=ambitious
-	trait=strong
-	trait=brilliant_strategist
-	health=3
-	combat_rating=100
-	
-}
+#778310={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778311
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	600.1.1={birth=yes}
+#	684.1.1={death=yes}
+#	
+#}
+#778311={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778312
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	550.1.1={birth=yes}
+#	647.1={death=yes}
+#	
+#}
+#778312={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778313
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	500.1.1={birth=yes}
+#	575.1.1={death=yes}
+#	
+#}
+#778313={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778314
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	450.1.1={birth=yes}
+#	533.1.1={death=yes}
+#	
+#}
+#778314={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778315
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	400.1.1={birth=yes}
+#	498.1.1={death=yes}
+#	
+#}
+#778315={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778316
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	350.1.1={birth=yes}
+#	440.1.1={death=yes}
+#	
+#}
+#778316={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778317
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	300.1.1={birth=yes}
+#	353.1.1={death=yes}
+#	
+#}
+#778317={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778318
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	250.1.1={birth=yes}
+#	357.1.1={death=yes}
+#	
+#}
+#778318={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778319
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	200.1.1={birth=yes}
+#	267.1.1={death=yes}
+#	
+#}
+#778319={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778320
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	150.1.1={birth=yes}
+#	244.1.1={death=yes}
+#	
+#}
+#778320={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778321
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	100.1.1={birth=yes}
+#	181.1.1={death=yes}
+#	
+#}
+#778321={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 778322
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	50.1.1={birth=yes}
+#	138.1.1={death=yes}
+#	
+#}
+#778322={
+#	name="Xiang"
+#	culture=han 
+#	religion=taoist
+#	father=107175
+#	military=20
+#	intrigue=20
+#	diplomacy=8
+#	#stewardship=15
+#	father = 107175
+#	trait=clone
+#	#stewardship=15
+#	trait=genius
+#	trait=ambitious
+#	trait=strong
+#	trait=brilliant_strategist
+#	health=3
+#	combat_rating=100
+#	17.1.1={birth=yes}
+#	100.1.1={death=yes}
+#	
+#}
