@@ -1,3 +1,8 @@
+1065.1.2={
+	law = succ_ultimogeniture
+	law = imperial_administration
+	#law = true_cognatic_succession
+}
 1066.1.1 = {
 	holder = 777777
 }

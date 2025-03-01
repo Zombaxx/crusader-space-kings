@@ -773,7 +773,7 @@ christian = {
 }
 
 muslim = {
-	has_coa_on_barony_only = no
+	has_coa_on_barony_only = yes #no
 	graphical_culture = muslimgfx
 	crusade_cb = crusade
 	playable = yes
@@ -1120,7 +1120,7 @@ muslim = {
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
 		allow_rivermovement = yes
-		icon = 4
+		icon = 5
 		heresy_icon = 9
 
 		color = { 0.2 0.7 0.1 }
@@ -2781,7 +2781,7 @@ jewish_group = {
 }
 
 indian_group = {
-	has_coa_on_barony_only = no
+	has_coa_on_barony_only = yes #no
 	graphical_culture = indiangfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness

@@ -1,0 +1,479 @@
+#Saudi Royalty
+400059 = {
+	name = "Abdulaziz"
+	dynasty = 400059
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	891.1.1 = { birth=yes }     # 1875 CE
+	969.1.1 = { death=yes }     # 1953 CE
+}
+
+400060 = {
+	name = "Saud"
+	dynasty = 400059
+	father = 400059
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	918.1.1 = { birth=yes }     # 1902 CE
+	985.1.1 = { death=yes }     # 1969 CE
+}
+
+400061 = {
+	name = "Faisal"
+	dynasty = 400059
+	father = 400059
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	922.1.1 = { birth=yes }     # 1906 CE
+	991.1.1 = { death=yes }     # 1975 CE
+}
+
+400062 = {
+	name = "Khalid"
+	dynasty = 400059
+	father = 400059
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	929.1.1 = { birth=yes }     # 1913 CE
+	998.1.1 = { death=yes }     # 1982 CE
+}
+
+400063 = {
+	name = "Fahd"
+	dynasty = 400059
+	father = 400059
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	937.1.1 = { birth=yes }     # 1921 CE
+	1021.1.1 = { death=yes }    # 2005 CE
+}
+
+400064 = {
+	name = "Abdullah"
+	dynasty = 400059
+	father = 400059
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	940.1.1 = { birth=yes }     # 1924 CE
+	1031.1.1 = { death=yes }    # 2015 CE
+}
+
+400065 = {
+	name = "Salman"
+	dynasty = 400059
+	father = 400059
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	951.1.1 = { birth=yes }     # 1935 CE
+}
+
+400066 = {
+	name = "Mohammed"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1001.1.1 = { birth=yes }    # 1985 CE
+}
+
+# --- King Salman's other children ---
+
+400067 = {
+	name = "Fahd"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	971.1.1 = { birth=yes }     # 1955 CE
+	1017.1.1 = { death=yes }    # 2001 CE
+}
+
+400068 = {
+	name = "Sultan"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	972.1.1 = { birth=yes }     # 1956 CE
+}
+
+400069 = {
+	name = "Ahmed"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	974.1.1 = { birth=yes }     # 1958 CE
+	1018.1.1 = { death=yes }    # 2002 CE
+}
+
+400070 = {
+	name = "Abdulaziz"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	976.1.1 = { birth=yes }     # 1960 CE
+}
+
+400071 = {
+	name = "Faisal"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	986.1.1 = { birth=yes }     # 1970 CE
+}
+
+400072 = {
+	name = "Turki"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1003.1.1 = { birth=yes }    # 1987 CE (approx)
+}
+
+400073 = {
+	name = "Khalid"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1004.1.1 = { birth=yes }    # 1988 CE
+}
+
+400074 = {
+	name = "Saud"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1002.1.1 = { birth=yes }    # 1986 CE (approx)
+}
+
+400075 = {
+	name = "Bandar"
+	dynasty = 400059
+	father = 400065
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1015.1.1 = { birth=yes }    # 1999 CE (approx)
+}
+
+400076 = {
+	name = "Hussa"
+	dynasty = 400059
+	father = 400065
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	990.1.1 = { birth=yes }     # 1974 CE (approx)
+}
+
+# --- Mohammed bin Salman's children ---
+
+400077 = {
+	name = "Salman"
+	dynasty = 400059
+	father = 400066
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1023.1.1 = { birth=yes }    # 2007 CE (approx)
+}
+
+400078 = {
+	name = "Faisal"
+	dynasty = 400059
+	father = 400066
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1027.1.1 = { birth=yes }    # 2011 CE (approx)
+}
+
+400079 = {
+	name = "Noura"
+	dynasty = 400059
+	father = 400066
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1029.1.1 = { birth=yes }    # 2013 CE (approx)
+}
+#Thai royalty
+400080 = {
+	name = "Rama"
+	dynasty = 400080
+	culture = "kannada"
+	religion = "buddhist"
+	753.1.1 = { birth=yes }
+	825.1.1 = { death=yes }
+}
+400081 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400080
+	culture = "kannada"
+	religion = "buddhist"
+	783.1.1 = { birth=yes }
+	840.1.1 = { death=yes }
+}
+400082 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400081
+	culture = "kannada"
+	religion = "buddhist"
+	803.1.1 = { birth=yes }
+	867.1.1 = { death=yes }
+}
+400083 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400081
+	culture = "kannada"
+	religion = "buddhist"
+	820.1.1 = { birth=yes }
+	884.1.1 = { death=yes }
+}
+400084 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400083
+	culture = "kannada"
+	religion = "buddhist"
+	869.1.1 = { birth=yes }
+	926.1.1 = { death=yes }
+}
+400085 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400084
+	culture = "kannada"
+	religion = "buddhist"
+	897.1.1 = { birth=yes }
+	941.1.1 = { death=yes }
+}
+400086 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400084
+	culture = "kannada"
+	religion = "buddhist"
+	909.1.1 = { birth=yes }
+	957.1.1 = { death=yes }
+}
+400087 = {
+	name = "Rama"
+	dynasty = 400080
+	culture = "kannada"
+	religion = "buddhist"
+	father = 400086
+	941.1.1 = { birth=yes }
+	962.1.1 = { death=yes }
+}
+400088 = {
+	name = "Rama"
+	dynasty = 400080
+	culture = "kannada"
+	religion = "buddhist"
+	father = 400086
+	943.1.1 = { birth=yes }
+	1032.1.1 = { death=yes }
+}
+400089 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400088
+	culture = "kannada"
+	religion = "buddhist"
+	968.1.1 = { birth=yes }
+}
+
+# -- Daughters of Rama IX (besides Rama X) --
+
+400090 = {
+	name = "Ubolratana"
+	dynasty = 400080
+	father = 400088
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	967.1.1 = { birth=yes }
+}
+400091 = {
+	name = "Sirindhorn"
+	dynasty = 400080
+	father = 400088
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	971.1.1 = { birth=yes }
+}
+400092 = {
+	name = "Chulabhorn"
+	dynasty = 400080
+	father = 400088
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	973.1.1 = { birth=yes }
+}
+
+# -- Children of Rama X --
+
+400093 = {
+	name = "Bajrakitiyabha"
+	dynasty = 400080
+	father = 400089
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	994.1.1 = { birth=yes }
+}
+400094 = {
+	name = "Juthavachara"
+	#dynasty = 400080
+	father = 400089
+	culture = "kannada"
+	religion = "buddhist"
+	trait = bastard
+	employer = 102885
+	995.1.1 = { birth=yes }
+}
+400095 = {
+	name = "Vacharaesorn"
+	#dynasty = 400080
+	father = 400089
+	culture = "kannada"
+	religion = "buddhist"
+	trait = bastard
+	employer = 102885
+	997.1.1 = { birth=yes }
+}
+400096 = {
+	name = "Chakriwat"
+	#dynasty = 400080
+	father = 400089
+	culture = "kannada"
+	religion = "buddhist"
+	trait = bastard
+	999.1.1 = { birth=yes }
+	employer = 102885
+	1066.1.1 = { culture = "old_frankish" }
+}
+400097 = {
+	name = "Vatcharawee"
+	#dynasty = 400080
+	father = 400089
+	culture = "kannada"
+	religion = "buddhist"
+	trait = bastard
+	employer = 102885
+	1003.1.1 = { birth=yes }
+	1066.1.1 = { culture = "old_frankish" }
+}
+400098 = {
+	name = "Dipangkorn"
+	dynasty = 400080
+	father = 400089
+	culture = "kannada"
+	religion = "buddhist"
+	1021.1.1 = { birth=yes }
+}
+400099 = {
+	name = "Rama"
+	#dynasty = 400080
+	father = 400094
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1026.1.1 = { birth=yes }   # 2010 CE approx
+}
+400100 = {
+	name = "Juthavachara"
+	#dynasty = 400080
+	father = 400094
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1029.1.1 = { birth=yes }   # 2013 CE approx
+}
+400101 = {
+	name = "Rama"
+	dynasty = 400080
+	father = 400098
+	culture = "kannada"
+	religion = "buddhist"
+	1044.1.1 = { birth=yes }
+}
+
+400102 = {
+	name = "Dipangkorn"
+	dynasty = 400080
+	father = 400098
+	culture = "kannada"
+	religion = "buddhist"
+	1047.1.1 = { birth=yes }
+}
+400103 = {
+	name = "Vacharaesorn"
+	#dynasty = 400080
+	father = 400095
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1027.1.1 = { birth=yes }   # ~2011 CE
+}
+400104 = {
+	name = "Sirindhorn"
+	#dynasty = 400080
+	father = 400095
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1030.1.1 = { birth=yes }   # ~2014 CE
+}
+400105 = {
+	name = "Chakriwat"
+	#dynasty = 400080
+	father = 400096
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1033.1.1 = { birth=yes }   # ~2017 CE
+	1066.1.1 = { culture = "old_frankish" }
+}
+400106 = {
+	name = "Ubolratana"
+	#dynasty = 400080
+	father = 400096
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1036.1.1 = { birth=yes }   # ~2020 CE
+	1066.1.1 = { culture = "old_frankish" }
+}
+400107 = {
+	name = "Vatcharawee"
+	#dynasty = 400080
+	father = 400097
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1039.1.1 = { birth=yes }   # ~2023 CE
+	1066.1.1 = { culture = "old_frankish" }
+}
+400108 = {
+	name = "Chulabhorn"
+	#dynasty = 400080
+	father = 400097
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	employer = 102885
+	1042.1.1 = { birth=yes }   # ~2026 CE
+	1066.1.1 = { culture = "old_frankish" }
+}

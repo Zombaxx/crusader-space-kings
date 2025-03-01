@@ -1,0 +1,10 @@
+400059 = {
+	name="Saud"
+	culture="bedouin_arabic"
+	religion="sunni"
+}
+400080 = {
+	name="Chakri"
+	culture="kannada"
+	religion="buddhist"
+}

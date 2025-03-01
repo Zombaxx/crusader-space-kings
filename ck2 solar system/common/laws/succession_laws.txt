@@ -1346,6 +1346,8 @@ succession_laws = {
 				}
 				OR = {
 					culture = mongol
+					culture = dark_elven_nomad
+					religion = dark_elven_nomad
 					religion = bon
 					religion = bon_reformed
 					AND = {

@@ -20,9 +20,9 @@ roy_torture_events.001.2;Out with [From.GetHerHis] eye!;;;x
 torture_events_desc.2;Your men drag [From.GetFirstName] to the courtyard, kicking and screaming as they went along. Of course, [From.GetBestName] begged for mercy by the grace of [From.Religion.GetHighGodName] as you announced that you would be cutting on of [From.GetHerHis] hands off, but the decision is yours to make.;;;x
 roy_torture_events.002.1;Be glad it's not your head.;;;x
 
-succ_gavelkind;Terran Democracy;;;x
+succ_gavelkind;Democracy;;;x
 succ_gavelkind_desc;Succession is determined by vote from all adults 21 and older in the realm, including unlanded lowborns and bastards but excluding slaves. The ruler is decided by the will of the people.;;;x
-succ_elective_gavelkind;Terran Democratic Gavelkind;;;x
+succ_elective_gavelkind;Democratic Gavelkind;;;x
 succ_elective_gavelkind_desc;Succession is determined by vote from all adults 21 and over in the realm, including unlanded lowborns and bastards but excluding slaves. The ruler is decided by the will of the people.;;;x
 martian_elective;Terran Elective;;;x
 

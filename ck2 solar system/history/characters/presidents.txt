@@ -1,0 +1,462 @@
+400000 = {
+	name = "George"
+	dynasty = 400000
+	culture = "breton"
+	religion = "nestorian"
+	748.1.1 = { birth=yes }
+	815.1.1 = { death=yes }
+}
+400001 = {
+	name = "John"
+	dynasty = 400001
+	culture = "breton"
+	religion = "nestorian"
+	751.1.1 = { birth=yes }
+	842.1.1 = { death=yes }
+}
+400002 = {
+	name = "Thomas"
+	dynasty = 400002
+	culture = "breton"
+	religion = "nestorian"
+	759.1.1 = { birth=yes }
+	842.1.1 = { death=yes }
+}
+400003 = {
+	name = "James"
+	dynasty = 400003
+	culture = "breton"
+	religion = "nestorian"
+	767.1.1 = { birth=yes }
+	852.1.1 = { death=yes }
+}
+400004 = {
+	name = "James"
+	dynasty = 400004
+	culture = "breton"
+	religion = "nestorian"
+	774.1.1 = { birth=yes }
+	847.1.1 = { death=yes }
+}
+400005 = {
+	name = "John Quincy"
+	dynasty = 400005
+	culture = "breton"
+	religion = "nestorian"
+	783.1.1 = { birth=yes }
+	864.1.1 = { death=yes }
+}
+400006 = {
+	name = "Andrew"
+	dynasty = 400006
+	culture = "old_frankish"
+	religion = "nestorian"
+	783.1.1 = { birth=yes }
+	861.1.1 = { death=yes }
+}
+400007 = {
+	name = "Martin"
+	dynasty = 400007
+	culture = "old_frankish"
+	religion = "nestorian"
+	798.1.1 = { birth=yes }
+	878.1.1 = { death=yes }
+}
+400008 = {
+	name = "William"
+	dynasty = 400008
+	culture = "breton"
+	religion = "nestorian"
+	789.1.1 = { birth=yes }
+	857.1.1 = { death=yes }
+}
+400009 = {
+	name = "John"
+	dynasty = 400009
+	culture = "breton"
+	religion = "nestorian"
+	806.1.1 = { birth=yes }
+	878.1.1 = { death=yes }
+}
+400010 = {
+	name = "James"
+	dynasty = 400010
+	culture = "old_frankish"
+	religion = "nestorian"
+	811.1.1 = { birth=yes }
+	865.1.1 = { death=yes }
+}
+400011 = {
+	name = "Zachary"
+	dynasty = 400011
+	culture = "breton"
+	religion = "nestorian"
+	800.1.1 = { birth=yes }
+	866.1.1 = { death=yes }
+}
+400012 = {
+	name = "Millard"
+	dynasty = 400012
+	culture = "breton"
+	religion = "nestorian"
+	816.1.1 = { birth=yes }
+	890.1.1 = { death=yes }
+}
+400013 = {
+	name = "Franklin"
+	dynasty = 400013
+	culture = "old_frankish"
+	religion = "nestorian"
+	820.1.1 = { birth=yes }
+	885.1.1 = { death=yes }
+}
+400014 = {
+	name = "James"
+	dynasty = 400014
+	culture = "old_frankish"
+	religion = "nestorian"
+	807.1.1 = { birth=yes }
+	884.1.1 = { death=yes }
+}
+400015 = {
+	name = "Abraham"
+	dynasty = 400015
+	culture = "breton"
+	religion = "nestorian"
+	825.1.1 = { birth=yes }
+	881.1.1 = { death=yes }
+}
+400016 = {
+	name = "Andrew"
+	dynasty = 400016
+	culture = "old_frankish"
+	religion = "nestorian"
+	824.1.1 = { birth=yes }
+	891.1.1 = { death=yes }
+}
+400017 = {
+	name = "Ulysses"
+	dynasty = 400017
+	culture = "breton"
+	religion = "nestorian"
+	838.1.1 = { birth=yes }
+	901.1.1 = { death=yes }
+}
+400018 = {
+	name = "Rutherford"
+	dynasty = 400018
+	culture = "breton"
+	religion = "nestorian"
+	838.1.1 = { birth=yes }
+	909.1.1 = { death=yes }
+}
+400019 = {
+	name = "James"
+	dynasty = 400019
+	culture = "breton"
+	religion = "nestorian"
+	847.1.1 = { birth=yes }
+	897.1.1 = { death=yes }
+}
+400020 = {
+	name = "Chester"
+	dynasty = 400020
+	culture = "breton"
+	religion = "nestorian"
+	845.1.1 = { birth=yes }
+	902.1.1 = { death=yes }
+}
+400021 = {
+	name = "Grover"
+	dynasty = 400021
+	culture = "old_frankish"
+	religion = "nestorian"
+	853.1.1 = { birth=yes }
+	924.1.1 = { death=yes }
+}
+400022 = {
+	name = "Benjamin"
+	dynasty = 400022
+	culture = "breton"
+	religion = "nestorian"
+	849.1.1 = { birth=yes }
+	917.1.1 = { death=yes }
+}
+400023 = {
+	name = "Grover"
+	dynasty = 400023
+	culture = "old_frankish"
+	religion = "nestorian"
+	853.1.1 = { birth=yes }
+	924.1.1 = { death=yes }
+}
+400024 = {
+	name = "William"
+	dynasty = 400024
+	culture = "breton"
+	religion = "nestorian"
+	859.1.1 = { birth=yes }
+	917.1.1 = { death=yes }
+}
+400025 = {
+	name = "Theodore"
+	dynasty = 400025
+	culture = "breton"
+	religion = "nestorian"
+	874.1.1 = { birth=yes }
+	935.1.1 = { death=yes }
+}
+400026 = {
+	name = "William"
+	dynasty = 400026
+	culture = "breton"
+	religion = "nestorian"
+	873.1.1 = { birth=yes }
+	946.1.1 = { death=yes }
+}
+400027 = {
+	name = "Woodrow"
+	dynasty = 400027
+	culture = "old_frankish"
+	religion = "nestorian"
+	872.1.1 = { birth=yes }
+	940.1.1 = { death=yes }
+}
+400028 = {
+	name = "Warren"
+	dynasty = 400028
+	culture = "breton"
+	religion = "nestorian"
+	881.1.1 = { birth=yes }
+	939.1.1 = { death=yes }
+}
+400029 = {
+	name = "Calvin"
+	dynasty = 400029
+	culture = "breton"
+	religion = "nestorian"
+	888.1.1 = { birth=yes }
+	949.1.1 = { death=yes }
+}
+400030 = {
+	name = "Herbert"
+	dynasty = 400030
+	culture = "breton"
+	religion = "nestorian"
+	890.1.1 = { birth=yes }
+	980.1.1 = { death=yes }
+}
+400031 = {
+	name = "Franklin"
+	dynasty = 400031
+	culture = "old_frankish"
+	religion = "nestorian"
+	898.1.1 = { birth=yes }
+	961.1.1 = { death=yes }
+}
+400032 = {
+	name = "Harry"
+	dynasty = 400032
+	culture = "old_frankish"
+	religion = "nestorian"
+	900.1.1 = { birth=yes }
+	988.1.1 = { death=yes }
+}
+400033 = {
+	name = "Dwight"
+	dynasty = 400033
+	culture = "breton"
+	religion = "nestorian"
+	906.1.1 = { birth=yes }
+	985.1.1 = { death=yes }
+}
+#400034 = {
+#	name = "John"
+#	dynasty = 400034
+#	culture = "old_frankish"
+#	religion = "nestorian"
+#	933.1.1 = { birth=yes }
+#	979.1.1 = { death=yes }
+#}
+400035 = {
+	name = "Lyndon"
+	dynasty = 400035
+	culture = "old_frankish"
+	religion = "nestorian"
+	924.1.1 = { birth=yes }
+	989.1.1 = { death=yes }
+}
+400036 = {
+	name = "Richard"
+	dynasty = 400036
+	culture = "breton"
+	religion = "nestorian"
+	929.1.1 = { birth=yes }
+	1010.1.1 = { death=yes }
+}
+400037 = {
+	name = "Gerald"
+	dynasty = 400037
+	culture = "breton"
+	religion = "nestorian"
+	929.1.1 = { birth=yes }
+	1022.1.1 = { death=yes }
+}
+400038 = {
+	name = "Jimmy"
+	dynasty = 400038
+	culture = "old_frankish"
+	religion = "nestorian"
+	940.1.1 = { birth=yes }
+	1039.1.1 = { death=yes }
+}
+400039 = {
+	name = "Ronald"
+	dynasty = 400039
+	culture = "breton"
+	religion = "nestorian"
+	927.1.1 = { birth=yes }
+	1020.1.1 = { death=yes }
+}
+400040 = {
+	name = "George"
+	dynasty = 400040
+	culture = "breton"
+	religion = "nestorian"
+	940.1.1 = { birth=yes }
+	1034.1.1 = { death=yes }
+}
+400041 = {
+	name = "Bill"
+	dynasty = 400041
+	culture = "old_frankish"
+	religion = "nestorian"
+	962.1.1 = { birth=yes }
+}
+400042 = {
+	name = "George"
+	dynasty = 400042
+	culture = "breton"
+	religion = "nestorian"
+	962.1.1 = { birth=yes }
+}
+400043 = {
+	name = "Barack"
+	dynasty = 400043
+	culture = "old_frankish"
+	religion = "nestorian"
+	977.1.1 = { birth=yes }
+}
+#400044 = {
+#	name = "Donald"
+#	dynasty = 400044
+#	culture = "breton"
+#	religion = "nestorian"
+#	962.1.1 = { birth=yes }
+#}
+400045 = {
+	name = "Joe"
+	dynasty = 400045
+	culture = "old_frankish"
+	religion = "catholic"
+	958.1.1 = { birth=yes }
+}
+400046 = {
+	name = "Walter"
+	dynasty = 400046
+	culture = "european_european"
+	religion = "catholic"
+	917.1.1 = { birth=yes }
+	998.1.1 = { death=yes }
+}
+400047 = {
+	name = "Jean"
+	dynasty = 400047
+	culture = "european_european"
+	religion = "catholic"
+	918.1.1 = { birth=yes }
+	999.1.1 = { death=yes }
+}
+400048 = {
+	name = "Franco"
+	dynasty = 400048
+	culture = "european_european"
+	religion = "catholic"
+	943.1.1 = { birth=yes }
+	1007.1.1 = { death=yes }
+}
+400049 = {
+	name = "Sicco"
+	dynasty = 400049
+	culture = "european_european"
+	religion = "nestorian"
+	924.1.1 = { birth=yes }
+	1011.1.1 = { death=yes }
+}
+400050 = {
+	name = "Francois"
+	dynasty = 400050
+	culture = "european_european"
+	religion = "catholic"
+	941.1.1 = { birth=yes }
+	1023.1.1 = { death=yes }
+}
+400051 = {
+	name = "Roy"
+	dynasty = 400051
+	culture = "english"
+	religion = "cathar"
+	936.1.1 = { birth=yes }
+	1019.1.1 = { death=yes }
+}
+400052 = {
+	name = "Gaston"
+	dynasty = 400052
+	culture = "european_european"
+	religion = "catholic"
+	944.1.1 = { birth=yes }
+	1023.1.1 = { death=yes }
+}
+400053 = {
+	name = "Jacques"
+	dynasty = 400053
+	culture = "european_european"
+	religion = "catholic"
+	941.1.1 = { birth=yes }
+}
+400054 = {
+	name = "Jacques"
+	dynasty = 400054
+	culture = "catholic"
+	religion = "nestorian"
+	953.1.1 = { birth=yes }
+}
+400055 = {
+	name = "Romano"
+	dynasty = 400055
+	culture = "greek"
+	religion = "catholic"
+	955.1.1 = { birth=yes }
+}
+400056 = {
+	name = "Jose Manuel"
+	dynasty = 400056
+	culture = "catalan"
+	religion = "catholic"
+	972.1.1 = { birth=yes }
+}
+400057 = {
+	name = "Jean-Claude"
+	dynasty = 400057
+	culture = "european_european"
+	religion = "catholic"
+	970.1.1 = { birth=yes }
+}
+400058 = {
+	name = "Ursula"
+	dynasty = 400058
+	culture = "european_european"
+	religion = "nestorian"
+	female = yes
+	974.1.1 = { birth=yes }
+}

@@ -1,5 +1,5 @@
 778300={
-	name="Wei"
+	name="Xiang"
 	dynasty=7000043
 	culture=han 
 	religion=taoist
@@ -19,7 +19,7 @@
 	1030.10.1={birth=yes}
 }
 778301={
-	name="Xiang"
+	name="Wei"
 	culture=han 
 	religion=taoist
 	military=20
@@ -29,9 +29,10 @@
 	father=778302
 	trait=clone
 	trait=cloning_defects
-	trait=genius
+	trait=quick
 	trait=ambitious
 	trait=strong
+	trait=shrewd
 	trait=brilliant_strategist
 	health=3
 	combat_rating=100
@@ -445,12 +446,14 @@
 	name="Xiang"
 	culture=han 
 	religion=taoist
+	father=107175
 	military=20
 	intrigue=20
 	diplomacy=8
 	stewardship=15
+	trait=clone
 	father = 778301
-	1.1.1={birth=yes}
+	17.1.1={birth=yes}
 	100.1.1={death=yes}
 	trait=clone
 	trait=genius

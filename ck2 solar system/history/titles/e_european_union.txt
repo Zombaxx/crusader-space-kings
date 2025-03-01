@@ -1,11 +1,57 @@
-997.1.1={
-	law = succ_byzantine_elective
-	law = imperial_administration
+974.1.1 = {
+    holder = 400046
+}
+974.1.2={
+	law = succ_feudal_elective
 	law = true_cognatic_succession
+	law = law_voting_power_1
+	law = war_voting_power_1
+	law = revoke_title_voting_power_1
+	law = imprison_voting_power_1
+	law = grant_title_voting_power_1
+	law = banish_voting_power_1
+	law = execution_voting_power_1
+	law = succession_voting_power_1
+}
+983.1.1 = {
+    holder = 400047
+}
+986.1.1 = {
+    holder = 400048
+}
+988.1.1 = {
+    holder = 400049
+}
+989.1.1 = {
+    holder = 400050
+}
+993.1.1 = {
+    holder = 400051
 }
 997.1.1 = {
-	holder = 105301
+    holder = 400052
 }
-1050.1.1 = {
+#997.1.1 = {
+#	holder = 105301
+#}
+1001.1.1 = {
+    holder = 400053
+}
+1011.1.1 = {
+    holder = 400054
+}
+1015.1.1 = {
+    holder = 400055
+}
+1020.1.1 = {
+    holder = 400056
+}
+1030.1.1 = {
+    holder = 400057
+}
+1035.1.1 = {
+    holder = 400058
+}
+1040.1.1 = {
 	holder = 105285
 }

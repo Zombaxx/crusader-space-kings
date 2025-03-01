@@ -1,0 +1,295 @@
+400000={
+	name="Washington"
+	culture="breton"
+	religion="nestorian"
+}
+400001={
+	name="Adams"
+	culture="breton"
+	religion="nestorian"
+}
+400002={
+	name="Jefferson"
+	culture="breton"
+	religion="nestorian"
+}
+400003={
+	name="Madison"
+	culture="breton"
+	religion="nestorian"
+}
+400004={
+	name="Monroe"
+	culture="breton"
+	religion="nestorian"
+}
+400005={
+	name="Adams"
+	culture="breton"
+	religion="nestorian"
+}
+400006={
+	name="Jackson"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400007={
+	name="Van_Buren"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400008={
+	name="Harrison"
+	culture="breton"
+	religion="nestorian"
+}
+400009={
+	name="Tyler"
+	culture="breton"
+	religion="nestorian"
+}
+400010={
+	name="Polk"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400011={
+	name="Taylor"
+	culture="breton"
+	religion="nestorian"
+}
+400012={
+	name="Fillmore"
+	culture="breton"
+	religion="nestorian"
+}
+400013={
+	name="Pierce"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400014={
+	name="Buchanan"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400015={
+	name="Lincoln"
+	culture="breton"
+	religion="nestorian"
+}
+400016={
+	name="Johnson"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400017={
+	name="Grant"
+	culture="breton"
+	religion="nestorian"
+}
+400018={
+	name="Hayes"
+	culture="breton"
+	religion="nestorian"
+}
+400019={
+	name="Garfield"
+	culture="breton"
+	religion="nestorian"
+}
+400020={
+	name="Arthur"
+	culture="breton"
+	religion="nestorian"
+}
+400021={
+	name="Cleveland"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400022={
+	name="Harrison"
+	culture="breton"
+	religion="nestorian"
+}
+400023={
+	name="Cleveland"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400024={
+	name="McKinley"
+	culture="breton"
+	religion="nestorian"
+}
+400025={
+	name="Roosevelt"
+	culture="breton"
+	religion="nestorian"
+}
+400026={
+	name="Taft"
+	culture="breton"
+	religion="nestorian"
+}
+400027={
+	name="Wilson"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400028={
+	name="Harding"
+	culture="breton"
+	religion="nestorian"
+}
+400029={
+	name="Coolidge"
+	culture="breton"
+	religion="nestorian"
+}
+400030={
+	name="Hoover"
+	culture="breton"
+	religion="nestorian"
+}
+400031={
+	name="Roosevelt"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400032={
+	name="Truman"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400033={
+	name="Eisenhower"
+	culture="breton"
+	religion="nestorian"
+}
+#400034={
+#	name="Kennedy"
+#	culture="old_frankish"
+#	religion="nestorian"
+#}
+400035={
+	name="Johnson"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400036={
+	name="Nixon"
+	culture="breton"
+	religion="nestorian"
+}
+400037={
+	name="Ford"
+	culture="breton"
+	religion="nestorian"
+}
+400038={
+	name="Carter"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400039={
+	name="Reagan"
+	culture="breton"
+	religion="nestorian"
+}
+400040={
+	name="Bush"
+	culture="breton"
+	religion="nestorian"
+}
+400041={
+	name="Clinton"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400042={
+	name="Bush"
+	culture="breton"
+	religion="nestorian"
+}
+400043={
+	name="Obama"
+	culture="old_frankish"
+	religion="nestorian"
+}
+#400044={
+#	name="Trump"
+#	culture="breton"
+#	religion="nestorian"
+#}
+400045={
+	name="Biden"
+	culture="old_frankish"
+	religion="nestorian"
+}
+400046 = {
+	name="Hallstein"
+	culture="european_european"
+	religion="catholic"
+}
+400047 = {
+	name="Rey"
+	culture="european_european"
+	religion="catholic"
+}
+400048 = {
+	name="Malfatti"
+	culture="european_european"
+	religion="catholic"
+}
+400049 = {
+	name="Mansholt"
+	culture="european_european"
+	religion="nesotrian"
+}
+400050 = {
+	name="Ortoli"
+	culture="european_european"
+	religion="catholic"
+}
+400051 = {
+	name="Jenkins"
+	culture="english"
+	religion="cathar"
+}
+400052 = {
+	name="Thorn"
+	culture="european_european"
+	religion="catholic"
+}
+400053 = {
+	name="Delors"
+	culture="european_european"
+	religion="catholic"
+}
+400054 = {
+	name="Santer"
+	culture="european_european"
+	religion="catholic"
+}
+400055 = {
+	name="Prodi"
+	culture="greek"
+	religion="catholic"
+}
+400056 = {
+	name="Barroso"
+	culture="catalan"
+	religion="catholic"
+}
+400057 = {
+	name="Juncker"
+	culture="european_european"
+	religion="catholic"
+}
+400058 = {
+	name="Von_der_Leyen"
+	culture="european_european"
+	religion="nesotrian"
+}

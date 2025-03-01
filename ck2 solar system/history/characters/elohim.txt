@@ -6,6 +6,7 @@
 	diplomacy=90
 	trait=charismatic_negotiator
 	trait=full_cybernetic_conversion
+	trait=organic_wifi
 	1.1.1={birth=yes}#game engine limitations stop us from setting history files before the year 0, so the livespan has been condensed
 	1.1.31={
 		add_spouse = 777772
@@ -41,6 +42,7 @@
 	trait=wrath
 	trait=charismatic_negotiator
 	trait=full_cybernetic_conversion
+	trait=organic_wifi
 	1.7.7={birth=yes}
 	1.11.11={
 		add_spouse = 777774
@@ -106,7 +108,11 @@
 	religion=elven_tribunal_heresy
 	father=777775
 	mother=777776
+	trait=genius
+	trait=strong
+	trait=fair
 	trait=full_cybernetic_conversion
+	trait=organic_wifi
 	diplomacy=50
 	trait=ambitious
 	trait=kind
@@ -920,10 +926,11 @@
     culture=dark_elven_nomad
     religion=elven_tribunal_heresy
 	father=777777
-	mother=777778
+	#mother=777778
 	employer=777100
 	trait=full_cybernetic_conversion
 	trait=clone
+	trait=born_in_the_purple
     5.11.11={birth=yes}
 	1066.1.1 = {
 		effect = { 
@@ -938,10 +945,11 @@
     culture=dark_elven_nomad
     religion=elven_tribunal_heresy
 	father=777777
-	mother=777778
+	#mother=777778
 	employer=777100
 	trait=full_cybernetic_conversion
 	trait=clone
+	trait=born_in_the_purple
 	female=yes
 	employer=777100
     5.11.11={birth=yes}
@@ -1288,6 +1296,7 @@
 	female=yes
 	trait=full_cybernetic_conversion
 	trait=vat_born
+	trait=organic_wifi
     11.6.12={birth=yes}
 }
 777125={
@@ -2033,7 +2042,7 @@
 	name = "Adnan"
 	dynasty = 106710
 	culture = "bedouin_arabic"
-	religion = "elven_tribunal_heresy"
+	religion = "jewish"
 	father = 777165
 	trait=organic_wifi
 	
@@ -2044,7 +2053,7 @@
 	name = "Ma'add"
 	dynasty = 106710
 	culture = "bedouin_arabic"
-	religion = "elven_tribunal"
+	religion = "jewish"
 	father = 777166
 	trait=organic_wifi
 	
@@ -2109,4 +2118,50 @@
 	
 	1065.1.1={birth=yes}
 	1143.1.1={death=yes}
+}
+777173 = {
+	name = "Levi"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777151
+	trait=organic_wifi
+	
+	863.1.1={birth=yes}
+	933.1.1={death=yes}
+}
+777174 = {
+	name = "Kohath"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777173
+	trait=organic_wifi
+	
+	898.1.1={birth=yes}
+	968.1.1={death=yes}
+}
+777175 = {
+	name = "Amram"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777174
+	trait=organic_wifi
+	
+	933.1.1={birth=yes}
+	1003.1.1={death=yes}
+}
+777176 = {
+	name = "Moses"
+	dynasty = 106420
+	culture = "ashkenazi"
+	religion = "jewish"
+	father = 777175
+	trait=organic_wifi
+	trait=genius
+	health=20
+	
+	968.1.1={birth=yes}
+	#1038.1.1={death=yes}
 }
