@@ -2,5 +2,5 @@
 	holder = 101656
 }
 1066.1.1 = {
-	liege=d_austin
+	liege=e_united_states #d_austin
 }

@@ -11,5 +11,8 @@
 	holder = 101615
 }
 1066.1.1 = {
+	holder = 0
+}
+1066.1.1 = {
 	liege=e_united_states
 }
