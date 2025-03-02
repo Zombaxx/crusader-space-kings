@@ -708,7 +708,7 @@ PROV706;Raqar;Raqar;Raqar;;Raqar;;;;;;;;;x
 PROV707;Taboke;Taboke;Taboke;;Taboke;;;;;;;;;x
 PROV708;Werenda;Werenda;Werenda;;Werenda;;;;;;;;;x
 PROV709;Rorirve;Rorirve;Rorirve;;Rorirve;;;;;;;;;x
-PROV710;Wizoja;Wizoja;Wizoja;;Wizoja;;;;;;;;;x
+PROV710;Sana'a;Sana'a;Sana'a;;Sana'a;;;;;;;;;x
 PROV711;Wonse;Wonse;Wonse;;Wonse;;;;;;;;;x
 PROV712;Akaminga;Akaminga;Akaminga;;Akaminga;;;;;;;;;x
 PROV713;Kaymama;Kaymama;Kaymama;;Kaymama;;;;;;;;;x
@@ -727,7 +727,7 @@ PROV725;Wenory;Wenory;Wenory;;Wenory;;;;;;;;;x
 PROV726;Egabaghu;Egabaghu;Egabaghu;;Egabaghu;;;;;;;;;x
 PROV727;Akaluraq;Akaluraq;Akaluraq;;Akaluraq;;;;;;;;;x
 PROV728;Reloila;Reloila;Reloila;;Reloila;;;;;;;;;x
-PROV729;Kajit;Kajit;Kajit;;Kajit;;;;;;;;;x
+PROV729;Abu Dhabi;Kajit;Kajit;;Kajit;;;;;;;;;x
 PROV730;Kinomir;Kinomir;Kinomir;;Kinomir;;;;;;;;;x
 PROV731;Wuragan;Wuragan;Wuragan;;Wuragan;;;;;;;;;x
 PROV732;Ducune;Ducune;Ducune;;Ducune;;;;;;;;;x
@@ -737,14 +737,14 @@ PROV735;Bohn;Bohn;Bohn;;Bohn;;;;;;;;;x
 PROV736;Lagita;Lagita;Lagita;;Lagita;;;;;;;;;x
 PROV737;Lyuha;Lyuha;Lyuha;;Lyuha;;;;;;;;;x
 PROV738;Kalaf;Kalaf;Kalaf;;Kalaf;;;;;;;;;x
-PROV739;Toman;Toman;Toman;;Toman;;;;;;;;;x
+PROV739;Dubai;Dubai;Dubai;;Dubai;;;;;;;;;x
 PROV740;Taazika;Taazika;Taazika;;Taazika;;;;;;;;;x
 PROV741;Leyeos;Leyeos;Leyeos;;Leyeos;;;;;;;;;x
 PROV742;Kyasika;Kyasika;Kyasika;;Kyasika;;;;;;;;;x
 PROV743;Tenupo;Tenupo;Tenupo;;Tenupo;;;;;;;;;x
 PROV744;Tosavo;Tosavo;Tosavo;;Tosavo;;;;;;;;;x
 PROV745;Arela;Arela;Arela;;Arela;;;;;;;;;x
-PROV746;Segeras;Segeras;Segeras;;Segeras;;;;;;;;;x
+PROV746;Yemen;Yemen;Yemen;;Yemen;;;;;;;;;x
 PROV747;Sodyka;Sodyka;Sodyka;;Sodyka;;;;;;;;;x
 PROV748;Koumike;Koumike;Koumike;;Koumike;;;;;;;;;x
 PROV749;Keminda;Keminda;Keminda;;Keminda;;;;;;;;;x
@@ -753,7 +753,7 @@ PROV751;Neonala;Neonala;Neonala;;Neonala;;;;;;;;;x
 PROV752;Qaneer;Qaneer;Qaneer;;Qaneer;;;;;;;;;x
 PROV753;Rucida;Rucida;Rucida;;Rucida;;;;;;;;;x
 PROV754;Tarakk;Tarakk;Tarakk;;Tarakk;;;;;;;;;x
-PROV755;Erakr;Erakr;Erakr;;Erakr;;;;;;;;;x
+PROV755;Muscat;Muscat;Muscat;;Muscat;;;;;;;;;x
 PROV756;Tanelen;Tanelen;Tanelen;;Tanelen;;;;;;;;;x
 PROV757;Daroise;Daroise;Daroise;;Daroise;;;;;;;;;x
 PROV758;Tucigun;Tucigun;Tucigun;;Tucigun;;;;;;;;;x
@@ -4762,8 +4762,8 @@ b_barony0238d;Davara;Davara;Davara;;Davara;;;;;;;;;x
 b_barony0238e;Kadenda;Kadenda;Kadenda;;Kadenda;;;;;;;;;x
 b_barony0238f;Qojiel;Qojiel;Qojiel;;Qojiel;;;;;;;;;x
 b_barony0238g;Batevi;Batevi;Batevi;;Batevi;;;;;;;;;x
-d_duchy0239;Agojiel;Agojiel;Agojiel;;Agojiel;;;;;;;;;x
-d_duchy0239_adj;Ratuna;Ratuna;Ratuna;;Ratuna;;;;;;;;;x
+d_duchy0239;Savannah;Savannah;Savannah;;Savannah;;;;;;;;;x
+d_duchy0239_adj;Savannaher;Savannaher;Savannaher;;Savannaher;;;;;;;;;x
 c_province0239_adj;South Carolinian;South Carolinian;South Carolinian;;South Carolinian;;;;;;;;;x
 b_barony0239`;South Carolina;South Carolina;South Carolina;;South Carolina;;;;;;;;;x
 b_barony0239a;Charleston SC;Charleston;Charleston;;Charleston;;;;;;;;;x
@@ -8226,15 +8226,15 @@ b_barony0582d;Woserge;Woserge;Woserge;;Woserge;;;;;;;;;x
 b_barony0582e;Benara;Benara;Benara;;Benara;;;;;;;;;x
 b_barony0582f;Nunukpo;Nunukpo;Nunukpo;;Nunukpo;;;;;;;;;x
 b_barony0582g;Tutani;Tutani;Tutani;;Tutani;;;;;;;;;x
-c_province0583_adj;Baltic;Hungarian;Hungarian;;Hungarian;;;;;;;;;x
-b_barony0583`;Lithuania;Budapest;Budapest;;Budapest;;;;;;;;;x
-b_barony0583a;Latvia;Szeged;Szeged;;Szeged;;;;;;;;;x
-b_barony0583b;Estonia;Debrecen;Debrecen;;Debrecen;;;;;;;;;x
-b_barony0583c;Vilnius;Szekesfehervar;Szekesfehervar;;Szekesfehervar;;;;;;;;;x
-b_barony0583d;Riga;Gyor;Gyor;;Gyor;;;;;;;;;x
-b_barony0583e;Tallinn;Pecs;Pecs;;Pecs;;;;;;;;;x
-b_barony0583f;Kaunas;Miskolc;Miskolc;;Miskolc;;;;;;;;;x
-b_barony0583g;Klaipeda;Debrecen;Debrecen;;Debrecen;;;;;;;;;x
+c_province0583_adj;Hungarian;Hungarian;Hungarian;;Hungarian;;;;;;;;;x
+b_barony0583`;Budapest;Budapest;Budapest;;Budapest;;;;;;;;;x
+b_barony0583a;Szeged;Szeged;Szeged;;Szeged;;;;;;;;;x
+b_barony0583b;Debrecen;Debrecen;Debrecen;;Debrecen;;;;;;;;;x
+b_barony0583c;Szekesfehervar;Szekesfehervar;Szekesfehervar;;Szekesfehervar;;;;;;;;;x
+b_barony0583d;Gyor;Gyor;Gyor;;Gyor;;;;;;;;;x
+b_barony0583e;Pecs;Pecs;Pecs;;Pecs;;;;;;;;;x
+b_barony0583f;Miskolc;Miskolc;Miskolc;;Miskolc;;;;;;;;;x
+b_barony0583g;Debrecen;Debrecen;Debrecen;;Debrecen;;;;;;;;;x
 c_province0584_adj;Balkan;Syolailo;Syolailo;;Syolailo;;;;;;;;;x
 b_barony0584`;Serbia;Beusz;Beusz;;Beusz;;;;;;;;;x
 b_barony0584a;North Macedonia;Wazajit;Wazajit;;Wazajit;;;;;;;;;x
@@ -9483,8 +9483,8 @@ b_barony0709d;Qeeneca;Qeeneca;Qeeneca;;Qeeneca;;;;;;;;;x
 b_barony0709e;Ranava;Ranava;Ranava;;Ranava;;;;;;;;;x
 b_barony0709f;Behitya;Behitya;Behitya;;Behitya;;;;;;;;;x
 b_barony0709g;Tagula;Tagula;Tagula;;Tagula;;;;;;;;;x
-c_province0710_adj;Ked;Ked;Ked;;Ked;;;;;;;;;x
-b_barony0710`;Kaloras;Kaloras;Kaloras;;Kaloras;;;;;;;;;x
+c_province0710_adj;Sana'aian;Sana'aian;Sana'aian;;Sana'aian;;;;;;;;;x
+b_barony0710`;Sana'a;Sana'a;Sana'a;;Sana'a;;;;;;;;;x
 b_barony0710a;Ruholke;Ruholke;Ruholke;;Ruholke;;;;;;;;;x
 b_barony0710b;Kadalo;Kadalo;Kadalo;;Kadalo;;;;;;;;;x
 b_barony0710c;Esinana;Esinana;Esinana;;Esinana;;;;;;;;;x
@@ -9674,8 +9674,8 @@ b_barony0728d;Qiuniruz;Qiuniruz;Qiuniruz;;Qiuniruz;;;;;;;;;x
 b_barony0728e;Tawyal;Tawyal;Tawyal;;Tawyal;;;;;;;;;x
 b_barony0728f;Qemenxiu;Qemenxiu;Qemenxiu;;Qemenxiu;;;;;;;;;x
 b_barony0728g;Lubolun;Lubolun;Lubolun;;Lubolun;;;;;;;;;x
-c_province0729_adj;Selulad;Selulad;Selulad;;Selulad;;;;;;;;;x
-b_barony0729`;Wemenxiu;Wemenxiu;Wemenxiu;;Wemenxiu;;;;;;;;;x
+c_province0729_adj;Abu Dhabiian;Selulad;Selulad;;Selulad;;;;;;;;;x
+b_barony0729`;Abu Dhabi;Wemenxiu;Wemenxiu;;Wemenxiu;;;;;;;;;x
 b_barony0729a;Elotia;Elotia;Elotia;;Elotia;;;;;;;;;x
 b_barony0729b;Nizeorge;Nizeorge;Nizeorge;;Nizeorge;;;;;;;;;x
 b_barony0729c;Ricenia;Ricenia;Ricenia;;Ricenia;;;;;;;;;x
@@ -9770,10 +9770,10 @@ b_barony0738d;Reloras;Reloras;Reloras;;Reloras;;;;;;;;;x
 b_barony0738e;Ejayacai;Ejayacai;Ejayacai;;Ejayacai;;;;;;;;;x
 b_barony0738f;Rabiuva;Rabiuva;Rabiuva;;Rabiuva;;;;;;;;;x
 b_barony0738g;Remeusz;Remeusz;Remeusz;;Remeusz;;;;;;;;;x
-d_duchy0739;Dagika;Dagika;Dagika;;Dagika;;;;;;;;;x
-d_duchy0739_adj;Doumiya;Doumiya;Doumiya;;Doumiya;;;;;;;;;x
-c_province0739_adj;Qavoor;Qavoor;Qavoor;;Qavoor;;;;;;;;;x
-b_barony0739`;Kegund;Kegund;Kegund;;Kegund;;;;;;;;;x
+d_duchy0739;UAE;UAE;UAE;;UAE;;;;;;;;;x
+d_duchy0739_adj;Emirati;Emirati;Emirati;;Emirati;;;;;;;;;x
+c_province0739_adj;Dubaian;Dubaian;Dubaian;;Dubaian;;;;;;;;;x
+b_barony0739`;Dubai;Kegund;Kegund;;Kegund;;;;;;;;;x
 b_barony0739a;Taidamr;Taidamr;Taidamr;;Taidamr;;;;;;;;;x
 b_barony0739b;Bathi;Bathi;Bathi;;Bathi;;;;;;;;;x
 b_barony0739c;Tokoran;Tokoran;Tokoran;;Tokoran;;;;;;;;;x
@@ -9845,8 +9845,8 @@ b_barony0745d;Qigel;Qigel;Qigel;;Qigel;;;;;;;;;x
 b_barony0745e;Lahipa;Lahipa;Lahipa;;Lahipa;;;;;;;;;x
 b_barony0745f;Ejetoka;Ejetoka;Ejetoka;;Ejetoka;;;;;;;;;x
 b_barony0745g;Ligyal;Ligyal;Ligyal;;Ligyal;;;;;;;;;x
-c_province0746_adj;Wanyal;Wanyal;Wanyal;;Wanyal;;;;;;;;;x
-b_barony0746`;Tuninga;Tuninga;Tuninga;;Tuninga;;;;;;;;;x
+c_province0746_adj;Yemeni;Yemeni;Yemeni;;Yemeni;;;;;;;;;x
+b_barony0746`;Yemen;Yemen;Yemen;;Yemen;;;;;;;;;x
 b_barony0746a;Badesh;Badesh;Badesh;;Badesh;;;;;;;;;x
 b_barony0746b;Redine;Redine;Redine;;Redine;;;;;;;;;x
 b_barony0746c;Kirade;Kirade;Kirade;;Kirade;;;;;;;;;x
@@ -9934,8 +9934,8 @@ b_barony0754d;Kadinie;Kadinie;Kadinie;;Kadinie;;;;;;;;;x
 b_barony0754e;Amemaul;Amemaul;Amemaul;;Amemaul;;;;;;;;;x
 b_barony0754f;Nohory;Nohory;Nohory;;Nohory;;;;;;;;;x
 b_barony0754g;Timaras;Timaras;Timaras;;Timaras;;;;;;;;;x
-c_province0755_adj;Resiga;Resiga;Resiga;;Resiga;;;;;;;;;x
-b_barony0755`;Evitin;Evitin;Evitin;;Evitin;;;;;;;;;x
+c_province0755_adj;Muscater;Muscater;Muscater;;Muscater;;;;;;;;;x
+b_barony0755`;Muscater;Muscater;Muscater;;Muscater;;;;;;;;;x
 b_barony0755a;Bimon;Bimon;Bimon;;Bimon;;;;;;;;;x
 b_barony0755b;Kameca;Kameca;Kameca;;Kameca;;;;;;;;;x
 b_barony0755c;Toderlo;Toderlo;Toderlo;;Toderlo;;;;;;;;;x
@@ -10019,8 +10019,8 @@ b_barony0763d;Adepaneh;Adepaneh;Adepaneh;;Adepaneh;;;;;;;;;x
 b_barony0763e;Arefuno;Arefuno;Arefuno;;Arefuno;;;;;;;;;x
 b_barony0763f;Rulun;Rulun;Rulun;;Rulun;;;;;;;;;x
 b_barony0763g;Dutaram;Dutaram;Dutaram;;Dutaram;;;;;;;;;x
-d_duchy0764;Kakusbu;Kakusbu;Kakusbu;;Kakusbu;;;;;;;;;x
-d_duchy0764_adj;Arosaram;Arosaram;Arosaram;;Arosaram;;;;;;;;;x
+d_duchy0764;Oman;Oman;Oman;;Oman;;;;;;;;;x
+d_duchy0764_adj;Omani;Omani;Omani;;Omani;;;;;;;;;x
 c_province0764_adj;Avilajid;Avilajid;Avilajid;;Avilajid;;;;;;;;;x
 b_barony0764`;Namair;Namair;Namair;;Namair;;;;;;;;;x
 b_barony0764a;Kabdonne;Kabdonne;Kabdonne;;Kabdonne;;;;;;;;;x
