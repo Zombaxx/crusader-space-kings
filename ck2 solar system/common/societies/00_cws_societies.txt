@@ -22,7 +22,10 @@ warrior_lodge_cws_christian = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -714,7 +717,11 @@ warrior_lodge_cws_christian = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_group = christian
@@ -754,7 +761,10 @@ warrior_lodge_cws_christian = {
 	# }
 	
 	# can_join_society = {
-		# hidden_trigger = {
+		#NAND = {
+		#	ai = yes
+		#	trait = full_cybernetic_conversion
+		#}		# hidden_trigger = {
 			# NAND = {
 				# ai = yes
 				# is_society_rank_full = { 

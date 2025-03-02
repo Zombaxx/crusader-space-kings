@@ -16,7 +16,10 @@ the_guilds = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -313,7 +316,11 @@ the_guilds = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 			age = 16

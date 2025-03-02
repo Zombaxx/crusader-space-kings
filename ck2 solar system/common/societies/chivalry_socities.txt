@@ -25,7 +25,10 @@ society_knights_templar = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NOT = { has_character_flag = society_join_block }
 		}
 		hidden_trigger = {
@@ -534,6 +537,10 @@ society_knights_templar = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -1085,6 +1092,10 @@ society_knights_hospitaller = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -1636,6 +1647,10 @@ society_teutonic_order = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -2187,6 +2202,10 @@ society_knights_calatrava = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -2738,6 +2757,10 @@ society_knights_santiago = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -3289,6 +3312,10 @@ society_holy_sepulchre = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -3840,6 +3867,10 @@ society_saint_anthony = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -4391,6 +4422,10 @@ society_saint_addai = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -4944,6 +4979,10 @@ society_bektashi = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -5495,6 +5534,10 @@ society_haruriyyah = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -6038,6 +6081,10 @@ society_zealots = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -6581,6 +6628,10 @@ society_immortals = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -7195,6 +7246,10 @@ society_jomsvikings = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -7762,6 +7817,10 @@ society_sky_lords = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -8329,6 +8388,10 @@ society_spirit_guardians = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -8896,6 +8959,10 @@ society_warriors_perun = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -9463,6 +9530,10 @@ society_chosen_perkunas = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -10030,6 +10101,10 @@ society_sons_kaleva = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -10584,6 +10659,10 @@ society_huitzilopochtli = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -11127,6 +11206,10 @@ society_ashokas_chosen = { #maybe give indians something about their religious s
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -11670,6 +11753,10 @@ society_followers_arjuna = { #maybe give indians something about their religious
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -12213,6 +12300,10 @@ society_bulls_rishabha = { #maybe give indians something about their religious s
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -12780,6 +12871,10 @@ society_zun_warriors = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -13350,6 +13445,10 @@ society_army_light = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -13925,6 +14024,10 @@ society_myrmidons = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -14492,6 +14595,10 @@ society_dralhas_children = { #maybe give indians something about their religious
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -15072,6 +15179,10 @@ society_western_guild = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			lower_tier_than = king
@@ -15645,6 +15756,10 @@ society_southern_guild = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			lower_tier_than = king
@@ -16219,6 +16334,10 @@ society_northern_guild = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			lower_tier_than = king
@@ -16792,6 +16911,10 @@ society_eastern_guild = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			lower_tier_than = king
@@ -17337,6 +17460,10 @@ society_livonian_brothers_of_the_sword = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -17892,6 +18019,10 @@ society_saint_blaise = { #HIP+PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -18447,6 +18578,10 @@ society_knights_saint_mark = { #HIP+PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -19002,6 +19137,10 @@ society_army_lucifer = { #HIP+PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -19554,6 +19693,10 @@ society_arsiyah = { #HIP
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -20106,6 +20249,10 @@ society_saqaliba = { #HIP
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -20658,6 +20805,10 @@ society_devotees_of_the_true_prophet = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -21210,6 +21361,10 @@ society_ansar = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -21762,6 +21917,10 @@ society_ghazi_sunni = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -22314,6 +22473,10 @@ society_ghazi_shiite = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -22858,6 +23021,10 @@ society_sons_of_judea = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -23442,6 +23609,10 @@ society_braedralag = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -24026,6 +24197,10 @@ society_harii = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -24613,6 +24788,10 @@ society_fianna = { #PLUS / AC
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -25197,6 +25376,10 @@ society_gwydion = { #PLUS / Merc in AC
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -25784,6 +25967,10 @@ society_red_dragons = { #PLUS / AC
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -26331,6 +26518,10 @@ society_anubis = { #PLUS / AC
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -26878,6 +27069,10 @@ society_horus = { #PLUS / AC
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -27454,6 +27649,10 @@ society_herculean = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -28033,6 +28232,10 @@ society_sacred_band = { #PLUS / AC
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -28601,6 +28804,10 @@ society_great_host = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -29169,6 +29376,10 @@ society_guardians_of_the_sacred_flame = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -29737,6 +29948,10 @@ society_disciples_of_the_old_gods = { #PLUS
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			OR = {
@@ -30314,6 +30529,10 @@ society_generic_fighter_guild = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			lower_tier_than = king
@@ -30899,6 +31118,10 @@ society_risk_fighter_guild = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			lower_tier_than = king
@@ -31468,6 +31691,10 @@ society_female_fighter_guild = {
 	
 	startup_populate = {
 		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 			war = no
 			lower_tier_than = king
@@ -31499,7 +31726,10 @@ society_holy_one = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NOT = { has_character_flag = society_join_block }
 		}
 		hidden_trigger = {

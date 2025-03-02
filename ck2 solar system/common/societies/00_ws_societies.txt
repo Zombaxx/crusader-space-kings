@@ -24,7 +24,10 @@ warrior_lodge_ws_mazdan = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -520,7 +523,11 @@ warrior_lodge_ws_mazdan = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_group = zoroastrian_group
@@ -569,7 +576,10 @@ warrior_lodge_ws_eastern = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -1083,7 +1093,11 @@ warrior_lodge_ws_eastern = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_group = indian_group
@@ -1131,7 +1145,10 @@ warrior_lodge_ws_aztec = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -1589,7 +1606,11 @@ warrior_lodge_ws_aztec = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_aztec_or_reformed_trigger = yes
@@ -1634,7 +1655,10 @@ warrior_lodge_ws_muslim = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -2134,7 +2158,11 @@ warrior_lodge_ws_muslim = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_group = muslim
@@ -2183,7 +2211,10 @@ warrior_lodge_ws_jewish = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -2647,7 +2678,11 @@ warrior_lodge_ws_jewish = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_group = jewish_group

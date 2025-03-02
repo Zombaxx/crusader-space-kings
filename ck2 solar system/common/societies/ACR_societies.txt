@@ -34,7 +34,10 @@ warrior_lodge_celtic = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -567,7 +570,11 @@ warrior_lodge_celtic = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_celtic_or_reformed_trigger = yes
@@ -611,7 +618,10 @@ warrior_lodge_britannic = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -1141,7 +1151,11 @@ warrior_lodge_britannic = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = britannic_pagan
@@ -1185,7 +1199,10 @@ warrior_lodge_titan = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -1708,7 +1725,11 @@ warrior_lodge_titan = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = titan_pagan
@@ -1752,7 +1773,10 @@ warrior_lodge_egyptian = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -2285,7 +2309,11 @@ warrior_lodge_egyptian = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_in_egyptian_subgroup_trigger = yes
@@ -2325,7 +2353,10 @@ monastic_order_skeptics = {
 	indestructible = yes
 
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -2619,7 +2650,11 @@ monastic_order_skeptics = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	  	  	controls_religion = no
 			NOR = { #Not for savages.
@@ -2684,7 +2719,10 @@ monastic_order_epicureans = {
 	indestructible = yes
 
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -2978,7 +3016,11 @@ monastic_order_epicureans = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	  	  	controls_religion = no
 			NOR = { #Not for savages.
@@ -3043,7 +3085,10 @@ monastic_order_isis = {
 	indestructible = yes
 
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -3308,7 +3353,11 @@ monastic_order_isis = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = egyptian_pagan
@@ -3354,7 +3403,10 @@ warrior_lodge_taoist = {
 	indestructible = yes
 	
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -3768,7 +3820,11 @@ warrior_lodge_taoist = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = taoist

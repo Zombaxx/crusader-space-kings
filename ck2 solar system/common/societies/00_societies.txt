@@ -314,7 +314,11 @@ monastic_order_benedictine = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = catholic
@@ -623,7 +627,11 @@ monastic_order_dominican = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = catholic
@@ -966,7 +974,11 @@ monastic_order_orthodox = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = orthodox
@@ -1293,7 +1305,11 @@ monastic_order_nestorian = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = nestorian
@@ -1548,7 +1564,11 @@ monastic_order_monophysite = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = miaphysite
@@ -1812,7 +1832,11 @@ monastic_order_hindu = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = hindu
@@ -2080,7 +2104,11 @@ monastic_order_buddhist = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = buddhist
@@ -2352,7 +2380,11 @@ monastic_order_jain = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = jain
@@ -2695,7 +2727,11 @@ monastic_order_stoics = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	  	controls_religion = no
 			NOR = { #Not for savages.
@@ -3006,7 +3042,11 @@ hermetics = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 			age = 16
@@ -3415,7 +3455,11 @@ the_assassins = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no 
 			religion = shiite
@@ -4138,7 +4182,11 @@ the_trollcrafters = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			NOT = {
 				has_game_rule = {
 					name = devil_worshipers
@@ -4478,7 +4526,11 @@ the_cult_of_kali = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			NOT = {
 				has_game_rule = {
 					name = devil_worshipers
@@ -4812,7 +4864,11 @@ the_cold_ones = {
 	}
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			NOT = {
 				has_game_rule = {
 					name = devil_worshipers
@@ -5157,7 +5213,11 @@ the_plaguebringers = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			NOT = {
 				has_game_rule = {
 					name = devil_worshipers
@@ -5496,7 +5556,11 @@ the_vodouns = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			NOT = {
 				has_game_rule = {
 					name = devil_worshipers
@@ -5854,7 +5918,11 @@ the_bacchants = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			NOT = {
 				has_game_rule = {
 					name = devil_worshipers
@@ -6150,7 +6218,11 @@ secret_religious_society_template = {
 	}
 	
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 	    	always = no
 		}
 	}
@@ -6723,7 +6795,11 @@ warrior_lodge_norse = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_norse_or_reformed_trigger = yes
@@ -7301,7 +7377,11 @@ warrior_lodge_tengri = { # Also generally for Nomads
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 			OR = {
@@ -7880,7 +7960,11 @@ warrior_lodge_baltic = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_baltic_or_reformed_trigger = yes
@@ -8456,7 +8540,11 @@ warrior_lodge_finnish = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_finnish_or_reformed_trigger = yes
@@ -9032,7 +9120,11 @@ warrior_lodge_slavic = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_slavic_or_reformed_trigger = yes
@@ -9612,7 +9704,11 @@ warrior_lodge_west_african = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_west_african_or_reformed_trigger = yes
@@ -10188,7 +10284,11 @@ warrior_lodge_zun = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_zun_or_reformed_trigger = yes
@@ -10760,7 +10860,11 @@ warrior_lodge_bon = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_bon_or_reformed_trigger = yes
@@ -11336,7 +11440,11 @@ warrior_lodge_hellenic = {
 	}	
 
 	startup_populate = {
-	    trigger = {
+		trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion_openly_hellenic_or_reformed_trigger = yes

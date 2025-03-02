@@ -17,7 +17,10 @@ monastic_order_sunni = {
 	indestructible = yes
 
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -311,7 +314,10 @@ monastic_order_shiite = {
 	indestructible = yes
 
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -604,7 +610,10 @@ monastic_order_ibadi = {
 	indestructible = yes
 
 	can_join_society = {
-		hidden_trigger = {
+		NAND = {
+			ai = yes
+			trait = full_cybernetic_conversion
+		}		hidden_trigger = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
