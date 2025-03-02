@@ -4,12 +4,13 @@
 title = c_province0531
 
 # Settlements
-max_settlements = 3
-b_barony0531` = tribal
+max_settlements = 7
+b_barony0531` = castle
+b_barony0531a = city
 b_barony0531a = temple
 
 # Misc
-culture = norse
-religion = nestorian
+culture = kannada
+religion = catholic
 
 # History

@@ -865,7 +865,7 @@ e_empire0046 = {
 	color2={ 255 255 255 }
 	
 	purple_born_heirs = yes
-	capital = 131
+	capital = 69
 	
 	culture = castillan
 
@@ -873,7 +873,7 @@ e_empire0046 = {
 		color={ 184 182 59 }
 		color2={ 255 255 255 }
 		
-		capital = 131
+		capital = 69
 		
 		culture = castillan
 		
@@ -881,7 +881,7 @@ e_empire0046 = {
 			color={ 231 208 67 }
 			color2={ 255 255 255 }
 			
-			capital = 80
+			capital = 69
 			
 			c_tenochtitlan = {
 				color={ 192 192 73 }
@@ -898,7 +898,7 @@ e_empire0046 = {
 				b_tenochtitlan = {
 				dynasty_title_names = no
 				}
-				b_tenochtitlan = { }
+				b_barony0069a = { }
 				b_barony0069b = { }
 				b_barony0069c = { }
 				b_barony0069d = { }
@@ -3468,6 +3468,29 @@ e_united_states = {
 				b_barony0208g = { }
 			}
 		}
+		d_duchy0531 = { #hawaii
+			color={ 187 86 105 }
+			color2={ 255 255 255 }
+			
+			capital = 531
+			
+			c_province0531 = {
+				color={ 187 86 105 }
+				color2={ 255 255 255 }
+
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed				
+				
+				b_barony0531` = { }
+				b_barony0531a = { }
+				b_barony0531b = { }
+				b_barony0531c = { }
+				b_barony0531d = { }
+				b_barony0531e = { }
+				b_barony0531f = { }
+				b_barony0531g = { }
+			}
+		}
 	}	
 	k_the_south = {
 		color={ 223 215 74 }
@@ -3501,19 +3524,19 @@ e_united_states = {
 				b_boca_raton = { }
 				b_mar-a-lago = { }
 			}
-			c_province0165 = {
-				color={ 168 116 120 }
+			c_province0198 = {
+				color={ 81 96 104 }
 				color2={ 255 255 255 }
 				
 				
-				b_barony0165` = { }
-				b_barony0165a = { }
-				b_barony0165b = { }
-				b_barony0165c = { }
-				b_barony0165d = { }
-				b_barony0165e = { }
-				b_barony0165f = { }
-				b_barony0165g = { }
+				b_barony0198` = { }
+				b_barony0198a = { }
+				b_barony0198b = { }
+				b_barony0198c = { }
+				b_barony0198d = { }
+				b_barony0198e = { }
+				b_barony0198f = { }
+				b_barony0198g = { }
 			}
 			c_province0184 = {
 				color={ 120 158 108 }
@@ -3550,6 +3573,20 @@ e_united_states = {
 				b_barony0145f = { }
 				b_barony0145g = { }
 			}
+			c_province0165 = {
+				color={ 168 116 120 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0165` = { }
+				b_barony0165a = { }
+				b_barony0165b = { }
+				b_barony0165c = { }
+				b_barony0165d = { }
+				b_barony0165e = { }
+				b_barony0165f = { }
+				b_barony0165g = { }
+			}
 			c_province0182 = {
 				color={ 170 162 127 }
 				color2={ 255 255 255 }
@@ -3565,33 +3602,19 @@ e_united_states = {
 				b_barony0182g = { }
 			}
 		}
-		d_duchy0184 = {
+		d_duchy0184 = { #unused
 			color={ 120 158 108 }
 			color2={ 255 255 255 }
 			
 			capital = 184
 			
 		}
-		d_duchy0198 = {
+		d_duchy0198 = { #unused
 			color={ 81 96 104 }
 			color2={ 255 255 255 }
 			
 			capital = 198
 			
-			c_province0198 = {
-				color={ 81 96 104 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0198` = { }
-				b_barony0198a = { }
-				b_barony0198b = { }
-				b_barony0198c = { }
-				b_barony0198d = { }
-				b_barony0198e = { }
-				b_barony0198f = { }
-				b_barony0198g = { }
-			}
 		}
 		d_duchy0126 = {
 			color={ 93 168 191 }
@@ -12630,29 +12653,6 @@ e_empire0717 = { #China
 				b_barony0570g = { }
 			}
 		}
-		d_duchy0531 = {
-			color={ 187 86 105 }
-			color2={ 255 255 255 }
-			
-			capital = 531
-			
-			c_province0531 = {
-				color={ 187 86 105 }
-				color2={ 255 255 255 }
-
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
-				
-				b_barony0531` = { }
-				b_barony0531a = { }
-				b_barony0531b = { }
-				b_barony0531c = { }
-				b_barony0531d = { }
-				b_barony0531e = { }
-				b_barony0531f = { }
-				b_barony0531g = { }
-			}
-		}
 	}
 	k_kingdom0621 = { #Russia
 		color={ 45 115 26 }
@@ -13292,6 +13292,8 @@ e_empire0717 = { #China
 				color={ 42 116 45 }
 				color2={ 255 255 255 }
 				
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed
 				
 				b_barony0715` = { }
 				b_barony0715a = { }

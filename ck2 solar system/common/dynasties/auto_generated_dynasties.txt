@@ -1099,8 +1099,8 @@
 	religion="jewish"
 }	
 102330={	
-	name="Takotus"
-	culture="irish"
+	name="Smith"
+	culture="breton"
 	religion="catholic"
 }	
 102340={	
@@ -2644,9 +2644,9 @@
 	religion="catholic"
 }	
 105310={	
-	name="Tivenla"
-	culture="saxon"
-	religion="orthodox"
+	name="Kahanamoku"
+	culture="kannada"
+	religion="catholic"
 }	
 105320={	
 	name="Erager"

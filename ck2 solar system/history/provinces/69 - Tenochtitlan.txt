@@ -6,8 +6,12 @@ title = c_tenochtitlan
 # Settlements
 max_settlements = 4
 b_tenochtitlan = castle
-b_tenochtitlan = temple
-b_barony0069b = city
+b_barony0069a = city
+b_barony0069b = temple
+b_barony0069c = city
+b_barony0069d = temple
+b_barony0069e = city
+b_barony0069f = castle
 
 # Misc
 culture = castillan

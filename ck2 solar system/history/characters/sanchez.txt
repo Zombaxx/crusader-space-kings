@@ -28,6 +28,11 @@
 	997.1.1={
 		add_spouse = 778001
 	}
+	1065.1.1 = {
+		effect={
+			add_rival=778015
+		}
+	}
 }
 778001={
 	name="Diane"
@@ -99,6 +104,7 @@
 	1038.9.18={
 		add_lover = 778002
 	}
+	1064.1.1={effect={add_friend=778002}}
 }
 778004={
 	name="Jerry"
@@ -153,6 +159,12 @@
 	health=10
 	combat_rating=40
 	1018.2.6={birth=yes}
+	1064.1.1={effect={add_friend=778000}}
+	1065.1.1 = {
+		effect={
+			add_rival=778015
+		}
+	}
 	1066.1.1 = {
 		effect = { 
 			prestige = 2000
@@ -295,6 +307,7 @@
 	trait=brilliant_strategist
 	trait=impaler
 	trait=greedy
+	trait=odin_mk_iii
 	health=10
 	combat_rating=100
 	1018.2.6={birth=yes}
