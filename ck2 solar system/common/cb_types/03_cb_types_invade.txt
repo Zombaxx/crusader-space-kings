@@ -115,7 +115,7 @@ grand_invasion_war = {
 						}
 					}
 				}
-				usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
+				#usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
 				FROM = { set_defacto_liege = ROOT }
 				if = {
 					limit = {
@@ -123,19 +123,19 @@ grand_invasion_war = {
 					}
 					FROM = { imprison = ROOT }
 				}
-				if = {
-					limit = {
-						any_independent_ruler = {
-							has_character_flag = preserve_vassal_structure_@ROOT
-						}
-					}
-					any_independent_ruler = {
-						limit = {
-							has_character_flag = preserve_vassal_structure_@ROOT
-						}
-						set_defacto_liege = ROOT
-					}
-				}
+				#if = {
+				#	limit = {
+				#		any_independent_ruler = {
+				#			has_character_flag = preserve_vassal_structure_@ROOT
+				#		}
+				#	}
+				#	any_independent_ruler = {
+				#		limit = {
+				#			has_character_flag = preserve_vassal_structure_@ROOT
+				#		}
+				#		set_defacto_liege = ROOT
+				#	}
+				#}
 				ROOT = {
 					any_vassal = {
 						clr_character_flag = preserve_vassal_structure_@ROOT
