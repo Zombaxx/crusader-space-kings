@@ -14,3 +14,7 @@ culture = bedouin_arabic
 religion = sunni
 
 # History
+1.1.1 = {
+	build_wonder = wonder_pyramid_giza
+	set_wonder_stage = 2
+}

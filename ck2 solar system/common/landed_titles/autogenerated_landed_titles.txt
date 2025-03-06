@@ -16234,20 +16234,6 @@ e_empire0897 = {
 				b_barony0868f = { }
 				b_barony0868g = { }
 			}
-			c_province0894 = {
-				color={ 169 138 12 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0894` = { }
-				b_barony0894a = { }
-				b_barony0894b = { }
-				b_barony0894c = { }
-				b_barony0894d = { }
-				b_barony0894e = { }
-				b_barony0894f = { }
-				b_barony0894g = { }
-			}
 			c_province0880 = {
 				color={ 209 123 43 }
 				color2={ 255 255 255 }
@@ -16277,21 +16263,49 @@ e_empire0897 = {
 			color2={ 255 255 255 }
 			
 			capital = 908
-			
-			c_province0907 = {
-				color={ 160 174 35 }
+
+			c_province0944 = {
+				color={ 187 169 19 }
 				color2={ 255 255 255 }
 				
 				
-				b_barony0907` = { }
-				b_barony0907a = { }
-				b_barony0907b = { }
-				b_barony0907c = { }
-				b_barony0907d = { }
-				b_barony0907e = { }
-				b_barony0907f = { }
-				b_barony0907g = { }
+				b_barony0944` = { }
+				b_barony0944a = { }
+				b_barony0944b = { }
+				b_barony0944c = { }
+				b_barony0944d = { }
+				b_barony0944e = { }
+				b_barony0944f = { }
+				b_barony0944g = { }
 			}
+			c_province0936 = {
+				color={ 202 151 26 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0936` = { }
+				b_barony0936a = { }
+				b_barony0936b = { }
+				b_barony0936c = { }
+				b_barony0936d = { }
+				b_barony0936e = { }
+				b_barony0936f = { }
+				b_barony0936g = { }
+			}
+			c_province0921 = {
+				color={ 169 154 6 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0921` = { }
+				b_barony0921a = { }
+				b_barony0921b = { }
+				b_barony0921c = { }
+				b_barony0921d = { }
+				b_barony0921e = { }
+				b_barony0921f = { }
+				b_barony0921g = { }
+			}			
 			c_province0908 = {
 				color={ 203 177 43 }
 				color2={ 255 255 255 }
@@ -16311,22 +16325,50 @@ e_empire0897 = {
 			color={ 197 128 20 }
 			color2={ 255 255 255 }
 			
-			capital = 918
-			
-			c_province0905 = {
-				color={ 178 168 10 }
+			capital = 931
+
+			c_province0951 = {
+				color={ 212 139 48 }
 				color2={ 255 255 255 }
 				
 				
-				b_barony0905` = { }
-				b_barony0905a = { }
-				b_barony0905b = { }
-				b_barony0905c = { }
-				b_barony0905d = { }
-				b_barony0905e = { }
-				b_barony0905f = { }
-				b_barony0905g = { }
+				b_barony0951` = { }
+				b_barony0951a = { }
+				b_barony0951b = { }
+				b_barony0951c = { }
+				b_barony0951d = { }
+				b_barony0951e = { }
+				b_barony0951f = { }
+				b_barony0951g = { }
+			}			
+			c_province0931 = {
+				color={ 192 159 24 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0931` = { }
+				b_barony0931a = { }
+				b_barony0931b = { }
+				b_barony0931c = { }
+				b_barony0931d = { }
+				b_barony0931e = { }
+				b_barony0931f = { }
+				b_barony0931g = { }
 			}
+			c_province0932 = {
+				color={ 155 164 41 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0932` = { }
+				b_barony0932a = { }
+				b_barony0932b = { }
+				b_barony0932c = { }
+				b_barony0932d = { }
+				b_barony0932e = { }
+				b_barony0932f = { }
+				b_barony0932g = { }
+			}			
 			c_province0918 = {
 				color={ 197 128 20 }
 				color2={ 255 255 255 }
@@ -16347,7 +16389,21 @@ e_empire0897 = {
 			color2={ 255 255 255 }
 			
 			capital = 927
-			
+
+			c_province0894 = {
+				color={ 169 138 12 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0894` = { }
+				b_barony0894a = { }
+				b_barony0894b = { }
+				b_barony0894c = { }
+				b_barony0894d = { }
+				b_barony0894e = { }
+				b_barony0894f = { }
+				b_barony0894g = { }
+			}			
 			c_province0909 = {
 				color={ 164 137 38 }
 				color2={ 255 255 255 }
@@ -16361,20 +16417,6 @@ e_empire0897 = {
 				b_barony0909e = { }
 				b_barony0909f = { }
 				b_barony0909g = { }
-			}
-			c_province0931 = {
-				color={ 192 159 24 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0931` = { }
-				b_barony0931a = { }
-				b_barony0931b = { }
-				b_barony0931c = { }
-				b_barony0931d = { }
-				b_barony0931e = { }
-				b_barony0931f = { }
-				b_barony0931g = { }
 			}
 			c_province0927 = {
 				color={ 186 120 47 }
@@ -16416,20 +16458,6 @@ e_empire0897 = {
 				b_barony0939f = { }
 				b_barony0939g = { }
 			}
-			c_province0944 = {
-				color={ 187 169 19 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0944` = { }
-				b_barony0944a = { }
-				b_barony0944b = { }
-				b_barony0944c = { }
-				b_barony0944d = { }
-				b_barony0944e = { }
-				b_barony0944f = { }
-				b_barony0944g = { }
-			}
 			c_province0941 = {
 				color={ 158 125 1 }
 				color2={ 255 255 255 }
@@ -16449,50 +16477,36 @@ e_empire0897 = {
 			color={ 211 155 36 }
 			color2={ 255 255 255 }
 			
-			capital = 930
-			
-			c_province0921 = {
-				color={ 169 154 6 }
+			capital = 907
+
+			c_province0905 = {
+				color={ 178 168 10 }
 				color2={ 255 255 255 }
 				
 				
-				b_barony0921` = { }
-				b_barony0921a = { }
-				b_barony0921b = { }
-				b_barony0921c = { }
-				b_barony0921d = { }
-				b_barony0921e = { }
-				b_barony0921f = { }
-				b_barony0921g = { }
+				b_barony0905` = { }
+				b_barony0905a = { }
+				b_barony0905b = { }
+				b_barony0905c = { }
+				b_barony0905d = { }
+				b_barony0905e = { }
+				b_barony0905f = { }
+				b_barony0905g = { }
 			}
-			c_province0932 = {
-				color={ 155 164 41 }
+			c_province0907 = {
+				color={ 160 174 35 }
 				color2={ 255 255 255 }
 				
 				
-				b_barony0932` = { }
-				b_barony0932a = { }
-				b_barony0932b = { }
-				b_barony0932c = { }
-				b_barony0932d = { }
-				b_barony0932e = { }
-				b_barony0932f = { }
-				b_barony0932g = { }
-			}
-			c_province0936 = {
-				color={ 202 151 26 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0936` = { }
-				b_barony0936a = { }
-				b_barony0936b = { }
-				b_barony0936c = { }
-				b_barony0936d = { }
-				b_barony0936e = { }
-				b_barony0936f = { }
-				b_barony0936g = { }
-			}
+				b_barony0907` = { }
+				b_barony0907a = { }
+				b_barony0907b = { }
+				b_barony0907c = { }
+				b_barony0907d = { }
+				b_barony0907e = { }
+				b_barony0907f = { }
+				b_barony0907g = { }
+			}			
 			c_province0930 = {
 				color={ 211 155 36 }
 				color2={ 255 255 255 }

@@ -17,3 +17,7 @@ culture = bedouin_arabic
 religion = sunni
 
 # History
+1.1.1 = {
+	build_wonder = wonder_cathedral_hagia_sophia
+	set_wonder_stage = 3
+}

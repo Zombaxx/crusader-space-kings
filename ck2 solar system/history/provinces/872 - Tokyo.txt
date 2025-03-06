@@ -18,3 +18,7 @@ culture = japanese
 religion = shinto
 
 # History
+1.1.1 = {
+	build_wonder = wonder_university
+	set_wonder_stage = 3
+}

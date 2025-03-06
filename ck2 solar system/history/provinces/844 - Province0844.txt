@@ -18,3 +18,7 @@ culture = zhangzhung
 religion = buddhist
 
 # History
+1.1.1 = {
+	build_wonder = wonder_wall
+	set_wonder_stage = 2
+}

@@ -3686,7 +3686,7 @@ wonder_house_of_wisdom2 = {
 
 # A8. Petra
 wonder_underground_city_petra = {
-	picture = GFX_wonder_stages_terraformer
+	picture = GFX_wonder_strip_undergroundcity
 	allow_construction = no
 	potential = {
 	}
@@ -3790,7 +3790,7 @@ wonder_underground_city_petra = {
 
 # A9. Hagia Sophia
 wonder_cathedral_hagia_sophia = {
-	picture = GFX_wonder_stages_skyscraper
+	picture = GFX_wonder_strip_hagia_sophia
 	model = wonder_hagia_sophia
 	allow_construction = no
 	active = {

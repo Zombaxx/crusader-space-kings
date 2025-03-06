@@ -14,3 +14,7 @@ culture = persian
 religion = kharijite
 
 # History
+1.1.1 = {
+	build_wonder = wonder_pagan_stones
+	set_wonder_stage = 2
+}

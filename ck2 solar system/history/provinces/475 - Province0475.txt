@@ -14,3 +14,7 @@ culture = english
 religion = cathar
 
 # History
+1.1.1 = {
+	build_wonder = wonder_pagan_stones_stonehenge
+	set_wonder_stage = 2
+}

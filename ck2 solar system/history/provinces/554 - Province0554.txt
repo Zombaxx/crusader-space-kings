@@ -19,3 +19,7 @@ culture = greek
 religion = catholic
 
 # History
+1.1.1 = {
+	build_wonder = wonder_apostolic_palace
+	set_wonder_stage = 3
+}

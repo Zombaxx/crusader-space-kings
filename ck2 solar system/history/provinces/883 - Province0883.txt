@@ -13,3 +13,7 @@ culture = hindustani
 religion = hindu
 
 # History
+1.1.1 = {
+	build_wonder = wonder_temple_hindu_konark
+	set_wonder_stage = 2
+}

@@ -15,3 +15,7 @@ culture = bedouin_arabic
 religion = jewish
 
 # History
+1.1.1 = {
+	build_wonder = wonder_underground_city_petra
+	set_wonder_stage = 1
+}

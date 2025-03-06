@@ -18,3 +18,7 @@ culture = castillan
 religion = catholic
 
 # History
+1.1.1 = {
+	build_wonder = wonder_fortress
+	set_wonder_stage = 2
+}

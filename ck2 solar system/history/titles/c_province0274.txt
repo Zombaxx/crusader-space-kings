@@ -11,5 +11,5 @@
 	holder = 102745
 }
 1066.1.1 = {
-	liege=d_duchy0291
+	liege=e_united_states #d_duchy0291
 }

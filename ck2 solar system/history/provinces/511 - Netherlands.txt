@@ -18,3 +18,7 @@ culture = european_european
 religion = catholic
 
 # History
+1.1.1 = {
+	build_wonder = wonder_cathedral_notre_dame
+	set_wonder_stage = 3
+}
