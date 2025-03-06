@@ -477,3 +477,458 @@
 	1042.1.1 = { birth=yes }   # ~2026 CE
 	1066.1.1 = { culture = "old_frankish" }
 }
+#Bhutan
+# -- Founding Kings and main line --
+400109 = {
+	name = "Ugyen"
+	dynasty = 400109
+	culture = "kannada"
+	religion = "buddhist"
+	878.1.1 = { birth=yes }
+	942.1.1 = { death=yes }
+}
+400110 = {
+	name = "Jigme"
+	dynasty = 400109
+	father = 400109
+	culture = "kannada"
+	religion = "buddhist"
+	921.1.1 = { birth=yes }
+	968.1.1 = { death=yes }
+}
+400111 = {
+	name = "Dorji"
+	dynasty = 400109
+	father = 400110
+	culture = "kannada"
+	religion = "buddhist"
+	945.1.1 = { birth=yes }
+	988.1.1 = { death=yes }
+}
+400112 = {
+	name = "Singye"
+	dynasty = 400109
+	father = 400111
+	culture = "kannada"
+	religion = "buddhist"
+	971.1.1 = { birth=yes }
+}
+400113 = {
+	name = "Namgyel"
+	dynasty = 400109
+	father = 400112
+	culture = "kannada"
+	religion = "buddhist"
+	996.1.1 = { birth=yes }
+}
+
+# -- Current King's children (Khesar, ID 400113) --
+400119 = {
+	name = "Namgyel"
+	dynasty = 400109
+	father = 400113
+	culture = "kannada"
+	religion = "buddhist"
+	1032.1.1 = { birth=yes }
+}
+400120 = {
+	name = "Ugyen"
+	dynasty = 400109
+	father = 400113
+	culture = "kannada"
+	religion = "buddhist"
+	1036.1.1 = { birth=yes }
+}
+400152 = {
+	name = "Namgyel"
+	dynasty = 400109
+	father = 400113
+	culture = "kannada"
+	religion = "buddhist"
+	1060.1.1 = { birth=yes }
+}
+
+# -- Current King's siblings (children of Singye, ID 400112) --
+400114 = {
+	name = "Yangzom"
+	dynasty = 400109
+	father = 400112
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	996.1.1 = { birth=yes }
+}
+400115 = {
+	name = "Yangzom"
+	dynasty = 400109
+	father = 400112
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	997.1.1 = { birth=yes }
+}
+400116 = {
+	name = "Choden"
+	dynasty = 400109
+	father = 400112
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	998.1.1 = { birth=yes }
+}
+400117 = {
+	name = "Ugyen"
+	dynasty = 400109
+	father = 400112
+	culture = "kannada"
+	religion = "buddhist"
+	1000.1.1 = { birth=yes }
+}
+400118 = {
+	name = "Jigme"
+	dynasty = 400109
+	father = 400112
+	culture = "kannada"
+	religion = "buddhist"
+	1002.1.1 = { birth=yes }
+}
+
+# -- Children of the King's siblings --
+
+# Chimi Yangzom's children
+400121 = {
+	name = "Sonam"
+	dynasty = 400109
+	father = 400114
+	culture = "kannada"
+	religion = "buddhist"
+	1024.1.1 = { birth=yes }
+}
+
+400122 = {
+	name = "Deki"
+	dynasty = 400109
+	father = 400114
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	1026.1.1 = { birth=yes }
+}
+
+400123 = {
+	name = "Tandin"
+	dynasty = 400109
+	father = 400115
+	culture = "kannada"
+	religion = "buddhist"
+	1028.1.1 = { birth=yes }
+}
+
+400124 = {
+	name = "Pema"
+	dynasty = 400109
+	father = 400115
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	1030.1.1 = { birth=yes }
+}
+
+400125 = {
+	name = "Sangay"
+	dynasty = 400109
+	father = 400116
+	culture = "kannada"
+	religion = "buddhist"
+	1023.1.1 = { birth=yes }
+}
+
+400126 = {
+	name = "Tshering"
+	dynasty = 400109
+	father = 400116
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	1025.1.1 = { birth=yes }
+}
+
+400127 = {
+	name = "Penjor"
+	dynasty = 400109
+	father = 400117
+	culture = "kannada"
+	religion = "buddhist"
+	1034.1.1 = { birth=yes }
+}
+
+400128 = {
+	name = "Yangzom"
+	dynasty = 400109
+	father = 400117
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	1037.1.1 = { birth=yes }
+}
+
+400129 = {
+	name = "Dorji"
+	dynasty = 400109
+	father = 400118
+	culture = "kannada"
+	religion = "buddhist"
+	1031.1.1 = { birth=yes }
+}
+
+400130 = {
+	name = "Samten"
+	dynasty = 400109
+	father = 400118
+	female = yes
+	culture = "kannada"
+	religion = "buddhist"
+	1033.1.1 = { birth=yes }
+}
+
+400131 = {
+	name = "Yusef"
+	dynasty = 400131
+	father = 400151
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	898.1.1 = { birth=yes }    # 1882 CE
+	943.1.1 = { death=yes }    # 1927 CE
+}
+
+400132 = {
+	name = "Mohammed"
+	dynasty = 400131
+	father = 400131
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	925.1.1 = { birth=yes }    # 1909 CE
+	977.1.1 = { death=yes }    # 1961 CE
+}
+
+400133 = {
+	name = "Zahra"
+	dynasty = 400131
+	father = 400132
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	945.1.1 = { birth=yes }    # 1929 CE
+	1030.1.1 = { death=yes }   # 2014 CE
+}
+
+400134 = {
+	name = "Hassan"
+	dynasty = 400131
+	father = 400132
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	945.1.1 = { birth=yes }    # 1929 CE
+	1015.1.1 = { death=yes }   # 1999 CE
+}
+
+400135 = {
+	name = "Aicha"
+	dynasty = 400131
+	father = 400132
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	946.1.1 = { birth=yes }    # 1930 CE
+	1027.1.1 = { death=yes }   # 2011 CE
+}
+
+400136 = {
+	name = "Malika"
+	dynasty = 400131
+	father = 400132
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	949.1.1 = { birth=yes }    # 1933 CE
+}
+
+# --- Children of Hassan II ---
+400137 = {
+	name = "Meryem"
+	dynasty = 400131
+	father = 400134
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	978.1.1 = { birth=yes }    # 1962 CE
+}
+
+400138 = {
+	name = "Mohammed"
+	dynasty = 400131
+	father = 400134
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	979.1.1 = { birth=yes }    # 1963 CE
+}
+
+400139 = {
+	name = "Asma"
+	dynasty = 400131
+	father = 400134
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	981.1.1 = { birth=yes }    # 1965 CE
+}
+
+400140 = {
+	name = "Hasna"
+	dynasty = 400131
+	father = 400134
+	female = yes
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	983.1.1 = { birth=yes }    # 1967 CE
+}
+
+400141 = {
+	name = "Rachid"
+	dynasty = 400131
+	father = 400134
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	986.1.1 = { birth=yes }    # 1970 CE
+}
+400155 = {
+	name = "Rachid"
+	dynasty = 400131
+	father = 400141
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1048.1.1 = { birth=yes }
+}
+400156 = {
+	name = "Mohammed"
+	dynasty = 400131
+	father = 400141
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1054.1.1 = { birth=yes }
+}
+
+# --- Children of Mohammed VI ---
+400142 = {
+	name = "Hassan"
+	dynasty = 400131
+	father = 400138
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1019.1.1 = { birth=yes }   # 2003 CE
+}
+
+400153 = {
+	name = "Mohammed"
+	dynasty = 400131
+	father = 400138
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1059.1.1 = { birth=yes }   # 2007 CE
+}
+400154 = {
+	name = "Mohammed"
+	dynasty = 400131
+	father = 400142
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	1061.1.1 = { birth=yes }   # 2003 CE
+}
+400143 = {
+	name = "Mohammed"
+	dynasty = 400131
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	616.1.1 = { birth=yes }     # ~1600 CE
+	671.1.1 = { death=yes }     # ~1655 CE
+}
+
+400144 = {
+	name = "Rachid"
+	dynasty = 400131
+	father = 400143
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	647.1.1 = { birth=yes }     # ~1631 CE
+	688.1.1 = { death=yes }     # ~1672 CE
+}
+
+400145 = {
+	name = "Ismail"
+	dynasty = 400131
+	father = 400144
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	661.1.1 = { birth=yes }     # ~1645 CE
+	743.1.1 = { death=yes }     # ~1727 CE
+}
+
+400146 = {
+	name = "Abdallah"
+	dynasty = 400131
+	father = 400145
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	710.1.1 = { birth=yes }     # ~1694 CE
+	773.1.1 = { death=yes }     # ~1757 CE
+}
+
+400147 = {
+	name = "Mohammed"
+	dynasty = 400131
+	father = 400146
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	726.1.1 = { birth=yes }     # ~1710 CE
+	806.1.1 = { death=yes }     # ~1790 CE
+}
+
+400148 = {
+	name = "Suleiman"
+	dynasty = 400131
+	father = 400147
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	776.1.1 = { birth=yes }     # ~1760 CE
+	838.1.1 = { death=yes }     # ~1822 CE
+}
+
+400149 = {
+	name = "Abd al Rahman"
+	dynasty = 400131
+	father = 400148
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	794.1.1 = { birth=yes }     # ~1778 CE
+	875.1.1 = { death=yes }     # ~1859 CE
+}
+
+400150 = {
+	name = "Mohammed"
+	dynasty = 400131
+	father = 400149
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	819.1.1 = { birth=yes }     # ~1803 CE
+	889.1.1 = { death=yes }     # ~1873 CE
+}
+
+400151 = {
+	name = "Hassan"
+	dynasty = 400131
+	father = 400150
+	culture = "bedouin_arabic"
+	religion = "sunni"
+	852.1.1 = { birth=yes }     # ~1836 CE
+	910.1.1 = { death=yes }     # ~1894 CE
+}

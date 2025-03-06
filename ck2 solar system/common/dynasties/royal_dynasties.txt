@@ -8,3 +8,13 @@
 	culture="kannada"
 	religion="buddhist"
 }
+400109 = {
+	name="Wangchuck"
+	culture="kannada"
+	religion="buddhist"
+}
+400131 = {
+	name="Alaouite"
+	culture="bedouin_arabic"
+	religion="sunni"
+}
