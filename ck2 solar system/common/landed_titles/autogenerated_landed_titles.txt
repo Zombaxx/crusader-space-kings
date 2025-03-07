@@ -19503,15 +19503,17 @@ e_empire1030 = { #unused
 		
 		culture = elephant_culture
 		
-		d_duchy1014 = { #unused
+	}
+}
+d_duchy1014 = { #Special Administrative Regions of Hong Kong and Macau
 		allow = { always = no }
 			color={ 200 195 180 }
 			color2={ 255 255 255 }
 			
-			capital = 1014
+			capital = 913
 			
-		}
-	}
+			culture = kannada
+			
 }
 e_empire1034 = { #Russia
 	color={ 35 63 82 }

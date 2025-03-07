@@ -4,11 +4,11 @@
 title = c_province0913
 
 # Settlements
-max_settlements = 5
-b_barony0913` = city
-b_barony0913a = temple
-b_barony0913b = castle
-b_barony0913c = city
+max_settlements = 6
+b_barony0913` = castle
+b_barony0913a = city
+b_barony0913b = city
+b_barony0913c = temple
 
 # Misc
 culture = zhangzhung
