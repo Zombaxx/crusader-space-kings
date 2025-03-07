@@ -2,8 +2,8 @@ elf = {
 	#diplomacy = 2
 	#intrigue = 1
 	martial = -2
-	health = 3
-	fertility = -0.2
+	health = 10
+	fertility = -0.5
 	sex_appeal_opinion = 10
 	combat_rating = 15
 
@@ -22,7 +22,7 @@ dark_elf = {
 	#intrigue = 2
 	diplomacy = -2
 	health = 18
-	fertility = -0.3
+	fertility = -0.9
 	sex_appeal_opinion = 10
 
 	ai_rationality = 20
@@ -40,7 +40,7 @@ dark_elf = {
 fantasy_dwarf = {	
 	stewardship = 2
 	martial = 1
-	health = -0.5
+	health = -0.4
 
 	ai_greed = 50
 	ai_honor = 100

@@ -57,6 +57,8 @@ k_nanman = {
 	
 	capital = 1318 # Samatata
 	
+	allow = { always = no }
+	
 	title_female = "JIEDUSHI"
 	title = "JIEDUSHI"
 	foa = "JIEDUSHI"
@@ -73,6 +75,8 @@ e_newkamakura = {
 	color2={ 255 255 255 }
 	
 	capital = 1318 # Samatata(New Kamakura)
+	
+	allow = { always = no }
 	
 #	short_name = yes
 #	dynasty_title_names = no

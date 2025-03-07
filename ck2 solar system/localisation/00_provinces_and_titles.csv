@@ -206,11 +206,11 @@ PROV204;Memphis;Emanomon;Emanomon;;Emanomon;;;;;;;;;x
 PROV205;Nerar;Nerar;Nerar;;Nerar;;;;;;;;;x
 PROV206;Lenitya;Lenitya;Lenitya;;Lenitya;;;;;;;;;x
 PROV207;Baiy;Baiy;Baiy;;Baiy;;;;;;;;;x
-PROV208;Cascadia;Cascadia;Cascadia;;Cascadia;;;;;;;;;x
+PROV208;Washington;Cascadia;Cascadia;;Cascadia;;;;;;;;;x
 PROV209;Moonlanding;Moonlanding;Moonlanding;;Moonlanding;;;;;;;;;x
 PROV210;Kautiat;Kautiat;Kautiat;;Kautiat;;;;;;;;;x
 PROV211;Susidis;Susidis;Susidis;;Susidis;;;;;;;;;x
-PROV212;East Cascadia;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
+PROV212;Oregon;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
 PROV213;Ehamaut;Ehamaut;Ehamaut;;Ehamaut;;;;;;;;;x
 PROV214;Enyea;Enyea;Enyea;;Enyea;;;;;;;;;x
 PROV215;Ryuvine;Ryuvine;Ryuvine;;Ryuvine;;;;;;;;;x
@@ -4451,15 +4451,15 @@ b_barony0207f;Ryaralan;Ryaralan;Ryaralan;;Ryaralan;;;;;;;;;x
 b_barony0207g;Rillel;Rillel;Rillel;;Rillel;;;;;;;;;x
 d_norcal;Cascades;Cascades;Cascades;;Cascades;;;;;;;;;x
 d_norcal_adj;Cascadian;Cascadian;Cascadian;;Cascadian;;;;;;;;;x
-c_norcal_adj;Cascadian;Cascadian;Cascadian;;Cascadian;;;;;;;;;x
+c_norcal_adj;Washingtonian;Cascadian;Cascadian;;Cascadian;;;;;;;;;x
 b_norcal;Seattle;Seattle;Seattle;;Seattle;;;;;;;;;x
-b_barony0208a;Portland;Portland;Portland;;Portland;;;;;;;;;x
-b_barony0208b;Jefferson;Jefferson;Jefferson;;Jefferson;;;;;;;;;x
-b_barony0208c;Tacoma;Tacoma;Tacoma;;Tacoma;;;;;;;;;x
-b_barony0208d;Eugene;Eugene;Eugene;;Eugene;;;;;;;;;x
-b_barony0208e;Salem;Salem;Salem;;Salem;;;;;;;;;x
+b_barony0208a;Spokane;Portland;Portland;;Portland;;;;;;;;;x
+b_barony0208b;Tacoma;Jefferson;Jefferson;;Jefferson;;;;;;;;;x
+b_barony0208c;Bellevue;Tacoma;Tacoma;;Tacoma;;;;;;;;;x
+b_barony0208d;Everett;Eugene;Eugene;;Eugene;;;;;;;;;x
+b_barony0208e;Renton;Salem;Salem;;Salem;;;;;;;;;x
 b_barony0208f;Olympia;Olympia;Olympia;;Olympia;;;;;;;;;x
-b_barony0208g;Medford;Medford;Medford;;Medford;;;;;;;;;x
+b_barony0208g;Kent W.;Medford;Medford;;Medford;;;;;;;;;x
 c_province0209_adj;Moonlander;Moonlander;Moonlander;;Moonlander;;;;;;;;;x
 b_barony0209`;Moonlanding;Ebhidha;Ebhidha;;Ebhidha;;;;;;;;;x
 b_barony0209a;Toralim;Toralim;Toralim;;Toralim;;;;;;;;;x
@@ -4487,15 +4487,15 @@ b_barony0211d;Tilire;Tilire;Tilire;;Tilire;;;;;;;;;x
 b_barony0211e;Niken;Niken;Niken;;Niken;;;;;;;;;x
 b_barony0211f;Adayater;Adayater;Adayater;;Adayater;;;;;;;;;x
 b_barony0211g;Luone;Luone;Luone;;Luone;;;;;;;;;x
-c_gold_country_adj;Cascadian;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
-b_gold_country;Spokane;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
-b_barony0212a;Bend;Kunerna;Kunerna;;Kunerna;;;;;;;;;x
-b_barony0212b;Klamath;Taneya;Taneya;;Taneya;;;;;;;;;x
-b_barony0212c;Difory;Difory;Difory;;Difory;;;;;;;;;x
-b_barony0212d;Teiogs;Teiogs;Teiogs;;Teiogs;;;;;;;;;x
-b_barony0212e;Apokodia;Apokodia;Apokodia;;Apokodia;;;;;;;;;x
-b_barony0212f;Datunai;Datunai;Datunai;;Datunai;;;;;;;;;x
-b_barony0212g;Soralp;Soralp;Soralp;;Soralp;;;;;;;;;x
+c_gold_country_adj;Oregonian;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
+b_gold_country;Portland;Gold Country;Gold Country;;Gold Country;;;;;;;;;x
+b_barony0212a;Eugene;Kunerna;Kunerna;;Kunerna;;;;;;;;;x
+b_barony0212b;Salem;Taneya;Taneya;;Taneya;;;;;;;;;x
+b_barony0212c;Gresham;Difory;Difory;;Difory;;;;;;;;;x
+b_barony0212d;Hillsboro;Teiogs;Teiogs;;Teiogs;;;;;;;;;x
+b_barony0212e;Beaverton;Apokodia;Apokodia;;Apokodia;;;;;;;;;x
+b_barony0212f;Bend;Datunai;Datunai;;Datunai;;;;;;;;;x
+b_barony0212g;Medford;Soralp;Soralp;;Soralp;;;;;;;;;x
 c_province0213_adj;Kunibad;Kunibad;Kunibad;;Kunibad;;;;;;;;;x
 b_barony0213`;Wyagund;Wyagund;Wyagund;;Wyagund;;;;;;;;;x
 b_barony0213a;Rotorri;Rotorri;Rotorri;;Rotorri;;;;;;;;;x

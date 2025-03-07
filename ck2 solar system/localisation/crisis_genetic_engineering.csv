@@ -13,10 +13,22 @@ get_relative_remove_negative_decision;Remove Negative Traits;;;;;;;;;;;;;x
 get_relative_remove_negative_decision_desc;Through Genetic Engineering we can remove negative traits.;;;;;;;;;;;;;x
 get_relative_dni_decision;Install DNI Implant;;;;;;;;;;;;;x
 get_relative_dni_decision_desc;;;;;;;;;;;;;;x
-get_relative_heavy_worlder_decision;Add Heavy Worlder Trait;;;;;;;;;;;;;;x
-get_relative_heavy_worlder_decision_desc;Through Genetic Engineering this child can be adapted to thrive on planets with extremely high gravity, increasing health and strength;;;;;;;;;;;;;;x
+get_relative_heavy_worlder_decision;Add Supersoldier Trait;;;;;;;;;;;;;;x
+get_relative_heavy_worlder_decision_desc;Through Genetic Engineering this child can have Superhuman abilities, increasing health and strength;;;;;;;;;;;;;;x
 get_relative_organic_wifi_decision;Add Organic Wifi Connection;;;;;;;;;;;;;;x
 get_relative_organic_wifi_decision_desc;Through Genetic Engineering this child can connect to networks with their mind, without the need for any external gadgets or cybernetics;;;;;;;;;;;;;;x
 get_relative_relative_cat_splice;Splice Cat Genes;;;;;;;;;;;;;;x
 get_relative_relative_cat_splice_decision_desc;What could go wrong if we spliced some animal genes in?;;;;;;;;;;;;;x
 get_relative_immortal_decision_desc;Through Genetic Engineering we can expand the human lifespan.;;;;;;;;;;;;;x
+get_relative_melodious_decision;Add Melodious Trait;;;;;;;;;;;;;;x
+get_relative_melodious_decision_desc;Through Genetic Engineering this child can become Melodious.;;;;;;;;;;;;;x
+get_relative_fluent_decision;Add Fluent Trait;;;;;;;;;;;;;;x
+get_relative_fluent_decision_desc;Through Genetic Engineering this child can become have a clear and coherent voice.;;;;;;;;;;;;;x
+get_relative_well_endowed_decision;Add Proficient Trait;;;;;;;;;;;;;;x
+get_relative_well_endowed_decision_desc;Through Genetic Engineering this child can have a natural talent for many tasks.;;;;;;;;;;;;;x
+get_relative_fertile_decision;Add Fertile Trait;;;;;;;;;;;;;;x
+get_relative_fertile_decision_desc;Through Genetic Engineering this child can have an especially easy time having children once they become an adult.;;;;;;;;;;;;;;x
+get_relative_resilient_decision;Add Resilient Trait;;;;;;;;;;;;;;x
+get_relative_resilient_decision_desc;Through Genetic Engineering this character can be resilient.;;;;;;;;;;;;;;x
+EVTDESCCYBERNETICS5002;The gene splicing by our Court Cywizard was a success.;;;;;;;;;;;;;;x
+EVTOPTCONFIRM;Yes;;;;;;;;;;;;;;x
