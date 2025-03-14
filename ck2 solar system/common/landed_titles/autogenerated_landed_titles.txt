@@ -18255,7 +18255,7 @@ e_empire0954 = { #unused
 	
 }
 e_empire0956 = { #unused
-		allow = { always = no }
+	allow = { always = no }
 	color={ 188 120 58 }
 	color2={ 255 255 255 }
 	
@@ -18275,7 +18275,8 @@ e_empire0970 = {
 	culture = bear
 	
 }
-e_empire0976 = {
+e_empire0976 = { #Venusia, easier to form than de jure Venus
+	#allow = { always = no }
 	color={ 72 28 91 }
 	color2={ 255 255 255 }
 	

@@ -10,6 +10,7 @@ decisions = {
 				}
 			}
 			NOT = { has_global_flag = trex_reformed_the_heresy }
+			religion_group = christian
 			ai = no
 			NOT = { secret_religion = trex_the_heretics }
 		}

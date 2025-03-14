@@ -3,6 +3,7 @@ clone = {
 	health = -0.5
 	general_opinion = -10
 	same_opinion = 10
+	counts_as_purple_born = yes
 }
 
 cloning_defects = {
@@ -21,4 +22,5 @@ vat_born = {
 	health = -0.5
 	general_opinion = -10
 	same_opinion = 10
+	counts_as_purple_born = yes
 }

@@ -3303,3 +3303,945 @@ if = {
 		recalc_succession = yes
 	}
 }
+#Clone from original artifact owner, offmap grace decision
+character_event = {
+	id = clone.113
+	desc = "EVTDESC_CLONE_113"
+	picture = GFX_evt_laboratory
+	is_triggered_only = yes
+
+	option = { # Male clone
+		name = "EVTOPTACLONE0"
+		trigger = { is_female = no } # Male clones need a Y chromosome
+		wealth = -100
+		custom_tooltip = {
+			text = "MALECLONETOOLTIP"
+			set_character_flag = flag_cloning_in_progress
+			clr_character_flag = flag_cloning_decision_active
+			hidden_tooltip = { character_event = { id = clone.114 days = 270 random = 60 } }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				any_child = {
+					trait = clone
+					is_female = no
+				}
+			}
+			modifier = {
+				factor = 2
+				any_child = {
+					trait = clone
+					is_female = yes
+				}
+			}
+		}
+	}
+	option = { # Female clone
+		name = "EVTOPTBCLONE0"
+		wealth = -100
+		custom_tooltip = {
+			text = "FEMALECLONETOOLTIP"
+			set_character_flag = flag_cloning_in_progress
+			clr_character_flag = flag_cloning_decision_active
+			hidden_tooltip = { character_event = { id = clone.115 days = 270 random = 60 } }
+		}
+		if = {
+			limit = { is_female = no }
+			custom_tooltip = { text = "FEMALECLONEWARNINGTOOLTIP" }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				any_child = {
+					trait = clone
+					is_female = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				any_child = {
+					trait = clone
+					is_female = no
+				}
+			}
+			modifier = {
+				factor = 0.1
+				is_female = no
+			}
+		}
+	}
+	option = { # Nevermind
+		name = "EVTOPTCCLONE0"
+		clr_character_flag = flag_cloning_decision_active
+		ai_chance = { factor = 0 }
+	}
+}
+character_event = {
+    id = clone.114
+    desc = "EVTDESCCLONE1"
+    picture = GFX_evt_laboratory
+    is_triggered_only = yes
+
+    immediate = { clr_character_flag = flag_cloning_in_progress }
+
+    option = {
+        name = "EVTOPTACLONE1"
+
+        create_character = {
+            #dna         = event_target:scifi_clone_target
+			age = 0
+			culture = event_target:scifi_clone_target
+			religion = event_target:scifi_clone_target
+			dynasty = event_target:scifi_clone_target
+			race = event_target:scifi_clone_target
+        }
+
+        new_character = {
+			set_father = event_target:scifi_clone_target
+			dynasty = event_target:scifi_clone_target
+            add_trait = clone
+
+			# Chance of gaining cloning defects
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = cloning_defects } }
+				add_trait = cloning_defects
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = clone } }
+				random_list = {
+					90 = { }
+					10 = { add_trait = cloning_defects }
+				}
+			}
+			random_list = {
+				95 = { }
+				5 = { add_trait = cloning_defects }
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = cloning_defects } }
+				random_list = {
+					10 = { }
+					5 = { add_trait = psychopath }
+					5 = { add_trait = creative }
+					5 = { add_trait = independent }
+					5 = { add_trait = obedient }
+					5 = { add_trait = lefthanded }
+					
+					2 = { add_trait = giant }
+					2 = { add_trait = short }
+					2 = { add_trait = meager }
+					2 = { add_trait = barren }
+					2 = { add_trait = tall }
+					2 = { add_trait = weak }
+					2 = { add_trait = feeble2 }
+					2 = { add_trait = homely }
+					2 = { add_trait = ugly }
+					2 = { add_trait = dwarf }
+					2 = { add_trait = slow }
+					2 = { add_trait = stutter }
+					2 = { add_trait = lisp }
+					2 = { add_trait = hunchback }
+					2 = { add_trait = harelip }
+					2 = { add_trait = clubfooted }
+					2 = { add_trait = imbecile }
+					2 = { add_trait = clumsy }
+					1 = { add_trait = beautiful }
+					1 = { add_trait = genius }
+					1 = { add_trait = quick }
+					1 = {add_trait = strong }
+					
+					1 = { add_trait = fair }
+					2 = { add_trait = shrewd }
+					2 = { add_trait = inbred }
+					2 = { add_trait = brawny }
+					1 = { add_trait = agile }
+					1 = { add_trait = melodious }
+					1 = { add_trait = resilient }
+					
+					1 = { add_trait = fluent }
+					1 = { add_trait = well_endowed }
+					2 = { add_trait = meager }
+					1 = { add_trait = fertile }
+					2 = { add_trait = incapable }
+					2 = { add_trait = infirm }
+					2 = { add_trait = maimed }
+					2 = { add_trait = lunatic }
+					2 = { add_trait = possessed }
+					2 = { add_trait = depressed }
+					
+				}
+			}
+			# Copy genetic traits
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = genius } }
+				random_list = {
+					70 = { add_trait = genius }
+					20 = { add_trait = quick }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = quick } }
+				random_list = {
+					70 = { add_trait = quick }
+					15 = { add_trait = genius }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = slow } }
+				random_list = {
+					70 = { add_trait = slow }
+					15 = { add_trait = imbecile }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = imbecile } }
+				random_list = {
+					70 = { add_trait = imbecile }
+					20 = { add_trait = slow }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = beautiful } }
+				random_list = {
+					70 = { add_trait = beautiful }
+					20 = { add_trait = fair }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fair } }
+				random_list = {
+					70 = { add_trait = fair }
+					15 = { add_trait = beautiful }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = homely } }
+				random_list = {
+					70 = { add_trait = homely }
+					15 = { add_trait = ugly }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = ugly } }
+				random_list = {
+					70 = { add_trait = ugly }
+					20 = { add_trait = homely }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = strong } }
+				random = {
+					chance = 90
+					add_trait = strong
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = weak } }
+				random = {
+					chance = 90
+					add_trait = weak
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = agile } }
+				random = {
+					chance = 90
+					add_trait = agile
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = gmo } }
+				random_list = {
+					70 = { add_trait = gmo }
+					10 = { add_trait = cloning_defects }
+					20 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = heavy_worlder } }
+				random_list = {
+					75 = { add_trait = heavy_worlder }
+					25 = {
+						add_trait = cloning_defects
+						add_trait = heavy_worlder
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = spacer_physiology } }
+				random_list = {
+					75 = { add_trait = spacer_physiology }
+					25 = {
+						add_trait = cloning_defects
+						add_trait = spacer_physiology
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = organic_wifi } }
+				random_list = {
+					85 = { add_trait = organic_wifi }
+					15 = {
+						add_trait = cloning_defects
+						add_trait = organic_wifi
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = cat_splice } }
+				random_list = {
+					85 = { add_trait = cat_splice }
+					15 = {
+						add_trait = cloning_defects
+						add_trait = cat_splice
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = clumsy } }
+				random = {
+					chance = 90
+					add_trait = clumsy
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = dwarf } }
+				random = {
+					chance = 90
+					add_trait = dwarf
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = tall } }
+				random = {
+					chance = 90
+					add_trait = tall
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = harelip } }
+				random = {
+					chance = 90
+					add_trait = harelip
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = clubfooted } }
+				random = {
+					chance = 90
+					add_trait = clubfooted
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = hunchback } }
+				random = {
+					chance = 90
+					add_trait = hunchback
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = lisp } }
+				random = {
+					chance = 90
+					add_trait = lisp
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = stutter } }
+				random = {
+					chance = 90
+					add_trait = stutter
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = inbred } }
+				random = {
+					chance = 90
+					add_trait = inbred
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = homosexual } }
+				random = {
+					chance = 90
+					add_trait = homosexual
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = short } }
+				random = {
+					chance = 90
+					add_trait = short
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = melodious } }
+				random = {
+					chance = 90
+					add_trait = melodious
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fluent } }
+				random = {
+					chance = 90
+					add_trait = fluent
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = well_endowed } }
+				random = {
+					chance = 90
+					add_trait = well_endowed
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = meager } }
+				random = {
+					chance = 90
+					add_trait = meager
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = barren } }
+				random = {
+					chance = 90
+					add_trait = barren
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = resilient } }
+				random = {
+					chance = 90
+					add_trait = resilient
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = feeble2 } }
+				random = {
+					chance = 90
+					add_trait = feeble2
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = psychopath } }
+				random = {
+					chance = 90
+					add_trait = psychopath
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = frugal } }
+				random = {
+					chance = 90
+					add_trait = frugal
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = creative } }
+				random = {
+					chance = 90
+					add_trait = creative
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = independent } }
+				random = {
+					chance = 90
+					add_trait = independent
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = obedient } }
+				random = {
+					chance = 90
+					add_trait = obedient
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = family_oriented } }
+				random = {
+					chance = 90
+					add_trait = family_oriented
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = romantic } }
+				random = {
+					chance = 90
+					add_trait = romantic
+				}
+			}
+			
+			
+			# Send to parent's court
+			event_target:scifi_clone_target = { reverse_banish = PREV }
+		}
+		if = {
+			limit = { is_landed = no }
+			add_character_modifier = { name = clone_cooldown
+						duration = 1826
+						hidden = yes 
+			}
+		}
+		recalc_succession = yes
+    }
+}
+character_event = {
+    id = clone.115
+    desc = "EVTDESCCLONE2"
+    picture = GFX_evt_chinese_emperor  # or whichever graphic you prefer
+    is_triggered_only = yes
+
+    immediate = { clr_character_flag = flag_cloning_in_progress }
+
+    option = {
+        name = "EVTOPTACLONE2"
+
+        create_character = {
+            #dna         = event_target:scifi_clone_target
+			female = yes
+			age = 0
+			culture = event_target:scifi_clone_target
+			religion = event_target:scifi_clone_target
+			dynasty = event_target:scifi_clone_target
+			race = event_target:scifi_clone_target
+        }
+
+        new_character = {
+			set_father = event_target:scifi_clone_target
+			dynasty = event_target:scifi_clone_target
+            add_trait = clone
+
+			# Chance of gaining cloning defects
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = cloning_defects } }
+				add_trait = cloning_defects
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = clone } }
+				random_list = {
+					90 = { }
+					10 = { add_trait = cloning_defects }
+				}
+			}
+			random_list = {
+				95 = { }
+				5 = { add_trait = cloning_defects }
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = cloning_defects } }
+				random_list = {
+					10 = { }
+					5 = { add_trait = psychopath }
+					5 = { add_trait = creative }
+					5 = { add_trait = independent }
+					5 = { add_trait = obedient }
+					5 = { add_trait = lefthanded }
+					
+					2 = { add_trait = giant }
+					2 = { add_trait = short }
+					2 = { add_trait = meager }
+					2 = { add_trait = barren }
+					2 = { add_trait = tall }
+					2 = { add_trait = weak }
+					2 = { add_trait = feeble2 }
+					2 = { add_trait = homely }
+					2 = { add_trait = ugly }
+					2 = { add_trait = dwarf }
+					2 = { add_trait = slow }
+					2 = { add_trait = stutter }
+					2 = { add_trait = lisp }
+					2 = { add_trait = hunchback }
+					2 = { add_trait = harelip }
+					2 = { add_trait = clubfooted }
+					2 = { add_trait = imbecile }
+					2 = { add_trait = clumsy }
+					1 = { add_trait = beautiful }
+					1 = { add_trait = genius }
+					1 = { add_trait = quick }
+					1 = {add_trait = strong }
+					
+					1 = { add_trait = fair }
+					2 = { add_trait = shrewd }
+					2 = { add_trait = inbred }
+					2 = { add_trait = brawny }
+					1 = { add_trait = agile }
+					1 = { add_trait = melodious }
+					1 = { add_trait = resilient }
+					
+					1 = { add_trait = fluent }
+					1 = { add_trait = well_endowed }
+					2 = { add_trait = meager }
+					1 = { add_trait = fertile }
+					2 = { add_trait = incapable }
+					2 = { add_trait = infirm }
+					2 = { add_trait = maimed }
+					2 = { add_trait = lunatic }
+					2 = { add_trait = possessed }
+					2 = { add_trait = depressed }
+					
+				}
+			}
+			# Copy genetic traits
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = genius } }
+				random_list = {
+					70 = { add_trait = genius }
+					20 = { add_trait = quick }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = quick } }
+				random_list = {
+					70 = { add_trait = quick }
+					15 = { add_trait = genius }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = slow } }
+				random_list = {
+					70 = { add_trait = slow }
+					15 = { add_trait = imbecile }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = imbecile } }
+				random_list = {
+					70 = { add_trait = imbecile }
+					20 = { add_trait = slow }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = beautiful } }
+				random_list = {
+					70 = { add_trait = beautiful }
+					20 = { add_trait = fair }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fair } }
+				random_list = {
+					70 = { add_trait = fair }
+					15 = { add_trait = beautiful }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = homely } }
+				random_list = {
+					70 = { add_trait = homely }
+					15 = { add_trait = ugly }
+					15 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = ugly } }
+				random_list = {
+					70 = { add_trait = ugly }
+					20 = { add_trait = homely }
+					10 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = strong } }
+				random = {
+					chance = 90
+					add_trait = strong
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = weak } }
+				random = {
+					chance = 90
+					add_trait = weak
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = agile } }
+				random = {
+					chance = 90
+					add_trait = agile
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = gmo } }
+				random_list = {
+					70 = { add_trait = gmo }
+					10 = { add_trait = cloning_defects }
+					20 = { }
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = heavy_worlder } }
+				random_list = {
+					75 = { add_trait = heavy_worlder }
+					25 = {
+						add_trait = cloning_defects
+						add_trait = heavy_worlder
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = spacer_physiology } }
+				random_list = {
+					75 = { add_trait = spacer_physiology }
+					25 = {
+						add_trait = cloning_defects
+						add_trait = spacer_physiology
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = organic_wifi } }
+				random_list = {
+					85 = { add_trait = organic_wifi }
+					15 = {
+						add_trait = cloning_defects
+						add_trait = organic_wifi
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = cat_splice } }
+				random_list = {
+					85 = { add_trait = cat_splice }
+					15 = {
+						add_trait = cloning_defects
+						add_trait = cat_splice
+					}
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = clumsy } }
+				random = {
+					chance = 90
+					add_trait = clumsy
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = dwarf } }
+				random = {
+					chance = 90
+					add_trait = dwarf
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = tall } }
+				random = {
+					chance = 90
+					add_trait = tall
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = harelip } }
+				random = {
+					chance = 90
+					add_trait = harelip
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = clubfooted } }
+				random = {
+					chance = 90
+					add_trait = clubfooted
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = hunchback } }
+				random = {
+					chance = 90
+					add_trait = hunchback
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = lisp } }
+				random = {
+					chance = 90
+					add_trait = lisp
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = stutter } }
+				random = {
+					chance = 90
+					add_trait = stutter
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = inbred } }
+				random = {
+					chance = 90
+					add_trait = inbred
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = homosexual } }
+				random = {
+					chance = 90
+					add_trait = homosexual
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = short } }
+				random = {
+					chance = 90
+					add_trait = short
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = melodious } }
+				random = {
+					chance = 90
+					add_trait = melodious
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fluent } }
+				random = {
+					chance = 90
+					add_trait = fluent
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = well_endowed } }
+				random = {
+					chance = 90
+					add_trait = well_endowed
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = meager } }
+				random = {
+					chance = 90
+					add_trait = meager
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = barren } }
+				random = {
+					chance = 90
+					add_trait = barren
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = resilient } }
+				random = {
+					chance = 90
+					add_trait = resilient
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = feeble2 } }
+				random = {
+					chance = 90
+					add_trait = feeble2
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = fertile } }
+				random = {
+					chance = 90
+					add_trait = fertile
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = psychopath } }
+				random = {
+					chance = 90
+					add_trait = psychopath
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = frugal } }
+				random = {
+					chance = 90
+					add_trait = frugal
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = creative } }
+				random = {
+					chance = 90
+					add_trait = creative
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = independent } }
+				random = {
+					chance = 90
+					add_trait = independent
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = obedient } }
+				random = {
+					chance = 90
+					add_trait = obedient
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = family_oriented } }
+				random = {
+					chance = 90
+					add_trait = family_oriented
+				}
+			}
+			if = {
+				limit = { event_target:scifi_clone_target = { trait = romantic } }
+				random = {
+					chance = 90
+					add_trait = romantic
+				}
+			}
+			
+			
+			# Send to parent's court
+			event_target:scifi_clone_target = { reverse_banish = PREV }
+		}
+		if = {
+				limit = { is_landed = no }
+				add_character_modifier = { name = clone_cooldown
+							duration = 1826
+							hidden = yes }
+		}
+		recalc_succession = yes
+    }
+}

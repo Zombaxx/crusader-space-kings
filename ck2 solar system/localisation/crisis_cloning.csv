@@ -43,3 +43,4 @@ EVTDESCCLONE302;We can commission a single-donor clone of our courtier for §Y100
 EVTOPTACLONE302;Commission a clone.;;;;;;;;;;;;;x
 EVTOPTbCLONE302;On second thought...;;;;;;;;;;;;;x
 EVTTOOLTIPCLONE303;;;;;;;;;;;;;;x
+EVTDESC_CLONE_113;Commission a clone from an Artifact's original owner.;;;;;;;;;;;;;x

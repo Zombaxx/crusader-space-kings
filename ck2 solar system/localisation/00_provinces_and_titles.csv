@@ -1375,9 +1375,9 @@ PROV1373;Sorahat;Sorahat;Sorahat;;Sorahat;;;;;;;;;x
 PROV1374;Ributlu;Ributlu;Ributlu;;Ributlu;;;;;;;;;x
 PROV1375;Narahu;Narahu;Narahu;;Narahu;;;;;;;;;x
 PROV1376;Ruganyo;Ruganyo;Ruganyo;;Ruganyo;;;;;;;;;x
-PROV1377;Argyre;Argyre;Argyre;;Argyre;;;;;;;;;x
+PROV1377;Nelusha;Nelusha;Nelusha;;Nelusha;;;;;;;;;x
 PROV1378;Qusbu;Qusbu;Qusbu;;Qusbu;;;;;;;;;x
-PROV1379;Nelusha;Nelusha;Nelusha;;Nelusha;;;;;;;;;x
+PROV1379;Argyre;Argyre;Argyre;;Argyre;;;;;;;;;x
 PROV1380;Bumann;Bumann;Bumann;;Bumann;;;;;;;;;x
 PROV1381;Loucoul;Loucoul;Loucoul;;Loucoul;;;;;;;;;x
 PROV1382;Kuwe;Kuwe;Kuwe;;Kuwe;;;;;;;;;x
@@ -12133,8 +12133,8 @@ b_barony0975d;Emaseike;Emaseike;Emaseike;;Emaseike;;;;;;;;;x
 b_barony0975e;Nuhidis;Nuhidis;Nuhidis;;Nuhidis;;;;;;;;;x
 b_barony0975f;Rosampa;Rosampa;Rosampa;;Rosampa;;;;;;;;;x
 b_barony0975g;Kabasia;Kabasia;Kabasia;;Kabasia;;;;;;;;;x
-e_empire0976;Lasarde;Lasarde;Lasarde;;Lasarde;;;;;;;;;x
-e_empire0976_adj;Emahejda;Emahejda;Emahejda;;Emahejda;;;;;;;;;x
+e_empire0976;Venusia;Lasarde;Lasarde;;Lasarde;;;;;;;;;x
+e_empire0976_adj;Venusian;Emahejda;Emahejda;;Emahejda;;;;;;;;;x
 k_kingdom0976;Kacheuta;Kacheuta;Kacheuta;;Kacheuta;;;;;;;;;x
 k_kingdom0976_adj;Benerim;Benerim;Benerim;;Benerim;;;;;;;;;x
 d_duchy0976;Esheuta;Esheuta;Esheuta;;Esheuta;;;;;;;;;x
@@ -16210,8 +16210,8 @@ k_kingdom1379;Argyre;Argyre;Argyre;;Argyre;;;;;;;;;x
 k_kingdom1379_adj;Argyrian;Argyrian;Argyrian;;Argyrian;;;;;;;;;x
 d_duchy1379;Utav;Utav;Utav;;Utav;;;;;;;;;x
 d_duchy1379_adj;Offe;Offe;Offe;;Offe;;;;;;;;;x
-c_province1379_adj;Amas;Amas;Amas;;Amas;;;;;;;;;x
-b_barony1379`;Ayav;Ayav;Ayav;;Ayav;;;;;;;;;x
+c_province1379_adj;Argyrian;Amas;Amas;;Amas;;;;;;;;;x
+b_barony1379`;Argyre;Ayav;Ayav;;Ayav;;;;;;;;;x
 b_barony1379a;Nary;Nary;Nary;;Nary;;;;;;;;;x
 b_barony1379b;Arvi;Arvi;Arvi;;Arvi;;;;;;;;;x
 b_barony1379c;Ibat;Ibat;Ibat;;Ibat;;;;;;;;;x

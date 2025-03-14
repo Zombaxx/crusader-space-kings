@@ -6,6 +6,8 @@ EVTDESC_MC_9001;[Root.GetGovernorLetterGreeting]. [Root.GetChineseLetterBlessing
 EVTOPTA_MC_9001;This magnificant cybernetic will bring you superhuman abilities!;;;;;;;;;;;;;x
 chinese_clone;Request Clone;;;;;;;;;;;;;x
 chinese_clone_desc;Request a clone of yourself.;;;;;;;;;;;;;x
+chinese_grace_clone_from_artifact;Request Clone from Artifact;;;;;;;;;;;;;x
+chinese_grace_clone_from_artifact_desc;Request a clone from the original owner of an Artifact.;;;;;;;;;;;;;x
 EVTOPTA_MC_9002;;;;;;;;;;;;;;x
 EVTDESC_MC_9002;[Root.GetGovernorLetterGreeting]. [Root.GetChineseLetterBlessing].\n\nThe celestial [From.Offmap.Ruler.GetLongChineseEmperorName], has graciously fulfilled your wish. A wondrous clone has been decanted for you by a [From.Offmap.Ruler.Culture.GetName] wizard.;;;;;;;;;;;;;x
 EVTOPTA_MC_9002;This magnificant clone will bring glory to your dynasty!;;;;;;;;;;;;;x
