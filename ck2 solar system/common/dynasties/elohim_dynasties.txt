@@ -37,4 +37,14 @@
 	name="Atonu"
 	culture="high_cathrian"
 	religion="egyptian_pagan"
-}	
+}
+77716={	
+	name="Nazareth"
+	culture="ashkenazi"
+	religion="jewish"
+}
+77717={	
+	name="Gautama"
+	culture="hindustani"
+	religion="buddhist"
+}

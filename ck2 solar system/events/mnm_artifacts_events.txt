@@ -3365,7 +3365,8 @@ character_event = {
 		}
         add_artifact = seamless_robe_of_jesus
         new_artifact = {
-			set_creation_date = 1.1.1
+				set_original_owner = 777177
+				set_creation_date = 33.1.1
 		}
     }
 
@@ -3390,7 +3391,8 @@ character_event = {
 
         add_artifact = seamless_robe_of_jesus
         new_artifact = {
-			set_creation_date = 1.1.1
+			set_original_owner = 777177
+			set_creation_date = 33.1.1
 		}
     }
     
@@ -3410,7 +3412,8 @@ character_event = {
         reverse_add_favor = FROM
         add_artifact = seamless_robe_of_jesus
         new_artifact = {
-			set_creation_date = 1.1.1
+			set_original_owner = 777177
+			set_creation_date = 33.1.1
 		}
     }
 
@@ -3437,7 +3440,8 @@ character_event = {
 		}
         add_artifact = seamless_robe_of_jesus
         new_artifact = {
-			set_creation_date = 1.1.1
+			set_original_owner = 777177
+			set_creation_date = 33.1.1
 		}
     }
     after = { clr_artifact_flagsmodifiers_effect = yes }
@@ -6780,7 +6784,8 @@ narrative_event = { #Buddhas' Tooth (or atleast one of them)
 		}
         add_artifact = buddhas_tooth
         new_artifact = {
-			set_creation_date = 1.1.1
+			set_original_owner = 777178
+			set_creation_date = 79.1.1
 		}
     }
 
@@ -6805,7 +6810,8 @@ narrative_event = { #Buddhas' Tooth (or atleast one of them)
 
         add_artifact = buddhas_tooth
         new_artifact = {
-			set_creation_date = 1.1.1
+			set_original_owner = 777178
+			set_creation_date = 79.1.1
 		}
     }
     
@@ -6825,7 +6831,8 @@ narrative_event = { #Buddhas' Tooth (or atleast one of them)
         reverse_add_favor = FROM
         add_artifact = buddhas_tooth
         new_artifact = {
-			set_creation_date = 1.1.1
+			set_original_owner = 777178
+			set_creation_date = 79.1.1
 		}
     }
 
@@ -6852,7 +6859,8 @@ narrative_event = { #Buddhas' Tooth (or atleast one of them)
 		}
         add_artifact = buddhas_tooth
         new_artifact = {
-			set_creation_date = 1.1.1
+			set_original_owner = 777178
+			set_creation_date = 79.1.1
 		}
     }
     after = { clr_artifact_flagsmodifiers_effect = yes }

@@ -1850,7 +1850,15 @@
 	culture = "bedouin_arabic"
 	religion = "jewish"
 	father = 777148
+	trait=mastermind_theologian
 	trait=organic_wifi
+	trait=shrewd
+	trait=mystic
+	trait=diligent
+	trait=patient
+	trait=charitable
+	trait=kind
+	trait=zealous
 	
 	777.7.7={birth=yes}
 	952.12.31={death=yes}
@@ -1994,7 +2002,9 @@
 	culture = "ashkenazi"
 	religion = "jewish"
 	father = 777161
+	trait = brilliant_strategist
 	trait=organic_wifi
+	trait=genius
 	
 	1001.1.1={birth=yes}
 	1071.1.1={death=yes}
@@ -2005,7 +2015,13 @@
 	culture = "ashkenazi"
 	religion = "jewish"
 	father = 777162
+	trait = midas_touched
 	trait=organic_wifi
+	trait = quick
+	trait = just
+	trait = charitable
+	trait = lustful
+	trait = ambitious
 	
 	1036.1.1={birth=yes}
 	1065.1.1 = {
@@ -2022,7 +2038,9 @@
 	culture = "bedouin_arabic"
 	religion = "jewish"
 	father = 777149
+	trait = mastermind_theologian
 	trait=organic_wifi
+	trait=genius
 	
 	793.1.1={birth=yes}
 	863.1.1={death=yes}
@@ -2158,10 +2176,84 @@
 	culture = "ashkenazi"
 	religion = "jewish"
 	father = 777175
+	trait = mastermind_theologian
 	trait=organic_wifi
 	trait=genius
 	health=20
 	
 	968.1.1={birth=yes}
+	980.1.1 = {
+		effect = { 
+				add_artifact = staff_of_moses
+			}
+	}
 	#1038.1.1={death=yes}
+}
+777177 = {
+	name = "Yeshua"
+	dynasty = 77716
+	culture = "ashkenazi"
+	religion = "jewish"
+	 add_trait=humble add_trait=scarred add_trait=shrewd
+	add_trait=mystic add_trait=scholar add_trait=theologian add_trait=kind add_trait=charitable
+	add_trait=brave add_trait=stubborn add_trait=sympathy_judaism add_trait=zodiac_capricorn
+	add_trait=reincarnation
+	
+	trait = mastermind_theologian
+	trait = reincarnation
+	trait = organic_wifi
+	trait = genius
+	trait = strong
+	trait = fair
+	trait = mystic
+	trait = pilgrim
+	trait = humble
+	trait = scarred
+	trait = shrewd
+	trait = scholar
+	trait = theologian
+	trait = kind
+	trait = charitable
+	trait = brave
+	
+	1.12.25={birth=yes}
+	32.12.25={
+		create_bloodline = {
+			type = jesusblood
+			has_dlc = "Holy Fury"
+	      }
+	}
+	32.12.25={ give_nickname = nick_christ }		
+	33.4.4={death=yes}
+}
+777178 = {
+	name = "Siddhartha" #Buddha
+	dynasty = 77717
+	culture = "hindustani"
+	religion = "buddhist"
+	trait = mastermind_theologian
+	trait = reincarnation
+	trait = kshatriya
+	trait = organic_wifi
+	trait = genius
+	trait = strong
+	trait = fair
+	trait = mystic
+	trait = indian_pilgrim
+	trait = humble
+	trait = shrewd
+	trait = scholar
+	trait = theologian
+	trait = kind
+	trait = charitable
+	trait = brave
+	
+	1.1.1={birth=yes}
+	50.1.1={
+		create_bloodline = {
+			type = samrat_chakravartin_male
+			has_dlc = "Holy Fury"
+	      }
+	}
+	80.1.1={death=yes}
 }

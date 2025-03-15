@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bloodlines_symbol_jesus"
+		texturefile = "gfx/interface/bloodlines/bloodlines_symbol_jesus.dds"
+	}
+}

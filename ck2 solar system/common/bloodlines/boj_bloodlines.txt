@@ -1,0 +1,10 @@
+jesusblood = {
+	catholic_opinion = 100
+    jewish_group_opinion = 50
+	monthly_character_piety = 1
+	bloodline_effect_great_heroes_appear = 1
+	inheritance = all_descendants
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_jesus
+	flags = { historical_bloodline bloodline_heroes jesusblood_flag }
+}
