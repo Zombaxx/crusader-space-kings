@@ -7,6 +7,12 @@
 	trait = tall
 	trait = resilient
 	748.1.1 = { birth=yes }
+	840.1.1 = {
+	 create_bloodline = {
+	 	type = pure_peace_bloodline_01
+	 	has_dlc = "Holy Fury"
+	 }
+   }
 	815.1.1 = { death=yes }
 }
 400001 = {
@@ -129,6 +135,12 @@
 	trait = tall
 	trait = quick
 	825.1.1 = { birth=yes }
+	840.1.1 = {
+	 create_bloodline = {
+	 	type = saintly_bloodline_nestorian_03
+	 	has_dlc = "Holy Fury"
+	 }
+   }
 	881.1.1 = { death=yes }
 }
 400016 = {
