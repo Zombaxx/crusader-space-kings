@@ -68,6 +68,6 @@ objectTypes = {
 	pdxmesh = {
 		name = "chinesegfx_GALLEYS"
 		file = "gfx\models\cruiser.mesh"
-		scale = 2.0f
+		scale = 0.75f
 	}
 }

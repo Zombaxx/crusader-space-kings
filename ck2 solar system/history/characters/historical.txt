@@ -157,3 +157,259 @@
    }
 	996.12.8 = { death = yes }
 }
+#400165 = {
+#	name = "Richard"
+#	dynasty = 400165
+#	culture = "english"
+#	religion = "catholic"
+#
+#	trait = short
+#	trait = quick
+#
+#	468.10.2 = { birth = yes }  # 1452 - 984
+#	501.8.22 = { death = yes }  # 1485 - 984
+#}
+#
+#400166 = {
+#	name = "Nicholas"
+#	dynasty = 400166
+#	culture = "russian"
+#	religion = "orthodox"
+#
+#	trait = fertile
+#
+#	884.5.18 = { birth = yes }  # 1868 - 984
+#	934.7.17 = { death = yes }  # 1918 - 984
+#}
+#
+#400167 = {
+#	name = "Tutankhamun"
+#	dynasty = 400167
+#	culture = "egyptian"
+#	religion = "kemetic"  # Or however you choose to represent Ancient Egyptian
+#
+#	trait = clumsy
+#	trait = feeble2
+#
+#	1.1.1 = { birth = yes }   # (Approx) 1341 BC => 1341 - 984 = 357
+#	18.1.1 = { death = yes }   # (Approx) 1323 BC => 1323 - 984 = 339
+#}
+#
+#400168 = {
+#	name = "Ludwig"
+#	dynasty = 400168
+#	culture = "german"
+#	religion = "catholic"
+#
+#	trait = genius
+#	trait = melodious
+#
+#	786.12.16 = { birth = yes }  # 1770 - 984
+#	843.3.26 = { death = yes }   # 1827 - 984
+#}
+#
+#400169 = {
+#	name = "Ötzi"
+#	dynasty = 400169
+#	culture = "gaulish"      # Arbitrary placeholder
+#	religion = "celtic_pagan"      # Arbitrary placeholder
+#
+#	trait = resilient
+#	trait = strong
+#	trait = scarred
+#
+#	1.1.1 = { birth = yes }   # (Approx) 3400 BC => 3400 - 984 = 2416
+#	30.1.1 = { death = yes }   # (Approx) 3300 BC => 3300 - 984 = 2316
+#}
+#
+#
+#400170 = {
+#	name = "Cleopatra"
+#	dynasty = 400170
+#	culture = "coptic"
+#	religion = "egyptian_pagan"
+#
+#	trait = beautiful
+#	trait = fluent
+#	trait = quick
+#
+#	1.1.1 = { birth = yes }   # 69 BC => 69 - 984 = -915
+#	39.8.12 = { death = yes }  # 30 BC => 30 - 984 = -954
+#}
+#
+#400171 = {
+#	name = "William"
+#	dynasty = 400171
+#	culture = "english"
+#	religion = "cathar"
+#
+#	trait = genius
+#	trait = fluent
+#	trait = melodious
+#
+#	580.4.23 = { birth = yes }   # 1564 - 984
+#	632.4.23 = { death = yes }   # 1616 - 984
+#}
+#
+#400172 = {
+#	name = "James Maynard"
+#	dynasty = 400172
+#	culture = "english"
+#	religion = "catholic"   # Arbitrary placeholder
+#	health = 10
+#
+#	trait = melodious
+#	trait = fluent
+#
+#	980.4.17 = { birth = yes }   # 1964 - 98
+#}
+#
+#400173 = {
+#	name = "Joan"
+#	dynasty = 400173
+#	culture = "european_european"
+#	religion = "catholic"
+#
+#	trait = resilient
+#	trait = melodious
+#
+#	428.1.6 = { birth = yes }    # 1412 - 984
+#	447.5.30 = { death = yes }   # 1431 - 984
+#}
+#
+#400174 = {
+#	name = "Frida"
+#	dynasty = 400174
+#	culture = "castillan"
+#	religion = "catholic"
+#
+#	trait = resilient
+#	trait = genius
+#	trait = fluent
+#
+#	923.7.6 = { birth = yes }    # 1907 - 984
+#	970.7.13 = { death = yes }   # 1954 - 984
+#}
+#
+#400175 = {
+#	name = "Benjamin"
+#	dynasty = 400175
+#	culture = "breton"
+#	religion = "nestorian"
+#
+#	trait = genius
+#
+#	722.1.17 = { birth = yes }   # 1706 - 984
+#	806.4.17 = { death = yes }   # 1790 - 984
+#}
+#
+#400176 = {
+#	name = "Victoria"
+#	dynasty = 400176
+#	culture = "english"
+#	religion = "cathar"
+#
+#	trait = strong
+#	trait = fair
+#	trait = fertile
+#	trait = brave
+#	trait = proud
+#	trait = ambitious
+#
+#	835.5.24 = { birth = yes }   # 1819 - 984
+#	917.1.22 = { death = yes }   # 1901 - 984
+#}
+#
+#400177 = {
+#	name = "Elizabeth"
+#	dynasty = 400177
+#	culture = "english"
+#	religion = "cathar"
+#
+#	trait = genius
+#	trait = barren
+#
+#	549.9.7 = { birth = yes }    # 1533 - 984
+#	619.3.24 = { death = yes }   # 1603 - 984
+#}
+#
+#400178 = {
+#	name = "Winston"
+#	dynasty = 400178
+#	culture = "english"
+#	religion = "cathar"
+#
+#	trait = quick
+#	trait = fluent
+#
+#	890.11.30 = { birth = yes }  # 1874 - 984
+#	981.1.24 = { death = yes }   # 1965 - 984
+#}
+#
+#400179 = {
+#	name = "Mohandas"
+#	dynasty = 400179
+#	culture = "hindustani"
+#	religion = "hindu"
+#
+#	trait = genius
+#	trait = resilient
+#
+#	885.10.2 = { birth = yes }   # 1869 - 984
+#	964.1.30 = { death = yes }   # 1948 - 984
+#}
+#
+#400180 = {
+#	name = "Hunter"
+#	dynasty = 400180
+#	culture = "breton"
+#	religion = "catholic"
+#
+#	trait = quick
+#	trait = psychopath
+#	trait = fluent
+#	trait = agile
+#
+#	953.7.18 = { birth = yes }   # 1937 - 984
+#	1021.2.20 = { death = yes }  # 2005 - 984
+#}
+#
+#400181 = {
+#	name = "John"
+#	dynasty = 400181
+#	culture = "old_frankish"
+#	religion = "nestorian"
+#
+#	trait = strong
+#	trait = agile
+#	trait = resilient
+#
+#	854.4.21 = { birth = yes }   # 1838 - 984
+#	930.12.24 = { death = yes }  # 1914 - 984
+#}
+#
+#400182 = {
+#	name = "Joshua"
+#	dynasty = 400182
+#	culture = "old_frankish"
+#	religion = "catholic"
+#
+#	trait = clumsy
+#
+#	834.2.4 = { birth = yes }    # 1818 - 984
+#	896.1.8 = { death = yes }    # 1880 - 984
+#}
+#
+#400183 = {
+#	name = "Cuauhtemoc"
+#	dynasty = 400183
+#	culture = "nahuatl"
+#	religion = "aztec_pagan"
+#
+#	trait = genius
+#	trait = strong
+#
+#	511.1.1 = { birth = yes }    # 1495 - 984
+#	541.2.28 = { death = yes }   # 1525 - 984
+#}
+#
