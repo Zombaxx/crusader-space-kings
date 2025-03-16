@@ -3,6 +3,9 @@
 	dynasty = 400000
 	culture = "breton"
 	religion = "nestorian"
+	trait = genius
+	trait = tall
+	trait = resilient
 	748.1.1 = { birth=yes }
 	815.1.1 = { death=yes }
 }
@@ -123,6 +126,8 @@
 	dynasty = 400015
 	culture = "breton"
 	religion = "nestorian"
+	trait = tall
+	trait = quick
 	825.1.1 = { birth=yes }
 	881.1.1 = { death=yes }
 }

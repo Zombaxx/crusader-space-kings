@@ -1,0 +1,123 @@
+400157 = {
+   name="Temüjin"
+   # AKA: Genghis Khan
+   dynasty=400157
+   dna="bfimkolbecc"
+   properties="ge0af0000000"
+   martial=10
+   diplomacy=8
+   intrigue=8
+   stewardship=9
+   religion="tengri_pagan"
+   culture="mongol"
+   trait=genius
+   trait=strong
+   trait=tall
+   trait=agile
+   trait=fertile
+   trait=brave
+   trait=ambitious
+   trait=diligent
+   trait=cruel
+   trait=hunter
+   trait=cavalry_leader
+   trait=brilliant_strategist
+   trait=sympathy_christendom
+   trait=sympathy_islam
+   trait=sympathy_zoroastrianism
+   trait=sympathy_judaism
+   trait=sympathy_indian
+   172.1.1={
+		birth=yes
+		effect = {
+		#set_character_flag = is_temujin
+		#set_global_flag = temujin_born
+		}
+   }
+   222.1.1 = {
+	 create_bloodline = {
+	 	type = genghis_khan
+	 	has_dlc = "Holy Fury"
+	 }
+   }
+   243.12.2={
+     death=yes
+   }
+}
+
+#400158
+
+400159 = {
+	name = "Napoleon"
+	dynasty = 400159
+	culture = "french"
+	religion = "catholic"
+
+	trait = genius
+	trait = short
+	trait = agile
+
+	785.8.15 = { birth = yes }
+	837.5.5 = { death = yes }
+}
+400160 = {
+	name = "Galileo"
+	dynasty = 400160
+	culture = "italian"
+	religion = "catholic"
+
+	trait = genius
+	trait = fluent
+
+	580.2.15 = { birth = yes }
+	658.1.8 = { death = yes }
+}
+400161 = {
+	name = "Albert"
+	dynasty = 400161
+	culture = "german"
+	religion = "jewish"
+
+	trait = genius
+
+	895.3.14 = { birth = yes }
+	971.4.18 = { death = yes }
+}
+400162 = {
+	name = "Nikola"
+	dynasty = 400162
+	culture = "serbian"
+	religion = "orthodox"
+
+	trait = genius
+	trait = shrewd
+
+	872.7.10 = { birth = yes }
+	959.1.7 = { death = yes }
+}
+400163 = {
+	name = "Mao"
+	dynasty = 400163
+	culture = "han"
+	religion = "buddhist"
+
+	trait = genius
+	trait = resilient
+	trait = agile
+
+	909.12.26 = { birth = yes }
+	992.9.9 = { death = yes }
+}
+400164 = {
+	name = "John"
+	dynasty = 400164
+	culture = "english"
+	religion = "catholic"
+
+	trait = quick
+	trait = melodious
+	trait = fluent
+
+	956.10.9 = { birth = yes }
+	996.12.8 = { death = yes }
+}

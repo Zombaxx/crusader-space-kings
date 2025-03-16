@@ -1,0 +1,35 @@
+400157 = {
+	name="Genghis"
+	culture="mongol"
+	religion="tengri_pagan"
+}
+400159 = {
+	name="Bonaparte"
+	culture="european_european"
+	religion="catholic"
+}
+400160 = {
+	name="Galilei"
+	culture="greek"
+	religion="catholic"
+}
+400161 = {
+	name="Einstein"
+	culture="european_european"
+	religion="jewish"
+}
+400162 = {
+	name="Tesla"
+	culture="polish"
+	religion="orthodox"
+}
+400163 = {
+	name="Mao"
+	culture="zhangzhung"
+	religion="buddhist"
+}
+400164 = {
+	name="Lennon"
+	culture="english"
+	religion="catholic"
+}
