@@ -565,6 +565,10 @@ monastic_order_shiite = {
 	
 	startup_populate = {
 	    trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = shiite
@@ -860,6 +864,10 @@ monastic_order_ibadi = {
 	
 	startup_populate = {
 	    trigger = {
+			NAND = {
+				ai = yes
+				trait = full_cybernetic_conversion
+			}
 			ai = yes
 	    	controls_religion = no
 		   	religion = ibadi
