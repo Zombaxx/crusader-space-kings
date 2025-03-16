@@ -84,9 +84,12 @@ succession_laws = {
 		vassal_opinion = 5
 	
 		potential = {
-			OR = { #only players can select this, should also prevent titles defaulting to this
-				has_law = succ_gavelkind
-				holder_scope = { ai = no }
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_united_states
+					title = e_european_union
+				}
 			}
 			holder_scope = {
 				OR = {
@@ -97,165 +100,97 @@ succession_laws = {
 						}
 					}
 				}
+				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
-				NOT = { government = theocratic_feudal_government }
-				NOT = { has_character_flag = matri_inheritance_check }
+				OR = {
+					independent = yes
+					NOT = {
+						any_demesne_title = {
+							is_vice_royalty = yes
+						}
+					}
+				}
 			}
 			OR = {
 				is_landless_type_title = no
-				#is_tribal_type_title = yes
+				is_tribal_type_title = yes
 				temporary = yes
-				holder_scope = {
-					demesne_size = 1
-					mercenary = no
-					holy_order = no
-					is_theocracy = no
-				}
 			}
-			rebel = no		
+			
+			rebel = no
+			
 			OR = {
-				AND = {
-					tier = baron
-					OR = {
-						is_feudal = yes
-						is_tribal = yes
-					}
-				}
-				holder_scope = { 
-					OR = {
-						is_feudal = yes
-						is_tribal = yes
-					}
-				}
+				holder_scope = { is_feudal = yes }
+				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		allow = {
-			NOT = {
-				AND = {
-					holder_scope = { has_character_flag = has_great_council_heir }
-					current_heir = { has_character_modifier = great_council_heir }
+			holder_scope = {
+				show_scope_change = no
+				OR = {
+					is_tribal = no
+					custom_tooltip = { 
+						text = TT_NOT_UNREFORMED_PAGAN
+						hidden_tooltip = {
+							NOR = { 
+								religion = norse_pagan
+								religion = slavic_pagan
+								religion = baltic_pagan
+								religion = finnish_pagan
+								religion = zun_pagan
+								religion = tengri_pagan
+								religion = west_african_pagan
+								religion = aztec
+								religion = pagan
+							}
+						}
+					}
+				}
+				in_revolt = no
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					has_dlc = "Conclave"
+				}
+				has_law = law_voting_power_0
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+					NOT = { has_dlc = "Conclave" }
+				}
+				has_law = crown_authority_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_law = succ_hre_elective
+				}
+				has_law = centralization_4
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Conclave"
+				}
+				custom_tooltip = {
+					text = forced_elective_tt
+					hidden_tooltip = {
+						NAND = { 
+							has_law = succession_voting_power_1
+							OR = { 
+								has_law = succ_feudal_elective
+								has_law = succ_hre_elective
+							}
+						}
+					}
 				}
 			}
 		}
-		default_selection = {
-			factor = 1
-			modifier = {
-				factor = 2
-				holder_scope = {
-					culture_group = chinese_group
-				}
-			}
-			modifier = {
-				factor = 5
-				holder_scope = {
-					capital_scope = {
-					OR = { 
-						region = world_aonia_terra 
-						region = world_west_argyre
-						region = world_planum_australe 
-						}
-					}
-				}
-			}
-			modifier = { #If AI has enacted seniority dont go back unless they will have an heir
-				factor = 0	
-				holder_scope = {
-					has_character_flag = enacted_seniority
-					NOT = {
-						any_child = {
-							is_alive = yes
-							dynasty = PREV
-							OR = {
-								NOT = { age = 5 }
-								is_married = yes
-							}	
-							NOT = { trait = bastard }
-							NOT = { trait = disinherited }
-						}
-					}
-				}	
-			}	
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-			}
-				
-			modifier = {
-				factor = 2	
-				holder_scope = {
-					higher_tier_than = DUKE
-				}	
-			}	
-			modifier = { #If AI has enacted seniority dont go back unless they will have an heir
-				factor = 0	
-				holder_scope = {
-					has_character_flag = enacted_seniority
-					NOT = {
-						any_child = {
-							is_alive = yes
-							dynasty = PREV
-							OR = {
-								NOT = { age = 5 }
-								is_married = yes
-							}	
-							NOT = { trait = bastard }
-							NOT = { trait = disinherited }
-						}
-					}
-				}	
-			}			
-			modifier = {
-				factor = 2
-				holder_scope = {
-					OR = {
-						war = yes
-						NOT = { age = 16 }
-					}
-				}	
-			}
-			modifier = {
-				factor = 3
-				holder_scope = {
-					AND = {
-						age = 30
-						num_of_children = 5
-					}
-				}	
-			}
-			modifier = {
-				factor = 1.2
-				holder_scope = {
-					higher_tier_than = DUKE
-				}	
-			}
-			modifier = {
-				factor = 0
-				holder_scope = {
-					OR = {
-						has_law = succ_feudal_elective
-						has_law = succ_hre_elective
-					}
-				}	
-			}
-			modifier = {
-				factor = 0
-				holder_scope = {
-					NOT = { trait = just }
-					NOT = { trait = proud }
-					any_vassal = { relative_power_to_liege = 0.2 NOT = { opinion = { who = PREV value = -25 } } } 
-				}
-			}	
-		}		
 		effect = {
-			succession = {
-				base_type = feudal_elective
-				voting_rules = martian_elective
-			}
+			succession = gavelkind
 		}
 		revoke_allowed = {
 			always = no
@@ -269,6 +204,10 @@ succession_laws = {
 		potential = {
 			NAND = { 
 				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
 			}
 			holder_scope = {
 				is_nomadic = no
@@ -351,110 +290,10 @@ succession_laws = {
 				has_law = centralization_4
 			}
 		}
-		default_selection = {
-			factor = 1
-			modifier = {
-				factor = 2
-				holder_scope = {
-					culture_group = chinese_group
-				}
-			}
-			modifier = { #If AI has enacted seniority dont go back unless they will have an heir
-				factor = 0	
-				holder_scope = {
-					has_character_flag = enacted_seniority
-					NOT = {
-						any_child = {
-							is_alive = yes
-							dynasty = PREV
-							OR = {
-								NOT = { age = 5 }
-								is_married = yes
-							}	
-							NOT = { trait = bastard }
-							NOT = { trait = disinherited }
-						}
-					}
-				}	
-			}	
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-			}
-				
-			modifier = {
-				factor = 2	
-				holder_scope = {
-					higher_tier_than = DUKE
-				}	
-			}	
-			modifier = { #If AI has enacted seniority dont go back unless they will have an heir
-				factor = 0	
-				holder_scope = {
-					has_character_flag = enacted_seniority
-					NOT = {
-						any_child = {
-							is_alive = yes
-							dynasty = PREV
-							OR = {
-								NOT = { age = 5 }
-								is_married = yes
-							}	
-							NOT = { trait = bastard }
-							NOT = { trait = disinherited }
-						}
-					}
-				}	
-			}			
-			modifier = {
-				factor = 2
-				holder_scope = {
-					OR = {
-						war = yes
-						NOT = { age = 16 }
-					}
-				}	
-			}
-			modifier = {
-				factor = 3
-				holder_scope = {
-					AND = {
-						age = 30
-						num_of_children = 5
-					}
-				}	
-			}
-			modifier = {
-				factor = 1.2
-				holder_scope = {
-					higher_tier_than = DUKE
-				}	
-			}
-			modifier = {
-				factor = 0
-				holder_scope = {
-					OR = {
-						has_law = succ_feudal_elective
-						has_law = succ_hre_elective
-					}
-				}	
-			}
-			modifier = {
-				factor = 0
-				holder_scope = {
-					NOT = { trait = just }
-					NOT = { trait = proud }
-					any_vassal = { relative_power_to_liege = 0.2 NOT = { opinion = { who = PREV value = -25 } } } 
-				}
-			}	
-		}	
 		effect = {
 			succession = {
 				base_type = elective_gavelkind
-				voting_rules = martian_elective
+				voting_rules = elective_gavelkind
 			}
 		}
 		revoke_allowed = {
