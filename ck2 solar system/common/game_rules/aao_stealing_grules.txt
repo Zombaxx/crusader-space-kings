@@ -1,0 +1,34 @@
+ai_stealing = {
+	name = "RULE_AI_STEALING"
+	group = "RULE_GROUP_AAO"
+	option = {
+		name = default
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_AI_STEALING_DEFAULT_DESC"
+	}
+	option = {
+		name = dukes_plus
+		text = "RULE_OPTION_DUKES_PLUS"
+		desc = "RULE_AI_STEALING_DUKES_PLUS_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_AI_STEALING_OFF_DESC"
+	}
+}
+
+aao_vaults = {
+	name = "RULE_AAO_VAULTS"
+	group = "RULE_GROUP_AAO"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_AAO_VAULTS_ON_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_AAO_VAULTS_OFF_DESC"
+	}
+}

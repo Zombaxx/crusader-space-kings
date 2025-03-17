@@ -1,0 +1,165 @@
+
+is_stealable_trigger = {
+	is_artifact_equipped = no
+	NOR = {
+		custom_tooltip = { text = is_stealable_trigger_tooltip has_artifact_flag = created }
+		custom_tooltip = { text = is_stealable_trigger_tooltip2 has_artifact_flag = book }
+		custom_tooltip = { text = is_stealable_trigger_tooltip3 has_artifact_flag = ingredient }
+		custom_tooltip = { text = is_stealable_trigger_tooltip4 has_artifact_flag = alive }
+		custom_tooltip = { text = is_stealable_trigger_tooltip5 has_artifact_flag = blacklist }
+		custom_tooltip = { text = is_stealable_trigger_tooltip6 has_artifact_flag = targeted }
+		hidden_tooltip = { has_artifact_flag = guilds } #from great trade league
+	}
+}
+
+can_be_accomplice_trigger = {
+	is_adult = yes
+	is_incapable = no
+	has_regent = no
+	prisoner = no
+	NOR = {
+		ai = no
+		character = event_target:target_character
+		trait = slow
+		trait = imbecile
+	}
+}
+
+##for AI
+
+#scope should be artifact
+artifact_usable_by_ROOT_trigger = {
+	NAND = {
+		has_artifact_flag = female_only
+		ROOT = { is_female = no }
+	}
+	OR = {
+		####religions####
+		AND = {
+			has_artifact_flag = christian
+			ROOT = { religion_group = christian }
+		}
+		AND = {
+			has_artifact_flag = jewish_group
+			ROOT = { religion_group = jewish_group }
+		}
+		AND = {
+			has_artifact_flag = muslim
+			ROOT = { religion_group = muslim }
+		}
+		AND = {
+			has_artifact_flag = zoroastrian_group
+			ROOT = { religion_group = zoroastrian_group }
+		}
+		AND = {
+			has_artifact_flag = indian_group
+			ROOT = { religion_group = indian_group }
+		}
+		AND = {
+			has_artifact_flag = norse_pagan
+			ROOT = { religion_openly_norse_or_reformed_trigger = yes }
+		}
+		AND = {
+			has_artifact_flag = west_african_pagan
+			ROOT = { religion_openly_west_african_or_reformed_trigger = yes }
+		}
+		AND = {
+			has_artifact_flag = finnish_pagan
+			ROOT = { religion_openly_finnish_or_reformed_trigger = yes }
+		}
+		AND = {
+			has_artifact_flag = slavic_pagan
+			ROOT = { religion_openly_slavic_or_reformed_trigger = yes }
+		}
+		AND = {
+			has_artifact_flag = baltic_pagan
+			ROOT = { religion_openly_baltic_or_reformed_trigger = yes }
+		}
+		AND = {
+			has_artifact_flag = tengri_pagan
+			ROOT = { religion_openly_tengri_or_reformed_trigger = yes }
+		}
+		AND = {
+			has_artifact_flag = zun_pagan
+			ROOT = { religion_openly_zun_or_reformed_trigger = yes }
+		}
+		AND = {
+			has_artifact_flag = hellenic
+			ROOT = { religion_openly_hellenic_or_reformed_trigger = yes }
+		}
+		####culture groups####
+		AND = {
+			has_artifact_flag = finno_ugric
+			ROOT = { culture_group = finno_ugric }
+		}
+		AND = {
+			has_artifact_flag = east_slavic
+			ROOT = { culture_group = east_slavic }
+		}
+		AND = {
+			has_artifact_flag = altaic
+			ROOT = { culture_group = altaic }
+		}
+		AND = {
+			has_artifact_flag = central_germanic
+			ROOT = { culture_group = central_germanic }
+		}
+		AND = {
+			has_artifact_flag = celtic
+			ROOT = { culture_group = celtic }
+		}
+		AND = {
+			has_artifact_flag = iranian
+			ROOT = { culture_group = iranian }
+		}
+		####cultures####
+		AND = {
+			has_artifact_flag = bedouin_arabic
+			ROOT = { culture = bedouin_arabic }
+		}
+		AND = {
+			has_artifact_flag = greek
+			ROOT = { culture = greek }
+		}
+		AND = {
+			has_artifact_flag = roman
+			ROOT = { culture = roman }
+		}
+		AND = {
+			has_artifact_flag = saxon
+			ROOT = { culture = saxon }
+		}
+		AND = {
+			has_artifact_flag = english
+			ROOT = { culture = english }
+		}
+		AND = {
+			has_artifact_flag = norman
+			ROOT = { culture = norman }
+		}
+		AND = {
+			has_artifact_flag = breton
+			ROOT = { culture = breton }
+		}
+		AND = {
+			has_artifact_flag = old_frankish
+			ROOT = { culture = old_frankish }
+		}
+		AND = {
+			has_artifact_flag = frankish
+			ROOT = { culture = frankish }
+		}
+		AND = {
+			has_artifact_flag = occitan
+			ROOT = { culture = occitan }
+		}
+		####misc####
+		has_artifact_flag = generic
+		has_artifact_flag = chinese
+		AND = {
+			has_artifact_flag = hermetics
+			ROOT = { society_member_of = hermetics }
+		}
+	}
+
+}

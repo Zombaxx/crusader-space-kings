@@ -1,0 +1,155 @@
+#AVIALABLE CUSTOM LOCALISATION KEYS
+#When adding new custom loc keys, add them to the appropriate category (or add a new one) and describe them. Name the strings "String_X" where x is its content.
+# To not display anything, you can use 'localisation_key = ""'
+
+
+defined_text = {
+	name = GetVulcanName
+	
+	text = {
+		trigger = { NOT = { culture = roman } }
+		localisation_key = hephaestus_god_name
+	}
+	text = {
+		trigger = { culture = roman }
+		localisation_key = vulcan_god_name
+	}
+	
+}
+defined_text = {
+	name = GetDianaName
+	
+	text = {
+		trigger = { NOT = { culture = roman } }
+		localisation_key = artemis_god_name
+	}
+	text = {
+		trigger = { culture = roman }
+		localisation_key = diana_god_name
+	}
+	
+}
+
+
+
+
+
+####Timers####
+defined_text = {
+	name = GetAaoStealCooldown
+	
+	text = {
+		trigger = { has_character_modifier = steal_artifact_timer }
+		localisation_key = steal_artifact_cooldown
+	}
+}
+
+defined_text = {
+	name = GetAaoOdinEyeCooldown
+	
+	text = {
+		trigger = { has_character_modifier = gaze_into_eye_timer }
+		localisation_key = gaze_into_eye_cooldown
+	}
+}
+
+defined_text = {
+	name = GetAaoPandoraCooldown
+	
+	text = {
+		trigger = { has_character_modifier = open_pandoras_box_timer }
+		localisation_key = open_pandoras_box_cooldown
+	}
+}
+
+
+
+
+
+
+
+defined_text = {
+	name = odins_quest_stage1
+	text = {
+		localisation_key = odins_quest_stage1A
+		trigger = { has_character_flag = odins_quest_fought_in_pit }
+	}
+	text = {
+		localisation_key = odins_quest_stage1B
+		trigger = { has_character_flag = odins_quest_watched_pit }
+	}
+	text = {
+		localisation_key = odins_quest_stage1C
+		trigger = { 
+			NOR = {
+				has_character_flag = odins_quest_fought_in_pit
+				has_character_flag = odins_quest_watched_pit 
+			}
+		}
+	}
+}
+defined_text = {
+	name = odins_quest_stage2
+	text = {
+		localisation_key = odins_quest_stage2A
+		trigger = { has_character_flag = odins_quest_correct_answer }
+	}
+	text = {
+		localisation_key = odins_quest_stage2B
+		trigger = { NOT = { has_character_flag = odins_quest_correct_answer } }
+	}
+}
+defined_text = {
+	name = odins_quest_stage3
+	text = {
+		localisation_key = odins_quest_stage3A
+		trigger = { has_character_flag = odins_quest_removed_eye }
+	}
+	text = {
+		localisation_key = odins_quest_stage3B
+		trigger = { has_character_flag = odins_quest_removed_other_eye }
+	}
+	text = {
+		localisation_key = odins_quest_stage3C
+		trigger = { has_character_flag = odins_quest_already_blind }
+	}
+	text = {
+		localisation_key = odins_quest_stage3D
+		trigger = { 
+			NOR = {
+				has_character_flag = odins_quest_removed_eye
+				has_character_flag = odins_quest_removed_other_eye
+				has_character_flag = odins_quest_already_blind 
+			}
+		}	
+	}
+}
+defined_text = {
+	name = odins_quest_stage4
+	text = {
+		localisation_key = odins_quest_stage4A
+		trigger = { check_variable = { which = raiding_score value <= 9 } }
+	}
+	text = {
+		localisation_key = odins_quest_stage4B
+		trigger = { check_variable = { which = raiding_score value > 9 } }
+	}
+}
+defined_text = {
+	name = odins_quest_result
+	text = {
+		localisation_key = odins_quest_fail
+		trigger = { check_variable = { which = odins_quest_counter value < 5 } }
+	}
+	text = {
+		localisation_key = odins_quest_success
+		trigger = { check_variable = { which = odins_quest_counter value >= 5 } }
+	}
+}
+
+
+
+
+
+
+	

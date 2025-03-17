@@ -1,0 +1,532 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+
+#artifact vaults #Disabled because building vaults and stealing artifacts by the AI is disabled anyway due to lag concerns
+
+###Castle
+#castle = {
+#	ca_vault_1 = {
+#		desc = ca_vault_1_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 1
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			}
+#		}
+#		gold_cost = 200
+#		build_time = 365
+#		
+#		tax_income = -1
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 70
+#		
+#		extra_tech_building_start = 10.0
+#	}
+#	ca_vault_2 = {
+#		desc = ca_vault_2_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 3
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = ca_vault_1
+#		prerequisites = { ca_vault_1 }
+#		gold_cost = 300
+#		build_time = 365
+#		
+#		tax_income = -1
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 50
+#
+#		extra_tech_building_start = 10.0
+#	}
+#	ca_vault_3 = {
+#		desc = ca_vault_3_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 5
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = ca_vault_2
+#		prerequisites = { ca_vault_2 }
+#		gold_cost = 400
+#		build_time = 365
+#		
+#		tax_income = -1
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 20
+#
+#		extra_tech_building_start = 10.0
+#	}
+#}
+###City
+#city = {
+#	ct_vault_1 = {
+#		desc = ca_vault_1_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 1
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		gold_cost = 200
+#		build_time = 365
+#		
+#		tax_income = -1.5
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		
+#		ai_creation_factor = 70
+#		
+#		extra_tech_building_start = 10.0
+#	}
+#	ct_vault_2 = {
+#		desc = ca_vault_2_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 3
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = ct_vault_1
+#		prerequisites = { ct_vault_1 }
+#		gold_cost = 300
+#		build_time = 365
+#		
+#		tax_income = -1.5
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 50
+#
+#		extra_tech_building_start = 10.0
+#	}
+#	ct_vault_3 = {
+#		desc = ca_vault_3_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 5
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = ct_vault_2
+#		prerequisites = { ct_vault_2 }
+#		gold_cost = 400
+#		build_time = 365
+#		
+#		tax_income = -1.5
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 20
+#
+#		extra_tech_building_start = 10.0
+#	}
+#}
+###Temple
+#temple = {
+#	tp_vault_1 = {
+#		desc = ca_vault_1_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 1
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		gold_cost = 200
+#		build_time = 365
+#		
+#		tax_income = -1
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 70
+#		
+#		extra_tech_building_start = 10.0
+#	}
+#	tp_vault_2 = {
+#		desc = ca_vault_2_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 3
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = tp_vault_1
+#		prerequisites = { tp_vault_1 }
+#		gold_cost = 300
+#		build_time = 365
+#		
+#		tax_income = -1
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 50
+#
+#		extra_tech_building_start = 10.0
+#	}
+#	tp_vault_3 = {
+#		desc = ca_vault_3_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 5
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = tp_vault_2
+#		prerequisites = { tp_vault_2 }
+#		gold_cost = 400
+#		build_time = 365
+#		
+#		tax_income = -1
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 20
+#
+#		extra_tech_building_start = 10.0
+#	}
+#}
+###Family palace
+#family_palace = {
+#	fp_avault_1 = {
+#		desc = ca_vault_1_desc
+#		potential = { 
+#			FROM = { has_game_rule = { name = aao_vaults value = on } }
+#			is_capital = yes 
+#		}
+#		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+#		gold_cost = 200
+#		build_time = 365
+#		
+#		tax_income = -1.5
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		
+#		ai_creation_factor = 70
+#		
+#		extra_tech_building_start = 10.0
+#	}
+#	fp_avault_2 = {
+#		desc = ca_vault_2_desc
+#		potential = { 
+#			FROM = { has_game_rule = { name = aao_vaults value = on } }
+#			is_capital = yes 
+#		}
+#		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+#		upgrades_from = fp_avault_1
+#		prerequisites = { fp_avault_1 }
+#		gold_cost = 300
+#		build_time = 365
+#		
+#		tax_income = -1.5
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 50
+#
+#		extra_tech_building_start = 10.0
+#	}
+#	fp_avault_3 = {
+#		desc = ca_vault_3_desc
+#		potential = { 
+#			FROM = { has_game_rule = { name = aao_vaults value = on } }
+#			is_capital = yes 
+#		}
+#		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+#		upgrades_from = fp_avault_2
+#		prerequisites = { fp_avault_2 }
+#		gold_cost = 400
+#		build_time = 365
+#		
+#		tax_income = -1.5
+#		fort_level = 0.25
+#		artifact_protection = 0.10
+#		
+#		ai_creation_factor = 20
+#
+#		extra_tech_building_start = 10.0
+#	}
+#}
+#
+#
+###Tribal
+#tribal = {
+#	tb_vault_1 = {
+#		desc = tb_vault_1_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 1
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		gold_cost = 100
+#		build_time = 365
+#		
+#		tax_income = -0.5
+#		fort_level = 0.1
+#		artifact_protection = 0.05
+#		
+#		convert_to_castle = ca_vault_1
+#		convert_to_city = ct_vault_1
+#		
+#		ai_creation_factor = 70
+#		
+#		extra_tech_building_start = 10.0
+#	}
+#	tb_vault_2 = {
+#		desc = tb_vault_2_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 3
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = tb_vault_1
+#		prerequisites = { tb_vault_1 }
+#		gold_cost = 200
+#		build_time = 365
+#		
+#		tax_income = -0.5
+#		fort_level = 0.1
+#		artifact_protection = 0.05
+#		
+#		convert_to_castle = ca_vault_2
+#		convert_to_city = ct_vault_2
+#		
+#		ai_creation_factor = 50
+#
+#		extra_tech_building_start = 10.0
+#	}
+#	tb_vault_3 = {
+#		desc = tb_vault_3_desc
+#		potential = {
+#			FROM = {
+#				has_game_rule = { name = aao_vaults value = on }
+#				NOT = { government = merchant_republic_government } 
+#			}
+#		}
+#		trigger = { 
+#			TECH_FORTIFICATIONS_CONSTRUCTION = 5
+#			FROM = { ai = no }
+#		}
+#		is_active_trigger = { 
+#			FROM = { 
+#				capital_holding = { title = FROMFROM } 
+#				higher_tier_than = baron
+#			} 
+#		}
+#		upgrades_from = tb_vault_2
+#		prerequisites = { tb_vault_2 }
+#		gold_cost = 300
+#		build_time = 365
+#		
+#		tax_income = -0.5
+#		fort_level = 0.1
+#		artifact_protection = 0.05
+#		
+#		convert_to_castle = ca_vault_3
+#		convert_to_city = ct_vault_3
+#		
+#		ai_creation_factor = 20
+#
+#		extra_tech_building_start = 10.0
+#	}
+#}
+###Nomad
+#nomad = {
+#	no_vault_1 = {
+#		desc = tb_vault_1_desc
+#		potential = { 
+#			FROM = { has_game_rule = { name = aao_vaults value = on } }
+#			is_capital = yes 
+#		}
+#		trigger = { FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 } }
+#		gold_cost = 100
+#		build_time = 365
+#		
+#		nomad_tax_modifier = -0.1
+#		fort_level = 0.1
+#		artifact_protection = 0.05
+#		
+#		convert_to_tribal = tb_vault_1
+#		
+#		ai_creation_factor = 70
+#		
+#		extra_tech_building_start = 10.0
+#	}
+#	no_vault_2 = {
+#		desc = tb_vault_2_desc
+#		potential = { 
+#			FROM = { has_game_rule = { name = aao_vaults value = on } }
+#			is_capital = yes 
+#		}
+#		trigger = { FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 } }
+#		upgrades_from = no_vault_1
+#		prerequisites = { no_vault_1 }
+#		gold_cost = 200
+#		build_time = 365
+#		
+#		nomad_tax_modifier = -0.1
+#		fort_level = 0.1
+#		artifact_protection = 0.05
+#		
+#		convert_to_tribal = tb_vault_2
+#		
+#		ai_creation_factor = 50
+#
+#		extra_tech_building_start = 10.0
+#	}
+#	no_vault_3 = {
+#		desc = tb_vault_3_desc
+#		potential = { 
+#			FROM = { has_game_rule = { name = aao_vaults value = on } }
+#			is_capital = yes 
+#		}
+#		trigger = { FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 } }
+#		upgrades_from = no_vault_2
+#		prerequisites = { no_vault_2 }
+#		gold_cost = 300
+#		build_time = 365
+#		
+#		nomad_tax_modifier = -0.1
+#		fort_level = 0.1
+#		artifact_protection = 0.05
+#		
+#		convert_to_tribal = tb_vault_3
+#		
+#		ai_creation_factor = 20
+#
+#		extra_tech_building_start = 10.0
+#	}
+#}

@@ -1,0 +1,234 @@
+#everything related to stealing should be here
+#to make it easier to update changes to standalone version
+#
+#
+
+
+############Game Rules############
+RULE_GROUP_AAO;AAO;;;;;;;;;;;;;x
+RULE_AI_STEALING;§BAAO:§! AI Artifact Stealing;;;;;;;;;;;;;x
+RULE_AI_STEALING_DEFAULT_DESC;Powerful Counts and Dukes+ along with Patricians can steal artifacts from other characters.;;;;;;;;;;;;;x
+RULE_OPTION_DUKES_PLUS;Dukes+;;;;;;;;;;;;;x
+RULE_AI_STEALING_DUKES_PLUS_DESC;Only Dukes and above as well as Patricians can steal artifacts from other characters.;;;;;;;;;;;;;x
+RULE_AI_STEALING_OFF_DESC;No AI character can steal artifacts. This does not affect taking them from prisoners.;;;;;;;;;;;;;x
+
+RULE_AAO_VAULTS;§BAAO:§! Artifact Vaults;;;;;;;;;;;;;x
+RULE_AAO_VAULTS_ON_DESC;Artifact vaults can be built to provide extra protection for artifacts.;;;;;;;;;;;;;x
+RULE_AAO_VAULTS_OFF_DESC;Artifact vaults cannot be built at all.;;;;;;;;;;;;;x
+
+############Traits############
+
+
+############Event Modifiers############
+pathetic_bribe;Pathetic;;;;;;;;;;;;;x
+levy_agreement_pos;Levy Transfer;;;;;;;;;;;;;x
+levy_agreement_neg;Levy Transfer;;;;;;;;;;;;;x
+tax_agreement_pos;Tax Transfer;;;;;;;;;;;;;x
+tax_agreement_neg;Tax Transfer;;;;;;;;;;;;;x
+
+
+###modifier defs
+artifact_protection;Artifact Protection;;;;;;;;;;;;;x
+
+
+###Timers
+active_heist;active heist;;;;;;;;;;;;;x
+active_heist_desc;if you see this please report it on the Artifact Acquisition and Overhaul mod page.;;;;;;;;;;;;;x
+steal_artifact_timer;heist cd;;;;;;;;;;;;;x
+steal_artifact_timer_desc;if you see this please report it on the Artifact Acquisition and Overhaul mod page.;;;;;;;;;;;;;x
+ai_steal_immunity;ai cant steal;;;;;;;;;;;;;x
+ai_steal_immunity_desc;if you see this please report it on the Artifact Acquisition and Overhaul mod page.;;;;;;;;;;;;;x
+
+
+############Opinion Modifiers############
+opinion_stole_artifact;Stole my Artifact;;;;;;;;;;;;x
+opinion_stole_artifact_my_vassal;Stole my Artifact;;;;;;;;;;;;x
+opinion_stole_artifact_other_vassal;Vassal Stole my Artifact;;;;;;;;;;;;x
+opinion_seized_artifact_tyranny;Seized a Prisoner's Artifact;;;;;;;;;;;;x
+seized_artifact;Forcefully Took my Artifact;;;;;;;;;;;;x
+seized_artifact_inheritance;Forcefully Taken my Predecessor's Artifact;;;;;;;;;;;;x
+seized_artifact_dynastic;Forcefully Taken one of my Dynasty's Artifacts;;;;;;;;;;;;x
+
+
+
+
+############Nicknames############
+
+
+############Minor Titles############
+title_treasury_guard;Treasury Guard;;;;;;;;;;;;;x
+title_treasury_guard_desc;Responsible for the safety and maintenance of his liege's personal vault.;;;;;;;;;;;;;x
+
+############Buildings############
+ca_vault_1;Artifact Vault;;;;;;;;;;;;;x
+ca_vault_2;Great Artifact Vault;;;;;;;;;;;;;x
+ca_vault_3;Magnificent Artifact Vault;;;;;;;;;;;;;x
+ct_vault_1;Artifact Vault;;;;;;;;;;;;;x
+ct_vault_2;Great Artifact Vault;;;;;;;;;;;;;x
+ct_vault_3;Magnificent Artifact Vault;;;;;;;;;;;;;x
+tp_vault_1;Artifact Vault;;;;;;;;;;;;;x
+tp_vault_2;Great Artifact Vault;;;;;;;;;;;;;x
+tp_vault_3;Magnificent Artifact Vault;;;;;;;;;;;;;x
+tb_vault_1;Artifact Room;;;;;;;;;;;;;x
+tb_vault_2;Great Artifact Room;;;;;;;;;;;;;x
+tb_vault_3;Magnificent Artifact Room;;;;;;;;;;;;;x
+no_vault_1;Artifact Room;;;;;;;;;;;;;x
+no_vault_2;Great Artifact Room;;;;;;;;;;;;;x
+no_vault_3;Magnificent Artifact Room;;;;;;;;;;;;;x
+fp_avault_1;Artifact Vault;;;;;;;;;;;;;x
+fp_avault_2;Great Artifact Vault;;;;;;;;;;;;;x
+fp_avault_3;Magnificent Artifact Vault;;;;;;;;;;;;;x
+
+ca_vault_1_desc;A small vault to guard your personal artifacts.;;;;;;;;;;;;;x
+ca_vault_2_desc;A larger vault with sturdier doors and locks to keep thieves away.;;;;;;;;;;;;;x
+ca_vault_3_desc;A state of the art vault with multiple gates and traps to make sure unwanted guests are kept out.;;;;;;;;;;;;;x
+tb_vault_1_desc;A small room to guard your personal artifacts.;;;;;;;;;;;;;x
+tb_vault_2_desc;A room with a sturdier door and lock to keep thieves away.;;;;;;;;;;;;;x
+tb_vault_3_desc;A large room with a stronger door and guards to keep watch over your artifacts.;;;;;;;;;;;;;x
+
+############Scripted Triggers############
+is_stealable_trigger_tooltip;Is a created artifact;;;;;;;;;;;;;x
+is_stealable_trigger_tooltip2;Is a book;;;;;;;;;;;;;x
+is_stealable_trigger_tooltip3;Is a Hermatic ingredient;;;;;;;;;;;;;x
+is_stealable_trigger_tooltip4;Is alive;;;;;;;;;;;;;x
+is_stealable_trigger_tooltip5;Is immune to this action;;;;;;;;;;;;;x
+is_stealable_trigger_tooltip6;Is already targeted by another character;;;;;;;;;;;;;x
+
+
+############Decisions############
+
+
+ai_steal_artifact;ai stealing chain;;;;;;;;;;;;;x
+ai_steal_artifact_desc;if you see this please report it on the Artifact Acquisition and Overhaul mod page.;;;;;;;;;;;;;x
+
+
+##targeted
+steal_artifact;Steal Artifact;;;;;;;;;;;;;x
+steal_artifact_desc;You attempt to steal one of [Root.GetTitledName]'s artifacts;;;;;;;;;;;;;x
+steal_artifact_third_party;Artifact Requirements:;;;;;;;;;;;;;x
+steal_artifact_allow;Is NOT already trying to steal an artifact;;;;;;;;;;;;;x
+steal_artifact_allow2;Has NOT attempted to steal an artifact recently[From.GetAaoStealCooldown];;;;;;;;;;;;;x
+steal_artifact_cooldown;   §YReady on: [This.steal_artifact_timer.GetExpiryDate]§!;;;;;;;;;;;;;x
+
+retrieve_artifact;Retrieve Artifact;;;;;;;;;;;;;x
+retrieve_artifact_desc;Retrieve an artifact from [Root.GetBestName] that previously belonged to your dynasty.;;;;;;;;;;;;;x
+retrieve_artifact_allow;[Root.GetBestName] must be your prisoner;;;;;;;;;;;;;x
+retrieve_artifact_effect;Transfers the Artifact to your treasury;;;;;;;;;;;;;x
+
+seize_artifact;Seize Artifact;;;;;;;;;;;;;x
+seize_artifact_desc;Forcefully take one of [Root.GetBestName]'s equipped artifacts.;;;;;;;;;;;;;x
+seize_artifact_third_party;Artifact Requirements:;;;;;;;;;;;;;x
+seize_artifact_allow;Is immune to this action;;;;;;;;;;;;;x
+seize_artifact_allow2;Is alive;;;;;;;;;;;;;x
+seize_artifact_allow3;[Root.GetBestName] must be your prisoner;;;;;;;;;;;;;x
+seize_artifact_effect;Transfers the Artifact to your treasury;;;;;;;;;;;;;x
+seize_artifact_effect2;Your vassals will be displeased with your actions;;;;;;;;;;;;;x
+seize_artifact_effect3;[Root.GetBestName] and [Root.GetHerHis] dynasty will be outraged;;;;;;;;;;;;;x
+
+ai_build_vault;ai building vaults;;;;;;;;;;;;;x
+ai_build_vault_desc;if you see this please report it on the Artifact Acquisition and Overhaul mod page.;;;;;;;;;;;;;x
+ai_remove_vault;ai removing vaults;;;;;;;;;;;;;x
+remove_vault_desc;if you see this please report it on the Artifact Acquisition and Overhaul mod page.;;;;;;;;;;;;;x
+
+
+
+############Events############
+
+
+##tooltip infos
+aao_success;success;;;;;;;;;;;;;x
+aao_failure;failure;;;;;;;;;;;;;x
+aao_success_diplomacy;§GSuccess§! depends on your combined diplomatic abilities.\n;;;;;;;;;;;;;x
+aao_success_martial;§GSuccess§! depends on your combined physical strength.\n;;;;;;;;;;;;;x
+aao_success_stewardship;§GSuccess§! depends on your combined administrative capabilities.\n;;;;;;;;;;;;;x
+aao_success_intrigue;§GSuccess§! depends on your combined finesse.\n;;;;;;;;;;;;;x
+aao_success_learning;§GSuccess§! depends on your combined scholary knowledge.\n;;;;;;;;;;;;;x
+aao_sharedfate;Your accomplice will share your fate.\n;;;;;;;;;;;;;x
+aao_escape;successfully escaping;;;;;;;;;;;;;x
+
+
+aao_success_diplomacy_intrigue;§GSuccess§! depends on your diplomatic abilities and finesse.\n;;;;;;;;;;;;;x
+aao_success_stewardship_learning;§GSuccess§! depends on your administrative capabilities and scholary knowledge.\n;;;;;;;;;;;;;x
+aao_success_alchemy;§GSuccess§! depends on your skill with Alchemy and scholary knowledge.\n;;;;;;;;;;;;;x
+aao_success_seduction;§GSuccess§! depends on your attractiveness and diplomatic abilities.\n;;;;;;;;;;;;;x
+aao_success_everything;§GSuccess§! depends on a little bit of everything.\n;;;;;;;;;;;;;x
+aao_success_split_up;§GSuccess§! depends slightly on your administrative capabilities and heavily on your accomplice.\n;;;;;;;;;;;;;x
+aao_success_magic;§GSuccess§! depends on your knowledge of the arcane and scholary knowledge.\n;;;;;;;;;;;;;x
+aao_success_audience;§GSuccess§! depends on your diplomatic abilities and [target_character.GetTitledFirstName]'s personality.\n;;;;;;;;;;;;;x
+
+
+
+
+EVTDESAaao.001;Who shall be your accomplice? You will begin once preparations are completed.;;;;;;;;;;;;;x
+EVTOPTAaao.001;[Root.job_marshal.GetTitledFirstName], my marshal;;;;;;;;;;;;;x
+EVTTOOLTIPAaao.001;will join you;;;;;;;;;;;;;x
+EVTOPTBaao.001;[Root.job_spymaster.GetTitledFirstName], my spymaster;;;;;;;;;;;;;x
+EVTOPTCaao.001;More...;;;;;;;;;;;;;x
+EVTOPTDaao.001;I've changed my mind.;;;;;;;;;;;;;x
+EVTDESAaao.002;Who shall be your accomplice? You will begin once preparations are completed.;;;;;;;;;;;;;x
+EVTOPTAaao.002;My friend;;;;;;;;;;;;;x
+EVTOPTBaao.002;My lover;;;;;;;;;;;;;x
+EVTOPTCaao.002;[Root.Heir.GetTitledFirstName], my heir;;;;;;;;;;;;;x
+EVTOPTDaao.002;More...;;;;;;;;;;;;;x
+
+#EVTDESAaao.005;
+#EVTOPTAaao.005;
+
+EVTDESAaao.007;You have arrived at [FromFromFrom.GetTitledName]'s capital, as expected it's heavily guarded. There's a group of guards at the main door, a servant's entrance at the back, and a window near the stables.;;;;;;;;;;;;;x
+EVTOPTAaao.007;Convince some servants to let me in;;;;;;;;;;;;;x
+EVTOPTBaao.007;Force my way inside;;;;;;;;;;;;;x
+EVTOPTCaao.007;Sneak in through the window;;;;;;;;;;;;;x
+EVTDESAaao.008;Failure! The guards quickly start surrounding you.;;;;;;;;;;;;;x
+EVTOPTAaao.008;Beg for forgiveness.;;;;;;;;;;;;;x
+EVTOPTBaao.008;Fight my way out!;;;;;;;;;;;;;x
+EVTOPTCaao.008;Run away!;;;;;;;;;;;;;x
+
+EVTDESAaao.051;You've managed to evade most patrols until you come up outside the treasury. Two bored guards stand between you and your prize.;;;;;;;;;;;;;x
+EVTOPTAaao.051;Rush them before they raise the alarm;;;;;;;;;;;;;x
+EVTOPTBaao.051;Pose as a servant and give them poisoned drinks.;;;;;;;;;;;;;x
+EVTOPTCaao.051;Use your hermatic knowledge to create a noxious gas.;;;;;;;;;;;;;x
+EVTOPTDaao.051;One of us will seduce them.;;;;;;;;;;;;;x
+EVTDESAaao.052;Failure! You weren't as crafty as you thought, the guards draw their swords and approach you!;;;;;;;;;;;;;x
+EVTOPTAaao.052;Hopefully money will sway their minds.;;;;;;;;;;;;;x
+EVTOPTBaao.052;Fight my way out!;;;;;;;;;;;;;x
+EVTOPTCaao.052;Quick, out the window!;;;;;;;;;;;;;x
+
+EVTDESAaao.101;Now that you have dealt with the guards, you're free to search the treasury for your target. Time is short and the treasury is filled with documents, jewels, and many miscellaneous items.;;;;;;;;;;;;;x
+EVTOPTAaao.101;Search franticly making a lot of noise;;;;;;;;;;;;;x
+EVTOPTBaao.101;Split up to cover more ground;;;;;;;;;;;;;x
+EVTOPTCaao.101;Search carefully for the item;;;;;;;;;;;;;x
+EVTOPTDaao.101;Time to get unconventional!;;;;;;;;;;;;;x
+EVTDESAaao.102;Oops, you've taken too long and some guards found you.;;;;;;;;;;;;;x
+EVTOPTAaao.102;Surrender and hope for the best;;;;;;;;;;;;;x
+EVTOPTBaao.102;Fight your way out, but theres a lot of them;;;;;;;;;;;;;x
+EVTOPTCaao.102;Demand an audience with their liege;;;;;;;;;;;;;x
+
+
+EVTDESAaao.150;After making your escape, you finally feel relieved. You've managed to steal one fine artifact for your collection and your foe has no idea.;;;;;;;;;;;;;x
+EVTOPTAaao.150;That went better than I thought;;;;;;;;;;;;;x
+
+EVTDESAaao.151;Your guard storms into your court, "My liege, I have failed you! One of your artifacts has gone missing!". [From.GetTitledName] has made off with one of your artifacts.;;;;;;;;;;;;;x
+EVTOPTAaao.151;This is treason!;;;;;;;;;;;;;x
+EVTOPTBaao.151;Damn [From.GetHerHim];;;;;;;;;;;;;x
+EVTOPTCaao.151;Curse [From.GetHerHim] and his liege!;;;;;;;;;;;;;x
+EVTOPTDaao.151;Why doesn't my liege do something?!;;;;;;;;;;;;;x
+EVTOPTEaao.151;All the realm shall know!;;;;;;;;;;;;;x
+
+EVTDESAaao.200;You've failed in your heist, and now suffer the shame.;;;;;;;;;;;;;x
+EVTOPTAaao.200;It could have been worse I suppose;;;;;;;;;;;;;x
+EVTDESAaao.201;Your guards have caught [From.GetTitledName] trying to steal one of your artifacts!;;;;;;;;;;;;;x
+EVTOPTAaao.201;To the dungeons with the traitor!;;;;;;;;;;;;;x
+EVTOPTBaao.201;To the dungeons with [From.GetHerHim]!;;;;;;;;;;;;;x
+
+
+EVTDESAaao.303;Your guard storms into your court, "My liege, I have failed you! One of your artifacts has gone missing!". [From.GetTitledName] has made off with one of your artifacts.;;;;;;;;;;;;;x
+EVTOPTAaao.303;This is treason!;;;;;;;;;;;;;x
+EVTOPTBaao.303;Damn [From.GetHerHim];;;;;;;;;;;;;x
+EVTOPTCaao.303;Curse [From.GetHerHim] and his liege!;;;;;;;;;;;;;x
+EVTOPTDaao.303;Why doesn't my liege do something?!;;;;;;;;;;;;;x
+EVTOPTEaao.303;All the realm shall know!;;;;;;;;;;;;;x
+EVTTOOLTIPAaao.303;All direct vassals of [From.GetBestName] shall be notified;;;;;;;;;;;;;x
+
+EVTDESAaao.305;Your guards have caught [From.GetTitledName] trying to steal one of your artifacts!;;;;;;;;;;;;;x
+EVTOPTAaao.305;To the dungeons with the traitor!;;;;;;;;;;;;;x
+EVTOPTBaao.305;To the dungeons with [From.GetHerHim]!;;;;;;;;;;;;;x

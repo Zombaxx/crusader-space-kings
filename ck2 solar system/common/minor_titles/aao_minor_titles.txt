@@ -1,0 +1,42 @@
+title_treasury_guard = {
+	
+	is_high_prio = yes
+	realm_in_name = yes
+	
+	dignity = 0.30
+	attribute = martial
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.25
+	
+	
+	allowed_to_hold = {
+		NOT = { primary_title = { temporary = yes } }
+		OR = {
+			is_female = no
+			liege = {
+				OR = {
+					primary_title = { has_law = status_of_women_3 }
+					primary_title = { has_law = status_of_women_4 }
+					has_game_rule = {
+						name = gender
+						value = all
+					}
+				}
+			}
+		}
+		NOT = { trait = incapable } 
+		is_adult = yes
+		martial = 8
+	}
+	
+	allowed_to_grant = {
+		higher_tier_than = count
+		num_of_artifacts = 1
+	}
+	
+	#gain_effect = {}
+	#lose_effect = {}
+}
