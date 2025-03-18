@@ -4660,7 +4660,7 @@ offmap_decisions = {
 				show_scope_change = no
 				has_offmap_currency = { offmap = offmap_china value = 1000 }
 				prisoner = no
-				NOT = { trait = incapable }
+				#NOT = { trait = incapable }
 				is_inaccessible_trigger = no
 				OR = {
 					trait = incapable
@@ -4784,22 +4784,21 @@ offmap_decisions = {
 				}
 				custom_tooltip = { text = chinese_artifact_effect_tt }
 				if = {
-					#limit = {
-					#	OR = {
-					#		trait = incapable
-					#		trait = lunatic
-					#		trait = possessed
-					#	}
-					#}
+					limit = {
+						OR = {
+							trait = mystic
+							trait = infirm
+						}
+					}
 					add_trait = hiver_implant
 					remove_trait = infirm
 				}
 				if = {
 					limit = {
-						trait = incapable
+						trait = infirm
 						trait = hiver_implant
 					}
-					remove_trait = incapable
+					remove_trait = infirm
 				}				
 			}
 		}
@@ -4819,7 +4818,7 @@ offmap_decisions = {
 				modifier = {
 				factor = 0.5
 				OR = {
-					trait = lunatic
+					trait = mystic
 					trait = possessed
 				}
 			}

@@ -487,6 +487,20 @@ e_empire0009 = {
 			
 			capital = 9
 			
+			c_province0019 = {
+				color={ 209 150 10 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony0019` = { }
+				b_barony0019a = { }
+				b_barony0019b = { }
+				b_barony0019c = { }
+				b_barony0019d = { }
+				b_barony0019e = { }
+				b_barony0019f = { }
+				b_barony0019g = { }
+			}
 			c_province0009 = {
 				color={ 196 161 80 }
 				color2={ 255 255 255 }
@@ -504,6 +518,7 @@ e_empire0009 = {
 		}
 	}
 	k_kingdom0009 = {
+		allow = { always = no }
 		color={ 196 161 80 }
 		color2={ 255 255 255 }
 		
@@ -1135,7 +1150,8 @@ e_empire0046 = {
 		}
 	}
 	
-	k_kingdom0019 = {
+	k_kingdom0019 = {#unused
+		allow = { always = no }
 		color={ 209 150 10 }
 		color2={ 255 255 255 }
 		
@@ -1143,7 +1159,8 @@ e_empire0046 = {
 		
 		culture = nahuatl
 		
-		d_duchy0019 = {
+		d_duchy0019 = {#unused
+			allow = { always = no }
 			color={ 209 150 10 }
 			color2={ 255 255 255 }
 			
@@ -1237,20 +1254,7 @@ e_empire0046 = {
 				b_meteti = { }
 				b_la_palma = { }
 			}
-			c_province0019 = {
-				color={ 209 150 10 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony0019` = { }
-				b_barony0019a = { }
-				b_barony0019b = { }
-				b_barony0019c = { }
-				b_barony0019d = { }
-				b_barony0019e = { }
-				b_barony0019f = { }
-				b_barony0019g = { }
-			}
+	
 			c_province0046 = {
 				color={ 190 198 80 }
 				color2={ 255 255 255 }
@@ -3603,6 +3607,7 @@ e_united_states = {
 			}
 		}
 		d_duchy0184 = { #unused
+			allow = { always = no }
 			color={ 120 158 108 }
 			color2={ 255 255 255 }
 			
@@ -3610,6 +3615,7 @@ e_united_states = {
 			
 		}
 		d_duchy0198 = { #unused
+			allow = { always = no }
 			color={ 81 96 104 }
 			color2={ 255 255 255 }
 			
@@ -4043,7 +4049,7 @@ e_united_states = {
 	k_kingdom0272 = { #unused
 		color={ 153 163 142 }
 		color2={ 255 255 255 }
-		
+		allow = { always = no }
 		capital = 272
 		
 		culture = nubian
@@ -34372,7 +34378,8 @@ e_empire1780 = {
 		}
 	}
 }
-e_empire1858 = {
+e_empire1858 = { #unused
+	allow = { always = no }
 	color={ 26 72 117 }
 	color2={ 255 255 255 }
 	
@@ -34381,7 +34388,8 @@ e_empire1858 = {
 	
 	culture = bear
 	
-	k_kingdom1858 = {
+	k_kingdom1858 = { #unused
+		allow = { always = no }
 		color={ 26 72 117 }
 		color2={ 255 255 255 }
 		
@@ -34389,26 +34397,13 @@ e_empire1858 = {
 		
 		culture = bear
 		
-		d_duchy1858 = {
+		d_duchy1858 = { #unused
+			allow = { always = no }
 			color={ 26 72 117 }
 			color2={ 255 255 255 }
 			
 			capital = 1858
 			
-			c_province1858 = {
-				color={ 26 72 117 }
-				color2={ 255 255 255 }
-				
-				
-				b_barony1858` = { }
-				b_barony1858a = { }
-				b_barony1858b = { }
-				b_barony1858c = { }
-				b_barony1858d = { }
-				b_barony1858e = { }
-				b_barony1858f = { }
-				b_barony1858g = { }
-			}
 		}
 	}
 }
@@ -34539,7 +34534,21 @@ e_empire1994 = {
 			color2={ 255 255 255 }
 			
 			capital = 1830
-			
+
+			c_province1858 = {
+				color={ 26 72 117 }
+				color2={ 255 255 255 }
+				
+				
+				b_barony1858` = { }
+				b_barony1858a = { }
+				b_barony1858b = { }
+				b_barony1858c = { }
+				b_barony1858d = { }
+				b_barony1858e = { }
+				b_barony1858f = { }
+				b_barony1858g = { }
+			}			
 			c_province1811 = {
 				color={ 39 44 115 }
 				color2={ 255 255 255 }

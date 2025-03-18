@@ -2418,8 +2418,8 @@ e_empire0009;Andes;Andes;Andes;;Andes;;;;;;;;;x
 e_empire0009_adj;Andesian;Andesian;Andesian;;Andesian;;;;;;;;;x
 k_kingdom0009;Emunes;Emunes;Emunes;;Emunes;;;;;;;;;x
 k_kingdom0009_adj;Kojinat;Kojinat;Kojinat;;Kojinat;;;;;;;;;x
-d_duchy0009;Qosita;Qosita;Qosita;;Qosita;;;;;;;;;x
-d_duchy0009_adj;Edieltun;Edieltun;Edieltun;;Edieltun;;;;;;;;;x
+d_duchy0009;Ecuador;Qosita;Qosita;;Qosita;;;;;;;;;x
+d_duchy0009_adj;Ecuadorian;Edieltun;Edieltun;;Edieltun;;;;;;;;;x
 c_province0009_adj;Ecuadorian;Ecuadorian;Ecuadorian;;Ecuadorian;;;;;;;;;x
 b_barony0009`;Ecuador;Ecuador;Ecuador;;Ecuador;;;;;;;;;x
 b_barony0009a;Quito;Loran;Loran;;Loran;;;;;;;;;x

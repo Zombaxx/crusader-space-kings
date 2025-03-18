@@ -20,7 +20,7 @@ d_kingdom0009_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0019_band = {
 	color={ 209 150 10 }
@@ -44,7 +44,7 @@ d_kingdom0019_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = nahuatl_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0024_band = {
 	color={ 49 71 18 }
@@ -116,7 +116,7 @@ d_kingdom0031_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0037_band = {
 	color={ 198 122 30 }
@@ -140,7 +140,7 @@ d_kingdom0037_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = nahuatl_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0040_band = {
 	color={ 237 147 6 }
@@ -164,7 +164,7 @@ d_kingdom0040_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = nahuatl_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0041_band = {
 	color={ 172 160 154 }
@@ -212,7 +212,7 @@ d_kingdom0046_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0048_band = {
 	color={ 123 62 41 }
@@ -284,7 +284,7 @@ d_central_america_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = nahuatl_band_composition
+	mercenary_type = generic_low_composition
 }
 d_panama_band = {
 	color={ 128 145 138 }
@@ -452,7 +452,7 @@ d_kingdom0120_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_mexico_band = {
 	color={ 184 182 59 }
@@ -476,7 +476,7 @@ d_mexico_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0132_band = {
 	color={ 83 120 141 }
@@ -500,7 +500,7 @@ d_kingdom0132_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = old_frankish_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0134_band = {
 	color={ 11 101 48 }
@@ -572,7 +572,7 @@ d_kingdom0151_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = nahuatl_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0155_band = {
 	color={ 114 22 56 }
@@ -644,7 +644,7 @@ d_kingdom0162_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = nahuatl_band_composition
+	mercenary_type = generic_low_composition
 }
 d_brazil_band = {
 	color={ 207 216 45 }
@@ -668,7 +668,7 @@ d_brazil_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0172_band = {
 	color={ 78 92 149 }
@@ -692,7 +692,7 @@ d_kingdom0172_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = old_frankish_band_composition
+	mercenary_type = generic_low_composition
 }
 d_the_south_band = {
 	color={ 223 215 74 }
@@ -716,7 +716,7 @@ d_the_south_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_california_band = {
 	color={ 96 184 159 }
@@ -836,7 +836,7 @@ d_kingdom0198_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = old_frankish_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0203_band = {
 	color={ 202 215 48 }
@@ -860,7 +860,7 @@ d_kingdom0203_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0222_band = {
 	color={ 91 112 144 }
@@ -884,7 +884,7 @@ d_kingdom0222_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = old_frankish_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0223_band = {
 	color={ 233 191 20 }
@@ -908,7 +908,7 @@ d_kingdom0223_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0232_band = {
 	color={ 93 106 28 }
@@ -1028,7 +1028,7 @@ d_kingdom0245_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = old_frankish_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0247_band = {
 	color={ 203 211 73 }
@@ -1052,7 +1052,7 @@ d_kingdom0247_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = castillan_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_new_england_band = {
 	color={ 105 94 115 }
@@ -1076,7 +1076,7 @@ d_new_england_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = old_frankish_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0272_band = {
 	color={ 153 163 142 }
@@ -1124,7 +1124,7 @@ d_kingdom0276_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = nahuatl_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0292_band = {
 	color={ 101 53 48 }
@@ -1316,7 +1316,7 @@ d_kingdom0350_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = old_frankish_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0351_band = {
 	color={ 93 28 67 }
@@ -1580,7 +1580,7 @@ d_kingdom0423_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kanuri_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0432_band = {
 	color={ 25 92 6 }
@@ -1700,7 +1700,7 @@ d_kingdom0454_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = bedouin_arabic_band_composition
+	mercenary_type = generic_massive_composition
 }
 d_kingdom0467_band = {
 	color={ 52 94 60 }
@@ -1796,7 +1796,7 @@ d_kingdom0506_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = greek_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0507_band = {
 	color={ 207 111 151 }
@@ -1820,7 +1820,7 @@ d_kingdom0507_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kanuri_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0513_band = {
 	color={ 203 163 207 }
@@ -1964,7 +1964,7 @@ d_kingdom0560_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kanuri_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0570_band = {
 	color={ 201 119 111 }
@@ -2012,7 +2012,7 @@ d_rome_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = greek_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0580_band = {
 	color={ 70 144 60 }
@@ -2036,7 +2036,7 @@ d_kingdom0580_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = bedouin_arabic_band_composition
+	mercenary_type = generic_massive_composition
 }
 d_kingdom0599_band = {
 	color={ 175 116 159 }
@@ -2060,7 +2060,7 @@ d_kingdom0599_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = greek_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0601_band = {
 	color={ 212 111 197 }
@@ -2084,7 +2084,7 @@ d_kingdom0601_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kanuri_band_composition
+	mercenary_type = generic_low_composition
 }
 d_istanbul_band = {
 	color={ 26 161 36 }
@@ -2108,7 +2108,7 @@ d_istanbul_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = bedouin_arabic_band_composition
+	mercenary_type = generic_massive_composition
 }
 d_kingdom0621_band = {
 	color={ 45 115 26 }
@@ -2132,7 +2132,7 @@ d_kingdom0621_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = russian_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0622_band = {
 	color={ 73 151 64 }
@@ -2156,7 +2156,7 @@ d_kingdom0622_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = bedouin_arabic_band_composition
+	mercenary_type = generic_massive_composition
 }
 d_kingdom0634_band = {
 	color={ 75 131 81 }
@@ -2180,7 +2180,7 @@ d_kingdom0634_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = russian_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0635_band = {
 	color={ 93 136 33 }
@@ -2204,7 +2204,7 @@ d_kingdom0635_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = russian_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0645_band = {
 	color={ 161 121 156 }
@@ -2228,7 +2228,7 @@ d_kingdom0645_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kanuri_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom0665_band = {
 	color={ 233 102 59 }
@@ -2252,7 +2252,7 @@ d_kingdom0665_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = zhangzhung_band_composition
+	mercenary_type = generic_mid_composition
 }
 d_kingdom0669_band = {
 	color={ 207 113 170 }
@@ -2276,7 +2276,7 @@ d_kingdom0669_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = hausa_band_composition
+	mercenary_type = generic_massive_composition
 }
 d_kingdom0704_band = {
 	color={ 33 189 45 }
@@ -2300,7 +2300,7 @@ d_kingdom0704_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = bedouin_arabic_band_composition
+	mercenary_type = generic_massive_composition
 }
 d_kingdom0705_band = {
 	color={ 121 18 25 }
@@ -2372,7 +2372,7 @@ d_kingdom0715_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = russian_band_composition
+	mercenary_type = generic_tiny_composition_1
 }
 d_kingdom0717_band = {
 	color={ 250 110 5 }
@@ -2396,7 +2396,7 @@ d_kingdom0717_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = zhangzhung_band_composition
+	mercenary_type = generic_mid_composition
 }
 d_kingdom0740_band = {
 	color={ 68 120 54 }
@@ -2444,7 +2444,7 @@ d_kingdom0750_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = hausa_band_composition
+	mercenary_type = generic_massive_composition
 }
 d_kingdom0786_band = {
 	color={ 116 16 14 }
@@ -2492,7 +2492,7 @@ d_kingdom0797_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = zhangzhung_band_composition
+	mercenary_type = generic_mid_composition
 }
 d_kingdom0816_band = {
 	color={ 210 170 61 }
@@ -2516,7 +2516,7 @@ d_kingdom0816_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0821_band = {
 	color={ 192 139 27 }
@@ -2540,7 +2540,7 @@ d_kingdom0821_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0836_band = {
 	color={ 96 108 2 }
@@ -2612,7 +2612,7 @@ d_kingdom0880_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0884_band = {
 	color={ 50 88 29 }
@@ -2660,7 +2660,7 @@ d_kingdom0897_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = zhangzhung_band_composition
+	mercenary_type = generic_mid_composition
 }
 d_kingdom0928_band = {
 	color={ 120 38 16 }
@@ -2708,7 +2708,7 @@ d_kingdom0930_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0935_band = {
 	color={ 226 127 20 }
@@ -2732,7 +2732,7 @@ d_kingdom0935_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = zhangzhung_band_composition
+	mercenary_type = generic_mid_composition
 }
 d_kingdom0942_band = {
 	color={ 68 76 23 }
@@ -2852,7 +2852,7 @@ d_kingdom0956_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0963_band = {
 	color={ 60 51 40 }
@@ -2972,7 +2972,7 @@ d_kingdom0974_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0976_band = {
 	color={ 72 28 91 }
@@ -3044,7 +3044,7 @@ d_kingdom0982_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0989_band = {
 	color={ 207 160 26 }
@@ -3068,7 +3068,7 @@ d_kingdom0989_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom0990_band = {
 	color={ 204 188 163 }
@@ -3116,7 +3116,7 @@ d_kingdom1004_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kanuri_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom1005_band = {
 	color={ 180 193 210 }
@@ -3260,7 +3260,7 @@ d_kingdom1036_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = frankish_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom1038_band = {
 	color={ 200 129 202 }
@@ -3284,7 +3284,7 @@ d_kingdom1038_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kanuri_band_composition
+	mercenary_type = generic_low_composition
 }
 d_kingdom1047_band = {
 	color={ 48 71 117 }
@@ -3356,7 +3356,7 @@ d_kingdom1056_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = kannada_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom1057_band = {
 	color={ 192 115 119 }
@@ -3452,7 +3452,7 @@ d_kingdom1083_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = frankish_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_melbourne_band = {
 	color={ 174 59 116 }
@@ -3500,7 +3500,7 @@ d_kingdom1097_band = {
 	independent = yes
 	
 	strength_growth_per_century = 1.0
-	mercenary_type = frankish_band_composition
+	mercenary_type = generic_low_1_composition
 }
 d_kingdom1102_band = {
 	color={ 60 56 61 }
