@@ -2163,7 +2163,7 @@ scurvy = {
 	is_health = yes
 	is_illness = yes
 	
-	health_penalty = -3
+	health_penalty = -0.5
 	diplomacy_penalty = -1
 	martial_penalty = -1
 	stewardship_penalty = -1
