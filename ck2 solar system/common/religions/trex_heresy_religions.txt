@@ -62,6 +62,8 @@ christian = {
 		scripture_name = THE_BIBLE
 		priest_title = PRIEST
 		
+		allow_looting = yes
+		
 		high_god_name = GOD_GOD
 		
 		god_names = {

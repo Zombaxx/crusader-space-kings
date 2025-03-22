@@ -72,18 +72,17 @@ bm_wp = {
 		}
 	}
 	selectable_character = {
-		id = 104265 # Kemetics of Mercury
-		age = 27
-		name = ERA_CHAR_NAME_104265
+		id = 1020130 #JFK Clone
+		age = 31
+		name = ERA_CHAR_NAME_1020130
 		title = c_province0003
-		title_name = c_province0003	
-		dlc = "Holy Fury"
+		title_name = c_province0003		
 		character = {
-			dna = kbwnbgufhyj
-			properties = nd0ddk
-			religion="zun_pagan"
-			culture="mongol"
-			government = feudal_government
+			dna = fnyvbfskhrp
+			properties = casekd
+			religion="nestorian"
+			culture="old_frankish"
+			government = tribal_government
 			dynasty=100780
 		}
 	}
@@ -105,17 +104,18 @@ bm_wp = {
 		}
 	}
 	selectable_character = {
-		id = 1020130 #JFK Clone
-		age = 31
-		name = ERA_CHAR_NAME_1020130
+		id = 104265 # Kemetics of Mercury
+		age = 27
+		name = ERA_CHAR_NAME_104265
 		title = c_province0003
-		title_name = c_province0003		
+		title_name = c_province0003	
+		dlc = "Holy Fury"
 		character = {
-			dna = fnyvbfskhrp
-			properties = casekd
-			religion="nestorian"
-			culture="old_frankish"
-			government = tribal_government
+			dna = kbwnbgufhyj
+			properties = nd0ddk
+			religion="zun_pagan"
+			culture="mongol"
+			government = feudal_government
 			dynasty=100780
 		}
 	}

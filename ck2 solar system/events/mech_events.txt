@@ -894,7 +894,7 @@ narrative_event = {
 		}
 	}
 	mean_time_to_happen = {
-		years = 2
+		years = 100
 		modifier = {
 			factor = 1.75
 			religion_group = christian
