@@ -44,3 +44,5 @@ EVTOPTACLONE302;Commission a clone.;;;;;;;;;;;;;x
 EVTOPTbCLONE302;On second thought...;;;;;;;;;;;;;x
 EVTTOOLTIPCLONE303;;;;;;;;;;;;;;x
 EVTDESC_CLONE_113;Commission a clone from an Artifact's original owner.;;;;;;;;;;;;;x
+EVTOPTA2CLONE0;Commission a male vatborn child with any spouses.;Commander un clône masculin;;;;;;;;;;;;x
+EVTOPTB2CLONE0;Commission a female vatborn child with any spouses.;Commander un clône féminin.;;;;;;;;;;;;x
