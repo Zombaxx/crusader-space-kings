@@ -634,7 +634,7 @@ great_realm_conflict = { # New3
 		check_if_crusader_trigger = yes
 		ROOT = {
 			prestige = 3000
-			piety = 1500
+			#piety = 1500
 		}
 		FROM = {
 			relative_power = {
@@ -647,7 +647,7 @@ great_realm_conflict = { # New3
 	on_add = {
 		ROOT = {
 			prestige = -3000
-			piety = -1500
+			#piety = -1500
 		}
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
