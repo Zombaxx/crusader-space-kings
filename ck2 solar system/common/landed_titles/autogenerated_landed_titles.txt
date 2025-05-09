@@ -906,8 +906,6 @@ e_empire0046 = {
 				holy_site = trex_the_new_heresy
 				holy_site = trex_the_heretics				
 				holy_site = dwarven
-				holy_site = elven
-				holy_site = elven_heresy
 				holy_site = lollard
 				
 				b_tenochtitlan = {
