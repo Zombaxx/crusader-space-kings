@@ -1823,9 +1823,7 @@ e_empire0048 = {
 				color={ 120 45 13 }
 				color2={ 255 255 255 }
 				
-				holy_site = tengri_pagan
 				holy_site = druze
-				holy_site = tengri_pagan_reformed
 				holy_site = jewish
 				holy_site = khurmazta
 				
@@ -3478,10 +3476,7 @@ e_united_states = {
 			
 			c_province0531 = {
 				color={ 187 86 105 }
-				color2={ 255 255 255 }
-
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
+				color2={ 255 255 255 }			
 				
 				b_barony0531` = { }
 				b_barony0531a = { }
@@ -5682,6 +5677,7 @@ e_empire0305 = {
 				
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
+				holy_site = messalian
 				holy_site = elven
 				holy_site = elven_heresy
 				
