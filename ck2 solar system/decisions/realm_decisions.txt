@@ -1698,6 +1698,7 @@ decisions = {
 					has_landed_title = e_empire0897
 					has_landed_title = e_empire0982
 				}
+			}
 			conditional_tooltip = {
 				trigger = {
 					ai = no
@@ -1769,6 +1770,7 @@ decisions = {
 			factor = 1
 		}
 	}
+
 
 	form_the_hre_early = {
 		only_independent = yes
@@ -3342,7 +3344,6 @@ decisions = {
 		}
 	}
 }
-
 targetted_decisions = {
 	embrace_mutazila = {
 		only_playable = yes
