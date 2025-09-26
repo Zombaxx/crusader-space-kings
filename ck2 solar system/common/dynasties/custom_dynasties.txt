@@ -69,7 +69,7 @@
 	religion="Catholic"
 }
 7000032={	
-	name="Kardashian"
+	name="Kardashenner"
 	culture="persian"
 	religion="Orthodox"
 }
@@ -127,4 +127,14 @@
 	name="Oumuamua"
 	culture="han"
 	religion="taoist"
+}
+7000130={	
+	name="Huang"
+	culture="old_frankish"
+	religion="buddhist"
+}
+7000131={	
+	name="Carlsen"
+	culture="breton"
+	religion="catholic"
 }

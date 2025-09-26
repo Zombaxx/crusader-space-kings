@@ -416,7 +416,7 @@
 400184 = {
 	name = "Nicholas"
 	dynasty = 400184
-	culture = "greek"
+	culture = "norse"
 	religion = "catholic"
 
 	trait = is_fat

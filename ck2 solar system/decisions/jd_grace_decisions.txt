@@ -4954,145 +4954,145 @@ offmap_decisions = {
 		}
 	}
 	
-	chinese_grace_clone_from_artifact = {
-		only_playable = yes
-		button_name = offmap_boons
-		
-		third_party_filter = artifacts
-		ai_third_party_filter = artifacts
-		third_party = FROM
-		#ai_check_interval = 60
-		show_third_party_potential = yes
-	
-		from_potential = {
-			has_dlc = "Jade Dragon"
-			mercenary = no
-			holy_order = no
-			is_landed = yes
-		}
-
-		potential = {
-			is_offmap_tag = offmap_china
-		}
-
-		allow = {
-			show_only_failed_conditions = yes
-			FROM = {
-				show_scope_change = no
-				has_offmap_currency = { offmap = offmap_china value = 1200 }
-				prisoner = no
-				NOT = { trait = incapable }
-				is_inaccessible_trigger = no
-			}
-			china_offmap_boon_decisions_enabled_trigger = yes
-		}
-		
-		third_party_potential = {
-			show_only_failed_conditions = yes
-			FROMFROM = {
-				show_scope_change = no
-				custom_tooltip = {
-					text = send_artifact_potential_tt
-					#quality > 2
-					NOR = {
-						has_artifact_flag = flag_considering_donation 
-					#	has_artifact_flag = curse
-					#	has_artifact_flag = chinese
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = e_hre } }
-					#		artifact_type = crown_hre
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = e_byzantium } }
-					#		artifact_type = crown_byzantine
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_norse_pagan_reformed } }
-					#		artifact_type = crown_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_tengri_pagan_reformed } }
-					#		artifact_type = crown_tengri_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_slavic_pagan_reformed } }
-					#		artifact_type = crown_slavic_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_baltic_pagan_reformed } }
-					#		artifact_type = crown_romuva_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_finnish_pagan_reformed } }
-					#		artifact_type = crown_finnish_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_west_african_pagan_reformed } }
-					#		artifact_type = crown_west_african_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_zun_pagan_reformed } }
-					#		artifact_type = crown_zun_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = k_hellenic_pagan } }
-					#		artifact_type = scepter_hellenic_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_bon_reformed } }
-					#		artifact_type = scepter_bon_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = d_aztec_reformed } }
-					#		artifact_type = crown_aztec_fylkir
-					#	}
-					#	AND = {
-					#		FROM = { NOT = { has_landed_title = e_persia } }
-					#		artifact_type = crown_pahlavi
-					#	}
-					}
-				}
-			}
-		}
-		
-		third_party_allow = {
-			
-		}
-	
-       effect = {
-            # Step 1) We assume FROMFROM is the artifact scope, 
-            #         because "chinese_grace_offer_artifact" typically scopes the artifact that way.
-            #         If in your actual code it's a different scope, adapt accordingly:
-            FROMFROM = {
-                original_owner = {
-                    # This is a valid sub-scope for artifacts, referencing the very first owner of the artifact.
-                    # We set an event target so we can reference it in the upcoming event:
-                    save_event_target_as = scifi_clone_target
-                }
-            }
-            # Step 2) Use "offmap_boon" to pay some grace cost or effect:
-			FROM = {
-				show_scope_change = no
-				
-				sound_effect = china_grace_spend
-
-				add_offmap_currency = {
-					offmap = offmap_china
-					value = -1200
-				}
-				custom_tooltip = { text = chinese_artifact_effect_tt }
-				character_event = { id = clone.113 }
-			}
-        }
-
-        revoke_allowed = {
-            always = no
-        }
-
-        ai_will_do = {
-            factor = 0
-        }
-	}
+#	chinese_grace_clone_from_artifact = { #temporarily disabled due to bug
+#		only_playable = yes
+#		button_name = offmap_boons
+#		
+#		third_party_filter = artifacts
+#		ai_third_party_filter = artifacts
+#		third_party = FROM
+#		#ai_check_interval = 60
+#		show_third_party_potential = yes
+#	
+#		from_potential = {
+#			has_dlc = "Jade Dragon"
+#			mercenary = no
+#			holy_order = no
+#			is_landed = yes
+#		}
+#
+#		potential = {
+#			is_offmap_tag = offmap_china
+#		}
+#
+#		allow = {
+#			show_only_failed_conditions = yes
+#			FROM = {
+#				show_scope_change = no
+#				has_offmap_currency = { offmap = offmap_china value = 1200 }
+#				prisoner = no
+#				NOT = { trait = incapable }
+#				is_inaccessible_trigger = no
+#			}
+#			china_offmap_boon_decisions_enabled_trigger = yes
+#		}
+#		
+#		third_party_potential = {
+#			show_only_failed_conditions = yes
+#			FROMFROM = {
+#				show_scope_change = no
+#				custom_tooltip = {
+#					text = send_artifact_potential_tt
+#					#quality > 2
+#					NOR = {
+#						has_artifact_flag = flag_considering_donation 
+#					#	has_artifact_flag = curse
+#					#	has_artifact_flag = chinese
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = e_hre } }
+#					#		artifact_type = crown_hre
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = e_byzantium } }
+#					#		artifact_type = crown_byzantine
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_norse_pagan_reformed } }
+#					#		artifact_type = crown_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_tengri_pagan_reformed } }
+#					#		artifact_type = crown_tengri_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_slavic_pagan_reformed } }
+#					#		artifact_type = crown_slavic_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_baltic_pagan_reformed } }
+#					#		artifact_type = crown_romuva_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_finnish_pagan_reformed } }
+#					#		artifact_type = crown_finnish_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_west_african_pagan_reformed } }
+#					#		artifact_type = crown_west_african_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_zun_pagan_reformed } }
+#					#		artifact_type = crown_zun_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = k_hellenic_pagan } }
+#					#		artifact_type = scepter_hellenic_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_bon_reformed } }
+#					#		artifact_type = scepter_bon_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = d_aztec_reformed } }
+#					#		artifact_type = crown_aztec_fylkir
+#					#	}
+#					#	AND = {
+#					#		FROM = { NOT = { has_landed_title = e_persia } }
+#					#		artifact_type = crown_pahlavi
+#					#	}
+#					}
+#				}
+#			}
+#		}
+#		
+#		third_party_allow = {
+#			
+#		}
+#	
+#       effect = {
+#            # Step 1) We assume FROMFROM is the artifact scope, 
+#            #         because "chinese_grace_offer_artifact" typically scopes the artifact that way.
+#            #         If in your actual code it's a different scope, adapt accordingly:
+#            FROMFROMFROM = {
+#                original_owner = {
+#                    # This is a valid sub-scope for artifacts, referencing the very first owner of the artifact.
+#                    # We set an event target so we can reference it in the upcoming event:
+#                    save_event_target_as = scifi_clone_target
+#                }
+#            }
+#            # Step 2) Use "offmap_boon" to pay some grace cost or effect:
+#			FROM = {
+#				show_scope_change = no
+#				
+#				sound_effect = china_grace_spend
+#
+#				add_offmap_currency = {
+#					offmap = offmap_china
+#					value = -1200
+#				}
+#				custom_tooltip = { text = chinese_artifact_effect_tt }
+#				character_event = { id = clone.113 }
+#			}
+#        }
+#
+#        revoke_allowed = {
+#            always = no
+#        }
+#
+#        ai_will_do = {
+#            factor = 0
+#        }
+#	}
 
 	#Get a peace deal
 	chinese_grace_peace_deal = {

@@ -1,7 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 family_palace;Corporate Palace;;;;;;;;;;;;;x
 family_palace_baron;CEO;;;;;;;;;;;;;x
-family_palace_baron_female;;CEO;;;;;;;;;;;;;x
+family_palace_baron_female;CEO;CEO;;;;;;;;;;;;;x
 family_palace_baron_foa;;Sir;;;;;;;;;;;;;x
 family_palace_baron_foa;female;Ma'am;;;;;;;;;;;;;;x
 family_palace_barony_of;Chair of;Quartier général de;;;;;;;;;;;;x

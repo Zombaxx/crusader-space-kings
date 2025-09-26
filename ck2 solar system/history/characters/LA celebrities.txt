@@ -3,7 +3,7 @@
 	female=yes
 	dynasty=7000030
 
-	religion="Catholic"
+	religion="catholic"
 	culture="Latin"
 	1009.1.1={birth=yes}
 }
@@ -12,7 +12,7 @@
 	female=yes
 	dynasty=7000103
 
-	religion="Catholic"
+	religion="catholic"
 	culture="old_frankish"
 	971.1.1={birth=yes}
 	994.1.1={add_spouse = 7000102}
@@ -25,7 +25,7 @@
 	female=no
 	dynasty=7000032
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="persian"
 	960.1.1={birth=yes}
 	994.1.1={add_spouse = 7000101}
@@ -36,10 +36,7 @@
 	female=yes
 	dynasty=7000033
 
-	father=7000102
-	mother=7000101
-
-	religion="Catholic"
+	religion="trex_the_heretics"
 	culture="breton"
 	965.1.1={birth=yes}
 	1007.5.1={add_spouse = 7000101}
@@ -53,10 +50,12 @@
 	father=7000102
 	mother=7000101
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="old_frankish"
 	996.1.1={birth=yes}
 	1030.1.1={add_spouse = 7000110}
+	1030.1.1={add_spouse = 7000110}
+	1066.1.1 = { culture = "breton" }
 }
 7000105 = {
 	name="Khloe"
@@ -79,7 +78,7 @@
 	father=7000102
 	mother=7000101
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="old_frankish"
 	995.1.1={birth=yes}
 	1038.1.1={add_spouse = 7000111}
@@ -92,7 +91,7 @@
 	father=7000102
 	mother=7000101
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="old_frankish"
 	1003.1.1={birth=yes}
 	1032.1.1={add_spouse = 7000128}
@@ -100,7 +99,7 @@
 7000108 = {
 	name="Kylie"
 	female=yes
-	dynasty=7000033
+	dynasty=7000032 #7000033
 
 	father=7000103
 	mother=7000101
@@ -112,7 +111,7 @@
 7000109 = {
 	name="Kendall"
 	female=yes
-	dynasty=7000033
+	dynasty=7000032 #7000033
 
 	father=7000103
 	mother=7000101
@@ -126,7 +125,7 @@
 	female=no
 	dynasty=7000034
 
-	religion="nestorian"
+	religion="trex_the_heretics"
 	culture="nubian"
 	993.1.1={birth=yes}
 	1030.1.1={add_spouse = 7000104}
@@ -136,8 +135,8 @@
 	female=no
 	dynasty=7000035
 
-	religion="Catholic"
-	culture="breton"
+	religion="catholic"
+	culture="old_frankish"
 	991.1.1={birth=yes}
 	1038.1.1={add_spouse = 7000105}
 }
@@ -172,7 +171,7 @@
 7000115 = {
 	name="Stormi"
 	female=yes
-	dynasty=7000038
+	dynasty=7000032 #7000038
 
 	father=7000114
 	mother=7000108
@@ -184,7 +183,7 @@
 7000116 = {
 	name="Aire"
 	female=no
-	dynasty=7000038
+	dynasty=7000032 #7000038
 
 	father=7000114
 	mother=7000108
@@ -194,33 +193,35 @@
 	1038.1.1={birth=yes}
 }
 7000117 = {
-	name="North"
+	name="North-West"
 	female=yes
-	dynasty=7000034
+	dynasty=7000032 #7000034
 
 	father=7000110
 	mother=7000104
 
-	religion="orthodox"
+	religion="trex_the_heretics"
 	culture="nubian"
 	1029.1.1={birth=yes}
+	1066.1.1 = { culture = "breton" }
 }
 7000118 = {
-	name="Saint"
+	name="Saint-West"
 	female=no
 	dynasty=7000034
 
 	father=7000110
 	mother=7000104
 
-	religion="orthodox"
+	religion="trex_the_heretics"
 	culture="nubian"
 	1031.1.1={birth=yes}
+	1066.1.1 = { culture = "breton" }
 }
 7000119 = {
 	name="Chicago"
 	female=yes
-	dynasty=7000034
+	dynasty=7000032 #7000034
 
 	father=7000110
 	mother=7000104
@@ -228,11 +229,12 @@
 	religion="orthodox"
 	culture="nubian"
 	1034.1.1={birth=yes}
+	1066.1.1 = { culture = "breton" }
 }
 7000120 = {
 	name="Psalm"
 	female=no
-	dynasty=7000034
+	dynasty=7000032 #7000034
 
 	father=7000110
 	mother=7000104
@@ -240,6 +242,7 @@
 	religion="orthodox"
 	culture="nubian"
 	1035.1.1={birth=yes}
+	1066.1.1 = { culture = "breton" }
 }
 7000121 = {
 	name="Tristan"
@@ -253,7 +256,7 @@
 7000122 = {
 	name="True"
 	female=yes
-	dynasty=7000035
+	dynasty=7000032 #7000035
 
 	father=7000121
 	mother=7000105
@@ -265,7 +268,7 @@
 7000123 = {
 	name="Tatum"
 	female=no
-	dynasty=7000035
+	dynasty=7000032 #7000035
 
 	father=7000121
 	mother=7000105
@@ -277,49 +280,49 @@
 7000124 = {
 	name="Mason"
 	female=no
-	dynasty=7000036
+	dynasty=7000032 #7000036
 
 	father=7000112
 	mother=7000106
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="old_frankish"
 	1025.1.1={birth=yes}
 }
 7000125 = {
 	name="Penelope"
 	female=yes
-	dynasty=7000036
+	dynasty=7000032 #7000036
 
 	father=7000112
 	mother=7000106
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="old_frankish"
 	1028.1.1={birth=yes}
 }
 7000126 = {
 	name="Reign"
 	female=no
-	dynasty=7000036
+	dynasty=7000032 #7000036
 
 	father=7000112
 	mother=7000106
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="old_frankish"
 	1030.1.1={birth=yes}
 }
 7000127 = {
 	name="Travis"
 	female=no
-	dynasty=7000035
+	dynasty=7000032 #7000035
 
 	father=7000111
 	mother=7000106
 
-	religion="Catholic"
-	culture="breton"
+	religion="catholic"
+	culture="old_frankish"
 	1040.1.1={birth=yes}
 }
 7000128 = {
@@ -340,7 +343,24 @@
 	father=7000107
 	mother=7000128
 
-	religion="Orthodox"
+	religion="orthodox"
 	culture="nubian"
 	1032.1.1={birth=yes}
+}
+7000130 = {
+	name="Jensen"
+	dynasty=7000130
+
+	religion="buddhist"
+	culture="zhangzhung"
+	1036.1.1={birth=yes}
+	1066.1.1 = { culture = "old_frankish" }
+}
+7000131 = {
+	name="Cooper"
+	dynasty=7000131
+
+	religion="trex_the_heretics"
+	culture="breton"
+	1040.1.1={birth=yes}
 }
