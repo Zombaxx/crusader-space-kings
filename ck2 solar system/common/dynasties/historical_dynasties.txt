@@ -147,3 +147,8 @@
 #	religion="aztec_pagan"
 #}
 #
+400184 = {
+	name="Claus"
+	culture="greek"
+	religion="catholic"
+}

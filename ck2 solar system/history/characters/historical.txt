@@ -413,3 +413,34 @@
 #	541.2.28 = { death = yes }   # 1525 - 984
 #}
 #
+400184 = {
+	name = "Nicholas"
+	dynasty = 400184
+	culture = "greek"
+	religion = "catholic"
+
+	trait = is_fat
+	trait = sturdy
+	trait = kind
+	trait = mystic
+	trait = patient
+	trait = kind
+	trait = diligent
+	trait = humble
+	trait = just
+	trait = quick
+	trait = melodious
+	trait = fluent
+	trait = zealous
+
+	270.3.15 = { birth = yes }
+	#343.12.6 = { death = yes }
+	343.12.6 = {
+		add_trait=full_cybernetic_conversion
+		give_nickname = nick_santa
+		effect = {
+			k_kingdom0389 = { add_claim = ROOT }
+			c_province0389 = { add_claim = ROOT }
+		}
+	}
+}

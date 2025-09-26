@@ -1,8 +1,11 @@
+343.12.6 = {
+	holder = 400184
+}
 941.1.1 = {
 	holder = 103890
 }
 1009.1.1 = {
-	liege=e_european_union
+	liege=e_empire0531
 }
 1027.1.1 = {
 	holder = 103891

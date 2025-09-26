@@ -1300,7 +1300,7 @@
     11.6.12={birth=yes}
 }
 777125={
-	name="Yaldabaoth"
+	name="Adonai"
     dynasty=77781
 	culture=dark_elven
     religion=qarmatian
@@ -2218,7 +2218,7 @@
 	trait = charitable
 	trait = brave
 	
-	1.12.25={birth=yes}
+	100.12.25={birth=yes}
 	32.12.25={
 		create_bloodline = {
 			type = jesusblood

@@ -7271,7 +7271,9 @@ e_empire0393 = {
 		
 		capital = 389
 		
-		culture = irish
+		culture = karluk
+		greek = "North Pole"
+		norse = "Helluland"
 		
 		d_duchy0373 = {
 			color={ 79 209 177 }
@@ -12482,6 +12484,7 @@ e_empire0717 = { #China
 	capital = 844 #Bejing
 	
 	culture = zhangzhung
+	russian = "USSR"
 	
 	k_kingdom0570 = {
 		color={ 201 119 111 }
