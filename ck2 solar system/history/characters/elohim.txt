@@ -2218,7 +2218,7 @@
 	trait = charitable
 	trait = brave
 	
-	100.12.25={birth=yes}
+	1.12.25={birth=yes}
 	32.12.25={
 		create_bloodline = {
 			type = jesusblood
